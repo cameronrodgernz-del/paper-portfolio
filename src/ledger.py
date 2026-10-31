@@ -2,14 +2,14 @@
 the record before it, so any edit to the past breaks the chain and shows up in verify().
 Mistakes are fixed by a new 'reversal' record, never by editing.
 
-Tables: decisions, orders, fills, cash, corporate_actions, valuations, calls.
+Tables: decisions, orders, fills, cash, corporate_actions, valuations, calls, hedges.
 """
 import hashlib
 import json
 import os
 from datetime import datetime, timezone
 
-TABLES = ("decisions", "orders", "fills", "cash", "corporate_actions", "valuations", "calls")
+TABLES = ("decisions", "orders", "fills", "cash", "corporate_actions", "valuations", "calls", "hedges")
 
 
 def _canon(obj) -> str:

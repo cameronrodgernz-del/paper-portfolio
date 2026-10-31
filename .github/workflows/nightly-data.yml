@@ -30,7 +30,7 @@ jobs:
       - name: US deal filings from the SEC index
         run: python3 -I src/fetch_sec.py data
       - name: Engine checks
-        run: python3 -I tests/test_engine.py
+        run: python3 -I tests/test_engine.py && python3 -I tests/test_clerk.py
       - name: Save data
         run: |
           git config user.name "paper-portfolio-bot"
