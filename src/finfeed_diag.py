@@ -1,7 +1,7 @@
 """Check FinFeedAPI's NZX coverage (exchange XNZE) with the free key.
 Endpoints are from its published OpenAPI file:
 https://api-historical.stock.finfeedapi.com/swagger/v1/swagger.json
-Four requests: exchanges, NZX symbols, one share's daily history, and one whole-exchange day.
+Five requests: exchanges, NZX symbols, one share's daily history for October and since 2009, and one whole-exchange day.
 Writes data/diagnostics/finfeed_nz.json. Usage: python3 -I src/finfeed_diag.py [data_dir]
 """
 import json
@@ -50,6 +50,15 @@ def main(data_dir: str = "data") -> int:
         day["sample"] = day["body"][:5]
         del day["body"]
     out["whole_exchange_30_oct"] = day
+    deep = get("/v1/ohlcv/exchange-symbol/XNZE/AIR/history?period_id=1DAY"
+               "&time_start=2009-01-01T00:00:00&time_end=2026-10-31T00:00:00&limit=5000", key)
+    if isinstance(deep.get("body"), list):
+        rows = deep["body"]
+        deep["rows"] = len(rows)
+        deep["first"] = rows[0] if rows else None
+        deep["last"] = rows[-1] if rows else None
+        del deep["body"]
+    out["air_daily_since_2009"] = deep
     os.makedirs(os.path.join(data_dir, "diagnostics"), exist_ok=True)
     with open(os.path.join(data_dir, "diagnostics", "finfeed_nz.json"), "w") as f:
         json.dump(out, f, indent=1)
