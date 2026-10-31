@@ -1,1 +1,1 @@
-2026-10-31T13:31:17Z
+Manual run 2026-11-01 09:40 NZ: check the NZX fix and move the samples along

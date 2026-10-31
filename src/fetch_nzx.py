@@ -122,7 +122,7 @@ def main(data_dir: str = "data", backfill_from: str | None = None, max_requests:
     now = datetime.now(timezone.utc)
     try:
         # 1. the nightly days: every weekday after the last stored date whose session is final
-        stored = [last_date(os.path.join(pdir, f)) for f in os.listdir(pdir)] if os.path.isdir(pdir) else []
+        stored = [last_date(os.path.join(pdir, f)) for f in os.listdir(pdir) if f.endswith(".csv")] if os.path.isdir(pdir) else []
         start = max([d for d in stored if d] or ["2026-10-26"])
         d = date.fromisoformat(start) + timedelta(days=1)
         days = []
