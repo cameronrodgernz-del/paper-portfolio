@@ -1,95 +1,50 @@
 run 2026-10-31
-US:D +4383
-US:DCGO +1251
-US:DCOM +4383
-US:DDS +4383
-US:DERM +1246
-US:DFH +1452
-US:DIN +4383
-US:DLPN +2224
-US:DLTR +4383
-US:DMD +0
-US:DMLP +4383
-US:DST +2236
-US:EBTC +4228
-US:EEX +2314
-US:ELA +4383
-US:EOSE +1612
-US:EQBK +2758
-US:ESOA +3494
-US:ESRX +2408
-US:ET +4383
-US:EVRI +2478
-US:FDBC +4376
-US:FF +3926
-US:FLR +4383
-US:FMBI +3203
-US:FRST +4383
-US:FRTR +1571
-US:FSCO +994
-US:FSSL +242
-US:FUNC +4383
-US:GBFH +1433
-US:GDV +4383
-US:GFN +3018
-US:GNTY +2111
-US:GOSS +1943
-US:GOVB +4328
-US:GRC +4383
-US:GTES +74
-US:GTLS +4308
-US:GUG +1238
-US:HIVE +2212
-US:HLIT +4383
+US:HLS +2163
+US:HMPR +151
+US:HMST +3408
+US:HPP +4114
+US:HRL +4383
+US:HTLD +4383
+US:HTLF +4125
+US:HYLN +1892
+US:HYPD +2204
+US:ICMB +3203
+US:ICVX +644
+US:IEA +1144
+US:IHRT +1877
+US:III +4383
+US:IMAX +4383
+US:IMGO +376
+US:INCY +4383
+US:IONM +2324
+US:ISDR +0
+US:ITW +4383
+US:JACK +4383
+US:JAN +150
+US:JNP +2318
+US:JRVR +2988
+US:JRVS +3027
+US:JXN +1297
+US:KDNY +2097
+US:KDP +4383
+US:KMI +3953
+US:KMX +4383
+US:KRMD +4381
+US:KROS +1650
+US:KTOS +4383
+US:LAKE +4383
+US:LEVL +995
+US:LFHAX +539
+US:LKFN +4383
+US:LNKB +1460
+US:LQDA +2078
+US:LSYN +1456
+US:MA +4383
+US:MAIA +1070
+US:MBI +4383
+US:MCACU +724
 PROBLEMS:
-CVTI: HTTPError: HTTP Error 404: Not Found
-FRGA: HTTPError: HTTP Error 404: Not Found
-HFC: HTTPError: HTTP Error 404: Not Found
-HLS: Tiingo hourly budget used
-HMPR: Tiingo hourly budget used
-HMST: Tiingo hourly budget used
-HPP: Tiingo hourly budget used
-HRL: Tiingo hourly budget used
-HTLD: Tiingo hourly budget used
-HTLF: Tiingo hourly budget used
-HYLN: Tiingo hourly budget used
-HYPD: Tiingo hourly budget used
-ICMB: Tiingo hourly budget used
-ICVX: Tiingo hourly budget used
-IEA: Tiingo hourly budget used
-IHRT: Tiingo hourly budget used
-III: Tiingo hourly budget used
-IMAX: Tiingo hourly budget used
-IMGO: Tiingo hourly budget used
-INCY: Tiingo hourly budget used
-IONM: Tiingo hourly budget used
-IRNT: Tiingo hourly budget used
-ISDR: Tiingo hourly budget used
-ITW: Tiingo hourly budget used
-JACK: Tiingo hourly budget used
-JAN: Tiingo hourly budget used
-JNP: Tiingo hourly budget used
-JRVR: Tiingo hourly budget used
-JRVS: Tiingo hourly budget used
-JXN: Tiingo hourly budget used
-KDNY: Tiingo hourly budget used
-KDP: Tiingo hourly budget used
-KMI: Tiingo hourly budget used
-KMX: Tiingo hourly budget used
-KRMD: Tiingo hourly budget used
-KROS: Tiingo hourly budget used
-KTOS: Tiingo hourly budget used
-LAKE: Tiingo hourly budget used
-LEVL: Tiingo hourly budget used
-LFHAX: Tiingo hourly budget used
-LKFN: Tiingo hourly budget used
-LNKB: Tiingo hourly budget used
-LQDA: Tiingo hourly budget used
-LSYN: Tiingo hourly budget used
-MA: Tiingo hourly budget used
-MAIA: Tiingo hourly budget used
-MBI: Tiingo hourly budget used
-MCACU: Tiingo hourly budget used
+IRNT: HTTPError: HTTP Error 404: Not Found
 MCGC: Tiingo hourly budget used
 MDLN: Tiingo hourly budget used
 MEP: Tiingo hourly budget used
