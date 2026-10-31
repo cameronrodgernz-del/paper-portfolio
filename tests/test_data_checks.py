@@ -40,5 +40,23 @@ with tempfile.TemporaryDirectory() as root:
     check("a close above the day's high is a bad bar", ("BAD", "bad_bar") in kinds, kinds)
     check("a missing file is reported", any(i["kind"] == "missing" for i in dc.check_prices(root, {("ASX", "NONE")})))
 
+with tempfile.TemporaryDirectory() as root:
+    os.makedirs(os.path.join(root, "config")); os.makedirs(os.path.join(root, "research", "deals"))
+    for t in ("NOW", "OLD", "PAST"):
+        open(os.path.join(root, "research", "deals", t + ".md"), "w").write("---\nticker: x\n---\n")
+    open(os.path.join(root, "config", "live_deals.csv"), "w").write(
+        "deal_id,target_market,target_ticker,meeting_date,court_date,expected_payment,deal_file,file_checked\n"
+        "D1,ASX,NOW,2026-11-10,2026-11-16,2026-11-26,research/deals/NOW.md,2026-11-01\n"
+        "D2,ASX,OLD,2026-12-10,,2026-12-20,research/deals/OLD.md,2026-10-20\n"
+        "D3,ASX,PAST,2026-11-02,2026-11-04,2026-11-06,research/deals/PAST.md,2026-10-30\n"
+        "D4,ASX,NONE,,,2026-12-01,,\n")
+    iss = dc.check_deal_files(root, "2026-11-12")
+    txt = {i["ticker"]: [x["text"] for x in iss if x["ticker"] == i["ticker"]] for i in iss}
+    check("a meeting that passed after the file was checked is flagged", any("the meeting was on 2026-11-10" in x for x in txt.get("NOW", [])), txt)
+    check("a file not checked in over a week is flagged", any("23 days ago" in x for x in txt.get("OLD", [])), txt)
+    check("the latest passed date is the one named", any("payment was due on 2026-11-06" in x for x in txt.get("PAST", [])), txt)
+    check("a payment date well past with the deal still listed is flagged", any("still on the live list" in x for x in txt.get("PAST", [])), txt)
+    check("a live deal with no file is flagged", any("has no deal file" in x for x in txt.get("NONE", [])), txt)
+
 print("\nALL PASS" if not fails else f"\n{len(fails)} FAILED: {fails}")
 sys.exit(1 if fails else 0)

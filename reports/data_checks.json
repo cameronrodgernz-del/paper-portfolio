@@ -1,14 +1,32 @@
 {
  "run": "2026-11-01",
- "checked": 25,
+ "checked": 28,
  "issues": [
+  {
+   "kind": "missing",
+   "market": "ASX",
+   "ticker": "A11",
+   "text": "ASX:A11 has no price file"
+  },
+  {
+   "kind": "missing",
+   "market": "ASX",
+   "ticker": "GL1",
+   "text": "ASX:GL1 has no price file"
+  },
+  {
+   "kind": "missing",
+   "market": "US",
+   "ticker": "OGC",
+   "text": "US:OGC has no price file"
+  },
   {
    "kind": "jump",
    "market": "ASX",
    "ticker": "RTH",
    "date": "2026-10-19",
    "move": 0.8519,
-   "text": "ASX:RTH moved +85% on 2026-10-19: check against the company's announcements"
+   "text": "ASX:RTH moved +85% on 2026-10-19 (deal announced then)"
   }
  ]
 }

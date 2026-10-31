@@ -11,6 +11,10 @@ the core funds):
   is a live deal target near an announcement, which is checked by eye;
 - stale: the last close is more than 2 business days older than the newest close in that market.
 Currency checks: the NZ$ rates are no more than 4 days old, and each day's change is under 5%.
+Deal file checks, for each deal on the live list: it has a deal file; the file was checked in the last
+7 days; no key date (booklet, meeting, second court hearing, payment) has passed since the file was
+last checked, which would mean its stage is out of date; and the payment date hasn't passed with the
+deal still listed.
 Usage: python3 -I src/data_checks.py <repo_root>
 """
 import csv
@@ -134,14 +138,46 @@ def check_fx(root: str, today: str) -> list[dict]:
     return issues
 
 
+KEY_DATES = (("booklet_date", "the booklet was due"), ("meeting_date", "the meeting was"), ("court_date", "the second court hearing was"),
+             ("expected_payment", "payment was due"))
+
+
+def check_deal_files(root: str, today: str, stale_days: int = 7) -> list[dict]:
+    issues = []
+    for r in read(os.path.join(root, "config", "live_deals.csv")):
+        tk, m = r["target_ticker"], r["target_market"]
+        f = (r.get("deal_file") or "").strip()
+        if not f or not os.path.exists(os.path.join(root, f)):
+            issues.append({"kind": "deal_file", "market": m, "ticker": tk, "text": f"{tk} has no deal file (research/deals/)"})
+            continue
+        checked = (r.get("file_checked") or "")[:10]
+        if not checked:
+            issues.append({"kind": "deal_file", "market": m, "ticker": tk, "text": f"{tk}'s deal file has no last-checked date"})
+            continue
+        age = (date.fromisoformat(today) - date.fromisoformat(checked)).days
+        passed = [(r[k][:10], words) for k, words in KEY_DATES if (r.get(k) or "")[:10] and checked < r[k][:10] <= today]
+        if passed:
+            d, words = max(passed)
+            issues.append({"kind": "deal_file", "market": m, "ticker": tk, "date": d,
+                           "text": f"{tk}: {words} on {d}, after its deal file was last checked ({checked}); update the stage and dates"})
+        elif age > stale_days:
+            issues.append({"kind": "deal_file", "market": m, "ticker": tk, "date": checked,
+                           "text": f"{tk}'s deal file was last checked {age} days ago ({checked})"})
+        pay = (r.get("expected_payment") or "")[:10]
+        if pay and bdays(pay, today) > 3:
+            issues.append({"kind": "deal_file", "market": m, "ticker": tk, "date": pay,
+                           "text": f"{tk} was due to pay on {pay} and is still on the live list: record the outcome"})
+    return issues
+
+
 def main(root: str) -> int:
     today = date.today().isoformat()
     names = watched(root)
-    issues = check_prices(root, names) + check_fx(root, today)
+    issues = check_prices(root, names) + check_fx(root, today) + check_deal_files(root, today)
     out = {"run": today, "checked": len(names), "issues": issues}
     os.makedirs(os.path.join(root, "reports"), exist_ok=True)
     json.dump(out, open(os.path.join(root, "reports", "data_checks.json"), "w"), indent=1)
-    lines = [f"# Data checks, {today}", "", f"{len(names)} shares checked, plus the NZ$ exchange rates.", ""]
+    lines = [f"# Data checks, {today}", "", f"{len(names)} shares checked, plus the NZ$ exchange rates and the deal files.", ""]
     lines += [f"- {i['text']}" for i in issues] or ["Nothing found."]
     open(os.path.join(root, "reports", "data_checks.md"), "w").write("\n".join(lines) + "\n")
     print("\n".join(lines))
