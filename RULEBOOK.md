@@ -110,7 +110,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 - Result per event: return after US$5 brokerage on a US$2,300 stake (and again on a sale), 0.5% currency conversion, and half the estimated spread on each trade, less the 3-month Treasury bill rate over the same days.
 - Nothing is tuned. Pass needs all of: at least 60 events; mean result above zero with a t-statistic of 2 or more; no single year more than half the total gain; worst calendar year no worse than a 4% loss per event on average (the sleeve's loss limit at 4% positions).
 - Odds: the market-implied chance at entry is (entry price less the break price) over (cash price less the break price), with the break price the close 60 sessions before the filing. Reported with the actual completion rate, so the test shows whether spreads have overstated the risk of a break.
-- Prices: Tiingo, for a fixed random sample (seed 20261102) fetched in December 2026 within the free plan's limits.
+- Prices: Tiingo, for a fixed random sample (seed 20261102) fetched in December 2026 within the free plan's limits: 360 tickers, drawn from 1,169 with a cash price found. The events: 2,002 companies with a first PREM14A or SC 14D9 from 2015 to 2025, 1,821 matched to their ticker at the time, 1,201 with a cash price in the filing.
 
 ## 10. Success tests (scored on 30 July 2027)
 1. Ahead after all costs.
