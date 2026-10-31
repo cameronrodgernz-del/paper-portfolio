@@ -1,95 +1,50 @@
 run 2026-10-31
-US:PDFS +4383
-US:PEPG +1126
-US:PFBX +4379
-US:PFLT +3914
-US:PGIWX +481
-US:PIH +3166
-US:PIIVX +1833
-US:PK +2470
-US:PLPC +4383
-US:PNC +4383
-US:PNK +2362
-US:PPBI +4090
-US:PRGO +4383
-US:PRMW +3889
-US:PRTS +4383
-US:PRVB +1199
-US:PSA +4383
-US:PSBD +700
-US:PSTG +0
-US:PSXP +2173
-US:PTRS +2683
-US:PWOD +4065
-US:PYCR +938
-US:R +4383
-US:RAL +338
-US:RAMP +2074
-US:RCM +2349
-US:RGR +4383
-US:RICK +4383
-US:RIG +4383
-US:RLYB +1321
-US:RNDB +1579
-US:ROCK +4383
-US:ROLR +507
-US:RPC +1262
-US:RSVR +1463
-US:RTX +4383
-US:RUBY +1373
-US:RVMD +1688
-US:S +1341
-US:SAFE +2353
-US:SAIC +3302
-US:SASR +4165
-US:SBH +4383
-US:SBOW +2073
+US:SEAC +4383
+US:SEPN +505
+US:SFD +443
+US:SGHT +1331
+US:SIC +802
+US:SLCA +3144
+US:SLRN +694
+US:SNEX +4383
+US:SODI +3569
+US:SPFI +1881
+US:SRE +4383
+US:SSTK +3533
+US:STKS +3105
+US:STRA +4383
+US:STRUX +455
+US:SVRA +4383
+US:SWZ +4383
+US:SXT +4383
+US:SYF +3082
+US:TBK +0
+US:TFIN +3012
+US:TGI +4063
+US:THR +3895
+US:TJX +4383
+US:TLAB +0
+US:TLS +1493
+US:TLSI +810
+US:TRSSF +2249
+US:TRUL +4085
+US:TSLX +3173
+US:TVPT +1177
+US:TWO +4229
+US:UBA +3579
+US:UFCS +4383
+US:VAPO +1647
+US:VERI +2381
+US:VGR +3865
+US:VNOM +3112
+US:VNRX +3786
+US:VOXX +3985
+US:VRAR +1340
+US:VRPX +1434
+US:VRT +2076
+US:VVI +0
 PROBLEMS:
-SEAC: Tiingo hourly budget used
-SEPN: Tiingo hourly budget used
-SFD: Tiingo hourly budget used
-SGHT: Tiingo hourly budget used
-SIC: Tiingo hourly budget used
-SLCA: Tiingo hourly budget used
-SLRN: Tiingo hourly budget used
-SNEX: Tiingo hourly budget used
-SODI: Tiingo hourly budget used
-SPFI: Tiingo hourly budget used
-SRE: Tiingo hourly budget used
-SSTK: Tiingo hourly budget used
-STKS: Tiingo hourly budget used
-STRA: Tiingo hourly budget used
-STRUX: Tiingo hourly budget used
-SVRA: Tiingo hourly budget used
-SWZ: Tiingo hourly budget used
-SXT: Tiingo hourly budget used
-SYF: Tiingo hourly budget used
-TBK: Tiingo hourly budget used
-TFIN: Tiingo hourly budget used
-TGI: Tiingo hourly budget used
-THR: Tiingo hourly budget used
-TJX: Tiingo hourly budget used
-TLAB: Tiingo hourly budget used
-TLS: Tiingo hourly budget used
-TLSI: Tiingo hourly budget used
-TRSSF: Tiingo hourly budget used
-TRUL: Tiingo hourly budget used
-TSLX: Tiingo hourly budget used
-TUES: Tiingo hourly budget used
-TVPT: Tiingo hourly budget used
-TWO: Tiingo hourly budget used
-UBA: Tiingo hourly budget used
-UFCS: Tiingo hourly budget used
-VAPO: Tiingo hourly budget used
-VERI: Tiingo hourly budget used
-VGR: Tiingo hourly budget used
-VNOM: Tiingo hourly budget used
-VNRX: Tiingo hourly budget used
-VOXX: Tiingo hourly budget used
-VRAR: Tiingo hourly budget used
-VRPX: Tiingo hourly budget used
-VRT: Tiingo hourly budget used
-VVI: Tiingo hourly budget used
+TUES: HTTPError: HTTP Error 404: Not Found
 VVV: Tiingo hourly budget used
 VYGR: Tiingo hourly budget used
 WAFD: Tiingo hourly budget used
