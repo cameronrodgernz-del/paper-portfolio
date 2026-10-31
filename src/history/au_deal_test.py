@@ -201,7 +201,8 @@ def main(root: str, force: bool = False) -> int:
               "with no sale costs; overlapping events move together, so the t-statistic overstates the evidence somewhat."]
     os.makedirs(os.path.dirname(report), exist_ok=True)
     open(report, "w").write("\n".join(lines) + "\n")
-    open(lock, "w").write(datetime.now(timezone.utc).isoformat())
+    if not any("Result: not run" in x for x in lines):
+        open(lock, "w").write(datetime.now(timezone.utc).isoformat())   # a pass or fail is final; "not run" waits for better prices
     print("\n".join(lines))
     return 0
 
