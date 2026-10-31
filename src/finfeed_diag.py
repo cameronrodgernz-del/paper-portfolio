@@ -40,8 +40,14 @@ def main(data_dir: str = "data") -> int:
     if not key:
         print("no FINFEED_API_KEY"); return 1
     out = {}
-    sy = get("/v1/symbols/XNZE?limit=10000", key)
-    rows = sy.pop("body", None) or []
+    rows, sy = [], {}
+    for page in range(1, 11):       # the full list in one request times out; page through it
+        res = get(f"/v1/symbols/XNZE?limit=1000&page={page}", key)
+        sy = {k: v for k, v in res.items() if k != "body"}
+        chunk = res.get("body") or []
+        rows += chunk
+        if len(chunk) < 1000:
+            break
     sy["count"] = len(rows)
     sy["active_dated"] = sum(1 for r in rows if r.get("date") == max((x.get("date", "") for x in rows), default=""))
     tick = {}
@@ -61,8 +67,16 @@ def main(data_dir: str = "data") -> int:
                                  "&time_start=2026-10-01T00:00:00&time_end=2026-10-31T00:00:00&limit=40", key)
         out["air_since_2009"] = summary(get(f"/v1/ohlcv/exchange-symbol/XNZE/{sid}/history?period_id=1DAY"
                                             "&time_start=2009-01-01T00:00:00&time_end=2026-10-31T00:00:00&limit=10000", key))
-    out["whole_exchange_29_oct"] = summary(get("/v1/ohlcv/exchange/XNZE/history?period_id=1DAY"
-                                               "&time_start=2026-10-29T00:00:00&time_end=2026-10-30T00:00:00&limit=1000", key))
+    day = get("/v1/ohlcv/exchange/XNZE/history?period_id=1DAY"
+              "&time_start=2026-10-29T00:00:00&time_end=2026-10-30T00:00:00&limit=1000", key)
+    known = {"NZAIRE0001S2": "AIR", "NZFAPE0001S2": "FPH", "NZSKCE0001S2": "SKC", "NZOCAE0002S0": "OCA", "NZSPKE0001S8": "SPK"}
+    if isinstance(day.get("body"), list):
+        day["known_rows"] = {known[r["symbol_id_exchange"]]: r for r in day["body"] if r.get("symbol_id_exchange") in known}
+        day["with_volume"] = sum(1 for r in day["body"] if (r.get("volume_traded") or 0) > 0)
+        day["nz_isins"] = sum(1 for r in day["body"] if str(r.get("symbol_id_exchange", "")).startswith("NZ"))
+    out["whole_exchange_29_oct"] = summary(day)
+    out["air_by_isin_since_2009"] = summary(get("/v1/ohlcv/exchange-symbol/XNZE/NZAIRE0001S2/history?period_id=1DAY"
+                                                "&time_start=2009-01-01T00:00:00&time_end=2026-10-31T00:00:00&limit=10000", key))
     with open(os.path.join(data_dir, "diagnostics", "finfeed_nz.json"), "w") as f:
         json.dump(out, f, indent=1)
     print(json.dumps(out, indent=1)[:5000])
