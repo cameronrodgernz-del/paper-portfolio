@@ -20,16 +20,25 @@ import sys
 from datetime import date
 
 import norgatedata as nd
+import pandas as pd
+
+# Norgate's own index names first, then the index symbols as a fallback.
+INDEXES = {"S&P/ASX 200": ["S&P/ASX 200", "$XJO", "$XJO.au"],
+           "S&P/ASX 300": ["S&P/ASX 300", "$XKO", "$XKO.au"]}
+PROBES = ["BHP", "BHP.au", "CBA", "CBA.au"]
 
 
 def series(sym: str, adjust, start: str):
     return nd.price_timeseries(sym, stock_price_adjustment_setting=adjust, padding_setting=nd.PaddingType.NONE,
-                               start_date=start, timeseriesformat="pandas-dataframe")
+                               start_date=pd.Timestamp(start), timeseriesformat="pandas-dataframe")
 
 
 def au_databases() -> list[str]:
+    """Current and delisted Australian equity databases (not options, warrants or indices)."""
     names = nd.databases()
-    return [n for n in names if "AU" in n.upper() or "ASX" in n.upper() or "AUSTRALIA" in n.upper()]
+    au = [n for n in names if "AU" in n.upper() or "ASX" in n.upper() or "AUSTRALIA" in n.upper()]
+    eq = [n for n in au if "EQUIT" in n.upper() or "STOCK" in n.upper()]
+    return eq or au
 
 
 def candidates(dbs: list[str]) -> dict:
@@ -40,20 +49,55 @@ def candidates(dbs: list[str]) -> dict:
             rows = nd.database(db)
         except Exception as e:
             print("could not read", db, e); continue
+        print(db, len(rows), "securities")
         for r in rows:
-            sym = r["symbol"] if isinstance(r, dict) else r[0]
-            name = r.get("securityname", "") if isinstance(r, dict) else (r[2] if len(r) > 2 else "")
+            if isinstance(r, dict):
+                sym = r.get("symbol") or r.get("Symbol")
+                name = next((v for k, v in r.items() if "name" in k.lower()), "")
+            else:
+                sym, name = r[0], (r[2] if len(r) > 2 else "")
+            if not sym:
+                continue
             code = sym.split("-")[0].split(".")[0].upper()
             out.setdefault(code, []).append((sym, name))
     return out
 
 
+def constituent(sym: str, idx: str, since: str):
+    ts = nd.index_constituent_timeseries(sym, idx, padding_setting=nd.PaddingType.NONE,
+                                         start_date=pd.Timestamp(since), timeseriesformat="pandas-dataframe")
+    if ts is None or len(ts) == 0:
+        return None
+    col = "Index Constituent" if "Index Constituent" in ts.columns else ts.columns[-1]
+    return ts[col]
+
+
+def index_name(label: str, since: str):
+    """The name Norgate accepts for this index, found by asking about a long-standing member."""
+    for name in INDEXES[label]:
+        for probe in PROBES:
+            try:
+                s = constituent(probe, name, since)
+            except Exception:
+                continue
+            if s is not None and s.max() == 1:
+                return name
+    return None
+
+
 def main(root: str, out: str, index: bool = False, since: str = "2010-01-01") -> int:
+    if not nd.status():
+        print("Norgate Data Updater is not running. Open it, let it finish updating, then run this again.")
+        return 2
     os.makedirs(os.path.join(out, "prices"), exist_ok=True)
     dbs = au_databases()
-    open(os.path.join(out, "databases.txt"), "w").write("\n".join(nd.databases()) + "\n")
+    with open(os.path.join(out, "databases.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(nd.databases()) + "\n")
     print("Australian databases:", dbs)
     cand = candidates(dbs)
+    if not cand:
+        print("No Australian securities found: check the subscription in Norgate Data Updater.")
+        return 3
     wanted = list(csv.DictReader(open(os.path.join(root, "config", "norgate_wanted.csv"), encoding="utf-8")))
     matches = []
     for w in wanted:
@@ -73,9 +117,12 @@ def main(root: str, out: str, index: bool = False, since: str = "2010-01-01") ->
         if not best:
             matches.append([tk, ann, "", "", "", "", "not found"]); continue
         sym, name, raw, first, last = best
-        tr = series(sym, nd.StockPriceAdjustmentType.TOTALRETURN, "2010-01-01")
+        try:
+            tr = series(sym, nd.StockPriceAdjustmentType.TOTALRETURN, "2010-01-01")
+        except Exception as e:
+            print(tk, "total return series failed:", e); tr = None
         path = os.path.join(out, "prices", f"{tk}__{ann}.csv")
-        with open(path, "w", newline="") as f:
+        with open(path, "w", newline="", encoding="utf-8") as f:
             wr = csv.writer(f)
             wr.writerow(["date", "open", "high", "low", "close", "volume", "adj_close", "dividend", "split", "source"])
             for d, row in raw.iterrows():
@@ -85,29 +132,35 @@ def main(root: str, out: str, index: bool = False, since: str = "2010-01-01") ->
                              adj, div if div else "", "", "norgate"])
         matches.append([tk, ann, sym, name, first, last, "ok"])
         print(tk, ann, "->", sym, name, first, last)
-    with open(os.path.join(out, "matches.csv"), "w", newline="") as f:
+    with open(os.path.join(out, "matches.csv"), "w", newline="", encoding="utf-8") as f:
         wr = csv.writer(f); wr.writerow(["ticker", "announce_date", "norgate_symbol", "norgate_name", "first", "last", "status"])
         wr.writerows(matches)
     if index:
-        with open(os.path.join(out, "index_changes.csv"), "w", newline="") as f:
+        syms = [(sym, name) for lst in cand.values() for sym, name in lst]
+        with open(os.path.join(out, "index_changes.csv"), "w", newline="", encoding="utf-8") as f:
             wr = csv.writer(f); wr.writerow(["index", "symbol", "name", "date", "change"])
-            for idx in ("S&P/ASX 200", "S&P/ASX 300"):
-                for code, lst in cand.items():
-                    for sym, name in lst:
-                        try:
-                            ts = nd.index_constituent_timeseries(sym, idx, padding_setting=nd.PaddingType.NONE,
-                                                                 start_date=since, timeseriesformat="pandas-dataframe")
-                        except Exception:
-                            continue
-                        if ts is None or len(ts) == 0:
-                            continue
-                        col = ts.columns[0]
-                        prev = None
-                        for d, v in ts[col].items():
-                            v = int(v)
-                            if prev is not None and v != prev:
-                                wr.writerow([idx, sym, name, str(d)[:10], "joined" if v == 1 else "left"])
-                            prev = v
+            for label in INDEXES:
+                idx = index_name(label, since)
+                if not idx:
+                    print("WARNING: Norgate did not recognise", label, "under any of", INDEXES[label]); continue
+                print("index", label, "as", repr(idx), "across", len(syms), "securities")
+                n = 0
+                for i, (sym, name) in enumerate(syms, 1):
+                    if i % 1000 == 0:
+                        print(f"  {label}: {i} of {len(syms)} checked, {n} changes so far", flush=True)
+                    try:
+                        s = constituent(sym, idx, since)
+                    except Exception:
+                        continue
+                    if s is None:
+                        continue
+                    prev = None
+                    for d, v in s.items():
+                        v = int(v)
+                        if prev is not None and v != prev:
+                            wr.writerow([label, sym, name, str(d)[:10], "joined" if v == 1 else "left"]); n += 1
+                        prev = v
+                print(f"  {label}: {n} changes")
         print("index changes written")
     print(f"done: {sum(1 for m in matches if m[-1] == 'ok')} of {len(matches)} found")
     return 0
