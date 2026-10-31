@@ -1,4 +1,43 @@
-run 2026-10-31 20:23 UTC, 0 requests
-
+run 2026-10-31 20:24 UTC, 40 requests
+2026-10-30: no rows (a holiday, or not yet published)
+history ANZ: +832
+history AOF: +800
+history APA: +832
+history APL: +791
+history ARB: +783
+history ARG: +832
+history ASD: +832
+history ASF: +818
+history ASP: +830
+history ASR: +832
+history ATM: +832
+history AUE: +459
+history AUS: +832
+history BAI: +576
+history BFG: +761
+history BGP: +831
+history BIF: +614
+history BIT: +824
+history BLT: +819
+history BOT: +832
+history BPG: +821
+history BRM: +831
+history BRW: +795
+history BTC: +501
+history CCC: +678
+history CDI: +771
+history CEN: +830
+history CHI: +830
+history CMO: +752
+history CNU: +832
+history CO2: +832
+history CVT: +831
+history DGL: +813
+history DIV: +832
+history EBO: +828
+history EMF: +832
+history EMG: +832
+history ERD: +829
+history ESG: +832
 PROBLEMS:
-KeyError: 'date'
+request budget for this run used

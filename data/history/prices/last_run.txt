@@ -1,64 +1,19 @@
 run 2026-10-31
-US:SEAC +4383
-US:SEPN +505
-US:SFD +443
-US:SGHT +1331
-US:SIC +802
-US:SLCA +3144
-US:SLRN +694
-US:SNEX +4383
-US:SODI +3569
-US:SPFI +1881
-US:SRE +4383
-US:SSTK +3533
-US:STKS +3105
-US:STRA +4383
-US:STRUX +455
-US:SVRA +4383
-US:SWZ +4383
-US:SXT +4383
-US:SYF +3082
-US:TBK +0
-US:TFIN +3012
-US:TGI +4063
-US:THR +3895
-US:TJX +4383
-US:TLAB +0
-US:TLS +1493
-US:TLSI +810
-US:TRSSF +2249
-US:TRUL +4085
-US:TSLX +3173
-US:TVPT +1177
-US:TWO +4229
-US:UBA +3579
-US:UFCS +4383
-US:VAPO +1647
-US:VERI +2381
-US:VGR +3865
-US:VNOM +3112
-US:VNRX +3786
-US:VOXX +3985
-US:VRAR +1340
-US:VRPX +1434
-US:VRT +2076
-US:VVI +0
+US:VVV +2540
+US:VYGR +2758
+US:WAFD +4383
+US:WEBR +388
+US:WGO +4383
+US:WHG +4383
 PROBLEMS:
-TUES: HTTPError: HTTP Error 404: Not Found
-VVV: Tiingo hourly budget used
-VYGR: Tiingo hourly budget used
-WAFD: Tiingo hourly budget used
-WEBR: Tiingo hourly budget used
-WGO: Tiingo hourly budget used
-WHG: Tiingo hourly budget used
-WHRT: Tiingo hourly budget used
-WLMS: Tiingo hourly budget used
-WOW: Tiingo hourly budget used
-WPC: Tiingo hourly budget used
-WPF: Tiingo hourly budget used
-WSBC: Tiingo hourly budget used
-WTFC: Tiingo hourly budget used
-WVFC: Tiingo hourly budget used
-XFLT: Tiingo hourly budget used
-XNPT: Tiingo hourly budget used
-YUME: Tiingo hourly budget used
+WHRT: HTTPError: HTTP Error 429: Too Many Requests
+WLMS: HTTPError: HTTP Error 429: Too Many Requests
+WOW: HTTPError: HTTP Error 429: Too Many Requests
+WPC: HTTPError: HTTP Error 429: Too Many Requests
+WPF: HTTPError: HTTP Error 429: Too Many Requests
+WSBC: HTTPError: HTTP Error 429: Too Many Requests
+WTFC: HTTPError: HTTP Error 429: Too Many Requests
+WVFC: HTTPError: HTTP Error 429: Too Many Requests
+XFLT: HTTPError: HTTP Error 429: Too Many Requests
+XNPT: HTTPError: HTTP Error 429: Too Many Requests
+YUME: HTTPError: HTTP Error 429: Too Many Requests
