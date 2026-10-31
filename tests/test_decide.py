@@ -86,6 +86,13 @@ with tempfile.TemporaryDirectory() as d:
           and abs(mkt - (1 - c["market_implied"]) ** 2) < 1e-9, (ours, mkt, n))
     check("ledger chain intact", all(v == "ok" for v in L.verify().values()), L.verify())
 
+# a draft card from src/card_draft.py can't be placed until it's finished
+try:
+    decide(L, prices, fx, rates, cfg, dict(sell, side="buy", draft=True, outcomes=[[0.9, 6.0], [0.1, 4.0]]), datetime(2026, 10, 30, 8, 30, tzinfo=timezone.utc), dry_run=True)
+    check("a draft card is refused", False)
+except SystemExit as e:
+    check("a draft card is refused", "draft" in str(e), str(e))
+
 # trade types without a passed history test are refused (rulebook sections 2, 5 and 9)
 import decide as _d  # noqa: E402
 with tempfile.TemporaryDirectory() as root:

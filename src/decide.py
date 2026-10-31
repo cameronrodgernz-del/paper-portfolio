@@ -144,6 +144,8 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
         raise SystemExit(f"unknown sleeve {sleeve!r}: use one of {', '.join(SLEEVES)}")
     if side not in ("buy", "sell"):
         raise SystemExit(f"unknown side {side!r}")
+    if card.get("draft") or "TO WRITE" in json.dumps(card) or "TO SET" in json.dumps(card):
+        raise SystemExit("this is still a draft card (src/card_draft.py): write the thesis, industry and adjustments, and remove \"draft\"")
     today_ = now_utc.date().isoformat()
     nz_today = now_utc.astimezone(ZoneInfo("Pacific/Auckland")).date().isoformat()
     if not dry_run and vals[-1]["payload"]["date"] != nz_today:
