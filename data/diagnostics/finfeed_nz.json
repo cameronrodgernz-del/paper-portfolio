@@ -1,8 +1,14 @@
 {
  "symbols_xnze": {
-  "error": "TimeoutError: The read operation timed out",
-  "count": 0,
-  "active_dated": 0,
+  "status": 200,
+  "headers": {
+   "x-tierlimit-concurrency-limit": "1",
+   "x-tierlimit-concurrency-remaining": "1",
+   "x-tierlimit-rpm-limit": "10",
+   "x-tierlimit-rpm-remaining": "6"
+  },
+  "count": 10000,
+  "active_dated": 10000,
   "matches": {
    "AIR": [],
    "FPH": [],
@@ -27,8 +33,64 @@
    "x-tierlimit-concurrency-limit": "1",
    "x-tierlimit-concurrency-remaining": "1",
    "x-tierlimit-rpm-limit": "10",
-   "x-tierlimit-rpm-remaining": "10"
+   "x-tierlimit-rpm-remaining": "7"
   },
+  "known_rows": {
+   "OCA": {
+    "symbol_id_exchange": "NZOCAE0002S0",
+    "time_period_start": "2026-10-29T00:00:00.0000000Z",
+    "time_period_end": "2026-10-30T00:00:00.0000000Z",
+    "time_open": "2026-10-29T00:00:00.0000000Z",
+    "time_close": "2026-10-30T00:00:00.0000000Z",
+    "price_open": 0.65,
+    "price_high": 0.65,
+    "price_low": 0.64,
+    "price_close": 0.64,
+    "volume_traded": 0,
+    "trades_count": 0
+   },
+   "AIR": {
+    "symbol_id_exchange": "NZAIRE0001S2",
+    "time_period_start": "2026-10-29T00:00:00.0000000Z",
+    "time_period_end": "2026-10-30T00:00:00.0000000Z",
+    "time_open": "2026-10-29T00:00:00.0000000Z",
+    "time_close": "2026-10-30T00:00:00.0000000Z",
+    "price_open": 0.375,
+    "price_high": 0.385,
+    "price_low": 0.375,
+    "price_close": 0.375,
+    "volume_traded": 0,
+    "trades_count": 0
+   },
+   "FPH": {
+    "symbol_id_exchange": "NZFAPE0001S2",
+    "time_period_start": "2026-10-29T00:00:00.0000000Z",
+    "time_period_end": "2026-10-30T00:00:00.0000000Z",
+    "time_open": "2026-10-29T00:00:00.0000000Z",
+    "time_close": "2026-10-30T00:00:00.0000000Z",
+    "price_open": 47.42,
+    "price_high": 48.12,
+    "price_low": 47.42,
+    "price_close": 47.66,
+    "volume_traded": 0,
+    "trades_count": 0
+   },
+   "SKC": {
+    "symbol_id_exchange": "NZSKCE0001S2",
+    "time_period_start": "2026-10-29T00:00:00.0000000Z",
+    "time_period_end": "2026-10-30T00:00:00.0000000Z",
+    "time_open": "2026-10-29T00:00:00.0000000Z",
+    "time_close": "2026-10-30T00:00:00.0000000Z",
+    "price_open": 0.685,
+    "price_high": 0.69,
+    "price_low": 0.675,
+    "price_close": 0.69,
+    "volume_traded": 0,
+    "trades_count": 0
+   }
+  },
+  "with_volume": 0,
+  "nz_isins": 247,
   "rows": 261,
   "first": {
    "symbol_id_exchange": "AU000000SMI3",
@@ -53,6 +115,40 @@
    "price_high": 0.135,
    "price_low": 0.133,
    "price_close": 0.133,
+   "volume_traded": 0,
+   "trades_count": 0
+  }
+ },
+ "air_by_isin_since_2009": {
+  "status": 200,
+  "headers": {
+   "x-tierlimit-concurrency-limit": "1",
+   "x-tierlimit-concurrency-remaining": "1",
+   "x-tierlimit-rpm-limit": "10",
+   "x-tierlimit-rpm-remaining": "5"
+  },
+  "rows": 835,
+  "first": {
+   "time_period_start": "2023-07-02T00:00:00.0000000Z",
+   "time_period_end": "2023-07-03T00:00:00.0000000Z",
+   "time_open": "2023-07-02T00:00:00.0000000Z",
+   "time_close": "2023-07-03T00:00:00.0000000Z",
+   "price_open": 0.775,
+   "price_high": 0.785,
+   "price_low": 0.775,
+   "price_close": 0.785,
+   "volume_traded": 0,
+   "trades_count": 0
+  },
+  "last": {
+   "time_period_start": "2026-10-29T00:00:00.0000000Z",
+   "time_period_end": "2026-10-30T00:00:00.0000000Z",
+   "time_open": "2026-10-29T00:00:00.0000000Z",
+   "time_close": "2026-10-30T00:00:00.0000000Z",
+   "price_open": 0.375,
+   "price_high": 0.385,
+   "price_low": 0.375,
+   "price_close": 0.375,
    "volume_traded": 0,
    "trades_count": 0
   }
