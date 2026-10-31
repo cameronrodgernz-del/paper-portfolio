@@ -1,10 +1,5 @@
 run 2026-10-31
-US:VVV +2540
-US:VYGR +2758
-US:WAFD +4383
-US:WEBR +388
-US:WGO +4383
-US:WHG +4383
+
 PROBLEMS:
 WHRT: HTTPError: HTTP Error 429: Too Many Requests
 WLMS: HTTPError: HTTP Error 429: Too Many Requests
