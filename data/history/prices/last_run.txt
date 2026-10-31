@@ -1,14 +1,125 @@
 run 2026-10-31
 
 PROBLEMS:
-WHRT: HTTPError: HTTP Error 429: Too Many Requests
-WLMS: HTTPError: HTTP Error 429: Too Many Requests
-WOW: HTTPError: HTTP Error 429: Too Many Requests
-WPC: HTTPError: HTTP Error 429: Too Many Requests
-WPF: HTTPError: HTTP Error 429: Too Many Requests
-WSBC: HTTPError: HTTP Error 429: Too Many Requests
-WTFC: HTTPError: HTTP Error 429: Too Many Requests
-WVFC: HTTPError: HTTP Error 429: Too Many Requests
-XFLT: HTTPError: HTTP Error 429: Too Many Requests
-XNPT: HTTPError: HTTP Error 429: Too Many Requests
-YUME: HTTPError: HTTP Error 429: Too Many Requests
+EODHD plan allows fewer than 1000 requests a day: history prices wait for the paid plan
+3PL: EODHD daily budget used
+ABC: EODHD daily budget used
+ACX: EODHD daily budget used
+AFJ: EODHD daily budget used
+AGO: EODHD daily budget used
+AHX: EODHD daily budget used
+AIO: EODHD daily budget used
+AJD: EODHD daily budget used
+ALU: EODHD daily budget used
+AMA: EODHD daily budget used
+AOF: EODHD daily budget used
+AOP: EODHD daily budget used
+APA: EODHD daily budget used
+APD: EODHD daily budget used
+API: EODHD daily budget used
+APM: EODHD daily budget used
+AST: EODHD daily budget used
+ASZ: EODHD daily budget used
+AVJ: EODHD daily budget used
+AWE: EODHD daily budget used
+AZS: EODHD daily budget used
+BBG: EODHD daily budget used
+BKL: EODHD daily budget used
+BLD: EODHD daily budget used
+BTH: EODHD daily budget used
+CCL: EODHD daily budget used
+CDV: EODHD daily budget used
+CGC: EODHD daily budget used
+CGL: EODHD daily budget used
+COF: EODHD daily budget used
+CRD: EODHD daily budget used
+CSR: EODHD daily budget used
+CVO: EODHD daily budget used
+CZZ: EODHD daily budget used
+DHG: EODHD daily budget used
+DSE: EODHD daily budget used
+DUE: EODHD daily budget used
+EAR: EODHD daily budget used
+ECF: EODHD daily budget used
+EHE: EODHD daily budget used
+ELO: EODHD daily budget used
+ENE: EODHD daily budget used
+EPD: EODHD daily budget used
+EPX: EODHD daily budget used
+EVS: EODHD daily budget used
+FLK: EODHD daily budget used
+FND: EODHD daily budget used
+GHC: EODHD daily budget used
+GNX: EODHD daily budget used
+GOR: EODHD daily budget used
+HLA: EODHD daily budget used
+HPI: EODHD daily budget used
+HSO: EODHD daily budget used
+HUO: EODHD daily budget used
+IAP: EODHD daily budget used
+ICQ: EODHD daily budget used
+IFL: EODHD daily budget used
+IFM: EODHD daily budget used
+IPP: EODHD daily budget used
+ITQ: EODHD daily budget used
+IVC: EODHD daily budget used
+JHC: EODHD daily budget used
+JLG: EODHD daily budget used
+KDR: EODHD daily budget used
+LGL: EODHD daily budget used
+LNK: EODHD daily budget used
+MAH: EODHD daily budget used
+MAI: EODHD daily budget used
+MCP: EODHD daily budget used
+MOC: EODHD daily budget used
+MTR: EODHD daily budget used
+MYD: EODHD daily budget used
+MYO: EODHD daily budget used
+MYX: EODHD daily budget used
+NSR: EODHD daily budget used
+NTC: EODHD daily budget used
+NVT: EODHD daily budget used
+NWC: EODHD daily budget used
+ORG: EODHD daily budget used
+ORR: EODHD daily budget used
+OVH: EODHD daily budget used
+OZL: EODHD daily budget used
+PBG: EODHD daily budget used
+PBH: EODHD daily budget used
+PBP: EODHD daily budget used
+PEA: EODHD daily budget used
+PFL: EODHD daily budget used
+PHG: EODHD daily budget used
+PLG: EODHD daily budget used
+PNC: EODHD daily budget used
+PRG: EODHD daily budget used
+PSQ: EODHD daily budget used
+PYG: EODHD daily budget used
+RDF: EODHD daily budget used
+RHK: EODHD daily budget used
+RHP: EODHD daily budget used
+RUL: EODHD daily budget used
+SAI: EODHD daily budget used
+SDM: EODHD daily budget used
+SGF: EODHD daily budget used
+SLA: EODHD daily budget used
+SMR: EODHD daily budget used
+SPO: EODHD daily budget used
+SRX: EODHD daily budget used
+SWL: EODHD daily budget used
+SXY: EODHD daily budget used
+TOL: EODHD daily budget used
+TOX: EODHD daily budget used
+TRS: EODHD daily budget used
+UGL: EODHD daily budget used
+UXC: EODHD daily budget used
+VED: EODHD daily budget used
+VEI: EODHD daily budget used
+VHT: EODHD daily budget used
+VIT: EODHD daily budget used
+VOC: EODHD daily budget used
+VRL: EODHD daily budget used
+WBA: EODHD daily budget used
+WGO: EODHD daily budget used
+WSA: EODHD daily budget used
+YFZ: EODHD daily budget used
