@@ -1,0 +1,247 @@
+{
+ "made": "2026-11-01",
+ "resolved": 319,
+ "completed_rate": 0.8119,
+ "paid_rate": 0.8683,
+ "stages": {
+  "scheme|announced": {
+   "structure": "scheme",
+   "stage": "announced",
+   "n": 232,
+   "paid": 210,
+   "rate_known": 0.9052,
+   "rate": 0.9034,
+   "n_cautious": 232,
+   "undated_failures": 0
+  },
+  "scheme|booklet_out": {
+   "structure": "scheme",
+   "stage": "booklet_out",
+   "n": 210,
+   "paid": 200,
+   "rate_known": 0.9524,
+   "rate": 0.8991,
+   "n_cautious": 222,
+   "undated_failures": 12
+  },
+  "scheme|vote_passed": {
+   "structure": "scheme",
+   "stage": "vote_passed",
+   "n": 201,
+   "paid": 199,
+   "rate_known": 0.99,
+   "rate": 0.9876,
+   "n_cautious": 201,
+   "undated_failures": 0
+  },
+  "scheme|court_approved": {
+   "structure": "scheme",
+   "stage": "court_approved",
+   "n": 199,
+   "paid": 199,
+   "rate_known": 1.0,
+   "rate": 0.9975,
+   "n_cautious": 199,
+   "undated_failures": 0
+  },
+  "full_takeover|announced": {
+   "structure": "full_takeover",
+   "stage": "announced",
+   "n": 79,
+   "paid": 62,
+   "rate_known": 0.7848,
+   "rate": 0.7812,
+   "n_cautious": 79,
+   "undated_failures": 0
+  },
+  "full_takeover|booklet_out": {
+   "structure": "full_takeover",
+   "stage": "booklet_out",
+   "n": 66,
+   "paid": 56,
+   "rate_known": 0.8485,
+   "rate": 0.774,
+   "n_cautious": 72,
+   "undated_failures": 6
+  },
+  "full_takeover|court_approved": {
+   "structure": "full_takeover",
+   "stage": "court_approved",
+   "n": 55,
+   "paid": 55,
+   "rate_known": 1.0,
+   "rate": 0.9911,
+   "n_cautious": 55,
+   "undated_failures": 0
+  },
+  "all|announced": {
+   "structure": "all",
+   "stage": "announced",
+   "n": 319,
+   "paid": 277,
+   "rate_known": 0.8683,
+   "rate": 0.8672,
+   "n_cautious": 319,
+   "undated_failures": 0
+  },
+  "all|booklet_out": {
+   "structure": "all",
+   "stage": "booklet_out",
+   "n": 284,
+   "paid": 261,
+   "rate_known": 0.919,
+   "rate": 0.863,
+   "n_cautious": 302,
+   "undated_failures": 18
+  },
+  "all|vote_passed": {
+   "structure": "all",
+   "stage": "vote_passed",
+   "n": 201,
+   "paid": 199,
+   "rate_known": 0.99,
+   "rate": 0.9876,
+   "n_cautious": 201,
+   "undated_failures": 0
+  },
+  "all|court_approved": {
+   "structure": "all",
+   "stage": "court_approved",
+   "n": 259,
+   "paid": 259,
+   "rate_known": 1.0,
+   "rate": 0.9981,
+   "n_cautious": 259,
+   "undated_failures": 0
+  }
+ },
+ "timing": {
+  "scheme|announced": {
+   "median": 125,
+   "q1": 107,
+   "q3": 155,
+   "n": 179
+  },
+  "scheme|booklet_out": {
+   "median": 59,
+   "q1": 53,
+   "q3": 69,
+   "n": 139
+  },
+  "scheme|vote_passed": {
+   "median": 20,
+   "q1": 16,
+   "q3": 24,
+   "n": 170
+  },
+  "scheme|court_approved": {
+   "median": 14,
+   "q1": 11,
+   "q3": 16,
+   "n": 168
+  },
+  "scheme|announced|ACCC": {
+   "median": 156,
+   "q1": 128,
+   "q3": 179,
+   "n": 32
+  },
+  "scheme|announced|FIRB": {
+   "median": 126,
+   "q1": 105,
+   "q3": 157,
+   "n": 71
+  },
+  "scheme|announced|OIO": {
+   "median": 135,
+   "q1": 121,
+   "q3": 159,
+   "n": 29
+  },
+  "scheme|announced|overseas": {
+   "median": 147,
+   "q1": 109,
+   "q3": 163,
+   "n": 31
+  },
+  "scheme|announced|no approvals": {
+   "median": 108,
+   "q1": 91,
+   "q3": 130,
+   "n": 8
+  },
+  "full_takeover|announced": {
+   "median": 84,
+   "q1": 60,
+   "q3": 123,
+   "n": 45
+  },
+  "full_takeover|booklet_out": {
+   "median": 53,
+   "q1": 39,
+   "q3": 94,
+   "n": 31
+  },
+  "full_takeover|announced|OIO": {
+   "median": 123,
+   "q1": 105,
+   "q3": 133,
+   "n": 5
+  },
+  "full_takeover|announced|no approvals": {
+   "median": 65,
+   "q1": 49,
+   "q3": 84,
+   "n": 11
+  }
+ },
+ "model": {
+  "used": true,
+  "C": 1.0,
+  "brier_model": 0.0998,
+  "brier_structure": 0.1117,
+  "intercept": 2.5323,
+  "coef": {
+   "takeover": -0.237,
+   "partial": -0.285,
+   "private_equity": -0.355,
+   "infrastructure": -0.233,
+   "existing_holder": 0.027,
+   "consortium": -0.521,
+   "scrip_or_mixed": -0.206,
+   "board_for": -0.12,
+   "board_not_for": -2.116,
+   "firb": -0.041,
+   "accc": -0.753,
+   "oio": 0.774,
+   "overseas": 0.305,
+   "lockups_15": 0.807,
+   "stake_20": 0.148,
+   "premium_40": 0.561,
+   "nzx": -1.153,
+   "small": -0.453
+  },
+  "n": 319,
+  "why": "scores better out of sample than the structure rate"
+ },
+ "features": [
+  "takeover",
+  "partial",
+  "private_equity",
+  "infrastructure",
+  "existing_holder",
+  "consortium",
+  "scrip_or_mixed",
+  "board_for",
+  "board_not_for",
+  "firb",
+  "accc",
+  "oio",
+  "overseas",
+  "lockups_15",
+  "stake_20",
+  "premium_40",
+  "nzx",
+  "small"
+ ]
+}
