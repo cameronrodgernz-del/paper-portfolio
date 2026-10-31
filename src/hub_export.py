@@ -58,6 +58,13 @@ def read_csv(path: str) -> list[dict]:
         return list(csv.DictReader(f))
 
 
+SYM = {"NZD": "NZ$", "AUD": "A$", "USD": "US$"}
+
+
+def cash_txt(ccy: str, x: float, d: int = 2) -> str:
+    return f"{'-' if x < 0 else ''}{SYM.get(ccy, ccy + ' ')}{abs(x):,.{d}f}"
+
+
 def fnum(x):
     try:
         return float(x)
@@ -220,7 +227,7 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
         verb = "Bought" if p["side"] == "buy" else "Sold"
         how = " (paid out by the deal)" if str(p["order_id"]).startswith("CA") else ""
         acts.append({"t": r["ts_utc"], "k": "fill", "s": p["sleeve"], "m": p["market"], "tk": p["ticker"], "d": p["date"],
-                     "txt": f"{verb} {p['qty']:g} {p['ticker']} at {p['ccy']} {p['price']:.4g}{how}", "nzd": rd(p["gross_nzd"])})
+                     "txt": f"{verb} {p['qty']:g} {p['ticker']} at {cash_txt(p['ccy'], p['price'], 3)}{how}", "nzd": rd(p["gross_nzd"])})
     for r in decisions:
         p = r["payload"]
         c = p.get("card") or {}
@@ -241,16 +248,16 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
         if k == "interest":
             interest[nz_date(r["ts_utc"])[:7]] += p["amount"]
         elif k == "deposit":
-            acts.append({"t": r["ts_utc"], "k": "cash", "txt": f"Deposit of {p['ccy']} {p['amount']:,.0f}"})
+            acts.append({"t": r["ts_utc"], "k": "cash", "txt": f"Deposit of {cash_txt(p['ccy'], p['amount'], 0)}"})
         elif k == "plan_fee":
-            acts.append({"t": r["ts_utc"], "k": "cash", "txt": f"Sharesies plan fee {p['ccy']} {abs(p['amount']):,.2f}"})
+            acts.append({"t": r["ts_utc"], "k": "cash", "txt": f"Sharesies plan fee of {cash_txt(p['ccy'], abs(p['amount']))}"})
         elif k == "dividend":
             h = p.get("holder") or ["", "", ""]
-            acts.append({"t": r["ts_utc"], "k": "income", "s": h[0], "m": h[1], "tk": h[2], "txt": f"Dividend from {h[2]}: {p['ccy']} {p['amount']:,.2f}"})
+            acts.append({"t": r["ts_utc"], "k": "income", "s": h[0], "m": h[1], "tk": h[2], "txt": f"Dividend from {h[2]}: {cash_txt(p['ccy'], p['amount'])}"})
         elif k == "fx_in":
-            acts.append({"t": r["ts_utc"], "k": "cash", "txt": f"Converted to {p['ccy']} {p['amount']:,.2f}, fee NZ$ {p.get('fee_nzd', 0):,.2f}"})
+            acts.append({"t": r["ts_utc"], "k": "cash", "txt": f"Converted NZ dollars to {cash_txt(p['ccy'], p['amount'])} (fee {cash_txt('NZD', p.get('fee_nzd', 0))})"})
         elif k == "hedge_settle":
-            acts.append({"t": r["ts_utc"], "k": "hedge", "txt": f"Currency hedge settled: NZ$ {p['amount']:+,.2f}"})
+            acts.append({"t": r["ts_utc"], "k": "hedge", "txt": f"Currency hedge settled: {'+' if p['amount'] >= 0 else ''}{cash_txt('NZD', p['amount'])}"})
     for r in L.records("calls"):
         p = r["payload"]
         if p.get("event") == "outcome":
