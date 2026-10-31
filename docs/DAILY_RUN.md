@@ -15,7 +15,7 @@ Runs without anyone. Defined in `.github/workflows/nightly-data.yml`.
 
 Two schedules (07:30 and 08:30 UTC) with a gate keep the job at 8:30pm NZ in both daylight-saving seasons. A push that changes `config/run_now.txt` starts an extra run.
 
-## 2. The evening desk (a scheduled Claude task, 9:30pm NZ, from 7 December)
+## 2. The evening desk (a scheduled Claude task, weekdays 9:45pm NZ)
 Follows rulebook section 8. Each step leaves a file, so a missed or partial night is visible.
 
 1. **Check.** Pull the repository. Verify the ledger chain. Confirm tonight's valuation exists. If the nightly job is late, wait up to 30 minutes. If it is still missing, place no orders tonight (the job and the desk both write to the ledger, so they must not overlap), do the scan and write-ups only, and say so in the desk log.
@@ -41,7 +41,6 @@ Nothing is backdated: a decision is timed when `decide.py` runs, and the clerk f
 ## Monthly
 At the first run of each month: the report (`reports/<ledger>/monthly/<month>.md`) covering return against the passive mixes, the worst fall, costs paid, hit rate on calls, and every rule exception. Cash rate set for the month in `config/run.json` (otherwise the NZ three-month rate less one point).
 
-## Before 7 December
-- Set `"active": "practice"` in `config/run.json` (the nightly job then starts the practice ledger on 7 December).
-- Create the evening desk scheduled task.
-- Confirm VT, VAS and ENZL are offered on Sharesies.
+## Switching ledgers
+- Practice: `"active": "practice"` in `config/run.json` from 1 November 2026; the nightly job deposits the bankroll and starts the practice ledger on 2 November.
+- Counted: on 31 December 2026, once Cam has signed off the rulebook, set `"active": "counted"`; the counted ledger starts on 4 January 2027.

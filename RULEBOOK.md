@@ -1,11 +1,11 @@
 # Rulebook, version 0 (draft, 31 October 2026)
 
-This is the working draft. It's tightened during the practice run and locked on 29 January 2027, once Cam signs it off. After that, a rule changes only to fix a defect, through a dated entry in the change log at the end, and every change is reported to Cam.
+This is the working draft. It's tightened during the practice run and locked on 31 December 2026, once Cam signs it off. After that, a rule changes only to fix a defect, through a dated entry in the change log at the end, and every change is reported to Cam.
 
 ## 1. The run
 - Bankroll: NZ$100,000, in NZ dollars.
-- Practice run: 7 December 2026 to 29 January 2027. It runs live and nothing counts.
-- Counted run: from the open on 1 February 2027 to the close on 30 July 2027.
+- Practice run: 2 November 2026 to 31 December 2026. It runs live and nothing counts.
+- Counted run: from the open on 4 January 2027 to the close on 2 July 2027. (The NZX is shut on 4 January for the New Year holiday and opens on the 5th.)
 - Tax is ignored entirely, including withholding on foreign dividends.
 
 ## 2. Sleeves
@@ -44,6 +44,7 @@ Deal and special situation positions are sized at a quarter of the Kelly stake f
 
 ## 5. Deals
 - Eligible only after a binding agreement or a formal offer. Rumours and non-binding approaches go in special situations.
+- US deals are watched and written up but not traded until the US cash deal test (9b) passes. ASX and NZX deals trade on the deal database's base rates.
 - Entry needs an expected return above the cash rate, after costs and annualised to the expected completion date, and a stated reason why the market's spread is wrong. The costs counted are the buy brokerage after the plan's cover, half the spread and the size cost, a currency conversion if foreign cash is short, the hedge's dealing cost, and the sale costs weighted by the chance of exiting by sale rather than by consideration.
 - Odds start from the deal database's base rates for that structure, bidder type and regulator, then adjust for evidence, each adjustment written down.
 - Deal positions in AUD and USD are hedged back to NZ dollars in the simulation at the forward rate (the interest-rate gap, from published rates), and also reported unhedged. The hedge is a rolling three-month forward sale of the currency for the position's value at the close, opened in the run that books the fill, re-sized when it is more than 20% off the position, closed when the position goes, and charged 0.1% of its size as a dealing cost, since Sharesies offers no hedging.
@@ -123,7 +124,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 - Odds: the market-implied chance at entry is (entry price less the break price) over (cash price less the break price), with the break price the close 60 sessions before the filing. Reported with the actual completion rate, so the test shows whether spreads have overstated the risk of a break.
 - Prices: Tiingo, for a fixed random sample (seed 20261102) fetched in December 2026 within the free plan's limits: 360 tickers, drawn from 1,169 with a cash price found. The events: 2,002 companies with a first PREM14A or SC 14D9 from 2015 to 2025, 1,821 matched to their ticker at the time, 1,201 with a cash price in the filing.
 
-## 10. Success tests (scored on 30 July 2027)
+## 10. Success tests (scored on 2 July 2027)
 1. Ahead after all costs.
 2. Ahead of an index-and-cash mix with the same ups and downs.
 3. Reported against the core's index mix held at 100%.
@@ -135,6 +136,8 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
 | 2026-11-01 | Rules-only sleeve dropped; its 10% goes to cash | Failed the history test before the rules were locked: see reports/rules_only_history.md |
+| 2026-11-01 | Dates brought forward at Cam's request: practice run 2 November to 31 December 2026 (was 7 December to 29 January), counted run 4 January to 2 July 2027 (was 1 February to 30 July), rulebook locked 31 December | The build finished early; most live ASX deals end before December |
+| 2026-11-01 | Section 5: US deals not traded until test 9b passes | The practice run now starts before 9b can be priced |
 | 2026-11-01 | NZX rules for prices without volumes (section 7), agreed with Cam | FinFeedAPI's NZX feed has prices but no volumes |
 | 2026-11-01 | After an independent review of the engine: order lapse, no borrowing, fall-from-peak sales by rule with a review lock, limits counting waiting orders, the break-loss test on the whole position, foreign cash earning nothing | Fixes for findings 3, 4, 8, 9 and 14 of the review |
 | 2026-11-01 | Hedging, cash rate and deal-entry costs written out as the engine applies them; special situation types limited to those with a passed test | So the rulebook and the code say the same thing |

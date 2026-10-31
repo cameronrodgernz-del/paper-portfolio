@@ -85,5 +85,24 @@ with tempfile.TemporaryDirectory() as d:
     check("a resolved call is scored against the market's chance", n == 1 and abs(ours - (1 - 0.96) ** 2) < 1e-9
           and abs(mkt - (1 - c["market_implied"]) ** 2) < 1e-9, (ours, mkt, n))
     check("ledger chain intact", all(v == "ok" for v in L.verify().values()), L.verify())
+
+# trade types without a passed history test are refused (rulebook sections 2, 5 and 9)
+import decide as _d  # noqa: E402
+with tempfile.TemporaryDirectory() as root:
+    os.makedirs(os.path.join(root, "reports"))
+    us = {"sleeve": "deal", "market": "US", "ticker": "XYZ", "side": "buy"}
+    ins = {"sleeve": "special", "market": "US", "ticker": "XYZ", "side": "buy", "type": "insider_cluster"}
+    check("a US deal is refused before test 9b passes", _d.untested(us, root) is not None)
+    check("an ASX deal needs no test", _d.untested(dict(us, market="ASX"), root) is None)
+    check("a special situation without a type is refused", _d.untested(dict(ins, type=None), root) is not None)
+    check("an untested special situation type is refused", _d.untested(dict(ins, type="strategic_review"), root) is not None)
+    check("an insider cluster is refused before test 9a passes", _d.untested(ins, root) is not None)
+    open(os.path.join(root, "reports", "special_insider_history.md"), "w").write("**Result: fail.**")
+    check("an insider cluster is refused after test 9a fails", _d.untested(ins, root) is not None)
+    open(os.path.join(root, "reports", "special_insider_history.md"), "w").write("**Result: pass.**")
+    open(os.path.join(root, "reports", "deal_us_history.md"), "w").write("**Result: pass.**")
+    check("an insider cluster is allowed once test 9a passes", _d.untested(ins, root) is None)
+    check("a US deal is allowed once test 9b passes", _d.untested(us, root) is None)
+    check("a sale never needs a test", _d.untested(dict(us, side="sell"), root) is None)
 print("\nALL PASS" if not fails else f"\n{len(fails)} FAILED: {fails}")
 sys.exit(1 if fails else 0)

@@ -17,7 +17,9 @@ breached, the decision is logged as vetoed and no order is placed.
 Usage: python3 -I src/decide.py <ledger_name> <card.json> [--dry-run]
        python3 -I src/decide.py <ledger_name> review "<what the review found>"   (after a 12% fall)
 A card is placed only once tonight's nightly run is in the ledger. Deal and special situation
-cards need an industry; deal cards also need a group.
+cards need an industry; deal cards also need a group. A special situation card states its "type"
+(e.g. "insider_cluster"); only a type that has passed its history test is traded, and US deals wait
+for test 9b.
 """
 import json
 import os
@@ -106,6 +108,32 @@ def review_pending(L: Ledger) -> bool:
     return flag
 
 
+TESTS = {"us_deal": ("reports", "deal_us_history.md"), "insider_cluster": ("reports", "special_insider_history.md")}
+
+
+def test_passed(name: str, root: str = ROOT) -> bool:
+    """True once the history test's report records a pass (rulebook section 9)."""
+    p = os.path.join(root, *TESTS[name])
+    return os.path.exists(p) and "**Result: pass.**" in open(p).read()
+
+
+def untested(card: dict, root: str = ROOT) -> str | None:
+    """Why a buy can't be placed because its kind of trade hasn't passed a history test, or None.
+    US deals wait for 9b. A special situation card states its type, and only a type that has passed
+    its test is traded (so far only "insider_cluster" has a test: 9a)."""
+    if card.get("side") != "buy":
+        return None
+    if card["sleeve"] == "deal" and card["market"] == "US" and not test_passed("us_deal", root):
+        return "US deals are not traded until the US cash deal test (9b) passes"
+    if card["sleeve"] == "special":
+        kind = card.get("type")
+        if kind not in TESTS or kind == "us_deal":
+            return f"special situation type {kind!r} has no history test, so it is watched but not traded"
+        if not test_passed(kind, root):
+            return f"special situation type {kind!r} has not passed its history test"
+    return None
+
+
 def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dict, now_utc: datetime,
            dry_run: bool = False) -> dict:
     vals = L.records("valuations")
@@ -175,6 +203,9 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
             breaches = [b.replace("expected return", "expected return after costs") for b in breaches]
         if want <= 0:
             breaches.append("sizing gives no stake (the stated odds do not beat the price)")
+        why = untested(card)
+        if why:
+            breaches.append(why)
         out.update(sizing=sz, value_nzd=round(want, 2), costs=costs, expected_net=round(net, 4),
                    expected_annual=round(exp_annual, 4), cash_rate=rate)
     else:

@@ -1,39 +1,47 @@
 # The evening desk as a scheduled task
 
-The prompt below is what the evening desk runs each weekday at 9:30pm NZ time once it is set up
-as a scheduled task. Until the practice run starts (7 December 2026) it runs in watch mode: it
-keeps the deal terms and the dashboard current and places no orders.
+The prompt below is what the evening desk runs each weekday at 9:45pm New Zealand time, after the
+nightly job (8:30pm). It was switched on on 1 November 2026. The practice ledger is active from
+2 November, so from then it trades the practice run as well as watching.
 
 ## Prompt
 
 You are the evening desk for Cam's simulated NZ$100,000 portfolio. The repository is
-cameronrodgernz-del/paper-portfolio (private). Read docs/DAILY_RUN.md and RULEBOOK.md first; they
-are the rules. Never backdate anything. Never place an order the rulebook does not allow. Plain
-English, no em-dashes. This is a simulation and not financial advice.
+cameronrodgernz-del/paper-portfolio (private). If it isn't already in this session, attach it with
+the add_repo tool (owner cameronrodgernz-del, repo paper-portfolio, push access) and clone it.
+Read RULEBOOK.md and docs/DAILY_RUN.md first; they are the rules. Never backdate anything. Never
+place an order the rulebook does not allow. Plain English, no em-dashes. This is a simulation and
+not financial advice.
 
-1. Clone or pull the repository. Run every test in tests/. Read config/run.json.
-2. Check tonight's nightly job landed (a "Nightly data" commit dated today, NZ time). If not, wait
-   up to 30 minutes, pulling every 5. If it is still missing, place no orders and enter nothing in
-   the ledger tonight (the job writes to it too), do the watching only, and say so in
-   research/desk_log.md.
+1. Pull the repository. Run every test in tests/ with python3 -I. If any fails, place nothing
+   tonight, log why in research/desk_log.md, and tell Cam.
+2. Check tonight's nightly job landed: a "Nightly data" commit dated today (NZ time) and, when
+   config/run.json names an active ledger, a valuation for today in that ledger. If not, wait up
+   to 30 minutes, pulling every 5. If it is still missing, place no orders and enter nothing in the
+   ledger tonight (the job writes to it too), do the watching only, and say so in the desk log.
 3. Watch the live deals in config/live_deals.csv and the US leads in reports/deal_monitor.md:
-   - For each ASX deal, read its ASX announcements list for anything new since the last desk
+   - For each ASX and NZX deal, read its announcements list for anything new since the last desk
      log entry (terms, timetable, meeting results, court dates, regulator news, rival bids,
      termination). Update the row in config/live_deals.csv, keeping the same columns, and log
      each change with its source in research/desk_log.md.
    - Add any new binding ASX or NZX control deal of A$100m (NZ$20m) or more, with its terms.
    - Remove a deal that has completed or ended, logging the outcome, and add its outcome to the
      deal database row (deals/au/au_deals_2025_2026.csv or deals/nz/nz_deals.csv).
-4. Run python3 -I src/deal_monitor.py . and python3 -I src/dashboard_data.py . , then refresh the
-   build dashboard (claude.ai/artifact/1BxrCHRc4NQFynLysHdFvz): upload the five files in
+4. If config/run.json names an active ledger, do steps 2 to 7 of "The evening desk" in
+   docs/DAILY_RUN.md: corporate actions, scan, analyse, red team (a separate agent that has not
+   seen the analyst's reasoning), risk check with src/decide.py --dry-run, then place.
+   - US deals are watched and written up but not placed until test 9b passes (reports/deal_us_history.md).
+   - A special situation card states its "type"; only a type whose history test has passed is
+     placed (so far only "insider_cluster", test 9a, reports/special_insider_history.md).
+   - decide.py refuses both of these anyway; don't try to work around a refusal.
+5. Run python3 -I src/deal_monitor.py . and python3 -I src/dashboard_data.py . , then refresh the
+   build dashboard (claude.ai/artifact/1BxrCHRc4NQFynLysHdFvz): upload the files in
    reports/dashboard/ and point each dataset at its new file, with updated set to now.
-5. If config/run.json names an active ledger (from 7 December), do steps 2 to 7 of "The evening
-   desk" in docs/DAILY_RUN.md: corporate actions, scan, analyse, red team (a separate agent),
-   risk check with src/decide.py --dry-run, then place.
-6. Commit and push everything with a message saying what changed.
-7. Message Cam only if a trade was placed, a holding or live deal had material news, or a limit
-   tripped. Otherwise say nothing.
+6. Write tonight's entry in research/desk_log.md (what was checked, what changed, what was placed
+   or refused and why). Commit and push everything with a message saying what changed.
+7. Message Cam only if a trade was placed, a holding or live deal had material news, a limit
+   tripped, or something broke. Otherwise say nothing and end the run with no summary.
 
 ## Setting it up
-Ask Claude to "create the evening desk scheduled task from docs/DESK_TASK.md", weekdays at 9:30pm
-New Zealand time.
+The scheduled task "Paper portfolio evening desk" runs this prompt on weekdays at 9:45pm New
+Zealand time. To change it, ask Claude to update that scheduled task.

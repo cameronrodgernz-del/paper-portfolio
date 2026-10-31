@@ -1,9 +1,9 @@
 # Paper portfolio
 
-A simulated NZ$100,000 portfolio traded at real prices with Sharesies NZ costs. The practice run is 7 December 2026 to 29 January 2027; the counted run is 1 February to 30 July 2027. The build plan is the "Building the simulated trading portfolio" doc; the rules are in RULEBOOK.md; the nightly cycle is in docs/DAILY_RUN.md.
+A simulated NZ$100,000 portfolio traded at real prices with Sharesies NZ costs. The practice run is 2 November to 31 December 2026; the counted run is 4 January to 2 July 2027. The build plan is the "Building the simulated trading portfolio" doc; the rules are in RULEBOOK.md; the nightly cycle is in docs/DAILY_RUN.md.
 
 ## Layout
-- `RULEBOOK.md`: the rules. Draft until 29 January 2027.
+- `RULEBOOK.md`: the rules. Draft until 31 December 2026.
 - `config/`: the price universes, the live deal terms (`live_deals.csv`), and the run settings (`run.json`: which ledger is active, the bankroll, the core's lines and band).
 - `deals/`: the deal database (SCHEMA.md; NZ and Australian files; `all_deals.csv` is the merged copy).
 - `data/`: downloaded series (prices, currencies, interest rates, SEC filings). Written by the nightly job.
