@@ -1,1 +1,293 @@
 isin,ticker,name,category,checked
+NZABBDT044C9,ABB100,ABB 21/06/2027 5.524% ASB Bank Limited Notes,Common Stock,2026-10-31
+NZABBDG006C3,ABB110,ABB 16/11/2026 5.928% ASB Bank Limited Notes,Common Stock,2026-10-31
+NZABBDG007C1,ABB120,ABB 02/09/2030 4.1% ASB Bank Limited Notes,Common Stock,2026-10-31
+AU000000AFI5,AFI,Australian Foundation Investment Company Limited Ord Shares,Common Stock,2026-10-31
+NZAFTE0001S4,AFT,AFT Pharmaceuticals Ltd Ordinary Shares,Common Stock,2026-10-31
+NZAGGE0006S8,AGG,Smart Global Aggregate Bond ETF Units,Common Stock,2026-10-31
+NZAWFE0001S8,AGL,Accordant Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZAIAE0002S6,AIA,Auckland International Airport Limited Ordinary Shares,Common Stock,2026-10-31
+NZAIAD0240L9,AIA240,AIA 17/11/2026 3.29% Auckland International Airport Limited Bonds,Common Stock,2026-10-31
+NZAIAD0250L8,AIA250,AIA 09/05/2028 5.67% Auckland International Airport Limited Bonds,Common Stock,2026-10-31
+NZAIAD0260L7,AIA260,AIA 17/11/2028 5.29% Auckland International Airport Limited Notes,Common Stock,2026-10-31
+NZAIAD0270L6,AIA270,AIA 2/11/2029 6.22% Auckland International Airport Limited Notes,Common Stock,2026-10-31
+NZAIAD0280L5,AIA280,AIA 15/11/2030 5.45% Auckland International Airport Limited Notes,Common Stock,2026-10-31
+NZAIAD0290L4,AIA290,AIA 08/04/2031 4.04% Auckland International Airport Limited Bonds,Common Stock,2026-10-31
+NZAIRE0001S2,AIR,Air New Zealand Limited (NS) Ordinary Shares,Common Stock,2026-10-31
+NZAIRD0030L8,AIR030,AIR 27/04/2028 6.61% Air New Zealand Limited Bonds,Common Stock,2026-10-31
+NZAKCDT520C6,AKC130,AKC 28/09/2050 2.95% Auckland Council Green Bonds,Common Stock,2026-10-31
+NZAKCDT595C8,AKC150,AKC 27/09/2028 5.734% Auckland Council Bonds,Common Stock,2026-10-31
+NZALFE0001S1,ALF,Allied Farmers Limited (NS) Ordinary Shares,Common Stock,2026-10-31
+NZANBDT025C4,ANB180,ANB 16/02/2028 5.22% ANZ Bank New Zealand Limited Bonds,Common Stock,2026-10-31
+NZANBDT026C2,ANB190,ANB 20/02/2030 4.63% ANZ Bank New Zealand Limited Bonds,Common Stock,2026-10-31
+NZANBDP001C9,ANBHC,ANB 00/00/00 6.95% ANZ Bank New Zealand Limited Preference Shares,Common Stock,2026-10-31
+NZANBEP002C6,ANBHD,ANB 00/00/00 7.60% ANZ Bank New Zealand Limited Preference Shares,Common Stock,2026-10-31
+AU000000ANZ3,ANZ,ANZ Group Holdings Limited Ordinary Shares,Common Stock,2026-10-31
+NZWDTE0002S1,AOF,AoFrio Limited Ordinary Shares,Common Stock,2026-10-31
+NZAPAE0002S1,APA,Smart Asia Pacific ETF Units,Common Stock,2026-10-31
+NZNAPE0007S3,APL,Asset Plus Limited Ordinary Shares,Common Stock,2026-10-31
+NZRBCE0001S3,ARB,ArborGen Holdings Limited Ordinary Shares,Common Stock,2026-10-31
+NZARGE0010S7,ARG,Argosy Property Limited Ordinary Shares,Common Stock,2026-10-31
+NZARGDT003C2,ARG030,ARG 27/10/2027 2.20% Argosy Property Limited Green Bonds,Common Stock,2026-10-31
+NZARVDT001C7,ARV010,ARV 22/02/2028 2.87% ARV Limited Bonds,Common Stock,2026-10-31
+NZASDE0001S1,ASD,Smart Australian Dividend ETF Units,Common Stock,2026-10-31
+NZASFE0001S6,ASF,Smart Australian Financials ETF Units,Common Stock,2026-10-31
+NZASPE0001S5,ASP,Smart Australian Property ETF Units,Common Stock,2026-10-31
+NZASRE0001S1,ASR,Smart Australian Resources ETF Units,Common Stock,2026-10-31
+NZATME0002S8,ATM,The a2 Milk Company Limited Ordinary Shares,Common Stock,2026-10-31
+NZAUEE0001S5,AUE,Smart Australian ESG ETF Units,Common Stock,2026-10-31
+NZAUSE0009S8,AUS,Smart Australian Top 200 ETF Units,Common Stock,2026-10-31
+NZECHE0001S8,BAI,Being AI Limited,Common Stock,2026-10-31
+NZBFWE0001S6,BFG,Burger Fuel Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZBGRE0001S4,BGP,Briscoe Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZBIFE0004S9,BIF,Booster Innovation Fund Units,Common Stock,2026-10-31
+GB00BN4NDR39,BIT,The Bankers Investment Trust Plc Ordinary Shares,Common Stock,2026-10-31
+NZBLTE0002S8,BLT,Blis Technologies Limited Ordinary Shares,Common Stock,2026-10-31
+NZBNZDT401C8,BNZ160,BNZ 07/06/2027 4.985% Bank of New Zealand Notes,Common Stock,2026-10-31
+NZBNZDT402C6,BNZ170,BNZ 25/05/2028 5.536% Bank of New Zealand Notes,Common Stock,2026-10-31
+NZBNZDT403C4,BNZ180,BNZ 1/09/2028 5.872% Bank of New Zealand Notes,Common Stock,2026-10-31
+NZBNZDT406C7,BNZ190,BNZ 19/11/2029 4.889% Bank of New Zealand Notes,Common Stock,2026-10-31
+NZBNZDT407C5,BNZ200,BNZ 28/01/2031 4.354% Bank of New Zealand Notes,Common Stock,2026-10-31
+NZBNZDT409C1,BNZ210,BNZ 18/09/2031 4.844% Bank of New Zealand Notes,Common Stock,2026-10-31
+NZBNZEP001C9,BNZHA,BNZ 00/00/00 7.30% Bank of New Zealand Preference Shares,Common Stock,2026-10-31
+NZBNZEP002C7,BNZHB,BNZ 00/00/00 7.28% Bank of New Zealand Preference Shares,Common Stock,2026-10-31
+NZBOTE0008S9,BOT,Smart Automation and Robotics ETF Units,Common Stock,2026-10-31
+NZBPGE0004S2,BPG,Black Pearl Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZBRME0001S2,BRM,Barramundi Limited Ordinary Shares,Common Stock,2026-10-31
+NZCAVE0001S7,BRW,Bremworth Limited Ordinary Shares,Common Stock,2026-10-31
+NZBTCE0001S9,BTC,Smart Bitcoin ETF Units,Common Stock,2026-10-31
+NZCFGE0001S7,CCC,Cooks Coffee Company Limited Ordinary Shares,Common Stock,2026-10-31
+NZKGLE0001S8,CDI,CDL Investments New Zealand Limited Ordinary Shares,Common Stock,2026-10-31
+NZCENE0001S6,CEN,Contact Energy Limited Ordinary Shares,Common Stock,2026-10-31
+NZCEND0060L9,CEN060,CEN 19/11/2026 4.33% Contact Energy Limited Bonds,Common Stock,2026-10-31
+NZCEND0070L8,CEN070,CEN 11/04/2028 5.82% Contact Energy Limited Bonds,Common Stock,2026-10-31
+NZCEND0080L7,CEN080,CEN 06/04/2029 5.62% Contact Energy Limited Bonds,Common Stock,2026-10-31
+NZCEND0090L6,CEN090,CEN 03/10/2054 5.67% Contact Energy Limited Green Bonds,Common Stock,2026-10-31
+NZCHCDT006C9,CHC030,CHC 15/04/2031 5.44% Christchurch International Airport Limited Bonds,Common Stock,2026-10-31
+NZNZRE0001S9,CHI,Channel Infrastructure NZ Limited Ordinary Shares,Common Stock,2026-10-31
+NZCHIDT002C2,CHI020,CHI 20/05/2027 5.80% Channel Infrastructure NZ Limited Bonds,Common Stock,2026-10-31
+NZCHIDT003C0,CHI030,CHI 14/11/2029 6.75% Channel Infrastructure NZ Limited Bonds,Common Stock,2026-10-31
+NZCMOE0001S7,CMO,The Colonial Motor Company Limited Ordinary Shares,Common Stock,2026-10-31
+NZCNUE0001S2,CNU,Chorus Limited (NS) Ordinary Shares,Common Stock,2026-10-31
+NZCNUDT003C6,CNU020,CNU 06/12/2028 6.38% Chorus Limited Bonds,Common Stock,2026-10-31
+NZCNUDT004C4,CNU030,CNU 02/12/2027 1.98% Chorus Limited Bonds,Common Stock,2026-10-31
+NZCNUDT005C1,CNU040,CNU 02/12/2030 2.51% Chorus Limited Bonds,Common Stock,2026-10-31
+NZCNUDT007C7,CNU050,CNU 06/06/2056 5.90% Chorus Limited (NS) Notes,Common Stock,2026-10-31
+NZCO2E0005S7,CO2,Carbon Fund Units,Common Stock,2026-10-31
+NZCVTE0001S7,CVT,Comvita Limited Ordinary Shares,Common Stock,2026-10-31
+NZDGLE0001S3,DGL,Delegat Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZDIVE0001S8,DIV,Smart NZ Dividend ETF Units,Common Stock,2026-10-31
+NZEBOE0001S6,EBO,Ebos Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZEMFE0001S1,EMF,Smart Emerging Markets ETF Units,Common Stock,2026-10-31
+NZEMGE0007S6,EMG,Smart Emerging Markets ESG ETF Units,Common Stock,2026-10-31
+NZERDE0001S5,ERD,EROAD Limited Ordinary Shares,Common Stock,2026-10-31
+NZESGE0008S1,ESG,Smart Global ESG ETF Units,Common Stock,2026-10-31
+NZEUFE0001S4,EUF,Smart Europe ETF Units,Common Stock,2026-10-31
+NZEUGE0007S9,EUG,Smart Europe ESG ETF Units,Common Stock,2026-10-31
+NZFBIDA021C6,FBI210,FBI 15/03/2027 4.75% Fletcher Building Industries Limited Notes,Common Stock,2026-10-31
+NZFBIDA022C4,FBI220,FBI 15/03/2028 6.5% Fletcher Building Industries Limited Notes,Common Stock,2026-10-31
+NZFBIDA023C2,FBI230,FBI 15/03/2029 6.89% Fletcher Building Industries Limited Notes,Common Stock,2026-10-31
+NZFBUE0001S0,FBU,Fletcher Building Limited Ordinary Shares,Common Stock,2026-10-31
+NZFCGE0001S7,FCG,Fonterra Co-operative Group Limited (NS) Shares,Common Stock,2026-10-31
+NZFCGDG006C2,FCG060,FCG 08/11/2029 4.60% Fonterra Co-operative Group Limited Bonds,Common Stock,2026-10-31
+GB00BS88V647,FCT,F&C Investment Trust Ordinary Shares,Common Stock,2026-10-31
+NZFNZE0002S2,FNZ,Smart NZ Top 50 ETF Units,Common Stock,2026-10-31
+NZFAPE0001S2,FPH,Fisher & Paykel Healthcare Corporation Limited Ord Shares,Common Stock,2026-10-31
+NZFREE0001S0,FRW,Freightways Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZFSFE0001S5,FSF,Fonterra Shareholders' Fund Units,Common Stock,2026-10-31
+NZGRME0001S1,FWL,Foley Wines Limited Ordinary Shares,Common Stock,2026-10-31
+NZGBFE0001S9,GBF,Smart Global Bond ETF Units,Common Stock,2026-10-31
+NZMYKE0001S9,GEN,General Capital Limited Ordinary Shares,Common Stock,2026-10-31
+NZGGBE0001S7,GGB,Smart Global Government Bond ETF Units,Common Stock,2026-10-31
+NZGLDE0001S3,GLD,Smart Gold ETF Units,Common Stock,2026-10-31
+NZGMBDT009C3,GMB060,GMB 14/4/2027 4.74% GNZ Bond Issuer Limited Bonds,Common Stock,2026-10-31
+NZGNEE0001S7,GNE,Genesis Energy Limited Ordinary Shares,Common Stock,2026-10-31
+NZGNEDG006C0,GNE060,GNE 14/03/2028 4.17% Genesis Energy Limited Bonds,Common Stock,2026-10-31
+NZGNEDG007C8,GNE070,GNE 09/06/2052 5.66% Genesis Energy Limited Bonds,Common Stock,2026-10-31
+NZGNEDG008C6,GNE080,GNE 10/07/2053 6.50% Genesis Energy Limited (NS) Bonds,Common Stock,2026-10-31
+NZCPTE0001S9,GNZ,Goodman NZ Ltd & Goodman Property Services Ltd (NS) Stapled Security,Common Stock,2026-10-31
+NZGPRE0001S4,GPR,Smart Global Property ETF Units,Common Stock,2026-10-31
+NZGTKE0002S9,GTK,Gentrack Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZBDOE0001S8,GXH,Green Cross Health Limited Ordinary Shares,Common Stock,2026-10-31
+NZHBLD01T2L8,HBL1T2,HBL 28/04/2033 7.51% Heartland Bank Limited Notes,Common Stock,2026-10-31
+JE00B1GXH751,HFL,Henderson Far East Income Limited Ordinary Shares,Common Stock,2026-10-31
+NZHGHE0007S9,HGH,Heartland Group Holdings Limited Ordinary Shares,Common Stock,2026-10-31
+NZHLGE0001S4,HLG,Hallenstein Glasson Holdings Limited Ordinary Shares,Common Stock,2026-10-31
+NZIAGDT004C1,IAGFC,IAG 15/06/2038 5.32% Insurance Australia Group Limited Notes,Common Stock,2026-10-31
+NZIFTE0003S3,IFT,Infratil Limited Ordinary Shares,Common Stock,2026-10-31
+NZIFTD0270L5,IFT270,IFT 15/12/2028 6.78% Infratil Limited Bonds,Common Stock,2026-10-31
+NZIFTD0280L4,IFT280,IFT 15/12/2026 3.35% Infratil Limited Bonds,Common Stock,2026-10-31
+NZIFTD0310L9,IFT310,IFT 15/12/2027 3.60% Infratil Limited Bonds,Common Stock,2026-10-31
+NZIFTD0320L8,IFT320,IFT 15/06/2030 5.61% Infratil Limited Bonds,Common Stock,2026-10-31
+NZIFTD0330L7,IFT330,IFT 31/07/2029 6.90% Infratil Limited Bonds,Common Stock,2026-10-31
+NZIFTD0340L6,IFT340,IFT 15/03/2031 7.08% Infratil Limited Bonds,Common Stock,2026-10-31
+NZIFTD0350L5,IFT350,IFT 17/12/2031 7.06% Infratil Limited Bonds,Common Stock,2026-10-31
+NZIFTD0360L4,IFT360,IFT 13/12/2030 6.00% Infratil Limited Bonds,Common Stock,2026-10-31
+NZIFTD0370L3,IFT370,IFT370 16/06/2032 6.16% Infratil Limited Bonds,Common Stock,2026-10-31
+NZIFTD0380L2,IFT380,IFT 15/06/2057 5.50% Infratil Limited Bonds,Common Stock,2026-10-31
+NZIFTD0020S9,IFTHA,IFT 00/00/00 3.9% Infratil Limited Infrastructure Bonds,Common Stock,2026-10-31
+NZIFTD0290L3,IFTHC,IFT 15/12/2029 5.20% Infratil Limited Bonds,Common Stock,2026-10-31
+NZIKEE0001S9,IKE,ikeGPS Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZINFE0008S5,INF,Smart Global Infrastructure ETF Units,Common Stock,2026-10-31
+NZIPLE0001S3,IPL,Investore Property Limited (NS) Ordinary Shares,Common Stock,2026-10-31
+NZIPLDT002C1,IPL020,IPL 31/08/2027 2.40% Investore Property Limited Bonds,Common Stock,2026-10-31
+NZIPLDT003C9,IPL030,IPL 25/02/2027 4.00% Investore Property Limited Bonds,Common Stock,2026-10-31
+NZJPNE0009S0,JPN,Smart Japan ESG ETF Units,Common Stock,2026-10-31
+NZKFLE0001S0,KFL,Kingfish Limited Ordinary Shares,Common Stock,2026-10-31
+NZKMDE0007S0,KMD,KMD Brands Limited Ordinary Shares,Common Stock,2026-10-31
+NZKPGE0001S9,KPG,Kiwi Property Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZKPGD0050L3,KPG050,KPG 19/07/2028 2.85% Kiwi Property Group Limited Bonds,Common Stock,2026-10-31
+NZKPGD0060L2,KPG060,KPG 27/09/2029 6.24% Kiwi Property Group Limited Bonds,Common Stock,2026-10-31
+NZKPGD0070L1,KPG070,KPG 19/06/2030 5.35% Kiwi Property Group Limited Green Bonds,Common Stock,2026-10-31
+NZKIWD01T2L3,KWB1T2,KWB 12/05/2033 6.4% Kiwibank Limited Notes,Common Stock,2026-10-31
+NZKWBD02T2L9,KWB2T2,KWB 12/03/2036 4.93% Kiwibank Limited Notes,Common Stock,2026-10-31
+NZKIWD0002S1,KWBHB,KWB 00/00/00 7.38% Kiwibank Limited Preference Shares,Common Stock,2026-10-31
+NZLGFDT007C4,LGF060,LGF 15/04/2027 4.50% - NZ Local Govt Funding Agency Ltd,Common Stock,2026-10-31
+NZLGFDT009C0,LGF080,LGF 14/04/2033 3.50% Local Govt Funding Agency Ltd,Common Stock,2026-10-31
+NZLGFDT012C4,LGF110,LGF 20/04/2029 1.50% Local Govt Funding Agency Ltd,Common Stock,2026-10-31
+NZLGFDT016C5,LGF130,LGF 15/04/2037 2.00% NZ Local Government Funding Agency Limited,Common Stock,2026-10-31
+NZLGFDT017C3,LGF140,LGF 15/05/2031 2.25% NZ Local Government Funding Agency Limited Bonds,Common Stock,2026-10-31
+NZLGFDT020C7,LGF170,LGF 15/05/2030 4.5% NZ Local Government Funding Agency Limited Bonds,Common Stock,2026-10-31
+NZLGFDT021C5,LGF180,LGF 14/05/2032 4.50% NZ Local Government Funding Agency Limited Bonds,Common Stock,2026-10-31
+NZLGFDT022C3,LGF190,LGF 15/05/2034 4.75% NZ Local Government Funding Agency Limited Bonds,Common Stock,2026-10-31
+NZLICE0001S1,LIC,Livestock Improvement Corporation Ltd (NS) Ordinary Shares,Common Stock,2026-10-31
+NZLIVE0008S6,LIV,Smart Healthcare Innovation ETF Units,Common Stock,2026-10-31
+NZLOCE0001S9,LOC,Locate Technologies Limited Ordinary Shares,Common Stock,2026-10-31
+NZLODE0003S3,LOD,Lodestone Energy Limited Ordinary Shares,Common Stock,2026-10-31
+NZMCKE0004S9,MCK,Millennium & Copthorne Hotels NZ Limited Ordinary Shares,Common Stock,2026-10-31
+NZMRPE0001S2,MCY,Mercury NZ Limited Ordinary Shares,Common Stock,2026-10-31
+NZMCYDG003C8,MCY030,MCY 14/09/2027 1.56% Mercury NZ Limited Green Bonds,Common Stock,2026-10-31
+NZMCYDG005C3,MCY050,MCY 13/05/2052 5.73% Mercury NZ Limited (NS) Capital Bonds,Common Stock,2026-10-31
+NZMCYDG006C1,MCY060,MCY 19/06/2028 5.64% Mercury NZ Limited Bonds,Common Stock,2026-10-31
+NZMCYDG007C9,MCY070,MCY 11/07/2054 6.42% Mercury NZ Limited (NS) Capital Bonds,Common Stock,2026-10-31
+NZMCYDG008C7,MCY080,MCY 01/04/2033 5.17% Mercury NZ Limited Green Bonds,Common Stock,2026-10-31
+NZMDZE0002S9,MDZ,Smart NZ Mid Cap ETF Units,Common Stock,2026-10-31
+NZRLVE0001S2,MEE,Me Today Limited Ordinary Shares,Common Stock,2026-10-31
+NZMEEE0005S5,MEEWB,Me Today Limited 29/10/2027 $0.06 Warrants,Common Stock,2026-10-31
+NZMELE0002S7,MEL,Meridian Energy Limited (NS) Ordinary Shares,Common Stock,2026-10-31
+NZMELDT096C0,MEL060,MEL 20/09/2028 5.91% Meridian Energy Limited Bonds,Common Stock,2026-10-31
+NZMELDT105C9,MEL070,MEL 21/03/2030 5.40% Meridan Energy Limited Green Bonds,Common Stock,2026-10-31
+NZMELDT122C4,MEL080,MEL 11/03/2032 4.55% Meridian Energy Limited Green Bonds,Common Stock,2026-10-31
+NZMETDT002C0,MET020,MET 30/09/2032 6.27% Metlifecare Limited Bonds,Common Stock,2026-10-31
+AU0000439838,MEX,Minerals Exploration Limited Ordinary Shares,Common Stock,2026-10-31
+NZMFBE0004S1,MFB,My Food Bag Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZMFTE0001S9,MFT,Mainfreight Limited Ordinary Shares,Common Stock,2026-10-31
+AU000000MHJ4,MHJ,Michael Hill International Ltd Ordinary Shares,Common Stock,2026-10-31
+AU0000090292,MKR,Manuka Resources Limited Ordinary Shares,Common Stock,2026-10-31
+NZMLNE0001S0,MLN,Marlin Global Limited Ordinary Shares,Common Stock,2026-10-31
+NZMLNE0013S5,MLNWH,Marlin Global Limited 23/04/2027 $0.87 Warrants,Common Stock,2026-10-31
+NZMOWE0001S5,MOV,Move Logistics Group Ltd Ordinary Shares,Common Stock,2026-10-31
+NZMPGE0001S5,MPG,Metro Performance Glass Limited Ordinary Shares,Common Stock,2026-10-31
+NZMTFD0003S7,MTFHC,MTF 00/00/00 6.15% Motor Trade Finance Preference Shares,Common Stock,2026-10-31
+NZMZYE0002S5,MZY,Smart Australian Mid Cap ETF Units,Common Stock,2026-10-31
+NZFCND0004S9,NFFHA,NFF 00/00/00 9.0666% Nufarm Finance NZ Ltd Perpetual Notes,Common Stock,2026-10-31
+NZNGBE0008S8,NGB,Smart S&P/NZX NZ Government Bond ETF Units,Common Stock,2026-10-31
+NZNPFE0001S5,NPF,Smart NZ Property ETF Units,Common Stock,2026-10-31
+NZNPHE0005S2,NPH,Napier Port Holdings Limited Ordinary Shares,Common Stock,2026-10-31
+NZNPHD0010L9,NPH010,NPH 23/03/2028 5.52% Napier Port Holdings Limited Bonds,Common Stock,2026-10-31
+NZHERE0001S6,NTL,New Talisman Gold Mines Limited Ordinary Shares,Common Stock,2026-10-31
+NZNZBE0001S3,NZB,Smart NZ Bond ETF Units,Common Stock,2026-10-31
+NZNZCE0001S1,NZC,Smart NZ Cash ETF Units,Common Stock,2026-10-31
+NZNZGE0009S5,NZG,Smart S&P/NZX 50 ETF Units,Common Stock,2026-10-31
+NZNZKE0003S0,NZK,NZ King Salmon Investments Limited Ordinary Shares,Common Stock,2026-10-31
+NZNZLE0001S2,NZL,New Zealand Rural Land Company Limited (NS) Ordinary Shares,Common Stock,2026-10-31
+NZNZME0001S0,NZM,NZME Limited Ordinary Shares,Common Stock,2026-10-31
+NZNZTE0001S5,NZT,Smart S&P/NZX 20 ETF Units,Common Stock,2026-10-31
+NZNZXE0001S7,NZX,NZX Limited Ordinary Shares,Common Stock,2026-10-31
+NZNZXD0020L4,NZX020,NZX 20/06/2033 6.8% NZX Limited Notes,Common Stock,2026-10-31
+NZOCAE0002S0,OCA,Oceania Healthcare Limited Ordinary Shares,Common Stock,2026-10-31
+NZOCADT001C3,OCA010,OCA 19/10/2027 2.30% Oceania Healthcare Limited Bonds,Common Stock,2026-10-31
+NZOCADT002C1,OCA020,OCA 13/09/2028 3.3% Oceania Healthcare Limited Bonds,Common Stock,2026-10-31
+NZOCADT003C9,OCA030,OCA 1/07/2032 5.55% Oceania Healthcare Limited Bonds,Common Stock,2026-10-31
+NZOZYE0002S1,OZY,Smart Australian Top 20 ETF Units,Common Stock,2026-10-31
+NZAPTE0001S3,PCT,Precinct Prop NZ Ltd & Invest Ltd Stapled Security (NS),Common Stock,2026-10-31
+NZPCTDT003C7,PCT030,PCT 28/05/2027 2.85% Precinct Properties New Zealand Ltd Bonds,Common Stock,2026-10-31
+NZPCTDT004C5,PCT040,PCT 09/05/2028 5.25% Precinct Properties New Zealand Limited Bonds,Common Stock,2026-10-31
+NZPCTDG003C2,PCTHC,PCT 21/09/2027 7.53% Convertible Notes,Common Stock,2026-10-31
+NZPEBE0002S1,PEB,Pacific Edge Limited Ordinary Shares,Common Stock,2026-10-31
+NZPFIE0001S5,PFI,Property For Industry Limited Ordinary Shares,Common Stock,2026-10-31
+NZPFIDT030C0,PFI030,PFI 13/09/2030 5.43% Property for Industry Limited Bonds,Common Stock,2026-10-31
+NZPFIDT040C9,PFI040,PFI 13/10/2032 5.35% Property for Industry Limited Bonds,Common Stock,2026-10-31
+NZREIE0001S4,PGW,PGG Wrightson Limited Ordinary Shares,Common Stock,2026-10-31
+NZPRPE0001S5,PHL,Promisia Healthcare Limited Ordinary Shares,Common Stock,2026-10-31
+NZPHLE0002S3,PHLWA,Promisia Healthcare Limited 24/03/2027 $0.50 Warrants,Common Stock,2026-10-31
+NZPLPE0007S5,PLP,Private Land and Property Fund Units,Common Stock,2026-10-31
+NZPOTE0003S0,POT,Port of Tauranga Ltd Ordinary Shares,Common Stock,2026-10-31
+NZMADE0001S4,PYS,PaySauce Limited Ordinary Shares,Common Stock,2026-10-31
+NZQHLD0001S5,QHLHA,QHL 00/00/00 5.18% Quayside Holdings Ltd Preference Shares,Common Stock,2026-10-31
+NZRADE0005S4,RAD,Radius Residential Care Limited Ordinary Shares,Common Stock,2026-10-31
+CA78109M2067,RGI,RUA Gold Inc Ordinary Shares,Common Stock,2026-10-31
+NZNZFE0001S4,RTO,RTO Limited Ordinary Shares,Common Stock,2026-10-31
+NZRUAE0004S1,RUA,RUA Bioscience Limited Ordinary Shares,Common Stock,2026-10-31
+NZRYME0001S4,RYM,Ryman Healthcare Limited Ordinary Shares,Common Stock,2026-10-31
+NZRYMD0010L2,RYM010,RYM 18/12/2026 2.55% Ryman Healthcare Limited Bonds,Common Stock,2026-10-31
+NZRYMD0020L1,RYM020,RYM 22/06/2032 5.72% Ryman Healthcare Limited Bonds,Common Stock,2026-10-31
+NZSANE0001S0,SAN,Sanford Limited (NS) Ordinary Shares,Common Stock,2026-10-31
+NZSBBDT297C3,SBS010,SBS 18/03/2027 4.32% Southland Building Society Bonds,Common Stock,2026-10-31
+NZSBBDT370C8,SBS020,SBS 07/03/2029 6.14% Southland Building Society Bonds,Common Stock,2026-10-31
+NZSBBDT424C3,SBS030,SBS 10/04/2030 4.98% Southland Building Society Bonds,Common Stock,2026-10-31
+NZSBBDT390C6,SBS1T2,SBS 22/08/2034 7.62% Southland Building Society Bonds,Common Stock,2026-10-31
+NZSCLE0002S8,SCL,Scales Corporation Limited Ordinary Shares,Common Stock,2026-10-31
+NZSCTE0001S3,SCT,Scott Technology Limited Ordinary Shares,Common Stock,2026-10-31
+NZSDLE0001S8,SDL,Solution Dynamics Limited Ordinary Shares,Common Stock,2026-10-31
+NZSEKE0001S8,SEK,Seeka Limited Ordinary Shares,Common Stock,2026-10-31
+NZSKCE0001S2,SKC,SkyCity Entertainment Group Limited (NS) Ordinary Shares,Common Stock,2026-10-31
+NZSKCDT001C7,SKC050,SKC 21/05/2027 3.02% SkyCity Entertainment Group Limited Bonds,Common Stock,2026-10-31
+NZSKXE0001S8,SKL,Skellerup Holdings Limited Ordinary Shares,Common Stock,2026-10-31
+NZSKOE0001S7,SKO,Serko Limited Ordinary Shares,Common Stock,2026-10-31
+NZSKTE0001S6,SKT,Sky Network Television Limited Ordinary Shares,Common Stock,2026-10-31
+AU000000SMI3,SMI,Santana Minerals Limited Ordinary Shares,Common Stock,2026-10-31
+NZSMLE0001S9,SML,Synlait Milk Limited Ordinary Shares,Common Stock,2026-10-31
+NZSPFD0590L3,SPF590,SPF 18/09/2029 5.21% Spark Finance Limited Bonds,Common Stock,2026-10-31
+NZSPGE0001S2,SPG,Stride Prop & Stride Invest Mgmt Ltd Stapled Security (NS),Common Stock,2026-10-31
+NZTELE0001S4,SPK,Spark New Zealand Limited Ordinary Shares,Common Stock,2026-10-31
+NZSPNE0001S8,SPN,South Port New Zealand Limited Ordinary Shares,Common Stock,2026-10-31
+NZSUTE0001S5,STU,Steel & Tube Holdings Limited Ordinary Shares,Common Stock,2026-10-31
+NZSUME0001S0,SUM,Summerset Group Holdings Limited Ordinary Shares,Common Stock,2026-10-31
+NZSUMD0030L6,SUM030,SUM 21/09/2027 2.30% Summerset Group Holdings Limited Bonds,Common Stock,2026-10-31
+NZSUMD0040L5,SUM040,SUM 09/03/2029 6.59% Summerset Group Holdings Limited Bonds,Common Stock,2026-10-31
+NZSUMD0050L4,SUM050,SUM 08/03/2030 6.43% Summerset Group Holdings Limited Bonds,Common Stock,2026-10-31
+NZSUMD0060L3,SUM060,SUM 23/05/2031 5.70% Summerset Group Holdings Limited Bonds,Common Stock,2026-10-31
+NZMOAE0001S1,SVR,Savor Limited Ordinary Shares,Common Stock,2026-10-31
+NZTAHE0001S0,TAH,Third Age Health Services Limited Ordinary Shares,Common Stock,2026-10-31
+NZTCME0001S6,TCM,Taiko Critical Minerals Limited Ordinary Shares,Common Stock,2026-10-31
+GB00BKPG0S09,TEM,Templeton Emerging Markets Plc Ordinary Shares,Common Stock,2026-10-31
+NZTURE0002S5,TGG,T&G Global Limited Ordinary Shares,Common Stock,2026-10-31
+NZHELE0001S9,THL,Tourism Holdings Limited Ordinary Shares,Common Stock,2026-10-31
+NZTNZE0002S3,TNZ,Smart NZ Top 10 ETF Units,Common Stock,2026-10-31
+NZVNLE0001S1,TRA,Turners Automotive Group Ltd Ordinary Shares,Common Stock,2026-10-31
+NZTRPD0100L4,TRP100,TRP 16/09/2027 4.627% Transpower New Zealand Limited Bonds,Common Stock,2026-10-31
+NZTRPD0110L3,TRP110,TRP 31/07/2030 4.219% Transpower New Zealand Limited Green Bonds,Common Stock,2026-10-31
+NZTRUE0001S7,TRU,TruScreen Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZTWFE0001S8,TWF,Smart Total World ETF Units,Common Stock,2026-10-31
+NZTWHE0009S7,TWH,Smart Total World (NZD Hedged) ETF Units,Common Stock,2026-10-31
+NZTWLE0004S0,TWL,Trade Window Holdings Limited Ordinary Shares,Common Stock,2026-10-31
+NZTWRE0011S2,TWR,Tower Limited Ordinary Shares,Common Stock,2026-10-31
+NZUSAE0009S8,USA,Smart US ESG ETF Units,Common Stock,2026-10-31
+NZUSFE0001S4,USF,Smart US 500 ETF Units,Common Stock,2026-10-31
+NZUSGE0001S2,USG,Smart US Large Growth ETF Units,Common Stock,2026-10-31
+NZUSHE0001S0,USH,Smart US 500 (NZD Hedged) ETF Units,Common Stock,2026-10-31
+NZUSME0001S0,USM,Smart US Mid Cap ETF Units,Common Stock,2026-10-31
+NZUSSE0001S7,USS,Smart US Small Cap ETF Units,Common Stock,2026-10-31
+NZUSTE0001S5,UST,Smart US Technology (NZD Hedged) ETF Units,Common Stock,2026-10-31
+NZUSVE0001S1,USV,Smart US Large Value ETF Units,Common Stock,2026-10-31
+NZVCTE0001S7,VCT,Vector Limited (NS) Ordinary Shares,Common Stock,2026-10-31
+NZVCTDT013C8,VCT100,VCT 26/11/2027 3.69% Vector Limited Bonds,Common Stock,2026-10-31
+NZVCTDT014C6,VCT110,VCT 15/06/2027 6.23% Vector Limited Bonds,Common Stock,2026-10-31
+NZVGLE0003S1,VGL,Vista Group International Ltd Ordinary Shares,Common Stock,2026-10-31
+NZCHPE0001S4,VHP,Vital Healthcare Property Trust Ordinary Units,Common Stock,2026-10-31
+AU0000184459,VNT,Ventia Services Group Limited Ordinary Shares,Common Stock,2026-10-31
+AU0000181984,VSL,Vulcan Steel Limited Ordinary Shares,Common Stock,2026-10-31
+AU000000WBC1,WBC,Westpac Banking Corporation Ordinary Shares,Common Stock,2026-10-31
+NZSNKE0001S9,WCO,WasteCo Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZWHSE0001S6,WHS,The Warehouse Group Limited Ordinary Shares,Common Stock,2026-10-31
+NZWIAD0060L5,WIA060,WIA 01/04/2030 5.63% Wellington International Airport Limited Bonds,Common Stock,2026-10-31
+NZWIAD0080L3,WIA080,WIA 24/09/2031 5.95% Wellington International Airport Limited Bonds,Common Stock,2026-10-31
+NZWIAD0090L2,WIA090,WIA 24/08/2028 5.78% Wellington International Airport Limited Bonds,Common Stock,2026-10-31
+NZWIAD0100L9,WIA100,WIA 04/09/2030 6.02% Wellington International Airport Bonds,Common Stock,2026-10-31
+NZWIAD0110L8,WIA110,WIA 03/04/2031 5.09% Wellington International Airport Limited Bonds,Common Stock,2026-10-31
+NZWINE0003S1,WIN,Winton Land Limited (NS) Ordinary Shares,Common Stock,2026-10-31
+NZWKSDP001S3,WKSHA,WKS 00/00/00 7.14% Works Finance (NZ) Limited Pref Shares,Common Stock,2026-10-31
+NZWNZD01T2L9,WNZ1T2,WNZ 16/09/2032 6.19% Westpac New Zealand Limited Notes,Common Stock,2026-10-31
+NZWNZD02T2L8,WNZ2T2,WNZ 14/02/2034 6.73% Westpac New Zealand Limited Notes,Common Stock,2026-10-31
+NZWNZD0001S1,WNZHA,WNZ 00/00/00 7.10% Westpac New Zealand Limited Preference Shares,Common Stock,2026-10-31

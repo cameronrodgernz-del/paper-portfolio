@@ -1,0 +1,4 @@
+date,open,high,low,close,volume,adj_close,dividend,split,source
+2026-10-27,2.03,2.1,2.03,2.03,,,,,finfeed
+2026-10-28,2.04,2.09,2.04,2.05,,,,,finfeed
+2026-10-29,2.06,2.1,2.05,2.1,,,,,finfeed

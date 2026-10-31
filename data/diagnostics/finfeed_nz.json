@@ -33,7 +33,7 @@
    "x-tierlimit-concurrency-limit": "1",
    "x-tierlimit-concurrency-remaining": "1",
    "x-tierlimit-rpm-limit": "10",
-   "x-tierlimit-rpm-remaining": "7"
+   "x-tierlimit-rpm-remaining": "5"
   },
   "known_rows": {
    "OCA": {
@@ -125,7 +125,7 @@
    "x-tierlimit-concurrency-limit": "1",
    "x-tierlimit-concurrency-remaining": "1",
    "x-tierlimit-rpm-limit": "10",
-   "x-tierlimit-rpm-remaining": "5"
+   "x-tierlimit-rpm-remaining": "6"
   },
   "rows": 835,
   "first": {
