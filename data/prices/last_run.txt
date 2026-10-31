@@ -1,0 +1,20 @@
+run 2026-10-31
+ASX:VAS +254
+ASX:BHP +254
+ASX:TAH +254
+ASX:BET +254
+ASX:RTH +254
+ASX:IEL +254
+US:VT +251
+US:SPY +251
+US:AAPL +251
+US:LNW +192
+PROBLEMS:
+FNZ: HTTPError: HTTP Error 404: Not Found
+AIR: HTTPError: HTTP Error 404: Not Found
+FPH: HTTPError: HTTP Error 404: Not Found
+SKC: HTTPError: HTTP Error 404: Not Found
+OCA: HTTPError: HTTP Error 404: Not Found
+KMD: HTTPError: HTTP Error 404: Not Found
+HGH: HTTPError: HTTP Error 404: Not Found
+FBU: HTTPError: HTTP Error 404: Not Found
