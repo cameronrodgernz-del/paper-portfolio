@@ -1,0 +1,18 @@
+{
+ "exchanges_nz": {
+  "status": 403,
+  "error": "{\n  \"title\": \"Forbidden\",\n  \"status\": 403,\n  \"detail\": \"Quota exceeded: Insufficient Usage Credits or Subscription.\",\n  \"error\": \"Forbidden (Quota exceeded: Insufficient Usage Credits or Subscription.)\",\n  \"QuotaKey\": \"BA\",\n  \"QuotaName\": \"Insufficient Usage Credits or Subscription\",\n  \"QuotaType\": \"Organization Limit\",\n  \"QuotaValueCurrentUsage\": 0,\n  \"QuotaValue\": 0,\n  \"QuotaValueUnit\": \"$\",\n  \"QuotaValueAdjustable\": \"Yes, acquire or upgrade subscription, add service credits manually or setup "
+ },
+ "symbols_xnze": {
+  "status": 403,
+  "error": "{\n  \"title\": \"Forbidden\",\n  \"status\": 403,\n  \"detail\": \"Quota exceeded: Insufficient Usage Credits or Subscription.\",\n  \"error\": \"Forbidden (Quota exceeded: Insufficient Usage Credits or Subscription.)\",\n  \"QuotaKey\": \"BA\",\n  \"QuotaName\": \"Insufficient Usage Credits or Subscription\",\n  \"QuotaType\": \"Organization Limit\",\n  \"QuotaValueCurrentUsage\": 0,\n  \"QuotaValue\": 0,\n  \"QuotaValueUnit\": \"$\",\n  \"QuotaValueAdjustable\": \"Yes, acquire or upgrade subscription, add service credits manually or setup "
+ },
+ "air_daily_october": {
+  "status": 403,
+  "error": "{\n  \"title\": \"Forbidden\",\n  \"status\": 403,\n  \"detail\": \"Quota exceeded: Insufficient Usage Credits or Subscription.\",\n  \"error\": \"Forbidden (Quota exceeded: Insufficient Usage Credits or Subscription.)\",\n  \"QuotaKey\": \"BA\",\n  \"QuotaName\": \"Insufficient Usage Credits or Subscription\",\n  \"QuotaType\": \"Organization Limit\",\n  \"QuotaValueCurrentUsage\": 0,\n  \"QuotaValue\": 0,\n  \"QuotaValueUnit\": \"$\",\n  \"QuotaValueAdjustable\": \"Yes, acquire or upgrade subscription, add service credits manually or setup "
+ },
+ "whole_exchange_30_oct": {
+  "status": 403,
+  "error": "{\n  \"title\": \"Forbidden\",\n  \"status\": 403,\n  \"detail\": \"Quota exceeded: Insufficient Usage Credits or Subscription.\",\n  \"error\": \"Forbidden (Quota exceeded: Insufficient Usage Credits or Subscription.)\",\n  \"QuotaKey\": \"BA\",\n  \"QuotaName\": \"Insufficient Usage Credits or Subscription\",\n  \"QuotaType\": \"Organization Limit\",\n  \"QuotaValueCurrentUsage\": 0,\n  \"QuotaValue\": 0,\n  \"QuotaValueUnit\": \"$\",\n  \"QuotaValueAdjustable\": \"Yes, acquire or upgrade subscription, add service credits manually or setup "
+ }
+}
