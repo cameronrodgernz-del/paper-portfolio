@@ -27,9 +27,18 @@ not financial advice.
    - Add any new binding ASX or NZX control deal of A$100m (NZ$20m) or more, with its terms.
    - Remove a deal that has completed or ended, logging the outcome, and add its outcome to the
      deal database row (deals/au/au_deals_2025_2026.csv or deals/nz/nz_deals.csv).
+   - Keep a deal file for every live deal in research/deals/ (<TICKER>.md, NZ_<TICKER>.md for NZX),
+     in the format of research/deals/TEMPLATE.md, from primary sources only: the announcements,
+     the scheme booklet or target's statement, the independent expert's report, the implementation
+     deed and the regulators' registers. Update the header (stage, dates, conditions met and open)
+     and add a line under Recent announcements for anything new. A new deal gets its file before any
+     card. Then run python3 -I src/deal_files.py . to carry the header into config/live_deals.csv.
+   - If the deal database changed, rerun python3 -I src/history/deal_base_rates.py . and
+     python3 -I src/history/deal_odds.py . (pip install scikit-learn --break-system-packages first).
 4. If config/run.json names an active ledger, do steps 2 to 7 of "The evening desk" in
    docs/DAILY_RUN.md: corporate actions, scan, analyse, red team (a separate agent that has not
-   seen the analyst's reasoning), risk check with src/decide.py --dry-run, then place.
+   seen the analyst's reasoning, working through docs/RED_TEAM.md), risk check with
+   src/decide.py --dry-run, then place.
    - US deals are watched and written up but not placed until test 9b passes (reports/deal_us_history.md).
    - A special situation card states its "type"; only a type whose history test has passed is
      placed (so far only "insider_cluster", test 9a, reports/special_insider_history.md).

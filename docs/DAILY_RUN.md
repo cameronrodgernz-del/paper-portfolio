@@ -25,12 +25,12 @@ Follows rulebook section 8. Each step leaves a file, so a missed or partial nigh
    - NZX: the same for NZX names.
    - SEC: `data/sec/deal_filings.csv` for new merger proxies, tender offers and responses.
    - Flag: new deals, changed terms, meeting results, court dates, regulator news, rival bids, holder build-ups, strategic reviews.
-4. **Analyse.** For each flagged event, a note in `research/events/<date>-<ticker>.md`. For each candidate entry or exit, a decision card (`research/cards/<date>-<ticker>.json`, format in `src/decide.py`):
+4. **Analyse.** Keep a deal file for every live deal (`research/deals/<TICKER>.md`, `NZ_<TICKER>.md` for NZX, format in `research/deals/TEMPLATE.md`) from primary sources: the announcements, the scheme booklet or target's statement, the independent expert's report, the implementation deed and the regulators' registers. Update its header (stage, dates, conditions) whenever something changes, then run `python3 -I src/deal_files.py .` to carry it into `config/live_deals.csv`. For each flagged event, a note in `research/events/<date>-<ticker>.md`. For each candidate entry or exit, a decision card (`research/cards/<date>-<ticker>.json`, format in `src/decide.py`):
    - the outcomes, their chances and prices;
    - the base rate it starts from and each adjustment, written down;
    - the resolve-by date and the exit rule;
    - why the market's spread is wrong.
-5. **Red team.** A separate agent that has not seen the analyst's reasoning argues against each card. Its points go in the card's file. The analyst may revise the card once.
+5. **Red team.** A separate agent that has not seen the analyst's reasoning argues against each card, working through docs/RED_TEAM.md with the card, the deal file and the monitor's row. Its points go in the card's file. The analyst may revise the card once.
 6. **Risk manager.** `python3 -I src/decide.py <ledger> <card> --dry-run` gives the stake, the costs and every limit breach. A card with a breach is not placed. A veto by judgement is logged with its reason.
 7. **Place.** `python3 -I src/decide.py <ledger> <card>` logs the decision, the dated call and the order, timed when it runs. Commit and push.
 8. **Refresh the build dashboard** (claude.ai/artifact/1BxrCHRc4NQFynLysHdFvz): `python3 -I src/dashboard_data.py .`, upload the five files in `reports/dashboard/`, and point each dataset at its new file.
