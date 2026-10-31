@@ -1,55 +1,50 @@
 run 2026-10-31
-US:BFAM +3463
-US:BGSF +3147
-US:BLLN +247
-US:BNED +2829
-US:BRKL +83
+US:BRR +91
+US:BTN +0
+US:BUSE +4383
+US:BXP +4383
+US:CACI +4383
+US:CAI +345
+US:CAPIX +802
+US:CARE +3549
+US:CBKN +0
+US:CC +2851
+US:CCAP +1696
+US:CCB +2084
+US:CCRN +4312
+US:CDLX +2193
+US:CELC +2291
+US:CHD +4383
+US:CHTR +4232
+US:CLMS +1947
+US:CLMT +580
+US:CLNC +2199
+US:CLNH +982
+US:CLPR +2444
+US:CMT +4383
+US:CMTG +1253
+US:CNAF +4376
+US:CNCE +2280
+US:CNK +4383
+US:CNMD +4383
+US:CNNE +2248
+US:COOK +1321
+US:COYA +963
+US:CPAH +2957
+US:CPF +4383
+US:CRDO +1195
+US:CRGY +1229
+US:CRH +4383
+US:CSII +3503
+US:CSPR +496
+US:CSV +4383
+US:CTBI +4383
+US:CTGO +3931
+US:CTLP +4262
+US:CTLT +2615
+US:CTOS +657
 PROBLEMS:
-BRR: HTTPError: HTTP Error 429: Too Many Requests
-BTN: HTTPError: HTTP Error 429: Too Many Requests
-BUSE: HTTPError: HTTP Error 429: Too Many Requests
-BXP: HTTPError: HTTP Error 429: Too Many Requests
-CACI: HTTPError: HTTP Error 429: Too Many Requests
-CAI: HTTPError: HTTP Error 429: Too Many Requests
-CAPIX: HTTPError: HTTP Error 429: Too Many Requests
-CARE: HTTPError: HTTP Error 429: Too Many Requests
-CBKN: HTTPError: HTTP Error 429: Too Many Requests
-CC: HTTPError: HTTP Error 429: Too Many Requests
-CCAP: HTTPError: HTTP Error 429: Too Many Requests
-CCB: HTTPError: HTTP Error 429: Too Many Requests
-CCRN: HTTPError: HTTP Error 429: Too Many Requests
-CDLX: HTTPError: HTTP Error 429: Too Many Requests
-CELC: HTTPError: HTTP Error 429: Too Many Requests
-CHD: HTTPError: HTTP Error 429: Too Many Requests
-CHTR: HTTPError: HTTP Error 429: Too Many Requests
-CLMS: HTTPError: HTTP Error 429: Too Many Requests
-CLMT: HTTPError: HTTP Error 429: Too Many Requests
-CLNC: HTTPError: HTTP Error 429: Too Many Requests
-CLNH: HTTPError: HTTP Error 429: Too Many Requests
-CLPR: HTTPError: HTTP Error 429: Too Many Requests
-CLR: HTTPError: HTTP Error 429: Too Many Requests
-CMT: HTTPError: HTTP Error 429: Too Many Requests
-CMTG: HTTPError: HTTP Error 429: Too Many Requests
-CNAF: HTTPError: HTTP Error 429: Too Many Requests
-CNCE: HTTPError: HTTP Error 429: Too Many Requests
-CNK: HTTPError: HTTP Error 429: Too Many Requests
-CNMD: HTTPError: HTTP Error 429: Too Many Requests
-CNNE: HTTPError: HTTP Error 429: Too Many Requests
-COOK: HTTPError: HTTP Error 429: Too Many Requests
-COYA: HTTPError: HTTP Error 429: Too Many Requests
-CPAH: HTTPError: HTTP Error 429: Too Many Requests
-CPF: HTTPError: HTTP Error 429: Too Many Requests
-CRDO: HTTPError: HTTP Error 429: Too Many Requests
-CRGY: HTTPError: HTTP Error 429: Too Many Requests
-CRH: HTTPError: HTTP Error 429: Too Many Requests
-CSII: HTTPError: HTTP Error 429: Too Many Requests
-CSPR: HTTPError: HTTP Error 429: Too Many Requests
-CSV: HTTPError: HTTP Error 429: Too Many Requests
-CTBI: Tiingo hourly budget used
-CTGO: Tiingo hourly budget used
-CTLP: Tiingo hourly budget used
-CTLT: Tiingo hourly budget used
-CTOS: Tiingo hourly budget used
+CLR: HTTPError: HTTP Error 404: Not Found
 CVTI: Tiingo hourly budget used
 D: Tiingo hourly budget used
 DCGO: Tiingo hourly budget used
