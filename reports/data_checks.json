@@ -21,7 +21,7 @@
    "text": "US:OGC has no price file"
   },
   {
-   "kind": "jump",
+   "kind": "jump_deal",
    "market": "ASX",
    "ticker": "RTH",
    "date": "2026-10-19",

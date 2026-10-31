@@ -15,6 +15,9 @@ For each deal in config/live_deals.csv:
   three in four past deals of the same kind took from that stage to payment (reports/deal_odds.json,
   by approvals from announcement), when that is later than the expected date; and the yearly rate
   after costs if it pays then, so a thin spread that only works on time is plain;
+- the expected return at the base rate: the value if the base rate is right (chance x offer value,
+  plus the rest x the break price) against today's price, after costs, and its yearly rate, so a wide
+  gap in the odds on a small upside doesn't outrank a better trade;
 - the implied chance each day since the announcement (reports/deal_history.json), for the hub.
 A gap between the two chances is where an edge might be; it is a prompt for the analyst, not a trade.
 Usage: python3 -I src/deal_monitor.py <repo_root>
@@ -267,6 +270,10 @@ def main(root: str) -> int:
             fee = min(0.019 * local, {"ASX": 15, "US": 5, "NZX": 25}[d["target_market"]]) / local
             cost = st["spread"] / 2 + fee + (sum(FIXED_COSTS.values()) if ccy != "NZD" else 0)
             net_y = (1 + gross - cost) ** (365 / max(days, 1)) - 1 if days > 0 else float("nan")
+            ev_ret = ev_y = float("nan")
+            if brk and p_base == p_base and brk <= px <= offer:
+                ev_ret = (p_base * offer + (1 - p_base) * brk) / px - 1 - cost
+                ev_y = (1 + ev_ret) ** (365 / days) - 1 if days > 0 and ev_ret > -1 else float("nan")
             late, late_note = late_payment(root, d, db.get(d["deal_id"]), today)
             ldays = (date.fromisoformat(late) - date.today()).days if late else 0
             late_y = (1 + gross - cost) ** (365 / ldays) - 1 if (ldays > 0 and abs(net_y) < 5) else float("nan")
@@ -284,7 +291,9 @@ def main(root: str) -> int:
                          "meeting_date": d.get("meeting_date", ""), "court_date": d.get("court_date", ""),
                          "end_date": d.get("end_date", ""), "conditions_open": d.get("conditions_open", ""),
                          "late_payment": late, "yearly_if_late": round(late_y, 4) if late_y == late_y and abs(late_y) < 5 else "",
-                         "late_note": late_note})
+                         "late_note": late_note,
+                         "expected_return": round(ev_ret, 5) if ev_ret == ev_ret else "",
+                         "expected_yearly": round(ev_y, 4) if ev_y == ev_y and abs(ev_y) < 5 else ""})
         else:
             cells = ["" if not px else f"{px:.3f}", "" if not offer else f"{offer:.3f}", "", str(days), "", "", "", ""]
         lines.append(f"| {d['target_ticker']} ({d['deal_id']}) | " + " | ".join(cells) +

@@ -457,6 +457,7 @@ def deals_section(names: dict, held: set) -> dict:
                      "break": fnum(r.get("break_price")), "undisturbed": fnum(r.get("undisturbed")), "market_move": fnum(r.get("market_move")),
                      "meeting_date": r.get("meeting_date") or lv.get("meeting_date") or None, "end_date": r.get("end_date") or lv.get("end_date") or None,
                      "late": r.get("late_payment") or None, "yearly_late": fnum(r.get("yearly_if_late")), "late_note": r.get("late_note") or "",
+                     "ev": fnum(r.get("expected_return")), "ev_yearly": fnum(r.get("expected_yearly")),
                      "hist": hist.get(r["deal_id"], []), "file": deal_file(tk, mkt),
                      "px": closes(mkt, tk, (date.today() - timedelta(days=150)).isoformat(), 110)})
     leads = []
@@ -507,17 +508,28 @@ def history_tests() -> list[dict]:
         rows = read_csv(os.path.join(ROOT, "config", sample))
         d = os.path.join(ROOT, "data", "history", "prices", "ASX")
         return sum(1 for r in rows if os.path.exists(os.path.join(d, f"{r['ticker']}.csv")) or os.path.exists(os.path.join(d, f"{r['ticker']}.csv.none"))), len(rows)
+    def outcome(path, priced):
+        """The headline numbers once a test has a result, else the pricing progress."""
+        res = first_match(path, r"\*\*Result: (pass|fail|not run)\.\*\*")
+        if not res:
+            return priced
+        ev = first_match(path, r"\|\s*Events\s*\|\s*(\d+)\s*\|")
+        mean = first_match(path, r"\|\s*Mean (?:result|after costs[^|]*)\|\s*([-+]?[\d.]+%)\s*\|")
+        t = first_match(path, r"\|\s*t-statistic\s*\|\s*([-+]?[\d.]+)\s*\|")
+        bits = [f"{mean} a trade after costs" if mean else "", f"{ev} events" if ev else "", f"t {t}" if t else ""]
+        return ", ".join(b for b in bits if b) + (". Traded." if res == "pass" else ". Not traded." if res == "fail" else ".")
     e2, f2 = count_asx("universe_history_au_deals.csv")
     a, b = count("universe_history.csv")
     c, d = count("universe_history_deals.csv")
     return [
         {"name": "Rules-only screen", "ref": "6", "status": "fail", "detail": "Ahead of the market before costs, behind after them. Sleeve dropped; its 10% went to cash."},
         {"name": "US director and officer buying clusters", "ref": "9a", "status": first_match(ins, r"\*\*Result: (pass|fail)\.\*\*") or "waiting",
-         "detail": f"{a} of {b} sampled companies priced", "done": a, "of": b},
+         "detail": outcome(ins, f"{a} of {b} sampled companies priced").replace("a trade after costs", "a trade against the S&P 500 after costs"),
+         "done": a, "of": b},
         {"name": "US cash deal spreads", "ref": "9b", "status": first_match(dl, r"\*\*Result: (pass|fail)\.\*\*") or "waiting",
-         "detail": f"{c} of {d} sampled companies priced", "done": c, "of": d},
+         "detail": outcome(dl, f"{c} of {d} sampled companies priced"), "done": c, "of": d},
         {"name": "ASX cash deal spreads", "ref": "9c", "status": first_match(au, r"\*\*Result: (pass|fail|not run)\.\*\*") or "waiting",
-         "detail": f"{e2} of {f2} deal targets priced (needs EODHD's paid plan)", "done": e2, "of": f2}]
+         "detail": outcome(au, f"{e2} of {f2} deal targets priced (needs EODHD's paid plan)"), "done": e2, "of": f2}]
 
 
 def feeds_section() -> dict:

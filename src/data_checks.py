@@ -107,7 +107,7 @@ def check_prices(root: str, names: set, recent_days: int = 10) -> list[dict]:
                     if abs(mv) > lim:
                         ann = deal_targets.get((m, t), "")
                         near = ann and abs((date.fromisoformat(r["date"]) - date.fromisoformat(ann)).days) <= 3
-                        issues.append({"kind": "jump", "market": m, "ticker": t, "date": r["date"], "move": round(mv, 4),
+                        issues.append({"kind": "jump_deal" if near else "jump", "market": m, "ticker": t, "date": r["date"], "move": round(mv, 4),
                                        "text": f"{m}:{t} moved {mv:+.0%} on {r['date']}" + (" (deal announced then)" if near else ": check against the company's announcements")})
         if latest.get(m) and bdays(rows[-1]["date"], latest[m]) > 2:
             issues.append({"kind": "stale", "market": m, "ticker": t, "date": rows[-1]["date"],
