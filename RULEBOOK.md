@@ -122,7 +122,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 - Result per event: return after US$5 brokerage on a US$2,300 stake (and again on a sale), 0.5% currency conversion, and half the estimated spread on each trade, less the 3-month Treasury bill rate over the same days.
 - Nothing is tuned. Pass needs all of: at least 60 events; mean result above zero with a t-statistic of 2 or more; no single year more than half the total gain; worst calendar year no worse than a 4% loss per event on average (the sleeve's loss limit at 4% positions).
 - Odds: the market-implied chance at entry is (entry price less the break price) over (cash price less the break price), with the break price the close 60 sessions before the filing. Reported with the actual completion rate, so the test shows whether spreads have overstated the risk of a break.
-- Prices: Tiingo, for a fixed random sample (seed 20261102) fetched in December 2026 within the free plan's limits: 360 tickers, drawn from 1,169 with a cash price found. The events: 2,002 companies with a first PREM14A or SC 14D9 from 2015 to 2025, 1,821 matched to their ticker at the time, 1,201 with a cash price in the filing.
+- Prices: Tiingo, for a fixed random sample (seed 20261102) fetched from 1 November 2026 within the free plan's limits (anything a month's limit holds back follows in December): 360 tickers, drawn from 1,169 with a cash price found. The events: 2,002 companies with a first PREM14A or SC 14D9 from 2015 to 2025, 1,821 matched to their ticker at the time, 1,201 with a cash price in the filing.
 
 ## 10. Success tests (scored on 2 July 2027)
 1. Ahead after all costs.
@@ -137,6 +137,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
 | 2026-11-01 | Rules-only sleeve dropped; its 10% goes to cash | Failed the history test before the rules were locked: see reports/rules_only_history.md |
 | 2026-11-01 | Dates brought forward at Cam's request: practice run 2 November to 31 December 2026 (was 7 December to 29 January), counted run 4 January to 2 July 2027 (was 1 February to 30 July), rulebook locked 31 December | The build finished early; most live ASX deals end before December |
+| 2026-11-01 | Section 9b: prices fetched from 1 November rather than December; nothing else in the test changes | So US deals can join the practice run sooner. No 9b result has been seen |
 | 2026-11-01 | Section 5: US deals not traded until test 9b passes | The practice run now starts before 9b can be priced |
 | 2026-11-01 | NZX rules for prices without volumes (section 7), agreed with Cam | FinFeedAPI's NZX feed has prices but no volumes |
 | 2026-11-01 | After an independent review of the engine: order lapse, no borrowing, fall-from-peak sales by rule with a review lock, limits counting waiting orders, the break-loss test on the whole position, foreign cash earning nothing | Fixes for findings 3, 4, 8, 9 and 14 of the review |

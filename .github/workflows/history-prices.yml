@@ -3,12 +3,13 @@ name: History prices
 # Fetches long price histories once each for the history tests, within Tiingo's free limits:
 # up to 45 requests a run, hourly, never in the 07:00 to 09:59 UTC window the nightly job uses.
 #   - config/universe_history.csv: the insider-cluster sample (rulebook 9a), from 31 Oct 2026.
-#   - config/universe_history_deals.csv: the US deal sample (rulebook 9b), from 1 Dec 2026, so it
-#     uses December's symbol allowance rather than crowding out the nightly prices in November.
+#   - config/universe_history_deals.csv: the US deal sample (rulebook 9b), from 1 Nov 2026 UTC,
+#     capped so the month's different symbols (nightly and history together) stay at or under 440
+#     of Tiingo's 500, leaving room for the nightly job's new names.
 # When every ticker in a sample is in, that sample's test runs and writes its result once.
 on:
   schedule:
-    # 31 Oct to 10 Nov for the insider sample, 1 to 4 Dec for the deal sample; most runs are spares
+    # 31 Oct to 10 Nov for both samples, 1 to 4 Dec for anything the November cap held back
     - cron: "15 13-23 31 10 *"
     - cron: "15 0-6,10-23 1-10 11 *"
     - cron: "15 0-6,10-23 1-4 12 *"
@@ -47,7 +48,7 @@ jobs:
               return sum(1 for r in rows if not os.path.exists(f"{d}/{r['ticker']}.csv") and not os.path.exists(f"{d}/{r['ticker']}.csv.none"))
           ins = left("config/universe_history.csv")
           print(f"left={ins}")
-          print(f"deals={left('config/universe_history_deals.csv') if date.today() >= date(2026, 12, 1) else 0}")
+          print(f"deals={left('config/universe_history_deals.csv') if date.today() >= date(2026, 11, 1) else 0}")
           print(f"done={'yes' if os.path.exists('reports/special_insider_history.md.lock') else 'no'}")
           print(f"deals_done={'yes' if os.path.exists('reports/deal_us_history.md.lock') else 'no'}")
           EOF
@@ -70,12 +71,12 @@ jobs:
         if: steps.left.outputs.left != '0'
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
-        run: python3 -I src/fetch_prices.py config/universe_history.csv data/history --start 2009-06-01 --once
-      - name: Prices, deal sample (from 1 December, once the insider sample is in)
+        run: python3 -I src/fetch_prices.py config/universe_history.csv data/history --start 2009-06-01 --once --tiingo-month-cap 440
+      - name: Prices, deal sample (from 1 November UTC, once the insider sample is in)
         if: steps.left.outputs.left == '0' && steps.left.outputs.deals != '0'
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
-        run: python3 -I src/fetch_prices.py config/universe_history_deals.csv data/history --start 2014-06-01 --once
+        run: python3 -I src/fetch_prices.py config/universe_history_deals.csv data/history --start 2014-06-01 --once --tiingo-month-cap 440
       - name: NZX history back to July 2023 (FinFeedAPI), 40 shares a run until done
         continue-on-error: true
         env:

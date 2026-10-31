@@ -1,7 +1,11 @@
 """Nightly end-of-day prices from providers that permit automated use.
 
-US: Tiingo (free plan: 1,000 requests a day, 500 symbols a month, personal use).
-NZX and ASX: EODHD (free plan: 20 requests a day, one year of history).
+US: Tiingo (free plan: 1,000 requests a day, 500 symbols a month, personal use). Every symbol
+asked of Tiingo is recorded by month (data/tiingo_symbols_<YYYY-MM>.txt for the nightly job,
+data/history/... for the history samples); --tiingo-month-cap N stops a run from taking the
+month's total of different symbols past N, so the history samples never crowd out nightly prices.
+ASX: EODHD. The day's allowance is read from EODHD's account endpoint, so a paid plan is used
+in full without a code change; if it can't be read, the free plan's 20 a day is assumed.
 Keys come from the environment (TIINGO_API_KEY, EODHD_API_KEY); in GitHub they are
 repository secrets, so they never sit in the code or the chat.
 
@@ -23,8 +27,35 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from market_data import closed_by  # noqa: E402
 
 FIELDS = ["date", "open", "high", "low", "close", "volume", "adj_close", "dividend", "split", "source"]
-EODHD_DAILY_BUDGET = 20
+EODHD_DAILY_BUDGET = 20     # the free plan; used only when the account endpoint can't be read
+EODHD_RUN_MAX = 500
 TIINGO_RUN_BUDGET = 45      # free plan: 50 requests an hour
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def eodhd_budget(key: str | None) -> int:
+    """Requests left today on the EODHD account; 20 (the free plan) if it can't be read."""
+    if not key:
+        return 0
+    try:
+        u = http_json(f"https://eodhd.com/api/user?api_token={key}&fmt=json")
+        left = int(u["dailyRateLimit"]) - int(u.get("apiRequests", 0))
+        return max(0, min(EODHD_RUN_MAX, left))
+    except Exception:
+        return EODHD_DAILY_BUDGET
+
+
+def tiingo_month_files(month: str) -> list[str]:
+    return [os.path.join(ROOT, "data", f"tiingo_symbols_{month}.txt"),
+            os.path.join(ROOT, "data", "history", f"tiingo_symbols_{month}.txt")]
+
+
+def tiingo_month_symbols(month: str) -> set[str]:
+    out = set()
+    for p in tiingo_month_files(month):
+        if os.path.exists(p):
+            out |= {x.strip() for x in open(p) if x.strip()}
+    return out
 
 
 def http_json(url: str, headers: dict | None = None):
@@ -76,10 +107,16 @@ def append(path: str, rows: list[dict], after: str | None, market: str | None = 
     return len(clean)
 
 
-def main(universe: str, data_dir: str = "data", start_default: str | None = None, once: bool = False) -> int:
+def main(universe: str, data_dir: str = "data", start_default: str | None = None, once: bool = False,
+         tiingo_month_cap: int | None = None) -> int:
     """`start_default`: first date for a share with no file yet (default: a year ago).
-    `once`: fetch each share a single time and never top it up (for the history tests)."""
+    `once`: fetch each share a single time and never top it up (for the history tests).
+    `tiingo_month_cap`: the most different symbols Tiingo may have been asked for this month."""
     tiingo, eodhd = os.environ.get("TIINGO_API_KEY"), os.environ.get("EODHD_API_KEY")
+    month = datetime.now(timezone.utc).strftime("%Y-%m")
+    used = tiingo_month_symbols(month)
+    track = os.path.join(data_dir, f"tiingo_symbols_{month}.txt")
+    eodhd_left = None
     start_default = start_default or (date.today() - timedelta(days=365)).isoformat()
     eodhd_calls, tiingo_calls, problems, report = 0, 0, [], []
     names, seen = [], set()
@@ -88,8 +125,8 @@ def main(universe: str, data_dir: str = "data", start_default: str | None = None
             for n in csv.DictReader(f):
                 if (n["market"], n["ticker"]) not in seen:
                     seen.add((n["market"], n["ticker"])); names.append(n)
-    # EODHD's free plan allows 20 requests a day, so the stalest shares go first and the
-    # rest wait for tomorrow; each request returns every missing day, so nothing is lost.
+    # On EODHD's free plan (20 requests a day) the stalest shares go first and the rest wait for
+    # tomorrow; each request returns every missing day, so nothing is lost.
     def staleness(n):
         last = last_date(os.path.join(data_dir, "prices", n["market"], f"{n['ticker']}.csv"))
         return (n["provider"] != "eodhd", last or "")
@@ -106,6 +143,14 @@ def main(universe: str, data_dir: str = "data", start_default: str | None = None
                     problems.append(f"{n['ticker']}: no TIINGO_API_KEY"); continue
                 if tiingo_calls >= TIINGO_RUN_BUDGET:
                     problems.append(f"{n['ticker']}: Tiingo hourly budget used"); continue
+                sym = n["provider_symbol"].upper()
+                if tiingo_month_cap is not None and sym not in used and len(used) >= tiingo_month_cap:
+                    problems.append(f"{n['ticker']}: Tiingo monthly symbol cap ({tiingo_month_cap}) reached"); continue
+                if sym not in used:
+                    used.add(sym)
+                    os.makedirs(os.path.dirname(track) or ".", exist_ok=True)
+                    with open(track, "a") as tf:
+                        tf.write(sym + "\n")
                 tiingo_calls += 1
                 url = (f"https://api.tiingo.com/tiingo/daily/{urllib.parse.quote(n['provider_symbol'])}/prices"
                        f"?startDate={start}")
@@ -114,7 +159,9 @@ def main(universe: str, data_dir: str = "data", start_default: str | None = None
             elif n["provider"] == "eodhd":
                 if not eodhd:
                     problems.append(f"{n['ticker']}: no EODHD_API_KEY"); continue
-                if eodhd_calls >= EODHD_DAILY_BUDGET:
+                if eodhd_left is None:
+                    eodhd_left = eodhd_budget(eodhd)
+                if eodhd_calls >= eodhd_left:
                     problems.append(f"{n['ticker']}: EODHD daily budget used"); continue
                 url = (f"https://eodhd.com/api/eod/{urllib.parse.quote(n['provider_symbol'])}"
                        f"?api_token={eodhd}&fmt=json&from={start}")
@@ -144,5 +191,7 @@ if __name__ == "__main__":
     # python3 -I src/fetch_prices.py <universe> [data_dir] [--start YYYY-MM-DD] [--once]
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     start = next((sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--start"), None)
-    args = [a for a in args if a != start]
-    sys.exit(main(args[0], args[1] if len(args) > 1 else "data", start, "--once" in sys.argv))
+    cap = next((sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--tiingo-month-cap"), None)
+    args = [a for a in args if a not in (start, cap)]
+    sys.exit(main(args[0], args[1] if len(args) > 1 else "data", start, "--once" in sys.argv,
+                  int(cap) if cap else None))

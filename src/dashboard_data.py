@@ -55,7 +55,7 @@ def main(root: str) -> int:
     n_deals = sum(1 for _ in open(os.path.join(root, "config", "universe_history_deals.csv"))) - 1 \
         if os.path.exists(os.path.join(root, "config", "universe_history_deals.csv")) else 0
     checks.append({"check": "US cash deal spreads (9b)", "kind": "History tests", "status": result or "waiting",
-                   "detail": f"{n_deals} tickers sampled; prices fetched from 1 Dec within Tiingo's free limits" if not result else "See reports/deal_us_history.md",
+                   "detail": f"{n_deals} tickers sampled; prices being fetched from 1 Nov within Tiingo's free limits" if not result else "See reports/deal_us_history.md",
                    "as_of": today})
     with open(os.path.join(out, "checks.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["check", "kind", "status", "detail", "as_of"])
