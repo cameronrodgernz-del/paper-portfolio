@@ -82,8 +82,15 @@ def main(root: str) -> int:
             gross = offer / px - 1
             yearly = (1 + gross) ** (365 / max(days, 1)) - 1 if days > 0 else float("nan")
             implied = (px - brk) / (offer - brk) if brk and offer > brk else float("nan")
-            cells = [f"{px:.3f}", f"{offer:.3f}", f"{gross:+.1%}", str(days), f"{yearly:+.1%}",
-                     "" if implied != implied else f"{implied:.0%}"]
+            if implied != implied:
+                imp = ""
+            elif implied < 0:
+                imp = "price below break price"
+            elif implied > 1:
+                imp = "price above offer"
+            else:
+                imp = f"{implied:.0%}"
+            cells = [f"{px:.3f}", f"{offer:.3f}", f"{gross:+.1%}", str(days), f"{yearly:+.1%}" if abs(yearly) < 5 else "n/m", imp]
         else:
             cells = ["" if not px else f"{px:.3f}", "" if not offer else f"{offer:.3f}", "", str(days), "", ""]
         lines.append(f"| {d['target_ticker']} ({d['deal_id']}) | " + " | ".join(cells) +

@@ -1,0 +1,17 @@
+{
+  "note": "Set active to the ledger the nightly job should run. null until the practice run starts on 7 Dec 2026.",
+  "active": null,
+  "ledgers": {
+    "practice": {"dir": "ledger/practice", "start": "2026-12-07", "end": "2027-01-29"},
+    "counted": {"dir": "ledger/counted", "start": "2027-02-01", "end": "2027-07-30"},
+    "dryrun": {"dir": "ledger/dryrun", "start": "2026-10-01", "end": "2026-10-30"}
+  },
+  "bankroll_nzd": 100000,
+  "cash_rate_by_month": {},
+  "cash_rate_fallback": "NZ 3-month bank rate less 1 point, floored at zero, when no rate is set for the month",
+  "core": {"band": [0.35, 0.45], "lines": [
+    {"market": "US", "ticker": "VT", "weight": 0.20},
+    {"market": "ASX", "ticker": "VAS", "weight": 0.10},
+    {"market": "US", "ticker": "ENZL", "weight": 0.10}
+  ]}
+}
