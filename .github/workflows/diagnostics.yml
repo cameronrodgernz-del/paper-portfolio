@@ -16,10 +16,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: How EODHD names NZX shares
+      # The EODHD check (src/eodhd_diag.py) ran on 31 Oct 2026: EODHD has no NZX.
+      - name: FinFeedAPI NZX coverage
         env:
-          EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
-        run: python3 -I src/eodhd_diag.py data
+          FINFEED_API_KEY: ${{ secrets.FINFEED_API_KEY }}
+        run: python3 -I src/finfeed_diag.py data
       - name: Save results
         run: |
           git config user.name "paper-portfolio-bot"
