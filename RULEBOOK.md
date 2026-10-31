@@ -11,7 +11,7 @@ This is the working draft. It's tightened during the practice run and locked on 
 ## 2. Sleeves
 | Sleeve | Target weight | Band | Holds |
 |---|---|---|---|
-| Market core | 40% | 35–45% | VT 20%, VAS 10%, FNZ 10% (to confirm on Sharesies before day one) |
+| Market core | 40% | 35–45% | VT 20%, VAS 10%, ENZL 10% (to confirm on Sharesies before day one). ENZL, the US-listed iShares MSCI New Zealand fund, replaces FNZ because no free feed carries NZX prices |
 | Deal spreads | 25% | 0–30% | Agreed schemes and takeover offers: NZX, ASX and US |
 | Special situations | 15% | 0–20% | Dated events: holder build-ups, strategic reviews, rejected bids, director buying clusters, index changes, offers priced at a discount |
 | Rules-only | 10% | 5–15% | 10 US shares from the quarterly screen (section 6) |
@@ -95,3 +95,4 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 | Date | Change | Why |
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
+| 2026-10-31 | NZ core moved from FNZ to ENZL; NZ companies with an ASX listing are priced and traded on that line until an NZX feed is in place | EODHD does not carry NZX (its exchange list has no NZ entry), and no free feed found does |

@@ -1,12 +1,12 @@
 ticker,market,provider,provider_symbol,why
-FNZ,NZX,eodhd,FNZ.NZ,core candidate
-AIR,NZX,eodhd,AIR.NZ,liquid NZX share
-FPH,NZX,eodhd,FPH.NZ,liquid NZX share
-SKC,NZX,eodhd,SKC.NZ,takeover watch
-OCA,NZX,eodhd,OCA.NZ,takeover watch
-KMD,NZX,eodhd,KMD.NZ,takeover watch
-HGH,NZX,eodhd,HGH.NZ,thin NZX share
-FBU,NZX,eodhd,FBU.NZ,liquid NZX share
+ENZL,US,tiingo,ENZL,NZ core: iShares MSCI New Zealand ETF (US-listed) replaces FNZ; no free NZX feed
+AIZ,ASX,eodhd,AIZ.AU,ASX line of Air New Zealand
+FPH,ASX,eodhd,FPH.AU,ASX line of Fisher & Paykel Healthcare
+SKC,ASX,eodhd,SKC.AU,ASX line of SkyCity (takeover watch)
+OCA,ASX,eodhd,OCA.AU,ASX line of Oceania Healthcare (takeover watch)
+KMD,ASX,eodhd,KMD.AU,ASX line of KMD Brands (takeover watch)
+HGH,ASX,eodhd,HGH.AU,ASX line of Heartland (thin)
+FBU,ASX,eodhd,FBU.AU,ASX line of Fletcher Building
 VAS,ASX,eodhd,VAS.AU,core candidate
 BHP,ASX,eodhd,BHP.AU,liquid ASX share
 TAH,ASX,eodhd,TAH.AU,gaming
