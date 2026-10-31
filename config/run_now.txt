@@ -1,1 +1,1 @@
-2026-10-31T11:36:57Z
+Manual run 2026-11-01 09:30 NZ: proving the nightly job end to end before the practice run starts on 2 November
