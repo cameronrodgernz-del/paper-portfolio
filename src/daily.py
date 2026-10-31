@@ -139,6 +139,12 @@ def main(name: str | None = None, upto: str | None = None) -> int:
         val = L.records("valuations")[-1]["payload"]
         placed += core_orders(L, prices, fx, cfg, ds, first and len(reports) == 1, val)
     write_reports(name, L, reports, placed, note)
+    if reports:
+        try:
+            import benchmarks
+            benchmarks.main(name)
+        except Exception as e:      # the comparison is a report, never a reason to stop the run
+            print("benchmarks failed:", type(e).__name__, e)
     for r in reports:
         print(r["date"], f"{r['total_nzd']:,.2f}", r["fills"], r.get("hedges", []), r["flags"])
     print("placed by rule:", placed or "none")
