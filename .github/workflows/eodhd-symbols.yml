@@ -1,0 +1,31 @@
+name: EODHD symbol lists
+
+# Run by hand: saves EODHD's current and delisted Australian symbol lists (two requests), used to
+# find the right price history for ASX deal targets whose codes were later reused (rulebook 9c).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  symbols:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch the lists
+        env:
+          EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
+        run: python3 -I src/eodhd_symbols.py data/history
+      - name: Save
+        run: |
+          git config user.name "paper-portfolio-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/history/eodhd_au_symbols.json data/history/eodhd_au_delisted.json
+          git diff --cached --quiet && exit 0
+          git commit -m "EODHD Australian symbol lists $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
