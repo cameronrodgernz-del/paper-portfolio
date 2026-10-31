@@ -27,6 +27,8 @@ jobs:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
           EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
         run: python3 -I src/fetch_prices.py config/universe_trial.csv data
+      - name: US deal filings from the SEC index
+        run: python3 -I src/fetch_sec.py data
       - name: Engine checks
         run: python3 -I tests/test_engine.py
       - name: Save data
