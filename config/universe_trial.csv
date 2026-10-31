@@ -1,19 +1,26 @@
 ticker,market,provider,provider_symbol,why
-ENZL,US,tiingo,ENZL,NZ core: iShares MSCI New Zealand ETF (US-listed) replaces FNZ; no free NZX feed
-AIZ,ASX,eodhd,AIZ.AU,ASX line of Air New Zealand
-FPH,ASX,eodhd,FPH.AU,ASX line of Fisher & Paykel Healthcare
-SKC,ASX,eodhd,SKC.AU,ASX line of SkyCity (takeover watch)
-OCA,ASX,eodhd,OCA.AU,ASX line of Oceania Healthcare (takeover watch)
-KMD,ASX,eodhd,KMD.AU,ASX line of KMD Brands (takeover watch)
-HGH,ASX,eodhd,HGH.AU,ASX line of Heartland (thin)
-FBU,ASX,eodhd,FBU.AU,ASX line of Fletcher Building
-VAS,ASX,eodhd,VAS.AU,core candidate
-BHP,ASX,eodhd,BHP.AU,liquid ASX share
-TAH,ASX,eodhd,TAH.AU,gaming
-BET,ASX,eodhd,BET.AU,scheme in progress
-RTH,ASX,eodhd,RTH.AU,thin ASX share
-IEL,ASX,eodhd,IEL.AU,mid-cap ASX share
-VT,US,tiingo,VT,core candidate
+ENZL,US,tiingo,ENZL,core: iShares MSCI New Zealand ETF (US-listed); no free NZX feed
+VT,US,tiingo,VT,core: Vanguard Total World
+VAS,ASX,eodhd,VAS.AU,core: Vanguard Australian Shares
 SPY,US,tiingo,SPY,US benchmark
-AAPL,US,tiingo,AAPL,liquid US share
-LNW,ASX,eodhd,LNW.AU,gaming (primary listing moved from Nasdaq to ASX)
+SKC,ASX,eodhd,SKC.AU,takeover watch (ASX line of SkyCity)
+OCA,ASX,eodhd,OCA.AU,takeover watch (ASX line of Oceania Healthcare)
+KMD,ASX,eodhd,KMD.AU,takeover watch (ASX line of KMD Brands)
+HGH,ASX,eodhd,HGH.AU,watch (ASX line of Heartland)
+TAH,ASX,eodhd,TAH.AU,gaming; acquirer in the BetMakers scheme
+BET,ASX,eodhd,BET.AU,pending scheme (Tabcorp)
+RTH,ASX,eodhd,RTH.AU,gaming; thin ASX share
+AX1,ASX,eodhd,AX1.AU,pending takeover (Frasers) cash 0.65
+VAU,ASX,eodhd,VAU.AU,pending scheme (Genesis) cash and scrip
+GMD,ASX,eodhd,GMD.AU,acquirer shares for the Vault scheme
+OML,ASX,eodhd,OML.AU,pending scheme cash 1.70
+AUC,ASX,eodhd,AUC.AU,pending scheme (OceanaGold) cash alternative 1.36
+SDF,ASX,eodhd,SDF.AU,pending scheme cash 6.00
+PPC,ASX,eodhd,PPC.AU,pending scheme (Ingenia) cash and scrip
+INA,ASX,eodhd,INA.AU,acquirer shares for the Peet scheme
+RWC,ASX,eodhd,RWC.AU,pending scheme cash US$3.38
+MEI,ASX,eodhd,MEI.AU,pending scheme (Lynas) scrip
+LYC,ASX,eodhd,LYC.AU,acquirer shares for the Meteoric scheme
+CWY,ASX,eodhd,CWY.AU,pending scheme cash 3.095
+FPR,ASX,eodhd,FPR.AU,pending scheme cash 5.30
+AAPL,US,tiingo,AAPL,liquid US share (feed test)

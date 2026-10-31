@@ -22,19 +22,20 @@ jobs:
           python-version: "3.12"
       - name: Free currency and rate series
         run: python3 -I src/fetch_public.py data
+      - name: US deal filings from the SEC index, and the US deal targets list
+        continue-on-error: true
+        run: python3 -I src/fetch_sec.py data && python3 -I src/us_deals.py data 120
       - name: End-of-day prices
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
           EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
-        run: python3 -I src/fetch_prices.py config/universe_trial.csv data
-      - name: US deal filings from the SEC index
-        run: python3 -I src/fetch_sec.py data
+        run: python3 -I src/fetch_prices.py config/universe_trial.csv,config/universe_us_deals.csv data
       - name: Engine checks
         run: python3 -I tests/test_engine.py && python3 -I tests/test_clerk.py
       - name: Save data
         run: |
           git config user.name "paper-portfolio-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data
+          git add data config/universe_us_deals.csv
           git diff --cached --quiet || git commit -m "Nightly data $(date -u +%Y-%m-%d)"
           git push

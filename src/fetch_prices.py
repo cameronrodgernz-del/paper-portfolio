@@ -20,6 +20,7 @@ from datetime import date, timedelta
 
 FIELDS = ["date", "open", "high", "low", "close", "volume", "adj_close", "dividend", "split", "source"]
 EODHD_DAILY_BUDGET = 20
+TIINGO_RUN_BUDGET = 45      # free plan: 50 requests an hour
 
 
 def http_json(url: str, headers: dict | None = None):
@@ -70,9 +71,19 @@ def append(path: str, rows: list[dict], after: str | None) -> int:
 def main(universe: str, data_dir: str = "data") -> int:
     tiingo, eodhd = os.environ.get("TIINGO_API_KEY"), os.environ.get("EODHD_API_KEY")
     start_default = (date.today() - timedelta(days=365)).isoformat()
-    eodhd_calls, problems, report = 0, [], []
-    with open(universe, newline="") as f:
-        names = list(csv.DictReader(f))
+    eodhd_calls, tiingo_calls, problems, report = 0, 0, [], []
+    names, seen = [], set()
+    for u in universe.split(","):
+        with open(u, newline="") as f:
+            for n in csv.DictReader(f):
+                if (n["market"], n["ticker"]) not in seen:
+                    seen.add((n["market"], n["ticker"])); names.append(n)
+    # EODHD's free plan allows 20 requests a day, so the stalest shares go first and the
+    # rest wait for tomorrow; each request returns every missing day, so nothing is lost.
+    def staleness(n):
+        last = last_date(os.path.join(data_dir, "prices", n["market"], f"{n['ticker']}.csv"))
+        return (n["provider"] != "eodhd", last or "")
+    names.sort(key=staleness)
     for n in names:
         path = os.path.join(data_dir, "prices", n["market"], f"{n['ticker']}.csv")
         after = last_date(path)
@@ -81,6 +92,9 @@ def main(universe: str, data_dir: str = "data") -> int:
             if n["provider"] == "tiingo":
                 if not tiingo:
                     problems.append(f"{n['ticker']}: no TIINGO_API_KEY"); continue
+                if tiingo_calls >= TIINGO_RUN_BUDGET:
+                    problems.append(f"{n['ticker']}: Tiingo hourly budget used"); continue
+                tiingo_calls += 1
                 url = (f"https://api.tiingo.com/tiingo/daily/{urllib.parse.quote(n['provider_symbol'])}/prices"
                        f"?startDate={start}")
                 rows = parse_tiingo(http_json(url, {"Content-Type": "application/json",
