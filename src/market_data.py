@@ -56,10 +56,12 @@ class Prices:
         with open(p, newline="") as f:
             for r in csv.DictReader(f):
                 try:
-                    out.append(Bar(r["date"], float(r["open"] or 0), float(r["high"] or 0), float(r["low"] or 0),
-                                   float(r["close"] or 0), float(r["volume"] or 0)))
-                except ValueError:
+                    o, h, lo, c = (float(r[k]) for k in ("open", "high", "low", "close"))
+                except (TypeError, ValueError):
+                    continue          # a bar with any price missing is not used: a blank low must not read as zero
+                if min(o, h, lo, c) <= 0:
                     continue
+                out.append(Bar(r["date"], o, h, lo, c, float(r["volume"] or 0)))
         return tuple(out)
 
     def bar_on(self, market: str, ticker: str, d: str) -> Bar | None:

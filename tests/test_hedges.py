@@ -35,7 +35,7 @@ with tempfile.TemporaryDirectory() as d:
     place_order(L, prices, fx, "2026-10-01T06:30:00Z", "deal", "ASX", "BET", "buy", value_nzd=4000)
     place_order(L, prices, fx, "2026-10-01T06:30:00Z", "core", "ASX", "VAS", "buy", value_nzd=10000)
     L.append("corporate_actions", {"type": "consideration", "market": "ASX", "ticker": "BET", "ccy": "AUD",
-                                   "per_share": 0.24, "effective_date": "2026-10-23"}, ts="2026-10-01T07:00:00Z")
+                                   "per_share": 0.24, "pay_date": "2026-10-23"}, ts="2026-10-01T07:00:00Z")
     reports, day = [], date(2026, 10, 1)
     while day <= date(2026, 10, 30):
         if day.weekday() < 5:

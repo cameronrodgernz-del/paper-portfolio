@@ -14,7 +14,7 @@ import math
 from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 
-from costs import PLAN_MONTHLY_NZD, PlanState, brokerage, FX_FEE
+from costs import FEE_CAP, PLAN_MONTHLY_NZD, PlanState, brokerage, FX_FEE
 from fills import fill_order
 from ledger import Ledger
 from market_data import CURRENCY, FX, Prices, closed_by, nz_evening_utc, session_open_utc
@@ -23,7 +23,9 @@ from rates import Rates
 CAPS = {"deal": 0.04, "special": 0.03}          # share of portfolio per position
 CASH_FLOOR = 0.05
 DRAWDOWN_HALVE, DRAWDOWN_EXIT = 0.08, 0.12
-ORDER_LIFE_SESSIONS = 5
+ORDER_LIFE_SESSIONS = 5                           # an order lapses after 5 sessions that traded ...
+ORDER_LIFE_DAYS = 10                              # ... or 10 business days, whichever comes first
+SLEEVES = ("core", "deal", "special")
 FX_BLOCK_BUFFER = 0.02                            # convert 2% more than needed, then hold it
 HEDGE_SLEEVES = ("deal",)                         # rulebook: deal positions in AUD and USD are hedged
 HEDGE_TENOR_DAYS = 91                             # rolling three-month forwards
@@ -50,7 +52,7 @@ def state(L: Ledger) -> dict:
         pos[key] += p["qty"] if p["side"] == "buy" else -p["qty"]
     for r in L.records("corporate_actions"):
         p = r["payload"]
-        if p.get("type") == "split_applied":
+        if p.get("type") == "split_applied" and "qty_change" in p:     # holder records; the bare marker has no qty
             pos[(p["sleeve"], p["market"], p["ticker"])] += p["qty_change"]
     filled = defaultdict(float)
     for r in L.records("fills"):
@@ -63,7 +65,9 @@ def state(L: Ledger) -> dict:
             left = p["qty"] - filled[p["order_id"]]
             if left > 1e-9:
                 open_orders.append(dict(p, remaining=left))
-    applied = {r["payload"]["ref"] for r in L.records("corporate_actions") if r["payload"].get("type", "").endswith("_applied")}
+    ca = [r["payload"] for r in L.records("corporate_actions")]
+    applied = {p["ref"] for p in ca if p.get("type", "").endswith("_applied") and "qty_change" not in p}
+    voided = {p["ref"] for p in ca if p.get("type") == "void"}
     hedges = {}
     for r in L.records("hedges"):
         p = r["payload"]
@@ -72,7 +76,32 @@ def state(L: Ledger) -> dict:
         elif p["event"] == "close":
             hedges.pop(p["hedge_id"], None)
     return {"cash": dict(cash), "positions": {k: v for k, v in pos.items() if abs(v) > 1e-9},
-            "open_orders": open_orders, "applied": applied, "hedges": hedges, "hedge_realised_nzd": hedge_realised}
+            "open_orders": open_orders, "applied": applied, "voided": voided, "hedges": hedges,
+            "hedge_realised_nzd": hedge_realised}
+
+
+def position_before(L: Ledger, key: tuple, before: str) -> float:
+    """Shares held in (sleeve, market, ticker) from sessions before `before` (an ex-date or record date)."""
+    q = 0.0
+    for r in L.records("fills"):
+        p = r["payload"]
+        if (p["sleeve"], p["market"], p["ticker"]) == key and p["date"] < before:
+            q += p["qty"] if p["side"] == "buy" else -p["qty"]
+    for r in L.records("corporate_actions"):
+        p = r["payload"]
+        if p.get("type") == "split_applied" and "qty_change" in p and (p["sleeve"], p["market"], p["ticker"]) == key \
+                and p.get("effective_date", "") < before:
+            q += p["qty_change"]
+    return q
+
+
+def business_days(a: str, b: str) -> int:
+    """Weekdays after date a up to and including date b."""
+    d, n = date.fromisoformat(a), 0
+    while d < date.fromisoformat(b):
+        d += timedelta(days=1)
+        n += d.weekday() < 5
+    return n
 
 
 def plan_for_month(L: Ledger, month: str) -> PlanState:
@@ -87,6 +116,10 @@ def place_order(L: Ledger, prices: Prices, fx: FX, decided_at_utc: str, sleeve: 
                 side: str, value_nzd: float | None = None, qty: float | None = None, limit: float | None = None,
                 decision: dict | None = None) -> dict:
     """Log the decision and the order. Size comes from the last close before the decision."""
+    if sleeve not in SLEEVES:
+        raise ValueError(f"unknown sleeve {sleeve!r}: use one of {', '.join(SLEEVES)}")
+    if side not in ("buy", "sell"):
+        raise ValueError(f"unknown side {side!r}")
     when = utc(decided_at_utc)
     seen = [b for b in prices.bars(market, ticker) if closed_by(market, b.date, when)]
     if not seen:
@@ -118,11 +151,42 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
     if not any(r["payload"].get("kind") == "plan_fee" and r["payload"].get("month") == month for r in L.records("cash")):
         L.append("cash", {"kind": "plan_fee", "month": month, "ccy": "NZD", "amount": -PLAN_MONTHLY_NZD}, ts=ts)
     last = [r["payload"]["date"] for r in L.records("valuations")]
-    if last and st["cash"].get("NZD", 0) > 0:
+    booked = any(r["payload"].get("kind") == "interest" and r["payload"].get("for_date") == run_date for r in L.records("cash"))
+    if last and st["cash"].get("NZD", 0) > 0 and not booked:     # once per run date, even if a run is repeated after a failure
         days = (date.fromisoformat(run_date) - date.fromisoformat(last[-1])).days
         if days > 0:
             amt = round(st["cash"]["NZD"] * cfg["cash_rate"] * days / 365, 2)
-            L.append("cash", {"kind": "interest", "ccy": "NZD", "amount": amt, "days": days, "rate": cfg["cash_rate"]}, ts=ts)
+            L.append("cash", {"kind": "interest", "ccy": "NZD", "amount": amt, "days": days, "rate": cfg["cash_rate"],
+                              "for_date": run_date}, ts=ts)
+
+    # 1b. splits, once the first session at the new share count is final, and before any fill from it:
+    # holdings change from that session, and orders sized before it are cancelled for a fresh decision
+    st = state(L)
+    for r in L.records("corporate_actions"):
+        p = r["payload"]
+        if p.get("type") != "split" or r["seq"] in st["applied"] or r["seq"] in st["voided"]:
+            continue
+        eff = p.get("effective_date")
+        if not eff or not p.get("ratio"):
+            report["flags"].append(f"split record {r['seq']} for {p.get('market')}:{p.get('ticker')} lacks its date or ratio; not applied")
+            continue
+        if not closed_by(p["market"], eff, utc(ts)):
+            continue
+        done = {tuple(x["payload"].get("holder") or ()) for x in L.records("corporate_actions") if x["payload"].get("ref") == r["seq"]}
+        keys = {k for k in st["positions"] if k[1] == p["market"] and k[2] == p["ticker"]}
+        for key in sorted(keys):
+            q = position_before(L, key, eff)
+            if key in done or q <= 1e-9:
+                continue
+            L.append("corporate_actions", {"type": "split_applied", "sleeve": key[0], "market": key[1], "ticker": key[2],
+                                           "qty_change": q * (p["ratio"] - 1), "ref": r["seq"], "holder": list(key),
+                                           "effective_date": eff}, ts=ts)
+        for o in state(L)["open_orders"]:
+            if o["market"] == p["market"] and o["ticker"] == p["ticker"] and utc(o["decided_at_utc"]) < session_open_utc(p["market"], eff):
+                L.append("orders", {"event": "cancel", "order_id": o["order_id"], "reason": "share split"}, ts=ts)
+                report["cancelled"].append(o["order_id"])
+        L.append("corporate_actions", {"type": "split_applied", "ref": r["seq"]}, ts=ts)
+        report["actions"].append(f"split {p['market']}:{p['ticker']}")
 
     # 2. fills: each open order, in decision order, in the first eligible session up to run_date
     plan = plan_for_month(L, month)
@@ -147,24 +211,35 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
             if f.qty <= 0:
                 L.append("orders", {"event": "no_fill", "order_id": o["order_id"], "date": bar.date, "reason": f.reason}, ts=ts)
                 continue
-            gross_local = f.qty * f.price
-            gross_nzd = gross_local * nzd_per_local
             if plan.month != bar.date[:7]:
                 plan = plan_for_month(L, bar.date[:7])
-            fee = brokerage(m, gross_local, gross_nzd, plan)
+
+            def fee_for(q):       # brokerage on q shares, without using up the plan's cover yet
+                trial = PlanState(month=plan.month, used_nzd=plan.used_nzd)
+                return brokerage(m, q * f.price, q * f.price * nzd_per_local, trial)
             if o["side"] == "buy":
-                need = gross_local + fee
-                have = state(L)["cash"].get(ccy, 0.0)
+                need = f.qty * f.price + fee_for(f.qty)
+                cash_now = state(L)["cash"]
+                have = cash_now.get(ccy, 0.0)
                 if ccy != "NZD" and have < need:
-                    _convert(L, fx, bar.date, "NZD", ccy, (need - have) * (1 + FX_BLOCK_BUFFER), ts)
+                    # convert from NZ$, but never more NZ$ than there is: no borrowing
+                    rate = fx.per_nzd(ccy, bar.date)
+                    want_nzd = (need - have) * (1 + FX_BLOCK_BUFFER) / rate / (1 - FX_FEE)
+                    nzd_in = min(want_nzd, max(0.0, cash_now.get("NZD", 0.0)))
+                    if nzd_in >= 1.0:
+                        _convert_nzd(L, fx, bar.date, ccy, nzd_in, ts)
                     have = state(L)["cash"].get(ccy, 0.0)
-                if have < need:   # cut the fill to what the cash allows
-                    take = math.floor((have - fee) / f.price)
+                if have < need:   # cut the fill to what the cash allows, fee included
+                    take = math.floor(max(0.0, have - FEE_CAP[m][1]) / f.price)
+                    while take > 0 and take * f.price + fee_for(take) > have:
+                        take -= 1
                     if take <= 0:
                         L.append("orders", {"event": "no_fill", "order_id": o["order_id"], "date": bar.date, "reason": "no cash"}, ts=ts)
                         break
-                    f.qty, gross_local = take, take * f.price
-                    gross_nzd = gross_local * nzd_per_local
+                    f.qty = take
+            gross_local = f.qty * f.price
+            gross_nzd = gross_local * nzd_per_local
+            fee = brokerage(m, gross_local, gross_nzd, plan)
             sign = -1 if o["side"] == "buy" else 1
             L.append("fills", {"order_id": o["order_id"], "sleeve": o["sleeve"], "market": m, "ticker": t,
                                "side": o["side"], "date": bar.date, "qty": f.qty, "price": round(f.price, 6),
@@ -177,33 +252,59 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
             remaining -= f.qty
             if remaining <= 1e-9:
                 break
-        # expire after ORDER_LIFE_SESSIONS eligible sessions
-        if remaining > 1e-9 and len(sessions) >= ORDER_LIFE_SESSIONS:
-            L.append("orders", {"event": "cancel", "order_id": o["order_id"], "reason": f"unfilled after {ORDER_LIFE_SESSIONS} sessions"}, ts=ts)
+        # lapse after ORDER_LIFE_SESSIONS sessions that traded, or ORDER_LIFE_DAYS business days (a halted share)
+        traded = [b for b in sessions if b.volume > 0]
+        age = business_days(utc(o["decided_at_utc"]).date().isoformat(), run_date)
+        if remaining > 1e-9 and (len(traded) >= ORDER_LIFE_SESSIONS or age >= ORDER_LIFE_DAYS):
+            why = f"unfilled after {ORDER_LIFE_SESSIONS} sessions that traded" if len(traded) >= ORDER_LIFE_SESSIONS \
+                else f"unfilled after {ORDER_LIFE_DAYS} business days"
+            L.append("orders", {"event": "cancel", "order_id": o["order_id"], "reason": why}, ts=ts)
             report["cancelled"].append(o["order_id"])
 
-    # 3. corporate actions entered by the analyst (dividends, consideration, splits) that fall due
+    # 3. dividends and consideration entered with src/actions.py that fall due.
+    # Dividends go to holders before the ex-date; consideration to holders before the record date
+    # (or at payment, if none is given). Each holder is booked once, even if a run is repeated.
     st = state(L)
+    done_refs = defaultdict(set)
+    for tbl in ("cash", "fills", "corporate_actions"):
+        for x in L.records(tbl):
+            q = x["payload"]
+            if q.get("ref") is not None and q.get("holder"):
+                done_refs[q["ref"]].add(tuple(q["holder"]))
     for r in L.records("corporate_actions"):
         p = r["payload"]
-        if p.get("type") not in ("dividend", "consideration", "split") or r["seq"] in st["applied"]:
+        if p.get("type") not in ("dividend", "consideration") or r["seq"] in st["applied"] or r["seq"] in st["voided"]:
             continue
-        due = p.get("pay_date") or p.get("effective_date")
+        due = p.get("pay_date")
+        if not due or (p["type"] == "dividend" and not p.get("ex_date")):
+            report["flags"].append(f"{p['type']} record {r['seq']} for {p.get('market')}:{p.get('ticker')} lacks its dates; not applied")
+            continue
         if due > run_date:
             continue
-        holders = [(k, q) for k, q in st["positions"].items() if k[1] == p["market"] and k[2] == p["ticker"]]
-        for (sleeve, m, t), q in holders:
+        cut = p["ex_date"] if p["type"] == "dividend" else p.get("record_date")
+        keys = {k for k in st["positions"] if k[1] == p["market"] and k[2] == p["ticker"]}
+        if cut:
+            keys |= {(f["sleeve"], f["market"], f["ticker"]) for f in (x["payload"] for x in L.records("fills"))
+                     if f["market"] == p["market"] and f["ticker"] == p["ticker"]}
+        for key in sorted(keys):
+            if key in done_refs[r["seq"]]:
+                continue
+            sleeve, m, t = key
+            q = position_before(L, key, cut) if cut else st["positions"].get(key, 0.0)
+            if p["type"] == "consideration":
+                q = min(q, st["positions"].get(key, 0.0))     # only shares still held can be paid out
+            if q <= 1e-9:
+                continue
             if p["type"] == "dividend":
-                L.append("cash", {"kind": "dividend", "ccy": p["ccy"], "amount": round(q * p["per_share"], 2), "ref": r["seq"]}, ts=ts)
+                L.append("cash", {"kind": "dividend", "ccy": p["ccy"], "amount": round(q * p["per_share"], 2), "ref": r["seq"],
+                                  "holder": list(key), "shares": q}, ts=ts)
             elif p["type"] == "consideration":
                 L.append("fills", {"order_id": f"CA{r['seq']}", "sleeve": sleeve, "market": m, "ticker": t, "side": "sell",
                                    "date": due, "qty": q, "price": p["per_share"], "gross_local": round(q * p["per_share"], 2),
                                    "gross_nzd": round(q * p["per_share"] * fx.nzd_per(p["ccy"], due), 2), "fee_local": 0.0,
-                                   "ccy": p["ccy"], "nzd_per_local": fx.nzd_per(p["ccy"], due), "reason": "consideration"}, ts=ts)
+                                   "ccy": p["ccy"], "nzd_per_local": fx.nzd_per(p["ccy"], due), "reason": "consideration",
+                                   "ref": r["seq"], "holder": list(key)}, ts=ts)
                 L.append("cash", {"kind": "consideration", "ccy": p["ccy"], "amount": round(q * p["per_share"], 2), "ref": r["seq"]}, ts=ts)
-            elif p["type"] == "split":
-                L.append("corporate_actions", {"type": "split_applied", "sleeve": sleeve, "market": m, "ticker": t,
-                                               "qty_change": q * (p["ratio"] - 1), "ref": r["seq"]}, ts=ts)
         L.append("corporate_actions", {"type": f"{p['type']}_applied", "ref": r["seq"]}, ts=ts)
         report["actions"].append(f"{p['type']} {p['market']}:{p['ticker']}")
 
@@ -211,13 +312,20 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
     if rates is not None and cfg.get("hedge", True):
         report["hedges"] = manage_hedges(L, prices, fx, rates, run_date, ts)
 
-    # 5. value the portfolio and check the limits
+    # 5. value the portfolio and check the limits; a dividend past its ex-date but not yet paid is owed
     st = state(L)
-    val = value(st, prices, fx, run_date, utc(ts), rates)
+    owed = 0.0
+    for r in L.records("corporate_actions"):
+        p = r["payload"]
+        if p.get("type") == "dividend" and r["seq"] not in st["applied"] and r["seq"] not in st["voided"] \
+                and p.get("ex_date") and p.get("pay_date") and p["ex_date"] <= run_date < p["pay_date"]:
+            for key in {k for k in st["positions"] if k[1] == p["market"] and k[2] == p["ticker"]}:
+                owed += position_before(L, key, p["ex_date"]) * p["per_share"] * fx.nzd_per(p["ccy"], run_date)
+    val = value(st, prices, fx, run_date, utc(ts), rates, receivable_nzd=owed)
     peaks = [r["payload"]["total_nzd"] for r in L.records("valuations")]
     peak = max(peaks + [val["total_nzd"]])
     dd = val["total_nzd"] / peak - 1
-    flags = []
+    flags = list(report["flags"])
     for line in val["positions"]:
         cap = CAPS.get(line["sleeve"])
         if cap and line["value_nzd"] > cap * val["total_nzd"] * 1.10:
@@ -233,11 +341,11 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
     return report
 
 
-def _convert(L: Ledger, fx: FX, d: str, frm: str, to: str, amount_to: float, ts: str) -> None:
-    """Buy `amount_to` of currency `to` with NZ$, paying Sharesies' 0.5% on the NZ$ entered."""
+def _convert_nzd(L: Ledger, fx: FX, d: str, to: str, nzd_in: float, ts: str) -> None:
+    """Convert `nzd_in` NZ$ into currency `to`, paying Sharesies' 0.5% on the NZ$ entered."""
     rate = fx.per_nzd(to, d)
-    nzd_in = round(amount_to / rate / (1 - FX_FEE), 2)
-    L.append("cash", {"kind": "fx_out", "ccy": frm, "amount": -nzd_in, "rate": rate, "date": d}, ts=ts)
+    nzd_in = round(nzd_in, 2)
+    L.append("cash", {"kind": "fx_out", "ccy": "NZD", "amount": -nzd_in, "rate": rate, "date": d}, ts=ts)
     L.append("cash", {"kind": "fx_in", "ccy": to, "amount": round(nzd_in * (1 - FX_FEE) * rate, 2), "rate": rate,
                       "fee_nzd": round(nzd_in * FX_FEE, 2), "date": d}, ts=ts)
 
@@ -302,7 +410,8 @@ def manage_hedges(L: Ledger, prices: Prices, fx: FX, rates: Rates, d: str, ts: s
     return out
 
 
-def value(st: dict, prices: Prices, fx: FX, d: str, as_of_utc: datetime | None = None, rates: Rates | None = None) -> dict:
+def value(st: dict, prices: Prices, fx: FX, d: str, as_of_utc: datetime | None = None, rates: Rates | None = None,
+          receivable_nzd: float = 0.0) -> dict:
     lines, by_sleeve = [], defaultdict(float)
     for (sleeve, m, t), q in st["positions"].items():
         px = prices.last_close(m, t, d, as_of_utc) or 0.0
@@ -311,10 +420,11 @@ def value(st: dict, prices: Prices, fx: FX, d: str, as_of_utc: datetime | None =
         by_sleeve[sleeve] += v
     cash_nzd = {c: round(a * fx.nzd_per(c, d), 2) for c, a in st["cash"].items()}
     hedge_mtm = sum(hedge_value_nzd(h, fx, rates, d) for h in st["hedges"].values())
-    total = sum(by_sleeve.values()) + sum(cash_nzd.values()) + hedge_mtm
+    total = sum(by_sleeve.values()) + sum(cash_nzd.values()) + hedge_mtm + receivable_nzd
     realised = st.get("hedge_realised_nzd", 0.0)
     return {"total_nzd": round(total, 2), "total_unhedged_nzd": round(total - hedge_mtm - realised, 2),
             "positions": lines, "by_sleeve": {k: round(v, 2) for k, v in by_sleeve.items()},
             "cash_local": {c: round(a, 2) for c, a in st["cash"].items()}, "cash_nzd": cash_nzd,
             "cash_nzd_total": round(sum(cash_nzd.values()), 2), "hedge_mtm_nzd": round(hedge_mtm, 2),
+            "dividends_owed_nzd": round(receivable_nzd, 2),
             "hedge_realised_nzd": round(realised, 2)}
