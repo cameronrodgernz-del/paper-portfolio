@@ -1,18 +1,92 @@
 {
  "exchanges_nz": {
-  "status": 403,
-  "error": "{\n  \"title\": \"Forbidden\",\n  \"status\": 403,\n  \"detail\": \"Quota exceeded: Insufficient Usage Credits or Subscription.\",\n  \"error\": \"Forbidden (Quota exceeded: Insufficient Usage Credits or Subscription.)\",\n  \"QuotaKey\": \"BA\",\n  \"QuotaName\": \"Insufficient Usage Credits or Subscription\",\n  \"QuotaType\": \"Organization Limit\",\n  \"QuotaValueCurrentUsage\": 0,\n  \"QuotaValue\": 0,\n  \"QuotaValueUnit\": \"$\",\n  \"QuotaValueAdjustable\": \"Yes, acquire or upgrade subscription, add service credits manually or setup "
+  "status": 200,
+  "headers": {
+   "x-tierlimit-concurrency-limit": "1",
+   "x-tierlimit-concurrency-remaining": "1",
+   "x-tierlimit-rpm-limit": "10",
+   "x-tierlimit-rpm-remaining": "10"
+  },
+  "body": [
+   {
+    "exchange_id": "XNZE",
+    "last_datapoint_date": "2026-10-31",
+    "mic": "XNZE",
+    "operating_mic": "XNZE",
+    "oprt_sgmt": "OPRT",
+    "market_name_institution_description": "NZX - ALL MARKETS",
+    "legal_entity_name": "NZX LIMITED",
+    "lei": "254900KTE7C5U39QMD43",
+    "market_category_code": "RMKT",
+    "acronym": "NZX",
+    "iso_country_code": "NZ",
+    "city": "AUCKLAND",
+    "website": "WWW.NZX.COM",
+    "status": "ACTIVE",
+    "creation_date": "2005-06-27T00:00:00.0000000Z",
+    "last_update_date": "2024-05-27T00:00:00.0000000Z",
+    "last_validation_date": "2024-05-27T00:00:00.0000000Z",
+    "comments": "NZX ALL MARKETS."
+   },
+   {
+    "exchange_id": "XSHE",
+    "last_datapoint_date": "2026-10-31",
+    "mic": "XSHE",
+    "operating_mic": "XSHE",
+    "oprt_sgmt": "OPRT",
+    "market_name_institution_description": "SHENZHEN STOCK EXCHANGE",
+    "market_category_code": "NSPD",
+    "iso_country_code": "CN",
+    "city": "SHENZHEN",
+    "website": "WWW.SZSE.CN",
+    "status": "ACTIVE",
+    "creation_date": "2005-06-27T00:00:00.0000000Z",
+    "last_update_date": "2005-06-27T00:00:00.0000000Z"
+   }
+  ]
  },
  "symbols_xnze": {
-  "status": 403,
-  "error": "{\n  \"title\": \"Forbidden\",\n  \"status\": 403,\n  \"detail\": \"Quota exceeded: Insufficient Usage Credits or Subscription.\",\n  \"error\": \"Forbidden (Quota exceeded: Insufficient Usage Credits or Subscription.)\",\n  \"QuotaKey\": \"BA\",\n  \"QuotaName\": \"Insufficient Usage Credits or Subscription\",\n  \"QuotaType\": \"Organization Limit\",\n  \"QuotaValueCurrentUsage\": 0,\n  \"QuotaValue\": 0,\n  \"QuotaValueUnit\": \"$\",\n  \"QuotaValueAdjustable\": \"Yes, acquire or upgrade subscription, add service credits manually or setup "
+  "status": 200,
+  "headers": {
+   "x-tierlimit-concurrency-limit": "1",
+   "x-tierlimit-concurrency-remaining": "1",
+   "x-tierlimit-rpm-limit": "10",
+   "x-tierlimit-rpm-remaining": "10"
+  },
+  "count": 400,
+  "sample": []
  },
  "air_daily_october": {
-  "status": 403,
-  "error": "{\n  \"title\": \"Forbidden\",\n  \"status\": 403,\n  \"detail\": \"Quota exceeded: Insufficient Usage Credits or Subscription.\",\n  \"error\": \"Forbidden (Quota exceeded: Insufficient Usage Credits or Subscription.)\",\n  \"QuotaKey\": \"BA\",\n  \"QuotaName\": \"Insufficient Usage Credits or Subscription\",\n  \"QuotaType\": \"Organization Limit\",\n  \"QuotaValueCurrentUsage\": 0,\n  \"QuotaValue\": 0,\n  \"QuotaValueUnit\": \"$\",\n  \"QuotaValueAdjustable\": \"Yes, acquire or upgrade subscription, add service credits manually or setup "
+  "status": 200,
+  "headers": {
+   "x-tierlimit-concurrency-limit": "1",
+   "x-tierlimit-concurrency-remaining": "1",
+   "x-tierlimit-rpm-limit": "10",
+   "x-tierlimit-rpm-remaining": "9"
+  },
+  "body": []
  },
  "whole_exchange_30_oct": {
-  "status": 403,
-  "error": "{\n  \"title\": \"Forbidden\",\n  \"status\": 403,\n  \"detail\": \"Quota exceeded: Insufficient Usage Credits or Subscription.\",\n  \"error\": \"Forbidden (Quota exceeded: Insufficient Usage Credits or Subscription.)\",\n  \"QuotaKey\": \"BA\",\n  \"QuotaName\": \"Insufficient Usage Credits or Subscription\",\n  \"QuotaType\": \"Organization Limit\",\n  \"QuotaValueCurrentUsage\": 0,\n  \"QuotaValue\": 0,\n  \"QuotaValueUnit\": \"$\",\n  \"QuotaValueAdjustable\": \"Yes, acquire or upgrade subscription, add service credits manually or setup "
+  "status": 200,
+  "headers": {
+   "x-tierlimit-concurrency-limit": "1",
+   "x-tierlimit-concurrency-remaining": "1",
+   "x-tierlimit-rpm-limit": "10",
+   "x-tierlimit-rpm-remaining": "9"
+  },
+  "rows": 0,
+  "sample": []
+ },
+ "air_daily_since_2009": {
+  "status": 200,
+  "headers": {
+   "x-tierlimit-concurrency-limit": "1",
+   "x-tierlimit-concurrency-remaining": "1",
+   "x-tierlimit-rpm-limit": "10",
+   "x-tierlimit-rpm-remaining": "8"
+  },
+  "rows": 0,
+  "first": null,
+  "last": null
  }
 }
