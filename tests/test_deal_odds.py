@@ -46,6 +46,13 @@ check("a scheme voted down reached the booklet but not a passed vote",
 check("a failure after a passed vote counts at the vote stage",
       do.reached(row(outcome="terminated", failure_reason="regulator", meeting_date="2024-03-01", outcome_date="2024-06-01"), "vote_passed") is True)
 check("a completed scheme reached every stage", all(do.reached(row(), s) for s in do.STAGES))
+check("a regulator block with no booklet recorded failed before the booklet",
+      do.reached(row(outcome="terminated", failure_reason="regulator (ACCC opposed)", outcome_date="2024-09-01"), "booklet_out") is False)
+_rows = [dict(row(deal_id=f"C{i}", booklet_date="2024-02-15", outcome_date="2024-05-01"), y=1) for i in range(8)]
+_rows += [dict(row(deal_id="W1", outcome="superseded_by_rival", outcome_date="2024-06-01"), y=1),
+          dict(row(deal_id="F1", outcome="terminated", failure_reason="target board", outcome_date="2024-06-01"), y=0)]
+_r = do.stage_rates(_rows)["scheme|booklet_out"]
+check("an undated rival win counts at the booklet stage like an undated failure", _r["undated_wins"] == 1 and _r["undated_failures"] == 1 and _r["n_cautious"] == 10, _r)
 
 # the monitor: later stages start from higher chances, and the feature model moves less
 with tempfile.TemporaryDirectory() as root:

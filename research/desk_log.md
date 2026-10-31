@@ -46,3 +46,12 @@ From the sweep of ASX and NZX announcements (deal files A11.md, GL1.md):
 - NZX: no live control deal at NZ$20m or more. Bremworth and 2 Cheap Cars have finished. Watching
   non-binding approaches: thl (update by the 6 Nov AGM), SkyCity (structured process since 30 Sep).
 Both new deals have no stored prices yet; the nightly fetch adds them.
+
+## 2026-11-01, Undisturbed dates filled for every live deal; Peet's undisturbed price moved to 9 Jul
+
+The break price moves the undisturbed price with the market from its own date, so each live deal
+now has that date, from the deal database's undisturbed basis: BET 7 Aug, OML 28 Apr (before the
+first proposal), AUC 14 Aug, SDF 9 Jun (before the NBIO), MEI 30 Sep, CWY 12 Aug (before the NBIO)
+and FPR 31 Jul (before SG Fleet's approach). PPC: A$1.81 (21 Aug) to A$1.70, the close on 9 Jul,
+the undisturbed date Peet's own presentation uses, before the first approach on 10 Jul. AX1 has no
+break price (an unconditional on-market bid). From the independent review of 1 Nov, finding 4.

@@ -57,6 +57,10 @@ with tempfile.TemporaryDirectory() as root:
     check("the latest passed date is the one named", any("payment was due on 2026-11-06" in x for x in txt.get("PAST", [])), txt)
     check("a payment date well past with the deal still listed is flagged", any("still on the live list" in x for x in txt.get("PAST", [])), txt)
     check("a live deal with no file is flagged", any("has no deal file" in x for x in txt.get("NONE", [])), txt)
+    open(os.path.join(root, "config", "live_deals.csv"), "w").write(
+        "deal_id,target_market,target_ticker,undisturbed,undisturbed_date,expected_payment,deal_file,file_checked\n"
+        "D1,ASX,NOW,1.00,,2026-12-26,research/deals/NOW.md,2026-11-11\n")
+    check("an undisturbed price without its date is flagged", any("with no date" in i["text"] for i in dc.check_deal_files(root, "2026-11-12")))
 
 print("\nALL PASS" if not fails else f"\n{len(fails)} FAILED: {fails}")
 sys.exit(1 if fails else 0)

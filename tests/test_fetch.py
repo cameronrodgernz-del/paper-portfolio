@@ -36,6 +36,15 @@ fp.http_json = stub
 check("EODHD allowance read from the account (capped per run)", fp.eodhd_budget("KEY") == fp.EODHD_RUN_MAX)
 check("EODHD allowance falls back to the free plan's 20", fp.eodhd_budget("BROKEN") == 20)
 check("no EODHD key, no requests", fp.eodhd_budget(None) == 0)
+check("a used count from an earlier UTC day counts as none used", fp.budget_from_user({"dailyRateLimit": 20, "apiRequests": 20, "apiRequestsDate": "2026-11-01"}, "2026-11-02") == 20)
+check("today's used count is taken off", fp.budget_from_user({"dailyRateLimit": 20, "apiRequests": 15, "apiRequestsDate": "2026-11-02"}, "2026-11-02") == 5)
+check("an undated count is taken off", fp.budget_from_user({"dailyRateLimit": 20, "apiRequests": 15}, "2026-11-02") == 5)
+with tempfile.TemporaryDirectory() as d:
+    c = os.path.join(d, "eodhd_plan.txt")
+    n1 = fp.eodhd_limit("KEY", c)
+    fp.http_json = lambda url, headers=None: (_ for _ in ()).throw(OSError("asked again"))
+    check("the plan limit is asked for once a day and then read from the cache", n1 == 100000 and fp.eodhd_limit("KEY", c) == 100000)
+    fp.http_json = stub
 
 with tempfile.TemporaryDirectory() as root:
     fp.ROOT = root

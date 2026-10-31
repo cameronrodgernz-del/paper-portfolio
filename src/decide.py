@@ -21,6 +21,7 @@ cards need an industry; deal cards also need a group. A special situation card s
 (e.g. "insider_cluster"); only a type that has passed its history test is traded, and US deals wait
 for test 9b.
 """
+import csv
 import json
 import os
 import sys
@@ -108,13 +109,32 @@ def review_pending(L: Ledger) -> bool:
     return flag
 
 
-TESTS = {"us_deal": ("reports", "deal_us_history.md"), "insider_cluster": ("reports", "special_insider_history.md")}
+TESTS = {"us_deal": ("reports", "deal_us_history.md"), "insider_cluster": ("reports", "special_insider_history.md"),
+         "asx_cash_deal": ("reports", "deal_au_history.md")}
 
 
 def test_passed(name: str, root: str = ROOT) -> bool:
     """True once the history test's report records a pass (rulebook section 9)."""
     p = os.path.join(root, *TESTS[name])
     return os.path.exists(p) and "**Result: pass.**" in open(p).read()
+
+
+def test_failed(name: str, root: str = ROOT) -> bool:
+    """True once the history test's report records a fail."""
+    p = os.path.join(root, *TESTS[name])
+    return os.path.exists(p) and "**Result: fail.**" in open(p).read()
+
+
+def cash_only(card: dict, root: str = ROOT) -> bool:
+    """A deal paid wholly in cash, by the live list's terms (no scrip ratio)."""
+    p = os.path.join(root, "config", "live_deals.csv")
+    for r in (csv.DictReader(open(p, encoding="utf-8")) if os.path.exists(p) else []):
+        if r["target_market"] == card["market"] and r["target_ticker"].upper() == card["ticker"].upper():
+            try:
+                return float(r.get("scrip_ratio") or 0) == 0
+            except ValueError:
+                return False
+    return False
 
 
 def untested(card: dict, root: str = ROOT) -> str | None:
@@ -125,9 +145,11 @@ def untested(card: dict, root: str = ROOT) -> str | None:
         return None
     if card["sleeve"] == "deal" and card["market"] == "US" and not test_passed("us_deal", root):
         return "US deals are not traded until the US cash deal test (9b) passes"
+    if card["sleeve"] == "deal" and card["market"] == "ASX" and test_failed("asx_cash_deal", root) and cash_only(card, root):
+        return "ASX cash deals are not traded: the ASX cash deal test (9c) failed (rulebook section 9c)"
     if card["sleeve"] == "special":
         kind = card.get("type")
-        if kind not in TESTS or kind == "us_deal":
+        if kind not in TESTS or kind in ("us_deal", "asx_cash_deal"):
             return f"special situation type {kind!r} has no history test, so it is watched but not traded"
         if not test_passed(kind, root):
             return f"special situation type {kind!r} has not passed its history test"

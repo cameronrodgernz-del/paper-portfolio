@@ -92,6 +92,8 @@ def reached(r: dict, stage: str) -> bool | None:
             return True
         if fr.startswith("vote"):
             return True
+        if b is None and fr.startswith("regulator"):
+            return False      # blocked by a regulator with no booklet recorded: it failed before the booklet
         return False if b is None and out and d(r["announce_date"]) and (out - d(r["announce_date"])).days < 30 else None
     if stage == "vote_passed":
         if not scheme:
@@ -145,14 +147,17 @@ def stage_rates(rows: list[dict]) -> dict:
                 continue
             known = [r for r in grp if reached(r, st) is True]
             unknown_fail = [r for r in grp if reached(r, st) is None and r["y"] == 0 and st == "booklet_out" and imputed(r, st, q1)]
+            # holders paid by a rival with no booklet date: the same days rule, so wins and failures are treated alike
+            unknown_win = [r for r in grp if reached(r, st) is None and r["y"] == 1 and st == "booklet_out" and imputed(r, st, q1)]
             win = sum(r["y"] for r in known)
             n_known = len(known)
-            n_cautious = n_known + len(unknown_fail)
+            n_cautious = n_known + len(unknown_fail) + len(unknown_win)
             if not n_known:
                 continue
             out[f"{struct}|{st}"] = {"structure": struct, "stage": st, "n": n_known, "paid": win,
                                      "rate_known": round(win / n_known, 4),
-                                     "rate": round((win + 0.5) / (n_cautious + 1), 4), "n_cautious": n_cautious, "undated_failures": len(unknown_fail)}
+                                     "rate": round((win + len(unknown_win) + 0.5) / (n_cautious + 1), 4), "n_cautious": n_cautious,
+                                     "undated_failures": len(unknown_fail), "undated_wins": len(unknown_win)}
     return out
 
 
@@ -249,6 +254,13 @@ def main(root: str) -> int:
     rates = stage_rates(res)
     tim = timing(res)
     model = model_test([r for r in res if r["structure"] in ("scheme", "full_takeover", "partial_takeover")])
+    prev_path = os.path.join(root, "reports", "deal_odds.json")
+    if not model.get("coef") and os.path.exists(prev_path):
+        # scikit-learn missing here: keep the last tested model rather than switch it off without a word
+        prev = json.load(open(prev_path)).get("model") or {}
+        if prev.get("coef"):
+            model = dict(prev, why=(prev.get("why") or "") + f" (kept from the last run with scikit-learn; not retested on {date.today().isoformat()})")
+            print("scikit-learn not installed: the deal-feature model is kept from the last run, not retested", file=sys.stderr)
     out = {"made": date.today().isoformat(), "resolved": len(res), "completed_rate": round(plain, 4), "paid_rate": round(paid, 4),
            "stages": rates, "timing": tim, "model": model, "features": FEATURES}
     json.dump(out, open(os.path.join(root, "reports", "deal_odds.json"), "w"), indent=1)
@@ -258,10 +270,10 @@ def main(root: str) -> int:
          f"- Completed with the first bidder: {plain:.0%}. Holders paid at least the offer, counting rival bids that completed at the same or a higher price: {paid:.0%}.",
          "- A rival bid that wins is a win for a holder, so the second figure is the one the engine starts from.", "",
          "## By stage reached", "",
-         "Only failures after the stage count against it. A failed deal with no booklet date is counted against the booklet stage if it failed later than a quarter of completed deals had their booklet out, which keeps that rate cautious. Meetings and court hearings are recorded for every failed deal that reached them, so those stages use dated deals only. Rates are smoothed so none reads as certain (paid plus a half, over deals plus one).", "",
-         "| Structure | Stage reached | Deals | Paid | Rate used | Dated deals only | Undated failures |", "| --- | --- | --- | --- | --- | --- | --- |"]
+         "Only failures after the stage count against it. A deal with no booklet date counts at the booklet stage if it ended later than a quarter of completed deals had their booklet out, whether it failed or its holders were paid by a rival, so wins and failures are treated alike; a deal blocked by a regulator with no booklet recorded failed before it. Meetings and court hearings are recorded for every failed deal that reached them, so those stages use dated deals only. Rates are smoothed so none reads as certain (paid plus a half, over deals plus one).", "",
+         "| Structure | Stage reached | Deals | Paid | Rate used | Dated deals only | Undated failures | Undated rival wins |", "| --- | --- | --- | --- | --- | --- | --- | --- |"]
     for k, v in rates.items():
-        L.append(f"| {v['structure'].replace('_', ' ')} | {STAGE_LABEL[v['stage']]} | {v['n_cautious']} | {v['paid']} | {v['rate']:.0%} | {v['rate_known']:.0%} of {v['n']} | {v['undated_failures']} |")
+        L.append(f"| {v['structure'].replace('_', ' ')} | {STAGE_LABEL[v['stage']]} | {v['n_cautious']} | {v['paid']} | {v['rate']:.0%} | {v['rate_known']:.0%} of {v['n']} | {v['undated_failures']} | {v.get('undated_wins', 0)} |")
     L += ["", "## Days to payment, completed deals", "", "| From | Median | Middle half | Deals |", "| --- | --- | --- | --- |"]
     for k, v in tim.items():
         parts = k.split("|")

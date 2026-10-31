@@ -119,7 +119,7 @@ def main(root: str, force: bool = False) -> int:
              f"Rulebook section 9b. Run {datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC{' (forced re-run)' if force else ''}. "
              f"Sample: {len(sample)} tickers (seed 20261102), {len(prices)} with prices; {len(res)} events used.", ""]
     if len(res) < 2:
-        lines += ["Too few events. Result: fail."]
+        lines += ["Too few events. **Result: fail.**"]
     else:
         nets = [r["net"] for r in res]
         n, mean, sd = len(nets), stats.mean(nets), stats.stdev(nets)

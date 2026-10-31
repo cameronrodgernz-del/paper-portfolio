@@ -13,8 +13,8 @@ the core funds):
 Currency checks: the NZ$ rates are no more than 4 days old, and each day's change is under 5%.
 Deal file checks, for each deal on the live list: it has a deal file; the file was checked in the last
 7 days; no key date (booklet, meeting, second court hearing, payment) has passed since the file was
-last checked, which would mean its stage is out of date; and the payment date hasn't passed with the
-deal still listed.
+last checked, which would mean its stage is out of date; the payment date hasn't passed with the
+deal still listed; and an undisturbed price has its date.
 Usage: python3 -I src/data_checks.py <repo_root>
 """
 import csv
@@ -163,6 +163,9 @@ def check_deal_files(root: str, today: str, stale_days: int = 7) -> list[dict]:
         elif age > stale_days:
             issues.append({"kind": "deal_file", "market": m, "ticker": tk, "date": checked,
                            "text": f"{tk}'s deal file was last checked {age} days ago ({checked})"})
+        if (r.get("undisturbed") or "").strip() and not (r.get("undisturbed_date") or "").strip():
+            issues.append({"kind": "deal_file", "market": m, "ticker": tk,
+                           "text": f"{tk} has an undisturbed price with no date, so its break price is moved from the announcement instead"})
         pay = (r.get("expected_payment") or "")[:10]
         if pay and bdays(pay, today) > 3:
             issues.append({"kind": "deal_file", "market": m, "ticker": tk, "date": pay,

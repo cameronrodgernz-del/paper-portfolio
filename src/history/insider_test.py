@@ -164,7 +164,7 @@ def main(root: str, force: bool = False) -> int:
         else:
             lines.append(f"| {n} | {h} | US${liq / 1e6:.0f}m | {s['n']} | {s['mean']:+.2%} | {s['median']:+.2%} | {s['t']:.2f} | {s['hit']:.0%} | {s['mean_costs']:.2%} |")
     if not pick:
-        lines += ["", f"No version had {MIN_TUNING_EVENTS} tuning events, so nothing is picked and the hold-out is not run. Result: fail."]
+        lines += ["", f"No version had {MIN_TUNING_EVENTS} tuning events, so nothing is picked and the hold-out is not run. **Result: fail.**"]
     else:
         (n, h, liq), ts, _ = pick
         rs, why = run(n, h, liq, ("2020", "2026"))
@@ -181,7 +181,7 @@ def main(root: str, force: bool = False) -> int:
                       f"(tuning mean {ts['mean']:+.2%} on {ts['n']} events).", "",
                   "## Hold-out, 2020 onwards (run once)", ""]
         if s["n"] < 2:
-            lines += [f"Only {s['n']} events. Result: fail."]
+            lines += [f"Only {s['n']} events. **Result: fail.**"]
         else:
             lines += ["| Measure | Value |", "| --- | --- |",
                       f"| Events | {s['n']} |", f"| Mean return | {s['mean_raw']:+.2%} |", f"| Mean SPY return | {s['mean_bench']:+.2%} |",

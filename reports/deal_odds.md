@@ -7,21 +7,21 @@ From 319 resolved deals in the database (majority-holder buy-outs left out). Mad
 
 ## By stage reached
 
-Only failures after the stage count against it. A failed deal with no booklet date is counted against the booklet stage if it failed later than a quarter of completed deals had their booklet out, which keeps that rate cautious. Meetings and court hearings are recorded for every failed deal that reached them, so those stages use dated deals only. Rates are smoothed so none reads as certain (paid plus a half, over deals plus one).
+Only failures after the stage count against it. A deal with no booklet date counts at the booklet stage if it ended later than a quarter of completed deals had their booklet out, whether it failed or its holders were paid by a rival, so wins and failures are treated alike; a deal blocked by a regulator with no booklet recorded failed before it. Meetings and court hearings are recorded for every failed deal that reached them, so those stages use dated deals only. Rates are smoothed so none reads as certain (paid plus a half, over deals plus one).
 
-| Structure | Stage reached | Deals | Paid | Rate used | Dated deals only | Undated failures |
-| --- | --- | --- | --- | --- | --- | --- |
-| scheme | announced | 232 | 210 | 90% | 91% of 232 | 0 |
-| scheme | booklet or target's statement out | 222 | 200 | 90% | 95% of 210 | 12 |
-| scheme | holders voted for it | 201 | 199 | 99% | 99% of 201 | 0 |
-| scheme | court approved or unconditional | 199 | 199 | 100% | 100% of 199 | 0 |
-| full takeover | announced | 79 | 62 | 78% | 78% of 79 | 0 |
-| full takeover | booklet or target's statement out | 72 | 56 | 77% | 85% of 66 | 6 |
-| full takeover | court approved or unconditional | 55 | 55 | 99% | 100% of 55 | 0 |
-| all | announced | 319 | 277 | 87% | 87% of 319 | 0 |
-| all | booklet or target's statement out | 302 | 261 | 86% | 92% of 284 | 18 |
-| all | holders voted for it | 201 | 199 | 99% | 99% of 201 | 0 |
-| all | court approved or unconditional | 259 | 259 | 100% | 100% of 259 | 0 |
+| Structure | Stage reached | Deals | Paid | Rate used | Dated deals only | Undated failures | Undated rival wins |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| scheme | announced | 232 | 210 | 90% | 91% of 232 | 0 | 0 |
+| scheme | booklet or target's statement out | 225 | 200 | 92% | 95% of 210 | 8 | 7 |
+| scheme | holders voted for it | 201 | 199 | 99% | 99% of 201 | 0 | 0 |
+| scheme | court approved or unconditional | 199 | 199 | 100% | 100% of 199 | 0 | 0 |
+| full takeover | announced | 79 | 62 | 78% | 78% of 79 | 0 | 0 |
+| full takeover | booklet or target's statement out | 77 | 56 | 79% | 85% of 66 | 6 | 5 |
+| full takeover | court approved or unconditional | 55 | 55 | 99% | 100% of 55 | 0 | 0 |
+| all | announced | 319 | 277 | 87% | 87% of 319 | 0 | 0 |
+| all | booklet or target's statement out | 310 | 261 | 88% | 92% of 284 | 14 | 12 |
+| all | holders voted for it | 201 | 199 | 99% | 99% of 201 | 0 | 0 |
+| all | court approved or unconditional | 259 | 259 | 100% | 100% of 259 | 0 | 0 |
 
 ## Days to payment, completed deals
 

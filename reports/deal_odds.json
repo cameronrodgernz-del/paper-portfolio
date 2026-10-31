@@ -12,7 +12,8 @@
    "rate_known": 0.9052,
    "rate": 0.9034,
    "n_cautious": 232,
-   "undated_failures": 0
+   "undated_failures": 0,
+   "undated_wins": 0
   },
   "scheme|booklet_out": {
    "structure": "scheme",
@@ -20,9 +21,10 @@
    "n": 210,
    "paid": 200,
    "rate_known": 0.9524,
-   "rate": 0.8991,
-   "n_cautious": 222,
-   "undated_failures": 12
+   "rate": 0.9181,
+   "n_cautious": 225,
+   "undated_failures": 8,
+   "undated_wins": 7
   },
   "scheme|vote_passed": {
    "structure": "scheme",
@@ -32,7 +34,8 @@
    "rate_known": 0.99,
    "rate": 0.9876,
    "n_cautious": 201,
-   "undated_failures": 0
+   "undated_failures": 0,
+   "undated_wins": 0
   },
   "scheme|court_approved": {
    "structure": "scheme",
@@ -42,7 +45,8 @@
    "rate_known": 1.0,
    "rate": 0.9975,
    "n_cautious": 199,
-   "undated_failures": 0
+   "undated_failures": 0,
+   "undated_wins": 0
   },
   "full_takeover|announced": {
    "structure": "full_takeover",
@@ -52,7 +56,8 @@
    "rate_known": 0.7848,
    "rate": 0.7812,
    "n_cautious": 79,
-   "undated_failures": 0
+   "undated_failures": 0,
+   "undated_wins": 0
   },
   "full_takeover|booklet_out": {
    "structure": "full_takeover",
@@ -60,9 +65,10 @@
    "n": 66,
    "paid": 56,
    "rate_known": 0.8485,
-   "rate": 0.774,
-   "n_cautious": 72,
-   "undated_failures": 6
+   "rate": 0.7885,
+   "n_cautious": 77,
+   "undated_failures": 6,
+   "undated_wins": 5
   },
   "full_takeover|court_approved": {
    "structure": "full_takeover",
@@ -72,7 +78,8 @@
    "rate_known": 1.0,
    "rate": 0.9911,
    "n_cautious": 55,
-   "undated_failures": 0
+   "undated_failures": 0,
+   "undated_wins": 0
   },
   "all|announced": {
    "structure": "all",
@@ -82,7 +89,8 @@
    "rate_known": 0.8683,
    "rate": 0.8672,
    "n_cautious": 319,
-   "undated_failures": 0
+   "undated_failures": 0,
+   "undated_wins": 0
   },
   "all|booklet_out": {
    "structure": "all",
@@ -90,9 +98,10 @@
    "n": 284,
    "paid": 261,
    "rate_known": 0.919,
-   "rate": 0.863,
-   "n_cautious": 302,
-   "undated_failures": 18
+   "rate": 0.8794,
+   "n_cautious": 310,
+   "undated_failures": 14,
+   "undated_wins": 12
   },
   "all|vote_passed": {
    "structure": "all",
@@ -102,7 +111,8 @@
    "rate_known": 0.99,
    "rate": 0.9876,
    "n_cautious": 201,
-   "undated_failures": 0
+   "undated_failures": 0,
+   "undated_wins": 0
   },
   "all|court_approved": {
    "structure": "all",
@@ -112,7 +122,8 @@
    "rate_known": 1.0,
    "rate": 0.9981,
    "n_cautious": 259,
-   "undated_failures": 0
+   "undated_failures": 0,
+   "undated_wins": 0
   }
  },
  "timing": {

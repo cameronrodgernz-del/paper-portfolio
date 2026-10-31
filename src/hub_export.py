@@ -326,7 +326,7 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
             by_grp[grp[(p["market"], p["ticker"])]] += p["value_nzd"]
     sleeves = {s: rd(latest.get("by_sleeve", {}).get(s, 0.0) / total, 5) for s in ("core", "deal", "special")}
     from decide import TESTS, test_passed
-    passed = [k for k in TESTS if k != "us_deal" and test_passed(k, ROOT)]
+    passed = [k for k in TESTS if k not in ("us_deal", "asx_cash_deal") and test_passed(k, ROOT)]
     special_note = None if passed else "no type has passed a history test, so this sits in cash"
     sleeves["cash"] = rd(latest["cash_nzd_total"] / total, 5)
     review = False
@@ -360,7 +360,9 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
     for p in positions:
         if p["sleeve"] != "deal":
             continue
-        bp = mon.get(p["ticker"]) or (p["card"] or {}).get("break_price")
+        card = p["card"] or {}
+        worst = min((o[1] for o in (card.get("outcomes") or []) if isinstance(o, (list, tuple)) and len(o) > 1 and o[1] is not None), default=None)
+        bp = mon.get(p["ticker"]) or card.get("break_price") or worst      # as decide.py: the worst outcome if nothing else
         if bp and p["close"]:
             loss = p["qty"] * (bp - p["close"]) * (p["value"] / (p["qty"] * p["close"]))
             stress.append({"tk": p["ticker"], "break": rd(bp, 4), "loss": rd(min(0.0, loss))})
@@ -372,7 +374,11 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
             "closed": [{"tk": k[2], "s": k[0], "nzd": rd(b["realised_nzd"])} for k, b in basis.items() if b["qty"] <= 1e-9 and abs(b["realised_nzd"]) > 0.005],
             "interest": rd(sum(interest.values())), "hedges": rd(st["hedge_realised_nzd"] + hedge_mtm),
             "plan_fees": rd(-costs.get("plan", 0.0)), "conversion_fees": rd(-costs.get("fx", 0.0))}
-    explained = sum(x["nzd"] or 0 for x in attr["positions"]) + sum(x["nzd"] or 0 for x in attr["closed"]) + attr["interest"] + attr["hedges"] + attr["plan_fees"] + attr["conversion_fees"]
+    held = {(p["sleeve"], p["market"], p["ticker"]) for p in positions}
+    # dividends on holdings since sold, and dividends declared but not yet paid (the held ones are in each holding's line)
+    attr["dividends"] = rd(sum(v for k, v in divs.items() if k not in held) + (latest.get("dividends_owed_nzd", 0.0) or 0.0))
+    explained = (sum(x["nzd"] or 0 for x in attr["positions"]) + sum(x["nzd"] or 0 for x in attr["closed"]) + attr["interest"] + attr["hedges"]
+                 + attr["plan_fees"] + attr["conversion_fees"] + attr["dividends"])
     attr["other"] = rd((total - bank) - explained)
     attr["total"] = rd(total - bank)
 
@@ -412,10 +418,17 @@ def deal_file(ticker: str, market: str = "ASX") -> dict | None:
         title, _, rest = part.partition("\n")
         secs[title.strip().lower()] = rest.strip()[:3000]
     split = lambda v: [x.strip() for x in (v or "").split(";") if x.strip()]
+    # a date field that isn't a date ("YYYY-MM-DD" left from the template, "1 Nov 2026") is dropped, so
+    # the page never has to read it
+    for k in list(head):
+        if (k.endswith("_date") or k == "last_checked") and head[k] and not re.match(r"\d{4}-\d\d-\d\d$", head[k][:10]):
+            head[k] = ""
+        elif k.endswith("_date") or k == "last_checked":
+            head[k] = head[k][:10]
     return {"head": {k: v for k, v in head.items() if v}, "summary": secs.get("in short", ""),
             "conditions_open": split(head.get("conditions_open")), "conditions_met": split(head.get("conditions_met")),
             "conditions": secs.get("conditions", ""), "dates": secs.get("key dates", ""), "risks": secs.get("risks to completion", ""),
-            "recent": secs.get("recent announcements", ""), "checked": head.get("last_checked")}
+            "recent": secs.get("recent announcements", ""), "checked": head.get("last_checked") or None}
 
 
 def deal_events(rows: list[dict], today: str, days: int = 21) -> list[dict]:
@@ -458,7 +471,7 @@ def deals_section(names: dict, held: set) -> dict:
                      "meeting_date": r.get("meeting_date") or lv.get("meeting_date") or None, "end_date": r.get("end_date") or lv.get("end_date") or None,
                      "late": r.get("late_payment") or None, "yearly_late": fnum(r.get("yearly_if_late")), "late_note": r.get("late_note") or "",
                      "ev": fnum(r.get("expected_return")), "ev_yearly": fnum(r.get("expected_yearly")),
-                     "hist": hist.get(r["deal_id"], []), "file": deal_file(tk, mkt),
+                     "hist": hist.get(r["deal_id"], []), "hist_since": hist.get("_since"), "file": deal_file(tk, mkt),
                      "px": closes(mkt, tk, (date.today() - timedelta(days=150)).isoformat(), 110)})
     leads = []
     for r in read_csv(os.path.join(ROOT, "data", "sec", "us_deal_targets.csv")):

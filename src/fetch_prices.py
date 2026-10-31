@@ -38,21 +38,40 @@ def eodhd_budget(key: str | None) -> int:
     if not key:
         return 0
     try:
-        u = http_json(f"https://eodhd.com/api/user?api_token={key}&fmt=json")
-        left = int(u["dailyRateLimit"]) - int(u.get("apiRequests", 0))
-        return max(0, min(EODHD_RUN_MAX, left))
+        return budget_from_user(http_json(f"https://eodhd.com/api/user?api_token={key}&fmt=json"))
     except Exception:
         return EODHD_DAILY_BUDGET
 
 
-def eodhd_limit(key: str | None) -> int:
-    """The account's daily request limit (20 on the free plan), or 0 if it can't be read."""
+def budget_from_user(u: dict, today_utc: str | None = None) -> int:
+    """Requests left today from EODHD's account record. apiRequests keeps the last active day's count
+    until a request is made after midnight UTC, so a count dated before today (UTC) means none used."""
+    today_utc = today_utc or datetime.now(timezone.utc).date().isoformat()
+    used = int(u.get("apiRequests") or 0)
+    on = str(u.get("apiRequestsDate") or "")[:10]
+    if on and on != today_utc:
+        used = 0
+    return max(0, min(EODHD_RUN_MAX, int(u["dailyRateLimit"]) - used))
+
+
+def eodhd_limit(key: str | None, cache: str | None = None) -> int:
+    """The account's daily request limit (20 on the free plan), or 0 if it can't be read. With a cache
+    file, the account is asked at most once a UTC day, in case asking counts against the allowance."""
     if not key:
         return 0
+    today = datetime.now(timezone.utc).date().isoformat()
+    if cache and os.path.exists(cache):
+        parts = open(cache).read().split()
+        if len(parts) == 2 and parts[0] == today and parts[1].isdigit():
+            return int(parts[1])
     try:
-        return int(http_json(f"https://eodhd.com/api/user?api_token={key}&fmt=json")["dailyRateLimit"])
+        n = int(http_json(f"https://eodhd.com/api/user?api_token={key}&fmt=json")["dailyRateLimit"])
     except Exception:
         return 0
+    if cache:
+        os.makedirs(os.path.dirname(cache) or ".", exist_ok=True)
+        open(cache, "w").write(f"{today} {n}\n")
+    return n
 
 
 def tiingo_month_files(month: str) -> list[str]:
@@ -129,7 +148,7 @@ def main(universe: str, data_dir: str = "data", start_default: str | None = None
     eodhd_left = None
     start_default = start_default or (date.today() - timedelta(days=365)).isoformat()
     eodhd_calls, tiingo_calls, problems, report = 0, 0, [], []
-    if eodhd_min_limit and eodhd and eodhd_limit(eodhd) < eodhd_min_limit:
+    if eodhd_min_limit and eodhd and eodhd_limit(eodhd, os.path.join(data_dir, "eodhd_plan.txt")) < eodhd_min_limit:
         eodhd_left = 0          # a history fetch never spends the free plan's 20 a day, which the nightly prices need
         problems.append(f"EODHD plan allows fewer than {eodhd_min_limit} requests a day: history prices wait for the paid plan")
     names, seen = [], set()
@@ -138,11 +157,17 @@ def main(universe: str, data_dir: str = "data", start_default: str | None = None
             for n in csv.DictReader(f):
                 if (n["market"], n["ticker"]) not in seen:
                     seen.add((n["market"], n["ticker"])); names.append(n)
-    # On EODHD's free plan (20 requests a day) the stalest shares go first and the rest wait for
-    # tomorrow; each request returns every missing day, so nothing is lost.
+    # On EODHD's free plan (20 requests a day) the core fund and the live deals' shares go first, then
+    # the stalest; the rest wait for tomorrow, and each request returns every missing day, so nothing
+    # is lost.
+    first = {("ASX", "VAS")}
+    for r in (csv.DictReader(open(os.path.join(ROOT, "config", "live_deals.csv"), newline="")) if os.path.exists(os.path.join(ROOT, "config", "live_deals.csv")) else []):
+        first.add((r["target_market"], r["target_ticker"]))
+        if r.get("acquirer_ticker"):
+            first.add((r.get("acquirer_market") or "", r["acquirer_ticker"]))
     def staleness(n):
         last = last_date(os.path.join(data_dir, "prices", n["market"], f"{n['ticker']}.csv"))
-        return (n["provider"] != "eodhd", last or "")
+        return (n["provider"] != "eodhd", (n["market"], n["ticker"]) not in first, last or "")
     names.sort(key=staleness)
     for n in names:
         path = os.path.join(data_dir, "prices", n["market"], f"{n['ticker']}.csv")
