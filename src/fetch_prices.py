@@ -45,6 +45,16 @@ def eodhd_budget(key: str | None) -> int:
         return EODHD_DAILY_BUDGET
 
 
+def eodhd_limit(key: str | None) -> int:
+    """The account's daily request limit (20 on the free plan), or 0 if it can't be read."""
+    if not key:
+        return 0
+    try:
+        return int(http_json(f"https://eodhd.com/api/user?api_token={key}&fmt=json")["dailyRateLimit"])
+    except Exception:
+        return 0
+
+
 def tiingo_month_files(month: str) -> list[str]:
     return [os.path.join(ROOT, "data", f"tiingo_symbols_{month}.txt"),
             os.path.join(ROOT, "data", "history", f"tiingo_symbols_{month}.txt")]
@@ -108,7 +118,7 @@ def append(path: str, rows: list[dict], after: str | None, market: str | None = 
 
 
 def main(universe: str, data_dir: str = "data", start_default: str | None = None, once: bool = False,
-         tiingo_month_cap: int | None = None) -> int:
+         tiingo_month_cap: int | None = None, eodhd_min_limit: int | None = None) -> int:
     """`start_default`: first date for a share with no file yet (default: a year ago).
     `once`: fetch each share a single time and never top it up (for the history tests).
     `tiingo_month_cap`: the most different symbols Tiingo may have been asked for this month."""
@@ -119,6 +129,9 @@ def main(universe: str, data_dir: str = "data", start_default: str | None = None
     eodhd_left = None
     start_default = start_default or (date.today() - timedelta(days=365)).isoformat()
     eodhd_calls, tiingo_calls, problems, report = 0, 0, [], []
+    if eodhd_min_limit and eodhd and eodhd_limit(eodhd) < eodhd_min_limit:
+        eodhd_left = 0          # a history fetch never spends the free plan's 20 a day, which the nightly prices need
+        problems.append(f"EODHD plan allows fewer than {eodhd_min_limit} requests a day: history prices wait for the paid plan")
     names, seen = [], set()
     for u in universe.split(","):
         with open(u, newline="") as f:
@@ -192,6 +205,7 @@ if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     start = next((sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--start"), None)
     cap = next((sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--tiingo-month-cap"), None)
-    args = [a for a in args if a not in (start, cap)]
+    emin = next((sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--eodhd-min-limit"), None)
+    args = [a for a in args if a not in (start, cap, emin)]
     sys.exit(main(args[0], args[1] if len(args) > 1 else "data", start, "--once" in sys.argv,
-                  int(cap) if cap else None))
+                  int(cap) if cap else None, int(emin) if emin else None))

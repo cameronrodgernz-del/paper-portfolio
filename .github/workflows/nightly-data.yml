@@ -68,7 +68,7 @@ jobs:
         run: python3 -I src/fetch_nzx.py data --max-requests 15
       - name: Engine checks
         id: checks
-        run: python3 -I tests/test_engine.py && python3 -I tests/test_clerk.py && python3 -I tests/test_clerk_actions.py && python3 -I tests/test_hedges.py && python3 -I tests/test_risk.py && python3 -I tests/test_decide.py && python3 -I tests/test_insider_history.py && python3 -I tests/test_deal_history.py && python3 -I tests/test_nzx.py && python3 -I tests/test_fetch.py && python3 -I tests/test_deal_odds.py && python3 -I tests/test_data_checks.py
+        run: python3 -I tests/test_engine.py && python3 -I tests/test_clerk.py && python3 -I tests/test_clerk_actions.py && python3 -I tests/test_hedges.py && python3 -I tests/test_risk.py && python3 -I tests/test_decide.py && python3 -I tests/test_insider_history.py && python3 -I tests/test_deal_history.py && python3 -I tests/test_nzx.py && python3 -I tests/test_fetch.py && python3 -I tests/test_deal_odds.py && python3 -I tests/test_data_checks.py && python3 -I tests/test_au_deal_test.py
       - name: Data checks (prices that look wrong or stale, exchange rates)
         id: datacheck
         continue-on-error: true

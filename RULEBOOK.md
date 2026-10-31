@@ -125,6 +125,17 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 - Odds: the market-implied chance at entry is (entry price less the break price) over (cash price less the break price), with the break price the close 60 sessions before the filing. Reported with the actual completion rate, so the test shows whether spreads have overstated the risk of a break.
 - Prices: Tiingo, for a fixed random sample (seed 20261102) fetched from 1 November 2026 within the free plan's limits (anything a month's limit holds back follows in December): 360 tickers, drawn from 1,169 with a cash price found. The events: 2,002 companies with a first PREM14A or SC 14D9 from 2015 to 2025, 1,821 matched to their ticker at the time, 1,201 with a cash price in the filing.
 
+### 9c. Test registered on 1 Nov 2026, before any result: ASX cash deal spreads
+- Events: every resolved ASX cash scheme or full takeover bid in the deal database (deals/all_deals.csv) announced from 2015 to 2025, leaving out majority-holder buy-outs: 133 events on 121 codes as at registration. The outcome is the holder's: paid if the deal completed, or a rival completed at the same or a higher price; otherwise broke.
+- Entry at the open of the first session after the announcement date, only if that open is between 85% and 101% of the cash offer (which confirms the share on the code and that the deal is cash).
+- Exit: a deal that paid is credited at the final price paid on the implementation date (or the outcome date if none is recorded), with no sale costs. A deal that broke is sold at the open of the first session after its outcome date, with costs.
+- Result per event: return after Sharesies' ASX brokerage on a A$3,000 order (on the buy, and on a sale), 0.5% currency conversion, the hedge's 0.1% dealing cost, and half the estimated spread on each trade (from the 20 sessions before the announcement), less the Australian three-month bank bill rate over the same days.
+- Nothing is tuned. Pass needs all of: at least 60 events; mean result above zero with a t-statistic of 2 or more; no single year more than half the total gain; worst calendar year no worse than a 4% loss per event on average.
+- Runs only if prices are found, and the entry check passed, for at least 70% of the deals that paid and 70% of the deals that broke, so that delisted shares missing from the feed can't tilt it. Otherwise it reports "not run" and ASX deals carry on under the base-rate method.
+- If it runs and fails, ASX cash deals are dropped from the deal sleeve under this section (scrip and NZX deals carry on), and the weight goes to cash.
+- Reported only, not a pass mark: the same rules entering when the scheme booklet is out; the market-implied chance at entry against the actual paid rate.
+- Prices: EODHD (paid plan), fetched once for the 121 codes. The test runs once when they are in, writes reports/deal_au_history.md and locks.
+
 ## 10. Success tests (scored on 2 July 2027)
 1. Ahead after all costs.
 2. Ahead of an index-and-cash mix with the same ups and downs.
@@ -138,6 +149,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
 | 2026-11-01 | Rules-only sleeve dropped; its 10% goes to cash | Failed the history test before the rules were locked: see reports/rules_only_history.md |
 | 2026-11-01 | Dates brought forward at Cam's request: practice run 2 November to 31 December 2026 (was 7 December to 29 January), counted run 4 January to 2 July 2027 (was 1 February to 30 July), rulebook locked 31 December | The build finished early; most live ASX deals end before December |
+| 2026-11-01 | Section 9c: history test for ASX cash deal spreads registered, with its rules and pass marks, before any data was looked at | The deal sleeve is the core of the strategy and had no history test of its own |
 | 2026-11-01 | Section 5: starting odds by stage and as a holder sees them, a tested deal-feature model, and a break price moved by the market | The plain completion rate treated every scheme alike whatever its stage, and counted a winning rival bid as a failure |
 | 2026-11-01 | Section 7: list of the 20 largest NZX companies filled from interest.co.nz's NZX 50 table as at 30 October 2026 | The S&P/NZX 20 list itself isn't published in a form that can be read; the top 10 by S&P's March 2026 weights are all in it |
 | 2026-11-01 | Section 9b: prices fetched from 1 November rather than December; nothing else in the test changes | So US deals can join the practice run sooner. No 9b result has been seen |

@@ -78,6 +78,12 @@ jobs:
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
         run: python3 -I src/fetch_prices.py config/universe_history_deals.csv data/history --start 2014-06-01 --once --tiingo-month-cap 440
+      - name: Prices, ASX deal sample (rulebook 9c), only on EODHD's paid plan
+        if: hashFiles('reports/deal_au_history.md.lock') == ''
+        continue-on-error: true
+        env:
+          EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
+        run: python3 -I src/fetch_prices.py config/universe_history_au_deals.csv data/history --start 2014-06-01 --once --eodhd-min-limit 1000
       - name: NZX history back to July 2023 (FinFeedAPI), 40 shares a run until done
         continue-on-error: true
         env:
@@ -86,6 +92,10 @@ jobs:
       - name: Insider test (runs once, when its sample is in)
         if: steps.left.outputs.done == 'no'
         run: python3 -I src/history/insider_test.py .
+      - name: ASX deal test (runs once, when its prices are in)
+        if: hashFiles('reports/deal_au_history.md.lock') == ''
+        continue-on-error: true
+        run: python3 -I src/history/au_deal_test.py .
       - name: Deal test (runs once, when its sample is in)
         if: steps.left.outputs.deals_done == 'no' && hashFiles('config/universe_history_deals.csv') != ''
         run: python3 -I src/history/us_deal_test.py .

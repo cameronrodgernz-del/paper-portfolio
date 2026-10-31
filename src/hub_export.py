@@ -497,6 +497,12 @@ def history_tests() -> list[dict]:
         d = os.path.join(ROOT, "data", "history", "prices", "US")
         done = sum(1 for r in rows if os.path.exists(os.path.join(d, f"{r['ticker']}.csv")) or os.path.exists(os.path.join(d, f"{r['ticker']}.csv.none")))
         return done, len(rows)
+    au = os.path.join(ROOT, "reports", "deal_au_history.md")
+    def count_asx(sample):
+        rows = read_csv(os.path.join(ROOT, "config", sample))
+        d = os.path.join(ROOT, "data", "history", "prices", "ASX")
+        return sum(1 for r in rows if os.path.exists(os.path.join(d, f"{r['ticker']}.csv")) or os.path.exists(os.path.join(d, f"{r['ticker']}.csv.none"))), len(rows)
+    e2, f2 = count_asx("universe_history_au_deals.csv")
     a, b = count("universe_history.csv")
     c, d = count("universe_history_deals.csv")
     return [
@@ -504,7 +510,9 @@ def history_tests() -> list[dict]:
         {"name": "US director and officer buying clusters", "ref": "9a", "status": first_match(ins, r"\*\*Result: (pass|fail)\.\*\*") or "waiting",
          "detail": f"{a} of {b} sampled companies priced", "done": a, "of": b},
         {"name": "US cash deal spreads", "ref": "9b", "status": first_match(dl, r"\*\*Result: (pass|fail)\.\*\*") or "waiting",
-         "detail": f"{c} of {d} sampled companies priced", "done": c, "of": d}]
+         "detail": f"{c} of {d} sampled companies priced", "done": c, "of": d},
+        {"name": "ASX cash deal spreads", "ref": "9c", "status": first_match(au, r"\*\*Result: (pass|fail|not run)\.\*\*") or "waiting",
+         "detail": f"{e2} of {f2} deal targets priced (needs EODHD's paid plan)", "done": e2, "of": f2}]
 
 
 def feeds_section() -> dict:
