@@ -29,6 +29,36 @@ def base_rate(root: str, structure: str) -> tuple[float, int]:
     return (sum(1 for r in rows if r["outcome"] == "completed") / len(rows) if rows else float("nan")), len(rows)
 
 
+def us_section(root: str, prices: Prices, today: str, now: datetime) -> list[str]:
+    """US leads: companies with recent merger filings, the cash price found in the filing text, and
+    the spread to the last close. The price is a lead to confirm from the filing, not a term."""
+    path = os.path.join(root, "data", "sec", "us_deal_targets.csv")
+    if not os.path.exists(path):
+        return []
+    out, rows = [], []
+    for r in csv.DictReader(open(path, encoding="utf-8")):
+        lead = r.get("cash_price_lead") or ""
+        if not r.get("ticker") or not lead or lead.startswith("error"):
+            continue
+        px = prices.last_close("US", r["ticker"], today, now)
+        if not px:
+            continue
+        rows.append((float(lead) / px - 1, r, px))
+    if not rows:
+        return ["", "## US leads", "", "No US deal targets with prices yet."]
+    out += ["", "## US leads from SEC merger filings", "",
+            "Cash price per share found in the latest filing's text, against the last close. "
+            "A spread far from the usual few per cent usually means the lead is wrong (a different price in the text, "
+            "a stock-and-cash deal, or a bidding contest), so confirm from the filing before any use.", "",
+            "| Ticker | Company | Cash lead | Last close | Gross spread | First filing | Latest filing | Forms |",
+            "| --- | --- | --- | --- | --- | --- | --- | --- |"]
+    for g, r, px in sorted(rows, key=lambda x: -x[0]):
+        flag = " (check)" if g < -0.02 or g > 0.25 else ""
+        out.append(f"| {r['ticker']} | {r['company'][:38]} | {float(r['cash_price_lead']):.2f} | {px:.2f} | {g:+.1%}{flag} | "
+                   f"{r['first_seen']} | {r['latest']} | {r['forms']} |")
+    return out
+
+
 def main(root: str) -> int:
     data = os.path.join(root, "data")
     prices, fx = Prices(data), FX(data)
@@ -60,6 +90,7 @@ def main(root: str) -> int:
                      f" | {p_base:.0%} of {n} {d['structure']}s | {d['terms_note']} |")
     lines += ["", "The base rate is for all resolved deals of the same structure in the database. "
               "The analyst adjusts it for this deal's conditions and records each adjustment before any entry."]
+    lines += us_section(root, prices, today, now)
     os.makedirs(os.path.join(root, "reports"), exist_ok=True)
     open(os.path.join(root, "reports", "deal_monitor.md"), "w").write("\n".join(lines) + "\n")
     print("\n".join(lines))

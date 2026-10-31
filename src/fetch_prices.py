@@ -7,7 +7,8 @@ repository secrets, so they never sit in the code or the chat.
 
 Each share is kept in data/prices/<market>/<ticker>.csv with unadjusted open, high,
 low, close and volume (fills use these), plus dividend and split fields where the
-provider gives them. Only dates after the last stored date are requested.
+provider gives them. Only dates after the last stored date are requested, and a session is stored only once its
+prices are final.
 Usage: python3 -I src/fetch_prices.py <universe.csv> [data_dir]
 """
 import csv
@@ -16,7 +17,10 @@ import os
 import sys
 import urllib.parse
 import urllib.request
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from market_data import closed_by  # noqa: E402
 
 FIELDS = ["date", "open", "high", "low", "close", "volume", "adj_close", "dividend", "split", "source"]
 EODHD_DAILY_BUDGET = 20
@@ -50,8 +54,12 @@ def last_date(path: str) -> str | None:
     return rows[-1]["date"] if rows else None
 
 
-def append(path: str, rows: list[dict], after: str | None) -> int:
-    new = [r for r in rows if after is None or r["date"] > after]
+def append(path: str, rows: list[dict], after: str | None, market: str | None = None,
+           now_utc: datetime | None = None) -> int:
+    """Add rows dated after `after`. A session whose prices are not yet final (a run during
+    trading hours) is held back, so a part-day bar is never stored as the day's close."""
+    new = [r for r in rows if (after is None or r["date"] > after)
+           and (market is None or closed_by(market, r["date"], now_utc or datetime.now(timezone.utc)))]
     seen, clean = set(), []
     for r in sorted(new, key=lambda x: x["date"]):
         if r["date"] in seen:          # providers sometimes repeat the latest bar
@@ -110,7 +118,7 @@ def main(universe: str, data_dir: str = "data") -> int:
                 rows = parse_eodhd(http_json(url))
             else:
                 problems.append(f"{n['ticker']}: unknown provider {n['provider']}"); continue
-            added = append(path, rows, after)
+            added = append(path, rows, after, n["market"])
             report.append(f"{n['market']}:{n['ticker']} +{added}")
         except Exception as e:  # keep going; the clerk sees the problem list
             problems.append(f"{n['ticker']}: {type(e).__name__}: {str(e)[:120]}")

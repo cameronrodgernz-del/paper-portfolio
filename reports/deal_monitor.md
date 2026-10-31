@@ -17,3 +17,7 @@ Run 2026-11-01. Prices are the last closes in the repository; a blank means no p
 | FPR (AU-2026-24) |  | 5.300 |  | 150 |  |  | 84% of 198 schemes | A$5.30 cash less dividends; NZ OIO and Commerce Commission conditions; implementation Mar 2027 |
 
 The base rate is for all resolved deals of the same structure in the database. The analyst adjusts it for this deal's conditions and records each adjustment before any entry.
+
+## US leads
+
+No US deal targets with prices yet.

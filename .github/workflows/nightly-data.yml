@@ -10,6 +10,11 @@ on:
     - cron: "30 7 * * 1-5"
     - cron: "30 8 * * 1-5"
   workflow_dispatch:
+  # A push that changes config/run_now.txt starts an extra run (for catching up between
+  # scheduled runs). The bot's own nightly commits never trigger it.
+  push:
+    paths:
+      - config/run_now.txt
 
 permissions:
   contents: write
