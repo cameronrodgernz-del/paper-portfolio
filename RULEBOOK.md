@@ -98,6 +98,18 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 - Prices: Tiingo, for a fixed random sample of tickers (seed 20261101) within the free plan's 500 symbols a month: 336 tickers, drawn from 2,736 with a cluster from 2020 and 3,624 with one in 2010 to 2019 (280 hold-out, 200 tuning, 144 in both). Tiingo may miss some delisted shares, so the result is a screen, not proof.
 - The data: 390,049 open-market purchases by directors and officers from January 2010 to March 2026, giving 18,264 clusters of two or more buyers, 10,987 of three or more and 6,955 of four or more.
 
+### 9b. Test registered on 1 Nov 2026, before any result: US cash deal spreads
+- Events: the first preliminary merger proxy (PREM14A) or first response to a tender offer (SC 14D9) filed by each company from 2015 to 2025, from the SEC's quarterly form indexes. The company's ticker at the time comes from the SEC's Form 4 data sets, because completed targets are delisted and missing from today's ticker list.
+- Terms: the cash price per share found in the filing's text. The event counts only if, at entry, the share trades between 85% and 101% of that price, which confirms the price is the deal's and the deal is cash. Events with no cash price, or failing the check, are left out and counted.
+- Entry at the open of the first session after the filing date. Exit at the first of:
+  - the last session the share traded (taken as completion, paid at the higher of the cash price and the last close, so a raised price counts, with no sale costs);
+  - the open after the first close more than 15% below the cash price (taken as a break, sold with costs);
+  - the close 400 days after entry (sold with costs).
+- Result per event: return after US$5 brokerage on a US$2,300 stake (and again on a sale), 0.5% currency conversion, and half the estimated spread on each trade, less the 3-month Treasury bill rate over the same days.
+- Nothing is tuned. Pass needs all of: at least 60 events; mean result above zero with a t-statistic of 2 or more; no single year more than half the total gain; worst calendar year no worse than a 4% loss per event on average (the sleeve's loss limit at 4% positions).
+- Odds: the market-implied chance at entry is (entry price less the break price) over (cash price less the break price), with the break price the close 60 sessions before the filing. Reported with the actual completion rate, so the test shows whether spreads have overstated the risk of a break.
+- Prices: Tiingo, for a fixed random sample (seed 20261102) fetched in December 2026 within the free plan's limits.
+
 ## 10. Success tests (scored on 30 July 2027)
 1. Ahead after all costs.
 2. Ahead of an index-and-cash mix with the same ups and downs.
@@ -110,6 +122,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
 | 2026-11-01 | Rules-only sleeve dropped; its 10% goes to cash | Failed the history test before the rules were locked: see reports/rules_only_history.md |
+| 2026-11-01 | Section 9b: deal spreads history test for US cash deals registered, with its rules and pass marks, before any data was looked at | As for 9a |
 | 2026-11-01 | Section 9a: special situations test for US director and officer buying clusters registered, with its settings and pass marks, before any data was looked at | So the test can't be fitted to the hold-out years |
 | 2026-11-01 | Daily cycle moved from 7:30pm to 9pm NZ time; prices fetched at 8:30pm NZ time in both daylight-saving seasons | At 7:30pm NZ in winter the ASX close is barely an hour old and the free feed may not have it; a fixed UTC time drifted by an hour across seasons |
 | 2026-10-31 | NZ core moved from FNZ to ENZL; NZ companies with an ASX listing are priced and traded on that line until an NZX feed is in place | EODHD does not carry NZX (its exchange list has no NZ entry), and no free feed found does |

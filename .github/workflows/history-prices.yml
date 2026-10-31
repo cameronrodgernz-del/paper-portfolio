@@ -1,14 +1,17 @@
 name: History prices
 
-# Fetches long price histories once each for the history tests (config/universe_history.csv),
-# within Tiingo's free limits: up to 45 requests a run, hourly, never in the 07:00 to 09:59 UTC
-# window the nightly job uses. Once every sampled ticker is in, it runs the test, which writes its
-# result a single time. When nothing is left it stops after a few seconds.
+# Fetches long price histories once each for the history tests, within Tiingo's free limits:
+# up to 45 requests a run, hourly, never in the 07:00 to 09:59 UTC window the nightly job uses.
+#   - config/universe_history.csv: the insider-cluster sample (rulebook 9a), from 31 Oct 2026.
+#   - config/universe_history_deals.csv: the US deal sample (rulebook 9b), from 1 Dec 2026, so it
+#     uses December's symbol allowance rather than crowding out the nightly prices in November.
+# When every ticker in a sample is in, that sample's test runs and writes its result once.
 on:
   schedule:
-    # 31 Oct and 1 to 10 Nov 2026 only: about eight runs are needed, the rest are spares
+    # 31 Oct to 10 Nov for the insider sample, 1 to 4 Dec for the deal sample; most runs are spares
     - cron: "15 13-23 31 10 *"
     - cron: "15 0-6,10-23 1-10 11 *"
+    - cron: "15 0-6,10-23 1-4 12 *"
   push:
     paths:
       - config/run_history.txt
@@ -30,16 +33,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Anything left to fetch?
+      - name: What is left?
         id: left
         run: |
           python3 -I - <<'EOF' >> "$GITHUB_OUTPUT"
           import csv, os
-          rows = list(csv.DictReader(open("config/universe_history.csv")))
+          from datetime import date
           d = "data/history/prices/US"
-          left = [r["ticker"] for r in rows if not os.path.exists(f"{d}/{r['ticker']}.csv") and not os.path.exists(f"{d}/{r['ticker']}.csv.none")]
-          print(f"left={len(left)}")
+          def left(path):
+              if not os.path.exists(path):
+                  return 0
+              rows = list(csv.DictReader(open(path)))
+              return sum(1 for r in rows if not os.path.exists(f"{d}/{r['ticker']}.csv") and not os.path.exists(f"{d}/{r['ticker']}.csv.none"))
+          ins = left("config/universe_history.csv")
+          print(f"left={ins}")
+          print(f"deals={left('config/universe_history_deals.csv') if date.today() >= date(2026, 12, 1) else 0}")
           print(f"done={'yes' if os.path.exists('reports/special_insider_history.md.lock') else 'no'}")
+          print(f"deals_done={'yes' if os.path.exists('reports/deal_us_history.md.lock') else 'no'}")
           EOF
       - name: Tiingo's list of supported tickers (exchange and dates), once
         if: steps.left.outputs.done == 'no' && hashFiles('data/history/tiingo_supported.csv') == ''
@@ -56,14 +66,22 @@ jobs:
               rd = csv.DictReader(f); w = csv.DictWriter(g, fieldnames=rd.fieldnames); w.writeheader()
               w.writerows(r for r in rd if (r.get("ticker") or "").upper() in want)
           EOF
-      - name: Prices
+      - name: Prices, insider sample
         if: steps.left.outputs.left != '0'
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
         run: python3 -I src/fetch_prices.py config/universe_history.csv data/history --start 2009-06-01 --once
-      - name: Test (runs once, when every sampled ticker is in)
+      - name: Prices, deal sample (from 1 December, once the insider sample is in)
+        if: steps.left.outputs.left == '0' && steps.left.outputs.deals != '0'
+        env:
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
+        run: python3 -I src/fetch_prices.py config/universe_history_deals.csv data/history --start 2014-06-01 --once
+      - name: Insider test (runs once, when its sample is in)
         if: steps.left.outputs.done == 'no'
         run: python3 -I src/history/insider_test.py .
+      - name: Deal test (runs once, when its sample is in)
+        if: steps.left.outputs.deals_done == 'no' && hashFiles('config/universe_history_deals.csv') != ''
+        run: python3 -I src/history/us_deal_test.py .
       - name: Save
         run: |
           git config user.name "paper-portfolio-bot"
