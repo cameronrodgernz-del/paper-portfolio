@@ -1,0 +1,125 @@
+{
+ "exchanges_matching_new_zealand_or_australia": [
+  {
+   "Name": "Australian Securities Exchange",
+   "Code": "AU",
+   "OperatingMIC": "XASX",
+   "Country": "Australia",
+   "Currency": "AUD",
+   "CountryISO2": "AU",
+   "CountryISO3": "AUS"
+  }
+ ],
+ "search_air_new_zealand": [
+  {
+   "Code": "AIZ",
+   "Exchange": "AU",
+   "Name": "Air New Zealand Ltd",
+   "Type": "Common Stock",
+   "Country": "Australia",
+   "Currency": "AUD",
+   "ISIN": "NZAIRE0001S2",
+   "isPrimary": true,
+   "previousClose": 0.3,
+   "previousCloseDate": "2026-10-30"
+  },
+  {
+   "Code": "BZU",
+   "Exchange": "F",
+   "Name": "Air New Zealand Ltd",
+   "Type": "Common Stock",
+   "Country": "Germany",
+   "Currency": "EUR",
+   "ISIN": "NZAIRE0001S2",
+   "isPrimary": false,
+   "previousClose": 0.174,
+   "previousCloseDate": "2026-10-30"
+  },
+  {
+   "Code": "ANZFF",
+   "Exchange": "US",
+   "Name": "Air New Zealand Limited",
+   "Type": "Common Stock",
+   "Country": "USA",
+   "Currency": "USD",
+   "ISIN": null,
+   "isPrimary": false,
+   "previousClose": 0.21,
+   "previousCloseDate": "2026-10-30"
+  },
+  {
+   "Code": "ANZLY",
+   "Exchange": "US",
+   "Name": "Air New Zealand Ltd ADR",
+   "Type": "Common Stock",
+   "Country": "USA",
+   "Currency": "USD",
+   "ISIN": "US0091362014",
+   "isPrimary": true,
+   "previousClose": 1.06,
+   "previousCloseDate": "2026-10-29"
+  },
+  {
+   "Code": "BZU",
+   "Exchange": "STU",
+   "Name": "Air New Zealand Ltd",
+   "Type": "Common Stock",
+   "Country": "Germany",
+   "Currency": "EUR",
+   "ISIN": "NZAIRE0001S2",
+   "isPrimary": false,
+   "previousClose": 0.189,
+   "previousCloseDate": "2026-10-29"
+  }
+ ],
+ "search_fletcher_building": [
+  {
+   "Code": "FBU",
+   "Exchange": "AU",
+   "Name": "Fletcher Building Ltd",
+   "Type": "Common Stock",
+   "Country": "Australia",
+   "Currency": "AUD",
+   "ISIN": "NZFBUE0001S0",
+   "isPrimary": false,
+   "previousClose": 2.77,
+   "previousCloseDate": "2026-10-30"
+  },
+  {
+   "Code": "FLQ",
+   "Exchange": "F",
+   "Name": "Fletcher Building Limited",
+   "Type": "Common Stock",
+   "Country": "Germany",
+   "Currency": "EUR",
+   "ISIN": "NZFBUE0001S0",
+   "isPrimary": false,
+   "previousClose": 1.66,
+   "previousCloseDate": "2026-10-30"
+  },
+  {
+   "Code": "FRCEF",
+   "Exchange": "US",
+   "Name": "Fletcher Building Limited",
+   "Type": "Common Stock",
+   "Country": "USA",
+   "Currency": "USD",
+   "ISIN": null,
+   "isPrimary": false,
+   "previousClose": 2.1,
+   "previousCloseDate": "2026-10-29"
+  },
+  {
+   "Code": "FLQ",
+   "Exchange": "STU",
+   "Name": "Fletcher Building Ltd",
+   "Type": "Common Stock",
+   "Country": "Germany",
+   "Currency": "EUR",
+   "ISIN": "NZFBUE0001S0",
+   "isPrimary": false,
+   "previousClose": 1.58,
+   "previousCloseDate": "2026-10-29"
+  }
+ ]
+}
