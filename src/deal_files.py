@@ -11,7 +11,7 @@ ticker isn't on the live list, so the desk can add it.
 It also reports where the file's cash or scrip ratio differs from the row, for the desk to decide.
 
 With --add, a live deal file whose ticker isn't on the list is added (unless only the payment is
-left: stage unconditional with payment in the next three weeks, too late to be worth an entry): a new row on the live list
+left: a deal already unconditional is too late to be worth an entry): a new row on the live list
 (the undisturbed price is the last close before the announcement, from data/prices, with its date;
 the desk moves both earlier if there was an approach or a rival bid before it) and a pending
 row in the deal database part for its market, with the fields the file states.
@@ -169,8 +169,8 @@ def main(root: str, dry: bool = False, add: bool = False) -> int:
     for key, (name, h) in files.items():
         if key not in listed and (h.get("stage") or "") not in ("implemented", "terminated"):
             pay = iso(h.get("implementation_date", ""))
-            if h.get("stage") == "unconditional" and pay and (date.fromisoformat(pay) - date.today()).days <= 21:
-                unmatched.append(f"{key[0]}:{key[1]} ({name}) is unconditional and pays {pay}: only the payment is left, so not added")
+            if h.get("stage") == "unconditional":
+                unmatched.append(f"{key[0]}:{key[1]} ({name}) is unconditional{' and pays ' + pay if pay else ''}: only the payment is left, so not added")
             elif add:
                 changes.append(add_deal(root, rows, fields, name, h, dry))
             else:

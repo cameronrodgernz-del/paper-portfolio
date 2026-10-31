@@ -33,3 +33,16 @@ market from that date, not from the deal's own announcement.
 - RWC: A$3.61 at the close on 17 Aug 2026, before the Process Deed with Brookfield was announced
   (deals database AU-2026-21; RWC.md).
 - RTH: dated 16 Oct 2026, the last close before the announcement.
+
+## 2026-11-01, Deals added from the sweep: A11 and GL1; NZX has none live
+
+From the sweep of ASX and NZX announcements (deal files A11.md, GL1.md):
+- A11 (Atlantic Lithium, Zhejiang Huayou Cobalt): US$0.25486 cash. Undisturbed A$0.280, the last
+  close before the 7 May announcement. Payment indicated only as December 2026, so set to 31 Dec.
+- GL1 (Global Lithium, Titan Australia Mining): A$1.15 cash. Undisturbed A$0.665, the last close
+  before the 22 Sep announcement. Payment indicated as mid-January 2027, so set to 15 Jan.
+- Not added: RCT (Reef Casino Trust; Iris already holds 96.5% and will compulsorily acquire; only
+  the payment is left), and EUR and CNB (both effective, paying in early November).
+- NZX: no live control deal at NZ$20m or more. Bremworth and 2 Cheap Cars have finished. Watching
+  non-binding approaches: thl (update by the 6 Nov AGM), SkyCity (structured process since 30 Sep).
+Both new deals have no stored prices yet; the nightly fetch adds them.
