@@ -24,12 +24,12 @@ BBG,ASX,eodhd,BBG.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 BKL,ASX,eodhd,BKL.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 BLD,ASX,eodhd,BLD.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 BTH,ASX,eodhd,BTH.AU,rulebook 9c: ASX cash deal target 2015 to 2025
-CCL,ASX,eodhd,CCL.AU,rulebook 9c: ASX cash deal target 2015 to 2025
+CCL,ASX,eodhd,CCL_old.AU,"rulebook 9c: ASX cash deal target 2015 to 2025; the code was later reused, so EODHD keeps this company under _old"
 CDV,ASX,eodhd,CDV.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 CGC,ASX,eodhd,CGC.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 CGL,ASX,eodhd,CGL.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 COF,ASX,eodhd,COF.AU,rulebook 9c: ASX cash deal target 2015 to 2025
-CRD,ASX,eodhd,CRD.AU,rulebook 9c: ASX cash deal target 2015 to 2025
+CRD,ASX,eodhd,CRD_old.AU,"rulebook 9c: ASX cash deal target 2015 to 2025; the code was later reused, so EODHD keeps this company under _old"
 CSR,ASX,eodhd,CSR.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 CVO,ASX,eodhd,CVO.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 CZZ,ASX,eodhd,CZZ.AU,rulebook 9c: ASX cash deal target 2015 to 2025
@@ -69,7 +69,7 @@ MAH,ASX,eodhd,MAH.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 MAI,ASX,eodhd,MAI.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 MCP,ASX,eodhd,MCP.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 MOC,ASX,eodhd,MOC.AU,rulebook 9c: ASX cash deal target 2015 to 2025
-MTR,ASX,eodhd,MTR.AU,rulebook 9c: ASX cash deal target 2015 to 2025
+MTR,ASX,eodhd,MTR_old.AU,"rulebook 9c: ASX cash deal target 2015 to 2025; the code was later reused, so EODHD keeps this company under _old"
 MYD,ASX,eodhd,MYD.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 MYO,ASX,eodhd,MYO.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 MYX,ASX,eodhd,MYX.AU,rulebook 9c: ASX cash deal target 2015 to 2025
@@ -87,7 +87,7 @@ PBP,ASX,eodhd,PBP.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 PEA,ASX,eodhd,PEA.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 PFL,ASX,eodhd,PFL.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 PHG,ASX,eodhd,PHG.AU,rulebook 9c: ASX cash deal target 2015 to 2025
-PLG,ASX,eodhd,PLG.AU,rulebook 9c: ASX cash deal target 2015 to 2025
+PLG,ASX,eodhd,PLG_old.AU,"rulebook 9c: ASX cash deal target 2015 to 2025; the code was later reused, so EODHD keeps this company under _old"
 PNC,ASX,eodhd,PNC.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 PRG,ASX,eodhd,PRG.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 PSQ,ASX,eodhd,PSQ.AU,rulebook 9c: ASX cash deal target 2015 to 2025
@@ -99,10 +99,10 @@ RUL,ASX,eodhd,RUL.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 SAI,ASX,eodhd,SAI.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 SDM,ASX,eodhd,SDM.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 SGF,ASX,eodhd,SGF.AU,rulebook 9c: ASX cash deal target 2015 to 2025
-SLA,ASX,eodhd,SLA.AU,rulebook 9c: ASX cash deal target 2015 to 2025
+SLA,ASX,eodhd,SLA_old.AU,"rulebook 9c: ASX cash deal target 2015 to 2025; the code was later reused, so EODHD keeps this company under _old"
 SMR,ASX,eodhd,SMR.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 SPO,ASX,eodhd,SPO.AU,rulebook 9c: ASX cash deal target 2015 to 2025
-SRX,ASX,eodhd,SRX.AU,rulebook 9c: ASX cash deal target 2015 to 2025
+SRX,ASX,eodhd,SRX_old.AU,"rulebook 9c: ASX cash deal target 2015 to 2025; the code was later reused, so EODHD keeps this company under _old"
 SWL,ASX,eodhd,SWL.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 SXY,ASX,eodhd,SXY.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 TOL,ASX,eodhd,TOL.AU,rulebook 9c: ASX cash deal target 2015 to 2025
@@ -115,7 +115,7 @@ VEI,ASX,eodhd,VEI.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 VHT,ASX,eodhd,VHT.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 VIT,ASX,eodhd,VIT.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 VOC,ASX,eodhd,VOC.AU,rulebook 9c: ASX cash deal target 2015 to 2025
-VRL,ASX,eodhd,VRL.AU,rulebook 9c: ASX cash deal target 2015 to 2025
+VRL,ASX,eodhd,VRL_old.AU,"rulebook 9c: ASX cash deal target 2015 to 2025; the code was later reused, so EODHD keeps this company under _old"
 WBA,ASX,eodhd,WBA.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 WGO,ASX,eodhd,WGO.AU,rulebook 9c: ASX cash deal target 2015 to 2025
 WSA,ASX,eodhd,WSA.AU,rulebook 9c: ASX cash deal target 2015 to 2025
