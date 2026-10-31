@@ -32,7 +32,7 @@ not financial advice.
      the scheme booklet or target's statement, the independent expert's report, the implementation
      deed and the regulators' registers. Update the header (stage, dates, conditions met and open)
      and add a line under Recent announcements for anything new. A new deal gets its file before any
-     card. Then run python3 -I src/deal_files.py . to carry the header into config/live_deals.csv.
+     card. Then run python3 -I src/deal_files.py . --add to carry the header into config/live_deals.csv.
    - If the deal database changed, rerun python3 -I src/history/deal_base_rates.py . and
      python3 -I src/history/deal_odds.py . (pip install scikit-learn --break-system-packages first).
 4. If config/run.json names an active ledger, do steps 2 to 7 of "The evening desk" in
