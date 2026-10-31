@@ -29,7 +29,7 @@ PAUSE = 7.0
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAP = os.path.join(ROOT, "config", "nzx_isins.csv")
 FIELDS = ["date", "open", "high", "low", "close", "volume", "adj_close", "dividend", "split", "source"]
-NOT_SHARES = re.compile(r"\b(future|call|put|option|warrant|right|note|bond)\b", re.I)
+NOT_SHARES = re.compile(r"\b(futures?|calls?|puts?|options?|warrants?|rights?|notes?|bonds?|preference|capital notes|perpetual)\b", re.I)
 
 
 class Feed:
