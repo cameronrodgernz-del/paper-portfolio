@@ -4,8 +4,8 @@ Test 3, the core's index mix held at 100%: the core's lines at their weights sca
 (VT 50%, VAS 25%, ENZL 25%), bought at the start and held, valued in NZ$ with dividends
 reinvested, no trading costs. Each date uses the closes the portfolio could see at its 9pm NZ
 valuation (so a US session is counted the night after it closes, as in the portfolio). Dividends
-come from the price file where the feed carries them (Tiingo), else from the dividends booked in
-the ledger (as for VAS, whose feed has none), so both sides count the same payments.
+are the ones entered in the ledger (not voided), the same payments the portfolio is paid, so the
+two sides count the same dividends.
 
 Test 2, an index-and-cash mix with the same ups and downs: a share b of that index mix and 1 - b
 in cash at the run's cash rate, with b set so the mix's daily swings (standard deviation of daily
@@ -37,11 +37,7 @@ def total_return(data_dir: str, market: str, ticker: str, ledger_divs: dict) -> 
                 c = float(r["close"])
             except (TypeError, ValueError):
                 continue
-            try:
-                div = float(r.get("dividend") or 0)
-            except ValueError:
-                div = 0.0
-            rows.append((r["date"], c, div + ledger_divs.get(r["date"], 0.0)))
+            rows.append((r["date"], c, ledger_divs.get(r["date"], 0.0)))
     out, idx, prev = [], 1.0, None
     for d, c, div in sorted(rows):
         if prev:
@@ -63,9 +59,11 @@ def index_mix(cfg: dict, data_dir: str, fx: FX, dates: list[str], L: Ledger | No
     lines = cfg["core"]["lines"]
     total_w = sum(x["weight"] for x in lines)
     divs = {}
-    for r in (L.records("corporate_actions") if L is not None else []):
+    recs = L.records("corporate_actions") if L is not None else []
+    voided = {r["payload"]["ref"] for r in recs if r["payload"].get("type") == "void"}
+    for r in recs:
         p = r["payload"]
-        if p.get("type") == "dividend" and p.get("ex_date"):
+        if p.get("type") == "dividend" and p.get("ex_date") and r["seq"] not in voided:
             divs.setdefault((p["market"], p["ticker"]), {})[p["ex_date"]] = float(p["per_share"])
     series = {}
     for x in lines:

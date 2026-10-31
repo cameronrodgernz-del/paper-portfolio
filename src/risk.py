@@ -112,9 +112,7 @@ def check_order(val: dict, drawdown: float, sleeve: str, market: str, ticker: st
     if sleeve in ("deal", "special") and review_pending:
         out.append("a 12% fall from the peak is awaiting its review: no new active positions until it is logged")
     if sleeve in ("deal", "special"):
-        if drawdown <= -DD_EXIT:
-            out.append(f"portfolio is {drawdown:.1%} from its peak: no new active positions until the review")
-        elif drawdown <= -DD_HALVE and sleeve_now + value_nzd > 0.5 * {"deal": 0.25, "special": 0.15}[sleeve] * total:
+        if drawdown <= -DD_HALVE and sleeve_now + value_nzd > 0.5 * {"deal": 0.25, "special": 0.15}[sleeve] * total:
             out.append(f"portfolio is {drawdown:.1%} from its peak: the {sleeve} sleeve is held to half its weight")
     if sleeve == "deal" and expected_annual is not None and cash_rate is not None and expected_annual <= cash_rate:
         out.append(f"expected return {expected_annual:.1%} a year is not above the cash rate {cash_rate:.1%}")

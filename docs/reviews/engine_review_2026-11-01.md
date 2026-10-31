@@ -299,3 +299,24 @@ Every finding was fixed and the reviewer's probe scripts re-run against the fixe
 | 20 | Fixed | The monthly report shows hedge dealing costs; it notes the size cost is inside fill prices |
 | Note: concurrent writes | Fixed | The desk places nothing if the nightly job hasn't landed |
 | Note: foreign cash | Settled | Rulebook: AUD and USD cash earns nothing, as in a Sharesies wallet |
+
+## Second review, of the fixes (1 November 2026)
+
+A second reviewer, who had not seen the fixes being made, checked them and found 13 smaller problems the fixes had introduced or left. All were fixed the same night and that reviewer's probe scripts re-run on the fixed code.
+
+| # | Finding | Fix |
+|---|---|---|
+| 1 | A split was applied by the clock, before its session's price was in the file, giving a one-night false gain and a false peak | A split waits until a final bar on or after its effective date is in the file (and is flagged while it waits); orders sized on a close before the effective date are cancelled |
+| 2 | The benchmark counted feed dividends and entered dividends twice, and a voided dividend still counted | The benchmark uses the dividends entered in the ledger only, voids skipped: the same payments the portfolio is paid |
+| 3 | The 12% exit left waiting active buys to fill | At 8% and 12% waiting deal and special buys are cancelled; while a 12% review is pending, anything left is offered for sale again each night |
+| 4 | The rule's sales shared an order id, so a share in two sleeves was sold from one | Order ids carry the sleeve and the decision's number; a duplicate id is refused |
+| 5 | A US dividend counted as owed the night before the price dropped | Owed only once the close in that night's value is dated on or after the ex-date |
+| 6 | A holder who sold between the ex-date and pay date dropped out of the owed figure | The owed figure uses the same holders as the payment |
+| 7 | The same dividend or split could be entered twice | actions.py refuses a duplicate that hasn't been voided |
+| 8 | A card without an industry or group skipped the 15% and 10% limits | Deal and special cards need an industry; deal cards a group |
+| 9 | VAS dividends were never flagged (its feed has no dividend column) | The check also flags a move in the adjusted-close ratio |
+| 10 | The plan fee could still take NZ$ below zero | Conversions keep the next plan fee back; NZ$ below zero is flagged |
+| 11 | The pre-trade cash check counted currencies the clerk can't use for the order | A buy must be payable from NZ$ or its own currency |
+| 12 | No command logged the review, and the 12% block stayed after it | `src/decide.py <ledger> review "..."` logs it; the lock is the review record, and the 8% half-weight limit stays |
+| 13 | The guard against overlapping the nightly job was in the docs only | decide.py refuses to place a card until that night's run is in the ledger |
+| Note | A consideration fill and its cash could be split by an outside stop | Both carry the holder; a re-run books whichever is missing |

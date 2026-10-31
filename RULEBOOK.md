@@ -28,7 +28,9 @@ Money an active sleeve can't use well stays in cash. The core and the rules-only
 - One industry outside the core: 15%.
 - Smallest order: NZ$2,500 on NZX, A$1,500 on ASX, US$500 in the US.
 - Liquidity: no position larger than two sessions' trading at 10% of daily volume, measured on the 20-session median.
-- Fall from peak: at 8% below the portfolio's peak, half of each deal and special situation holding is sold, by rule, the same evening. At 12%, the rest is sold and no new deal or special situation is entered until a review is logged. Each step happens once for each peak. The core is never timed.
+- Fall from peak: at 8% below the portfolio's peak, half of each deal and special situation holding is sold, by rule, the same evening. At 12%, the rest is sold, waiting active buys are cancelled, and no new deal or special situation is entered until a review is logged (`src/decide.py <ledger> review`). Each step happens once for each peak. While the fall is 8% or more, new entries keep each active sleeve to half its target weight. The core is never timed.
+- Deal and special situation cards state an industry, and deal cards a group (the regulator the deal waits on, or the bidder), so the 15% and 10% limits can be counted. A card is placed only once that night's clerk run is in the ledger.
+- A buy must be payable from NZ$ (less the next plan fee, kept back) or cash in its own currency; Australian and US dollars aren't swapped for each other.
 - Every limit counts orders already placed and waiting to fill, as if they had filled. A second buy of the same share while one waits needs a card marked as a top-up. The 1% loss-on-break counts the whole position after the order; a deal card without a break price uses its worst outcome.
 - No borrowing, shorting or options.
 - Only shares Sharesies offers.

@@ -15,11 +15,15 @@ The decision is timed when this runs (never backdated). The card, the sizing, th
 the market-implied chance are written to the ledger's decisions and calls tables. If any limit is
 breached, the decision is logged as vetoed and no order is placed.
 Usage: python3 -I src/decide.py <ledger_name> <card.json> [--dry-run]
+       python3 -I src/decide.py <ledger_name> review "<what the review found>"   (after a 12% fall)
+A card is placed only once tonight's nightly run is in the ledger. Deal and special situation
+cards need an industry; deal cards also need a group.
 """
 import json
 import os
 import sys
 from datetime import date, datetime, timezone
+from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import math  # noqa: E402
@@ -110,6 +114,14 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
     if side not in ("buy", "sell"):
         raise SystemExit(f"unknown side {side!r}")
     today_ = now_utc.date().isoformat()
+    nz_today = now_utc.astimezone(ZoneInfo("Pacific/Auckland")).date().isoformat()
+    if not dry_run and vals[-1]["payload"]["date"] != nz_today:
+        raise SystemExit(f"tonight's run ({nz_today}) is not in the ledger yet (latest {vals[-1]['payload']['date']}): "
+                         "place nothing until the nightly job has landed")
+    if side == "buy" and sleeve in ("deal", "special") and not card.get("industry"):
+        raise SystemExit("a deal or special situation card needs an industry, for the 15% limit")
+    if side == "buy" and sleeve == "deal" and not card.get("group"):
+        raise SystemExit("a deal card needs a group (the regulator it waits on, or the bidder), for the 10% limit")
     val = with_open_orders(L, vals[-1]["payload"], fx, today_)
     drawdown = vals[-1]["payload"].get("drawdown", 0.0)
     ts = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -141,6 +153,16 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
                                expected_annual=exp_annual if sleeve == "deal" else None, cash_rate=rate,
                                break_loss=(1 - brk / px) if sleeve == "deal" and brk is not None and px > brk else None,
                                review_pending=review_pending(L))
+        # the clerk can pay for a buy only from NZ$ (less the plan fee kept back) or cash in the order's own currency
+        ccy = CURRENCY[m]
+        cash = state(L)["cash"]
+        usable = max(0.0, cash.get("NZD", 0.0) - 15.0) + (cash.get(ccy, 0.0) * fx.nzd_per(ccy, today) if ccy != "NZD" else 0.0)
+        for o in state(L)["open_orders"]:
+            if o["side"] == "buy" and (CURRENCY[o["market"]] in (ccy, "NZD")):
+                dec = next((r["payload"] for r in L.records("decisions") if r["payload"].get("order_id") == o["order_id"]), {})
+                usable -= o["remaining"] * dec.get("ref_close", 0.0) * fx.nzd_per(CURRENCY[o["market"]], today)
+        if want > usable + 0.01:
+            breaches.append(f"only NZ${max(usable, 0):,.0f} of cash can pay for a {ccy} buy (other currencies can't be used)")
         waiting = [o for o in state(L)["open_orders"] if o["side"] == "buy" and (o["sleeve"], o["market"], o["ticker"]) == (sleeve, m, t)]
         if waiting and not card.get("top_up"):
             breaches.append(f"a buy of {m}:{t} is already waiting to fill ({waiting[0]['order_id']}); mark the card top_up to add")
@@ -190,6 +212,15 @@ def resolve_call(L: Ledger, market: str, ticker: str, made_utc: str, happened: b
                     ts=now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"))
 
 
+def log_review(L: Ledger, note: str, now_utc: datetime) -> dict:
+    """Log the review a 12% fall from the peak requires (rulebook section 3); new active positions are allowed again."""
+    if not review_pending(L):
+        raise SystemExit("no review is pending")
+    if not note.strip():
+        raise SystemExit("say what the review found")
+    return L.append("decisions", {"event": "review_done", "note": note}, ts=now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"))
+
+
 def main(name: str, card_path: str, dry: bool = False) -> int:
     cfg = json.load(open(os.path.join(ROOT, "config", "run.json")))
     data = os.path.join(ROOT, "data")
@@ -204,4 +235,9 @@ def main(name: str, card_path: str, dry: bool = False) -> int:
 
 if __name__ == "__main__":
     a = [x for x in sys.argv[1:] if x != "--dry-run"]
+    if len(a) >= 2 and a[1] == "review":      # python3 -I src/decide.py <ledger> review "<what the review found>"
+        cfg_ = json.load(open(os.path.join(ROOT, "config", "run.json")))
+        L_ = Ledger(os.path.join(ROOT, cfg_["ledgers"][a[0]]["dir"]))
+        print(log_review(L_, " ".join(a[2:]), datetime.now(timezone.utc))["payload"])
+        sys.exit(0)
     sys.exit(main(a[0], a[1], "--dry-run" in sys.argv))

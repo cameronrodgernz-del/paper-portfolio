@@ -131,7 +131,10 @@ def place_order(L: Ledger, prices: Prices, fx: FX, decided_at_utc: str, sleeve: 
             raise ValueError("give value_nzd or qty")
         local = value_nzd * fx.per_nzd(ccy, when.date().isoformat())
         qty = math.floor(local / (limit or ref_price))
-    order_id = f"{when:%Y%m%d%H%M%S}-{market}-{ticker}-{side}"
+    seq_next = len(L.records("decisions")) + 1
+    order_id = f"{when:%Y%m%d%H%M%S}-{sleeve}-{market}-{ticker}-{side}-{seq_next}"
+    if any(r["payload"].get("order_id") == order_id for r in L.records("orders")):
+        raise ValueError(f"order {order_id} already exists")
     d = L.append("decisions", dict(decision or {}, order_id=order_id, sleeve=sleeve, market=market, ticker=ticker,
                                    side=side, ref_close=ref_price, ref_date=seen[-1].date), ts=decided_at_utc)
     L.append("orders", {"event": "new", "order_id": order_id, "decision_seq": d["seq"], "sleeve": sleeve,
@@ -172,6 +175,10 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
             continue
         if not closed_by(p["market"], eff, utc(ts)):
             continue
+        new_bars = [b for b in prices.bars(p["market"], p["ticker"]) if b.date >= eff and closed_by(p["market"], b.date, utc(ts))]
+        if not new_bars:      # the feed is a night behind: wait, so the holding and its price change together
+            report["flags"].append(f"split of {p['market']}:{p['ticker']} due {eff} is waiting for that session's price")
+            continue
         done = {tuple(x["payload"].get("holder") or ()) for x in L.records("corporate_actions") if x["payload"].get("ref") == r["seq"]}
         keys = {k for k in st["positions"] if k[1] == p["market"] and k[2] == p["ticker"]}
         for key in sorted(keys):
@@ -181,8 +188,9 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
             L.append("corporate_actions", {"type": "split_applied", "sleeve": key[0], "market": key[1], "ticker": key[2],
                                            "qty_change": q * (p["ratio"] - 1), "ref": r["seq"], "holder": list(key),
                                            "effective_date": eff}, ts=ts)
+        ref_dates = {x["seq"]: x["payload"].get("ref_date", "") for x in L.records("decisions")}
         for o in state(L)["open_orders"]:
-            if o["market"] == p["market"] and o["ticker"] == p["ticker"] and utc(o["decided_at_utc"]) < session_open_utc(p["market"], eff):
+            if o["market"] == p["market"] and o["ticker"] == p["ticker"] and ref_dates.get(o.get("decision_seq"), "") < eff:
                 L.append("orders", {"event": "cancel", "order_id": o["order_id"], "reason": "share split"}, ts=ts)
                 report["cancelled"].append(o["order_id"])
         L.append("corporate_actions", {"type": "split_applied", "ref": r["seq"]}, ts=ts)
@@ -225,7 +233,7 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
                     # convert from NZ$, but never more NZ$ than there is: no borrowing
                     rate = fx.per_nzd(ccy, bar.date)
                     want_nzd = (need - have) * (1 + FX_BLOCK_BUFFER) / rate / (1 - FX_FEE)
-                    nzd_in = min(want_nzd, max(0.0, cash_now.get("NZD", 0.0)))
+                    nzd_in = min(want_nzd, max(0.0, cash_now.get("NZD", 0.0) - PLAN_MONTHLY_NZD))   # keep the plan fee back
                     if nzd_in >= 1.0:
                         _convert_nzd(L, fx, bar.date, ccy, nzd_in, ts)
                     have = state(L)["cash"].get(ccy, 0.0)
@@ -265,12 +273,16 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
     # Dividends go to holders before the ex-date; consideration to holders before the record date
     # (or at payment, if none is given). Each holder is booked once, even if a run is repeated.
     st = state(L)
-    done_refs = defaultdict(set)
-    for tbl in ("cash", "fills", "corporate_actions"):
-        for x in L.records(tbl):
-            q = x["payload"]
-            if q.get("ref") is not None and q.get("holder"):
-                done_refs[q["ref"]].add(tuple(q["holder"]))
+    done_refs = defaultdict(set)       # (ref) -> holders paid in cash
+    done_fills = defaultdict(set)      # (ref) -> holders whose consideration sale is booked
+    for x in L.records("cash"):
+        q = x["payload"]
+        if q.get("ref") is not None and q.get("holder"):
+            done_refs[q["ref"]].add(tuple(q["holder"]))
+    for x in L.records("fills"):
+        q = x["payload"]
+        if q.get("ref") is not None and q.get("holder"):
+            done_fills[q["ref"]].add(tuple(q["holder"]))
     for r in L.records("corporate_actions"):
         p = r["payload"]
         if p.get("type") not in ("dividend", "consideration") or r["seq"] in st["applied"] or r["seq"] in st["voided"]:
@@ -290,6 +302,10 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
             if key in done_refs[r["seq"]]:
                 continue
             sleeve, m, t = key
+            if p["type"] == "consideration" and key in done_fills[r["seq"]]:
+                f0 = next(x["payload"] for x in L.records("fills") if x["payload"].get("ref") == r["seq"] and tuple(x["payload"]["holder"]) == key)
+                L.append("cash", {"kind": "consideration", "ccy": p["ccy"], "amount": f0["gross_local"], "ref": r["seq"], "holder": list(key)}, ts=ts)
+                continue
             q = position_before(L, key, cut) if cut else st["positions"].get(key, 0.0)
             if p["type"] == "consideration":
                 q = min(q, st["positions"].get(key, 0.0))     # only shares still held can be paid out
@@ -304,7 +320,8 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
                                    "gross_nzd": round(q * p["per_share"] * fx.nzd_per(p["ccy"], due), 2), "fee_local": 0.0,
                                    "ccy": p["ccy"], "nzd_per_local": fx.nzd_per(p["ccy"], due), "reason": "consideration",
                                    "ref": r["seq"], "holder": list(key)}, ts=ts)
-                L.append("cash", {"kind": "consideration", "ccy": p["ccy"], "amount": round(q * p["per_share"], 2), "ref": r["seq"]}, ts=ts)
+                L.append("cash", {"kind": "consideration", "ccy": p["ccy"], "amount": round(q * p["per_share"], 2), "ref": r["seq"],
+                                  "holder": list(key)}, ts=ts)
         L.append("corporate_actions", {"type": f"{p['type']}_applied", "ref": r["seq"]}, ts=ts)
         report["actions"].append(f"{p['type']} {p['market']}:{p['ticker']}")
 
@@ -319,7 +336,13 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
         p = r["payload"]
         if p.get("type") == "dividend" and r["seq"] not in st["applied"] and r["seq"] not in st["voided"] \
                 and p.get("ex_date") and p.get("pay_date") and p["ex_date"] <= run_date < p["pay_date"]:
-            for key in {k for k in st["positions"] if k[1] == p["market"] and k[2] == p["ticker"]}:
+            seen = [b for b in prices.bars(p["market"], p["ticker"]) if closed_by(p["market"], b.date, utc(ts))]
+            if not seen or seen[-1].date < p["ex_date"]:
+                continue          # the close in tonight's value is still from before the ex-date: the dividend is in it
+            keys = {k for k in st["positions"] if k[1] == p["market"] and k[2] == p["ticker"]}
+            keys |= {(f["sleeve"], f["market"], f["ticker"]) for f in (x["payload"] for x in L.records("fills"))
+                     if f["market"] == p["market"] and f["ticker"] == p["ticker"]}
+            for key in keys:
                 owed += position_before(L, key, p["ex_date"]) * p["per_share"] * fx.nzd_per(p["ccy"], run_date)
     val = value(st, prices, fx, run_date, utc(ts), rates, receivable_nzd=owed)
     peaks = [r["payload"]["total_nzd"] for r in L.records("valuations")]
@@ -330,6 +353,8 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
         cap = CAPS.get(line["sleeve"])
         if cap and line["value_nzd"] > cap * val["total_nzd"] * 1.10:
             flags.append(f"{line['market']}:{line['ticker']} is {line['value_nzd'] / val['total_nzd']:.1%} of the portfolio (cap {cap:.0%})")
+    if st["cash"].get("NZD", 0.0) < -0.005:
+        flags.append(f"NZ$ cash is {st['cash']['NZD']:,.2f}: below zero (convert foreign cash back or sell)")
     if val["cash_nzd_total"] < CASH_FLOOR * val["total_nzd"]:
         flags.append(f"cash {val['cash_nzd_total'] / val['total_nzd']:.1%} is below the 5% floor")
     if dd <= -DRAWDOWN_EXIT:

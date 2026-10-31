@@ -63,6 +63,13 @@ def enter(L: Ledger, kind: str, args: list[str], opts: dict, now_utc: datetime) 
         rec.update(ratio=ratio, effective_date=_date(opts.get("effective"), "--effective"))
     else:
         raise SystemExit(f"unknown action {kind}")
+    voided = {r["payload"]["ref"] for r in L.records("corporate_actions") if r["payload"].get("type") == "void"}
+    same = {"dividend": "ex_date", "split": "effective_date", "consideration": "pay_date"}[kind]
+    for r in L.records("corporate_actions"):
+        q = r["payload"]
+        if r["seq"] not in voided and q.get("type") == kind and q.get("market") == market and q.get("ticker") == ticker \
+                and q.get(same) == rec[same]:
+            raise SystemExit(f"the same {kind} is already entered as record {r['seq']}; void it first to replace it")
     return L.append("corporate_actions", rec, ts=ts)
 
 
@@ -81,13 +88,23 @@ def missing(L: Ledger, prices: Prices, today: str) -> list[str]:
         path = os.path.join(prices.dir, "prices", m, f"{t}.csv")
         if os.path.exists(path):
             import csv
+            prev_ratio = None
             for r in csv.DictReader(open(path, newline="")):
+                try:
+                    ratio = float(r["adj_close"]) / float(r["close"]) if r.get("adj_close") and r.get("close") else None
+                except (ValueError, ZeroDivisionError):
+                    ratio = None
+                moved = prev_ratio is not None and ratio is not None and abs(ratio / prev_ratio - 1) > 0.001
+                prev_ratio = ratio if ratio is not None else prev_ratio
                 if r["date"] <= first_fill.get((m, t), "9999"):
                     continue
                 try:
                     div, split = float(r.get("dividend") or 0), float(r.get("split") or 1)
                 except ValueError:
                     continue
+                if r.get("dividend", "") == "" and moved and not any(a.get("type") in ("dividend", "split") and a["ticker"] == t
+                                                                     and r["date"] in (a.get("ex_date"), a.get("effective_date")) for a in ca):
+                    out.append(f"{m}:{t}: the feed's adjusted close shows a payout or split around {r['date']}; check and enter it")
                 if div > 0 and not any(a.get("type") == "dividend" and a["ticker"] == t and a.get("ex_date") == r["date"] for a in ca):
                     out.append(f"{m}:{t}: the price feed shows a dividend of {div:g} going ex on {r['date']}, and none is entered")
                 if split not in (0, 1) and not any(a.get("type") == "split" and a["ticker"] == t and a.get("effective_date") == r["date"] for a in ca):
