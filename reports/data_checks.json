@@ -1,0 +1,14 @@
+{
+ "run": "2026-11-01",
+ "checked": 25,
+ "issues": [
+  {
+   "kind": "jump",
+   "market": "ASX",
+   "ticker": "RTH",
+   "date": "2026-10-19",
+   "move": 0.8519,
+   "text": "ASX:RTH moved +85% on 2026-10-19: check against the company's announcements"
+  }
+ ]
+}

@@ -171,7 +171,7 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
                 "exit_rule": c.get("exit_rule"), "industry": c.get("industry"), "group": c.get("group"),
                 "base_rate": c.get("base_rate"), "adjustments": c.get("adjustments"), "type": c.get("type"),
                 "market_implied": p.get("market_implied"), "expected_annual": p.get("expected_annual"),
-                "decided": nz_date(r["ts_utc"]), "price_seen": p.get("price_seen")}
+                "decided": nz_date(r["ts_utc"]), "price_seen": p.get("price_seen"), "break_price": c.get("break_price")}
         elif p.get("rule") and p.get("sleeve") == "core":
             cards.setdefault(("core", p["market"], p["ticker"]), {"rule": p["rule"], "target_weight": p.get("target_weight"),
                                                                     "decided": nz_date(r["ts_utc"])})
@@ -349,6 +349,29 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
         {"n": 5, "name": "Our odds beat the market's across at least 40 dated calls", "value": n_res,
          "met": (ours < mkt) if (ours is not None and n_res >= 40) else None, "ours": rd(ours, 4), "market": rd(mkt, 4)}]
 
+    # if every deal broke tonight: each deal holding falls to its break price (the monitor's,
+    # moved by the market, or failing that the card's), in NZ$ at tonight's rate
+    mon = {r["ticker"]: fnum(r.get("break_price")) for r in read_csv(os.path.join(ROOT, "reports", "deal_monitor.csv"))}
+    stress = []
+    for p in positions:
+        if p["sleeve"] != "deal":
+            continue
+        bp = mon.get(p["ticker"]) or (p["card"] or {}).get("break_price")
+        if bp and p["close"]:
+            loss = p["qty"] * (bp - p["close"]) * (p["value"] / (p["qty"] * p["close"]))
+            stress.append({"tk": p["ticker"], "break": rd(bp, 4), "loss": rd(min(0.0, loss))})
+    stress_total = sum(x["loss"] for x in stress)
+
+    # where the money came from, since the start
+    hedge_mtm = latest.get("hedge_mtm_nzd", 0.0) or 0.0
+    attr = {"positions": [{"tk": p["ticker"], "s": p["sleeve"], "nzd": p["pnl"]} for p in positions],
+            "closed": [{"tk": k[2], "s": k[0], "nzd": rd(b["realised_nzd"])} for k, b in basis.items() if b["qty"] <= 1e-9 and abs(b["realised_nzd"]) > 0.005],
+            "interest": rd(sum(interest.values())), "hedges": rd(st["hedge_realised_nzd"] + hedge_mtm),
+            "plan_fees": rd(-costs.get("plan", 0.0)), "conversion_fees": rd(-costs.get("fx", 0.0))}
+    explained = sum(x["nzd"] or 0 for x in attr["positions"]) + sum(x["nzd"] or 0 for x in attr["closed"]) + attr["interest"] + attr["hedges"] + attr["plan_fees"] + attr["conversion_fees"]
+    attr["other"] = rd((total - bank) - explained)
+    attr["total"] = rd(total - bank)
+
     day_change = total - prev["total_nzd"] if prev else total - bank
     return dict(base, started=True, as_of=latest["date"], days=len(vals), chain=L.verify(),
                 summary={"total": rd(total), "unhedged": rd(latest.get("total_unhedged_nzd", total)), "day": rd(day_change),
@@ -360,12 +383,60 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
                          "realised": rd(sum(b["realised_nzd"] for b in basis.values()))},
                 series=series, positions=positions, orders=orders, activity=acts[:400],
                 calls={"list": calls, "ours": rd(ours, 4), "market": rd(mkt, 4), "resolved": n_res, "made": len(made)},
-                costs={k: rd(v) for k, v in costs.items()}, months=months, limits=limits, tests=tests)
+                costs={k: rd(v) for k, v in costs.items()}, months=months, limits=limits, tests=tests,
+                stress={"deals": stress, "total": rd(stress_total), "pct": rd(stress_total / total, 5)}, attribution=attr)
 
 
 # ---------- deals, system and the timeline ----------
+def deal_file(ticker: str, market: str = "ASX") -> dict | None:
+    """research/deals/<TICKER>.md (NZX: NZ_<TICKER>.md): the header fields and the main sections."""
+    p = os.path.join(ROOT, "research", "deals", (f"NZ_{ticker}" if market == "NZX" else ticker) + ".md")
+    if not os.path.exists(p):
+        return None
+    txt = open(p, encoding="utf-8").read()
+    head, body = {}, txt
+    m = re.match(r"^---\n(.*?)\n---\n(.*)$", txt, re.S)
+    if m:
+        for line in m.group(1).splitlines():
+            if ":" in line and not line.startswith(" "):
+                k, v = line.split(":", 1)
+                v = re.sub(r"\s+#.*$", "", v).strip()
+                head[k.strip()] = v
+        body = m.group(2)
+    secs = {}
+    for part in re.split(r"^## ", body, flags=re.M)[1:]:
+        title, _, rest = part.partition("\n")
+        secs[title.strip().lower()] = rest.strip()[:3000]
+    split = lambda v: [x.strip() for x in (v or "").split(";") if x.strip()]
+    return {"head": {k: v for k, v in head.items() if v}, "summary": secs.get("in short", ""),
+            "conditions_open": split(head.get("conditions_open")), "conditions_met": split(head.get("conditions_met")),
+            "conditions": secs.get("conditions", ""), "dates": secs.get("key dates", ""), "risks": secs.get("risks to completion", ""),
+            "recent": secs.get("recent announcements", ""), "checked": head.get("last_checked")}
+
+
+def deal_events(rows: list[dict], today: str, days: int = 21) -> list[dict]:
+    """Dated events for live deals in the next few weeks, from the deal files and the live list."""
+    out = []
+    end = (date.fromisoformat(today) + timedelta(days=days)).isoformat()
+    names = {"booklet_date": "Scheme booklet", "first_court_date": "First court hearing", "meeting_date": "Scheme meeting",
+             "offer_close_date": "Offer closes", "second_court_date": "Second court hearing", "effective_date": "Scheme effective",
+             "record_date": "Record date", "implementation_date": "Payment", "end_date": "End date in the deed"}
+    for r in rows:
+        f = (r.get("file") or {}).get("head", {})
+        seen = set()
+        for k, label in names.items():
+            v = (f.get(k) or r.get(k) or "")[:10]
+            if re.match(r"\d{4}-\d\d-\d\d$", v) and today <= v <= end and (k, v) not in seen:
+                seen.add((k, v))
+                out.append({"date": v, "tk": r["tk"], "m": r["m"], "what": label, "held": r["held"],
+                            "firm": "indicative" not in (f.get("dates_basis") or "").lower() or k in (f.get("dates_basis") or "")})
+    return sorted(out, key=lambda e: (e["date"], e["tk"]))
+
+
 def deals_section(names: dict, held: set) -> dict:
     live = {r["deal_id"]: r for r in read_csv(os.path.join(ROOT, "config", "live_deals.csv"))}
+    hp = os.path.join(ROOT, "reports", "deal_history.json")
+    hist = json.load(open(hp)) if os.path.exists(hp) else {}
     rows = []
     for r in read_csv(os.path.join(ROOT, "reports", "deal_monitor.csv")):
         lv = live.get(r["deal_id"], {})
@@ -378,6 +449,10 @@ def deals_section(names: dict, held: set) -> dict:
                      "base_n": fnum(r["base_rate_n"]), "pay": r["expected_payment"], "note": r["note"], "as_of": r["as_of"],
                      "announced": lv.get("announce_date") or None, "acquirer": lv.get("acquirer_ticker") or None,
                      "cash": fnum(lv.get("cash_per_share")), "ratio": fnum(lv.get("scrip_ratio")), "held": (mkt, tk) in held,
+                     "stage": r.get("stage") or lv.get("stage") or "announced", "base_note": r.get("base_note") or "",
+                     "break": fnum(r.get("break_price")), "undisturbed": fnum(r.get("undisturbed")), "market_move": fnum(r.get("market_move")),
+                     "meeting_date": r.get("meeting_date") or lv.get("meeting_date") or None, "end_date": r.get("end_date") or lv.get("end_date") or None,
+                     "hist": hist.get(r["deal_id"], []), "file": deal_file(tk, mkt),
                      "px": closes(mkt, tk, (date.today() - timedelta(days=150)).isoformat(), 110)})
     leads = []
     md = os.path.join(ROOT, "reports", "deal_monitor.md")
@@ -391,7 +466,8 @@ def deals_section(names: dict, held: set) -> dict:
                 leads.append({"tk": cells[0], "name": cells[1].title(), "cash": fnum(cells[2]), "last": fnum(cells[3]),
                               "spread": fnum(m.group(1)) / 100 if m else None, "check": "check" in cells[4],
                               "first": cells[5], "latest": cells[6], "forms": cells[7]})
-    return {"rows": rows, "us_leads": leads}
+    return {"rows": rows, "us_leads": leads, "events": deal_events(rows, date.today().isoformat()),
+            "odds_note": first_match(os.path.join(ROOT, "reports", "deal_odds.md"), r"(- Completed with the first bidder:[^\n]*)") or ""}
 
 
 def checks_section() -> list[dict]:
@@ -478,6 +554,11 @@ def desk_log(n: int = 8) -> list[dict]:
     return out[-n:][::-1]
 
 
+def data_checks() -> dict:
+    p = os.path.join(ROOT, "reports", "data_checks.json")
+    return json.load(open(p)) if os.path.exists(p) else {}
+
+
 def build(source: str = "manual") -> dict:
     cfg = json.load(open(os.path.join(ROOT, "config", "run.json")))
     names = names_map()
@@ -510,7 +591,7 @@ def build(source: str = "manual") -> dict:
         "system": {"run": {"source": source, "steps": steps, "run_id": os.environ.get("GITHUB_RUN_ID"),
                            "workflow": os.environ.get("GITHUB_WORKFLOW")},
                    "feeds": feeds_section(), "checks": checks_section(), "history_tests": history_tests(),
-                   "readiness": readiness(), "milestones": ms, "desk_log": desk_log()},
+                   "readiness": readiness(), "milestones": ms, "desk_log": desk_log(), "data_checks": data_checks()},
     }
 
 
