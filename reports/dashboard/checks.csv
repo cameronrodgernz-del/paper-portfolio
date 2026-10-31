@@ -1,0 +1,11 @@
+check,kind,status,detail,as_of
+clerk,Engine checks,pass,"11 checks pass, 0 fail",2026-11-01
+deal history,Engine checks,pass,"8 checks pass, 0 fail",2026-11-01
+decide,Engine checks,pass,"11 checks pass, 0 fail",2026-11-01
+engine,Engine checks,pass,"21 checks pass, 0 fail",2026-11-01
+hedges,Engine checks,pass,"13 checks pass, 0 fail",2026-11-01
+insider history,Engine checks,pass,"17 checks pass, 0 fail",2026-11-01
+risk,Engine checks,pass,"17 checks pass, 0 fail",2026-11-01
+Rules-only screen (section 6),History tests,fail,"About 1% a year ahead of the market before costs; behind after Sharesies' costs as 10 shares. Sleeve dropped, its 10% to cash",2026-11-01
+US director and officer buying clusters (9a),History tests,waiting,Prices fetched for 0 of 336 sampled tickers; runs once when all are in,2026-11-01
+US cash deal spreads (9b),History tests,waiting,0 tickers sampled; prices fetched from 1 Dec within Tiingo's free limits,2026-11-01

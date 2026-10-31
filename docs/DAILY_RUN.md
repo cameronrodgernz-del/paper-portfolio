@@ -32,7 +32,8 @@ Follows rulebook section 8. Each step leaves a file, so a missed or partial nigh
 4. **Red team.** A separate agent that has not seen the analyst's reasoning argues against each card. Its points go in the card's file. The analyst may revise the card once.
 5. **Risk manager.** `python3 -I src/decide.py <ledger> <card> --dry-run` gives the stake, the costs and every limit breach. A card with a breach is not placed. A veto by judgement is logged with its reason.
 6. **Place.** `python3 -I src/decide.py <ledger> <card>` logs the decision, the dated call and the order, timed when it runs. Commit and push.
-7. **Tell Cam** only when a trade is placed, a holding has material news, or a limit trips.
+7. **Refresh the build dashboard** (claude.ai/artifact/1BxrCHRc4NQFynLysHdFvz): `python3 -I src/dashboard_data.py .`, upload the five files in `reports/dashboard/`, and point each dataset at its new file.
+8. **Tell Cam** only when a trade is placed, a holding has material news, or a limit trips.
 
 Nothing is backdated: a decision is timed when `decide.py` runs, and the clerk fills it only in a session that opens afterwards. A missed desk means no decisions that night.
 

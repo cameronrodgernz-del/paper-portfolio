@@ -64,6 +64,8 @@ def main(root: str) -> int:
     days = [int(float(r["days_to_outcome"])) for r in res if r["days_to_outcome"]]
     days_done = [int(float(r["days_to_outcome"])) for r in done if r["days_to_outcome"]]
 
+    flat = []      # the same tables as rows, for reports/deal_base_rates.csv
+
     def table(key, label):
         g = defaultdict(list)
         for r in res:
@@ -71,6 +73,9 @@ def main(root: str) -> int:
         out = [f"| {label} | Resolved | Completed | Completion | Median days |", "| --- | --- | --- | --- | --- |"]
         for k, v in sorted(g.items(), key=lambda kv: -len(kv[1])):
             dd = [int(float(r["days_to_outcome"])) for r in v if r["days_to_outcome"]]
+            c = sum(1 for r in v if r["outcome"] == "completed")
+            flat.append({"group": label, "value": k, "resolved": len(v), "completed": c, "completion": round(c / len(v), 4),
+                         "median_days": int(stats.median(dd)) if dd else ""})
             out.append(f"| {k} | {len(v)} | {sum(1 for r in v if r['outcome'] == 'completed')} | "
                        f"{pct(sum(1 for r in v if r['outcome'] == 'completed'), len(v))} | {int(stats.median(dd)) if dd else ''} |")
         return out
@@ -105,6 +110,11 @@ def main(root: str) -> int:
     ]
     os.makedirs(os.path.join(root, "reports"), exist_ok=True)
     open(os.path.join(root, "reports", "deal_base_rates.md"), "w").write("\n".join(lines) + "\n")
+    flat.insert(0, {"group": "All", "value": "all", "resolved": len(res), "completed": len(done),
+                    "completion": round(len(done) / len(res), 4) if res else "", "median_days": int(stats.median(days)) if days else ""})
+    with open(os.path.join(root, "reports", "deal_base_rates.csv"), "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["group", "value", "resolved", "completed", "completion", "median_days"])
+        w.writeheader(); w.writerows(flat)
     print("\n".join(lines[:22]))
     return 0
 

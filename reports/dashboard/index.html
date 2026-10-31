@@ -1,0 +1,391 @@
+<meta name="dash-one-writer">
+<style>
+  .pp { font-family: var(--font-anthropic-sans); color: var(--color-fg); display: flex; flex-direction: column; gap: var(--cds-gap-xl); }
+  .pp-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; }
+  .pp-lede { margin: var(--cds-gap-sm) 0 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); max-width: 60rem; }
+  .pp-lede b, .pp-tile b { font-weight: var(--cds-font-weight-medium); color: var(--color-fg); }
+  .pp-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: var(--cds-gap-md); }
+  .pp-tile, .pp-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); }
+  .pp-tile-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
+  .pp-tile-num { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: var(--cds-gap-xs) 0; font-variant-numeric: tabular-nums; }
+  .pp-tile-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
+  .pp-h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0 0 var(--cds-gap-sm); }
+  .pp-h3 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .pp-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: var(--cds-gap-xs) 0 var(--cds-gap-md); }
+  .pp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); }
+  .pp-scroll { overflow: auto; max-height: 34rem; }
+  .pp-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .pp-table th { text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); position: sticky; top: 0; background: var(--color-panel); }
+  .pp-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .pp-table .pp-num { text-align: right; white-space: nowrap; }
+  .pp-wide { min-width: 16rem; }
+  .pp-ok { color: var(--color-ok); }
+  .pp-bad { color: var(--color-bad); }
+  .pp-warn { color: var(--color-warn); }
+  .pp-muted { color: var(--color-fg-muted); }
+  .pp-chart { position: relative; min-height: 320px; }
+  .pp-chart-sm { position: relative; min-height: 240px; }
+  .pp-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; }
+  .pp-tip-head { color: var(--cds-text-secondary); }
+  .pp-legend { display: flex; gap: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0 0 var(--cds-gap-sm); }
+  .pp-swatch { display: inline-block; width: 0.625rem; height: 0.625rem; border-radius: 2px; margin-right: var(--cds-gap-xs); vertical-align: middle; }
+  .pp-sw-1 { background: var(--cds-chart-muted); }
+  [data-dash-source-state=empty] { color: transparent; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  @media (max-width: 40rem) { .pp-hide-narrow { display: none; } }
+</style>
+
+<div class="pp">
+  <header>
+    <h1 class="pp-title" id="top">Paper portfolio build</h1>
+    <p class="pp-lede">Week one of the five-week build. <b data-draw="passCount" data-source="checkSummary" data-field="passed">—</b> of <b data-draw="checkCount" data-source="checkSummary" data-field="total">—</b> engine check suites pass, <b data-draw="dealCount" data-source="dealSummary" data-field="deals">—</b> pending ASX deals are tracked each night, and the deal database gives a <b data-draw="headlineRate" data-source="baseRates" data-field="completion" data-where="group=All&amp;value=all">—</b> completion rate. The rules-only sleeve failed its history test and was dropped; two more tests are waiting on free price data.</p>
+  </header>
+
+  <section class="pp-tiles" id="headline">
+    <div class="pp-tile">
+      <p class="pp-tile-label">Days to the practice run</p>
+      <p class="pp-tile-num" data-draw="daysPractice" data-source="milestones" data-field="days_to_go" data-where="milestone=Practice run starts">—</p>
+      <p class="pp-tile-note">Starts <span data-draw="practiceDate" data-source="milestones" data-field="date" data-where="milestone=Practice run starts">—</span></p>
+    </div>
+    <div class="pp-tile">
+      <p class="pp-tile-label">Deals completed, of resolved</p>
+      <p class="pp-tile-num" data-draw="rateTile" data-source="baseRates" data-field="completion" data-where="group=All&amp;value=all">—</p>
+      <p class="pp-tile-note">NZX and ASX control deals, 2015 to 2026</p>
+    </div>
+    <div class="pp-tile">
+      <p class="pp-tile-label">Resolved deals in the database</p>
+      <p class="pp-tile-num" data-draw="resolvedTile" data-source="baseRates" data-field="resolved" data-where="group=All&amp;value=all">—</p>
+      <p class="pp-tile-note">Median <span data-draw="medianDays" data-source="baseRates" data-field="median_days" data-where="group=All&amp;value=all">—</span> days from announcement to outcome</p>
+    </div>
+    <div class="pp-tile">
+      <p class="pp-tile-label">Deals paying more than cash after costs</p>
+      <p class="pp-tile-num" data-draw="aboveCash" data-source="dealSummary" data-field="above_cash">—</p>
+      <p class="pp-tile-note">Yearly rate after costs above <span data-draw="cashBar">—</span>, before judging the odds</p>
+    </div>
+  </section>
+
+  <section id="deals">
+    <h2 class="pp-h2">Live deals</h2>
+    <div class="pp-grid">
+      <div class="pp-card">
+        <h3 class="pp-h3" id="spread-chart">Yearly rate after costs, if each deal completes on time</h3>
+        <p class="pp-note">Gross spread to the offer, less half the spread, brokerage, currency conversion and the hedge, at a NZ$3,500 stake. Deals priced outside the offer-to-break range are left off.</p>
+        <div class="pp-chart" data-draw="spreadChart" data-source="deals"></div>
+      </div>
+      <div class="pp-card">
+        <h3 class="pp-h3" id="odds-chart">Market-implied chance against the base rate</h3>
+        <p class="pp-note">The chance the price implies, between the break price and the offer, beside the completion rate for deals of the same structure. A big gap is a prompt for the analyst, not a trade.</p>
+        <div class="pp-chart" data-draw="oddsChart" data-source="deals"></div>
+      </div>
+    </div>
+    <div class="pp-card" style="margin-top: var(--cds-gap-md);">
+      <h3 class="pp-h3" id="deal-table">Each deal</h3>
+      <p class="pp-note">Last closes as of the latest nightly run. Offer value includes the acquirer's shares at their last close for scrip deals.</p>
+      <div class="pp-scroll">
+        <table class="pp-table" data-source="deals" data-row-key="ticker">
+          <thead><tr>
+            <th data-field="ticker">Ticker</th>
+            <th data-field="price" class="pp-num">Price (A$)</th>
+            <th data-field="offer_value" class="pp-num">Offer value</th>
+            <th data-field="gross_spread" class="pp-num">Gross spread</th>
+            <th data-field="days_to_payment" class="pp-num">Days</th>
+            <th data-field="yearly_after_costs" class="pp-num">Yearly after costs</th>
+            <th data-field="market_implied" class="pp-num">Implied chance</th>
+            <th data-field="base_rate" class="pp-num">Base rate</th>
+            <th data-field="note" class="pp-wide pp-hide-narrow">Terms and notes</th>
+          </tr></thead>
+          <tbody data-draw="dealRows"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="database">
+    <h2 class="pp-h2">Deal database</h2>
+    <div class="pp-grid">
+      <div class="pp-card">
+        <h3 class="pp-h3" id="rates-table">Completion by group</h3>
+        <p class="pp-note">Resolved deals only. Majority-holder buy-outs are left out. Rates are provisional while the follow-up research pass fills gaps.</p>
+        <div class="pp-scroll">
+          <table class="pp-table" data-source="baseRates" data-row-key="group,value">
+            <thead><tr>
+              <th data-field="group">Group</th>
+              <th data-field="value">Value</th>
+              <th data-field="resolved" class="pp-num">Resolved</th>
+              <th data-field="completion" class="pp-num">Completed</th>
+              <th data-field="median_days" class="pp-num">Median days</th>
+            </tr></thead>
+            <tbody data-draw="rateRows"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="pp-card">
+        <h3 class="pp-h3" id="years-chart">Deals by announcement year</h3>
+        <p class="pp-note">Every row, resolved or pending. Earlier Australian years are thinner because the first research pass ran out of web budget.</p>
+        <p class="pp-legend"><span><span class="pp-swatch" data-draw="swatchAsx"></span>ASX</span><span><span class="pp-swatch pp-sw-1"></span>NZX</span></p>
+        <div class="pp-chart-sm" data-draw="yearChart" data-source="database"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tests">
+    <h2 class="pp-h2">Tests and checks</h2>
+    <div class="pp-grid">
+      <div class="pp-card">
+        <h3 class="pp-h3" id="checks-table">History tests and engine checks</h3>
+        <p class="pp-note">A sleeve or event type that fails its history test is not traded. Engine checks run in every nightly job.</p>
+        <div class="pp-scroll">
+          <table class="pp-table" data-source="checks" data-row-key="check">
+            <thead><tr>
+              <th data-field="check">Check</th>
+              <th data-field="kind" class="pp-hide-narrow">Kind</th>
+              <th data-field="status">Status</th>
+              <th data-field="detail" class="pp-wide">Detail</th>
+            </tr></thead>
+            <tbody data-draw="checkRows"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="pp-card">
+        <h3 class="pp-h3" id="timeline-table">Timeline</h3>
+        <p class="pp-note">The plan can only change at the readiness review and at your sign-off of the rulebook.</p>
+        <table class="pp-table" data-source="milestones" data-row-key="milestone">
+          <thead><tr>
+            <th data-field="milestone">Milestone</th>
+            <th data-field="date">Date</th>
+            <th data-field="days_to_go" class="pp-num">Days to go</th>
+            <th data-field="status">Status</th>
+          </tr></thead>
+          <tbody data-draw="milestoneRows"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+  const num = (x) => (x === '' || x === null || x === undefined || Number.isNaN(Number(x))) ? null : Number(x);
+  const pct0 = d3.format('.0%');
+  const pct1 = d3.format('+.1%');
+  const n3 = d3.format('.3f');
+  const comma = d3.format(',');
+  const CASH_BAR = 0.04;   // a rough cash rate, for the tile and the chart's reference line
+
+  dash.calc('dealSummary', {
+    inputs: ['deals'], title: 'Live deal counts',
+    description: 'How many deals are tracked, and how many show a yearly rate after costs above 4%.',
+    fn: (deals) => [{deals: deals.length, above_cash: deals.filter((d) => d.yearly_after_costs !== '' && Number(d.yearly_after_costs) > 0.04).length}],
+  });
+  dash.calc('checkSummary', {
+    inputs: ['checks'], title: 'Engine checks passing',
+    description: 'Engine check suites in the latest run, and how many pass.',
+    fn: (checks) => [{total: checks.filter((c) => c.kind === 'Engine checks').length,
+                      passed: checks.filter((c) => c.kind === 'Engine checks' && c.status === 'pass').length}],
+  });
+
+  const one = (id) => { const d = dash.data(id); return d.status === 'ok' ? d.data : null; };
+  const whereRow = (rows, f) => rows ? rows.find(f) : null;
+  const setText = (el, s) => { el.textContent = s; };
+
+  dash.draw('passCount', (el) => { const r = one('checkSummary'); setText(el, r && r[0] ? String(r[0].passed) : '—'); });
+  dash.draw('checkCount', (el) => { const r = one('checkSummary'); setText(el, r && r[0] ? String(r[0].total) : '—'); });
+  dash.draw('dealCount', (el) => { const r = one('dealSummary'); setText(el, r && r[0] ? String(r[0].deals) : '—'); });
+  dash.draw('aboveCash', (el) => { const r = one('dealSummary'); setText(el, r && r[0] ? String(r[0].above_cash) : '—'); });
+  const allRow = () => whereRow(one('baseRates'), (r) => r.group === 'All' && r.value === 'all');
+  dash.draw('headlineRate', (el) => { const r = allRow(); setText(el, r ? pct0(Number(r.completion)) : '—'); });
+  dash.draw('rateTile', (el) => { const r = allRow(); setText(el, r ? pct0(Number(r.completion)) : '—'); });
+  dash.draw('resolvedTile', (el) => { const r = allRow(); setText(el, r ? comma(Number(r.resolved)) : '—'); });
+  dash.draw('medianDays', (el) => { const r = allRow(); setText(el, r ? String(r.median_days) : '—'); });
+  dash.draw('daysPractice', (el) => {
+    const r = whereRow(one('milestones'), (m) => m.milestone === 'Practice run starts');
+    setText(el, r ? comma(Number(r.days_to_go)) : '—');
+  });
+  dash.draw('swatchAsx', (el) => { el.style.background = dash.colors[0]; });
+  dash.draw('cashBar', (el) => setText(el, pct0(CASH_BAR)));
+  dash.draw('practiceDate', (el) => {
+    const r = whereRow(one('milestones'), (m) => m.milestone === 'Practice run starts');
+    setText(el, r ? d3.utcFormat('%-d %B %Y')(new Date(r.date)) : '—');
+  });
+
+  const cell = (tr, text, cls) => { const td = document.createElement('td'); td.textContent = text; if (cls) td.className = cls; tr.appendChild(td); };
+
+  dash.draw('dealRows', (tb) => {
+    const rows = one('deals');
+    tb.replaceChildren();
+    if (!rows) return;
+    for (const d of rows) {
+      const tr = document.createElement('tr');
+      const y = num(d.yearly_after_costs), imp = num(d.market_implied);
+      cell(tr, d.ticker);
+      cell(tr, n3(Number(d.price)), 'pp-num');
+      cell(tr, n3(Number(d.offer_value)), 'pp-num');
+      cell(tr, pct1(Number(d.gross_spread)), 'pp-num');
+      cell(tr, comma(Number(d.days_to_payment)), 'pp-num');
+      cell(tr, y === null ? 'n/m' : pct1(y), 'pp-num ' + (y === null ? 'pp-muted' : y > CASH_BAR ? 'pp-ok' : y < 0 ? 'pp-bad' : ''));
+      cell(tr, imp === null ? (d.implied_note || '') : pct0(imp), 'pp-num' + (imp === null ? ' pp-muted' : ''));
+      cell(tr, pct0(Number(d.base_rate)), 'pp-num');
+      cell(tr, d.note, 'pp-hide-narrow pp-muted');
+      tb.appendChild(tr);
+    }
+  });
+
+  dash.draw('rateRows', (tb) => {
+    const rows = one('baseRates');
+    tb.replaceChildren();
+    if (!rows) return;
+    for (const r of rows) {
+      const tr = document.createElement('tr');
+      cell(tr, r.group); cell(tr, r.value);
+      cell(tr, comma(Number(r.resolved)), 'pp-num');
+      cell(tr, pct0(Number(r.completion)), 'pp-num');
+      cell(tr, r.median_days === '' ? '' : String(r.median_days), 'pp-num');
+      tb.appendChild(tr);
+    }
+  });
+
+  dash.draw('checkRows', (tb) => {
+    const rows = one('checks');
+    tb.replaceChildren();
+    if (!rows) return;
+    for (const r of rows) {
+      const tr = document.createElement('tr');
+      cell(tr, r.check); cell(tr, r.kind, 'pp-hide-narrow pp-muted');
+      cell(tr, r.status, r.status === 'pass' ? 'pp-ok' : r.status === 'fail' ? 'pp-bad' : 'pp-warn');
+      cell(tr, r.detail, 'pp-muted');
+      tb.appendChild(tr);
+    }
+  });
+
+  dash.draw('milestoneRows', (tb) => {
+    const rows = one('milestones');
+    tb.replaceChildren();
+    if (!rows) return;
+    const fmt = d3.utcFormat('%-d %b %Y');
+    for (const r of rows) {
+      const tr = document.createElement('tr');
+      cell(tr, r.milestone);
+      cell(tr, fmt(new Date(r.date)));
+      cell(tr, comma(Number(r.days_to_go)), 'pp-num');
+      cell(tr, r.status, 'pp-muted');
+      tb.appendChild(tr);
+    }
+  });
+
+  function tooltip(box) {
+    let tip = box.querySelector('.pp-tip');
+    if (!tip) { tip = document.createElement('div'); tip.className = 'pp-tip'; tip.hidden = true; box.appendChild(tip); }
+    return {
+      show(lines, x, y) {
+        tip.replaceChildren();
+        lines.forEach((t, i) => { const div = document.createElement('div'); div.textContent = t; if (i === 0) div.className = 'pp-tip-head'; tip.appendChild(div); });
+        tip.hidden = false;
+        const w = tip.offsetWidth, bw = box.clientWidth;
+        tip.style.left = Math.max(0, Math.min(bw - w, x + 12)) + 'px';
+        tip.style.top = Math.max(0, y - 10) + 'px';
+      },
+      hide() { tip.hidden = true; },
+    };
+  }
+
+  function measure(svg, texts) {
+    const t = svg.append('text').attr('font-size', 'var(--cds-font-size-caption)');
+    let w = 0;
+    for (const s of texts) { t.text(s); w = Math.max(w, t.node().getComputedTextLength()); }
+    t.remove();
+    return w;
+  }
+
+  dash.draw('spreadChart', (box) => {
+    box.replaceChildren();
+    const rows = one('deals');
+    if (!rows) return;
+    const data = rows.filter((d) => num(d.yearly_after_costs) !== null).map((d) => ({t: d.ticker, v: Number(d.yearly_after_costs), d}))
+      .sort((a, b) => b.v - a.v);
+    const W = box.clientWidth || 400, rowH = 26, H = data.length * rowH + 40;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img');
+    const left = measure(svg, data.map((d) => d.t)) + 12;
+    const labelW = measure(svg, data.map((d) => pct1(d.v))) + 8;
+    const lo = Math.min(0, d3.min(data, (d) => d.v)), hi = Math.max(CASH_BAR, d3.max(data, (d) => d.v));
+    const x = d3.scaleLinear([lo, hi], [left + (lo < 0 ? labelW : 0), W - labelW]).nice();
+    const y = d3.scaleBand(data.map((d) => d.t), [10, H - 30]).padding(0.25);
+    svg.append('g').attr('transform', `translate(0,${H - 30})`).call(d3.axisBottom(x).ticks(Math.max(2, Math.floor(W / 110))).tickFormat(d3.format('.0%')))
+      .attr('font-size', null).attr('font-family', null)
+      .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 'var(--cds-font-size-caption)'))
+      .call((g) => g.selectAll('line,path').attr('stroke', 'var(--cds-chart-axis)'));
+    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', 6).attr('y2', H - 30).attr('stroke', 'var(--cds-chart-axis)');
+    svg.append('line').attr('x1', x(CASH_BAR)).attr('x2', x(CASH_BAR)).attr('y1', 6).attr('y2', H - 30)
+      .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 3');
+    const tip = tooltip(box);
+    const g = svg.append('g').selectAll('g').data(data).join('g');
+    g.append('text').attr('x', left - 8).attr('y', (d) => y(d.t) + y.bandwidth() / 2).attr('dy', '0.35em').attr('text-anchor', 'end')
+      .attr('fill', 'var(--color-fg)').attr('font-size', 'var(--cds-font-size-caption)').text((d) => d.t);
+    g.append('rect').attr('x', (d) => Math.min(x(0), x(d.v))).attr('y', (d) => y(d.t)).attr('height', Math.min(y.bandwidth(), 32))
+      .attr('width', (d) => Math.abs(x(d.v) - x(0))).attr('rx', 3)
+      .attr('fill', (d) => d.v < 0 ? 'var(--cds-chart-status-critical)' : dash.colors[0])
+      .on('mousemove', (ev, d) => { const [mx, my] = d3.pointer(ev, box); tip.show([d.t, `Yearly after costs ${pct1(d.v)}`, `Gross spread ${pct1(Number(d.d.gross_spread))} over ${d.d.days_to_payment} days`], mx, my); })
+      .on('mouseleave', () => tip.hide());
+    g.append('text').attr('x', (d) => d.v < 0 ? x(d.v) - 4 : x(d.v) + 4).attr('y', (d) => y(d.t) + y.bandwidth() / 2).attr('dy', '0.35em')
+      .attr('text-anchor', (d) => d.v < 0 ? 'end' : 'start').attr('fill', 'var(--color-fg-muted)').attr('font-size', 'var(--cds-font-size-caption)')
+      .text((d) => pct1(d.v));
+  });
+
+  dash.draw('oddsChart', (box) => {
+    box.replaceChildren();
+    const rows = one('deals');
+    if (!rows) return;
+    const data = rows.filter((d) => num(d.market_implied) !== null).map((d) => ({t: d.ticker, m: Number(d.market_implied), b: Number(d.base_rate)}))
+      .sort((a, b) => (a.m - a.b) - (b.m - b.b));
+    const W = box.clientWidth || 400, rowH = 28, H = data.length * rowH + 40;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img');
+    const left = measure(svg, data.map((d) => d.t)) + 12;
+    const x = d3.scaleLinear([0, 1], [left, W - 16]);
+    const y = d3.scalePoint(data.map((d) => d.t), [18, H - 34]);
+    svg.append('g').attr('transform', `translate(0,${H - 28})`).call(d3.axisBottom(x).ticks(Math.max(2, Math.floor(W / 110))).tickFormat(d3.format('.0%')))
+      .attr('font-size', null).attr('font-family', null)
+      .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 'var(--cds-font-size-caption)'))
+      .call((g) => g.selectAll('line,path').attr('stroke', 'var(--cds-chart-axis)'));
+    const tip = tooltip(box);
+    const g = svg.append('g').selectAll('g').data(data).join('g');
+    g.append('text').attr('x', left - 8).attr('y', (d) => y(d.t)).attr('dy', '0.35em').attr('text-anchor', 'end')
+      .attr('fill', 'var(--color-fg)').attr('font-size', 'var(--cds-font-size-caption)').text((d) => d.t);
+    g.append('line').attr('x1', (d) => x(Math.min(d.m, d.b))).attr('x2', (d) => x(Math.max(d.m, d.b))).attr('y1', (d) => y(d.t)).attr('y2', (d) => y(d.t))
+      .attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 3).attr('stroke-linecap', 'round');
+    g.append('circle').attr('cx', (d) => x(d.b)).attr('cy', (d) => y(d.t)).attr('r', 5).attr('fill', 'var(--cds-chart-muted)');
+    g.append('circle').attr('cx', (d) => x(d.m)).attr('cy', (d) => y(d.t)).attr('r', 6).attr('fill', dash.colors[0])
+      .on('mousemove', (ev, d) => { const [mx, my] = d3.pointer(ev, box); tip.show([d.t, `Market-implied ${pct0(d.m)}`, `Base rate ${pct0(d.b)}`], mx, my); })
+      .on('mouseleave', () => tip.hide());
+    svg.append('text').attr('x', W - 16).attr('y', 10).attr('text-anchor', 'end').attr('fill', 'var(--color-fg-muted)')
+      .attr('font-size', 'var(--cds-font-size-caption)').text('Dot: market-implied · grey: base rate');
+  });
+
+  dash.draw('yearChart', (box) => {
+    box.replaceChildren();
+    const rows = one('database');
+    if (!rows) return;
+    const data = rows.map((r) => ({y: String(r.year), a: Number(r.ASX), n: Number(r.NZX)}));
+    const W = box.clientWidth || 400, H = 220;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img');
+    const maxV = d3.max(data, (d) => d.a + d.n);
+    const left = measure(svg, [String(maxV)]) + 10;
+    const x = d3.scaleBand(data.map((d) => d.y), [left, W - 4]).padding(0.25);
+    const y = d3.scaleLinear([0, maxV], [H - 24, 8]).nice();
+    svg.append('g').attr('transform', `translate(${left},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - left - 4)))
+      .attr('font-size', null).attr('font-family', null)
+      .call((g) => g.select('.domain').remove())
+      .call((g) => g.selectAll('line').attr('stroke', 'var(--cds-chart-grid)'))
+      .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 'var(--cds-font-size-caption)'));
+    const every = Math.ceil(data.length / Math.max(2, Math.floor((W - left) / 44)));
+    svg.append('g').attr('transform', `translate(0,${H - 24})`).call(d3.axisBottom(x).tickValues(data.map((d) => d.y).filter((_, i) => i % every === 0)).tickFormat((s) => s))
+      .attr('font-size', null).attr('font-family', null)
+      .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 'var(--cds-font-size-caption)'))
+      .call((g) => g.selectAll('line,path').attr('stroke', 'var(--cds-chart-axis)'));
+    const tip = tooltip(box);
+    const bw = Math.min(x.bandwidth(), 32), off = (x.bandwidth() - bw) / 2;
+    const g = svg.append('g').selectAll('g').data(data).join('g')
+      .on('mousemove', (ev, d) => { const [mx, my] = d3.pointer(ev, box); tip.show([d.y, `ASX ${d.a}`, `NZX ${d.n}`], mx, my); })
+      .on('mouseleave', () => tip.hide());
+    g.append('rect').attr('x', (d) => x(d.y) + off).attr('width', bw).attr('y', (d) => y(d.a)).attr('height', (d) => y(0) - y(d.a)).attr('fill', dash.colors[0]);
+    g.append('rect').attr('x', (d) => x(d.y) + off).attr('width', bw).attr('y', (d) => y(d.a + d.n)).attr('height', (d) => y(d.a) - y(d.a + d.n))
+      .attr('fill', 'var(--cds-chart-muted)').attr('rx', 2);
+  });
+</script>

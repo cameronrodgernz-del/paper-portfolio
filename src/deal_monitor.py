@@ -69,6 +69,7 @@ def main(root: str) -> int:
     lines = ["# Live deal monitor", "", f"Run {today}. Prices are the last closes in the repository; a blank means no price yet.", "",
              "| Deal | Price | Offer value | Gross spread | Days to payment | Yearly rate | Yearly after costs | Market-implied chance | Base-rate chance | Note |",
              "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+    rows = []      # the same numbers as a table, for reports/deal_monitor.csv
     for d in csv.DictReader(open(os.path.join(root, "config", "live_deals.csv"), encoding="utf-8")):
         px = prices.last_close(d["target_market"], d["target_ticker"], today, now)
         cash = float(d["cash_per_share"] or 0)
@@ -100,6 +101,12 @@ def main(root: str) -> int:
             net_y = (1 + gross - cost) ** (365 / max(days, 1)) - 1 if days > 0 else float("nan")
             cells = [f"{px:.3f}", f"{offer:.3f}", f"{gross:+.1%}", str(days), f"{yearly:+.1%}" if abs(yearly) < 5 else "n/m",
                      f"{net_y:+.1%}" if abs(net_y) < 5 else "n/m", imp]
+            rows.append({"ticker": d["target_ticker"], "deal_id": d["deal_id"], "structure": d["structure"], "price": round(px, 4),
+                         "offer_value": round(offer, 4), "gross_spread": round(gross, 5), "days_to_payment": days,
+                         "yearly": round(yearly, 4) if abs(yearly) < 5 else "", "yearly_after_costs": round(net_y, 4) if abs(net_y) < 5 else "",
+                         "market_implied": round(implied, 4) if implied == implied and 0 <= implied <= 1 else "",
+                         "implied_note": imp if imp and not imp.endswith("%") else "", "base_rate": round(p_base, 4),
+                         "base_rate_n": n, "expected_payment": d["expected_payment"], "note": d["terms_note"], "as_of": today})
         else:
             cells = ["" if not px else f"{px:.3f}", "" if not offer else f"{offer:.3f}", "", str(days), "", "", ""]
         lines.append(f"| {d['target_ticker']} ({d['deal_id']}) | " + " | ".join(cells) +
@@ -110,6 +117,10 @@ def main(root: str) -> int:
               "The analyst adjusts it for this deal's conditions and records each adjustment before any entry."]
     lines += us_section(root, prices, today, now)
     os.makedirs(os.path.join(root, "reports"), exist_ok=True)
+    if rows:
+        with open(os.path.join(root, "reports", "deal_monitor.csv"), "w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+            w.writeheader(); w.writerows(rows)
     open(os.path.join(root, "reports", "deal_monitor.md"), "w").write("\n".join(lines) + "\n")
     print("\n".join(lines))
     return 0

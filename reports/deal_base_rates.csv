@@ -1,0 +1,17 @@
+group,value,resolved,completed,completion,median_days
+All,all,274,217,0.792,119
+Market,ASX,237,189,0.7975,119
+Market,NZX,37,28,0.7568,123
+Structure,scheme,198,166,0.8384,124
+Structure,full_takeover,70,47,0.6714,72
+Structure,partial_takeover,6,4,0.6667,118
+Bidder,trade,174,142,0.8161,121
+Bidder,private_equity,37,31,0.8378,114
+Bidder,existing_holder,33,22,0.6667,87
+Bidder,consortium,19,15,0.7895,146
+Bidder,infrastructure,7,5,0.7143,126
+Bidder,other,4,2,0.5,88
+Paid in,cash,171,140,0.8187,118
+Paid in,scrip,37,30,0.8108,127
+Paid in,mixed,34,25,0.7353,121
+Paid in,unknown,32,22,0.6875,110
