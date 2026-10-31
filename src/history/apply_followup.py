@@ -54,13 +54,13 @@ def main(root: str, *dirs: str) -> int:
         nr = os.path.join(d, "new_rows.csv")
         if os.path.exists(nr):
             for r in load(nr)[1]:
-                y = (r.get("announce_date") or "")[:4]
+                y = (r.get("announce_date") or "")[:4] or (r.get("deal_id") or "")[3:7]   # undated rows go by their id's year
                 folder = PERIODS.get(y)
                 if not folder:
                     log.append({"deal_id": r.get("deal_id"), "field": "(new row)", "new_value": r.get("target_name"), "result": "year outside 2015-2024"}); continue
                 path = os.path.join(root, "deals", "au_hist", folder, f"au_deals_{folder}.csv")
                 fields, rows = files[path]
-                dup = any(x["target_ticker"] == r["target_ticker"] and x["announce_date"] and r["announce_date"]
+                dup = any(x["deal_id"] == r["deal_id"] for x in rows) or any(x["target_ticker"] == r["target_ticker"] and x["announce_date"] and r["announce_date"]
                           and abs((date.fromisoformat(x["announce_date"]) - date.fromisoformat(r["announce_date"])).days) <= 60
                           for x in rows)
                 if dup:

@@ -4,17 +4,17 @@ Run 2026-11-01. Prices are the last closes in the repository; a blank means no p
 
 | Deal | Price | Offer value | Gross spread | Days to payment | Yearly rate | Yearly after costs | Market-implied chance | Base-rate chance | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| AX1 (AU-2026-13) | 0.655 | 0.650 | -0.8% | 89 | -3.1% | -8.9% |  | 67% of 70 full_takeovers | Frasers on-market bid A$0.65 cash; unconditional; declared best and final 28 Oct; broker stands in the market |
-| VAU (AU-2026-14) | 5.400 | 5.396 | -0.1% | 25 | -1.2% | -19.6% |  | 84% of 198 schemes | A$0.475 cash plus 0.7629 Genesis shares; meeting 11 Nov |
-| BET (AU-2026-16) | 0.215 | 0.240 | +11.6% | 150 | +30.7% | +25.1% | 67% | 84% of 198 schemes | Default A$0.24 cash (scrip election capped); completion targeted Q3 FY27; ACCC first-stage review |
-| OML (AU-2026-17) | 1.665 | 1.700 | +2.1% | 25 | +35.5% | +12.7% | 96% | 84% of 198 schemes | A$1.68 consideration plus 2c interim dividend; meeting 2 Nov; a timetable change was lodged 30 Oct |
-| AUC (AU-2026-18) | 1.205 | 1.360 | +12.9% | 40 | +201.7% | +169.7% | 47% | 84% of 198 schemes | Offer value shown is the cash alternative A$1.36 (capped at A$194m and scaled back); the main leg is 0.03365 TSX-listed OceanaGold shares (not in the free feed); meeting 27 Nov |
-| SDF (AU-2026-19) | 5.800 | 6.000 | +3.4% | 51 | +27.5% | +17.0% | 90% | 84% of 198 schemes | A$6.00 less permitted dividends (any dividend paid is part of the A$6.00) |
-| PPC (AU-2026-20) | 1.420 | 2.533 | +78.4% | 60 | n/m | n/m | price below break price | 84% of 198 schemes | A$0.68 cash plus 6.5c dividend plus 0.3367 Ingenia securities; Ingenia weighing Warburg Pincus and AVID proposals; A$10m break fee; Peet has traded well below the implied value since mid-October with no termination announced; check the 30 Oct business update |
-| RWC (AU-2026-21) | 4.390 | 4.801 | +9.4% | 150 | +24.3% | +20.8% |  | 84% of 198 schemes | US$3.38 cash (AUD election at implementation); ticking fee from 1 Apr 2027 |
-| MEI (AU-2026-22) | 0.220 | 0.250 | +13.8% | 124 | +46.5% | +38.6% | 62% | 84% of 198 schemes | 0.0207 Lynas shares; Brazil critical minerals approval; meeting late Jan 2027 |
-| CWY (AU-2026-23) | 3.000 | 3.095 | +3.2% | 150 | +7.9% | +4.6% | 87% | 84% of 198 schemes | A$3.095 cash less dividends; ACCC under the mandatory regime; implementation by end Mar 2027 |
-| FPR (AU-2026-24) | 5.110 | 5.300 | +3.7% | 150 | +9.3% | +6.0% | 92% | 84% of 198 schemes | A$5.30 cash less dividends; NZ OIO and Commerce Commission conditions; implementation Mar 2027 |
+| AX1 (AU-2026-13) | 0.655 | 0.650 | -0.8% | 89 | -3.1% | -8.9% |  | 70% of 79 full_takeovers | Frasers on-market bid A$0.65 cash; unconditional; declared best and final 28 Oct; broker stands in the market |
+| VAU (AU-2026-14) | 5.400 | 5.396 | -0.1% | 25 | -1.2% | -19.6% |  | 85% of 233 schemes | A$0.475 cash plus 0.7629 Genesis shares; meeting 11 Nov |
+| BET (AU-2026-16) | 0.215 | 0.240 | +11.6% | 150 | +30.7% | +25.1% | 67% | 85% of 233 schemes | Default A$0.24 cash (scrip election capped); completion targeted Q3 FY27; ACCC first-stage review |
+| OML (AU-2026-17) | 1.665 | 1.700 | +2.1% | 25 | +35.5% | +12.7% | 96% | 85% of 233 schemes | A$1.68 consideration plus 2c interim dividend; meeting 2 Nov; a timetable change was lodged 30 Oct |
+| AUC (AU-2026-18) | 1.205 | 1.360 | +12.9% | 40 | +201.7% | +169.7% | 47% | 85% of 233 schemes | Offer value shown is the cash alternative A$1.36 (capped at A$194m and scaled back); the main leg is 0.03365 TSX-listed OceanaGold shares (not in the free feed); meeting 27 Nov |
+| SDF (AU-2026-19) | 5.800 | 6.000 | +3.4% | 51 | +27.5% | +17.0% | 90% | 85% of 233 schemes | A$6.00 less permitted dividends (any dividend paid is part of the A$6.00) |
+| PPC (AU-2026-20) | 1.420 | 2.533 | +78.4% | 60 | n/m | n/m | price below break price | 85% of 233 schemes | A$0.68 cash plus 6.5c dividend plus 0.3367 Ingenia securities; Ingenia weighing Warburg Pincus and AVID proposals; A$10m break fee; Peet has traded well below the implied value since mid-October with no termination announced; check the 30 Oct business update |
+| RWC (AU-2026-21) | 4.390 | 4.801 | +9.4% | 150 | +24.3% | +20.8% |  | 85% of 233 schemes | US$3.38 cash (AUD election at implementation); ticking fee from 1 Apr 2027 |
+| MEI (AU-2026-22) | 0.220 | 0.250 | +13.8% | 124 | +46.5% | +38.6% | 62% | 85% of 233 schemes | 0.0207 Lynas shares; Brazil critical minerals approval; meeting late Jan 2027 |
+| CWY (AU-2026-23) | 3.000 | 3.095 | +3.2% | 150 | +7.9% | +4.6% | 87% | 85% of 233 schemes | A$3.095 cash less dividends; ACCC under the mandatory regime; implementation by end Mar 2027 |
+| FPR (AU-2026-24) | 5.110 | 5.300 | +3.7% | 150 | +9.3% | +6.0% | 92% | 85% of 233 schemes | A$5.30 cash less dividends; NZ OIO and Commerce Commission conditions; implementation Mar 2027 |
 
 After costs assumes a NZ$3,500 stake: half the estimated spread, brokerage beyond the plan's monthly cover, a currency conversion and the hedge's dealing cost; consideration is paid free of brokerage. The base rate is for all resolved deals of the same structure in the database. The analyst adjusts it for this deal's conditions and records each adjustment before any entry.
 

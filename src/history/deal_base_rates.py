@@ -90,8 +90,8 @@ def main(root: str) -> int:
         f"{len(rows)} rows in all ({sum(1 for r in rows if r['market'] == 'NZX')} NZX, {sum(1 for r in rows if r['market'] == 'ASX')} ASX); "
         f"{len(rows) - len(base)} majority-holder buy-outs left out of the rates. "
         f"{len(res)} resolved deals and {sum(1 for r in base if r['outcome'] == 'pending')} pending.", "",
-        "The Australian 2015 to 2024 rows are incomplete: the research hit shared web limits, so some deals are missing "
-        f"and {thin} rows have fewer than five of the six key fields. Treat the rates as provisional until the follow-up pass.", "",
+        "The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (deals/au_hist/followup): some deals "
+        f"could not be reached on free sources, and {thin} rows have fewer than five of the six key fields. Treat the rates as provisional.", "",
         "## Headline rates", "",
         "| Measure | Value |", "| --- | --- |",
         f"| Completed, of resolved deals | {pct(len(done), len(res))} ({len(done)} of {len(res)}) |",
