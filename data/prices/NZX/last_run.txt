@@ -1,29 +1,4 @@
-run 2026-10-31 19:55 UTC, 35 requests
-2026-10-27: 254 shares
-2026-10-28: 258 shares
-2026-10-29: 255 shares
-2026-10-30: no rows (a holiday, or not yet published)
-history ABB100: +772
-history ABB110: +788
-history ABB120: +284
-history AFI: +808
-history AFT: +828
-history AGL: +599
-history AIA: +830
-history AIA240: +566
-history AIA250: +641
-history AIA260: +590
-history AIA270: +521
-history AIA280: +476
-history AIA290: +165
-history AIR: +832
-history AIR030: +547
-history AKC130: +420
-history AKC150: +470
-history ALF: +680
-history ANB180: +599
-history ANB190: +313
-history ANBHC: +805
-history ANBHD: +560
+run 2026-10-31 20:23 UTC, 0 requests
+
 PROBLEMS:
-request budget for this run used
+KeyError: 'date'
