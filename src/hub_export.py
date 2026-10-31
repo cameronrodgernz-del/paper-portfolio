@@ -455,17 +455,18 @@ def deals_section(names: dict, held: set) -> dict:
                      "hist": hist.get(r["deal_id"], []), "file": deal_file(tk, mkt),
                      "px": closes(mkt, tk, (date.today() - timedelta(days=150)).isoformat(), 110)})
     leads = []
-    md = os.path.join(ROOT, "reports", "deal_monitor.md")
-    if os.path.exists(md):
-        txt = open(md, encoding="utf-8").read()
-        sect = txt.split("## US leads from SEC merger filings", 1)[-1] if "## US leads" in txt else ""
-        for line in sect.splitlines():
-            cells = [c.strip() for c in line.strip().strip("|").split("|")]
-            if len(cells) == 8 and cells[0] not in ("Ticker", "---"):
-                m = re.match(r"([+-]?[\d.]+)%", cells[4])
-                leads.append({"tk": cells[0], "name": cells[1].title(), "cash": fnum(cells[2]), "last": fnum(cells[3]),
-                              "spread": fnum(m.group(1)) / 100 if m else None, "check": "check" in cells[4],
-                              "first": cells[5], "latest": cells[6], "forms": cells[7]})
+    for r in read_csv(os.path.join(ROOT, "data", "sec", "us_deal_targets.csv")):
+        cash = fnum(r.get("cash_price_lead"))
+        px = closes("US", r.get("ticker") or "", None, 1)
+        if not r.get("ticker") or cash is None or not px:
+            continue
+        g = cash / px[-1][1] - 1
+        leads.append({"tk": r["ticker"], "name": r["company"].title(), "cash": cash, "last": px[-1][1], "spread": round(g, 5),
+                      "check": g < -0.02 or g > 0.25 or r.get("strength") == "weak", "first": r["first_seen"], "latest": r["latest"],
+                      "forms": r["forms"], "stock": r.get("has_stock") == "Y", "cvr": r.get("cvr") == "Y", "meeting": r.get("meeting") or "",
+                      "expires": r.get("tender_expires") or "", "close": r.get("expected_close") or "", "evidence": r.get("evidence") or "",
+                      "url": r.get("url") or ""})
+    leads.sort(key=lambda x: -x["spread"])
     return {"rows": rows, "us_leads": leads, "events": deal_events(rows, date.today().isoformat()),
             "odds_note": first_match(os.path.join(ROOT, "reports", "deal_odds.md"), r"(- Completed with the first bidder:[^\n]*)") or ""}
 

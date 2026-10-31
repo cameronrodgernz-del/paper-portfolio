@@ -2,8 +2,11 @@
 
 Targets are companies that filed a merger proxy (PREM14A or DEFM14A) or a response to a
 tender offer (SC 14D9) in the last `days` days. Each is matched to its ticker with the
-SEC's company_tickers.json, and the filing text is searched for a cash price per share.
-The price found is a lead for the analyst to confirm from the filing, never a fact.
+SEC's company_tickers.json, and the latest filing's terms are read with src/us_terms.py: the cash
+per share (preferring the merger agreement's own wording, with the sentence it came from), whether
+stock is paid too, a contingent value right, the meeting or tender expiry date and the expected close.
+These are leads for the analyst to confirm from the filing, never facts. (CASH below is the pattern
+the US deal history test, rulebook 9b, was registered with; it is kept unchanged for that test.)
 Usage: python3 -I src/us_deals.py [data_dir] [days]
 """
 import csv
@@ -18,6 +21,7 @@ from datetime import date, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fetch_sec import USER_AGENT  # noqa: E402
+from us_terms import terms  # noqa: E402
 
 TARGET_FORMS = ("PREM14A", "DEFM14A", "SC 14D9", "SC 14D9/A", "DEFM14A/A", "PREM14A/A")
 CASH = re.compile(r"\$\s?(\d{1,4}\.\d{2})\s*(?:per share\s*)?in cash|\$\s?(\d{1,4}\.\d{2})\s+per share,?\s+in cash|"
@@ -41,18 +45,23 @@ def main(data_dir: str = "data", days: int = 120) -> int:
         e["forms"].append(r["form"]); e["urls"].append(r["url"]); e["latest"] = r["date"]
     out = []
     for e in by_cik.values():
-        price, n = "", 0
+        price, n, tm = "", 0, {}
         try:
             text = sec_get(e["urls"][-1], limit=1_500_000).decode("latin-1")
+            tm = terms(text)
+            if tm["cash"] is not None:
+                price = f"{tm['cash']:.2f}"
             found = Counter(next(g for g in m.groups() if g) for m in CASH.finditer(text))
-            if found:
-                price, n = found.most_common(1)[0]
+            n = found.get(price, 0)
         except Exception as ex:  # keep going; the analyst sees the gap
             price = f"error: {type(ex).__name__}"
         time.sleep(0.2)
         out.append({"cik": e["cik"], "company": e["company"], "ticker": tickers.get(e["cik"], ""),
                     "first_seen": e["first_seen"], "latest": e["latest"], "forms": ";".join(sorted(set(e["forms"]))),
-                    "cash_price_lead": price, "mentions": n, "url": e["urls"][-1]})
+                    "cash_price_lead": price, "mentions": n, "url": e["urls"][-1],
+                    "strength": tm.get("strength", ""), "has_stock": "Y" if tm.get("stock") else "", "cvr": "Y" if tm.get("cvr") else "",
+                    "meeting": tm.get("meeting", ""), "tender_expires": tm.get("expires", ""), "expected_close": tm.get("expected_close", ""),
+                    "evidence": tm.get("evidence", "")})
     path = os.path.join(data_dir, "sec", "us_deal_targets.csv")
     with open(path, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(out[0].keys()) if out else ["cik"])
@@ -61,7 +70,7 @@ def main(data_dir: str = "data", days: int = 120) -> int:
     common = re.compile(r"^[A-Z]{1,4}$|^[A-Z]{5}$")
     picks = [o for o in sorted(out, key=lambda x: x["latest"], reverse=True)
              if o["ticker"] and common.match(o["ticker"]) and not re.search(r"(U|W|R|WS)$", o["ticker"][4:] if len(o["ticker"]) == 5 else "")
-             and o["cash_price_lead"] and not o["cash_price_lead"].startswith("error")
+             and o["cash_price_lead"] and not o["cash_price_lead"].startswith("error") and not o.get("has_stock")
              and not re.search(r"acquisition corp|capital trust|property trust|fund\b", o["company"], re.I)][:40]
     with open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "config", "universe_us_deals.csv"), "w", newline="") as f:
         w = csv.writer(f)

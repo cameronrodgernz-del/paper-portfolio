@@ -118,12 +118,15 @@ def us_section(root: str, prices: Prices, today: str, now: datetime) -> list[str
             "Cash price per share found in the latest filing's text, against the last close. "
             "A spread far from the usual few per cent usually means the lead is wrong (a different price in the text, "
             "a stock-and-cash deal, or a bidding contest), so confirm from the filing before any use.", "",
-            "| Ticker | Company | Cash lead | Last close | Gross spread | First filing | Latest filing | Forms |",
-            "| --- | --- | --- | --- | --- | --- | --- | --- |"]
+            "| Ticker | Company | Cash lead | Last close | Gross spread | First filing | Latest filing | Forms | Terms |",
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
     for g, r, px in sorted(rows, key=lambda x: -x[0]):
         flag = " (check)" if g < -0.02 or g > 0.25 else ""
+        extra = "; ".join(x for x in ("stock as well as cash" if r.get("has_stock") else "", "with a CVR" if r.get("cvr") else "",
+                                       f"meeting {r['meeting']}" if r.get("meeting") else "", f"tender expires {r['tender_expires']}" if r.get("tender_expires") else "",
+                                       f"close expected {r['expected_close']}" if r.get("expected_close") else "", "weak match" if r.get("strength") == "weak" else "") if x)
         out.append(f"| {r['ticker']} | {r['company'][:38]} | {float(r['cash_price_lead']):.2f} | {px:.2f} | {g:+.1%}{flag} | "
-                   f"{r['first_seen']} | {r['latest']} | {r['forms']} |")
+                   f"{r['first_seen']} | {r['latest']} | {r['forms']} | {extra} |")
     return out
 
 
