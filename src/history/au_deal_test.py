@@ -22,6 +22,7 @@ sys.path.insert(0, os.path.join(HERE, ".."))
 sys.path.insert(0, HERE)
 from deal_odds import holder_outcome, num  # noqa: E402
 from insider_test import load_prices  # noqa: E402
+from norgate_link import verified as norgate_verified  # noqa: E402
 from rates import Rates  # noqa: E402
 from spreads import spread_estimate  # noqa: E402
 
@@ -163,7 +164,17 @@ def main(root: str, force: bool = False) -> int:
         return 0
     rates = Rates(os.path.join(root, "data"))
     ev = events(root)
-    prices = {t: load_prices(os.path.join(pdir, f"{t}.csv")) for t in sample if os.path.exists(os.path.join(pdir, f"{t}.csv"))}
+    # Prices: Norgate (delisted shares included) where its file is the named company, else EODHD, except
+    # codes where neither source has the old company (config/history_price_exclusions.csv)
+    nv = {tk: p for (tk, _), p in norgate_verified(root).items()}
+    exp = os.path.join(root, "config", "history_price_exclusions.csv")
+    excluded = {r["ticker"] for r in csv.DictReader(open(exp))} if os.path.exists(exp) else set()
+    prices, source = {}, defaultdict(int)
+    for t in sample:
+        if t in nv:
+            prices[t] = load_prices(nv[t]); source["Norgate"] += 1
+        elif t not in excluded and os.path.exists(os.path.join(pdir, f"{t}.csv")):
+            prices[t] = load_prices(os.path.join(pdir, f"{t}.csv")); source["EODHD"] += 1
     res, why = [], defaultdict(int)
     alt = []
     for e in ev:
@@ -184,7 +195,8 @@ def main(root: str, force: bool = False) -> int:
     paid_used = sum(1 for r in res if r["y"] == 1); broke_used = len(res) - paid_used
     cover = (paid_used / paid_all if paid_all else 0, broke_used / broke_all if broke_all else 0)
     lines = [title.strip(), "", f"Rulebook section 9c. Run {datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC{' (forced re-run)' if force else ''}. "
-             f"{len(ev)} events in the database, {len(prices)} of {len(sample)} tickers with prices, {len(res)} events used.", "",
+             f"{len(ev)} events in the database, {len(prices)} of {len(sample)} tickers with prices "
+             f"({', '.join(f'{v} from {k}' for k, v in sorted(source.items()))}), {len(res)} events used.", "",
              f"Coverage: {cover[0]:.0%} of the deals that paid and {cover[1]:.0%} of the deals that broke have prices and pass the entry check "
              f"(the test needs {COVERAGE:.0%} of each, so that missing delisted shares can't tilt it).", ""]
     passed = False
