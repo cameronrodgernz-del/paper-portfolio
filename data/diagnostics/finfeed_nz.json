@@ -53,8 +53,141 @@
    "x-tierlimit-rpm-limit": "10",
    "x-tierlimit-rpm-remaining": "10"
   },
-  "count": 400,
-  "sample": []
+  "count": 100,
+  "first_15": [
+   {
+    "symbol_id": "AU000000ABC7",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "Adelaide Brighton Ordinary Shares",
+    "date": "2026-10-31",
+    "name_ticker": "ABT"
+   },
+   {
+    "symbol_id": "AU000000ABH6",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "J. Boag & Son Ordinary Shares",
+    "date": "2026-10-31",
+    "name_ticker": "BOA"
+   },
+   {
+    "symbol_id": "AU000000AF1501",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "Australian Foundation Investment Ordinary Shares",
+    "date": "2026-10-31",
+    "name_ticker": "AFIZ"
+   },
+   {
+    "symbol_id": "AU000000AF1502",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "Australian Foundation Investment Ordinary Shares",
+    "date": "2026-10-31",
+    "name_ticker": "AFI  X"
+   },
+   {
+    "symbol_id": "AU000000AF1503",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "Australian Foundation Investment Ordinary Shares",
+    "date": "2026-10-31",
+    "name_ticker": "AFI  Z"
+   },
+   {
+    "symbol_id": "AU000000AFI5",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "Australian Foundation Investment Company Limited Ord Shares",
+    "date": "2026-10-31",
+    "name_ticker": "AFI"
+   },
+   {
+    "symbol_id": "AU000000AKL8",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "Australian Kaolin Ordinary",
+    "date": "2026-10-31",
+    "name_ticker": "AKL02"
+   },
+   {
+    "symbol_id": "AU000000AMC4",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "Amcor Limited Ordinary Shares",
+    "date": "2026-10-31",
+    "name_ticker": "AMC"
+   },
+   {
+    "symbol_id": "AU000000AMP6",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "AMP Limited Ordinary Shares",
+    "date": "2026-10-31",
+    "name_ticker": "AMP"
+   },
+   {
+    "symbol_id": "AU000000AMP601",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "AMP Limited Ordinary Shares Delayed Delivery Ex Entitlement",
+    "date": "2026-10-31",
+    "name_ticker": "AMPZ"
+   },
+   {
+    "symbol_id": "AU000000ANN9",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "Ansell Limited Ordinary Shares",
+    "date": "2026-10-31",
+    "name_ticker": "ANN"
+   },
+   {
+    "symbol_id": "AU000000ANS8",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "ANS Limited",
+    "date": "2026-10-31",
+    "name_ticker": "ANS"
+   },
+   {
+    "symbol_id": "AU000000ANZ3",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "ANZ Group Holdings Limited Ordinary Shares",
+    "date": "2026-10-31",
+    "name_ticker": "ANZ"
+   },
+   {
+    "symbol_id": "AU000000AOG1",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "Australian Oil & Gas Corporation Limited",
+    "date": "2026-10-31",
+    "name_ticker": "AOG"
+   },
+   {
+    "symbol_id": "AU000000APN4",
+    "exchange_id": "XNZE",
+    "security_category": "Common Stock",
+    "name": "APN News & Media Limited Ordinary Shares",
+    "date": "2026-10-31",
+    "name_ticker": "APN"
+   }
+  ],
+  "matches": {
+   "AIR": [],
+   "FBU": [],
+   "FNZ": [],
+   "SKC": [],
+   "OCA": [],
+   "KMD": [],
+   "HGH": [],
+   "FPH": [],
+   "SPK": [],
+   "IFT": []
+  }
  },
  "air_daily_october": {
   "status": 200,
