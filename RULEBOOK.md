@@ -14,8 +14,8 @@ This is the working draft. It's tightened during the practice run and locked on 
 | Market core | 40% | 35–45% | VT 20%, VAS 10%, ENZL 10% (to confirm on Sharesies before day one). ENZL, the US-listed iShares MSCI New Zealand fund, replaces FNZ because no free feed carries NZX prices |
 | Deal spreads | 25% | 0–30% | Agreed schemes and takeover offers: NZX, ASX and US |
 | Special situations | 15% | 0–20% | Dated events: holder build-ups, strategic reviews, rejected bids, director buying clusters, index changes, offers priced at a discount |
-| Rules-only | 10% | 5–15% | 10 US shares from the quarterly screen (section 6) |
-| Cash | 10% | 5% floor | On-call cash |
+| Rules-only | 0% (was 10%) | n/a | Dropped on 1 Nov 2026: failed the history test (section 6, reports/rules_only_history.md). Its 10% goes to cash under section 9 |
+| Cash | 20% (was 10%) | 5% floor | On-call cash, including the rules-only sleeve's 10% |
 
 Money an active sleeve can't use well stays in cash. The core and the rules-only sleeve are brought back inside their bands at the first open of each quarter.
 
@@ -44,7 +44,10 @@ Deal and special situation positions are sized at a quarter of the Kelly stake f
 - Deal positions in AUD and USD are hedged back to NZ dollars in the simulation at the forward rate (the interest-rate gap, from published rates), and also reported unhedged.
 - Exit when the deal completes, breaks, or a rival bid makes holding on a new decision. A rival bid is treated as a fresh entry decision.
 
-## 6. Rules-only screen (to be fixed by the history test)
+## 6. Rules-only screen (failed its history test on 1 Nov 2026; kept for the record)
+
+Result: on survivorship-free published data (Kenneth French library, to Sep 2026) a momentum-plus-profitability blend of large US shares beat the market by about 1% a year before costs. Holding it as 10 shares at Sharesies costs about 2.4% to 3.5% a year, so it falls behind the market. Holding it as two factor funds costs about 0.5% a year and stays ahead by 0.3% to 0.6%, but in the hold-out years one year (2020) supplied 75% of the gain, which fails the pass mark. Under section 9 the sleeve is dropped and its weight goes to cash.
+
 - Universe: US shares that Sharesies offers, with a market value above US$2bn and a median daily trading value above US$20m.
 - Score: rank on 12-month price return skipping the last month, and on gross profitability (gross profit over total assets). Average the two ranks.
 - Hold the top 10, equal weight, rebalanced at the first open of each quarter.
@@ -95,4 +98,5 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 | Date | Change | Why |
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
+| 2026-11-01 | Rules-only sleeve dropped; its 10% goes to cash | Failed the history test before the rules were locked: see reports/rules_only_history.md |
 | 2026-10-31 | NZ core moved from FNZ to ENZL; NZ companies with an ASX listing are priced and traded on that line until an NZX feed is in place | EODHD does not carry NZX (its exchange list has no NZ entry), and no free feed found does |
