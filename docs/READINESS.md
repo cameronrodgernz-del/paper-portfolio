@@ -13,7 +13,7 @@ The practice run was brought forward to start on 2 November 2026, at Cam's reque
 | 6 | Deal database and base rates | Done, provisional | 347 rows after one follow-up pass; 81% of 320 resolved deals completed, median 119 days; open items in deals/au_hist/followup/OPEN_ITEMS.md |
 | 7 | Live deal monitor | Done | Runs nightly; the evening desk keeps the terms current |
 | 8 | History test: rules-only | Done: failed | Sleeve dropped, its 10% to cash |
-| 9 | History test: US director and officer buying clusters (9a) | Running | Prices fetched hourly within free limits; result once all 336 are in |
+| 9 | History test: US director and officer buying clusters (9a) | Done: failed | -2.62% a trade against the S&P 500 after costs, 420 events from 2020, t -2.47. Not traded; the special situations weight sits in cash until a type passes |
 | 10 | History test: US cash deal spreads (9b) | To come | Prices fetched hourly from 1 November; US deals are watched but not traded until it passes (rulebook section 5) |
 | 11 | Hedging, passive comparisons, monthly report | Done | Tested on October prices |
 | 12 | Evening desk as a scheduled task | Done | Switched on 1 November: weekdays 9:45pm NZ, first run Monday 2 November (docs/DESK_TASK.md) |

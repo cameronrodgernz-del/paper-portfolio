@@ -325,13 +325,17 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
         if p["sleeve"] == "deal" and (p["market"], p["ticker"]) in grp:
             by_grp[grp[(p["market"], p["ticker"])]] += p["value_nzd"]
     sleeves = {s: rd(latest.get("by_sleeve", {}).get(s, 0.0) / total, 5) for s in ("core", "deal", "special")}
+    from decide import TESTS, test_passed
+    passed = [k for k in TESTS if k != "us_deal" and test_passed(k, ROOT)]
+    special_note = None if passed else "no type has passed a history test, so this sits in cash"
     sleeves["cash"] = rd(latest["cash_nzd_total"] / total, 5)
     review = False
     for r in decisions:
         e = r["payload"].get("event")
         review = True if e == "review_required" else (False if e == "review_done" else review)
     limits = {
-        "sleeves": [{"k": s, "now": sleeves.get(s, 0.0), "target": TARGETS[s], "band": BANDS.get(s), "max": SLEEVE_MAX.get(s)} for s in ("core", "deal", "special", "cash")],
+        "sleeves": [{"k": s, "now": sleeves.get(s, 0.0), "target": TARGETS[s], "band": BANDS.get(s), "max": SLEEVE_MAX.get(s),
+                     "note": special_note if s == "special" else None} for s in ("core", "deal", "special", "cash")],
         "cash_floor": CASH_FLOOR, "dd_halve": DD_HALVE, "dd_exit": DD_EXIT,
         "industry": {"cap": INDUSTRY_CAP, "top": sorted(([k, rd(v / total, 5)] for k, v in by_ind.items()), key=lambda x: -x[1])[:5]},
         "group": {"cap": GROUP_CAP, "top": sorted(([k, rd(v / total, 5)] for k, v in by_grp.items()), key=lambda x: -x[1])[:5]},

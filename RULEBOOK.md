@@ -13,7 +13,7 @@ This is the working draft. It's tightened during the practice run and locked on 
 |---|---|---|---|
 | Market core | 40% | 35–45% | VT 20%, VAS 10%, ENZL 10% (to confirm on Sharesies before day one). ENZL, the US-listed iShares MSCI New Zealand fund, replaces FNZ because no free feed carries NZX prices |
 | Deal spreads | 25% | 0–30% | Agreed schemes and takeover offers: NZX, ASX and US |
-| Special situations | 15% | 0–20% | Dated events: holder build-ups, strategic reviews, rejected bids, director buying clusters, index changes, offers priced at a discount |
+| Special situations | 15% | 0–20% | Dated events: holder build-ups, strategic reviews, rejected bids, director buying clusters, index changes, offers priced at a discount. No type has passed a history test yet (9a failed on 1 Nov 2026), so this weight sits in cash until one does |
 | Rules-only | 0% (was 10%) | n/a | Dropped on 1 Nov 2026: failed the history test (section 6, reports/rules_only_history.md). Its 10% goes to cash under section 9 |
 | Cash | 20% (was 10%) | 5% floor | On-call cash, including the rules-only sleeve's 10% |
 
@@ -147,6 +147,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 | Date | Change | Why |
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
+| 2026-11-01 | Section 9a result: fail. US director and officer buying clusters lost 2.62% a trade against the S&P 500 after costs in 2020 to 2026 (420 events, t of -2.47, 39% beat the index); they are not traded, and with no other type tested the special situations weight sits in cash | Recorded as the registered test found it (reports/special_insider_history.md); nothing in the test was changed after the result |
 | 2026-11-01 | Rules-only sleeve dropped; its 10% goes to cash | Failed the history test before the rules were locked: see reports/rules_only_history.md |
 | 2026-11-01 | Dates brought forward at Cam's request: practice run 2 November to 31 December 2026 (was 7 December to 29 January), counted run 4 January to 2 July 2027 (was 1 February to 30 July), rulebook locked 31 December | The build finished early; most live ASX deals end before December |
 | 2026-11-01 | Section 9c: history test for ASX cash deal spreads registered, with its rules and pass marks, before any data was looked at | The deal sleeve is the core of the strategy and had no history test of its own |
