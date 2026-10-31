@@ -1,0 +1,38 @@
+name: Hub sync
+
+# Sends a fresh snapshot to the Portfolio tab of Cam's Hub whenever the evening desk (or anyone
+# other than the nightly bot) pushes a change the page shows. The nightly job and the history job
+# send their own snapshots, because pushes made by GitHub's own token don't start other workflows.
+on:
+  push:
+    branches: [main]
+    paths:
+      - ledger/**
+      - research/**
+      - reports/**
+      - config/live_deals.csv
+      - config/run.json
+      - config/milestones.csv
+      - docs/READINESS.md
+      - src/hub_export.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write      # the hub accepts a snapshot only with this repository's GitHub identity token
+
+concurrency:
+  group: hub-sync
+  cancel-in-progress: true
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Send the snapshot
+        run: python3 -I src/hub_export.py ${{ github.event_name == 'push' && 'desk' || 'manual' }} --post

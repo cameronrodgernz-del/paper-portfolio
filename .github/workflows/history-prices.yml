@@ -20,6 +20,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write      # for the snapshot sent to Cam's Hub
 
 concurrency:
   group: history-prices
@@ -88,6 +89,11 @@ jobs:
       - name: Deal test (runs once, when its sample is in)
         if: steps.left.outputs.deals_done == 'no' && hashFiles('config/universe_history_deals.csv') != ''
         run: python3 -I src/history/us_deal_test.py .
+      - name: Is there a new test result?
+        id: newresult
+        if: always()
+        run: |
+          if git status --porcelain reports/ | grep -q "lock\|history.md"; then echo "yes=yes" >> "$GITHUB_OUTPUT"; else echo "yes=no" >> "$GITHUB_OUTPUT"; fi
       - name: Save
         run: |
           git config user.name "paper-portfolio-bot"
@@ -97,3 +103,7 @@ jobs:
           git commit -m "History prices $(date -u +%Y-%m-%dT%H:%M)"
           for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
           exit 1
+      - name: Send the snapshot to Cam's Hub (Portfolio tab), when a test result is new
+        if: always() && steps.newresult.outputs.yes == 'yes'
+        continue-on-error: true
+        run: python3 -I src/hub_export.py history --post
