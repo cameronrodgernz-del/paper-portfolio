@@ -22,8 +22,10 @@ import sys
 from datetime import date, datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from clerk import HEDGE_COST, HEDGE_SLEEVES, place_order, plan_for_month, state  # noqa: E402
-from costs import FX_FEE, brokerage  # noqa: E402
+import math  # noqa: E402
+
+from clerk import HEDGE_COST, HEDGE_SLEEVES, HEDGE_TENOR_DAYS, SLEEVES, place_order, plan_for_month, state  # noqa: E402
+from costs import FX_FEE, PlanState, brokerage  # noqa: E402
 from fills import size_cost  # noqa: E402
 from daily import ROOT, cash_rate  # noqa: E402
 from ledger import Ledger  # noqa: E402
@@ -33,7 +35,7 @@ from risk import annualised, check_order, size_position  # noqa: E402
 
 
 def entry_costs(L: Ledger, market: str, sleeve: str, value_nzd: float, nzd_per: float, stats: dict,
-                p_sale_exit: float, today: str) -> dict:
+                p_sale_exit: float, today: str, days_held: int = 91) -> dict:
     """Expected costs of the round trip, as a share of the stake: buy brokerage (after the plan's
     monthly cover), half the spread and the size cost on the way in and on a sale exit, the
     brokerage on a sale exit (consideration is paid free), a currency conversion when the
@@ -43,17 +45,58 @@ def entry_costs(L: Ledger, market: str, sleeve: str, value_nzd: float, nzd_per: 
     local = value_nzd / nzd_per
     plan = plan_for_month(L, today[:7])
     fee_in = brokerage(market, local, value_nzd, plan) / local
-    fee_out = brokerage(market, local, value_nzd, plan) / local       # a sale later, after this month's cover
+    fee_out = brokerage(market, local, value_nzd, PlanState(month="later", used_nzd=1e12)) / local   # a later sale, no cover left
     half_spread = stats["spread"] / 2
     impact = size_cost(local, stats["adv_local"], stats["daily_vol"]) if stats["adv_local"] else 0.02
     ccy = CURRENCY[market]
     fx = 0.0
     if ccy != "NZD" and state(L)["cash"].get(ccy, 0.0) < local:
         fx = FX_FEE
-    hedge = HEDGE_COST if sleeve in HEDGE_SLEEVES and ccy != "NZD" else 0.0
+    # a hedge is dealt again at each three-month roll
+    hedge = HEDGE_COST * max(1, math.ceil(days_held / HEDGE_TENOR_DAYS)) if sleeve in HEDGE_SLEEVES and ccy != "NZD" else 0.0
     total = fee_in + half_spread + impact + fx + hedge + p_sale_exit * (fee_out + half_spread + impact)
     return {"total": round(total, 5), "brokerage_in": round(fee_in, 5), "half_spread": round(half_spread, 5),
             "size_cost": round(impact, 5), "fx": fx, "hedge": hedge, "sale_exit_share": p_sale_exit}
+
+
+def labels(L: Ledger, cfg: dict, key: str) -> dict:
+    """(market, ticker) -> industry or regulator/bidder group, from the decision cards in the ledger,
+    with config/run.json's lists filling any gaps."""
+    field = {"industries": "industry", "groups": "group"}[key]
+    out = {tuple(k.split(":", 1)): v for k, v in (cfg.get(key) or {}).items()}
+    for r in L.records("decisions"):
+        c = r["payload"].get("card") or {}
+        if c.get(field) and c.get("market") and c.get("ticker"):
+            out[(c["market"], c["ticker"])] = c[field]
+    return out
+
+
+def with_open_orders(L: Ledger, val: dict, fx: FX, today: str) -> dict:
+    """The latest valuation as if every waiting buy had filled at its reference close, so the limits
+    count orders already placed (and a sell had freed nothing yet)."""
+    v = {"total_nzd": val["total_nzd"], "cash_nzd_total": val["cash_nzd_total"], "by_sleeve": dict(val["by_sleeve"]),
+         "positions": [dict(x) for x in val["positions"]]}
+    for o in state(L)["open_orders"]:
+        if o["side"] != "buy":
+            continue
+        dec = next((r["payload"] for r in L.records("decisions") if r["payload"].get("order_id") == o["order_id"]), {})
+        nzd = o["remaining"] * dec.get("ref_close", 0.0) * fx.nzd_per(CURRENCY[o["market"]], today)
+        v["positions"].append({"sleeve": o["sleeve"], "market": o["market"], "ticker": o["ticker"], "value_nzd": nzd, "waiting": True})
+        v["by_sleeve"][o["sleeve"]] = v["by_sleeve"].get(o["sleeve"], 0.0) + nzd
+        v["cash_nzd_total"] -= nzd
+    return v
+
+
+def review_pending(L: Ledger) -> bool:
+    """True after a 12% fall from the peak until a review is logged (rulebook section 3)."""
+    flag = False
+    for r in L.records("decisions"):
+        e = r["payload"].get("event")
+        if e == "review_required":
+            flag = True
+        elif e == "review_done":
+            flag = False
+    return flag
 
 
 def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dict, now_utc: datetime,
@@ -61,8 +104,14 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
     vals = L.records("valuations")
     if not vals:
         raise SystemExit("no valuation yet: run the clerk first")
-    val = vals[-1]["payload"]
     m, t, sleeve, side = card["market"], card["ticker"], card["sleeve"], card["side"]
+    if sleeve not in SLEEVES:
+        raise SystemExit(f"unknown sleeve {sleeve!r}: use one of {', '.join(SLEEVES)}")
+    if side not in ("buy", "sell"):
+        raise SystemExit(f"unknown side {side!r}")
+    today_ = now_utc.date().isoformat()
+    val = with_open_orders(L, vals[-1]["payload"], fx, today_)
+    drawdown = vals[-1]["payload"].get("drawdown", 0.0)
     ts = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
     today = now_utc.date().isoformat()
     px = prices.last_close(m, t, today, now_utc)
@@ -73,19 +122,28 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
     out = {"price_seen": px}
     if side == "buy":
         outcomes = [tuple(o) for o in card["outcomes"]]
-        sz = size_position(sleeve, outcomes, px, card.get("break_price"), val["total_nzd"])
+        # deals: the break price is the card's, or failing that its worst outcome
+        brk = card.get("break_price")
+        if sleeve == "deal" and brk is None:
+            brk = min(v for _, v in outcomes)
+        sz = size_position(sleeve, outcomes, px, brk, val["total_nzd"])
         want = sz["value_nzd"] if card.get("value_nzd") is None else min(float(card["value_nzd"]), sz["value_nzd"])
         days = (date.fromisoformat(card["resolve_by"]) - date.fromisoformat(today)).days
         # deals: the first outcome is paid as consideration, the others are exits by sale
         p_sale = 1 - outcomes[0][0] if sleeve == "deal" else 1.0
-        costs = entry_costs(L, m, sleeve, want, nzd_per, st, p_sale, today)
+        costs = entry_costs(L, m, sleeve, want, nzd_per, st, p_sale, today, days)
         net = sz["expected_return"] - costs["total"]
         exp_annual = annualised(net, days)
-        rate, _ = cash_rate(cfg, rates, today[:7])
-        breaches = check_order(val, val.get("drawdown", 0.0), sleeve, m, t, side, want, nzd_per,
+        rate, _ = cash_rate(cfg, rates, today[:7], L)
+        breaches = check_order(val, drawdown, sleeve, m, t, side, want, nzd_per,
                                adv_value_nzd=st.get("median_value_nzd"), industry=card.get("industry"),
-                               industries=cfg.get("industries"), group=card.get("group"), groups=cfg.get("groups"),
-                               expected_annual=exp_annual if sleeve == "deal" else None, cash_rate=rate)
+                               industries=labels(L, cfg, "industries"), group=card.get("group"), groups=labels(L, cfg, "groups"),
+                               expected_annual=exp_annual if sleeve == "deal" else None, cash_rate=rate,
+                               break_loss=(1 - brk / px) if sleeve == "deal" and brk is not None and px > brk else None,
+                               review_pending=review_pending(L))
+        waiting = [o for o in state(L)["open_orders"] if o["side"] == "buy" and (o["sleeve"], o["market"], o["ticker"]) == (sleeve, m, t)]
+        if waiting and not card.get("top_up"):
+            breaches.append(f"a buy of {m}:{t} is already waiting to fill ({waiting[0]['order_id']}); mark the card top_up to add")
         if sleeve == "deal":
             breaches = [b.replace("expected return", "expected return after costs") for b in breaches]
         if want <= 0:
@@ -94,9 +152,10 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
                    expected_annual=round(exp_annual, 4), cash_rate=rate)
     else:
         held = state(L)["positions"].get((sleeve, m, t), 0.0)
-        want = held * px * nzd_per if card.get("value_nzd") is None else float(card["value_nzd"])
+        full = card.get("value_nzd") is None
+        want = held * px * nzd_per if full else float(card["value_nzd"])
         breaches = [] if held > 0 else [f"nothing held in {sleeve} {m}:{t}"]
-        out.update(value_nzd=round(want, 2))
+        out.update(value_nzd=round(want, 2), sell_qty=held if full else None)
     implied = None
     if card.get("complete_price") and card.get("break_price") is not None and card["complete_price"] > card["break_price"]:
         implied = (px - card["break_price"]) / (card["complete_price"] - card["break_price"])
@@ -112,8 +171,12 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
         L.append("decisions", {"vetoed": True, "breaches": breaches, "card": card, **{k: v for k, v in out.items() if k != "breaches"}}, ts=ts)
         out["placed"] = None
         return out
-    o = place_order(L, prices, fx, ts, sleeve, m, t, side, value_nzd=want, limit=card.get("limit"),
-                    decision={"card": card, **{k: v for k, v in out.items() if k != "breaches"}})
+    if side == "sell" and out.get("sell_qty"):     # a full exit sells every share, with no rounding stub
+        o = place_order(L, prices, fx, ts, sleeve, m, t, side, qty=out["sell_qty"], limit=card.get("limit"),
+                        decision={"card": card, **{k: v for k, v in out.items() if k != "breaches"}})
+    else:
+        o = place_order(L, prices, fx, ts, sleeve, m, t, side, value_nzd=want, limit=card.get("limit"),
+                        decision={"card": card, **{k: v for k, v in out.items() if k != "breaches"}})
     out["placed"] = o
     return out
 

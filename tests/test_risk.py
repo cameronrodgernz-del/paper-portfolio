@@ -60,5 +60,20 @@ check("industry cap counts holdings outside the core", r == [], r)
 r = check_order(dict(val, positions=val["positions"] + [{"sleeve": "special", "market": "ASX", "ticker": "M1", "value_nzd": 13000.0}]),
                 0.0, "special", "ASX", "XYZ", "buy", 3000, nzd_per_aud, industry="mining", industries={("ASX", "M1"): "mining"})
 check("a second mining name past 15% is refused", any("15%" in x for x in r), r)
+import random
+rng = random.Random(1)
+vetoed = 0
+for _ in range(2000):
+    tot = rng.uniform(90000, 110000)
+    v = {"total_nzd": tot, "cash_nzd_total": 0.5 * tot, "by_sleeve": {}, "positions": []}
+    stake = size_position("deal", [(0.99, 1.0), (0.01, 0.99)], 0.985, 0.98, tot)["value_nzd"]
+    if any("cap" in x for x in check_order(v, 0.0, "deal", "ASX", "SDF", "buy", stake, nzd_per_aud)):
+        vetoed += 1
+check("a stake sized at the 4% cap is never vetoed by the cap", vetoed == 0, vetoed)
+r = check_order(val, 0.0, "deal", "ASX", "OML", "buy", 300, nzd_per_aud, break_loss=0.32)
+check("the 1% loss-on-break counts the position already held", any("breaks" in x for x in r), r)
+r = check_order(val, 0.0, "deal", "ASX", "SDF", "buy", 3000, nzd_per_aud, review_pending=True)
+check("a pending 12% review blocks new deals", any("review" in x for x in r), r)
+check("an unknown sleeve is refused", check_order(val, 0.0, "Deal", "ASX", "SDF", "buy", 3000, nzd_per_aud) != [])
 print("\nALL PASS" if not fails else f"\n{len(fails)} FAILED: {fails}")
 sys.exit(1 if fails else 0)

@@ -8,7 +8,7 @@ The forward rate follows from the gap between two of them (covered interest pari
 """
 import csv
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 from functools import lru_cache
 
 
@@ -26,9 +26,11 @@ class Rates:
                     v = r.get(name, "")
                     if v and v != ".":
                         k = r["observation_date"]
-                        if ccy == "NZD":   # a monthly average dated the 1st is only known once the month ends
+                        if ccy == "NZD":   # a monthly average dated the 1st is published mid-way through the next month
                             y, m = int(k[:4]), int(k[5:7])
-                            k = f"{y + m // 12}-{m % 12 + 1:02d}-01"
+                            k = f"{y + m // 12}-{m % 12 + 1:02d}-15"
+                        else:              # a T-bill rate for a US date is known the next day in NZ
+                            k = (datetime.strptime(k, "%Y-%m-%d") + timedelta(days=1)).date().isoformat()
                         out.append((k, float(v) / 100))
         elif ccy == "AUD":
             with open(os.path.join(self.dir, "rba_f1_1.csv"), encoding="utf-8-sig", newline="") as f:
@@ -36,8 +38,9 @@ class Rates:
             col = next(i for i, h in enumerate(rows[1]) if h.strip() == "3-month BABs/NCDs")
             for r in rows:
                 if r and "/" in r[0] and len(r) > col and r[col].strip():
-                    # monthly averages are dated at month end; treat them as known from that date
-                    out.append((datetime.strptime(r[0], "%d/%m/%Y").date().isoformat(), float(r[col]) / 100))
+                    # monthly averages are dated at month end and published early the next month
+                    known = datetime.strptime(r[0], "%d/%m/%Y") + timedelta(days=3)
+                    out.append((known.date().isoformat(), float(r[col]) / 100))
         else:
             raise ValueError(ccy)
         return tuple(sorted(out))

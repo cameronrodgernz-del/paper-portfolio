@@ -13,8 +13,9 @@ English, no em-dashes. This is a simulation and not financial advice.
 
 1. Clone or pull the repository. Run every test in tests/. Read config/run.json.
 2. Check tonight's nightly job landed (a "Nightly data" commit dated today, NZ time). If not, wait
-   up to 30 minutes, pulling every 5. If it is still missing, carry on with the last prices and
-   say so in research/desk_log.md.
+   up to 30 minutes, pulling every 5. If it is still missing, place no orders and enter nothing in
+   the ledger tonight (the job writes to it too), do the watching only, and say so in
+   research/desk_log.md.
 3. Watch the live deals in config/live_deals.csv and the US leads in reports/deal_monitor.md:
    - For each ASX deal, read its ASX announcements list for anything new since the last desk
      log entry (terms, timetable, meeting results, court dates, regulator news, rival bids,
@@ -26,9 +27,9 @@ English, no em-dashes. This is a simulation and not financial advice.
 4. Run python3 -I src/deal_monitor.py . and python3 -I src/dashboard_data.py . , then refresh the
    build dashboard (claude.ai/artifact/1BxrCHRc4NQFynLysHdFvz): upload the five files in
    reports/dashboard/ and point each dataset at its new file, with updated set to now.
-5. If config/run.json names an active ledger (from 7 December), do steps 2 to 6 of "The evening
-   desk" in docs/DAILY_RUN.md: scan, analyse, red team (a separate agent), risk check with
-   src/decide.py --dry-run, then place.
+5. If config/run.json names an active ledger (from 7 December), do steps 2 to 7 of "The evening
+   desk" in docs/DAILY_RUN.md: corporate actions, scan, analyse, red team (a separate agent),
+   risk check with src/decide.py --dry-run, then place.
 6. Commit and push everything with a message saying what changed.
 7. Message Cam only if a trade was placed, a holding or live deal had material news, or a limit
    tripped. Otherwise say nothing.

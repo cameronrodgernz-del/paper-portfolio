@@ -8,7 +8,8 @@ from datetime import date
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 sys.path.insert(0, os.path.join(ROOT, "src"))
 from clerk import business_days, place_order, run, state  # noqa: E402
-from daily import weekdays  # noqa: E402
+from daily import drawdown_rules, weekdays  # noqa: E402
+from decide import review_pending  # noqa: E402
 from ledger import Ledger  # noqa: E402
 from market_data import FX, Prices  # noqa: E402
 
@@ -107,7 +108,26 @@ with tempfile.TemporaryDirectory() as d:
     rep = run(L, prices, fx, "2026-10-06", CFG)
     check("an action missing its dates is flagged, not a crash", any(str(bad["seq"]) in f for f in rep["flags"]), rep["flags"])
 
-# 5. Order lapse counts business days for a share that stops trading
+# 5. Fall from peak: half the active sleeves at 8%, the rest and a review at 12%, once per peak
+with tempfile.TemporaryDirectory() as d:
+    L = Ledger(d)
+    L.append("cash", {"kind": "deposit", "ccy": "NZD", "amount": 100000.0}, ts="2026-10-01T00:00:00Z")
+    place_order(L, prices, fx, "2026-10-01T08:30:00Z", "deal", "ASX", "SDF", "buy", value_nzd=4000)
+    place_order(L, prices, fx, "2026-10-01T08:31:00Z", "core", "ASX", "VAS", "buy", value_nzd=10000)
+    days(L, "2026-10-01", "2026-10-05")
+    held = state(L)["positions"][("deal", "ASX", "SDF")]
+    a = drawdown_rules(L, prices, fx, "2026-10-05", {"peak_nzd": 100000.0, "drawdown": -0.085})
+    sells = [r["payload"] for r in L.records("orders") if r["payload"].get("side") == "sell"]
+    check("at 8% below the peak, half of each deal holding is sold, and the core is not touched",
+          len(sells) == 1 and sells[0]["ticker"] == "SDF" and sells[0]["qty"] == held // 2, (a, sells))
+    b = drawdown_rules(L, prices, fx, "2026-10-05", {"peak_nzd": 100000.0, "drawdown": -0.09})
+    check("the 8% step happens once per peak", b == [], b)
+    c = drawdown_rules(L, prices, fx, "2026-10-06", {"peak_nzd": 100000.0, "drawdown": -0.125})
+    check("at 12% below the peak, the rest is sold and a review is required", review_pending(L) and any("review" in x for x in c), c)
+    L.append("decisions", {"event": "review_done", "note": "test"}, ts="2026-10-07T09:00:00Z")
+    check("a logged review lifts the block", not review_pending(L))
+
+# 6. Order lapse counts business days for a share that stops trading
 check("business days skip weekends", business_days("2026-10-02", "2026-10-09") == 5, business_days("2026-10-02", "2026-10-09"))
 try:
     place_order(Ledger(tempfile.mkdtemp()), prices, fx, "2026-10-01T08:30:00Z", "Deal", "ASX", "VAS", "buy", value_nzd=1000)

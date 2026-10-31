@@ -12,6 +12,7 @@ by the evening analyst session, after this run.
 Usage: python3 -I src/daily.py [ledger_name] [up_to_date]   (defaults: config active ledger, today NZ)
 """
 import json
+import math
 import os
 import sys
 from datetime import date, datetime, timedelta, timezone
@@ -27,11 +28,51 @@ from risk import MIN_ORDER  # noqa: E402
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-def cash_rate(cfg: dict, rates: Rates, month: str) -> tuple[float, str]:
+def cash_rate(cfg: dict, rates: Rates, month: str, L: Ledger | None = None) -> tuple[float, str]:
+    """The month's cash rate: as set in config/run.json, else the rate the first run of the month
+    used (so it stays fixed for the month), else the NZ 3-month bank rate less one point."""
     if month in cfg.get("cash_rate_by_month", {}):
         return float(cfg["cash_rate_by_month"][month]), "set for the month"
+    if L is not None:
+        used = [r["payload"]["rate"] for r in L.records("cash")
+                if r["payload"]["kind"] == "interest" and (r["payload"].get("for_date") or "")[:7] == month]
+        if used:
+            return used[0], "fixed at the month's first run"
     r = max(rates.three_month("NZD", f"{month}-01") - 0.01, 0.0)
     return round(r, 4), "NZ 3-month bank rate less 1 point"
+
+
+def drawdown_rules(L: Ledger, prices: Prices, fx: FX, run_date: str, val: dict) -> list[str]:
+    """Rulebook section 3, by rule: at 8% below the peak, sell half of each deal and special
+    situation holding; at 12%, sell the rest and require a review before any new active position.
+    Each step happens once per peak; a new peak starts again."""
+    out = []
+    peak, dd = val["peak_nzd"], val["drawdown"]
+    done = {(r["payload"].get("level"), r["payload"].get("peak")) for r in L.records("decisions")
+            if r["payload"].get("event") == "drawdown_rule"}
+    decided = (nz_evening_utc(run_date) + timedelta(minutes=2)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for level, share in ((0.12, 1.0), (0.08, 0.5)):
+        if dd > -level or (level, peak) in done:
+            continue
+        if level == 0.08 and (0.12, peak) in done:
+            continue
+        L.append("decisions", {"event": "drawdown_rule", "level": level, "peak": peak, "drawdown": dd, "date": run_date}, ts=decided)
+        held = {k: q for k, q in state(L)["positions"].items() if k[0] in ("deal", "special") and q > 0}
+        for (sleeve, m, t), q in sorted(held.items()):
+            qty = q if share == 1.0 else math.floor(q * share)
+            if qty <= 0:
+                continue
+            try:
+                o = place_order(L, prices, fx, decided, sleeve, m, t, "sell", qty=qty,
+                                decision={"rule": f"fall of {dd:.1%} from the peak: sell {'all' if share == 1.0 else 'half'}"})
+                out.append(f"sell {qty:g} {m}:{t} ({'all' if share == 1.0 else 'half'}, fall {dd:.1%})")
+            except ValueError as e:
+                out.append(f"could not place the sale of {m}:{t}: {e}")
+        if level == 0.12:
+            L.append("decisions", {"event": "review_required", "date": run_date, "drawdown": dd}, ts=decided)
+            out.append("review required before any new deal or special situation")
+        break
+    return out
 
 
 def weekdays(a: date, b: date):
@@ -112,7 +153,10 @@ def main(name: str | None = None, upto: str | None = None) -> int:
         print("no active ledger; nothing to run")
         return 0
     led = cfg["ledgers"][name]
-    upto = upto or datetime.now(ZoneInfo("Pacific/Auckland")).date().isoformat()
+    now_nz = datetime.now(ZoneInfo("Pacific/Auckland"))
+    if upto is None:
+        # tonight's run only once tonight's prices are in (from 8pm NZ); a daytime run stops at yesterday
+        upto = now_nz.date().isoformat() if now_nz.hour >= 20 else (now_nz.date() - timedelta(days=1)).isoformat()
     upto = min(upto, led["end"])
     if upto < led["start"]:
         print(f"{name} starts {led['start']}; nothing to run")
@@ -134,10 +178,25 @@ def main(name: str | None = None, upto: str | None = None) -> int:
         ds = d.isoformat()
         if ds in done:
             continue
-        rate, note = cash_rate(cfg, rates, ds[:7])
+        rate, note = cash_rate(cfg, rates, ds[:7], L)
         reports.append(run(L, prices, fx, ds, {"cash_rate": rate}, rates))
         val = L.records("valuations")[-1]["payload"]
+        placed += drawdown_rules(L, prices, fx, ds, val)
         placed += core_orders(L, prices, fx, cfg, ds, first and len(reports) == 1, val)
+    try:
+        import actions
+        for line in actions.missing(L, prices, upto):
+            if reports:
+                reports[-1]["flags"].append(line)
+    except Exception as e:
+        print("actions check failed:", type(e).__name__, e)
+    # an analyst's decision must be written when it is timed: flag any written more than 10 minutes later
+    for r in L.records("decisions"):
+        if r["payload"].get("card") and r.get("written_utc"):
+            lag = (datetime.fromisoformat(r["written_utc"].replace("Z", "+00:00")) -
+                   datetime.fromisoformat(r["ts_utc"].replace("Z", "+00:00"))).total_seconds()
+            if lag > 600 and reports:
+                reports[-1]["flags"].append(f"decision {r['seq']} was written {lag / 60:.0f} minutes after its time")
     write_reports(name, L, reports, placed, note)
     if reports:
         try:

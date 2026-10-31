@@ -28,7 +28,8 @@ Money an active sleeve can't use well stays in cash. The core and the rules-only
 - One industry outside the core: 15%.
 - Smallest order: NZ$2,500 on NZX, A$1,500 on ASX, US$500 in the US.
 - Liquidity: no position larger than two sessions' trading at 10% of daily volume, measured on the 20-session median.
-- Fall from peak: at 8% below the portfolio's peak, halve the deal, special situation and rules-only sleeves. At 12%, move them to cash until a review. The core is never timed.
+- Fall from peak: at 8% below the portfolio's peak, half of each deal and special situation holding is sold, by rule, the same evening. At 12%, the rest is sold and no new deal or special situation is entered until a review is logged. Each step happens once for each peak. The core is never timed.
+- Every limit counts orders already placed and waiting to fill, as if they had filled. A second buy of the same share while one waits needs a card marked as a top-up. The 1% loss-on-break counts the whole position after the order; a deal card without a break price uses its worst outcome.
 - No borrowing, shorting or options.
 - Only shares Sharesies offers.
 
@@ -60,6 +61,8 @@ Result: on survivorship-free published data (Kenneth French library, to Sep 2026
 - Market orders fill at the official open, plus half the estimated spread (minus on sells), plus a size cost: one times daily volatility times the square root of order value over the 20-session average daily value, capped at 2%.
 - Limit orders fill only when the session opens better than the limit, or trades through it by at least 0.1%.
 - No fill above 10% of a session's volume; the rest rolls to the next session. A session with no volume gives no fill.
+- An order that hasn't filled lapses after five sessions in which the share traded, or ten business days (a halted share), whichever comes first. The analyst can place it again as a fresh decision.
+- A buy is cut to the cash there is. Foreign currency is converted from NZ$ only up to the NZ$ held, so nothing is ever borrowed.
 - Costs are Sharesies NZ's, as at 31 October 2026:
   - the $15 plan, covering fees on the first NZ$5,000 of orders each month;
   - then 1.9% per order, capped at NZ$25 (NZX), A$15 (ASX) or US$5 (US);
@@ -67,7 +70,7 @@ Result: on survivorship-free published data (Kenneth French library, to Sep 2026
 - AUD and USD are bought in blocks and held as foreign cash.
 - Spreads are estimated each month from daily highs and lows (Corwin and Schultz), with floors by liquidity.
 - Dividends are credited on the payment date to holders on the ex-date. Scheme and offer consideration is paid on the real payment date. Halts, splits, consolidations and delistings are applied as they happened.
-- Cash earns an on-call rate set at the start of each month from a major NZ bank's published rate, entered in config/run.json. If none is entered for a month, the NZ three-month bank rate less one point is used.
+- NZ$ cash earns an on-call rate set at the start of each month from a major NZ bank's published rate, entered in config/run.json. If none is entered for a month, the NZ three-month bank rate less one point is used, fixed at the month's first run. Australian and US dollar cash earns nothing, as in a Sharesies wallet.
 
 ## 8. The daily cycle (each weekday, 9pm NZ time, after the nightly prices land at about 8:30pm)
 1. Clerk: load the new prices, fill the orders waiting from the last decision, apply corporate actions, value the portfolio, check the limits.
@@ -124,6 +127,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
 | 2026-11-01 | Rules-only sleeve dropped; its 10% goes to cash | Failed the history test before the rules were locked: see reports/rules_only_history.md |
+| 2026-11-01 | After an independent review of the engine: order lapse, no borrowing, fall-from-peak sales by rule with a review lock, limits counting waiting orders, the break-loss test on the whole position, foreign cash earning nothing | Fixes for findings 3, 4, 8, 9 and 14 of the review |
 | 2026-11-01 | Hedging, cash rate and deal-entry costs written out as the engine applies them; special situation types limited to those with a passed test | So the rulebook and the code say the same thing |
 | 2026-11-01 | Section 9b: deal spreads history test for US cash deals registered, with its rules and pass marks, before any data was looked at | As for 9a |
 | 2026-11-01 | Section 9a: special situations test for US director and officer buying clusters registered, with its settings and pass marks, before any data was looked at | So the test can't be fitted to the hold-out years |

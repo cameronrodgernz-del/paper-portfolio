@@ -44,6 +44,9 @@ def main(name: str, month: str) -> int:
     for f in fills:
         fees["brokerage_nzd"] += f["fee_local"] * f["nzd_per_local"]
         fees["spread_nzd"] += f["gross_nzd"] * f.get("spread_used", 0) / 2
+    for h in (r["payload"] for r in L.records("hedges")):
+        if h.get("event") == "open" and h["trade_date"][:7] == month:
+            fees["hedge_nzd"] += h["notional_foreign"] / h["forward_mid"] * (h["forward_rate"] / h["forward_mid"] - 1)
     for c in cash:
         if c["kind"] == "fx_in" and (c.get("date") or "")[:7] == month:
             fees["fx_nzd"] += c.get("fee_nzd", 0)
@@ -72,7 +75,8 @@ def main(name: str, month: str) -> int:
                   f"| Matched index-and-cash mix since the start (test 2) | {bench['matched_mix']:+.2%} |"]
     lines += [f"| Trades filled | {len(fills)} ({', '.join(f'{k} {v}' for k, v in Counter(f['sleeve'] for f in fills).items()) or 'none'}) |",
               f"| Brokerage paid | NZ${fees['brokerage_nzd']:,.2f} |", f"| Currency conversion fees | NZ${fees['fx_nzd']:,.2f} |",
-              f"| Plan fee | NZ${fees['plan_nzd']:,.2f} |", f"| Estimated spread paid | NZ${fees['spread_nzd']:,.2f} |",
+              f"| Plan fee | NZ${fees['plan_nzd']:,.2f} |", f"| Hedge dealing costs | NZ${fees['hedge_nzd']:,.2f} |",
+              f"| Estimated spread paid (the size cost is also inside fill prices) | NZ${fees['spread_nzd']:,.2f} |",
               f"| Dated calls made this month | {len(month_calls)} |",
               f"| Calls scored so far | {n_scored}" + (f" (our Brier {b_ours:.3f} against the market's {b_mkt:.3f}; lower is better)" if n_scored else "") + " |",
               "", "## By sleeve at month end", "", "| Sleeve | NZ$ |", "| --- | --- |",

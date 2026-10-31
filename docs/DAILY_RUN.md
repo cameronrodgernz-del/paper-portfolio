@@ -10,7 +10,7 @@ Runs without anyone. Defined in `.github/workflows/nightly-data.yml`.
 3. End-of-day prices: Tiingo (US) and EODHD (ASX), stalest first within the free limits. A session is stored only once its prices are final.
 4. Every test in `tests/`. A failure stops the job before anything is saved.
 5. Deal monitor: `reports/deal_monitor.md`.
-6. Clerk, for the ledger named active in `config/run.json`: fills, fees, interest, corporate actions, hedges, valuation, limit flags, core by rule. Writes `reports/<ledger>/daily/<date>.md` and `latest.json`.
+6. Clerk, for the ledger named active in `config/run.json`: splits, fills, fees, interest, dividends and consideration, hedges, valuation, limit flags; then the rules that need no judgement (the fall-from-peak sales and the core). Flags any corporate action the price feed shows that has not been entered, and any analyst decision written more than 10 minutes after its time. Writes `reports/<ledger>/daily/<date>.md`, `latest.json`, the passive comparisons and, when a month ends, the monthly report.
 7. Commit and push.
 
 Two schedules (07:30 and 08:30 UTC) with a gate keep the job at 8:30pm NZ in both daylight-saving seasons. A push that changes `config/run_now.txt` starts an extra run.
@@ -18,22 +18,23 @@ Two schedules (07:30 and 08:30 UTC) with a gate keep the job at 8:30pm NZ in bot
 ## 2. The evening desk (a scheduled Claude task, 9:30pm NZ, from 7 December)
 Follows rulebook section 8. Each step leaves a file, so a missed or partial night is visible.
 
-1. **Check.** Pull the repository. Verify the ledger chain. Confirm tonight's valuation exists; if the nightly job is late, wait up to 30 minutes, then carry on with yesterday's prices and say so in the desk log.
-2. **Scan.**
+1. **Check.** Pull the repository. Verify the ledger chain. Confirm tonight's valuation exists. If the nightly job is late, wait up to 30 minutes. If it is still missing, place no orders tonight (the job and the desk both write to the ledger, so they must not overlap), do the scan and write-ups only, and say so in the desk log.
+2. **Corporate actions.** Run `python3 -I src/actions.py <ledger> check`. Enter each dividend, scheme or offer payment and split it lists (and any announced for a holding) with `src/actions.py`, from the company's announcement, with its source.
+3. **Scan.**
    - ASX: announcement lists for each holding, each live deal and the watchlist (dated titles, then the documents that matter).
    - NZX: the same for NZX names.
    - SEC: `data/sec/deal_filings.csv` for new merger proxies, tender offers and responses.
    - Flag: new deals, changed terms, meeting results, court dates, regulator news, rival bids, holder build-ups, strategic reviews.
-3. **Analyse.** For each flagged event, a note in `research/events/<date>-<ticker>.md`. For each candidate entry or exit, a decision card (`research/cards/<date>-<ticker>.json`, format in `src/decide.py`):
+4. **Analyse.** For each flagged event, a note in `research/events/<date>-<ticker>.md`. For each candidate entry or exit, a decision card (`research/cards/<date>-<ticker>.json`, format in `src/decide.py`):
    - the outcomes, their chances and prices;
    - the base rate it starts from and each adjustment, written down;
    - the resolve-by date and the exit rule;
    - why the market's spread is wrong.
-4. **Red team.** A separate agent that has not seen the analyst's reasoning argues against each card. Its points go in the card's file. The analyst may revise the card once.
-5. **Risk manager.** `python3 -I src/decide.py <ledger> <card> --dry-run` gives the stake, the costs and every limit breach. A card with a breach is not placed. A veto by judgement is logged with its reason.
-6. **Place.** `python3 -I src/decide.py <ledger> <card>` logs the decision, the dated call and the order, timed when it runs. Commit and push.
-7. **Refresh the build dashboard** (claude.ai/artifact/1BxrCHRc4NQFynLysHdFvz): `python3 -I src/dashboard_data.py .`, upload the five files in `reports/dashboard/`, and point each dataset at its new file.
-8. **Tell Cam** only when a trade is placed, a holding has material news, or a limit trips.
+5. **Red team.** A separate agent that has not seen the analyst's reasoning argues against each card. Its points go in the card's file. The analyst may revise the card once.
+6. **Risk manager.** `python3 -I src/decide.py <ledger> <card> --dry-run` gives the stake, the costs and every limit breach. A card with a breach is not placed. A veto by judgement is logged with its reason.
+7. **Place.** `python3 -I src/decide.py <ledger> <card>` logs the decision, the dated call and the order, timed when it runs. Commit and push.
+8. **Refresh the build dashboard** (claude.ai/artifact/1BxrCHRc4NQFynLysHdFvz): `python3 -I src/dashboard_data.py .`, upload the five files in `reports/dashboard/`, and point each dataset at its new file.
+9. **Tell Cam** only when a trade is placed, a holding has material news, or a limit trips.
 
 Nothing is backdated: a decision is timed when `decide.py` runs, and the clerk fills it only in a session that opens afterwards. A missed desk means no decisions that night.
 

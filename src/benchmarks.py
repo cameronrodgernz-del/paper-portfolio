@@ -1,8 +1,11 @@
 """Success tests 2 and 3 (rulebook section 10): the passive comparisons.
 
 Test 3, the core's index mix held at 100%: the core's lines at their weights scaled to 100%
-(VT 50%, VAS 25%, ENZL 25%), bought at the closes of the start date and held, valued in NZ$ with
-adjusted closes (so dividends count), no trading costs.
+(VT 50%, VAS 25%, ENZL 25%), bought at the start and held, valued in NZ$ with dividends
+reinvested, no trading costs. Each date uses the closes the portfolio could see at its 9pm NZ
+valuation (so a US session is counted the night after it closes, as in the portfolio). Dividends
+come from the price file where the feed carries them (Tiingo), else from the dividends booked in
+the ledger (as for VAS, whose feed has none), so both sides count the same payments.
 
 Test 2, an index-and-cash mix with the same ups and downs: a share b of that index mix and 1 - b
 in cash at the run's cash rate, with b set so the mix's daily swings (standard deviation of daily
@@ -20,38 +23,60 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from ledger import Ledger  # noqa: E402
-from market_data import CURRENCY, FX  # noqa: E402
+from market_data import CURRENCY, FX, closed_by, nz_evening_utc  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-def adj_closes(data_dir: str, market: str, ticker: str) -> dict:
-    out = {}
+def total_return(data_dir: str, market: str, ticker: str, ledger_divs: dict) -> list[tuple[str, float]]:
+    """(session date, total-return index) from unadjusted closes plus dividends on their ex-dates."""
+    rows = []
     with open(os.path.join(data_dir, "prices", market, f"{ticker}.csv"), newline="") as f:
         for r in csv.DictReader(f):
             try:
-                out[r["date"]] = float(r["adj_close"] or r["close"])
+                c = float(r["close"])
             except (TypeError, ValueError):
-                pass
+                continue
+            try:
+                div = float(r.get("dividend") or 0)
+            except ValueError:
+                div = 0.0
+            rows.append((r["date"], c, div + ledger_divs.get(r["date"], 0.0)))
+    out, idx, prev = [], 1.0, None
+    for d, c, div in sorted(rows):
+        if prev:
+            idx *= (c + div) / prev
+        out.append((d, idx))
+        prev = c
     return out
 
 
-def last_on_or_before(series: dict, d: str) -> float | None:
-    keys = [k for k in series if k <= d]
-    return series[max(keys)] if keys else None
+def seen_at(series: list, market: str, d: str) -> float | None:
+    """The index at the last session final by the 9pm NZ valuation on date d."""
+    as_of = nz_evening_utc(d)
+    vals = [v for k, v in series if closed_by(market, k, as_of)]
+    return vals[-1] if vals else None
 
 
-def index_mix(cfg: dict, data_dir: str, fx: FX, dates: list[str]) -> list[float]:
+def index_mix(cfg: dict, data_dir: str, fx: FX, dates: list[str], L: Ledger | None = None) -> list[float]:
     """Value of NZ$1 put into the core's index mix on dates[0]."""
     lines = cfg["core"]["lines"]
     total_w = sum(x["weight"] for x in lines)
-    series = {(x["market"], x["ticker"]): adj_closes(data_dir, x["market"], x["ticker"]) for x in lines}
+    divs = {}
+    for r in (L.records("corporate_actions") if L is not None else []):
+        p = r["payload"]
+        if p.get("type") == "dividend" and p.get("ex_date"):
+            divs.setdefault((p["market"], p["ticker"]), {})[p["ex_date"]] = float(p["per_share"])
+    series = {}
+    for x in lines:
+        key = (x["market"], x["ticker"])
+        series[key] = total_return(data_dir, x["market"], x["ticker"], divs.get(key, {}))
     out = []
     for d in dates:
         v = 0.0
         for x in lines:
             s = series[(x["market"], x["ticker"])]
-            p0, p = last_on_or_before(s, dates[0]), last_on_or_before(s, d)
+            p0, p = seen_at(s, x["market"], dates[0]), seen_at(s, x["market"], d)
             if p0 is None or p is None:
                 return []
             ccy = CURRENCY[x["market"]]
@@ -85,7 +110,7 @@ def main(name: str) -> int:
     dates = [v["date"] for v in vals]
     port = [v["total_nzd"] / vals[0]["total_nzd"] for v in vals]
     fx = FX(data_dir)
-    idx = index_mix(cfg, data_dir, fx, dates)
+    idx = index_mix(cfg, data_dir, fx, dates, L)
     if not idx:
         print("index prices missing")
         return 0

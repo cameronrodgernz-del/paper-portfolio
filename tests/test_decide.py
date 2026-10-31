@@ -54,13 +54,29 @@ with tempfile.TemporaryDirectory() as d:
     check("a card whose odds do not beat the price is vetoed", out2["placed"] is None and out2["breaches"], out2["breaches"])
     vetoes = [r["payload"] for r in L.records("decisions") if r["payload"].get("vetoed")]
     check("the veto is logged with its reasons", len(vetoes) == 1 and vetoes[0]["breaches"], vetoes)
+    again = decide(L, prices, fx, rates, cfg, card, now.replace(minute=50), dry_run=True)
+    check("the same card twice is refused while the first order waits", any("already waiting" in b for b in again["breaches"]), again["breaches"])
+    topup = decide(L, prices, fx, rates, cfg, dict(card, top_up=True), now.replace(minute=51), dry_run=True)
+    check("a top-up counts the waiting order against the 4% cap and the 1% break loss",
+          any("cap" in b or "breaks" in b for b in topup["breaches"]), topup["breaches"])
+    nobrk = {k: v for k, v in card.items() if k not in ("break_price", "complete_price")}
+    nb = decide(L, prices, fx, rates, cfg, dict(nobrk, ticker="CWY", outcomes=[[0.98, 3.095], [0.02, 2.0]], resolve_by="2027-03-31"),
+                now.replace(minute=52), dry_run=True)
+    check("a deal card without a break price is held to 1% using its worst outcome",
+          "loss-on-break" in nb["sizing"]["limited_by"], nb["sizing"])
+    try:
+        decide(L, prices, fx, rates, cfg, dict(card, sleeve="Deal"), now.replace(minute=53), dry_run=True)
+        check("a card with an unknown sleeve is refused", False)
+    except SystemExit:
+        check("a card with an unknown sleeve is refused", True)
     run(L, prices, fx, "2026-10-30", {"cash_rate": 0.025}, rates)
     st = state(L)
     check("the order fills at the next ASX open (30 Oct)", ("deal", "ASX", "SDF") in st["positions"], st["positions"])
     check("the new deal position is hedged", any(h["ticker"] == "SDF" for h in st["hedges"].values()), list(st["hedges"]))
     sell = {"sleeve": "deal", "market": "ASX", "ticker": "SDF", "side": "sell", "thesis": "test exit"}
     out3 = decide(L, prices, fx, rates, cfg, sell, datetime(2026, 10, 30, 8, 30, tzinfo=timezone.utc))
-    check("an exit for the whole holding is placed", out3["placed"] is not None and out3["placed"]["qty"] > 0, out3)
+    check("an exit for the whole holding sells every share", out3["placed"] is not None
+          and out3["placed"]["qty"] == st["positions"][("deal", "ASX", "SDF")], (out3.get("placed"), st["positions"]))
     c = [r["payload"] for r in L.records("calls") if r["payload"].get("event") != "outcome"][0]
     resolve_call(L, "ASX", "SDF", c["made_utc"], True, "test: scheme implemented", datetime(2026, 10, 30, 9, 0, tzinfo=timezone.utc))
     recs = [r["payload"] for r in L.records("calls")]

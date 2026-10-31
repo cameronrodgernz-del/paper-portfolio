@@ -6,6 +6,7 @@ check_order(): every limit an order would breach, given the portfolio as it stan
 any breach is not placed; the breach list is logged with the decision.
 """
 import math
+from collections import defaultdict
 
 KELLY_FRACTION = 0.25
 CAPS = {"deal": 0.04, "special": 0.03}
@@ -52,7 +53,8 @@ def size_position(sleeve: str, outcomes: list[tuple[float, float]], price: float
         if share * loss > BREAK_LOSS_CAP:
             share, why = BREAK_LOSS_CAP / loss, f"1% loss-on-break cap (break loss {loss:.1%})"
     ev = sum(p * v for p, v in outcomes) / price - 1
-    return {"kelly_full": round(full, 4), "share": round(share, 4), "value_nzd": round(share * portfolio_nzd, 2),
+    stake = math.floor(share * portfolio_nzd * 100) / 100          # down to the cent, so a cap-sized stake passes the cap
+    return {"kelly_full": round(full, 4), "share": round(share, 4), "value_nzd": stake,
             "limited_by": why, "expected_return": round(ev, 4)}
 
 
@@ -63,12 +65,19 @@ def annualised(expected_return: float, days: int) -> float:
 def check_order(val: dict, drawdown: float, sleeve: str, market: str, ticker: str, side: str, value_nzd: float,
                 nzd_per_local: float, adv_value_nzd: float | None = None, industry: str | None = None,
                 industries: dict | None = None, group: str | None = None, groups: dict | None = None,
-                expected_annual: float | None = None, cash_rate: float | None = None) -> list[str]:
-    """All the limits this order would breach. `val` is the clerk's latest valuation; `industries`
-    and `groups` map (market, ticker) of current holdings to their industry and regulator/bidder group."""
+                expected_annual: float | None = None, cash_rate: float | None = None,
+                break_loss: float | None = None, review_pending: bool = False) -> list[str]:
+    """All the limits this order would breach. `val` is the clerk's latest valuation (with any waiting
+    orders added); `industries` and `groups` map (market, ticker) of holdings to their industry and
+    regulator/bidder group; `break_loss` is the share of a deal's value lost if it breaks."""
     out = []
+    if sleeve not in ("core", "deal", "special"):
+        return [f"unknown sleeve {sleeve!r}"]
     total = val["total_nzd"]
-    held = {(p["market"], p["ticker"]): p["value_nzd"] for p in val["positions"] if p["sleeve"] == sleeve}
+    held = defaultdict(float)
+    for p in val["positions"]:
+        if p["sleeve"] == sleeve:
+            held[(p["market"], p["ticker"])] += p["value_nzd"]
     after_pos = held.get((market, ticker), 0.0) + (value_nzd if side == "buy" else -value_nzd)
     ccy, smallest = MIN_ORDER[market]
     if value_nzd / nzd_per_local < smallest - 1e-6:
@@ -76,7 +85,7 @@ def check_order(val: dict, drawdown: float, sleeve: str, market: str, ticker: st
     if side == "sell":
         return out
     cap = CAPS.get(sleeve)
-    if cap is not None and after_pos > cap * total + 1e-6:
+    if cap is not None and after_pos > cap * total + 0.01:
         out.append(f"position would be {after_pos / total:.1%}, over the {cap:.0%} cap")
     sleeve_now = val["by_sleeve"].get(sleeve, 0.0)
     if sleeve in SLEEVE_MAX and sleeve_now + value_nzd > SLEEVE_MAX[sleeve] * total + 1e-6:
@@ -98,6 +107,10 @@ def check_order(val: dict, drawdown: float, sleeve: str, market: str, ticker: st
     elif adv_value_nzd is not None and after_pos > LIQ_SESSIONS * LIQ_SHARE * adv_value_nzd + 1e-6:
         out.append(f"position would be {after_pos / adv_value_nzd:.0%} of a day's median trading value; "
                    f"the limit is {LIQ_SESSIONS * LIQ_SHARE:.0%} (two sessions at 10%)")
+    if sleeve == "deal" and break_loss is not None and after_pos * break_loss > BREAK_LOSS_CAP * total + 0.01:
+        out.append(f"if the deal breaks the position would lose {after_pos * break_loss / total:.2%} of the portfolio, over 1%")
+    if sleeve in ("deal", "special") and review_pending:
+        out.append("a 12% fall from the peak is awaiting its review: no new active positions until it is logged")
     if sleeve in ("deal", "special"):
         if drawdown <= -DD_EXIT:
             out.append(f"portfolio is {drawdown:.1%} from its peak: no new active positions until the review")

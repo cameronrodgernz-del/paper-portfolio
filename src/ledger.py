@@ -1,6 +1,9 @@
 """Append-only ledger. Each table is a JSON-lines file; every record carries the hash of
 the record before it, so any edit to the past breaks the chain and shows up in verify().
-Mistakes are fixed by a new 'reversal' record, never by editing.
+Mistakes are fixed by a new record (a 'void' for a corporate action, a cancel for an order),
+never by editing. Each record holds two times: ts_utc, the time the event counts from (a
+decision's time, or the 9pm NZ run it belongs to), and written_utc, the clock time it was
+actually written, so anyone can check that nothing was backdated.
 
 Tables: decisions, orders, fills, cash, corporate_actions, valuations, calls, hedges.
 """
@@ -14,6 +17,11 @@ TABLES = ("decisions", "orders", "fills", "cash", "corporate_actions", "valuatio
 
 def _canon(obj) -> str:
     return json.dumps(obj, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
+
+
+def _body(rec: dict) -> dict:
+    """The hashed part of a record (written_utc is hashed when present, so it can't be altered either)."""
+    return {k: rec[k] for k in ("seq", "ts_utc", "written_utc", "table", "payload") if k in rec}
 
 
 class Ledger:
@@ -39,9 +47,9 @@ class Ledger:
 
     def append(self, table: str, payload: dict, ts: str | None = None) -> dict:
         seq, prev = self._last(table)
-        rec = {"seq": seq + 1, "ts_utc": ts or datetime.now(timezone.utc).isoformat(timespec="seconds"),
-               "table": table, "payload": payload, "prev_hash": prev}
-        rec["hash"] = hashlib.sha256((prev + _canon({k: rec[k] for k in ("seq", "ts_utc", "table", "payload")})).encode()).hexdigest()
+        now = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        rec = {"seq": seq + 1, "ts_utc": ts or now, "written_utc": now, "table": table, "payload": payload, "prev_hash": prev}
+        rec["hash"] = hashlib.sha256((prev + _canon(_body(rec))).encode()).hexdigest()
         with open(self._path(table), "a", encoding="utf-8") as f:
             f.write(_canon(rec) + "\n")
         return rec
@@ -59,8 +67,7 @@ class Ledger:
         for t in TABLES:
             prev, status = "genesis", "ok"
             for r in self.records(t):
-                body = {k: r[k] for k in ("seq", "ts_utc", "table", "payload")}
-                h = hashlib.sha256((prev + _canon(body)).encode()).hexdigest()
+                h = hashlib.sha256((prev + _canon(_body(r))).encode()).hexdigest()
                 if r["prev_hash"] != prev or r["hash"] != h:
                     status = f"broken at seq {r['seq']}"
                     break
