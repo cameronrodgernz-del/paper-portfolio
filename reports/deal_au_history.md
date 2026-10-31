@@ -1,6 +1,6 @@
 # Deal spreads history test: ASX cash deals
 
-Rulebook section 9c. Run 2026-10-31 23:05 UTC. 133 events in the database, 117 of 121 tickers with prices, 88 events used.
+Rulebook section 9c. Run 2026-10-31 23:43 UTC. 133 events in the database, 117 of 121 tickers with prices, 88 events used.
 
 Coverage: 64% of the deals that paid and 80% of the deals that broke have prices and pass the entry check (the test needs 70% of each, so that missing delisted shares can't tilt it).
 
