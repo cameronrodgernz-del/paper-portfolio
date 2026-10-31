@@ -39,6 +39,8 @@ jobs:
     if: needs.gate.outputs.go == 'yes'
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      HAS_DRIVE: ${{ secrets.RCLONE_CONF != '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -61,6 +63,20 @@ jobs:
         run: python3 -I src/deal_monitor.py .
       - name: Clerk (runs only when config/run.json names an active ledger)
         run: python3 -I src/daily.py
+      - name: Copy to Google Drive (only once the RCLONE_CONF secret is set; see docs/DRIVE_BACKUP.md)
+        if: env.HAS_DRIVE == 'true'
+        continue-on-error: true
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          curl -sSfL https://downloads.rclone.org/rclone-current-linux-amd64.zip -o /tmp/rclone.zip
+          unzip -q -j /tmp/rclone.zip '*/rclone' -d /tmp/rc && chmod +x /tmp/rc/rclone
+          printf '%s' "$RCLONE_CONF" > /tmp/rc/rclone.conf
+          tar czf /tmp/paper-portfolio-latest.tar.gz RULEBOOK.md README.md config deals docs ledger reports research src tests
+          /tmp/rc/rclone --config /tmp/rc/rclone.conf copyto /tmp/paper-portfolio-latest.tar.gz gdrive:paper-portfolio/paper-portfolio-latest.tar.gz
+          if [ "$(date -u +%u)" = "5" ]; then
+            /tmp/rc/rclone --config /tmp/rc/rclone.conf copyto /tmp/paper-portfolio-latest.tar.gz "gdrive:paper-portfolio/weekly/paper-portfolio-$(date -u +%Y-%m-%d).tar.gz"
+          fi
       - name: Save data
         run: |
           git config user.name "paper-portfolio-bot"
