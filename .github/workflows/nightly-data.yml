@@ -55,7 +55,7 @@ jobs:
           EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
         run: python3 -I src/fetch_prices.py config/universe_trial.csv,config/universe_us_deals.csv data
       - name: Engine checks
-        run: python3 -I tests/test_engine.py && python3 -I tests/test_clerk.py && python3 -I tests/test_hedges.py && python3 -I tests/test_risk.py
+        run: python3 -I tests/test_engine.py && python3 -I tests/test_clerk.py && python3 -I tests/test_hedges.py && python3 -I tests/test_risk.py && python3 -I tests/test_decide.py
       - name: Deal monitor
         continue-on-error: true
         run: python3 -I src/deal_monitor.py .

@@ -93,7 +93,9 @@ def check_order(val: dict, drawdown: float, sleeve: str, market: str, ticker: st
                     and (groups or {}).get((p["market"], p["ticker"])) == group)
         if g_now + value_nzd > GROUP_CAP * total + 1e-6:
             out.append(f"deals in group '{group}' would be {(g_now + value_nzd) / total:.1%}, over 10%")
-    if adv_value_nzd is not None and after_pos > LIQ_SESSIONS * LIQ_SHARE * adv_value_nzd + 1e-6:
+    if adv_value_nzd is not None and adv_value_nzd <= 0:
+        out.append("no recent trading history to judge liquidity")
+    elif adv_value_nzd is not None and after_pos > LIQ_SESSIONS * LIQ_SHARE * adv_value_nzd + 1e-6:
         out.append(f"position would be {after_pos / adv_value_nzd:.0%} of a day's median trading value; "
                    f"the limit is {LIQ_SESSIONS * LIQ_SHARE:.0%} (two sessions at 10%)")
     if sleeve in ("deal", "special"):

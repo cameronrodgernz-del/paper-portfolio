@@ -18,6 +18,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from market_data import FX, Prices  # noqa: E402
 
 RESOLVED = {"completed", "terminated", "withdrawn", "lapsed", "superseded_by_rival"}
+TYPICAL_STAKE_NZD = 3500      # about the size the 4% and 1%-on-break caps allow
+FIXED_COSTS = {"fx": 0.005, "hedge": 0.001}   # currency conversion on entry, hedge dealing cost
 
 
 def base_rate(root: str, structure: str) -> tuple[float, int]:
@@ -65,8 +67,8 @@ def main(root: str) -> int:
     today = date.today().isoformat()
     now = datetime.now(timezone.utc)
     lines = ["# Live deal monitor", "", f"Run {today}. Prices are the last closes in the repository; a blank means no price yet.", "",
-             "| Deal | Price | Offer value | Gross spread | Days to payment | Yearly rate | Market-implied chance | Base-rate chance | Note |",
-             "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+             "| Deal | Price | Offer value | Gross spread | Days to payment | Yearly rate | Yearly after costs | Market-implied chance | Base-rate chance | Note |",
+             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
     for d in csv.DictReader(open(os.path.join(root, "config", "live_deals.csv"), encoding="utf-8")):
         px = prices.last_close(d["target_market"], d["target_ticker"], today, now)
         cash = float(d["cash_per_share"] or 0)
@@ -90,12 +92,21 @@ def main(root: str) -> int:
                 imp = "price above offer"
             else:
                 imp = f"{implied:.0%}"
-            cells = [f"{px:.3f}", f"{offer:.3f}", f"{gross:+.1%}", str(days), f"{yearly:+.1%}" if abs(yearly) < 5 else "n/m", imp]
+            ccy = "USD" if d["target_market"] == "US" else ("AUD" if d["target_market"] == "ASX" else "NZD")
+            st = prices.stats(d["target_market"], d["target_ticker"], today, fx.nzd_per(ccy, today))
+            local = TYPICAL_STAKE_NZD * fx.per_nzd(ccy, today)
+            fee = min(0.019 * local, {"ASX": 15, "US": 5, "NZX": 25}[d["target_market"]]) / local
+            cost = st["spread"] / 2 + fee + (sum(FIXED_COSTS.values()) if ccy != "NZD" else 0)
+            net_y = (1 + gross - cost) ** (365 / max(days, 1)) - 1 if days > 0 else float("nan")
+            cells = [f"{px:.3f}", f"{offer:.3f}", f"{gross:+.1%}", str(days), f"{yearly:+.1%}" if abs(yearly) < 5 else "n/m",
+                     f"{net_y:+.1%}" if abs(net_y) < 5 else "n/m", imp]
         else:
-            cells = ["" if not px else f"{px:.3f}", "" if not offer else f"{offer:.3f}", "", str(days), "", ""]
+            cells = ["" if not px else f"{px:.3f}", "" if not offer else f"{offer:.3f}", "", str(days), "", "", ""]
         lines.append(f"| {d['target_ticker']} ({d['deal_id']}) | " + " | ".join(cells) +
                      f" | {p_base:.0%} of {n} {d['structure']}s | {d['terms_note']} |")
-    lines += ["", "The base rate is for all resolved deals of the same structure in the database. "
+    lines += ["", f"After costs assumes a NZ${TYPICAL_STAKE_NZD:,} stake: half the estimated spread, brokerage beyond the plan's "
+              "monthly cover, a currency conversion and the hedge's dealing cost; consideration is paid free of brokerage. "
+              "The base rate is for all resolved deals of the same structure in the database. "
               "The analyst adjusts it for this deal's conditions and records each adjustment before any entry."]
     lines += us_section(root, prices, today, now)
     os.makedirs(os.path.join(root, "reports"), exist_ok=True)
