@@ -11,6 +11,10 @@ For each deal in config/live_deals.csv:
   of the same structure that reached the same stage (config/live_deals.csv `stage`), moved by the
   deal-feature model where it scored better out of sample, with less weight the further the deal is
   along (a deal past its vote is decided mostly by the stage);
+- a late payment date: the latest stage reached (announced, booklet out, vote, court) plus the days
+  three in four past deals of the same kind took from that stage to payment (reports/deal_odds.json,
+  by approvals from announcement), when that is later than the expected date; and the yearly rate
+  after costs if it pays then, so a thin spread that only works on time is plain;
 - the implied chance each day since the announcement (reports/deal_history.json), for the hub.
 A gap between the two chances is where an edge might be; it is a prompt for the analyst, not a trade.
 Usage: python3 -I src/deal_monitor.py <repo_root>
@@ -20,7 +24,7 @@ import json
 import math
 import os
 import sys
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "history"))
@@ -36,6 +40,16 @@ STAGE_KEY = {"unconditional": "court_approved", "implemented": "court_approved"}
 STAGE_WORDS = {"announced": "announced", "booklet_out": "booklet out", "vote_passed": "past the vote", "court_approved": "court approved",
                "unconditional": "unconditional"}
 INDEX = {"ASX": ("ASX", "VAS"), "NZX": ("US", "ENZL"), "US": ("US", "VT")}
+MARKET_CCY = {"ASX": "AUD", "NZX": "NZD", "US": "USD"}
+
+
+def acq_fx(fx: FX, live: dict, d: str) -> float:
+    """Target-currency units per unit of the acquirer's currency on date d (1 when they match),
+    so an acquirer listed elsewhere (OceanaGold on the NYSE for Ausgold) is valued in A$."""
+    a, t = MARKET_CCY.get(live.get("acquirer_market") or "", ""), MARKET_CCY.get(live["target_market"], "")
+    if not a or not t or a == t:
+        return 1.0
+    return fx.per_nzd(t, d) / fx.per_nzd(a, d)
 
 
 def logit(p: float) -> float:
@@ -68,9 +82,66 @@ def base_rate(root: str, structure: str, stage: str = "announced", deal: dict | 
         adj = w * (z - logit(a0))
         new = 1 / (1 + math.exp(-(logit(rate) + adj)))
         if abs(new - rate) >= 0.005:
-            note += f", {'+' if new > rate else '-'}{abs(new - rate) * 100:.0f} points for this deal's features"
+            pts = round(abs(new - rate) * 100)
+            note += f", {'+' if new > rate else '-'}{pts} point{'' if pts == 1 else 's'} for this deal's features"
         rate = new
     return rate, r["n_cautious"], note
+
+
+LATE_GROUPS = (("ACCC", lambda g: "ACCC" in g), ("FIRB", lambda g: "FIRB" in g), ("OIO", lambda g: "OIO" in g),
+               ("overseas", lambda g: any(x.startswith("overseas") for x in g)))
+
+
+def dated_stage(live: dict, deal: dict | None, today: str) -> str:
+    """The latest stage the dates show the deal has passed, for a live row with no stage set."""
+    deal = deal or {}
+    for k, dt in (("court_approved", live.get("court_date") or deal.get("court_date")),
+                  ("vote_passed", live.get("meeting_date") or deal.get("meeting_date")),
+                  ("booklet_out", live.get("booklet_date") or deal.get("booklet_date"))):
+        if dt and dt[:10] <= today:
+            return "booklet_out" if (k == "vote_passed" and live["structure"] != "scheme") else k
+    return "announced"
+
+
+def late_payment(root: str, live: dict, deal: dict | None, today: str) -> tuple[str, str]:
+    """The payment date if the deal takes as long as the slowest quarter of past deals of its kind,
+    from the latest stage it has reached; and a note saying where the number comes from."""
+    path = os.path.join(root, "reports", "deal_odds.json")
+    if not os.path.exists(path):
+        return "", ""
+    tim = json.load(open(path)).get("timing") or {}
+    deal = deal or {}
+    st = live["structure"] if live["structure"] in ("scheme", "full_takeover") else "scheme"
+    dated = [("court_approved", live.get("court_date") or deal.get("court_date")),
+             ("vote_passed", live.get("meeting_date") or deal.get("meeting_date")),
+             ("booklet_out", live.get("booklet_date") or deal.get("booklet_date"))]
+    anchor, stage = live["announce_date"], "announced"
+    for k, dt in dated:
+        if dt and dt[:10] <= today and f"{st}|{k}" in tim:
+            anchor, stage = dt[:10], k
+            break
+    words = {"announced": "announcement", "booklet_out": "the booklet", "vote_passed": "the vote", "court_approved": "court approval"}[stage]
+    key, label = f"{st}|{stage}", ""
+    if stage == "announced":
+        g = {x.strip() for x in (deal.get("regulators") or "").split(";") if x.strip()}
+        opts = [(tim[f"{st}|announced|{name}"]["q3"], name) for name, test in LATE_GROUPS if test(g) and f"{st}|announced|{name}" in tim]
+        if not opts and (deal.get("regulators") or "").strip() == "none" and f"{st}|announced|no approvals" in tim:
+            opts = [(tim[f"{st}|announced|no approvals"]["q3"], "no approvals")]
+        if opts:
+            q3, name = max(opts)
+            key, label = f"{st}|announced|{name}", " needing " + {"ACCC": "ACCC clearance", "FIRB": "FIRB approval", "OIO": "OIO consent",
+                                                                  "overseas": "overseas approvals", "no approvals": "no approvals"}[name]
+            label = " with no approvals beyond the vote and court" if name == "no approvals" else label
+    if key not in tim:
+        return "", ""
+    t = tim[key]
+    late = (date.fromisoformat(anchor) + timedelta(days=t["q3"])).isoformat()
+    note = (f"a quarter of {t['n']} past {st.replace('_', ' ')}s{label} took {t['q3']} days or more from {words} to payment "
+            f"(half took {t['median']})")
+    exp = live.get("expected_payment") or ""
+    if late <= today:
+        return "", note + "; this deal is already past that"
+    return (late if late > exp else ""), note
 
 
 def index_level(root: str, fx: FX, market: str, d: str) -> float | None:
@@ -136,8 +207,8 @@ def main(root: str) -> int:
     today = date.today().isoformat()
     now = datetime.now(timezone.utc)
     lines = ["# Live deal monitor", "", f"Run {today}. Prices are the last closes in the repository; a blank means no price yet.", "",
-             "| Deal | Price | Offer value | Gross spread | Days to payment | Yearly rate | Yearly after costs | Market-implied chance | Base-rate chance | Note |",
-             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+             "| Deal | Price | Offer value | Gross spread | Days to payment | Yearly rate | Yearly after costs | If it runs late | Market-implied chance | Base-rate chance | Note |",
+             "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
     rows = []      # the same numbers as a table, for reports/deal_monitor.csv
     hist = {}      # the implied chance each day, for the hub
     db = deal_rows(root)
@@ -148,10 +219,14 @@ def main(root: str) -> int:
             cash *= fx.per_nzd("AUD", today) / fx.per_nzd("USD", today)      # A$ per US$
         ratio = float(d["scrip_ratio"] or 0)
         acq = prices.last_close(d["acquirer_market"], d["acquirer_ticker"], today, now) if ratio else 0.0
+        acq = acq * acq_fx(fx, d, today) if acq else acq
         offer = cash + ratio * acq if (ratio == 0 or acq) else None
-        stage = (d.get("stage") or "announced").strip() or "announced"
+        stage = (d.get("stage") or "").strip() or dated_stage(d, db.get(d["deal_id"]), today)
         undist = float(d["undisturbed"]) if d["undisturbed"] else None
-        i0, i1 = index_level(root, fx, d["target_market"], d["announce_date"]), index_level(root, fx, d["target_market"], today)
+        # the market's move since the undisturbed price (its own date when the desk set one: an earlier
+        # approach or a rival bid can put it well before this deal's announcement)
+        i0 = index_level(root, fx, d["target_market"], (d.get("undisturbed_date") or "").strip() or d["announce_date"])
+        i1 = index_level(root, fx, d["target_market"], today)
         move = i1 / i0 if (i0 and i1) else 1.0
         brk = undist * move if undist else None
         p_base, n, bnote = base_rate(root, d["structure"], stage, db.get(d["deal_id"]))
@@ -165,7 +240,7 @@ def main(root: str) -> int:
             for b in prices.bars(d["target_market"], d["target_ticker"]):
                 if b.date < d["announce_date"] or b.close <= 0:
                     continue
-                last_acq = acq_px.get(b.date, last_acq)
+                last_acq = acq_px[b.date] * acq_fx(fx, d, b.date) if b.date in acq_px else last_acq
                 c = float(d["cash_per_share"] or 0) * (fx.per_nzd("AUD", b.date) / fx.per_nzd("USD", b.date) if usd else 1.0)
                 off = (c + (ratio * last_acq if ratio else 0.0)) if (ratio == 0 or last_acq) else None
                 lv = index_level(root, fx, d["target_market"], b.date) if len(h) % 5 == 0 or not h else lv
@@ -181,9 +256,9 @@ def main(root: str) -> int:
             if implied != implied:
                 imp = ""
             elif implied < 0:
-                imp = "price below break price"
+                imp = "The price is below the break price: the market expects less than a plain break would leave"
             elif implied > 1:
-                imp = "price above offer"
+                imp = "The price is above the offer, so the market expects a better bid"
             else:
                 imp = f"{implied:.0%}"
             ccy = "USD" if d["target_market"] == "US" else ("AUD" if d["target_market"] == "ASX" else "NZD")
@@ -192,8 +267,12 @@ def main(root: str) -> int:
             fee = min(0.019 * local, {"ASX": 15, "US": 5, "NZX": 25}[d["target_market"]]) / local
             cost = st["spread"] / 2 + fee + (sum(FIXED_COSTS.values()) if ccy != "NZD" else 0)
             net_y = (1 + gross - cost) ** (365 / max(days, 1)) - 1 if days > 0 else float("nan")
+            late, late_note = late_payment(root, d, db.get(d["deal_id"]), today)
+            ldays = (date.fromisoformat(late) - date.today()).days if late else 0
+            late_y = (1 + gross - cost) ** (365 / ldays) - 1 if (ldays > 0 and abs(net_y) < 5) else float("nan")
             cells = [f"{px:.3f}", f"{offer:.3f}", f"{gross:+.1%}", str(days), f"{yearly:+.1%}" if abs(yearly) < 5 else "n/m",
-                     f"{net_y:+.1%}" if abs(net_y) < 5 else "n/m", imp]
+                     f"{net_y:+.1%}" if abs(net_y) < 5 else "n/m",
+                     (f"{late_y:+.1%} if paid {late}" if late_y == late_y and abs(late_y) < 5 else f"paid {late}") if late else "", imp]
             rows.append({"ticker": d["target_ticker"], "deal_id": d["deal_id"], "structure": d["structure"], "price": round(px, 4),
                          "offer_value": round(offer, 4), "gross_spread": round(gross, 5), "days_to_payment": days,
                          "yearly": round(yearly, 4) if abs(yearly) < 5 else "", "yearly_after_costs": round(net_y, 4) if abs(net_y) < 5 else "",
@@ -203,14 +282,18 @@ def main(root: str) -> int:
                          "stage": stage, "base_note": bnote, "break_price": round(brk, 4) if brk else "",
                          "undisturbed": undist or "", "market_move": round(move - 1, 4),
                          "meeting_date": d.get("meeting_date", ""), "court_date": d.get("court_date", ""),
-                         "end_date": d.get("end_date", ""), "conditions_open": d.get("conditions_open", "")})
+                         "end_date": d.get("end_date", ""), "conditions_open": d.get("conditions_open", ""),
+                         "late_payment": late, "yearly_if_late": round(late_y, 4) if late_y == late_y and abs(late_y) < 5 else "",
+                         "late_note": late_note})
         else:
-            cells = ["" if not px else f"{px:.3f}", "" if not offer else f"{offer:.3f}", "", str(days), "", "", ""]
+            cells = ["" if not px else f"{px:.3f}", "" if not offer else f"{offer:.3f}", "", str(days), "", "", "", ""]
         lines.append(f"| {d['target_ticker']} ({d['deal_id']}) | " + " | ".join(cells) +
                      f" | {p_base:.0%} ({bnote}) | {d['terms_note']} |")
     lines += ["", f"After costs assumes a NZ${TYPICAL_STAKE_NZD:,} stake: half the estimated spread, brokerage beyond the plan's "
               "monthly cover, a currency conversion and the hedge's dealing cost; consideration is paid free of brokerage. "
               "The break price is the undisturbed price moved by the local market since the announcement. "
+              "If it runs late: paid when the slowest quarter of past deals of the same kind would have paid, counted from the latest "
+              "stage this deal has reached (blank when the expected date is already later). "
               "The base rate is how often holders were paid in past deals of the same structure at the same stage "
               "(reports/deal_odds.md), moved by the deal-feature model where it applies. "
               "The analyst adjusts it for this deal's conditions and records each adjustment before any entry."]

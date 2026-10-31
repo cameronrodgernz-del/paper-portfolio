@@ -452,6 +452,7 @@ def deals_section(names: dict, held: set) -> dict:
                      "stage": r.get("stage") or lv.get("stage") or "announced", "base_note": r.get("base_note") or "",
                      "break": fnum(r.get("break_price")), "undisturbed": fnum(r.get("undisturbed")), "market_move": fnum(r.get("market_move")),
                      "meeting_date": r.get("meeting_date") or lv.get("meeting_date") or None, "end_date": r.get("end_date") or lv.get("end_date") or None,
+                     "late": r.get("late_payment") or None, "yearly_late": fnum(r.get("yearly_if_late")), "late_note": r.get("late_note") or "",
                      "hist": hist.get(r["deal_id"], []), "file": deal_file(tk, mkt),
                      "px": closes(mkt, tk, (date.today() - timedelta(days=150)).isoformat(), 110)})
     leads = []

@@ -58,6 +58,7 @@ with tempfile.TemporaryDirectory() as root:
     open(os.path.join(root, "research", "deals", "NEWD.md"), "w").write(deal_file("NEWD"))
     open(os.path.join(root, "research", "deals", "GONE.md"), "w").write(deal_file("GONE").replace("stage: announced", "stage: terminated"))
 
+    open(os.path.join(root, "config", "universe_trial.csv"), "w").write("ticker,market,provider,provider_symbol,why\nOLDD,ASX,eodhd,OLDD.AU,x\n")
     out = run(root)
     check("without --add a new deal file is reported, not added", "NEWD" in out and "--add" in out, out)
     rows = list(csv.DictReader(open(os.path.join(root, "config", "live_deals.csv"))))
@@ -72,11 +73,13 @@ with tempfile.TemporaryDirectory() as root:
     out = run(root, add=True)
     rows = list(csv.DictReader(open(os.path.join(root, "config", "live_deals.csv"))))
     new = next((r for r in rows if r["target_ticker"] == "NEWD"), None)
+    uni = {(r["market"], r["ticker"]): r for r in csv.DictReader(open(os.path.join(root, "config", "universe_trial.csv")))}
+    check("--add puts a new target into the nightly price fetch", ("ASX", "NEWD") in uni and uni[("ASX", "NEWD")]["provider_symbol"] == "NEWD.AU", list(uni))
     check("--add puts the new deal on the live list", new is not None, out)
     check("a terminated deal file is never added", not any(r["target_ticker"] == "GONE" for r in rows), [r["target_ticker"] for r in rows])
     if new:
         check("the new deal gets the next id for its year", new["deal_id"] == "AU-2026-25", new["deal_id"])
-        check("the undisturbed price is the last close before the announcement", new["undisturbed"] == "0.54", new["undisturbed"])
+        check("the undisturbed price is the last close before the announcement, with its date", new["undisturbed"] == "0.54" and new["undisturbed_date"] == "2026-10-16", (new["undisturbed"], new.get("undisturbed_date")))
         check("the new row gets the file's dates on the same run", new["meeting_date"] == "2027-01-22" and new["court_date"] == "2027-01-29", new)
         check("the terms note is short", new["terms_note"] == "A$1.04 cash per share; less dividends", new["terms_note"])
     db = list(csv.DictReader(open(os.path.join(root, "deals", "au", "au_deals_2025_2026.csv"))))
@@ -85,8 +88,17 @@ with tempfile.TemporaryDirectory() as root:
     if pend:
         check("the database row carries the board and intentions", pend[0]["board_recommendation"] == "unanimous_for" and pend[0]["intentions_pct"] == "34.0", pend[0])
     out = run(root, add=True)
-    check("a second run changes nothing", out.strip() == "no changes", out)
+    check("a second run changes nothing", out.startswith("no changes"), out)
     check("a second run adds no database row", sum(r["target_ticker"] == "NEWD" for r in csv.DictReader(open(os.path.join(root, "deals", "au", "au_deals_2025_2026.csv")))) == 1)
+
+    open(os.path.join(root, "research", "deals", "DONE.md"), "w").write(
+        deal_file("DONE").replace("stage: announced", "stage: unconditional").replace("implementation_date: 2027-02-10", "implementation_date: " + (__import__("datetime").date.today() + __import__("datetime").timedelta(days=5)).isoformat()))
+    open(os.path.join(root, "research", "deals", "OLDD.md"), "w").write(deal_file("OLDD").replace("cash_per_share: 1.04", "cash_per_share: 1.98"))
+    out = run(root, add=True)
+    rows = list(csv.DictReader(open(os.path.join(root, "config", "live_deals.csv"))))
+    check("a deal with only the payment left is not added", not any(r["target_ticker"] == "DONE" for r in rows) and "only the payment is left" in out, out)
+    check("a change of terms in the file is reported, not applied", "OLDD: the file says 1.98 cash" in out and next(r for r in rows if r["target_ticker"] == "OLDD")["cash_per_share"] == "2.00", out)
+    check("an acquirer ticker is cleaned of its exchange words", df.ticker_only("OGC (TSX and NYSE)") == "OGC" and df.ticker_only("ASX code LYC") == "LYC", df.ticker_only("OGC (TSX and NYSE)"))
 
     with open(os.path.join(root, "reports", "deal_monitor.csv"), "w", newline="") as f:
         w = csv.writer(f)
