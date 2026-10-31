@@ -1,95 +1,50 @@
 run 2026-10-31
-US:SPY +4383
-US:AAOI +3294
-US:ABOS +1340
-US:ABR +4383
-US:ACA +2006
-US:ACI +1595
-US:ACTG +4383
-US:AEL +3757
-US:AFG +4383
-US:AGFS +1930
-US:AGNC +4383
-US:AIRT +4383
-US:AJX +0
-US:ALEX +3455
-US:ALGM +1508
-US:ALLY +3159
-US:AMCR +1859
-US:AMEH +1
-US:AMRC +4095
-US:AMRZ +343
-US:AMSWA +0
-US:AMWD +4275
-US:ANDE +4383
-US:ANF +4383
-US:ANIP +4383
-US:APLE +2882
-US:ARCH +2081
-US:ARHS +1252
-US:ARI +4302
-US:ARR +4383
-US:ASA +4383
-US:ASUR +4383
-US:ATCX +204
-US:ATI +4383
-US:ATLO +4383
-US:ATMU +861
-US:ATO +4383
-US:AUB +4383
-US:AVDL +4203
-US:AVEO +3237
-US:AWR +4383
-US:AXL +0
-US:BA +4383
-US:BANX +3264
-US:BCAB +1475
+US:BFAM +3463
+US:BGSF +3147
+US:BLLN +247
+US:BNED +2829
+US:BRKL +83
 PROBLEMS:
-BFAM: Tiingo hourly budget used
-BGSF: Tiingo hourly budget used
-BLLN: Tiingo hourly budget used
-BNED: Tiingo hourly budget used
-BRKL: Tiingo hourly budget used
-BRR: Tiingo hourly budget used
-BTN: Tiingo hourly budget used
-BUSE: Tiingo hourly budget used
-BXP: Tiingo hourly budget used
-CACI: Tiingo hourly budget used
-CAI: Tiingo hourly budget used
-CAPIX: Tiingo hourly budget used
-CARE: Tiingo hourly budget used
-CBKN: Tiingo hourly budget used
-CC: Tiingo hourly budget used
-CCAP: Tiingo hourly budget used
-CCB: Tiingo hourly budget used
-CCRN: Tiingo hourly budget used
-CDLX: Tiingo hourly budget used
-CELC: Tiingo hourly budget used
-CHD: Tiingo hourly budget used
-CHTR: Tiingo hourly budget used
-CLMS: Tiingo hourly budget used
-CLMT: Tiingo hourly budget used
-CLNC: Tiingo hourly budget used
-CLNH: Tiingo hourly budget used
-CLPR: Tiingo hourly budget used
-CLR: Tiingo hourly budget used
-CMT: Tiingo hourly budget used
-CMTG: Tiingo hourly budget used
-CNAF: Tiingo hourly budget used
-CNCE: Tiingo hourly budget used
-CNK: Tiingo hourly budget used
-CNMD: Tiingo hourly budget used
-CNNE: Tiingo hourly budget used
-COOK: Tiingo hourly budget used
-COYA: Tiingo hourly budget used
-CPAH: Tiingo hourly budget used
-CPF: Tiingo hourly budget used
-CRDO: Tiingo hourly budget used
-CRGY: Tiingo hourly budget used
-CRH: Tiingo hourly budget used
-CSII: Tiingo hourly budget used
-CSPR: Tiingo hourly budget used
-CSV: Tiingo hourly budget used
+BRR: HTTPError: HTTP Error 429: Too Many Requests
+BTN: HTTPError: HTTP Error 429: Too Many Requests
+BUSE: HTTPError: HTTP Error 429: Too Many Requests
+BXP: HTTPError: HTTP Error 429: Too Many Requests
+CACI: HTTPError: HTTP Error 429: Too Many Requests
+CAI: HTTPError: HTTP Error 429: Too Many Requests
+CAPIX: HTTPError: HTTP Error 429: Too Many Requests
+CARE: HTTPError: HTTP Error 429: Too Many Requests
+CBKN: HTTPError: HTTP Error 429: Too Many Requests
+CC: HTTPError: HTTP Error 429: Too Many Requests
+CCAP: HTTPError: HTTP Error 429: Too Many Requests
+CCB: HTTPError: HTTP Error 429: Too Many Requests
+CCRN: HTTPError: HTTP Error 429: Too Many Requests
+CDLX: HTTPError: HTTP Error 429: Too Many Requests
+CELC: HTTPError: HTTP Error 429: Too Many Requests
+CHD: HTTPError: HTTP Error 429: Too Many Requests
+CHTR: HTTPError: HTTP Error 429: Too Many Requests
+CLMS: HTTPError: HTTP Error 429: Too Many Requests
+CLMT: HTTPError: HTTP Error 429: Too Many Requests
+CLNC: HTTPError: HTTP Error 429: Too Many Requests
+CLNH: HTTPError: HTTP Error 429: Too Many Requests
+CLPR: HTTPError: HTTP Error 429: Too Many Requests
+CLR: HTTPError: HTTP Error 429: Too Many Requests
+CMT: HTTPError: HTTP Error 429: Too Many Requests
+CMTG: HTTPError: HTTP Error 429: Too Many Requests
+CNAF: HTTPError: HTTP Error 429: Too Many Requests
+CNCE: HTTPError: HTTP Error 429: Too Many Requests
+CNK: HTTPError: HTTP Error 429: Too Many Requests
+CNMD: HTTPError: HTTP Error 429: Too Many Requests
+CNNE: HTTPError: HTTP Error 429: Too Many Requests
+COOK: HTTPError: HTTP Error 429: Too Many Requests
+COYA: HTTPError: HTTP Error 429: Too Many Requests
+CPAH: HTTPError: HTTP Error 429: Too Many Requests
+CPF: HTTPError: HTTP Error 429: Too Many Requests
+CRDO: HTTPError: HTTP Error 429: Too Many Requests
+CRGY: HTTPError: HTTP Error 429: Too Many Requests
+CRH: HTTPError: HTTP Error 429: Too Many Requests
+CSII: HTTPError: HTTP Error 429: Too Many Requests
+CSPR: HTTPError: HTTP Error 429: Too Many Requests
+CSV: HTTPError: HTTP Error 429: Too Many Requests
 CTBI: Tiingo hourly budget used
 CTGO: Tiingo hourly budget used
 CTLP: Tiingo hourly budget used
