@@ -1,3 +1,11 @@
 # Deal spreads history test: ASX cash deals
 
-Waiting for prices: 0 of 121 tickers fetched (2026-10-31 22:51 UTC). The prices need EODHD's paid plan; the test runs once, when all are in.
+Rulebook section 9c. Run 2026-10-31 23:00 UTC. 133 events in the database, 117 of 121 tickers with prices, 83 events used.
+
+Coverage: 60% of the deals that paid and 80% of the deals that broke have prices and pass the entry check (the test needs 70% of each, so that missing delisted shares can't tilt it).
+
+Not enough coverage to run. **Result: not run.**
+
+Events left out, by reason: entry price outside 85% to 101% of the offer (a different share on the code, or not a cash deal) 23; no payment date 4; no prices around the announcement 7; no prices from EODHD 16.
+
+Caveats: dividends paid during the hold are left out; a deal paid is credited at the final price on the implementation date with no sale costs; overlapping events move together, so the t-statistic overstates the evidence somewhat.

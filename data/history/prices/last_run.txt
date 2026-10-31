@@ -1,125 +1,123 @@
 run 2026-10-31
-
+ASX:3PL +3121
+ASX:ABC +2554
+ASX:ACX +838
+ASX:AGO +1136
+ASX:AHX +2610
+ASX:AIO +0
+ASX:AJD +1157
+ASX:ALU +2577
+ASX:AMA +3120
+ASX:AOF +2510
+ASX:AOP +1909
+ASX:APA +3147
+ASX:APD +1829
+ASX:API +1988
+ASX:APM +724
+ASX:AST +1957
+ASX:ASZ +0
+ASX:AVJ +2840
+ASX:AWE +997
+ASX:AZS +2525
+ASX:BBG +989
+ASX:BKL +2330
+ASX:BLD +2558
+ASX:BTH +2046
+ASX:CCL +490
+ASX:CDV +1513
+ASX:CGC +2164
+ASX:CGL +1546
+ASX:COF +3011
+ASX:CRD +1016
+ASX:CSR +2600
+ASX:CZZ +1148
+ASX:DHG +1968
+ASX:DSE +2333
+ASX:DUE +749
+ASX:EAR +1385
+ASX:ECF +1603
+ASX:EHE +2288
+ASX:ELO +1435
+ASX:ENE +1696
+ASX:EPD +1894
+ASX:EPX +1387
+ASX:EVS +2843
+ASX:FLK +1116
+ASX:FND +3147
+ASX:GNX +2297
+ASX:GOR +2884
+ASX:HLA +1332
+ASX:HPI +2725
+ASX:HSO +1222
+ASX:HUO +1793
+ASX:IAP +796
+ASX:ICQ +1939
+ASX:IFL +3016
+ASX:IFM +2917
+ASX:IPP +0
+ASX:IVC +2406
+ASX:JHC +1888
+ASX:JLG +2025
+ASX:KDR +1348
+ASX:LGL +1180
+ASX:LNK +2166
+ASX:MAH +3147
+ASX:MAI +1541
+ASX:MCP +3147
+ASX:MOC +1796
+ASX:MTR +492
+ASX:MYD +487
+ASX:MYO +1018
+ASX:MYX +3147
+ASX:NSR +3025
+ASX:NTC +1279
+ASX:NVT +1292
+ASX:NWC +2846
+ASX:ORG +3147
+ASX:ORR +2512
+ASX:OVH +1531
+ASX:OZL +2259
+ASX:PBG +0
+ASX:PBH +1874
+ASX:PBP +2545
+ASX:PEA +1268
+ASX:PFL +0
+ASX:PHG +749
+ASX:PLG +1960
+ASX:PNC +3147
+ASX:PRG +1238
+ASX:PSQ +2780
+ASX:PYG +1144
+ASX:RDF +1341
+ASX:RHK +2448
+ASX:RHP +1886
+ASX:RUL +2974
+ASX:SAI +0
+ASX:SDM +0
+ASX:SGF +2774
+ASX:SLA +1253
+ASX:SMR +3147
+ASX:SPO +1332
+ASX:SRX +555
+ASX:SWL +866
+ASX:SXY +1989
+ASX:TOL +0
+ASX:TOX +1009
+ASX:TRS +2822
+ASX:UGL +0
+ASX:UXC +0
+ASX:VED +0
+ASX:VEI +0
+ASX:VHT +2043
+ASX:VIT +1768
+ASX:VOC +1812
+ASX:VRL +2455
+ASX:WBA +1447
+ASX:WGO +1909
+ASX:WSA +2041
+ASX:YFZ +215
 PROBLEMS:
-EODHD plan allows fewer than 1000 requests a day: history prices wait for the paid plan
-3PL: EODHD daily budget used
-ABC: EODHD daily budget used
-ACX: EODHD daily budget used
-AFJ: EODHD daily budget used
-AGO: EODHD daily budget used
-AHX: EODHD daily budget used
-AIO: EODHD daily budget used
-AJD: EODHD daily budget used
-ALU: EODHD daily budget used
-AMA: EODHD daily budget used
-AOF: EODHD daily budget used
-AOP: EODHD daily budget used
-APA: EODHD daily budget used
-APD: EODHD daily budget used
-API: EODHD daily budget used
-APM: EODHD daily budget used
-AST: EODHD daily budget used
-ASZ: EODHD daily budget used
-AVJ: EODHD daily budget used
-AWE: EODHD daily budget used
-AZS: EODHD daily budget used
-BBG: EODHD daily budget used
-BKL: EODHD daily budget used
-BLD: EODHD daily budget used
-BTH: EODHD daily budget used
-CCL: EODHD daily budget used
-CDV: EODHD daily budget used
-CGC: EODHD daily budget used
-CGL: EODHD daily budget used
-COF: EODHD daily budget used
-CRD: EODHD daily budget used
-CSR: EODHD daily budget used
-CVO: EODHD daily budget used
-CZZ: EODHD daily budget used
-DHG: EODHD daily budget used
-DSE: EODHD daily budget used
-DUE: EODHD daily budget used
-EAR: EODHD daily budget used
-ECF: EODHD daily budget used
-EHE: EODHD daily budget used
-ELO: EODHD daily budget used
-ENE: EODHD daily budget used
-EPD: EODHD daily budget used
-EPX: EODHD daily budget used
-EVS: EODHD daily budget used
-FLK: EODHD daily budget used
-FND: EODHD daily budget used
-GHC: EODHD daily budget used
-GNX: EODHD daily budget used
-GOR: EODHD daily budget used
-HLA: EODHD daily budget used
-HPI: EODHD daily budget used
-HSO: EODHD daily budget used
-HUO: EODHD daily budget used
-IAP: EODHD daily budget used
-ICQ: EODHD daily budget used
-IFL: EODHD daily budget used
-IFM: EODHD daily budget used
-IPP: EODHD daily budget used
-ITQ: EODHD daily budget used
-IVC: EODHD daily budget used
-JHC: EODHD daily budget used
-JLG: EODHD daily budget used
-KDR: EODHD daily budget used
-LGL: EODHD daily budget used
-LNK: EODHD daily budget used
-MAH: EODHD daily budget used
-MAI: EODHD daily budget used
-MCP: EODHD daily budget used
-MOC: EODHD daily budget used
-MTR: EODHD daily budget used
-MYD: EODHD daily budget used
-MYO: EODHD daily budget used
-MYX: EODHD daily budget used
-NSR: EODHD daily budget used
-NTC: EODHD daily budget used
-NVT: EODHD daily budget used
-NWC: EODHD daily budget used
-ORG: EODHD daily budget used
-ORR: EODHD daily budget used
-OVH: EODHD daily budget used
-OZL: EODHD daily budget used
-PBG: EODHD daily budget used
-PBH: EODHD daily budget used
-PBP: EODHD daily budget used
-PEA: EODHD daily budget used
-PFL: EODHD daily budget used
-PHG: EODHD daily budget used
-PLG: EODHD daily budget used
-PNC: EODHD daily budget used
-PRG: EODHD daily budget used
-PSQ: EODHD daily budget used
-PYG: EODHD daily budget used
-RDF: EODHD daily budget used
-RHK: EODHD daily budget used
-RHP: EODHD daily budget used
-RUL: EODHD daily budget used
-SAI: EODHD daily budget used
-SDM: EODHD daily budget used
-SGF: EODHD daily budget used
-SLA: EODHD daily budget used
-SMR: EODHD daily budget used
-SPO: EODHD daily budget used
-SRX: EODHD daily budget used
-SWL: EODHD daily budget used
-SXY: EODHD daily budget used
-TOL: EODHD daily budget used
-TOX: EODHD daily budget used
-TRS: EODHD daily budget used
-UGL: EODHD daily budget used
-UXC: EODHD daily budget used
-VED: EODHD daily budget used
-VEI: EODHD daily budget used
-VHT: EODHD daily budget used
-VIT: EODHD daily budget used
-VOC: EODHD daily budget used
-VRL: EODHD daily budget used
-WBA: EODHD daily budget used
-WGO: EODHD daily budget used
-WSA: EODHD daily budget used
-YFZ: EODHD daily budget used
+AFJ: HTTPError: HTTP Error 404: Not Found
+CVO: HTTPError: HTTP Error 404: Not Found
+GHC: HTTPError: HTTP Error 404: Not Found
+ITQ: HTTPError: HTTP Error 404: Not Found
