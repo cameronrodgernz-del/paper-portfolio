@@ -34,13 +34,25 @@ def main(data_dir: str = "data") -> int:
     if isinstance(ex.get("body"), list):
         ex["body"] = [e for e in ex["body"] if "NZ" in json.dumps(e).upper() or "ZEALAND" in json.dumps(e).upper()]
     out["exchanges_nz"] = ex
-    sy = get("/v1/symbols/XNZE?limit=400", key)
+    sy = get("/v1/symbols/XNZE", key)
+    found = {}
     if isinstance(sy.get("body"), list):
-        sy["count"] = len(sy["body"])
-        wanted = ("AIR", "FBU", "FNZ", "SKC", "OCA", "KMD", "HGH", "FPH")
-        sy["sample"] = [s for s in sy["body"] if any(str(s.get("symbol_id", "")).upper().startswith(w) for w in wanted)][:30]
+        rows = sy["body"]
+        sy["count"] = len(rows)
+        sy["first_15"] = rows[:15]
+        wanted = ("AIR", "FBU", "FNZ", "SKC", "OCA", "KMD", "HGH", "FPH", "SPK", "IFT")
+        for w in wanted:       # any record that mentions the ticker anywhere
+            hit = [r for r in rows if w in json.dumps(r).upper()]
+            found[w] = hit[:3]
+        sy["matches"] = found
         del sy["body"]
     out["symbols_xnze"] = sy
+    air = next((h[0] for h in [found.get("AIR", [])] if h), None)
+    if air:
+        sid = air.get("symbol_id") or air.get("symbol")
+        out["air_symbol_used"] = sid
+        out["air_by_listed_id"] = get(f"/v1/ohlcv/exchange-symbol/XNZE/{sid}/history?period_id=1DAY"
+                                      "&time_start=2026-10-01T00:00:00&time_end=2026-10-31T00:00:00&limit=40", key)
     out["air_daily_october"] = get("/v1/ohlcv/exchange-symbol/XNZE/AIR/history?period_id=1DAY"
                                    "&time_start=2026-10-01T00:00:00&time_end=2026-10-31T00:00:00&limit=40", key)
     day = get("/v1/ohlcv/exchange/XNZE/history?period_id=1DAY&time_start=2026-10-30T00:00:00"
