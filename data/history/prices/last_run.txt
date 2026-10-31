@@ -1,95 +1,50 @@
 run 2026-10-31
-US:BRR +91
-US:BTN +0
-US:BUSE +4383
-US:BXP +4383
-US:CACI +4383
-US:CAI +345
-US:CAPIX +802
-US:CARE +3549
-US:CBKN +0
-US:CC +2851
-US:CCAP +1696
-US:CCB +2084
-US:CCRN +4312
-US:CDLX +2193
-US:CELC +2291
-US:CHD +4383
-US:CHTR +4232
-US:CLMS +1947
-US:CLMT +580
-US:CLNC +2199
-US:CLNH +982
-US:CLPR +2444
-US:CMT +4383
-US:CMTG +1253
-US:CNAF +4376
-US:CNCE +2280
-US:CNK +4383
-US:CNMD +4383
-US:CNNE +2248
-US:COOK +1321
-US:COYA +963
-US:CPAH +2957
-US:CPF +4383
-US:CRDO +1195
-US:CRGY +1229
-US:CRH +4383
-US:CSII +3503
-US:CSPR +496
-US:CSV +4383
-US:CTBI +4383
-US:CTGO +3931
-US:CTLP +4262
-US:CTLT +2615
-US:CTOS +657
+US:D +4383
+US:DCGO +1251
+US:DCOM +4383
+US:DDS +4383
+US:DERM +1246
+US:DFH +1452
+US:DIN +4383
+US:DLPN +2224
+US:DLTR +4383
+US:DMD +0
+US:DMLP +4383
+US:DST +2236
+US:EBTC +4228
+US:EEX +2314
+US:ELA +4383
+US:EOSE +1612
+US:EQBK +2758
+US:ESOA +3494
+US:ESRX +2408
+US:ET +4383
+US:EVRI +2478
+US:FDBC +4376
+US:FF +3926
+US:FLR +4383
+US:FMBI +3203
+US:FRST +4383
+US:FRTR +1571
+US:FSCO +994
+US:FSSL +242
+US:FUNC +4383
+US:GBFH +1433
+US:GDV +4383
+US:GFN +3018
+US:GNTY +2111
+US:GOSS +1943
+US:GOVB +4328
+US:GRC +4383
+US:GTES +74
+US:GTLS +4308
+US:GUG +1238
+US:HIVE +2212
+US:HLIT +4383
 PROBLEMS:
-CLR: HTTPError: HTTP Error 404: Not Found
-CVTI: Tiingo hourly budget used
-D: Tiingo hourly budget used
-DCGO: Tiingo hourly budget used
-DCOM: Tiingo hourly budget used
-DDS: Tiingo hourly budget used
-DERM: Tiingo hourly budget used
-DFH: Tiingo hourly budget used
-DIN: Tiingo hourly budget used
-DLPN: Tiingo hourly budget used
-DLTR: Tiingo hourly budget used
-DMD: Tiingo hourly budget used
-DMLP: Tiingo hourly budget used
-DST: Tiingo hourly budget used
-EBTC: Tiingo hourly budget used
-EEX: Tiingo hourly budget used
-ELA: Tiingo hourly budget used
-EOSE: Tiingo hourly budget used
-EQBK: Tiingo hourly budget used
-ESOA: Tiingo hourly budget used
-ESRX: Tiingo hourly budget used
-ET: Tiingo hourly budget used
-EVRI: Tiingo hourly budget used
-FDBC: Tiingo hourly budget used
-FF: Tiingo hourly budget used
-FLR: Tiingo hourly budget used
-FMBI: Tiingo hourly budget used
-FRGA: Tiingo hourly budget used
-FRST: Tiingo hourly budget used
-FRTR: Tiingo hourly budget used
-FSCO: Tiingo hourly budget used
-FSSL: Tiingo hourly budget used
-FUNC: Tiingo hourly budget used
-GBFH: Tiingo hourly budget used
-GDV: Tiingo hourly budget used
-GFN: Tiingo hourly budget used
-GNTY: Tiingo hourly budget used
-GOSS: Tiingo hourly budget used
-GOVB: Tiingo hourly budget used
-GRC: Tiingo hourly budget used
-GTES: Tiingo hourly budget used
-GTLS: Tiingo hourly budget used
-GUG: Tiingo hourly budget used
-HFC: Tiingo hourly budget used
-HIVE: Tiingo hourly budget used
-HLIT: Tiingo hourly budget used
+CVTI: HTTPError: HTTP Error 404: Not Found
+FRGA: HTTPError: HTTP Error 404: Not Found
+HFC: HTTPError: HTTP Error 404: Not Found
 HLS: Tiingo hourly budget used
 HMPR: Tiingo hourly budget used
 HMST: Tiingo hourly budget used
