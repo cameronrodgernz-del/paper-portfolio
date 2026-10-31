@@ -35,8 +35,15 @@ not financial advice.
      placed (so far only "insider_cluster", test 9a, reports/special_insider_history.md).
    - decide.py refuses both of these anyway; don't try to work around a refusal.
 5. Run python3 -I src/deal_monitor.py . and python3 -I src/dashboard_data.py . , then refresh the
-   build dashboard (claude.ai/artifact/1BxrCHRc4NQFynLysHdFvz): upload the files in
-   reports/dashboard/ and point each dataset at its new file, with updated set to now.
+   build dashboard (https://claude.ai/artifact/1BxrCHRc4NQFynLysHdFvz). Upload each of the five
+   CSV files in reports/dashboard/ with the Artifact tool (action "publish", that url, asset: true,
+   file_path; one call per file) and keep the url each upload returns. Then, with the ArtifactData
+   tool, list the "datasets" collection to get each document's version and write one batch of
+   "update" writes, each pinned with if_version: deals from deal_monitor.csv, baseRates from
+   base_rates.csv, milestones from milestones.csv, database from database.csv, checks from
+   checks.csv, each with data {source: {kind: "file", url: <the new url exactly as returned>,
+   name: <file name>}, updated: {at: <now, ISO time with the NZ offset>, by: "Claude, evening desk"}}.
+   Never change the page itself (index.html).
 6. Write tonight's entry in research/desk_log.md (what was checked, what changed, what was placed
    or refused and why). Commit and push everything with a message saying what changed.
 7. Message Cam only if a trade was placed, a holding or live deal had material news, a limit
