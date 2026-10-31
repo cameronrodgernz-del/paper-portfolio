@@ -145,6 +145,16 @@ def main(name: str | None = None, upto: str | None = None) -> int:
             benchmarks.main(name)
         except Exception as e:      # the comparison is a report, never a reason to stop the run
             print("benchmarks failed:", type(e).__name__, e)
+        # the monthly report, for each month that ended during these runs
+        months = sorted({r["date"][:7] for r in reports})
+        prior = sorted({v["payload"]["date"][:7] for v in L.records("valuations")})
+        for m in prior:
+            if m < months[-1] and not os.path.exists(os.path.join(ROOT, "reports", name, "monthly", f"{m}.md")):
+                try:
+                    import monthly
+                    monthly.main(name, m)
+                except Exception as e:
+                    print("monthly report failed:", type(e).__name__, e)
     for r in reports:
         print(r["date"], f"{r['total_nzd']:,.2f}", r["fills"], r.get("hedges", []), r["flags"])
     print("placed by rule:", placed or "none")

@@ -118,6 +118,15 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
     return out
 
 
+def resolve_call(L: Ledger, market: str, ticker: str, made_utc: str, happened: bool, note: str, now_utc: datetime) -> dict:
+    """Log how a dated call turned out (did its first, main outcome happen?), for success test 5."""
+    if not any(r["payload"].get("made_utc") == made_utc and r["payload"]["ticker"] == ticker for r in L.records("calls")):
+        raise SystemExit(f"no call on {market}:{ticker} made {made_utc}")
+    return L.append("calls", {"event": "outcome", "market": market, "ticker": ticker, "made_utc": made_utc,
+                              "main_outcome_happened": bool(happened), "note": note},
+                    ts=now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"))
+
+
 def main(name: str, card_path: str, dry: bool = False) -> int:
     cfg = json.load(open(os.path.join(ROOT, "config", "run.json")))
     data = os.path.join(ROOT, "data")

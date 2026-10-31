@@ -800,3 +800,103 @@ cik,company,form,date,ticker,cash_price,mentions,url
 1645494,ARRIS International plc,PREM14A,2018-11-30,ARRS,31.75,2,https://www.sec.gov/Archives/edgar/data/1645494/0001144204-18-062662.txt
 1630132,"Bojangles', Inc.",PREM14A,2018-11-30,BOJA,16.10,5,https://www.sec.gov/Archives/edgar/data/1630132/0001193125-18-338825.txt
 920424,"INVESTMENT TECHNOLOGY GROUP, INC.",PREM14A,2018-11-30,ITG,30.30,10,https://www.sec.gov/Archives/edgar/data/920424/0001047469-18-007451.txt
+1087423,RED HAT INC,PREM14A,2018-11-30,RHT,190.00,7,https://www.sec.gov/Archives/edgar/data/1087423/0001193125-18-339886.txt
+277058,NEVADA GOLD & CASINOS INC,PREM14A,2018-12-03,UWN,2.50,4,https://www.sec.gov/Archives/edgar/data/277058/0001144204-18-062755.txt
+1131096,ATHENAHEALTH INC,PREM14A,2018-12-04,ATHN,135.00,9,https://www.sec.gov/Archives/edgar/data/1131096/0001193125-18-342366.txt
+1053374,IPASS INC,SC 14D9,2018-12-04,IPAS,,0,https://www.sec.gov/Archives/edgar/data/1053374/0001144204-18-062974.txt
+1299130,"PACIFIC BIOSCIENCES OF CALIFORNIA, INC.",PREM14A,2018-12-05,PACB,8.00,10,https://www.sec.gov/Archives/edgar/data/1299130/0001193125-18-342511.txt
+1506401,"InfraREIT, Inc.",PREM14A,2018-12-10,HIFR,21.00,8,https://www.sec.gov/Archives/edgar/data/1506401/0001193125-18-346229.txt
+1644963,"AVENUE THERAPEUTICS, INC.",PREM14A,2018-12-11,ATXI,13.92,2,https://www.sec.gov/Archives/edgar/data/1644963/0001571049-18-000574.txt
+1491576,"TESARO, Inc.",SC 14D9,2018-12-14,TSRO,75.00,3,https://www.sec.gov/Archives/edgar/data/1491576/0001047469-18-007661.txt
+1319229,TransMontaigne Partners L.P.,PREM14A,2018-12-17,TLP,41.00,4,https://www.sec.gov/Archives/edgar/data/1319229/0001047469-18-007701.txt
+1698209,Vantage Energy Acquisition Corp.,PREM14A,2018-12-17,VEAC,,0,https://www.sec.gov/Archives/edgar/data/1698209/0001213900-18-017396.txt
+1498547,"COLE CREDIT PROPERTY TRUST IV, INC.",SC 14D9,2018-12-19,NONE,6.60,1,https://www.sec.gov/Archives/edgar/data/1498547/0001498547-18-000054.txt
+1674227,"Alliance MMA, Inc.",PREM14A,2018-12-20,AMMA,,0,https://www.sec.gov/Archives/edgar/data/1674227/0001144204-18-065489.txt
+1094739,FINISAR CORP,PREM14A,2018-12-28,FNSR,15.60,9,https://www.sec.gov/Archives/edgar/data/1094739/0001193125-18-359981.txt
+1733418,Aphria Inc.,SC 14D9,2018-12-28,,,0,https://www.sec.gov/Archives/edgar/data/1733418/0001279569-18-002536.txt
+1080056,"THESTREET, INC.",PREM14A,2018-12-31,TST,,0,https://www.sec.gov/Archives/edgar/data/1080056/0001140361-18-046065.txt
+918580,Gaming Partners International CORP,PREM14A,2019-01-07,GPIC,13.75,8,https://www.sec.gov/Archives/edgar/data/918580/0001144204-19-000930.txt
+1458962,"MINDBODY, Inc.",PREM14A,2019-01-09,MB,36.50,5,https://www.sec.gov/Archives/edgar/data/1458962/0001193125-19-005308.txt
+726513,TRIBUNE MEDIA CO,PREM14A,2019-01-09,TRCO,46.50,9,https://www.sec.gov/Archives/edgar/data/726513/0001193125-19-005456.txt
+1424755,Travelport Worldwide LTD,PREM14A,2019-01-15,TVPT,15.75,3,https://www.sec.gov/Archives/edgar/data/1424755/0001144204-19-001756.txt
+1581720,"Loxo Oncology, Inc.",SC 14D9,2019-01-17,LOXO,235.00,12,https://www.sec.gov/Archives/edgar/data/1581720/0001193125-19-010967.txt
+1608638,"Civitas Solutions, Inc.",PREM14A,2019-01-22,CIVI,17.75,5,https://www.sec.gov/Archives/edgar/data/1608638/0001193125-19-014123.txt
+1094139,OURPETS CO,PREM14A,2019-02-01,OPCO,1.00,7,https://www.sec.gov/Archives/edgar/data/1094139/0001144204-19-004483.txt
+315449,UQM TECHNOLOGIES INC,PREM14A,2019-02-11,UQM,1.71,5,https://www.sec.gov/Archives/edgar/data/315449/0001104659-19-007163.txt
+1412347,"Westmoreland Resource Partners, LP",SC 14D9,2019-02-13,WMLPQ,,0,https://www.sec.gov/Archives/edgar/data/1412347/0001193125-19-038103.txt
+1708341,Black Ridge Acquisition Corp.,PREM14A,2019-02-15,,,0,https://www.sec.gov/Archives/edgar/data/1708341/0001683168-19-000406.txt
+319815,MAXWELL TECHNOLOGIES INC,SC 14D9,2019-02-20,MXWL,,0,https://www.sec.gov/Archives/edgar/data/319815/0001193125-19-044869.txt
+1164727,NEWMONT MINING CORP /DE/,PREM14A,2019-02-21,NEM,0.02,7,https://www.sec.gov/Archives/edgar/data/1164727/0001206774-19-000485.txt
+1430259,Carey Watermark Investors Inc,SC 14D9,2019-02-21,NONE,7.50,1,https://www.sec.gov/Archives/edgar/data/1430259/0001430259-19-000003.txt
+1744895,Churchill Capital Corp,PREM14A,2019-02-27,CCC,,0,https://www.sec.gov/Archives/edgar/data/1744895/0001144204-19-010421.txt
+1090908,"DETERMINE, INC.",PREM14A,2019-02-27,DTRM,,0,https://www.sec.gov/Archives/edgar/data/1090908/0001437749-19-003501.txt
+1122388,ELLIE MAE INC,PREM14A,2019-02-27,ELLI,99.00,3,https://www.sec.gov/Archives/edgar/data/1122388/0001193125-19-052693.txt
+1024305,COTY INC.,SC 14D9,2019-02-27,COTY,11.65,2,https://www.sec.gov/Archives/edgar/data/1024305/0001193125-19-052324.txt
+1021991,TOP IMAGE SYSTEMS LTD,PREM14A,2019-02-28,,,0,https://www.sec.gov/Archives/edgar/data/1021991/0001178913-19-000730.txt
+764579,CAS MEDICAL SYSTEMS INC,PREM14A,2019-03-01,CASM,2.45,9,https://www.sec.gov/Archives/edgar/data/764579/0001144204-19-011632.txt
+1437786,IMMUNE DESIGN CORP.,SC 14D9,2019-03-05,IMDZ,5.85,2,https://www.sec.gov/Archives/edgar/data/1437786/0001193125-19-063377.txt
+1609351,"Spark Therapeutics, Inc.",SC 14D9,2019-03-07,ONCE,114.50,6,https://www.sec.gov/Archives/edgar/data/1609351/0001193125-19-066393.txt
+1016125,ULTIMATE SOFTWARE GROUP INC,PREM14A,2019-03-11,ULTI,331.50,16,https://www.sec.gov/Archives/edgar/data/1016125/0001140361-19-004723.txt
+811831,NORTHEAST BANCORP /ME/,PREM14A,2019-03-13,NBN,,0,https://www.sec.gov/Archives/edgar/data/811831/0001437749-19-004797.txt
+1591890,"1347 Property Insurance Holdings, Inc.",PREM14A,2019-03-15,PIH,,0,https://www.sec.gov/Archives/edgar/data/1591890/0001493152-19-003447.txt
+108772,XEROX CORP,PREM14A,2019-03-15,XRX,,0,https://www.sec.gov/Archives/edgar/data/108772/0001193125-19-076937.txt
+1711675,Nightstar Therapeutics plc,PREM14A,2019-03-18,NITE,,0,https://www.sec.gov/Archives/edgar/data/1711675/0001193125-19-077654.txt
+1360886,"OSIRIS THERAPEUTICS, INC.",SC 14D9,2019-03-20,OSIR,19.00,2,https://www.sec.gov/Archives/edgar/data/1360886/0001047469-19-001440.txt
+1368365,"REMARK HOLDINGS, INC.",PREM14A,2019-03-22,MARK,,0,https://www.sec.gov/Archives/edgar/data/1368365/0000921895-19-000872.txt
+921114,AmpliPhi Biosciences Corp,PREM14A,2019-03-25,APHB,,0,https://www.sec.gov/Archives/edgar/data/921114/0001144204-19-015715.txt
+819220,MULTI COLOR Corp,PREM14A,2019-03-25,LABL,50.00,17,https://www.sec.gov/Archives/edgar/data/819220/0001193125-19-085439.txt
+874292,ADDVANTAGE TECHNOLOGIES GROUP INC,PREM14A,2019-03-29,AEY,,0,https://www.sec.gov/Archives/edgar/data/874292/0001445260-19-000022.txt
+1540159,"Stellar Biotechnologies, Inc.",PREM14A,2019-03-29,SBOT,,0,https://www.sec.gov/Archives/edgar/data/1540159/0001144204-19-016994.txt
+1660690,"Versum Materials, Inc.",SC 14D9,2019-03-29,VSM,48.00,1,https://www.sec.gov/Archives/edgar/data/1660690/0001193125-19-091716.txt
+1361025,DCP Holding CO,PREM14A,2019-04-11,NONE,,0,https://www.sec.gov/Archives/edgar/data/1361025/0001437749-19-006977.txt
+1390844,WABCO Holdings Inc.,PREM14A,2019-04-18,WBC,136.50,20,https://www.sec.gov/Archives/edgar/data/1390844/0001193125-19-109916.txt
+1356104,"Mellanox Technologies, Ltd.",PREM14A,2019-04-22,MLNX,125.00,13,https://www.sec.gov/Archives/edgar/data/1356104/0001193125-19-113447.txt
+1037016,NII HOLDINGS INC,PREM14A,2019-04-24,NIHD,,0,https://www.sec.gov/Archives/edgar/data/1037016/0001047469-19-002550.txt
+1592379,"Papa Murphy's Holdings, Inc.",SC 14D9,2019-04-25,FRSH,6.50,1,https://www.sec.gov/Archives/edgar/data/1592379/0001193125-19-117801.txt
+1014739,"BioScrip, Inc.",PREM14A,2019-04-30,BIOS,,0,https://www.sec.gov/Archives/edgar/data/1014739/0001144204-19-022119.txt
+1669600,"Liberty Expedia Holdings, Inc.",PREM14A,2019-05-02,LEXEA,,0,https://www.sec.gov/Archives/edgar/data/1669600/0001140361-19-008205.txt
+76149,PARADISE INC,PREM14A,2019-05-03,,,0,https://www.sec.gov/Archives/edgar/data/76149/0001144204-19-023650.txt
+1370702,QUANTENNA COMMUNICATIONS INC,PREM14A,2019-05-03,QTNA,24.50,11,https://www.sec.gov/Archives/edgar/data/1370702/0001193125-19-136911.txt
+1568319,Voltari Corp,PREM14A,2019-05-03,VLTC,0.86,12,https://www.sec.gov/Archives/edgar/data/1568319/0001193125-19-137031.txt
+1043186,American Electric Technologies Inc,PREM14A,2019-05-09,AETI,,0,https://www.sec.gov/Archives/edgar/data/1043186/0001193125-19-141882.txt
+1585790,"Advanced Disposal Services, Inc.",PREM14A,2019-05-10,ADSW,33.15,7,https://www.sec.gov/Archives/edgar/data/1585790/0001047469-19-003022.txt
+1533526,"GLOBAL BRASS & COPPER HOLDINGS, INC.",PREM14A,2019-05-10,BRSS,44.00,6,https://www.sec.gov/Archives/edgar/data/1533526/0001140361-19-008956.txt
+1487101,KEYW HOLDING CORP,SC 14D9,2019-05-13,KEYW,11.25,2,https://www.sec.gov/Archives/edgar/data/1487101/0001047469-19-003048.txt
+1563407,"Smart & Final Stores, Inc.",SC 14D9,2019-05-14,SFS,6.50,5,https://www.sec.gov/Archives/edgar/data/1563407/0001047469-19-003077.txt
+1352952,Accelerize Inc.,PREM14A,2019-05-22,ACLZ,,0,https://www.sec.gov/Archives/edgar/data/1352952/0001437749-19-010690.txt
+1522327,Entegra Financial Corp.,PREM14A,2019-05-24,ENFC,30.18,4,https://www.sec.gov/Archives/edgar/data/1522327/0001552781-19-000264.txt
+1311241,INTERMOLECULAR INC,PREM14A,2019-05-28,IMI,1.20,3,https://www.sec.gov/Archives/edgar/data/1311241/0001193125-19-158466.txt
+1316016,AQUANTIA CORP,PREM14A,2019-05-29,AQ,13.25,7,https://www.sec.gov/Archives/edgar/data/1316016/0001193125-19-158536.txt
+867374,ELECTRONICS FOR IMAGING INC,PREM14A,2019-05-31,EFII,37.00,4,https://www.sec.gov/Archives/edgar/data/867374/0001193125-19-162793.txt
+1608249,"Zayo Group Holdings, Inc.",PREM14A,2019-06-03,ZAYO,35.00,11,https://www.sec.gov/Archives/edgar/data/1608249/0001140361-19-010242.txt
+1314223,"Amber Road, Inc.",SC 14D9,2019-06-03,AMBR,13.05,4,https://www.sec.gov/Archives/edgar/data/1314223/0001193125-19-163520.txt
+805022,"BUCKEYE PARTNERS, L.P.",PREM14A,2019-06-07,BPL,41.50,10,https://www.sec.gov/Archives/edgar/data/805022/0001193125-19-168300.txt
+1259515,CONTROL4 CORP,PREM14A,2019-06-07,CTRL,23.91,10,https://www.sec.gov/Archives/edgar/data/1259515/0001047469-19-003550.txt
+1681941,iFresh Inc,PREM14A,2019-06-07,IFMK,,0,https://www.sec.gov/Archives/edgar/data/1681941/0001213900-19-010343.txt
+949158,CRAY INC,PREM14A,2019-06-12,CRAY,35.00,11,https://www.sec.gov/Archives/edgar/data/949158/0001628280-19-007903.txt
+356130,EMC INSURANCE GROUP INC,PREM14A,2019-06-24,EMCI,36.00,9,https://www.sec.gov/Archives/edgar/data/356130/0001047469-19-003799.txt
+1091883,CIRCOR INTERNATIONAL INC,SC 14D9,2019-06-24,CIR,45.00,3,https://www.sec.gov/Archives/edgar/data/1091883/0001047469-19-003809.txt
+1648383,"CNL Healthcare Properties II, Inc.",PREM14A,2019-06-28,,,0,https://www.sec.gov/Archives/edgar/data/1648383/0001193125-19-185785.txt
+1100412,ARRAY BIOPHARMA INC,SC 14D9,2019-06-28,ARRY,48.00,3,https://www.sec.gov/Archives/edgar/data/1100412/0001193125-19-185664.txt
+791915,CYPRESS SEMICONDUCTOR CORP /DE/,PREM14A,2019-07-02,CY,23.85,4,https://www.sec.gov/Archives/edgar/data/791915/0001047469-19-003976.txt
+819050,VICAL INC,PREM14A,2019-07-02,VICL,,0,https://www.sec.gov/Archives/edgar/data/819050/0001193125-19-188343.txt
+1453814,"Medidata Solutions, Inc.",PREM14A,2019-07-03,MDSO,92.25,7,https://www.sec.gov/Archives/edgar/data/1453814/0001140361-19-012396.txt
+1303652,Tableau Software Inc,SC 14D9,2019-07-03,DATA,,0,https://www.sec.gov/Archives/edgar/data/1303652/0001193125-19-188693.txt
+51548,INTERNATIONAL SPEEDWAY CORP,PREM14A,2019-07-05,,,0,https://www.sec.gov/Archives/edgar/data/51548/0001140361-19-012497.txt
+1023860,STEWARDSHIP FINANCIAL CORP,PREM14A,2019-07-08,SSFN,15.75,4,https://www.sec.gov/Archives/edgar/data/1023860/0001019056-19-000395.txt
+890491,BARNES & NOBLE INC,SC 14D9,2019-07-09,BKS,6.50,2,https://www.sec.gov/Archives/edgar/data/890491/0001193125-19-190931.txt
+1735041,Greenland Acquisition Corp.,PREM14A,2019-07-12,GLACU,,0,https://www.sec.gov/Archives/edgar/data/1735041/0001213900-19-012629.txt
+823094,SOTHEBYS,PREM14A,2019-07-12,BID,57.00,6,https://www.sec.gov/Archives/edgar/data/823094/0001193125-19-192579.txt
+1372414,"AEROHIVE NETWORKS, INC",SC 14D9,2019-07-12,HIVE,4.45,9,https://www.sec.gov/Archives/edgar/data/1372414/0001193125-19-192849.txt
+1722992,Spirit MTA REIT,PREM14A,2019-07-15,SMTA,,0,https://www.sec.gov/Archives/edgar/data/1722992/0001193125-19-193529.txt
+31978,EL PASO ELECTRIC CO /TX/,PREM14A,2019-07-16,EE,68.25,7,https://www.sec.gov/Archives/edgar/data/31978/0001140361-19-013026.txt
+937941,"PCM, INC.",PREM14A,2019-07-16,PCMI,35.00,8,https://www.sec.gov/Archives/edgar/data/937941/0001047469-19-004206.txt
+1739174,Chardan Healthcare Acquisition Corp.,PREM14A,2019-07-17,CHAC,,0,https://www.sec.gov/Archives/edgar/data/1739174/0001213900-19-012931.txt
+1690881,"ASV HOLDINGS, INC.",PREM14A,2019-07-18,ASV,7.05,10,https://www.sec.gov/Archives/edgar/data/1690881/0001193125-19-196576.txt
+1125920,SHUTTERFLY INC,PREM14A,2019-07-19,SFLY,51.00,5,https://www.sec.gov/Archives/edgar/data/1125920/0001193125-19-198163.txt
+1158863,"WAGEWORKS, INC.",PREM14A,2019-07-19,WAGE,51.35,6,https://www.sec.gov/Archives/edgar/data/1158863/0001193125-19-196789.txt
+1415301,"Del Frisco's Restaurant Group, Inc.",PREM14A,2019-07-23,DFRG,8.00,3,https://www.sec.gov/Archives/edgar/data/1415301/0001193125-19-200104.txt
+1651235,"Acacia Communications, Inc.",PREM14A,2019-07-26,ACIA,70.00,11,https://www.sec.gov/Archives/edgar/data/1651235/0001193125-19-204131.txt
+1680873,HF Foods Group Inc.,PREM14A,2019-07-26,HFFG,,0,https://www.sec.gov/Archives/edgar/data/1680873/0001437749-19-014692.txt
+1719489,"GigCapital, Inc.",PREM14A,2019-07-31,GIG,,0,https://www.sec.gov/Archives/edgar/data/1719489/0001193125-19-208709.txt
+1646587,NorthStar Realty Europe Corp.,PREM14A,2019-08-01,NRE,,0,https://www.sec.gov/Archives/edgar/data/1646587/0001193125-19-209228.txt

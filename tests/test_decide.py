@@ -10,7 +10,8 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 sys.path.insert(0, os.path.join(ROOT, "src"))
 from clerk import run, state  # noqa: E402
 from daily import weekdays  # noqa: E402
-from decide import decide  # noqa: E402
+from decide import decide, resolve_call  # noqa: E402
+from monthly import brier  # noqa: E402
 from ledger import Ledger  # noqa: E402
 from market_data import FX, Prices  # noqa: E402
 from rates import Rates  # noqa: E402
@@ -49,7 +50,7 @@ with tempfile.TemporaryDirectory() as d:
     calls = [r["payload"] for r in L.records("calls")]
     check("the dated call is logged with the market-implied chance", len(calls) == 1 and calls[0]["market_implied"] is not None, calls)
     bad = dict(card, outcomes=[[0.5, 6.00], [0.5, 3.95]])
-    out2 = decide(L, prices, fx, rates, cfg, bad, now)
+    out2 = decide(L, prices, fx, rates, cfg, bad, now.replace(minute=45))
     check("a card whose odds do not beat the price is vetoed", out2["placed"] is None and out2["breaches"], out2["breaches"])
     vetoes = [r["payload"] for r in L.records("decisions") if r["payload"].get("vetoed")]
     check("the veto is logged with its reasons", len(vetoes) == 1 and vetoes[0]["breaches"], vetoes)
@@ -60,6 +61,13 @@ with tempfile.TemporaryDirectory() as d:
     sell = {"sleeve": "deal", "market": "ASX", "ticker": "SDF", "side": "sell", "thesis": "test exit"}
     out3 = decide(L, prices, fx, rates, cfg, sell, datetime(2026, 10, 30, 8, 30, tzinfo=timezone.utc))
     check("an exit for the whole holding is placed", out3["placed"] is not None and out3["placed"]["qty"] > 0, out3)
+    c = [r["payload"] for r in L.records("calls") if r["payload"].get("event") != "outcome"][0]
+    resolve_call(L, "ASX", "SDF", c["made_utc"], True, "test: scheme implemented", datetime(2026, 10, 30, 9, 0, tzinfo=timezone.utc))
+    recs = [r["payload"] for r in L.records("calls")]
+    outs = {(x["market"], x["ticker"], x["made_utc"]): x["main_outcome_happened"] for x in recs if x.get("event") == "outcome"}
+    ours, mkt, n = brier([x for x in recs if x.get("event") != "outcome"], outs)
+    check("a resolved call is scored against the market's chance", n == 1 and abs(ours - (1 - 0.96) ** 2) < 1e-9
+          and abs(mkt - (1 - c["market_implied"]) ** 2) < 1e-9, (ours, mkt, n))
     check("ledger chain intact", all(v == "ok" for v in L.verify().values()), L.verify())
 print("\nALL PASS" if not fails else f"\n{len(fails)} FAILED: {fails}")
 sys.exit(1 if fails else 0)
