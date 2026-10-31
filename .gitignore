@@ -4,3 +4,4 @@ __pycache__/
 secrets*
 ledger/dryrun/
 reports/dryrun/
+data/history/insider_buys.csv

@@ -86,6 +86,17 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
   - Each special situation type needs positive returns after costs in 2020 to 2026, on at least 30 events.
   - Deals must beat cash after costs, and our odds must score better than the market's spread.
 - A sleeve that fails is dropped and its weight goes to cash.
+- A special situation type that has not passed its test is not traded in the counted run.
+
+### 9a. Test registered on 1 Nov 2026, before any result: US director and officer buying clusters
+- Events: at least N different directors or officers of a company buy its shares on the market within 30 days, together for at least US$100,000 (SEC Form 4 data sets). Ten-per-cent holders who are not directors or officers don't count. The event is the filing date of the report that completes the cluster; a new cluster on the same company needs a 90-day gap.
+- Universe at entry: NYSE or Nasdaq shares at US$3 or more, with a 20-session median traded value of at least L. The Form 4 purchase price must be within 25% of the share's close on the trade date (this catches tickers that were later reused).
+- Entry at the open of the first session after the filing date. Exit at the open H sessions later.
+- Result per event: return less the S&P 500 (SPY) over the same sessions, after costs: US$5 brokerage each way at a US$1,700 stake, 0.5% currency conversion per round trip, half the estimated spread each way (Corwin and Schultz, with the engine's floors).
+- Tuning on 2010 to 2019: N of 2, 3 or 4; H of 63 or 126 sessions; L of US$1m or US$5m. All 12 versions are recorded. The version with the highest mean after costs on at least 60 events is picked.
+- One run of the picked version on events from 2020 to the latest event whose exit has happened. Pass needs all of: at least 30 events; mean after costs above zero with a t-statistic of 2 or more; still above zero with the best 5% of events removed; no single year more than half the total gain.
+- Prices: Tiingo, for a fixed random sample of tickers (seed 20261101) within the free plan's 500 symbols a month: 336 tickers, drawn from 2,736 with a cluster from 2020 and 3,624 with one in 2010 to 2019 (280 hold-out, 200 tuning, 144 in both). Tiingo may miss some delisted shares, so the result is a screen, not proof.
+- The data: 390,049 open-market purchases by directors and officers from January 2010 to March 2026, giving 18,264 clusters of two or more buyers, 10,987 of three or more and 6,955 of four or more.
 
 ## 10. Success tests (scored on 30 July 2027)
 1. Ahead after all costs.
@@ -99,5 +110,6 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
 | 2026-11-01 | Rules-only sleeve dropped; its 10% goes to cash | Failed the history test before the rules were locked: see reports/rules_only_history.md |
+| 2026-11-01 | Section 9a: special situations test for US director and officer buying clusters registered, with its settings and pass marks, before any data was looked at | So the test can't be fitted to the hold-out years |
 | 2026-11-01 | Daily cycle moved from 7:30pm to 9pm NZ time; prices fetched at 8:30pm NZ time in both daylight-saving seasons | At 7:30pm NZ in winter the ASX close is barely an hour old and the free feed may not have it; a fixed UTC time drifted by an hour across seasons |
 | 2026-10-31 | NZ core moved from FNZ to ENZL; NZ companies with an ASX listing are priced and traded on that line until an NZX feed is in place | EODHD does not carry NZX (its exchange list has no NZ entry), and no free feed found does |

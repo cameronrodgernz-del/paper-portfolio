@@ -1,0 +1,75 @@
+name: History prices
+
+# Fetches long price histories once each for the history tests (config/universe_history.csv),
+# within Tiingo's free limits: up to 45 requests a run, hourly, never in the 07:00 to 09:59 UTC
+# window the nightly job uses. Once every sampled ticker is in, it runs the test, which writes its
+# result a single time. When nothing is left it stops after a few seconds.
+on:
+  schedule:
+    # 31 Oct and 1 to 10 Nov 2026 only: about eight runs are needed, the rest are spares
+    - cron: "15 13-23 31 10 *"
+    - cron: "15 0-6,10-23 1-10 11 *"
+  push:
+    paths:
+      - config/run_history.txt
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: history-prices
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Anything left to fetch?
+        id: left
+        run: |
+          python3 -I - <<'EOF' >> "$GITHUB_OUTPUT"
+          import csv, os
+          rows = list(csv.DictReader(open("config/universe_history.csv")))
+          d = "data/history/prices/US"
+          left = [r["ticker"] for r in rows if not os.path.exists(f"{d}/{r['ticker']}.csv") and not os.path.exists(f"{d}/{r['ticker']}.csv.none")]
+          print(f"left={len(left)}")
+          print(f"done={'yes' if os.path.exists('reports/special_insider_history.md.lock') else 'no'}")
+          EOF
+      - name: Tiingo's list of supported tickers (exchange and dates), once
+        if: steps.left.outputs.done == 'no' && hashFiles('data/history/tiingo_supported.csv') == ''
+        continue-on-error: true
+        run: |
+          mkdir -p data/history /tmp/sup
+          curl -sSfL -o /tmp/sup/s.zip https://apimedia.tiingo.com/docs/tiingo/daily/supported_tickers.zip
+          unzip -o -q /tmp/sup/s.zip -d /tmp/sup
+          python3 -I - <<'EOF'
+          import csv, glob
+          want = {r["ticker"] for r in csv.DictReader(open("config/universe_history.csv"))}
+          src = glob.glob("/tmp/sup/*.csv")[0]
+          with open(src, newline="") as f, open("data/history/tiingo_supported.csv", "w", newline="") as g:
+              rd = csv.DictReader(f); w = csv.DictWriter(g, fieldnames=rd.fieldnames); w.writeheader()
+              w.writerows(r for r in rd if (r.get("ticker") or "").upper() in want)
+          EOF
+      - name: Prices
+        if: steps.left.outputs.left != '0'
+        env:
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
+        run: python3 -I src/fetch_prices.py config/universe_history.csv data/history --start 2009-06-01 --once
+      - name: Test (runs once, when every sampled ticker is in)
+        if: steps.left.outputs.done == 'no'
+        run: python3 -I src/history/insider_test.py .
+      - name: Save
+        run: |
+          git config user.name "paper-portfolio-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/history reports
+          git diff --cached --quiet && exit 0
+          git commit -m "History prices $(date -u +%Y-%m-%dT%H:%M)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
+          exit 1

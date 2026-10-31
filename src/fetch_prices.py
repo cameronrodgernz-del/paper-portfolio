@@ -9,7 +9,7 @@ Each share is kept in data/prices/<market>/<ticker>.csv with unadjusted open, hi
 low, close and volume (fills use these), plus dividend and split fields where the
 provider gives them. Only dates after the last stored date are requested, and a session is stored only once its
 prices are final.
-Usage: python3 -I src/fetch_prices.py <universe.csv> [data_dir]
+Usage: python3 -I src/fetch_prices.py <universe.csv> [data_dir] [--start YYYY-MM-DD] [--once]
 """
 import csv
 import json
@@ -76,9 +76,11 @@ def append(path: str, rows: list[dict], after: str | None, market: str | None = 
     return len(clean)
 
 
-def main(universe: str, data_dir: str = "data") -> int:
+def main(universe: str, data_dir: str = "data", start_default: str | None = None, once: bool = False) -> int:
+    """`start_default`: first date for a share with no file yet (default: a year ago).
+    `once`: fetch each share a single time and never top it up (for the history tests)."""
     tiingo, eodhd = os.environ.get("TIINGO_API_KEY"), os.environ.get("EODHD_API_KEY")
-    start_default = (date.today() - timedelta(days=365)).isoformat()
+    start_default = start_default or (date.today() - timedelta(days=365)).isoformat()
     eodhd_calls, tiingo_calls, problems, report = 0, 0, [], []
     names, seen = [], set()
     for u in universe.split(","):
@@ -95,6 +97,8 @@ def main(universe: str, data_dir: str = "data") -> int:
     for n in names:
         path = os.path.join(data_dir, "prices", n["market"], f"{n['ticker']}.csv")
         after = last_date(path)
+        if once and (after or os.path.exists(path + ".none")):
+            continue
         start = (date.fromisoformat(after) + timedelta(days=1)).isoformat() if after else start_default
         try:
             if n["provider"] == "tiingo":
@@ -119,9 +123,15 @@ def main(universe: str, data_dir: str = "data") -> int:
             else:
                 problems.append(f"{n['ticker']}: unknown provider {n['provider']}"); continue
             added = append(path, rows, after, n["market"])
+            if once and not added:     # remember a share with no data, so it isn't asked for again
+                os.makedirs(os.path.dirname(path), exist_ok=True)
+                open(path + ".none", "w").write(date.today().isoformat())
             report.append(f"{n['market']}:{n['ticker']} +{added}")
         except Exception as e:  # keep going; the clerk sees the problem list
             problems.append(f"{n['ticker']}: {type(e).__name__}: {str(e)[:120]}")
+            if once and "404" in str(e):
+                os.makedirs(os.path.dirname(path), exist_ok=True)
+                open(path + ".none", "w").write(date.today().isoformat())
     os.makedirs(os.path.join(data_dir, "prices"), exist_ok=True)
     with open(os.path.join(data_dir, "prices", "last_run.txt"), "w") as f:
         f.write(f"run {date.today().isoformat()}\n" + "\n".join(report) +
@@ -131,4 +141,8 @@ def main(universe: str, data_dir: str = "data") -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "data"))
+    # python3 -I src/fetch_prices.py <universe> [data_dir] [--start YYYY-MM-DD] [--once]
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    start = next((sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--start"), None)
+    args = [a for a in args if a != start]
+    sys.exit(main(args[0], args[1] if len(args) > 1 else "data", start, "--once" in sys.argv))
