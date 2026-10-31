@@ -17,6 +17,8 @@ This is the working draft. It's tightened during the practice run and locked on 
 | Rules-only | 0% (was 10%) | n/a | Dropped on 1 Nov 2026: failed the history test (section 6, reports/rules_only_history.md). Its 10% goes to cash under section 9 |
 | Cash | 20% (was 10%) | 5% floor | On-call cash, including the rules-only sleeve's 10% |
 
+Only special situation types that pass a history test are traded (section 9). So far one type can be tested on free data: US director and officer buying clusters (9a). Holder build-ups, strategic reviews, rejected bids, index changes and discounted offers have no free event data yet, so until one is found they are watched and written up but not traded.
+
 Money an active sleeve can't use well stays in cash. The core and the rules-only sleeve are brought back inside their bands at the first open of each quarter.
 
 ## 3. Limits
@@ -39,9 +41,9 @@ Deal and special situation positions are sized at a quarter of the Kelly stake f
 
 ## 5. Deals
 - Eligible only after a binding agreement or a formal offer. Rumours and non-binding approaches go in special situations.
-- Entry needs an expected return above the cash rate, after costs and annualised to the expected completion date, and a stated reason why the market's spread is wrong.
+- Entry needs an expected return above the cash rate, after costs and annualised to the expected completion date, and a stated reason why the market's spread is wrong. The costs counted are the buy brokerage after the plan's cover, half the spread and the size cost, a currency conversion if foreign cash is short, the hedge's dealing cost, and the sale costs weighted by the chance of exiting by sale rather than by consideration.
 - Odds start from the deal database's base rates for that structure, bidder type and regulator, then adjust for evidence, each adjustment written down.
-- Deal positions in AUD and USD are hedged back to NZ dollars in the simulation at the forward rate (the interest-rate gap, from published rates), and also reported unhedged.
+- Deal positions in AUD and USD are hedged back to NZ dollars in the simulation at the forward rate (the interest-rate gap, from published rates), and also reported unhedged. The hedge is a rolling three-month forward sale of the currency for the position's value at the close, opened in the run that books the fill, re-sized when it is more than 20% off the position, closed when the position goes, and charged 0.1% of its size as a dealing cost, since Sharesies offers no hedging.
 - Exit when the deal completes, breaks, or a rival bid makes holding on a new decision. A rival bid is treated as a fresh entry decision.
 
 ## 6. Rules-only screen (failed its history test on 1 Nov 2026; kept for the record)
@@ -65,7 +67,7 @@ Result: on survivorship-free published data (Kenneth French library, to Sep 2026
 - AUD and USD are bought in blocks and held as foreign cash.
 - Spreads are estimated each month from daily highs and lows (Corwin and Schultz), with floors by liquidity.
 - Dividends are credited on the payment date to holders on the ex-date. Scheme and offer consideration is paid on the real payment date. Halts, splits, consolidations and delistings are applied as they happened.
-- Cash earns an on-call rate set at the start of each month from a major NZ bank's published rate.
+- Cash earns an on-call rate set at the start of each month from a major NZ bank's published rate, entered in config/run.json. If none is entered for a month, the NZ three-month bank rate less one point is used.
 
 ## 8. The daily cycle (each weekday, 9pm NZ time, after the nightly prices land at about 8:30pm)
 1. Clerk: load the new prices, fill the orders waiting from the last decision, apply corporate actions, value the portfolio, check the limits.
@@ -122,6 +124,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
 | 2026-11-01 | Rules-only sleeve dropped; its 10% goes to cash | Failed the history test before the rules were locked: see reports/rules_only_history.md |
+| 2026-11-01 | Hedging, cash rate and deal-entry costs written out as the engine applies them; special situation types limited to those with a passed test | So the rulebook and the code say the same thing |
 | 2026-11-01 | Section 9b: deal spreads history test for US cash deals registered, with its rules and pass marks, before any data was looked at | As for 9a |
 | 2026-11-01 | Section 9a: special situations test for US director and officer buying clusters registered, with its settings and pass marks, before any data was looked at | So the test can't be fitted to the hold-out years |
 | 2026-11-01 | Daily cycle moved from 7:30pm to 9pm NZ time; prices fetched at 8:30pm NZ time in both daylight-saving seasons | At 7:30pm NZ in winter the ASX close is barely an hour old and the free feed may not have it; a fixed UTC time drifted by an hour across seasons |
