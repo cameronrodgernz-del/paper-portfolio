@@ -76,6 +76,11 @@ jobs:
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
         run: python3 -I src/fetch_prices.py config/universe_history_deals.csv data/history --start 2014-06-01 --once
+      - name: NZX history back to July 2023 (FinFeedAPI), 40 shares a run until done
+        continue-on-error: true
+        env:
+          FINFEED_API_KEY: ${{ secrets.FINFEED_API_KEY }}
+        run: python3 -I src/fetch_nzx.py data --backfill-from 2023-07-01 --max-requests 40
       - name: Insider test (runs once, when its sample is in)
         if: steps.left.outputs.done == 'no'
         run: python3 -I src/history/insider_test.py .
@@ -86,7 +91,7 @@ jobs:
         run: |
           git config user.name "paper-portfolio-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/history reports
+          git add data/history data/prices/NZX config/nzx_isins.csv reports
           git diff --cached --quiet && exit 0
           git commit -m "History prices $(date -u +%Y-%m-%dT%H:%M)"
           for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done

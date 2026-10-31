@@ -14,7 +14,7 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,11 +25,16 @@ jobs:
         env:
           FINFEED_API_KEY: ${{ secrets.FINFEED_API_KEY }}
         run: python3 -I src/finfeed_diag.py data
+      - name: NZX prices and history (FinFeedAPI)
+        continue-on-error: true
+        env:
+          FINFEED_API_KEY: ${{ secrets.FINFEED_API_KEY }}
+        run: python3 -I src/fetch_nzx.py data --backfill-from 2023-07-01 --max-requests 35
       - name: Save results
         run: |
           git config user.name "paper-portfolio-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/diagnostics
+          git add data/diagnostics data/prices/NZX config/nzx_isins.csv
           git diff --cached --quiet && exit 0
           git commit -m "Diagnostics $(date -u +%Y-%m-%d)"
           for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done

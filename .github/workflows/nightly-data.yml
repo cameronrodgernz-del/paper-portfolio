@@ -56,6 +56,11 @@ jobs:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
           EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
         run: python3 -I src/fetch_prices.py config/universe_trial.csv,config/universe_us_deals.csv data
+      - name: NZX prices (FinFeedAPI, paid by usage credits)
+        continue-on-error: true
+        env:
+          FINFEED_API_KEY: ${{ secrets.FINFEED_API_KEY }}
+        run: python3 -I src/fetch_nzx.py data --max-requests 15
       - name: Engine checks
         run: python3 -I tests/test_engine.py && python3 -I tests/test_clerk.py && python3 -I tests/test_clerk_actions.py && python3 -I tests/test_hedges.py && python3 -I tests/test_risk.py && python3 -I tests/test_decide.py && python3 -I tests/test_insider_history.py && python3 -I tests/test_deal_history.py
       - name: Deal monitor
@@ -81,7 +86,7 @@ jobs:
         run: |
           git config user.name "paper-portfolio-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data config/universe_us_deals.csv reports ledger
+          git add data config/universe_us_deals.csv config/nzx_isins.csv reports ledger
           git diff --cached --quiet && exit 0
           git commit -m "Nightly data $(date -u +%Y-%m-%d)"
           for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
