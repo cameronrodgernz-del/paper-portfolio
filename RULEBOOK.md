@@ -70,7 +70,7 @@ Result: on survivorship-free published data (Kenneth French library, to Sep 2026
   - outside the 20 largest NZX companies (config/nzx_top20.csv), no order is bigger than NZ$2,500;
   - the buy-sell gap charged is at least 0.6% outside the 20 largest and 0.25% for them;
   - with volumes unknown there is no volume cap and no size cost on NZX fills: the order cap stands in for both.
-  Until the list of the 20 largest is filled from a published source, every NZX share gets the smaller-company rules.
+  The 20 largest are taken from a published table of NZX companies by market value (interest.co.nz's NZX 50 table, as at 30 October 2026) and refreshed at the first run of each quarter.
 - A buy is cut to the cash there is. Foreign currency is converted from NZ$ only up to the NZ$ held, so nothing is ever borrowed.
 - Costs are Sharesies NZ's, as at 31 October 2026:
   - the $15 plan, covering fees on the first NZ$5,000 of orders each month;
@@ -137,6 +137,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
 | 2026-11-01 | Rules-only sleeve dropped; its 10% goes to cash | Failed the history test before the rules were locked: see reports/rules_only_history.md |
 | 2026-11-01 | Dates brought forward at Cam's request: practice run 2 November to 31 December 2026 (was 7 December to 29 January), counted run 4 January to 2 July 2027 (was 1 February to 30 July), rulebook locked 31 December | The build finished early; most live ASX deals end before December |
+| 2026-11-01 | Section 7: list of the 20 largest NZX companies filled from interest.co.nz's NZX 50 table as at 30 October 2026 | The S&P/NZX 20 list itself isn't published in a form that can be read; the top 10 by S&P's March 2026 weights are all in it |
 | 2026-11-01 | Section 9b: prices fetched from 1 November rather than December; nothing else in the test changes | So US deals can join the practice run sooner. No 9b result has been seen |
 | 2026-11-01 | Section 5: US deals not traded until test 9b passes | The practice run now starts before 9b can be priced |
 | 2026-11-01 | NZX rules for prices without volumes (section 7), agreed with Cam | FinFeedAPI's NZX feed has prices but no volumes |

@@ -6,7 +6,7 @@ The practice run was brought forward to start on 2 November 2026, at Cam's reque
 | # | Item | Status | Notes |
 |---|---|---|---|
 | 1 | Nightly prices land for every name, five weekdays running, with no failures | To come | Run by hand on 1 November; first scheduled run Monday 2 November, 8:30pm NZ |
-| 2 | A price feed for NZX-only shares | Done | FinFeedAPI (usage credits): 162 NZX shares nightly, history from July 2023; no volumes, so NZX has its own rules (rulebook section 7). To do: fill config/nzx_top20.csv from a published list |
+| 2 | A price feed for NZX-only shares | Done | FinFeedAPI (usage credits): 162 NZX shares nightly, history from July 2023; no volumes, so NZX has its own rules (rulebook section 7). The 20 largest (config/nzx_top20.csv) are from interest.co.nz's NZX 50 table, as at 30 October 2026 |
 | 3 | VT, VAS and ENZL confirmed on Sharesies | Done | Confirmed by Cam on 1 Nov against our closes for 30 Oct: VT (NYSE) US$155.24 against US$155.33; VAS (ASX) A$110.03, the same; ENZL (Nasdaq) US$44.81, the same |
 | 4 | Engine checks pass | Done | 10 suites in every nightly job |
 | 5 | Independent review of the engine code | Done | Two reviews: 20 findings, then 13 in the fixes; all fixed (docs/reviews/engine_review_2026-11-01.md) |

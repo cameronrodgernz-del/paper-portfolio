@@ -38,6 +38,9 @@ Follows rulebook section 8. Each step leaves a file, so a missed or partial nigh
 
 Nothing is backdated: a decision is timed when `decide.py` runs, and the clerk fills it only in a session that opens afterwards. A missed desk means no decisions that night.
 
+## Quarterly
+At the first desk run of each quarter: refresh config/nzx_top20.csv from interest.co.nz's NZX 50 table (the 20 largest NZX-listed companies by market value, leaving out ASX-listed lines such as ANZ and WBC), with the date.
+
 ## Monthly
 At the first run of each month: the report (`reports/<ledger>/monthly/<month>.md`) covering return against the passive mixes, the worst fall, costs paid, hit rate on calls, and every rule exception. Cash rate set for the month in `config/run.json` (otherwise the NZ three-month rate less one point).
 
