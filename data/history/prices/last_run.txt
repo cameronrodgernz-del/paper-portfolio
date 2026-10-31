@@ -1,95 +1,50 @@
 run 2026-10-31
-US:HLS +2163
-US:HMPR +151
-US:HMST +3408
-US:HPP +4114
-US:HRL +4383
-US:HTLD +4383
-US:HTLF +4125
-US:HYLN +1892
-US:HYPD +2204
-US:ICMB +3203
-US:ICVX +644
-US:IEA +1144
-US:IHRT +1877
-US:III +4383
-US:IMAX +4383
-US:IMGO +376
-US:INCY +4383
-US:IONM +2324
-US:ISDR +0
-US:ITW +4383
-US:JACK +4383
-US:JAN +150
-US:JNP +2318
-US:JRVR +2988
-US:JRVS +3027
-US:JXN +1297
-US:KDNY +2097
-US:KDP +4383
-US:KMI +3953
-US:KMX +4383
-US:KRMD +4381
-US:KROS +1650
-US:KTOS +4383
-US:LAKE +4383
-US:LEVL +995
-US:LFHAX +539
-US:LKFN +4383
-US:LNKB +1460
-US:LQDA +2078
-US:LSYN +1456
-US:MA +4383
-US:MAIA +1070
-US:MBI +4383
-US:MCACU +724
+US:MCGC +1565
+US:MDLN +219
+US:MEP +955
+US:MFNC +3089
+US:MIDD +4383
+US:MIRM +1833
+US:MITK +4383
+US:MITT +3857
+US:MLKN +4383
+US:MLVF +3556
+US:MONIX +782
+US:MOS +4383
+US:MPB +4383
+US:MPC +3862
+US:MPLT +255
+US:MSTR +4383
+US:MTH +4383
+US:NBR +4383
+US:NCDL +695
+US:NCLH +3467
+US:NGL +3889
+US:NI +4383
+US:NKSH +4383
+US:NLSN +2947
+US:NOAC +451
+US:NOVA +2934
+US:NPO +4383
+US:NRGY +5
+US:NSTS +1180
+US:NWHM +1916
+US:NXST +4383
+US:OAS +2628
+US:OCFC +4383
+US:OCSI +1936
+US:OFLX +4383
+US:OI +4383
+US:OPEN +1601
+US:OPTN +1911
+US:ORLY +4383
+US:OSAT +3132
+US:OUST +1522
+US:PCB +3122
+US:PCRX +3959
+US:PCT +1584
 PROBLEMS:
-IRNT: HTTPError: HTTP Error 404: Not Found
-MCGC: Tiingo hourly budget used
-MDLN: Tiingo hourly budget used
-MEP: Tiingo hourly budget used
-MFNC: Tiingo hourly budget used
-MIDD: Tiingo hourly budget used
-MIRM: Tiingo hourly budget used
-MITK: Tiingo hourly budget used
-MITT: Tiingo hourly budget used
-MLKN: Tiingo hourly budget used
-MLVF: Tiingo hourly budget used
-MONIX: Tiingo hourly budget used
-MOS: Tiingo hourly budget used
-MPB: Tiingo hourly budget used
-MPC: Tiingo hourly budget used
-MPLT: Tiingo hourly budget used
-MSTR: Tiingo hourly budget used
-MTH: Tiingo hourly budget used
-NBR: Tiingo hourly budget used
-NCDL: Tiingo hourly budget used
-NCLH: Tiingo hourly budget used
-NGL: Tiingo hourly budget used
-NHPIF: Tiingo hourly budget used
-NI: Tiingo hourly budget used
-NKSH: Tiingo hourly budget used
-NLSN: Tiingo hourly budget used
-NOAC: Tiingo hourly budget used
-NOVA: Tiingo hourly budget used
-NPO: Tiingo hourly budget used
-NRGY: Tiingo hourly budget used
-NSTS: Tiingo hourly budget used
-NWHM: Tiingo hourly budget used
-NXST: Tiingo hourly budget used
-OAS: Tiingo hourly budget used
-OCFC: Tiingo hourly budget used
-OCSI: Tiingo hourly budget used
-OFLX: Tiingo hourly budget used
-OI: Tiingo hourly budget used
-OPEN: Tiingo hourly budget used
-OPTN: Tiingo hourly budget used
-ORLY: Tiingo hourly budget used
-OSAT: Tiingo hourly budget used
-OUST: Tiingo hourly budget used
-PCB: Tiingo hourly budget used
-PCRX: Tiingo hourly budget used
-PCT: Tiingo hourly budget used
+NHPIF: HTTPError: HTTP Error 404: Not Found
 PDFS: Tiingo hourly budget used
 PEPG: Tiingo hourly budget used
 PFBX: Tiingo hourly budget used
