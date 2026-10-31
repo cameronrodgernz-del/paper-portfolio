@@ -2,7 +2,8 @@
   1. charges the monthly plan fee and accrues interest on cash,
   2. fills open orders in sessions that opened after the decision was logged,
   3. applies corporate actions (dividends, scheme or offer consideration, splits),
-  4. values the portfolio in NZ dollars and checks the limits.
+  4. keeps deal positions in AUD or USD hedged back to NZ$ with rolling forwards,
+  5. values the portfolio in NZ dollars (hedged, and unhedged for comparison) and checks the limits.
 Everything it does is appended to the ledger; nothing is edited.
 
 Orders are placed with place_order(), which sizes them from the last close the
@@ -16,13 +17,18 @@ from datetime import date, datetime, timedelta, timezone
 from costs import PLAN_MONTHLY_NZD, PlanState, brokerage, FX_FEE
 from fills import fill_order
 from ledger import Ledger
-from market_data import CURRENCY, FX, Prices, closed_by, session_open_utc
+from market_data import CURRENCY, FX, Prices, closed_by, nz_evening_utc, session_open_utc
+from rates import Rates
 
 CAPS = {"deal": 0.04, "special": 0.03}          # share of portfolio per position
 CASH_FLOOR = 0.05
 DRAWDOWN_HALVE, DRAWDOWN_EXIT = 0.08, 0.12
 ORDER_LIFE_SESSIONS = 5
 FX_BLOCK_BUFFER = 0.02                            # convert 2% more than needed, then hold it
+HEDGE_SLEEVES = ("deal",)                         # rulebook: deal positions in AUD and USD are hedged
+HEDGE_TENOR_DAYS = 91                             # rolling three-month forwards
+HEDGE_COST = 0.001                                # simulated dealing cost, 0.1% of notional (Sharesies offers no hedging)
+HEDGE_REBALANCE = 0.20                            # re-size when hedge and position differ by more than 20%
 
 
 def utc(ts: str) -> datetime:
@@ -32,8 +38,11 @@ def utc(ts: str) -> datetime:
 # ---------------------------------------------------------------- state
 def state(L: Ledger) -> dict:
     cash = defaultdict(float)
+    hedge_realised = 0.0
     for r in L.records("cash"):
         cash[r["payload"]["ccy"]] += r["payload"]["amount"]
+        if r["payload"]["kind"] == "hedge_settle":
+            hedge_realised += r["payload"]["amount"]
     pos = defaultdict(float)
     for r in L.records("fills"):
         p = r["payload"]
@@ -63,7 +72,7 @@ def state(L: Ledger) -> dict:
         elif p["event"] == "close":
             hedges.pop(p["hedge_id"], None)
     return {"cash": dict(cash), "positions": {k: v for k, v in pos.items() if abs(v) > 1e-9},
-            "open_orders": open_orders, "applied": applied, "hedges": hedges}
+            "open_orders": open_orders, "applied": applied, "hedges": hedges, "hedge_realised_nzd": hedge_realised}
 
 
 def plan_for_month(L: Ledger, month: str) -> PlanState:
@@ -79,7 +88,7 @@ def place_order(L: Ledger, prices: Prices, fx: FX, decided_at_utc: str, sleeve: 
                 decision: dict | None = None) -> dict:
     """Log the decision and the order. Size comes from the last close before the decision."""
     when = utc(decided_at_utc)
-    seen = [b for b in prices.bars(market, ticker) if session_open_utc(market, b.date) + timedelta(hours=7) < when]
+    seen = [b for b in prices.bars(market, ticker) if closed_by(market, b.date, when)]
     if not seen:
         raise ValueError(f"no price for {market}:{ticker} before {decided_at_utc}")
     ref_price = seen[-1].close
@@ -99,8 +108,8 @@ def place_order(L: Ledger, prices: Prices, fx: FX, decided_at_utc: str, sleeve: 
 
 
 # ---------------------------------------------------------------- the daily run
-def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict) -> dict:
-    ts = f"{run_date}T06:30:00Z"   # 7:30pm NZ daylight time
+def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rates | None = None) -> dict:
+    ts = nz_evening_utc(run_date).strftime("%Y-%m-%dT%H:%M:%SZ")   # 9pm NZ time, daylight saving or not
     st = state(L)
     report = {"date": run_date, "fills": [], "cancelled": [], "actions": [], "flags": []}
 
@@ -198,9 +207,13 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict) -> dict:
         L.append("corporate_actions", {"type": f"{p['type']}_applied", "ref": r["seq"]}, ts=ts)
         report["actions"].append(f"{p['type']} {p['market']}:{p['ticker']}")
 
-    # 4. value the portfolio and check the limits
+    # 4. hedges: deal positions in AUD or USD carry a rolling forward sale of that currency for NZ$
+    if rates is not None and cfg.get("hedge", True):
+        report["hedges"] = manage_hedges(L, prices, fx, rates, run_date, ts)
+
+    # 5. value the portfolio and check the limits
     st = state(L)
-    val = value(st, prices, fx, run_date, utc(ts))
+    val = value(st, prices, fx, run_date, utc(ts), rates)
     peaks = [r["payload"]["total_nzd"] for r in L.records("valuations")]
     peak = max(peaks + [val["total_nzd"]])
     dd = val["total_nzd"] / peak - 1
@@ -229,7 +242,67 @@ def _convert(L: Ledger, fx: FX, d: str, frm: str, to: str, amount_to: float, ts:
                       "fee_nzd": round(nzd_in * FX_FEE, 2), "date": d}, ts=ts)
 
 
-def value(st: dict, prices: Prices, fx: FX, d: str, as_of_utc: datetime | None = None) -> dict:
+# ---------------------------------------------------------------- hedges
+def hedge_value_nzd(h: dict, fx: FX, rates: Rates | None, d: str) -> float:
+    """What closing the forward would pay in NZ$ today: sold foreign at the dealt rate, bought back at today's forward."""
+    spot = fx.per_nzd(h["ccy"], d)
+    left = (date.fromisoformat(h["maturity"]) - date.fromisoformat(d)).days
+    now = rates.forward_per_nzd(h["ccy"], spot, d, left) if rates is not None else spot
+    return h["notional_foreign"] / h["forward_rate"] - h["notional_foreign"] / now
+
+
+def open_hedge(L: Ledger, fx: FX, rates: Rates, d: str, ts: str, sleeve: str, market: str, ticker: str,
+               notional_foreign: float) -> dict:
+    ccy = CURRENCY[market]
+    spot = fx.per_nzd(ccy, d)
+    mid = rates.forward_per_nzd(ccy, spot, d, HEDGE_TENOR_DAYS)
+    p = {"event": "open", "hedge_id": f"H{d}-{market}-{ticker}-{len(L.records('hedges'))}", "sleeve": sleeve,
+         "market": market, "ticker": ticker, "ccy": ccy, "notional_foreign": round(notional_foreign, 2),
+         "trade_date": d, "maturity": (date.fromisoformat(d) + timedelta(days=HEDGE_TENOR_DAYS)).isoformat(),
+         "spot": spot, "forward_mid": round(mid, 6), "forward_rate": round(mid * (1 + HEDGE_COST), 6),
+         "rate_foreign": rates.three_month(ccy, d), "rate_nzd": rates.three_month("NZD", d)}
+    L.append("hedges", p, ts=ts)
+    return p
+
+
+def close_hedge(L: Ledger, fx: FX, rates: Rates | None, h: dict, d: str, ts: str, reason: str) -> float:
+    pnl = round(hedge_value_nzd(h, fx, rates, d), 2)
+    L.append("hedges", {"event": "close", "hedge_id": h["hedge_id"], "date": d, "pnl_nzd": pnl, "reason": reason}, ts=ts)
+    L.append("cash", {"kind": "hedge_settle", "ccy": "NZD", "amount": pnl, "hedge_id": h["hedge_id"]}, ts=ts)
+    return pnl
+
+
+def manage_hedges(L: Ledger, prices: Prices, fx: FX, rates: Rates, d: str, ts: str) -> list[str]:
+    """No discretion: close hedges whose position is gone or whose forward has matured; then make sure
+    each foreign-currency deal position is hedged to within 20% of its value at the last close."""
+    out = []
+    st = state(L)
+    for h in list(st["hedges"].values()):
+        held = st["positions"].get((h["sleeve"], h["market"], h["ticker"]), 0.0)
+        if held <= 1e-9 or h["maturity"] <= d:
+            pnl = close_hedge(L, fx, rates, h, d, ts, "position closed" if held <= 1e-9 else "matured")
+            out.append(f"closed {h['hedge_id']} ({pnl:+.2f} NZD)")
+    st = state(L)
+    for (sleeve, m, t), q in st["positions"].items():
+        if sleeve not in HEDGE_SLEEVES or CURRENCY[m] == "NZD" or q <= 0:
+            continue
+        px = prices.last_close(m, t, d, utc(ts))
+        if not px:
+            continue
+        want = q * px
+        cur = [h for h in st["hedges"].values() if (h["sleeve"], h["market"], h["ticker"]) == (sleeve, m, t)]
+        have = sum(h["notional_foreign"] for h in cur)
+        if have and abs(want / have - 1) <= HEDGE_REBALANCE:
+            continue
+        for h in cur:
+            pnl = close_hedge(L, fx, rates, h, d, ts, "re-size")
+            out.append(f"closed {h['hedge_id']} ({pnl:+.2f} NZD)")
+        h = open_hedge(L, fx, rates, d, ts, sleeve, m, t, want)
+        out.append(f"opened {h['hedge_id']}: sell {want:,.2f} {h['ccy']} at {h['forward_rate']} per NZD to {h['maturity']}")
+    return out
+
+
+def value(st: dict, prices: Prices, fx: FX, d: str, as_of_utc: datetime | None = None, rates: Rates | None = None) -> dict:
     lines, by_sleeve = [], defaultdict(float)
     for (sleeve, m, t), q in st["positions"].items():
         px = prices.last_close(m, t, d, as_of_utc) or 0.0
@@ -237,11 +310,11 @@ def value(st: dict, prices: Prices, fx: FX, d: str, as_of_utc: datetime | None =
         lines.append({"sleeve": sleeve, "market": m, "ticker": t, "qty": q, "close": px, "value_nzd": round(v, 2)})
         by_sleeve[sleeve] += v
     cash_nzd = {c: round(a * fx.nzd_per(c, d), 2) for c, a in st["cash"].items()}
-    hedge_mtm = 0.0
-    for h in st["hedges"].values():
-        spot = fx.per_nzd(h["ccy"], d)
-        hedge_mtm += h["notional_foreign"] / h["forward_rate"] - h["notional_foreign"] / spot
+    hedge_mtm = sum(hedge_value_nzd(h, fx, rates, d) for h in st["hedges"].values())
     total = sum(by_sleeve.values()) + sum(cash_nzd.values()) + hedge_mtm
-    return {"total_nzd": round(total, 2), "positions": lines, "by_sleeve": {k: round(v, 2) for k, v in by_sleeve.items()},
+    realised = st.get("hedge_realised_nzd", 0.0)
+    return {"total_nzd": round(total, 2), "total_unhedged_nzd": round(total - hedge_mtm - realised, 2),
+            "positions": lines, "by_sleeve": {k: round(v, 2) for k, v in by_sleeve.items()},
             "cash_local": {c: round(a, 2) for c, a in st["cash"].items()}, "cash_nzd": cash_nzd,
-            "cash_nzd_total": round(sum(cash_nzd.values()), 2), "hedge_mtm_nzd": round(hedge_mtm, 2)}
+            "cash_nzd_total": round(sum(cash_nzd.values()), 2), "hedge_mtm_nzd": round(hedge_mtm, 2),
+            "hedge_realised_nzd": round(realised, 2)}

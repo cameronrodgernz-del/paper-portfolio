@@ -18,6 +18,9 @@ from spreads import spread_estimate
 OPEN = {"NZX": ("Pacific/Auckland", time(10, 0)), "ASX": ("Australia/Sydney", time(10, 0)),
         "US": ("America/New_York", time(9, 30))}
 CURRENCY = {"NZX": "NZD", "ASX": "AUD", "US": "USD"}
+# A session's prices count as final from these local times: the close plus the closing auction and a margin
+# (NZX closes 4:45pm, ASX's closing auction ends about 4:12pm, US markets close 4pm).
+FINAL = {"NZX": time(17, 0), "ASX": time(16, 30), "US": time(16, 30)}
 
 
 def session_open_utc(market: str, d: str) -> datetime:
@@ -25,10 +28,19 @@ def session_open_utc(market: str, d: str) -> datetime:
     return datetime.combine(date.fromisoformat(d), t, ZoneInfo(tz)).astimezone(timezone.utc)
 
 
+def session_final_utc(market: str, d: str) -> datetime:
+    tz, _ = OPEN[market]
+    return datetime.combine(date.fromisoformat(d), FINAL[market], ZoneInfo(tz)).astimezone(timezone.utc)
+
+
 def closed_by(market: str, d: str, as_of_utc: datetime) -> bool:
-    """True once that session's close (taken as 7 hours after the open) has passed."""
-    from datetime import timedelta
-    return session_open_utc(market, d) + timedelta(hours=7) <= as_of_utc
+    """True once that session's prices are final (see FINAL) at the given time."""
+    return session_final_utc(market, d) <= as_of_utc
+
+
+def nz_evening_utc(d: str, hh: int = 21, mm: int = 0) -> datetime:
+    """The daily run's time: 9pm in New Zealand on that date, in UTC (moves with daylight saving)."""
+    return datetime.combine(date.fromisoformat(d), time(hh, mm), ZoneInfo("Pacific/Auckland")).astimezone(timezone.utc)
 
 
 class Prices:

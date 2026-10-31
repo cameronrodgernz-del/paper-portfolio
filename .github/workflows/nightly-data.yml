@@ -1,18 +1,37 @@
 name: Nightly data
 
-# Weekdays at 06:00 UTC (7pm NZ daylight time, 6pm NZ standard time), after the NZX
-# and ASX close and before the 7:30pm NZ daily run. US prices are from the previous
-# US session. Can also be started by hand from the Actions tab.
+# Weekdays at 8:30pm NZ time, about two hours after the ASX close and before the 9pm
+# NZ daily cycle. GitHub schedules run in UTC, so there are two: 07:30 UTC is 8:30pm in
+# NZ daylight time and 08:30 UTC is 8:30pm in NZ standard time; the gate keeps the one
+# that matches the season. US prices are from the previous US session.
+# Can also be started by hand from the Actions tab.
 on:
   schedule:
-    - cron: "0 6 * * 1-5"
+    - cron: "30 7 * * 1-5"
+    - cron: "30 8 * * 1-5"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      go: ${{ steps.season.outputs.go }}
+    steps:
+      - id: season
+        run: |
+          off=$(TZ=Pacific/Auckland date +%z)
+          want="30 7 * * 1-5"; [ "$off" = "+1200" ] && want="30 8 * * 1-5"
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "${{ github.event.schedule }}" = "$want" ]; then
+            echo "go=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=no" >> "$GITHUB_OUTPUT"; echo "Skipping: NZ offset $off, this schedule is for the other season"
+          fi
   pull:
+    needs: gate
+    if: needs.gate.outputs.go == 'yes'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -31,7 +50,7 @@ jobs:
           EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
         run: python3 -I src/fetch_prices.py config/universe_trial.csv,config/universe_us_deals.csv data
       - name: Engine checks
-        run: python3 -I tests/test_engine.py && python3 -I tests/test_clerk.py
+        run: python3 -I tests/test_engine.py && python3 -I tests/test_clerk.py && python3 -I tests/test_hedges.py
       - name: Deal monitor
         continue-on-error: true
         run: python3 -I src/deal_monitor.py .

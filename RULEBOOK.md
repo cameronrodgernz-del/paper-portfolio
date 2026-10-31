@@ -67,7 +67,7 @@ Result: on survivorship-free published data (Kenneth French library, to Sep 2026
 - Dividends are credited on the payment date to holders on the ex-date. Scheme and offer consideration is paid on the real payment date. Halts, splits, consolidations and delistings are applied as they happened.
 - Cash earns an on-call rate set at the start of each month from a major NZ bank's published rate.
 
-## 8. The daily cycle (each weekday, 7:30pm NZ time)
+## 8. The daily cycle (each weekday, 9pm NZ time, after the nightly prices land at about 8:30pm)
 1. Clerk: load the new prices, fill the orders waiting from the last decision, apply corporate actions, value the portfolio, check the limits.
 2. Scanners: read the day's NZX, ASX and SEC filings for holdings and the watchlist, and flag events.
 3. Analysts: write up new events and re-test any holding with material news.
@@ -99,4 +99,5 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
 | 2026-11-01 | Rules-only sleeve dropped; its 10% goes to cash | Failed the history test before the rules were locked: see reports/rules_only_history.md |
+| 2026-11-01 | Daily cycle moved from 7:30pm to 9pm NZ time; prices fetched at 8:30pm NZ time in both daylight-saving seasons | At 7:30pm NZ in winter the ASX close is barely an hour old and the free feed may not have it; a fixed UTC time drifted by an hour across seasons |
 | 2026-10-31 | NZ core moved from FNZ to ENZL; NZ companies with an ASX listing are priced and traded on that line until an NZX feed is in place | EODHD does not carry NZX (its exchange list has no NZ entry), and no free feed found does |
