@@ -122,12 +122,25 @@ with tempfile.TemporaryDirectory() as d:
           len(sells) == 1 and sells[0]["ticker"] == "SDF" and sells[0]["qty"] == held // 2, (a, sells))
     b = drawdown_rules(L, prices, fx, "2026-10-05", {"peak_nzd": 100000.0, "drawdown": -0.09})
     check("the 8% step happens once per peak", b == [], b)
+    place_order(L, prices, fx, "2026-10-06T07:00:00Z", "deal", "ASX", "CWY", "buy", value_nzd=3000, limit=1.0)   # a limit that won't fill
     c = drawdown_rules(L, prices, fx, "2026-10-06", {"peak_nzd": 100000.0, "drawdown": -0.125})
+    check("the 12% rule cancels waiting active buys", not any(o["ticker"] == "CWY" for o in state(L)["open_orders"]), c)
     check("at 12% below the peak, the rest is sold and a review is required", review_pending(L) and any("review" in x for x in c), c)
     L.append("decisions", {"event": "review_done", "note": "test"}, ts="2026-10-07T09:00:00Z")
     check("a logged review lifts the block", not review_pending(L))
 
-# 6. Order lapse counts business days for a share that stops trading
+# 6. The same corporate action can't be entered twice
+from actions import enter  # noqa: E402
+from datetime import datetime, timezone  # noqa: E402
+L = Ledger(tempfile.mkdtemp())
+enter(L, "dividend", ["US", "VT", "USD", "0.4"], {"ex": "2026-09-18", "pay": "2026-09-29"}, datetime(2026, 9, 1, tzinfo=timezone.utc))
+try:
+    enter(L, "dividend", ["US", "VT", "USD", "0.4"], {"ex": "2026-09-18", "pay": "2026-09-29"}, datetime(2026, 9, 1, tzinfo=timezone.utc))
+    check("a duplicate dividend is refused", False)
+except SystemExit:
+    check("a duplicate dividend is refused", True)
+
+# 7. Order lapse counts business days for a share that stops trading
 check("business days skip weekends", business_days("2026-10-02", "2026-10-09") == 5, business_days("2026-10-02", "2026-10-09"))
 try:
     place_order(Ledger(tempfile.mkdtemp()), prices, fx, "2026-10-01T08:30:00Z", "Deal", "ASX", "VAS", "buy", value_nzd=1000)
