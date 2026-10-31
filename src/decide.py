@@ -33,7 +33,7 @@ from costs import FX_FEE, PlanState, brokerage  # noqa: E402
 from fills import size_cost  # noqa: E402
 from daily import ROOT, cash_rate  # noqa: E402
 from ledger import Ledger  # noqa: E402
-from market_data import CURRENCY, FX, Prices  # noqa: E402
+from market_data import CURRENCY, FX, NZX_SMALL_ORDER_CAP_NZD, Prices, nzx_large  # noqa: E402
 from rates import Rates  # noqa: E402
 from risk import annualised, check_order, size_position  # noqa: E402
 
@@ -51,7 +51,10 @@ def entry_costs(L: Ledger, market: str, sleeve: str, value_nzd: float, nzd_per: 
     fee_in = brokerage(market, local, value_nzd, plan) / local
     fee_out = brokerage(market, local, value_nzd, PlanState(month="later", used_nzd=1e12)) / local   # a later sale, no cover left
     half_spread = stats["spread"] / 2
-    impact = size_cost(local, stats["adv_local"], stats["daily_vol"]) if stats["adv_local"] else 0.02
+    if stats["adv_local"] is None:      # NZX: volumes unknown, order size capped instead (rulebook section 7)
+        impact = 0.0
+    else:
+        impact = size_cost(local, stats["adv_local"], stats["daily_vol"]) if stats["adv_local"] else 0.02
     ccy = CURRENCY[market]
     fx = 0.0
     if ccy != "NZD" and state(L)["cash"].get(ccy, 0.0) < local:
@@ -140,6 +143,8 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
             brk = min(v for _, v in outcomes)
         sz = size_position(sleeve, outcomes, px, brk, val["total_nzd"])
         want = sz["value_nzd"] if card.get("value_nzd") is None else min(float(card["value_nzd"]), sz["value_nzd"])
+        if m == "NZX" and t.upper() not in nzx_large():
+            want = min(want, NZX_SMALL_ORDER_CAP_NZD)      # NZX volumes unknown: smaller companies, smaller orders
         days = (date.fromisoformat(card["resolve_by"]) - date.fromisoformat(today)).days
         # deals: the first outcome is paid as consideration, the others are exits by sale
         p_sale = 1 - outcomes[0][0] if sleeve == "deal" else 1.0

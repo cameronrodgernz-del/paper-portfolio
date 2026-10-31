@@ -77,8 +77,16 @@ class Prices:
         return [b for b in self.bars(market, ticker) if b.date < before][-n:]
 
     def stats(self, market: str, ticker: str, before: str, nzd_per_local: float) -> dict:
-        """20-session median traded value (NZD), average traded value (local), daily volatility, spread."""
+        """20-session median traded value (NZD), average traded value (local), daily volatility, spread.
+        NZX volumes are unknown (the feed has none): traded value is None, and the spread is the
+        high-low estimate with the NZX floors of rulebook section 7."""
         h = self.history(market, ticker, before, 21)
+        if market == "NZX" and h and all(b.volume <= 0 for b in h):
+            rets = [math.log(b.close / a.close) for a, b in zip(h, h[1:]) if a.close > 0 and b.close > 0]
+            vol = (sum(r * r for r in rets) / max(1, len(rets))) ** 0.5 if rets else 0.03
+            est = spread_estimate([b.high for b in h], [b.low for b in h], 1e12) if len(h) >= 5 else 0.0
+            return {"adv_local": None, "median_value_nzd": None, "daily_vol": vol,
+                    "spread": max(est, nzx_spread_floor(ticker))}
         if len(h) < 5:
             return {"adv_local": 0.0, "median_value_nzd": 0.0, "daily_vol": 0.03, "spread": 0.015}
         values = sorted(b.close * b.volume for b in h)
@@ -87,6 +95,25 @@ class Prices:
         median_nzd = values[len(values) // 2] * nzd_per_local
         spread = spread_estimate([b.high for b in h], [b.low for b in h], median_nzd)
         return {"adv_local": sum(values) / len(values), "median_value_nzd": median_nzd, "daily_vol": vol, "spread": spread}
+
+
+NZX_LARGE_FLOOR, NZX_SMALL_FLOOR = 0.0025, 0.0060      # rulebook section 7: the gap charged with NZX volumes unknown
+NZX_SMALL_ORDER_CAP_NZD = 2500.0                         # largest order outside the 20 largest NZX companies
+
+
+@lru_cache(maxsize=1)
+def nzx_large() -> frozenset:
+    """The 20 largest NZX companies, from config/nzx_top20.csv. Until that list is filled from a
+    published source, it is empty and every NZX share gets the smaller-company rules."""
+    p = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "config", "nzx_top20.csv")
+    if not os.path.exists(p):
+        return frozenset()
+    with open(p, newline="") as f:
+        return frozenset(r["ticker"].strip().upper() for r in csv.DictReader(f) if r.get("ticker"))
+
+
+def nzx_spread_floor(ticker: str) -> float:
+    return NZX_LARGE_FLOOR if ticker.upper() in nzx_large() else NZX_SMALL_FLOOR
 
 
 class FX:

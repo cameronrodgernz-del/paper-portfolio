@@ -62,7 +62,7 @@ jobs:
           FINFEED_API_KEY: ${{ secrets.FINFEED_API_KEY }}
         run: python3 -I src/fetch_nzx.py data --max-requests 15
       - name: Engine checks
-        run: python3 -I tests/test_engine.py && python3 -I tests/test_clerk.py && python3 -I tests/test_clerk_actions.py && python3 -I tests/test_hedges.py && python3 -I tests/test_risk.py && python3 -I tests/test_decide.py && python3 -I tests/test_insider_history.py && python3 -I tests/test_deal_history.py
+        run: python3 -I tests/test_engine.py && python3 -I tests/test_clerk.py && python3 -I tests/test_clerk_actions.py && python3 -I tests/test_hedges.py && python3 -I tests/test_risk.py && python3 -I tests/test_decide.py && python3 -I tests/test_insider_history.py && python3 -I tests/test_deal_history.py && python3 -I tests/test_nzx.py
       - name: Deal monitor
         continue-on-error: true
         run: python3 -I src/deal_monitor.py .

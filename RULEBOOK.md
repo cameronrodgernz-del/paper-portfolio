@@ -64,6 +64,12 @@ Result: on survivorship-free published data (Kenneth French library, to Sep 2026
 - Limit orders fill only when the session opens better than the limit, or trades through it by at least 0.1%.
 - No fill above 10% of a session's volume; the rest rolls to the next session. A session with no volume gives no fill.
 - An order that hasn't filled lapses after five sessions in which the share traded, or ten business days (a halted share), whichever comes first. The analyst can place it again as a fresh decision.
+- NZX prices come from FinFeedAPI, which has no trading volumes. Agreed with Cam on 1 Nov 2026:
+  - an NZX day counts as traded only if the price moved (open, high, low and close not all the same); on a day with no movement nothing fills;
+  - outside the 20 largest NZX companies (config/nzx_top20.csv), no order is bigger than NZ$2,500;
+  - the buy-sell gap charged is at least 0.6% outside the 20 largest and 0.25% for them;
+  - with volumes unknown there is no volume cap and no size cost on NZX fills: the order cap stands in for both.
+  Until the list of the 20 largest is filled from a published source, every NZX share gets the smaller-company rules.
 - A buy is cut to the cash there is. Foreign currency is converted from NZ$ only up to the NZ$ held, so nothing is ever borrowed.
 - Costs are Sharesies NZ's, as at 31 October 2026:
   - the $15 plan, covering fees on the first NZ$5,000 of orders each month;
@@ -129,6 +135,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
 | 2026-11-01 | Rules-only sleeve dropped; its 10% goes to cash | Failed the history test before the rules were locked: see reports/rules_only_history.md |
+| 2026-11-01 | NZX rules for prices without volumes (section 7), agreed with Cam | FinFeedAPI's NZX feed has prices but no volumes |
 | 2026-11-01 | After an independent review of the engine: order lapse, no borrowing, fall-from-peak sales by rule with a review lock, limits counting waiting orders, the break-loss test on the whole position, foreign cash earning nothing | Fixes for findings 3, 4, 8, 9 and 14 of the review |
 | 2026-11-01 | Hedging, cash rate and deal-entry costs written out as the engine applies them; special situation types limited to those with a passed test | So the rulebook and the code say the same thing |
 | 2026-11-01 | Section 9b: deal spreads history test for US cash deals registered, with its rules and pass marks, before any data was looked at | As for 9a |

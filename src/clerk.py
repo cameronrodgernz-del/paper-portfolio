@@ -15,7 +15,7 @@ from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 
 from costs import FEE_CAP, PLAN_MONTHLY_NZD, PlanState, brokerage, FX_FEE
-from fills import fill_order
+from fills import Bar, fill_order
 from ledger import Ledger
 from market_data import CURRENCY, FX, Prices, closed_by, nz_evening_utc, session_open_utc
 from rates import Rates
@@ -212,6 +212,16 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
             nzd_per_local = fx.nzd_per(ccy, bar.date)
             s = prices.stats(m, t, bar.date, nzd_per_local)
             qty = remaining
+            if m == "NZX" and bar.volume <= 0:
+                # NZX volumes are unknown (rulebook section 7): a day with no price movement is taken as
+                # no trading; otherwise the order fills with no volume cap or size cost, since NZX order
+                # sizes are capped before they are placed
+                if bar.open == bar.high == bar.low == bar.close:
+                    L.append("orders", {"event": "no_fill", "order_id": o["order_id"], "date": bar.date,
+                                        "reason": "no price movement (NZX volume unknown)"}, ts=ts)
+                    continue
+                bar = Bar(bar.date, bar.open, bar.high, bar.low, bar.close, 1e12)
+                s = dict(s, adv_local=1e15)
             if o["side"] == "sell":
                 held = state(L)["positions"].get((o["sleeve"], m, t), 0.0)
                 qty = min(qty, held)
@@ -261,7 +271,7 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
             if remaining <= 1e-9:
                 break
         # lapse after ORDER_LIFE_SESSIONS sessions that traded, or ORDER_LIFE_DAYS business days (a halted share)
-        traded = [b for b in sessions if b.volume > 0]
+        traded = [b for b in sessions if b.volume > 0 or (m == "NZX" and not (b.open == b.high == b.low == b.close))]
         age = business_days(utc(o["decided_at_utc"]).date().isoformat(), run_date)
         if remaining > 1e-9 and (len(traded) >= ORDER_LIFE_SESSIONS or age >= ORDER_LIFE_DAYS):
             why = f"unfilled after {ORDER_LIFE_SESSIONS} sessions that traded" if len(traded) >= ORDER_LIFE_SESSIONS \

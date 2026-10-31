@@ -8,6 +8,8 @@ any breach is not placed; the breach list is logged with the decision.
 import math
 from collections import defaultdict
 
+from market_data import NZX_SMALL_ORDER_CAP_NZD, nzx_large
+
 KELLY_FRACTION = 0.25
 CAPS = {"deal": 0.04, "special": 0.03}
 BREAK_LOSS_CAP = 0.01                     # loss if a deal breaks: at most 1% of the portfolio
@@ -80,8 +82,11 @@ def check_order(val: dict, drawdown: float, sleeve: str, market: str, ticker: st
             held[(p["market"], p["ticker"])] += p["value_nzd"]
     after_pos = held.get((market, ticker), 0.0) + (value_nzd if side == "buy" else -value_nzd)
     ccy, smallest = MIN_ORDER[market]
-    if value_nzd / nzd_per_local < smallest - 1e-6:
+    if value_nzd / nzd_per_local < smallest - 0.01:
         out.append(f"order of {value_nzd / nzd_per_local:,.0f} {ccy} is below the {smallest:,} {ccy} minimum")
+    if market == "NZX" and ticker.upper() not in nzx_large() and value_nzd > NZX_SMALL_ORDER_CAP_NZD + 0.01:
+        out.append(f"NZX order of NZ${value_nzd:,.0f} is over NZ${NZX_SMALL_ORDER_CAP_NZD:,.0f}, the most for a company outside "
+                   "the 20 largest while NZX volumes are unknown")
     if side == "sell":
         return out
     cap = CAPS.get(sleeve)
