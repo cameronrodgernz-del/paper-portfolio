@@ -1,0 +1,38 @@
+name: Nightly data
+
+# Weekdays at 06:00 UTC (7pm NZ daylight time, 6pm NZ standard time), after the NZX
+# and ASX close and before the 7:30pm NZ daily run. US prices are from the previous
+# US session. Can also be started by hand from the Actions tab.
+on:
+  schedule:
+    - cron: "0 6 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Free currency and rate series
+        run: python3 -I src/fetch_public.py data
+      - name: End-of-day prices
+        env:
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
+          EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
+        run: python3 -I src/fetch_prices.py config/universe_trial.csv data
+      - name: Engine checks
+        run: python3 -I tests/test_engine.py
+      - name: Save data
+        run: |
+          git config user.name "paper-portfolio-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Nightly data $(date -u +%Y-%m-%d)"
+          git push
