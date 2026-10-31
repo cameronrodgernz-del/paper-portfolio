@@ -16,4 +16,4 @@ IEL,ASX,eodhd,IEL.AU,mid-cap ASX share
 VT,US,tiingo,VT,core candidate
 SPY,US,tiingo,SPY,US benchmark
 AAPL,US,tiingo,AAPL,liquid US share
-LNW,US,tiingo,LNW,gaming
+LNW,ASX,eodhd,LNW.AU,gaming (primary listing moved from Nasdaq to ASX)
