@@ -1,0 +1,39 @@
+name: EODHD shares outstanding (test 9l)
+
+# Fetches shares outstanding for the companies listed in data/austender/need_shares.csv, which ASIC's
+# daily short files don't cover. Runs when that list or the script changes, or by hand.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - data/austender/need_shares.csv
+      - tools/eodhd_shares.py
+      - .github/workflows/eodhd-shares.yml
+
+permissions:
+  contents: write
+
+jobs:
+  shares:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch
+        env:
+          EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
+        run: |
+          [ -f data/austender/need_shares.csv ] || { echo "no list yet"; exit 0; }
+          python3 -I tools/eodhd_shares.py . --max 600
+      - name: Save
+        run: |
+          git config user.name "paper-portfolio-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/austender/shares_eodhd.csv data/austender/shares_eodhd_missing.txt 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "EODHD shares outstanding for test 9l $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
