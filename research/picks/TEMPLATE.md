@@ -30,6 +30,14 @@ listed peers; net assets or sum of the parts; a simple discounted cash flow with
 Show the arithmetic. End with a range of values per share and the main thing each depends on.
 Done without the share price in view: the range is what the business is worth, worked from the filings.
 
+## The players and what the rules allow (special situations only)
+For a special situation pick (rulebook section 5a): every party that could move the price (bidders past and present,
+holders over 5%, the board or responsible entity, a parent, a court or regulator), each with its stake, the date and
+price of every change in two years, what it paid and carries the stake at, and what it can afford; what the rules let
+each do and when (3% creep every six months, the 20% threshold, 90% compulsory acquisition, removing a responsible
+entity, schemes, approvals); and comparable cases with what holders received. The bad outcome's price is the value if
+nothing happens. Leave this section out for an ordinary research pick.
+
 ## Why the market is wrong
 One or two plain reasons the price is below the value, and why that should change. If you can't say why
 the market is wrong, there is no trade.

@@ -90,3 +90,9 @@ headings below, and ends with the three points most likely to make the pick wron
 
 ## 5. The stated chances
 - Are the bad, middling and good chances honest? Give your own, and say where you differ and why.
+
+## 6. Special situations only
+- Is the "nothing happens" value right, and is it really the bad case, or could the price fall below it when the situation ends?
+- Can the named party actually do what the case needs: stake, money, the rules and approvals, and the board's position?
+- What did holders receive in comparable cases, and how long did they wait?
+- Is this a binding deal that belongs in the deal sleeve instead?
