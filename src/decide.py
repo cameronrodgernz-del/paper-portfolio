@@ -111,7 +111,9 @@ def review_pending(L: Ledger) -> bool:
 
 HISTORY_ROOT = ROOT   # where the history test reports are read from (the engine tests point it at an empty folder)
 TESTS = {"us_deal": ("reports", "deal_us_history.md"), "insider_cluster": ("reports", "special_insider_history.md"),
-         "asx_cash_deal": ("reports", "deal_au_history.md")}
+         "asx_cash_deal": ("reports", "deal_au_history.md"),
+         "failed_deal": ("reports", "failed_deal_history.md"), "takeover_model": ("reports", "target_model_history.md"),
+         "june_selloff": ("reports", "june_selloff_history.md")}
 
 
 def test_passed(name: str, root: str = ROOT) -> bool:
