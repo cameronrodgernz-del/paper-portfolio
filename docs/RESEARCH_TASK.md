@@ -33,11 +33,13 @@ The research funnel (rebuilt 2 November 2026, rulebook section 5a change log):
 3. Watch list first: for every company in research/picks/INDEX.md with status watching, check whether its
    dated event has passed and whether its reopen condition was met. Note each in INDEX.md; one that meets its
    condition goes straight to a fact sheet.
-4. Fact sheets: take the top 20 of reports/research_rank.md not covered by a fact sheet or deep dive in the last
-   three months (a quick look from before 2 November 2026 doesn't count as covered). Write a fact sheet for each
+4. Fact sheets: take the companies in reports/research_factsheet_queue.csv, which the ranking writes: watched
+   companies with a dated event in the next 30 days first, then the top 15 ASX and top 5 NZX names without a fact
+   sheet or a deep dive in the last three months (a quick look from before 2 November 2026 doesn't count), with at
+   most three materials or energy companies and two property companies in a batch. Write a fact sheet for each
    in the format of research/facts/TEMPLATE.md, saved as research/facts/<TICKER>.md (NZ_<TICKER>.md for NZX).
-   Split them across up to four agents in parallel (the Agent tool), five each, each given only the template,
-   the ranking row and these source notes. Grade each A, B or C as the template says.
+   Split them across up to four agents in parallel (the Agent tool), about six each, each given only the
+   template, the ranking row and these source notes. Grade each A, B or C as the template says.
 5. Deep dives: up to four a week, from the A grades, largest gap first, varying the sectors; then B grades whose
    event is now close. Write each in the format of research/picks/TEMPLATE.md, from primary sources only: the ASX or
    NZX announcements, the annual and half-year reports, the Companies Office or ASIC register, substantial

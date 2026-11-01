@@ -29,6 +29,7 @@ screen = [
     ("Others", "ASX", "DDD", "Lucky Gaming Limited", 1.00, 0.0, -0.10, 0.0),
     ("Listed investment companies and trusts (check the discount to net assets)", "ASX", "EEE", "Value Investment Company", 1.0, 0, 0, 0),
     ("Others", "ASX", "FFF", "Shorted Limited", 1.00, -0.60, -0.70, 0.08),
+    ("Others", "ASX", "III", "Plain Name Limited", 1.00, 0.0, -0.10, 0.0),
     ("NZX outside the NZX 20", "NZX", "GGG", "Kiwi Assets Limited Ordinary Shares", 1.00, -0.20, -0.36, ""),
     ("NZX outside the NZX 20", "NZX", "HHH", "Thin Limited Ordinary Shares", 1.00, 0.0, 0.0, ""),
 ]
@@ -51,9 +52,12 @@ def asx_entry(mcap, eps, ta, tl, ev, yld, incomes, revs, group, anns):
 
 A = {
     # 7 times earnings (2), 0.67 times book (2), net cash 40% (2), 7% yield (1), four profitable years (1), small (1),
-    # 40% below high (1), result a year ago (1) = 11
+    # 40% below high (1) = 10; the result a year ago and two director notices are shown but don't score
     "AAA": asx_entry(100e6, 0.143, 250, 100, 60, 7.0, [14e6, 13e6, 12e6, 11e6], [200e6] * 4, "Capital Goods",
-                     [{"date": "2026-02-20", "headline": "Appendix 4D and Half Year Report", "sensitive": True, "id": "1", "time": ""}]),
+                     [{"date": "2026-02-20", "headline": "Appendix 4D and Half Year Report", "sensitive": True, "id": "1", "time": ""},
+                      {"date": "2026-09-01", "headline": "Change of Director's Interest Notice", "sensitive": False, "id": "4", "time": ""},
+                      {"date": "2026-09-02", "headline": "Change of Director's Interest Notice", "sensitive": False, "id": "5", "time": ""},
+                      {"date": "2026-07-03", "headline": "Completion of Off-Market Takeover of Small Co", "sensitive": True, "id": "6", "time": ""}]),
     "BBB": asx_entry(300e6, 0.1, 400, 200, 280, 2.0, [30e6] * 4, [300e6] * 4, "Capital Goods",
                      [{"date": "2026-09-01", "headline": "Receipt of non-binding indicative proposal", "sensitive": True, "id": "2", "time": ""}]),
     "CCC": asx_entry(50e6, -0.01, 20, 2, 30, 0, [-2e6, -3e6, -1e6, -1e6], [0.1e6, 0, 0, 0], "Materials", []),
@@ -72,6 +76,9 @@ N = {
             "info": {"closePrice": "1.00", "earningsPerShare": "0.10", "ntaPerShare": "1.0", "capitalisation": 60e6,
                      "gdyPerShare": "0", "bestBid": "0.90", "bestOffer": "1.00", "suspensionStatus": "N", "category": "SHRS"}},
 }
+A["III"] = asx_entry(100e6, 0.1, 100, 0, 0, 5, [10e6] * 4, [10e6] * 4, "Financial Services",
+                     [{"date": f"2026-{m:02d}-10", "headline": "Net Tangible Asset Backing", "sensitive": False, "id": str(m), "time": ""}
+                      for m in (6, 7, 8, 9, 10)])
 json.dump(A, open(os.path.join(root, "data", "research_data", "asx_company.json"), "w"))
 json.dump(N, open(os.path.join(root, "data", "research_data", "nzx_company.json"), "w"))
 open(os.path.join(root, "data", "norgate", "index_changes.csv"), "w").write("index,symbol,name,date,change\n")
@@ -82,13 +89,17 @@ rr.main(root)
 rank = {r["ticker"]: r for r in csv.DictReader(open(os.path.join(root, "reports", "research_rank.csv"), encoding="utf-8"))}
 md = open(os.path.join(root, "reports", "research_rank.md"), encoding="utf-8").read()
 
-check("a steady cheap company scores 11 points", rank.get("AAA", {}).get("points") == "11", rank.get("AAA"))
+check("a steady cheap company scores 10 points (director notices and the result date don't score)",
+      rank.get("AAA", {}).get("points") == "10" and rank["AAA"]["director_notices"] == "2" and rank["AAA"]["next_result"] == "2027-02-20",
+      rank.get("AAA"))
+check("a completed takeover by the company is flagged, not routed", "deal headline to check" in rank.get("AAA", {}).get("flags", ""))
+check("a company publishing monthly NTA is dropped as an investment company", "III" not in rank)
 check("a company with a non-binding proposal is routed, not ranked", "BBB" not in rank and "ASX:BBB" in md.split("## Special situations")[1])
 check("an explorer with no revenue is dropped on the rule", "CCC" not in rank and "no business to value yet" in md)
 check("a gaming company waits for Cam's list", "DDD" not in rank and "gaming, wagering and racing hold" in md)
 check("an investment company is dropped", "EEE" not in rank and "fund, trust or investment company" in md)
 check("red flags take points off (loss, debt, shorting, raising)", rank.get("FFF", {}).get("points") == "-2", rank.get("FFF"))
 check("an NZX company scores on earnings, net tangible assets, yield, size and fall", rank.get("GGG", {}).get("points") == "7", rank.get("GGG"))
-check("an NZX share with an 11% bid-offer spread is dropped", "HHH" not in rank and "bid-offer spread" in md)
+check("an NZX spread read outside trading hours is shown, not used to drop", rank.get("HHH", {}).get("spread") == "0.111", rank.get("HHH"))
 print("ALL PASS" if fails == 0 else f"{fails} FAILED")
 sys.exit(1 if fails else 0)

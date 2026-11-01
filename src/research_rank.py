@@ -32,9 +32,17 @@ HOLD_WORDS = re.compile(r"gaming|lotter|wager|racing|casino|\bbet|bookmak|bloods
 HOLD_TICKERS = {("ASX", "JIN"), ("ASX", "SGR"), ("ASX", "SXL"), ("ASX", "RTH"), ("NZX", "SKC"), ("NZX", "SKT"),
                 ("NZX", "NZM"), ("NZX", "PGW")}
 BIG_NZX = {"ANZ", "WBC", "FCG", "FSF", "AIR", "VNT"}          # dual-listed or large, outside the NZX 20 by a little
-SPECIAL = re.compile(r"non-binding|indicative (proposal|offer)|unsolicited|scheme (implementation|booklet|meeting)|"
-                     r"takeover|bidder'?s statement|target'?s statement|strategic review|sale process|"
-                     r"change of control|off-market bid|compulsory acquisition|receipt of (a )?proposal", re.I)
+NZX_FUNDS = {"AFI", "BIT", "BRM", "FCT", "HFL", "KFL", "MLN", "TEM", "PLP", "BIF", "CO2"}   # investment companies and funds
+COMMODITY = re.compile(r"resources|minerals|mining|metals|gold|oil|gas|coal|platinum|lithium|uranium|iron|copper|zinc", re.I)
+PROPERTY_NZX = re.compile(r"property|investore|asset plus|cdl investments|vital healthcare|land ", re.I)
+MONTHS = {m: i for i, m in enumerate(("jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"), 1)}
+SPECIAL = re.compile(r"non-binding (indicative )?(proposal|offer)|indicative (proposal|offer)|unsolicited|"
+                     r"receipt of (a )?(revised )?proposal|target'?s statement|strategic review|sale process|"
+                     r"scheme booklet|scheme meeting", re.I)                 # the company looks like the target
+DEAL_CHECK = re.compile(r"takeover|bidder'?s statement|scheme implementation|off-market|compulsory acquisition|"
+                        r"change of control", re.I)                          # could be either side: flag, don't route
+MONTHLY_NTA = re.compile(r"\bNTA\b|net tangible asset|net asset (value|backing)|\bNAV\b|investment update|"
+                         r"portfolio update|investment report", re.I)     # what investment companies publish monthly
 DELIST = re.compile(r"delist|removal from (the )?official list", re.I)
 RAISE = re.compile(r"placement|entitlement offer|rights issue|share purchase plan|capital raising|\bSPP\b", re.I)
 RESULTS = re.compile(r"appendix 4[de]|half[- ]year (results|report|financial)|full[- ]year (results|report)|"
@@ -163,14 +171,13 @@ def score_asx(r, e, ctx):
     if r12 is not None and med is not None and r12 <= med - 0.25:
         pts += 1; why.append(f"12 months {r12:+.0%} against {med:+.0%} for its industry")
     nd = sum(1 for a in recent if DIRECTOR.search(a["headline"]))
-    if nd >= 2:
-        pts += 1; why.append(f"{nd} director interest notices in six months (direction to check)")
     nce = sum(1 for a in recent if CEASE.search(a["headline"]))
     if nce:
         pts += 1; why.append("a substantial holder left in the last six months")
     nr = next_result(anns, today)
-    if nr:
-        pts += 1; why.append(f"result expected about {nr}")
+    deal = [a for a in anns if a["date"] >= nine and DEAL_CHECK.search(a["headline"])]
+    if deal:
+        flags.append(f"deal headline to check, which side it's on ({deal[0]['date']}: {deal[0]['headline'][:80]})")
     # red flags
     if any(RAISE.search(a["headline"]) for a in recent):
         pts -= 1; flags.append("a share raising in the last six months")
@@ -179,11 +186,20 @@ def score_asx(r, e, ctx):
     sp = num(r["short_pct"])
     if sp is not None and sp >= 0.05:
         pts -= 1; flags.append(f"{sp:.1%} of shares sold short")
-    special = [a for a in anns if a["date"] >= nine and SPECIAL.search(a["headline"])]
+    first = re.sub(r"^(the)\s+", "", r["name"], flags=re.I).split()[0].lower() if r["name"] else ""
+
+    def about_us(a):
+        m = re.match(r"^([A-Z0-9]{3}):", a["headline"])
+        return not m or m.group(1) == r["ticker"] or first in a["headline"].lower()
+    special = [a for a in anns if a["date"] >= nine and SPECIAL.search(a["headline"]) and about_us(a)]
+    other = [a for a in anns if a["date"] >= nine and SPECIAL.search(a["headline"]) and not about_us(a)]
+    if other:
+        flags.append(f"deal headline about another company ({other[0]['date']}: {other[0]['headline'][:80]})")
     delist = [a for a in recent if DELIST.search(a["headline"])]
     facts = {"industry": grp or "", "market_value_m": round(mcap / 1e6, 1) if mcap else "", "pe": round(pe, 1) if pe else "",
              "price_to_book": round(pb, 2) if pb else "", "net_cash_share": round(nc, 2) if nc is not None else "",
-             "yield": round(yld, 1) if yld is not None else "", "next_result": nr or ""}
+             "yield": round(yld, 1) if yld is not None else "", "next_result": nr or "", "director_notices": nd,
+             "spread": ""}
     return pts, why, flags, special, delist, facts
 
 
@@ -215,7 +231,10 @@ def score_nzx(r, e, ctx):
         pts += 1; why.append(f"{-bh:.0%} below its 12-month high")
     facts = {"industry": "", "market_value_m": round(cap / 1e6, 1) if cap else "", "pe": round(pe, 1) if pe else "",
              "price_to_book": round(pn, 2) if pn else "", "net_cash_share": "", "yield": round(gdy, 1) if gdy is not None else "",
-             "next_result": ""}
+             "next_result": "", "director_notices": "", "spread": ""}
+    bid, off = num(i.get("bestBid")), num(i.get("bestOffer"))
+    if bid and off and off >= bid:
+        facts["spread"] = round(off / bid - 1, 3)
     return pts, why, flags, [], [], facts
 
 
@@ -228,9 +247,64 @@ def nzx_gate(i):
         return "not an ordinary share"
     if cap is not None and cap < 30e6:
         return f"too small to trade at our size (NZ${cap / 1e6:.0f}m)"
-    if bid and off and off / bid - 1 > 0.05:
-        return f"bid-offer spread of {off / bid - 1:.0%}"
-    return None
+    return None             # the spread isn't a gate: read outside trading hours it can be wide for no reason
+
+
+def watch_events(root, today):
+    """Watched companies (status watching, from a quick look) with a dated event in the next 30 days."""
+    out = []
+    t = date.fromisoformat(today)
+    for (mkt, tick), (status, kind, verdict) in covered(root).items():
+        if status != "watching" or kind != "quick look":
+            continue
+        line = next((l for l in open(os.path.join(root, "research", "picks", "INDEX.md"), encoding="utf-8")
+                     if l.startswith(f"| {mkt}:{tick} |")), "")
+        nxt = line.rstrip().rstrip("|").split("|")[-1]
+        dates = []
+        for d, mo, y in re.findall(r"(\d{1,2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]* (20\d\d)", nxt):
+            dd = date(int(y), MONTHS[mo.lower()], int(d))
+            if t <= dd <= t + timedelta(days=30):
+                dates.append(dd)
+        if dates:
+            out.append((min(dates).isoformat(), mkt, tick, nxt.strip()))
+    return sorted(out)
+
+
+def queue(root, ranked, today, n_asx=15, n_nzx=5, max_commodity=3, max_property=2, max_watch=5):
+    """The next batch of fact sheets: watched names with an event in 30 days, then the top of each market's
+    ranking, skipping anything with a fact sheet or a deep dive in the last three months, and varying sectors."""
+    facts_dir = os.path.join(root, "research", "facts")
+    have = set(os.listdir(facts_dir)) if os.path.isdir(facts_dir) else set()
+    cov = covered(root)
+
+    def done(mkt, tick):
+        if f"{tick}.md" in have or f"NZ_{tick}.md" in have:
+            return True
+        c = cov.get((mkt, tick))
+        return bool(c and c[1] == "deep dive")
+    out = []
+    for d, mkt, tick, nxt in watch_events(root, today)[:max_watch]:
+        if not done(mkt, tick):
+            out.append({"market": mkt, "ticker": tick, "why": f"watched, event {d}: {nxt[:90]}", "points": ""})
+    picked = {(x["market"], x["ticker"]) for x in out}
+    commodity = prop = 0
+    for mkt, n in (("ASX", n_asx), ("NZX", n_nzx)):
+        k = 0
+        for x in ranked:
+            if x["market"] != mkt or (mkt, x["ticker"]) in picked or done(mkt, x["ticker"]):
+                continue
+            is_c = (mkt == "ASX" and re.search(r"materials|energy", x["industry"], re.I)) or COMMODITY.search(x["name"])
+            is_p = re.search(r"real estate", x["industry"], re.I) or (mkt == "NZX" and PROPERTY_NZX.search(x["name"]))
+            if (is_c and commodity >= max_commodity) or (is_p and prop >= max_property):
+                continue
+            commodity += 1 if is_c else 0
+            prop += 1 if is_p else 0
+            out.append({"market": mkt, "ticker": x["ticker"], "why": f"ranked, {x['points']} points", "points": x["points"]})
+            picked.add((mkt, x["ticker"]))
+            k += 1
+            if k >= n:
+                break
+    return out
 
 
 def main(root: str) -> int:
@@ -255,7 +329,8 @@ def main(root: str) -> int:
         e = (A if r["market"] == "ASX" else N).get(r["ticker"])
         status = cov.get(key)
         reason = None
-        if FUND.search(name) or r["group"].startswith("Listed investment") or (r["market"] == "NZX" and re.search(r"Units", name)):
+        if FUND.search(name) or r["group"].startswith("Listed investment") or (r["market"] == "NZX" and re.search(r"Units", name)) \
+                or (r["market"] == "NZX" and r["ticker"] in NZX_FUNDS):
             reason = "fund, trust or investment company"
         elif r["market"] == "NZX" and r["ticker"] in BIG_NZX:
             reason = "large or dual-listed, only just outside the NZX 20"
@@ -267,6 +342,10 @@ def main(root: str) -> int:
             reason = "failed the liquidity check at its quick look"
         elif e is None:
             reason = "no company data fetched yet"
+        elif r["market"] == "ASX" and sum(1 for a in e.get("announcements") or []
+                                          if a["date"] >= (date.fromisoformat(today) - timedelta(days=182)).isoformat()
+                                          and MONTHLY_NTA.search(a["headline"])) >= 3:
+            reason = "fund, trust or investment company"
         if reason is None and r["market"] == "ASX":
             k = (e.get("key-statistics") or {})
             rev = [num(x.get("revenue")) for x in (k.get("incomeStatement") or [])]
@@ -294,7 +373,7 @@ def main(root: str) -> int:
         ranked.append(row)
     ranked.sort(key=lambda x: (-x["points"], x["market"], x["ticker"]))
     fields = ["market", "ticker", "name", "price", "points", "industry", "market_value_m", "pe", "price_to_book", "net_cash_share",
-              "yield", "next_result", "why", "flags", "covered"]
+              "yield", "next_result", "director_notices", "spread", "why", "flags", "covered"]
     with open(os.path.join(root, "reports", "research_rank.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
@@ -307,14 +386,19 @@ def main(root: str) -> int:
          "Points: earnings (2 at 8 times or less, 1 at 12 or less), assets (2 at 0.7 times book or net tangible assets or less, 1 at 1.0), "
          "net cash (2 at 30% of market value, 1 at 10%), yield (1 at 6%, or 7% gross on the NZX), profit in each of four years (1), "
          "an index exit in nine months (2), small (1, under 250m), 35% or more below its high (1), 25 points worse than its industry "
-         "over 12 months (1), two or more director notices in six months (1), a substantial holder leaving (1), a result due within "
-         "150 days (1); less 1 each for a recent raising, a loss, heavy debt, or 5% or more sold short. ASX facts are the ASX's own "
-         "company data (book is total assets less total liabilities, not tangible); NZX facts are the NZX instrument pages "
-         "(no announcements, industry or net cash yet, so NZX scores run lower).", "",
-         "## Ranked (top 60)", "", "| # | Share | Name | Points | Why it ranks | Red flags | Covered |", "| --- | --- | --- | --- | --- | --- | --- |"]
-    for n, x in enumerate(ranked[:60], 1):
-        L.append(f"| {n} | {x['market']}:{x['ticker']} | {x['name'][:34]} | {x['points']} | {x['why']} | {x['flags']} | {x['covered']} |")
-    L += ["", f"The rest ({max(0, len(ranked) - 60)}) are in reports/research_rank.csv.", "",
+         "over 12 months (1), a substantial holder leaving in six months (1); less 1 each for a recent raising, a loss, heavy debt, "
+         "or 5% or more sold short. Director notices and the next result date are shown but don't score: nearly every company has "
+         "both. ASX facts are the ASX's own company data (book is total assets less total liabilities, so it includes goodwill); "
+         "NZX facts are the NZX instrument pages, which carry no announcements, industry or net cash, so NZX scores run lower and "
+         "NZX names are ranked in their own table. Fact sheets go to the top 15 ASX and top 5 NZX names not yet covered.", ""]
+    for mkt, top in (("ASX", 40), ("NZX", 25)):
+        rows = [x for x in ranked if x["market"] == mkt]
+        L += [f"## {mkt} ranked (top {min(top, len(rows))} of {len(rows)})", "",
+              "| # | Share | Name | Points | Why it ranks | Red flags | Covered |", "| --- | --- | --- | --- | --- | --- | --- |"]
+        for n, x in enumerate(rows[:top], 1):
+            L.append(f"| {n} | {x['market']}:{x['ticker']} | {x['name'][:34]} | {x['points']} | {x['why']} | {x['flags']} | {x['covered']} |")
+        L.append("")
+    L += ["The full ranking is in reports/research_rank.csv.", "",
           "## Special situations watch list", "", "Not research picks under the current rules (a special situation type can be placed only once its "
           "history test passes); kept here for the 18 December review.", "", "| Share | Name | Why | Covered |", "| --- | --- | --- | --- |"]
     for r, a, status in sorted(routed, key=lambda z: (z[0]["market"], z[0]["ticker"])):
@@ -326,6 +410,17 @@ def main(root: str) -> int:
         by.setdefault(re.sub(r" \(.*", "", reason), []).append(f"{r['market']}:{r['ticker']}")
     for reason, ts in sorted(by.items(), key=lambda z: -len(z[1])):
         L.append(f"| {reason} | {len(ts)} | {', '.join(ts[:40])}{' ...' if len(ts) > 40 else ''} |")
+    q = queue(root, ranked, today)
+    with open(os.path.join(root, "reports", "research_factsheet_queue.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["market", "ticker", "why", "points"])
+        w.writeheader()
+        w.writerows(q)
+    names = {(r["market"], r["ticker"]): r["name"] for r in screen}
+    L += ["", "## Next fact sheets (reports/research_factsheet_queue.csv)", "",
+          "Watched companies with an event in the next 30 days first, then the top 15 ASX and top 5 NZX not yet covered, with at "
+          "most three materials or energy companies and two property companies in a batch.", "", "| Share | Name | Why |", "| --- | --- | --- |"]
+    for x in q:
+        L.append(f"| {x['market']}:{x['ticker']} | {names.get((x['market'], x['ticker']), '')[:34]} | {x['why']} |")
     open(os.path.join(root, "reports", "research_rank.md"), "w", encoding="utf-8").write("\n".join(L) + "\n")
     print(f"{len(screen)} on the screen: {len(gated)} dropped on rules, {len(routed)} special situations, {len(ranked)} ranked")
     return 0
