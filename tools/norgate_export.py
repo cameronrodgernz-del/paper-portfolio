@@ -67,7 +67,9 @@ def candidates(dbs: list[str]) -> dict:
             if not sym:
                 continue
             code = sym.split("-")[0].split(".")[0].upper()
-            out.setdefault(code, []).append((sym, name))
+            lst = out.setdefault(code, [])
+            if all(s != sym for s, _ in lst):  # Norgate lists some symbols twice
+                lst.append((sym, name))
     return out
 
 
@@ -115,7 +117,7 @@ def universe(dbs: list[str], out: str, since: str) -> int:
             w.writerow(["symbol", "date", "open", "high", "low", "close", "volume", "tr_close"])
             files[year], writers[year] = fh, w
         return writers[year]
-    secs = []
+    secs, seen = [], set()
     for db in dbs:
         try:
             rows = nd.database(db)
@@ -127,7 +129,8 @@ def universe(dbs: list[str], out: str, since: str) -> int:
                 name = next((v for k, v in r.items() if "name" in k.lower()), "")
             else:
                 sym, name = r[0], (r[2] if len(r) > 2 else "")
-            if sym:
+            if sym and sym not in seen:  # Norgate lists some symbols twice
+                seen.add(sym)
                 secs.append((sym, name, db))
     print("universe:", len(secs), "securities across", dbs, flush=True)
     done = 0
