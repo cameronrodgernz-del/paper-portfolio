@@ -12,9 +12,17 @@ or a delisted one (Norgate keeps a reused code's old company under its own symbo
   <out>/databases.txt the database names this subscription has
 With --index it also writes <out>/index_changes.csv: every date a security joined or left the
 S&P/ASX 200 and 300 since --since (default 2010-01-01), for the index change test.
-Usage: python tools/norgate_export.py <repo_root> <out_dir> [--index] [--since YYYY-MM-DD]
+With --universe it writes daily prices for every Australian security Norgate has, listed and
+delisted, from --since (default 2010-01-01), for the tests that need the whole market (a takeover
+target model, the June tax-year sell-off):
+  <out>/universe/securities.csv          symbol, name, database, first, last, days
+  <out>/universe/prices_<YYYY>.csv.gz    symbol,date,open,high,low,close,volume,tr_close
+     close: as traded; tr_close: total return (dividends and capital events), for working out returns
+With --universe-only it skips the deal-target export and the index changes.
+Usage: python tools/norgate_export.py <repo_root> <out_dir> [--index] [--universe] [--universe-only] [--since YYYY-MM-DD]
 """
 import csv
+import gzip
 import os
 import sys
 from datetime import date
@@ -85,7 +93,75 @@ def index_name(label: str, since: str):
     return None
 
 
-def main(root: str, out: str, index: bool = False, since: str = "2010-01-01") -> int:
+def fmt(x) -> str:
+    try:
+        v = float(x)
+    except (TypeError, ValueError):
+        return ""
+    if v != v:
+        return ""
+    return f"{v:.6g}"
+
+
+def universe(dbs: list[str], out: str, since: str) -> int:
+    """Daily prices for every listed and delisted Australian security, one gzip file a year."""
+    udir = os.path.join(out, "universe")
+    os.makedirs(udir, exist_ok=True)
+    files, writers = {}, {}
+    def writer(year: str):
+        if year not in writers:
+            fh = gzip.open(os.path.join(udir, f"prices_{year}.csv.gz"), "wt", newline="", encoding="utf-8")
+            w = csv.writer(fh)
+            w.writerow(["symbol", "date", "open", "high", "low", "close", "volume", "tr_close"])
+            files[year], writers[year] = fh, w
+        return writers[year]
+    secs = []
+    for db in dbs:
+        try:
+            rows = nd.database(db)
+        except Exception as e:
+            print("could not read", db, e); continue
+        for r in rows:
+            if isinstance(r, dict):
+                sym = r.get("symbol") or r.get("Symbol")
+                name = next((v for k, v in r.items() if "name" in k.lower()), "")
+            else:
+                sym, name = r[0], (r[2] if len(r) > 2 else "")
+            if sym:
+                secs.append((sym, name, db))
+    print("universe:", len(secs), "securities across", dbs, flush=True)
+    done = 0
+    with open(os.path.join(udir, "securities.csv"), "w", newline="", encoding="utf-8") as sf:
+        sw = csv.writer(sf)
+        sw.writerow(["symbol", "name", "database", "first", "last", "days"])
+        for i, (sym, name, db) in enumerate(secs, 1):
+            if i % 250 == 0:
+                print(f"  {i} of {len(secs)} securities, {done} with prices", flush=True)
+            try:
+                raw = series(sym, nd.StockPriceAdjustmentType.NONE, since)
+            except Exception:
+                continue
+            if raw is None or len(raw) == 0:
+                continue
+            try:
+                tr = series(sym, nd.StockPriceAdjustmentType.TOTALRETURN, since)
+                trc = tr["Close"] if tr is not None and "Close" in tr else None
+            except Exception:
+                trc = None
+            for d, row in raw.iterrows():
+                ds = str(d)[:10]
+                writer(ds[:4]).writerow([sym, ds, fmt(row["Open"]), fmt(row["High"]), fmt(row["Low"]), fmt(row["Close"]),
+                                         fmt(row.get("Volume", "")), fmt(trc.get(d)) if trc is not None else ""])
+            sw.writerow([sym, name, db, str(raw.index[0])[:10], str(raw.index[-1])[:10], len(raw)])
+            done += 1
+    for fh in files.values():
+        fh.close()
+    print(f"universe written: {done} securities with prices since {since}", flush=True)
+    return done
+
+
+def main(root: str, out: str, index: bool = False, since: str = "2010-01-01", universe_too: bool = False,
+         universe_only: bool = False) -> int:
     if not nd.status():
         print("Norgate Data Updater is not running. Open it, let it finish updating, then run this again.")
         return 2
@@ -94,6 +170,9 @@ def main(root: str, out: str, index: bool = False, since: str = "2010-01-01") ->
     with open(os.path.join(out, "databases.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(nd.databases()) + "\n")
     print("Australian databases:", dbs)
+    if universe_only:
+        universe(dbs, out, since)
+        return 0
     cand = candidates(dbs)
     if not cand:
         print("No Australian securities found: check the subscription in Norgate Data Updater.")
@@ -163,10 +242,12 @@ def main(root: str, out: str, index: bool = False, since: str = "2010-01-01") ->
                 print(f"  {label}: {n} changes")
         print("index changes written")
     print(f"done: {sum(1 for m in matches if m[-1] == 'ok')} of {len(matches)} found")
+    if universe_too:
+        universe(dbs, out, since)
     return 0
 
 
 if __name__ == "__main__":
     a = [x for x in sys.argv[1:] if not x.startswith("--")]
     since = next((sys.argv[i + 1] for i, x in enumerate(sys.argv) if x == "--since"), "2010-01-01")
-    sys.exit(main(a[0], a[1], "--index" in sys.argv, since))
+    sys.exit(main(a[0], a[1], "--index" in sys.argv, since, "--universe" in sys.argv, "--universe-only" in sys.argv))
