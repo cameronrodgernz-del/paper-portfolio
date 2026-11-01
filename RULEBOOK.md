@@ -169,6 +169,47 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 - One run of the picked version on 2018 to 2026. Pass needs all of: picks beat the benchmark after costs in at least 6 of the 9 years; the 9-year mean of yearly results above 2%; no single year more than half the total gain.
 - Reported only: the same with the bottom 5% and with no 20-share cap.
 
+### Shared terms for 9g to 9j (registered 1 Nov 2026, before any result)
+- The terms shared by 9d to 9f apply (Norgate prices, costs, the tradable test, run once and lock), except where a test below says otherwise.
+- Equal-weighted benchmark: where a test says so, the mean return over the same sessions of every ordinary share that passes the tradable test on the entry day, rather than VAS, because these tests trade small companies and VAS is mostly large ones. The result against VAS is reported alongside.
+- The t-statistic is worked out on monthly averages (events grouped by the month they start), so overlapping positions don't count as separate evidence.
+
+### 9g. Test registered on 1 Nov 2026, before any result: placement flippers
+- The question: after an ASX small company raises money by placement, do the shares recover once the people given cheap shares have sold theirs?
+- An event, from Norgate prices alone: an ordinary share that traded on each of the 20 sessions before a gap of 1 to 3 sessions with no trades (a trading halt), then reopens at least 5% below its last close before the gap, on at least 3 times its median volume of the 60 sessions before the gap. Left out: a gap across which Norgate records a dividend or capital event (rights issues and consolidations show as one), and any event within 60 sessions of an earlier event for the same share.
+- The trade: buy at the open a set number of sessions after the share reopens, sell at the open a set number of sessions later, against the equal-weighted benchmark, after costs. The share must pass the tradable test on the entry day.
+- Tuning on events from 2010 to 2017 picks the version: entry 5 or 10 sessions after reopening; held 20 or 40 sessions. The picked version runs once on 2018 onwards, on every event whose holding period has ended.
+- Pass needs all of: at least 100 events in the run; a mean result after costs above zero with a t-statistic of 2 or more; still above zero without the best 5% of events; no single year more than half the total gain.
+- Reported only: results by size of the drop (5 to 15%, over 15%) and against VAS; for shares in ASIC's daily files, how often the share count rose at least 3% within 20 sessions of reopening (how often the pattern really was a raising).
+- Its weakness, stated now: a halt and a drop can be bad news rather than a raising; the ASIC check measures how often.
+
+### 9h. Test registered on 1 Nov 2026, before any result: listed options below what they're worth
+- The question: do ASX-listed options trade below their value if exercised (the share price less the strike) by enough to lock in a gain after costs?
+- Options: every ASX-listed option in Norgate whose name gives its strike and expiry, matched to its company's ordinary shares by code; one option is taken to convert into one share (the usual terms).
+- An event: a session at least 15 sessions before expiry when the option closes at or below 95% of (the share's close less the strike), with the share above the strike. Only the first event for each option counts.
+- The trade: buy the option at the next open, exercise at once (paying the strike), and sell the shares at the open 10 sessions later, the time allowed for the new shares to arrive. Return on the money laid out (option plus strike), after brokerage on both trades, half the spread on each (the option's own spread from its highs and lows, with the engine's floors) and the hedge's dealing cost. The option must have traded at least A$5,000 on the entry day, so a position of a few hundred dollars or more fits the rulebook's 10% of volume limit.
+- Run once on every event to the latest whose 10 sessions have passed. Nothing is tuned.
+- Pass needs all of: at least 30 events; a mean result above zero with a t-statistic of 2 or more; still above zero without the best 5% of events.
+- A pass does not make it tradable until Cam chooses a broker that trades and exercises ASX-listed options and its costs go into section 7; Sharesies is not assumed to.
+- Its weakness, stated now: Norgate holds options from about 2024 only; some options convert at other ratios or have conditions, which the name doesn't show.
+
+### 9i. Test registered on 1 Nov 2026, before any result: short sellers covering
+- The question: when hedge funds cut their short positions in an ASX share quickly, does the share then beat the market?
+- Data: ASIC's daily aggregated short positions (data/asic), each day's file treated as known only from the fifth business day after its date, since ASIC publishes about four business days late. ASIC codes are matched to the Norgate share trading on that code on that day.
+- At each month end, among tradable ordinary shares in ASIC's files whose short position was at least a set share of shares on issue a set number of sessions earlier: the 10 with the largest fall in that share since then are held in equal amounts for the month. Only names entering or leaving are traded, each at the next open, after costs.
+- Tuning on 2011 to 2017 picks the version: the earlier short position at least 2% or at least 5% of shares on issue; the fall measured over 20 or 60 sessions. The picked version runs once on 2018 onwards.
+- Result each month: the picks against the equal-weighted return of every tradable share in ASIC's files over the same month.
+- Pass needs all of: a mean monthly result after costs above zero with a t-statistic of 2 or more; ahead in at least 55% of months; no single year more than half the total gain.
+- Reported only: the same signal on the 52 New Zealand companies also listed on the ASX, against their NZX prices from July 2023 (too few for a pass mark).
+
+### 9j. Test registered on 1 Nov 2026, before any result: franked special dividends in ASX schemes
+- The question: before a target pays a special dividend as part of a scheme, does the market price the Australian tax credit into the shares, so that a New Zealand holder, who can't use the credit, does better selling before the dividend than holding to the end?
+- Events: ASX schemes in the deal database announced 2015 to 2025 that paid holders, where Norgate records a dividend of at least 1% of the share price with an ex-date between the announcement and the last day of trading.
+- The comparison, for each event: selling at the open on the last session before the ex-date (less half the spread and brokerage), against holding: the dividend plus the last traded price before the shares stop trading (the remaining scheme payment, which holders receive without brokerage). Result: selling divided by holding, less one.
+- Run once; nothing is tuned. Pass needs all of: at least 15 events; a mean result above zero with a t-statistic of 2 or more; still above zero without the best 5% of events.
+- A pass adds a rule to section 5: for an ASX scheme position, the desk sells before a special dividend's ex-date when the price is above the dividend plus the remaining payment by more than the cost of selling.
+- Its weakness, stated now: Norgate doesn't say whether a dividend is franked, so unfranked specials are included and would weaken any effect.
+
 ## 10. Success tests (scored on 2 July 2027)
 1. Ahead after all costs.
 2. Ahead of an index-and-cash mix with the same ups and downs.
@@ -180,6 +221,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 | Date | Change | Why |
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
+| 2026-11-01 | Sections 9g to 9j registered, with their rules and pass marks, before any of their data was examined for results: placement flippers, listed options below their value, short sellers covering (ASIC's daily files), and franked special dividends in ASX schemes. A one-day trade between the ASX and NZX lines of New Zealand companies was considered and not registered: NZX costs on a NZ$2,500 order (about 1% each way plus a spread of at least 0.6%) are larger than any such gap is likely to be | Cam asked for angles a small New Zealand account can take that others don't, using Norgate and other data few people use |
 | 2026-11-01 | NZX prices: every date moved forward one trading day, and the nightly fetch now asks for the right day. FinFeedAPI labels each NZX session with the UTC date it opens on, the evening before in New Zealand, so every NZX price had been stored a day early and the nightly job would have missed every Monday. Found by lining NZX moves up against the same companies' ASX lines (Norgate): they matched a day later, not on the day. NZ public holidays now have no prices, as they should | A data fault, fixed before the practice run's first night; nothing had been traded on NZX prices |
 | 2026-11-01 | Section 9e result: fail. The 5 highest-scored ASX shares each quarter lost 3.09% a quarter against the market after costs (30 quarters from 2019, t of -2.01; ahead in 12). They were bid within 12 months 3.7 times as often as the market as a whole (14 of 135 against 2.8%), but the model's scores did not rank the rest of the market (each tenth of it was bid at about the same rate), and the shares it picked were mostly beaten-down companies whose losses outweighed the bids. Not traded | Recorded as the registered test found it (reports/target_model_history.md); nothing in the test was changed after the result |
 | 2026-11-01 | Section 9e: only a share that trades at the open after the quarter end can be bought; a halted or delisting share is passed over for the next highest score, as in 9f. Made after the first run stopped on four such picks and before any 9e result was seen | The first run could not price those picks and stopped without a result; the registered rule buys at the next open, which a share with no trade that day doesn't have |
