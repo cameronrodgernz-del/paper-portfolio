@@ -45,22 +45,24 @@ De-duplicated on CN ID plus amendment number. Where a notice is in several sourc
 
 2. AusTender OCDS API, `https://api.tenders.gov.au/ocds/findByDates/contractPublished/{start}/{end}`, paged one UTC day at a time from 1 January 2013 (the earliest it serves) to the day of the run. Documentation: https://github.com/austender/austender-ocds-api. The API returns each contract with all of its amendments, in the window of the contract's publish date.
 
-| API year (contract publish date) | releases read | days that failed after three passes |
-|---|---|---|
-| 2013 | 83,308 | 60 (2013-01-05, 2013-01-12, 2013-01-19, 2013-01-26, 2013-01-27, 2013-02-02, 2013-02-09, 2013-02-16) |
-| 2014 | 79,273 | 61 (2014-01-04, 2014-01-11, 2014-01-18, 2014-01-25, 2014-01-26, 2014-02-01, 2014-02-08, 2014-02-15) |
-| 2015 | 84,252 | 55 (2015-01-03, 2015-01-10, 2015-01-17, 2015-01-24, 2015-01-25, 2015-02-07, 2015-02-14, 2015-02-21) |
-| 2016 | 82,898 | 55 (2016-01-01, 2016-01-02, 2016-01-09, 2016-01-16, 2016-01-23, 2016-01-30, 2016-02-06, 2016-02-13) |
-| 2017 | 81,085 | 63 (2017-01-01, 2017-01-07, 2017-01-14, 2017-01-21, 2017-01-28, 2017-02-04, 2017-02-11, 2017-02-18) |
-| 2018 | 86,938 | 58 (2018-01-06, 2018-01-13, 2018-01-20, 2018-01-26, 2018-01-27, 2018-02-03, 2018-02-17, 2018-02-24) |
-| 2019 | 89,867 | 53 (2019-01-05, 2019-01-19, 2019-02-02, 2019-02-09, 2019-02-16, 2019-03-02, 2019-03-09, 2019-03-16) |
-| 2020 | 91,841 | 50 (2020-01-04, 2020-01-11, 2020-01-18, 2020-01-25, 2020-01-26, 2020-02-01, 2020-02-08, 2020-02-15) |
-| 2021 | 102,212 | 49 (2021-01-01, 2021-01-02, 2021-01-16, 2021-01-23, 2021-02-06, 2021-02-13, 2021-02-20, 2021-02-27) |
-| 2022 | 93,133 | 47 (2022-01-01, 2022-01-02, 2022-01-15, 2022-01-22, 2022-01-29, 2022-02-05, 2022-02-19, 2022-02-26) |
-| 2023 | 82,417 | 45 (2023-01-01, 2023-01-07, 2023-01-28, 2023-02-04, 2023-02-11, 2023-02-18, 2023-03-04, 2023-03-18) |
-| 2024 | 87,777 | 46 (2024-01-06, 2024-01-13, 2024-01-20, 2024-01-26, 2024-01-27, 2024-02-03, 2024-02-10, 2024-02-17) |
-| 2025 | 75,896 | 51 (2025-01-04, 2025-01-11, 2025-01-18, 2025-01-25, 2025-01-26, 2025-02-01, 2025-02-08, 2025-02-15) |
-| 2026 | 51,031 | 45 (2026-01-03, 2026-01-10, 2026-01-17, 2026-01-24, 2026-01-25, 2026-01-31, 2026-02-07, 2026-02-14) |
+| API year (contract publish date) | releases read | UTC days with no notices | days that failed after three tries |
+|---|---|---|---|
+| 2013 | 83,308 | 60 (Sat 49, Sun 5, Fri 2) | none |
+| 2014 | 79,273 | 61 (Sat 51, Sun 5, Fri 3) | none |
+| 2015 | 84,252 | 55 (Sat 47, Sun 4, Fri 2) | none |
+| 2016 | 82,898 | 55 (Sat 48, Fri 2, Sun 2) | none |
+| 2017 | 81,085 | 63 (Sat 52, Sun 6, Fri 2) | none |
+| 2018 | 86,938 | 58 (Sat 47, Sun 5, Fri 2) | none |
+| 2019 | 89,867 | 53 (Sat 43, Sun 4, Fri 2) | none |
+| 2020 | 91,841 | 50 (Sat 43, Sun 2, Fri 2) | none |
+| 2021 | 102,212 | 49 (Sat 38, Sun 4, Fri 3) | none |
+| 2022 | 93,133 | 47 (Sat 36, Sun 5, Fri 2) | none |
+| 2023 | 82,417 | 45 (Sat 38, Sun 4, Mon 1) | none |
+| 2024 | 87,777 | 46 (Sat 37, Fri 3, Sun 2) | none |
+| 2025 | 75,896 | 51 (Sat 43, Sun 3, Fri 2) | none |
+| 2026 | 51,031 | 45 (Sat 39, Sun 5, Fri 1) | none |
+
+The API answers HTTP 400 for a window with no notices. Those days are almost all UTC Saturdays (Saturday morning to Sunday morning in Canberra) and public holidays, so they are counted as empty rather than failed. As a check, the data.gov.au files hold 35 contracts with a Canberra publish date on any of those 738 dates.
 
 Rows read: API 1,171,903, data.gov.au files 5,236,957.
 
@@ -102,6 +104,7 @@ Range: 1999 to 2026. Years before 2007 hold only the notices carried over from t
 ## Gaps and weaknesses
 
 - Amendment dates after June 2020. The data.gov.au files give each amendment's publish date up to 30 June 2020; the API does not. Each API amendment release carries the date of its latest change, and the move of older amendments onto the API stamped thousands with the same timestamp (2023-04-27T08:08:01Z on 157,833; 2025-05-08T07:14:12Z on 7,765; 2023-07-24T08:32:50Z on 3,188; 2023-04-27T08:08:29Z on 2,070). API amendment dates are used only when on or after 2023-04-28 and not a timestamp shared by 50 or more amendments. Amendments with no usable date are kept in `contracts_undated.csv.gz`; by year of their contract's publish date: 2011 18, 2013 4,662, 2014 2,439, 2015 2,119, 2016 2,547, 2017 4,534, 2018 7,146, 2019 12,005, 2020 17,997, 2021 16,323, 2022 8,285, 2023 2,166, 2024 1,405, 2025 85. Most will have been published between July 2020 and April 2023. After April 2023 an API amendment date can still be the date of a later correction rather than first publication.
+- Amendment counts. The files give about 15,576 dated amendments a year for 2010 to 2019. The API-dated years carry 2023: 20,762, 2024: 20,987, 2025: 38,624, 2026: 42,277. The API also lists amendments that change only dates or wording, and some API dates will be the date of a later edit, so amendment dates from 2023 on are less reliable than contract dates.
 - Amendments made after June 2020 to contracts published before 2013 are missing: the API only serves contracts published from 2013 and returns amendments with their contract.
 - Notices only in the API: 607,411 (mostly those published after the files end). Notices from 2013 on that are in the files but not returned by the API: 33,299. They are kept.
 - API amendment releases whose date is a bulk or pre-migration stamp (date not used): 178,187
@@ -116,5 +119,6 @@ Range: 1999 to 2026. Years before 2007 hold only the notices carried over from t
   - examples (files vs API date): CN3413441 austenderallcnsupto30jun17.zip 2017-04-04 vs api 2016-09-13; CN3619513 cn-parent-and-amendments-30092019-ltr.xlsx 2019-08-13 vs api 2017-10-31; CN3556322 cn-parent-and-amendments-2018-19-30082019.xlsx 2018-12-04 vs api 2018-05-01; CN3568412 cn-parent-and-amendments-2018-19-30082019.xlsx 2019-02-01 vs api 2018-10-17; CN3638270 2019-20-australian-government-contract-data.xlsx 2019-11-04 vs api 2019-10-28; CN3658586 2019-20-australian-government-contract-data.xlsx 2020-02-10 vs api 2020-02-03
   - examples (files vs API value): CN2498341 cns-parent-and-amendments-28082018.zip 372,000 vs api 504,000; CN3293623 austenderallcnsupto31dec15.zip 23,800,000 vs api 24,783,305; CN3416694 austenderallcnsupto30jun17.zip 68,582 vs api 66,910; CN3655476 2019-20-australian-government-contract-data.xlsx 5,445,301 vs api 110,770,824; CN3658586 2019-20-australian-government-contract-data.xlsx 49,510 vs api 149,469; CN3656633 2019-20-australian-government-contract-data.xlsx 27,314 vs api 72,424
 - Time of day. The files give dates only; the API gives a publish time. For contracts read from the API (2013 on), Canberra publish time was: 10:00 to 15:59 66%, 16:00 or later 14%, before 10:00 19%, weekend 0%. A notice put up during the day is public while the ASX is open, so the publish day itself is partly after the event.
+- Agency names. The files carry the agency's name at the time of the notice; notices found only in the API carry the agency's current name after later machinery-of-government changes (for example Department of Home Affairs on a 2014 notice).
 - Values are as agencies reported them. Panel and standing-offer notices can carry a ceiling rather than expected spend, and a few notices carry keying errors (for example values in the billions for small purchases).
 
