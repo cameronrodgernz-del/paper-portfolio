@@ -151,7 +151,10 @@ def main(root: str, force: bool = False) -> int:
             dec[order] = (np.arange(len(p)) * 10) // len(p)
             for d_, l_ in zip(dec, lab):
                 lift[int(d_)][0] += int(l_); lift[int(d_)][1] += 1
-        picks = [int(cols[o]) for o in order[:PICKS]]
+        # only a share that trades at the next open can be bought (the same rule as 9f); a halted or
+        # delisting share is passed over for the next highest score
+        buyable = [int(cols[o]) for o in order if u.o[i_in, cols[o]] > 0 and np.isfinite(u.tr_open(int(cols[o]), i_in))]
+        picks = buyable[:PICKS]
         rets = []
         for j in picks:
             gross, i_sold, how = u.hold(j, i_in, i_out)

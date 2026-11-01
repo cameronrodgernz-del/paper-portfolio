@@ -531,7 +531,12 @@ def history_tests() -> list[dict]:
         ev = first_match(path, r"\|\s*Events\s*\|\s*(\d+)[^|]*\|")
         mean = first_match(path, r"\|\s*Mean (?:result[^|]*|after costs[^|]*)\|\s*([-+]?[\d.]+%)[^|]*\|")
         t = first_match(path, r"\|\s*t-statistic\s*\|\s*([-+]?[\d.]+)\s*\|")
-        bits = [f"{mean} a trade after costs" if mean else "", f"{ev} events" if ev else "", f"t {t}" if t else ""]
+        qs = first_match(path, r"\|\s*Quarters\s*\|\s*(\d+)[^|]*\|")
+        if not mean:                                   # 9f reports a yearly mean in its pass marks
+            mean = first_match(path, r"\|\s*Mean yearly result[^|]*\|[^|]*\|\s*([-+]?[\d.]+%)\s*\|")
+        ahead = first_match(path, r"\|\s*Picks beat the benchmark[^|]*\|[^|]*\|\s*(\d+ of \d+)\s*\|")
+        bits = [f"{mean} a trade after costs" if mean else "", f"{ev} events" if ev else "", f"{qs} quarters" if qs else "",
+                f"ahead in {ahead} years" if ahead else "", f"t {t}" if t else ""]
         return ", ".join(b for b in bits if b) + (". Traded." if res == "pass" else ". Not traded." if res == "fail" else ".")
     e2, f2 = count_asx("universe_history_au_deals.csv")
     a, b = count("universe_history.csv")
