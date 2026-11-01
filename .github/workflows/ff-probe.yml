@@ -1,0 +1,37 @@
+name: FinancialFilings coverage check
+
+# One-off: checks how far back FinancialFilings holds ASX substantial holder notices and takeover
+# filings, using about 60 of the 500 free monthly credits. Runs when this file or its script changes,
+# or by hand.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - tools/ff_probe.py
+      - .github/workflows/ff-probe.yml
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check coverage
+        env:
+          FINANCIALFILINGS_API_KEY: ${{ secrets.FINANCIALFILINGS_API_KEY }}
+        run: python3 -I tools/ff_probe.py data/financialfilings
+      - name: Save
+        run: |
+          git config user.name "paper-portfolio-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/financialfilings/probe
+          git diff --cached --quiet && exit 0
+          git commit -m "FinancialFilings coverage check $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
