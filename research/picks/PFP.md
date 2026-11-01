@@ -3,6 +3,8 @@
 Written 2026-11-01 by the research desk. Price at writing: A$2.66 (close on 30 October 2026, Norgate, data/norgate/universe/prices_2026.csv.gz). Market value: A$367.0m (shares on issue 137,973,594, ASX company data [P6]).
 Status: finished. This is a simulation and not financial advice.
 
+> Read the red team first: research/red_team/PFP.md (verdict: wait for the 9 November 2026 AGM). It found these figures here overstated or missing: the price is about 10.5 times EBITDA, not 9.4; debt is about 3.1 times EBITDA, not 2.2; A$39.7m of borrowings fall due within a year; index selling explains only the 4 to 18 September drop, and most of the year's 46% fall came on company news, with the price now below the rebalance-day close; tangible assets are only about A$1.00 a share; and the interim dividend has gone ex in early March each year, after the card's 1 March 2027 resolve date, so no dividend falls inside the holding window. Where the two disagree, the red team's figures stand until a new deep dive checks them.
+
 ## The company in plain words
 Propel owns funeral homes, crematoria and cemeteries in Australia and New Zealand. It says it is the second largest private provider of death care in the two countries, with 213 locations including 42 cremation facilities and 9 cemeteries [P1]. It grows by buying family funeral businesses and keeping their local names. Money comes from each funeral: about 22,850 funerals in FY26 at an average of A$6,673 each [P1].
 

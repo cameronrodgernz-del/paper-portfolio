@@ -3,6 +3,8 @@
 Written 2026-11-01 by the research desk. Price at writing: A$5.19 (close on 30 October 2026, Norgate, data/norgate/universe/prices_2026.csv.gz; the ASX's own feed showed A$5.20 for 29 October [S9]). Market value: A$528.6m (shares on issue 101,855,088, ASX company data [S9]).
 Status: finished. This is a simulation and not financial advice.
 
+> Read the red team first: research/red_team/SRV.md (verdict: don't buy). It found these points here wrong or missing: FY26 guidance was raised once, not twice; the A$6.1m is mostly recurring losses on new floors, not impairments; the "missing A$20m" does not add up; the founder's buying has run since April 2026 at higher prices, so it is not new; and the deep dive leaves out the roughly 40 Gulf and Lebanon floors exposed to the Middle East war and the chairman's retirement at the AGM. Where the two disagree, the red team's figures stand until a new deep dive checks them.
+
 ## The company in plain words
 Servcorp rents out serviced offices, coworking desks and "virtual offices" (an address, phone answering and meeting rooms) on high floors of prime towers. It leases whole floors from landlords on long terms, fits them out, and sells space and services by the month. At 30 June 2026 it ran 137 floors in 38 cities across 19 countries [S1, pp. 10-11]. The money comes from membership and office fees plus services (IT, phones, secretarial). Its biggest profit region is Europe and the Middle East (mature segment profit A$50.0m in FY26, against A$30.9m for North Asia and Australia, New Zealand and South East Asia together), then North Asia (mostly Japan), Australia and New Zealand with South East Asia, and a small USA business [S2].
 
