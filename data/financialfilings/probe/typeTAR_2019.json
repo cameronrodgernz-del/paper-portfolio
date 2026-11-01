@@ -1,0 +1,960 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1159,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2019-01-01T00%3A00%3A00Z&release_datetime_to=2019-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 56331160,
+    "title": "Completion of sale of US operations Source Power & Gas",
+    "release_datetime": "2019-01-01T22:19:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84896/2019/RNS/84896_rns_2019-01-01_a44f44fe-baf9-4bce-a15d-e03b757ff9f7.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84896/2019/RNS/84896_rns_2019-01-01_a44f44fe-baf9-4bce-a15d-e03b757ff9f7.pdf",
+    "viewer_url": "https://financialfilings.com/filings/erm-power-limited/ma-activity/2019/56331160/",
+    "company": {
+     "id": 84896,
+     "name": "ERM Power Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000EPW7"
+     ],
+     "lei": "",
+     "sub_industry_code": "3511",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 116011,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56495242,
+    "title": "ANS: Update on Agreement with Sundance Resources",
+    "release_datetime": "2019-01-02T01:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85548/2019/RNS/85548_rns_2019-01-02_47e62e00-370f-46f0-80be-17ba4be7defc.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85548/2019/RNS/85548_rns_2019-01-02_47e62e00-370f-46f0-80be-17ba4be7defc.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sundance-resources-limited/ma-activity/2019/56495242/",
+    "company": {
+     "id": 85548,
+     "name": "Sundance Resources Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000SDL6"
+     ],
+     "lei": "",
+     "sub_industry_code": "0710",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 317967,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40613379,
+    "title": "Non-binding indicative proposal for acquisition of Healius",
+    "release_datetime": "2019-01-02T22:28:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65058/2019/RNS/65058_rns_2019-01-02_a6efd6a9-5391-443b-af81-86adb9d560f1.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65058/2019/RNS/65058_rns_2019-01-02_a6efd6a9-5391-443b-af81-86adb9d560f1.pdf",
+    "viewer_url": "https://financialfilings.com/filings/healius-limited/ma-activity/2019/40613379/",
+    "company": {
+     "id": 65058,
+     "name": "HEALIUS LIMITED",
+     "tagline": "Healthcare provider specializing in pathology and diagnostic imaging services.",
+     "isins": [
+      "AU0000033359"
+     ],
+     "lei": "529900MBZK3SLWK8SJ55",
+     "sub_industry_code": "8699",
+     "oics_code": "HC.CR.HSV.CLS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 88622,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39849251,
+    "title": "Interim completion of acquisition of the Oropesa Tin Project",
+    "release_datetime": "2019-01-04T00:44:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64837/2019/RNS/64837_rns_2019-01-03_8252e985-b6a1-4d19-bd80-d0eb0d5a36ee.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64837/2019/RNS/64837_rns_2019-01-03_8252e985-b6a1-4d19-bd80-d0eb0d5a36ee.pdf",
+    "viewer_url": "https://financialfilings.com/filings/elementos-limited/ma-activity/2019/39849251/",
+    "company": {
+     "id": 64837,
+     "name": "ELEMENTOS LIMITED",
+     "tagline": "Explores and develops tin assets for global technology and energy transition.",
+     "isins": [
+      "AU000000ELT2"
+     ],
+     "lei": "529900AAPW9YQI9AGG64",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 277283,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44659278,
+    "title": "Acquisition of Majority Interest in Carr & Co",
+    "release_datetime": "2019-01-04T02:27:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65787/2019/RNS/65787_rns_2019-01-03_341fe014-6f6e-4f86-a3f5-5ae72135ce80.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65787/2019/RNS/65787_rns_2019-01-03_341fe014-6f6e-4f86-a3f5-5ae72135ce80.pdf",
+    "viewer_url": "https://financialfilings.com/filings/shine-justice-ltd/ma-activity/2019/44659278/",
+    "company": {
+     "id": 65787,
+     "name": "SHINE JUSTICE LTD",
+     "tagline": "Provides personal injury litigation, class actions, and commercial legal services.",
+     "isins": [
+      "AU000000SHJ1"
+     ],
+     "lei": "9845001C6995UD6E5B98",
+     "sub_industry_code": "6910",
+     "oics_code": "IN.BS.APS.CNS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 147695,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38695351,
+    "title": "Statusof defeating conditions and extension of offer",
+    "release_datetime": "2019-01-07T06:01:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64522/2019/RNS/64522_rns_2019-01-06_fb356378-1a34-402b-9dde-e073867e57d0.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64522/2019/RNS/64522_rns_2019-01-06_fb356378-1a34-402b-9dde-e073867e57d0.pdf",
+    "viewer_url": "https://financialfilings.com/filings/benjamin-hornigold-limited/ma-activity/2019/38695351/",
+    "company": {
+     "id": 64522,
+     "name": "BENJAMIN HORNIGOLD LIMITED",
+     "tagline": "Investment entity managing a diversified portfolio for capital growth and income.",
+     "isins": [
+      "AU000000BHD0"
+     ],
+     "lei": "213800NF4MMCWGFV4F51",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 175867,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 59137100,
+    "title": "M&A Announcement (Presentation)",
+    "release_datetime": "2019-01-07T12:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64829/2019/RNS/64829_rns_2019-01-07_41d51e3d-95d1-4109-b0bb-aabf8ec25bcd.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64829/2019/RNS/64829_rns_2019-01-07_41d51e3d-95d1-4109-b0bb-aabf8ec25bcd.pdf",
+    "viewer_url": "https://financialfilings.com/filings/environmental-group-limited-the/ma-activity/2019/59137100/",
+    "company": {
+     "id": 64829,
+     "name": "ENVIRONMENTAL GROUP LIMITED (THE)",
+     "tagline": "Provides environmental engineering solutions for air, water, waste, and energy sectors.",
+     "isins": [
+      "AU000000EGL9"
+     ],
+     "lei": "984500GBB64693BFDB20",
+     "sub_industry_code": "7110",
+     "oics_code": "IN.EQ.MCH.IMC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2229180,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44826092,
+    "title": "Update to The Food Box Transaction",
+    "release_datetime": "2019-01-08T01:52:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65957/2019/RNS/65957_rns_2019-01-07_93d3b2de-0a04-4925-8ef4-3a6048810e02.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65957/2019/RNS/65957_rns_2019-01-07_93d3b2de-0a04-4925-8ef4-3a6048810e02.pdf",
+    "viewer_url": "https://financialfilings.com/filings/tesoro-gold-ltd/ma-activity/2019/44826092/",
+    "company": {
+     "id": 65957,
+     "name": "TESORO GOLD LTD",
+     "tagline": "Explores and develops gold assets, focusing on the El Zorro Gold Project.",
+     "isins": [
+      "AU0000077208"
+     ],
+     "lei": "9845008A3CD0A5FE6F76",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 67791,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56186013,
+    "title": "IAU: Status of Defeating Conditions",
+    "release_datetime": "2019-01-09T04:27:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84461/2019/RNS/84461_rns_2019-01-08_e0a7325f-d3c8-49e3-b037-bd41159a0741.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84461/2019/RNS/84461_rns_2019-01-08_e0a7325f-d3c8-49e3-b037-bd41159a0741.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aic-resources-limited/ma-activity/2019/56186013/",
+    "company": {
+     "id": 84461,
+     "name": "AIC Resources Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000A1C3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 165341,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56185997,
+    "title": "IAU: Freeing of a Defeating Condition",
+    "release_datetime": "2019-01-09T06:41:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84461/2019/RNS/84461_rns_2019-01-08_49dc1dc0-049a-4a11-a812-49d29e6f3314.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84461/2019/RNS/84461_rns_2019-01-08_49dc1dc0-049a-4a11-a812-49d29e6f3314.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aic-resources-limited/ma-activity/2019/56185997/",
+    "company": {
+     "id": 84461,
+     "name": "AIC Resources Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000A1C3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 162050,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56185995,
+    "title": "IAU: Updated Status of Defeating Conditions",
+    "release_datetime": "2019-01-09T06:43:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84461/2019/RNS/84461_rns_2019-01-08_ba022668-dbfa-48ab-9b3e-d4e98b90b205.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84461/2019/RNS/84461_rns_2019-01-08_ba022668-dbfa-48ab-9b3e-d4e98b90b205.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aic-resources-limited/ma-activity/2019/56185995/",
+    "company": {
+     "id": 84461,
+     "name": "AIC Resources Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000A1C3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 165755,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56477979,
+    "title": "TOV: FMS Panel Receives Application",
+    "release_datetime": "2019-01-10T07:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85500/2019/RNS/85500_rns_2019-01-10_6fdceb82-972e-4956-a60a-a50733524644.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85500/2019/RNS/85500_rns_2019-01-10_6fdceb82-972e-4956-a60a-a50733524644.pdf",
+    "viewer_url": "https://financialfilings.com/filings/red-hawk-mining-limited/ma-activity/2019/56477979/",
+    "company": {
+     "id": 85500,
+     "name": "Red Hawk Mining Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000FMS9"
+     ],
+     "lei": "",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 238177,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56477967,
+    "title": "Flinders notes lodgement of Takeovers Panel application",
+    "release_datetime": "2019-01-10T22:50:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85500/2019/RNS/85500_rns_2019-01-10_2c6fe390-d416-4871-b58e-d6627a9cf1d9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85500/2019/RNS/85500_rns_2019-01-10_2c6fe390-d416-4871-b58e-d6627a9cf1d9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/red-hawk-mining-limited/ma-activity/2019/56477967/",
+    "company": {
+     "id": 85500,
+     "name": "Red Hawk Mining Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000FMS9"
+     ],
+     "lei": "",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 15575,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56477946,
+    "title": "Flinders Mines Limited 03 Panel Receives Application",
+    "release_datetime": "2019-01-11T06:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85500/2019/RNS/85500_rns_2019-01-11_9141f495-9ddc-4bd1-a1f4-40a92e1320d3.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85500/2019/RNS/85500_rns_2019-01-11_9141f495-9ddc-4bd1-a1f4-40a92e1320d3.pdf",
+    "viewer_url": "https://financialfilings.com/filings/red-hawk-mining-limited/ma-activity/2019/56477946/",
+    "company": {
+     "id": 85500,
+     "name": "Red Hawk Mining Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000FMS9"
+     ],
+     "lei": "",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 230884,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56477937,
+    "title": "Additional Takeovers Panel Application",
+    "release_datetime": "2019-01-13T22:33:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85500/2019/RNS/85500_rns_2019-01-13_f392e89e-820c-45f1-a948-c2019aaa7da2.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85500/2019/RNS/85500_rns_2019-01-13_f392e89e-820c-45f1-a948-c2019aaa7da2.pdf",
+    "viewer_url": "https://financialfilings.com/filings/red-hawk-mining-limited/ma-activity/2019/56477937/",
+    "company": {
+     "id": 85500,
+     "name": "Red Hawk Mining Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000FMS9"
+     ],
+     "lei": "",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 15671,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56244585,
+    "title": "Capitol Acquires Radiology Network in Melbourne",
+    "release_datetime": "2019-01-13T23:21:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84694/2019/RNS/84694_rns_2019-01-13_b2a47597-1287-483c-b96e-2ddb3288e22b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84694/2019/RNS/84694_rns_2019-01-13_b2a47597-1287-483c-b96e-2ddb3288e22b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/capitol-health-ltd/ma-activity/2019/56244585/",
+    "company": {
+     "id": 84694,
+     "name": "Capitol Health Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000CAJ0"
+     ],
+     "lei": "",
+     "sub_industry_code": "8620",
+     "oics_code": "HC.CR.HSV.CLS",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 115980,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44691107,
+    "title": "Supplementary Target's Statement",
+    "release_datetime": "2019-01-14T08:18:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65821/2019/RNS/65821_rns_2019-01-13_cadbcb92-8b10-49c6-a477-68a856051981.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65821/2019/RNS/65821_rns_2019-01-13_cadbcb92-8b10-49c6-a477-68a856051981.pdf",
+    "viewer_url": "https://financialfilings.com/filings/stanmore-resources-limited/ma-activity/2019/44691107/",
+    "company": {
+     "id": 65821,
+     "name": "STANMORE RESOURCES LIMITED",
+     "tagline": "Produces metallurgical coal in the Bowen Basin for the global steelmaking industry.",
+     "isins": [
+      "AU000000SMR4"
+     ],
+     "lei": "52990090OHRBVS7DDA54",
+     "sub_industry_code": "0510",
+     "oics_code": "EN.OG.FUE.COA",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 402849,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44691106,
+    "title": "Supplementary Target's Statement",
+    "release_datetime": "2019-01-14T08:19:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65821/2019/RNS/65821_rns_2019-01-13_ac8b07cb-dd7f-4532-991a-02749af6ce3a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65821/2019/RNS/65821_rns_2019-01-13_ac8b07cb-dd7f-4532-991a-02749af6ce3a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/stanmore-resources-limited/ma-activity/2019/44691106/",
+    "company": {
+     "id": 65821,
+     "name": "STANMORE RESOURCES LIMITED",
+     "tagline": "Produces metallurgical coal in the Bowen Basin for the global steelmaking industry.",
+     "isins": [
+      "AU000000SMR4"
+     ],
+     "lei": "52990090OHRBVS7DDA54",
+     "sub_industry_code": "0510",
+     "oics_code": "EN.OG.FUE.COA",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 159632,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44691104,
+    "title": "Third Supp Bidder's Statement and unconditional final offer",
+    "release_datetime": "2019-01-14T21:40:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65821/2019/RNS/65821_rns_2019-01-14_749ab3e1-7d03-4baf-b842-7613bea50412.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65821/2019/RNS/65821_rns_2019-01-14_749ab3e1-7d03-4baf-b842-7613bea50412.pdf",
+    "viewer_url": "https://financialfilings.com/filings/stanmore-resources-limited/ma-activity/2019/44691104/",
+    "company": {
+     "id": 65821,
+     "name": "STANMORE RESOURCES LIMITED",
+     "tagline": "Produces metallurgical coal in the Bowen Basin for the global steelmaking industry.",
+     "isins": [
+      "AU000000SMR4"
+     ],
+     "lei": "52990090OHRBVS7DDA54",
+     "sub_industry_code": "0510",
+     "oics_code": "EN.OG.FUE.COA",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2711488,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56185975,
+    "title": "IAU:Notice of automatic extension of offer period",
+    "release_datetime": "2019-01-15T02:47:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84461/2019/RNS/84461_rns_2019-01-14_697f034c-4180-4f4e-bfc0-83df637329d0.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84461/2019/RNS/84461_rns_2019-01-14_697f034c-4180-4f4e-bfc0-83df637329d0.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aic-resources-limited/ma-activity/2019/56185975/",
+    "company": {
+     "id": 84461,
+     "name": "AIC Resources Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000A1C3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 92272,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56185969,
+    "title": "IAU:New date for notice of status of conditions",
+    "release_datetime": "2019-01-15T06:41:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84461/2019/RNS/84461_rns_2019-01-14_dba8acb3-9024-4dd8-9029-7f5df2a57b3e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84461/2019/RNS/84461_rns_2019-01-14_dba8acb3-9024-4dd8-9029-7f5df2a57b3e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aic-resources-limited/ma-activity/2019/56185969/",
+    "company": {
+     "id": 84461,
+     "name": "AIC Resources Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000A1C3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 132549,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44691101,
+    "title": "Fourth Supplementary Bidder's Statement",
+    "release_datetime": "2019-01-16T09:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65821/2019/RNS/65821_rns_2019-01-15_45c9cf49-bfa4-4d20-9410-5c6709de7a12.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65821/2019/RNS/65821_rns_2019-01-15_45c9cf49-bfa4-4d20-9410-5c6709de7a12.pdf",
+    "viewer_url": "https://financialfilings.com/filings/stanmore-resources-limited/ma-activity/2019/44691101/",
+    "company": {
+     "id": 65821,
+     "name": "STANMORE RESOURCES LIMITED",
+     "tagline": "Produces metallurgical coal in the Bowen Basin for the global steelmaking industry.",
+     "isins": [
+      "AU000000SMR4"
+     ],
+     "lei": "52990090OHRBVS7DDA54",
+     "sub_industry_code": "0510",
+     "oics_code": "EN.OG.FUE.COA",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 4091239,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44488153,
+    "title": "Explaurum Takeover Update",
+    "release_datetime": "2019-01-17T22:53:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65718/2019/RNS/65718_rns_2019-01-17_294a9ac9-fc2e-4822-b1f3-b4d1c7fb5285.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65718/2019/RNS/65718_rns_2019-01-17_294a9ac9-fc2e-4822-b1f3-b4d1c7fb5285.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ramelius-resources-limited/ma-activity/2019/44488153/",
+    "company": {
+     "id": 65718,
+     "name": "RAMELIUS RESOURCES LIMITED",
+     "tagline": "Gold producer and explorer operating production hubs and high-grade satellite projects.",
+     "isins": [
+      "AU000000RMS4"
+     ],
+     "lei": "254900E44AIGW7KKNR98",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 351836,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44691092,
+    "title": "5th Supplementary Target's Statement",
+    "release_datetime": "2019-01-17T22:57:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65821/2019/RNS/65821_rns_2019-01-17_8c9a40b4-3b44-4ff2-ac4f-549a7e0f9ad3.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65821/2019/RNS/65821_rns_2019-01-17_8c9a40b4-3b44-4ff2-ac4f-549a7e0f9ad3.pdf",
+    "viewer_url": "https://financialfilings.com/filings/stanmore-resources-limited/ma-activity/2019/44691092/",
+    "company": {
+     "id": 65821,
+     "name": "STANMORE RESOURCES LIMITED",
+     "tagline": "Produces metallurgical coal in the Bowen Basin for the global steelmaking industry.",
+     "isins": [
+      "AU000000SMR4"
+     ],
+     "lei": "52990090OHRBVS7DDA54",
+     "sub_industry_code": "0510",
+     "oics_code": "EN.OG.FUE.COA",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 291942,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44889899,
+    "title": "Further extension of Offer Period",
+    "release_datetime": "2019-01-18T06:46:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65991/2019/RNS/65991_rns_2019-01-17_e05af295-2800-4816-9916-6145a7bf2fa9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65991/2019/RNS/65991_rns_2019-01-17_e05af295-2800-4816-9916-6145a7bf2fa9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vault-minerals-limited/ma-activity/2019/44889899/",
+    "company": {
+     "id": 65991,
+     "name": "VAULT MINERALS LIMITED",
+     "tagline": "Mid-tier gold and copper producer operating diversified mining and processing assets.",
+     "isins": [
+      "AU0000355588"
+     ],
+     "lei": "5299008TF8KHQ8CIQG34",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 119221,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

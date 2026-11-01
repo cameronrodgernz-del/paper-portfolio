@@ -1,0 +1,960 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1033,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2010-01-01T00%3A00%3A00Z&release_datetime_to=2010-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 38675836,
+    "title": "Acquisition of Iron Ore Projects Update",
+    "release_datetime": "2010-01-03T13:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64519/2010/RNS/64519_rns_2010-01-03_493a45cd-d9f3-4024-a543-2636cd07c934.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64519/2010/RNS/64519_rns_2010-01-03_493a45cd-d9f3-4024-a543-2636cd07c934.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bellevue-gold-limited/ma-activity/2010/38675836/",
+    "company": {
+     "id": 64519,
+     "name": "BELLEVUE GOLD LIMITED",
+     "tagline": "Operates a high-grade underground gold project powered by renewable energy.",
+     "isins": [
+      "AU0000019374"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 85456,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 45011310,
+    "title": "WorleyParsons to acquire CNEC Engenharia SA",
+    "release_datetime": "2010-01-03T23:01:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66073/2010/RNS/66073_rns_2010-01-03_00cd5d08-ec27-463e-912a-7809f3365183.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66073/2010/RNS/66073_rns_2010-01-03_00cd5d08-ec27-463e-912a-7809f3365183.pdf",
+    "viewer_url": "https://financialfilings.com/filings/worley-limited/ma-activity/2010/45011310/",
+    "company": {
+     "id": 66073,
+     "name": "WORLEY LIMITED",
+     "tagline": "Global provider of project and asset services in energy, chemicals, and resources.",
+     "isins": [
+      "AU000000WOR2"
+     ],
+     "lei": "549300XDR86FY8OLGP97",
+     "sub_industry_code": "7110",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 36928,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56394413,
+    "title": "Acquires Ace of Shades business",
+    "release_datetime": "2010-01-04T01:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85143/2010/RNS/85143_rns_2010-01-04_039507cb-403e-4585-bf89-9a40dfd8931c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85143/2010/RNS/85143_rns_2010-01-04_039507cb-403e-4585-bf89-9a40dfd8931c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/kresta-holdings-limited/ma-activity/2010/56394413/",
+    "company": {
+     "id": 85143,
+     "name": "Kresta Holdings Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000KRS8"
+     ],
+     "lei": "",
+     "sub_industry_code": "3102",
+     "oics_code": "CL.RT.STR.SPS",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 65222,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44482821,
+    "title": "DIO: Directors` Statement re Takeover",
+    "release_datetime": "2010-01-04T02:53:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65718/2010/RNS/65718_rns_2010-01-03_125c6efd-6b5a-4f3e-971c-aad3dccf89e4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65718/2010/RNS/65718_rns_2010-01-03_125c6efd-6b5a-4f3e-971c-aad3dccf89e4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ramelius-resources-limited/ma-activity/2010/44482821/",
+    "company": {
+     "id": 65718,
+     "name": "RAMELIUS RESOURCES LIMITED",
+     "tagline": "Gold producer and explorer operating production hubs and high-grade satellite projects.",
+     "isins": [
+      "AU000000RMS4"
+     ],
+     "lei": "254900E44AIGW7KKNR98",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 341868,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44660083,
+    "title": "Settlement of Lademannbogen Laboratory Acquisition Hamburg",
+    "release_datetime": "2010-01-04T21:58:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65788/2010/RNS/65788_rns_2010-01-04_05fdfac8-0bee-44bf-840a-58078c09833c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65788/2010/RNS/65788_rns_2010-01-04_05fdfac8-0bee-44bf-840a-58078c09833c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sonic-healthcare-limited/ma-activity/2010/44660083/",
+    "company": {
+     "id": 65788,
+     "name": "SONIC HEALTHCARE LIMITED",
+     "tagline": "International provider of pathology, radiology, and primary care diagnostic services.",
+     "isins": [
+      "AU000000SHL7"
+     ],
+     "lei": "549300NQQ5L2NONWR862",
+     "sub_industry_code": "8699",
+     "oics_code": "HC.CR.HSV.CLS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 22384,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44005448,
+    "title": "Completion of Fordham Acquisition",
+    "release_datetime": "2010-01-05T03:09:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10538/2010/RNS/10538_rns_2010-01-04_7a44f9dd-0dc5-41a2-8223-8c92280a7364.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10538/2010/RNS/10538_rns_2010-01-04_7a44f9dd-0dc5-41a2-8223-8c92280a7364.pdf",
+    "viewer_url": "https://financialfilings.com/filings/perpetual-limited/ma-activity/2010/44005448/",
+    "company": {
+     "id": 10538,
+     "name": "Perpetual Limited",
+     "tagline": "Provides asset management, wealth management, and corporate trustee services.",
+     "isins": [
+      "AU000000PPT9"
+     ],
+     "lei": "549300US8OE0UQWXPO82",
+     "sub_industry_code": "6433",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 10945,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41629152,
+    "title": "MRL offers to increase Polaris Share Offer",
+    "release_datetime": "2010-01-06T21:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2010/RNS/65337_rns_2010-01-06_79fab078-674b-46db-a12d-1f30d358eb42.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2010/RNS/65337_rns_2010-01-06_79fab078-674b-46db-a12d-1f30d358eb42.pdf",
+    "viewer_url": "https://financialfilings.com/filings/mineral-resources-limited/ma-activity/2010/41629152/",
+    "company": {
+     "id": 65337,
+     "name": "MINERAL RESOURCES LIMITED",
+     "tagline": "Diversified resources company focused on lithium, iron ore, energy, and mining services.",
+     "isins": [
+      "AU000000MIN4"
+     ],
+     "lei": "5299007V1ACKFFX2P066",
+     "sub_industry_code": "0990",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 142764,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56352070,
+    "title": "Scheme Booklet Cover Note",
+    "release_datetime": "2010-01-07T04:53:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84980/2010/RNS/84980_rns_2010-01-06_0b79057c-c4d9-44cb-add3-425f53ac55ba.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84980/2010/RNS/84980_rns_2010-01-06_0b79057c-c4d9-44cb-add3-425f53ac55ba.pdf",
+    "viewer_url": "https://financialfilings.com/filings/gas2grid-ltd/ma-activity/2010/56352070/",
+    "company": {
+     "id": 84980,
+     "name": "GAS2GRID Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000GGX9"
+     ],
+     "lei": "",
+     "sub_industry_code": "0620",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 145762,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56384266,
+    "title": "AZX: Option to Purchase Bullabulling Gold Project, WA",
+    "release_datetime": "2010-01-07T05:50:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/47799/2010/RNS/47799_rns_2010-01-07_a3854f51-2b6f-42a4-97f1-75160e9c0a97.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/47799/2010/RNS/47799_rns_2010-01-07_a3854f51-2b6f-42a4-97f1-75160e9c0a97.pdf",
+    "viewer_url": "https://financialfilings.com/filings/jervois-global-limited/ma-activity/2010/56384266/",
+    "company": {
+     "id": 47799,
+     "name": "Jervois Global Limited",
+     "tagline": "Global supplier of responsibly sourced cobalt and nickel materials for critical defense and battery markets.",
+     "isins": [
+      "AU0000250532"
+     ],
+     "lei": "52990001DIVURT3JB972",
+     "sub_industry_code": "2420",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-31"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 83694,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41629144,
+    "title": "Notice of Variation of Share Offer",
+    "release_datetime": "2010-01-07T07:15:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2010/RNS/65337_rns_2010-01-06_147ea892-bea4-4a40-ae7a-35fd36455234.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2010/RNS/65337_rns_2010-01-06_147ea892-bea4-4a40-ae7a-35fd36455234.pdf",
+    "viewer_url": "https://financialfilings.com/filings/mineral-resources-limited/ma-activity/2010/41629144/",
+    "company": {
+     "id": 65337,
+     "name": "MINERAL RESOURCES LIMITED",
+     "tagline": "Diversified resources company focused on lithium, iron ore, energy, and mining services.",
+     "isins": [
+      "AU000000MIN4"
+     ],
+     "lei": "5299007V1ACKFFX2P066",
+     "sub_industry_code": "0990",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 37424,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56476049,
+    "title": "Fusedale Australia ASX announcement",
+    "release_datetime": "2010-01-07T22:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85493/2010/RNS/85493_rns_2010-01-07_ef9c0b5e-e26b-4f4b-b38d-84028094efb9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85493/2010/RNS/85493_rns_2010-01-07_ef9c0b5e-e26b-4f4b-b38d-84028094efb9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/rey-resources-ltd/ma-activity/2010/56476049/",
+    "company": {
+     "id": 85493,
+     "name": "REY Resources Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000REY9"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 90612,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56281265,
+    "title": "HoA with Aussino for Wilgerup",
+    "release_datetime": "2010-01-08T04:26:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84788/2010/RNS/84788_rns_2010-01-07_6806bfee-0061-42f4-a484-6dccd2130b1c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84788/2010/RNS/84788_rns_2010-01-07_6806bfee-0061-42f4-a484-6dccd2130b1c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/centrex-ltd/ma-activity/2010/56281265/",
+    "company": {
+     "id": 84788,
+     "name": "Centrex Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000CXM6"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "MA.CH.SAC.FER",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 144911,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41629103,
+    "title": "Notice extending POL Share Offer period",
+    "release_datetime": "2010-01-11T08:57:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2010/RNS/65337_rns_2010-01-10_e67a3efa-4fcb-45bc-9816-5ede0e3b801d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2010/RNS/65337_rns_2010-01-10_e67a3efa-4fcb-45bc-9816-5ede0e3b801d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/mineral-resources-limited/ma-activity/2010/41629103/",
+    "company": {
+     "id": 65337,
+     "name": "MINERAL RESOURCES LIMITED",
+     "tagline": "Diversified resources company focused on lithium, iron ore, energy, and mining services.",
+     "isins": [
+      "AU000000MIN4"
+     ],
+     "lei": "5299007V1ACKFFX2P066",
+     "sub_industry_code": "0990",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 41337,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44482798,
+    "title": "Open Letter to Dioro Shareholders on increased Offer",
+    "release_datetime": "2010-01-11T22:49:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65718/2010/RNS/65718_rns_2010-01-11_63fafffd-ca6c-4668-9b9a-402d926306fe.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65718/2010/RNS/65718_rns_2010-01-11_63fafffd-ca6c-4668-9b9a-402d926306fe.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ramelius-resources-limited/ma-activity/2010/44482798/",
+    "company": {
+     "id": 65718,
+     "name": "RAMELIUS RESOURCES LIMITED",
+     "tagline": "Gold producer and explorer operating production hubs and high-grade satellite projects.",
+     "isins": [
+      "AU000000RMS4"
+     ],
+     "lei": "254900E44AIGW7KKNR98",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 153489,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44695597,
+    "title": "Pharmaxis to acquire Canadian company TOPIGEN Pharmaceutical",
+    "release_datetime": "2010-01-11T23:20:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65830/2010/RNS/65830_rns_2010-01-11_022a432d-9baa-48ad-bacf-f201d59c4f22.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65830/2010/RNS/65830_rns_2010-01-11_022a432d-9baa-48ad-bacf-f201d59c4f22.pdf",
+    "viewer_url": "https://financialfilings.com/filings/syntara-limited/ma-activity/2010/44695597/",
+    "company": {
+     "id": 65830,
+     "name": "SYNTARA LIMITED",
+     "tagline": "Clinical-stage developer of small molecule drugs for inflammatory and fibrotic diseases.",
+     "isins": [
+      "AU0000312480"
+     ],
+     "lei": "52990054L6XWT345FW20",
+     "sub_industry_code": "7210",
+     "oics_code": "HC.PH.BIO.CLB",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 31656,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56276548,
+    "title": "Response to Media statement - 12 January 2010",
+    "release_datetime": "2010-01-11T23:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84771/2010/RNS/84771_rns_2010-01-11_9d834a6c-acb3-4b3a-a197-3b0a171495ff.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84771/2010/RNS/84771_rns_2010-01-11_9d834a6c-acb3-4b3a-a197-3b0a171495ff.pdf",
+    "viewer_url": "https://financialfilings.com/filings/csr-ltd/ma-activity/2010/56276548/",
+    "company": {
+     "id": 84771,
+     "name": "CSR Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000CSR5"
+     ],
+     "lei": "",
+     "sub_industry_code": "2395",
+     "oics_code": "IN.EQ.BLD.BCP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 25296,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44099156,
+    "title": "Purchase Settlement",
+    "release_datetime": "2010-01-11T23:47:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65614/2010/RNS/65614_rns_2010-01-11_a47bc44a-a432-4054-81f9-0d5e75f23bca.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65614/2010/RNS/65614_rns_2010-01-11_a47bc44a-a432-4054-81f9-0d5e75f23bca.pdf",
+    "viewer_url": "https://financialfilings.com/filings/prophecy-international-holdings-limited/ma-activity/2010/44099156/",
+    "company": {
+     "id": 65614,
+     "name": "PROPHECY INTERNATIONAL HOLDINGS LIMITED",
+     "tagline": "Global software firm specializing in cybersecurity and business intelligence solutions.",
+     "isins": [
+      "AU000000PRO6"
+     ],
+     "lei": "",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.BUS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 49414,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41158262,
+    "title": "Potential Merger Discussions",
+    "release_datetime": "2010-01-12T22:42:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65201/2010/RNS/65201_rns_2010-01-12_e84db8d8-5a08-4853-9f60-b58f33dd2d74.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65201/2010/RNS/65201_rns_2010-01-12_e84db8d8-5a08-4853-9f60-b58f33dd2d74.pdf",
+    "viewer_url": "https://financialfilings.com/filings/kalina-power-limited/ma-activity/2010/41158262/",
+    "company": {
+     "id": 65201,
+     "name": "KALINA POWER LIMITED",
+     "tagline": "Converts heat into emissions-free electricity via a proprietary thermodynamic process.",
+     "isins": [
+      "AU000000KPO1"
+     ],
+     "lei": "2617002KMPKM630FXD81",
+     "sub_industry_code": "3512",
+     "oics_code": "IN.EQ.ELE.PWR",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 74727,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41158252,
+    "title": "ARW: Potential Merger discussions",
+    "release_datetime": "2010-01-12T22:43:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65201/2010/RNS/65201_rns_2010-01-12_770441f4-6a85-4402-9c9f-3ff9d5d91a50.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65201/2010/RNS/65201_rns_2010-01-12_770441f4-6a85-4402-9c9f-3ff9d5d91a50.pdf",
+    "viewer_url": "https://financialfilings.com/filings/kalina-power-limited/ma-activity/2010/41158252/",
+    "company": {
+     "id": 65201,
+     "name": "KALINA POWER LIMITED",
+     "tagline": "Converts heat into emissions-free electricity via a proprietary thermodynamic process.",
+     "isins": [
+      "AU000000KPO1"
+     ],
+     "lei": "2617002KMPKM630FXD81",
+     "sub_industry_code": "3512",
+     "oics_code": "IN.EQ.ELE.PWR",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 89705,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41171514,
+    "title": "Completion of Acquisition of Pacific Transport",
+    "release_datetime": "2010-01-13T03:59:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65204/2010/RNS/65204_rns_2010-01-12_2889fcef-79b0-4430-9318-ac7a05d1435b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65204/2010/RNS/65204_rns_2010-01-12_2889fcef-79b0-4430-9318-ac7a05d1435b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/k-s-corporation-limited/ma-activity/2010/41171514/",
+    "company": {
+     "id": 65204,
+     "name": "K & S CORPORATION LIMITED",
+     "tagline": "Provides integrated transport, warehousing, and logistics solutions.",
+     "isins": [
+      "AU000000KSC0"
+     ],
+     "lei": "984500AA0936D3CAB378",
+     "sub_industry_code": "4923",
+     "oics_code": "IN.TP.LOG.LND",
+     "country_code": "AU",
+     "date_public": "2026-10-31"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 21235,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56452726,
+    "title": "Acquisition Completed",
+    "release_datetime": "2010-01-13T21:41:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85386/2010/RNS/85386_rns_2010-01-13_04b92124-b691-4d23-ad3a-4c2ce29a893b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85386/2010/RNS/85386_rns_2010-01-13_04b92124-b691-4d23-ad3a-4c2ce29a893b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/probiotec-ltd/ma-activity/2010/56452726/",
+    "company": {
+     "id": 85386,
+     "name": "Probiotec Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PBP7"
+     ],
+     "lei": "",
+     "sub_industry_code": "2100",
+     "oics_code": "HC.PH.LSC.CRO",
+     "country_code": "AU",
+     "date_public": "2026-10-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 19197,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39777121,
+    "title": "Acquisition of 5Star Telecom and Appointment of Director",
+    "release_datetime": "2010-01-14T04:26:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64818/2010/RNS/64818_rns_2010-01-13_c212cec2-483c-4d8a-9feb-083169be9c95.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64818/2010/RNS/64818_rns_2010-01-13_c212cec2-483c-4d8a-9feb-083169be9c95.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ecs-botanics-holdings-ltd/ma-activity/2010/39777121/",
+    "company": {
+     "id": 64818,
+     "name": "ECS BOTANICS HOLDINGS LTD",
+     "tagline": "Produces organic, pharmaceutical-grade medicinal cannabis flowers and extracted oils.",
+     "isins": [
+      "AU0000052490"
+     ],
+     "lei": "254900F6I1ORKXFIGD77",
+     "sub_industry_code": "0128",
+     "oics_code": "CE.EG.TOB.CNB",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 94802,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56476042,
+    "title": "Section 630(3) of Corporations Act",
+    "release_datetime": "2010-01-14T06:08:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85493/2010/RNS/85493_rns_2010-01-14_42057436-bf50-4088-91c4-a65afb57d5c6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85493/2010/RNS/85493_rns_2010-01-14_42057436-bf50-4088-91c4-a65afb57d5c6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/rey-resources-ltd/ma-activity/2010/56476042/",
+    "company": {
+     "id": 85493,
+     "name": "REY Resources Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000REY9"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 28488,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56276542,
+    "title": "First court hearing regarding proposed Demerger",
+    "release_datetime": "2010-01-14T06:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84771/2010/RNS/84771_rns_2010-01-13_7ba6a413-57f2-42e4-b51f-b398e7c494d8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84771/2010/RNS/84771_rns_2010-01-13_7ba6a413-57f2-42e4-b51f-b398e7c494d8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/csr-ltd/ma-activity/2010/56276542/",
+    "company": {
+     "id": 84771,
+     "name": "CSR Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000CSR5"
+     ],
+     "lei": "",
+     "sub_industry_code": "2395",
+     "oics_code": "IN.EQ.BLD.BCP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 23216,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44482793,
+    "title": "Avoca Releases Bidder`s Statement for Dioro Takeover",
+    "release_datetime": "2010-01-14T06:28:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65718/2010/RNS/65718_rns_2010-01-13_8f76d07b-cb0a-4212-8cf9-f73f3d4b8038.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65718/2010/RNS/65718_rns_2010-01-13_8f76d07b-cb0a-4212-8cf9-f73f3d4b8038.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ramelius-resources-limited/ma-activity/2010/44482793/",
+    "company": {
+     "id": 65718,
+     "name": "RAMELIUS RESOURCES LIMITED",
+     "tagline": "Gold producer and explorer operating production hubs and high-grade satellite projects.",
+     "isins": [
+      "AU000000RMS4"
+     ],
+     "lei": "254900E44AIGW7KKNR98",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 54707,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

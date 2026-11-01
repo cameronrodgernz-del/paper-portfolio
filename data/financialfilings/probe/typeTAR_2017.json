@@ -1,0 +1,956 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1201,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2017-01-01T00%3A00%3A00Z&release_datetime_to=2017-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 56492332,
+    "title": "Letter to Shareholders",
+    "release_datetime": "2017-01-02T21:58:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85546/2017/RNS/85546_rns_2017-01-02_a8dcf237-6424-4be5-af07-f1580e53a0ea.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85546/2017/RNS/85546_rns_2017-01-02_a8dcf237-6424-4be5-af07-f1580e53a0ea.pdf",
+    "viewer_url": "https://financialfilings.com/filings/speedcast-international-ltd/ma-activity/2017/56492332/",
+    "company": {
+     "id": 85546,
+     "name": "SpeedCast International Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000SDA9"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.SAT",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 146905,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56438191,
+    "title": "Company Update",
+    "release_datetime": "2017-01-02T22:26:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85335/2017/RNS/85335_rns_2017-01-02_75dd2166-12b0-41ec-a1af-42f1d6208e49.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85335/2017/RNS/85335_rns_2017-01-02_75dd2166-12b0-41ec-a1af-42f1d6208e49.pdf",
+    "viewer_url": "https://financialfilings.com/filings/nyota-minerals-ltd/ma-activity/2017/56438191/",
+    "company": {
+     "id": 85335,
+     "name": "Nyota Minerals Ltd",
+     "tagline": "Explored and developed gold and nickel projects, notably Tulu Kapi gold in Ethiopia.",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-01"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 102431,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40668163,
+    "title": "HUB24 completes acquisition of Agility",
+    "release_datetime": "2017-01-03T05:51:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65077/2017/RNS/65077_rns_2017-01-02_1ce2940d-cf77-4b59-8c0d-5fa5f648a7a3.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65077/2017/RNS/65077_rns_2017-01-02_1ce2940d-cf77-4b59-8c0d-5fa5f648a7a3.pdf",
+    "viewer_url": "https://financialfilings.com/filings/hub24-limited/ma-activity/2017/40668163/",
+    "company": {
+     "id": 65077,
+     "name": "HUB24 LIMITED",
+     "tagline": "Provides investment and superannuation platforms, technology, and data solutions.",
+     "isins": [
+      "AU000000HUB4"
+     ],
+     "lei": "529900O2RAS904TFIR32",
+     "sub_industry_code": "6619",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 108463,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44699410,
+    "title": "HHL: MARKET UPDATE",
+    "release_datetime": "2017-01-03T23:37:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10583/2017/RNS/10583_rns_2017-01-03_a984b2ea-8ba3-46e7-86bd-c157b33e02e6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10583/2017/RNS/10583_rns_2017-01-03_a984b2ea-8ba3-46e7-86bd-c157b33e02e6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/washington-hsoul-pattinson-co/ma-activity/2017/44699410/",
+    "company": {
+     "id": 10583,
+     "name": "Washington H.Soul Pattinson & Co",
+     "tagline": "A diversified investment house managing a broad portfolio of assets.",
+     "isins": [
+      "AU000000SOL3"
+     ],
+     "lei": "549300G2Q3P6ZVNC1465",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 79365,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56203877,
+    "title": "Completion of AssetOwl Acquisition",
+    "release_datetime": "2017-01-04T05:44:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84540/2017/RNS/84540_rns_2017-01-03_b8e061f6-5ed0-4ac8-84f6-0be1ed559fa1.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84540/2017/RNS/84540_rns_2017-01-03_b8e061f6-5ed0-4ac8-84f6-0be1ed559fa1.pdf",
+    "viewer_url": "https://financialfilings.com/filings/assetowl-ltd/ma-activity/2017/56203877/",
+    "company": {
+     "id": 84540,
+     "name": "Assetowl Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AO10"
+     ],
+     "lei": "",
+     "sub_industry_code": "6829",
+     "oics_code": "TC.IT.ITS.ITC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 203797,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56390445,
+    "title": "Isity, KKL's Acquisition Target, Signs Major Agreement",
+    "release_datetime": "2017-01-04T21:54:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85130/2017/RNS/85130_rns_2017-01-04_a8f2ced5-549f-4ca5-b28d-a4e1731e4282.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85130/2017/RNS/85130_rns_2017-01-04_a8f2ced5-549f-4ca5-b28d-a4e1731e4282.pdf",
+    "viewer_url": "https://financialfilings.com/filings/kollakorn-corporation-limited/ma-activity/2017/56390445/",
+    "company": {
+     "id": 85130,
+     "name": "Kollakorn Corporation Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000KKL8"
+     ],
+     "lei": "",
+     "sub_industry_code": "6220",
+     "oics_code": "TC.HW.ELC.ECP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 116638,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 42768919,
+    "title": "Orora completes the acquisition of The Register Print Group",
+    "release_datetime": "2017-01-04T22:50:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65505/2017/RNS/65505_rns_2017-01-04_28098e6a-6359-436e-acf6-dccf371d1835.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65505/2017/RNS/65505_rns_2017-01-04_28098e6a-6359-436e-acf6-dccf371d1835.pdf",
+    "viewer_url": "https://financialfilings.com/filings/orora-limited/ma-activity/2017/42768919/",
+    "company": {
+     "id": 65505,
+     "name": "ORORA LIMITED",
+     "tagline": "Global manufacturer and distributor of sustainable packaging solutions.",
+     "isins": [
+      "AU000000ORA8"
+     ],
+     "lei": "549300WFEQJK35VDF789",
+     "sub_industry_code": "1702",
+     "oics_code": "MA.PK.PCK.PCK",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 105124,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56361560,
+    "title": "Agreements to acquire 2 Texas USA oil projects",
+    "release_datetime": "2017-01-05T05:38:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65047/2017/RNS/65047_rns_2017-01-05_68842cc1-5fa6-42bc-b70e-d73766754052.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65047/2017/RNS/65047_rns_2017-01-05_68842cc1-5fa6-42bc-b70e-d73766754052.pdf",
+    "viewer_url": "https://financialfilings.com/filings/helios-energy-ltd/ma-activity/2017/56361560/",
+    "company": {
+     "id": 65047,
+     "name": "HELIOS ENERGY LTD",
+     "tagline": "Explores and develops unconventional oil and gas resources in the Ojinaga Basin.",
+     "isins": [
+      "AU000000HE80"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 297746,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40268743,
+    "title": "Supplementary Bidder's Statement",
+    "release_datetime": "2017-01-05T23:08:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64961/2017/RNS/64961_rns_2017-01-05_29d3f7ad-870d-4454-bbea-d03b00441a07.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64961/2017/RNS/64961_rns_2017-01-05_29d3f7ad-870d-4454-bbea-d03b00441a07.pdf",
+    "viewer_url": "https://financialfilings.com/filings/goldarc-resources-limited/ma-activity/2017/40268743/",
+    "company": {
+     "id": 64961,
+     "name": "GOLDARC RESOURCES LIMITED",
+     "tagline": "Identifies, acquires, and explores gold and base metal mineral resource properties.",
+     "isins": [
+      "AU0000419624"
+     ],
+     "lei": "529900ES6ZUFZOPQ9M38",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 764853,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40268748,
+    "title": "Variation of Takeover Bid",
+    "release_datetime": "2017-01-05T23:08:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64961/2017/RNS/64961_rns_2017-01-05_5c0f2a8a-4297-4038-ad4f-1b7e0db846f2.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64961/2017/RNS/64961_rns_2017-01-05_5c0f2a8a-4297-4038-ad4f-1b7e0db846f2.pdf",
+    "viewer_url": "https://financialfilings.com/filings/goldarc-resources-limited/ma-activity/2017/40268748/",
+    "company": {
+     "id": 64961,
+     "name": "GOLDARC RESOURCES LIMITED",
+     "tagline": "Identifies, acquires, and explores gold and base metal mineral resource properties.",
+     "isins": [
+      "AU0000419624"
+     ],
+     "lei": "529900ES6ZUFZOPQ9M38",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 101923,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40831163,
+    "title": "JNJ, BMS and Novartis Complete NASH Asset Transactions",
+    "release_datetime": "2017-01-06T01:01:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/35121/2017/RNS/35121_rns_2017-01-05_ce466419-3752-4121-9c12-6994bece16ba.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/35121/2017/RNS/35121_rns_2017-01-05_ce466419-3752-4121-9c12-6994bece16ba.pdf",
+    "viewer_url": "https://financialfilings.com/filings/immuron-ltd/ma-activity/2017/40831163/",
+    "company": {
+     "id": 35121,
+     "name": "Immuron Ltd",
+     "tagline": "Biopharmaceutical firm developing oral polyclonal antibodies for enteric diseases.",
+     "isins": [
+      "AU000000IMC7"
+     ],
+     "lei": "529900ZIDI5C9C9TTI91",
+     "sub_industry_code": "2100",
+     "oics_code": "HC.PH.PHA.GNX",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 101420,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56454329,
+    "title": "Plus Connect Takeover Offer Unconditional",
+    "release_datetime": "2017-01-06T03:46:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85389/2017/RNS/85389_rns_2017-01-06_7e70e5c4-e064-46e1-aa79-53b77f7adbc6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85389/2017/RNS/85389_rns_2017-01-06_7e70e5c4-e064-46e1-aa79-53b77f7adbc6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/plus-connect-limited/ma-activity/2017/56454329/",
+    "company": {
+     "id": 85389,
+     "name": "Plus Connect Limited",
+     "tagline": "",
+     "isins": [
+      "AU0000010324"
+     ],
+     "lei": "",
+     "sub_industry_code": "6120",
+     "oics_code": "CL.SV.HSP.BET",
+     "country_code": "AU",
+     "date_public": "2026-10-22"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 676960,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40831157,
+    "title": "Gilead Pays $100M NASH Related Milestone to Phenex",
+    "release_datetime": "2017-01-09T01:11:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/35121/2017/RNS/35121_rns_2017-01-08_3999b0dc-1029-4834-a057-2fbb483a20b4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/35121/2017/RNS/35121_rns_2017-01-08_3999b0dc-1029-4834-a057-2fbb483a20b4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/immuron-ltd/ma-activity/2017/40831157/",
+    "company": {
+     "id": 35121,
+     "name": "Immuron Ltd",
+     "tagline": "Biopharmaceutical firm developing oral polyclonal antibodies for enteric diseases.",
+     "isins": [
+      "AU000000IMC7"
+     ],
+     "lei": "529900ZIDI5C9C9TTI91",
+     "sub_industry_code": "2100",
+     "oics_code": "HC.PH.PHA.GNX",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 113141,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56518015,
+    "title": "TIXNotesTGPAnnouncement-Settlement of Centuria transaction",
+    "release_datetime": "2017-01-09T05:37:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85660/2017/RNS/85660_rns_2017-01-09_7c6cf552-20ca-49ca-bc91-9495e6ae7384.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85660/2017/RNS/85660_rns_2017-01-09_7c6cf552-20ca-49ca-bc91-9495e6ae7384.pdf",
+    "viewer_url": "https://financialfilings.com/filings/360-capital-group/ma-activity/2017/56518015/",
+    "company": {
+     "id": 85660,
+     "name": "360 Capital Group",
+     "tagline": "",
+     "isins": [
+      "AU000000TGP8"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 61218,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40358092,
+    "title": "Letter to Shareholders",
+    "release_datetime": "2017-01-09T08:09:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64991/2017/RNS/64991_rns_2017-01-08_16808f69-31b5-4a21-818b-2af3fe75ba28.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64991/2017/RNS/64991_rns_2017-01-08_16808f69-31b5-4a21-818b-2af3fe75ba28.pdf",
+    "viewer_url": "https://financialfilings.com/filings/glg-corp-ltd/ma-activity/2017/40358092/",
+    "company": {
+     "id": 64991,
+     "name": "GLG CORP LTD",
+     "tagline": "Global provider of end-to-end supply chain solutions for the apparel industry.",
+     "isins": [
+      "AU000000GLE9"
+     ],
+     "lei": "",
+     "sub_industry_code": "1430",
+     "oics_code": "CL.GD.APR.AFW",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 367025,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38540643,
+    "title": "Hellaby Offer - Bapcor reaches 50% and waives 90% condition",
+    "release_datetime": "2017-01-10T02:01:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64494/2017/RNS/64494_rns_2017-01-09_658b9306-b0fd-4a67-aec4-2d3d35206dd1.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64494/2017/RNS/64494_rns_2017-01-09_658b9306-b0fd-4a67-aec4-2d3d35206dd1.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bapcor-limited/ma-activity/2017/38540643/",
+    "company": {
+     "id": 64494,
+     "name": "BAPCOR LIMITED",
+     "tagline": "Provider of automotive aftermarket parts, accessories, equipment, and services.",
+     "isins": [
+      "AU000000BAP9"
+     ],
+     "lei": "",
+     "sub_industry_code": "4662",
+     "oics_code": "CL.RT.STR.DLR",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 42877,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56421569,
+    "title": "Bidder's Statement - MHM",
+    "release_datetime": "2017-01-10T06:14:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85279/2017/RNS/85279_rns_2017-01-10_0fa90fac-7e8a-4720-97b9-ad481b2c736d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85279/2017/RNS/85279_rns_2017-01-10_0fa90fac-7e8a-4720-97b9-ad481b2c736d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/mercantile-investment-company-limited/ma-activity/2017/56421569/",
+    "company": {
+     "id": 85279,
+     "name": "Mercantile Investment Company Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000MVT4"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 809289,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44959023,
+    "title": "MVT: Bidder's Statement",
+    "release_datetime": "2017-01-10T22:04:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66029/2017/RNS/66029_rns_2017-01-10_ee76afba-ce31-4d2e-a970-cd187b130a78.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66029/2017/RNS/66029_rns_2017-01-10_ee76afba-ce31-4d2e-a970-cd187b130a78.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vysarn-limited/ma-activity/2017/44959023/",
+    "company": {
+     "id": 66029,
+     "name": "VYSARN LIMITED",
+     "tagline": "Integrated provider of hydrogeological and water management solutions.",
+     "isins": [
+      "AU000000VYS1"
+     ],
+     "lei": "",
+     "sub_industry_code": "3600",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 809289,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44959013,
+    "title": "Receipt of Bidder's Statement",
+    "release_datetime": "2017-01-10T22:05:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66029/2017/RNS/66029_rns_2017-01-10_881ef337-fdf2-43bc-be36-3f87321d86bf.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66029/2017/RNS/66029_rns_2017-01-10_881ef337-fdf2-43bc-be36-3f87321d86bf.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vysarn-limited/ma-activity/2017/44959013/",
+    "company": {
+     "id": 66029,
+     "name": "VYSARN LIMITED",
+     "tagline": "Integrated provider of hydrogeological and water management solutions.",
+     "isins": [
+      "AU000000VYS1"
+     ],
+     "lei": "",
+     "sub_industry_code": "3600",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2278679,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44699408,
+    "title": "Bidder's Statement",
+    "release_datetime": "2017-01-11T03:06:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10583/2017/RNS/10583_rns_2017-01-10_65e5a6ae-01c4-4f04-91ac-b7c216c9d82e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10583/2017/RNS/10583_rns_2017-01-10_65e5a6ae-01c4-4f04-91ac-b7c216c9d82e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/washington-hsoul-pattinson-co/ma-activity/2017/44699408/",
+    "company": {
+     "id": 10583,
+     "name": "Washington H.Soul Pattinson & Co",
+     "tagline": "A diversified investment house managing a broad portfolio of assets.",
+     "isins": [
+      "AU000000SOL3"
+     ],
+     "lei": "549300G2Q3P6ZVNC1465",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 5405517,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44699405,
+    "title": "HHL: Receipt of Bidder's Statement",
+    "release_datetime": "2017-01-11T03:50:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10583/2017/RNS/10583_rns_2017-01-10_fc4cb01a-fd43-4f3c-a6e1-d6ed483eb9a5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10583/2017/RNS/10583_rns_2017-01-10_fc4cb01a-fd43-4f3c-a6e1-d6ed483eb9a5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/washington-hsoul-pattinson-co/ma-activity/2017/44699405/",
+    "company": {
+     "id": 10583,
+     "name": "Washington H.Soul Pattinson & Co",
+     "tagline": "A diversified investment house managing a broad portfolio of assets.",
+     "isins": [
+      "AU000000SOL3"
+     ],
+     "lei": "549300G2Q3P6ZVNC1465",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 99816,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38540632,
+    "title": "Bapcor declares Hellaby Offer unconditional",
+    "release_datetime": "2017-01-12T21:31:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64494/2017/RNS/64494_rns_2017-01-12_da38d057-26a9-4e91-823d-eccd6a81f021.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64494/2017/RNS/64494_rns_2017-01-12_da38d057-26a9-4e91-823d-eccd6a81f021.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bapcor-limited/ma-activity/2017/38540632/",
+    "company": {
+     "id": 64494,
+     "name": "BAPCOR LIMITED",
+     "tagline": "Provider of automotive aftermarket parts, accessories, equipment, and services.",
+     "isins": [
+      "AU000000BAP9"
+     ],
+     "lei": "",
+     "sub_industry_code": "4662",
+     "oics_code": "CL.RT.STR.DLR",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 24226,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56438186,
+    "title": "Update on potential acquisition",
+    "release_datetime": "2017-01-12T22:11:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85335/2017/RNS/85335_rns_2017-01-12_6dea7a1c-1bed-47dc-bbdb-50259c04e215.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85335/2017/RNS/85335_rns_2017-01-12_6dea7a1c-1bed-47dc-bbdb-50259c04e215.pdf",
+    "viewer_url": "https://financialfilings.com/filings/nyota-minerals-ltd/ma-activity/2017/56438186/",
+    "company": {
+     "id": 85335,
+     "name": "Nyota Minerals Ltd",
+     "tagline": "Explored and developed gold and nickel projects, notably Tulu Kapi gold in Ethiopia.",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-01"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 96094,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40251427,
+    "title": "Royalco Chairman Accepts Fitzroy's Takeover Offer",
+    "release_datetime": "2017-01-13T00:48:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64955/2017/RNS/64955_rns_2017-01-12_b8dc9e0a-475b-4e9f-9139-ae01cf95dfa1.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64955/2017/RNS/64955_rns_2017-01-12_b8dc9e0a-475b-4e9f-9139-ae01cf95dfa1.pdf",
+    "viewer_url": "https://financialfilings.com/filings/fitzroy-river-corporation-ltd/ma-activity/2017/40251427/",
+    "company": {
+     "id": 64955,
+     "name": "FITZROY RIVER CORPORATION LTD",
+     "tagline": "Investment company managing oil and gas royalty interests in Australian energy projects.",
+     "isins": [
+      "AU000000FZR3"
+     ],
+     "lei": "5299003UVN1GO1NJR090",
+     "sub_industry_code": "6432",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 534753,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56454326,
+    "title": "Plus Connect Takeover Successfully Closed",
+    "release_datetime": "2017-01-15T21:25:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85389/2017/RNS/85389_rns_2017-01-15_04bd6cd9-9e7f-4c7b-9f6a-c124332dce15.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85389/2017/RNS/85389_rns_2017-01-15_04bd6cd9-9e7f-4c7b-9f6a-c124332dce15.pdf",
+    "viewer_url": "https://financialfilings.com/filings/plus-connect-limited/ma-activity/2017/56454326/",
+    "company": {
+     "id": 85389,
+     "name": "Plus Connect Limited",
+     "tagline": "",
+     "isins": [
+      "AU0000010324"
+     ],
+     "lei": "",
+     "sub_industry_code": "6120",
+     "oics_code": "CL.SV.HSP.BET",
+     "country_code": "AU",
+     "date_public": "2026-10-22"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 370144,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

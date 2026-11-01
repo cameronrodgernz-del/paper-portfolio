@@ -1,0 +1,960 @@
+{
+ "status": 200,
+ "body": {
+  "count": 826,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2023-01-01T00%3A00%3A00Z&release_datetime_to=2023-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 56215109,
+    "title": "Extension of CATH Transaction Implementation Agreement",
+    "release_datetime": "2023-01-02T22:47:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84591/2023/RNS/84591_rns_2023-01-02_ab59a8a2-e075-4e17-9587-9d4f02d16d1c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84591/2023/RNS/84591_rns_2023-01-02_ab59a8a2-e075-4e17-9587-9d4f02d16d1c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/avz-minerals-ltd/ma-activity/2023/56215109/",
+    "company": {
+     "id": 84591,
+     "name": "Avz Minerals Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AVZ6"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-16"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 218671,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41637603,
+    "title": "Despatch of Bidder's Statement - Norwest Energy Takeover bid",
+    "release_datetime": "2023-01-03T03:52:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2023/RNS/65337_rns_2023-01-02_e93d449b-b404-4d25-82b4-64ab8d4bd1c6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2023/RNS/65337_rns_2023-01-02_e93d449b-b404-4d25-82b4-64ab8d4bd1c6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/mineral-resources-limited/ma-activity/2023/41637603/",
+    "company": {
+     "id": 65337,
+     "name": "MINERAL RESOURCES LIMITED",
+     "tagline": "Diversified resources company focused on lithium, iron ore, energy, and mining services.",
+     "isins": [
+      "AU000000MIN4"
+     ],
+     "lei": "5299007V1ACKFFX2P066",
+     "sub_industry_code": "0990",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1376937,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41637588,
+    "title": "Off-Market Takeover Bid for Norwest Energy - Offer Opens",
+    "release_datetime": "2023-01-03T04:04:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2023/RNS/65337_rns_2023-01-02_d2a2dc06-155f-47aa-835e-9ef549e8b543.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2023/RNS/65337_rns_2023-01-02_d2a2dc06-155f-47aa-835e-9ef549e8b543.pdf",
+    "viewer_url": "https://financialfilings.com/filings/mineral-resources-limited/ma-activity/2023/41637588/",
+    "company": {
+     "id": 65337,
+     "name": "MINERAL RESOURCES LIMITED",
+     "tagline": "Diversified resources company focused on lithium, iron ore, energy, and mining services.",
+     "isins": [
+      "AU000000MIN4"
+     ],
+     "lei": "5299007V1ACKFFX2P066",
+     "sub_industry_code": "0990",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 191718,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38653059,
+    "title": "SPH Notice \u2013 Australia and New Zealand Banking Group Ltd",
+    "release_datetime": "2023-01-03T19:30:55+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10425/2023/RNS/10425_rns_2023-01-04_26e27752-b4d8-4564-bb9b-46e8fdd20d11.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10425/2023/RNS/10425_rns_2023-01-04_26e27752-b4d8-4564-bb9b-46e8fdd20d11.pdf",
+    "viewer_url": "https://financialfilings.com/filings/anz-banking-group/ma-activity/2023/38653059/",
+    "company": {
+     "id": 10425,
+     "name": "ANZ Group Holdings Limited",
+     "tagline": "A multinational provider of banking and financial services to diverse clientele.",
+     "isins": [
+      "AU000000ANZ3"
+     ],
+     "lei": "JHE42UYNWWTJB8YTTU19",
+     "sub_industry_code": "6419",
+     "oics_code": "FI.BK.BNK.UNV",
+     "country_code": "AU",
+     "date_public": "2026-10-31"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 9202107,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44743579,
+    "title": "WGO: Strike's Second Supplementary Bidder's Statement",
+    "release_datetime": "2023-01-05T22:45:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65876/2023/RNS/65876_rns_2023-01-05_7ff36143-b41a-4f57-bb1e-a7a3fdfa55da.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65876/2023/RNS/65876_rns_2023-01-05_7ff36143-b41a-4f57-bb1e-a7a3fdfa55da.pdf",
+    "viewer_url": "https://financialfilings.com/filings/strike-energy-limited/ma-activity/2023/44743579/",
+    "company": {
+     "id": 65876,
+     "name": "STRIKE ENERGY LIMITED",
+     "tagline": "Explores and develops natural gas and renewable energy resources in the Perth Basin.",
+     "isins": [
+      "AU000000STX7"
+     ],
+     "lei": "549300OV1EXGL032Q465",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 545436,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40800436,
+    "title": "Lithium Joint Venture to Acquire Essential Metals Limited",
+    "release_datetime": "2023-01-08T21:21:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65111/2023/RNS/65111_rns_2023-01-08_2040f16b-f3bf-4aa3-a6ca-117547f5d0ab.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65111/2023/RNS/65111_rns_2023-01-08_2040f16b-f3bf-4aa3-a6ca-117547f5d0ab.pdf",
+    "viewer_url": "https://financialfilings.com/filings/igo-limited/ma-activity/2023/40800436/",
+    "company": {
+     "id": 65111,
+     "name": "IGO LIMITED",
+     "tagline": "Produces nickel, copper, lithium, and cobalt for clean energy technologies.",
+     "isins": [
+      "AU000000IGO4"
+     ],
+     "lei": "2549005DZO8VGXM5QN07",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 163748,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40800427,
+    "title": "ESS: Essential and TLEA to enter into Scheme of Arrangement",
+    "release_datetime": "2023-01-08T21:28:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65111/2023/RNS/65111_rns_2023-01-08_cc5f9a92-fd72-4b0c-ac33-2fc93ed44cd4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65111/2023/RNS/65111_rns_2023-01-08_cc5f9a92-fd72-4b0c-ac33-2fc93ed44cd4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/igo-limited/ma-activity/2023/40800427/",
+    "company": {
+     "id": 65111,
+     "name": "IGO LIMITED",
+     "tagline": "Produces nickel, copper, lithium, and cobalt for clean energy technologies.",
+     "isins": [
+      "AU000000IGO4"
+     ],
+     "lei": "2549005DZO8VGXM5QN07",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1196856,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39547134,
+    "title": "Corporate update",
+    "release_datetime": "2023-01-09T00:43:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2023/RNS/64743_rns_2023-01-08_a13dd8e2-92d8-4fe5-92a8-7e8629f3b2f3.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2023/RNS/64743_rns_2023-01-08_a13dd8e2-92d8-4fe5-92a8-7e8629f3b2f3.pdf",
+    "viewer_url": "https://financialfilings.com/filings/catalyst-metals-limited/ma-activity/2023/39547134/",
+    "company": {
+     "id": 64743,
+     "name": "CATALYST METALS LIMITED",
+     "tagline": "Gold exploration and production company focused on high-grade assets.",
+     "isins": [
+      "AU000000CYL6"
+     ],
+     "lei": "9845002GB72C3J4A3E64",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 122164,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39547132,
+    "title": "Recommended bid to acquire Vango Mining",
+    "release_datetime": "2023-01-10T00:44:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2023/RNS/64743_rns_2023-01-09_9d98e1af-775f-4b30-b648-ab05b5b88251.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2023/RNS/64743_rns_2023-01-09_9d98e1af-775f-4b30-b648-ab05b5b88251.pdf",
+    "viewer_url": "https://financialfilings.com/filings/catalyst-metals-limited/ma-activity/2023/39547132/",
+    "company": {
+     "id": 64743,
+     "name": "CATALYST METALS LIMITED",
+     "tagline": "Gold exploration and production company focused on high-grade assets.",
+     "isins": [
+      "AU000000CYL6"
+     ],
+     "lei": "9845002GB72C3J4A3E64",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 713005,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39547123,
+    "title": "VAN: Catalyst Recommended Bid to Acquire Vango",
+    "release_datetime": "2023-01-10T00:51:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2023/RNS/64743_rns_2023-01-09_388341e7-a487-4262-957c-46f108d30057.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2023/RNS/64743_rns_2023-01-09_388341e7-a487-4262-957c-46f108d30057.pdf",
+    "viewer_url": "https://financialfilings.com/filings/catalyst-metals-limited/ma-activity/2023/39547123/",
+    "company": {
+     "id": 64743,
+     "name": "CATALYST METALS LIMITED",
+     "tagline": "Gold exploration and production company focused on high-grade assets.",
+     "isins": [
+      "AU000000CYL6"
+     ],
+     "lei": "9845002GB72C3J4A3E64",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 711237,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41637388,
+    "title": "NWE: Target's Statement",
+    "release_datetime": "2023-01-10T05:36:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2023/RNS/65337_rns_2023-01-09_d7905113-49e7-43cb-8e36-fea85c2e2006.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2023/RNS/65337_rns_2023-01-09_d7905113-49e7-43cb-8e36-fea85c2e2006.pdf",
+    "viewer_url": "https://financialfilings.com/filings/mineral-resources-limited/ma-activity/2023/41637388/",
+    "company": {
+     "id": 65337,
+     "name": "MINERAL RESOURCES LIMITED",
+     "tagline": "Diversified resources company focused on lithium, iron ore, energy, and mining services.",
+     "isins": [
+      "AU000000MIN4"
+     ],
+     "lei": "5299007V1ACKFFX2P066",
+     "sub_industry_code": "0990",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1705378,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39547106,
+    "title": "Bidders Statement - Catalyst recommended takeover for Vango",
+    "release_datetime": "2023-01-10T07:01:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2023/RNS/64743_rns_2023-01-09_9691ba8b-c5af-4560-b2ba-773c0abae8a8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2023/RNS/64743_rns_2023-01-09_9691ba8b-c5af-4560-b2ba-773c0abae8a8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/catalyst-metals-limited/ma-activity/2023/39547106/",
+    "company": {
+     "id": 64743,
+     "name": "CATALYST METALS LIMITED",
+     "tagline": "Gold exploration and production company focused on high-grade assets.",
+     "isins": [
+      "AU000000CYL6"
+     ],
+     "lei": "9845002GB72C3J4A3E64",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1591995,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44743573,
+    "title": "Strike - Commencement of despatch and open of Strike Offer",
+    "release_datetime": "2023-01-10T22:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65876/2023/RNS/65876_rns_2023-01-10_f60e11e9-e1a0-434b-bf06-ffe3aabea9df.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65876/2023/RNS/65876_rns_2023-01-10_f60e11e9-e1a0-434b-bf06-ffe3aabea9df.pdf",
+    "viewer_url": "https://financialfilings.com/filings/strike-energy-limited/ma-activity/2023/44743573/",
+    "company": {
+     "id": 65876,
+     "name": "STRIKE ENERGY LIMITED",
+     "tagline": "Explores and develops natural gas and renewable energy resources in the Perth Basin.",
+     "isins": [
+      "AU000000STX7"
+     ],
+     "lei": "549300OV1EXGL032Q465",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 3538009,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44054352,
+    "title": "PDL: Supreme Court of NSW approves Scheme of Arrangement",
+    "release_datetime": "2023-01-11T00:18:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10538/2023/RNS/10538_rns_2023-01-10_2383d764-5f4d-4436-8dce-341df23c06ac.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10538/2023/RNS/10538_rns_2023-01-10_2383d764-5f4d-4436-8dce-341df23c06ac.pdf",
+    "viewer_url": "https://financialfilings.com/filings/perpetual-limited/ma-activity/2023/44054352/",
+    "company": {
+     "id": 10538,
+     "name": "Perpetual Limited",
+     "tagline": "Provides asset management, wealth management, and corporate trustee services.",
+     "isins": [
+      "AU000000PPT9"
+     ],
+     "lei": "549300US8OE0UQWXPO82",
+     "sub_industry_code": "6433",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 104523,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44743561,
+    "title": "Strike - Defeating condition fulfilled",
+    "release_datetime": "2023-01-11T21:19:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65876/2023/RNS/65876_rns_2023-01-11_ded2fbac-4826-412c-9c00-4321c5f7cc7b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65876/2023/RNS/65876_rns_2023-01-11_ded2fbac-4826-412c-9c00-4321c5f7cc7b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/strike-energy-limited/ma-activity/2023/44743561/",
+    "company": {
+     "id": 65876,
+     "name": "STRIKE ENERGY LIMITED",
+     "tagline": "Explores and develops natural gas and renewable energy resources in the Perth Basin.",
+     "isins": [
+      "AU000000STX7"
+     ],
+     "lei": "549300OV1EXGL032Q465",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 265895,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56371257,
+    "title": "Company Update",
+    "release_datetime": "2023-01-11T21:41:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65096/2023/RNS/65096_rns_2023-01-11_be66e262-038a-46d4-ace2-1d57b69066bd.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65096/2023/RNS/65096_rns_2023-01-11_be66e262-038a-46d4-ace2-1d57b69066bd.pdf",
+    "viewer_url": "https://financialfilings.com/filings/investor-centre-limited/ma-activity/2023/56371257/",
+    "company": {
+     "id": 65096,
+     "name": "INVESTOR CENTRE LIMITED",
+     "tagline": "A financial services company offering equities, derivatives, capital raising, and investment products.",
+     "isins": [
+      "AU0000307167"
+     ],
+     "lei": "8945009TIP2XQJ5XTF44",
+     "sub_industry_code": "6499",
+     "oics_code": "FI.MK.BKR.BKR",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 101010,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44743558,
+    "title": "Strike's Third Supplementary Bidder's Statement",
+    "release_datetime": "2023-01-11T22:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65876/2023/RNS/65876_rns_2023-01-11_72c83cad-54ee-4233-b68c-a3e570bf22e8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65876/2023/RNS/65876_rns_2023-01-11_72c83cad-54ee-4233-b68c-a3e570bf22e8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/strike-energy-limited/ma-activity/2023/44743558/",
+    "company": {
+     "id": 65876,
+     "name": "STRIKE ENERGY LIMITED",
+     "tagline": "Explores and develops natural gas and renewable energy resources in the Perth Basin.",
+     "isins": [
+      "AU000000STX7"
+     ],
+     "lei": "549300OV1EXGL032Q465",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1745887,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44054309,
+    "title": "PDL: Scheme of Arrangement becomes legally effective",
+    "release_datetime": "2023-01-11T22:34:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10538/2023/RNS/10538_rns_2023-01-11_1f8ef75e-7fa3-406c-bfee-2678bdf46257.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10538/2023/RNS/10538_rns_2023-01-11_1f8ef75e-7fa3-406c-bfee-2678bdf46257.pdf",
+    "viewer_url": "https://financialfilings.com/filings/perpetual-limited/ma-activity/2023/44054309/",
+    "company": {
+     "id": 10538,
+     "name": "Perpetual Limited",
+     "tagline": "Provides asset management, wealth management, and corporate trustee services.",
+     "isins": [
+      "AU000000PPT9"
+     ],
+     "lei": "549300US8OE0UQWXPO82",
+     "sub_industry_code": "6433",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 160190,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39547089,
+    "title": "Confirmation of despatch of Bidders Statement",
+    "release_datetime": "2023-01-16T01:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2023/RNS/64743_rns_2023-01-15_93f8433a-a804-4210-bdb6-8afc33d861d4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2023/RNS/64743_rns_2023-01-15_93f8433a-a804-4210-bdb6-8afc33d861d4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/catalyst-metals-limited/ma-activity/2023/39547089/",
+    "company": {
+     "id": 64743,
+     "name": "CATALYST METALS LIMITED",
+     "tagline": "Gold exploration and production company focused on high-grade assets.",
+     "isins": [
+      "AU000000CYL6"
+     ],
+     "lei": "9845002GB72C3J4A3E64",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1590558,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40384657,
+    "title": "Extension of Offer Period for Takeover s650D",
+    "release_datetime": "2023-01-16T07:10:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64997/2023/RNS/64997_rns_2023-01-15_e6ee14bb-87a8-4665-8b03-d8dc827bc28c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64997/2023/RNS/64997_rns_2023-01-15_e6ee14bb-87a8-4665-8b03-d8dc827bc28c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/genesis-minerals-limited/ma-activity/2023/40384657/",
+    "company": {
+     "id": 64997,
+     "name": "GENESIS MINERALS LIMITED",
+     "tagline": "Gold producer and developer focused on high-grade gold assets in the Leonora region.",
+     "isins": [
+      "AU000000GMD9"
+     ],
+     "lei": "894500AK5BVRCNP0FP48",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 143115,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39547075,
+    "title": "Vango Takeover Offer opens",
+    "release_datetime": "2023-01-16T07:45:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2023/RNS/64743_rns_2023-01-15_351896e2-a4e7-4b7a-93d9-af3e7984a8c8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2023/RNS/64743_rns_2023-01-15_351896e2-a4e7-4b7a-93d9-af3e7984a8c8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/catalyst-metals-limited/ma-activity/2023/39547075/",
+    "company": {
+     "id": 64743,
+     "name": "CATALYST METALS LIMITED",
+     "tagline": "Gold exploration and production company focused on high-grade assets.",
+     "isins": [
+      "AU000000CYL6"
+     ],
+     "lei": "9845002GB72C3J4A3E64",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 139102,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56319442,
+    "title": "Acquisition of technology business Priority Networking PL",
+    "release_datetime": "2023-01-16T22:41:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84838/2023/RNS/84838_rns_2023-01-16_7e342037-c3ce-4917-8e9c-ab9d01ecd345.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84838/2023/RNS/84838_rns_2023-01-16_7e342037-c3ce-4917-8e9c-ab9d01ecd345.pdf",
+    "viewer_url": "https://financialfilings.com/filings/diverger-ltd/ma-activity/2023/56319442/",
+    "company": {
+     "id": 84838,
+     "name": "Diverger Ltd",
+     "tagline": "",
+     "isins": [
+      "AU0000190209"
+     ],
+     "lei": "",
+     "sub_industry_code": "6630",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 205808,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44743548,
+    "title": "WGO: Strike's Offer now unconditional",
+    "release_datetime": "2023-01-17T04:38:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65876/2023/RNS/65876_rns_2023-01-16_ed8bd1f5-c89a-4ec5-af60-b35896f17a69.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65876/2023/RNS/65876_rns_2023-01-16_ed8bd1f5-c89a-4ec5-af60-b35896f17a69.pdf",
+    "viewer_url": "https://financialfilings.com/filings/strike-energy-limited/ma-activity/2023/44743548/",
+    "company": {
+     "id": 65876,
+     "name": "STRIKE ENERGY LIMITED",
+     "tagline": "Explores and develops natural gas and renewable energy resources in the Perth Basin.",
+     "isins": [
+      "AU000000STX7"
+     ],
+     "lei": "549300OV1EXGL032Q465",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 70490,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44743547,
+    "title": "Strike's Fourth Supplementary Bidder's Statement",
+    "release_datetime": "2023-01-17T04:52:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65876/2023/RNS/65876_rns_2023-01-16_739f8e47-e9cd-480e-a94d-0e4b70d5a991.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65876/2023/RNS/65876_rns_2023-01-16_739f8e47-e9cd-480e-a94d-0e4b70d5a991.pdf",
+    "viewer_url": "https://financialfilings.com/filings/strike-energy-limited/ma-activity/2023/44743547/",
+    "company": {
+     "id": 65876,
+     "name": "STRIKE ENERGY LIMITED",
+     "tagline": "Explores and develops natural gas and renewable energy resources in the Perth Basin.",
+     "isins": [
+      "AU000000STX7"
+     ],
+     "lei": "549300OV1EXGL032Q465",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 480081,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41637279,
+    "title": "Response to Norwest Target Statement",
+    "release_datetime": "2023-01-19T05:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2023/RNS/65337_rns_2023-01-18_6f2e720e-d3f0-4538-afac-e4567452d9e5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65337/2023/RNS/65337_rns_2023-01-18_6f2e720e-d3f0-4538-afac-e4567452d9e5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/mineral-resources-limited/ma-activity/2023/41637279/",
+    "company": {
+     "id": 65337,
+     "name": "MINERAL RESOURCES LIMITED",
+     "tagline": "Diversified resources company focused on lithium, iron ore, energy, and mining services.",
+     "isins": [
+      "AU000000MIN4"
+     ],
+     "lei": "5299007V1ACKFFX2P066",
+     "sub_industry_code": "0990",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 264202,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

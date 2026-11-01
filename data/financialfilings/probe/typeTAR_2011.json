@@ -1,0 +1,958 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1104,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2011-01-01T00%3A00%3A00Z&release_datetime_to=2011-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 44424966,
+    "title": "Notice to Riversdale Mining Limited - Section 633 (2) (b) CA",
+    "release_datetime": "2011-01-05T07:15:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65705/2011/RNS/65705_rns_2011-01-04_410c26e4-c2bb-41f6-8d6f-7c046b10153b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65705/2011/RNS/65705_rns_2011-01-04_410c26e4-c2bb-41f6-8d6f-7c046b10153b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/rio-tinto-limited/ma-activity/2011/44424966/",
+    "company": {
+     "id": 65705,
+     "name": "RIO TINTO LIMITED",
+     "tagline": "Global mining group producing iron ore, copper, and materials for energy transition.",
+     "isins": [
+      "AU000000RIO1"
+     ],
+     "lei": "529900X2VMAQT2PE0V24",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.IMT.ALU",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 284795,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37890124,
+    "title": "ALS Continues to Expand into USA Environmental Markets",
+    "release_datetime": "2011-01-05T23:43:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64365/2011/RNS/64365_rns_2011-01-05_86a8ced2-212e-4bee-9190-a974becb75e9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64365/2011/RNS/64365_rns_2011-01-05_86a8ced2-212e-4bee-9190-a974becb75e9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/als-limited/ma-activity/2011/37890124/",
+    "company": {
+     "id": 64365,
+     "name": "ALS LIMITED",
+     "tagline": "Global provider of analytical testing, inspection, and certification services.",
+     "isins": [
+      "AU000000ALQ6"
+     ],
+     "lei": "549300RYCQ8DMIO2J661",
+     "sub_industry_code": "7120",
+     "oics_code": "IN.BS.APS.TIC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 62579,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39006078,
+    "title": "Acquisition of IFCO Systems - Update",
+    "release_datetime": "2011-01-06T06:03:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64593/2011/RNS/64593_rns_2011-01-05_a819394d-7ae0-4d81-9e60-077ba56a0845.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64593/2011/RNS/64593_rns_2011-01-05_a819394d-7ae0-4d81-9e60-077ba56a0845.pdf",
+    "viewer_url": "https://financialfilings.com/filings/brambles-limited/ma-activity/2011/39006078/",
+    "company": {
+     "id": 64593,
+     "name": "BRAMBLES LIMITED",
+     "tagline": "Global supply chain logistics provider specializing in reusable equipment pooling.",
+     "isins": [
+      "AU000000BXB1"
+     ],
+     "lei": "",
+     "sub_industry_code": "7730",
+     "oics_code": "IN.BS.OPS.SUP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 157352,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38890765,
+    "title": "BPT increases interest in Impress to greater than 65 percent",
+    "release_datetime": "2011-01-07T04:34:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64558/2011/RNS/64558_rns_2011-01-06_7770e6ee-78ec-4eb7-9e98-1480d2477b0e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64558/2011/RNS/64558_rns_2011-01-06_7770e6ee-78ec-4eb7-9e98-1480d2477b0e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/beach-energy-limited/ma-activity/2011/38890765/",
+    "company": {
+     "id": 64558,
+     "name": "BEACH ENERGY LIMITED",
+     "tagline": "Explores, develops, and produces hydrocarbon resources across multiple basins.",
+     "isins": [
+      "AU000000BPT9"
+     ],
+     "lei": "8Q9PJD25OKTQT5FHUF40",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 202369,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38598945,
+    "title": "Notices - Extension of Offer Period and Status of Conditions",
+    "release_datetime": "2011-01-07T06:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/48994/2011/RNS/48994_rns_2011-01-06_10cc6caf-8904-4f69-873e-bb717496f9e9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/48994/2011/RNS/48994_rns_2011-01-06_10cc6caf-8904-4f69-873e-bb717496f9e9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2011/38598945/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 93352,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38598937,
+    "title": "Notices - Extension of Offer Period and Status of Conditions",
+    "release_datetime": "2011-01-07T06:49:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/48994/2011/RNS/48994_rns_2011-01-06_6bc10f29-63ad-4df2-b0bb-38d3fbdcd22a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/48994/2011/RNS/48994_rns_2011-01-06_6bc10f29-63ad-4df2-b0bb-38d3fbdcd22a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2011/38598937/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 95978,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44424960,
+    "title": "Off-market takeover bid for Riversdale Mining Limited",
+    "release_datetime": "2011-01-10T08:03:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65705/2011/RNS/65705_rns_2011-01-09_72eef542-0f1d-4fb7-8300-3e6b44b0db99.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65705/2011/RNS/65705_rns_2011-01-09_72eef542-0f1d-4fb7-8300-3e6b44b0db99.pdf",
+    "viewer_url": "https://financialfilings.com/filings/rio-tinto-limited/ma-activity/2011/44424960/",
+    "company": {
+     "id": 65705,
+     "name": "RIO TINTO LIMITED",
+     "tagline": "Global mining group producing iron ore, copper, and materials for energy transition.",
+     "isins": [
+      "AU000000RIO1"
+     ],
+     "lei": "529900X2VMAQT2PE0V24",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.IMT.ALU",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 920051,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38890760,
+    "title": "Variation of Takeover Bid for ITC",
+    "release_datetime": "2011-01-10T22:20:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64558/2011/RNS/64558_rns_2011-01-10_469506f3-1ea0-4b3f-b479-278c7bc9b274.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64558/2011/RNS/64558_rns_2011-01-10_469506f3-1ea0-4b3f-b479-278c7bc9b274.pdf",
+    "viewer_url": "https://financialfilings.com/filings/beach-energy-limited/ma-activity/2011/38890760/",
+    "company": {
+     "id": 64558,
+     "name": "BEACH ENERGY LIMITED",
+     "tagline": "Explores, develops, and produces hydrocarbon resources across multiple basins.",
+     "isins": [
+      "AU000000BPT9"
+     ],
+     "lei": "8Q9PJD25OKTQT5FHUF40",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 44413,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38890754,
+    "title": "Beach declares price final for Impress.",
+    "release_datetime": "2011-01-10T22:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64558/2011/RNS/64558_rns_2011-01-10_dca71ef3-c522-4b5b-b5a0-f541588739cd.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64558/2011/RNS/64558_rns_2011-01-10_dca71ef3-c522-4b5b-b5a0-f541588739cd.pdf",
+    "viewer_url": "https://financialfilings.com/filings/beach-energy-limited/ma-activity/2011/38890754/",
+    "company": {
+     "id": 64558,
+     "name": "BEACH ENERGY LIMITED",
+     "tagline": "Explores, develops, and produces hydrocarbon resources across multiple basins.",
+     "isins": [
+      "AU000000BPT9"
+     ],
+     "lei": "8Q9PJD25OKTQT5FHUF40",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 203930,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44424949,
+    "title": "Rio Tinto`s offer for Riversdale opens",
+    "release_datetime": "2011-01-11T04:20:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65705/2011/RNS/65705_rns_2011-01-10_29562694-a493-454e-a7fd-24ffba1206e9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65705/2011/RNS/65705_rns_2011-01-10_29562694-a493-454e-a7fd-24ffba1206e9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/rio-tinto-limited/ma-activity/2011/44424949/",
+    "company": {
+     "id": 65705,
+     "name": "RIO TINTO LIMITED",
+     "tagline": "Global mining group producing iron ore, copper, and materials for energy transition.",
+     "isins": [
+      "AU000000RIO1"
+     ],
+     "lei": "529900X2VMAQT2PE0V24",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.IMT.ALU",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 540082,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41081957,
+    "title": "Extension of Offer Period for LRC",
+    "release_datetime": "2011-01-11T06:34:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65175/2011/RNS/65175_rns_2011-01-10_b5bba6b7-e3ab-436f-b984-0891785ac41e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65175/2011/RNS/65175_rns_2011-01-10_b5bba6b7-e3ab-436f-b984-0891785ac41e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/kingsgate-consolidated-limited/ma-activity/2011/41081957/",
+    "company": {
+     "id": 65175,
+     "name": "KINGSGATE CONSOLIDATED LIMITED.",
+     "tagline": "Explores and operates gold and silver assets, primarily the Chatree Gold Mine.",
+     "isins": [
+      "AU000000KCN1"
+     ],
+     "lei": "529900B1W7D8DLEC7178",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 48122,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56541939,
+    "title": "Acquisition of 100% Interest in Ammaroo Phosphate Discovery",
+    "release_datetime": "2011-01-12T04:59:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85760/2011/RNS/85760_rns_2011-01-12_b5e70697-fba8-444f-a7db-2ac929e35ab0.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85760/2011/RNS/85760_rns_2011-01-12_b5e70697-fba8-444f-a7db-2ac929e35ab0.pdf",
+    "viewer_url": "https://financialfilings.com/filings/verdant-minerals-ltd/ma-activity/2011/56541939/",
+    "company": {
+     "id": 85760,
+     "name": "Verdant Minerals Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000VRM8"
+     ],
+     "lei": "",
+     "sub_industry_code": "0899",
+     "oics_code": "MA.CH.SAC.FER",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 239765,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56541925,
+    "title": "AAG: Sale of Territory Phosphate to Rum Jungle",
+    "release_datetime": "2011-01-12T05:34:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85760/2011/RNS/85760_rns_2011-01-12_c9c157cd-8089-40a0-8798-b49b42beaaab.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85760/2011/RNS/85760_rns_2011-01-12_c9c157cd-8089-40a0-8798-b49b42beaaab.pdf",
+    "viewer_url": "https://financialfilings.com/filings/verdant-minerals-ltd/ma-activity/2011/56541925/",
+    "company": {
+     "id": 85760,
+     "name": "Verdant Minerals Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000VRM8"
+     ],
+     "lei": "",
+     "sub_industry_code": "0899",
+     "oics_code": "MA.CH.SAC.FER",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 67546,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56532751,
+    "title": "TOV: Viento Group Declaration Unacceptable Circumstances",
+    "release_datetime": "2011-01-13T01:16:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85739/2011/RNS/85739_rns_2011-01-13_af6733a6-8699-4ecb-8b88-feed3914d504.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85739/2011/RNS/85739_rns_2011-01-13_af6733a6-8699-4ecb-8b88-feed3914d504.pdf",
+    "viewer_url": "https://financialfilings.com/filings/viento-group-ltd/ma-activity/2011/56532751/",
+    "company": {
+     "id": 85739,
+     "name": "Viento Group Ltd",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "8299",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 29813,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39006068,
+    "title": "Acquisition of IFCO Systems - Update",
+    "release_datetime": "2011-01-13T05:36:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64593/2011/RNS/64593_rns_2011-01-12_b7e05aef-93f7-4bf0-a39d-cf2f2fefc0a4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64593/2011/RNS/64593_rns_2011-01-12_b7e05aef-93f7-4bf0-a39d-cf2f2fefc0a4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/brambles-limited/ma-activity/2011/39006068/",
+    "company": {
+     "id": 64593,
+     "name": "BRAMBLES LIMITED",
+     "tagline": "Global supply chain logistics provider specializing in reusable equipment pooling.",
+     "isins": [
+      "AU000000BXB1"
+     ],
+     "lei": "",
+     "sub_industry_code": "7730",
+     "oics_code": "IN.BS.OPS.SUP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1359104,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44424926,
+    "title": "Completion of dispatch of Bidder`s Statement",
+    "release_datetime": "2011-01-13T06:02:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65705/2011/RNS/65705_rns_2011-01-12_a151cfd9-58c6-4b6a-b7fb-b030012c4cb1.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65705/2011/RNS/65705_rns_2011-01-12_a151cfd9-58c6-4b6a-b7fb-b030012c4cb1.pdf",
+    "viewer_url": "https://financialfilings.com/filings/rio-tinto-limited/ma-activity/2011/44424926/",
+    "company": {
+     "id": 65705,
+     "name": "RIO TINTO LIMITED",
+     "tagline": "Global mining group producing iron ore, copper, and materials for energy transition.",
+     "isins": [
+      "AU000000RIO1"
+     ],
+     "lei": "529900X2VMAQT2PE0V24",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.IMT.ALU",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 162305,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56499455,
+    "title": "Option to Acquire Highly Prospective Indonesian Gold Assets",
+    "release_datetime": "2011-01-13T09:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85577/2011/RNS/85577_rns_2011-01-13_1d6b4d0b-350b-481e-895d-48dcb05c95a6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85577/2011/RNS/85577_rns_2011-01-13_1d6b4d0b-350b-481e-895d-48dcb05c95a6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/skyland-petroleum-group-limited/ma-activity/2011/56499455/",
+    "company": {
+     "id": 85577,
+     "name": "SKYLAND PETROLEUM  GROUP LIMITED",
+     "tagline": "",
+     "isins": [
+      "AU000000SKP2"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 179297,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 68046113,
+    "title": "MISCELLANEOUS :: PROPOSED LISTING BURSA MALAYSIAN",
+    "release_datetime": "2011-01-14T02:47:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65983/2011/RNS/65983_rns_2011-01-14_4d05b368-577b-4413-859c-2e72b2b3ec40.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65983/2011/RNS/65983_rns_2011-01-14_4d05b368-577b-4413-859c-2e72b2b3ec40.pdf",
+    "viewer_url": "https://financialfilings.com/filings/united-overseas-australia-limited/ma-activity/2011/68046113/",
+    "company": {
+     "id": 65983,
+     "name": "UNITED OVERSEAS AUSTRALIA LIMITED",
+     "tagline": "Vertically integrated developer and investor in large-scale mixed-use real estate.",
+     "isins": [
+      "AU000000UOS4"
+     ],
+     "lei": "",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.DS.DEV.RSD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 88872,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37964431,
+    "title": "AXA APH Explanatory Memorandum Supplement",
+    "release_datetime": "2011-01-16T22:34:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64379/2011/RNS/64379_rns_2011-01-16_0e63faa4-afc3-4ad9-a3f5-76c5d5e42e73.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64379/2011/RNS/64379_rns_2011-01-16_0e63faa4-afc3-4ad9-a3f5-76c5d5e42e73.pdf",
+    "viewer_url": "https://financialfilings.com/filings/amp-limited/ma-activity/2011/37964431/",
+    "company": {
+     "id": 64379,
+     "name": "AMP LIMITED",
+     "tagline": "Provides wealth management, banking, and investment services to diverse clients.",
+     "isins": [
+      "AU000000AMP6"
+     ],
+     "lei": "5299000D93LTLU0UJR35",
+     "sub_industry_code": "6421",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 4664304,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37964322,
+    "title": "AMP 02_11 - AMP welcomes release of AXA APH`s EM",
+    "release_datetime": "2011-01-16T22:36:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64379/2011/RNS/64379_rns_2011-01-16_af493042-817f-4de9-affe-fbaecfa49775.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64379/2011/RNS/64379_rns_2011-01-16_af493042-817f-4de9-affe-fbaecfa49775.pdf",
+    "viewer_url": "https://financialfilings.com/filings/amp-limited/ma-activity/2011/37964322/",
+    "company": {
+     "id": 64379,
+     "name": "AMP LIMITED",
+     "tagline": "Provides wealth management, banking, and investment services to diverse clients.",
+     "isins": [
+      "AU000000AMP6"
+     ],
+     "lei": "5299000D93LTLU0UJR35",
+     "sub_industry_code": "6421",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 51135,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56204645,
+    "title": "Aspire Option Extension",
+    "release_datetime": "2011-01-17T01:48:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84545/2011/RNS/84545_rns_2011-01-16_9f8a43de-6a80-4722-98ce-375d7e377ab2.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84545/2011/RNS/84545_rns_2011-01-16_9f8a43de-6a80-4722-98ce-375d7e377ab2.pdf",
+    "viewer_url": "https://financialfilings.com/filings/apollo-consolidated-limited/ma-activity/2011/56204645/",
+    "company": {
+     "id": 84545,
+     "name": "Apollo Consolidated Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000AOP2"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 330512,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40934376,
+    "title": "Acquisition of Peresys",
+    "release_datetime": "2011-01-17T22:16:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65141/2011/RNS/65141_rns_2011-01-17_33ca224c-75eb-4d87-a47a-c0b429d75c9f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65141/2011/RNS/65141_rns_2011-01-17_33ca224c-75eb-4d87-a47a-c0b429d75c9f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/iress-limited/ma-activity/2011/40934376/",
+    "company": {
+     "id": 65141,
+     "name": "IRESS LIMITED",
+     "tagline": "Develops software for wealth management, trading, and investment sectors.",
+     "isins": [
+      "AU000000IRE2"
+     ],
+     "lei": "5493006KZJMJI8PQXA35",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.ISS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 118293,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 45011403,
+    "title": "Completion of Acquisition - Kwezi V3 Engineers (Pty) Ltd",
+    "release_datetime": "2011-01-18T02:59:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66073/2011/RNS/66073_rns_2011-01-17_2b1664a7-4698-406d-96e2-48aecdbe5542.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66073/2011/RNS/66073_rns_2011-01-17_2b1664a7-4698-406d-96e2-48aecdbe5542.pdf",
+    "viewer_url": "https://financialfilings.com/filings/worley-limited/ma-activity/2011/45011403/",
+    "company": {
+     "id": 66073,
+     "name": "WORLEY LIMITED",
+     "tagline": "Global provider of project and asset services in energy, chemicals, and resources.",
+     "isins": [
+      "AU000000WOR2"
+     ],
+     "lei": "549300XDR86FY8OLGP97",
+     "sub_industry_code": "7110",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 38551,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41970204,
+    "title": "NEC: Welcomes Takeovers Panel Decision",
+    "release_datetime": "2011-01-18T03:19:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65422/2011/RNS/65422_rns_2011-01-17_3a2bd56f-9ba3-48b7-9d65-d69f4d2cf4c6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65422/2011/RNS/65422_rns_2011-01-17_3a2bd56f-9ba3-48b7-9d65-d69f4d2cf4c6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/new-hope-corporation-limited/ma-activity/2011/41970204/",
+    "company": {
+     "id": 65422,
+     "name": "NEW HOPE CORPORATION LIMITED",
+     "tagline": "Operates thermal coal mines, port facilities, and agricultural and pastoral assets.",
+     "isins": [
+      "AU000000NHC7"
+     ],
+     "lei": "254900DHRUGXZSLSNZ83",
+     "sub_industry_code": "0510",
+     "oics_code": "EN.OG.FUE.COA",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 59071,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41970198,
+    "title": "Third Supplementary Bidder`s Statement for NEC",
+    "release_datetime": "2011-01-18T04:13:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65422/2011/RNS/65422_rns_2011-01-17_da966271-8138-4bca-b963-71a046a820a3.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65422/2011/RNS/65422_rns_2011-01-17_da966271-8138-4bca-b963-71a046a820a3.pdf",
+    "viewer_url": "https://financialfilings.com/filings/new-hope-corporation-limited/ma-activity/2011/41970198/",
+    "company": {
+     "id": 65422,
+     "name": "NEW HOPE CORPORATION LIMITED",
+     "tagline": "Operates thermal coal mines, port facilities, and agricultural and pastoral assets.",
+     "isins": [
+      "AU000000NHC7"
+     ],
+     "lei": "254900DHRUGXZSLSNZ83",
+     "sub_industry_code": "0510",
+     "oics_code": "EN.OG.FUE.COA",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 270864,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

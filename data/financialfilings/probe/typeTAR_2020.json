@@ -1,0 +1,960 @@
+{
+ "status": 200,
+ "body": {
+  "count": 902,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2020-01-01T00%3A00%3A00Z&release_datetime_to=2020-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 40786573,
+    "title": "Completion of Acquisition of Salmat Marketing Solutions",
+    "release_datetime": "2020-01-01T21:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65109/2020/RNS/65109_rns_2020-01-01_3b9fabc3-5ab1-4d1e-97e3-8fddeae32f03.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65109/2020/RNS/65109_rns_2020-01-01_3b9fabc3-5ab1-4d1e-97e3-8fddeae32f03.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ive-group-limited/ma-activity/2020/40786573/",
+    "company": {
+     "id": 65109,
+     "name": "IVE GROUP LIMITED",
+     "tagline": "Holistic marketing services provider offering integrated end-to-end solutions.",
+     "isins": [
+      "AU000000IGL0"
+     ],
+     "lei": "",
+     "sub_industry_code": "7310",
+     "oics_code": "CM.MC.MED.ADV",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 141863,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44625977,
+    "title": "SciDev to Acquire Highland Fluid Technology Inc.",
+    "release_datetime": "2020-01-01T22:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65761/2020/RNS/65761_rns_2020-01-01_d1bbf82b-c637-4eef-9181-2fae63a056b0.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65761/2020/RNS/65761_rns_2020-01-01_d1bbf82b-c637-4eef-9181-2fae63a056b0.pdf",
+    "viewer_url": "https://financialfilings.com/filings/scidev-ltd/ma-activity/2020/44625977/",
+    "company": {
+     "id": 65761,
+     "name": "SCIDEV LTD",
+     "tagline": "Provides chemistry and process control for water and industrial waste treatment.",
+     "isins": [
+      "AU000000SDV5"
+     ],
+     "lei": "529900W7IQX470H8MB36",
+     "sub_industry_code": "2029",
+     "oics_code": "MA.CH.SAC.PFC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 253908,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40796999,
+    "title": "Supplementary Bidder's Statement",
+    "release_datetime": "2020-01-02T01:13:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65111/2020/RNS/65111_rns_2020-01-01_b8ea0a88-0e1a-4bf1-85c5-bf9e4e716b1c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65111/2020/RNS/65111_rns_2020-01-01_b8ea0a88-0e1a-4bf1-85c5-bf9e4e716b1c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/igo-limited/ma-activity/2020/40796999/",
+    "company": {
+     "id": 65111,
+     "name": "IGO LIMITED",
+     "tagline": "Produces nickel, copper, lithium, and cobalt for clean energy technologies.",
+     "isins": [
+      "AU000000IGO4"
+     ],
+     "lei": "2549005DZO8VGXM5QN07",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 851552,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40796996,
+    "title": "Takeover bid for PAN - Withdrawal rights",
+    "release_datetime": "2020-01-02T01:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65111/2020/RNS/65111_rns_2020-01-01_8061e4fc-8c29-44c2-9b80-8f245b45ba2c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65111/2020/RNS/65111_rns_2020-01-01_8061e4fc-8c29-44c2-9b80-8f245b45ba2c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/igo-limited/ma-activity/2020/40796996/",
+    "company": {
+     "id": 65111,
+     "name": "IGO LIMITED",
+     "tagline": "Produces nickel, copper, lithium, and cobalt for clean energy technologies.",
+     "isins": [
+      "AU000000IGO4"
+     ],
+     "lei": "2549005DZO8VGXM5QN07",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 266851,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56359175,
+    "title": "EXERCISE OF OPTIONS TO ACQUIRE PROJECTS",
+    "release_datetime": "2020-01-02T03:45:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65020/2020/RNS/65020_rns_2020-01-01_4a768ccb-fbc3-4202-a60c-b29c4e60ec68.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65020/2020/RNS/65020_rns_2020-01-01_4a768ccb-fbc3-4202-a60c-b29c4e60ec68.pdf",
+    "viewer_url": "https://financialfilings.com/filings/green360-technologies-limited/ma-activity/2020/56359175/",
+    "company": {
+     "id": 65020,
+     "name": "GREEN360 TECHNOLOGIES LIMITED",
+     "tagline": "Provides technology platforms for monitoring and optimizing resource consumption.",
+     "isins": [
+      "AU0000387516"
+     ],
+     "lei": "",
+     "sub_industry_code": "6219",
+     "oics_code": "MA.MM.IMT.NMM",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 67914,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 42080694,
+    "title": "Northern Star Completes Acquisition of 50% of KCGM Super Pit",
+    "release_datetime": "2020-01-02T21:49:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65447/2020/RNS/65447_rns_2020-01-02_6b0513ec-7d30-4e87-baec-6da06e78e280.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65447/2020/RNS/65447_rns_2020-01-02_6b0513ec-7d30-4e87-baec-6da06e78e280.pdf",
+    "viewer_url": "https://financialfilings.com/filings/northern-star-resources-ltd/ma-activity/2020/42080694/",
+    "company": {
+     "id": 65447,
+     "name": "NORTHERN STAR RESOURCES LTD",
+     "tagline": "Gold producer focused on exploration, mining, and processing of high-grade gold assets.",
+     "isins": [
+      "AU000000NST8"
+     ],
+     "lei": "254900XFXCRYYZAX6M78",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 186390,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37893122,
+    "title": "ALS acquires market-leading European food testing business",
+    "release_datetime": "2020-01-02T22:45:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64365/2020/RNS/64365_rns_2020-01-02_c6da8e27-0a22-4274-b89d-901e93da8d47.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64365/2020/RNS/64365_rns_2020-01-02_c6da8e27-0a22-4274-b89d-901e93da8d47.pdf",
+    "viewer_url": "https://financialfilings.com/filings/als-limited/ma-activity/2020/37893122/",
+    "company": {
+     "id": 64365,
+     "name": "ALS LIMITED",
+     "tagline": "Global provider of analytical testing, inspection, and certification services.",
+     "isins": [
+      "AU000000ALQ6"
+     ],
+     "lei": "549300RYCQ8DMIO2J661",
+     "sub_industry_code": "7120",
+     "oics_code": "IN.BS.APS.TIC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 75447,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44962404,
+    "title": "Bidder's Statement for KBC dispatched / Offer now open",
+    "release_datetime": "2020-01-03T05:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66032/2020/RNS/66032_rns_2020-01-02_2165a8e1-913a-4c9a-a07f-58a18edbe5a8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66032/2020/RNS/66032_rns_2020-01-02_2165a8e1-913a-4c9a-a07f-58a18edbe5a8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/wam-active-limited/ma-activity/2020/44962404/",
+    "company": {
+     "id": 66032,
+     "name": "WAM ACTIVE LIMITED",
+     "tagline": "Actively manages undervalued small-to-mid-cap assets for dividends and capital growth.",
+     "isins": [
+      "AU000000WAA7"
+     ],
+     "lei": "2549007NMELES3YD5K32",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 591037,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41075521,
+    "title": "WAA: Bidder's Statement for KBC dispatched / Offer now open",
+    "release_datetime": "2020-01-03T05:30:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2020/RNS/65174_rns_2020-01-02_509c7cd2-5074-4c4d-89c7-40262f0d5d38.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2020/RNS/65174_rns_2020-01-02_509c7cd2-5074-4c4d-89c7-40262f0d5d38.pdf",
+    "viewer_url": "https://financialfilings.com/filings/keybridge-capital-limited/ma-activity/2020/41075521/",
+    "company": {
+     "id": 65174,
+     "name": "KEYBRIDGE CAPITAL LIMITED",
+     "tagline": "Investment group managing alternative assets, equity, debt, and structured finance.",
+     "isins": [
+      "AU000000KBC6"
+     ],
+     "lei": "549300UG314Z1PTXWP21",
+     "sub_industry_code": "6499",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 591036,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56394709,
+    "title": "KRS announcement - Sale of Curtain Wonderland",
+    "release_datetime": "2020-01-03T06:50:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85143/2020/RNS/85143_rns_2020-01-03_8b72f7c7-65c0-4abc-ba7a-b1bdf7a6b57e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85143/2020/RNS/85143_rns_2020-01-03_8b72f7c7-65c0-4abc-ba7a-b1bdf7a6b57e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/kresta-holdings-limited/ma-activity/2020/56394709/",
+    "company": {
+     "id": 85143,
+     "name": "Kresta Holdings Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000KRS8"
+     ],
+     "lei": "",
+     "sub_industry_code": "3102",
+     "oics_code": "CL.RT.STR.SPS",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 50472,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40936746,
+    "title": "Iress Acquisition of BC Gateways",
+    "release_datetime": "2020-01-06T08:19:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65141/2020/RNS/65141_rns_2020-01-05_fe5c92e5-3a1e-431d-b832-59308afad604.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65141/2020/RNS/65141_rns_2020-01-05_fe5c92e5-3a1e-431d-b832-59308afad604.pdf",
+    "viewer_url": "https://financialfilings.com/filings/iress-limited/ma-activity/2020/40936746/",
+    "company": {
+     "id": 65141,
+     "name": "IRESS LIMITED",
+     "tagline": "Develops software for wealth management, trading, and investment sectors.",
+     "isins": [
+      "AU000000IRE2"
+     ],
+     "lei": "5493006KZJMJI8PQXA35",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.ISS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 171008,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41433509,
+    "title": "MEL: Variation of Takeover Bid",
+    "release_datetime": "2020-01-06T23:20:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65297/2020/RNS/65297_rns_2020-01-06_70ddffbb-5722-49b9-94cd-d72faea1906f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65297/2020/RNS/65297_rns_2020-01-06_70ddffbb-5722-49b9-94cd-d72faea1906f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/melbana-energy-limited/ma-activity/2020/41433509/",
+    "company": {
+     "id": 65297,
+     "name": "MELBANA ENERGY LIMITED",
+     "tagline": "Independent oil and gas company exploring hydrocarbon resources in Cuba and offshore.",
+     "isins": [
+      "AU000000MAY8"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 128466,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 13388506,
+    "title": "Other.pdf",
+    "release_datetime": "2020-01-07T02:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/47202/2020/RNS/47202_rns_2020-01-06_75d9ddd3-bd40-4519-8c88-5a2a4af27df5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/47202/2020/RNS/47202_rns_2020-01-06_75d9ddd3-bd40-4519-8c88-5a2a4af27df5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/champion-iron-limited/ma-activity/2020/13388506/",
+    "company": {
+     "id": 47202,
+     "name": "Champion Iron Limited",
+     "tagline": "A mining company producing high-grade iron ore concentrate for global shipment.",
+     "isins": [
+      "AU000000CIA2"
+     ],
+     "lei": "894500WQI96G4T75O202",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2182816,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56527549,
+    "title": "CM8 signs LOI to form commercial digital media partnership",
+    "release_datetime": "2020-01-07T22:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65982/2020/RNS/65982_rns_2020-01-07_bdcc6fe4-2962-4467-bbf1-036ce786bd4b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65982/2020/RNS/65982_rns_2020-01-07_bdcc6fe4-2962-4467-bbf1-036ce786bd4b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/unith-ltd/ma-activity/2020/56527549/",
+    "company": {
+     "id": 65982,
+     "name": "UNITH LTD",
+     "tagline": "Develops hyper-realistic AI avatars and digital humans for real-time interaction.",
+     "isins": [
+      "AU0000256646"
+     ],
+     "lei": "",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.BUS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 209168,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 45022978,
+    "title": "WTC acquires leading solutions provider in Switzerland, SISA",
+    "release_datetime": "2020-01-07T22:35:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66086/2020/RNS/66086_rns_2020-01-07_d3c47483-979b-4588-9f2c-64570dc6a2f9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66086/2020/RNS/66086_rns_2020-01-07_d3c47483-979b-4588-9f2c-64570dc6a2f9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/wisetech-global-limited/ma-activity/2020/45022978/",
+    "company": {
+     "id": 66086,
+     "name": "WISETECH GLOBAL LIMITED",
+     "tagline": "Provides integrated cloud-based software solutions for global logistics execution.",
+     "isins": [
+      "AU000000WTC3"
+     ],
+     "lei": "254900VE3AF301Q85K83",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.ISS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 138171,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41075496,
+    "title": "ADIT Intention to Bid 6.6c Cash for Keybridge",
+    "release_datetime": "2020-01-08T03:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2020/RNS/65174_rns_2020-01-07_3f5a5008-3b10-4ea3-919e-a32703313ffd.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2020/RNS/65174_rns_2020-01-07_3f5a5008-3b10-4ea3-919e-a32703313ffd.pdf",
+    "viewer_url": "https://financialfilings.com/filings/keybridge-capital-limited/ma-activity/2020/41075496/",
+    "company": {
+     "id": 65174,
+     "name": "KEYBRIDGE CAPITAL LIMITED",
+     "tagline": "Investment group managing alternative assets, equity, debt, and structured finance.",
+     "isins": [
+      "AU000000KBC6"
+     ],
+     "lei": "549300UG314Z1PTXWP21",
+     "sub_industry_code": "6499",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 411167,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56363163,
+    "title": "KBC: ADIT Intention to Bid 6.6c Cash for Keybridge",
+    "release_datetime": "2020-01-08T03:18:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85018/2020/RNS/85018_rns_2020-01-08_ef89d345-ecc5-4db0-912b-4b87afaf123c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85018/2020/RNS/85018_rns_2020-01-08_ef89d345-ecc5-4db0-912b-4b87afaf123c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/hhy-fund/ma-activity/2020/56363163/",
+    "company": {
+     "id": 85018,
+     "name": "HHY Fund",
+     "tagline": "",
+     "isins": [
+      "AU000000HHY3"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 411167,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41075489,
+    "title": "ADIT: Intention to Make Takeover Bid for KBC",
+    "release_datetime": "2020-01-08T03:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2020/RNS/65174_rns_2020-01-07_882929f6-44db-4d0a-a325-24299e52dc7e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2020/RNS/65174_rns_2020-01-07_882929f6-44db-4d0a-a325-24299e52dc7e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/keybridge-capital-limited/ma-activity/2020/41075489/",
+    "company": {
+     "id": 65174,
+     "name": "KEYBRIDGE CAPITAL LIMITED",
+     "tagline": "Investment group managing alternative assets, equity, debt, and structured finance.",
+     "isins": [
+      "AU000000KBC6"
+     ],
+     "lei": "549300UG314Z1PTXWP21",
+     "sub_industry_code": "6499",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 161559,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56429873,
+    "title": "NET completes acquisition of Security Software International",
+    "release_datetime": "2020-01-08T05:05:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85300/2020/RNS/85300_rns_2020-01-08_93027cb3-3e2c-472e-90aa-e5ffe8c56596.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85300/2020/RNS/85300_rns_2020-01-08_93027cb3-3e2c-472e-90aa-e5ffe8c56596.pdf",
+    "viewer_url": "https://financialfilings.com/filings/netlinkz-ltd/ma-activity/2020/56429873/",
+    "company": {
+     "id": 85300,
+     "name": "Netlinkz Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000NET8"
+     ],
+     "lei": "",
+     "sub_industry_code": null,
+     "oics_code": "TC.SW.PLT.SEC",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 793965,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40796989,
+    "title": "Notice of Status of Defeating Conditions PAN Takeover",
+    "release_datetime": "2020-01-08T21:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65111/2020/RNS/65111_rns_2020-01-08_d532c9ee-935f-47e7-b8ae-ccd530967bbb.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65111/2020/RNS/65111_rns_2020-01-08_d532c9ee-935f-47e7-b8ae-ccd530967bbb.pdf",
+    "viewer_url": "https://financialfilings.com/filings/igo-limited/ma-activity/2020/40796989/",
+    "company": {
+     "id": 65111,
+     "name": "IGO LIMITED",
+     "tagline": "Produces nickel, copper, lithium, and cobalt for clean energy technologies.",
+     "isins": [
+      "AU000000IGO4"
+     ],
+     "lei": "2549005DZO8VGXM5QN07",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 204332,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39445218,
+    "title": "Completion of Acquisition of Corporate Travel Planners",
+    "release_datetime": "2020-01-12T22:51:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64713/2020/RNS/64713_rns_2020-01-12_4e2fc16d-8862-4fd2-a2e5-fa1a8bba9534.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64713/2020/RNS/64713_rns_2020-01-12_4e2fc16d-8862-4fd2-a2e5-fa1a8bba9534.pdf",
+    "viewer_url": "https://financialfilings.com/filings/corporate-travel-management-limited/ma-activity/2020/39445218/",
+    "company": {
+     "id": 64713,
+     "name": "CORPORATE TRAVEL MANAGEMENT LIMITED",
+     "tagline": "Global provider of travel management solutions and technology for diverse sectors.",
+     "isins": [
+      "AU000000CTD3"
+     ],
+     "lei": "529900NSAKXFXS5XED26",
+     "sub_industry_code": "7911",
+     "oics_code": "CL.SV.HSP.LTS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 102772,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44827964,
+    "title": "Titan Successful in Bid for Core Gold",
+    "release_datetime": "2020-01-14T22:02:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65962/2020/RNS/65962_rns_2020-01-14_33d40c55-d5a7-4382-9103-3377231fb74a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65962/2020/RNS/65962_rns_2020-01-14_33d40c55-d5a7-4382-9103-3377231fb74a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/titan-minerals-limited/ma-activity/2020/44827964/",
+    "company": {
+     "id": 65962,
+     "name": "TITAN MINERALS LIMITED",
+     "tagline": "Explores and develops gold and copper assets in southern Ecuador.",
+     "isins": [
+      "AU000000TTM8"
+     ],
+     "lei": "98450084C73TE3E80348",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 123732,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 10889189,
+    "title": "Sale of Ravenswood Gold Mine",
+    "release_datetime": "2020-01-15T07:00:06+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10548/2020/RNS/10548_rns_2020-01-15_06c29176-0ca5-4de2-a85f-4d8bd9ca40cd.html",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10548/2020/RNS/10548_rns_2020-01-15_06c29176-0ca5-4de2-a85f-4d8bd9ca40cd.html",
+    "viewer_url": "https://financialfilings.com/filings/resolute-mining-limited/ma-activity/2020/10889189/",
+    "company": {
+     "id": 10548,
+     "name": "Resolute Mining Limited",
+     "tagline": "An African-focused gold producer with over 30 years of exploration and operational experience.",
+     "isins": [
+      "AU000000RSG6"
+     ],
+     "lei": "254900MP8JONT590XY28",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "HTML",
+    "file_size": 52219,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56438931,
+    "title": "Scheme Update",
+    "release_datetime": "2020-01-15T07:11:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85336/2020/RNS/85336_rns_2020-01-15_1e258ee6-81a4-4d0d-ba9e-5b717cbc47c5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85336/2020/RNS/85336_rns_2020-01-15_1e258ee6-81a4-4d0d-ba9e-5b717cbc47c5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/nzuri-copper-limited/ma-activity/2020/56438931/",
+    "company": {
+     "id": 85336,
+     "name": "Nzuri Copper Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000NZC9"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 241442,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40415426,
+    "title": "Acquisition of US Business",
+    "release_datetime": "2020-01-15T21:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65003/2020/RNS/65003_rns_2020-01-15_66b8f324-3a4d-4e34-ad7a-2a3668976dbf.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65003/2020/RNS/65003_rns_2020-01-15_66b8f324-3a4d-4e34-ad7a-2a3668976dbf.pdf",
+    "viewer_url": "https://financialfilings.com/filings/gr-engineering-services-limited/ma-activity/2020/40415426/",
+    "company": {
+     "id": 65003,
+     "name": "GR ENGINEERING SERVICES LIMITED",
+     "tagline": "Provides engineering and construction services for mineral processing facilities.",
+     "isins": [
+      "AU000000GNG0"
+     ],
+     "lei": "",
+     "sub_industry_code": "7110",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 272305,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

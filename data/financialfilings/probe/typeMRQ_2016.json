@@ -1,0 +1,960 @@
+{
+ "status": 200,
+ "body": {
+  "count": 7801,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2016-01-01T00%3A00%3A00Z&release_datetime_to=2016-12-31T23%3A59%3A59Z&types=MRQ",
+  "previous": null,
+  "results": [
+   {
+    "id": 56324221,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2016-01-03T21:25:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84874/2016/RNS/84874_rns_2016-01-03_2538cbb5-18fa-455e-85e9-ff89c2531d17.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84874/2016/RNS/84874_rns_2016-01-03_2538cbb5-18fa-455e-85e9-ff89c2531d17.pdf",
+    "viewer_url": "https://financialfilings.com/filings/estia-health-ltd/major-shareholding-notification/2016/56324221/",
+    "company": {
+     "id": 84874,
+     "name": "Estia Health Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000EHE2"
+     ],
+     "lei": "",
+     "sub_industry_code": "8730",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 5079234,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56292223,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2016-01-03T21:28:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84804/2016/RNS/84804_rns_2016-01-03_23010f62-10dd-425e-8257-c964b4fbec8f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84804/2016/RNS/84804_rns_2016-01-03_23010f62-10dd-425e-8257-c964b4fbec8f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/decmil-group-ltd/major-shareholding-notification/2016/56292223/",
+    "company": {
+     "id": 84804,
+     "name": "Decmil Group Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000DCG0"
+     ],
+     "lei": "",
+     "sub_industry_code": "4290",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-16"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 601790,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38605952,
+    "title": "Change in substantial holding DPI",
+    "release_datetime": "2016-01-03T21:34:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64506/2016/RNS/64506_rns_2016-01-03_c54d5414-7f33-42fd-9852-0d3fcc859372.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64506/2016/RNS/64506_rns_2016-01-03_c54d5414-7f33-42fd-9852-0d3fcc859372.pdf",
+    "viewer_url": "https://financialfilings.com/filings/brazilian-critical-minerals-limited/major-shareholding-notification/2016/38605952/",
+    "company": {
+     "id": 64506,
+     "name": "BRAZILIAN CRITICAL MINERALS LIMITED",
+     "tagline": "Explores and develops rare earth and ionic clay-hosted mineral assets in Brazil.",
+     "isins": [
+      "AU0000315533"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 580013,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37659352,
+    "title": "Change in substantial holding",
+    "release_datetime": "2016-01-03T23:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10434/2016/RNS/10434_rns_2016-01-03_5705b699-a0f0-4d90-8b9f-296f9f0aefe7.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10434/2016/RNS/10434_rns_2016-01-03_5705b699-a0f0-4d90-8b9f-296f9f0aefe7.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aura-energy-limited/major-shareholding-notification/2016/37659352/",
+    "company": {
+     "id": 10434,
+     "name": "Aura Energy Limited",
+     "tagline": "Mineral resources company with uranium, polymetallic, and gold projects.",
+     "isins": [
+      "AU000000AEE7"
+     ],
+     "lei": "5493003D06RIWBKIKA27",
+     "sub_industry_code": "0721",
+     "oics_code": "EN.OG.FUE.URA",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1175231,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56495248,
+    "title": "Change of Directors Interest Notice",
+    "release_datetime": "2016-01-04T00:16:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85548/2016/RNS/85548_rns_2016-01-04_5efd51a0-eaa6-4bc0-879e-257fd55d4cf5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85548/2016/RNS/85548_rns_2016-01-04_5efd51a0-eaa6-4bc0-879e-257fd55d4cf5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sundance-resources-limited/major-shareholding-notification/2016/56495248/",
+    "company": {
+     "id": 85548,
+     "name": "Sundance Resources Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000SDL6"
+     ],
+     "lei": "",
+     "sub_industry_code": "0710",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 190285,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39089142,
+    "title": "Ceasing to be a substantial holder for ISD",
+    "release_datetime": "2016-01-04T02:11:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10459/2016/RNS/10459_rns_2016-01-03_ff1726b4-79f7-462c-a02b-de0038c5a353.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10459/2016/RNS/10459_rns_2016-01-03_ff1726b4-79f7-462c-a02b-de0038c5a353.pdf",
+    "viewer_url": "https://financialfilings.com/filings/commonwealth-bank-of-australia/major-shareholding-notification/2016/39089142/",
+    "company": {
+     "id": 10459,
+     "name": "Commonwealth Bank of Australia",
+     "tagline": "Provider of financial services for retail, business, and institutional clients.",
+     "isins": [
+      "AU000000CBA7"
+     ],
+     "lei": "MSFSBD3QN1GSN7Q6C537",
+     "sub_industry_code": "6419",
+     "oics_code": "FI.BK.BNK.UNV",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 213313,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39089131,
+    "title": "Ceasing to be a substantial holder for MTS",
+    "release_datetime": "2016-01-04T02:12:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10459/2016/RNS/10459_rns_2016-01-03_ba535efb-2973-41b2-a37f-b2b55454780a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10459/2016/RNS/10459_rns_2016-01-03_ba535efb-2973-41b2-a37f-b2b55454780a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/commonwealth-bank-of-australia/major-shareholding-notification/2016/39089131/",
+    "company": {
+     "id": 10459,
+     "name": "Commonwealth Bank of Australia",
+     "tagline": "Provider of financial services for retail, business, and institutional clients.",
+     "isins": [
+      "AU000000CBA7"
+     ],
+     "lei": "MSFSBD3QN1GSN7Q6C537",
+     "sub_industry_code": "6419",
+     "oics_code": "FI.BK.BNK.UNV",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 895458,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39089081,
+    "title": "Ceasing to be a substantial holder for REC",
+    "release_datetime": "2016-01-04T02:13:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10459/2016/RNS/10459_rns_2016-01-03_4c8631ec-86ab-4715-b869-d452c350cc33.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10459/2016/RNS/10459_rns_2016-01-03_4c8631ec-86ab-4715-b869-d452c350cc33.pdf",
+    "viewer_url": "https://financialfilings.com/filings/commonwealth-bank-of-australia/major-shareholding-notification/2016/39089081/",
+    "company": {
+     "id": 10459,
+     "name": "Commonwealth Bank of Australia",
+     "tagline": "Provider of financial services for retail, business, and institutional clients.",
+     "isins": [
+      "AU000000CBA7"
+     ],
+     "lei": "MSFSBD3QN1GSN7Q6C537",
+     "sub_industry_code": "6419",
+     "oics_code": "FI.BK.BNK.UNV",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 606843,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 43902201,
+    "title": "Change in substantial holding",
+    "release_datetime": "2016-01-04T02:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65587/2016/RNS/65587_rns_2016-01-03_5c52f5be-390c-4322-9537-d01c440a98c3.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65587/2016/RNS/65587_rns_2016-01-03_5c52f5be-390c-4322-9537-d01c440a98c3.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pantoro-gold-limited/major-shareholding-notification/2016/43902201/",
+    "company": {
+     "id": 65587,
+     "name": "PANTORO GOLD LIMITED",
+     "tagline": "Gold production and exploration company focused on high-grade precious metal assets.",
+     "isins": [
+      "AU000000PNR8"
+     ],
+     "lei": "254900ZMQXTNJJIP4K51",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 255441,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41869765,
+    "title": "Ceasing to be a substantial holder for TAH",
+    "release_datetime": "2016-01-04T02:30:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/35645/2016/RNS/35645_rns_2016-01-03_a39a9242-a79c-4455-8e33-07bb705a9783.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/35645/2016/RNS/35645_rns_2016-01-03_a39a9242-a79c-4455-8e33-07bb705a9783.pdf",
+    "viewer_url": "https://financialfilings.com/filings/national-australia-bank-ltd/major-shareholding-notification/2016/41869765/",
+    "company": {
+     "id": 35645,
+     "name": "National Australia Bank Ltd.",
+     "tagline": "Offers banking, financial, and wealth management services to individuals and businesses.",
+     "isins": [
+      "AU000000NAB4"
+     ],
+     "lei": "F8SB4JFBSYQFRQEH3Z21",
+     "sub_industry_code": "6419",
+     "oics_code": "FI.BK.BNK.UNV",
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 148713,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38815216,
+    "title": "Change in substantial holding",
+    "release_datetime": "2016-01-04T03:21:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64542/2016/RNS/64542_rns_2016-01-03_9e3793eb-c71a-4e20-bcb5-8e76df35668b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64542/2016/RNS/64542_rns_2016-01-03_9e3793eb-c71a-4e20-bcb5-8e76df35668b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bannerman-energy-ltd/major-shareholding-notification/2016/38815216/",
+    "company": {
+     "id": 64542,
+     "name": "BANNERMAN ENERGY LTD",
+     "tagline": "Uranium developer advancing the Etango Project in Namibia for the nuclear power sector.",
+     "isins": [
+      "AU000000BMN9"
+     ],
+     "lei": "529900D04RI02L5UK707",
+     "sub_industry_code": "0721",
+     "oics_code": "EN.OG.FUE.URA",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 151201,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44778125,
+    "title": "Ceasing to be a substantial holder from NAB",
+    "release_datetime": "2016-01-04T04:27:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65892/2016/RNS/65892_rns_2016-01-03_b23c2c52-9175-45be-9ab4-1a8f4adb5145.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65892/2016/RNS/65892_rns_2016-01-03_b23c2c52-9175-45be-9ab4-1a8f4adb5145.pdf",
+    "viewer_url": "https://financialfilings.com/filings/tabcorp-holdings-limited/major-shareholding-notification/2016/44778125/",
+    "company": {
+     "id": 65892,
+     "name": "TABCORP HOLDINGS LIMITED",
+     "tagline": "Provides wagering and media services for racing and sports via digital and retail.",
+     "isins": [
+      "AU000000TAH8"
+     ],
+     "lei": "213800OCCFUN67NEY278",
+     "sub_industry_code": "9200",
+     "oics_code": "CL.SV.HSP.BET",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 68423,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44677855,
+    "title": "Change in substantial holding",
+    "release_datetime": "2016-01-04T04:31:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65810/2016/RNS/65810_rns_2016-01-03_e4991f7d-ef1a-4905-8fe0-2e5ef3462211.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65810/2016/RNS/65810_rns_2016-01-03_e4991f7d-ef1a-4905-8fe0-2e5ef3462211.pdf",
+    "viewer_url": "https://financialfilings.com/filings/superloop-limited/major-shareholding-notification/2016/44677855/",
+    "company": {
+     "id": 65810,
+     "name": "SUPERLOOP LIMITED",
+     "tagline": "Provides telecommunications infrastructure, fiber-optic networks, and network services.",
+     "isins": [
+      "AU000000SLC8"
+     ],
+     "lei": "529900A6RVCX545NWC88",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 186308,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44305960,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2016-01-04T05:08:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65676/2016/RNS/65676_rns_2016-01-03_3bedbe10-fadb-452b-8052-f980d409ea4c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65676/2016/RNS/65676_rns_2016-01-03_3bedbe10-fadb-452b-8052-f980d409ea4c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/redstone-resources-limited/major-shareholding-notification/2016/44305960/",
+    "company": {
+     "id": 65676,
+     "name": "REDSTONE RESOURCES LIMITED",
+     "tagline": "Explores and develops copper, nickel, gold, and battery-related mineral properties.",
+     "isins": [
+      "AU000000RDS3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 161810,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39344665,
+    "title": "Change in substantial holding from BTT",
+    "release_datetime": "2016-01-04T05:57:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64683/2016/RNS/64683_rns_2016-01-03_39d12283-0fa4-4752-bb94-5c0f2f4ae9ab.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64683/2016/RNS/64683_rns_2016-01-03_39d12283-0fa4-4752-bb94-5c0f2f4ae9ab.pdf",
+    "viewer_url": "https://financialfilings.com/filings/centuria-office-reit/major-shareholding-notification/2016/39344665/",
+    "company": {
+     "id": 64683,
+     "name": "CENTURIA OFFICE REIT",
+     "tagline": "Owns and manages a portfolio of high-quality metropolitan and near-city office assets.",
+     "isins": [
+      "AU0000077893"
+     ],
+     "lei": "984500D9D1RFE9AF4796",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.OFF",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 80277,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41799190,
+    "title": "Change in substantial holding from BTT",
+    "release_datetime": "2016-01-04T05:59:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65384/2016/RNS/65384_rns_2016-01-03_3ac9ff39-eae7-4d20-bc03-f0e39c07f18f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65384/2016/RNS/65384_rns_2016-01-03_3ac9ff39-eae7-4d20-bc03-f0e39c07f18f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/metcash-limited/major-shareholding-notification/2016/41799190/",
+    "company": {
+     "id": 65384,
+     "name": "METCASH LIMITED",
+     "tagline": "Wholesale distributor supporting independent food, liquor, and hardware retailers.",
+     "isins": [
+      "AU000000MTS0"
+     ],
+     "lei": "25490065W4SN3LZMX216",
+     "sub_industry_code": "4690",
+     "oics_code": "CE.EV.EVR.WHS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 75306,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44819385,
+    "title": "Form 604 Change in substantial holding",
+    "release_datetime": "2016-01-04T07:03:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65943/2016/RNS/65943_rns_2016-01-03_3106b019-b1f4-43c3-8388-5a91f16a458e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65943/2016/RNS/65943_rns_2016-01-03_3106b019-b1f4-43c3-8388-5a91f16a458e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/tpc-consolidated-limited/major-shareholding-notification/2016/44819385/",
+    "company": {
+     "id": 65943,
+     "name": "TPC CONSOLIDATED LIMITED",
+     "tagline": "Integrated telecommunications and energy services provider for retail customers.",
+     "isins": [
+      "AU000000TPC7"
+     ],
+     "lei": "5493004QED4ZJ0IE5188",
+     "sub_industry_code": "3540",
+     "oics_code": "UT.UT.ELY.PGS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 498774,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56224950,
+    "title": "Ceasing to be a substantial holder",
+    "release_datetime": "2016-01-04T08:07:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84637/2016/RNS/84637_rns_2016-01-03_8d8b5c38-0034-41f0-abb3-07cdc4dfece6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84637/2016/RNS/84637_rns_2016-01-03_8d8b5c38-0034-41f0-abb3-07cdc4dfece6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/beston-global-food-company-ltd/major-shareholding-notification/2016/56224950/",
+    "company": {
+     "id": 84637,
+     "name": "Beston Global Food Company Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000BFC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "1079",
+     "oics_code": "CE.EG.FOD.PKG",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 429021,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37752198,
+    "title": "Ceasing to be a substantial holder",
+    "release_datetime": "2016-01-04T08:08:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64338/2016/RNS/64338_rns_2016-01-03_b0a9103b-11ca-4523-9cdc-59493e8e4c07.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64338/2016/RNS/64338_rns_2016-01-03_b0a9103b-11ca-4523-9cdc-59493e8e4c07.pdf",
+    "viewer_url": "https://financialfilings.com/filings/australian-dairy-nutritionals-limited/major-shareholding-notification/2016/37752198/",
+    "company": {
+     "id": 64338,
+     "name": "AUSTRALIAN DAIRY NUTRITIONALS LIMITED",
+     "tagline": "Vertically integrated producer of premium dairy products and infant formula.",
+     "isins": [
+      "AU000000AHF7"
+     ],
+     "lei": "",
+     "sub_industry_code": "1050",
+     "oics_code": "CE.EG.FOD.PKG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 149990,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56324218,
+    "title": "Ceasing to be a substantial holder",
+    "release_datetime": "2016-01-04T21:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84874/2016/RNS/84874_rns_2016-01-04_f59a81c4-b76f-41dd-8914-b983a3efa2f7.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84874/2016/RNS/84874_rns_2016-01-04_f59a81c4-b76f-41dd-8914-b983a3efa2f7.pdf",
+    "viewer_url": "https://financialfilings.com/filings/estia-health-ltd/major-shareholding-notification/2016/56324218/",
+    "company": {
+     "id": 84874,
+     "name": "Estia Health Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000EHE2"
+     ],
+     "lei": "",
+     "sub_industry_code": "8730",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 432291,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40749744,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2016-01-04T21:25:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65099/2016/RNS/65099_rns_2016-01-04_cf657ec3-5b79-4fa4-bc8a-94b678cab704.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65099/2016/RNS/65099_rns_2016-01-04_cf657ec3-5b79-4fa4-bc8a-94b678cab704.pdf",
+    "viewer_url": "https://financialfilings.com/filings/idt-australia-limited/major-shareholding-notification/2016/40749744/",
+    "company": {
+     "id": 65099,
+     "name": "IDT AUSTRALIA LIMITED",
+     "tagline": "Specializes in high-potency API development and manufacturing of complex drug products.",
+     "isins": [
+      "AU000000IDT0"
+     ],
+     "lei": "984500F9AA637X80N684",
+     "sub_industry_code": "2100",
+     "oics_code": "HC.PH.LSC.CRO",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 91129,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40996736,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2016-01-04T21:25:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65157/2016/RNS/65157_rns_2016-01-04_24374702-34e8-4f7a-a355-3f8418f315c2.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65157/2016/RNS/65157_rns_2016-01-04_24374702-34e8-4f7a-a355-3f8418f315c2.pdf",
+    "viewer_url": "https://financialfilings.com/filings/jb-hi-fi-limited/major-shareholding-notification/2016/40996736/",
+    "company": {
+     "id": 65157,
+     "name": "JB HI-FI LIMITED",
+     "tagline": "Retailer of consumer electronics, home entertainment, appliances, and software products.",
+     "isins": [
+      "AU000000JBH7"
+     ],
+     "lei": "529900TPC8H040Y3ZQ65",
+     "sub_industry_code": "4740",
+     "oics_code": "CL.RT.STR.SPS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 4868194,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38518429,
+    "title": "Change in substantial holding - J.P. Morgan",
+    "release_datetime": "2016-01-04T21:26:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64489/2016/RNS/64489_rns_2016-01-04_c51b4da9-57e0-485a-ba94-b2aba4aa31b8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64489/2016/RNS/64489_rns_2016-01-04_c51b4da9-57e0-485a-ba94-b2aba4aa31b8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aurizon-holdings-limited/major-shareholding-notification/2016/38518429/",
+    "company": {
+     "id": 64489,
+     "name": "AURIZON HOLDINGS LIMITED",
+     "tagline": "A major rail freight operator transporting coal, iron ore, and bulk materials.",
+     "isins": [
+      "AU000000AZJ1"
+     ],
+     "lei": "5299005PC1O6NOWL3H48",
+     "sub_industry_code": "4912",
+     "oics_code": "IN.TP.LOG.LND",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 8701168,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40996731,
+    "title": "Ceasing to be a substantial holder",
+    "release_datetime": "2016-01-04T21:26:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65157/2016/RNS/65157_rns_2016-01-04_7430e606-5f8d-4264-9a7d-5e8fc58a91f1.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65157/2016/RNS/65157_rns_2016-01-04_7430e606-5f8d-4264-9a7d-5e8fc58a91f1.pdf",
+    "viewer_url": "https://financialfilings.com/filings/jb-hi-fi-limited/major-shareholding-notification/2016/40996731/",
+    "company": {
+     "id": 65157,
+     "name": "JB HI-FI LIMITED",
+     "tagline": "Retailer of consumer electronics, home entertainment, appliances, and software products.",
+     "isins": [
+      "AU000000JBH7"
+     ],
+     "lei": "529900TPC8H040Y3ZQ65",
+     "sub_industry_code": "4740",
+     "oics_code": "CL.RT.STR.SPS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 268076,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41799183,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2016-01-04T21:26:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65384/2016/RNS/65384_rns_2016-01-04_a7cb1cb3-11ef-4a2f-bb18-2ad03a47ae17.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65384/2016/RNS/65384_rns_2016-01-04_a7cb1cb3-11ef-4a2f-bb18-2ad03a47ae17.pdf",
+    "viewer_url": "https://financialfilings.com/filings/metcash-limited/major-shareholding-notification/2016/41799183/",
+    "company": {
+     "id": 65384,
+     "name": "METCASH LIMITED",
+     "tagline": "Wholesale distributor supporting independent food, liquor, and hardware retailers.",
+     "isins": [
+      "AU000000MTS0"
+     ],
+     "lei": "25490065W4SN3LZMX216",
+     "sub_industry_code": "4690",
+     "oics_code": "CE.EV.EVR.WHS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 5940093,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

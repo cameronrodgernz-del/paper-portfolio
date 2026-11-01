@@ -1,0 +1,960 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1098,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2022-01-01T00%3A00%3A00Z&release_datetime_to=2022-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 39895834,
+    "title": "Takeover Bid Update",
+    "release_datetime": "2022-01-03T21:14:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64849/2022/RNS/64849_rns_2022-01-03_6fbfd820-a88a-4ad7-a62d-66919b3d5a1f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64849/2022/RNS/64849_rns_2022-01-03_6fbfd820-a88a-4ad7-a62d-66919b3d5a1f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/emerald-resources-nl/ma-activity/2022/39895834/",
+    "company": {
+     "id": 64849,
+     "name": "EMERALD RESOURCES NL",
+     "tagline": "Gold exploration and development company focused on high-grade mineral projects.",
+     "isins": [
+      "AU000000EMR4"
+     ],
+     "lei": "529900V79JFYUE9ZQB09",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 126169,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38962526,
+    "title": "Straker announces acquisition of Belgium-based IDEST",
+    "release_datetime": "2022-01-04T02:10:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64577/2022/RNS/64577_rns_2022-01-03_da0815d1-5d38-4485-a4b2-689e10ed6bdb.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64577/2022/RNS/64577_rns_2022-01-03_da0815d1-5d38-4485-a4b2-689e10ed6bdb.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bailador-technology-investments-limited/ma-activity/2022/38962526/",
+    "company": {
+     "id": 64577,
+     "name": "BAILADOR TECHNOLOGY INVESTMENTS LIMITED",
+     "tagline": "Expansion-stage firm investing in high-growth private technology businesses.",
+     "isins": [
+      "AU000000BTI4"
+     ],
+     "lei": "",
+     "sub_industry_code": "6499",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 388443,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56495840,
+    "title": "Sale of Microdevices business completed",
+    "release_datetime": "2022-01-04T04:05:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85550/2022/RNS/85550_rns_2022-01-04_817ddf4e-7a58-470f-8f13-4e38a94a34d5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85550/2022/RNS/85550_rns_2022-01-04_817ddf4e-7a58-470f-8f13-4e38a94a34d5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sensera-ltd/ma-activity/2022/56495840/",
+    "company": {
+     "id": 85550,
+     "name": "Sensera Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000SE12"
+     ],
+     "lei": "",
+     "sub_industry_code": "2651",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 105915,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38068890,
+    "title": "GUD completes acquisition of AutoPacific Group",
+    "release_datetime": "2022-01-04T04:21:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64396/2022/RNS/64396_rns_2022-01-03_3cc6478e-841e-4cce-8e14-de176a3b703f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64396/2022/RNS/64396_rns_2022-01-03_3cc6478e-841e-4cce-8e14-de176a3b703f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/amotiv-limited/ma-activity/2022/38068890/",
+    "company": {
+     "id": 64396,
+     "name": "AMOTIV LIMITED",
+     "tagline": "Designs, manufactures, and distributes automotive aftermarket parts and accessories.",
+     "isins": [
+      "AU0000340770"
+     ],
+     "lei": "254900KHH5GGEGUIZS22",
+     "sub_industry_code": "2930",
+     "oics_code": "CL.GD.AUT.APT",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 62251,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40178341,
+    "title": "TGM: Supplementary Bidder's Statement FML Take Over Offer",
+    "release_datetime": "2022-01-04T09:12:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64932/2022/RNS/64932_rns_2022-01-03_dbd1c0df-21d0-4db5-ac40-9069f8eebe61.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64932/2022/RNS/64932_rns_2022-01-03_dbd1c0df-21d0-4db5-ac40-9069f8eebe61.pdf",
+    "viewer_url": "https://financialfilings.com/filings/focus-minerals-ltd/ma-activity/2022/40178341/",
+    "company": {
+     "id": 64932,
+     "name": "FOCUS MINERALS LTD",
+     "tagline": "Explores and develops gold assets at the Coolgardie and Laverton Gold Projects.",
+     "isins": [
+      "AU000000FML4"
+     ],
+     "lei": "529900G61CW8EFPNXZ12",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 3567561,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40178244,
+    "title": "TGM: Replacement Bidder's Statement FML Take Over Offer",
+    "release_datetime": "2022-01-04T09:14:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64932/2022/RNS/64932_rns_2022-01-03_2466d74c-23bf-43e5-aa50-3c923a067830.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64932/2022/RNS/64932_rns_2022-01-03_2466d74c-23bf-43e5-aa50-3c923a067830.pdf",
+    "viewer_url": "https://financialfilings.com/filings/focus-minerals-ltd/ma-activity/2022/40178244/",
+    "company": {
+     "id": 64932,
+     "name": "FOCUS MINERALS LTD",
+     "tagline": "Explores and develops gold assets at the Coolgardie and Laverton Gold Projects.",
+     "isins": [
+      "AU000000FML4"
+     ],
+     "lei": "529900G61CW8EFPNXZ12",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 3175294,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56538288,
+    "title": "Vonex Completes Voiteck Acquisition & Delivers Strong Growth",
+    "release_datetime": "2022-01-04T22:33:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85751/2022/RNS/85751_rns_2022-01-04_44a4f330-1723-4330-b0d2-0c4899665f03.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85751/2022/RNS/85751_rns_2022-01-04_44a4f330-1723-4330-b0d2-0c4899665f03.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vonex-ltd/ma-activity/2022/56538288/",
+    "company": {
+     "id": 85751,
+     "name": "VONEX Ltd",
+     "tagline": "",
+     "isins": [
+      "AU0000006421"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 240202,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40178193,
+    "title": "Update On Unsolicited Off-Market Takeover Bid",
+    "release_datetime": "2022-01-04T22:50:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64932/2022/RNS/64932_rns_2022-01-04_de6a11a9-448d-4806-9099-852684703bba.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64932/2022/RNS/64932_rns_2022-01-04_de6a11a9-448d-4806-9099-852684703bba.pdf",
+    "viewer_url": "https://financialfilings.com/filings/focus-minerals-ltd/ma-activity/2022/40178193/",
+    "company": {
+     "id": 64932,
+     "name": "FOCUS MINERALS LTD",
+     "tagline": "Explores and develops gold assets at the Coolgardie and Laverton Gold Projects.",
+     "isins": [
+      "AU000000FML4"
+     ],
+     "lei": "529900G61CW8EFPNXZ12",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1154472,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37881335,
+    "title": "Update on Recommended Acquisition of Playtech",
+    "release_datetime": "2022-01-05T08:39:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64363/2022/RNS/64363_rns_2022-01-04_31293f37-d173-4e56-bb58-77bb0d7709dd.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64363/2022/RNS/64363_rns_2022-01-04_31293f37-d173-4e56-bb58-77bb0d7709dd.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aristocrat-leisure-limited/ma-activity/2022/37881335/",
+    "company": {
+     "id": 64363,
+     "name": "ARISTOCRAT LEISURE LIMITED",
+     "tagline": "Global gaming technology firm providing land-based, mobile, and online gaming content.",
+     "isins": [
+      "AU000000ALL7"
+     ],
+     "lei": "529900TE2HO3OZKYKC27",
+     "sub_industry_code": "5821",
+     "oics_code": "CL.SV.HSP.BET",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 239191,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40676086,
+    "title": "Proposal from Latitude for Humm Consumer Finance",
+    "release_datetime": "2022-01-05T21:20:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65078/2022/RNS/65078_rns_2022-01-05_654d072e-5eac-4c88-8970-c453eecf13eb.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65078/2022/RNS/65078_rns_2022-01-05_654d072e-5eac-4c88-8970-c453eecf13eb.pdf",
+    "viewer_url": "https://financialfilings.com/filings/humm-group-limited/ma-activity/2022/40676086/",
+    "company": {
+     "id": 65078,
+     "name": "HUMM GROUP LIMITED",
+     "tagline": "Provides BNPL, credit cards, and commercial lending for consumers and businesses.",
+     "isins": [
+      "AU0000121337"
+     ],
+     "lei": "549300Z5SL6S3F9O0M28",
+     "sub_industry_code": "6495",
+     "oics_code": "FI.BK.NBL.CSL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 102877,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40676096,
+    "title": "LFS: Latitude intends to acquire Humm's consumer business",
+    "release_datetime": "2022-01-05T21:20:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65078/2022/RNS/65078_rns_2022-01-05_3477ce9c-80e8-4912-bf36-886fcaba2cbd.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65078/2022/RNS/65078_rns_2022-01-05_3477ce9c-80e8-4912-bf36-886fcaba2cbd.pdf",
+    "viewer_url": "https://financialfilings.com/filings/humm-group-limited/ma-activity/2022/40676096/",
+    "company": {
+     "id": 65078,
+     "name": "HUMM GROUP LIMITED",
+     "tagline": "Provides BNPL, credit cards, and commercial lending for consumers and businesses.",
+     "isins": [
+      "AU0000121337"
+     ],
+     "lei": "549300Z5SL6S3F9O0M28",
+     "sub_industry_code": "6495",
+     "oics_code": "FI.BK.NBL.CSL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 190392,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39895814,
+    "title": "Recommended Takeover Offer for Bullseye Mining Unconditional",
+    "release_datetime": "2022-01-06T09:18:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64849/2022/RNS/64849_rns_2022-01-05_80d80344-c889-4121-9f9c-df00f736daa1.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64849/2022/RNS/64849_rns_2022-01-05_80d80344-c889-4121-9f9c-df00f736daa1.pdf",
+    "viewer_url": "https://financialfilings.com/filings/emerald-resources-nl/ma-activity/2022/39895814/",
+    "company": {
+     "id": 64849,
+     "name": "EMERALD RESOURCES NL",
+     "tagline": "Gold exploration and development company focused on high-grade mineral projects.",
+     "isins": [
+      "AU000000EMR4"
+     ],
+     "lei": "529900V79JFYUE9ZQB09",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 230554,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40069097,
+    "title": "Notice of Status of Conditions",
+    "release_datetime": "2022-01-06T09:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64905/2022/RNS/64905_rns_2022-01-05_f204cac9-7a37-4f97-9123-b179f8cbb1ce.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64905/2022/RNS/64905_rns_2022-01-05_f204cac9-7a37-4f97-9123-b179f8cbb1ce.pdf",
+    "viewer_url": "https://financialfilings.com/filings/firstwave-cloud-technology-limited/ma-activity/2022/40069097/",
+    "company": {
+     "id": 64905,
+     "name": "FIRSTWAVE CLOUD TECHNOLOGY LIMITED",
+     "tagline": "Provides cybersecurity and network management software for service providers and telcos.",
+     "isins": [
+      "AU000000FCT8"
+     ],
+     "lei": "",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.PLT.DAP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 182187,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40178182,
+    "title": "Update Regarding Shandong Gold Intention to Reject TGM Offer",
+    "release_datetime": "2022-01-06T21:21:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64932/2022/RNS/64932_rns_2022-01-06_0f9efe67-02c1-44eb-9274-ea6be0a2098b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64932/2022/RNS/64932_rns_2022-01-06_0f9efe67-02c1-44eb-9274-ea6be0a2098b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/focus-minerals-ltd/ma-activity/2022/40178182/",
+    "company": {
+     "id": 64932,
+     "name": "FOCUS MINERALS LTD",
+     "tagline": "Explores and develops gold assets at the Coolgardie and Laverton Gold Projects.",
+     "isins": [
+      "AU000000FML4"
+     ],
+     "lei": "529900G61CW8EFPNXZ12",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 206325,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 45017631,
+    "title": "API:Woolworths withdraws non-binding proposal to acquire API",
+    "release_datetime": "2022-01-06T22:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66075/2022/RNS/66075_rns_2022-01-06_27fa7817-af08-410d-9acf-717786fe09ba.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66075/2022/RNS/66075_rns_2022-01-06_27fa7817-af08-410d-9acf-717786fe09ba.pdf",
+    "viewer_url": "https://financialfilings.com/filings/woolworths-group-limited/ma-activity/2022/45017631/",
+    "company": {
+     "id": 66075,
+     "name": "WOOLWORTHS GROUP LIMITED",
+     "tagline": "Major retailer operating supermarkets and discount stores for food and everyday needs.",
+     "isins": [
+      "AU000000WOW2"
+     ],
+     "lei": "QNWEWQBS7HP85QHXQL92",
+     "sub_industry_code": "4711",
+     "oics_code": "CE.EV.EVR.GRO",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 95810,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 45017632,
+    "title": "Woolworths Group withdraws non-binding proposal to API",
+    "release_datetime": "2022-01-06T22:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66075/2022/RNS/66075_rns_2022-01-06_41c200c2-92ca-49ab-99e6-dfb8401bab67.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66075/2022/RNS/66075_rns_2022-01-06_41c200c2-92ca-49ab-99e6-dfb8401bab67.pdf",
+    "viewer_url": "https://financialfilings.com/filings/woolworths-group-limited/ma-activity/2022/45017632/",
+    "company": {
+     "id": 66075,
+     "name": "WOOLWORTHS GROUP LIMITED",
+     "tagline": "Major retailer operating supermarkets and discount stores for food and everyday needs.",
+     "isins": [
+      "AU000000WOW2"
+     ],
+     "lei": "QNWEWQBS7HP85QHXQL92",
+     "sub_industry_code": "4711",
+     "oics_code": "CE.EV.EVR.GRO",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 73757,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44998122,
+    "title": "API:Woolworths withdraws non-binding proposal to acquire API",
+    "release_datetime": "2022-01-06T22:37:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66054/2022/RNS/66054_rns_2022-01-06_c0349fff-83a5-49c6-ad68-d5a90d04ec0e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66054/2022/RNS/66054_rns_2022-01-06_c0349fff-83a5-49c6-ad68-d5a90d04ec0e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/wesfarmers-limited/ma-activity/2022/44998122/",
+    "company": {
+     "id": 66054,
+     "name": "WESFARMERS LIMITED",
+     "tagline": "Diversified operator of retail, healthcare, chemical, and industrial businesses.",
+     "isins": [
+      "AU000000WES1"
+     ],
+     "lei": "5493003L32ZX9557ST85",
+     "sub_industry_code": "4719",
+     "oics_code": "CL.RT.STR.SPS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 95810,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44966458,
+    "title": "Takeover bid for PAF - notice of status of conditions",
+    "release_datetime": "2022-01-07T01:15:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66036/2022/RNS/66036_rns_2022-01-06_55ce1236-52bf-4b4c-bf05-a99eb5ae2835.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66036/2022/RNS/66036_rns_2022-01-06_55ce1236-52bf-4b4c-bf05-a99eb5ae2835.pdf",
+    "viewer_url": "https://financialfilings.com/filings/wam-capital-limited/ma-activity/2022/44966458/",
+    "company": {
+     "id": 66036,
+     "name": "WAM CAPITAL LIMITED",
+     "tagline": "Provides exposure to an actively managed portfolio of undervalued growth companies.",
+     "isins": [
+      "AU000000WAM2"
+     ],
+     "lei": "254900SOFFDP0PTYDT12",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 245654,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 42087259,
+    "title": "Acquisition of Carter's Tyre Service",
+    "release_datetime": "2022-01-07T03:47:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65448/2022/RNS/65448_rns_2022-01-06_10bea62d-969e-47aa-a931-c7429ef96142.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65448/2022/RNS/65448_rns_2022-01-06_10bea62d-969e-47aa-a931-c7429ef96142.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ntaw-holdings-limited/ma-activity/2022/42087259/",
+    "company": {
+     "id": 65448,
+     "name": "NTAW HOLDINGS LIMITED",
+     "tagline": "Wholesale distributor of tyres and wheels for passenger, 4WD, and commercial vehicles.",
+     "isins": [
+      "AU000000NTD0"
+     ],
+     "lei": "",
+     "sub_industry_code": "4662",
+     "oics_code": "IN.EQ.DST.IDS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 130404,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39642871,
+    "title": "Incitec Pivot announces agreement to acquire Titanobel",
+    "release_datetime": "2022-01-09T21:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64782/2022/RNS/64782_rns_2022-01-09_163a0a90-1f38-45c3-b161-e818a24196ab.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64782/2022/RNS/64782_rns_2022-01-09_163a0a90-1f38-45c3-b161-e818a24196ab.pdf",
+    "viewer_url": "https://financialfilings.com/filings/dyno-nobel-limited/ma-activity/2022/39642871/",
+    "company": {
+     "id": 64782,
+     "name": "DYNO NOBEL LIMITED.",
+     "tagline": "Global provider of commercial explosives, initiation systems, and blasting services.",
+     "isins": [
+      "AU0000390544"
+     ],
+     "lei": "254900UW2F3BKV6Z9V18",
+     "sub_industry_code": "2029",
+     "oics_code": "MA.CH.SAC.PFC",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 162089,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56482788,
+    "title": "VGI Notes Media Speculation",
+    "release_datetime": "2022-01-09T22:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65729/2022/RNS/65729_rns_2022-01-09_fa3d8b24-48e2-4df4-95d2-1a45987bda32.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65729/2022/RNS/65729_rns_2022-01-09_fa3d8b24-48e2-4df4-95d2-1a45987bda32.pdf",
+    "viewer_url": "https://financialfilings.com/filings/regal-partners-limited/ma-activity/2022/56482788/",
+    "company": {
+     "id": 65729,
+     "name": "REGAL PARTNERS LIMITED",
+     "tagline": "Specialist alternative investment manager across a diverse range of asset classes.",
+     "isins": [
+      "AU0000226300"
+     ],
+     "lei": "21380053IWTO1FZTF831",
+     "sub_industry_code": "6630",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 127878,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 48921035,
+    "title": "General Announcement::Incitec Pivot announces agreement to acquire Titanobel",
+    "release_datetime": "2022-01-10T00:51:57+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/68063/2022/RNS/68063_rns_2022-01-10_463a81d5-605b-4c0c-8698-a291377517ff.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/68063/2022/RNS/68063_rns_2022-01-10_463a81d5-605b-4c0c-8698-a291377517ff.pdf",
+    "viewer_url": "https://financialfilings.com/filings/dyno-nobel-limited/ma-activity/2022/48921035/",
+    "company": {
+     "id": 64782,
+     "name": "DYNO NOBEL LIMITED.",
+     "tagline": "Global provider of commercial explosives, initiation systems, and blasting services.",
+     "isins": [
+      "AU0000390544"
+     ],
+     "lei": "254900UW2F3BKV6Z9V18",
+     "sub_industry_code": "2029",
+     "oics_code": "MA.CH.SAC.PFC",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 170361,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44755891,
+    "title": "Swoop Acquires Dark Fibre Network",
+    "release_datetime": "2022-01-10T22:47:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65883/2022/RNS/65883_rns_2022-01-10_9b2f5897-141e-483f-9307-b41c20c3790d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65883/2022/RNS/65883_rns_2022-01-10_9b2f5897-141e-483f-9307-b41c20c3790d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/swoop-holdings-limited/ma-activity/2022/44755891/",
+    "company": {
+     "id": 65883,
+     "name": "SWOOP HOLDINGS LIMITED",
+     "tagline": "Provides fixed wireless and fiber-optic network infrastructure and connectivity services.",
+     "isins": [
+      "AU0000153736"
+     ],
+     "lei": "9845002C8BB47CA95F94",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 127803,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 43423499,
+    "title": "WAM: Incr.offer consideration, PGF intends to accept Offer",
+    "release_datetime": "2022-01-11T07:21:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65553/2022/RNS/65553_rns_2022-01-10_0a8590a8-3a7f-408e-a2f6-143cb5046d2b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65553/2022/RNS/65553_rns_2022-01-10_0a8590a8-3a7f-408e-a2f6-143cb5046d2b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pm-capital-global-opportunities-fund-limited/ma-activity/2022/43423499/",
+    "company": {
+     "id": 65553,
+     "name": "PM CAPITAL GLOBAL OPPORTUNITIES FUND LIMITED",
+     "tagline": "Listed investment company targeting long-term growth via concentrated global equities.",
+     "isins": [
+      "AU000000PGF7"
+     ],
+     "lei": "5493002RXP07KPHL2B32",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 97897,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56517996,
+    "title": "IAP:IAP rejects revised indicative proposal from 360 Capital",
+    "release_datetime": "2022-01-11T22:45:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85660/2022/RNS/85660_rns_2022-01-11_ab1543ea-8230-4f8c-9290-9dfef1027235.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85660/2022/RNS/85660_rns_2022-01-11_ab1543ea-8230-4f8c-9290-9dfef1027235.pdf",
+    "viewer_url": "https://financialfilings.com/filings/360-capital-group/ma-activity/2022/56517996/",
+    "company": {
+     "id": 85660,
+     "name": "360 Capital Group",
+     "tagline": "",
+     "isins": [
+      "AU000000TGP8"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 137643,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,390 @@
+{
+ "status": 200,
+ "body": {
+  "count": 27161,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=10&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 47704809,
+    "title": "Other.doc",
+    "release_datetime": "1997-11-12T23:43:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10488/1997/RNS/10488_rns_1997-11-12_b3a742bc-0806-49c1-9963-e2a87cb833cc.doc",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10488/1997/RNS/10488_rns_1997-11-12_b3a742bc-0806-49c1-9963-e2a87cb833cc.doc",
+    "viewer_url": "https://financialfilings.com/filings/geo-exploration-limited/ma-activity/1997/47704809/",
+    "company": {
+     "id": 10488,
+     "name": "Geo Exploration Limited",
+     "tagline": "Explores for mineral and hydrocarbon resources in Australia, Africa, and the Mediterranean.",
+     "isins": [
+      "AU0000198939"
+     ],
+     "lei": "261700ZCFL0J30FEAY97",
+     "sub_industry_code": "0990",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "DOC",
+    "file_size": 78848,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 14281477,
+    "title": " Announcement & Resumption of Trading",
+    "release_datetime": "1999-09-15T03:30:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/1999/RNS/49091_rns_1999-09-15_befbb70e-e333-44f9-9f84-5a94b1585e0a.htm",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/1999/RNS/49091_rns_1999-09-15_befbb70e-e333-44f9-9f84-5a94b1585e0a.htm",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/1999/14281477/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "HTM",
+    "file_size": 15461,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 14281429,
+    "title": " Announcement",
+    "release_datetime": "2000-03-23T01:59:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2000/RNS/49091_rns_2000-03-23_2bb7ae1d-26ff-4ab3-8502-0544fae23a21.htm",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2000/RNS/49091_rns_2000-03-23_2bb7ae1d-26ff-4ab3-8502-0544fae23a21.htm",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2000/14281429/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "HTM",
+    "file_size": 4076,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 14281425,
+    "title": " Announcement",
+    "release_datetime": "2000-05-02T02:06:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2000/RNS/49091_rns_2000-05-02_f0932577-3b86-44ab-ba79-fa11836f91c9.doc",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2000/RNS/49091_rns_2000-05-02_f0932577-3b86-44ab-ba79-fa11836f91c9.doc",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2000/14281425/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "DOC",
+    "file_size": 166912,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 14281367,
+    "title": " Announcement",
+    "release_datetime": "2002-05-10T15:49:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2002/RNS/49091_rns_2002-05-10_b61ca652-cd37-499c-9e23-82f2868661fa.doc",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2002/RNS/49091_rns_2002-05-10_b61ca652-cd37-499c-9e23-82f2868661fa.doc",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2002/14281367/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "DOC",
+    "file_size": 256512,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 14281348,
+    "title": " Announcement",
+    "release_datetime": "2002-07-17T13:58:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2002/RNS/49091_rns_2002-07-17_b0a53bc6-aa53-48df-bd52-a378360e9ade.doc",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2002/RNS/49091_rns_2002-07-17_b0a53bc6-aa53-48df-bd52-a378360e9ade.doc",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2002/14281348/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "DOC",
+    "file_size": 60928,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 14281328,
+    "title": " Announcement",
+    "release_datetime": "2002-08-13T13:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2002/RNS/49091_rns_2002-08-13_f714b3bf-910b-40e4-8604-7fe40915ccd0.doc",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2002/RNS/49091_rns_2002-08-13_f714b3bf-910b-40e4-8604-7fe40915ccd0.doc",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2002/14281328/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "DOC",
+    "file_size": 31744,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 14281323,
+    "title": " Announcement",
+    "release_datetime": "2002-08-23T15:03:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2002/RNS/49091_rns_2002-08-23_d8bdd978-9750-48df-b2f8-874c89605c66.doc",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2002/RNS/49091_rns_2002-08-23_d8bdd978-9750-48df-b2f8-874c89605c66.doc",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2002/14281323/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "DOC",
+    "file_size": 31744,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40806959,
+    "title": "Completion of acq of Basin Minerals Limited",
+    "release_datetime": "2002-11-01T00:48:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65116/2002/RNS/65116_rns_2002-10-31_7354d9bd-1074-4e3c-bb1f-3595ca861f89.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65116/2002/RNS/65116_rns_2002-10-31_7354d9bd-1074-4e3c-bb1f-3595ca861f89.pdf",
+    "viewer_url": "https://financialfilings.com/filings/iluka-resources-limited/ma-activity/2002/40806959/",
+    "company": {
+     "id": 65116,
+     "name": "ILUKA RESOURCES LIMITED",
+     "tagline": "Global producer of zircon, titanium feedstocks, and separated rare earth oxides.",
+     "isins": [
+      "AU000000ILU1"
+     ],
+     "lei": "2549009N2Y1F4YNB0955",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.NMM",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 38687,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41847989,
+    "title": "Completes purchase of Hertz Fleetlease Limited",
+    "release_datetime": "2002-11-01T04:47:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/35645/2002/RNS/35645_rns_2002-10-31_a425f2ec-5a8e-4c6c-b532-98811ce9f20d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/35645/2002/RNS/35645_rns_2002-10-31_a425f2ec-5a8e-4c6c-b532-98811ce9f20d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/national-australia-bank-ltd/ma-activity/2002/41847989/",
+    "company": {
+     "id": 35645,
+     "name": "National Australia Bank Ltd.",
+     "tagline": "Offers banking, financial, and wealth management services to individuals and businesses.",
+     "isins": [
+      "AU000000NAB4"
+     ],
+     "lei": "F8SB4JFBSYQFRQEH3Z21",
+     "sub_industry_code": "6419",
+     "oics_code": "FI.BK.BNK.UNV",
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 12603,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

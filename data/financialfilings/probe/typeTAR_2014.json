@@ -1,0 +1,956 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1092,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2014-01-01T00%3A00%3A00Z&release_datetime_to=2014-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 41072487,
+    "title": "Target's Statement including Independent Expert's Report",
+    "release_datetime": "2014-01-01T21:27:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2014/RNS/65174_rns_2014-01-01_4862bfe3-1981-4603-952a-6c89a11814dc.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2014/RNS/65174_rns_2014-01-01_4862bfe3-1981-4603-952a-6c89a11814dc.pdf",
+    "viewer_url": "https://financialfilings.com/filings/keybridge-capital-limited/ma-activity/2014/41072487/",
+    "company": {
+     "id": 65174,
+     "name": "KEYBRIDGE CAPITAL LIMITED",
+     "tagline": "Investment group managing alternative assets, equity, debt, and structured finance.",
+     "isins": [
+      "AU000000KBC6"
+     ],
+     "lei": "549300UG314Z1PTXWP21",
+     "sub_industry_code": "6499",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1157416,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44979689,
+    "title": "Lloyds Completion",
+    "release_datetime": "2014-01-01T21:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10585/2014/RNS/10585_rns_2014-01-01_cef7a266-d9e9-4437-bf6f-c5e7b6b7f0c2.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10585/2014/RNS/10585_rns_2014-01-01_cef7a266-d9e9-4437-bf6f-c5e7b6b7f0c2.pdf",
+    "viewer_url": "https://financialfilings.com/filings/westpac-banking-corporation/ma-activity/2014/44979689/",
+    "company": {
+     "id": 10585,
+     "name": "Westpac Banking Corporation",
+     "tagline": "A major banking and financial services provider for individuals, businesses, and institutions.",
+     "isins": [
+      "AU000000WBC1"
+     ],
+     "lei": "EN5TNI6CI43VEPAMHL14",
+     "sub_industry_code": "6419",
+     "oics_code": "FI.BK.BNK.UNV",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 200110,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56419473,
+    "title": "Molopo Energy Completes Sale of Barnhart Assets , Texas.",
+    "release_datetime": "2014-01-01T22:04:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85261/2014/RNS/85261_rns_2014-01-01_85ec0f33-4ad3-4b8b-bbd1-9b6396a68652.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85261/2014/RNS/85261_rns_2014-01-01_85ec0f33-4ad3-4b8b-bbd1-9b6396a68652.pdf",
+    "viewer_url": "https://financialfilings.com/filings/molopo-energy-limited/ma-activity/2014/56419473/",
+    "company": {
+     "id": 85261,
+     "name": "Molopo Energy Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000MPO7"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 55454,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56532690,
+    "title": "Viento Acquires Leading Transportable Switchroom Manufacture",
+    "release_datetime": "2014-01-01T22:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85739/2014/RNS/85739_rns_2014-01-01_c3ab1408-a80b-422b-a802-eb8688ebe90f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85739/2014/RNS/85739_rns_2014-01-01_c3ab1408-a80b-422b-a802-eb8688ebe90f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/viento-group-ltd/ma-activity/2014/56532690/",
+    "company": {
+     "id": 85739,
+     "name": "Viento Group Ltd",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "8299",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 441947,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41072452,
+    "title": "Target's Statement Says Reject OCP's Inadequate Offer",
+    "release_datetime": "2014-01-02T02:56:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2014/RNS/65174_rns_2014-01-01_733ad028-509a-4cb1-9770-9bb39038c585.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2014/RNS/65174_rns_2014-01-01_733ad028-509a-4cb1-9770-9bb39038c585.pdf",
+    "viewer_url": "https://financialfilings.com/filings/keybridge-capital-limited/ma-activity/2014/41072452/",
+    "company": {
+     "id": 65174,
+     "name": "KEYBRIDGE CAPITAL LIMITED",
+     "tagline": "Investment group managing alternative assets, equity, debt, and structured finance.",
+     "isins": [
+      "AU000000KBC6"
+     ],
+     "lei": "549300UG314Z1PTXWP21",
+     "sub_industry_code": "6499",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 54519,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37996392,
+    "title": "Ansell Limited Acquires BarrierSafe Solutions International",
+    "release_datetime": "2014-01-02T21:59:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64385/2014/RNS/64385_rns_2014-01-02_ad324010-4028-4f70-a35e-543adbe93701.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64385/2014/RNS/64385_rns_2014-01-02_ad324010-4028-4f70-a35e-543adbe93701.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ansell-limited/ma-activity/2014/37996392/",
+    "company": {
+     "id": 64385,
+     "name": "ANSELL LIMITED",
+     "tagline": "Global developer and manufacturer of advanced hand and body protection solutions.",
+     "isins": [
+      "AU000000ANN9"
+     ],
+     "lei": "549300NEGJ5G23VCJM45",
+     "sub_industry_code": "3290",
+     "oics_code": "HC.MT.MDV.MSD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 51229,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39741628,
+    "title": "Update on DEXUS Offer for CPA",
+    "release_datetime": "2014-01-05T23:16:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-05_1e250f15-288f-42c8-ba1a-28190a8d5da6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-05_1e250f15-288f-42c8-ba1a-28190a8d5da6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/dexus/ma-activity/2014/39741628/",
+    "company": {
+     "id": 64807,
+     "name": "DEXUS",
+     "tagline": "Manages, develops, and invests in diverse property sectors and funds management.",
+     "isins": [
+      "AU000000DXS1"
+     ],
+     "lei": "254900IHKSCYXWD2JA35",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.OFF",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 3329860,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40034618,
+    "title": "Ellex Completes Acquisition of Canaloplasty Business",
+    "release_datetime": "2014-01-05T23:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64895/2014/RNS/64895_rns_2014-01-05_de486d0c-ba23-4af6-b4ea-6046b008cfe4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64895/2014/RNS/64895_rns_2014-01-05_de486d0c-ba23-4af6-b4ea-6046b008cfe4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/nova-eye-medical-limited/ma-activity/2014/40034618/",
+    "company": {
+     "id": 64895,
+     "name": "NOVA EYE MEDICAL LIMITED",
+     "tagline": "Develops and commercializes advanced ophthalmic treatments for glaucoma and AMD.",
+     "isins": [
+      "AU0000094252"
+     ],
+     "lei": "",
+     "sub_industry_code": "3250",
+     "oics_code": "HC.MT.MDV.MEQ",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 584402,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40919782,
+    "title": "Implementation of Impact and Invictus Merger",
+    "release_datetime": "2014-01-06T07:10:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65138/2014/RNS/65138_rns_2014-01-05_2eb092a5-b694-4d06-b623-94f8e3180fe4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65138/2014/RNS/65138_rns_2014-01-05_2eb092a5-b694-4d06-b623-94f8e3180fe4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/impact-minerals-limited/ma-activity/2014/40919782/",
+    "company": {
+     "id": 65138,
+     "name": "IMPACT MINERALS LIMITED",
+     "tagline": "Develops high purity alumina and explores for nickel, copper, and battery metals.",
+     "isins": [
+      "AU000000IPT4"
+     ],
+     "lei": "529900512BT40HYHIC75",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.ALU",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 207704,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39741607,
+    "title": "Further developments relating to DEXUS Offer for CPA",
+    "release_datetime": "2014-01-06T07:21:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-05_8eeca8ba-c35c-44ae-850e-7d743f02829a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-05_8eeca8ba-c35c-44ae-850e-7d743f02829a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/dexus/ma-activity/2014/39741607/",
+    "company": {
+     "id": 64807,
+     "name": "DEXUS",
+     "tagline": "Manages, develops, and invests in diverse property sectors and funds management.",
+     "isins": [
+      "AU000000DXS1"
+     ],
+     "lei": "254900IHKSCYXWD2JA35",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.OFF",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1001026,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39741598,
+    "title": "GPT:GWOF and GWSCF enter agreements to acquire assets",
+    "release_datetime": "2014-01-06T07:30:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-05_ef6e2221-5a8b-499f-b89f-1bcef879106e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-05_ef6e2221-5a8b-499f-b89f-1bcef879106e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/dexus/ma-activity/2014/39741598/",
+    "company": {
+     "id": 64807,
+     "name": "DEXUS",
+     "tagline": "Manages, develops, and invests in diverse property sectors and funds management.",
+     "isins": [
+      "AU000000DXS1"
+     ],
+     "lei": "254900IHKSCYXWD2JA35",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.OFF",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1025707,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56397883,
+    "title": "Zimbabwe Investment Authority Licence",
+    "release_datetime": "2014-01-06T21:26:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85151/2014/RNS/85151_rns_2014-01-06_72eff426-1895-4862-832c-2437a19a705d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85151/2014/RNS/85151_rns_2014-01-06_72eff426-1895-4862-832c-2437a19a705d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/lawfinance-ltd/ma-activity/2014/56397883/",
+    "company": {
+     "id": 85151,
+     "name": "Lawfinance Ltd",
+     "tagline": "",
+     "isins": [
+      "AU0000036659"
+     ],
+     "lei": "",
+     "sub_industry_code": "6495",
+     "oics_code": "FI.BK.NBL.LEA",
+     "country_code": "AU",
+     "date_public": "2026-10-16"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 102040,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39741594,
+    "title": "Notice of despatch of Bidder's Statement for DEXUS Offer",
+    "release_datetime": "2014-01-07T01:28:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-06_4cf7ce08-ecf8-4f8f-9cc2-d52691d556d0.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-06_4cf7ce08-ecf8-4f8f-9cc2-d52691d556d0.pdf",
+    "viewer_url": "https://financialfilings.com/filings/dexus/ma-activity/2014/39741594/",
+    "company": {
+     "id": 64807,
+     "name": "DEXUS",
+     "tagline": "Manages, develops, and invests in diverse property sectors and funds management.",
+     "isins": [
+      "AU000000DXS1"
+     ],
+     "lei": "254900IHKSCYXWD2JA35",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.OFF",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 3330082,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44825908,
+    "title": "Extension of Offer Period from DMX Corporation Ltd",
+    "release_datetime": "2014-01-08T06:37:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65957/2014/RNS/65957_rns_2014-01-07_e43d4e40-0298-46dc-ba79-0b16f98f8373.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65957/2014/RNS/65957_rns_2014-01-07_e43d4e40-0298-46dc-ba79-0b16f98f8373.pdf",
+    "viewer_url": "https://financialfilings.com/filings/tesoro-gold-ltd/ma-activity/2014/44825908/",
+    "company": {
+     "id": 65957,
+     "name": "TESORO GOLD LTD",
+     "tagline": "Explores and develops gold assets, focusing on the El Zorro Gold Project.",
+     "isins": [
+      "AU0000077208"
+     ],
+     "lei": "9845008A3CD0A5FE6F76",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 48585,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44825907,
+    "title": "Takeover Offer - Clarification of Acceptance level",
+    "release_datetime": "2014-01-09T07:51:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65957/2014/RNS/65957_rns_2014-01-08_ee14ca9c-cd92-452f-b738-bd5be74a1d0f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65957/2014/RNS/65957_rns_2014-01-08_ee14ca9c-cd92-452f-b738-bd5be74a1d0f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/tesoro-gold-ltd/ma-activity/2014/44825907/",
+    "company": {
+     "id": 65957,
+     "name": "TESORO GOLD LTD",
+     "tagline": "Explores and develops gold assets, focusing on the El Zorro Gold Project.",
+     "isins": [
+      "AU0000077208"
+     ],
+     "lei": "9845008A3CD0A5FE6F76",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 77444,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40267741,
+    "title": "ELR: Tenement Purchase Agreement",
+    "release_datetime": "2014-01-09T21:37:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64961/2014/RNS/64961_rns_2014-01-09_54f1d1c8-0d15-4b2a-be67-b24bc1f82d3a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64961/2014/RNS/64961_rns_2014-01-09_54f1d1c8-0d15-4b2a-be67-b24bc1f82d3a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/goldarc-resources-limited/ma-activity/2014/40267741/",
+    "company": {
+     "id": 64961,
+     "name": "GOLDARC RESOURCES LIMITED",
+     "tagline": "Identifies, acquires, and explores gold and base metal mineral resource properties.",
+     "isins": [
+      "AU0000419624"
+     ],
+     "lei": "529900ES6ZUFZOPQ9M38",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 141855,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39741566,
+    "title": "Second Supplementary Bidder's Statement for DEXUS Offer",
+    "release_datetime": "2014-01-10T00:33:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-09_13bf93e1-e5cd-44f6-b29b-573180654f27.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-09_13bf93e1-e5cd-44f6-b29b-573180654f27.pdf",
+    "viewer_url": "https://financialfilings.com/filings/dexus/ma-activity/2014/39741566/",
+    "company": {
+     "id": 64807,
+     "name": "DEXUS",
+     "tagline": "Manages, develops, and invests in diverse property sectors and funds management.",
+     "isins": [
+      "AU000000DXS1"
+     ],
+     "lei": "254900IHKSCYXWD2JA35",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.OFF",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1414281,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41072423,
+    "title": "OCP: Supplementary Bidder's Statement - off-market bid",
+    "release_datetime": "2014-01-13T03:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2014/RNS/65174_rns_2014-01-12_e14829c5-1fdc-4c84-aae0-491236f60288.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2014/RNS/65174_rns_2014-01-12_e14829c5-1fdc-4c84-aae0-491236f60288.pdf",
+    "viewer_url": "https://financialfilings.com/filings/keybridge-capital-limited/ma-activity/2014/41072423/",
+    "company": {
+     "id": 65174,
+     "name": "KEYBRIDGE CAPITAL LIMITED",
+     "tagline": "Investment group managing alternative assets, equity, debt, and structured finance.",
+     "isins": [
+      "AU000000KBC6"
+     ],
+     "lei": "549300UG314Z1PTXWP21",
+     "sub_industry_code": "6499",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 220479,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39741556,
+    "title": "GPT: Update on offer for CPA",
+    "release_datetime": "2014-01-13T21:49:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-13_f56fa204-244a-46fa-825a-79d4b4ffc871.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-13_f56fa204-244a-46fa-825a-79d4b4ffc871.pdf",
+    "viewer_url": "https://financialfilings.com/filings/dexus/ma-activity/2014/39741556/",
+    "company": {
+     "id": 64807,
+     "name": "DEXUS",
+     "tagline": "Manages, develops, and invests in diverse property sectors and funds management.",
+     "isins": [
+      "AU000000DXS1"
+     ],
+     "lei": "254900IHKSCYXWD2JA35",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.OFF",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 127337,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44309741,
+    "title": "REA Group announces acquisition of 1Form.com",
+    "release_datetime": "2014-01-13T21:59:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65679/2014/RNS/65679_rns_2014-01-13_1929ccde-2036-4422-8fa6-48bbd7799cbc.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65679/2014/RNS/65679_rns_2014-01-13_1929ccde-2036-4422-8fa6-48bbd7799cbc.pdf",
+    "viewer_url": "https://financialfilings.com/filings/rea-group-ltd/ma-activity/2014/44309741/",
+    "company": {
+     "id": 65679,
+     "name": "REA GROUP LTD",
+     "tagline": "Global digital advertising company specializing in property and financial services.",
+     "isins": [
+      "AU000000REA9"
+     ],
+     "lei": "894500KA4UBDATOFPN36",
+     "sub_industry_code": "6390",
+     "oics_code": "RE.DS.SVC.SVC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 61134,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40437332,
+    "title": "Clarification of acceptances under CPA Offer",
+    "release_datetime": "2014-01-13T22:47:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65009/2014/RNS/65009_rns_2014-01-13_92495546-0efa-4333-8c5b-15b600ce02b0.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65009/2014/RNS/65009_rns_2014-01-13_92495546-0efa-4333-8c5b-15b600ce02b0.pdf",
+    "viewer_url": "https://financialfilings.com/filings/gpt-group/ma-activity/2014/40437332/",
+    "company": {
+     "id": 65009,
+     "name": "GPT GROUP",
+     "tagline": "Manages, develops, and invests in diversified retail, office, and logistics assets.",
+     "isins": [
+      "AU000000GPT8"
+     ],
+     "lei": "",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.RET",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 120053,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40437327,
+    "title": "Takeover Bid by GPT of Commonwealth Pty Office Fund",
+    "release_datetime": "2014-01-16T05:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65009/2014/RNS/65009_rns_2014-01-15_d448ebf6-53f9-4436-ad89-67e6ab3032aa.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65009/2014/RNS/65009_rns_2014-01-15_d448ebf6-53f9-4436-ad89-67e6ab3032aa.pdf",
+    "viewer_url": "https://financialfilings.com/filings/gpt-group/ma-activity/2014/40437327/",
+    "company": {
+     "id": 65009,
+     "name": "GPT GROUP",
+     "tagline": "Manages, develops, and invests in diversified retail, office, and logistics assets.",
+     "isins": [
+      "AU000000GPT8"
+     ],
+     "lei": "",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.RET",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 28675,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56471644,
+    "title": "Acquisition of remaining shares in Otway Energy",
+    "release_datetime": "2014-01-16T22:37:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85473/2014/RNS/85473_rns_2014-01-16_9fceadc1-8fff-4d49-a4aa-4ce234bbfcac.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85473/2014/RNS/85473_rns_2014-01-16_9fceadc1-8fff-4d49-a4aa-4ce234bbfcac.pdf",
+    "viewer_url": "https://financialfilings.com/filings/rawson-oil-and-gas-limited/ma-activity/2014/56471644/",
+    "company": {
+     "id": 85473,
+     "name": "Rawson Oil and Gas Limited",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 213023,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39741513,
+    "title": "CPA: Target's Statement for DEXUS Offer",
+    "release_datetime": "2014-01-17T06:25:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-16_679b420b-6ef6-45cc-a752-a04ea72ab748.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2014/RNS/64807_rns_2014-01-16_679b420b-6ef6-45cc-a752-a04ea72ab748.pdf",
+    "viewer_url": "https://financialfilings.com/filings/dexus/ma-activity/2014/39741513/",
+    "company": {
+     "id": 64807,
+     "name": "DEXUS",
+     "tagline": "Manages, develops, and invests in diverse property sectors and funds management.",
+     "isins": [
+      "AU000000DXS1"
+     ],
+     "lei": "254900IHKSCYXWD2JA35",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.OFF",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 6055093,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37448588,
+    "title": "Bidder's Statement to acquire Jacka Resources Ltd",
+    "release_datetime": "2014-01-19T13:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10411/2014/RNS/10411_rns_2014-01-19_3c27f1e7-9aa3-4091-ad5a-349b3dcfeab3.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10411/2014/RNS/10411_rns_2014-01-19_3c27f1e7-9aa3-4091-ad5a-349b3dcfeab3.pdf",
+    "viewer_url": "https://financialfilings.com/filings/88-energy-limited/ma-activity/2014/37448588/",
+    "company": {
+     "id": 10411,
+     "name": "88 Energy Limited",
+     "tagline": "Oil and gas E&P firm with producing assets in Texas and exploration in Alaska/Namibia.",
+     "isins": [
+      "AU00000088E2"
+     ],
+     "lei": "213800YFW5171TD69V35",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 3976106,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

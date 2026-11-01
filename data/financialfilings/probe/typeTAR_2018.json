@@ -1,0 +1,950 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1201,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2018-01-01T00%3A00%3A00Z&release_datetime_to=2018-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 37917659,
+    "title": "Notice of Status of Defeating Conditions ASGL",
+    "release_datetime": "2018-01-02T00:30:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64372/2018/RNS/64372_rns_2018-01-01_da904564-63b7-4a72-8bb8-47cd31943d21.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64372/2018/RNS/64372_rns_2018-01-01_da904564-63b7-4a72-8bb8-47cd31943d21.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ama-group-limited/ma-activity/2018/37917659/",
+    "company": {
+     "id": 64372,
+     "name": "AMA GROUP LIMITED",
+     "tagline": "Provides automotive collision repair, mechanical services, and parts distribution.",
+     "isins": [
+      "AU000000AMA8"
+     ],
+     "lei": "529900GIM8S1E8UCER31",
+     "sub_industry_code": "4662",
+     "oics_code": "CL.SV.PSV.PSC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 310888,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56305477,
+    "title": "Sale of China and Hong Kong Coatings Business",
+    "release_datetime": "2018-01-02T22:13:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84821/2018/RNS/84821_rns_2018-01-02_869bc186-6a75-4f80-a880-3354d134bfaa.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84821/2018/RNS/84821_rns_2018-01-02_869bc186-6a75-4f80-a880-3354d134bfaa.pdf",
+    "viewer_url": "https://financialfilings.com/filings/duluxgroup-limited/ma-activity/2018/56305477/",
+    "company": {
+     "id": 84821,
+     "name": "DuluxGroup Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000DLX6"
+     ],
+     "lei": "",
+     "sub_industry_code": "2022",
+     "oics_code": "MA.CH.SAC.PFC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 59160,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38799648,
+    "title": "Blaze to Acquire Everest Minerals",
+    "release_datetime": "2018-01-02T23:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64535/2018/RNS/64535_rns_2018-01-02_1f93b55e-74e7-4279-9e44-f9c5c7963623.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64535/2018/RNS/64535_rns_2018-01-02_1f93b55e-74e7-4279-9e44-f9c5c7963623.pdf",
+    "viewer_url": "https://financialfilings.com/filings/blaze-minerals-limited/ma-activity/2018/38799648/",
+    "company": {
+     "id": 64535,
+     "name": "BLAZE MINERALS LIMITED",
+     "tagline": "Explores and develops gold, base metals, and lithium projects for industrial demands.",
+     "isins": [
+      "AU000000BLZ5"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 73748,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56500000,
+    "title": "Strategic Minerals Corporation NL Panel Receives Application",
+    "release_datetime": "2018-01-04T00:07:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85585/2018/RNS/85585_rns_2018-01-04_1dd2194c-3649-4cc3-a772-446fabe450ac.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85585/2018/RNS/85585_rns_2018-01-04_1dd2194c-3649-4cc3-a772-446fabe450ac.pdf",
+    "viewer_url": "https://financialfilings.com/filings/strategic-minerals-corporation-nl/ma-activity/2018/56500000/",
+    "company": {
+     "id": 85585,
+     "name": "Strategic Minerals Corporation NL",
+     "tagline": "",
+     "isins": [
+      "AU000000SMC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 118930,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44965671,
+    "title": "Withdrawal of Proposed Takeover Bid for Molopo Energy Ltd",
+    "release_datetime": "2018-01-04T04:30:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66036/2018/RNS/66036_rns_2018-01-03_2854b889-eebe-4786-a70d-5a9f86f289fc.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66036/2018/RNS/66036_rns_2018-01-03_2854b889-eebe-4786-a70d-5a9f86f289fc.pdf",
+    "viewer_url": "https://financialfilings.com/filings/wam-capital-limited/ma-activity/2018/44965671/",
+    "company": {
+     "id": 66036,
+     "name": "WAM CAPITAL LIMITED",
+     "tagline": "Provides exposure to an actively managed portfolio of undervalued growth companies.",
+     "isins": [
+      "AU000000WAM2"
+     ],
+     "lei": "254900SOFFDP0PTYDT12",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 88087,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44667016,
+    "title": "Completion of Fleet West acquisition",
+    "release_datetime": "2018-01-04T04:39:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65796/2018/RNS/65796_rns_2018-01-03_47cc2ff2-e473-42cf-8a3f-f8f3aed45971.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65796/2018/RNS/65796_rns_2018-01-03_47cc2ff2-e473-42cf-8a3f-f8f3aed45971.pdf",
+    "viewer_url": "https://financialfilings.com/filings/smartgroup-corporation-ltd/ma-activity/2018/44667016/",
+    "company": {
+     "id": 65796,
+     "name": "SMARTGROUP CORPORATION LTD",
+     "tagline": "Provides salary packaging, novated leasing, and administrative employee services.",
+     "isins": [
+      "AU000000SIQ4"
+     ],
+     "lei": "254900GHFZAMQGOYO431",
+     "sub_industry_code": "8210",
+     "oics_code": "IN.BS.APS.HRS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 270438,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56440097,
+    "title": "Completion of Baycorp disposal",
+    "release_datetime": "2018-01-04T22:01:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85341/2018/RNS/85341_rns_2018-01-04_1a57e1a6-11f6-4eb4-bb94-f4e6a26d25d8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85341/2018/RNS/85341_rns_2018-01-04_1a57e1a6-11f6-4eb4-bb94-f4e6a26d25d8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/oceania-capital-partners-limited/ma-activity/2018/56440097/",
+    "company": {
+     "id": 85341,
+     "name": "Oceania Capital Partners Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000OCP8"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-27"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 87054,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56223298,
+    "title": "EXECUTION OF SCHEME IMPLEMENTATION DEED & GUIDANCE AFFIRMED",
+    "release_datetime": "2018-01-04T23:10:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84616/2018/RNS/84616_rns_2018-01-04_3ab7c721-929a-4db4-b400-f663a2c764c4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84616/2018/RNS/84616_rns_2018-01-04_3ab7c721-929a-4db4-b400-f663a2c764c4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/billabong-international-limited/ma-activity/2018/56223298/",
+    "company": {
+     "id": 84616,
+     "name": "Billabong International Limited",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "1410",
+     "oics_code": "CL.GD.APR.AFW",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 399957,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56223297,
+    "title": "Scheme Implementation Deed",
+    "release_datetime": "2018-01-05T00:11:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84616/2018/RNS/84616_rns_2018-01-04_67f949e3-38d5-4f45-9cd3-e10624c72904.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84616/2018/RNS/84616_rns_2018-01-04_67f949e3-38d5-4f45-9cd3-e10624c72904.pdf",
+    "viewer_url": "https://financialfilings.com/filings/billabong-international-limited/ma-activity/2018/56223297/",
+    "company": {
+     "id": 84616,
+     "name": "Billabong International Limited",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "1410",
+     "oics_code": "CL.GD.APR.AFW",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1477881,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38554938,
+    "title": "Update on Proposed Finsure Transaction",
+    "release_datetime": "2018-01-05T07:10:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64497/2018/RNS/64497_rns_2018-01-04_23197468-b89c-4da0-b8fd-5cfbd972a13c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64497/2018/RNS/64497_rns_2018-01-04_23197468-b89c-4da0-b8fd-5cfbd972a13c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bnk-banking-corporation-limited/ma-activity/2018/38554938/",
+    "company": {
+     "id": 64497,
+     "name": "BNK BANKING CORPORATION LIMITED",
+     "tagline": "Financial services provider specializing in retail banking and mortgage lending solutions.",
+     "isins": [
+      "AU0000041857"
+     ],
+     "lei": "254900HHOGPLQPYBQZ41",
+     "sub_industry_code": "6419",
+     "oics_code": "FI.BK.BNK.UNV",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 67137,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39631114,
+    "title": "Announcement regarding Hallo Pizza",
+    "release_datetime": "2018-01-07T21:30:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64780/2018/RNS/64780_rns_2018-01-07_3854210d-2e52-4a68-8c69-735ca6039039.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64780/2018/RNS/64780_rns_2018-01-07_3854210d-2e52-4a68-8c69-735ca6039039.pdf",
+    "viewer_url": "https://financialfilings.com/filings/dominos-pizza-enterprises-limited/ma-activity/2018/39631114/",
+    "company": {
+     "id": 64780,
+     "name": "DOMINO'S PIZZA ENTERPRISES LIMITED",
+     "tagline": "Largest international Domino's franchisee focused on digital innovation and delivery.",
+     "isins": [
+      "AU000000DMP0"
+     ],
+     "lei": "54930034RFI409JZ3179",
+     "sub_industry_code": "5610",
+     "oics_code": "CL.SV.HSP.RST",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 110866,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44630551,
+    "title": "Pacific Star Network to merge with Crocmedia",
+    "release_datetime": "2018-01-07T23:05:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65764/2018/RNS/65764_rns_2018-01-07_5149b7fb-a770-4227-92bc-fa0465500e07.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65764/2018/RNS/65764_rns_2018-01-07_5149b7fb-a770-4227-92bc-fa0465500e07.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sports-entertainment-group-limited/ma-activity/2018/44630551/",
+    "company": {
+     "id": 65764,
+     "name": "SPORTS ENTERTAINMENT GROUP LIMITED",
+     "tagline": "Multi-platform sports media group managing radio, digital content, and franchises.",
+     "isins": [
+      "AU0000121907"
+     ],
+     "lei": "",
+     "sub_industry_code": "6010",
+     "oics_code": "CM.MC.MED.BCT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 86566,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37879500,
+    "title": "Aristocrat Announces Completion of Big Fish Acquisition",
+    "release_datetime": "2018-01-09T21:35:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64363/2018/RNS/64363_rns_2018-01-09_d298d49a-e433-4914-a9f0-460d54de12c5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64363/2018/RNS/64363_rns_2018-01-09_d298d49a-e433-4914-a9f0-460d54de12c5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aristocrat-leisure-limited/ma-activity/2018/37879500/",
+    "company": {
+     "id": 64363,
+     "name": "ARISTOCRAT LEISURE LIMITED",
+     "tagline": "Global gaming technology firm providing land-based, mobile, and online gaming content.",
+     "isins": [
+      "AU000000ALL7"
+     ],
+     "lei": "529900TE2HO3OZKYKC27",
+     "sub_industry_code": "5821",
+     "oics_code": "CL.SV.HSP.BET",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 423129,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39533229,
+    "title": "CXZ to acquire Security Shift Group",
+    "release_datetime": "2018-01-10T01:27:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64739/2018/RNS/64739_rns_2018-01-09_059c1f56-3383-461c-b4d0-f4444c558fe5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64739/2018/RNS/64739_rns_2018-01-09_059c1f56-3383-461c-b4d0-f4444c558fe5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/connexion-mobility-ltd/ma-activity/2018/39533229/",
+    "company": {
+     "id": 64739,
+     "name": "CONNEXION MOBILITY LTD",
+     "tagline": "SaaS platforms for automotive retail and fleet management for dealerships and OEMs.",
+     "isins": [
+      "AU000000CXZ8"
+     ],
+     "lei": "",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.ISS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 73031,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56467513,
+    "title": "Notice of Status of Defeating Conditions",
+    "release_datetime": "2018-01-10T01:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85461/2018/RNS/85461_rns_2018-01-10_4bd8ed19-40e1-435e-8a17-d3c4aa08aeb5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85461/2018/RNS/85461_rns_2018-01-10_4bd8ed19-40e1-435e-8a17-d3c4aa08aeb5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/queensland-mining-corporation-ltd/ma-activity/2018/56467513/",
+    "company": {
+     "id": 85461,
+     "name": "Queensland Mining Corporation Ltd",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 11374,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56452440,
+    "title": "Market Update - Professional Taxis Gold Coast Acquisition",
+    "release_datetime": "2018-01-10T23:07:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85378/2018/RNS/85378_rns_2018-01-10_9058aafd-8544-4705-9420-0640701052a5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85378/2018/RNS/85378_rns_2018-01-10_9058aafd-8544-4705-9420-0640701052a5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/p2p-transport-limited/ma-activity/2018/56452440/",
+    "company": {
+     "id": 85378,
+     "name": "P2P Transport Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000P2P6"
+     ],
+     "lei": "",
+     "sub_industry_code": "4922",
+     "oics_code": "IN.TP.LOG.PAX",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 581527,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56319270,
+    "title": "Acquisition of Taxbytes",
+    "release_datetime": "2018-01-11T03:58:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84838/2018/RNS/84838_rns_2018-01-10_01fc8a9b-3fa4-4d59-9d00-96f9aa5d1e72.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84838/2018/RNS/84838_rns_2018-01-10_01fc8a9b-3fa4-4d59-9d00-96f9aa5d1e72.pdf",
+    "viewer_url": "https://financialfilings.com/filings/diverger-ltd/ma-activity/2018/56319270/",
+    "company": {
+     "id": 84838,
+     "name": "Diverger Ltd",
+     "tagline": "",
+     "isins": [
+      "AU0000190209"
+     ],
+     "lei": "",
+     "sub_industry_code": "6630",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 102643,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 43350939,
+    "title": "Norwood Park Limited - takeover offer",
+    "release_datetime": "2018-01-11T22:35:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65549/2018/RNS/65549_rns_2018-01-11_ffc86d0e-b57b-4f81-a14e-8180b0a590d9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65549/2018/RNS/65549_rns_2018-01-11_ffc86d0e-b57b-4f81-a14e-8180b0a590d9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/propel-funeral-partners-limited/ma-activity/2018/43350939/",
+    "company": {
+     "id": 65549,
+     "name": "PROPEL FUNERAL PARTNERS LIMITED",
+     "tagline": "Provides death care services through funeral homes, cemeteries, and crematoria.",
+     "isins": [
+      "AU000000PFP8"
+     ],
+     "lei": "",
+     "sub_industry_code": "9630",
+     "oics_code": "CL.SV.PSV.PSC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 727193,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56419719,
+    "title": "ABW: Notice of Variation - MPO Bid",
+    "release_datetime": "2018-01-12T05:51:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85261/2018/RNS/85261_rns_2018-01-12_5e9250d9-fabb-44d1-826f-02b981062ec5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85261/2018/RNS/85261_rns_2018-01-12_5e9250d9-fabb-44d1-826f-02b981062ec5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/molopo-energy-limited/ma-activity/2018/56419719/",
+    "company": {
+     "id": 85261,
+     "name": "Molopo Energy Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000MPO7"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 406972,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38554931,
+    "title": "Goldfields Money and Finsure Sign Binding Documentation",
+    "release_datetime": "2018-01-14T21:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64497/2018/RNS/64497_rns_2018-01-14_cb749d68-9318-49de-a53e-8b06ee638e8d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64497/2018/RNS/64497_rns_2018-01-14_cb749d68-9318-49de-a53e-8b06ee638e8d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bnk-banking-corporation-limited/ma-activity/2018/38554931/",
+    "company": {
+     "id": 64497,
+     "name": "BNK BANKING CORPORATION LIMITED",
+     "tagline": "Financial services provider specializing in retail banking and mortgage lending solutions.",
+     "isins": [
+      "AU0000041857"
+     ],
+     "lei": "254900HHOGPLQPYBQZ41",
+     "sub_industry_code": "6419",
+     "oics_code": "FI.BK.BNK.UNV",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2385068,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56212194,
+    "title": "Avanco Acquires Pantera Project from Vale",
+    "release_datetime": "2018-01-15T22:47:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84584/2018/RNS/84584_rns_2018-01-15_a4adc93c-ea58-4ed5-91cb-10393aaf7fee.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84584/2018/RNS/84584_rns_2018-01-15_a4adc93c-ea58-4ed5-91cb-10393aaf7fee.pdf",
+    "viewer_url": "https://financialfilings.com/filings/avanco-resources-limited/ma-activity/2018/56212194/",
+    "company": {
+     "id": 84584,
+     "name": "Avanco Resources Limited",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2750213,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 43350918,
+    "title": "IVC; Bidder's Statement In relation to Norwood Park Limited",
+    "release_datetime": "2018-01-16T06:42:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65549/2018/RNS/65549_rns_2018-01-15_c4f301f5-8838-4f3d-a0fb-c73de844f4d9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65549/2018/RNS/65549_rns_2018-01-15_c4f301f5-8838-4f3d-a0fb-c73de844f4d9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/propel-funeral-partners-limited/ma-activity/2018/43350918/",
+    "company": {
+     "id": 65549,
+     "name": "PROPEL FUNERAL PARTNERS LIMITED",
+     "tagline": "Provides death care services through funeral homes, cemeteries, and crematoria.",
+     "isins": [
+      "AU000000PFP8"
+     ],
+     "lei": "",
+     "sub_industry_code": "9630",
+     "oics_code": "CL.SV.PSV.PSC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 40685,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56422066,
+    "title": "Midway acquires 25% stake in Forestry Logistics Business",
+    "release_datetime": "2018-01-16T22:03:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85281/2018/RNS/85281_rns_2018-01-16_f14aefa6-772c-4ce1-8142-8e1f5da5712e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85281/2018/RNS/85281_rns_2018-01-16_f14aefa6-772c-4ce1-8142-8e1f5da5712e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/midway-ltd/ma-activity/2018/56422066/",
+    "company": {
+     "id": 85281,
+     "name": "Midway Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000MWY2"
+     ],
+     "lei": "",
+     "sub_industry_code": "4690",
+     "oics_code": "MA.PK.FOR.WOD",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 146191,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44995432,
+    "title": "WFD - Satisfaction of Works Councils Condition",
+    "release_datetime": "2018-01-17T22:46:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66051/2018/RNS/66051_rns_2018-01-17_18447729-3368-40de-958d-c7170f7bbcc6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66051/2018/RNS/66051_rns_2018-01-17_18447729-3368-40de-958d-c7170f7bbcc6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/wea-finance-llc-and-westfield-uk-europe-finance-plc/ma-activity/2018/44995432/",
+    "company": {
+     "id": 66051,
+     "name": "WEA FINANCE LLC AND WESTFIELD UK & EUROPE FINANCE PLC",
+     "tagline": "Specialized subsidiaries issuing debt to fund a global retail and mixed-use portfolio.",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "6422",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 142322,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41421144,
+    "title": "Application to Takeovers Panel and Extension of Offer",
+    "release_datetime": "2018-01-19T01:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65295/2018/RNS/65295_rns_2018-01-18_1e59b0d6-c63b-4cfa-a227-f215b546552e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65295/2018/RNS/65295_rns_2018-01-18_1e59b0d6-c63b-4cfa-a227-f215b546552e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/macquarie-technology-group-limited/ma-activity/2018/41421144/",
+    "company": {
+     "id": 65295,
+     "name": "MACQUARIE TECHNOLOGY GROUP LIMITED",
+     "tagline": "Provides integrated digital infrastructure, cloud, cybersecurity, and data centers.",
+     "isins": [
+      "AU000000MAQ4"
+     ],
+     "lei": "",
+     "sub_industry_code": "6310",
+     "oics_code": "TC.IT.ITS.CLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 66585,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,960 @@
+{
+ "status": 200,
+ "body": {
+  "count": 6160,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2011-01-01T00%3A00%3A00Z&release_datetime_to=2011-12-31T23%3A59%3A59Z&types=MRQ",
+  "previous": null,
+  "results": [
+   {
+    "id": 44757585,
+    "title": "Ceasing to be a substantial holder",
+    "release_datetime": "2011-01-03T21:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65885/2011/RNS/65885_rns_2011-01-03_d55cc1dd-23ba-416f-8e55-6758ba0ba8fe.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65885/2011/RNS/65885_rns_2011-01-03_d55cc1dd-23ba-416f-8e55-6758ba0ba8fe.pdf",
+    "viewer_url": "https://financialfilings.com/filings/southern-cross-media-group-limited/major-shareholding-notification/2011/44757585/",
+    "company": {
+     "id": 65885,
+     "name": "SOUTHERN CROSS MEDIA GROUP LIMITED",
+     "tagline": "Creates and distributes audio and visual content via radio, television, and digital.",
+     "isins": [
+      "AU000000SXL4"
+     ],
+     "lei": "529900LIF6IT4VHV0617",
+     "sub_industry_code": "6010",
+     "oics_code": "CM.MC.MED.BCT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 361667,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56560269,
+    "title": "Change in substantial holding",
+    "release_datetime": "2011-01-03T21:18:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85804/2011/RNS/85804_rns_2011-01-03_14e64421-2a2f-4fdf-8665-f406b50ad024.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85804/2011/RNS/85804_rns_2011-01-03_14e64421-2a2f-4fdf-8665-f406b50ad024.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ten-sixty-four-ltd/major-shareholding-notification/2011/56560269/",
+    "company": {
+     "id": 85804,
+     "name": "Ten Sixty Four Ltd",
+     "tagline": "",
+     "isins": [
+      "AU0000221418"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 77847,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39298568,
+    "title": "Form 604",
+    "release_datetime": "2011-01-03T21:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64670/2011/RNS/64670_rns_2011-01-03_318caf51-e998-4561-81a8-fd0697c67977.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64670/2011/RNS/64670_rns_2011-01-03_318caf51-e998-4561-81a8-fd0697c67977.pdf",
+    "viewer_url": "https://financialfilings.com/filings/capricorn-metals-ltd/major-shareholding-notification/2011/39298568/",
+    "company": {
+     "id": 64670,
+     "name": "CAPRICORN METALS LTD",
+     "tagline": "Explores, develops, and operates gold production assets and mineral reserves.",
+     "isins": [
+      "AU000000CMM9"
+     ],
+     "lei": "529900CRG304NUYMOV23",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 36142,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44886609,
+    "title": "Ceasing to be a substantial holder for WPG",
+    "release_datetime": "2011-01-04T00:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65990/2011/RNS/65990_rns_2011-01-03_de7850b8-4548-4176-898b-4798cbeaff21.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65990/2011/RNS/65990_rns_2011-01-03_de7850b8-4548-4176-898b-4798cbeaff21.pdf",
+    "viewer_url": "https://financialfilings.com/filings/variscan-mines-limited/major-shareholding-notification/2011/44886609/",
+    "company": {
+     "id": 65990,
+     "name": "VARISCAN MINES LIMITED",
+     "tagline": "Explores and develops strategic base metal projects, focusing on high-grade zinc.",
+     "isins": [
+      "AU000000VAR3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.ALU",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 63677,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37607310,
+    "title": "Ceasing to be a substantial holder",
+    "release_datetime": "2011-01-04T03:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64303/2011/RNS/64303_rns_2011-01-03_f9430e87-0454-428d-87ad-e5a233a7fc43.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64303/2011/RNS/64303_rns_2011-01-03_f9430e87-0454-428d-87ad-e5a233a7fc43.pdf",
+    "viewer_url": "https://financialfilings.com/filings/andromeda-metals-limited/major-shareholding-notification/2011/37607310/",
+    "company": {
+     "id": 64303,
+     "name": "ANDROMEDA METALS LIMITED",
+     "tagline": "Explores and develops high-grade halloysite-kaolin resources for industrial markets.",
+     "isins": [
+      "AU000000ADN0"
+     ],
+     "lei": "529900NMF95O5GFYNU04",
+     "sub_industry_code": "0810",
+     "oics_code": "MA.MM.IMT.NMM",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 35224,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44859304,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2011-01-04T03:28:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65982/2011/RNS/65982_rns_2011-01-03_756fea21-7cca-420b-ada3-9cee744975c4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65982/2011/RNS/65982_rns_2011-01-03_756fea21-7cca-420b-ada3-9cee744975c4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/unith-ltd/major-shareholding-notification/2011/44859304/",
+    "company": {
+     "id": 65982,
+     "name": "UNITH LTD",
+     "tagline": "Develops hyper-realistic AI avatars and digital humans for real-time interaction.",
+     "isins": [
+      "AU0000256646"
+     ],
+     "lei": "",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.BUS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 54557,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44504344,
+    "title": "Change in substantial holding",
+    "release_datetime": "2011-01-04T04:58:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65722/2011/RNS/65722_rns_2011-01-03_b767cd61-db53-48db-9e03-24f28c633643.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65722/2011/RNS/65722_rns_2011-01-03_b767cd61-db53-48db-9e03-24f28c633643.pdf",
+    "viewer_url": "https://financialfilings.com/filings/rentcomau-limited/major-shareholding-notification/2011/44504344/",
+    "company": {
+     "id": 65722,
+     "name": "RENT.COM.AU LIMITED",
+     "tagline": "Operates a digital platform and technology tools for the rental property market.",
+     "isins": [
+      "AU000000RNT0"
+     ],
+     "lei": "",
+     "sub_industry_code": "6821",
+     "oics_code": "FI.BK.NBL.CSL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 59771,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41714266,
+    "title": "Change in substantial holding for VBP",
+    "release_datetime": "2011-01-04T05:04:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10518/2011/RNS/10518_rns_2011-01-03_f9d062ce-4352-4dd7-a664-1518c4b9c75d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10518/2011/RNS/10518_rns_2011-01-03_f9d062ce-4352-4dd7-a664-1518c4b9c75d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/macquarie-group-limited/major-shareholding-notification/2011/41714266/",
+    "company": {
+     "id": 10518,
+     "name": "Macquarie Group Limited",
+     "tagline": "A global financial services firm offering asset management, banking, and market access.",
+     "isins": [
+      "AU000000MQG1"
+     ],
+     "lei": "ACMHD8HWFMFUIQQ8Y590",
+     "sub_industry_code": "6419",
+     "oics_code": "FI.MK.BKR.BKR",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 317240,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56350450,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2011-01-04T05:08:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84970/2011/RNS/84970_rns_2011-01-03_a71da575-fb57-48e0-956a-c34e4ae0d8a9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84970/2011/RNS/84970_rns_2011-01-03_a71da575-fb57-48e0-956a-c34e4ae0d8a9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/gbst-holdings-limited/major-shareholding-notification/2011/56350450/",
+    "company": {
+     "id": 84970,
+     "name": "GBST Holdings Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000GBT8"
+     ],
+     "lei": "",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.ISS",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 18671,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44978594,
+    "title": "Becoming a substantial holder in PVM",
+    "release_datetime": "2011-01-04T05:38:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10585/2011/RNS/10585_rns_2011-01-03_939add80-4ccc-48f2-93d1-acf399f214ab.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10585/2011/RNS/10585_rns_2011-01-03_939add80-4ccc-48f2-93d1-acf399f214ab.pdf",
+    "viewer_url": "https://financialfilings.com/filings/westpac-banking-corporation/major-shareholding-notification/2011/44978594/",
+    "company": {
+     "id": 10585,
+     "name": "Westpac Banking Corporation",
+     "tagline": "A major banking and financial services provider for individuals, businesses, and institutions.",
+     "isins": [
+      "AU000000WBC1"
+     ],
+     "lei": "EN5TNI6CI43VEPAMHL14",
+     "sub_industry_code": "6419",
+     "oics_code": "FI.BK.BNK.UNV",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 442777,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39800036,
+    "title": "Change in substantial holding from PTS",
+    "release_datetime": "2011-01-04T05:44:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64824/2011/RNS/64824_rns_2011-01-03_7e8902f1-23c3-475e-97cf-14c39aeb2550.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64824/2011/RNS/64824_rns_2011-01-03_7e8902f1-23c3-475e-97cf-14c39aeb2550.pdf",
+    "viewer_url": "https://financialfilings.com/filings/eastern-resources-limited/major-shareholding-notification/2011/39800036/",
+    "company": {
+     "id": 64824,
+     "name": "EASTERN RESOURCES LIMITED",
+     "tagline": "Mineral exploration company advancing lithium and iron ore projects.",
+     "isins": [
+      "AU000000EFE6"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 85681,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44508266,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2011-01-04T06:43:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65723/2011/RNS/65723_rns_2011-01-03_016f5fd3-31e8-4c4f-8a52-2c2f58f23fb8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65723/2011/RNS/65723_rns_2011-01-03_016f5fd3-31e8-4c4f-8a52-2c2f58f23fb8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/renascor-resources-limited/major-shareholding-notification/2011/44508266/",
+    "company": {
+     "id": 65723,
+     "name": "RENASCOR RESOURCES LIMITED",
+     "tagline": "Develops vertically integrated battery anode materials for lithium-ion batteries.",
+     "isins": [
+      "AU000000RNU8"
+     ],
+     "lei": "529900GB83LS85EUO142",
+     "sub_industry_code": "0899",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1097318,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39952060,
+    "title": "Change in substantial holding",
+    "release_datetime": "2011-01-04T06:57:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64870/2011/RNS/64870_rns_2011-01-03_4300d56a-d9d3-493a-88dd-3fd152e162b8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64870/2011/RNS/64870_rns_2011-01-03_4300d56a-d9d3-493a-88dd-3fd152e162b8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/equatorial-resources-limited/major-shareholding-notification/2011/39952060/",
+    "company": {
+     "id": 64870,
+     "name": "EQUATORIAL RESOURCES LIMITED",
+     "tagline": "Explores and develops iron ore assets, primarily in the Republic of Congo.",
+     "isins": [
+      "AU000000EQX3"
+     ],
+     "lei": "213800NGCEHXF4NENJ33",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 293356,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40016510,
+    "title": "Change in substantial holding",
+    "release_datetime": "2011-01-04T07:15:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64890/2011/RNS/64890_rns_2011-01-03_73e8cebc-58b5-47dd-a424-6fa2d5aca854.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64890/2011/RNS/64890_rns_2011-01-03_73e8cebc-58b5-47dd-a424-6fa2d5aca854.pdf",
+    "viewer_url": "https://financialfilings.com/filings/energy-world-corporation-ltd/major-shareholding-notification/2011/40016510/",
+    "company": {
+     "id": 64890,
+     "name": "ENERGY WORLD CORPORATION LTD",
+     "tagline": "Independent provider of integrated energy infrastructure for LNG and power generation.",
+     "isins": [
+      "AU000000EWC5"
+     ],
+     "lei": "",
+     "sub_industry_code": "3511",
+     "oics_code": "UT.UT.ELY.FNP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 265231,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41341599,
+    "title": "Ceasing to be a substantial holder from SRL",
+    "release_datetime": "2011-01-04T07:21:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/46929/2011/RNS/46929_rns_2011-01-03_3cf0eb86-b647-451d-8b66-4506b0a736f2.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/46929/2011/RNS/46929_rns_2011-01-03_3cf0eb86-b647-451d-8b66-4506b0a736f2.pdf",
+    "viewer_url": "https://financialfilings.com/filings/lachlan-star-limited/major-shareholding-notification/2011/41341599/",
+    "company": {
+     "id": 46929,
+     "name": "Lachlan Star Limited",
+     "tagline": "Dedicated to the discovery and development of gold and copper resources in Australia.",
+     "isins": [
+      "AU000000LSA2"
+     ],
+     "lei": "5299004ZNIZ2QF37P491",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 121146,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38108866,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2011-01-04T21:27:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64404/2011/RNS/64404_rns_2011-01-04_aa2660ec-08db-4b70-9ce6-aa800c85a45d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64404/2011/RNS/64404_rns_2011-01-04_aa2660ec-08db-4b70-9ce6-aa800c85a45d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aspen-group-1/major-shareholding-notification/2011/38108866/",
+    "company": {
+     "id": 64404,
+     "name": "ASPEN GROUP",
+     "tagline": "Provides affordable residential, retirement, and short-stay housing solutions.",
+     "isins": [
+      "AU000000APZ8"
+     ],
+     "lei": "529900EO4LDRP0T6V445",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.RES.RES",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 875706,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40360144,
+    "title": "Change in substantial holding",
+    "release_datetime": "2011-01-04T21:27:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64993/2011/RNS/64993_rns_2011-01-04_52318686-a86c-4f3c-9f12-25cdcf2fbedb.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64993/2011/RNS/64993_rns_2011-01-04_52318686-a86c-4f3c-9f12-25cdcf2fbedb.pdf",
+    "viewer_url": "https://financialfilings.com/filings/global-health-limited-1/major-shareholding-notification/2011/40360144/",
+    "company": {
+     "id": 64993,
+     "name": "GLOBAL HEALTH LIMITED",
+     "tagline": "Provides digital health software for clinical and administrative operations.",
+     "isins": [
+      "AU000000GLH2"
+     ],
+     "lei": "984500CCB95ED7B93640",
+     "sub_industry_code": "6219",
+     "oics_code": "HC.CR.HSV.TEC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 154858,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41237098,
+    "title": "Ceasing to be a substantial holder",
+    "release_datetime": "2011-01-04T21:27:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65223/2011/RNS/65223_rns_2011-01-04_e7da6020-f342-4bcd-9f32-20e95fc99753.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65223/2011/RNS/65223_rns_2011-01-04_e7da6020-f342-4bcd-9f32-20e95fc99753.pdf",
+    "viewer_url": "https://financialfilings.com/filings/legend-mining-limited/major-shareholding-notification/2011/41237098/",
+    "company": {
+     "id": 65223,
+     "name": "LEGEND MINING LIMITED",
+     "tagline": "Explores for nickel-copper-cobalt deposits at the Rockford Project, Fraser Range.",
+     "isins": [
+      "AU000000LEG9"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 254198,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41081974,
+    "title": "Change in substantial holding for LRC",
+    "release_datetime": "2011-01-04T21:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65175/2011/RNS/65175_rns_2011-01-04_bd3bd73c-2b28-40f5-912a-5542cf38decd.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65175/2011/RNS/65175_rns_2011-01-04_bd3bd73c-2b28-40f5-912a-5542cf38decd.pdf",
+    "viewer_url": "https://financialfilings.com/filings/kingsgate-consolidated-limited/major-shareholding-notification/2011/41081974/",
+    "company": {
+     "id": 65175,
+     "name": "KINGSGATE CONSOLIDATED LIMITED.",
+     "tagline": "Explores and operates gold and silver assets, primarily the Chatree Gold Mine.",
+     "isins": [
+      "AU000000KCN1"
+     ],
+     "lei": "529900B1W7D8DLEC7178",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 180838,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38546818,
+    "title": "Change in substantial holding",
+    "release_datetime": "2011-01-05T00:57:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64495/2011/RNS/64495_rns_2011-01-04_f2d70ef4-ac0e-4885-9abe-2a33e735bc01.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64495/2011/RNS/64495_rns_2011-01-04_f2d70ef4-ac0e-4885-9abe-2a33e735bc01.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bass-oil-limited/major-shareholding-notification/2011/38546818/",
+    "company": {
+     "id": 64495,
+     "name": "BASS OIL LIMITED",
+     "tagline": "Produces and explores hydrocarbon resources in the South Sumatra and Cooper Basins.",
+     "isins": [
+      "AU000000BAS3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 108223,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40793324,
+    "title": "Becoming a substantial holder from NAB",
+    "release_datetime": "2011-01-05T01:45:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65111/2011/RNS/65111_rns_2011-01-04_3d4c0b73-b6ab-4d5d-aa47-a77dfb56b656.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65111/2011/RNS/65111_rns_2011-01-04_3d4c0b73-b6ab-4d5d-aa47-a77dfb56b656.pdf",
+    "viewer_url": "https://financialfilings.com/filings/igo-limited/major-shareholding-notification/2011/40793324/",
+    "company": {
+     "id": 65111,
+     "name": "IGO LIMITED",
+     "tagline": "Produces nickel, copper, lithium, and cobalt for clean energy technologies.",
+     "isins": [
+      "AU000000IGO4"
+     ],
+     "lei": "2549005DZO8VGXM5QN07",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 452028,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39543621,
+    "title": "Ceasing to be a substantial holder",
+    "release_datetime": "2011-01-05T02:08:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2011/RNS/64743_rns_2011-01-04_4d171733-a3a9-4ed1-a4d9-9d6aab4400b6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64743/2011/RNS/64743_rns_2011-01-04_4d171733-a3a9-4ed1-a4d9-9d6aab4400b6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/catalyst-metals-limited/major-shareholding-notification/2011/39543621/",
+    "company": {
+     "id": 64743,
+     "name": "CATALYST METALS LIMITED",
+     "tagline": "Gold exploration and production company focused on high-grade assets.",
+     "isins": [
+      "AU000000CYL6"
+     ],
+     "lei": "9845002GB72C3J4A3E64",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 842957,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41858853,
+    "title": "Notice given in accordance with Corps Law s259c - exemption",
+    "release_datetime": "2011-01-05T03:18:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/35645/2011/RNS/35645_rns_2011-01-04_042d40b8-564a-4fb0-91e7-b190f969b588.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/35645/2011/RNS/35645_rns_2011-01-04_042d40b8-564a-4fb0-91e7-b190f969b588.pdf",
+    "viewer_url": "https://financialfilings.com/filings/national-australia-bank-ltd/major-shareholding-notification/2011/41858853/",
+    "company": {
+     "id": 35645,
+     "name": "National Australia Bank Ltd.",
+     "tagline": "Offers banking, financial, and wealth management services to individuals and businesses.",
+     "isins": [
+      "AU000000NAB4"
+     ],
+     "lei": "F8SB4JFBSYQFRQEH3Z21",
+     "sub_industry_code": "6419",
+     "oics_code": "FI.BK.BNK.UNV",
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 14663,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40975258,
+    "title": "Change in substantial holding",
+    "release_datetime": "2011-01-05T03:56:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65152/2011/RNS/65152_rns_2011-01-04_e528a6a6-fb7e-4696-ba2b-356eb1d54416.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65152/2011/RNS/65152_rns_2011-01-04_e528a6a6-fb7e-4696-ba2b-356eb1d54416.pdf",
+    "viewer_url": "https://financialfilings.com/filings/jameson-resources-limited/major-shareholding-notification/2011/40975258/",
+    "company": {
+     "id": 65152,
+     "name": "JAMESON RESOURCES LIMITED",
+     "tagline": "Explores and develops metallurgical coal projects for the global steelmaking industry.",
+     "isins": [
+      "AU000000JAL1"
+     ],
+     "lei": "",
+     "sub_industry_code": "0510",
+     "oics_code": "EN.OG.FUE.COA",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 80895,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39064641,
+    "title": "259(c) CBA",
+    "release_datetime": "2011-01-05T04:21:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10459/2011/RNS/10459_rns_2011-01-04_2674be82-292f-42e2-9e7d-8cbdaddc320b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10459/2011/RNS/10459_rns_2011-01-04_2674be82-292f-42e2-9e7d-8cbdaddc320b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/commonwealth-bank-of-australia/major-shareholding-notification/2011/39064641/",
+    "company": {
+     "id": 10459,
+     "name": "Commonwealth Bank of Australia",
+     "tagline": "Provider of financial services for retail, business, and institutional clients.",
+     "isins": [
+      "AU000000CBA7"
+     ],
+     "lei": "MSFSBD3QN1GSN7Q6C537",
+     "sub_industry_code": "6419",
+     "oics_code": "FI.BK.BNK.UNV",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 59193,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

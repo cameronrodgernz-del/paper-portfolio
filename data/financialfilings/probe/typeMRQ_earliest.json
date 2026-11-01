@@ -1,0 +1,388 @@
+{
+ "status": 200,
+ "body": {
+  "count": 167136,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=10&types=MRQ",
+  "previous": null,
+  "results": [
+   {
+    "id": 52011178,
+    "title": "SC 13G - PETROLEUM SECURITIES AUSTRALIA LTD",
+    "release_datetime": "1997-03-10T00:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/83355/1997/MRQ/83355_mrq_1997-03-10_297d50ef-10ad-4b29-853e-a23fd978867a.zip",
+    "proxy_url": "https://api.financialreports.eu/filings/52011178/document/",
+    "viewer_url": "https://financialfilings.com/filings/petsec-energy-ltd-1/major-shareholding-notification/1997/52011178/",
+    "company": {
+     "id": 85437,
+     "name": "Petsec Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSA3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-27"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "ZIP",
+    "file_size": 6602,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": "SC 13G"
+   },
+   {
+    "id": 52010727,
+    "title": "SC - PETROLEUM SECURITIES AUSTRALIA LTD",
+    "release_datetime": "1997-04-09T00:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/83355/1997/RNS/83355_rns_1997-04-09_4bcf9801-72b4-4d09-bb73-3a9f4e2f23c0.zip",
+    "proxy_url": "https://api.financialreports.eu/filings/52010727/document/",
+    "viewer_url": "https://financialfilings.com/filings/petsec-energy-ltd-1/major-shareholding-notification/1997/52010727/",
+    "company": {
+     "id": 85437,
+     "name": "Petsec Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSA3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-27"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "ZIP",
+    "file_size": 7540,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": "SC 13G"
+   },
+   {
+    "id": 52010728,
+    "title": "SC 13G/A - PETROLEUM SECURITIES AUSTRALIA LTD",
+    "release_datetime": "1997-04-09T00:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/83355/1997/MRQ/83355_mrq_1997-04-09_884f0e4f-cf46-430a-9260-e5dc550d42fa.zip",
+    "proxy_url": "https://api.financialreports.eu/filings/52010728/document/",
+    "viewer_url": "https://financialfilings.com/filings/petsec-energy-ltd-1/major-shareholding-notification/1997/52010728/",
+    "company": {
+     "id": 85437,
+     "name": "Petsec Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSA3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-27"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "ZIP",
+    "file_size": 4384,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": "SC 13G/A"
+   },
+   {
+    "id": 52007971,
+    "title": "SC 13G/A - PETROLEUM SECURITIES AUSTRALIA LTD",
+    "release_datetime": "1997-12-09T00:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/83355/1997/MRQ/83355_mrq_1997-12-09_3f881660-e554-4c6e-8af3-5e8c5e6fdc0f.zip",
+    "proxy_url": "https://api.financialreports.eu/filings/52007971/document/",
+    "viewer_url": "https://financialfilings.com/filings/petsec-energy-ltd-1/major-shareholding-notification/1997/52007971/",
+    "company": {
+     "id": 85437,
+     "name": "Petsec Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSA3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-27"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "ZIP",
+    "file_size": 6682,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": "SC 13G/A"
+   },
+   {
+    "id": 52007618,
+    "title": "SC 13G/A - PETROLEUM SECURITIES AUSTRALIA LTD",
+    "release_datetime": "1998-01-12T00:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/83355/1998/MRQ/83355_mrq_1998-01-12_cac70fbf-c7e8-49e7-85d8-127784802f06.zip",
+    "proxy_url": "https://api.financialreports.eu/filings/52007618/document/",
+    "viewer_url": "https://financialfilings.com/filings/petsec-energy-ltd-1/major-shareholding-notification/1998/52007618/",
+    "company": {
+     "id": 85437,
+     "name": "Petsec Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSA3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-27"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "ZIP",
+    "file_size": 6337,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": "SC 13G/A"
+   },
+   {
+    "id": 52004684,
+    "title": "SC 13G/A - PETSEC ENERGY LTD",
+    "release_datetime": "1998-07-09T00:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/83355/1998/MRQ/83355_mrq_1998-07-09_602e4fc0-003d-49ff-a69a-e1f8a126c08a.zip",
+    "proxy_url": "https://api.financialreports.eu/filings/52004684/document/",
+    "viewer_url": "https://financialfilings.com/filings/petsec-energy-ltd-1/major-shareholding-notification/1998/52004684/",
+    "company": {
+     "id": 85437,
+     "name": "Petsec Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSA3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-27"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "ZIP",
+    "file_size": 4605,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": "SC 13G/A"
+   },
+   {
+    "id": 44633566,
+    "title": "Ceasing to be a substantial holder",
+    "release_datetime": "2002-10-31T13:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65767/2002/RNS/65767_rns_2002-10-31_327748e9-b471-4d76-87e5-09415248c58a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65767/2002/RNS/65767_rns_2002-10-31_327748e9-b471-4d76-87e5-09415248c58a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sequoia-financial-group-ltd/major-shareholding-notification/2002/44633566/",
+    "company": {
+     "id": 65767,
+     "name": "SEQUOIA FINANCIAL GROUP LTD",
+     "tagline": "Provides wealth management, financial planning, and asset management for HNW clients.",
+     "isins": [
+      "AU000000SEQ3"
+     ],
+     "lei": "",
+     "sub_industry_code": "6630",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 6955,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44637067,
+    "title": "Change in substantial holding/Change of Director's Interest",
+    "release_datetime": "2002-10-31T13:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65771/2002/RNS/65771_rns_2002-10-31_46e824d9-ffa2-4be4-a5bc-4d5473b538cf.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65771/2002/RNS/65771_rns_2002-10-31_46e824d9-ffa2-4be4-a5bc-4d5473b538cf.pdf",
+    "viewer_url": "https://financialfilings.com/filings/seafarms-group-limited/major-shareholding-notification/2002/44637067/",
+    "company": {
+     "id": 65771,
+     "name": "SEAFARMS GROUP LIMITED",
+     "tagline": "Produces premium seafood through large-scale integrated prawn farming systems.",
+     "isins": [
+      "AU000000SFG1"
+     ],
+     "lei": "",
+     "sub_industry_code": "0321",
+     "oics_code": "CE.EG.FOD.AGR",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 169771,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56222244,
+    "title": "Change in substantial holding",
+    "release_datetime": "2002-10-31T13:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84616/2002/RNS/84616_rns_2002-10-31_dd551851-0f39-43e5-a0e7-7cb0a39e41e9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84616/2002/RNS/84616_rns_2002-10-31_dd551851-0f39-43e5-a0e7-7cb0a39e41e9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/billabong-international-limited/major-shareholding-notification/2002/56222244/",
+    "company": {
+     "id": 84616,
+     "name": "Billabong International Limited",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "1410",
+     "oics_code": "CL.GD.APR.AFW",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 165927,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37952624,
+    "title": "Change in substantial holding for PMM",
+    "release_datetime": "2002-10-31T22:52:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64379/2002/RNS/64379_rns_2002-10-31_dc234104-0fa8-4c28-bb00-b5dafa2b3d3d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64379/2002/RNS/64379_rns_2002-10-31_dc234104-0fa8-4c28-bb00-b5dafa2b3d3d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/amp-limited/major-shareholding-notification/2002/37952624/",
+    "company": {
+     "id": 64379,
+     "name": "AMP LIMITED",
+     "tagline": "Provides wealth management, banking, and investment services to diverse clients.",
+     "isins": [
+      "AU000000AMP6"
+     ],
+     "lei": "5299000D93LTLU0UJR35",
+     "sub_industry_code": "6421",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 97779,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

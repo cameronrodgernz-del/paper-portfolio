@@ -1,0 +1,960 @@
+{
+ "status": 200,
+ "body": {
+  "count": 8402,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2022-01-01T00%3A00%3A00Z&release_datetime_to=2022-12-31T23%3A59%3A59Z&types=MRQ",
+  "previous": null,
+  "results": [
+   {
+    "id": 39115551,
+    "title": "Notice of Initial Substantial Holder",
+    "release_datetime": "2022-01-03T21:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64614/2022/RNS/64614_rns_2022-01-03_7649b5df-d5da-433d-995c-e8ba728a5ed8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64614/2022/RNS/64614_rns_2022-01-03_7649b5df-d5da-433d-995c-e8ba728a5ed8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/clever-culture-systems-limited/major-shareholding-notification/2022/39115551/",
+    "company": {
+     "id": 64614,
+     "name": "CLEVER CULTURE SYSTEMS LIMITED",
+     "tagline": "Develops AI-driven automated plate assessment systems for clinical microbiology.",
+     "isins": [
+      "AU0000367153"
+     ],
+     "lei": "",
+     "sub_industry_code": "2660",
+     "oics_code": "HC.MT.MDV.DIA",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 43147,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44491537,
+    "title": "Change in substantial holding",
+    "release_datetime": "2022-01-03T21:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65718/2022/RNS/65718_rns_2022-01-03_92a8f85e-d8b4-4372-b311-9a17e7fcca74.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65718/2022/RNS/65718_rns_2022-01-03_92a8f85e-d8b4-4372-b311-9a17e7fcca74.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ramelius-resources-limited/major-shareholding-notification/2022/44491537/",
+    "company": {
+     "id": 65718,
+     "name": "RAMELIUS RESOURCES LIMITED",
+     "tagline": "Gold producer and explorer operating production hubs and high-grade satellite projects.",
+     "isins": [
+      "AU000000RMS4"
+     ],
+     "lei": "254900E44AIGW7KKNR98",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 992782,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56398464,
+    "title": "Change in substantial holding",
+    "release_datetime": "2022-01-03T21:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85151/2022/RNS/85151_rns_2022-01-03_35cb5d13-072b-4467-a86a-590f6bf03d7b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85151/2022/RNS/85151_rns_2022-01-03_35cb5d13-072b-4467-a86a-590f6bf03d7b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/lawfinance-ltd/major-shareholding-notification/2022/56398464/",
+    "company": {
+     "id": 85151,
+     "name": "Lawfinance Ltd",
+     "tagline": "",
+     "isins": [
+      "AU0000036659"
+     ],
+     "lei": "",
+     "sub_industry_code": "6495",
+     "oics_code": "FI.BK.NBL.LEA",
+     "country_code": "AU",
+     "date_public": "2026-10-16"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 140380,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40178352,
+    "title": "Change in substantial holding",
+    "release_datetime": "2022-01-03T22:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64932/2022/RNS/64932_rns_2022-01-03_cde4e092-0c93-49be-abd8-2adec9f557da.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64932/2022/RNS/64932_rns_2022-01-03_cde4e092-0c93-49be-abd8-2adec9f557da.pdf",
+    "viewer_url": "https://financialfilings.com/filings/focus-minerals-ltd/major-shareholding-notification/2022/40178352/",
+    "company": {
+     "id": 64932,
+     "name": "FOCUS MINERALS LTD",
+     "tagline": "Explores and develops gold assets at the Coolgardie and Laverton Gold Projects.",
+     "isins": [
+      "AU000000FML4"
+     ],
+     "lei": "529900G61CW8EFPNXZ12",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 175301,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44966469,
+    "title": "Change in substantial holding for PAF",
+    "release_datetime": "2022-01-03T22:44:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66036/2022/RNS/66036_rns_2022-01-03_877b684a-bef7-48d1-80d9-b9d06b6a41a7.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66036/2022/RNS/66036_rns_2022-01-03_877b684a-bef7-48d1-80d9-b9d06b6a41a7.pdf",
+    "viewer_url": "https://financialfilings.com/filings/wam-capital-limited/major-shareholding-notification/2022/44966469/",
+    "company": {
+     "id": 66036,
+     "name": "WAM CAPITAL LIMITED",
+     "tagline": "Provides exposure to an actively managed portfolio of undervalued growth companies.",
+     "isins": [
+      "AU000000WAM2"
+     ],
+     "lei": "254900SOFFDP0PTYDT12",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 386094,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 45034558,
+    "title": "Change in Substantial Holding - LMS",
+    "release_datetime": "2022-01-03T22:58:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66097/2022/RNS/66097_rns_2022-01-03_c4106f51-a5d2-4d9e-ba3f-7f8f16bddbab.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66097/2022/RNS/66097_rns_2022-01-03_c4106f51-a5d2-4d9e-ba3f-7f8f16bddbab.pdf",
+    "viewer_url": "https://financialfilings.com/filings/xref-limited/major-shareholding-notification/2022/45034558/",
+    "company": {
+     "id": 66097,
+     "name": "XREF LIMITED",
+     "tagline": "Automates reference checking, identity verification, and background screening.",
+     "isins": [
+      "AU0000038531"
+     ],
+     "lei": "549300TFPL3EWUFS5830",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.BUS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1343473,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40361990,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2022-01-03T23:21:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64993/2022/RNS/64993_rns_2022-01-03_65d38bd7-a27a-4814-b0af-b6ad2dce63d2.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64993/2022/RNS/64993_rns_2022-01-03_65d38bd7-a27a-4814-b0af-b6ad2dce63d2.pdf",
+    "viewer_url": "https://financialfilings.com/filings/global-health-limited-1/major-shareholding-notification/2022/40361990/",
+    "company": {
+     "id": 64993,
+     "name": "GLOBAL HEALTH LIMITED",
+     "tagline": "Provides digital health software for clinical and administrative operations.",
+     "isins": [
+      "AU000000GLH2"
+     ],
+     "lei": "984500CCB95ED7B93640",
+     "sub_industry_code": "6219",
+     "oics_code": "HC.CR.HSV.TEC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 89190,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40443744,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2022-01-04T00:53:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65012/2022/RNS/65012_rns_2022-01-03_3c4218ab-5b30-4a43-a5f4-53d84a95beb6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65012/2022/RNS/65012_rns_2022-01-03_3c4218ab-5b30-4a43-a5f4-53d84a95beb6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/greentech-metals-limited/major-shareholding-notification/2022/40443744/",
+    "company": {
+     "id": 65012,
+     "name": "GREENTECH METALS LIMITED",
+     "tagline": "Explores and develops critical minerals for renewable energy and electric vehicles.",
+     "isins": [
+      "AU0000189375"
+     ],
+     "lei": "529900H1DNFE09RRX534",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 224499,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38230734,
+    "title": "Becoming a substantial holder for GRE",
+    "release_datetime": "2022-01-04T01:07:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10429/2022/RNS/10429_rns_2022-01-03_5d083367-5de2-4c72-845b-9c71bf5c696a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10429/2022/RNS/10429_rns_2022-01-03_5d083367-5de2-4c72-845b-9c71bf5c696a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/artemis-resources-limited/major-shareholding-notification/2022/38230734/",
+    "company": {
+     "id": 10429,
+     "name": "Artemis Resources Limited",
+     "tagline": "A resources company exploring and developing gold and copper mineral properties.",
+     "isins": [
+      "AU000000ARV3"
+     ],
+     "lei": "213800UFOWFOVK5IRL64",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 103974,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37945961,
+    "title": "Ceasing to be a substantial holder from CBA",
+    "release_datetime": "2022-01-04T01:18:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64376/2022/RNS/64376_rns_2022-01-03_ce005d71-bb64-4252-a183-60019fc3dc45.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64376/2022/RNS/64376_rns_2022-01-03_ce005d71-bb64-4252-a183-60019fc3dc45.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aurelia-metals-limited/major-shareholding-notification/2022/37945961/",
+    "company": {
+     "id": 64376,
+     "name": "AURELIA METALS LIMITED",
+     "tagline": "Gold and base metal producer focused on high-grade polymetallic asset development.",
+     "isins": [
+      "AU000000AMI1"
+     ],
+     "lei": "5493005OS7G5RY15ND07",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-31"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 135766,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40153137,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2022-01-04T02:05:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64925/2022/RNS/64925_rns_2022-01-03_77dbc961-2729-47df-b86c-03b9b274d956.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64925/2022/RNS/64925_rns_2022-01-03_77dbc961-2729-47df-b86c-03b9b274d956.pdf",
+    "viewer_url": "https://financialfilings.com/filings/flight-centre-travel-group-limited/major-shareholding-notification/2022/40153137/",
+    "company": {
+     "id": 64925,
+     "name": "FLIGHT CENTRE TRAVEL GROUP LIMITED",
+     "tagline": "Global provider of leisure and corporate travel management services.",
+     "isins": [
+      "AU000000FLT9"
+     ],
+     "lei": "254900BGNUI78EKEJY68",
+     "sub_industry_code": "7911",
+     "oics_code": "CL.SV.HSP.LTS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 490667,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40443733,
+    "title": "Becoming a substantial holder - Bennelong",
+    "release_datetime": "2022-01-04T02:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65012/2022/RNS/65012_rns_2022-01-03_76cc3a88-1c7f-4171-980f-39f66702ed6a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65012/2022/RNS/65012_rns_2022-01-03_76cc3a88-1c7f-4171-980f-39f66702ed6a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/greentech-metals-limited/major-shareholding-notification/2022/40443733/",
+    "company": {
+     "id": 65012,
+     "name": "GREENTECH METALS LIMITED",
+     "tagline": "Explores and develops critical minerals for renewable energy and electric vehicles.",
+     "isins": [
+      "AU0000189375"
+     ],
+     "lei": "529900H1DNFE09RRX534",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 252970,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40443721,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2022-01-04T02:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65012/2022/RNS/65012_rns_2022-01-03_15d3b95c-1e41-429b-9e4b-de0ecc7e2c7c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65012/2022/RNS/65012_rns_2022-01-03_15d3b95c-1e41-429b-9e4b-de0ecc7e2c7c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/greentech-metals-limited/major-shareholding-notification/2022/40443721/",
+    "company": {
+     "id": 65012,
+     "name": "GREENTECH METALS LIMITED",
+     "tagline": "Explores and develops critical minerals for renewable energy and electric vehicles.",
+     "isins": [
+      "AU0000189375"
+     ],
+     "lei": "529900H1DNFE09RRX534",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 91554,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44188496,
+    "title": "Change in substantial holding",
+    "release_datetime": "2022-01-04T02:31:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65638/2022/RNS/65638_rns_2022-01-03_32f14529-a4ca-4cde-8852-a348788f4294.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65638/2022/RNS/65638_rns_2022-01-03_32f14529-a4ca-4cde-8852-a348788f4294.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pacific-resources-limited/major-shareholding-notification/2022/44188496/",
+    "company": {
+     "id": 65638,
+     "name": "PACIFIC RESOURCES LIMITED",
+     "tagline": "Identifies, acquires, and develops mineral and energy resource projects.",
+     "isins": [
+      "AU0000435281"
+     ],
+     "lei": "",
+     "sub_industry_code": "0990",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1553179,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56234151,
+    "title": "Change in substantial holding",
+    "release_datetime": "2022-01-04T03:01:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84665/2022/RNS/84665_rns_2022-01-03_ea53226e-e70c-45bb-bc4b-05447441a087.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84665/2022/RNS/84665_rns_2022-01-03_ea53226e-e70c-45bb-bc4b-05447441a087.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bionomics-ltd/major-shareholding-notification/2022/56234151/",
+    "company": {
+     "id": 84665,
+     "name": "Bionomics Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000BNO5"
+     ],
+     "lei": "",
+     "sub_industry_code": "7210",
+     "oics_code": "HC.PH.BIO.CLB",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 95353,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56234150,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2022-01-04T03:04:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84665/2022/RNS/84665_rns_2022-01-03_c5ceedcc-56d4-4344-9100-f3f7d35edfe6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84665/2022/RNS/84665_rns_2022-01-03_c5ceedcc-56d4-4344-9100-f3f7d35edfe6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bionomics-ltd/major-shareholding-notification/2022/56234150/",
+    "company": {
+     "id": 84665,
+     "name": "Bionomics Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000BNO5"
+     ],
+     "lei": "",
+     "sub_industry_code": "7210",
+     "oics_code": "HC.PH.BIO.CLB",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 167558,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41920002,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2022-01-04T06:41:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65411/2022/RNS/65411_rns_2022-01-03_8b6f829f-5e39-474a-88cb-928b5d795219.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65411/2022/RNS/65411_rns_2022-01-03_8b6f829f-5e39-474a-88cb-928b5d795219.pdf",
+    "viewer_url": "https://financialfilings.com/filings/nine-entertainment-co-holdings-limited/major-shareholding-notification/2022/41920002/",
+    "company": {
+     "id": 65411,
+     "name": "NINE ENTERTAINMENT CO. HOLDINGS LIMITED",
+     "tagline": "Diversified media company spanning television, digital, publishing, and radio.",
+     "isins": [
+      "AU000000NEC4"
+     ],
+     "lei": "254900UEM9Q6QD2DSE29",
+     "sub_industry_code": "6020",
+     "oics_code": "CM.MC.MED.BCT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 183755,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 11035369,
+    "title": "Holding(s) in Company",
+    "release_datetime": "2022-01-04T15:58:17+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10609/2022/MRQ/10609_mrq_2022-01-04_bfe793c7-2ce9-4138-b544-304177a9134c.html",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10609/2022/MRQ/10609_mrq_2022-01-04_bfe793c7-2ce9-4138-b544-304177a9134c.html",
+    "viewer_url": "https://financialfilings.com/filings/litigation-capital-management-ltd/major-shareholding-notification/2022/11035369/",
+    "company": {
+     "id": 10609,
+     "name": "Litigation Capital Management Ltd.",
+     "tagline": "An alternative asset manager specializing in dispute financing solutions.",
+     "isins": [
+      "AU000000LCA6"
+     ],
+     "lei": "213800J2B5SI8F515244",
+     "sub_industry_code": "6495",
+     "oics_code": "FI.BK.NBL.LEA",
+     "country_code": "AU",
+     "date_public": "2026-10-26"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "HTML",
+    "file_size": 51073,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40041228,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2022-01-04T21:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64898/2022/RNS/64898_rns_2022-01-04_8c9456ec-cb28-4b2a-b31c-039504b09bb2.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64898/2022/RNS/64898_rns_2022-01-04_8c9456ec-cb28-4b2a-b31c-039504b09bb2.pdf",
+    "viewer_url": "https://financialfilings.com/filings/falcon-metals-ltd/major-shareholding-notification/2022/40041228/",
+    "company": {
+     "id": 64898,
+     "name": "FALCON METALS LTD",
+     "tagline": "Exploration company targeting high-grade gold deposits in established mineral provinces.",
+     "isins": [
+      "AU0000187569"
+     ],
+     "lei": "984500CF05E3BAB0DF42",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 501082,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40854109,
+    "title": "Change in substantial holding",
+    "release_datetime": "2022-01-04T21:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65122/2022/RNS/65122_rns_2022-01-04_a3a0f2be-010c-4da1-92c8-3bc457073354.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65122/2022/RNS/65122_rns_2022-01-04_a3a0f2be-010c-4da1-92c8-3bc457073354.pdf",
+    "viewer_url": "https://financialfilings.com/filings/immutep-limited/major-shareholding-notification/2022/40854109/",
+    "company": {
+     "id": 65122,
+     "name": "IMMUTEP LIMITED",
+     "tagline": "Develops LAG-3 targeting immunotherapies for cancer and autoimmune diseases.",
+     "isins": [
+      "AU000000IMM6"
+     ],
+     "lei": "529900OL6C5CY5P8BH38",
+     "sub_industry_code": "7210",
+     "oics_code": "HC.PH.BIO.CLB",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 917166,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44966466,
+    "title": "Change in substantial holding for PAF",
+    "release_datetime": "2022-01-04T22:35:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66036/2022/RNS/66036_rns_2022-01-04_5e9a8798-7215-47e0-be09-0814743df2a4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66036/2022/RNS/66036_rns_2022-01-04_5e9a8798-7215-47e0-be09-0814743df2a4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/wam-capital-limited/major-shareholding-notification/2022/44966466/",
+    "company": {
+     "id": 66036,
+     "name": "WAM CAPITAL LIMITED",
+     "tagline": "Provides exposure to an actively managed portfolio of undervalued growth companies.",
+     "isins": [
+      "AU000000WAM2"
+     ],
+     "lei": "254900SOFFDP0PTYDT12",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 386727,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39937119,
+    "title": "Change in substantial holding - K Gunaratne",
+    "release_datetime": "2022-01-04T23:41:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64865/2022/RNS/64865_rns_2022-01-04_9f40b573-e0b1-46dd-bde3-968dc3f94f7f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64865/2022/RNS/64865_rns_2022-01-04_9f40b573-e0b1-46dd-bde3-968dc3f94f7f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/epx-limited/major-shareholding-notification/2022/39937119/",
+    "company": {
+     "id": 64865,
+     "name": "EPX LIMITED",
+     "tagline": "Manages high-pressure ethane pipelines and midstream logistics for petrochemical hubs.",
+     "isins": [
+      "AU0000141525"
+     ],
+     "lei": "",
+     "sub_industry_code": "4930",
+     "oics_code": "TC.SW.APP.ISS",
+     "country_code": "AU",
+     "date_public": "2026-10-31"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 243703,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 45034544,
+    "title": "Change in Substantial Holding - TG",
+    "release_datetime": "2022-01-05T00:37:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66097/2022/RNS/66097_rns_2022-01-04_4b3ccf13-6ad2-4da8-b401-71e8beee91f3.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66097/2022/RNS/66097_rns_2022-01-04_4b3ccf13-6ad2-4da8-b401-71e8beee91f3.pdf",
+    "viewer_url": "https://financialfilings.com/filings/xref-limited/major-shareholding-notification/2022/45034544/",
+    "company": {
+     "id": 66097,
+     "name": "XREF LIMITED",
+     "tagline": "Automates reference checking, identity verification, and background screening.",
+     "isins": [
+      "AU0000038531"
+     ],
+     "lei": "549300TFPL3EWUFS5830",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.BUS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 176494,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37478288,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2022-01-05T04:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64267/2022/RNS/64267_rns_2022-01-04_10424e35-ef76-4879-b598-10d41fe843d2.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64267/2022/RNS/64267_rns_2022-01-04_10424e35-ef76-4879-b598-10d41fe843d2.pdf",
+    "viewer_url": "https://financialfilings.com/filings/arn-media-limited/major-shareholding-notification/2022/37478288/",
+    "company": {
+     "id": 64267,
+     "name": "ARN MEDIA LIMITED",
+     "tagline": "Media and entertainment company specializing in audio broadcasting and digital content.",
+     "isins": [
+      "AU0000279853"
+     ],
+     "lei": "",
+     "sub_industry_code": "6010",
+     "oics_code": "CM.MC.MED.BCT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 63145,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44822734,
+    "title": "Change in substantial holding",
+    "release_datetime": "2022-01-05T05:10:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65951/2022/RNS/65951_rns_2022-01-04_579153a6-12cc-4fd8-964b-a8829cb24d0d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65951/2022/RNS/65951_rns_2022-01-04_579153a6-12cc-4fd8-964b-a8829cb24d0d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/trajan-group-holdings-limited/major-shareholding-notification/2022/44822734/",
+    "company": {
+     "id": 65951,
+     "name": "TRAJAN GROUP HOLDINGS LIMITED",
+     "tagline": "Global developer and manufacturer of analytical and life sciences products and devices.",
+     "isins": [
+      "AU0000150526"
+     ],
+     "lei": "213800DMKZ249ZSYTG25",
+     "sub_industry_code": "2651",
+     "oics_code": "HC.PH.LSC.TOL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 126132,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

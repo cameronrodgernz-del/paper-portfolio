@@ -1,0 +1,960 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1017,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2016-01-01T00%3A00%3A00Z&release_datetime_to=2016-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 37925318,
+    "title": "AMCOR ANNOUNCES ACQUISITION OF DELUXE",
+    "release_datetime": "2016-01-03T21:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64373/2016/RNS/64373_rns_2016-01-03_00b4a1e3-e46a-4977-827f-bd8799c90a16.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64373/2016/RNS/64373_rns_2016-01-03_00b4a1e3-e46a-4977-827f-bd8799c90a16.pdf",
+    "viewer_url": "https://financialfilings.com/filings/amcor-plc-1/ma-activity/2016/37925318/",
+    "company": {
+     "id": 64373,
+     "name": "Amcor Limited",
+     "tagline": "Global producer of responsible packaging for food, medical, and consumer goods.",
+     "isins": [
+      "US02341R3021"
+     ],
+     "lei": "54930002QM8QVWM56E14",
+     "sub_industry_code": "2220",
+     "oics_code": "MA.PK.PCK.PCK",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 100479,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44832364,
+    "title": "TWE completes acquisition of Diageo's wine business",
+    "release_datetime": "2016-01-03T21:27:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65969/2016/RNS/65969_rns_2016-01-03_15b99054-185b-4fb3-9c91-0affb584520c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65969/2016/RNS/65969_rns_2016-01-03_15b99054-185b-4fb3-9c91-0affb584520c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/treasury-wine-estates-limited/ma-activity/2016/44832364/",
+    "company": {
+     "id": 65969,
+     "name": "TREASURY WINE ESTATES LIMITED",
+     "tagline": "Global producer and distributor of luxury and commercial wine brands.",
+     "isins": [
+      "AU000000TWE9"
+     ],
+     "lei": "529900LVOPJGAX6ILK66",
+     "sub_industry_code": "1102",
+     "oics_code": "CE.EG.BEV.ALC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 213983,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56219129,
+    "title": "Announcement - acquisition of Vaya Pty Ltd",
+    "release_datetime": "2016-01-03T21:45:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84604/2016/RNS/84604_rns_2016-01-03_0457b2d3-4035-49b5-aaf1-0797c41e7737.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84604/2016/RNS/84604_rns_2016-01-03_0457b2d3-4035-49b5-aaf1-0797c41e7737.pdf",
+    "viewer_url": "https://financialfilings.com/filings/amaysim-australia-ltd/ma-activity/2016/56219129/",
+    "company": {
+     "id": 84604,
+     "name": "amaysim Australia Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AYS5"
+     ],
+     "lei": "",
+     "sub_industry_code": "6120",
+     "oics_code": "CM.TL.TEL.MOB",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 106655,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39442409,
+    "title": "Montrose Travel acquisition now complete",
+    "release_datetime": "2016-01-03T21:55:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64713/2016/RNS/64713_rns_2016-01-03_a8ffbf09-bfe8-4b51-aeb5-50dc19b8b819.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64713/2016/RNS/64713_rns_2016-01-03_a8ffbf09-bfe8-4b51-aeb5-50dc19b8b819.pdf",
+    "viewer_url": "https://financialfilings.com/filings/corporate-travel-management-limited/ma-activity/2016/39442409/",
+    "company": {
+     "id": 64713,
+     "name": "CORPORATE TRAVEL MANAGEMENT LIMITED",
+     "tagline": "Global provider of travel management solutions and technology for diverse sectors.",
+     "isins": [
+      "AU000000CTD3"
+     ],
+     "lei": "529900NSAKXFXS5XED26",
+     "sub_industry_code": "7911",
+     "oics_code": "CL.SV.HSP.LTS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 323745,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56201095,
+    "title": "Notice of status of defeating conditions",
+    "release_datetime": "2016-01-04T00:19:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84513/2016/RNS/84513_rns_2016-01-03_ad953e8b-eed1-440c-8f31-3721615e9104.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84513/2016/RNS/84513_rns_2016-01-03_ad953e8b-eed1-440c-8f31-3721615e9104.pdf",
+    "viewer_url": "https://financialfilings.com/filings/armour-energy-ltd/ma-activity/2016/56201095/",
+    "company": {
+     "id": 84513,
+     "name": "Armour Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AJQ0"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 40304,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56440615,
+    "title": "Update on gridComm transaction",
+    "release_datetime": "2016-01-05T06:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85342/2016/RNS/85342_rns_2016-01-05_251b9d5c-dd59-4947-aaf0-e77dfcad2416.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85342/2016/RNS/85342_rns_2016-01-05_251b9d5c-dd59-4947-aaf0-e77dfcad2416.pdf",
+    "viewer_url": "https://financialfilings.com/filings/odin-energy-ltd/ma-activity/2016/56440615/",
+    "company": {
+     "id": 85342,
+     "name": "Odin Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000ODN1"
+     ],
+     "lei": "",
+     "sub_industry_code": "3511",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 439628,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56421910,
+    "title": "Notice of Dispatch of Bidder's Statement re RIS",
+    "release_datetime": "2016-01-06T05:15:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85279/2016/RNS/85279_rns_2016-01-06_266a1f94-65bd-4595-b8ea-b61966184149.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85279/2016/RNS/85279_rns_2016-01-06_266a1f94-65bd-4595-b8ea-b61966184149.pdf",
+    "viewer_url": "https://financialfilings.com/filings/mercantile-investment-company-limited/ma-activity/2016/56421910/",
+    "company": {
+     "id": 85279,
+     "name": "Mercantile Investment Company Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000MVT4"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 690178,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56421907,
+    "title": "RIS: Dispatch of Target's Statement",
+    "release_datetime": "2016-01-06T08:14:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85279/2016/RNS/85279_rns_2016-01-06_1e6889e8-5fe5-44ef-b55d-8fb38d1c25f0.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85279/2016/RNS/85279_rns_2016-01-06_1e6889e8-5fe5-44ef-b55d-8fb38d1c25f0.pdf",
+    "viewer_url": "https://financialfilings.com/filings/mercantile-investment-company-limited/ma-activity/2016/56421907/",
+    "company": {
+     "id": 85279,
+     "name": "Mercantile Investment Company Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000MVT4"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 238574,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56201085,
+    "title": "First Supplementary Bidder's Statement",
+    "release_datetime": "2016-01-07T00:41:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84513/2016/RNS/84513_rns_2016-01-06_4b8f1af5-0d24-4f2a-9edc-79bc8b063eb1.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84513/2016/RNS/84513_rns_2016-01-06_4b8f1af5-0d24-4f2a-9edc-79bc8b063eb1.pdf",
+    "viewer_url": "https://financialfilings.com/filings/armour-energy-ltd/ma-activity/2016/56201085/",
+    "company": {
+     "id": 84513,
+     "name": "Armour Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AJQ0"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 103439,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41669571,
+    "title": "Gulf's Target's Statement",
+    "release_datetime": "2016-01-07T02:43:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65351/2016/RNS/65351_rns_2016-01-06_819f979b-4972-411c-b091-496221d6c006.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65351/2016/RNS/65351_rns_2016-01-06_819f979b-4972-411c-b091-496221d6c006.pdf",
+    "viewer_url": "https://financialfilings.com/filings/metro-mining-limited/ma-activity/2016/41669571/",
+    "company": {
+     "id": 65351,
+     "name": "METRO MINING LIMITED",
+     "tagline": "Produces and exports high-grade bauxite to international aluminum refineries.",
+     "isins": [
+      "AU000000MMI6"
+     ],
+     "lei": "52990041K94ARLA23314",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.ALU",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2745007,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56201082,
+    "title": "First Supplementary Target's Statement",
+    "release_datetime": "2016-01-07T21:27:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84513/2016/RNS/84513_rns_2016-01-07_f6970a89-c9fe-44d6-b1e2-7473e815688d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84513/2016/RNS/84513_rns_2016-01-07_f6970a89-c9fe-44d6-b1e2-7473e815688d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/armour-energy-ltd/ma-activity/2016/56201082/",
+    "company": {
+     "id": 84513,
+     "name": "Armour Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AJQ0"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 135339,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44666912,
+    "title": "Acquisition of selected assets of Trinity Management Group",
+    "release_datetime": "2016-01-08T04:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65796/2016/RNS/65796_rns_2016-01-07_a909fbb2-af19-43f2-8993-ab0f387cce6d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65796/2016/RNS/65796_rns_2016-01-07_a909fbb2-af19-43f2-8993-ab0f387cce6d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/smartgroup-corporation-ltd/ma-activity/2016/44666912/",
+    "company": {
+     "id": 65796,
+     "name": "SMARTGROUP CORPORATION LTD",
+     "tagline": "Provides salary packaging, novated leasing, and administrative employee services.",
+     "isins": [
+      "AU000000SIQ4"
+     ],
+     "lei": "254900GHFZAMQGOYO431",
+     "sub_industry_code": "8210",
+     "oics_code": "IN.BS.APS.HRS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 389879,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56201076,
+    "title": "Second Supplementary Bidder's Statement",
+    "release_datetime": "2016-01-10T22:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84513/2016/RNS/84513_rns_2016-01-10_5f1ec3ca-eab2-46ac-9d4c-895cf787a46b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84513/2016/RNS/84513_rns_2016-01-10_5f1ec3ca-eab2-46ac-9d4c-895cf787a46b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/armour-energy-ltd/ma-activity/2016/56201076/",
+    "company": {
+     "id": 84513,
+     "name": "Armour Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AJQ0"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 52991,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56343441,
+    "title": "Extension of T/O Offer Closing Date",
+    "release_datetime": "2016-01-11T01:31:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84953/2016/RNS/84953_rns_2016-01-10_a4dfa2b2-de66-4b41-bb6a-99f88c721ccc.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84953/2016/RNS/84953_rns_2016-01-10_a4dfa2b2-de66-4b41-bb6a-99f88c721ccc.pdf",
+    "viewer_url": "https://financialfilings.com/filings/field-solutions-holdings-ltd/ma-activity/2016/56343441/",
+    "company": {
+     "id": 84953,
+     "name": "Field Solutions Holdings Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000FSG1"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 79904,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38976518,
+    "title": "Joint Venture to develop The Brightstar Gold Project",
+    "release_datetime": "2016-01-11T03:43:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64581/2016/RNS/64581_rns_2016-01-10_16d71f6f-df37-4c5f-a433-5d7e1a7529a7.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64581/2016/RNS/64581_rns_2016-01-10_16d71f6f-df37-4c5f-a433-5d7e1a7529a7.pdf",
+    "viewer_url": "https://financialfilings.com/filings/brightstar-resources-limited/ma-activity/2016/38976518/",
+    "company": {
+     "id": 64581,
+     "name": "BRIGHTSTAR RESOURCES LIMITED",
+     "tagline": "Explores and develops gold assets at the Menzies and Laverton projects.",
+     "isins": [
+      "AU0000126633"
+     ],
+     "lei": "98450058F5901E0FC619",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 863992,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56201059,
+    "title": "Second Supplementary Target's Statement",
+    "release_datetime": "2016-01-12T00:15:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84513/2016/RNS/84513_rns_2016-01-11_3dd891c7-7dae-4cea-80da-1f449028b044.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84513/2016/RNS/84513_rns_2016-01-11_3dd891c7-7dae-4cea-80da-1f449028b044.pdf",
+    "viewer_url": "https://financialfilings.com/filings/armour-energy-ltd/ma-activity/2016/56201059/",
+    "company": {
+     "id": 84513,
+     "name": "Armour Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AJQ0"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 105042,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41655815,
+    "title": "Metals X Waives 90% Acceptance Condition in ABY Takeover",
+    "release_datetime": "2016-01-13T09:03:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10401/2016/RNS/10401_rns_2016-01-12_3a41d37f-6701-4e9d-a597-7ffde724a47a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10401/2016/RNS/10401_rns_2016-01-12_3a41d37f-6701-4e9d-a597-7ffde724a47a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/metals-x-limited/ma-activity/2016/41655815/",
+    "company": {
+     "id": 10401,
+     "name": "Metals X Limited",
+     "tagline": "A resources company focused on tin exploration, development, and production.",
+     "isins": [
+      "AU000000MLX7"
+     ],
+     "lei": "549300PYQIA9NE598013",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 119564,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44997641,
+    "title": "Offer to acquire UK retailer Homebase for GBP340 million",
+    "release_datetime": "2016-01-13T21:28:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66054/2016/RNS/66054_rns_2016-01-13_37feb93f-6bc0-445b-8cd5-16c0a59cd8cc.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66054/2016/RNS/66054_rns_2016-01-13_37feb93f-6bc0-445b-8cd5-16c0a59cd8cc.pdf",
+    "viewer_url": "https://financialfilings.com/filings/wesfarmers-limited/ma-activity/2016/44997641/",
+    "company": {
+     "id": 66054,
+     "name": "WESFARMERS LIMITED",
+     "tagline": "Diversified operator of retail, healthcare, chemical, and industrial businesses.",
+     "isins": [
+      "AU000000WES1"
+     ],
+     "lei": "5493003L32ZX9557ST85",
+     "sub_industry_code": "4719",
+     "oics_code": "CL.RT.STR.SPS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 197815,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41655798,
+    "title": "ABY: Metals X Extends ABY Takeover Offer",
+    "release_datetime": "2016-01-14T22:47:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10401/2016/RNS/10401_rns_2016-01-14_9c1db4bd-32ed-4634-8d31-00d1c9a059f7.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10401/2016/RNS/10401_rns_2016-01-14_9c1db4bd-32ed-4634-8d31-00d1c9a059f7.pdf",
+    "viewer_url": "https://financialfilings.com/filings/metals-x-limited/ma-activity/2016/41655798/",
+    "company": {
+     "id": 10401,
+     "name": "Metals X Limited",
+     "tagline": "A resources company focused on tin exploration, development, and production.",
+     "isins": [
+      "AU000000MLX7"
+     ],
+     "lei": "549300PYQIA9NE598013",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 105933,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44997639,
+    "title": "Agreement to acquire UK retailer Homebase",
+    "release_datetime": "2016-01-17T22:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66054/2016/RNS/66054_rns_2016-01-17_daac2664-c994-4cf6-8491-cc06ceca0cbf.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66054/2016/RNS/66054_rns_2016-01-17_daac2664-c994-4cf6-8491-cc06ceca0cbf.pdf",
+    "viewer_url": "https://financialfilings.com/filings/wesfarmers-limited/ma-activity/2016/44997639/",
+    "company": {
+     "id": 66054,
+     "name": "WESFARMERS LIMITED",
+     "tagline": "Diversified operator of retail, healthcare, chemical, and industrial businesses.",
+     "isins": [
+      "AU000000WES1"
+     ],
+     "lei": "5493003L32ZX9557ST85",
+     "sub_industry_code": "4719",
+     "oics_code": "CL.RT.STR.SPS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 133961,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56224948,
+    "title": "Beston enters into JV with Hong Kong based Sunwah Group",
+    "release_datetime": "2016-01-18T00:43:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84637/2016/RNS/84637_rns_2016-01-17_d0053893-576f-47e0-ab6a-87ce75aa006d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84637/2016/RNS/84637_rns_2016-01-17_d0053893-576f-47e0-ab6a-87ce75aa006d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/beston-global-food-company-ltd/ma-activity/2016/56224948/",
+    "company": {
+     "id": 84637,
+     "name": "Beston Global Food Company Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000BFC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "1079",
+     "oics_code": "CE.EG.FOD.PKG",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 95266,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39742068,
+    "title": "IOF Scheme Update - ACCC approval received",
+    "release_datetime": "2016-01-18T23:50:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2016/RNS/64807_rns_2016-01-18_26b31ff2-1552-4c8b-8cb5-f8dc026e91cc.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64807/2016/RNS/64807_rns_2016-01-18_26b31ff2-1552-4c8b-8cb5-f8dc026e91cc.pdf",
+    "viewer_url": "https://financialfilings.com/filings/dexus/ma-activity/2016/39742068/",
+    "company": {
+     "id": 64807,
+     "name": "DEXUS",
+     "tagline": "Manages, develops, and invests in diverse property sectors and funds management.",
+     "isins": [
+      "AU000000DXS1"
+     ],
+     "lei": "254900IHKSCYXWD2JA35",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.OFF",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 68837,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38088649,
+    "title": "Acquisition of Crampton Automotive Group",
+    "release_datetime": "2016-01-19T00:18:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64400/2016/RNS/64400_rns_2016-01-18_213b1cd0-4c94-40ac-a075-cba1aafc533c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64400/2016/RNS/64400_rns_2016-01-18_213b1cd0-4c94-40ac-a075-cba1aafc533c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/eagers-automotive-limited/ma-activity/2016/38088649/",
+    "company": {
+     "id": 64400,
+     "name": "EAGERS AUTOMOTIVE LIMITED",
+     "tagline": "Automotive retail group specializing in vehicle sales, maintenance, and financing.",
+     "isins": [
+      "AU000000APE3"
+     ],
+     "lei": "2549009FI5JQMNR9RJ37",
+     "sub_industry_code": "4781",
+     "oics_code": "CL.RT.STR.DLR",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 46333,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 45096992,
+    "title": "VAN: 100% Purchase of Plutonic Dome Gold Project",
+    "release_datetime": "2016-01-19T02:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66114/2016/RNS/66114_rns_2016-01-18_936f142a-ba7c-4233-9c13-16c696bcba3b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66114/2016/RNS/66114_rns_2016-01-18_936f142a-ba7c-4233-9c13-16c696bcba3b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/zuleika-gold-limited/ma-activity/2016/45096992/",
+    "company": {
+     "id": 66114,
+     "name": "ZULEIKA GOLD LIMITED",
+     "tagline": "Explores for gold deposits in the Zuleika Shear zone and Eastern Goldfields region.",
+     "isins": [
+      "AU0000135220"
+     ],
+     "lei": "529900HB6L9SN6CC8L84",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 626864,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44631850,
+    "title": "Zhaopin Limited - preliminary non-binding proposal",
+    "release_datetime": "2016-01-19T21:54:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65765/2016/RNS/65765_rns_2016-01-19_05dde2cc-e8bd-4399-8440-f39a3dff0a33.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65765/2016/RNS/65765_rns_2016-01-19_05dde2cc-e8bd-4399-8440-f39a3dff0a33.pdf",
+    "viewer_url": "https://financialfilings.com/filings/seek-limited/ma-activity/2016/44631850/",
+    "company": {
+     "id": 65765,
+     "name": "SEEK LIMITED",
+     "tagline": "Operates global digital employment marketplaces and recruitment technology products.",
+     "isins": [
+      "AU000000SEK6"
+     ],
+     "lei": "549300209NEKXBC8QO27",
+     "sub_industry_code": "6390",
+     "oics_code": "CM.OL.OLP.OLP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 91836,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

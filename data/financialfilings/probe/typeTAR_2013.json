@@ -1,0 +1,954 @@
+{
+ "status": 200,
+ "body": {
+  "count": 947,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2013-01-01T00%3A00%3A00Z&release_datetime_to=2013-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 43869345,
+    "title": "WIG First Supplementary Target's Statement",
+    "release_datetime": "2013-01-02T01:54:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65584/2013/RNS/65584_rns_2013-01-01_707d8816-8aeb-46b6-8ea7-6aa17665028a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65584/2013/RNS/65584_rns_2013-01-01_707d8816-8aeb-46b6-8ea7-6aa17665028a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pinnacle-investment-management-group-limited/ma-activity/2013/43869345/",
+    "company": {
+     "id": 65584,
+     "name": "PINNACLE INVESTMENT MANAGEMENT GROUP LIMITED",
+     "tagline": "Multi-affiliate investment firm providing operational services to boutique managers.",
+     "isins": [
+      "AU000000PNI7"
+     ],
+     "lei": "549300NZ7YB76KH8E849",
+     "sub_industry_code": "6630",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 651040,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56209447,
+    "title": "Extension of due diligence period",
+    "release_datetime": "2013-01-02T06:13:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84563/2013/RNS/84563_rns_2013-01-01_14c5fa6c-3110-4398-8b8a-aff417b58415.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84563/2013/RNS/84563_rns_2013-01-01_14c5fa6c-3110-4398-8b8a-aff417b58415.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aus-asia-minerals-ltd/ma-activity/2013/56209447/",
+    "company": {
+     "id": 84563,
+     "name": "Aus Asia Minerals Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AQJ0"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 378586,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37996269,
+    "title": "Ansell Ltd Acquires Hercules Equipamentos De Protecao Ltda",
+    "release_datetime": "2013-01-02T21:49:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64385/2013/RNS/64385_rns_2013-01-02_936f04c5-6d4f-4fcc-9a30-e30266650413.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64385/2013/RNS/64385_rns_2013-01-02_936f04c5-6d4f-4fcc-9a30-e30266650413.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ansell-limited/ma-activity/2013/37996269/",
+    "company": {
+     "id": 64385,
+     "name": "ANSELL LIMITED",
+     "tagline": "Global developer and manufacturer of advanced hand and body protection solutions.",
+     "isins": [
+      "AU000000ANN9"
+     ],
+     "lei": "549300NEGJ5G23VCJM45",
+     "sub_industry_code": "3290",
+     "oics_code": "HC.MT.MDV.MSD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 77192,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40429360,
+    "title": "Takeover to Access Highly Prospective Kou Sa Copper Project",
+    "release_datetime": "2013-01-03T01:11:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65008/2013/RNS/65008_rns_2013-01-02_03f8bc7c-6c8f-4eef-be57-3951ed820d8a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65008/2013/RNS/65008_rns_2013-01-02_03f8bc7c-6c8f-4eef-be57-3951ed820d8a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/geopacific-resources-ltd/ma-activity/2013/40429360/",
+    "company": {
+     "id": 65008,
+     "name": "GEOPACIFIC RESOURCES LTD",
+     "tagline": "Focuses on the exploration and development of the Woodlark Gold Project.",
+     "isins": [
+      "AU000000GPR2"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1755385,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41410490,
+    "title": "Sembawang Proposal",
+    "release_datetime": "2013-01-03T23:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65291/2013/RNS/65291_rns_2013-01-03_f93eac60-523e-4c9c-9880-b05415fd8ee0.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65291/2013/RNS/65291_rns_2013-01-03_f93eac60-523e-4c9c-9880-b05415fd8ee0.pdf",
+    "viewer_url": "https://financialfilings.com/filings/macmahon-holdings-limited/ma-activity/2013/41410490/",
+    "company": {
+     "id": 65291,
+     "name": "MACMAHON HOLDINGS LIMITED",
+     "tagline": "Provides surface and underground mining services, civil engineering, and maintenance.",
+     "isins": [
+      "AU000000MAH3"
+     ],
+     "lei": "52990031UMN8E6ARZC86",
+     "sub_industry_code": "0990",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 327106,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40355968,
+    "title": "GLOBE TARGETS STATEMENT IN RESPONSE TO MARINER OFFER",
+    "release_datetime": "2013-01-06T22:30:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64990/2013/RNS/64990_rns_2013-01-06_aa8f3720-66ad-4c04-8319-b7657e01f5d8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64990/2013/RNS/64990_rns_2013-01-06_aa8f3720-66ad-4c04-8319-b7657e01f5d8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/globe-international-limited/ma-activity/2013/40355968/",
+    "company": {
+     "id": 64990,
+     "name": "GLOBE INTERNATIONAL LIMITED",
+     "tagline": "Global producer of purpose-built apparel, footwear, and skateboard hardware.",
+     "isins": [
+      "AU000000GLB5"
+     ],
+     "lei": "549300DN0M2XH7FFKS55",
+     "sub_industry_code": "1410",
+     "oics_code": "CL.GD.APR.AFW",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 403016,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56370563,
+    "title": "iCar Asia Announces Acquisition",
+    "release_datetime": "2013-01-07T03:04:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85057/2013/RNS/85057_rns_2013-01-07_8e653c95-ce9f-4cca-854e-36f9a9624403.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85057/2013/RNS/85057_rns_2013-01-07_8e653c95-ce9f-4cca-854e-36f9a9624403.pdf",
+    "viewer_url": "https://financialfilings.com/filings/icar-asia-limited/ma-activity/2013/56370563/",
+    "company": {
+     "id": 85057,
+     "name": "iCar Asia Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000ICQ8"
+     ],
+     "lei": "",
+     "sub_industry_code": "6390",
+     "oics_code": "CM.OL.OLP.OLP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 128033,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56490074,
+    "title": "Acquisition of Zenith Solutions (Aust) Pty Ltd",
+    "release_datetime": "2013-01-07T04:44:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85529/2013/RNS/85529_rns_2013-01-07_39f2f72d-d244-45c1-92d2-0e745679f677.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85529/2013/RNS/85529_rns_2013-01-07_39f2f72d-d244-45c1-92d2-0e745679f677.pdf",
+    "viewer_url": "https://financialfilings.com/filings/rxp-services-limited/ma-activity/2013/56490074/",
+    "company": {
+     "id": 85529,
+     "name": "RXP Services Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000RXP7"
+     ],
+     "lei": "",
+     "sub_industry_code": "6220",
+     "oics_code": "TC.IT.ITS.ITC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 368217,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 42056562,
+    "title": "Intention to Make Takeover Bid",
+    "release_datetime": "2013-01-07T04:52:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65444/2013/RNS/65444_rns_2013-01-06_80f9391a-3d90-4446-b1fd-93882386c25b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65444/2013/RNS/65444_rns_2013-01-06_80f9391a-3d90-4446-b1fd-93882386c25b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/naos-small-cap-opportunities-company-limited/ma-activity/2013/42056562/",
+    "company": {
+     "id": 65444,
+     "name": "NAOS SMALL CAP OPPORTUNITIES COMPANY LIMITED",
+     "tagline": "Listed investment entity managing a concentrated portfolio of small-cap companies.",
+     "isins": [
+      "AU000000NSC4"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 203118,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41410471,
+    "title": "Sembawang Proposal dated 11 January 2013",
+    "release_datetime": "2013-01-11T04:43:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65291/2013/RNS/65291_rns_2013-01-10_9e957871-9a42-4b51-8dcd-fa38a026fa4c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65291/2013/RNS/65291_rns_2013-01-10_9e957871-9a42-4b51-8dcd-fa38a026fa4c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/macmahon-holdings-limited/ma-activity/2013/41410471/",
+    "company": {
+     "id": 65291,
+     "name": "MACMAHON HOLDINGS LIMITED",
+     "tagline": "Provides surface and underground mining services, civil engineering, and maintenance.",
+     "isins": [
+      "AU000000MAH3"
+     ],
+     "lei": "52990031UMN8E6ARZC86",
+     "sub_industry_code": "0990",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1575827,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56304858,
+    "title": "Successful Alesco takeover offer now closed",
+    "release_datetime": "2013-01-14T04:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84821/2013/RNS/84821_rns_2013-01-13_8ff2e4e0-815f-4a7c-86b7-f5021d76a9e9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84821/2013/RNS/84821_rns_2013-01-13_8ff2e4e0-815f-4a7c-86b7-f5021d76a9e9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/duluxgroup-limited/ma-activity/2013/56304858/",
+    "company": {
+     "id": 84821,
+     "name": "DuluxGroup Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000DLX6"
+     ],
+     "lei": "",
+     "sub_industry_code": "2022",
+     "oics_code": "MA.CH.SAC.PFC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 50191,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56223245,
+    "title": "Receipt of Alternative Proposal",
+    "release_datetime": "2013-01-14T06:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84616/2013/RNS/84616_rns_2013-01-13_0b3ab8d5-afcf-4429-b332-1110382642a0.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84616/2013/RNS/84616_rns_2013-01-13_0b3ab8d5-afcf-4429-b332-1110382642a0.pdf",
+    "viewer_url": "https://financialfilings.com/filings/billabong-international-limited/ma-activity/2013/56223245/",
+    "company": {
+     "id": 84616,
+     "name": "Billabong International Limited",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "1410",
+     "oics_code": "CL.GD.APR.AFW",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 492865,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41410459,
+    "title": "Macmahon rejects Sembawang proposal",
+    "release_datetime": "2013-01-14T06:58:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65291/2013/RNS/65291_rns_2013-01-13_4f14a65c-9e8b-44fa-a233-360d950f2004.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65291/2013/RNS/65291_rns_2013-01-13_4f14a65c-9e8b-44fa-a233-360d950f2004.pdf",
+    "viewer_url": "https://financialfilings.com/filings/macmahon-holdings-limited/ma-activity/2013/41410459/",
+    "company": {
+     "id": 65291,
+     "name": "MACMAHON HOLDINGS LIMITED",
+     "tagline": "Provides surface and underground mining services, civil engineering, and maintenance.",
+     "isins": [
+      "AU000000MAH3"
+     ],
+     "lei": "52990031UMN8E6ARZC86",
+     "sub_industry_code": "0990",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 606806,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39023695,
+    "title": "Compulsory Acquisition Notice (Taronga Mines)",
+    "release_datetime": "2013-01-14T07:18:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64598/2013/RNS/64598_rns_2013-01-13_0e353ff7-3a21-48f7-bb74-213c3ac42cde.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64598/2013/RNS/64598_rns_2013-01-13_0e353ff7-3a21-48f7-bb74-213c3ac42cde.pdf",
+    "viewer_url": "https://financialfilings.com/filings/clara-resources-australia-ltd/ma-activity/2013/39023695/",
+    "company": {
+     "id": 64598,
+     "name": "CLARA RESOURCES AUSTRALIA LTD",
+     "tagline": "Mineral exploration and development firm focused on coal, tin, nickel, and cobalt.",
+     "isins": [
+      "AU0000249831"
+     ],
+     "lei": "984500FACDC4BFD4Y840",
+     "sub_industry_code": "0510",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 311304,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37755803,
+    "title": "Ark to acquire interest in advanced gold project",
+    "release_datetime": "2013-01-14T22:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64339/2013/RNS/64339_rns_2013-01-14_7ea03170-7750-4790-8543-43514a8a0c74.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64339/2013/RNS/64339_rns_2013-01-14_7ea03170-7750-4790-8543-43514a8a0c74.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ark-mines-limited/ma-activity/2013/37755803/",
+    "company": {
+     "id": 64339,
+     "name": "ARK MINES LIMITED",
+     "tagline": "Explores and develops critical minerals for the global energy transition.",
+     "isins": [
+      "AU000000AHK7"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2338270,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41410445,
+    "title": "Macmahon again rejects approach by Sembawang",
+    "release_datetime": "2013-01-16T05:02:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65291/2013/RNS/65291_rns_2013-01-15_d3818cdd-e49f-4c02-b180-18beb32519b3.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65291/2013/RNS/65291_rns_2013-01-15_d3818cdd-e49f-4c02-b180-18beb32519b3.pdf",
+    "viewer_url": "https://financialfilings.com/filings/macmahon-holdings-limited/ma-activity/2013/41410445/",
+    "company": {
+     "id": 65291,
+     "name": "MACMAHON HOLDINGS LIMITED",
+     "tagline": "Provides surface and underground mining services, civil engineering, and maintenance.",
+     "isins": [
+      "AU000000MAH3"
+     ],
+     "lei": "52990031UMN8E6ARZC86",
+     "sub_industry_code": "0990",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 185602,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56261979,
+    "title": "COURT APPROVES CGA MINING LIMITED SCHEME OF ARRANGEMENT",
+    "release_datetime": "2013-01-16T06:12:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84725/2013/RNS/84725_rns_2013-01-15_1ecec836-ccee-45e8-aca2-46ed11325ff7.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84725/2013/RNS/84725_rns_2013-01-15_1ecec836-ccee-45e8-aca2-46ed11325ff7.pdf",
+    "viewer_url": "https://financialfilings.com/filings/cga-mining-ltd/ma-activity/2013/56261979/",
+    "company": {
+     "id": 84725,
+     "name": "CGA Mining Ltd",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "0899",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 898555,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56507040,
+    "title": "Sale of Port Bonython Fuels to Mitsubishi Corporation",
+    "release_datetime": "2013-01-16T22:37:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85631/2013/RNS/85631_rns_2013-01-16_fc27b527-4dda-4f13-af46-a6bad251741e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85631/2013/RNS/85631_rns_2013-01-16_fc27b527-4dda-4f13-af46-a6bad251741e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/senex-energy-limited/ma-activity/2013/56507040/",
+    "company": {
+     "id": 85631,
+     "name": "Senex Energy Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000SXY7"
+     ],
+     "lei": "",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 188461,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 42056543,
+    "title": "Bidder's Statement",
+    "release_datetime": "2013-01-18T05:10:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65444/2013/RNS/65444_rns_2013-01-17_07c083ac-8259-4efe-83e9-1565f3df82fd.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65444/2013/RNS/65444_rns_2013-01-17_07c083ac-8259-4efe-83e9-1565f3df82fd.pdf",
+    "viewer_url": "https://financialfilings.com/filings/naos-small-cap-opportunities-company-limited/ma-activity/2013/42056543/",
+    "company": {
+     "id": 65444,
+     "name": "NAOS SMALL CAP OPPORTUNITIES COMPANY LIMITED",
+     "tagline": "Listed investment entity managing a concentrated portfolio of small-cap companies.",
+     "isins": [
+      "AU000000NSC4"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 536275,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40078698,
+    "title": "EMG to Acquire Columbian Base and Precious Metals Explorer",
+    "release_datetime": "2013-01-20T22:54:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64910/2013/RNS/64910_rns_2013-01-20_51455d0e-f6dd-43f1-960c-a45eb57e790e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64910/2013/RNS/64910_rns_2013-01-20_51455d0e-f6dd-43f1-960c-a45eb57e790e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/fenix-resources-ltd/ma-activity/2013/40078698/",
+    "company": {
+     "id": 64910,
+     "name": "FENIX RESOURCES LTD",
+     "tagline": "Produces high-grade iron ore using an integrated mine-to-port logistics model.",
+     "isins": [
+      "AU0000025132"
+     ],
+     "lei": "9845005509CD56C90C23",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 577061,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37942282,
+    "title": "YTC and Glencore Extend Exclusivity Period",
+    "release_datetime": "2013-01-20T23:02:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64376/2013/RNS/64376_rns_2013-01-20_ddef29cf-3bd5-41d7-9001-b41ca8706e58.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64376/2013/RNS/64376_rns_2013-01-20_ddef29cf-3bd5-41d7-9001-b41ca8706e58.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aurelia-metals-limited/ma-activity/2013/37942282/",
+    "company": {
+     "id": 64376,
+     "name": "AURELIA METALS LIMITED",
+     "tagline": "Gold and base metal producer focused on high-grade polymetallic asset development.",
+     "isins": [
+      "AU000000AMI1"
+     ],
+     "lei": "5493005OS7G5RY15ND07",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-31"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 260434,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44791418,
+    "title": "ARFuels - First Supplementary Bidder's Statement",
+    "release_datetime": "2013-01-21T06:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65908/2013/RNS/65908_rns_2013-01-20_a5b0c595-ce91-4a8f-b6b8-a0d9af86e613.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65908/2013/RNS/65908_rns_2013-01-20_a5b0c595-ce91-4a8f-b6b8-a0d9af86e613.pdf",
+    "viewer_url": "https://financialfilings.com/filings/thorney-technologies-ltd/ma-activity/2013/44791418/",
+    "company": {
+     "id": 65908,
+     "name": "THORNEY TECHNOLOGIES LTD",
+     "tagline": "Invests in high-growth technology firms across early-stage, pre-IPO, and listed stages.",
+     "isins": [
+      "AU000000TEK4"
+     ],
+     "lei": "984500PDED52K3CGCE32",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 127190,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41268228,
+    "title": "LIO Acquisition of KRX",
+    "release_datetime": "2013-01-22T04:13:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65237/2013/RNS/65237_rns_2013-01-21_2c298710-a7e1-4bc1-9f70-a5abb25bfec3.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65237/2013/RNS/65237_rns_2013-01-21_2c298710-a7e1-4bc1-9f70-a5abb25bfec3.pdf",
+    "viewer_url": "https://financialfilings.com/filings/lion-energy-limited/ma-activity/2013/41268228/",
+    "company": {
+     "id": 65237,
+     "name": "LION ENERGY LIMITED",
+     "tagline": "Indonesian oil and gas producer and green hydrogen infrastructure developer.",
+     "isins": [
+      "AU000000LIO4"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 301938,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56496244,
+    "title": "Proposed Acquisition of Success Resources Pte Ltd",
+    "release_datetime": "2013-01-22T22:31:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85565/2013/RNS/85565_rns_2013-01-22_6ac2e4fd-cc8a-4bf7-aa1c-f78a186b819f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85565/2013/RNS/85565_rns_2013-01-22_6ac2e4fd-cc8a-4bf7-aa1c-f78a186b819f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/success-global-media-limited/ma-activity/2013/56496244/",
+    "company": {
+     "id": 85565,
+     "name": "Success Global Media Limited",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "6039",
+     "oics_code": "CM.MC.ENT.FLM",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 225846,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39504533,
+    "title": "MOU with Kingsgate to Acquire QLD and WA Tenement Package",
+    "release_datetime": "2013-01-22T22:54:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64732/2013/RNS/64732_rns_2013-01-22_2f1a7426-4cfe-4910-aaef-10a14c5c67f1.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64732/2013/RNS/64732_rns_2013-01-22_2f1a7426-4cfe-4910-aaef-10a14c5c67f1.pdf",
+    "viewer_url": "https://financialfilings.com/filings/caravel-minerals-limited/ma-activity/2013/39504533/",
+    "company": {
+     "id": 64732,
+     "name": "CARAVEL MINERALS LIMITED",
+     "tagline": "Explores and develops large-scale copper projects for global electrification.",
+     "isins": [
+      "AU000000CVV1"
+     ],
+     "lei": "529900JWBM9WU7W4D979",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 625252,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

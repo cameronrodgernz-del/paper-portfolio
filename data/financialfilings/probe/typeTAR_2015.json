@@ -1,0 +1,954 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1078,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2015-01-01T00%3A00%3A00Z&release_datetime_to=2015-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 39777689,
+    "title": "IAB: Inabox completes acquisition of Anittel",
+    "release_datetime": "2015-01-01T21:35:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64818/2015/RNS/64818_rns_2015-01-01_1e272b20-4947-42e6-9cf5-138b14bb9a73.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64818/2015/RNS/64818_rns_2015-01-01_1e272b20-4947-42e6-9cf5-138b14bb9a73.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ecs-botanics-holdings-ltd/ma-activity/2015/39777689/",
+    "company": {
+     "id": 64818,
+     "name": "ECS BOTANICS HOLDINGS LTD",
+     "tagline": "Produces organic, pharmaceutical-grade medicinal cannabis flowers and extracted oils.",
+     "isins": [
+      "AU0000052490"
+     ],
+     "lei": "254900F6I1ORKXFIGD77",
+     "sub_industry_code": "0128",
+     "oics_code": "CE.EG.TOB.CNB",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 118554,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 3561545,
+    "title": "Form 8.3 - Iluka Resources Limited",
+    "release_datetime": "2015-01-02T12:24:40+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/5253/2015/RNS/5253_rns_2015-01-02_0da69ab2-986d-4987-aefa-7c7290414c69.html",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/5253/2015/RNS/5253_rns_2015-01-02_0da69ab2-986d-4987-aefa-7c7290414c69.html",
+    "viewer_url": "https://financialfilings.com/filings/iluka-resources-limited/ma-activity/2015/3561545/",
+    "company": {
+     "id": 65116,
+     "name": "ILUKA RESOURCES LIMITED",
+     "tagline": "Global producer of zircon, titanium feedstocks, and separated rare earth oxides.",
+     "isins": [
+      "AU000000ILU1"
+     ],
+     "lei": "2549009N2Y1F4YNB0955",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.NMM",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "HTML",
+    "file_size": 105832,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39247432,
+    "title": "ANI: Review of 360 Capital Industrial Fund Scheme Proposal",
+    "release_datetime": "2015-01-04T22:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64654/2015/RNS/64654_rns_2015-01-04_6e6dac70-35cf-4611-8ddd-f3b371c1c079.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64654/2015/RNS/64654_rns_2015-01-04_6e6dac70-35cf-4611-8ddd-f3b371c1c079.pdf",
+    "viewer_url": "https://financialfilings.com/filings/centuria-industrial-reit/ma-activity/2015/39247432/",
+    "company": {
+     "id": 64654,
+     "name": "CENTURIA INDUSTRIAL REIT",
+     "tagline": "Owns and manages warehouses, logistics facilities, and distribution centers.",
+     "isins": [
+      "AU000000CIP0"
+     ],
+     "lei": "984500D6B1D6BC3F7B08",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.LGP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 130788,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39442090,
+    "title": "Europe and US Acquisition now complete",
+    "release_datetime": "2015-01-04T22:02:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64713/2015/RNS/64713_rns_2015-01-04_d47c6671-4caa-42f7-bbf0-627fa15cfda4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64713/2015/RNS/64713_rns_2015-01-04_d47c6671-4caa-42f7-bbf0-627fa15cfda4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/corporate-travel-management-limited/ma-activity/2015/39442090/",
+    "company": {
+     "id": 64713,
+     "name": "CORPORATE TRAVEL MANAGEMENT LIMITED",
+     "tagline": "Global provider of travel management solutions and technology for diverse sectors.",
+     "isins": [
+      "AU000000CTD3"
+     ],
+     "lei": "529900NSAKXFXS5XED26",
+     "sub_industry_code": "7911",
+     "oics_code": "CL.SV.HSP.LTS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 304159,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39247426,
+    "title": "TIX - Amendment to Formal Off Market Takeover Offer for ANI",
+    "release_datetime": "2015-01-05T05:49:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64654/2015/RNS/64654_rns_2015-01-04_243a43d0-a930-4ffb-82ed-81eb6067f2f6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64654/2015/RNS/64654_rns_2015-01-04_243a43d0-a930-4ffb-82ed-81eb6067f2f6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/centuria-industrial-reit/ma-activity/2015/39247426/",
+    "company": {
+     "id": 64654,
+     "name": "CENTURIA INDUSTRIAL REIT",
+     "tagline": "Owns and manages warehouses, logistics facilities, and distribution centers.",
+     "isins": [
+      "AU000000CIP0"
+     ],
+     "lei": "984500D6B1D6BC3F7B08",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.LGP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 111016,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 3561768,
+    "title": "Form 8.3 - Iluka Resources Limited",
+    "release_datetime": "2015-01-05T12:04:05+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/5253/2015/RNS/5253_rns_2015-01-05_da089185-ce16-4aed-bf7b-119f43e66cc1.html",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/5253/2015/RNS/5253_rns_2015-01-05_da089185-ce16-4aed-bf7b-119f43e66cc1.html",
+    "viewer_url": "https://financialfilings.com/filings/iluka-resources-limited/ma-activity/2015/3561768/",
+    "company": {
+     "id": 65116,
+     "name": "ILUKA RESOURCES LIMITED",
+     "tagline": "Global producer of zircon, titanium feedstocks, and separated rare earth oxides.",
+     "isins": [
+      "AU000000ILU1"
+     ],
+     "lei": "2549009N2Y1F4YNB0955",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.NMM",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "HTML",
+    "file_size": 106559,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44634108,
+    "title": "Appointment of Chairman and CEO",
+    "release_datetime": "2015-01-06T01:37:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65767/2015/RNS/65767_rns_2015-01-05_377035d6-bb5c-4173-931c-5418aae2e740.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65767/2015/RNS/65767_rns_2015-01-05_377035d6-bb5c-4173-931c-5418aae2e740.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sequoia-financial-group-ltd/ma-activity/2015/44634108/",
+    "company": {
+     "id": 65767,
+     "name": "SEQUOIA FINANCIAL GROUP LTD",
+     "tagline": "Provides wealth management, financial planning, and asset management for HNW clients.",
+     "isins": [
+      "AU000000SEQ3"
+     ],
+     "lei": "",
+     "sub_industry_code": "6630",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 87128,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40335039,
+    "title": "Ninth Supplementary Bidder's Statement",
+    "release_datetime": "2015-01-06T04:16:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64980/2015/RNS/64980_rns_2015-01-05_eae30123-3c8e-463f-8b55-3b9debfe768d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64980/2015/RNS/64980_rns_2015-01-05_eae30123-3c8e-463f-8b55-3b9debfe768d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/genesis-resources-limited/ma-activity/2015/40335039/",
+    "company": {
+     "id": 64980,
+     "name": "GENESIS RESOURCES LIMITED",
+     "tagline": "Explores and develops gold, iron ore, manganese, and base metal resource projects.",
+     "isins": [
+      "AU000000GES4"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 126627,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 3561899,
+    "title": "Form 8.3 - Iluka Resources Limited",
+    "release_datetime": "2015-01-06T13:35:45+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/5253/2015/RNS/5253_rns_2015-01-06_4287f32a-cb3c-4a59-a87d-ad90981fe652.html",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/5253/2015/RNS/5253_rns_2015-01-06_4287f32a-cb3c-4a59-a87d-ad90981fe652.html",
+    "viewer_url": "https://financialfilings.com/filings/iluka-resources-limited/ma-activity/2015/3561899/",
+    "company": {
+     "id": 65116,
+     "name": "ILUKA RESOURCES LIMITED",
+     "tagline": "Global producer of zircon, titanium feedstocks, and separated rare earth oxides.",
+     "isins": [
+      "AU000000ILU1"
+     ],
+     "lei": "2549009N2Y1F4YNB0955",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.NMM",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "HTML",
+    "file_size": 105214,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56221693,
+    "title": "Azure to Acquire Advanced Alacran Copper Project",
+    "release_datetime": "2015-01-07T01:09:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84608/2015/RNS/84608_rns_2015-01-06_e7a740a7-8b74-473a-a0a7-70e0f395476c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84608/2015/RNS/84608_rns_2015-01-06_e7a740a7-8b74-473a-a0a7-70e0f395476c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/azure-minerals-ltd/ma-activity/2015/56221693/",
+    "company": {
+     "id": 84608,
+     "name": "Azure Minerals Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AZS2"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1264444,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 42048219,
+    "title": "MTN announces Leigh Creek Energy Project Acquisition",
+    "release_datetime": "2015-01-07T03:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65442/2015/RNS/65442_rns_2015-01-06_8bd89787-44e7-46eb-8365-2034ee4e7fcc.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65442/2015/RNS/65442_rns_2015-01-06_8bd89787-44e7-46eb-8365-2034ee4e7fcc.pdf",
+    "viewer_url": "https://financialfilings.com/filings/neurizer-ltd/ma-activity/2015/42048219/",
+    "company": {
+     "id": 65442,
+     "name": "NEURIZER LTD",
+     "tagline": "Developer of net-zero nitrogen fertilizer using gasification and carbon capture.",
+     "isins": [
+      "AU0000214967"
+     ],
+     "lei": "",
+     "sub_industry_code": "2012",
+     "oics_code": "MA.CH.SAC.FER",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 452043,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40812088,
+    "title": "Kenmare Resources PLC (Kenmare)",
+    "release_datetime": "2015-01-08T09:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65116/2015/RNS/65116_rns_2015-01-07_812d7fe5-f35d-435b-816b-45d7d7520c56.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65116/2015/RNS/65116_rns_2015-01-07_812d7fe5-f35d-435b-816b-45d7d7520c56.pdf",
+    "viewer_url": "https://financialfilings.com/filings/iluka-resources-limited/ma-activity/2015/40812088/",
+    "company": {
+     "id": 65116,
+     "name": "ILUKA RESOURCES LIMITED",
+     "tagline": "Global producer of zircon, titanium feedstocks, and separated rare earth oxides.",
+     "isins": [
+      "AU000000ILU1"
+     ],
+     "lei": "2549009N2Y1F4YNB0955",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.NMM",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 638230,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44187517,
+    "title": "Update on Ebenezer Mine Acquisition",
+    "release_datetime": "2015-01-08T21:52:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65638/2015/RNS/65638_rns_2015-01-08_5b73509c-862a-425b-87b4-283c316f7e45.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65638/2015/RNS/65638_rns_2015-01-08_5b73509c-862a-425b-87b4-283c316f7e45.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pacific-resources-limited/ma-activity/2015/44187517/",
+    "company": {
+     "id": 65638,
+     "name": "PACIFIC RESOURCES LIMITED",
+     "tagline": "Identifies, acquires, and develops mineral and energy resource projects.",
+     "isins": [
+      "AU0000435281"
+     ],
+     "lei": "",
+     "sub_industry_code": "0990",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 56540,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56345449,
+    "title": "Fairfax Acquisition of MMPH",
+    "release_datetime": "2015-01-11T21:40:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84957/2015/RNS/84957_rns_2015-01-11_29772a17-1203-4ac4-bd6b-debbf07646cf.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84957/2015/RNS/84957_rns_2015-01-11_29772a17-1203-4ac4-bd6b-debbf07646cf.pdf",
+    "viewer_url": "https://financialfilings.com/filings/fairfax-media-limited/ma-activity/2015/56345449/",
+    "company": {
+     "id": 84957,
+     "name": "Fairfax Media Limited",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "5812",
+     "oics_code": "CM.MC.MED.PBL",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 86922,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 63974637,
+    "title": "Trade Me acquires stake in peer-to-peer lender Harmoney",
+    "release_datetime": "2015-01-11T22:10:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85673/2015/RNS/85673_rns_2015-01-12_8a01b46a-de15-4a7e-b70f-21e27514e9ab.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85673/2015/RNS/85673_rns_2015-01-12_8a01b46a-de15-4a7e-b70f-21e27514e9ab.pdf",
+    "viewer_url": "https://financialfilings.com/filings/trade-me-group-limited/ma-activity/2015/63974637/",
+    "company": {
+     "id": 85673,
+     "name": "Trade Me Group Limited",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "4790",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-09-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 341602,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56388095,
+    "title": "TOV: KBL Mining Limited - Panel Receives Application",
+    "release_datetime": "2015-01-12T04:28:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85120/2015/RNS/85120_rns_2015-01-12_ba91e671-aa6c-4abb-966a-98ab0db1b9bf.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85120/2015/RNS/85120_rns_2015-01-12_ba91e671-aa6c-4abb-966a-98ab0db1b9bf.pdf",
+    "viewer_url": "https://financialfilings.com/filings/kbl-mining-limited/ma-activity/2015/56388095/",
+    "company": {
+     "id": 85120,
+     "name": "KBL Mining Limited",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 128535,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44075219,
+    "title": "SUCCESSFUL COMPLETION OF COMPULSORY ACQUISITION OF PRL",
+    "release_datetime": "2015-01-12T09:14:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65611/2015/RNS/65611_rns_2015-01-11_8bfb6fbd-9d34-446d-8186-c5149f08a236.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65611/2015/RNS/65611_rns_2015-01-11_8bfb6fbd-9d34-446d-8186-c5149f08a236.pdf",
+    "viewer_url": "https://financialfilings.com/filings/prl-global-ltd/ma-activity/2015/44075219/",
+    "company": {
+     "id": 65611,
+     "name": "PRL GLOBAL LTD",
+     "tagline": "Mines, processes, and distributes phosphate resources for global agricultural markets.",
+     "isins": [
+      "AU0000311680"
+     ],
+     "lei": "",
+     "sub_industry_code": "0891",
+     "oics_code": "MA.CH.SAC.FER",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 95445,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56526869,
+    "title": "Completion of Acquisition and Change of Company Name",
+    "release_datetime": "2015-01-13T05:12:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65982/2015/RNS/65982_rns_2015-01-13_66aaa337-56b0-481a-a686-49d9d1759994.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65982/2015/RNS/65982_rns_2015-01-13_66aaa337-56b0-481a-a686-49d9d1759994.pdf",
+    "viewer_url": "https://financialfilings.com/filings/unith-ltd/ma-activity/2015/56526869/",
+    "company": {
+     "id": 65982,
+     "name": "UNITH LTD",
+     "tagline": "Develops hyper-realistic AI avatars and digital humans for real-time interaction.",
+     "isins": [
+      "AU0000256646"
+     ],
+     "lei": "",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.BUS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 69731,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56409316,
+    "title": "Update on Merger with Stellar Films Group",
+    "release_datetime": "2015-01-13T05:54:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65304/2015/RNS/65304_rns_2015-01-13_0092d223-97d3-4f4f-9305-fa0440d43e7b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65304/2015/RNS/65304_rns_2015-01-13_0092d223-97d3-4f4f-9305-fa0440d43e7b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/myeco-group-ltd/ma-activity/2015/56409316/",
+    "company": {
+     "id": 65304,
+     "name": "MYECO GROUP LTD",
+     "tagline": "Provides energy efficiency solutions and sustainable technology services.",
+     "isins": [
+      "AU0000365637"
+     ],
+     "lei": "",
+     "sub_industry_code": "7110",
+     "oics_code": "MA.PK.PCK.PCK",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 71858,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40335035,
+    "title": "Tenth supplementary bidder's statement",
+    "release_datetime": "2015-01-16T04:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64980/2015/RNS/64980_rns_2015-01-15_df899170-b85f-472b-80ce-4d853beda857.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64980/2015/RNS/64980_rns_2015-01-15_df899170-b85f-472b-80ce-4d853beda857.pdf",
+    "viewer_url": "https://financialfilings.com/filings/genesis-resources-limited/ma-activity/2015/40335035/",
+    "company": {
+     "id": 64980,
+     "name": "GENESIS RESOURCES LIMITED",
+     "tagline": "Explores and develops gold, iron ore, manganese, and base metal resource projects.",
+     "isins": [
+      "AU000000GES4"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 155123,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56409314,
+    "title": "Trading Halt",
+    "release_datetime": "2015-01-18T22:58:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65304/2015/RNS/65304_rns_2015-01-18_a047fefa-dc39-4ad1-a8ea-05af2302480a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65304/2015/RNS/65304_rns_2015-01-18_a047fefa-dc39-4ad1-a8ea-05af2302480a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/myeco-group-ltd/ma-activity/2015/56409314/",
+    "company": {
+     "id": 65304,
+     "name": "MYECO GROUP LTD",
+     "tagline": "Provides energy efficiency solutions and sustainable technology services.",
+     "isins": [
+      "AU0000365637"
+     ],
+     "lei": "",
+     "sub_industry_code": "7110",
+     "oics_code": "MA.PK.PCK.PCK",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 113536,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41432126,
+    "title": "Improved terms of proposal",
+    "release_datetime": "2015-01-19T06:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65297/2015/RNS/65297_rns_2015-01-18_efd4d7f7-02c6-472f-8a2a-572da2abc902.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65297/2015/RNS/65297_rns_2015-01-18_efd4d7f7-02c6-472f-8a2a-572da2abc902.pdf",
+    "viewer_url": "https://financialfilings.com/filings/melbana-energy-limited/ma-activity/2015/41432126/",
+    "company": {
+     "id": 65297,
+     "name": "MELBANA ENERGY LIMITED",
+     "tagline": "Independent oil and gas company exploring hydrocarbon resources in Cuba and offshore.",
+     "isins": [
+      "AU000000MAY8"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 145378,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 10332475,
+    "title": "Update Re: Proposed MEO Takeover Bid",
+    "release_datetime": "2015-01-19T07:00:18+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10524/2015/TAR/10524_tar_2015-01-19_791ace61-2867-43f2-83c0-74440cacd7ee.html",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10524/2015/TAR/10524_tar_2015-01-19_791ace61-2867-43f2-83c0-74440cacd7ee.html",
+    "viewer_url": "https://financialfilings.com/filings/mosman-oil-and-gas-limited/ma-activity/2015/10332475/",
+    "company": {
+     "id": 10524,
+     "name": "Quantum Helium Limited",
+     "tagline": "Explores for helium, hydrogen, and hydrocarbons with assets in the US and Australia.",
+     "isins": [
+      "AU0000XINET1"
+     ],
+     "lei": "213800PWZID9URNNGZ54",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "HTML",
+    "file_size": 16502,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 3563275,
+    "title": "Form 8.3 - Iluka Resources Limited",
+    "release_datetime": "2015-01-19T14:44:40+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/5253/2015/RNS/5253_rns_2015-01-19_216813c6-025d-4dae-8d8e-24590b5aa59a.html",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/5253/2015/RNS/5253_rns_2015-01-19_216813c6-025d-4dae-8d8e-24590b5aa59a.html",
+    "viewer_url": "https://financialfilings.com/filings/iluka-resources-limited/ma-activity/2015/3563275/",
+    "company": {
+     "id": 65116,
+     "name": "ILUKA RESOURCES LIMITED",
+     "tagline": "Global producer of zircon, titanium feedstocks, and separated rare earth oxides.",
+     "isins": [
+      "AU000000ILU1"
+     ],
+     "lei": "2549009N2Y1F4YNB0955",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.NMM",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "HTML",
+    "file_size": 106566,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56409310,
+    "title": "Cardia signs agreement for merger with Stellar Films Group",
+    "release_datetime": "2015-01-19T22:45:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65304/2015/RNS/65304_rns_2015-01-19_9b9dff14-26d4-43f7-ba04-9d77bd0a7b9e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65304/2015/RNS/65304_rns_2015-01-19_9b9dff14-26d4-43f7-ba04-9d77bd0a7b9e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/myeco-group-ltd/ma-activity/2015/56409310/",
+    "company": {
+     "id": 65304,
+     "name": "MYECO GROUP LTD",
+     "tagline": "Provides energy efficiency solutions and sustainable technology services.",
+     "isins": [
+      "AU0000365637"
+     ],
+     "lei": "",
+     "sub_industry_code": "7110",
+     "oics_code": "MA.PK.PCK.PCK",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 135329,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

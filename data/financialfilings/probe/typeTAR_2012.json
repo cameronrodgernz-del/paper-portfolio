@@ -1,0 +1,958 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1100,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2012-01-01T00%3A00%3A00Z&release_datetime_to=2012-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 39378868,
+    "title": "CPU closes BNYMellon Shareowner Services acquisition",
+    "release_datetime": "2012-01-02T22:16:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64696/2012/RNS/64696_rns_2012-01-02_c5b3ccc7-bb70-4b28-a876-bac214ea53fc.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64696/2012/RNS/64696_rns_2012-01-02_c5b3ccc7-bb70-4b28-a876-bac214ea53fc.pdf",
+    "viewer_url": "https://financialfilings.com/filings/computershare-limited/ma-activity/2012/39378868/",
+    "company": {
+     "id": 64696,
+     "name": "COMPUTERSHARE LIMITED.",
+     "tagline": "Global provider of share registry, equity plans, and corporate trust services.",
+     "isins": [
+      "AU000000CPU5"
+     ],
+     "lei": "21380085HOKTMGLV9G93",
+     "sub_industry_code": "6619",
+     "oics_code": "FI.MK.MKI.EXC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 16040,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39214832,
+    "title": "CQO: Agreement Entered into with Consortium",
+    "release_datetime": "2012-01-02T23:26:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64645/2012/RNS/64645_rns_2012-01-02_8591b0b0-15ce-4e29-99ec-5a4e07c817af.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64645/2012/RNS/64645_rns_2012-01-02_8591b0b0-15ce-4e29-99ec-5a4e07c817af.pdf",
+    "viewer_url": "https://financialfilings.com/filings/charter-hall-group/ma-activity/2012/39214832/",
+    "company": {
+     "id": 64645,
+     "name": "CHARTER HALL GROUP",
+     "tagline": "Integrated property investment and management firm managing diverse real estate assets.",
+     "isins": [
+      "AU000000CHC0"
+     ],
+     "lei": "254900PJ75X7THUAD153",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.OFF",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1093316,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39214813,
+    "title": "Finalisation of Consortium Arrangements for CQO",
+    "release_datetime": "2012-01-02T23:34:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64645/2012/RNS/64645_rns_2012-01-02_cf12fa9f-934f-45d8-a874-c7058457c50d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64645/2012/RNS/64645_rns_2012-01-02_cf12fa9f-934f-45d8-a874-c7058457c50d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/charter-hall-group/ma-activity/2012/39214813/",
+    "company": {
+     "id": 64645,
+     "name": "CHARTER HALL GROUP",
+     "tagline": "Integrated property investment and management firm managing diverse real estate assets.",
+     "isins": [
+      "AU000000CHC0"
+     ],
+     "lei": "254900PJ75X7THUAD153",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.COM.OFF",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 53777,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38076413,
+    "title": "First Supplementary Bidder`s Statement",
+    "release_datetime": "2012-01-03T04:38:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64398/2012/RNS/64398_rns_2012-01-02_41144168-a2b8-45b4-add8-66d3ed502dd2.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64398/2012/RNS/64398_rns_2012-01-02_41144168-a2b8-45b4-add8-66d3ed502dd2.pdf",
+    "viewer_url": "https://financialfilings.com/filings/apa-group/ma-activity/2012/38076413/",
+    "company": {
+     "id": 64398,
+     "name": "APA GROUP",
+     "tagline": "Operates gas pipelines, electricity transmission, and renewable energy assets.",
+     "isins": [
+      "AU000000APA1"
+     ],
+     "lei": "984500M36D4QE6DC2N32",
+     "sub_industry_code": "3520",
+     "oics_code": "EN.OG.PAR.PIP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 136641,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38676386,
+    "title": "COMPLETION OF SHARE SALE AGREEMENT",
+    "release_datetime": "2012-01-03T04:39:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64519/2012/RNS/64519_rns_2012-01-02_00f57a02-3908-4d1c-bfb0-e25ff00d1672.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64519/2012/RNS/64519_rns_2012-01-02_00f57a02-3908-4d1c-bfb0-e25ff00d1672.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bellevue-gold-limited/ma-activity/2012/38676386/",
+    "company": {
+     "id": 64519,
+     "name": "BELLEVUE GOLD LIMITED",
+     "tagline": "Operates a high-grade underground gold project powered by renewable energy.",
+     "isins": [
+      "AU0000019374"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 82665,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38076406,
+    "title": "Despatch of Bidder`s Statement completed",
+    "release_datetime": "2012-01-03T04:57:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64398/2012/RNS/64398_rns_2012-01-02_625743a4-4e67-4fed-8611-bfa5fcbcecd5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64398/2012/RNS/64398_rns_2012-01-02_625743a4-4e67-4fed-8611-bfa5fcbcecd5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/apa-group/ma-activity/2012/38076406/",
+    "company": {
+     "id": 64398,
+     "name": "APA GROUP",
+     "tagline": "Operates gas pipelines, electricity transmission, and renewable energy assets.",
+     "isins": [
+      "AU000000APA1"
+     ],
+     "lei": "984500M36D4QE6DC2N32",
+     "sub_industry_code": "3520",
+     "oics_code": "EN.OG.PAR.PIP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 6540619,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56409983,
+    "title": "BOM: Strategic Investor MDL 14.9%",
+    "release_datetime": "2012-01-03T23:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85212/2012/RNS/85212_rns_2012-01-03_1329fad2-a733-4ebc-804a-0333886d6402.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85212/2012/RNS/85212_rns_2012-01-03_1329fad2-a733-4ebc-804a-0333886d6402.pdf",
+    "viewer_url": "https://financialfilings.com/filings/mineral-deposits-limited/ma-activity/2012/56409983/",
+    "company": {
+     "id": 85212,
+     "name": "Mineral Deposits Limited",
+     "tagline": "",
+     "isins": [],
+     "lei": "",
+     "sub_industry_code": "0899",
+     "oics_code": "MA.MM.IMT.NMM",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 153755,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38891123,
+    "title": "Takeover of Adelaide Energy Limited - Compulsory Acquisition",
+    "release_datetime": "2012-01-04T01:43:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64558/2012/RNS/64558_rns_2012-01-03_81a5ce3a-7295-4be4-bef8-b366b02dbe5d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64558/2012/RNS/64558_rns_2012-01-03_81a5ce3a-7295-4be4-bef8-b366b02dbe5d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/beach-energy-limited/ma-activity/2012/38891123/",
+    "company": {
+     "id": 64558,
+     "name": "BEACH ENERGY LIMITED",
+     "tagline": "Explores, develops, and produces hydrocarbon resources across multiple basins.",
+     "isins": [
+      "AU000000BPT9"
+     ],
+     "lei": "8Q9PJD25OKTQT5FHUF40",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1508772,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56232809,
+    "title": "Ironwood and Bionomics Announce Agreement",
+    "release_datetime": "2012-01-04T22:03:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84665/2012/RNS/84665_rns_2012-01-04_683bc05e-fd26-4d71-bf12-ea3438f713be.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84665/2012/RNS/84665_rns_2012-01-04_683bc05e-fd26-4d71-bf12-ea3438f713be.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bionomics-ltd/ma-activity/2012/56232809/",
+    "company": {
+     "id": 84665,
+     "name": "Bionomics Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000BNO5"
+     ],
+     "lei": "",
+     "sub_industry_code": "7210",
+     "oics_code": "HC.PH.BIO.CLB",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 214953,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37519941,
+    "title": "PanTerra Gold offer for Novus Gold Corp",
+    "release_datetime": "2012-01-05T01:52:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64277/2012/RNS/64277_rns_2012-01-04_daaf53af-1816-4cf8-98f1-644f0a884d8f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64277/2012/RNS/64277_rns_2012-01-04_daaf53af-1816-4cf8-98f1-644f0a884d8f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/antilles-gold-limited/ma-activity/2012/37519941/",
+    "company": {
+     "id": 64277,
+     "name": "ANTILLES GOLD LIMITED",
+     "tagline": "Explores and develops gold, silver, and copper projects in Cuba via joint ventures.",
+     "isins": [
+      "AU0000115172"
+     ],
+     "lei": "984500D1DE49L0B13A64",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 234828,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56382760,
+    "title": "Jacka Completes Aje Field - OML113 Acquisition",
+    "release_datetime": "2012-01-05T03:53:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85111/2012/RNS/85111_rns_2012-01-05_9e888e0f-de43-4051-a451-26d55f8c60ec.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85111/2012/RNS/85111_rns_2012-01-05_9e888e0f-de43-4051-a451-26d55f8c60ec.pdf",
+    "viewer_url": "https://financialfilings.com/filings/jacka-resources-limited/ma-activity/2012/56382760/",
+    "company": {
+     "id": 85111,
+     "name": "Jacka Resources Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000JKA3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 121165,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41082079,
+    "title": "Notice of status of conditions for LRC",
+    "release_datetime": "2012-01-05T23:41:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65175/2012/RNS/65175_rns_2012-01-05_25104415-a495-41c0-a352-4218714239d7.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65175/2012/RNS/65175_rns_2012-01-05_25104415-a495-41c0-a352-4218714239d7.pdf",
+    "viewer_url": "https://financialfilings.com/filings/kingsgate-consolidated-limited/ma-activity/2012/41082079/",
+    "company": {
+     "id": 65175,
+     "name": "KINGSGATE CONSOLIDATED LIMITED.",
+     "tagline": "Explores and operates gold and silver assets, primarily the Chatree Gold Mine.",
+     "isins": [
+      "AU000000KCN1"
+     ],
+     "lei": "529900B1W7D8DLEC7178",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 24501,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44423925,
+    "title": "Rio Tinto offer for Hathor Exploration",
+    "release_datetime": "2012-01-08T21:27:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65705/2012/RNS/65705_rns_2012-01-08_ccfec55c-6768-4e60-98a5-794e88671c8b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65705/2012/RNS/65705_rns_2012-01-08_ccfec55c-6768-4e60-98a5-794e88671c8b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/rio-tinto-limited/ma-activity/2012/44423925/",
+    "company": {
+     "id": 65705,
+     "name": "RIO TINTO LIMITED",
+     "tagline": "Global mining group producing iron ore, copper, and materials for energy transition.",
+     "isins": [
+      "AU000000RIO1"
+     ],
+     "lei": "529900X2VMAQT2PE0V24",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.IMT.ALU",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 41709,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56224391,
+    "title": "T/O by WNI - Notice of Fulfilment of Condition",
+    "release_datetime": "2012-01-08T21:28:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/48994/2012/RNS/48994_rns_2012-01-08_2f3b2320-4850-4803-b7e5-dd77142bcff5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/48994/2012/RNS/48994_rns_2012-01-08_2f3b2320-4850-4803-b7e5-dd77142bcff5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2012/56224391/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 31307,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56208523,
+    "title": "Alacer Announces Closing of Copler Option",
+    "release_datetime": "2012-01-09T23:20:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84561/2012/RNS/84561_rns_2012-01-09_d5c71492-af9f-4c6d-960f-01feb0aedf0e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84561/2012/RNS/84561_rns_2012-01-09_d5c71492-af9f-4c6d-960f-01feb0aedf0e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/alacer-gold-corp-1/ma-activity/2012/56208523/",
+    "company": {
+     "id": 84561,
+     "name": "Alacer Gold Corp",
+     "tagline": "",
+     "isins": [
+      "AU000000AQG6"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 136487,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56224389,
+    "title": "Notice of Fulfilment of Subscription Condition for BRM",
+    "release_datetime": "2012-01-10T09:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/48994/2012/RNS/48994_rns_2012-01-09_6a2ee72c-7c8d-4837-9f1d-da39e1dd02b2.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/48994/2012/RNS/48994_rns_2012-01-09_6a2ee72c-7c8d-4837-9f1d-da39e1dd02b2.pdf",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2012/56224389/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 132300,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 14280196,
+    "title": "OVERSEAS REGULATORY ANNOUNCEMENT",
+    "release_datetime": "2012-01-10T11:39:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2012/RNS/49091_rns_2012-01-10_c70f70d4-84d5-4816-8cae-76ab09a2acc6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2012/RNS/49091_rns_2012-01-10_c70f70d4-84d5-4816-8cae-76ab09a2acc6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2012/14280196/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 216310,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": "Announcements and Notices - [Overseas Regulatory Announcement]"
+   },
+   {
+    "id": 40725013,
+    "title": "AKI: Cash Takeover offer by Exxaro for African Iron Limited",
+    "release_datetime": "2012-01-10T22:28:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65091/2012/RNS/65091_rns_2012-01-10_dd4e61ba-6d02-42d2-bf9e-f02337266856.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65091/2012/RNS/65091_rns_2012-01-10_dd4e61ba-6d02-42d2-bf9e-f02337266856.pdf",
+    "viewer_url": "https://financialfilings.com/filings/iron-bear-resources-ltd/ma-activity/2012/40725013/",
+    "company": {
+     "id": 65091,
+     "name": "IRON BEAR RESOURCES LTD",
+     "tagline": "Explores and develops high-grade iron ore assets within the Labrador Trough region.",
+     "isins": [
+      "AU0000453557"
+     ],
+     "lei": "529900AT8M70EH4LV872",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 118329,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40725024,
+    "title": "AKI: Bid Implementation Agreement (Exxaro)",
+    "release_datetime": "2012-01-10T22:28:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65091/2012/RNS/65091_rns_2012-01-10_406158d4-e8fa-4a21-a158-719f9c152e39.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65091/2012/RNS/65091_rns_2012-01-10_406158d4-e8fa-4a21-a158-719f9c152e39.pdf",
+    "viewer_url": "https://financialfilings.com/filings/iron-bear-resources-ltd/ma-activity/2012/40725024/",
+    "company": {
+     "id": 65091,
+     "name": "IRON BEAR RESOURCES LTD",
+     "tagline": "Explores and develops high-grade iron ore assets within the Labrador Trough region.",
+     "isins": [
+      "AU0000453557"
+     ],
+     "lei": "529900AT8M70EH4LV872",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 483832,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40725007,
+    "title": "Support for Exxaro`s Takeover Offer for African Iron",
+    "release_datetime": "2012-01-10T22:38:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65091/2012/RNS/65091_rns_2012-01-10_f0e69551-ab5c-423e-9fb6-184ca3f3fe60.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65091/2012/RNS/65091_rns_2012-01-10_f0e69551-ab5c-423e-9fb6-184ca3f3fe60.pdf",
+    "viewer_url": "https://financialfilings.com/filings/iron-bear-resources-ltd/ma-activity/2012/40725007/",
+    "company": {
+     "id": 65091,
+     "name": "IRON BEAR RESOURCES LTD",
+     "tagline": "Explores and develops high-grade iron ore assets within the Labrador Trough region.",
+     "isins": [
+      "AU0000453557"
+     ],
+     "lei": "529900AT8M70EH4LV872",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 313807,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39952393,
+    "title": "Exxaro Makes All Cash Takeover Bid for African Iron Limited",
+    "release_datetime": "2012-01-11T01:40:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64870/2012/RNS/64870_rns_2012-01-10_8e42edc6-68b5-4c5c-acce-bb85ecaab3ed.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64870/2012/RNS/64870_rns_2012-01-10_8e42edc6-68b5-4c5c-acce-bb85ecaab3ed.pdf",
+    "viewer_url": "https://financialfilings.com/filings/equatorial-resources-limited/ma-activity/2012/39952393/",
+    "company": {
+     "id": 64870,
+     "name": "EQUATORIAL RESOURCES LIMITED",
+     "tagline": "Explores and develops iron ore assets, primarily in the Republic of Congo.",
+     "isins": [
+      "AU000000EQX3"
+     ],
+     "lei": "213800NGCEHXF4NENJ33",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 988457,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56224372,
+    "title": "Wah Nam Offer Extended Until 20 February for BRM",
+    "release_datetime": "2012-01-13T03:16:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/48994/2012/RNS/48994_rns_2012-01-12_efce5c22-32cc-441d-9da2-734d56dd0c4d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/48994/2012/RNS/48994_rns_2012-01-12_efce5c22-32cc-441d-9da2-734d56dd0c4d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2012/56224372/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 491703,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 14280194,
+    "title": "OVERSEAS REGULATORY ANNOUNCEMENT",
+    "release_datetime": "2012-01-13T03:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2012/RNS/49091_rns_2012-01-13_e491feea-f76c-4dce-a7cc-8a53be71ce30.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2012/RNS/49091_rns_2012-01-13_e491feea-f76c-4dce-a7cc-8a53be71ce30.pdf",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2012/14280194/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 572929,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": "Announcements and Notices - [Overseas Regulatory Announcement]"
+   },
+   {
+    "id": 14280193,
+    "title": "EXTENSION OF THE OFFER PERIOD OF\r\nTHE CONDITIONAL OFFER FOR BRM SHARES",
+    "release_datetime": "2012-01-13T04:51:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2012/RNS/49091_rns_2012-01-13_e4e7702b-04a6-43eb-9109-571870a5474d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/49091/2012/RNS/49091_rns_2012-01-13_e4e7702b-04a6-43eb-9109-571870a5474d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/brockman-mining-limited/ma-activity/2012/14280193/",
+    "company": {
+     "id": 48994,
+     "name": "Brockman Mining Limited",
+     "tagline": "Engaged in the acquisition, exploration, and development of Australian iron ore projects.",
+     "isins": [
+      "BMG1739E1084"
+     ],
+     "lei": "894500QZPNJDZ5H8C432",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 195927,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": "Announcements and Notices - [Major Transaction / Connected Transaction / Variation to Terms]"
+   },
+   {
+    "id": 37530701,
+    "title": "Proposed merger with Abacus Storage Fund",
+    "release_datetime": "2012-01-13T06:54:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64280/2012/RNS/64280_rns_2012-01-12_6627ca72-d952-4455-ac75-9a97d56b65a0.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64280/2012/RNS/64280_rns_2012-01-12_6627ca72-d952-4455-ac75-9a97d56b65a0.pdf",
+    "viewer_url": "https://financialfilings.com/filings/abacus-group/ma-activity/2012/37530701/",
+    "company": {
+     "id": 64280,
+     "name": "ABACUS GROUP",
+     "tagline": "Asset manager and owner of metropolitan office and retail property portfolios.",
+     "isins": [
+      "AU0000291882"
+     ],
+     "lei": "2138009R3Y4TK4IZDW59",
+     "sub_industry_code": "6810",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 61370,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

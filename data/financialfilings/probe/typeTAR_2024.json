@@ -1,0 +1,960 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1138,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2024-01-01T00%3A00%3A00Z&release_datetime_to=2024-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 44776553,
+    "title": "Takeovers Panel Application",
+    "release_datetime": "2024-01-01T13:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65819/2024/RNS/65819_rns_2024-01-01_02cb7f1b-db16-4dd6-b51a-f37446fec77a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65819/2024/RNS/65819_rns_2024-01-01_02cb7f1b-db16-4dd6-b51a-f37446fec77a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/somerset-minerals-limited/ma-activity/2024/44776553/",
+    "company": {
+     "id": 65819,
+     "name": "SOMERSET MINERALS LIMITED",
+     "tagline": "Explores and develops copper, silver, and uranium deposits in under-explored regions.",
+     "isins": [
+      "AU0000341232"
+     ],
+     "lei": "529900HDZRYQC4QBA569",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 170340,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41076527,
+    "title": "YOW: Unsolicited Off-Market Takeover Bid - Take No Action",
+    "release_datetime": "2024-01-01T22:46:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2024/RNS/65174_rns_2024-01-01_6f24f08b-be8d-4e60-aefe-a71d070e58f8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2024/RNS/65174_rns_2024-01-01_6f24f08b-be8d-4e60-aefe-a71d070e58f8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/keybridge-capital-limited/ma-activity/2024/41076527/",
+    "company": {
+     "id": 65174,
+     "name": "KEYBRIDGE CAPITAL LIMITED",
+     "tagline": "Investment group managing alternative assets, equity, debt, and structured finance.",
+     "isins": [
+      "AU000000KBC6"
+     ],
+     "lei": "549300UG314Z1PTXWP21",
+     "sub_industry_code": "6499",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 227982,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56258537,
+    "title": "Cash Sale of Blackspur Oil Corp for A$83.3M",
+    "release_datetime": "2024-01-04T22:38:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84716/2024/RNS/84716_rns_2024-01-04_02cdcc1a-d323-4af9-a293-271ecec09b4c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84716/2024/RNS/84716_rns_2024-01-04_02cdcc1a-d323-4af9-a293-271ecec09b4c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/calima-energy-ltd/ma-activity/2024/56258537/",
+    "company": {
+     "id": 84716,
+     "name": "Calima Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000CE10"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 497363,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38008881,
+    "title": "Supplementary Target's Statement",
+    "release_datetime": "2024-01-05T00:52:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64386/2024/RNS/64386_rns_2024-01-04_c810d5da-17b3-49a5-817b-3370eb7c8788.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64386/2024/RNS/64386_rns_2024-01-04_c810d5da-17b3-49a5-817b-3370eb7c8788.pdf",
+    "viewer_url": "https://financialfilings.com/filings/advance-zinctek-limited/ma-activity/2024/38008881/",
+    "company": {
+     "id": 64386,
+     "name": "ADVANCE ZINCTEK LIMITED",
+     "tagline": "Produces zinc and aluminum oxide powders for sunscreens, skincare, and cosmetics.",
+     "isins": [
+      "AU000000ANO7"
+     ],
+     "lei": "",
+     "sub_industry_code": "2011",
+     "oics_code": "MA.CH.SAC.PFC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 117378,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 42643369,
+    "title": "Omnia to Acquire Dixie and Transformational Assets",
+    "release_datetime": "2024-01-05T04:20:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65494/2024/RNS/65494_rns_2024-01-04_1d47b339-04a3-4469-bff1-7d41f7ebb7ad.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65494/2024/RNS/65494_rns_2024-01-04_1d47b339-04a3-4469-bff1-7d41f7ebb7ad.pdf",
+    "viewer_url": "https://financialfilings.com/filings/omnia-metals-group-ltd/ma-activity/2024/42643369/",
+    "company": {
+     "id": 65494,
+     "name": "OMNIA METALS GROUP LTD",
+     "tagline": "Explores lithium, copper, and nickel assets for the global energy transition.",
+     "isins": [
+      "AU0000206732"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 8916864,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40765347,
+    "title": "Acquisition of Trienpont International Co LTD",
+    "release_datetime": "2024-01-10T03:42:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65103/2024/RNS/65103_rns_2024-01-09_70cbd046-273d-43c2-92cd-2e246538d1b7.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65103/2024/RNS/65103_rns_2024-01-09_70cbd046-273d-43c2-92cd-2e246538d1b7.pdf",
+    "viewer_url": "https://financialfilings.com/filings/infocus-group-holdings-limited/ma-activity/2024/40765347/",
+    "company": {
+     "id": 65103,
+     "name": "INFOCUS GROUP HOLDINGS LIMITED",
+     "tagline": "Provides wealth management, advisory solutions, and proprietary financial technology.",
+     "isins": [
+      "AU0000362923"
+     ],
+     "lei": "",
+     "sub_industry_code": "6619",
+     "oics_code": "TC.SW.APP.ISS",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 146580,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38008832,
+    "title": "Ankla Unconditional Takeover Offer free from all conditions",
+    "release_datetime": "2024-01-11T02:11:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64386/2024/RNS/64386_rns_2024-01-10_aafaf58a-006a-421a-9ce3-cc73743f2a4c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64386/2024/RNS/64386_rns_2024-01-10_aafaf58a-006a-421a-9ce3-cc73743f2a4c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/advance-zinctek-limited/ma-activity/2024/38008832/",
+    "company": {
+     "id": 64386,
+     "name": "ADVANCE ZINCTEK LIMITED",
+     "tagline": "Produces zinc and aluminum oxide powders for sunscreens, skincare, and cosmetics.",
+     "isins": [
+      "AU000000ANO7"
+     ],
+     "lei": "",
+     "sub_industry_code": "2011",
+     "oics_code": "MA.CH.SAC.PFC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 96946,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38008823,
+    "title": "Supplementary Bidder's Statement",
+    "release_datetime": "2024-01-11T05:39:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64386/2024/RNS/64386_rns_2024-01-10_077affb3-ba12-4f35-85e5-12cfd3ae2d77.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64386/2024/RNS/64386_rns_2024-01-10_077affb3-ba12-4f35-85e5-12cfd3ae2d77.pdf",
+    "viewer_url": "https://financialfilings.com/filings/advance-zinctek-limited/ma-activity/2024/38008823/",
+    "company": {
+     "id": 64386,
+     "name": "ADVANCE ZINCTEK LIMITED",
+     "tagline": "Produces zinc and aluminum oxide powders for sunscreens, skincare, and cosmetics.",
+     "isins": [
+      "AU000000ANO7"
+     ],
+     "lei": "",
+     "sub_industry_code": "2011",
+     "oics_code": "MA.CH.SAC.PFC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 418403,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 11222693,
+    "title": "Sale of Two Broken Hill Exploration Licences  ",
+    "release_datetime": "2024-01-11T07:00:05+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/10527/2024/MDA/10527_mda_2024-01-11_eaa6d7bb-ecfa-498c-a516-43873449860b.html",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/10527/2024/MDA/10527_mda_2024-01-11_eaa6d7bb-ecfa-498c-a516-43873449860b.html",
+    "viewer_url": "https://financialfilings.com/filings/new-frontier-minerals-limited/ma-activity/2024/11222693/",
+    "company": {
+     "id": 10527,
+     "name": "New Frontier Minerals Limited",
+     "tagline": "Mineral exploration company developing multi-commodity assets for future mining.",
+     "isins": [
+      "AU0000368748"
+     ],
+     "lei": "213800AG47SZ4DGATD33",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "HTML",
+    "file_size": 26846,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56370334,
+    "title": "Icon enters into binding term sheet",
+    "release_datetime": "2024-01-12T00:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85056/2024/RNS/85056_rns_2024-01-12_c6fbb85a-28f6-4703-9429-9582206efacd.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85056/2024/RNS/85056_rns_2024-01-12_c6fbb85a-28f6-4703-9429-9582206efacd.pdf",
+    "viewer_url": "https://financialfilings.com/filings/icon-energy-ltd/ma-activity/2024/56370334/",
+    "company": {
+     "id": 85056,
+     "name": "Icon Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000ICN5"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 228613,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38787916,
+    "title": "BLG completes GaNWorks acquisition - commences operations",
+    "release_datetime": "2024-01-14T21:46:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64532/2024/RNS/64532_rns_2024-01-14_25ec1626-cfce-4453-a4bb-651fd5e6fc6c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64532/2024/RNS/64532_rns_2024-01-14_25ec1626-cfce-4453-a4bb-651fd5e6fc6c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bluglass-limited/ma-activity/2024/38787916/",
+    "company": {
+     "id": 64532,
+     "name": "BLUGLASS LIMITED",
+     "tagline": "Develops and manufactures GaN laser diodes using proprietary RPCVD technology.",
+     "isins": [
+      "AU000000BLG5"
+     ],
+     "lei": "529900R2JHAK63RQH645",
+     "sub_industry_code": "2619",
+     "oics_code": "TC.HW.ELC.ECP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 174777,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56237667,
+    "title": "Lithium Project Acquisition",
+    "release_datetime": "2024-01-14T22:14:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64579/2024/RNS/64579_rns_2024-01-14_d8d10b8d-2968-49f6-a96d-046238adc13b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64579/2024/RNS/64579_rns_2024-01-14_d8d10b8d-2968-49f6-a96d-046238adc13b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/breakthrough-minerals-limited/ma-activity/2024/56237667/",
+    "company": {
+     "id": 64579,
+     "name": "BREAKTHROUGH MINERALS LIMITED",
+     "tagline": "Mineral exploration company targeting lithium and gold for the global energy transition.",
+     "isins": [
+      "AU0000374274"
+     ],
+     "lei": "5299000AJWXK2P61BL13",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1360620,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56237662,
+    "title": "GUE: Sale of Lake Johnston Project",
+    "release_datetime": "2024-01-14T22:18:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64579/2024/RNS/64579_rns_2024-01-14_a0828f98-50ec-4e30-ba7a-461ddd9d0c0b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64579/2024/RNS/64579_rns_2024-01-14_a0828f98-50ec-4e30-ba7a-461ddd9d0c0b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/breakthrough-minerals-limited/ma-activity/2024/56237662/",
+    "company": {
+     "id": 64579,
+     "name": "BREAKTHROUGH MINERALS LIMITED",
+     "tagline": "Mineral exploration company targeting lithium and gold for the global energy transition.",
+     "isins": [
+      "AU0000374274"
+     ],
+     "lei": "5299000AJWXK2P61BL13",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 472298,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56319502,
+    "title": "Indicative Election outcomes",
+    "release_datetime": "2024-01-15T07:10:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84838/2024/RNS/84838_rns_2024-01-14_a89743f7-1d95-469b-ba2c-1d081f765cc4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84838/2024/RNS/84838_rns_2024-01-14_a89743f7-1d95-469b-ba2c-1d081f765cc4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/diverger-ltd/ma-activity/2024/56319502/",
+    "company": {
+     "id": 84838,
+     "name": "Diverger Ltd",
+     "tagline": "",
+     "isins": [
+      "AU0000190209"
+     ],
+     "lei": "",
+     "sub_industry_code": "6630",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 487027,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37445549,
+    "title": "5GN Announces Acquisition of Security Shift for $4M",
+    "release_datetime": "2024-01-15T23:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64261/2024/RNS/64261_rns_2024-01-15_dc5d7c09-c7c3-469c-b0b2-061e28b2516f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64261/2024/RNS/64261_rns_2024-01-15_dc5d7c09-c7c3-469c-b0b2-061e28b2516f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/5g-networks-limited/ma-activity/2024/37445549/",
+    "company": {
+     "id": 64261,
+     "name": "5G NETWORKS LIMITED.",
+     "tagline": "Provides high-speed connectivity, fiber networks, and managed IT infrastructure services.",
+     "isins": [
+      "AU0000317554"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "TC.IT.ITS.ITC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 190959,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56403601,
+    "title": "Scheme update and amended timetable",
+    "release_datetime": "2024-01-16T06:06:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85182/2024/RNS/85182_rns_2024-01-16_99c4b189-d0cc-435f-9196-c37035bf99e6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85182/2024/RNS/85182_rns_2024-01-16_99c4b189-d0cc-435f-9196-c37035bf99e6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/lithium-power-international-ltd/ma-activity/2024/56403601/",
+    "company": {
+     "id": 85182,
+     "name": "Lithium Power International Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000LPI1"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 239557,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38008783,
+    "title": "Takeover - extension of offer period",
+    "release_datetime": "2024-01-16T21:57:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64386/2024/RNS/64386_rns_2024-01-16_d9c29297-ae4e-4bf3-8823-72da979c5dac.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64386/2024/RNS/64386_rns_2024-01-16_d9c29297-ae4e-4bf3-8823-72da979c5dac.pdf",
+    "viewer_url": "https://financialfilings.com/filings/advance-zinctek-limited/ma-activity/2024/38008783/",
+    "company": {
+     "id": 64386,
+     "name": "ADVANCE ZINCTEK LIMITED",
+     "tagline": "Produces zinc and aluminum oxide powders for sunscreens, skincare, and cosmetics.",
+     "isins": [
+      "AU000000ANO7"
+     ],
+     "lei": "",
+     "sub_industry_code": "2011",
+     "oics_code": "MA.CH.SAC.PFC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 466813,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56238356,
+    "title": "Acquisition of Airwell Flow Testing",
+    "release_datetime": "2024-01-16T22:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84678/2024/RNS/84678_rns_2024-01-16_025552a0-a317-492d-b919-28cfa02a1606.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84678/2024/RNS/84678_rns_2024-01-16_025552a0-a317-492d-b919-28cfa02a1606.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bwe-drilling-ltd/ma-activity/2024/56238356/",
+    "company": {
+     "id": 84678,
+     "name": "Bwe Drilling Ltd",
+     "tagline": "",
+     "isins": [
+      "AU0000410268"
+     ],
+     "lei": "",
+     "sub_industry_code": "0910",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 340512,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44115688,
+    "title": "ORR: Media report regarding Perseus Mining Limited",
+    "release_datetime": "2024-01-18T00:02:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/46513/2024/RNS/46513_rns_2024-01-17_250a108a-a471-4964-877b-743db8df0812.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/46513/2024/RNS/46513_rns_2024-01-17_250a108a-a471-4964-877b-743db8df0812.pdf",
+    "viewer_url": "https://financialfilings.com/filings/perseus-mining-limited/ma-activity/2024/44115688/",
+    "company": {
+     "id": 46513,
+     "name": "PERSEUS MINING LIMITED",
+     "tagline": "A rapidly growing gold producer, developer, and explorer focused on high-quality West African assets.",
+     "isins": [
+      "AU000000PRU3"
+     ],
+     "lei": "54930054ZDGKBCW3SM26",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 107118,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38427466,
+    "title": "TMT: Court Approves Scheme of Arrangement",
+    "release_datetime": "2024-01-19T03:53:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64471/2024/RNS/64471_rns_2024-01-18_42700870-85b3-4196-9191-da2924bd0912.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64471/2024/RNS/64471_rns_2024-01-18_42700870-85b3-4196-9191-da2924bd0912.pdf",
+    "viewer_url": "https://financialfilings.com/filings/australian-vanadium-limited/ma-activity/2024/38427466/",
+    "company": {
+     "id": 64471,
+     "name": "AUSTRALIAN VANADIUM LIMITED",
+     "tagline": "Develops vanadium deposits for energy storage and industrial applications.",
+     "isins": [
+      "AU000000AVL6"
+     ],
+     "lei": "529900QJLHHOZ4O4TK40",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 194334,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44115683,
+    "title": "Perseus announces intention to make takeover bid for OreCorp",
+    "release_datetime": "2024-01-22T01:55:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/46513/2024/RNS/46513_rns_2024-01-21_1a7b6ecf-0e5b-4197-9de3-d66259ee01a3.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/46513/2024/RNS/46513_rns_2024-01-21_1a7b6ecf-0e5b-4197-9de3-d66259ee01a3.pdf",
+    "viewer_url": "https://financialfilings.com/filings/perseus-mining-limited/ma-activity/2024/44115683/",
+    "company": {
+     "id": 46513,
+     "name": "PERSEUS MINING LIMITED",
+     "tagline": "A rapidly growing gold producer, developer, and explorer focused on high-quality West African assets.",
+     "isins": [
+      "AU000000PRU3"
+     ],
+     "lei": "54930054ZDGKBCW3SM26",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 434426,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38008726,
+    "title": "Supplementary Bidder's Statement",
+    "release_datetime": "2024-01-22T21:19:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64386/2024/RNS/64386_rns_2024-01-22_cf80c67c-e640-4cc2-8cd0-1fae1dabda79.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64386/2024/RNS/64386_rns_2024-01-22_cf80c67c-e640-4cc2-8cd0-1fae1dabda79.pdf",
+    "viewer_url": "https://financialfilings.com/filings/advance-zinctek-limited/ma-activity/2024/38008726/",
+    "company": {
+     "id": 64386,
+     "name": "ADVANCE ZINCTEK LIMITED",
+     "tagline": "Produces zinc and aluminum oxide powders for sunscreens, skincare, and cosmetics.",
+     "isins": [
+      "AU000000ANO7"
+     ],
+     "lei": "",
+     "sub_industry_code": "2011",
+     "oics_code": "MA.CH.SAC.PFC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 387632,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38116539,
+    "title": "EGH: Intended Off-Market Takeover Offer from Aspen",
+    "release_datetime": "2024-01-23T02:45:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64404/2024/RNS/64404_rns_2024-01-22_17aa85d7-c3f4-4a4f-a130-a1b0eba5b4d9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64404/2024/RNS/64404_rns_2024-01-22_17aa85d7-c3f4-4a4f-a130-a1b0eba5b4d9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aspen-group-1/ma-activity/2024/38116539/",
+    "company": {
+     "id": 64404,
+     "name": "ASPEN GROUP",
+     "tagline": "Provides affordable residential, retirement, and short-stay housing solutions.",
+     "isins": [
+      "AU000000APZ8"
+     ],
+     "lei": "529900EO4LDRP0T6V445",
+     "sub_industry_code": "6810",
+     "oics_code": "RE.PO.RES.RES",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 214011,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 43357398,
+    "title": "Acquisition Completed",
+    "release_datetime": "2024-01-23T03:43:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65549/2024/RNS/65549_rns_2024-01-22_cd340650-e797-4629-9be5-8d47126bb7a9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65549/2024/RNS/65549_rns_2024-01-22_cd340650-e797-4629-9be5-8d47126bb7a9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/propel-funeral-partners-limited/ma-activity/2024/43357398/",
+    "company": {
+     "id": 65549,
+     "name": "PROPEL FUNERAL PARTNERS LIMITED",
+     "tagline": "Provides death care services through funeral homes, cemeteries, and crematoria.",
+     "isins": [
+      "AU000000PFP8"
+     ],
+     "lei": "",
+     "sub_industry_code": "9630",
+     "oics_code": "CL.SV.PSV.PSC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 171443,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 42444426,
+    "title": "Octava Secures Option for Byro REE and Lithium Project",
+    "release_datetime": "2024-01-23T21:20:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65480/2024/RNS/65480_rns_2024-01-23_f96e0c33-da48-4137-9911-600f5b4ea763.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65480/2024/RNS/65480_rns_2024-01-23_f96e0c33-da48-4137-9911-600f5b4ea763.pdf",
+    "viewer_url": "https://financialfilings.com/filings/octava-minerals-limited/ma-activity/2024/42444426/",
+    "company": {
+     "id": 65480,
+     "name": "OCTAVA MINERALS LIMITED",
+     "tagline": "Explores and develops lithium, gold, antimony, and platinum group metal projects.",
+     "isins": [
+      "AU0000229049"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1143196,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,960 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1469,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2026-01-01T00%3A00%3A00Z&release_datetime_to=2026-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 42815394,
+    "title": "Sugarwork Acquisition Completes",
+    "release_datetime": "2026-01-01T22:37:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64755/2026/RNS/64755_rns_2026-01-01_1794f357-e8a1-4319-8f61-30c932a166dd.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64755/2026/RNS/64755_rns_2026-01-01_1794f357-e8a1-4319-8f61-30c932a166dd.pdf",
+    "viewer_url": "https://financialfilings.com/filings/decidr-ai-industries-ltd/ma-activity/2026/42815394/",
+    "company": {
+     "id": 64755,
+     "name": "DECIDR AI INDUSTRIES LTD",
+     "tagline": "Develops AI systems to automate decision-making and optimize enterprise workflows.",
+     "isins": [
+      "AU0000386310"
+     ],
+     "lei": "",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.BUS",
+     "country_code": "AU",
+     "date_public": "2026-10-31"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 60881,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37678620,
+    "title": "FRS - Notice of Status of Defeating Conditions of Offer",
+    "release_datetime": "2026-01-01T23:19:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64945/2026/RNS/64945_rns_2026-01-01_989ebd5b-406e-4e4c-8b8a-5e76f586ff3d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64945/2026/RNS/64945_rns_2026-01-01_989ebd5b-406e-4e4c-8b8a-5e76f586ff3d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/forrestania-resources-limited/ma-activity/2026/37678620/",
+    "company": {
+     "id": 64945,
+     "name": "FORRESTANIA RESOURCES LIMITED",
+     "tagline": "Explores and develops critical mineral assets including lithium, gold, and copper.",
+     "isins": [
+      "AU0000171621"
+     ],
+     "lei": "529900D3ZQKAEEZKVT47",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 471587,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56480165,
+    "title": "Fractional Entitlement",
+    "release_datetime": "2026-01-02T06:12:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85507/2026/RNS/85507_rns_2026-01-02_3824a2fc-a247-4784-b0fa-5437f3994988.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85507/2026/RNS/85507_rns_2026-01-02_3824a2fc-a247-4784-b0fa-5437f3994988.pdf",
+    "viewer_url": "https://financialfilings.com/filings/renergen-ltd/ma-activity/2026/56480165/",
+    "company": {
+     "id": 85507,
+     "name": "Renergen Ltd",
+     "tagline": "",
+     "isins": [
+      "AU0000046732"
+     ],
+     "lei": "",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 201303,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37909145,
+    "title": "EVO: Replacement Bidder's Statement",
+    "release_datetime": "2026-01-05T01:58:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65322/2026/RNS/65322_rns_2026-01-04_e6621958-75f7-4527-97b1-088ed1e3cdfb.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65322/2026/RNS/65322_rns_2026-01-04_e6621958-75f7-4527-97b1-088ed1e3cdfb.pdf",
+    "viewer_url": "https://financialfilings.com/filings/mayfield-childcare-limited/ma-activity/2026/37909145/",
+    "company": {
+     "id": 65322,
+     "name": "MAYFIELD CHILDCARE LIMITED",
+     "tagline": "Provides early childhood education and care services via long day care centers.",
+     "isins": [
+      "AU000000MFD1"
+     ],
+     "lei": "",
+     "sub_industry_code": "8890",
+     "oics_code": "CL.SV.PSV.PSC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1213017,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37909166,
+    "title": "EVO: Marked Up Replacement Bidder's Statement",
+    "release_datetime": "2026-01-05T01:58:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65322/2026/RNS/65322_rns_2026-01-04_6da4d133-a223-4181-b32d-52b2a637c580.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65322/2026/RNS/65322_rns_2026-01-04_6da4d133-a223-4181-b32d-52b2a637c580.pdf",
+    "viewer_url": "https://financialfilings.com/filings/mayfield-childcare-limited/ma-activity/2026/37909166/",
+    "company": {
+     "id": 65322,
+     "name": "MAYFIELD CHILDCARE LIMITED",
+     "tagline": "Provides early childhood education and care services via long day care centers.",
+     "isins": [
+      "AU000000MFD1"
+     ],
+     "lei": "",
+     "sub_industry_code": "8890",
+     "oics_code": "CL.SV.PSV.PSC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1219727,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37558238,
+    "title": "BlueScope responds to media speculation",
+    "release_datetime": "2026-01-05T09:26:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64570/2026/RNS/64570_rns_2026-01-04_52117bd9-fd0c-47e0-8203-40ef32266858.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64570/2026/RNS/64570_rns_2026-01-04_52117bd9-fd0c-47e0-8203-40ef32266858.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bluescope-steel-limited/ma-activity/2026/37558238/",
+    "company": {
+     "id": 64570,
+     "name": "BLUESCOPE STEEL LIMITED",
+     "tagline": "Manufactures metal coated and painted steel products for building and construction.",
+     "isins": [
+      "AU000000BSL0"
+     ],
+     "lei": "529900H6UQI16XACWC95",
+     "sub_industry_code": "2410",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 80633,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37558231,
+    "title": "SGH: SGH and SDI confirm submission of NBIO to acquire BSL",
+    "release_datetime": "2026-01-05T20:55:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64570/2026/RNS/64570_rns_2026-01-05_c9eb0653-3541-4f88-b1cb-abbeb3e5f8eb.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64570/2026/RNS/64570_rns_2026-01-05_c9eb0653-3541-4f88-b1cb-abbeb3e5f8eb.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bluescope-steel-limited/ma-activity/2026/37558231/",
+    "company": {
+     "id": 64570,
+     "name": "BLUESCOPE STEEL LIMITED",
+     "tagline": "Manufactures metal coated and painted steel products for building and construction.",
+     "isins": [
+      "AU000000BSL0"
+     ],
+     "lei": "529900H6UQI16XACWC95",
+     "sub_industry_code": "2410",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 209170,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37941722,
+    "title": "MinRex Resources and Electrum Discovery to Merge",
+    "release_datetime": "2026-01-05T23:05:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65375/2026/RNS/65375_rns_2026-01-05_7dcf14c0-1c7c-4434-b8d6-785270f153fd.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65375/2026/RNS/65375_rns_2026-01-05_7dcf14c0-1c7c-4434-b8d6-785270f153fd.pdf",
+    "viewer_url": "https://financialfilings.com/filings/minrex-resources-limited/ma-activity/2026/37941722/",
+    "company": {
+     "id": 65375,
+     "name": "MINREX RESOURCES LIMITED",
+     "tagline": "Explores and develops lithium, gold, and base metal assets in established provinces.",
+     "isins": [
+      "AU000000MRR6"
+     ],
+     "lei": "549300ENMST9SZS3WM14",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 3621407,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38312430,
+    "title": "First Supplementary Target's Statement",
+    "release_datetime": "2026-01-05T23:09:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66009/2026/RNS/66009_rns_2026-01-05_16b66f2d-34b5-4cb3-ae09-7617dbb0e53e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66009/2026/RNS/66009_rns_2026-01-05_16b66f2d-34b5-4cb3-ae09-7617dbb0e53e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/venus-metals-corporation-limited/ma-activity/2026/38312430/",
+    "company": {
+     "id": 66009,
+     "name": "VENUS METALS CORPORATION LIMITED",
+     "tagline": "Explores for gold, lithium, and rare earth elements in Western Australia.",
+     "isins": [
+      "AU000000VMC0"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 248425,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 59161663,
+    "title": "M&A Announcement (Presentation)",
+    "release_datetime": "2026-01-05T23:30:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/30605/2026/RNS/30605_rns_2026-01-05_ef0c9ed5-bb8d-4c67-a5ce-78f0fc2dcaa6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/30605/2026/RNS/30605_rns_2026-01-05_ef0c9ed5-bb8d-4c67-a5ce-78f0fc2dcaa6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/ipd-group-ltd/ma-activity/2026/59161663/",
+    "company": {
+     "id": 65136,
+     "name": "IPD GROUP LTD",
+     "tagline": "Provides power distribution, industrial control, and automation systems and services.",
+     "isins": [
+      "AU0000189318"
+     ],
+     "lei": "984500A59A3EAPEA7D69",
+     "sub_industry_code": "4659",
+     "oics_code": "IN.EQ.DST.IDS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1218811,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38241463,
+    "title": "Falcon Oil & Gas Australia Limited approve sale to Tamboran",
+    "release_datetime": "2026-01-06T00:21:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65898/2026/RNS/65898_rns_2026-01-05_33d1b7ac-e610-48fe-adda-d2395a6a7549.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65898/2026/RNS/65898_rns_2026-01-05_33d1b7ac-e610-48fe-adda-d2395a6a7549.pdf",
+    "viewer_url": "https://financialfilings.com/filings/tamboran-resources-corporation/ma-activity/2026/38241463/",
+    "company": {
+     "id": 65898,
+     "name": "TAMBORAN RESOURCES CORPORATION",
+     "tagline": "Explores and develops unconventional shale gas using advanced drilling technologies.",
+     "isins": [
+      "AU0000154841"
+     ],
+     "lei": "98450001ED751XH1AB51",
+     "sub_industry_code": "0620",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 316990,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38204712,
+    "title": "High-Grade USA Gold & Silver Projects Acquisition Completed",
+    "release_datetime": "2026-01-06T22:22:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65851/2026/RNS/65851_rns_2026-01-06_8a00db00-9a51-404d-965b-6aaea11e1469.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65851/2026/RNS/65851_rns_2026-01-06_8a00db00-9a51-404d-965b-6aaea11e1469.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sqx-resources-limited/ma-activity/2026/38204712/",
+    "company": {
+     "id": 65851,
+     "name": "SQX RESOURCES LIMITED",
+     "tagline": "Focuses on copper and gold exploration and development within the Esk Basin.",
+     "isins": [
+      "AU0000262008"
+     ],
+     "lei": "9845002BDC0AE8CE9418",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2164726,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37558222,
+    "title": "BlueScope rejects highly opportunistic takeover proposal",
+    "release_datetime": "2026-01-07T08:15:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64570/2026/RNS/64570_rns_2026-01-06_d15e5901-0c40-4860-ab62-c6f9ca994e88.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64570/2026/RNS/64570_rns_2026-01-06_d15e5901-0c40-4860-ab62-c6f9ca994e88.pdf",
+    "viewer_url": "https://financialfilings.com/filings/bluescope-steel-limited/ma-activity/2026/37558222/",
+    "company": {
+     "id": 64570,
+     "name": "BLUESCOPE STEEL LIMITED",
+     "tagline": "Manufactures metal coated and painted steel products for building and construction.",
+     "isins": [
+      "AU000000BSL0"
+     ],
+     "lei": "529900H6UQI16XACWC95",
+     "sub_industry_code": "2410",
+     "oics_code": "MA.MM.STL.STL",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1579292,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38118646,
+    "title": "Statement regarding Glencore plc",
+    "release_datetime": "2026-01-08T21:20:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65705/2026/RNS/65705_rns_2026-01-08_7a617440-ae7e-4a81-a904-0bad23428b93.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65705/2026/RNS/65705_rns_2026-01-08_7a617440-ae7e-4a81-a904-0bad23428b93.pdf",
+    "viewer_url": "https://financialfilings.com/filings/rio-tinto-limited/ma-activity/2026/38118646/",
+    "company": {
+     "id": 65705,
+     "name": "RIO TINTO LIMITED",
+     "tagline": "Global mining group producing iron ore, copper, and materials for energy transition.",
+     "isins": [
+      "AU000000RIO1"
+     ],
+     "lei": "529900X2VMAQT2PE0V24",
+     "sub_industry_code": "0710",
+     "oics_code": "MA.MM.IMT.ALU",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 188969,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38312421,
+    "title": "Variation to Offer",
+    "release_datetime": "2026-01-08T22:12:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66009/2026/RNS/66009_rns_2026-01-08_dbea0fcc-2cbf-4683-b1f6-79f7add9a942.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66009/2026/RNS/66009_rns_2026-01-08_dbea0fcc-2cbf-4683-b1f6-79f7add9a942.pdf",
+    "viewer_url": "https://financialfilings.com/filings/venus-metals-corporation-limited/ma-activity/2026/38312421/",
+    "company": {
+     "id": 66009,
+     "name": "VENUS METALS CORPORATION LIMITED",
+     "tagline": "Explores for gold, lithium, and rare earth elements in Western Australia.",
+     "isins": [
+      "AU000000VMC0"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 231118,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38312409,
+    "title": "Supplementary Bidder's Statement",
+    "release_datetime": "2026-01-08T22:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66009/2026/RNS/66009_rns_2026-01-08_e02d2bf1-a0a0-48e3-97b9-1d2821fda88f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66009/2026/RNS/66009_rns_2026-01-08_e02d2bf1-a0a0-48e3-97b9-1d2821fda88f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/venus-metals-corporation-limited/ma-activity/2026/38312409/",
+    "company": {
+     "id": 66009,
+     "name": "VENUS METALS CORPORATION LIMITED",
+     "tagline": "Explores for gold, lithium, and rare earth elements in Western Australia.",
+     "isins": [
+      "AU000000VMC0"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 943135,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56389628,
+    "title": "IMPORTANT Update on Forrestania's bid reaches 85.77%",
+    "release_datetime": "2026-01-09T04:14:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85125/2026/RNS/85125_rns_2026-01-09_af00f549-64b3-4a58-b20d-cf126cc4e2ac.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85125/2026/RNS/85125_rns_2026-01-09_af00f549-64b3-4a58-b20d-cf126cc4e2ac.pdf",
+    "viewer_url": "https://financialfilings.com/filings/kula-gold-ltd/ma-activity/2026/56389628/",
+    "company": {
+     "id": 85125,
+     "name": "Kula Gold Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000KGD3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 369185,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38312320,
+    "title": "VMC - Second Supplementary Target's Statement",
+    "release_datetime": "2026-01-11T22:02:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66009/2026/RNS/66009_rns_2026-01-11_cf1cae9d-7c53-45e4-8ba9-dc487eac1be6.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66009/2026/RNS/66009_rns_2026-01-11_cf1cae9d-7c53-45e4-8ba9-dc487eac1be6.pdf",
+    "viewer_url": "https://financialfilings.com/filings/venus-metals-corporation-limited/ma-activity/2026/38312320/",
+    "company": {
+     "id": 66009,
+     "name": "VENUS METALS CORPORATION LIMITED",
+     "tagline": "Explores for gold, lithium, and rare earth elements in Western Australia.",
+     "isins": [
+      "AU000000VMC0"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 253066,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 42886701,
+    "title": "Investor Presentation - MARSS acquisition",
+    "release_datetime": "2026-01-11T22:25:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64861/2026/RNS/64861_rns_2026-01-11_50380eeb-de96-42fc-85d8-f19c6c0a861a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64861/2026/RNS/64861_rns_2026-01-11_50380eeb-de96-42fc-85d8-f19c6c0a861a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/electro-optic-systems-holdings-limited/ma-activity/2026/42886701/",
+    "company": {
+     "id": 64861,
+     "name": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+     "tagline": "Develops advanced defense systems, space tracking, and satellite communications.",
+     "isins": [
+      "AU000000EOS8"
+     ],
+     "lei": "391200AIL8NMTC2B3I63",
+     "sub_industry_code": "2651",
+     "oics_code": "IN.EQ.AER.DEF",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 3314250,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38176997,
+    "title": "SKS Completes Delata Elcom Acquisition",
+    "release_datetime": "2026-01-12T04:12:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65805/2026/RNS/65805_rns_2026-01-11_2d5caf1e-524f-4949-800a-255aa2663750.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65805/2026/RNS/65805_rns_2026-01-11_2d5caf1e-524f-4949-800a-255aa2663750.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sks-technologies-group-limited/ma-activity/2026/38176997/",
+    "company": {
+     "id": 65805,
+     "name": "SKS TECHNOLOGIES GROUP LIMITED",
+     "tagline": "Provides integrated AV, electrical, and communication solutions for complex environments.",
+     "isins": [
+      "AU0000124901"
+     ],
+     "lei": "",
+     "sub_industry_code": "4321",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 146811,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38176957,
+    "title": "SKS Completes Delta Elcom Acquisition",
+    "release_datetime": "2026-01-12T05:54:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65805/2026/RNS/65805_rns_2026-01-11_61f81c88-428b-419a-9a76-0016cca61e52.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65805/2026/RNS/65805_rns_2026-01-11_61f81c88-428b-419a-9a76-0016cca61e52.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sks-technologies-group-limited/ma-activity/2026/38176957/",
+    "company": {
+     "id": 65805,
+     "name": "SKS TECHNOLOGIES GROUP LIMITED",
+     "tagline": "Provides integrated AV, electrical, and communication solutions for complex environments.",
+     "isins": [
+      "AU0000124901"
+     ],
+     "lei": "",
+     "sub_industry_code": "4321",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 372819,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56389626,
+    "title": "IMPORTANT Update on Forrestania's bid now to 86.87%",
+    "release_datetime": "2026-01-12T23:31:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85125/2026/RNS/85125_rns_2026-01-12_7eab423b-aae5-43be-bdf5-f4ad2119f52c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85125/2026/RNS/85125_rns_2026-01-12_7eab423b-aae5-43be-bdf5-f4ad2119f52c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/kula-gold-ltd/ma-activity/2026/56389626/",
+    "company": {
+     "id": 85125,
+     "name": "Kula Gold Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000KGD3"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 435000,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56485722,
+    "title": "Update on FIRB Approval Process",
+    "release_datetime": "2026-01-13T00:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85521/2026/RNS/85521_rns_2026-01-13_2857bcd1-fd26-4b10-9712-0e6380d9257b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85521/2026/RNS/85521_rns_2026-01-13_2857bcd1-fd26-4b10-9712-0e6380d9257b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/rpmglobal-holdings-ltd/ma-activity/2026/56485722/",
+    "company": {
+     "id": 85521,
+     "name": "Rpmglobal Holdings Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000RUL2"
+     ],
+     "lei": "",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.ISS",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 139977,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38038625,
+    "title": "RXR: Robex Obtains Final Court Approval for Plan of Arrangem",
+    "release_datetime": "2026-01-13T22:01:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65537/2026/RNS/65537_rns_2026-01-13_b6e6c95d-c34b-419d-9201-791cb29d5472.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65537/2026/RNS/65537_rns_2026-01-13_b6e6c95d-c34b-419d-9201-791cb29d5472.pdf",
+    "viewer_url": "https://financialfilings.com/filings/predictive-discovery-limited/ma-activity/2026/38038625/",
+    "company": {
+     "id": 65537,
+     "name": "PDI GOLD LIMITED",
+     "tagline": "Identifies and develops gold resources, primarily at the Bankan Gold Project.",
+     "isins": [
+      "AU000000PDI8"
+     ],
+     "lei": "529900NL3JLEV0OIIW58",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-31"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 319852,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38038610,
+    "title": "Court Approves Robex Plan of Arrangement",
+    "release_datetime": "2026-01-13T22:05:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65537/2026/RNS/65537_rns_2026-01-13_5a2c954b-d799-4c5e-8d4a-07f3d6678be4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65537/2026/RNS/65537_rns_2026-01-13_5a2c954b-d799-4c5e-8d4a-07f3d6678be4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/predictive-discovery-limited/ma-activity/2026/38038610/",
+    "company": {
+     "id": 65537,
+     "name": "PDI GOLD LIMITED",
+     "tagline": "Identifies and develops gold resources, primarily at the Bankan Gold Project.",
+     "isins": [
+      "AU000000PDI8"
+     ],
+     "lei": "529900NL3JLEV0OIIW58",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-31"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 376359,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

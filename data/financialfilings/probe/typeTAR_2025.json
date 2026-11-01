@@ -1,0 +1,960 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1257,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2025-01-01T00%3A00%3A00Z&release_datetime_to=2025-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 56283695,
+    "title": "Merger with Dore Copper Completed",
+    "release_datetime": "2025-01-01T21:27:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/48554/2025/RNS/48554_rns_2025-01-01_dbdbc056-5a62-4c0f-9e3d-8a0147ae989d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/48554/2025/RNS/48554_rns_2025-01-01_dbdbc056-5a62-4c0f-9e3d-8a0147ae989d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/cygnus-metals-ltd/ma-activity/2025/56283695/",
+    "company": {
+     "id": 48554,
+     "name": "Cygnus Metals Ltd",
+     "tagline": "Critical minerals exploration company advancing high-grade copper, gold, and lithium assets.",
+     "isins": [
+      "AU000000CY57"
+     ],
+     "lei": "5299005QXKBNT6HKPX05",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 331117,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38108031,
+    "title": "Settlement of CIBO Acquisition",
+    "release_datetime": "2025-01-01T22:21:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65690/2025/RNS/65690_rns_2025-01-01_55bd1931-f2c1-4b1f-b9a9-ee27bc9741b7.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65690/2025/RNS/65690_rns_2025-01-01_55bd1931-f2c1-4b1f-b9a9-ee27bc9741b7.pdf",
+    "viewer_url": "https://financialfilings.com/filings/retail-food-group-limited/ma-activity/2025/38108031/",
+    "company": {
+     "id": 65690,
+     "name": "RETAIL FOOD GROUP LIMITED",
+     "tagline": "Global food and beverage multi-brand franchisor and coffee roaster.",
+     "isins": [
+      "AU000000RFG3"
+     ],
+     "lei": "5299002Q40Q22N4FP788",
+     "sub_industry_code": "5640",
+     "oics_code": "CL.SV.HSP.RST",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 116543,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 13763907,
+    "title": "News release - English.pdf",
+    "release_datetime": "2025-01-01T22:44:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/48554/2025/RNS/48554_rns_2025-01-01_c54b4ae1-b65f-4760-a62c-4d24fc9930dd.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/48554/2025/RNS/48554_rns_2025-01-01_c54b4ae1-b65f-4760-a62c-4d24fc9930dd.pdf",
+    "viewer_url": "https://financialfilings.com/filings/cygnus-metals-ltd/ma-activity/2025/13763907/",
+    "company": {
+     "id": 48554,
+     "name": "Cygnus Metals Ltd",
+     "tagline": "Critical minerals exploration company advancing high-grade copper, gold, and lithium assets.",
+     "isins": [
+      "AU000000CY57"
+     ],
+     "lei": "5299005QXKBNT6HKPX05",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 283938,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 13763908,
+    "title": "News release - French.pdf",
+    "release_datetime": "2025-01-01T22:44:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/48554/2025/RNS/48554_rns_2025-01-01_1ccfb162-1d7f-4e93-b29e-9c46e853147b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/48554/2025/RNS/48554_rns_2025-01-01_1ccfb162-1d7f-4e93-b29e-9c46e853147b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/cygnus-metals-ltd/ma-activity/2025/13763908/",
+    "company": {
+     "id": 48554,
+     "name": "Cygnus Metals Ltd",
+     "tagline": "Critical minerals exploration company advancing high-grade copper, gold, and lithium assets.",
+     "isins": [
+      "AU000000CY57"
+     ],
+     "lei": "5299005QXKBNT6HKPX05",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 329987,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37379291,
+    "title": "Despatch of Bidder's Statement",
+    "release_datetime": "2025-01-03T02:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64261/2025/RNS/64261_rns_2025-01-02_b88ed774-9686-4b2f-95ff-6bd3a2848387.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64261/2025/RNS/64261_rns_2025-01-02_b88ed774-9686-4b2f-95ff-6bd3a2848387.pdf",
+    "viewer_url": "https://financialfilings.com/filings/5g-networks-limited/ma-activity/2025/37379291/",
+    "company": {
+     "id": 64261,
+     "name": "5G NETWORKS LIMITED.",
+     "tagline": "Provides high-speed connectivity, fiber networks, and managed IT infrastructure services.",
+     "isins": [
+      "AU0000317554"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "TC.IT.ITS.ITC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 368603,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56285438,
+    "title": "Target's Statement",
+    "release_datetime": "2025-01-03T02:45:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64740/2025/RNS/64740_rns_2025-01-02_44647c6d-f03a-411a-a473-16f27b8d697f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64740/2025/RNS/64740_rns_2025-01-02_44647c6d-f03a-411a-a473-16f27b8d697f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aucyber-limited/ma-activity/2025/56285438/",
+    "company": {
+     "id": 64740,
+     "name": "AUCYBER LIMITED",
+     "tagline": "Provides sovereign cloud and security solutions for government and large enterprises.",
+     "isins": [
+      "AU0000359218"
+     ],
+     "lei": "",
+     "sub_industry_code": "6310",
+     "oics_code": "TC.IT.ITS.CLD",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 677982,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37778752,
+    "title": "IFL Receives Indicative Non-binding Proposal",
+    "release_datetime": "2025-01-05T21:34:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65104/2025/RNS/65104_rns_2025-01-05_3651b40e-18af-4bd6-a875-2195548f7467.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65104/2025/RNS/65104_rns_2025-01-05_3651b40e-18af-4bd6-a875-2195548f7467.pdf",
+    "viewer_url": "https://financialfilings.com/filings/insignia-financial-ltd/ma-activity/2025/37778752/",
+    "company": {
+     "id": 65104,
+     "name": "INSIGNIA FINANCIAL LTD",
+     "tagline": "Provides wealth management, financial advice, superannuation, and investment solutions.",
+     "isins": [
+      "AU000000IFL2"
+     ],
+     "lei": "5493000NLB9VUM2IHC87",
+     "sub_industry_code": "6630",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 123271,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38297576,
+    "title": "Update on Keyvision Acquisition",
+    "release_datetime": "2025-01-06T01:33:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65975/2025/RNS/65975_rns_2025-01-05_4b6f1fc3-3f98-45ed-9154-e263517aaa45.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65975/2025/RNS/65975_rns_2025-01-05_4b6f1fc3-3f98-45ed-9154-e263517aaa45.pdf",
+    "viewer_url": "https://financialfilings.com/filings/tz-limited/ma-activity/2025/38297576/",
+    "company": {
+     "id": 65975,
+     "name": "TZ LIMITED",
+     "tagline": "Develops smart locking devices and software-defined access control solutions.",
+     "isins": [
+      "AU000000TZL7"
+     ],
+     "lei": "",
+     "sub_industry_code": "2651",
+     "oics_code": "IN.EQ.ELE.ELP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 83131,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56405886,
+    "title": "Supplementary Bidder's Statement",
+    "release_datetime": "2025-01-06T02:40:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85188/2025/RNS/85188_rns_2025-01-06_3f7c17c9-1e35-45c0-accd-d30cfec965f9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85188/2025/RNS/85188_rns_2025-01-06_3f7c17c9-1e35-45c0-accd-d30cfec965f9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/livehire-ltd/ma-activity/2025/56405886/",
+    "company": {
+     "id": 85188,
+     "name": "LiveHire Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000LVH1"
+     ],
+     "lei": "",
+     "sub_industry_code": "7810",
+     "oics_code": "TC.SW.APP.BUS",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 91500,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38120155,
+    "title": "Reckon completes acquisition of Cashflow Manager",
+    "release_datetime": "2025-01-06T21:35:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65708/2025/RNS/65708_rns_2025-01-06_0a93394a-4c46-4c4d-b279-85180405770e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65708/2025/RNS/65708_rns_2025-01-06_0a93394a-4c46-4c4d-b279-85180405770e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/reckon-limited/ma-activity/2025/38120155/",
+    "company": {
+     "id": 65708,
+     "name": "RECKON LIMITED",
+     "tagline": "Develops accounting, payroll, and business management software for SMEs and firms.",
+     "isins": [
+      "AU000000RKN9"
+     ],
+     "lei": "549300Z31B2VGMEV1175",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.BUS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 136728,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37747543,
+    "title": "Proportional Takeover Offer by Acta Investment Group Pty Ltd",
+    "release_datetime": "2025-01-08T05:42:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65059/2025/RNS/65059_rns_2025-01-07_61247bcd-ddec-4a7b-b34e-697166207f34.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65059/2025/RNS/65059_rns_2025-01-07_61247bcd-ddec-4a7b-b34e-697166207f34.pdf",
+    "viewer_url": "https://financialfilings.com/filings/helix-resources-limited/ma-activity/2025/37747543/",
+    "company": {
+     "id": 65059,
+     "name": "HELIX RESOURCES LIMITED",
+     "tagline": "Mineral exploration company targeting copper and gold systems in the Cobar Basin.",
+     "isins": [
+      "AU000000HLX7"
+     ],
+     "lei": "549300CND6INX5HVKR18",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.COP",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 116538,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37495254,
+    "title": "Best and Final offer for Mako Gold Limited",
+    "release_datetime": "2025-01-08T22:14:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64458/2025/RNS/64458_rns_2025-01-08_cfccdb13-596c-4775-bc0d-1976928db849.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64458/2025/RNS/64458_rns_2025-01-08_cfccdb13-596c-4775-bc0d-1976928db849.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aurum-resources-limited/ma-activity/2025/37495254/",
+    "company": {
+     "id": 64458,
+     "name": "AURUM RESOURCES LIMITED",
+     "tagline": "Mineral exploration company focused on gold discovery in the Birimian Greenstone Belt.",
+     "isins": [
+      "AU0000173478"
+     ],
+     "lei": "984500B9F3D67492F792",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 189812,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38229572,
+    "title": "Takeover - Extension of Offer Period",
+    "release_datetime": "2025-01-09T06:55:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65883/2025/RNS/65883_rns_2025-01-08_3ee8c53e-b76d-4659-9284-a76695517ddc.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65883/2025/RNS/65883_rns_2025-01-08_3ee8c53e-b76d-4659-9284-a76695517ddc.pdf",
+    "viewer_url": "https://financialfilings.com/filings/swoop-holdings-limited/ma-activity/2025/38229572/",
+    "company": {
+     "id": 65883,
+     "name": "SWOOP HOLDINGS LIMITED",
+     "tagline": "Provides fixed wireless and fiber-optic network infrastructure and connectivity services.",
+     "isins": [
+      "AU0000153736"
+     ],
+     "lei": "9845002C8BB47CA95F94",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 605633,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37495204,
+    "title": "MKG: Directors Recommend AUE's Best and Final Offer",
+    "release_datetime": "2025-01-09T23:52:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64458/2025/RNS/64458_rns_2025-01-09_2ec19dd8-6ec0-4c30-88ac-6d8836ba2608.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64458/2025/RNS/64458_rns_2025-01-09_2ec19dd8-6ec0-4c30-88ac-6d8836ba2608.pdf",
+    "viewer_url": "https://financialfilings.com/filings/aurum-resources-limited/ma-activity/2025/37495204/",
+    "company": {
+     "id": 64458,
+     "name": "AURUM RESOURCES LIMITED",
+     "tagline": "Mineral exploration company focused on gold discovery in the Birimian Greenstone Belt.",
+     "isins": [
+      "AU0000173478"
+     ],
+     "lei": "984500B9F3D67492F792",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 136841,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37946564,
+    "title": "Schemes of Arrangement Update",
+    "release_datetime": "2025-01-10T02:26:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65376/2025/RNS/65376_rns_2025-01-09_6db2c648-91d1-4975-8342-b589a76a0095.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65376/2025/RNS/65376_rns_2025-01-09_6db2c648-91d1-4975-8342-b589a76a0095.pdf",
+    "viewer_url": "https://financialfilings.com/filings/maritana-minerals-limited/ma-activity/2025/37946564/",
+    "company": {
+     "id": 65376,
+     "name": "MARITANA MINERALS LIMITED",
+     "tagline": "Mineral exploration company focused on discovering precious and base metal deposits.",
+     "isins": [
+      "AU0000464257"
+     ],
+     "lei": "984500A12AE2C6874A86",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 180544,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56538118,
+    "title": "Takeover - extension of offer period",
+    "release_datetime": "2025-01-10T05:07:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85751/2025/RNS/85751_rns_2025-01-10_7a3f1435-f12d-40f7-aa98-e05f427cbf64.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85751/2025/RNS/85751_rns_2025-01-10_7a3f1435-f12d-40f7-aa98-e05f427cbf64.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vonex-ltd/ma-activity/2025/56538118/",
+    "company": {
+     "id": 85751,
+     "name": "VONEX Ltd",
+     "tagline": "",
+     "isins": [
+      "AU0000006421"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 283705,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56538117,
+    "title": "Broker announcement - extension of offer period",
+    "release_datetime": "2025-01-10T05:08:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85751/2025/RNS/85751_rns_2025-01-10_826be19c-5a65-4821-9abd-5257b03dba45.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85751/2025/RNS/85751_rns_2025-01-10_826be19c-5a65-4821-9abd-5257b03dba45.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vonex-ltd/ma-activity/2025/56538117/",
+    "company": {
+     "id": 85751,
+     "name": "VONEX Ltd",
+     "tagline": "",
+     "isins": [
+      "AU0000006421"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 180012,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37778689,
+    "title": "IFL Receives Revised Indicative Non-Binding Proposal",
+    "release_datetime": "2025-01-12T21:36:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65104/2025/RNS/65104_rns_2025-01-12_da33f65f-5fdd-45f5-bf57-d6c9b1e2a83a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65104/2025/RNS/65104_rns_2025-01-12_da33f65f-5fdd-45f5-bf57-d6c9b1e2a83a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/insignia-financial-ltd/ma-activity/2025/37778689/",
+    "company": {
+     "id": 65104,
+     "name": "INSIGNIA FINANCIAL LTD",
+     "tagline": "Provides wealth management, financial advice, superannuation, and investment solutions.",
+     "isins": [
+      "AU000000IFL2"
+     ],
+     "lei": "5493000NLB9VUM2IHC87",
+     "sub_industry_code": "6630",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 122479,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37736575,
+    "title": "HCF receives non-binding proposal for investment portfolio",
+    "release_datetime": "2025-01-12T23:07:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65042/2025/RNS/65042_rns_2025-01-12_f24066b6-0c38-4903-8aeb-cbea59fc917c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65042/2025/RNS/65042_rns_2025-01-12_f24066b6-0c38-4903-8aeb-cbea59fc917c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/hg-high-conviction-limited/ma-activity/2025/37736575/",
+    "company": {
+     "id": 65042,
+     "name": "H&G HIGH CONVICTION LIMITED",
+     "tagline": "Manages a concentrated portfolio of undervalued micro and small-cap investments.",
+     "isins": [
+      "AU0000236218"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 109838,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 37736557,
+    "title": "HNG: Non-Binding proposal to Acquire Assets of HCF for scrip",
+    "release_datetime": "2025-01-12T23:15:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65042/2025/RNS/65042_rns_2025-01-12_d9156fe0-6359-4c9b-833d-0d7a183f2d1b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65042/2025/RNS/65042_rns_2025-01-12_d9156fe0-6359-4c9b-833d-0d7a183f2d1b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/hg-high-conviction-limited/ma-activity/2025/37736557/",
+    "company": {
+     "id": 65042,
+     "name": "H&G HIGH CONVICTION LIMITED",
+     "tagline": "Manages a concentrated portfolio of undervalued micro and small-cap investments.",
+     "isins": [
+      "AU0000236218"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 238851,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56321778,
+    "title": "Second Supplementary Target's Statement",
+    "release_datetime": "2025-01-13T00:11:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84854/2025/RNS/84854_rns_2025-01-12_8322d5de-e639-4b43-9fd2-48eecf7e4e65.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84854/2025/RNS/84854_rns_2025-01-12_8322d5de-e639-4b43-9fd2-48eecf7e4e65.pdf",
+    "viewer_url": "https://financialfilings.com/filings/eumundi-group-ltd/ma-activity/2025/56321778/",
+    "company": {
+     "id": 84854,
+     "name": "Eumundi Group Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000EBG0"
+     ],
+     "lei": "",
+     "sub_industry_code": "5510",
+     "oics_code": "CL.SV.HSP.BET",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 870812,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56404972,
+    "title": "Notice of Second Court Hearing",
+    "release_datetime": "2025-01-13T22:39:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85184/2025/RNS/85184_rns_2025-01-13_aaaf7660-4398-4e75-867a-ad14c1a398fa.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85184/2025/RNS/85184_rns_2025-01-13_aaaf7660-4398-4e75-867a-ad14c1a398fa.pdf",
+    "viewer_url": "https://financialfilings.com/filings/latin-resources-ltd/ma-activity/2025/56404972/",
+    "company": {
+     "id": 85184,
+     "name": "Latin Resources Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000LRS6"
+     ],
+     "lei": "",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 199728,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56405879,
+    "title": "Compulsory acquisition and buy out of remaining LVH shares",
+    "release_datetime": "2025-01-14T22:19:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85188/2025/RNS/85188_rns_2025-01-14_43cab3a2-88c9-44cd-95bb-7f11e01b6e0e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85188/2025/RNS/85188_rns_2025-01-14_43cab3a2-88c9-44cd-95bb-7f11e01b6e0e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/livehire-ltd/ma-activity/2025/56405879/",
+    "company": {
+     "id": 85188,
+     "name": "LiveHire Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000LVH1"
+     ],
+     "lei": "",
+     "sub_industry_code": "7810",
+     "oics_code": "TC.SW.APP.BUS",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2107128,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56212728,
+    "title": "Receipt of Competing Proposal from Ho Bee Land",
+    "release_datetime": "2025-01-14T22:33:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84586/2025/RNS/84586_rns_2025-01-14_b241afd5-13ab-4a38-9820-f1f307158b9e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84586/2025/RNS/84586_rns_2025-01-14_b241afd5-13ab-4a38-9820-f1f307158b9e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/avjennings-ltd/ma-activity/2025/56212728/",
+    "company": {
+     "id": 84586,
+     "name": "Avjennings Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AVJ0"
+     ],
+     "lei": "",
+     "sub_industry_code": "4100",
+     "oics_code": "RE.DS.DEV.RSD",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 162728,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 68017283,
+    "title": "General Announcement::Receipt of Competing Proposal from Ho Bee Land",
+    "release_datetime": "2025-01-14T22:39:33+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84586/2025/RNS/84586_rns_2025-01-14_ac80421b-a60e-4f22-a42f-79136add2231.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84586/2025/RNS/84586_rns_2025-01-14_ac80421b-a60e-4f22-a42f-79136add2231.pdf",
+    "viewer_url": "https://financialfilings.com/filings/avjennings-ltd/ma-activity/2025/68017283/",
+    "company": {
+     "id": 84586,
+     "name": "Avjennings Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AVJ0"
+     ],
+     "lei": "",
+     "sub_industry_code": "4100",
+     "oics_code": "RE.DS.DEV.RSD",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 158562,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

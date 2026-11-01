@@ -1,0 +1,960 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1293,
+  "next": "https://api.financialreports.eu/filings/?countries=AU&ordering=release_datetime&page=2&page_size=25&release_datetime_from=2021-01-01T00%3A00%3A00Z&release_datetime_to=2021-12-31T23%3A59%3A59Z&types=TAR",
+  "previous": null,
+  "results": [
+   {
+    "id": 56354358,
+    "title": "The GO2 People to Acquire Hunter Executive Consultants",
+    "release_datetime": "2021-01-03T21:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84993/2021/RNS/84993_rns_2021-01-03_b65cb7d7-a24a-46be-8eb7-0f887cf8d8c9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84993/2021/RNS/84993_rns_2021-01-03_b65cb7d7-a24a-46be-8eb7-0f887cf8d8c9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/go2-people-ltd/ma-activity/2021/56354358/",
+    "company": {
+     "id": 84993,
+     "name": "GO2 People Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000GO22"
+     ],
+     "lei": "",
+     "sub_industry_code": "7820",
+     "oics_code": "IN.BS.APS.HRS",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1017221,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56402896,
+    "title": "SS&C Proposal withdrawn and update on Link's PEXA interest",
+    "release_datetime": "2021-01-03T21:51:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85174/2021/RNS/85174_rns_2021-01-03_9fd434fd-fb9d-46cd-8eb8-c869d2bb2b8a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85174/2021/RNS/85174_rns_2021-01-03_9fd434fd-fb9d-46cd-8eb8-c869d2bb2b8a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/link-administration-hldg-ltd/ma-activity/2021/56402896/",
+    "company": {
+     "id": 85174,
+     "name": "Link Administration Hldg Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000LNK2"
+     ],
+     "lei": "",
+     "sub_industry_code": "6611",
+     "oics_code": "IN.BS.OPS.BPO",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 79621,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38357016,
+    "title": "Bidder's Statement",
+    "release_datetime": "2021-01-03T22:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64454/2021/RNS/64454_rns_2021-01-03_ba4b4b3c-8c14-4f76-b647-0c4a24394ecf.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64454/2021/RNS/64454_rns_2021-01-03_ba4b4b3c-8c14-4f76-b647-0c4a24394ecf.pdf",
+    "viewer_url": "https://financialfilings.com/filings/the-agency-group-australia-ltd/ma-activity/2021/38357016/",
+    "company": {
+     "id": 64454,
+     "name": "THE AGENCY GROUP AUSTRALIA LTD",
+     "tagline": "Provides residential sales and property management via a centralized operational model.",
+     "isins": [
+      "AU000000AU12"
+     ],
+     "lei": "",
+     "sub_industry_code": "6821",
+     "oics_code": "RE.DS.SVC.SVC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1743241,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 38356983,
+    "title": "Receipt of bidders statement",
+    "release_datetime": "2021-01-04T06:16:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64454/2021/RNS/64454_rns_2021-01-03_d371f0f5-17d4-4dcc-99fe-95f942f58cf8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64454/2021/RNS/64454_rns_2021-01-03_d371f0f5-17d4-4dcc-99fe-95f942f58cf8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/the-agency-group-australia-ltd/ma-activity/2021/38356983/",
+    "company": {
+     "id": 64454,
+     "name": "THE AGENCY GROUP AUSTRALIA LTD",
+     "tagline": "Provides residential sales and property management via a centralized operational model.",
+     "isins": [
+      "AU000000AU12"
+     ],
+     "lei": "",
+     "sub_industry_code": "6821",
+     "oics_code": "RE.DS.SVC.SVC",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 335951,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44966465,
+    "title": "Supplementary Bidders Statement - Concentrated Leaders Fund",
+    "release_datetime": "2021-01-05T00:37:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66036/2021/RNS/66036_rns_2021-01-04_8783d2d1-c53f-403b-b43b-3b5066765879.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66036/2021/RNS/66036_rns_2021-01-04_8783d2d1-c53f-403b-b43b-3b5066765879.pdf",
+    "viewer_url": "https://financialfilings.com/filings/wam-capital-limited/ma-activity/2021/44966465/",
+    "company": {
+     "id": 66036,
+     "name": "WAM CAPITAL LIMITED",
+     "tagline": "Provides exposure to an actively managed portfolio of undervalued growth companies.",
+     "isins": [
+      "AU000000WAM2"
+     ],
+     "lei": "254900SOFFDP0PTYDT12",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 98447,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56528062,
+    "title": "Takeover Offer Update - Extension of Offer Period",
+    "release_datetime": "2021-01-05T01:45:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65987/2021/RNS/65987_rns_2021-01-05_bb498b58-60da-4b4a-9320-f08e2a6b8e73.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65987/2021/RNS/65987_rns_2021-01-05_bb498b58-60da-4b4a-9320-f08e2a6b8e73.pdf",
+    "viewer_url": "https://financialfilings.com/filings/union-star-metals-ltd/ma-activity/2021/56528062/",
+    "company": {
+     "id": 65987,
+     "name": "UNION STAR METALS LTD",
+     "tagline": "Procures and processes ferrous and non-ferrous metal scrap for global manufacturing.",
+     "isins": [
+      "AU0000461881"
+     ],
+     "lei": "",
+     "sub_industry_code": "3830",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 321955,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56518289,
+    "title": "Bidders Statement - Off-market takeover bid for EP1",
+    "release_datetime": "2021-01-05T04:25:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85660/2021/RNS/85660_rns_2021-01-05_e4788ddd-9ad3-41bf-990e-0f518c669dff.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85660/2021/RNS/85660_rns_2021-01-05_e4788ddd-9ad3-41bf-990e-0f518c669dff.pdf",
+    "viewer_url": "https://financialfilings.com/filings/360-capital-group/ma-activity/2021/56518289/",
+    "company": {
+     "id": 85660,
+     "name": "360 Capital Group",
+     "tagline": "",
+     "isins": [
+      "AU000000TGP8"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1066363,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56225180,
+    "title": "TOV: BFC Panel Receives Application",
+    "release_datetime": "2021-01-05T07:35:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84637/2021/RNS/84637_rns_2021-01-04_78bcbc61-ee3a-4bab-8bde-2e4bda19271b.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84637/2021/RNS/84637_rns_2021-01-04_78bcbc61-ee3a-4bab-8bde-2e4bda19271b.pdf",
+    "viewer_url": "https://financialfilings.com/filings/beston-global-food-company-ltd/ma-activity/2021/56225180/",
+    "company": {
+     "id": 84637,
+     "name": "Beston Global Food Company Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000BFC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "1079",
+     "oics_code": "CE.EG.FOD.PKG",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 187917,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56201699,
+    "title": "Execution of Sale and Purchase Agreement with Santos",
+    "release_datetime": "2021-01-05T22:17:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84513/2021/RNS/84513_rns_2021-01-05_ed41e5ff-2f17-4e5e-b81c-d5df7b639b8c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84513/2021/RNS/84513_rns_2021-01-05_ed41e5ff-2f17-4e5e-b81c-d5df7b639b8c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/armour-energy-ltd/ma-activity/2021/56201699/",
+    "company": {
+     "id": 84513,
+     "name": "Armour Energy Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AJQ0"
+     ],
+     "lei": "",
+     "sub_industry_code": "0610",
+     "oics_code": "EN.OG.OGP.EXP",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 250123,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56518202,
+    "title": "EP1: Unsolicited Off-Market Takeover Bid",
+    "release_datetime": "2021-01-06T01:19:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85660/2021/RNS/85660_rns_2021-01-06_adee7158-55fd-42f8-8caa-b37d141fedc4.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85660/2021/RNS/85660_rns_2021-01-06_adee7158-55fd-42f8-8caa-b37d141fedc4.pdf",
+    "viewer_url": "https://financialfilings.com/filings/360-capital-group/ma-activity/2021/56518202/",
+    "company": {
+     "id": 85660,
+     "name": "360 Capital Group",
+     "tagline": "",
+     "isins": [
+      "AU000000TGP8"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 150734,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56518194,
+    "title": "Register Date Notice and Bidders Statement Cover Letter",
+    "release_datetime": "2021-01-06T04:06:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85660/2021/RNS/85660_rns_2021-01-06_6653b236-ac51-4b7d-b2f6-67c1c480874d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85660/2021/RNS/85660_rns_2021-01-06_6653b236-ac51-4b7d-b2f6-67c1c480874d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/360-capital-group/ma-activity/2021/56518194/",
+    "company": {
+     "id": 85660,
+     "name": "360 Capital Group",
+     "tagline": "",
+     "isins": [
+      "AU000000TGP8"
+     ],
+     "lei": "",
+     "sub_industry_code": "6432",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 273374,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40669979,
+    "title": "EAS: Bidder's Statement",
+    "release_datetime": "2021-01-06T05:50:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65077/2021/RNS/65077_rns_2021-01-05_366cdbf6-9a51-40a4-a931-4870ea5572aa.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65077/2021/RNS/65077_rns_2021-01-05_366cdbf6-9a51-40a4-a931-4870ea5572aa.pdf",
+    "viewer_url": "https://financialfilings.com/filings/hub24-limited/ma-activity/2021/40669979/",
+    "company": {
+     "id": 65077,
+     "name": "HUB24 LIMITED",
+     "tagline": "Provides investment and superannuation platforms, technology, and data solutions.",
+     "isins": [
+      "AU000000HUB4"
+     ],
+     "lei": "529900O2RAS904TFIR32",
+     "sub_industry_code": "6619",
+     "oics_code": "FI.MK.AMG.AMG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 895614,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44966461,
+    "title": "CLF: Supplementary Target's Statement",
+    "release_datetime": "2021-01-08T01:31:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/66036/2021/RNS/66036_rns_2021-01-07_47b2c15b-1a97-4ff7-938e-640e71a426f1.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/66036/2021/RNS/66036_rns_2021-01-07_47b2c15b-1a97-4ff7-938e-640e71a426f1.pdf",
+    "viewer_url": "https://financialfilings.com/filings/wam-capital-limited/ma-activity/2021/44966461/",
+    "company": {
+     "id": 66036,
+     "name": "WAM CAPITAL LIMITED",
+     "tagline": "Provides exposure to an actively managed portfolio of undervalued growth companies.",
+     "isins": [
+      "AU000000WAM2"
+     ],
+     "lei": "254900SOFFDP0PTYDT12",
+     "sub_industry_code": "6432",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 182859,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 44308241,
+    "title": "ReadyTech to expand into a third vertical - Open Office",
+    "release_datetime": "2021-01-10T21:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65678/2021/RNS/65678_rns_2021-01-10_6313019b-7dac-49bb-b38b-94a39b123617.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65678/2021/RNS/65678_rns_2021-01-10_6313019b-7dac-49bb-b38b-94a39b123617.pdf",
+    "viewer_url": "https://financialfilings.com/filings/readytech-holdings-limited/ma-activity/2021/44308241/",
+    "company": {
+     "id": 65678,
+     "name": "READYTECH HOLDINGS LIMITED",
+     "tagline": "SaaS provider for education, workforce, and government sectors with complex compliance.",
+     "isins": [
+      "AU0000043002"
+     ],
+     "lei": "254900KKYY0GEOE05L74",
+     "sub_industry_code": "6219",
+     "oics_code": "TC.SW.APP.ISS",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 298264,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56219339,
+    "title": "Response to Media Commentary",
+    "release_datetime": "2021-01-10T22:14:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84604/2021/RNS/84604_rns_2021-01-10_204a0b58-035d-4f01-bfa2-cc8acb552c03.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84604/2021/RNS/84604_rns_2021-01-10_204a0b58-035d-4f01-bfa2-cc8acb552c03.pdf",
+    "viewer_url": "https://financialfilings.com/filings/amaysim-australia-ltd/ma-activity/2021/56219339/",
+    "company": {
+     "id": 84604,
+     "name": "amaysim Australia Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AYS5"
+     ],
+     "lei": "",
+     "sub_industry_code": "6120",
+     "oics_code": "CM.TL.TEL.MOB",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 112262,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39793335,
+    "title": "RDH: Target's Statement in respect of UCW Limited's Offer",
+    "release_datetime": "2021-01-12T03:32:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64821/2021/RNS/64821_rns_2021-01-11_5cb33fe6-7212-483d-9cd6-d15f81309910.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64821/2021/RNS/64821_rns_2021-01-11_5cb33fe6-7212-483d-9cd6-d15f81309910.pdf",
+    "viewer_url": "https://financialfilings.com/filings/edu-holdings-limited/ma-activity/2021/39793335/",
+    "company": {
+     "id": 64821,
+     "name": "EDU HOLDINGS LIMITED",
+     "tagline": "Tertiary education operator focusing on vocational and higher education sectors.",
+     "isins": [
+      "AU0000198483"
+     ],
+     "lei": "",
+     "sub_industry_code": "8540",
+     "oics_code": "CL.SV.PSV.EDU",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2435151,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40382435,
+    "title": "Completion of Acquisition of Kookynie Gold Project",
+    "release_datetime": "2021-01-12T04:19:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64997/2021/RNS/64997_rns_2021-01-11_5a598b52-d332-45ea-ae3d-ac5675f92cc9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64997/2021/RNS/64997_rns_2021-01-11_5a598b52-d332-45ea-ae3d-ac5675f92cc9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/genesis-minerals-limited/ma-activity/2021/40382435/",
+    "company": {
+     "id": 64997,
+     "name": "GENESIS MINERALS LIMITED",
+     "tagline": "Gold producer and developer focused on high-grade gold assets in the Leonora region.",
+     "isins": [
+      "AU000000GMD9"
+     ],
+     "lei": "894500AK5BVRCNP0FP48",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 205296,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56360160,
+    "title": "Okapi Proceeds with Enmore Gold Project",
+    "release_datetime": "2021-01-12T23:43:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85006/2021/RNS/85006_rns_2021-01-12_658a376e-67c5-4f56-a4db-bb1e8a596a10.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85006/2021/RNS/85006_rns_2021-01-12_658a376e-67c5-4f56-a4db-bb1e8a596a10.pdf",
+    "viewer_url": "https://financialfilings.com/filings/global-uranium-and-enrichment-ltd/ma-activity/2021/56360160/",
+    "company": {
+     "id": 85006,
+     "name": "Global Uranium and Enrichment Ltd",
+     "tagline": "",
+     "isins": [
+      "AU0000308157"
+     ],
+     "lei": "",
+     "sub_industry_code": "0721",
+     "oics_code": "EN.OG.FUE.URA",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1125173,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39793312,
+    "title": "Receipt of Target's Statement",
+    "release_datetime": "2021-01-13T00:59:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64821/2021/RNS/64821_rns_2021-01-12_e722d92e-34dc-4c0d-a78d-9722480e6b99.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64821/2021/RNS/64821_rns_2021-01-12_e722d92e-34dc-4c0d-a78d-9722480e6b99.pdf",
+    "viewer_url": "https://financialfilings.com/filings/edu-holdings-limited/ma-activity/2021/39793312/",
+    "company": {
+     "id": 64821,
+     "name": "EDU HOLDINGS LIMITED",
+     "tagline": "Tertiary education operator focusing on vocational and higher education sectors.",
+     "isins": [
+      "AU0000198483"
+     ],
+     "lei": "",
+     "sub_industry_code": "8540",
+     "oics_code": "CL.SV.PSV.EDU",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 190067,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 42147086,
+    "title": "Primero Takeover Offer Extended",
+    "release_datetime": "2021-01-13T08:12:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65459/2021/RNS/65459_rns_2021-01-12_ea86c604-d80f-46ff-974c-3311fc979b35.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65459/2021/RNS/65459_rns_2021-01-12_ea86c604-d80f-46ff-974c-3311fc979b35.pdf",
+    "viewer_url": "https://financialfilings.com/filings/nrw-holdings-limited/ma-activity/2021/42147086/",
+    "company": {
+     "id": 65459,
+     "name": "NRW HOLDINGS LIMITED",
+     "tagline": "Delivers diversified contract services across the resources and infrastructure sectors.",
+     "isins": [
+      "AU000000NWH5"
+     ],
+     "lei": "5493003S2MORCH0HEL95",
+     "sub_industry_code": "4210",
+     "oics_code": "IN.EQ.BLD.ENG",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 345083,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 39793306,
+    "title": "RDH: Response to UCW Announcement of 13 January 2021",
+    "release_datetime": "2021-01-13T21:48:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64821/2021/RNS/64821_rns_2021-01-13_189c1b5c-efa8-46f2-9ff9-cbe0f456d575.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64821/2021/RNS/64821_rns_2021-01-13_189c1b5c-efa8-46f2-9ff9-cbe0f456d575.pdf",
+    "viewer_url": "https://financialfilings.com/filings/edu-holdings-limited/ma-activity/2021/39793306/",
+    "company": {
+     "id": 64821,
+     "name": "EDU HOLDINGS LIMITED",
+     "tagline": "Tertiary education operator focusing on vocational and higher education sectors.",
+     "isins": [
+      "AU0000198483"
+     ],
+     "lei": "",
+     "sub_industry_code": "8540",
+     "oics_code": "CL.SV.PSV.EDU",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 207399,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 40372607,
+    "title": "LIT: GLN to acquire 80% of Greenbushes South Lithium Project",
+    "release_datetime": "2021-01-13T22:08:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/64995/2021/RNS/64995_rns_2021-01-13_0bb59344-8195-473e-b962-654e81c9827c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/64995/2021/RNS/64995_rns_2021-01-13_0bb59344-8195-473e-b962-654e81c9827c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/galan-lithium-limited/ma-activity/2021/40372607/",
+    "company": {
+     "id": 64995,
+     "name": "GALAN LITHIUM LIMITED",
+     "tagline": "Explores and develops high-grade lithium brine assets for the global battery market.",
+     "isins": [
+      "AU0000021461"
+     ],
+     "lei": "529900DMKODFURRUHR79",
+     "sub_industry_code": "0729",
+     "oics_code": "MA.MM.IMT.BAT",
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 231948,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56219334,
+    "title": "EGM Update - Voting intention of major shareholder",
+    "release_datetime": "2021-01-17T22:21:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/84604/2021/RNS/84604_rns_2021-01-17_9d517500-213d-4ec6-b079-fae122b9b293.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/84604/2021/RNS/84604_rns_2021-01-17_9d517500-213d-4ec6-b079-fae122b9b293.pdf",
+    "viewer_url": "https://financialfilings.com/filings/amaysim-australia-ltd/ma-activity/2021/56219334/",
+    "company": {
+     "id": 84604,
+     "name": "amaysim Australia Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000AYS5"
+     ],
+     "lei": "",
+     "sub_industry_code": "6120",
+     "oics_code": "CM.TL.TEL.MOB",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 176669,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56528041,
+    "title": "Takeover Update & Public Offer Closes Fully Subscribed",
+    "release_datetime": "2021-01-17T22:44:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65987/2021/RNS/65987_rns_2021-01-17_c0b7017c-1e36-402a-ad2b-908e69676cb3.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65987/2021/RNS/65987_rns_2021-01-17_c0b7017c-1e36-402a-ad2b-908e69676cb3.pdf",
+    "viewer_url": "https://financialfilings.com/filings/union-star-metals-ltd/ma-activity/2021/56528041/",
+    "company": {
+     "id": 65987,
+     "name": "UNION STAR METALS LTD",
+     "tagline": "Procures and processes ferrous and non-ferrous metal scrap for global manufacturing.",
+     "isins": [
+      "AU0000461881"
+     ],
+     "lei": "",
+     "sub_industry_code": "3830",
+     "oics_code": "MA.MM.PRE.GLD",
+     "country_code": "AU",
+     "date_public": "2026-10-30"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 348094,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 41075305,
+    "title": "Extension of offer period - RNY Property Trust",
+    "release_datetime": "2021-01-18T01:36:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2021/RNS/65174_rns_2021-01-17_6ee4c947-d8ce-44f4-800f-e26a11dd4b68.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/65174/2021/RNS/65174_rns_2021-01-17_6ee4c947-d8ce-44f4-800f-e26a11dd4b68.pdf",
+    "viewer_url": "https://financialfilings.com/filings/keybridge-capital-limited/ma-activity/2021/41075305/",
+    "company": {
+     "id": 65174,
+     "name": "KEYBRIDGE CAPITAL LIMITED",
+     "tagline": "Investment group managing alternative assets, equity, debt, and structured finance.",
+     "isins": [
+      "AU000000KBC6"
+     ],
+     "lei": "549300UG314Z1PTXWP21",
+     "sub_industry_code": "6499",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-28"
+    },
+    "filing_type": {
+     "id": 23,
+     "code": "TAR",
+     "name": "M&A Activity",
+     "description": "Announcements and documents related to merger proposals or takeover bids.",
+     "category": {
+      "id": 10,
+      "name": "M&A, Partnerships & Legal",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 339593,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}
