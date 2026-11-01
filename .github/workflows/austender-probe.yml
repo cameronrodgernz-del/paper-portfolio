@@ -16,11 +16,13 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Probe
-        run: python3 -I tools/austender_probe.py
+        run: |
+          pip install -q openpyxl
+          python3 -I tools/austender_probe.py
