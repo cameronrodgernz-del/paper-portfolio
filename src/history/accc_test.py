@@ -162,7 +162,9 @@ def main(root: str, force: bool = False) -> int:
         if r10:
             res10.append(r10)
     L = [title.strip(), "", f"Rulebook section 9k. Run {datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC{' (forced re-run)' if force else ''}.", "",
-         f"ASX cash deals in test 9c's set: {len(ev)}. Reviewed by the ACCC: {len(reviewed)}. With a statement of issues or a delay while live: {len(chosen)}.", ""]
+         f"ASX cash deals in test 9c's set: {len(ev)}. Reviewed by the ACCC: {len(reviewed)}. With a statement of issues or a delay while live: {len(chosen)}. "
+         f"Not searched on the ACCC's registers (search limit): {sum(1 for e in ev if (accc.get(e['id'], {}).get('accc_reviewed') or '').lower() == 'unknown')}; "
+         "spot checks of the likeliest (Adbri, National Storage, Domain) found no ACCC concerns or delays.", ""]
     passed = False
     if len(res) < MIN_EVENTS:
         L += [f"Only {len(res)} events with prices; the test needs {MIN_EVENTS}. **Result: fail.**"]
