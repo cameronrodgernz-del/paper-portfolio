@@ -19,7 +19,8 @@ target model, the June tax-year sell-off):
   <out>/universe/prices_<YYYY>.csv.gz    symbol,date,open,high,low,close,volume,tr_close
      close: as traded; tr_close: total return (dividends and capital events), for working out returns
 With --universe-only it skips the deal-target export and the index changes.
-Usage: python tools/norgate_export.py <repo_root> <out_dir> [--index] [--universe] [--universe-only] [--since YYYY-MM-DD]
+With --index-only it writes only the index files (index_changes.csv and index_members.csv).
+Usage: python tools/norgate_export.py <repo_root> <out_dir> [--index] [--universe] [--universe-only] [--index-only] [--since YYYY-MM-DD]
 """
 import csv
 import gzip
@@ -163,8 +164,43 @@ def universe(dbs: list[str], out: str, since: str) -> int:
     return done
 
 
+def index_export(cand: dict, out: str, since: str) -> None:
+    """index_changes.csv: every date a security joined or left the S&P/ASX 200 and 300 since `since`.
+    index_members.csv: each security's membership on the first and last day of its series, so a company
+    that was in an index the whole time (and so never changed) is known too."""
+    syms = list(dict.fromkeys((sym, name) for lst in cand.values() for sym, name in lst))   # Norgate lists some recent listings twice
+    with open(os.path.join(out, "index_changes.csv"), "w", newline="", encoding="utf-8") as f, \
+         open(os.path.join(out, "index_members.csv"), "w", newline="", encoding="utf-8") as g:
+        wr = csv.writer(f); wr.writerow(["index", "symbol", "name", "date", "change"])
+        wm = csv.writer(g); wm.writerow(["index", "symbol", "name", "first_date", "member_at_first", "last_date", "member_at_last"])
+        for label in INDEXES:
+            idx = index_name(label, since)
+            if not idx:
+                print("WARNING: Norgate did not recognise", label, "under any of", INDEXES[label]); continue
+            print("index", label, "as", repr(idx), "across", len(syms), "securities")
+            n = 0
+            for i, (sym, name) in enumerate(syms, 1):
+                if i % 1000 == 0:
+                    print(f"  {label}: {i} of {len(syms)} checked, {n} changes so far", flush=True)
+                try:
+                    s = constituent(sym, idx, since)
+                except Exception:
+                    continue
+                if s is None or len(s) == 0:
+                    continue
+                prev = None
+                for d, v in s.items():
+                    v = int(v)
+                    if prev is not None and v != prev:
+                        wr.writerow([label, sym, name, str(d)[:10], "joined" if v == 1 else "left"]); n += 1
+                    prev = v
+                wm.writerow([label, sym, name, str(s.index[0])[:10], int(s.iloc[0]), str(s.index[-1])[:10], int(s.iloc[-1])])
+            print(f"  {label}: {n} changes")
+    print("index changes and members written")
+
+
 def main(root: str, out: str, index: bool = False, since: str = "2010-01-01", universe_too: bool = False,
-         universe_only: bool = False) -> int:
+         universe_only: bool = False, index_only: bool = False) -> int:
     if not nd.status():
         print("Norgate Data Updater is not running. Open it, let it finish updating, then run this again.")
         return 2
@@ -180,6 +216,9 @@ def main(root: str, out: str, index: bool = False, since: str = "2010-01-01", un
     if not cand:
         print("No Australian securities found: check the subscription in Norgate Data Updater.")
         return 3
+    if index_only:
+        index_export(cand, out, since)
+        return 0
     wanted = list(csv.DictReader(open(os.path.join(root, "config", "norgate_wanted.csv"), encoding="utf-8")))
     matches = []
     for w in wanted:
@@ -218,32 +257,7 @@ def main(root: str, out: str, index: bool = False, since: str = "2010-01-01", un
         wr = csv.writer(f); wr.writerow(["ticker", "announce_date", "norgate_symbol", "norgate_name", "first", "last", "status"])
         wr.writerows(matches)
     if index:
-        syms = [(sym, name) for lst in cand.values() for sym, name in lst]
-        with open(os.path.join(out, "index_changes.csv"), "w", newline="", encoding="utf-8") as f:
-            wr = csv.writer(f); wr.writerow(["index", "symbol", "name", "date", "change"])
-            for label in INDEXES:
-                idx = index_name(label, since)
-                if not idx:
-                    print("WARNING: Norgate did not recognise", label, "under any of", INDEXES[label]); continue
-                print("index", label, "as", repr(idx), "across", len(syms), "securities")
-                n = 0
-                for i, (sym, name) in enumerate(syms, 1):
-                    if i % 1000 == 0:
-                        print(f"  {label}: {i} of {len(syms)} checked, {n} changes so far", flush=True)
-                    try:
-                        s = constituent(sym, idx, since)
-                    except Exception:
-                        continue
-                    if s is None:
-                        continue
-                    prev = None
-                    for d, v in s.items():
-                        v = int(v)
-                        if prev is not None and v != prev:
-                            wr.writerow([label, sym, name, str(d)[:10], "joined" if v == 1 else "left"]); n += 1
-                        prev = v
-                print(f"  {label}: {n} changes")
-        print("index changes written")
+        index_export(cand, out, since)
     print(f"done: {sum(1 for m in matches if m[-1] == 'ok')} of {len(matches)} found")
     if universe_too:
         universe(dbs, out, since)
@@ -253,4 +267,5 @@ def main(root: str, out: str, index: bool = False, since: str = "2010-01-01", un
 if __name__ == "__main__":
     a = [x for x in sys.argv[1:] if not x.startswith("--")]
     since = next((sys.argv[i + 1] for i, x in enumerate(sys.argv) if x == "--since"), "2010-01-01")
-    sys.exit(main(a[0], a[1], "--index" in sys.argv, since, "--universe" in sys.argv, "--universe-only" in sys.argv))
+    sys.exit(main(a[0], a[1], "--index" in sys.argv, since, "--universe" in sys.argv, "--universe-only" in sys.argv,
+                  "--index-only" in sys.argv))
