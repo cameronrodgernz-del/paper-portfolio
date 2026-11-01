@@ -1,95 +1,50 @@
 run 2026-11-01
-US:HGR +439
-US:HLSS +229
-US:HRT +669
-US:HT +2391
-US:HZN +1915
-US:IL +264
-US:IMMU +1613
-US:IMXI +2414
-US:IOTS +1176
-US:IRC +468
-US:ISEE +2293
-US:ITCI +2727
-US:ITI +2625
-US:JCAP +340
-US:JMBA +1081
-US:JOY +724
-US:KATE +785
-US:KLDX +702
-US:KLXI +970
-US:KNBE +449
-US:KRA +1965
-US:KTWO +173
-US:LABC +332
-US:LABP +831
-US:LDL +1850
-US:LM +1554
-US:LMIA +776
-US:LMNX +262
-US:LOXO +1144
-US:LQ +125
-US:LTRPA +2903
-US:MAXR +2250
-US:MDAS +419
-US:MDC +2489
-US:MDLA +577
-US:MDP +0
-US:MDVN +175
-US:MENT +313
-US:MGI +2267
-US:MGRM +599
-US:MHGC +631
-US:MIK +1712
-US:MJCO +1318
-US:MKFG +1142
+US:MLNK +1067
+US:MM +353
+US:MN +21
+US:MNR +757
+US:MOBL +1631
 PROBLEMS:
-HIIQ: HTTPError: HTTP Error 404: Not Found
-MLNK: Tiingo hourly budget used
-MM: Tiingo hourly budget used
-MN: Tiingo hourly budget used
-MNR: Tiingo hourly budget used
-MOBL: Tiingo hourly budget used
-MPSX: Tiingo hourly budget used
-MRSN: Tiingo hourly budget used
-MTGE: Tiingo hourly budget used
-MTSC: Tiingo hourly budget used
-MULE: Tiingo hourly budget used
-MYCC: Tiingo hourly budget used
-N: Tiingo hourly budget used
-NATL: Tiingo hourly budget used
-NCFT: Tiingo hourly budget used
-NCIT: Tiingo hourly budget used
-NEWR: Tiingo hourly budget used
-NGHC: Tiingo hourly budget used
-NONE: Tiingo hourly budget used
-NPSP: Tiingo hourly budget used
-NPTN: Tiingo hourly budget used
-NSPH: Tiingo hourly budget used
-NTLS: Tiingo hourly budget used
-NTUS: Tiingo hourly budget used
-NUAN: Tiingo hourly budget used
-NVRO: Tiingo hourly budget used
-NVSL: Tiingo hourly budget used
-NWLI: Tiingo hourly budget used
-NXGN: Tiingo hourly budget used
-NYNY: Tiingo hourly budget used
-NYRT: Tiingo hourly budget used
-OCAT: Tiingo hourly budget used
-ODP: Tiingo hourly budget used
-OLO: Tiingo hourly budget used
-OMIC: Tiingo hourly budget used
-OMN: Tiingo hourly budget used
-ORTX: Tiingo hourly budget used
-OSIR: Tiingo hourly budget used
-PAND: Tiingo hourly budget used
-PAYA: Tiingo hourly budget used
-PBY: Tiingo hourly budget used
-PDCO: Tiingo hourly budget used
-PETM: Tiingo hourly budget used
-PETQ: Tiingo hourly budget used
-PFIN: Tiingo hourly budget used
-PFSW: Tiingo hourly budget used
+MPSX: HTTPError: HTTP Error 429: Too Many Requests
+MRSN: HTTPError: HTTP Error 429: Too Many Requests
+MTGE: HTTPError: HTTP Error 429: Too Many Requests
+MTSC: HTTPError: HTTP Error 429: Too Many Requests
+MULE: HTTPError: HTTP Error 429: Too Many Requests
+MYCC: HTTPError: HTTP Error 429: Too Many Requests
+N: HTTPError: HTTP Error 429: Too Many Requests
+NATL: HTTPError: HTTP Error 429: Too Many Requests
+NCFT: HTTPError: HTTP Error 429: Too Many Requests
+NCIT: HTTPError: HTTP Error 429: Too Many Requests
+NEWR: HTTPError: HTTP Error 429: Too Many Requests
+NGHC: HTTPError: HTTP Error 429: Too Many Requests
+NONE: HTTPError: HTTP Error 429: Too Many Requests
+NPSP: HTTPError: HTTP Error 429: Too Many Requests
+NPTN: HTTPError: HTTP Error 429: Too Many Requests
+NSPH: HTTPError: HTTP Error 429: Too Many Requests
+NTLS: HTTPError: HTTP Error 429: Too Many Requests
+NTUS: HTTPError: HTTP Error 429: Too Many Requests
+NUAN: HTTPError: HTTP Error 429: Too Many Requests
+NVRO: HTTPError: HTTP Error 429: Too Many Requests
+NVSL: HTTPError: HTTP Error 429: Too Many Requests
+NWLI: HTTPError: HTTP Error 429: Too Many Requests
+NXGN: HTTPError: HTTP Error 429: Too Many Requests
+NYNY: HTTPError: HTTP Error 429: Too Many Requests
+NYRT: HTTPError: HTTP Error 429: Too Many Requests
+OCAT: HTTPError: HTTP Error 429: Too Many Requests
+ODP: HTTPError: HTTP Error 429: Too Many Requests
+OLO: HTTPError: HTTP Error 429: Too Many Requests
+OMIC: HTTPError: HTTP Error 429: Too Many Requests
+OMN: HTTPError: HTTP Error 429: Too Many Requests
+ORTX: HTTPError: HTTP Error 429: Too Many Requests
+OSIR: HTTPError: HTTP Error 429: Too Many Requests
+PAND: HTTPError: HTTP Error 429: Too Many Requests
+PAYA: HTTPError: HTTP Error 429: Too Many Requests
+PBY: HTTPError: HTTP Error 429: Too Many Requests
+PDCO: HTTPError: HTTP Error 429: Too Many Requests
+PETM: HTTPError: HTTP Error 429: Too Many Requests
+PETQ: HTTPError: HTTP Error 429: Too Many Requests
+PFIN: HTTPError: HTTP Error 429: Too Many Requests
+PFSW: HTTPError: HTTP Error 429: Too Many Requests
 PGI: Tiingo hourly budget used
 PGND: Tiingo hourly budget used
 PHX: Tiingo hourly budget used
