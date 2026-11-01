@@ -136,6 +136,39 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 - Reported only, not a pass mark: the same rules entering when the scheme booklet is out; the market-implied chance at entry against the actual paid rate.
 - Prices: EODHD (paid plan), fetched once for the 121 codes. The test runs once when they are in, writes reports/deal_au_history.md and locks.
 
+### Shared terms for 9d to 9f (registered 1 Nov 2026, before any result)
+- Prices: Norgate Data's daily prices for every listed and delisted ASX security since 2010 (data/norgate/), as traded for entry checks and price floors, and with dividends and capital events for returns. A delisted share is sold at its last close.
+- The market: the Vanguard Australian Shares ETF (VAS) with dividends, the same fund the core holds.
+- Costs on every position: Sharesies' ASX brokerage on a A$3,000 order on the buy and on the sale (A$15 each), and half the estimated spread on each trade (Corwin and Schultz, from the 20 sessions before the trade, with the engine's floors). No currency conversion per trade: the sleeve holds Australian dollars and converts only when it is funded or emptied. The hedge's 0.1% dealing cost on each position.
+- Tradable: at entry, a price of at least A$0.10 and a median daily traded value of at least A$50,000 over the previous 60 sessions, the liquidity limit the rulebook already uses for a A$3,000 position.
+- Each test runs once when its data is in, writes its report and locks. A pass makes its type tradable in the special situations sleeve at up to 3% a position; a fail leaves it untraded.
+
+### 9d. Test registered on 1 Nov 2026, before any result: shares left behind when a deal fails
+- Events: every ASX scheme or full takeover in the deal database announced from 2015 to 2025 that ended without paying holders (the holder outcome used in section 5: terminated, withdrawn or lapsed, or topped by a rival that also failed), with an outcome date, leaving out majority-holder buy-outs.
+- Entry at the open of the first session after the outcome date, when the arbitrage funds sell.
+- Exit at the first of: the open after a new control deal for the company is announced (from the deal database); the open 252 sessions after entry; the last close if the share delists.
+- Result per event: return after costs less the market's return over the same days.
+- Nothing is tuned. Pass needs all of: at least 20 events with prices; mean result above zero with a t-statistic of 2 or more; still above zero without the best 5% of events; no single year more than half the total gain.
+- Reported only: how many were bid again within the hold, and the return of those against the rest.
+
+### 9e. Test registered on 1 Nov 2026, before any result: a model of the next takeover target
+- The question: which ASX shares receive a binding control deal (a scheme or takeover bid in the deal database) within the next 12 months.
+- Universe at each quarter end: ASX shares passing the tradable test, with at least 252 sessions of prices, leaving out exchange-traded funds by name.
+- Features, from prices and the deal database only, known at the quarter end: median daily traded value (size); total return over 1, 3 and 12 months, and against the market over 12 months; distance below the 52-week high; 3-month volatility; volume over the last 20 sessions against the previous 120 (a surge); a failed or rejected deal for the company in the previous 2 years; the number of deals in its industry code in the previous 2 years is not available and is left out.
+- Model: a penalised logistic regression fitted on quarter ends from 2011 to 2018. The penalty is chosen by five-fold cross-validation on those years only.
+- The trading rule: at each quarter end from 2019 to the latest quarter whose 3 months have passed, buy the 5 highest-scored shares in equal amounts at the next open and sell at the open 3 months later (a share bid in the meantime is held to that date, or sold at its last close if it delists).
+- Run once on 2019 onwards. Pass needs all of: mean quarterly result after costs above the market with a t-statistic of 2 or more across the quarters; the shares picked received a bid within 12 months at least three times as often as the universe did; no single year more than half the total gain.
+- Reported only: how often the top 20 and top 50 were bid, and a lift chart by score band.
+- Its weakness, stated now: deals under about A$100m and approaches that never became binding are missing from the deal database, so some shares the model ranks highly count as misses when they were in fact approached.
+
+### 9f. Test registered on 1 Nov 2026, before any result: the June tax-year sell-off
+- Why it might work: Australian investors sell losing shares before 30 June to claim the loss; a New Zealand holder has no such reason, so can buy what they sell.
+- Each year, on the ranking date: the tradable ASX shares with the lowest total return since the previous 1 July (at least 200 sessions of prices), the bottom 10% up to 20 shares.
+- The benchmark: the equal-weighted return of every tradable share over the same days, so a general small-share rally in July doesn't count as the effect.
+- Tuning on 2010 to 2017 (all 4 versions recorded): ranking and buying on 15 June (or the session before) or on the last session of June; selling on the last session of July or of August. The version with the highest mean yearly result after costs is picked.
+- One run of the picked version on 2018 to 2026. Pass needs all of: picks beat the benchmark after costs in at least 6 of the 9 years; the 9-year mean of yearly results above 2%; no single year more than half the total gain.
+- Reported only: the same with the bottom 5% and with no 20-share cap.
+
 ## 10. Success tests (scored on 2 July 2027)
 1. Ahead after all costs.
 2. Ahead of an index-and-cash mix with the same ups and downs.
@@ -147,6 +180,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 | Date | Change | Why |
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
+| 2026-11-01 | Sections 9d to 9f registered, with their rules and pass marks, before the data they need was looked at: shares left behind when a deal fails, a model of the next takeover target, and the June tax-year sell-off | The tests so far looked at strategies many investors already trade; these look for forced selling and for your knowledge of how takeovers happen |
 | 2026-11-01 | Section 9c result: fail. ASX cash deals bought at the first open after the announcement returned 0.61% less than cash after costs (108 deals from 2015 to 2025, t of -0.49; 2019 averaged a 9% loss a deal). The market's prices implied a 74% chance of completion against 90% that paid, but the costs a New Zealand holder pays (about 1.7% a deal) took the spread. ASX cash deals are not traded; ASX scrip deals and NZX deals carry on, and US deals wait for 9b | Recorded as the registered test found it (reports/deal_au_history.md); nothing in the test was changed after the result |
 | 2026-11-01 | Deal database: seven missing dates filled from the original announcements (payment dates for PLG, CRD, VRL, AST, IAP and ABC; the date Pioneer Credit's Carlyle scheme ended), before the 9c result | Every gap of this kind was filled, not only the ones that changed the 9c count |
 | 2026-11-01 | Section 9c: prices from Norgate Data (which keeps delisted ASX shares, each under its own symbol when a code is reused) wherever its file is the company the deal database names, and EODHD otherwise; COF, FND and PRG are left out because neither source holds the old company under those codes. Set before any return was worked out | EODHD has no ASX shares delisted before about 2017, which kept coverage under the 70% the test needs |
