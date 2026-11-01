@@ -528,9 +528,9 @@ def history_tests() -> list[dict]:
         res = first_match(path, r"\*\*Result: (pass|fail|not run)\.\*\*")
         if not res:
             return priced
-        ev = first_match(path, r"\|\s*Events\s*\|\s*(\d+)[^|]*\|")
+        ev = first_match(path, r"\|\s*(?:Events|Trades)\s*\|\s*(\d+)[^|]*\|")
         mean = first_match(path, r"\|\s*Mean (?:monthly result[^|]*|result[^|]*|after costs[^|]*)\|\s*([-+]?[\d.]+%)[^|]*\|")
-        t = first_match(path, r"\|\s*t-statistic(?: \(monthly\))?\s*\|\s*([-+]?[\d.]+)\s*\|")
+        t = first_match(path, r"\|\s*t-statistic(?: \((?:monthly|by rebalance)\))?\s*\|\s*([-+]?[\d.]+)\s*\|")
         qs = first_match(path, r"\|\s*Quarters\s*\|\s*(\d+)[^|]*\|")
         if not mean:                                   # 9f reports a yearly mean in its pass marks
             mean = first_match(path, r"\|\s*Mean yearly result[^|]*\|[^|]*\|\s*([-+]?[\d.]+%)\s*\|")
@@ -563,7 +563,8 @@ def history_tests() -> list[dict]:
                                              ("Short sellers covering", "9i", "short_cover_history.md", "month", "shorted shares"),
                                              ("Franked special dividends in schemes", "9j", "scheme_special_history.md", "scheme", "holding"),
                                              ("Deals after the ACCC raises concerns", "9k", "accc_history.md", "deal", "cash"),
-                                             ("Government contracts and small companies", "9l", "contracts_history.md", "trade", "small shares"))]
+                                             ("Government contracts and small companies", "9l", "contracts_history.md", "trade", "small shares"),
+                                             ("Predicted index additions", "9m", "index_additions_history.md", "trade", "mid-sized shares"))]
 
 
 def feeds_section() -> dict:
