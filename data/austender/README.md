@@ -2,6 +2,8 @@
 
 Every Australian Government contract notice that the two public AusTender sources hold, contracts and their amendments, one file per calendar year of publish date (`contracts_YYYY.csv.gz`). Downloaded by `tools/austender_fetch.py` and merged by `tools/austender_build.py`, both run by `.github/workflows/austender.yml`.
 
+Matches of these notices to ASX-listed companies are in `matched.csv`, described in `MATCHING.md` and made by `tools/austender_match.py`, with the hand checks in `match_checks.csv`.
+
 ## Columns
 
 | column | meaning |
