@@ -24,5 +24,5 @@ jobs:
           python-version: "3.12"
       - name: Probe
         run: |
-          pip install -q openpyxl
+          pip install -q python-calamine
           python3 -I tools/austender_probe.py
