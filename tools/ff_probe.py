@@ -69,9 +69,14 @@ def main(out: str) -> int:
         json.dump({"status": status, "body": body}, open(os.path.join(pdir, name + ".json"), "w"), indent=1, default=str)
 
     # 1. filing types and categories
-    st, ft = get("/filing-types/", {"page_size": 500}); save("filing_types", st, ft)
-    st2, fc = get("/filing-categories/", {"page_size": 200}); save("filing_categories", st2, fc)
-    types = items(ft)
+    types, st, page = [], 0, 1
+    while page <= 3:                                   # at most 100 a page
+        st, ft = get("/filing-types/", {"page_size": 100, "page": page}); save(f"filing_types_{page}", st, ft)
+        types += items(ft)
+        if not (isinstance(ft, dict) and ft.get("next")):
+            break
+        page += 1
+    st2, fc = get("/filing-categories/", {"page_size": 100}); save("filing_categories", st2, fc)
     L += [f"Filing types: status {st}, {len(types)} listed.", ""]
     wanted = {}
     for t in types:
@@ -91,10 +96,10 @@ def main(out: str) -> int:
         return None, None
     targets = [x for x in (pick("shareholding", "substantial"), pick("m&a", "takeover", "merger")) if x[0] is not None]
     for tid, tname in targets:
-        L += [f"## {tname} (type {tid}), Australia", "", "| Year | Status | Filings returned (100 max) | Count reported | First | Last |", "| --- | --- | --- | --- | --- | --- |"]
+        L += [f"## {tname} (type {tid}), Australia", "", "| Year | Status | Filings returned (25 max) | Count reported | First | Last |", "| --- | --- | --- | --- | --- | --- |"]
         for y in range(2010, 2027):
             st, b = get("/filings/", {"countries": "AU", "types": tid, "release_datetime_from": f"{y}-01-01T00:00:00Z",
-                                      "release_datetime_to": f"{y}-12-31T23:59:59Z", "page_size": 100, "ordering": "release_datetime"})
+                                      "release_datetime_to": f"{y}-12-31T23:59:59Z", "page_size": 25, "ordering": "release_datetime"})
             save(f"type{tid}_{y}", st, b)
             rows = items(b)
             dates = sorted((r.get("release_datetime") or "")[:10] for r in rows if isinstance(r, dict))

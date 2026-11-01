@@ -1,4 +1,0 @@
-{
- "status": 400,
- "body": "{\"detail\":\"The maximum allowed page size is 100.\",\"type\":\"page_size_too_large\",\"resolution\":\"Request page_size=100 or less and follow the `next` link for more.\",\"max_page_size\":100}"
-}
