@@ -1,0 +1,36 @@
+name: ACCC merger registers
+
+# Collects the ACCC's public informal merger reviews register (2002-25), statements of issues and
+# merger authorisations for the ACCC review data set in data/regulators/. Runs when its script
+# changes, or by hand. Requests are paced politely; the run stops if the site refuses access.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - tools/accc_register_crawl.py
+      - .github/workflows/accc-register.yml
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Crawl
+        run: python3 -I tools/accc_register_crawl.py data/regulators/accc_raw
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "paper-portfolio-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/regulators/accc_raw
+          git diff --cached --quiet && exit 0
+          git commit -m "ACCC merger registers $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
