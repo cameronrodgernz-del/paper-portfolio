@@ -222,6 +222,26 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 - A pass adds a rule to section 5: for an ASX scheme position, the desk sells before a special dividend's ex-date when the price is above the dividend plus the remaining payment by more than the cost of selling.
 - Its weakness, stated now: Norgate doesn't say whether a dividend is franked, so unfranked specials are included and would weaken any effect.
 
+### 9k. Test registered on 1 Nov 2026, before its data was gathered: buying ASX deals after the ACCC raises concerns
+- The question: when the ACCC signals trouble with a takeover, does the market mark the deal down further than the deals' later completion justifies?
+- Data: the ACCC's public merger registers (the informal review register for 2002 to 2025, and authorisations), matched to the deal database's ASX deals by target and bidder (data/regulators/accc_deals.csv); prices as in 9c (Norgate where its file is the company the database names, EODHD otherwise).
+- Events: the ASX cash schemes and takeover bids of test 9c (announced 2015 to 2025, resolved), where, while the deal was live, the ACCC published a statement of issues or moved its provisional decision date later or suspended it. A request for information on its own doesn't count. The event date is the first such signal.
+- The trade: buy at the open of the first session after the event date, if the deal hasn't ended by then and the open is between the undisturbed price and 101% of the offer. Exit as in 9c: a deal that paid is credited at the final price on the payment date with no sale costs; a deal that broke is sold at the first open after its outcome date, with costs. Rival bids are followed as in 9c.
+- Costs as in the shared terms for 9g to 9j (a A$3,000 position, brokerage both ways where there is a sale, half the spread on each trade, the hedge's 0.1%, no currency conversion per deal). Result: return after costs less the Australian three-month bank bill rate over the same days.
+- Run once; nothing is tuned. Pass needs all of: at least 12 events; a mean result above zero with a t-statistic of 2 or more; still above zero without the best 5% of events (at least one); and a lower market-implied chance at entry than the share of these deals that paid.
+- Reported only: the same at A$10,000 a position (the deal size trial's size); events that were a statement of issues against those that were only a delay; and the outcomes of ACCC-reviewed deals with no signal.
+- Its weakness, stated now: few deals draw a statement of issues, so the sample will be small; NZ regulators (Commerce Commission, Overseas Investment Office) are left out of the run for the same reason.
+
+### 9l. Test registered on 1 Nov 2026, before its data was gathered: government contracts and ASX small companies
+- The question: when a Commonwealth contract that is large for the company that won it is published on AusTender, does the company's share price rise afterwards?
+- Data: AusTender contract notices (data/austender/), matched to ASX-listed companies by supplier name and ABN (data/austender/matched.csv, high-confidence matches and medium ones checked by hand); Norgate prices.
+- Events: a published contract notice, or an amendment that raises a contract's value (counted at the rise), for a matched company whose ordinary shares traded on the publication date, worth at least 5% of the company's market value at the close before publication. Market value is that close times the shares on issue from ASIC's daily files (the latest within 30 days), or failing that from EODHD's reported shares outstanding at the latest earlier date; a company with neither is left out and counted in the report. A company's notices within 20 sessions of an event are part of that event.
+- The trade: buy at the open of the first session after publication, hold a set number of sessions, against the equal-weighted benchmark of the shared terms for 9g to 9j, after costs, the share passing the tradable test on entry.
+- Tuning on events published 2013 to 2018 picks the holding period: 20 or 60 sessions. The picked version runs once on events from 2019 whose holding period has ended.
+- Pass needs all of: at least 40 events in the run; a mean result after costs above zero with a t-statistic of 2 or more (monthly); still above zero without the best 5% of events; no single year more than half the total gain.
+- Reported only: results by contract size (5 to 20% of market value, over 20%), Defence against other agencies, and against VAS.
+- Its weakness, stated now: a company must announce a material contract to the ASX, often before AusTender publishes it, so an effect can only come from contracts the company didn't announce or the market didn't price; contract value is not profit.
+
 ## 10. Success tests (scored on 2 July 2027)
 1. Ahead after all costs.
 2. Ahead of an index-and-cash mix with the same ups and downs.
@@ -233,6 +253,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 | Date | Change | Why |
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
+| 2026-11-01 | Sections 9k and 9l registered before their data was gathered: buying ASX deals after the ACCC raises concerns, and government contracts on AusTender against ASX small companies | Cam asked for angles that need information put together from several sources |
 | 2026-11-01 | Section 9: no new position in an ASX share in the 30 sessions after a halt and a reopening at least 5% lower on heavy volume, unless it is a deal target announced in that halt | From the 9g result: those shares kept lagging small companies, before costs as well as after |
 | 2026-11-01 | Section 5: deal size trial registered before its first night. A separate trial book enters every live ASX and NZX deal that passes the entry rule at the base rate, at A$10,000 and at A$3,000 a position, with the engine's fills and costs; scored on 2 July 2027 | Cam asked for it: 9c found the market underpricing completion but the gain lost to costs at A$3,000, and brokerage is capped per order, so size may change the answer. History can't test that without reusing data already seen; the run's own days are new |
 | 2026-11-01 | Section 9i result: fail. The 10 shares a month where short positions fell most (from at least 5% of shares on issue, over 60 sessions, the version tuning picked) returned 0.48% a month before costs against 0.72% for all shorted shares, and 1.17% a month less after costs (104 months from 2018, t of -2.24; ahead in 41% of months). Not traded | Recorded as the registered test found it (reports/short_cover_history.md); nothing in the test was changed after the result |
