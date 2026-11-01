@@ -1,95 +1,50 @@
 run 2026-11-01
-US:PRFT +2609
-US:PRGX +1701
-US:PRLS +177
-US:PRO +2899
-US:PS +129
-US:PSDO +701
-US:PSEM +376
-US:PSTX +1131
-US:PTRY +199
-US:QCP +437
-US:RALY +277
-US:RCPT +314
-US:RETA +1846
-US:REXI +174
-US:RGLS +2784
-US:RLD +462
-US:RLJE +1115
-US:ROG +3124
-US:ROIC +2693
-US:ROX +1350
-US:RPXC +1022
-US:RRD +1950
-US:RSTI +617
-US:RUTH +2276
-US:RXDX +571
-US:RYZB +295
-US:SAFM +2060
-US:SAUC +1080
-US:SBY +808
-US:SCPH +1981
-US:SFG +451
-US:SGFY +539
-US:SGTX +675
-US:SHLM +1066
-US:SHOR +837
-US:SHSP +1448
-US:SJI +2183
-US:SLI +2289
-US:SNAK +894
-US:SNCE +830
-US:SOLY +715
-US:SPLK +2676
-US:SPTN +2845
-US:SPWH +3124
-US:SQI +546
+US:SQNM +574
+US:SQSP +861
+US:SRCL +2626
+US:SSNI +908
+US:STFC +1952
+US:STML +1518
+US:STMP +1851
+US:STND +1762
+US:SUMO +669
+US:SVT +2788
+US:SWAV +1319
+US:SWCH +1300
+US:SYUT +751
+US:TENG +331
+US:TERP +1521
+US:TESS +2297
+US:TFM +0
+US:TGAN +986
+US:THOR +92
+US:THRX +592
+US:THS +2943
+US:TIF +1665
+US:TLMD +554
+US:TLND +1266
+US:TMH +137
+US:TNAV +1691
+US:TOWR +1349
+US:TRAK +857
+US:TRCO +1342
+US:TREC +2033
+US:TRK +1334
+US:TSRO +1168
+US:TTPH +1551
+US:TVTY +2050
+US:TWTR +2120
+US:TYPE +1352
+US:UFS +1890
+US:ULTI +251
+US:UNTD +528
+US:UNVR +2043
+US:UQM +1301
+US:USAP +2679
+US:USX +105
+US:UTEK +759
+US:UVIC +0
 PROBLEMS:
-SQNM: Tiingo hourly budget used
-SQSP: Tiingo hourly budget used
-SRCL: Tiingo hourly budget used
-SSNI: Tiingo hourly budget used
-STFC: Tiingo hourly budget used
-STML: Tiingo hourly budget used
-STMP: Tiingo hourly budget used
-STND: Tiingo hourly budget used
-SUMO: Tiingo hourly budget used
-SVT: Tiingo hourly budget used
-SWAV: Tiingo hourly budget used
-SWCH: Tiingo hourly budget used
-SYUT: Tiingo hourly budget used
-TENG: Tiingo hourly budget used
-TERP: Tiingo hourly budget used
-TESS: Tiingo hourly budget used
-TFM: Tiingo hourly budget used
-TGAN: Tiingo hourly budget used
-THOR: Tiingo hourly budget used
-THRX: Tiingo hourly budget used
-THS: Tiingo hourly budget used
-TIF: Tiingo hourly budget used
-TLMD: Tiingo hourly budget used
-TLND: Tiingo hourly budget used
-TMH: Tiingo hourly budget used
-TNAV: Tiingo hourly budget used
-TOWR: Tiingo hourly budget used
-TRAK: Tiingo hourly budget used
-TRCO: Tiingo hourly budget used
-TREC: Tiingo hourly budget used
-TRK: Tiingo hourly budget used
-TSRO: Tiingo hourly budget used
-TTPH: Tiingo hourly budget used
-TVTY: Tiingo hourly budget used
-TWTR: Tiingo hourly budget used
-TYPE: Tiingo hourly budget used
-UFS: Tiingo hourly budget used
-ULTI: Tiingo hourly budget used
-UNTD: Tiingo hourly budget used
-UNVR: Tiingo hourly budget used
-UQM: Tiingo hourly budget used
-USAP: Tiingo hourly budget used
-USX: Tiingo hourly budget used
-UTEK: Tiingo hourly budget used
-UVIC: Tiingo hourly budget used
 UWN: Tiingo hourly budget used
 VAR: Tiingo hourly budget used
 VASC: Tiingo hourly budget used
