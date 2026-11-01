@@ -9,6 +9,10 @@
 - The feed carries no trading volume (it reports zero), so the volume column is left blank. The
   fill rules treat NZX volume as unknown, not as no trading (rulebook section 7).
 - FinFeedAPI's starting tier allows 10 requests a minute, so requests are spaced 7 seconds apart.
+- Dates: FinFeedAPI labels each NZX session with the UTC date on which it opens, which is the evening
+  before in New Zealand (10am NZ is 9pm or 10pm UTC the day before). Its bar labelled D is the NZX
+  session of D + 1, so every date is moved forward a day here (checked against the same companies'
+  ASX prices on 1 Nov 2026: daily moves line up on D + 1 and not on D).
 Key: FINFEED_API_KEY. Usage: python3 -I src/fetch_nzx.py [data_dir] [--backfill-from DATE] [--max-requests N]
 """
 import csv
@@ -49,9 +53,15 @@ class Feed:
             return json.loads(r.read().decode())
 
 
+def nz_date(label: str) -> str:
+    """The NZX session date of a FinFeedAPI bar: its UTC label plus one day."""
+    return (date.fromisoformat(label[:10]) + timedelta(days=1)).isoformat()
+
+
 def day_rows(feed: Feed, d: str) -> list[dict]:
-    nxt = (date.fromisoformat(d) + timedelta(days=1)).isoformat()
-    return feed.get(f"/v1/ohlcv/exchange/XNZE/history?period_id=1DAY&time_start={d}T00:00:00&time_end={nxt}T00:00:00&limit=2000")
+    """Every share's bar for the NZX session on NZ date d (FinFeedAPI labels it d - 1)."""
+    label = (date.fromisoformat(d) - timedelta(days=1)).isoformat()
+    return feed.get(f"/v1/ohlcv/exchange/XNZE/history?period_id=1DAY&time_start={label}T00:00:00&time_end={d}T00:00:00&limit=2000")
 
 
 def load_map() -> dict:
@@ -107,7 +117,7 @@ def write_rows(path: str, rows: list[dict]) -> int:
 
 
 def to_row(r: dict) -> dict:
-    return {"date": r["time_period_start"][:10], "open": r.get("price_open"), "high": r.get("price_high"),
+    return {"date": nz_date(r["time_period_start"]), "open": r.get("price_open"), "high": r.get("price_high"),
             "low": r.get("price_low"), "close": r.get("price_close"), "volume": "", "adj_close": "", "dividend": "",
             "split": "", "source": "finfeed"}
 
@@ -155,7 +165,7 @@ def main(data_dir: str = "data", backfill_from: str | None = None, max_requests:
                     continue
                 hist = feed.get(f"/v1/ohlcv/exchange-symbol/XNZE/{m['isin']}/history?period_id=1DAY"
                                 f"&time_start={backfill_from}T00:00:00&time_end={now.date().isoformat()}T00:00:00&limit=10000") or []
-                rows = [to_row(r) for r in hist if closed_by("NZX", r["time_period_start"][:10], now)]
+                rows = [to_row(r) for r in hist if closed_by("NZX", nz_date(r["time_period_start"]), now)]
                 added = write_rows(path, rows)
                 open(path + ".hist", "w").write(f"{backfill_from} {date.today().isoformat()} {len(rows)}")
                 report.append(f"history {m['ticker']}: +{added}")
