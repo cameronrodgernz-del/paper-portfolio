@@ -51,7 +51,7 @@ def size_position(sleeve: str, outcomes: list[tuple[float, float]], price: float
     share, why = full * KELLY_FRACTION, "quarter Kelly"
     cap = CAPS.get(sleeve)
     if cap is not None and share > cap:
-        share, why = cap, f"{cap:.0%} position cap"
+        share, why = cap, f"{cap * 100:g}% position cap"
     if sleeve == "deal" and break_price is not None and price > break_price:
         loss = 1 - break_price / price
         if share * loss > BREAK_LOSS_CAP:
@@ -93,7 +93,7 @@ def check_order(val: dict, drawdown: float, sleeve: str, market: str, ticker: st
         return out
     cap = CAPS.get(sleeve)
     if cap is not None and after_pos > cap * total + 0.01:
-        out.append(f"position would be {after_pos / total:.1%}, over the {cap:.0%} cap")
+        out.append(f"position would be {after_pos / total:.1%}, over the {cap * 100:g}% cap")
     sleeve_now = val["by_sleeve"].get(sleeve, 0.0)
     if sleeve in SLEEVE_MAX and sleeve_now + value_nzd > SLEEVE_MAX[sleeve] * total + 1e-6:
         out.append(f"{sleeve} sleeve would be {(sleeve_now + value_nzd) / total:.1%}, over its {SLEEVE_MAX[sleeve]:.0%} band")

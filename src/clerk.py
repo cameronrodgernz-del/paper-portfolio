@@ -362,7 +362,7 @@ def run(L: Ledger, prices: Prices, fx: FX, run_date: str, cfg: dict, rates: Rate
     for line in val["positions"]:
         cap = CAPS.get(line["sleeve"])
         if cap and line["value_nzd"] > cap * val["total_nzd"] * 1.10:
-            flags.append(f"{line['market']}:{line['ticker']} is {line['value_nzd'] / val['total_nzd']:.1%} of the portfolio (cap {cap:.0%})")
+            flags.append(f"{line['market']}:{line['ticker']} is {line['value_nzd'] / val['total_nzd']:.1%} of the portfolio (cap {cap * 100:g}%)")
     if st["cash"].get("NZD", 0.0) < -0.005:
         flags.append(f"NZ$ cash is {st['cash']['NZD']:,.2f}: below zero (convert foreign cash back or sell)")
     if val["cash_nzd_total"] < CASH_FLOOR * val["total_nzd"]:
