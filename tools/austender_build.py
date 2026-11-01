@@ -258,6 +258,8 @@ def main(indir, repo):
       "their amendments, one file per calendar year of publish date (`contracts_YYYY.csv.gz`). Downloaded by "
       "`tools/austender_fetch.py` and merged by `tools/austender_build.py`, both run by "
       "`.github/workflows/austender.yml`.\n")
+    w("Matches of these notices to ASX-listed companies are in `matched.csv`, described in `MATCHING.md` and made by "
+      "`tools/austender_match.py`, with the hand checks in `match_checks.csv`.\n")
     w("## Columns\n")
     w("| column | meaning |\n|---|---|")
     for c, m in [

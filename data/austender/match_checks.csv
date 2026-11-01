@@ -1,0 +1,153 @@
+supplier_key,symbol_code,verdict,valid_from,valid_to,confidence,notes
+72002208915,AAU,confirm,,,high,Adcorp Australia Limited is the listed company itself; notices are government advertising and recruitment advertising placement
+79612590155,ABG,reject,,,,"Abacus Innovations Australia was the Lockheed Martin IT services business merged into Leidos in Aug 2016 (Wikipedia: Leidos); the same ABN later trades as Leidos Australia. Not Abacus Group, the property owner"
+66007415590,ABG,confirm,,,low,"Abacus Funds Management is Abacus's funds arm, leasing a building to Defence; the rent goes to the fund that owns the building, not wholly to Abacus Group"
+71145785990,ABG,confirm,,,low,"Trustee of an Abacus property trust leasing premises to Defence; landlord through a fund, so the rent is not wholly Abacus Group's"
+70000312685,AIZ,confirm,,,high,"Air New Zealand Engineering Services is Air New Zealand's maintenance arm; Defence repair work on AP-3C Orion aircraft"
+47008671458,AMA,reject,,,,"A.M.A. Services (W.A.) runs an Australian Apprenticeships centre; AMA Group is a vehicle panel repair business, no link"
+52141420680,AMA,reject,,,,"AMA Projects Pty Ltd does building fit-outs in Canberra; AMA Group is a vehicle panel repair business, no link"
+50004160927,APZ,confirm,,,high,"Aspen Group Limited, the company half of the listed Aspen Group stapled security; notice is an ATO building lease (12-26 Franklin St Adelaide) where Aspen is landlord"
+32105250413,APZ,reject,,,,"Aspen Medical is a privately owned health services company (Wikipedia: Aspen Medical), not the listed Aspen Group"
+48104322278,APZ,confirm,,,low,"Aspen Funds Management, Aspen Group's responsible entity, leasing Adelaide offices; landlord through a fund"
+88004118594,APZ,reject,,,,"Aspen Pharma Pty Ltd is the Australian arm of South Africa's Aspen Pharmacare, not the listed Aspen Group"
+80079160679,ASB,confirm,,,high,"Austal Ships Pty Ltd is Austal's Australian shipbuilding company (Cape and Guardian class patrol boats, in-service support)"
+57070045117,ASZ,confirm,,,high,ASG Group Limited is the listed company itself; IT managed services
+82081102534,BEC,confirm,,,low,"Becton Property Management, part of the listed Becton Property Group; a property lease, landlord through a fund"
+11093114553,BRS,confirm,,,high,"Broadspectrum (Australia) is the operating company of Broadspectrum (Transfield Services renamed in Nov 2015); Defence estate maintenance"
+50088412748,BSA,confirm,,,high,BSA Limited is the listed company itself; installer for the satellite subsidy and household assistance schemes
+52008126707,BVA,reject,,,,"Notices are for Essential Computer Systems, a Canberra IT hardware reseller trading through a company called Bravura eCommerce Solutions; no link to Bravura Solutions, the wealth software company"
+23006170869,CDD,confirm,,2022-09-12,high,"Cardno Emerging Markets (formerly Cardno ACIL) is Cardno's international development arm; aid program work for DFAT. The same ABN appears as DT Global Asia Pacific from 13 Sep 2022, so later notices are not counted (sale date taken from the notices)"
+57051074992,CDD,confirm,,2021-12-31,high,"Cardno engineering consulting company; Defence engineering assessments. Cardno sold its consulting businesses to Stantec in Dec 2021 (Wikipedia: Stantec), so later notices are not counted"
+95001145035,CDD,confirm,,2021-12-31,high,"Cardno (NSW/ACT) is a Cardno engineering and environmental consulting company. Cardno sold its consulting businesses to Stantec in Dec 2021 (Wikipedia: Stantec), so later notices are not counted"
+name:cardno emerging markets usa,CDD,confirm,,2022-09-12,high,"Cardno Emerging Markets USA is Cardno's US international development arm; DFAT aid program work. Cut at the date the Australian arm first appears as DT Global (13 Sep 2022)"
+79127151026,CGL,confirm,,,high,The Citadel Group Limited is the listed company itself; ICT and health information services
+66099766239,CGO,confirm,,,high,CPT Global Australia is CPT Global's Australian operating company; ICT services
+74010230716,CLH,confirm,,,high,Collection House Limited is the listed company itself; debt collection services
+11050722382,CMG,confirm,,,high,Chandler Macleod Health is part of Chandler Macleod Group; medical services for Defence
+33090555052,CMG,confirm,,,high,Chandler Macleod Group Limited is the listed company itself; recruitment services
+67168829641,CNW,confirm,2018-04-01,,high,"This ABN traded as Dataflex and VTS Canberra before it appears as Cirrus Networks (Canberra) from April 2018; only notices from then on are counted (acquisition date taken from the notices)"
+72161277121,CNW,confirm,,,high,Cirrus Networks Pty Ltd is the operating company of Cirrus Networks Holdings; ICT networking services
+63007889081,COF,confirm,,,high,"Coffey International Development is Coffey International's aid and development arm; Coffey left the ASX in Jan 2016 when Tetra Tech bought it"
+27096278198,CSV,confirm,,,high,CSG Services is CSG Limited's managed print and IT services company
+94000728398,CXP,confirm,,,high,"Corporate Express Australia, the listed office supplies company (taken over by Staples in 2010)"
+58116776991,DCG,confirm,,,high,Decmil Australia is Decmil Group's construction company; Defence and Home Affairs design and construct work
+53000983700,DOW,confirm,,,high,Downer EDI Engineering Power is a Downer subsidiary; electrical and construction services
+33437092373,DOW,confirm,,,medium,"Joint venture of Downer EDI Works and F.K. Gardner & Sons for a Defence managing contractor contract; Downer's share of the joint venture is not known"
+66008709608,DOW,confirm,,,high,"Downer EDI Works (formerly Works Infrastructure) is a Downer subsidiary; national airfields head contractor for Defence"
+83072293880,DOW,confirm,2019-08-28,,high,"Spotless Facility Services, Spotless's main operating company. Downer took majority ownership of Spotless in June 2017 and full ownership in 2020 (Wikipedia: Downer Group); matched to Downer only after Spotless left the ASX on 27 Aug 2019"
+31010545267,DTL,confirm,,,high,Data#3 Limited is the listed company itself; software licensing and IT hardware
+93115070301,DWS,confirm,,,high,DWS (NSW) is DWS Limited's operating company; ICT contractors and services
+11008587451,EOS,confirm,,,high,Electro Optic Systems Pty Ltd is EOS's operating company; weapon systems and gun mounts for Defence
+87126175460,EPW,confirm,,,high,ERM Power Retail is ERM Power's electricity retail business; electricity supply contracts
+35007573417,HIL,confirm,,,high,"Hills Holdings Limited, the former name of Hills Limited; network and security equipment"
+41062067878,HIT,confirm,,,high,HiTech Group Australia Limited is the listed company itself; ICT contractor and labour hire services
+47128696097,IFN,confirm,,,high,Infigen Energy Markets is Infigen Energy's electricity retail company; electricity supply to ANSTO
+58000205210,IGL,confirm,,,high,IVE Group Australia is IVE Group's operating company; printing and ballot material for the AEC
+25004270991,INM,confirm,,,high,"Iron Mountain Australia Group, the Australian arm of Iron Mountain Inc., whose CDIs traded on the ASX from April 2016 to August 2018; records management"
+67005944203,INM,confirm,,,high,"Iron Mountain Australia, part of Iron Mountain Inc. (ASX CDIs April 2016 to August 2018); records management"
+11002533851,ISD,confirm,,,high,iSentia Pty Ltd is Isentia Group's operating company; media monitoring
+64083660093,KKT,confirm,,,high,Konekt Australia is Konekt Limited's operating company; workplace rehabilitation services
+90602765784,KKT,confirm,,,medium,"Mission Providence Pty Ltd later appears under the same ABN as Konekt Employment Pty Ltd, and its old website now redirects to APM, which bought Konekt in 2019. Whether Konekt owned all of Mission Providence when the 2015 jobactive contracts were let is not established"
+37007611485,MAH,confirm,,,high,Macmahon Contractors is Macmahon Holdings' construction company; Defence fuel storage works
+21082930916,MAQ,confirm,,,high,"Macquarie Telecom, the operating company of Macquarie Telecom Group (renamed Macquarie Technology Group in 2023); secure internet gateway services"
+23131367283,NVT,confirm,,,high,Navitas Professional is part of Navitas Limited; skills advisory services
+51003916701,NVT,confirm,,,high,Navitas English is part of Navitas Limited; humanitarian settlement and adult migrant English services
+69109613309,NVT,confirm,,,high,Navitas Limited is the listed company itself (taken private in June 2019)
+35143582521,NXT,confirm,,,high,NEXTDC Limited is the listed company itself; data centre services
+16050539350,OCL,confirm,,,high,Objective Corporation Limited is the listed company itself; records management software
+80077571843,OKN,confirm,,,high,"Acumen Contracting & Recruitment, part of Oakton's Acumen Alliance business; the ABN also carries Oakton names"
+93124682284,OKN,confirm,,,high,Oakton AA Services is an Oakton Limited company; audit and professional services
+50007028711,OKN,confirm,,,high,Oakton Services is Oakton Limited's operating company
+31100103268,OKN,confirm,,,high,Oakton Services is Oakton Limited's operating company; internal audit and IT services
+82004055387,PBG,confirm,,2014-11-30,high,"Pacific Brands Workwear Group, part of Pacific Brands until Wesfarmers completed its purchase on 1 Dec 2014 (Wikipedia: Wesfarmers); later notices are matched to Wesfarmers"
+98004251852,PBG,confirm,,2014-11-30,high,"Pacific Brands Workwear Group (formerly Yakka), part of Pacific Brands until Wesfarmers completed its purchase on 1 Dec 2014 (Wikipedia: Wesfarmers)"
+86000431827,PPT,confirm,,,low,"Perpetual Limited acting as responsible entity of a property trust that leases offices to agencies; the rent goes to the trust's investors, not to Perpetual"
+37000733700,PPT,confirm,,,low,"Perpetual Nominees holding leased buildings as custodian for property funds; the rent goes to the funds, not to Perpetual"
+57456021155,PPT,confirm,,,low,"Perpetual Trustee Company as custodian for an Abacus property fund (named in the notice); the rent goes to the fund, not to Perpetual"
+17004973684,PPT,confirm,,,low,"Perpetual Trustee Company as custodian of a leased building (ABS WA office); the rent goes to the fund, not to Perpetual"
+42000001007,PPT,confirm,,,low,"Perpetual Trustee Company as custodian of leased buildings; the rent goes to the funds it holds them for, not to Perpetual"
+59000694173,RCR,confirm,,,high,RCR Haden was RCR Tomlinson's building services company; Antarctic Division construction work
+16054527865,RCR,confirm,,,high,RCR Resolve FM was RCR Tomlinson's facilities maintenance company
+25003758709,RHD,confirm,,,high,Ross Human Directions Limited is the listed company itself; labour hire and ICT contractors
+38069244417,RWH,confirm,,,high,Royal Wolf Trading Australia is Royal Wolf Holdings' container hire and sales company
+30146959917,RXP,confirm,,,high,RXP Services Limited is the listed company itself; ICT advisory services
+28159524553,SDA,confirm,,,high,SpeedCast Australia is Speedcast International's Australian satellite communications company
+15003429356,SGF,confirm,,,high,SG Fleet Australia is SG Fleet Group's operating company; long-term vehicle leasing
+30006688955,SLM,confirm,,,high,"Salmat Contract Solutions (also trading as Salesforce, Salmat's contact centre business); business facilitation contact centre"
+29090618278,SLM,confirm,,,high,Salmat Digital is part of Salmat; Do Not Call Register and digital services
+94137933905,SLM,confirm,,,high,Salmat BusinessForce is part of Salmat; bulk personalised printing and mailing
+17006515028,SMX,confirm,,,high,"SMS Consulting Group was the consulting subsidiary of SMS Management & Technology; ICT contractors"
+60009261116,SNR,confirm,,,high,Synergy Plus Operations is the operating company of Synergy Plus Limited
+83072293880,SPO,confirm,,,high,"Spotless Facility Services, the main operating company of Spotless Group Holdings (listed May 2014 to Aug 2019); Defence base and estate services"
+37072293620,SPT,confirm,,,high,"Spotless Defence Services, part of Spotless Group Limited (listed until July 2012, when Pacific Equity Partners took it private)"
+83072293880,SPT,confirm,,,high,"Spotless P&F / Spotless Facility Services, the main operating company of Spotless Group Limited (listed until July 2012)"
+19005309320,SPT,confirm,,,high,"Spotless Services Australia, part of Spotless Group Limited (listed until July 2012)"
+15112410358,SSM,confirm,,,high,Service Stream Solutions is a Service Stream company; contact centre services for the Department of Communications
+82079645015,SYM,reject,,,,"Symbio Laboratories is a food and chemical testing laboratory; Norgate's SYM is the telecommunications company Symbio Holdings (formerly MNF Group), no link"
+93621286928,SYM,reject,,,,"Symbio Alliance is a testing laboratory business; Norgate's SYM is the telecommunications company Symbio Holdings (formerly MNF Group), no link"
+81001014562,TAN,confirm,,,high,Tandou Limited is the listed company itself; sale of water entitlements to the Commonwealth
+38133363185,TGP,confirm,,,low,"360 Capital Investment Management acting as responsible entity of a 360 Capital property fund leasing Perth offices; the rent goes to the fund, not wholly to 360 Capital Group"
+83118082732,TGP,confirm,,,low,"360 Capital Investment Management acting as responsible entity of a 360 Capital property fund leasing Perth offices; the rent goes to the fund, not wholly to 360 Capital Group"
+62090939192,TGP,confirm,,,low,"360 Capital RE, responsible entity of a 360 Capital property fund leasing 44 Sydney Ave Barton; the rent goes to the fund, not wholly to 360 Capital Group"
+84010487180,TNE,confirm,,,high,Technology One Limited is the listed company itself; enterprise software
+86090608361,UGL,confirm,,,high,UGL Process Solutions is a UGL Limited company
+77074196991,UGL,confirm,,,high,UGL Services is UGL Limited's property and facilities services company
+17114888201,UGL,confirm,,,high,"UGL Infrastructure (formerly United Group Resources), a UGL Limited company; ship maintenance and engineering"
+96096365972,UGL,confirm,,,high,"UGL Engineering (formerly United Group Infrastructure; UGL was called United Group until 2008), a UGL Limited company"
+69001002731,UXC,confirm,,,high,"UXC Connect (formerly Getronics Australia, bought by UXC) is a UXC company; the same ABN appears as DXC Connect after CSC bought UXC in 2016"
+83121920938,UXC,confirm,,,high,UXC Consulting is a UXC company; ICT contractors
+65067682928,UXC,confirm,,,high,UXC Limited is the listed company itself
+46004610459,VEA,confirm,,,high,"Viva Energy Australia is Viva Energy Group's fuel company (listed July 2018); ADF fuel and lubricants"
+29167761453,VEA,confirm,,,high,Viva Energy Aviation is a Viva Energy Group company; ADF fuel and card services
+78127842853,VOC,confirm,,,high,Vocus Pty Ltd is Vocus Group's operating company; Coral Sea submarine cable for DFAT
+98917046997,VPR,reject,,,,"Volt Lane Pty Ltd is the trustee of a family property trust leasing an ATO building in Albury; no link to Volt Group"
+71010462816,WTP,confirm,,,high,Watpac Construction is Watpac Limited's construction company; Defence and RBA construction
+20103211141,WTP,confirm,,,high,Watpac Construction (NSW) is a Watpac Limited company; ANSTO Mo-99 plant construction
+name:folkestone bayside,FLK,confirm,,,medium,"Not confirmed: the name fits a project company of Folkestone Limited, a property developer, but the notice has no ABN and no source was found"
+11093114553,VNT,confirm,,,high,"Ventia Australia Pty Ltd, the former Broadspectrum (Australia) company, which Ventia bought from Ferrovial in June 2020 and floated in 2021 (Wikipedia: Ventia). Defence estate maintenance"
+94141614075,DUR,confirm,,,high,Duratec Australia is Duratec Limited's operating company (listed Nov 2020); Defence building and remediation works
+70003861765,SHA,confirm,,,high,"Shape Australia Pty Ltd is the operating company of Shape Australia Corporation (listed Dec 2021); the same ABN traded as ISIS Projects before 2016, and those notices are not matched. Fit-out and construction"
+39618700637,CVL,confirm,,,high,"Civmec Defence Industries is the former Luerssen Australia, which Civmec agreed to buy in June 2025 (Wikipedia: Civmec). Only notices under the Civmec name are matched; Luerssen-named notices on the same ABN are not, as the completion date was not found"
+98137816025,CVL,confirm,,,high,Civmec Construction & Engineering is Civmec Limited's operating company; shipbuilding management for Defence
+12862898150,GOZ,confirm,,,high,"Growthpoint Properties Australia Limited, the company half of the listed Growthpoint stapled security, leasing 10-12 Mort Street Canberra to the AEC; the REIT is the landlord itself"
+99000341533,PPT,confirm,,,low,"Perpetual Corporate Trust / Perpetual Trust Company as trustee of leased buildings (East Block Parkes, office leases); the rent goes to the trust, not to Perpetual"
+43813342348,PPT,confirm,,,low,"Perpetual Limited as custodian of the Vicinity NVN Trust (named in the notice); the rent goes to Vicinity's fund, not to Perpetual"
+85143561291,CNW,confirm,,,high,Cirrus Networks (ACT) is a Cirrus Networks Holdings company; network refresh and ICT hardware
+38125401247,EBO,confirm,,,high,"EBOS Group Australia is the Australian arm of EBOS Group (ASX-listed from Dec 2013); medical supplies, including rapid antigen tests in 2022"
+69010725247,VNT,confirm,,,high,Ventia Utility Services is a Ventia company; Defence soil remediation
+80117140235,NXL,confirm,,,high,"Nuix Pty Ltd is Nuix Limited's operating company (listed Dec 2020); investigation software"
+52092253702,CSV,confirm,,,high,CSG Enterprise Print Services is CSG Limited's managed print company
+30156123723,ATA,confirm,,,high,Atturra MCS is an Atturra company; Defence business systems support
+79123098671,AR9,confirm,,,high,archTIS Limited is the listed company itself; Kojensi software for Defence
+16618028676,VNT,confirm,,,high,"Ventia Property is a Ventia company (listed Nov 2021); property management services for the Department of Finance and electorate offices"
+52005000895,CTD,confirm,,,high,Corporate Travel Management Group is the operating company of Corporate Travel Management Limited; travel management services
+86689561797,ASB,confirm,,,high,"Austal Defence Shipbuilding Australia is an Austal company; Defence landing craft and shipbuilding work (2025 and 2026)"
+20125062160,SSM,confirm,,,high,"Service Stream Infrastructure Services carries Service Stream's name and its Defence work; contract CN4195928 for base services to Defence sites (A$2.04 billion, published 20 Oct 2025, cut by about A$515m in an Aug 2026 amendment). Ownership taken from the name; no outside source could be fetched"
+15088417403,SIG,confirm,,,high,"Sigma Healthcare Limited is the listed company itself; diabetes products for the Department of Health. Sigma merged with Chemist Warehouse in Feb 2025, after which it is a much larger company"
+33124093901,GOZ,confirm,,,high,"Growthpoint Properties Australia Limited, the company half of the listed Growthpoint stapled security, sometimes as trustee of one of its own property trusts; office leases where the REIT is landlord"
+53611976517,DBF,reject,,,,"Duxton Water Ltd is a separate ASX company (code D2O) that is not in Norgate's list; it is not Duxton Farms, though both are managed by Duxton Capital"
+84007190043,HLS,confirm,,,high,Healius Pathology is Healius Limited's pathology company; pathology services for Defence
+34009200686,MRM,confirm,,,high,"MMA Offshore Vessel Operations is an MMA Offshore company (delisted July 2024); management of CSIRO's research vessel Investigator"
+name:downer edi engineering power,DOW,confirm,,,high,Downer EDI Engineering Power is a Downer subsidiary; design and build contractor in Nauru for DFAT
+91114707050,SOP,confirm,,,high,Synertec Pty Ltd is Synertec Corporation's operating company; engineering design and construction for CSIRO and ANSTO
+86087485087,VNT,confirm,2023-09-01,,high,"This ABN traded as ICD (Asia Pacific), a fuel engineering firm, before it appears as Ventia Engineering Services from Sept 2023; only notices from then on are counted (acquisition date taken from the notices)"
+27652795189,DGL,confirm,,,high,DGL AusBlue is DGL Group's AdBlue business; storage and supply of the Commonwealth's AdBlue reserve
+14050287431,SND,confirm,,,high,Saunders International Limited is the listed company itself; Defence fuel installation upgrades
+name:corporate travel management usa,CTD,confirm,,,high,Corporate Travel Management (USA) is Corporate Travel Management's US arm; DFAT travel agency services
+20643401496,PPT,reject,,,,"Perpetual Energy Pty Ltd is a natural gas retailer; no link to Perpetual Limited, the fund manager and trustee company"
+26082856424,BWP,confirm,,,high,"BWP Management Limited as responsible entity of BWP Trust, the listed trust itself, leasing premises to the AEC; the REIT is the landlord"
+47060313359,IRE,confirm,,,high,IRESS Market Technology is Iress Limited's operating company; market data licences for ASIC and others
+27001641292,BIS,confirm,,,high,Bisalloy Steels is Bisalloy Steel Group's operating company; armour and steel plate for Defence
+90103629107,HCL,confirm,,,high,Highcom Limited is the listed company itself; uncrewed aerial systems and electronic equipment for Defence
+61681658882,HCL,confirm,,,high,HighCom Technology is Highcom Limited's operating company; spare parts and training equipment for Defence
+18629844113,DRO,confirm,,,high,DroneShield Limited is the listed company itself; counter-drone detection equipment
+44668560610,DRO,confirm,,,high,DroneShield Group Pty Ltd is a DroneShield company; counter-drone equipment and training
+49626006871,PGC,confirm,,,high,Paragon Care Group Australia is Paragon Care's operating company; medical and pathology products
+47004027258,PPT,confirm,,,low,"Perpetual Trustees Victoria as trustee of a leased building in Cairns (Medicare office); the rent goes to the trust, not to Perpetual"
+73118425317,BVS,confirm,,,high,Bravura Solutions (Australia) is Bravura Solutions' operating company; superannuation administration software for CSC
+name:perpetual corporate trust,PPT,confirm,,,low,"Perpetual Corporate Trust selling water entitlements as trustee for a fund; the money goes to the fund, not to Perpetual"
+77613902346,EML,reject,,,,"EML Solutions is the claims management arm of Employers Mutual (EML), a workers compensation manager; no link to EML Payments"
+66636976059,BJY,confirm,,,medium,"Barrenjoey Markets is the investment bank Barrenjoey. Norgate's BJY is Magellan Financial Group under a later name (its $35 options expiring April 2027 are Magellan's), and Magellan owned about 36 to 40 percent of Barrenjoey (Wikipedia: Barrenjoey Capital Partners), so before any merger these are an associate's contracts; the merger date was not found"
+80004377780,NUF,confirm,,,high,Nufarm Australia is Nufarm Limited's Australian operating company; crop protection products and research
+73636942811,CCG,reject,,,,"The Comms Store is a strategic communications and community engagement firm; Comms Group Ltd sells telecommunications services, no link found"
+81009154349,BWN,confirm,,,high,"Bhagwan Marine is the listed company's operating company (listed July 2024); vessel patrol and deployment services"
