@@ -38,8 +38,8 @@ NZ = ZoneInfo("Pacific/Auckland")
 SCHEMA = 1
 INGEST_URL = "https://vschefjwiocnffbirjrs.supabase.co/functions/v1/portfolio-ingest"
 AUDIENCE = "cam-hub-portfolio"
-TARGETS = {"core": 0.40, "deal": 0.25, "special": 0.15, "cash": 0.20}
-BANDS = {"core": (0.35, 0.45), "deal": (0.0, 0.30), "special": (0.0, 0.20)}
+TARGETS = {"core": 0.40, "deal": 0.25, "special": 0.05, "research": 0.10, "cash": 0.20}
+BANDS = {"core": (0.35, 0.45), "deal": (0.0, 0.30), "special": (0.0, 0.10), "research": (0.0, 0.10)}
 
 
 # ---------- small helpers ----------
@@ -324,12 +324,15 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
             by_ind[ind[(p["market"], p["ticker"])]] += p["value_nzd"]
         if p["sleeve"] == "deal" and (p["market"], p["ticker"]) in grp:
             by_grp[grp[(p["market"], p["ticker"])]] += p["value_nzd"]
-    sleeves = {s: rd(latest.get("by_sleeve", {}).get(s, 0.0) / total, 5) for s in ("core", "deal", "special")}
+    sleeves = {s: rd(latest.get("by_sleeve", {}).get(s, 0.0) / total, 5) for s in ("core", "deal", "special", "research")}
     from decide import TESTS, test_failed, test_passed
     passed = [k for k in TESTS if k not in ("us_deal", "asx_cash_deal") and test_passed(k, ROOT)]
     special_note = None if passed else "no type has passed a history test, so this sits in cash"
     deal_note = ("ASX cash deals failed their history test, so only ASX scrip and NZX deals are traded; US deals wait for their test"
                  if test_failed("asx_cash_deal", ROOT) else None)
+    picks = [f for f in os.listdir(os.path.join(ROOT, "research", "picks")) if f.endswith(".md") and f != "TEMPLATE.md"] if os.path.isdir(os.path.join(ROOT, "research", "picks")) else []
+    research_note = (f"{len(picks)} deep dive{'s' if len(picks) != 1 else ''} written; at most five companies, 2% each" if picks
+                     else "deep dives into overlooked NZX and ASX small and mid caps; none written yet")
     sleeves["cash"] = rd(latest["cash_nzd_total"] / total, 5)
     review = False
     for r in decisions:
@@ -337,7 +340,8 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
         review = True if e == "review_required" else (False if e == "review_done" else review)
     limits = {
         "sleeves": [{"k": s, "now": sleeves.get(s, 0.0), "target": TARGETS[s], "band": BANDS.get(s), "max": SLEEVE_MAX.get(s),
-                     "note": special_note if s == "special" else (deal_note if s == "deal" else None)} for s in ("core", "deal", "special", "cash")],
+                     "note": special_note if s == "special" else (deal_note if s == "deal" else (research_note if s == "research" else None))}
+                    for s in ("core", "deal", "special", "research", "cash")],
         "cash_floor": CASH_FLOOR, "dd_halve": DD_HALVE, "dd_exit": DD_EXIT,
         "industry": {"cap": INDUSTRY_CAP, "top": sorted(([k, rd(v / total, 5)] for k, v in by_ind.items()), key=lambda x: -x[1])[:5]},
         "group": {"cap": GROUP_CAP, "top": sorted(([k, rd(v / total, 5)] for k, v in by_grp.items()), key=lambda x: -x[1])[:5]},

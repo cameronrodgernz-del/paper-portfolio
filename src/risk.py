@@ -11,9 +11,11 @@ from collections import defaultdict
 from market_data import NZX_SMALL_ORDER_CAP_NZD, nzx_large
 
 KELLY_FRACTION = 0.25
-CAPS = {"deal": 0.04, "special": 0.03}
+CAPS = {"deal": 0.04, "special": 0.03, "research": 0.02}
+RESEARCH_MAX_NAMES = 5                    # research picks: at most five companies at once
 BREAK_LOSS_CAP = 0.01                     # loss if a deal breaks: at most 1% of the portfolio
-SLEEVE_MAX = {"core": 0.45, "deal": 0.30, "special": 0.20}
+SLEEVE_MAX = {"core": 0.45, "deal": 0.30, "special": 0.10, "research": 0.10}
+TARGET = {"deal": 0.25, "special": 0.05, "research": 0.10}
 INDUSTRY_CAP = 0.15                       # one industry outside the core
 GROUP_CAP = 0.10                          # deals waiting on one regulator, or from one bidder
 MIN_ORDER = {"NZX": ("NZD", 2500), "ASX": ("AUD", 1500), "US": ("USD", 500)}
@@ -73,7 +75,7 @@ def check_order(val: dict, drawdown: float, sleeve: str, market: str, ticker: st
     orders added); `industries` and `groups` map (market, ticker) of holdings to their industry and
     regulator/bidder group; `break_loss` is the share of a deal's value lost if it breaks."""
     out = []
-    if sleeve not in ("core", "deal", "special"):
+    if sleeve not in ("core", "deal", "special", "research"):
         return [f"unknown sleeve {sleeve!r}"]
     total = val["total_nzd"]
     held = defaultdict(float)
@@ -114,10 +116,14 @@ def check_order(val: dict, drawdown: float, sleeve: str, market: str, ticker: st
                    f"the limit is {LIQ_SESSIONS * LIQ_SHARE:.0%} (two sessions at 10%)")
     if sleeve == "deal" and break_loss is not None and after_pos * break_loss > BREAK_LOSS_CAP * total + 0.01:
         out.append(f"if the deal breaks the position would lose {after_pos * break_loss / total:.2%} of the portfolio, over 1%")
-    if sleeve in ("deal", "special") and review_pending:
+    if sleeve in ("deal", "special", "research") and review_pending:
         out.append("a 12% fall from the peak is awaiting its review: no new active positions until it is logged")
-    if sleeve in ("deal", "special"):
-        if drawdown <= -DD_HALVE and sleeve_now + value_nzd > 0.5 * {"deal": 0.25, "special": 0.15}[sleeve] * total:
+    if sleeve == "research" and side == "buy":
+        names = {(p["market"], p["ticker"]) for p in val["positions"] if p["sleeve"] == "research"}
+        if (market, ticker) not in names and len(names) >= RESEARCH_MAX_NAMES:
+            out.append(f"research picks already hold {len(names)} companies, the most allowed")
+    if sleeve in ("deal", "special", "research"):
+        if drawdown <= -DD_HALVE and sleeve_now + value_nzd > 0.5 * TARGET[sleeve] * total:
             out.append(f"portfolio is {drawdown:.1%} from its peak: the {sleeve} sleeve is held to half its weight")
     if sleeve == "deal" and expected_annual is not None and cash_rate is not None and expected_annual <= cash_rate:
         out.append(f"expected return {expected_annual:.1%} a year is not above the cash rate {cash_rate:.1%}")

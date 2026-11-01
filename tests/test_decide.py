@@ -123,5 +123,51 @@ with tempfile.TemporaryDirectory() as root:
     open(os.path.join(root, "reports", "deal_au_history.md"), "w").write("**Result: fail.**")
     check("an ASX cash deal is refused once 9c fails", "9c" in (_d.untested(acash, root) or ""))
     check("an ASX scrip deal is not covered by 9c", _d.untested(amix, root) is None)
+
+
+# ---- research picks (rulebook section 5a) ----
+import risk as _risk  # noqa: E402
+with tempfile.TemporaryDirectory() as d, tempfile.TemporaryDirectory() as rr:
+    L = Ledger(d)
+    L.append("cash", {"kind": "deposit", "ccy": "NZD", "amount": 100000.0}, ts="2026-10-01T00:00:00Z")
+    for day in weekdays(date(2026, 10, 1), date(2026, 10, 29)):
+        run(L, prices, fx, day.isoformat(), {"cash_rate": 0.025}, rates)
+    now = datetime(2026, 10, 29, 8, 30, tzinfo=timezone.utc)
+    _dm.RESEARCH_ROOT = rr
+    os.makedirs(os.path.join(rr, "research", "picks")); os.makedirs(os.path.join(rr, "research", "red_team")); os.makedirs(os.path.join(rr, "config"))
+    open(os.path.join(rr, "research", "picks", "CWY.md"), "w").write(
+        "# Cleanaway\n## Why the market is wrong\nx\n## Valuation\nx\n## Sources\n" + "\n".join(f"- http://example.com/{i}" for i in range(6)))
+    open(os.path.join(rr, "research", "red_team", "CWY.md"), "w").write("# Review\n## Verdict\nproceed")
+    open(os.path.join(rr, "config", "judgement_excluded.csv"), "w").write("# not yet confirmed\nticker,name,reason\nXYZ,Example Ltd,test\n")
+    rc = {"sleeve": "research", "market": "ASX", "ticker": "CWY", "side": "buy", "company": "Cleanaway Waste Management",
+          "thesis": "test", "outcomes": [[0.2, 2.4], [0.5, 3.2], [0.3, 4.2]], "resolve_by": "2027-06-30", "exit_rule": "test",
+          "industry": "industrials", "deep_dive": "research/picks/CWY.md", "red_team": "research/red_team/CWY.md",
+          "catalysts": [{"date": "2027-02-20", "event": "half-year result"}]}
+    good = decide(L, prices, fx, rates, cfg, rc, now, dry_run=True)
+    research_words = ("deep dive", "red team", "outcomes", "dated event", "excluded", "wait until Cam", "reopened")
+    check("a complete research card has no research refusals", not any(any(w in b for w in research_words) for b in good["breaches"]), good["breaches"])
+    check("a research pick is capped at 2% of the portfolio", good["value_nzd"] <= 0.02 * 100500 + 1, good["value_nzd"])
+    nodd = decide(L, prices, fx, rates, cfg, dict(rc, deep_dive=""), now, dry_run=True)
+    check("a research card with no deep dive is refused", any("deep dive" in b for b in nodd["breaches"]), nodd["breaches"])
+    two = decide(L, prices, fx, rates, cfg, dict(rc, outcomes=[[0.6, 3.5], [0.4, 2.5]]), now, dry_run=True)
+    check("a research card needs three outcomes", any("three outcomes" in b for b in two["breaches"]), two["breaches"])
+    nocat = decide(L, prices, fx, rates, cfg, dict(rc, catalysts=[]), now, dry_run=True)
+    check("a research card needs a dated event", any("dated event" in b for b in nocat["breaches"]), nocat["breaches"])
+    ex = decide(L, prices, fx, rates, cfg, dict(rc, ticker="XYZ"), now, dry_run=True) if prices.last_close("ASX", "XYZ", "2026-10-29") else None
+    rows, conf = _dm.excluded_list(rr)
+    check("the excluded list is read, and isn't confirmed until Cam says so", rows and rows[0]["ticker"] == "XYZ" and not conf, (rows, conf))
+    chk = _dm.research_checks(dict(rc, ticker="XYZ", company="Example Ltd"), prices, "2026-10-29", rr)
+    check("a company on Cam's excluded list is refused", any("excluded list" in b for b in chk), chk)
+    gm = _dm.research_checks(dict(rc, industry="gaming and wagering"), prices, "2026-10-29", rr)
+    check("gaming picks wait until the excluded list is confirmed", any("wait until Cam" in b for b in gm), gm)
+    open(os.path.join(rr, "config", "judgement_excluded.csv"), "a").write("# confirmed by Cam on 2026-11-02\n")
+    gm2 = _dm.research_checks(dict(rc, industry="gaming and wagering"), prices, "2026-10-29", rr)
+    check("once confirmed, a gaming pick is no longer held back", not any("wait until Cam" in b for b in gm2), gm2)
+    val = {"total_nzd": 100000.0, "by_sleeve": {"research": 10000.0}, "cash_nzd_total": 50000.0,
+           "positions": [{"sleeve": "research", "market": "ASX", "ticker": f"T{i}", "value_nzd": 1500.0} for i in range(5)]}
+    six = _risk.check_order(val, 0.0, "research", "ASX", "NEW", "buy", 1500.0, 1.1)
+    check("a sixth research company is refused", any("five" in b or "most allowed" in b for b in six), six)
+    _dm.RESEARCH_ROOT = _dm.ROOT
+
 print("\nALL PASS" if not fails else f"\n{len(fails)} FAILED: {fails}")
 sys.exit(1 if fails else 0)

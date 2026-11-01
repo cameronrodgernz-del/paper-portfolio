@@ -58,10 +58,10 @@ def drawdown_rules(L: Ledger, prices: Prices, fx: FX, run_date: str, val: dict) 
             continue
         L.append("decisions", {"event": "drawdown_rule", "level": level, "peak": peak, "drawdown": dd, "date": run_date}, ts=decided)
         for o in state(L)["open_orders"]:       # waiting active buys would undo the rule: cancel them
-            if o["sleeve"] in ("deal", "special") and o["side"] == "buy":
+            if o["sleeve"] in ("deal", "special", "research") and o["side"] == "buy":
                 L.append("orders", {"event": "cancel", "order_id": o["order_id"], "reason": f"fall of {dd:.1%} from the peak"}, ts=decided)
                 out.append(f"cancelled waiting buy {o['order_id']}")
-        held = {k: q for k, q in state(L)["positions"].items() if k[0] in ("deal", "special") and q > 0}
+        held = {k: q for k, q in state(L)["positions"].items() if k[0] in ("deal", "special", "research") and q > 0}
         for (sleeve, m, t), q in sorted(held.items()):
             qty = q if share == 1.0 else math.floor(q * share)
             if qty <= 0:
@@ -83,7 +83,7 @@ def drawdown_rules(L: Ledger, prices: Prices, fx: FX, run_date: str, val: dict) 
         st = state(L)
         selling = {(o["sleeve"], o["market"], o["ticker"]) for o in st["open_orders"] if o["side"] == "sell"}
         for (sleeve, m, t), q in sorted(st["positions"].items()):
-            if sleeve in ("deal", "special") and q > 0 and (sleeve, m, t) not in selling:
+            if sleeve in ("deal", "special", "research") and q > 0 and (sleeve, m, t) not in selling:
                 try:
                     place_order(L, prices, fx, decided, sleeve, m, t, "sell", qty=q, decision={"rule": "12% review pending: sell what is left"})
                     out.append(f"sell {q:g} {m}:{t} (left after the 12% rule)")

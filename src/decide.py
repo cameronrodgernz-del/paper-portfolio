@@ -159,6 +159,89 @@ def untested(card: dict, root: str = ROOT) -> str | None:
     return None
 
 
+
+RESEARCH_ROOT = ROOT          # where deep dives, red-team reviews and the excluded list are read (tests point it elsewhere)
+SECTOR_HOLD = ("gaming", "wagering", "racing", "lotter", "casino", "betting", "gambling", "pokie")
+
+
+def excluded_list(root: str = ROOT) -> tuple[list[dict], bool]:
+    """Companies Evergreen advises, has pitched or is pitching, or about which Cam holds information that isn't
+    public (config/judgement_excluded.csv). The list counts as confirmed only once a line "# confirmed by Cam"
+    is in the file."""
+    p = os.path.join(root, "config", "judgement_excluded.csv")
+    if not os.path.exists(p):
+        return [], False
+    text = open(p, encoding="utf-8").read()
+    rows = [r for r in csv.DictReader(line for line in text.splitlines() if line and not line.startswith("#"))]
+    return rows, "# confirmed by cam" in text.lower()
+
+
+def placement_pattern(prices: Prices, market: str, ticker: str, today: str, sessions: int = 30) -> str | None:
+    """Rulebook section 9 (from test 9g): an ASX share that reopened from a halt of 1 to 3 sessions at least 5%
+    below its last close, on at least 3 times its median volume, in the last 30 sessions."""
+    if market != "ASX":
+        return None
+    cal = [b.date for b in prices.bars("ASX", "VAS") if b.date <= today][-(sessions + 70):]
+    bars = {b.date: b for b in prices.bars(market, ticker) if b.date <= today}
+    recent = cal[-sessions:]
+    for k, d in enumerate(cal):
+        if d not in recent or d not in bars:
+            continue
+        gap, j = 0, k - 1
+        while j >= 0 and cal[j] not in bars:
+            gap += 1; j -= 1
+        if not (1 <= gap <= 3) or j < 0:
+            continue
+        before = [bars[x].volume for x in cal[max(0, j - 59): j + 1] if x in bars and bars[x].volume > 0]
+        med = sorted(before)[len(before) // 2] if before else 0
+        last = bars[cal[j]].close
+        if bars[d].open <= 0.95 * last and med > 0 and bars[d].volume >= 3 * med:
+            return f"{market}:{ticker} reopened on {d} from a halt {1 - bars[d].open / last:.0%} lower on heavy volume (likely a placement): no new position for 30 sessions"
+    return None
+
+
+def research_checks(card: dict, prices: Prices, today: str, root: str = ROOT) -> list[str]:
+    """What a research pick needs before it can be bought (rulebook section 5a)."""
+    out = []
+    dd = card.get("deep_dive") or ""
+    path = os.path.join(root, dd)
+    if not dd or not os.path.exists(path):
+        out.append("a research pick needs its deep dive in research/picks/ (card field deep_dive)")
+    else:
+        text = open(path, encoding="utf-8").read()
+        if "TO WRITE" in text:
+            out.append("the deep dive is still a draft")
+        for head in ("## Why the market is wrong", "## Valuation", "## Sources"):
+            if head.lower() not in text.lower():
+                out.append(f"the deep dive has no \"{head[3:]}\" section")
+        if text.count("http") < 5:
+            out.append("the deep dive cites fewer than five sources")
+    rt = card.get("red_team") or ""
+    if not rt or not os.path.exists(os.path.join(root, rt)) or "## verdict" not in open(os.path.join(root, rt), encoding="utf-8").read().lower():
+        out.append("a research pick needs the red team's review with a verdict (card field red_team)")
+    if len(card.get("outcomes") or []) < 3:
+        out.append("a research pick states at least three outcomes (bad, middling, good), each with a chance and a price")
+    cats = [c for c in card.get("catalysts") or [] if isinstance(c, dict) and c.get("date") and c.get("event")]
+    if not cats:
+        out.append("a research pick names at least one dated event expected to show the market is wrong (card field catalysts)")
+    elif any(c["date"] > card.get("resolve_by", "9999") for c in cats):
+        out.append("every catalyst should fall on or before resolve_by")
+    rows, confirmed = excluded_list(root)
+    t, name = card.get("ticker", "").upper(), (card.get("company") or "").lower()
+    for r in rows:
+        rt_, rn = (r.get("ticker") or "").strip().upper(), (r.get("name") or "").strip().lower()
+        if (rt_ and rt_ == t) or (rn and name and (rn in name or name in rn)):
+            out.append(f"{t} is on Cam's excluded list (Evergreen advises it, has pitched it, or Cam holds information that isn't public)")
+    if any(w in (card.get("industry") or "").lower() for w in SECTOR_HOLD) and not confirmed:
+        out.append("gaming, wagering and racing picks wait until Cam confirms the excluded list (config/judgement_excluded.csv)")
+    if card.get("source") == "cam" and not card.get("cam_reason"):
+        out.append("a call from Cam states his reason in his words (card field cam_reason)")
+    why = placement_pattern(prices, card["market"], t, today)
+    if why:
+        out.append(why)
+    return out
+
+
 def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dict, now_utc: datetime,
            dry_run: bool = False) -> dict:
     if card.get("draft") or "TO WRITE" in json.dumps(card) or "TO SET" in json.dumps(card):
@@ -176,8 +259,8 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
     if not dry_run and vals[-1]["payload"]["date"] != nz_today:
         raise SystemExit(f"tonight's run ({nz_today}) is not in the ledger yet (latest {vals[-1]['payload']['date']}): "
                          "place nothing until the nightly job has landed")
-    if side == "buy" and sleeve in ("deal", "special") and not card.get("industry"):
-        raise SystemExit("a deal or special situation card needs an industry, for the 15% limit")
+    if side == "buy" and sleeve in ("deal", "special", "research") and not card.get("industry"):
+        raise SystemExit("a deal, special situation or research card needs an industry, for the 15% limit")
     if side == "buy" and sleeve == "deal" and not card.get("group"):
         raise SystemExit("a deal card needs a group (the regulator it waits on, or the bidder), for the 10% limit")
     val = with_open_orders(L, vals[-1]["payload"], fx, today_)
@@ -233,6 +316,8 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
         why = untested(card, HISTORY_ROOT)
         if why:
             breaches.append(why)
+        if sleeve == "research":
+            breaches += research_checks(card, prices, today, RESEARCH_ROOT)
         out.update(sizing=sz, value_nzd=round(want, 2), costs=costs, expected_net=round(net, 4),
                    expected_annual=round(exp_annual, 4), cash_rate=rate)
     else:

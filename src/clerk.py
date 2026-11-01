@@ -20,12 +20,12 @@ from ledger import Ledger
 from market_data import CURRENCY, FX, Prices, closed_by, nz_evening_utc, session_open_utc
 from rates import Rates
 
-CAPS = {"deal": 0.04, "special": 0.03}          # share of portfolio per position
+CAPS = {"deal": 0.04, "special": 0.03, "research": 0.02}   # share of portfolio per position
 CASH_FLOOR = 0.05
 DRAWDOWN_HALVE, DRAWDOWN_EXIT = 0.08, 0.12
 ORDER_LIFE_SESSIONS = 5                           # an order lapses after 5 sessions that traded ...
 ORDER_LIFE_DAYS = 10                              # ... or 10 business days, whichever comes first
-SLEEVES = ("core", "deal", "special")
+SLEEVES = ("core", "deal", "special", "research")
 FX_BLOCK_BUFFER = 0.02                            # convert 2% more than needed, then hold it
 HEDGE_SLEEVES = ("deal",)                         # rulebook: deal positions in AUD and USD are hedged
 HEDGE_TENOR_DAYS = 91                             # rolling three-month forwards

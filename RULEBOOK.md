@@ -13,7 +13,8 @@ This is the working draft. It's tightened during the practice run and locked on 
 |---|---|---|---|
 | Market core | 40% | 35–45% | VT 20%, VAS 10%, ENZL 10% (to confirm on Sharesies before day one). ENZL, the US-listed iShares MSCI New Zealand fund, replaces FNZ because no free feed carries NZX prices |
 | Deal spreads | 25% | 0–30% | Agreed schemes and takeover offers: NZX, ASX and US |
-| Special situations | 15% | 0–20% | Dated events: holder build-ups, strategic reviews, rejected bids, director buying clusters, index changes, offers priced at a discount. No type has passed a history test yet (9a and 9d to 9j failed on 1 Nov 2026), so this weight sits in cash until one does |
+| Research picks | 10% | 0–10% | Overlooked NZX and ASX small and mid caps, each bought only after a deep dive from primary sources (section 5a). At most five companies. Added on 1 Nov 2026 |
+| Special situations | 5% (was 15%) | 0–10% | Dated events: holder build-ups, strategic reviews, rejected bids, director buying clusters, index changes, offers priced at a discount. No type has passed a history test yet (9a and 9d to 9j failed on 1 Nov 2026), so this weight sits in cash until one does |
 | Rules-only | 0% (was 10%) | n/a | Dropped on 1 Nov 2026: failed the history test (section 6, reports/rules_only_history.md). Its 10% goes to cash under section 9 |
 | Cash | 20% (was 10%) | 5% floor | On-call cash, including the rules-only sleeve's 10% |
 
@@ -24,7 +25,7 @@ Money an active sleeve can't use well stays in cash. The core and the rules-only
 ## 3. Limits
 - Per deal: 4% of the portfolio, and the loss if the deal breaks no more than 1% of the portfolio. The break price is the undisturbed price, or lower where the evidence says so.
 - Deals waiting on one regulator, or from one bidder: 10% of the portfolio.
-- Per special situation: 3%. Per rules-only share: 1%.
+- Per special situation: 3%. Per research pick: 2%, and at most five companies at once. Per rules-only share: 1%.
 - One industry outside the core: 15%.
 - Smallest order: NZ$2,500 on NZX, A$1,500 on ASX, US$500 in the US.
 - Liquidity: no position larger than two sessions' trading at 10% of daily volume, measured on the 20-session median.
@@ -50,6 +51,20 @@ Deal and special situation positions are sized at a quarter of the Kelly stake f
 - The break price is the undisturbed price moved by the local market since the announcement (the index fund's total return: VAS for ASX, ENZL in NZ dollars for NZX, VT for US), unless the evidence points lower.
 - Deal positions in AUD and USD are hedged back to NZ dollars in the simulation at the forward rate (the interest-rate gap, from published rates), and also reported unhedged. The hedge is a rolling three-month forward sale of the currency for the position's value at the close, opened in the run that books the fill, re-sized when it is more than 20% off the position, closed when the position goes, and charged 0.1% of its size as a dealing cost, since Sharesies offers no hedging.
 - Exit when the deal completes, breaks, or a rival bid makes holding on a new decision. A rival bid is treated as a fresh entry decision.
+
+## 5a. Research picks (added 1 Nov 2026)
+- What: NZX and ASX small and mid caps that bigger investors are likely to overlook (outside the S&P/ASX 300 or the NZX 20, thinly traded, little or no analyst coverage, a concentrated or messy register, an out-of-favour sector), bought when a deep dive finds the price well below what the business is worth and a dated event should show it.
+- It can't be tested on history: Claude knows how these companies' past turned out, so any back-dated deep dive would be fitted to the answer. It is judged going forward, in the practice and counted runs, like the deal sleeve's stated odds.
+- Every pick needs, before any order (src/decide.py refuses a card without them):
+  - a deep dive in research/picks/ in the format of research/picks/TEMPLATE.md, from primary sources only (annual and half-year reports, ASX or NZX announcements, the company and share registers, substantial holder notices, director dealings, regulator and court records), with at least two valuation methods, a plain statement of why the market is wrong, and every source linked;
+  - at least three outcomes (bad, middling, good), each with a chance and a price by the resolve date, sized at a quarter of the Kelly stake from them (section 4) and capped at 2% of the portfolio;
+  - at least one dated event expected to show the market is wrong, on or before the resolve date, and an exit rule;
+  - a review by a separate agent that hasn't seen the analyst's reasoning, working through docs/RED_TEAM.md, saved in research/red_team/ with a verdict.
+- Off limits: any company on Cam's excluded list (config/judgement_excluded.csv: companies Evergreen advises, has pitched or is pitching, or about which Cam holds information that isn't public). Gaming, wagering and racing picks wait until Cam has confirmed that list. No new position in the 30 sessions after a placement-pattern reopening (section 9, from test 9g).
+- Cam's own calls go in this sleeve too, on the same terms, with his reason in his words on the card (the sector judgement allowance proposal in docs/JUDGEMENT_ALLOWANCE.md is folded in here).
+- Rhythm: a research desk runs weekly (a scheduled task): a screen of candidates (src/research_screen.py), then one or two full deep dives. The evening desk places cards and watches the dated events.
+- Judged on two things across the practice run: money made against the market (VAS for ASX picks, ENZL for NZX picks, both with dividends), and how accurate the stated chances turn out (Brier score). At the 18 December review Cam decides whether it carries into the counted run, and whether the 2% cap rises to 3%.
+- The usual limits apply: one industry outside the core 15%, the liquidity limit, and the fall-from-peak rule (research holdings are sold with the other active sleeves at 8% and 12%).
 
 ### Deal size trial (a forward test, registered 1 Nov 2026 before its first night)
 - The question: does the deal sleeve beat cash once positions are big enough that brokerage, capped per order, stops eating the spread? The history test of ASX cash deals (9c) found the market underpricing completion (74% implied, 90% paid) but the gain lost to costs at A$3,000 a deal.
@@ -264,6 +279,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 | Date | Change | Why |
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
+| 2026-11-01 | Research picks added (section 5a): up to 10% in at most five overlooked NZX and ASX small and mid caps, 2% each, each bought only after a deep dive from primary sources and a red-team review; special situations cut from 15% to 5% to make room (it holds cash while no type has passed a test). Cam's own calls fold into it on the same terms | Cam asked for deep dives into overlooked small and mid caps; 13 history tests of public-data patterns failed, and this is judged going forward instead, since it can't be fairly tested on the past |
 | 2026-11-01 | Section 9l result: fail. Commonwealth contracts worth at least 5% of the winning company's market value, bought the session after AusTender published them and held 20 sessions (the version tuning picked; both lost in tuning), beat small shares by about 1.1% before costs but lagged them by 1.19% after costs (51 events from 2019, t of -0.41). 168 such contracts since 2013 across 469 matched listed companies; notices for companies with no share count (not in ASIC's files, and EODHD's fundamentals aren't in the plan) were left out, as registered. Not traded | Recorded as the registered test found it (reports/contracts_history.md) |
 | 2026-11-01 | Section 9l: amendments left out, new contract notices only, in tuning and the run alike. Decided when the data arrived and before any result | AusTender's API dates amendments published from July 2020 with migration dates, and later ones possibly with the date of a later edit, so their dates aren't when the market could first see them (data/austender/README.md) |
 | 2026-11-01 | Section 9m result: fail. Predicted index additions (ASX 200 cut-off 160th, ASX 300 cut-off 260th, sold at the open of the third Friday, the version tuning picked) lagged mid-sized shares by 0.90% a trade after costs (798 trades from 2018, t of -2.13 by rebalance). S&P added only 178 of the 798 predictions (52 of 409 for the ASX 200): without free-float figures and S&P's liquidity screen the ranks pick too many companies S&P passes over. The ones it did add made 3.1% after costs; the rest lost 2.1%. Not traded | Recorded as the registered test found it (reports/index_additions_history.md); nothing in the test was changed after the result. Norgate's membership file (data/norgate/index_members.csv) was exported for this test before it ran |
