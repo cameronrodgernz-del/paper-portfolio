@@ -536,7 +536,7 @@ def history_tests() -> list[dict]:
             mean = first_match(path, r"\|\s*Mean yearly result[^|]*\|[^|]*\|\s*([-+]?[\d.]+%)\s*\|")
         ahead = first_match(path, r"\|\s*Picks beat the benchmark[^|]*\|[^|]*\|\s*(\d+ of \d+)\s*\|")
         few = first_match(path, r"Only (\d+) events")
-        if few and not mean:
+        if few:
             return f"Only {few} events, too few to test. " + ("Traded." if res == "pass" else "Not traded.")
         bits = [f"{mean} a trade after costs" if mean else "", f"{ev} events" if ev else "", f"{qs} quarters" if qs else "",
                 f"ahead in {ahead} years" if ahead else "", f"t {t}" if t else ""]
@@ -554,14 +554,16 @@ def history_tests() -> list[dict]:
         {"name": "ASX cash deal spreads", "ref": "9c", "status": first_match(au, r"\*\*Result: (pass|fail|not run)\.\*\*") or "waiting",
          "detail": outcome(au, f"{e2} of {f2} deal targets priced").replace("a trade after costs", "a deal against cash after costs"), "done": e2, "of": f2}] + [
         {"name": name, "ref": ref, "status": first_match(os.path.join(ROOT, "reports", fn), r"\*\*Result: (pass|fail|not run)\.\*\*") or "waiting",
-         "detail": outcome(os.path.join(ROOT, "reports", fn), "Waiting for Norgate's whole-market prices").replace("a trade after costs", f"a {unit} against {against} after costs")}
+         "detail": outcome(os.path.join(ROOT, "reports", fn), "Waiting for its data").replace("a trade after costs", f"a {unit} against {against} after costs")}
         for name, ref, fn, unit, against in (("Shares left behind when a deal fails", "9d", "failed_deal_history.md", "deal", "the market"),
                                              ("A model of the next takeover target", "9e", "target_model_history.md", "quarter", "the market"),
                                              ("The June tax-year sell-off", "9f", "june_selloff_history.md", "year", "small shares"),
                                              ("Placement flippers", "9g", "placement_history.md", "trade", "small shares"),
                                              ("Listed options below their value", "9h", "listed_options_history.md", "trade", "the money laid out"),
                                              ("Short sellers covering", "9i", "short_cover_history.md", "month", "shorted shares"),
-                                             ("Franked special dividends in schemes", "9j", "scheme_special_history.md", "scheme", "holding"))]
+                                             ("Franked special dividends in schemes", "9j", "scheme_special_history.md", "scheme", "holding"),
+                                             ("Deals after the ACCC raises concerns", "9k", "accc_history.md", "deal", "cash"),
+                                             ("Government contracts and small companies", "9l", "contracts_history.md", "trade", "small shares"))]
 
 
 def feeds_section() -> dict:
