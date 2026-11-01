@@ -1,4 +1,65 @@
 {
- "status": 400,
- "body": "{\"detail\":\"The maximum allowed page size is 100.\",\"type\":\"page_size_too_large\",\"resolution\":\"Request page_size=100 or less and follow the `next` link for more.\",\"max_page_size\":100}"
+ "status": 200,
+ "body": {
+  "count": 11,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "id": 1,
+    "name": "Annual General Meeting",
+    "sort_order": 0
+   },
+   {
+    "id": 8,
+    "name": "Debt Information",
+    "sort_order": 0
+   },
+   {
+    "id": 7,
+    "name": "Equity Information",
+    "sort_order": 0
+   },
+   {
+    "id": 9,
+    "name": "ESG Information",
+    "sort_order": 0
+   },
+   {
+    "id": 2,
+    "name": "Financial Reporting & Info",
+    "sort_order": 0
+   },
+   {
+    "id": 3,
+    "name": "Investment Vehicle Info",
+    "sort_order": 0
+   },
+   {
+    "id": 4,
+    "name": "Investor Communication",
+    "sort_order": 0
+   },
+   {
+    "id": 5,
+    "name": "Listing/Delisting",
+    "sort_order": 0
+   },
+   {
+    "id": 6,
+    "name": "Management & Remuneration",
+    "sort_order": 0
+   },
+   {
+    "id": 10,
+    "name": "M&A, Partnerships & Legal",
+    "sort_order": 0
+   },
+   {
+    "id": 11,
+    "name": "Other",
+    "sort_order": 0
+   }
+  ]
+ }
 }

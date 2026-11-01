@@ -1,0 +1,340 @@
+{
+ "status": 200,
+ "body": {
+  "count": 30,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "id": 13,
+    "code": "AGM-R",
+    "name": "AGM Information",
+    "description": "Presentations and materials shared during the Annual General Meeting (AGM).",
+    "category": {
+     "id": 1,
+     "name": "Annual General Meeting",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 1,
+    "code": "10-K",
+    "name": "Annual Report",
+    "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+    "category": {
+     "id": 2,
+     "name": "Financial Reporting & Info",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 2,
+    "code": "10-K-ESEF",
+    "name": "Annual Report (ESEF)",
+    "description": "Annual Report (10-K) in the standard European electronic format (ESEF).",
+    "category": {
+     "id": 2,
+     "name": "Financial Reporting & Info",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 53,
+    "code": "AR",
+    "name": "Audit Report / Information",
+    "description": "Standalone audit reports, applied accounting principles, and results of internal or regulatory stress tests. The code AR does not stand for Annual Report: a company's annual report or annual financial statements belong under Annual Report (10-K), even when they include the auditor's report. A credit-rating agency's report or rating action on the company or its debt is not an audit report: it belongs under Regulatory Filings.",
+    "category": {
+     "id": 2,
+     "name": "Financial Reporting & Info",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 47,
+    "code": "MANG",
+    "name": "Board/Management Information",
+    "description": "Announcement of changes in the company's board of directors or senior management.",
+    "category": {
+     "id": 6,
+     "name": "Management & Remuneration",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 7,
+    "code": "CT",
+    "name": "Call & Meeting Transcript",
+    "description": "A recording, or the verbatim transcript of a recording, of ANY spoken investor event: earnings call, conference call, online results briefing (e.g. \u4e1a\u7ee9\u8bf4\u660e\u4f1a), investor meeting or roadshow, Capital Markets Day, Investor Day, analyst briefing, AGM webcast or similar. The actual spoken dialogue, typically with speaker names and Q&A. Choose this whenever the filing IS the recording or its transcript, EVEN IF the subject matter is a presentation of strategy or results. The artifact is a recording, not a document, and it does not need to have been a telephone call. Not invitations, notices, or announcements of an upcoming event.",
+    "category": {
+     "id": 4,
+     "name": "Investor Communication",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 48,
+    "code": "CAP",
+    "name": "Capital/Financing Update",
+    "description": "Updates on company fundraising, financing activities, or capital structure changes.",
+    "category": {
+     "id": 8,
+     "name": "Debt Information",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 22,
+    "code": "DVA",
+    "name": "Declaration of Voting Results & Voting Rights Announcements",
+    "description": "Official results from shareholder votes at any general meeting (AGM or EGM).",
+    "category": {
+     "id": 1,
+     "name": "Annual General Meeting",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 50,
+    "code": "DLST",
+    "name": "Delisting Announcement",
+    "description": "Official notice that the company's shares will be removed from an exchange. The maturity, redemption or delisting of a bond, note or other debt security is not a delisting of the company: it belongs under Capital/Financing Update.",
+    "category": {
+     "id": 5,
+     "name": "Listing/Delisting",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 20,
+    "code": "DIRS",
+    "name": "Director's Dealing",
+    "description": "Report of personal share transactions by company directors and executives (insider trades).",
+    "category": {
+     "id": 6,
+     "name": "Management & Remuneration",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 6,
+    "code": "ER",
+    "name": "Earnings Release",
+    "description": "Announcement of quarterly, half-year, or full-year financial results, including preliminary or unaudited ('final') results announcements, with key highlights and sometimes summary financial statements.",
+    "category": {
+     "id": 2,
+     "name": "Financial Reporting & Info",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 10,
+    "code": "SR",
+    "name": "Environmental & Social Information",
+    "description": "Report detailing the company's performance on Environmental, Social, and Governance (ESG) factors. Also covers a mining company's standalone mineral resource and ore reserve report, published as part of its annual reporting suite.",
+    "category": {
+     "id": 9,
+     "name": "ESG Information",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 33,
+    "code": "XLSX",
+    "name": "Financial Supplement Data",
+    "description": "Supplementary financial data provided in a detailed Excel spreadsheet format.",
+    "category": {
+     "id": 2,
+     "name": "Financial Reporting & Info",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 8,
+    "code": "FS",
+    "name": "Fund Information / Factsheet",
+    "description": "Factsheet or portfolio update for a fund, investment trust, or ETF that sets out the actual portfolio data - net asset value, top or largest holdings, sector and geographic allocation, performance figures, discount or premium, and gearing. Includes monthly portfolio disclosures and holdings summaries that list the holdings themselves. Not announcements that a factsheet, portfolio listing, or holdings disclosure has been published or can be viewed elsewhere.",
+    "category": {
+     "id": 3,
+     "name": "Investment Vehicle Info",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 11,
+    "code": "CGR",
+    "name": "Governance Information",
+    "description": "Report detailing the company's internal rules, board structure, and governance practices.",
+    "category": {
+     "id": 9,
+     "name": "ESG Information",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 49,
+    "code": "IRAT",
+    "name": "Interest Rate Update/Notice",
+    "description": "Updates on interest rate changes affecting the company's debt or financial instruments. A credit rating of the company or its debt is not an interest-rate notice: it belongs under Regulatory Filings.",
+    "category": {
+     "id": 8,
+     "name": "Debt Information",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 19,
+    "code": "IR",
+    "name": "Interim / Quarterly Report",
+    "description": "Comprehensive financial report for a period shorter than a full fiscal year (e.g., half-year or quarter). Must contain actual financial statements or substantive financial data and analysis, not merely reference or certify such a report.",
+    "category": {
+     "id": 2,
+     "name": "Financial Reporting & Info",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 12,
+    "code": "IP",
+    "name": "Investor Presentation",
+    "description": "A written presentation DOCUMENT prepared for investors (a slide deck or similar) covering financials, strategy and market position. The artifact must be the document itself. A recording or transcript of someone PRESENTING such material is a Call Transcript, not an Investor Presentation, however closely its content matches this description.",
+    "category": {
+     "id": 4,
+     "name": "Investor Communication",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 30,
+    "code": "LTR",
+    "name": "Legal Proceedings Report",
+    "description": "Updates on significant lawsuits, regulatory actions, or legal matters involving the company.",
+    "category": {
+     "id": 10,
+     "name": "M&A, Partnerships & Legal",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 23,
+    "code": "TAR",
+    "name": "M&A Activity",
+    "description": "Announcements and documents related to merger proposals or takeover bids.",
+    "category": {
+     "id": 10,
+     "name": "M&A, Partnerships & Legal",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 24,
+    "code": "MRQ",
+    "name": "Major Shareholding Notification",
+    "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+    "category": {
+     "id": 7,
+     "name": "Equity Information",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 17,
+    "code": "MDA",
+    "name": "Management Reports",
+    "description": "Management's detailed explanation of financial results, business trends, and outlook.",
+    "category": {
+     "id": 6,
+     "name": "Management & Remuneration",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 43,
+    "code": "NAV",
+    "name": "Net Asset Value",
+    "description": "Regular update of the Net Asset Value (NAV), primarily for investment funds.",
+    "category": {
+     "id": 3,
+     "name": "Investment Vehicle Info",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 45,
+    "code": "DIV",
+    "name": "Notice of Dividend Amount",
+    "description": "Announcement of dividend amounts, payment dates, and details for shareholders.",
+    "category": {
+     "id": 7,
+     "name": "Equity Information",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 46,
+    "code": "PSI",
+    "name": "Proxy Solicitation & Information Statement",
+    "description": "Materials sent to shareholders to provide information and request votes for meetings.",
+    "category": {
+     "id": 1,
+     "name": "Annual General Meeting",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 18,
+    "code": "RNS",
+    "name": "Regulatory Filings",
+    "description": "General regulatory announcements, compliance documents, officer certifications, and fallback category for miscellaneous filings that do not neatly fit into other specific categories. Also covers corrections, amendments, or revisions to previously published filings.",
+    "category": {
+     "id": 11,
+     "name": "Other",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 9,
+    "code": "DEF 14A",
+    "name": "Remuneration Information",
+    "description": "Report detailing compensation for top executives and directors. Covers remuneration reports, remuneration policies and incentive schemes. US proxy statements (DEF 14A, DEFA14A) are not covered by this type despite the shared code: they are classified as Proxy Solicitation & Information Statement.",
+    "category": {
+     "id": 6,
+     "name": "Management & Remuneration",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 42,
+    "code": "RPA",
+    "name": "Report Publication Announcement",
+    "description": "Announcement regarding the timing, release, or publication of company reports (often stating the report is attached or available on the website). Also covers announcements inviting stakeholders to an upcoming results call, webcast, or investor presentation.",
+    "category": {
+     "id": 4,
+     "name": "Investor Communication",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 51,
+    "code": "SHA",
+    "name": "Share Issue/Capital Change",
+    "description": "Announcement regarding new share issues, stock splits, or other capital changes.",
+    "category": {
+     "id": 7,
+     "name": "Equity Information",
+     "sort_order": 0
+    }
+   },
+   {
+    "id": 52,
+    "code": "POS",
+    "name": "Transaction in Own Shares",
+    "description": "Report of the company buying back or selling its own shares (share repurchase/issuance).",
+    "category": {
+     "id": 7,
+     "name": "Equity Information",
+     "sort_order": 0
+    }
+   }
+  ]
+ }
+}

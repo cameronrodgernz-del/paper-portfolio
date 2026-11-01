@@ -6,9 +6,9 @@
   "payg": null,
   "free_credits": {
    "limit": 500,
-   "used": 20,
-   "remaining": 480,
-   "pct": 4,
+   "used": 42,
+   "remaining": 458,
+   "pct": 8,
    "shared": false
   },
   "requests": null

@@ -1,0 +1,4 @@
+{
+ "status": 400,
+ "body": "{\"types\":\"Unknown filing type code(s): 23. Use a FinancialFilings code from GET /filing-types/; a source's own form name such as 10-Q goes on source_filing_type.\",\"detail\":\"Unknown filing type code(s): 23. See did_you_mean for replacements and valid_codes_url for the valid codes.\",\"error_type\":\"unknown_filing_type\",\"invalid_codes\":[\"23\"],\"did_you_mean\":{},\"valid_codes_url\":\"https://api.financialreports.eu/filing-types/\"}"
+}
