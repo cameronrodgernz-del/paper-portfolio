@@ -1,3 +1,351 @@
-run 2026-10-31
-
-no problems
+run 2026-11-01
+US:ABAX +1051
+US:ACAT +109
+US:ACC +2063
+US:ACHN +1425
+US:ACW +630
+US:AHL +7
+US:AIQ +2127
+US:AKCA +818
+US:AKUS +615
+US:ALE +3085
+US:ALR +855
+US:ALTM +293
+US:ALTV +394
+US:AMAM +684
+US:APEX +1725
+US:ARA +1199
+US:ARGO +2384
+US:ARNA +1961
+US:ARUN +243
+US:ASPX +233
+US:ASV +587
+US:ATEA +952
+US:ATRS +18
+US:ATSG +2734
+US:AUGG +3044
+US:AVA +3124
+US:AVX +1336
+US:AVXS +569
+US:AYR +1467
+US:BATL +1722
+US:BDBD +412
+US:BDMS +1160
+US:BEAT +1247
+US:BGFV +3034
+US:BHF +2337
+US:BLOX +346
+US:BLUE +2767
+US:BNFT +2178
+US:BOJA +937
+US:BPL +1385
+US:BREW +124
+US:BSDM +0
+US:BTRS +851
+US:CALD +976
+US:CASM +1230
+PROBLEMS:
+CBAY: Tiingo hourly budget used
+CBDC: Tiingo hourly budget used
+CBPX: Tiingo hourly budget used
+CCC: Tiingo hourly budget used
+CCF: Tiingo hourly budget used
+CCXI: Tiingo hourly budget used
+CDMO: Tiingo hourly budget used
+CDOR: Tiingo hourly budget used
+CDR: Tiingo hourly budget used
+CERN: Tiingo hourly budget used
+CETV: Tiingo hourly budget used
+CFMS: Tiingo hourly budget used
+CGNT: Tiingo hourly budget used
+CHNG: Tiingo hourly budget used
+CHUBA: Tiingo hourly budget used
+CI: Tiingo hourly budget used
+CIFC: Tiingo hourly budget used
+CINC: Tiingo hourly budget used
+CKPT: Tiingo hourly budget used
+CLC: Tiingo hourly budget used
+CLCT: Tiingo hourly budget used
+CMRX: Tiingo hourly budget used
+COVS: Tiingo hourly budget used
+CPGX: Tiingo hourly budget used
+CPHD: Tiingo hourly budget used
+CPRI: Tiingo hourly budget used
+CRHM: Tiingo hourly budget used
+CTIC: Tiingo hourly budget used
+CUO: Tiingo hourly budget used
+CVRS: Tiingo hourly budget used
+CXDC: Tiingo hourly budget used
+CY: Tiingo hourly budget used
+CYT: Tiingo hourly budget used
+DBTX: Tiingo hourly budget used
+DCPH: Tiingo hourly budget used
+DNB: Tiingo hourly budget used
+DRII: Tiingo hourly budget used
+DRRX: Tiingo hourly budget used
+DTLK: Tiingo hourly budget used
+DTSI: Tiingo hourly budget used
+EA: Tiingo hourly budget used
+ECHO: Tiingo hourly budget used
+ECOM: Tiingo hourly budget used
+EDE: Tiingo hourly budget used
+EEI: Tiingo hourly budget used
+EIGI: Tiingo hourly budget used
+ELME: Tiingo hourly budget used
+ELRC: Tiingo hourly budget used
+EMBK: Tiingo hourly budget used
+ENFC: Tiingo hourly budget used
+ENTL: Tiingo hourly budget used
+ENVI: Tiingo hourly budget used
+ESIO: Tiingo hourly budget used
+ETNB: Tiingo hourly budget used
+EVOK: Tiingo hourly budget used
+EXAR: Tiingo hourly budget used
+EXXI: Tiingo hourly budget used
+FARO: Tiingo hourly budget used
+FCS: Tiingo hourly budget used
+FCTY: Tiingo hourly budget used
+FIT: Tiingo hourly budget used
+FMI: Tiingo hourly budget used
+FNA: Tiingo hourly budget used
+FOR: Tiingo hourly budget used
+FORG: Tiingo hourly budget used
+FPO: Tiingo hourly budget used
+FRG: Tiingo hourly budget used
+FSCT: Tiingo hourly budget used
+FSTX: Tiingo hourly budget used
+FTSI: Tiingo hourly budget used
+FYBR: Tiingo hourly budget used
+GAN: Tiingo hourly budget used
+GBT: Tiingo hourly budget used
+GI: Tiingo hourly budget used
+GLUU: Tiingo hourly budget used
+GNMK: Tiingo hourly budget used
+GNW: Tiingo hourly budget used
+GPIC: Tiingo hourly budget used
+GPX: Tiingo hourly budget used
+GTHX: Tiingo hourly budget used
+GTYH: Tiingo hourly budget used
+GUID: Tiingo hourly budget used
+GV: Tiingo hourly budget used
+GVP: Tiingo hourly budget used
+HA: Tiingo hourly budget used
+HABT: Tiingo hourly budget used
+HARP: Tiingo hourly budget used
+HAYN: Tiingo hourly budget used
+HCCI: Tiingo hourly budget used
+HDNG: Tiingo hourly budget used
+HGR: Tiingo hourly budget used
+HIIQ: Tiingo hourly budget used
+HLSS: Tiingo hourly budget used
+HRT: Tiingo hourly budget used
+HT: Tiingo hourly budget used
+HZN: Tiingo hourly budget used
+IL: Tiingo hourly budget used
+IMMU: Tiingo hourly budget used
+IMXI: Tiingo hourly budget used
+IOTS: Tiingo hourly budget used
+IRC: Tiingo hourly budget used
+ISEE: Tiingo hourly budget used
+ITCI: Tiingo hourly budget used
+ITI: Tiingo hourly budget used
+JCAP: Tiingo hourly budget used
+JMBA: Tiingo hourly budget used
+JOY: Tiingo hourly budget used
+KATE: Tiingo hourly budget used
+KLDX: Tiingo hourly budget used
+KLXI: Tiingo hourly budget used
+KNBE: Tiingo hourly budget used
+KRA: Tiingo hourly budget used
+KTWO: Tiingo hourly budget used
+LABC: Tiingo hourly budget used
+LABP: Tiingo hourly budget used
+LDL: Tiingo hourly budget used
+LM: Tiingo hourly budget used
+LMIA: Tiingo hourly budget used
+LMNX: Tiingo hourly budget used
+LOXO: Tiingo hourly budget used
+LQ: Tiingo hourly budget used
+LTRPA: Tiingo hourly budget used
+MAXR: Tiingo hourly budget used
+MDAS: Tiingo hourly budget used
+MDC: Tiingo hourly budget used
+MDLA: Tiingo hourly budget used
+MDP: Tiingo hourly budget used
+MDVN: Tiingo hourly budget used
+MENT: Tiingo hourly budget used
+MGI: Tiingo hourly budget used
+MGRM: Tiingo hourly budget used
+MHGC: Tiingo hourly budget used
+MIK: Tiingo hourly budget used
+MJCO: Tiingo hourly budget used
+MKFG: Tiingo hourly budget used
+MLNK: Tiingo hourly budget used
+MM: Tiingo hourly budget used
+MN: Tiingo hourly budget used
+MNR: Tiingo hourly budget used
+MOBL: Tiingo hourly budget used
+MPSX: Tiingo hourly budget used
+MRSN: Tiingo hourly budget used
+MTGE: Tiingo hourly budget used
+MTSC: Tiingo hourly budget used
+MULE: Tiingo hourly budget used
+MYCC: Tiingo hourly budget used
+N: Tiingo hourly budget used
+NATL: Tiingo hourly budget used
+NCFT: Tiingo hourly budget used
+NCIT: Tiingo hourly budget used
+NEWR: Tiingo hourly budget used
+NGHC: Tiingo hourly budget used
+NONE: Tiingo hourly budget used
+NPSP: Tiingo hourly budget used
+NPTN: Tiingo hourly budget used
+NSPH: Tiingo hourly budget used
+NTLS: Tiingo hourly budget used
+NTUS: Tiingo hourly budget used
+NUAN: Tiingo hourly budget used
+NVRO: Tiingo hourly budget used
+NVSL: Tiingo hourly budget used
+NWLI: Tiingo hourly budget used
+NXGN: Tiingo hourly budget used
+NYNY: Tiingo hourly budget used
+NYRT: Tiingo hourly budget used
+OCAT: Tiingo hourly budget used
+ODP: Tiingo hourly budget used
+OLO: Tiingo hourly budget used
+OMIC: Tiingo hourly budget used
+OMN: Tiingo hourly budget used
+ORTX: Tiingo hourly budget used
+OSIR: Tiingo hourly budget used
+PAND: Tiingo hourly budget used
+PAYA: Tiingo hourly budget used
+PBY: Tiingo hourly budget used
+PDCO: Tiingo hourly budget used
+PETM: Tiingo hourly budget used
+PETQ: Tiingo hourly budget used
+PFIN: Tiingo hourly budget used
+PFSW: Tiingo hourly budget used
+PGI: Tiingo hourly budget used
+PGND: Tiingo hourly budget used
+PHX: Tiingo hourly budget used
+PNRA: Tiingo hourly budget used
+PNT: Tiingo hourly budget used
+PRFT: Tiingo hourly budget used
+PRGX: Tiingo hourly budget used
+PRLS: Tiingo hourly budget used
+PRO: Tiingo hourly budget used
+PS: Tiingo hourly budget used
+PSDO: Tiingo hourly budget used
+PSEM: Tiingo hourly budget used
+PSTX: Tiingo hourly budget used
+PTRY: Tiingo hourly budget used
+QCP: Tiingo hourly budget used
+RALY: Tiingo hourly budget used
+RCPT: Tiingo hourly budget used
+RETA: Tiingo hourly budget used
+REXI: Tiingo hourly budget used
+RGLS: Tiingo hourly budget used
+RLD: Tiingo hourly budget used
+RLJE: Tiingo hourly budget used
+ROG: Tiingo hourly budget used
+ROIC: Tiingo hourly budget used
+ROX: Tiingo hourly budget used
+RPXC: Tiingo hourly budget used
+RRD: Tiingo hourly budget used
+RSTI: Tiingo hourly budget used
+RUTH: Tiingo hourly budget used
+RXDX: Tiingo hourly budget used
+RYZB: Tiingo hourly budget used
+SAFM: Tiingo hourly budget used
+SAUC: Tiingo hourly budget used
+SBY: Tiingo hourly budget used
+SCPH: Tiingo hourly budget used
+SFG: Tiingo hourly budget used
+SGFY: Tiingo hourly budget used
+SGTX: Tiingo hourly budget used
+SHLM: Tiingo hourly budget used
+SHOR: Tiingo hourly budget used
+SHSP: Tiingo hourly budget used
+SJI: Tiingo hourly budget used
+SLI: Tiingo hourly budget used
+SNAK: Tiingo hourly budget used
+SNCE: Tiingo hourly budget used
+SOLY: Tiingo hourly budget used
+SPLK: Tiingo hourly budget used
+SPTN: Tiingo hourly budget used
+SPWH: Tiingo hourly budget used
+SQI: Tiingo hourly budget used
+SQNM: Tiingo hourly budget used
+SQSP: Tiingo hourly budget used
+SRCL: Tiingo hourly budget used
+SSNI: Tiingo hourly budget used
+STFC: Tiingo hourly budget used
+STML: Tiingo hourly budget used
+STMP: Tiingo hourly budget used
+STND: Tiingo hourly budget used
+SUMO: Tiingo hourly budget used
+SVT: Tiingo hourly budget used
+SWAV: Tiingo hourly budget used
+SWCH: Tiingo hourly budget used
+SYUT: Tiingo hourly budget used
+TENG: Tiingo hourly budget used
+TERP: Tiingo hourly budget used
+TESS: Tiingo hourly budget used
+TFM: Tiingo hourly budget used
+TGAN: Tiingo hourly budget used
+THOR: Tiingo hourly budget used
+THRX: Tiingo hourly budget used
+THS: Tiingo hourly budget used
+TIF: Tiingo hourly budget used
+TLMD: Tiingo hourly budget used
+TLND: Tiingo hourly budget used
+TMH: Tiingo hourly budget used
+TNAV: Tiingo hourly budget used
+TOWR: Tiingo hourly budget used
+TRAK: Tiingo hourly budget used
+TRCO: Tiingo hourly budget used
+TREC: Tiingo hourly budget used
+TRK: Tiingo hourly budget used
+TSRO: Tiingo hourly budget used
+TTPH: Tiingo hourly budget used
+TVTY: Tiingo hourly budget used
+TWTR: Tiingo hourly budget used
+TYPE: Tiingo hourly budget used
+UFS: Tiingo hourly budget used
+ULTI: Tiingo hourly budget used
+UNTD: Tiingo hourly budget used
+UNVR: Tiingo hourly budget used
+UQM: Tiingo hourly budget used
+USAP: Tiingo hourly budget used
+USX: Tiingo hourly budget used
+UTEK: Tiingo hourly budget used
+UVIC: Tiingo hourly budget used
+UWN: Tiingo hourly budget used
+VAR: Tiingo hourly budget used
+VASC: Tiingo hourly budget used
+VASO: Tiingo hourly budget used
+VCRA: Tiingo hourly budget used
+VG: Tiingo hourly budget used
+VLY: Tiingo hourly budget used
+VMEO: Tiingo hourly budget used
+VRNT: Tiingo hourly budget used
+VRTU: Tiingo hourly budget used
+VSLR: Tiingo hourly budget used
+VTNR: Tiingo hourly budget used
+WAGE: Tiingo hourly budget used
+WAIR: Tiingo hourly budget used
+WBA: Tiingo hourly budget used
+WBC: Tiingo hourly budget used
+WBT: Tiingo hourly budget used
+WH: Tiingo hourly budget used
+WMAR: Tiingo hourly budget used
+WSCI: Tiingo hourly budget used
+WTRE: Tiingo hourly budget used
+XENT: Tiingo hourly budget used
+XRX: Tiingo hourly budget used
+Y: Tiingo hourly budget used
+ZEN: Tiingo hourly budget used
+ZEP: Tiingo hourly budget used
+ZIMV: Tiingo hourly budget used
+ZOES: Tiingo hourly budget used
+ZUO: Tiingo hourly budget used

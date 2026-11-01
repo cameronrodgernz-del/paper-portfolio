@@ -1,3 +1,3 @@
 # Deal spreads history test: US cash deals
 
-Waiting for prices: 11 of 360 sampled tickers fetched (2026-10-31 23:43 UTC). The test runs once, when all are in.
+Waiting for prices: 56 of 360 sampled tickers fetched (2026-11-01 01:25 UTC). The test runs once, when all are in.
