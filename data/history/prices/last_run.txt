@@ -1,95 +1,50 @@
 run 2026-11-01
-US:ABAX +1051
-US:ACAT +109
-US:ACC +2063
-US:ACHN +1425
-US:ACW +630
-US:AHL +7
-US:AIQ +2127
-US:AKCA +818
-US:AKUS +615
-US:ALE +3085
-US:ALR +855
-US:ALTM +293
-US:ALTV +394
-US:AMAM +684
-US:APEX +1725
-US:ARA +1199
-US:ARGO +2384
-US:ARNA +1961
-US:ARUN +243
-US:ASPX +233
-US:ASV +587
-US:ATEA +952
-US:ATRS +18
-US:ATSG +2734
-US:AUGG +3044
-US:AVA +3124
-US:AVX +1336
-US:AVXS +569
-US:AYR +1467
-US:BATL +1722
-US:BDBD +412
-US:BDMS +1160
-US:BEAT +1247
-US:BGFV +3034
-US:BHF +2337
-US:BLOX +346
-US:BLUE +2767
-US:BNFT +2178
-US:BOJA +937
-US:BPL +1385
-US:BREW +124
-US:BSDM +0
-US:BTRS +851
-US:CALD +976
-US:CASM +1230
+US:CBAY +2471
+US:CBDC +991
+US:CBPX +1431
+US:CCC +1319
+US:CCF +2383
+US:CCXI +184
+US:CDMO +1780
+US:CDOR +1918
+US:CDR +2072
+US:CERN +2039
+US:CETV +1605
+US:CFMS +2059
+US:CGNT +1444
+US:CHNG +824
+US:CHUBA +461
+US:CI +3124
+US:CIFC +87
+US:CINC +284
+US:CKPT +2123
+US:CLC +716
+US:CLCT +1685
+US:CMRX +2920
+US:COVS +796
+US:CPGX +254
+US:CPHD +615
+US:CPRI +3124
+US:CRHM +1418
+US:CTIC +2283
+US:CUO +1502
+US:CVRS +1313
+US:CXDC +2192
+US:CY +1480
+US:CYT +391
+US:DBTX +658
+US:DCPH +1872
+US:DNB +1294
+US:DRII +170
+US:DRRX +2838
+US:DTLK +658
+US:DTSI +634
+US:EA +3062
+US:ECHO +3124
+US:ECOM +2132
+US:EDE +257
+US:EEI +1407
 PROBLEMS:
-CBAY: Tiingo hourly budget used
-CBDC: Tiingo hourly budget used
-CBPX: Tiingo hourly budget used
-CCC: Tiingo hourly budget used
-CCF: Tiingo hourly budget used
-CCXI: Tiingo hourly budget used
-CDMO: Tiingo hourly budget used
-CDOR: Tiingo hourly budget used
-CDR: Tiingo hourly budget used
-CERN: Tiingo hourly budget used
-CETV: Tiingo hourly budget used
-CFMS: Tiingo hourly budget used
-CGNT: Tiingo hourly budget used
-CHNG: Tiingo hourly budget used
-CHUBA: Tiingo hourly budget used
-CI: Tiingo hourly budget used
-CIFC: Tiingo hourly budget used
-CINC: Tiingo hourly budget used
-CKPT: Tiingo hourly budget used
-CLC: Tiingo hourly budget used
-CLCT: Tiingo hourly budget used
-CMRX: Tiingo hourly budget used
-COVS: Tiingo hourly budget used
-CPGX: Tiingo hourly budget used
-CPHD: Tiingo hourly budget used
-CPRI: Tiingo hourly budget used
-CRHM: Tiingo hourly budget used
-CTIC: Tiingo hourly budget used
-CUO: Tiingo hourly budget used
-CVRS: Tiingo hourly budget used
-CXDC: Tiingo hourly budget used
-CY: Tiingo hourly budget used
-CYT: Tiingo hourly budget used
-DBTX: Tiingo hourly budget used
-DCPH: Tiingo hourly budget used
-DNB: Tiingo hourly budget used
-DRII: Tiingo hourly budget used
-DRRX: Tiingo hourly budget used
-DTLK: Tiingo hourly budget used
-DTSI: Tiingo hourly budget used
-EA: Tiingo hourly budget used
-ECHO: Tiingo hourly budget used
-ECOM: Tiingo hourly budget used
-EDE: Tiingo hourly budget used
-EEI: Tiingo hourly budget used
 EIGI: Tiingo hourly budget used
 ELME: Tiingo hourly budget used
 ELRC: Tiingo hourly budget used
