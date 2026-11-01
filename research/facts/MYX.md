@@ -1,5 +1,7 @@
 # Mayne Pharma Group (ASX:MYX): fact sheet
 
+> Correction, 2 November 2026: the "business alone A$2.93" figure below is wrong. It used FY25 EBITDA and June cash. On the last twelve months' EBITDA (A$28.5m), September cash (A$67.3m) and the earn-outs at book, the business alone is worth about A$0.51 a share at 10 times, and nothing below about 8.5 times, against a price of A$2.54. See research/facts/MYX_check.md. The price rests almost entirely on the Cosette claim.
+
 Written 2026-11-02 by the research desk, from primary sources. Ranking: 9 points, #2 in reports/research_rank.md (2026-11-01).
 Stage 3 of the research funnel (rulebook section 5a). A fact sheet replaces the old quick look: it records the facts in a
 standard form and asks one question. It does not estimate an expected gain, and it doesn't drop a company on judgement.
