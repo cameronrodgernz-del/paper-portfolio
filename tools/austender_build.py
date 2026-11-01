@@ -135,14 +135,16 @@ def main(indir, repo):
                 stamp[rec["release_date"]] += 1
     bulk = {s for s, n in stamp.items() if n >= BULK_N}
     hours = Counter()
-    api_years, api_failed = {}, {}
+    api_years, api_failed, api_empty = {}, {}, {}
     for f in api_paths:
         y = int(f[4:8])
         lg = os.path.join(indir, f"api_{y}_log.json")
         if os.path.exists(lg):
             L = json.load(open(lg))
             api_years[y] = L["releases"]
-            api_failed[y] = L["failed"]
+            # the API answers HTTP 400 for a window with no notices (weekends, public holidays)
+            api_failed[y] = [d for d in L["failed"] if not L["days"].get(d, {}).get("error", "").startswith("HTTP 400")]
+            api_empty[y] = [d for d in L["failed"] if d not in api_failed[y]]
         seen_rel = set()
         n0 = len(merged)
         for rec in read_rows(os.path.join(indir, f)):
@@ -288,10 +290,19 @@ def main(indir, repo):
     w(f"2. AusTender OCDS API, `{API_URL}`, paged one UTC day at a time from 1 January 2013 (the earliest it "
       f"serves) to the day of the run. Documentation: {API_DOC}. The API returns each contract with all of its "
       "amendments, in the window of the contract's publish date.\n")
-    w("| API year (contract publish date) | releases read | days that failed after three passes |\n|---|---|---|")
+    w("| API year (contract publish date) | releases read | UTC days with no notices | days that failed after three tries |\n|---|---|---|---|")
     for y in sorted(api_years):
         fl = api_failed.get(y, [])
-        w(f"| {y} | {api_years[y]:,} | {len(fl) if fl else 'none'}{(' (' + ', '.join(fl[:8]) + ')') if fl else ''} |")
+        em = api_empty.get(y, [])
+        wk = Counter(datetime.strptime(d, "%Y-%m-%d").strftime("%a") for d in em)
+        w(f"| {y} | {api_years[y]:,} | {len(em)} ({', '.join(f'{k} {v}' for k, v in wk.most_common(3))}) | "
+          f"{len(fl) if fl else 'none'}{(' (' + ', '.join(fl[:8]) + ')') if fl else ''} |")
+    empty_days = {d for v in api_empty.values() for d in v}
+    on_empty = sum(1 for k, r in merged.items() if k[1] == 0 and r["src"] != "api" and r["publish_date"] in empty_days)
+    w("\nThe API answers HTTP 400 for a window with no notices. Those days are almost all UTC Saturdays (Saturday "
+      "morning to Sunday morning in Canberra) and public holidays, so they are counted as empty rather than failed. "
+      f"As a check, the data.gov.au files hold {on_empty:,} contracts with a Canberra publish date on any of those "
+      f"{len(empty_days):,} dates.")
     w("\nRows read: " + ", ".join(f"{k} {v:,}" for k, v in sorted(src_counts.items())) + ".\n")
     w("## Row counts by year of publish date\n")
     w("| year | contracts | amendments | file size |\n|---|---|---|---|")
@@ -313,6 +324,13 @@ def main(indir, repo):
       + ", ".join(f"{k} {v:,}" for k, v in sorted(und_by.items())) + ". Most will have been published between "
       "July 2020 and April 2023. After April 2023 an API amendment date can still be the date of a later "
       "correction rather than first publication.")
+    am_files = [counts[y][1] for y in range(2010, 2020) if y in counts]
+    am_api = {y: counts[y][1] for y in range(2023, 2100) if y in counts}
+    if am_files and am_api:
+        w(f"- Amendment counts. The files give about {sum(am_files) // len(am_files):,} dated amendments a year for "
+          "2010 to 2019. The API-dated years carry " + ", ".join(f"{y}: {n:,}" for y, n in am_api.items()) +
+          ". The API also lists amendments that change only dates or wording, and some API dates will be the date "
+          "of a later edit, so amendment dates from 2023 on are less reliable than contract dates.")
     w("- Amendments made after June 2020 to contracts published before 2013 are missing: the API only serves "
       "contracts published from 2013 and returns amendments with their contract.")
     w(f"- Notices only in the API: {api_only:,} (mostly those published after the files end). Notices from 2013 on "
@@ -328,6 +346,9 @@ def main(indir, repo):
           + ", ".join(f"{k} {100 * v / tot:.0f}%" for k, v in sorted(hours.items()))
           + ". A notice put up during the day is public while the ASX is open, so the publish day itself is "
           "partly after the event.")
+    w("- Agency names. The files carry the agency's name at the time of the notice; notices found only in the API "
+      "carry the agency's current name after later machinery-of-government changes (for example Department of Home "
+      "Affairs on a 2014 notice).")
     w("- Values are as agencies reported them. Panel and standing-offer notices can carry a ceiling rather than "
       "expected spend, and a few notices carry keying errors (for example values in the billions for small "
       "purchases).")
