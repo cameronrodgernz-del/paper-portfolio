@@ -1,55 +1,50 @@
 run 2026-11-01
-US:MLNK +1067
-US:MM +353
-US:MN +21
-US:MNR +757
-US:MOBL +1631
+US:MPSX +409
+US:MRSN +2143
+US:MTGE +1077
+US:MTSC +1725
+US:MULE +285
+US:MYCC +833
+US:N +0
+US:NATL +767
+US:NCFT +245
+US:NCIT +810
+US:NEWR +2241
+US:NGHC +1661
+US:NPSP +183
+US:NPTN +2059
+US:NSPH +527
+US:NTLS +489
+US:NTUS +2059
+US:NUAN +1955
+US:NVRO +2616
+US:NVSL +11
+US:NWLI +2725
+US:NXGN +2379
+US:NYNY +124
+US:NYRT +1119
+US:OCAT +366
+US:ODP +3083
+US:OLO +1129
+US:OMIC +939
+US:OMN +1470
+US:ORTX +1315
+US:OSIR +1229
+US:PAND +179
+US:PAYA +590
+US:PBY +753
+US:PDCO +2738
+US:PETM +196
+US:PETQ +1829
+US:PFIN +2407
+US:PFSW +2365
+US:PGI +385
+US:PGND +367
+US:PHX +2782
+US:PNRA +790
+US:PNT +1
 PROBLEMS:
-MPSX: HTTPError: HTTP Error 429: Too Many Requests
-MRSN: HTTPError: HTTP Error 429: Too Many Requests
-MTGE: HTTPError: HTTP Error 429: Too Many Requests
-MTSC: HTTPError: HTTP Error 429: Too Many Requests
-MULE: HTTPError: HTTP Error 429: Too Many Requests
-MYCC: HTTPError: HTTP Error 429: Too Many Requests
-N: HTTPError: HTTP Error 429: Too Many Requests
-NATL: HTTPError: HTTP Error 429: Too Many Requests
-NCFT: HTTPError: HTTP Error 429: Too Many Requests
-NCIT: HTTPError: HTTP Error 429: Too Many Requests
-NEWR: HTTPError: HTTP Error 429: Too Many Requests
-NGHC: HTTPError: HTTP Error 429: Too Many Requests
-NONE: HTTPError: HTTP Error 429: Too Many Requests
-NPSP: HTTPError: HTTP Error 429: Too Many Requests
-NPTN: HTTPError: HTTP Error 429: Too Many Requests
-NSPH: HTTPError: HTTP Error 429: Too Many Requests
-NTLS: HTTPError: HTTP Error 429: Too Many Requests
-NTUS: HTTPError: HTTP Error 429: Too Many Requests
-NUAN: HTTPError: HTTP Error 429: Too Many Requests
-NVRO: HTTPError: HTTP Error 429: Too Many Requests
-NVSL: HTTPError: HTTP Error 429: Too Many Requests
-NWLI: HTTPError: HTTP Error 429: Too Many Requests
-NXGN: HTTPError: HTTP Error 429: Too Many Requests
-NYNY: HTTPError: HTTP Error 429: Too Many Requests
-NYRT: HTTPError: HTTP Error 429: Too Many Requests
-OCAT: HTTPError: HTTP Error 429: Too Many Requests
-ODP: HTTPError: HTTP Error 429: Too Many Requests
-OLO: HTTPError: HTTP Error 429: Too Many Requests
-OMIC: HTTPError: HTTP Error 429: Too Many Requests
-OMN: HTTPError: HTTP Error 429: Too Many Requests
-ORTX: HTTPError: HTTP Error 429: Too Many Requests
-OSIR: HTTPError: HTTP Error 429: Too Many Requests
-PAND: HTTPError: HTTP Error 429: Too Many Requests
-PAYA: HTTPError: HTTP Error 429: Too Many Requests
-PBY: HTTPError: HTTP Error 429: Too Many Requests
-PDCO: HTTPError: HTTP Error 429: Too Many Requests
-PETM: HTTPError: HTTP Error 429: Too Many Requests
-PETQ: HTTPError: HTTP Error 429: Too Many Requests
-PFIN: HTTPError: HTTP Error 429: Too Many Requests
-PFSW: HTTPError: HTTP Error 429: Too Many Requests
-PGI: Tiingo hourly budget used
-PGND: Tiingo hourly budget used
-PHX: Tiingo hourly budget used
-PNRA: Tiingo hourly budget used
-PNT: Tiingo hourly budget used
+NONE: HTTPError: HTTP Error 404: Not Found
 PRFT: Tiingo hourly budget used
 PRGX: Tiingo hourly budget used
 PRLS: Tiingo hourly budget used
