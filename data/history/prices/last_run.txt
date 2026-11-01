@@ -1,95 +1,50 @@
 run 2026-11-01
-US:EIGI +1687
-US:ELME +0
-US:ELRC +154
-US:EMBK +626
-US:ENFC +1322
-US:ENTL +92
-US:ENVI +355
-US:ESIO +1177
-US:ETNB +1501
-US:EVOK +2906
-US:EXAR +785
-US:EXXI +779
-US:FARO +2801
-US:FCS +181
-US:FCTY +105
-US:FIT +1405
-US:FMI +1058
-US:FNA +1062
-US:FOR +3124
-US:FORG +488
-US:FPO +855
-US:FRG +3
-US:FSCT +705
-US:FSTX +1722
-US:FTSI +1029
-US:FYBR +1184
-US:GAN +183
-US:GBT +1802
-US:GI +373
-US:GLUU +1741
-US:GNMK +1736
-US:GNW +3124
-US:GPIC +1238
-US:GPX +1858
-US:GTHX +1847
-US:GTYH +1426
-US:GUID +830
-US:GV +1728
-US:GVP +2625
-US:HA +2593
-US:HABT +1340
-US:HARP +1280
-US:HAYN +2639
-US:HCCI +2362
-US:HDNG +1006
+US:HGR +439
+US:HLSS +229
+US:HRT +669
+US:HT +2391
+US:HZN +1915
+US:IL +264
+US:IMMU +1613
+US:IMXI +2414
+US:IOTS +1176
+US:IRC +468
+US:ISEE +2293
+US:ITCI +2727
+US:ITI +2625
+US:JCAP +340
+US:JMBA +1081
+US:JOY +724
+US:KATE +785
+US:KLDX +702
+US:KLXI +970
+US:KNBE +449
+US:KRA +1965
+US:KTWO +173
+US:LABC +332
+US:LABP +831
+US:LDL +1850
+US:LM +1554
+US:LMIA +776
+US:LMNX +262
+US:LOXO +1144
+US:LQ +125
+US:LTRPA +2903
+US:MAXR +2250
+US:MDAS +419
+US:MDC +2489
+US:MDLA +577
+US:MDP +0
+US:MDVN +175
+US:MENT +313
+US:MGI +2267
+US:MGRM +599
+US:MHGC +631
+US:MIK +1712
+US:MJCO +1318
+US:MKFG +1142
 PROBLEMS:
-HGR: Tiingo hourly budget used
-HIIQ: Tiingo hourly budget used
-HLSS: Tiingo hourly budget used
-HRT: Tiingo hourly budget used
-HT: Tiingo hourly budget used
-HZN: Tiingo hourly budget used
-IL: Tiingo hourly budget used
-IMMU: Tiingo hourly budget used
-IMXI: Tiingo hourly budget used
-IOTS: Tiingo hourly budget used
-IRC: Tiingo hourly budget used
-ISEE: Tiingo hourly budget used
-ITCI: Tiingo hourly budget used
-ITI: Tiingo hourly budget used
-JCAP: Tiingo hourly budget used
-JMBA: Tiingo hourly budget used
-JOY: Tiingo hourly budget used
-KATE: Tiingo hourly budget used
-KLDX: Tiingo hourly budget used
-KLXI: Tiingo hourly budget used
-KNBE: Tiingo hourly budget used
-KRA: Tiingo hourly budget used
-KTWO: Tiingo hourly budget used
-LABC: Tiingo hourly budget used
-LABP: Tiingo hourly budget used
-LDL: Tiingo hourly budget used
-LM: Tiingo hourly budget used
-LMIA: Tiingo hourly budget used
-LMNX: Tiingo hourly budget used
-LOXO: Tiingo hourly budget used
-LQ: Tiingo hourly budget used
-LTRPA: Tiingo hourly budget used
-MAXR: Tiingo hourly budget used
-MDAS: Tiingo hourly budget used
-MDC: Tiingo hourly budget used
-MDLA: Tiingo hourly budget used
-MDP: Tiingo hourly budget used
-MDVN: Tiingo hourly budget used
-MENT: Tiingo hourly budget used
-MGI: Tiingo hourly budget used
-MGRM: Tiingo hourly budget used
-MHGC: Tiingo hourly budget used
-MIK: Tiingo hourly budget used
-MJCO: Tiingo hourly budget used
-MKFG: Tiingo hourly budget used
+HIIQ: HTTPError: HTTP Error 404: Not Found
 MLNK: Tiingo hourly budget used
 MM: Tiingo hourly budget used
 MN: Tiingo hourly budget used
