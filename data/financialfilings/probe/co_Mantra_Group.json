@@ -1,0 +1,34 @@
+{
+ "status": 200,
+ "body": {
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "id": 85278,
+    "name": "Mantra Group Limited",
+    "tagline": "",
+    "isins": [],
+    "lei": "",
+    "sub_industry_code": "5510",
+    "oics_code": null,
+    "country_code": "AU",
+    "date_public": "2026-06-26"
+   },
+   {
+    "id": 85277,
+    "name": "Mantra Group Ltd",
+    "tagline": "",
+    "isins": [
+     "AU0000129736"
+    ],
+    "lei": "",
+    "sub_industry_code": "5510",
+    "oics_code": null,
+    "country_code": "AU",
+    "date_public": "2026-06-26"
+   }
+  ]
+ }
+}

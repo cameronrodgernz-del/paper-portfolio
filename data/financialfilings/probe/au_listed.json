@@ -1,0 +1,75 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1906,
+  "next": "https://api.financialreports.eu/companies/?countries=AU&listing_status=LISTED&page=2&page_size=5",
+  "previous": null,
+  "results": [
+   {
+    "id": 64246,
+    "name": "1414 DEGREES LIMITED",
+    "tagline": "Develops silicon-based thermal energy storage for industrial heat and grid stability.",
+    "isins": [
+     "AU0000010696"
+    ],
+    "lei": "",
+    "sub_industry_code": "3530",
+    "oics_code": "IN.EQ.ELE.ESS",
+    "country_code": "AU",
+    "date_public": "2026-10-28"
+   },
+   {
+    "id": 64253,
+    "name": "29METALS LIMITED",
+    "tagline": "Explores and operates copper, zinc, and precious metals assets for energy transition.",
+    "isins": [
+     "AU0000157067"
+    ],
+    "lei": "",
+    "sub_industry_code": "0729",
+    "oics_code": "MA.MM.IMT.COP",
+    "country_code": "AU",
+    "date_public": "2026-10-28"
+   },
+   {
+    "id": 65888,
+    "name": "333D LIMITED",
+    "tagline": "Provides additive manufacturing, 3D printing, scanning, and digital design solutions.",
+    "isins": [
+     "AU000000T3D6"
+    ],
+    "lei": "",
+    "sub_industry_code": "2829",
+    "oics_code": "TC.SW.APP.BUS",
+    "country_code": "AU",
+    "date_public": "2026-10-28"
+   },
+   {
+    "id": 65900,
+    "name": "360 CAPITAL MORTGAGE REIT",
+    "tagline": "Invests in mortgage loans and debt instruments secured by real estate assets.",
+    "isins": [
+     "AU0000108771"
+    ],
+    "lei": "",
+    "sub_industry_code": "6495",
+    "oics_code": null,
+    "country_code": "AU",
+    "date_public": "2026-10-28"
+   },
+   {
+    "id": 89706,
+    "name": "360 Capital REIT",
+    "tagline": "",
+    "isins": [
+     "AU000000TOT4"
+    ],
+    "lei": "",
+    "sub_industry_code": "6810",
+    "oics_code": "RE.PO.COM.OFF",
+    "country_code": "AU",
+    "date_public": "2026-10-23"
+   }
+  ]
+ }
+}

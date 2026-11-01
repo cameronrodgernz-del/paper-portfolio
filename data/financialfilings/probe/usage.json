@@ -1,0 +1,16 @@
+{
+ "status": 200,
+ "body": {
+  "billing": "free_credits",
+  "past_due": false,
+  "payg": null,
+  "free_credits": {
+   "limit": 500,
+   "used": 20,
+   "remaining": 480,
+   "pct": 4,
+   "shared": false
+  },
+  "requests": null
+ }
+}

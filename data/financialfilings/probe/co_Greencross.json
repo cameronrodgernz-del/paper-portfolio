@@ -1,0 +1,23 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "id": 85007,
+    "name": "Greencross Limited",
+    "tagline": "",
+    "isins": [
+     "AU000000GXL9"
+    ],
+    "lei": "",
+    "sub_industry_code": "8699",
+    "oics_code": "CL.RT.STR.SPS",
+    "country_code": "AU",
+    "date_public": "2026-10-27"
+   }
+  ]
+ }
+}

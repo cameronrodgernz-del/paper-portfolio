@@ -1,0 +1,390 @@
+{
+ "status": 200,
+ "body": {
+  "count": 349,
+  "next": "https://api.financialreports.eu/filings/?company=85039&ordering=release_datetime&page=2&page_size=10",
+  "previous": null,
+  "results": [
+   {
+    "id": 56367926,
+    "title": "Healthscope Limited - Prospectus",
+    "release_datetime": "2014-07-25T05:28:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-25_b2707bf0-9c08-48e7-a2ea-57a712aa1a59.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-25_b2707bf0-9c08-48e7-a2ea-57a712aa1a59.pdf",
+    "viewer_url": "https://financialfilings.com/filings/healthscope-ltd/capitalfinancing-update/2014/56367926/",
+    "company": {
+     "id": 85039,
+     "name": "Healthscope Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000HSO1"
+     ],
+     "lei": "",
+     "sub_industry_code": "8610",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 48,
+     "code": "CAP",
+     "name": "Capital/Financing Update",
+     "description": "Updates on company fundraising, financing activities, or capital structure changes.",
+     "category": {
+      "id": 8,
+      "name": "Debt Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 4028238,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56367922,
+    "title": "ASX Notice - Admission and Quotation",
+    "release_datetime": "2014-07-25T05:29:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-25_2b4faa00-b738-4963-8d4d-60743e1bc051.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-25_2b4faa00-b738-4963-8d4d-60743e1bc051.pdf",
+    "viewer_url": "https://financialfilings.com/filings/healthscope-ltd/share-issuecapital-change/2014/56367922/",
+    "company": {
+     "id": 85039,
+     "name": "Healthscope Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000HSO1"
+     ],
+     "lei": "",
+     "sub_industry_code": "8610",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 51,
+     "code": "SHA",
+     "name": "Share Issue/Capital Change",
+     "description": "Announcement regarding new share issues, stock splits, or other capital changes.",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 135186,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56367919,
+    "title": "Admission to Official List",
+    "release_datetime": "2014-07-27T23:11:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_108a83da-393b-453e-8fb0-6c7a7d7f18e5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_108a83da-393b-453e-8fb0-6c7a7d7f18e5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/healthscope-ltd/regulatory-filings/2014/56367919/",
+    "company": {
+     "id": 85039,
+     "name": "Healthscope Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000HSO1"
+     ],
+     "lei": "",
+     "sub_industry_code": "8610",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 18,
+     "code": "RNS",
+     "name": "Regulatory Filings",
+     "description": "General regulatory announcements, compliance documents, officer certifications, and fallback category for miscellaneous filings that do not neatly fit into other specific categories. Also covers corrections, amendments, or revisions to previously published filings.",
+     "category": {
+      "id": 11,
+      "name": "Other",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 24797,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56367912,
+    "title": "ASX Market Release - Pre-quotation disclosure",
+    "release_datetime": "2014-07-27T23:16:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_3941be0c-951b-47cd-86e1-28327032aa89.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_3941be0c-951b-47cd-86e1-28327032aa89.pdf",
+    "viewer_url": "https://financialfilings.com/filings/healthscope-ltd/regulatory-filings/2014/56367912/",
+    "company": {
+     "id": 85039,
+     "name": "Healthscope Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000HSO1"
+     ],
+     "lei": "",
+     "sub_industry_code": "8610",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 18,
+     "code": "RNS",
+     "name": "Regulatory Filings",
+     "description": "General regulatory announcements, compliance documents, officer certifications, and fallback category for miscellaneous filings that do not neatly fit into other specific categories. Also covers corrections, amendments, or revisions to previously published filings.",
+     "category": {
+      "id": 11,
+      "name": "Other",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 26915,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56367906,
+    "title": "Appendix 1A and Information Form and Checklist",
+    "release_datetime": "2014-07-27T23:19:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_9755aece-a421-468f-9129-e968c5b0666d.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_9755aece-a421-468f-9129-e968c5b0666d.pdf",
+    "viewer_url": "https://financialfilings.com/filings/healthscope-ltd/regulatory-filings/2014/56367906/",
+    "company": {
+     "id": 85039,
+     "name": "Healthscope Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000HSO1"
+     ],
+     "lei": "",
+     "sub_industry_code": "8610",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 18,
+     "code": "RNS",
+     "name": "Regulatory Filings",
+     "description": "General regulatory announcements, compliance documents, officer certifications, and fallback category for miscellaneous filings that do not neatly fit into other specific categories. Also covers corrections, amendments, or revisions to previously published filings.",
+     "category": {
+      "id": 11,
+      "name": "Other",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 349744,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56367901,
+    "title": "Constitution",
+    "release_datetime": "2014-07-27T23:23:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_ab91ef38-6e7a-49d6-a0c9-d9445aff816f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_ab91ef38-6e7a-49d6-a0c9-d9445aff816f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/healthscope-ltd/governance-information/2014/56367901/",
+    "company": {
+     "id": 85039,
+     "name": "Healthscope Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000HSO1"
+     ],
+     "lei": "",
+     "sub_industry_code": "8610",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 11,
+     "code": "CGR",
+     "name": "Governance Information",
+     "description": "Report detailing the company's internal rules, board structure, and governance practices.",
+     "category": {
+      "id": 9,
+      "name": "ESG Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 410361,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56367897,
+    "title": "Pre-quotation disclosure",
+    "release_datetime": "2014-07-27T23:28:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_f780b324-5321-4b26-9da7-2465abade444.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_f780b324-5321-4b26-9da7-2465abade444.pdf",
+    "viewer_url": "https://financialfilings.com/filings/healthscope-ltd/capitalfinancing-update/2014/56367897/",
+    "company": {
+     "id": 85039,
+     "name": "Healthscope Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000HSO1"
+     ],
+     "lei": "",
+     "sub_industry_code": "8610",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 48,
+     "code": "CAP",
+     "name": "Capital/Financing Update",
+     "description": "Updates on company fundraising, financing activities, or capital structure changes.",
+     "category": {
+      "id": 8,
+      "name": "Debt Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 155046,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56367896,
+    "title": "Healthscope Group Aggregated Annual Report 30 June 2011",
+    "release_datetime": "2014-07-27T23:33:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_277568b9-8c41-4240-9fc1-b898b5f9e5fa.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_277568b9-8c41-4240-9fc1-b898b5f9e5fa.pdf",
+    "viewer_url": "https://financialfilings.com/filings/healthscope-ltd/annual-report/2014/56367896/",
+    "company": {
+     "id": 85039,
+     "name": "Healthscope Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000HSO1"
+     ],
+     "lei": "",
+     "sub_industry_code": "8610",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 534351,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56367894,
+    "title": "Healthscope Group Aggregated Annual Report 30 June 2012",
+    "release_datetime": "2014-07-27T23:37:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_3160fc94-a621-4511-8b3f-d79183140cfc.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_3160fc94-a621-4511-8b3f-d79183140cfc.pdf",
+    "viewer_url": "https://financialfilings.com/filings/healthscope-ltd/annual-report/2014/56367894/",
+    "company": {
+     "id": 85039,
+     "name": "Healthscope Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000HSO1"
+     ],
+     "lei": "",
+     "sub_industry_code": "8610",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 717890,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56367888,
+    "title": "Healthscope Group Aggregated Annual Report 30 June 2013",
+    "release_datetime": "2014-07-27T23:41:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_07e2bc1d-4c3d-4f31-9790-b42b54bae7e8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85039/2014/RNS/85039_rns_2014-07-27_07e2bc1d-4c3d-4f31-9790-b42b54bae7e8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/healthscope-ltd/annual-report/2014/56367888/",
+    "company": {
+     "id": 85039,
+     "name": "Healthscope Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000HSO1"
+     ],
+     "lei": "",
+     "sub_industry_code": "8610",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1069994,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

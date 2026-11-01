@@ -1,0 +1,36 @@
+{
+ "status": 200,
+ "body": {
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "id": 67366,
+    "name": "SYDNEY AIRPORT FINANCE COMPANY PTY LIMITED",
+    "tagline": "A wholly-owned financing subsidiary and dedicated financing vehicle for Sydney Airport's operations.",
+    "isins": [
+     "XS1057783174"
+    ],
+    "lei": "549300MJAANHLHOVTO40",
+    "sub_industry_code": "6422",
+    "oics_code": null,
+    "country_code": "AU",
+    "date_public": "2026-10-03"
+   },
+   {
+    "id": 85636,
+    "name": "Sydney Airport Limited",
+    "tagline": "",
+    "isins": [
+     "AU000000SYD9"
+    ],
+    "lei": "",
+    "sub_industry_code": "5110",
+    "oics_code": "IN.TP.TIS.TIS",
+    "country_code": "AU",
+    "date_public": "2026-10-23"
+   }
+  ]
+ }
+}

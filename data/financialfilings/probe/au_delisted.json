@@ -1,0 +1,75 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1094,
+  "next": "https://api.financialreports.eu/companies/?countries=AU&listing_status=DELISTED&page=2&page_size=5",
+  "previous": null,
+  "results": [
+   {
+    "id": 85352,
+    "name": "1300SMILES Limited",
+    "tagline": "",
+    "isins": [
+     "AU000000ONT7"
+    ],
+    "lei": "",
+    "sub_industry_code": "8620",
+    "oics_code": null,
+    "country_code": "AU",
+    "date_public": "2026-06-26"
+   },
+   {
+    "id": 84451,
+    "name": "1st Group",
+    "tagline": "",
+    "isins": [
+     "AU0000001ST0"
+    ],
+    "lei": "",
+    "sub_industry_code": "7010",
+    "oics_code": "HC.CR.HSV.TEC",
+    "country_code": "AU",
+    "date_public": "2026-10-23"
+   },
+   {
+    "id": 85652,
+    "name": "360 Capital Digital Infrastructure Fund",
+    "tagline": "",
+    "isins": [
+     "AU0000060592"
+    ],
+    "lei": "",
+    "sub_industry_code": "6432",
+    "oics_code": null,
+    "country_code": "AU",
+    "date_public": "2026-06-26"
+   },
+   {
+    "id": 85660,
+    "name": "360 Capital Group",
+    "tagline": "",
+    "isins": [
+     "AU000000TGP8"
+    ],
+    "lei": "",
+    "sub_industry_code": "6432",
+    "oics_code": "FI.MK.AMG.AMG",
+    "country_code": "AU",
+    "date_public": "2026-10-23"
+   },
+   {
+    "id": 84454,
+    "name": "3D Metalforge Ltd",
+    "tagline": "",
+    "isins": [
+     "AU0000130122"
+    ],
+    "lei": "",
+    "sub_industry_code": "2591",
+    "oics_code": "IN.BS.OPS.SUP",
+    "country_code": "AU",
+    "date_public": "2026-10-23"
+   }
+  ]
+ }
+}

@@ -1,0 +1,390 @@
+{
+ "status": 200,
+ "body": {
+  "count": 13,
+  "next": "https://api.financialreports.eu/filings/?company=67366&ordering=release_datetime&page=2&page_size=10",
+  "previous": null,
+  "results": [
+   {
+    "id": 67167398,
+    "title": "Debt - Listing Confirmation::EUR 700,000,000 2.75% Secured Guaranteed Notes Due 2024",
+    "release_datetime": "2014-04-23T08:15:02+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2014/RNS/67366_rns_2014-04-23_ff18b0da-499f-45be-acda-dd79374c749c.html",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2014/RNS/67366_rns_2014-04-23_ff18b0da-499f-45be-acda-dd79374c749c.html",
+    "viewer_url": "https://financialfilings.com/filings/sydney-airport-finance-company-pty-limited/capitalfinancing-update/2014/67167398/",
+    "company": {
+     "id": 67366,
+     "name": "SYDNEY AIRPORT FINANCE COMPANY PTY LIMITED",
+     "tagline": "A wholly-owned financing subsidiary and dedicated financing vehicle for Sydney Airport's operations.",
+     "isins": [
+      "XS1057783174"
+     ],
+     "lei": "549300MJAANHLHOVTO40",
+     "sub_industry_code": "6422",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 48,
+     "code": "CAP",
+     "name": "Capital/Financing Update",
+     "description": "Updates on company fundraising, financing activities, or capital structure changes.",
+     "category": {
+      "id": 8,
+      "name": "Debt Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "HTML",
+    "file_size": 3185,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 49742175,
+    "title": "Financial Statements and Related Announcement::Full Yearly Results",
+    "release_datetime": "2015-02-27T01:00:02+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2015/RNS/67366_rns_2015-02-27_336c0078-0955-47da-85e8-2b30156fffef.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2015/RNS/67366_rns_2015-02-27_336c0078-0955-47da-85e8-2b30156fffef.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sydney-airport-finance-company-pty-limited/annual-report/2015/49742175/",
+    "company": {
+     "id": 67366,
+     "name": "SYDNEY AIRPORT FINANCE COMPANY PTY LIMITED",
+     "tagline": "A wholly-owned financing subsidiary and dedicated financing vehicle for Sydney Airport's operations.",
+     "isins": [
+      "XS1057783174"
+     ],
+     "lei": "549300MJAANHLHOVTO40",
+     "sub_industry_code": "6422",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1080679,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 49536559,
+    "title": "Annual Reports and Related Documents::",
+    "release_datetime": "2016-03-29T08:29:32+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2016/RNS/67366_rns_2016-03-29_3841811d-a324-4a68-a8a8-bed056730790.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2016/RNS/67366_rns_2016-03-29_3841811d-a324-4a68-a8a8-bed056730790.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sydney-airport-finance-company-pty-limited/annual-report/2016/49536559/",
+    "company": {
+     "id": 67366,
+     "name": "SYDNEY AIRPORT FINANCE COMPANY PTY LIMITED",
+     "tagline": "A wholly-owned financing subsidiary and dedicated financing vehicle for Sydney Airport's operations.",
+     "isins": [
+      "XS1057783174"
+     ],
+     "lei": "549300MJAANHLHOVTO40",
+     "sub_industry_code": "6422",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 776894,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 49536558,
+    "title": "Annual Reports and Related Documents::",
+    "release_datetime": "2016-03-29T08:33:13+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2016/RNS/67366_rns_2016-03-29_b34d91fb-5707-4816-9ea3-981425df954e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2016/RNS/67366_rns_2016-03-29_b34d91fb-5707-4816-9ea3-981425df954e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sydney-airport-finance-company-pty-limited/annual-report/2016/49536558/",
+    "company": {
+     "id": 67366,
+     "name": "SYDNEY AIRPORT FINANCE COMPANY PTY LIMITED",
+     "tagline": "A wholly-owned financing subsidiary and dedicated financing vehicle for Sydney Airport's operations.",
+     "isins": [
+      "XS1057783174"
+     ],
+     "lei": "549300MJAANHLHOVTO40",
+     "sub_industry_code": "6422",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1711839,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 49708405,
+    "title": "Financial Statements and Related Announcement::Full Yearly Results",
+    "release_datetime": "2017-02-20T04:16:19+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2017/RNS/67366_rns_2017-02-20_ba90c8f2-1e2c-4a87-a541-846445d4a658.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2017/RNS/67366_rns_2017-02-20_ba90c8f2-1e2c-4a87-a541-846445d4a658.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sydney-airport-finance-company-pty-limited/annual-report/2017/49708405/",
+    "company": {
+     "id": 67366,
+     "name": "SYDNEY AIRPORT FINANCE COMPANY PTY LIMITED",
+     "tagline": "A wholly-owned financing subsidiary and dedicated financing vehicle for Sydney Airport's operations.",
+     "isins": [
+      "XS1057783174"
+     ],
+     "lei": "549300MJAANHLHOVTO40",
+     "sub_industry_code": "6422",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1112874,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 49702031,
+    "title": "Change - Announcement of Cessation::Sydney Airport announces Kerrie Mather to retire",
+    "release_datetime": "2017-03-29T06:16:36+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2017/RNS/67366_rns_2017-03-29_6cdf4e23-6f01-487e-a4a4-43aa5536af56.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2017/RNS/67366_rns_2017-03-29_6cdf4e23-6f01-487e-a4a4-43aa5536af56.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sydney-airport-finance-company-pty-limited/boardmanagement-information/2017/49702031/",
+    "company": {
+     "id": 67366,
+     "name": "SYDNEY AIRPORT FINANCE COMPANY PTY LIMITED",
+     "tagline": "A wholly-owned financing subsidiary and dedicated financing vehicle for Sydney Airport's operations.",
+     "isins": [
+      "XS1057783174"
+     ],
+     "lei": "549300MJAANHLHOVTO40",
+     "sub_industry_code": "6422",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 47,
+     "code": "MANG",
+     "name": "Board/Management Information",
+     "description": "Announcement of changes in the company's board of directors or senior management.",
+     "category": {
+      "id": 6,
+      "name": "Management & Remuneration",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 133043,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 48947809,
+    "title": "Financial Statements and Related Announcement::Full Yearly Results",
+    "release_datetime": "2018-03-06T23:22:21+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2018/RNS/67366_rns_2018-03-06_7ec8de3a-0080-4cc1-824c-fe81da2b357f.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2018/RNS/67366_rns_2018-03-06_7ec8de3a-0080-4cc1-824c-fe81da2b357f.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sydney-airport-finance-company-pty-limited/annual-report/2018/48947809/",
+    "company": {
+     "id": 67366,
+     "name": "SYDNEY AIRPORT FINANCE COMPANY PTY LIMITED",
+     "tagline": "A wholly-owned financing subsidiary and dedicated financing vehicle for Sydney Airport's operations.",
+     "isins": [
+      "XS1057783174"
+     ],
+     "lei": "549300MJAANHLHOVTO40",
+     "sub_industry_code": "6422",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 597941,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 67646027,
+    "title": "Financial Statements and Related Announcement::Full Yearly Results",
+    "release_datetime": "2019-05-09T05:26:10+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2019/RNS/67366_rns_2019-05-09_cff93dc9-f1a0-4290-ad8f-f9885073c8a0.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2019/RNS/67366_rns_2019-05-09_cff93dc9-f1a0-4290-ad8f-f9885073c8a0.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sydney-airport-finance-company-pty-limited/annual-report/2019/67646027/",
+    "company": {
+     "id": 67366,
+     "name": "SYDNEY AIRPORT FINANCE COMPANY PTY LIMITED",
+     "tagline": "A wholly-owned financing subsidiary and dedicated financing vehicle for Sydney Airport's operations.",
+     "isins": [
+      "XS1057783174"
+     ],
+     "lei": "549300MJAANHLHOVTO40",
+     "sub_industry_code": "6422",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 396911,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 67794029,
+    "title": "Financial Statements and Related Announcement::Full Yearly Results",
+    "release_datetime": "2022-01-31T05:05:51+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2022/RNS/67366_rns_2022-01-31_3b5878f0-bfa3-43f5-89ef-7d415db93ad0.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2022/RNS/67366_rns_2022-01-31_3b5878f0-bfa3-43f5-89ef-7d415db93ad0.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sydney-airport-finance-company-pty-limited/annual-report/2022/67794029/",
+    "company": {
+     "id": 67366,
+     "name": "SYDNEY AIRPORT FINANCE COMPANY PTY LIMITED",
+     "tagline": "A wholly-owned financing subsidiary and dedicated financing vehicle for Sydney Airport's operations.",
+     "isins": [
+      "XS1057783174"
+     ],
+     "lei": "549300MJAANHLHOVTO40",
+     "sub_industry_code": "6422",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1484191,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 48919847,
+    "title": "Financial Statements and Related Announcement::Full Yearly Results",
+    "release_datetime": "2022-01-31T05:09:36+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2022/RNS/67366_rns_2022-01-31_f953be92-e184-45d7-8446-e594a5cbecb8.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/67366/2022/RNS/67366_rns_2022-01-31_f953be92-e184-45d7-8446-e594a5cbecb8.pdf",
+    "viewer_url": "https://financialfilings.com/filings/sydney-airport-finance-company-pty-limited/annual-report/2022/48919847/",
+    "company": {
+     "id": 67366,
+     "name": "SYDNEY AIRPORT FINANCE COMPANY PTY LIMITED",
+     "tagline": "A wholly-owned financing subsidiary and dedicated financing vehicle for Sydney Airport's operations.",
+     "isins": [
+      "XS1057783174"
+     ],
+     "lei": "549300MJAANHLHOVTO40",
+     "sub_industry_code": "6422",
+     "oics_code": null,
+     "country_code": "AU",
+     "date_public": "2026-10-03"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1588126,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,390 @@
+{
+ "status": 200,
+ "body": {
+  "count": 805,
+  "next": "https://api.financialreports.eu/filings/?company=85752&ordering=release_datetime&page=2&page_size=10",
+  "previous": null,
+  "results": [
+   {
+    "id": 56538163,
+    "title": "Chairman's Address to Shareholders",
+    "release_datetime": "2002-11-20T04:09:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2002/RNS/85752_rns_2002-11-20_c5e5ff72-e51d-4e45-8b6d-fc241eb6ef67.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2002/RNS/85752_rns_2002-11-20_c5e5ff72-e51d-4e45-8b6d-fc241eb6ef67.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vocus-group-limited/agm-information/2002/56538163/",
+    "company": {
+     "id": 85752,
+     "name": "Vocus Group Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000VOC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 13,
+     "code": "AGM-R",
+     "name": "AGM Information",
+     "description": "Presentations and materials shared during the Annual General Meeting (AGM).",
+     "category": {
+      "id": 1,
+      "name": "Annual General Meeting",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 138071,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56538160,
+    "title": "Non-Renounceable Rights Issue",
+    "release_datetime": "2002-12-10T21:51:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2002/RNS/85752_rns_2002-12-10_4b43c88e-2821-49b4-aa61-2cf096e89bec.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2002/RNS/85752_rns_2002-12-10_4b43c88e-2821-49b4-aa61-2cf096e89bec.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vocus-group-limited/share-issuecapital-change/2002/56538160/",
+    "company": {
+     "id": 85752,
+     "name": "Vocus Group Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000VOC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 51,
+     "code": "SHA",
+     "name": "Share Issue/Capital Change",
+     "description": "Announcement regarding new share issues, stock splits, or other capital changes.",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 17540,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56538159,
+    "title": "Share Cancellation - Form 284",
+    "release_datetime": "2002-12-12T22:46:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2002/RNS/85752_rns_2002-12-12_edd18d12-2f1a-4f51-a9ee-217a858e6d82.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2002/RNS/85752_rns_2002-12-12_edd18d12-2f1a-4f51-a9ee-217a858e6d82.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vocus-group-limited/share-issuecapital-change/2002/56538159/",
+    "company": {
+     "id": 85752,
+     "name": "Vocus Group Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000VOC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 51,
+     "code": "SHA",
+     "name": "Share Issue/Capital Change",
+     "description": "Announcement regarding new share issues, stock splits, or other capital changes.",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 34573,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56538127,
+    "title": "Appendix 3B - Working capital / Prospectus",
+    "release_datetime": "2002-12-13T05:31:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2002/RNS/85752_rns_2002-12-13_9673499a-3e48-4194-abc4-a632d826674c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2002/RNS/85752_rns_2002-12-13_9673499a-3e48-4194-abc4-a632d826674c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vocus-group-limited/share-issuecapital-change/2002/56538127/",
+    "company": {
+     "id": 85752,
+     "name": "Vocus Group Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000VOC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 51,
+     "code": "SHA",
+     "name": "Share Issue/Capital Change",
+     "description": "Announcement regarding new share issues, stock splits, or other capital changes.",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 1533549,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56538323,
+    "title": "Results of Entitlement Issue",
+    "release_datetime": "2003-01-30T03:03:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2003/RNS/85752_rns_2003-01-30_0e92cae6-04fd-4c9b-8505-b8981404c8ec.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2003/RNS/85752_rns_2003-01-30_0e92cae6-04fd-4c9b-8505-b8981404c8ec.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vocus-group-limited/capitalfinancing-update/2003/56538323/",
+    "company": {
+     "id": 85752,
+     "name": "Vocus Group Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000VOC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 48,
+     "code": "CAP",
+     "name": "Capital/Financing Update",
+     "description": "Updates on company fundraising, financing activities, or capital structure changes.",
+     "category": {
+      "id": 8,
+      "name": "Debt Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 25658,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56538312,
+    "title": "Change of Director's Interest Notice",
+    "release_datetime": "2003-02-11T23:30:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2003/RNS/85752_rns_2003-02-11_4e8d9561-aba8-4d58-8076-072894a8ff7e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2003/RNS/85752_rns_2003-02-11_4e8d9561-aba8-4d58-8076-072894a8ff7e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vocus-group-limited/directors-dealing/2003/56538312/",
+    "company": {
+     "id": 85752,
+     "name": "Vocus Group Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000VOC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 20,
+     "code": "DIRS",
+     "name": "Director's Dealing",
+     "description": "Report of personal share transactions by company directors and executives (insider trades).",
+     "category": {
+      "id": 6,
+      "name": "Management & Remuneration",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 53723,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56538294,
+    "title": "Becoming a substantial holder",
+    "release_datetime": "2003-02-12T03:24:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2003/RNS/85752_rns_2003-02-12_45b02a8f-0de2-4510-8cac-33bae5e58627.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2003/RNS/85752_rns_2003-02-12_45b02a8f-0de2-4510-8cac-33bae5e58627.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vocus-group-limited/major-shareholding-notification/2003/56538294/",
+    "company": {
+     "id": 85752,
+     "name": "Vocus Group Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000VOC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 91050,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56538293,
+    "title": "On-Market Buy-Back",
+    "release_datetime": "2003-02-12T22:57:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2003/RNS/85752_rns_2003-02-12_232e97f8-6007-48e2-8da0-ee6260f9b618.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2003/RNS/85752_rns_2003-02-12_232e97f8-6007-48e2-8da0-ee6260f9b618.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vocus-group-limited/transaction-in-own-shares/2003/56538293/",
+    "company": {
+     "id": 85752,
+     "name": "Vocus Group Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000VOC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 52,
+     "code": "POS",
+     "name": "Transaction in Own Shares",
+     "description": "Report of the company buying back or selling its own shares (share repurchase/issuance).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 45143,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56538291,
+    "title": "Half Yearly Report",
+    "release_datetime": "2003-03-12T07:35:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2003/RNS/85752_rns_2003-03-12_e3004e87-ba74-459d-894e-a070b128266a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2003/RNS/85752_rns_2003-03-12_e3004e87-ba74-459d-894e-a070b128266a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vocus-group-limited/interim-quarterly-report/2003/56538291/",
+    "company": {
+     "id": 85752,
+     "name": "Vocus Group Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000VOC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 19,
+     "code": "IR",
+     "name": "Interim / Quarterly Report",
+     "description": "Comprehensive financial report for a period shorter than a full fiscal year (e.g., half-year or quarter). Must contain actual financial statements or substantive financial data and analysis, not merely reference or certify such a report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 457088,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56538285,
+    "title": "Half Year Accounts",
+    "release_datetime": "2003-03-14T02:11:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2003/RNS/85752_rns_2003-03-14_f12f69aa-5149-42c9-8036-e4cc7a547774.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85752/2003/RNS/85752_rns_2003-03-14_f12f69aa-5149-42c9-8036-e4cc7a547774.pdf",
+    "viewer_url": "https://financialfilings.com/filings/vocus-group-limited/interim-quarterly-report/2003/56538285/",
+    "company": {
+     "id": 85752,
+     "name": "Vocus Group Limited",
+     "tagline": "",
+     "isins": [
+      "AU000000VOC6"
+     ],
+     "lei": "",
+     "sub_industry_code": "6110",
+     "oics_code": "CM.TL.TEL.FXB",
+     "country_code": "AU",
+     "date_public": "2026-10-23"
+    },
+    "filing_type": {
+     "id": 19,
+     "code": "IR",
+     "name": "Interim / Quarterly Report",
+     "description": "Comprehensive financial report for a period shorter than a full fiscal year (e.g., half-year or quarter). Must contain actual financial statements or substantive financial data and analysis, not merely reference or certify such a report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 274408,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

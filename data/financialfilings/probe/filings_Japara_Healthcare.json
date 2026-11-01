@@ -1,0 +1,390 @@
+{
+ "status": 200,
+ "body": {
+  "count": 422,
+  "next": "https://api.financialreports.eu/filings/?company=85106&ordering=release_datetime&page=2&page_size=10",
+  "previous": null,
+  "results": [
+   {
+    "id": 56382004,
+    "title": "Prospectus",
+    "release_datetime": "2014-04-16T04:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_a7edf179-bf98-48cf-b898-dc24414a7b43.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_a7edf179-bf98-48cf-b898-dc24414a7b43.pdf",
+    "viewer_url": "https://financialfilings.com/filings/japara-healthcare-ltd/capitalfinancing-update/2014/56382004/",
+    "company": {
+     "id": 85106,
+     "name": "Japara Healthcare Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000JHC5"
+     ],
+     "lei": "",
+     "sub_industry_code": "8710",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 48,
+     "code": "CAP",
+     "name": "Capital/Financing Update",
+     "description": "Updates on company fundraising, financing activities, or capital structure changes.",
+     "category": {
+      "id": 8,
+      "name": "Debt Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2606185,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56382002,
+    "title": "ASX Admission Notice",
+    "release_datetime": "2014-04-16T04:01:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_c063483d-4754-4559-8c20-0b3709f42f15.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_c063483d-4754-4559-8c20-0b3709f42f15.pdf",
+    "viewer_url": "https://financialfilings.com/filings/japara-healthcare-ltd/regulatory-filings/2014/56382002/",
+    "company": {
+     "id": 85106,
+     "name": "Japara Healthcare Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000JHC5"
+     ],
+     "lei": "",
+     "sub_industry_code": "8710",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 18,
+     "code": "RNS",
+     "name": "Regulatory Filings",
+     "description": "General regulatory announcements, compliance documents, officer certifications, and fallback category for miscellaneous filings that do not neatly fit into other specific categories. Also covers corrections, amendments, or revisions to previously published filings.",
+     "category": {
+      "id": 11,
+      "name": "Other",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 150750,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56381995,
+    "title": "ASX Market Release- Admission and Quotation",
+    "release_datetime": "2014-04-16T22:30:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_42751f55-1820-429e-b1a4-7042dcfdf9cb.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_42751f55-1820-429e-b1a4-7042dcfdf9cb.pdf",
+    "viewer_url": "https://financialfilings.com/filings/japara-healthcare-ltd/regulatory-filings/2014/56381995/",
+    "company": {
+     "id": 85106,
+     "name": "Japara Healthcare Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000JHC5"
+     ],
+     "lei": "",
+     "sub_industry_code": "8710",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 18,
+     "code": "RNS",
+     "name": "Regulatory Filings",
+     "description": "General regulatory announcements, compliance documents, officer certifications, and fallback category for miscellaneous filings that do not neatly fit into other specific categories. Also covers corrections, amendments, or revisions to previously published filings.",
+     "category": {
+      "id": 11,
+      "name": "Other",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 77550,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56381993,
+    "title": "Pre-quotation disclosure",
+    "release_datetime": "2014-04-16T22:33:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_a1cf6a31-e2f6-48fa-89ad-d4c9a8c03a72.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_a1cf6a31-e2f6-48fa-89ad-d4c9a8c03a72.pdf",
+    "viewer_url": "https://financialfilings.com/filings/japara-healthcare-ltd/regulatory-filings/2014/56381993/",
+    "company": {
+     "id": 85106,
+     "name": "Japara Healthcare Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000JHC5"
+     ],
+     "lei": "",
+     "sub_industry_code": "8710",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 18,
+     "code": "RNS",
+     "name": "Regulatory Filings",
+     "description": "General regulatory announcements, compliance documents, officer certifications, and fallback category for miscellaneous filings that do not neatly fit into other specific categories. Also covers corrections, amendments, or revisions to previously published filings.",
+     "category": {
+      "id": 11,
+      "name": "Other",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 948410,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56381991,
+    "title": "Appendix 1A - ASX Listing Application and Agreement",
+    "release_datetime": "2014-04-16T22:37:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_de98a430-6b08-4de4-8efc-13541706a4dc.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_de98a430-6b08-4de4-8efc-13541706a4dc.pdf",
+    "viewer_url": "https://financialfilings.com/filings/japara-healthcare-ltd/regulatory-filings/2014/56381991/",
+    "company": {
+     "id": 85106,
+     "name": "Japara Healthcare Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000JHC5"
+     ],
+     "lei": "",
+     "sub_industry_code": "8710",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 18,
+     "code": "RNS",
+     "name": "Regulatory Filings",
+     "description": "General regulatory announcements, compliance documents, officer certifications, and fallback category for miscellaneous filings that do not neatly fit into other specific categories. Also covers corrections, amendments, or revisions to previously published filings.",
+     "category": {
+      "id": 11,
+      "name": "Other",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 3245639,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56381988,
+    "title": "Information Form & Checklist",
+    "release_datetime": "2014-04-16T22:38:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_3c388b0a-83f4-4a53-a69c-a41b932713c2.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_3c388b0a-83f4-4a53-a69c-a41b932713c2.pdf",
+    "viewer_url": "https://financialfilings.com/filings/japara-healthcare-ltd/regulatory-filings/2014/56381988/",
+    "company": {
+     "id": 85106,
+     "name": "Japara Healthcare Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000JHC5"
+     ],
+     "lei": "",
+     "sub_industry_code": "8710",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 18,
+     "code": "RNS",
+     "name": "Regulatory Filings",
+     "description": "General regulatory announcements, compliance documents, officer certifications, and fallback category for miscellaneous filings that do not neatly fit into other specific categories. Also covers corrections, amendments, or revisions to previously published filings.",
+     "category": {
+      "id": 11,
+      "name": "Other",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 126679,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56381986,
+    "title": "Constitution",
+    "release_datetime": "2014-04-16T22:40:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_61c670bf-9360-4075-a18e-6b24315a3362.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_61c670bf-9360-4075-a18e-6b24315a3362.pdf",
+    "viewer_url": "https://financialfilings.com/filings/japara-healthcare-ltd/governance-information/2014/56381986/",
+    "company": {
+     "id": 85106,
+     "name": "Japara Healthcare Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000JHC5"
+     ],
+     "lei": "",
+     "sub_industry_code": "8710",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 11,
+     "code": "CGR",
+     "name": "Governance Information",
+     "description": "Report detailing the company's internal rules, board structure, and governance practices.",
+     "category": {
+      "id": 9,
+      "name": "ESG Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 538026,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56381980,
+    "title": "Securities Trading Policy",
+    "release_datetime": "2014-04-16T22:42:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_96760ee4-e13f-4aea-a284-1c1467e5c97c.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_96760ee4-e13f-4aea-a284-1c1467e5c97c.pdf",
+    "viewer_url": "https://financialfilings.com/filings/japara-healthcare-ltd/governance-information/2014/56381980/",
+    "company": {
+     "id": 85106,
+     "name": "Japara Healthcare Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000JHC5"
+     ],
+     "lei": "",
+     "sub_industry_code": "8710",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 11,
+     "code": "CGR",
+     "name": "Governance Information",
+     "description": "Report detailing the company's internal rules, board structure, and governance practices.",
+     "category": {
+      "id": 9,
+      "name": "ESG Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 275660,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56381974,
+    "title": "Japara Holdings FY 2011 Accounts",
+    "release_datetime": "2014-04-16T22:45:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_9ed76365-4b19-4393-9174-94f42a26be26.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_9ed76365-4b19-4393-9174-94f42a26be26.pdf",
+    "viewer_url": "https://financialfilings.com/filings/japara-healthcare-ltd/annual-report/2014/56381974/",
+    "company": {
+     "id": 85106,
+     "name": "Japara Healthcare Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000JHC5"
+     ],
+     "lei": "",
+     "sub_industry_code": "8710",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 3756483,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56381972,
+    "title": "Japara Holdings FY 2012 Accounts",
+    "release_datetime": "2014-04-16T22:47:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_9f27d47e-3636-4471-bd70-aa225e710548.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85106/2014/RNS/85106_rns_2014-04-16_9f27d47e-3636-4471-bd70-aa225e710548.pdf",
+    "viewer_url": "https://financialfilings.com/filings/japara-healthcare-ltd/annual-report/2014/56381972/",
+    "company": {
+     "id": 85106,
+     "name": "Japara Healthcare Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000JHC5"
+     ],
+     "lei": "",
+     "sub_industry_code": "8710",
+     "oics_code": "HC.CR.HSV.FAC",
+     "country_code": "AU",
+     "date_public": "2026-10-12"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2577800,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

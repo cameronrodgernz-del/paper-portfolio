@@ -1,0 +1,23 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "id": 85501,
+    "name": "Ruralco Holdings Limited",
+    "tagline": "",
+    "isins": [
+     "AU000000RHL9"
+    ],
+    "lei": "",
+    "sub_industry_code": "0150",
+    "oics_code": null,
+    "country_code": "AU",
+    "date_public": "2026-06-26"
+   }
+  ]
+ }
+}

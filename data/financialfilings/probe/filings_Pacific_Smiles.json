@@ -1,0 +1,390 @@
+{
+ "status": 200,
+ "body": {
+  "count": 586,
+  "next": "https://api.financialreports.eu/filings/?company=85441&ordering=release_datetime&page=2&page_size=10",
+  "previous": null,
+  "results": [
+   {
+    "id": 56463378,
+    "title": "Prospectus",
+    "release_datetime": "2014-11-20T00:58:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_160eed4d-5064-4c67-b0a5-183c2e7b387e.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_160eed4d-5064-4c67-b0a5-183c2e7b387e.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pacific-smiles-group-ltd/capitalfinancing-update/2014/56463378/",
+    "company": {
+     "id": 85441,
+     "name": "Pacific Smiles Group Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSQ9"
+     ],
+     "lei": "",
+     "sub_industry_code": "8620",
+     "oics_code": "HC.CR.HSV.CLS",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 48,
+     "code": "CAP",
+     "name": "Capital/Financing Update",
+     "description": "Updates on company fundraising, financing activities, or capital structure changes.",
+     "category": {
+      "id": 8,
+      "name": "Debt Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 2624155,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56463370,
+    "title": "ASX Notice - Admission and Quotation",
+    "release_datetime": "2014-11-20T01:00:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_8c5a1cbf-c40d-4d99-885c-e0d9296fbf49.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_8c5a1cbf-c40d-4d99-885c-e0d9296fbf49.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pacific-smiles-group-ltd/regulatory-filings/2014/56463370/",
+    "company": {
+     "id": 85441,
+     "name": "Pacific Smiles Group Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSQ9"
+     ],
+     "lei": "",
+     "sub_industry_code": "8620",
+     "oics_code": "HC.CR.HSV.CLS",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 18,
+     "code": "RNS",
+     "name": "Regulatory Filings",
+     "description": "General regulatory announcements, compliance documents, officer certifications, and fallback category for miscellaneous filings that do not neatly fit into other specific categories. Also covers corrections, amendments, or revisions to previously published filings.",
+     "category": {
+      "id": 11,
+      "name": "Other",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 30897,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56463334,
+    "title": "Admission to Official Quotation",
+    "release_datetime": "2014-11-20T23:10:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_91d042d2-d053-4ba3-839b-fbf140dc88ec.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_91d042d2-d053-4ba3-839b-fbf140dc88ec.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pacific-smiles-group-ltd/regulatory-filings/2014/56463334/",
+    "company": {
+     "id": 85441,
+     "name": "Pacific Smiles Group Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSQ9"
+     ],
+     "lei": "",
+     "sub_industry_code": "8620",
+     "oics_code": "HC.CR.HSV.CLS",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 18,
+     "code": "RNS",
+     "name": "Regulatory Filings",
+     "description": "General regulatory announcements, compliance documents, officer certifications, and fallback category for miscellaneous filings that do not neatly fit into other specific categories. Also covers corrections, amendments, or revisions to previously published filings.",
+     "category": {
+      "id": 11,
+      "name": "Other",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 22322,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56463339,
+    "title": "Pre-Quotation Disclosure",
+    "release_datetime": "2014-11-20T23:10:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_1f97e500-482a-47f1-8abd-93a2defb11c5.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_1f97e500-482a-47f1-8abd-93a2defb11c5.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pacific-smiles-group-ltd/regulatory-filings/2014/56463339/",
+    "company": {
+     "id": 85441,
+     "name": "Pacific Smiles Group Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSQ9"
+     ],
+     "lei": "",
+     "sub_industry_code": "8620",
+     "oics_code": "HC.CR.HSV.CLS",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 18,
+     "code": "RNS",
+     "name": "Regulatory Filings",
+     "description": "General regulatory announcements, compliance documents, officer certifications, and fallback category for miscellaneous filings that do not neatly fit into other specific categories. Also covers corrections, amendments, or revisions to previously published filings.",
+     "category": {
+      "id": 11,
+      "name": "Other",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 27115,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56463331,
+    "title": "Constitution",
+    "release_datetime": "2014-11-20T23:12:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_87c23efd-5f2f-4fe8-95ce-b68bad719c55.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_87c23efd-5f2f-4fe8-95ce-b68bad719c55.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pacific-smiles-group-ltd/governance-information/2014/56463331/",
+    "company": {
+     "id": 85441,
+     "name": "Pacific Smiles Group Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSQ9"
+     ],
+     "lei": "",
+     "sub_industry_code": "8620",
+     "oics_code": "HC.CR.HSV.CLS",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 11,
+     "code": "CGR",
+     "name": "Governance Information",
+     "description": "Report detailing the company's internal rules, board structure, and governance practices.",
+     "category": {
+      "id": 9,
+      "name": "ESG Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 334000,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56463333,
+    "title": "Appendix 1A and Information Form and Checklist",
+    "release_datetime": "2014-11-20T23:12:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_752d9f00-8ab7-4844-8047-3ab012367ec9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_752d9f00-8ab7-4844-8047-3ab012367ec9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pacific-smiles-group-ltd/regulatory-filings/2014/56463333/",
+    "company": {
+     "id": 85441,
+     "name": "Pacific Smiles Group Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSQ9"
+     ],
+     "lei": "",
+     "sub_industry_code": "8620",
+     "oics_code": "HC.CR.HSV.CLS",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 18,
+     "code": "RNS",
+     "name": "Regulatory Filings",
+     "description": "General regulatory announcements, compliance documents, officer certifications, and fallback category for miscellaneous filings that do not neatly fit into other specific categories. Also covers corrections, amendments, or revisions to previously published filings.",
+     "category": {
+      "id": 11,
+      "name": "Other",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 262322,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56463326,
+    "title": "Distribution Schedule",
+    "release_datetime": "2014-11-20T23:13:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_e9aa5bd4-687d-4efa-96d3-41c9221e1ff9.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_e9aa5bd4-687d-4efa-96d3-41c9221e1ff9.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pacific-smiles-group-ltd/share-issuecapital-change/2014/56463326/",
+    "company": {
+     "id": 85441,
+     "name": "Pacific Smiles Group Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSQ9"
+     ],
+     "lei": "",
+     "sub_industry_code": "8620",
+     "oics_code": "HC.CR.HSV.CLS",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 51,
+     "code": "SHA",
+     "name": "Share Issue/Capital Change",
+     "description": "Announcement regarding new share issues, stock splits, or other capital changes.",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 62030,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56463328,
+    "title": "Pre-Quotation Disclosure",
+    "release_datetime": "2014-11-20T23:13:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_74a8ab0b-bce4-458f-ac2c-1b843cd44642.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_74a8ab0b-bce4-458f-ac2c-1b843cd44642.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pacific-smiles-group-ltd/share-issuecapital-change/2014/56463328/",
+    "company": {
+     "id": 85441,
+     "name": "Pacific Smiles Group Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSQ9"
+     ],
+     "lei": "",
+     "sub_industry_code": "8620",
+     "oics_code": "HC.CR.HSV.CLS",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 51,
+     "code": "SHA",
+     "name": "Share Issue/Capital Change",
+     "description": "Announcement regarding new share issues, stock splits, or other capital changes.",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 59300,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56463302,
+    "title": "Top 20 Shareholders",
+    "release_datetime": "2014-11-20T23:14:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_9f9f61d9-b0b2-452c-a7b3-9a885c897a93.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_9f9f61d9-b0b2-452c-a7b3-9a885c897a93.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pacific-smiles-group-ltd/major-shareholding-notification/2014/56463302/",
+    "company": {
+     "id": 85441,
+     "name": "Pacific Smiles Group Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSQ9"
+     ],
+     "lei": "",
+     "sub_industry_code": "8620",
+     "oics_code": "HC.CR.HSV.CLS",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 24,
+     "code": "MRQ",
+     "name": "Major Shareholding Notification",
+     "description": "Notification of changes in significant share ownership levels (crossing thresholds).",
+     "category": {
+      "id": 7,
+      "name": "Equity Information",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 63750,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   },
+   {
+    "id": 56463280,
+    "title": "30 June 2013 Annual Report",
+    "release_datetime": "2014-11-20T23:16:00+00:00",
+    "document_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_5841a988-6244-448d-849e-916be204410a.pdf",
+    "proxy_url": "https://cdn.financialreports.eu/financialreports/media/filings/85441/2014/RNS/85441_rns_2014-11-20_5841a988-6244-448d-849e-916be204410a.pdf",
+    "viewer_url": "https://financialfilings.com/filings/pacific-smiles-group-ltd/annual-report/2014/56463280/",
+    "company": {
+     "id": 85441,
+     "name": "Pacific Smiles Group Ltd",
+     "tagline": "",
+     "isins": [
+      "AU000000PSQ9"
+     ],
+     "lei": "",
+     "sub_industry_code": "8620",
+     "oics_code": "HC.CR.HSV.CLS",
+     "country_code": "AU",
+     "date_public": "2026-06-26"
+    },
+    "filing_type": {
+     "id": 1,
+     "code": "10-K",
+     "name": "Annual Report",
+     "description": "Official complete annual report for a full fiscal year with audited financial performance. Not preliminary or unaudited results announcements, and not corrections or amendments to a previously published report.",
+     "category": {
+      "id": 2,
+      "name": "Financial Reporting & Info",
+      "sort_order": 0
+     }
+    },
+    "processing_status": "COMPLETED",
+    "file_extension": "PDF",
+    "file_size": 3477696,
+    "ingestion_mode": "BACKFILLED",
+    "source_url": null,
+    "source_filing_type": null
+   }
+  ]
+ }
+}

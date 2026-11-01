@@ -1,0 +1,23 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "id": 85039,
+    "name": "Healthscope Ltd",
+    "tagline": "",
+    "isins": [
+     "AU000000HSO1"
+    ],
+    "lei": "",
+    "sub_industry_code": "8610",
+    "oics_code": "HC.CR.HSV.FAC",
+    "country_code": "AU",
+    "date_public": "2026-10-12"
+   }
+  ]
+ }
+}

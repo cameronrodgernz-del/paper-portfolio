@@ -1,0 +1,23 @@
+{
+ "status": 200,
+ "body": {
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "id": 85441,
+    "name": "Pacific Smiles Group Ltd",
+    "tagline": "",
+    "isins": [
+     "AU000000PSQ9"
+    ],
+    "lei": "",
+    "sub_industry_code": "8620",
+    "oics_code": "HC.CR.HSV.CLS",
+    "country_code": "AU",
+    "date_public": "2026-06-26"
+   }
+  ]
+ }
+}
