@@ -544,7 +544,12 @@ def history_tests() -> list[dict]:
         {"name": "US cash deal spreads", "ref": "9b", "status": first_match(dl, r"\*\*Result: (pass|fail)\.\*\*") or "waiting",
          "detail": outcome(dl, f"{c} of {d} sampled companies priced"), "done": c, "of": d},
         {"name": "ASX cash deal spreads", "ref": "9c", "status": first_match(au, r"\*\*Result: (pass|fail|not run)\.\*\*") or "waiting",
-         "detail": outcome(au, f"{e2} of {f2} deal targets priced").replace("a trade after costs", "a deal against cash after costs"), "done": e2, "of": f2}]
+         "detail": outcome(au, f"{e2} of {f2} deal targets priced").replace("a trade after costs", "a deal against cash after costs"), "done": e2, "of": f2}] + [
+        {"name": name, "ref": ref, "status": first_match(os.path.join(ROOT, "reports", fn), r"\*\*Result: (pass|fail|not run)\.\*\*") or "waiting",
+         "detail": outcome(os.path.join(ROOT, "reports", fn), "Waiting for Norgate's whole-market prices").replace("a trade after costs", f"a {unit} against {against} after costs")}
+        for name, ref, fn, unit, against in (("Shares left behind when a deal fails", "9d", "failed_deal_history.md", "deal", "the market"),
+                                             ("A model of the next takeover target", "9e", "target_model_history.md", "quarter", "the market"),
+                                             ("The June tax-year sell-off", "9f", "june_selloff_history.md", "year", "small shares"))]
 
 
 def feeds_section() -> dict:
