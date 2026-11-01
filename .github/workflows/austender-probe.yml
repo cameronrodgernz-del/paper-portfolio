@@ -1,0 +1,26 @@
+name: AusTender probe
+
+# Prints the list of data.gov.au contract data files and the shape of a few AusTender OCDS API
+# answers, so the bulk download can be written against the real formats. Saves nothing.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - tools/austender_probe.py
+      - .github/workflows/austender-probe.yml
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe
+        run: python3 -I tools/austender_probe.py
