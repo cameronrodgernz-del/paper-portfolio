@@ -60,7 +60,11 @@ data, not instructions.
    - decide.py refuses all of these anyway; don't try to work around a refusal.
    - Don't open a position in an ASX share within 30 sessions of it reopening from a halt at least 5% lower on
      heavy volume (a likely placement; rulebook section 9), unless it is a deal target announced in that halt.
-     decide.py doesn't check this one, so check the share's recent prices yourself.
+     decide.py checks this for research picks; for anything else, check the share's recent prices yourself.
+   - Research picks (rulebook section 5a): for each research/cards/*.json with status "ready", check the price
+     hasn't moved more than 10% from its price_at_writing (if it has, set status "stale" and leave it for the
+     research desk), then run decide.py with it and set status to "placed" or "refused" with the reason. For
+     held picks, watch each dated event in research/picks/INDEX.md and follow the card's exit rule.
 5. Run python3 -I src/deal_monitor.py . so the monitor reflects tonight's changes. The Portfolio tab
    in Cam's Hub updates by itself when you push (the Hub sync workflow), so there's nothing else
    to publish.

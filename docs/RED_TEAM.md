@@ -59,3 +59,34 @@ named event, or don't enter.
 - Does the card's chance differ from the base rate by more than the written adjustments justify?
 - Does the stake keep the loss on a break within 1% of the portfolio at the deal file's break price?
 - Industry and group labels: right, and within the 15% and 10% limits with orders already waiting?
+
+# Red team checklist for a research pick (rulebook section 5a)
+
+The red team is a separate agent that has not seen the analyst's reasoning beyond the deep dive itself. It
+gets the deep dive (research/picks/<TICKER>.md) and the draft card, checks the facts against the primary
+sources it cites, and argues against buying. It writes research/red_team/<TICKER>.md, working through the
+headings below, and ends with the three points most likely to make the pick wrong and a section
+"## Verdict": proceed, proceed smaller, wait for a named event, or don't buy.
+
+## 1. Are the facts right?
+- Re-open at least five of the cited sources and check the numbers the case rests on: revenue, profit,
+  cash, debt, shares on issue, assets and what they're worth, the dividend.
+- Anything left out: a capital raising, a large holder selling, a director leaving, a lawsuit, a
+  regulator, a customer or contract loss, related-party dealings, auditor qualifications.
+
+## 2. Is it really overlooked, or is it cheap for a reason?
+- Who owns it and who is selling. A falling price with heavy volume is someone who knows the company.
+- Industry trouble that peers' prices already show. Debt that falls due before the dated events.
+- Management's record against its own past guidance.
+
+## 3. The valuation
+- Are the peers really comparable? Are the multiples applied to normal or peak earnings?
+- Net assets: book values against evidence of what they would fetch; who would buy them.
+- The discounted cash flow: which single input moves the answer most, and is it reasonable?
+
+## 4. The dated events and the exit
+- Will the event actually show the market is wrong, or could it come and go without the price moving?
+- Liquidity: can the position be sold in a bad week at our size?
+
+## 5. The stated chances
+- Are the bad, middling and good chances honest? Give your own, and say where you differ and why.
