@@ -1,24 +1,21 @@
 market,ticker,why,points
-NZX,RAD,"watched, event 2026-11-11: H1 FY27 result 11 Nov 2026",
-NZX,SKO,"watched, event 2026-11-16: H1 FY27 result and guidance revision, 16 Nov 2026",
-ASX,PWR,"watched, event 2026-11-25: AGM 25 Nov 2026; H1 FY27 result about 20 Feb 2027",
-ASX,MRT,"ranked, 9 points",9
-ASX,MYX,"ranked, 9 points",9
-ASX,ASG,"ranked, 8 points",8
-ASX,GRR,"ranked, 8 points",8
-ASX,AFG,"ranked, 7 points",7
-ASX,COF,"ranked, 7 points",7
-ASX,WJL,"ranked, 7 points",7
-ASX,ANG,"ranked, 6 points",6
-ASX,AWJ,"ranked, 6 points",6
-ASX,BOL,"ranked, 6 points",6
-ASX,FWD,"ranked, 6 points",6
-ASX,GEM,"ranked, 6 points",6
-ASX,OCL,"ranked, 6 points",6
-ASX,AD8,"ranked, 5 points",5
-ASX,ADH,"ranked, 5 points",5
-NZX,ARG,"ranked, 5 points",5
-NZX,PHL,"ranked, 5 points",5
-NZX,CMO,"ranked, 4 points",4
-NZX,DGL,"ranked, 4 points",4
-NZX,CVT,"ranked, 3 points",3
+ASX,FEX,"ranked, 6 points",6
+ASX,KAU,"ranked, 6 points",6
+ASX,ZIM,"ranked, 6 points",6
+ASX,CAF,"ranked, 5 points",5
+ASX,CWP,"ranked, 5 points",5
+ASX,EDU,"ranked, 5 points",5
+ASX,EML,"ranked, 5 points",5
+ASX,HLO,"ranked, 5 points",5
+ASX,KSL,"ranked, 5 points",5
+ASX,MVP,"ranked, 5 points",5
+ASX,RMC,"ranked, 5 points",5
+ASX,AAC,"ranked, 4 points",4
+ASX,AL3,"ranked, 4 points",4
+ASX,CCV,"ranked, 4 points",4
+ASX,DXC,"ranked, 4 points",4
+NZX,FWL,"ranked, 3 points",3
+NZX,MFB,"ranked, 3 points",3
+NZX,SPG,"ranked, 3 points",3
+NZX,OCA,"ranked, 2 points",2
+NZX,STU,"ranked, 2 points",2
