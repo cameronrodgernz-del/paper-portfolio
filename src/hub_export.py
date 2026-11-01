@@ -325,9 +325,11 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
         if p["sleeve"] == "deal" and (p["market"], p["ticker"]) in grp:
             by_grp[grp[(p["market"], p["ticker"])]] += p["value_nzd"]
     sleeves = {s: rd(latest.get("by_sleeve", {}).get(s, 0.0) / total, 5) for s in ("core", "deal", "special")}
-    from decide import TESTS, test_passed
+    from decide import TESTS, test_failed, test_passed
     passed = [k for k in TESTS if k not in ("us_deal", "asx_cash_deal") and test_passed(k, ROOT)]
     special_note = None if passed else "no type has passed a history test, so this sits in cash"
+    deal_note = ("ASX cash deals failed their history test, so only ASX scrip and NZX deals are traded; US deals wait for their test"
+                 if test_failed("asx_cash_deal", ROOT) else None)
     sleeves["cash"] = rd(latest["cash_nzd_total"] / total, 5)
     review = False
     for r in decisions:
@@ -335,7 +337,7 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
         review = True if e == "review_required" else (False if e == "review_done" else review)
     limits = {
         "sleeves": [{"k": s, "now": sleeves.get(s, 0.0), "target": TARGETS[s], "band": BANDS.get(s), "max": SLEEVE_MAX.get(s),
-                     "note": special_note if s == "special" else None} for s in ("core", "deal", "special", "cash")],
+                     "note": special_note if s == "special" else (deal_note if s == "deal" else None)} for s in ("core", "deal", "special", "cash")],
         "cash_floor": CASH_FLOOR, "dd_halve": DD_HALVE, "dd_exit": DD_EXIT,
         "industry": {"cap": INDUSTRY_CAP, "top": sorted(([k, rd(v / total, 5)] for k, v in by_ind.items()), key=lambda x: -x[1])[:5]},
         "group": {"cap": GROUP_CAP, "top": sorted(([k, rd(v / total, 5)] for k, v in by_grp.items()), key=lambda x: -x[1])[:5]},
@@ -526,8 +528,8 @@ def history_tests() -> list[dict]:
         res = first_match(path, r"\*\*Result: (pass|fail|not run)\.\*\*")
         if not res:
             return priced
-        ev = first_match(path, r"\|\s*Events\s*\|\s*(\d+)\s*\|")
-        mean = first_match(path, r"\|\s*Mean (?:result|after costs[^|]*)\|\s*([-+]?[\d.]+%)\s*\|")
+        ev = first_match(path, r"\|\s*Events\s*\|\s*(\d+)[^|]*\|")
+        mean = first_match(path, r"\|\s*Mean (?:result[^|]*|after costs[^|]*)\|\s*([-+]?[\d.]+%)[^|]*\|")
         t = first_match(path, r"\|\s*t-statistic\s*\|\s*([-+]?[\d.]+)\s*\|")
         bits = [f"{mean} a trade after costs" if mean else "", f"{ev} events" if ev else "", f"t {t}" if t else ""]
         return ", ".join(b for b in bits if b) + (". Traded." if res == "pass" else ". Not traded." if res == "fail" else ".")
@@ -542,7 +544,7 @@ def history_tests() -> list[dict]:
         {"name": "US cash deal spreads", "ref": "9b", "status": first_match(dl, r"\*\*Result: (pass|fail)\.\*\*") or "waiting",
          "detail": outcome(dl, f"{c} of {d} sampled companies priced"), "done": c, "of": d},
         {"name": "ASX cash deal spreads", "ref": "9c", "status": first_match(au, r"\*\*Result: (pass|fail|not run)\.\*\*") or "waiting",
-         "detail": outcome(au, f"{e2} of {f2} deal targets priced (needs EODHD's paid plan)"), "done": e2, "of": f2}]
+         "detail": outcome(au, f"{e2} of {f2} deal targets priced").replace("a trade after costs", "a deal against cash after costs"), "done": e2, "of": f2}]
 
 
 def feeds_section() -> dict:

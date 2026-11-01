@@ -15,6 +15,7 @@ The practice run was brought forward to start on 2 November 2026, at Cam's reque
 | 8 | History test: rules-only | Done: failed | Sleeve dropped, its 10% to cash |
 | 9 | History test: US director and officer buying clusters (9a) | Done: failed | -2.62% a trade against the S&P 500 after costs, 420 events from 2020, t -2.47. Not traded; the special situations weight sits in cash until a type passes |
 | 10 | History test: US cash deal spreads (9b) | To come | Prices fetched hourly from 1 November; US deals are watched but not traded until it passes (rulebook section 5) |
+| 10a | History test: ASX cash deal spreads (9c) | Done: failed | -0.61% a deal against cash after costs, 108 deals from 2015, t -0.49. ASX cash deals are not traded; ASX scrip and NZX deals carry on |
 | 11 | Hedging, passive comparisons, monthly report | Done | Tested on October prices |
 | 12 | Evening desk as a scheduled task | Done | Switched on 1 November: weekdays 9:45pm NZ, first run Monday 2 November (docs/DESK_TASK.md) |
 | 13 | Nightly copy to Google Drive | Needs a 5-minute setup | docs/DRIVE_BACKUP.md |

@@ -109,6 +109,7 @@ def review_pending(L: Ledger) -> bool:
     return flag
 
 
+HISTORY_ROOT = ROOT   # where the history test reports are read from (the engine tests point it at an empty folder)
 TESTS = {"us_deal": ("reports", "deal_us_history.md"), "insider_cluster": ("reports", "special_insider_history.md"),
          "asx_cash_deal": ("reports", "deal_au_history.md")}
 
@@ -227,7 +228,7 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
             breaches = [b.replace("expected return", "expected return after costs") for b in breaches]
         if want <= 0:
             breaches.append("sizing gives no stake (the stated odds do not beat the price)")
-        why = untested(card)
+        why = untested(card, HISTORY_ROOT)
         if why:
             breaches.append(why)
         out.update(sizing=sz, value_nzd=round(want, 2), costs=costs, expected_net=round(net, 4),

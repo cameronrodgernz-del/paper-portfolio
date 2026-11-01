@@ -11,6 +11,8 @@ sys.path.insert(0, os.path.join(ROOT, "src"))
 from clerk import run, state  # noqa: E402
 from daily import weekdays  # noqa: E402
 from decide import decide, resolve_call  # noqa: E402
+import decide as _dm  # noqa: E402
+_dm.HISTORY_ROOT = tempfile.mkdtemp()   # the engine checks below don't depend on the live history test results
 from monthly import brier  # noqa: E402
 from ledger import Ledger  # noqa: E402
 from market_data import FX, Prices  # noqa: E402
