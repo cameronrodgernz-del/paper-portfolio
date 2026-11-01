@@ -1,0 +1,36 @@
+name: ASIC short positions
+
+# Downloads ASIC's free daily short position files (every ASX product with reported shorts, since
+# June 2010) into data/asic/. Runs when its script changes, by hand, and on Saturdays to add the week.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 21 * * 5"
+  push:
+    branches: [main]
+    paths:
+      - src/fetch_asic_shorts.py
+      - .github/workflows/asic-shorts.yml
+
+permissions:
+  contents: write
+
+jobs:
+  shorts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch
+        run: python3 -I src/fetch_asic_shorts.py data
+      - name: Save
+        run: |
+          git config user.name "paper-portfolio-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/asic
+          git diff --cached --quiet && exit 0
+          git commit -m "ASIC short positions $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
