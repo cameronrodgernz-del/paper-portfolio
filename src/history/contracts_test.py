@@ -1,7 +1,7 @@
 """History test 9l (rulebook): government contracts and ASX small companies.
 
-Events: AusTender contract notices (data/austender/contracts_YYYY.csv.gz), and amendments that raise a
-contract's value (counted at the rise), matched to an ASX-listed company (data/austender/matched.csv: high
+Events: AusTender contract notices (data/austender/contracts_YYYY.csv.gz), new contracts only (amendments are
+left out because AusTender's dates for them after mid-2020 aren't publication dates), matched to an ASX-listed company (data/austender/matched.csv: high
 confidence, or medium and checked by hand), whose ordinary shares traded on the publication date, worth at
 least 5% of the company's market value at the close before publication. Notices published the same day
 are added together. Market value: that close times the shares on issue from ASIC's daily files (latest
@@ -109,6 +109,8 @@ def main(root: str, force: bool = False) -> int:
         conf, checked = (r.get("confidence") or "").lower(), (r.get("checked") or "").strip().lower()
         if not (conf == "high" or (conf == "medium" and checked in ("y", "yes", "true", "1"))):
             why["match not high confidence or not checked"] += 1; continue
+        if "-A" in (r.get("cn_id") or ""):
+            why["amendment (left out: AusTender's amendment dates after mid-2020 aren't publication dates)"] += 1; continue
         if r.get("symbol") not in u.col:
             why["matched symbol not in Norgate"] += 1; continue
         v = notice_value(r, C)
