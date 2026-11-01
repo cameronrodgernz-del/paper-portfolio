@@ -1,0 +1,86 @@
+name: AusTender contract notices
+
+# Downloads every Australian Government contract notice, from the data.gov.au historical files (to
+# 2019-20) and the AusTender OCDS API (contracts published from 2013, with their amendments), and
+# merges them into data/austender/contracts_YYYY.csv.gz. Runs when its download script or this file
+# changes, or by hand. API years run as parallel jobs, five at a time, each paging one day at a time.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - tools/austender_fetch.py
+      - .github/workflows/austender.yml
+
+permissions:
+  contents: write
+
+jobs:
+  api:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        year: [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch API year
+        run: python3 -I tools/austender_fetch.py api ${{ matrix.year }} extracts
+      - uses: actions/upload-artifact@v4
+        with:
+          name: austender-api-${{ matrix.year }}
+          path: extracts/
+          retention-days: 30
+
+  files:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch data.gov.au files
+        run: |
+          pip install -q python-calamine
+          python3 -I tools/austender_fetch.py files extracts
+      - uses: actions/upload-artifact@v4
+        with:
+          name: austender-files
+          path: extracts/
+          retention-days: 30
+
+  build:
+    needs: [api, files]
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    concurrency:
+      group: austender-build
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: austender-*
+          path: extracts
+          merge-multiple: true
+      - name: Build
+        run: python3 -I tools/austender_build.py extracts .
+      - name: Save
+        run: |
+          git config user.name "paper-portfolio-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A -- 'data/austender/contracts_*.csv.gz' data/austender/README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "AusTender contract notices $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
+          exit 1

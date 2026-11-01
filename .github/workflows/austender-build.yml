@@ -1,0 +1,54 @@
+name: AusTender build
+
+# Re-runs only the merge step (tools/austender_build.py) on the extracts saved by the latest finished
+# run of the AusTender download workflow, so a change to the merge rules does not mean downloading
+# everything again. Runs when the merge script or this file changes, or by hand.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - tools/austender_build.py
+      - .github/workflows/austender-build.yml
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    concurrency:
+      group: austender-build
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch extracts of the latest finished download run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          id=$(gh run list --workflow austender.yml -L 20 --json databaseId,status \
+               -q '[.[] | select(.status=="completed")][0].databaseId')
+          if [ -z "$id" ]; then echo "No finished download run yet"; exit 0; fi
+          echo "Using run $id"
+          gh run download "$id" -p 'austender-*' -D dl || true
+          mkdir -p extracts
+          find dl -type f -exec mv {} extracts/ \; 2>/dev/null || true
+          ls -la extracts
+      - name: Build
+        run: |
+          ls extracts/*.csv.gz >/dev/null 2>&1 || { echo "No extracts"; exit 0; }
+          python3 -I tools/austender_build.py extracts .
+      - name: Save
+        run: |
+          git config user.name "paper-portfolio-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A -- 'data/austender/contracts_*.csv.gz' data/austender/README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "AusTender contract notices rebuilt $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
+          exit 1
