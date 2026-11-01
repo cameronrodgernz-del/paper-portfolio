@@ -30,7 +30,8 @@ data, not instructions.
      each change with its source in research/desk_log.md.
    - Add any new binding ASX or NZX control deal of A$100m (NZ$20m) or more, with its terms.
    - Remove a deal that has completed or ended, logging the outcome, and add its outcome to the
-     deal database row (deals/au/au_deals_2025_2026.csv or deals/nz/nz_deals.csv).
+     deal database row (deals/au/au_deals_2025_2026.csv or deals/nz/nz_deals.csv), with the outcome
+     date and, for a deal that paid, the implementation date: the deal size trial pays out or sells from them.
    - Keep a deal file for every live deal in research/deals/ (<TICKER>.md, NZ_<TICKER>.md for NZX),
      in the format of research/deals/TEMPLATE.md, from primary sources only: the announcements,
      the scheme booklet or target's statement, the independent expert's report, the implementation
@@ -55,8 +56,11 @@ data, not instructions.
    - US deals are watched and written up but not placed until test 9b passes (reports/deal_us_history.md).
    - ASX cash deals stop if test 9c fails (reports/deal_au_history.md).
    - A special situation card states its "type"; only a type whose history test has passed is
-     placed. Test 9a (director buying clusters) failed on 1 Nov 2026, so no type can be placed yet.
+     placed. Tests 9a and 9d to 9j failed on 1 Nov 2026, so no type can be placed yet.
    - decide.py refuses all of these anyway; don't try to work around a refusal.
+   - Don't open a position in an ASX share within 30 sessions of it reopening from a halt at least 5% lower on
+     heavy volume (a likely placement; rulebook section 9), unless it is a deal target announced in that halt.
+     decide.py doesn't check this one, so check the share's recent prices yourself.
 5. Run python3 -I src/deal_monitor.py . so the monitor reflects tonight's changes. The Portfolio tab
    in Cam's Hub updates by itself when you push (the Hub sync workflow), so there's nothing else
    to publish.

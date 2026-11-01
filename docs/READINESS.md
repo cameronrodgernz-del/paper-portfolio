@@ -23,6 +23,7 @@ The practice run was brought forward to start on 2 November 2026, at Cam's reque
 | 10f | History test: listed options below their value (9h) | Done: failed | Only 11 events in tradable shares, and they lost money |
 | 10g | History test: short sellers covering (9i) | Done: failed | -1.17% a month against shorted shares after costs, 104 months from 2018, t -2.24 |
 | 10h | History test: franked special dividends in schemes (9j) | Done: failed | Selling before the ex-date did worse in 36 of 42 schemes; prices fell by about the cash dividend |
+| 10i | Deal size trial: deals at A$10,000 against A$3,000 a position, forward from 2 November | Running | Separate trial book (rulebook section 5); read at this review, scored 2 July 2027 |
 | 11 | Hedging, passive comparisons, monthly report | Done | Tested on October prices |
 | 12 | Evening desk as a scheduled task | Done | Switched on 1 November: weekdays 9:45pm NZ, first run Monday 2 November (docs/DESK_TASK.md) |
 | 13 | Nightly copy to Google Drive | Needs a 5-minute setup | docs/DRIVE_BACKUP.md |
