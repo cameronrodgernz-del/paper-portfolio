@@ -1,6 +1,8 @@
 # Research picks: index
 
-One row per company the research desk has looked at (rulebook section 5a). Status is one of: rejected, watching, card ready, held, sold. This is a simulation and not financial advice.
+One row per company the research desk has looked at (rulebook section 5a). Status is one of: rejected, watching, fact sheet, card ready, held, sold. This is a simulation and not financial advice.
+
+From 2 November 2026 the research funnel is rebuilt (docs/RESEARCH_TASK.md): a ranking on the exchanges' own company data, then fact sheets (research/facts/), then deep dives. The quick looks below, from 1 November 2026, were judgement calls on a quick read and no longer count as coverage: a company dropped at a quick look can come back through the ranking and get a fact sheet. Rows dropped on a rule (too thin to trade, a special situation, delisting) still stand.
 
 Data: the ASX screen ran on Norgate's whole-market export as of 30 October 2026 (reports/research_screen.md, run 1 November 2026), two days old, so no refresh is needed. NZX prices are FinFeedAPI closes to 30 October 2026.
 

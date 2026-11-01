@@ -2,6 +2,11 @@
 
 Written <YYYY-MM-DD> by the research desk. Price at writing: <price> (<date of close>). Market value: <value> (shares on issue <n>, source).
 Status: TO WRITE (remove this word once the file is finished; decide.py refuses a draft)
+Fact sheet: research/facts/<TICKER>.md (NZ_<TICKER>.md for NZX), grade <A or B>, and the question it set.
+
+Order of work (added 2 Nov 2026): write "What the filings show" and "Valuation" before looking at the share
+price or the market value, so the value comes from the business and not from the price. Fill in the price,
+"Why the market is wrong" and "Outcomes and chances" last.
 
 ## The company in plain words
 What it does, where the money comes from, who runs it, who owns it (the top 20 holders and any substantial
@@ -23,6 +28,7 @@ raisings and their prices, dividends, and anything a quick reader would miss. Ci
 At least two methods that suit the business (for example: earnings or cash flow multiple against named
 listed peers; net assets or sum of the parts; a simple discounted cash flow with every input stated).
 Show the arithmetic. End with a range of values per share and the main thing each depends on.
+Done without the share price in view: the range is what the business is worth, worked from the filings.
 
 ## Why the market is wrong
 One or two plain reasons the price is below the value, and why that should change. If you can't say why
@@ -34,7 +40,9 @@ the market is wrong, there is no trade.
 | Bad | ... | ..% | ... |
 | Middling | ... | ..% | ... |
 | Good | ... | ..% | ... |
-Chances add to 100%. These go on the card exactly as written here.
+Chances add to 100%. These go on the card exactly as written here. Each outcome's price comes from the
+valuation range above (what the market would pay for the business in that outcome by the resolve date), not
+from today's price plus or minus a step. Say which valuation figure each one uses.
 
 ## Dated events
 The events expected to show the market is wrong (results, a contract, a regulator decision, a sale
