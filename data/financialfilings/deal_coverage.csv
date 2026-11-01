@@ -1,0 +1,272 @@
+deal_id,target,ticker,announce,outcome,searched,status,notices_12m_before,companies_matched
+AU-2015-01,Novion Property Group (Novion Limited and Novion Trust),NVN,2015-02-03,completed,Novion,200,0,
+AU-2015-02,Toll Holdings Limited,TOL,2015-02-18,completed,Toll,200,0,
+AU-2015-03,iiNet Limited,IIN,2015-03-13,completed,iiNet,200,0,
+AU-2015-04,PanAust Limited,PNA,2015-03-30,completed,PanAust,200,0,
+AU-2015-05,Sirius Resources NL,SIR,2015-05-25,completed,Sirius Resources,200,0,
+AU-2015-06,Recall Holdings Limited,REC,2015-06-08,completed,Recall,200,0,
+AU-2015-07,Affinity Education Group Limited,AFJ,2015-07-03,superseded_by_rival,Affinity Education,200,0,
+AU-2015-F01,Energy Developments Limited,ENE,2015-07-20,completed,Energy Developments,200,0,
+AU-2015-09,Vision Eye Institute Limited,VEI,2015-08-13,completed,Vision Eye Institute,200,0,
+AU-2015-08,Asciano Limited,AIO,2015-08-18,superseded_by_rival,Asciano,200,0,
+AU-2015-F02,Cardno Limited,CDD,2015-09-14,lapsed,Cardno,200,12,Cardno Ltd
+AU-2015-10,Affinity Education Group Limited,AFJ,2015-09-15,completed,Affinity Education,200,0,
+AU-2015-11,M2 Group Ltd,MTU,2015-09-28,completed,M2,200,0,
+AU-2015-F03,Coffey International Limited,COF,2015-10-14,completed,Coffey International,200,0,
+AU-2015-12,Drillsearch Energy Limited,DLS,2015-10-23,completed,Drillsearch Energy,200,0,
+AU-2015-13,iProperty Group Limited,IPP,2015-11-02,completed,iProperty,200,0,
+AU-2015-14,Veda Group Limited,VED,2015-11-23,completed,Veda,200,0,
+AU-2015-15,UXC Limited,UXC,2015-11-25,completed,UXC,200,0,
+AU-2015-16,Broadspectrum Limited (formerly Transfield Services),BRS,2015-12-07,completed,Broadspectrum,200,0,
+AU-2015-17,Investa Office Fund,IOF,2015-12-18,terminated,Investa Office,200,0,
+AU-2016-01,Sedgman Limited,SDM,2016-01-13,completed,Sedgman,200,0,
+AU-2016-02,Asciano Limited,AIO,2016-02-16,withdrawn,Asciano,200,0,
+AU-2016-03,Ethane Pipeline Income Fund,EPX,2016-03-07,completed,Ethane Pipeline Income,200,0,
+AU-2016-04,Asciano Limited,AIO,2016-03-15,completed,Asciano,200,0,
+AU-2016-05,Pacific Brands Limited,PBG,2016-04-28,completed,Pacific Brands,200,0,
+AU-2016-06,Patties Foods Limited,PFL,2016-06-02,completed,Patties Foods,200,0,
+AU-2016-07,GPT Metro Office Fund,GMF,2016-06-16,withdrawn,GPT Metro Office,200,0,
+AU-2016-08,General Mining Corporation Limited,GMM,2016-06-22,completed,General Mining,200,0,
+AU-2016-09,GPT Metro Office Fund,GMF,2016-07-01,completed,GPT Metro Office,200,0,
+AU-2016-10,Intecq Limited,ITQ,2016-08-01,completed,Intecq,200,0,
+AU-2016-F01,Vitaco Holdings Limited,VIT,2016-08-04,completed,Vitaco,200,0,
+AU-2016-11,BigAir Group Limited,BGL,2016-09-13,completed,BigAir,200,0,
+AU-2016-12,SAI Global Limited,SAI,2016-09-26,completed,SAI Global,200,0,
+AU-2016-13,ASG Group Limited,ASZ,2016-09-30,completed,ASG,200,0,
+AU-2016-14,UGL Limited,UGL,2016-10-10,completed,UGL,200,6,National Australia Bank Ltd.; Westpac Banking Corporation
+AU-2016-F02,Fantastic Holdings Limited,FAN,2016-10-14,completed,Fantastic,200,0,
+AU-2016-15,Tatts Group Limited,TTS,2016-10-19,completed,Tatts,200,0,
+AU-2016-16,Pulse Health Limited,PHG,2016-11-30,completed,Pulse Health,200,0,
+AU-2016-17,Cover-More Group Limited,CVO,2016-12-12,completed,Cover-More,200,0,
+AU-2016-18,oOh!media Limited,OML,2016-12-14,terminated,oOh media,200,12,OOH!MEDIA LIMITED
+AU-2017-01,DUET Group,DUE,2017-01-16,completed,DUET,200,24,DUET Group
+AU-2017-02,Macmahon Holdings Limited,MAH,2017-01-24,lapsed,Macmahon,200,1,MACMAHON HOLDINGS LIMITED
+AU-2017-03,Spotless Group Holdings Limited,SPO,2017-03-21,completed,Spotless,200,0,
+AU-2017-04,Generation Healthcare REIT,GHC,2017-04-24,completed,Generation Healthcare,200,0,
+AU-2017-F01,Grays eCommerce Group Limited,GEG,2017-05-04,completed,Grays eCommerce,200,0,
+AU-2017-05,Seymour Whyte Limited,SWL,2017-06-23,completed,Seymour Whyte,200,1,Seymour Whyte Limited
+AU-2017-06,Programmed Maintenance Services Limited,PRG,2017-07-14,completed,Programmed Maintenance Services,200,0,
+AU-2017-07,Asia Pacific Data Centre Group,AJD,2017-07-25,completed,Asia Pacific Data,200,0,
+AU-2017-08,Asia Pacific Data Centre Group,AJD,2017-07-31,lapsed,Asia Pacific Data,200,0,
+AU-2017-F02,Pepper Group Limited,PEP,2017-08-10,completed,Pepper,200,0,
+AU-2017-F03,Tian An Australia Limited,TIA,2017-09-11,completed,Tian An,200,9,TIAN AN AUSTRALIA LIMITED; Tianmei Beverage Group Corporation Limited
+AU-2017-F04,Mantra Group Limited,MTR,2017-10-12,completed,Mantra,200,0,
+AU-2017-F05,Finders Resources Limited,FND,2017-10-23,completed,Finders Resources,200,0,
+AU-2017-09,Tox Free Solutions Limited,TOX,2017-12-11,completed,Tox Free Solutions,200,0,
+AU-2017-10,Westfield Corporation,WFD,2017-12-12,completed,Westfield,200,3,SCENTRE GROUP
+AU-2017-11,Aconex Limited,ACX,2017-12-18,completed,Aconex,200,0,
+AU-2017-12,AWE Limited,AWE,2017-12-21,superseded_by_rival,AWE,200,24,AWE Limited
+AU-2017-13,Integral Diagnostics Limited,IDX,2017-12-22,lapsed,Integral Diagnostics,200,9,INTEGRAL DIAGNOSTICS LIMITED
+AU-2018-F01,Billabong International Limited,BBG,2018-01-05,completed,Billabong International,200,2,Billabong International Limited
+AU-2018-01,AWE Limited,AWE,2018-01-25,superseded_by_rival,AWE,200,29,AWE Limited; Commonwealth Bank of Australia; Macquarie Group Limited
+AU-2018-F02,Sirtex Medical Limited,SRX,2018-01-30,superseded_by_rival,Sirtex Medical,200,0,
+AU-2018-02,AWE Limited,AWE,2018-02-05,completed,AWE,200,29,AWE Limited; Macquarie Group Limited
+AU-2018-03,Viralytics Limited,VLA,2018-02-21,completed,Viralytics,200,0,
+AU-2018-04,Atlas Iron Limited,AGO,2018-04-09,superseded_by_rival,Atlas Iron,200,0,
+AU-2018-F03,Avanco Resources Limited,AVB,2018-04-10,completed,Avanco Resources,200,2,Avanco Resources Limited
+AU-2018-05,AMA Group Limited,AMA,2018-04-13,terminated,AMA,200,75,amaysim Australia Ltd
+AU-2018-06,Mineral Deposits Limited,MDL,2018-04-27,completed,Mineral Deposits,200,20,Mineral Deposits Limited
+AU-2018-F04,Mitula Group Limited,MUA,2018-05-09,completed,Mitula,200,0,
+AU-2018-F05,Sino Gas & Energy Holdings Limited,SEH,2018-05-31,completed,Sino Gas &,200,0,
+AU-2018-07,SRG Limited,SRG,2018-06-12,completed,SRG,200,5,INSIGNIA FINANCIAL LTD; SRG GLOBAL LIMITED
+AU-2018-F06,Sirtex Medical Limited,SRX,2018-06-14,completed,Sirtex Medical,200,0,
+AU-2018-08,Atlas Iron Limited,AGO,2018-06-18,completed,Atlas Iron,200,1,FORTESCUE LTD
+AU-2018-09,Fairfax Media Limited,FXJ,2018-07-26,completed,Fairfax Media,200,11,Fairfax Media Limited
+AU-2018-10,APA Group,APA,2018-08-13,terminated,APA,200,52,Incentiapay Ltd; Japara Healthcare Ltd
+AU-2018-11,Capilano Honey Limited,CZZ,2018-08-13,completed,Capilano Honey,200,1,Capilano Honey Limited
+AU-2018-12,Folkestone Limited,FLK,2018-08-22,completed,Folkestone,200,0,
+AU-2018-F07,TPG Telecom Limited,TPM,2018-08-30,completed,TPG Telecom,200,0,
+AU-2018-F08,Zenitas Healthcare Limited,ZNT,2018-08-31,completed,Zenitas Healthcare,200,0,
+AU-2018-F09,Beadell Resources Limited,BDR,2018-09-24,completed,Beadell Resources,200,0,
+AU-2018-F10,Scottish Pacific Group Limited,SCO,2018-09-24,completed,Scottish Pacific,200,0,
+AU-2018-13,Asia Pacific Data Centre Group,AJD,2018-10-08,completed,Asia Pacific Data,200,0,
+AU-2018-F11,Watpac Limited,WTP,2018-11-02,completed,Watpac,200,5,Watpac Limited
+AU-2018-F12,Greencross Limited,GXL,2018-11-05,completed,Greencross,200,0,
+AU-2018-14,Eclipx Group Limited,ECX,2018-11-08,terminated,Eclipx,200,19,FLEETPARTNERS GROUP LIMITED
+AU-2018-F13,Propertylink Group,PLG,2018-11-12,completed,Propertylink,200,0,
+AU-2018-15,Stanmore Coal Limited,SMR,2018-11-19,lapsed,Stanmore Coal,200,5,STANMORE RESOURCES LIMITED
+AU-2018-F14,Xenith IP Group Limited,XIP,2018-11-26,superseded_by_rival,Xenith IP,200,1,Xenith IP Group Ltd
+AU-2018-F15,MYOB Group Limited,MYO,2018-12-24,completed,MYOB,200,0,
+AU-2019-01,Highlands Pacific Limited,HIG,2019-01-02,completed,Highlands Pacific,200,0,
+AU-2019-02,Spicers Limited,SRS,2019-01-17,completed,Spicers,200,0,
+AU-2019-03,Healthscope Limited,HSO,2019-02-01,completed,Healthscope,200,23,Healthscope Ltd
+AU-2019-04,Gazal Corporation Limited,GZL,2019-02-21,completed,Gazal,200,3,Gazal Corporation Limited
+AU-2019-05,NetComm Wireless Limited,NTC,2019-02-21,completed,NetComm Wireless,200,0,
+AU-2019-F01,Ruralco Holdings Limited,RHL,2019-02-27,completed,Ruralco,200,0,
+AU-2019-06,Navitas Limited,NVT,2019-03-21,completed,Navitas,200,0,
+AU-2019-07,Automotive Holdings Group Limited,AHG,2019-04-05,completed,Automotive,200,4,EAGERS AUTOMOTIVE LIMITED
+AU-2019-08,Xenith IP Group Limited,XIP,2019-04-12,completed,Xenith IP,200,3,Xenith IP Group Ltd
+AU-2019-09,DuluxGroup Limited,DLX,2019-04-17,completed,DuluxGroup,200,6,DuluxGroup Limited
+AU-2019-10,Kidman Resources Limited,KDR,2019-05-23,completed,Kidman Resources,200,0,
+AU-2019-11,MOD Resources Limited,MOD,2019-06-25,completed,MOD Resources,200,9,MOD Resources Limited
+AU-2019-12,Dreamscape Networks Limited,DN8,2019-07-24,completed,Dreamscape Networks,200,0,
+AU-2019-13,Pacific Energy Limited,PEA,2019-07-24,completed,Pacific Energy,200,1,QPM ENERGY LIMITED
+AU-2019-14,GBST Holdings Limited,GBT,2019-07-29,completed,GBST,200,9,GBST Holdings Limited
+AU-2019-15,Wellcom Group Limited,WLL,2019-07-31,completed,Wellcom,200,0,
+AU-2019-F02,Credible Labs Inc.,CRD,2019-08-05,completed,Credible Labs,200,0,
+AU-2019-16,Aveo Group,AOG,2019-08-14,completed,Aveo,200,0,
+AU-2019-17,ERM Power Limited,EPW,2019-08-22,completed,ERM Power,200,9,ERM Power Limited
+AU-2019-18,Echo Resources Limited,EAR,2019-08-27,completed,Echo Resources,200,0,
+AU-2019-19,Australian Unity Office Fund,AOF,2019-09-02,terminated,Unity Office,200,12,AUSTRALIAN UNITY OFFICE FUND
+AU-2019-20,Bellamy's Australia Limited,BAL,2019-09-16,completed,Bellamy's,200,0,
+AU-2019-21,Webster Limited,WBA,2019-10-03,completed,Webster,200,8,TEMPLE & WEBSTER GROUP LTD
+AU-2019-22,CSG Limited,CSV,2019-10-24,completed,CSG,200,0,
+AU-2019-23,QMS Media Limited,QMS,2019-10-29,completed,QMS Media,200,8,QMS Media Ltd
+AU-2019-24,Panoramic Resources Limited,PAN,2019-11-04,lapsed,Panoramic Resources,200,0,
+AU-2019-25,CML Group Limited,CGR,2019-11-13,superseded_by_rival,CML,200,0,
+AU-2019-26,Pioneer Credit Limited,PNC,2019-12-05,terminated,Pioneer Credit,200,0,
+AU-2019-27,National Veterinary Care Ltd,NVL,2019-12-16,completed,National Veterinary Care,200,0,
+AU-2020-01,Australian Unity Office Fund,AOF,2020-01-29,lapsed,Unity Office,200,28,AUSTRALIAN UNITY OFFICE FUND
+AU-2020-02,Universal Coal plc,UNV,2020-02-03,completed,Universal Coal,200,1,TERRACOM LIMITED
+AU-2020-03,Spectrum Metals Limited,SPX,2020-02-10,completed,Spectrum Metals,200,0,
+AU-2020-04,Liquefied Natural Gas Limited,LNG,2020-02-28,withdrawn,Liquefied Natural Gas,200,0,
+AU-2020-05,CML Group Limited,CGR,2020-03-02,terminated,CML,200,1,COG FINANCIAL SERVICES LIMITED
+AU-2020-06,Zenith Energy Limited,ZEN,2020-03-06,completed,Zenith Energy,200,0,
+AU-2020-07,Stanmore Coal Limited,SMR,2020-04-02,completed,Stanmore Coal,200,11,STANMORE RESOURCES LIMITED
+AU-2020-08,OneVue Holdings Limited,OVH,2020-06-01,completed,OneVue,200,8,OneVue Holdings Ltd
+AU-2020-09,Infigen Energy,IFN,2020-06-03,superseded_by_rival,Infigen Energy,200,0,
+AU-2020-10,OptiComm Ltd,OPC,2020-06-15,completed,OptiComm,200,0,
+AU-2020-11,Infigen Energy,IFN,2020-06-17,completed,Infigen Energy,200,0,
+AU-2020-12,Cardinal Resources Limited,CDV,2020-06-18,completed,Cardinal Resources,200,0,
+AU-2020-13,Cardinal Resources Limited,CDV,2020-07-15,superseded_by_rival,Cardinal Resources,200,0,
+AU-2020-14,Village Roadshow Limited,VRL,2020-08-06,completed,Village Roadshow,200,0,
+AU-2020-15,3P Learning Limited,3PL,2020-08-14,terminated,3P Learning,200,11,3P LEARNING LIMITED..
+AU-2020-16,Wameja Limited,WJA,2020-09-10,completed,Wameja,200,0,
+AU-2020-17,The Citadel Group Limited,CGL,2020-09-14,completed,Citadel,200,16,Citadel Group
+AU-2020-18,DWS Limited,DWS,2020-09-21,completed,DWS,200,0,
+AU-2020-19,Saracen Mineral Holdings Limited,SAR,2020-10-06,completed,Saracen Mineral,200,24,Saracen Mineral Holdings Limited
+AU-2020-20,E&P Financial Group Limited,EP1,2020-10-27,withdrawn,E&P Financial,200,0,
+AU-2020-F01,Coca-Cola Amatil Limited,CCL,2020-11-04,completed,Coca-Cola Amatil,200,0,
+AU-2020-F02,amaysim Australia Limited,AYS,2020-12-15,completed,amaysim,200,3,amaysim Australia Ltd
+AU-2021-01,Redflex Holdings Limited,RDF,2021-01-22,completed,Redflex,200,1,Redflex Holdings Limited
+AU-2021-02,Mainstream Group Holdings Limited,MAI,2021-03-09,superseded_by_rival,Mainstream,200,0,
+AU-2021-03,Vocus Group Limited,VOC,2021-03-09,completed,Vocus,200,18,Vocus Group Limited
+AU-2021-04,McPherson's Limited,MCP,2021-03-25,withdrawn,McPherson's,200,15,MCPHERSON'S LIMITED
+AU-2021-05,Mortgage Choice Limited,MOC,2021-03-29,completed,Mortgage Choice,200,0,
+AU-2021-06,Galaxy Resources Limited,GXY,2021-04-19,completed,Galaxy Resources,200,0,
+AU-2021-07,Mainstream Group Holdings Limited,MAI,2021-04-19,superseded_by_rival,Mainstream,200,0,
+AU-2021-08,Primewest Group Limited,PWG,2021-04-19,completed,Primewest,200,1,Vitalharvest Freehold Trust
+AU-2021-09,Bingo Industries Limited,BIN,2021-04-27,completed,Bingo Industries,200,0,
+AU-2021-11,Boral Limited,BLD,2021-05-10,completed,Boral,200,0,
+AU-2021-12,APN Property Group Limited,APD,2021-05-11,completed,APN,200,0,
+AU-2021-13,Milton Corporation Limited,MLT,2021-06-22,completed,Milton,200,0,
+AU-2021-14,Mainstream Group Holdings Limited,MAI,2021-06-28,completed,Mainstream,200,0,
+AU-2021-15,Templeton Global Growth Fund Ltd,TGG,2021-06-29,completed,Templeton Global Growth,200,0,
+AU-2021-16,rhipe Limited,RHP,2021-07-06,completed,rhipe,200,4,rhipe Limited
+AU-2021-17,Youfoodz Holdings Limited,YFZ,2021-07-13,completed,Youfoodz,200,2,Youfoodz Holdings Limited
+AU-2021-18,Spark Infrastructure Group,SKI,2021-07-15,completed,Spark Infrastructure,200,0,
+AU-2021-19,Empired Limited,EPD,2021-07-19,completed,Empired,200,4,Empired Limited
+AU-2021-10,Japara Healthcare Limited,JHC,2021-07-27,completed,Japara Healthcare,200,4,Japara Healthcare Ltd
+AU-2021-20,Afterpay Limited,APT,2021-08-02,completed,Afterpay,200,0,
+AU-2021-21,Huon Aquaculture Group Limited,HUO,2021-08-06,completed,Huon Aquaculture,200,8,Huon Aquaculture Group Limited
+AU-2021-22,1300 Smiles Limited,ONT,2021-08-24,,1300 Smiles,200,0,
+AU-2021-23,Oil Search Limited,OSH,2021-09-10,completed,Oil Search,200,0,
+AU-2021-24,ALE Property Group,LEP,2021-09-20,completed,ALE,200,61,JINDALEE LITHIUM LIMITED; SMARTGROUP CORPORATION LTD
+AU-2021-25,Gascoyne Resources Limited,GCY,2021-09-30,withdrawn,Gascoyne Resources,200,0,
+AU-2021-26,Intega Group Limited,ITG,2021-10-04,,Intega,200,0,
+AU-2021-27,Apollo Consolidated Limited,AOP,2021-10-18,completed,Apollo Consolidated,200,4,Apollo Consolidated Limited
+AU-2021-28,Aventus Group,AVN,2021-10-18,completed,Aventus,200,0,
+AU-2021-29,Class Limited,CL1,2021-10-18,completed,Class,200,9,Class Limited
+AU-2021-30,iCar Asia Limited,ICQ,2021-10-18,completed,iCar Asia,200,8,iCar Asia Limited
+AU-2021-31,Apollo Consolidated Limited,AOP,2021-10-21,superseded_by_rival,Apollo Consolidated,200,5,Apollo Consolidated Limited
+AU-2021-32,AusNet Services Ltd,AST,2021-11-01,completed,AusNet Services,200,0,
+AU-2021-33,Australian Pharmaceutical Industries Limited,API,2021-11-08,completed,Pharmaceutical Industries,200,5,Australian Pharmaceutical Industries Limited
+AU-2021-34,Sydney Airport,SYD,2021-11-08,completed,Sydney Airport,200,0,
+AU-2021-35,Over the Wire Holdings Limited,OTW,2021-12-02,completed,Over Wire,200,4,Over the Wire Holdings Ltd
+AU-2021-36,Apollo Tourism & Leisure Ltd,ATL,2021-12-10,completed,Apollo Tourism &,200,0,
+AU-2021-37,Senex Energy Limited,SXY,2021-12-13,completed,Senex Energy,200,5,Senex Energy Limited
+AU-2021-38,Western Areas Limited,WSA,2021-12-16,completed,Western Areas,200,12,Western Areas Ltd
+AU-2021-39,Bardoc Gold Limited,BDC,2021-12-20,completed,Bardoc Gold,200,0,
+AU-2021-40,Link Administration Holdings Limited,LNK,2021-12-22,terminated,Link Administration,200,18,Link Administration Hldg Ltd
+AU-2021-41,Ozgrowth Limited,OZG,2021-12-23,completed,Ozgrowth,200,0,
+AU-2021-42,Westoz Investment Company Limited,WIC,2021-12-23,completed,Westoz Investment Company,200,0,
+AU-2022-01,Crown Resorts Limited,CWN,2022-02-14,completed,Crown Resorts,200,0,
+AU-2022-02,Virtus Health Limited,VRT,2022-03-14,superseded_by_rival,Virtus Health,200,0,
+AU-2022-03,Irongate Group,IAP,2022-03-30,completed,Irongate,200,0,
+AU-2022-04,Vimy Resources Limited,VMY,2022-03-31,completed,Vimy Resources,200,5,Vimy Resources Ltd
+AU-2022-05,DGO Gold Limited,DGO,2022-04-04,completed,DGO Gold,200,4,DGO Gold Ltd; YANDAL RESOURCES LIMITED
+AU-2022-06,Virtus Health Limited,VRT,2022-04-06,completed,Virtus Health,200,0,
+AU-2022-07,ResApp Health Limited,RAP,2022-04-11,completed,ResApp Health,200,0,
+AU-2022-08,Uniti Group Limited,UWL,2022-04-14,completed,Uniti,200,33,METRICS INCOME OPPORTUNITIES TRUST; THORNEY OPPORTUNITIES LTD
+AU-2022-09,Alliance Aviation Services Limited,AQZ,2022-05-05,terminated,Alliance Aviation Services,200,4,ALLIANCE AVIATION SERVICES LIMITED
+AU-2022-10,MyDeal.com.au Limited,MYD,2022-05-20,completed,MyDeal com au,200,0,
+AU-2022-11,PayGroup Limited,PYG,2022-06-23,completed,PayGroup,200,0,
+AU-2022-12,Dacian Gold Limited,DCN,2022-07-05,completed,Dacian Gold,200,9,Dacian Gold Ltd
+AU-2022-13,MACA Limited,MLD,2022-07-26,,MACA,200,2,ALTITUDE MINERALS LTD; MACARTHUR MINERALS LIMITED
+AU-2022-14,Tassal Group Limited,TGR,2022-08-16,completed,Tassal,200,0,
+AU-2022-15,PTB Group Limited,PTB,2022-08-19,,PTB,200,0,
+AU-2022-16,Nearmap Ltd,NEA,2022-08-22,completed,Nearmap,200,0,
+AU-2022-17,Pendal Group Limited,PDL,2022-08-25,completed,Pendal,200,0,
+AU-2022-18,Nitro Software Limited,NTO,2022-08-31,completed,Nitro Software,200,0,
+AU-2022-19,ELMO Software Limited,ELO,2022-10-26,completed,ELMO Software,200,13,ELMO Software Ltd
+AU-2022-20,Nitro Software Limited,NTO,2022-10-31,superseded_by_rival,Nitro Software,200,0,
+AU-2022-21,Warrego Energy Limited,WGO,2022-11-14,superseded_by_rival,Warrego Energy,200,0,
+AU-2022-22,MSL Solutions Limited,MPW,2022-11-15,,MSL Solutions,200,0,
+AU-2022-23,Warrego Energy Limited,WGO,2022-11-30,completed,Warrego Energy,200,0,
+AU-2022-24,Genesis Minerals Limited,GMD,2022-12-12,terminated,Genesis Minerals,200,26,GENESIS MINERALS LIMITED
+AU-2022-25,Norwest Energy NL,NWE,2022-12-16,completed,Norwest Energy,200,0,
+AU-2022-26,Warrego Energy Limited,WGO,2022-12-19,superseded_by_rival,Warrego Energy,200,1,STRIKE ENERGY LIMITED
+AU-2022-27,OZ Minerals Limited,OZL,2022-12-22,completed,OZ Minerals,200,23,OZ Minerals Ltd
+AU-2023-01,Breaker Resources NL,BRB,2023-03-20,completed,Breaker Resources,200,0,
+AU-2023-02,Healius Limited,HLS,2023-03-20,withdrawn,Healius,200,28,HEALIUS LIMITED
+AU-2023-03,Origin Energy Limited,ORG,2023-03-27,terminated,Origin Energy,200,9,ORIGIN ENERGY LIMITED
+AU-2023-04,Blackmores Limited,BKL,2023-04-27,completed,Blackmores,200,2,Blackmores Ltd
+AU-2023-05,Newcrest Mining Limited,NCM,2023-05-15,completed,Newcrest Mining,200,10,Newcrest Mining Ltd
+AU-2023-06,SILK Laser Australia Limited,SLA,2023-06-26,completed,SILK Laser,200,0,
+AU-2023-07,Essential Metals Limited,ESS,2023-07-03,completed,Essential Metals,200,0,
+AU-2023-08,Musgrave Minerals Limited,MGV,2023-07-03,completed,Musgrave Minerals,200,0,
+AU-2023-09,Estia Health Limited,EHE,2023-08-07,completed,Estia Health,200,4,Estia Health Ltd
+AU-2023-10,InvoCare Limited,IVC,2023-08-09,completed,InvoCare,200,18,Invocare Ltd
+AU-2023-11,Talon Energy Ltd,TPD,2023-08-14,completed,Talon Energy,200,0,
+AU-2023-12,Healthia Limited,HLA,2023-08-31,completed,Healthia,200,6,Healthia Ltd
+AU-2023-13,Costa Group Holdings Limited,CGC,2023-09-22,completed,Costa,200,0,
+AU-2023-14,Azure Minerals Limited,AZS,2023-10-26,completed,Azure Minerals,200,8,Azure Minerals Ltd
+AU-2023-15,Symbio Holdings Limited,SYM,2023-11-01,completed,Symbio,200,0,
+AU-2023-16,Volpara Health Technologies Limited,VHT,2023-12-14,completed,Volpara Health Technologies,200,0,
+AU-2023-17,Link Administration Holdings Limited,LNK,2023-12-18,completed,Link Administration,200,64,Link Administration Hldg Ltd
+AU-2023-18,Probiotec Limited,PBP,2023-12-22,completed,Probiotec,200,2,Probiotec Ltd
+AU-2023-19,OreCorp Limited,ORR,2023-12-27,superseded_by_rival,OreCorp,200,1,PERSEUS MINING LIMITED
+AU-2024-01,OreCorp Limited,ORR,2024-01-22,completed,OreCorp,200,1,PERSEUS MINING LIMITED
+AU-2024-02,Silver Lake Resources Limited,SLR,2024-02-05,completed,Silver Lake Resources,200,1,VAULT MINERALS LIMITED
+AU-2024-03,Altium Limited,ALU,2024-02-15,completed,Altium,200,0,
+AU-2024-04,Alumina Limited,AWC,2024-02-26,completed,Alumina,200,0,
+AU-2024-05,CSR Limited,CSR,2024-02-26,completed,CSR,200,23,CSR Ltd
+AU-2024-06,Adbri Limited,ABC,2024-02-27,completed,Adbri,200,0,
+AU-2024-07,Genex Power Limited,GNX,2024-04-12,completed,Genex Power,200,0,
+AU-2024-F01,Base Resources Limited,BSE,2024-04-22,completed,Base Resources,200,0,
+AU-2024-08,Pacific Smiles Group Limited,PSQ,2024-04-29,terminated,Pacific Smiles,200,17,Pacific Smiles Group Ltd
+AU-2024-09,APM Human Services International Limited,APM,2024-06-03,completed,APM Human Services,200,0,
+AU-2024-10,Capitol Health Limited,CAJ,2024-07-18,completed,Capitol Health,200,2,Capitol Health Ltd
+AU-2024-11,Latin Resources Limited,LRS,2024-08-15,completed,Latin Resources,200,5,Latin Resources Ltd; PLATINA RESOURCES LIMITED
+AU-2024-12,Auswide Bank Ltd,ABA,2024-08-19,completed,Auswide Bank,200,0,
+AU-2024-13,Hotel Property Investments,HPI,2024-09-09,completed,Hotel Investments,200,2,Hotel Property Investments Ltd
+AU-2024-14,Pacific Smiles Group Limited,PSQ,2024-09-17,completed,Pacific Smiles,200,28,Pacific Smiles Group Ltd
+AU-2024-15,De Grey Mining Limited,DEG,2024-12-02,completed,De Grey Mining,200,7,De Grey Mining Ltd
+AU-2024-16,SG Fleet Group Limited,SGF,2024-12-04,completed,SG Fleet,200,0,
+AU-2024-17,Bigtincan Holdings Limited,BTH,2024-12-05,completed,Bigtincan,200,0,
+AU-2025-01,Dropsuite Limited,DSE,2025-01-28,completed,Dropsuite,200,2,Dropsuite Ltd
+AU-2025-02,Red Hawk Mining Limited,RHK,2025-01-28,completed,Red Hawk Mining,200,1,Red Hawk Mining Limited
+AU-2025-03,Mayne Pharma Group Limited,MYX,2025-02-21,terminated,Mayne Pharma,200,9,MAYNE PHARMA GROUP LIMITED
+AU-2025-04,PointsBet Holdings Limited,PBH,2025-02-26,terminated,PointsBet,200,11,POINTSBET HOLDINGS LIMITED
+AU-2025-05,Spartan Resources Limited,SPR,2025-03-17,completed,Spartan Resources,200,0,
+AU-2025-06,The Reject Shop Limited,TRS,2025-03-27,completed,Reject Shop,200,0,
+AU-2025-07,AVJennings Limited,AVJ,2025-04-01,completed,AVJennings,200,3,Avjennings Ltd
+AU-2025-08,Gold Road Resources Limited,GOR,2025-05-05,completed,Gold Road Resources,200,25,Gold Road Resources Ltd
+AU-2025-09,Domain Holdings Australia Limited,DHG,2025-05-09,completed,Domain,200,2,Domain Holdings Australia Ltd
+AU-2025-10,Envirosuite Limited,EVS,2025-05-12,completed,Envirosuite,200,7,Envirosuite Ltd
+AU-2025-11,New World Resources Limited,NWC,2025-05-21,superseded_by_rival,New World Resources,200,0,
+AU-2025-12,Brickworks Limited,BKW,2025-06-02,completed,Brickworks,200,2,Brickworks Ltd
+AU-2025-13,PointsBet Holdings Limited,PBH,2025-06-20,superseded_by_rival,PointsBet,200,17,BETR ENTERTAINMENT LIMITED; POINTSBET HOLDINGS LIMITED
+AU-2025-14,New World Resources Limited,NWC,2025-06-26,completed,New World Resources,200,0,
+AU-2025-15,PointsBet Holdings Limited,PBH,2025-06-26,completed,PointsBet,200,17,BETR ENTERTAINMENT LIMITED; POINTSBET HOLDINGS LIMITED
+AU-2025-16,Johns Lyng Group Limited,JLG,2025-07-11,completed,Johns Lyng,200,46,Johns LYNG Group Ltd
+AU-2025-17,Reef Casino Trust,RCT,2025-07-14,completed,Reef Casino,200,0,
+AU-2025-18,Insignia Financial Ltd,IFL,2025-07-22,completed,Insignia Financial,200,29,INSIGNIA FINANCIAL LTD
+AU-2025-19,Elanor Commercial Property Fund,ECF,2025-08-04,lapsed,Elanor Commercial,200,0,
+AU-2025-20,Infomedia Ltd,IFM,2025-08-06,completed,Infomedia,200,7,Infomedia Ltd
+AU-2025-21,Lynch Group Holdings Limited,LGL,2025-08-20,completed,Lynch,200,0,
+AU-2025-22,Seven West Media Limited,SWM,2025-09-30,completed,Seven West Media,200,4,Seven West Media Ltd
+AU-2025-23,RPMGlobal Holdings Limited,RUL,2025-10-13,completed,RPMGlobal,200,6,Rpmglobal Holdings Ltd
+AU-2025-24,Apiam Animal Health Limited,AHX,2025-10-22,completed,Apiam Animal Health,200,0,
+AU-2025-25,African Gold Limited,A1G,2025-12-01,completed,African Gold,200,3,AFRICAN GOLD LTD.
+AU-2025-26,National Storage REIT,NSR,2025-12-08,completed,National Storage,200,15,NATIONAL STORAGE REIT
