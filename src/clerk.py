@@ -20,7 +20,7 @@ from ledger import Ledger
 from market_data import CURRENCY, FX, Prices, closed_by, nz_evening_utc, session_open_utc
 from rates import Rates
 
-CAPS = {"deal": 0.04, "special": 0.03, "research": 0.02}   # share of portfolio per position
+CAPS = {"deal": 0.04, "special": 0.03, "research": 0.025}  # share of portfolio per position
 CASH_FLOOR = 0.05
 DRAWDOWN_HALVE, DRAWDOWN_EXIT = 0.08, 0.12
 ORDER_LIFE_SESSIONS = 5                           # an order lapses after 5 sessions that traded ...

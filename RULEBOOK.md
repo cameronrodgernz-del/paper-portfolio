@@ -25,7 +25,7 @@ Money an active sleeve can't use well stays in cash. The core and the rules-only
 ## 3. Limits
 - Per deal: 4% of the portfolio, and the loss if the deal breaks no more than 1% of the portfolio. The break price is the undisturbed price, or lower where the evidence says so.
 - Deals waiting on one regulator, or from one bidder: 10% of the portfolio.
-- Per special situation: 3%. Per research pick: 2%, and at most five companies at once. Per rules-only share: 1%.
+- Per special situation: 3%. Per research pick: 2.5%, and at most five companies at once (the sleeve's 10% binds first). Per rules-only share: 1%.
 - One industry outside the core: 15%.
 - Smallest order: NZ$2,500 on NZX, A$1,500 on ASX, US$500 in the US.
 - Liquidity: no position larger than two sessions' trading at 10% of daily volume, measured on the 20-session median.
@@ -57,13 +57,13 @@ Deal and special situation positions are sized at a quarter of the Kelly stake f
 - It can't be tested on history: Claude knows how these companies' past turned out, so any back-dated deep dive would be fitted to the answer. It is judged going forward, in the practice and counted runs, like the deal sleeve's stated odds.
 - Every pick needs, before any order (src/decide.py refuses a card without them):
   - a deep dive in research/picks/ in the format of research/picks/TEMPLATE.md, from primary sources only (annual and half-year reports, ASX or NZX announcements, the company and share registers, substantial holder notices, director dealings, regulator and court records), with at least two valuation methods, a plain statement of why the market is wrong, and every source linked;
-  - at least three outcomes (bad, middling, good), each with a chance and a price by the resolve date, sized at a quarter of the Kelly stake from them (section 4) and capped at 2% of the portfolio;
+  - at least three outcomes (bad, middling, good), each with a chance and a price by the resolve date, sized at a quarter of the Kelly stake from them (section 4) and capped at 2.5% of the portfolio;
   - at least one dated event expected to show the market is wrong, on or before the resolve date, and an exit rule;
   - a review by a separate agent that hasn't seen the analyst's reasoning, working through docs/RED_TEAM.md, saved in research/red_team/ with a verdict.
 - Off limits: any company on Cam's excluded list (config/judgement_excluded.csv: companies Evergreen advises, has pitched or is pitching, or about which Cam holds information that isn't public). Gaming, wagering and racing picks wait until Cam has confirmed that list. No new position in the 30 sessions after a placement-pattern reopening (section 9, from test 9g).
 - Cam's own calls go in this sleeve too, on the same terms, with his reason in his words on the card (the sector judgement allowance proposal in docs/JUDGEMENT_ALLOWANCE.md is folded in here).
 - Rhythm: a research desk runs weekly (a scheduled task): a screen of candidates (src/research_screen.py), then one or two full deep dives. The evening desk places cards and watches the dated events.
-- Judged on two things across the practice run: money made against the market (VAS for ASX picks, ENZL for NZX picks, both with dividends), and how accurate the stated chances turn out (Brier score). At the 18 December review Cam decides whether it carries into the counted run, and whether the 2% cap rises to 3%.
+- Judged on two things across the practice run: money made against the market (VAS for ASX picks, ENZL for NZX picks, both with dividends), and how accurate the stated chances turn out (Brier score). At the 18 December review Cam decides whether it carries into the counted run, and whether the 2.5% cap rises to 3%.
 - The usual limits apply: one industry outside the core 15%, the liquidity limit, and the fall-from-peak rule (research holdings are sold with the other active sleeves at 8% and 12%).
 
 ### Deal size trial (a forward test, registered 1 Nov 2026 before its first night)
@@ -279,6 +279,7 @@ A missed run is caught up on real prices, and no decision is ever backdated. Cam
 | Date | Change | Why |
 |---|---|---|
 | 2026-10-31 | Version 0 drafted from the build plan | Start of build |
+| 2026-11-01 | Research picks: the cap per pick lifted from 2% to 2.5% of the portfolio; the sleeve stays at 10% and at most five companies | Cam's decision. At 2% (NZ$2,000) no NZX pick could ever be bought, since the smallest NZX order is NZ$2,500 (which keeps NZX brokerage near 1%) |
 | 2026-11-01 | Research picks added (section 5a): up to 10% in at most five overlooked NZX and ASX small and mid caps, 2% each, each bought only after a deep dive from primary sources and a red-team review; special situations cut from 15% to 5% to make room (it holds cash while no type has passed a test). Cam's own calls fold into it on the same terms | Cam asked for deep dives into overlooked small and mid caps; 13 history tests of public-data patterns failed, and this is judged going forward instead, since it can't be fairly tested on the past |
 | 2026-11-01 | Section 9l result: fail. Commonwealth contracts worth at least 5% of the winning company's market value, bought the session after AusTender published them and held 20 sessions (the version tuning picked; both lost in tuning), beat small shares by about 1.1% before costs but lagged them by 1.19% after costs (51 events from 2019, t of -0.41). 168 such contracts since 2013 across 469 matched listed companies; notices for companies with no share count (not in ASIC's files, and EODHD's fundamentals aren't in the plan) were left out, as registered. Not traded | Recorded as the registered test found it (reports/contracts_history.md) |
 | 2026-11-01 | Section 9l: amendments left out, new contract notices only, in tuning and the run alike. Decided when the data arrived and before any result | AusTender's API dates amendments published from July 2020 with migration dates, and later ones possibly with the date of a later edit, so their dates aren't when the market could first see them (data/austender/README.md) |

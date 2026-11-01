@@ -11,7 +11,7 @@ from collections import defaultdict
 from market_data import NZX_SMALL_ORDER_CAP_NZD, nzx_large
 
 KELLY_FRACTION = 0.25
-CAPS = {"deal": 0.04, "special": 0.03, "research": 0.02}
+CAPS = {"deal": 0.04, "special": 0.03, "research": 0.025}
 RESEARCH_MAX_NAMES = 5                    # research picks: at most five companies at once
 BREAK_LOSS_CAP = 0.01                     # loss if a deal breaks: at most 1% of the portfolio
 SLEEVE_MAX = {"core": 0.45, "deal": 0.30, "special": 0.10, "research": 0.10}

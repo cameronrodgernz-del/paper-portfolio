@@ -146,7 +146,7 @@ with tempfile.TemporaryDirectory() as d, tempfile.TemporaryDirectory() as rr:
     good = decide(L, prices, fx, rates, cfg, rc, now, dry_run=True)
     research_words = ("deep dive", "red team", "outcomes", "dated event", "excluded", "wait until Cam", "reopened")
     check("a complete research card has no research refusals", not any(any(w in b for w in research_words) for b in good["breaches"]), good["breaches"])
-    check("a research pick is capped at 2% of the portfolio", good["value_nzd"] <= 0.02 * 100500 + 1, good["value_nzd"])
+    check("a research pick is capped at 2.5% of the portfolio", good["value_nzd"] <= 0.025 * 100500 + 1, good["value_nzd"])
     nodd = decide(L, prices, fx, rates, cfg, dict(rc, deep_dive=""), now, dry_run=True)
     check("a research card with no deep dive is refused", any("deep dive" in b for b in nodd["breaches"]), nodd["breaches"])
     two = decide(L, prices, fx, rates, cfg, dict(rc, outcomes=[[0.6, 3.5], [0.4, 2.5]]), now, dry_run=True)

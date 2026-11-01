@@ -331,7 +331,7 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
     deal_note = ("ASX cash deals failed their history test, so only ASX scrip and NZX deals are traded; US deals wait for their test"
                  if test_failed("asx_cash_deal", ROOT) else None)
     picks = [f for f in os.listdir(os.path.join(ROOT, "research", "picks")) if f.endswith(".md") and f != "TEMPLATE.md"] if os.path.isdir(os.path.join(ROOT, "research", "picks")) else []
-    research_note = (f"{len(picks)} deep dive{'s' if len(picks) != 1 else ''} written; at most five companies, 2% each" if picks
+    research_note = (f"{len(picks)} deep dive{'s' if len(picks) != 1 else ''} written; at most five companies, 2.5% each" if picks
                      else "deep dives into overlooked NZX and ASX small and mid caps; none written yet")
     sleeves["cash"] = rd(latest["cash_nzd_total"] / total, 5)
     review = False
