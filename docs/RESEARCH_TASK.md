@@ -40,8 +40,9 @@ The research funnel (rebuilt 2 November 2026, rulebook section 5a change log):
    in the format of research/facts/TEMPLATE.md, saved as research/facts/<TICKER>.md (NZ_<TICKER>.md for NZX).
    Split them across up to four agents in parallel (the Agent tool), about six each, each given only the
    template, the ranking row and these source notes. Grade each A, B or C as the template says.
-5. Deep dives: up to four a week, from the A grades, largest gap first, varying the sectors; then B grades whose
-   event is now close. Write each in the format of research/picks/TEMPLATE.md, from primary sources only: the ASX or
+5. Deep dives: up to four a week, from the A grades, taking first the ones that lose least if the question goes
+   against us (the sheet's "if it goes against us" gap), varying the sectors; then B grades whose event is now
+   close. The "our way" gap is easy to make large on a distressed company, so it decides the grade, not the order. Write each in the format of research/picks/TEMPLATE.md, from primary sources only: the ASX or
    NZX announcements, the annual and half-year reports, the Companies Office or ASIC register, substantial
    holder notices, director dealings, regulator and court records. Take the price from the latest close
    (data/prices or the exchange). Use at least two valuation methods and show the arithmetic. Cite every
@@ -50,8 +51,8 @@ The research funnel (rebuilt 2 November 2026, rulebook section 5a change log):
    (asx.com.au/asx/v2/statistics/announcements.do, reachable from the shell) lists every document for a company
    and year, and each announcement's terms page carries the direct link; announcements.asx.com.au/asxpdf links,
    aspecthuntley.com.au/asxdata PDFs and the ASX markitdigital API; on the NZX, each nzx.com/announcements/<id>
-   page links its attached PDFs on api.nzx.com, but company announcement lists don't load, so find announcements
-   by search and single pages. The Companies Office search pages are closed to automated access.
+   page links its attached PDFs on api.nzx.com, and nzx.com/companies/<TICKER>/announcements carries the
+   current year's list in the page's data (earlier years by search and single pages). The Companies Office search pages are closed to automated access.
 6. Red team: start a separate agent with the Agent tool. Give it only the deep dive's path and the research
    pick checklist in docs/RED_TEAM.md, not your reasoning beyond the file. It re-checks at least five
    sources, argues against buying, and writes research/red_team/<TICKER>.md ending with a "## Verdict"
