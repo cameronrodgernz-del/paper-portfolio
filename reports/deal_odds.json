@@ -131,7 +131,7 @@
    "median": 125,
    "q1": 107,
    "q3": 155,
-   "n": 179
+   "n": 184
   },
   "scheme|booklet_out": {
    "median": 59,
@@ -143,7 +143,7 @@
    "median": 20,
    "q1": 16,
    "q3": 24,
-   "n": 170
+   "n": 171
   },
   "scheme|court_approved": {
    "median": 14,
@@ -154,20 +154,20 @@
   "scheme|announced|ACCC": {
    "median": 156,
    "q1": 128,
-   "q3": 179,
-   "n": 32
+   "q3": 178,
+   "n": 33
   },
   "scheme|announced|FIRB": {
-   "median": 126,
-   "q1": 105,
-   "q3": 157,
-   "n": 71
+   "median": 125,
+   "q1": 106,
+   "q3": 155,
+   "n": 74
   },
   "scheme|announced|OIO": {
    "median": 135,
-   "q1": 121,
+   "q1": 120,
    "q3": 159,
-   "n": 29
+   "n": 30
   },
   "scheme|announced|overseas": {
    "median": 147,
@@ -182,16 +182,22 @@
    "n": 8
   },
   "full_takeover|announced": {
-   "median": 84,
+   "median": 85,
    "q1": 60,
-   "q3": 123,
-   "n": 45
+   "q3": 133,
+   "n": 46
   },
   "full_takeover|booklet_out": {
-   "median": 53,
-   "q1": 39,
-   "q3": 94,
-   "n": 31
+   "median": 54,
+   "q1": 40,
+   "q3": 105,
+   "n": 32
+  },
+  "full_takeover|announced|FIRB": {
+   "median": 78,
+   "q1": 46,
+   "q3": 137,
+   "n": 5
   },
   "full_takeover|announced|OIO": {
    "median": 123,

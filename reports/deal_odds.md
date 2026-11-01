@@ -27,17 +27,18 @@ Only failures after the stage count against it. A deal with no booklet date coun
 
 | From | Median | Middle half | Deals |
 | --- | --- | --- | --- |
-| scheme, announced | 125 | 107 to 155 | 179 |
+| scheme, announced | 125 | 107 to 155 | 184 |
 | scheme, booklet or target's statement out | 59 | 53 to 69 | 139 |
-| scheme, holders voted for it | 20 | 16 to 24 | 170 |
+| scheme, holders voted for it | 20 | 16 to 24 | 171 |
 | scheme, court approved or unconditional | 14 | 11 to 16 | 168 |
-| scheme, announced, needing ACCC | 156 | 128 to 179 | 32 |
-| scheme, announced, needing FIRB | 126 | 105 to 157 | 71 |
-| scheme, announced, needing OIO | 135 | 121 to 159 | 29 |
+| scheme, announced, needing ACCC | 156 | 128 to 178 | 33 |
+| scheme, announced, needing FIRB | 125 | 106 to 155 | 74 |
+| scheme, announced, needing OIO | 135 | 120 to 159 | 30 |
 | scheme, announced, needing overseas | 147 | 109 to 163 | 31 |
 | scheme, announced, needing no approvals | 108 | 91 to 130 | 8 |
-| full takeover, announced | 84 | 60 to 123 | 45 |
-| full takeover, booklet or target's statement out | 53 | 39 to 94 | 31 |
+| full takeover, announced | 85 | 60 to 133 | 46 |
+| full takeover, booklet or target's statement out | 54 | 40 to 105 | 32 |
+| full takeover, announced, needing FIRB | 78 | 46 to 137 | 5 |
 | full takeover, announced, needing OIO | 123 | 105 to 133 | 5 |
 | full takeover, announced, needing no approvals | 65 | 49 to 84 | 11 |
 

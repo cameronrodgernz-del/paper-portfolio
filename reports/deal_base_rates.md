@@ -2,7 +2,7 @@
 
 350 rows in all (46 NZX, 304 ASX); 9 majority-holder buy-outs left out of the rates. 320 resolved deals and 16 pending.
 
-The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (deals/au_hist/followup): some deals could not be reached on free sources, and 116 rows have fewer than five of the six key fields. Treat the rates as provisional.
+The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (deals/au_hist/followup): some deals could not be reached on free sources, and 115 rows have fewer than five of the six key fields. Treat the rates as provisional.
 
 ## Headline rates
 
