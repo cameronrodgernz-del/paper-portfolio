@@ -22,6 +22,9 @@ What else was found before the sheet ended (for the record, not graded):
 - An unrecognised contingent asset: claims for refunds of US import tariffs paid in FY26, amount not stated [1].
 - On-market sells by the former CFO, Nigel Greenwood: 90,600 shares for NZ$56,408 (11 to 17 Feb 2026) and 112,903 for NZ$74,594 (10 Mar 2026) [17]. Directors took up rights at NZ$0.65 in May 2026 (not on-market) [18]. Director dealings before 2026 were not listed: the NZX company page served only the 2026 announcements.
 
+## 7. Grade
+C, no deep dive: a kill fact applies (too thin to trade, section 1). The board and register changes above are passed to the special situations watch list instead; the same liquidity limit would bind there.
+
 ## Sources
 1. FY26 results: announcement, Annual Report 2026 with audited financial statements, investor presentation and results template, 28 Aug 2026 (NZX 478722): https://api.nzx.com/public/announcement/478722/attachment/475730/478722-475730.pdf ; https://api.nzx.com/public/announcement/478722/attachment/475699/478722-475699.pdf ; https://api.nzx.com/public/announcement/478722/attachment/475700/478722-475700.pdf ; https://api.nzx.com/public/announcement/478722/attachment/475701/478722-475701.pdf
 2. Comvita returns to profit in FY26, 28 Aug 2026 (NZX 478722), as [1]; NZX company page https://www.nzx.com/companies/CVT and instrument page https://www.nzx.com/instruments/CVT (shares on issue, auditor), fetched 2 Nov 2026.
