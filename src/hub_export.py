@@ -529,12 +529,15 @@ def history_tests() -> list[dict]:
         if not res:
             return priced
         ev = first_match(path, r"\|\s*Events\s*\|\s*(\d+)[^|]*\|")
-        mean = first_match(path, r"\|\s*Mean (?:result[^|]*|after costs[^|]*)\|\s*([-+]?[\d.]+%)[^|]*\|")
-        t = first_match(path, r"\|\s*t-statistic\s*\|\s*([-+]?[\d.]+)\s*\|")
+        mean = first_match(path, r"\|\s*Mean (?:monthly result[^|]*|result[^|]*|after costs[^|]*)\|\s*([-+]?[\d.]+%)[^|]*\|")
+        t = first_match(path, r"\|\s*t-statistic(?: \(monthly\))?\s*\|\s*([-+]?[\d.]+)\s*\|")
         qs = first_match(path, r"\|\s*Quarters\s*\|\s*(\d+)[^|]*\|")
         if not mean:                                   # 9f reports a yearly mean in its pass marks
             mean = first_match(path, r"\|\s*Mean yearly result[^|]*\|[^|]*\|\s*([-+]?[\d.]+%)\s*\|")
         ahead = first_match(path, r"\|\s*Picks beat the benchmark[^|]*\|[^|]*\|\s*(\d+ of \d+)\s*\|")
+        few = first_match(path, r"Only (\d+) events")
+        if few and not mean:
+            return f"Only {few} events, too few to test. " + ("Traded." if res == "pass" else "Not traded.")
         bits = [f"{mean} a trade after costs" if mean else "", f"{ev} events" if ev else "", f"{qs} quarters" if qs else "",
                 f"ahead in {ahead} years" if ahead else "", f"t {t}" if t else ""]
         return ", ".join(b for b in bits if b) + (". Traded." if res == "pass" else ". Not traded." if res == "fail" else ".")
@@ -554,7 +557,11 @@ def history_tests() -> list[dict]:
          "detail": outcome(os.path.join(ROOT, "reports", fn), "Waiting for Norgate's whole-market prices").replace("a trade after costs", f"a {unit} against {against} after costs")}
         for name, ref, fn, unit, against in (("Shares left behind when a deal fails", "9d", "failed_deal_history.md", "deal", "the market"),
                                              ("A model of the next takeover target", "9e", "target_model_history.md", "quarter", "the market"),
-                                             ("The June tax-year sell-off", "9f", "june_selloff_history.md", "year", "small shares"))]
+                                             ("The June tax-year sell-off", "9f", "june_selloff_history.md", "year", "small shares"),
+                                             ("Placement flippers", "9g", "placement_history.md", "trade", "small shares"),
+                                             ("Listed options below their value", "9h", "listed_options_history.md", "trade", "the money laid out"),
+                                             ("Short sellers covering", "9i", "short_cover_history.md", "month", "shorted shares"),
+                                             ("Franked special dividends in schemes", "9j", "scheme_special_history.md", "scheme", "holding"))]
 
 
 def feeds_section() -> dict:

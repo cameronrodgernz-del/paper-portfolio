@@ -19,6 +19,10 @@ The practice run was brought forward to start on 2 November 2026, at Cam's reque
 | 10b | History test: shares left behind when a deal fails (9d) | Done: failed | +3.07% a deal against the market after costs but median -2.96%, 22 events from 2016, t 0.46. Not traded |
 | 10c | History test: a model of the next takeover target (9e) | Done: failed | -3.09% a quarter against the market after costs, 30 quarters from 2019, t -2.01. Its picks were bid 3.7 times as often as the market but lost more than the bids made. Not traded |
 | 10d | History test: the June tax-year sell-off (9f) | Done: failed | Ahead of small shares in 4 of 9 years from 2018; the +2.96% yearly mean came from two years. Not traded |
+| 10e | History test: placement flippers (9g) | Done: failed | -3.20% a trade against small shares after costs, 531 events from 2018, t -4.89. Shares keep lagging after a raising |
+| 10f | History test: listed options below their value (9h) | Done: failed | Only 11 events in tradable shares, and they lost money |
+| 10g | History test: short sellers covering (9i) | Done: failed | -1.17% a month against shorted shares after costs, 104 months from 2018, t -2.24 |
+| 10h | History test: franked special dividends in schemes (9j) | Done: failed | Selling before the ex-date did worse in 36 of 42 schemes; prices fell by about the cash dividend |
 | 11 | Hedging, passive comparisons, monthly report | Done | Tested on October prices |
 | 12 | Evening desk as a scheduled task | Done | Switched on 1 November: weekdays 9:45pm NZ, first run Monday 2 November (docs/DESK_TASK.md) |
 | 13 | Nightly copy to Google Drive | Needs a 5-minute setup | docs/DRIVE_BACKUP.md |
