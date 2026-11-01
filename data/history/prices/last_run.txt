@@ -1,95 +1,50 @@
 run 2026-11-01
-US:CBAY +2471
-US:CBDC +991
-US:CBPX +1431
-US:CCC +1319
-US:CCF +2383
-US:CCXI +184
-US:CDMO +1780
-US:CDOR +1918
-US:CDR +2072
-US:CERN +2039
-US:CETV +1605
-US:CFMS +2059
-US:CGNT +1444
-US:CHNG +824
-US:CHUBA +461
-US:CI +3124
-US:CIFC +87
-US:CINC +284
-US:CKPT +2123
-US:CLC +716
-US:CLCT +1685
-US:CMRX +2920
-US:COVS +796
-US:CPGX +254
-US:CPHD +615
-US:CPRI +3124
-US:CRHM +1418
-US:CTIC +2283
-US:CUO +1502
-US:CVRS +1313
-US:CXDC +2192
-US:CY +1480
-US:CYT +391
-US:DBTX +658
-US:DCPH +1872
-US:DNB +1294
-US:DRII +170
-US:DRRX +2838
-US:DTLK +658
-US:DTSI +634
-US:EA +3062
-US:ECHO +3124
-US:ECOM +2132
-US:EDE +257
-US:EEI +1407
+US:EIGI +1687
+US:ELME +0
+US:ELRC +154
+US:EMBK +626
+US:ENFC +1322
+US:ENTL +92
+US:ENVI +355
+US:ESIO +1177
+US:ETNB +1501
+US:EVOK +2906
+US:EXAR +785
+US:EXXI +779
+US:FARO +2801
+US:FCS +181
+US:FCTY +105
+US:FIT +1405
+US:FMI +1058
+US:FNA +1062
+US:FOR +3124
+US:FORG +488
+US:FPO +855
+US:FRG +3
+US:FSCT +705
+US:FSTX +1722
+US:FTSI +1029
+US:FYBR +1184
+US:GAN +183
+US:GBT +1802
+US:GI +373
+US:GLUU +1741
+US:GNMK +1736
+US:GNW +3124
+US:GPIC +1238
+US:GPX +1858
+US:GTHX +1847
+US:GTYH +1426
+US:GUID +830
+US:GV +1728
+US:GVP +2625
+US:HA +2593
+US:HABT +1340
+US:HARP +1280
+US:HAYN +2639
+US:HCCI +2362
+US:HDNG +1006
 PROBLEMS:
-EIGI: Tiingo hourly budget used
-ELME: Tiingo hourly budget used
-ELRC: Tiingo hourly budget used
-EMBK: Tiingo hourly budget used
-ENFC: Tiingo hourly budget used
-ENTL: Tiingo hourly budget used
-ENVI: Tiingo hourly budget used
-ESIO: Tiingo hourly budget used
-ETNB: Tiingo hourly budget used
-EVOK: Tiingo hourly budget used
-EXAR: Tiingo hourly budget used
-EXXI: Tiingo hourly budget used
-FARO: Tiingo hourly budget used
-FCS: Tiingo hourly budget used
-FCTY: Tiingo hourly budget used
-FIT: Tiingo hourly budget used
-FMI: Tiingo hourly budget used
-FNA: Tiingo hourly budget used
-FOR: Tiingo hourly budget used
-FORG: Tiingo hourly budget used
-FPO: Tiingo hourly budget used
-FRG: Tiingo hourly budget used
-FSCT: Tiingo hourly budget used
-FSTX: Tiingo hourly budget used
-FTSI: Tiingo hourly budget used
-FYBR: Tiingo hourly budget used
-GAN: Tiingo hourly budget used
-GBT: Tiingo hourly budget used
-GI: Tiingo hourly budget used
-GLUU: Tiingo hourly budget used
-GNMK: Tiingo hourly budget used
-GNW: Tiingo hourly budget used
-GPIC: Tiingo hourly budget used
-GPX: Tiingo hourly budget used
-GTHX: Tiingo hourly budget used
-GTYH: Tiingo hourly budget used
-GUID: Tiingo hourly budget used
-GV: Tiingo hourly budget used
-GVP: Tiingo hourly budget used
-HA: Tiingo hourly budget used
-HABT: Tiingo hourly budget used
-HARP: Tiingo hourly budget used
-HAYN: Tiingo hourly budget used
-HCCI: Tiingo hourly budget used
-HDNG: Tiingo hourly budget used
 HGR: Tiingo hourly budget used
 HIIQ: Tiingo hourly budget used
 HLSS: Tiingo hourly budget used
