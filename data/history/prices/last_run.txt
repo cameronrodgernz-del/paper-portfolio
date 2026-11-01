@@ -1,76 +1,31 @@
 run 2026-11-01
-US:SQNM +574
-US:SQSP +861
-US:SRCL +2626
-US:SSNI +908
-US:STFC +1952
-US:STML +1518
-US:STMP +1851
-US:STND +1762
-US:SUMO +669
-US:SVT +2788
-US:SWAV +1319
-US:SWCH +1300
-US:SYUT +751
-US:TENG +331
-US:TERP +1521
-US:TESS +2297
-US:TFM +0
-US:TGAN +986
-US:THOR +92
-US:THRX +592
-US:THS +2943
-US:TIF +1665
-US:TLMD +554
-US:TLND +1266
-US:TMH +137
-US:TNAV +1691
-US:TOWR +1349
-US:TRAK +857
-US:TRCO +1342
-US:TREC +2033
-US:TRK +1334
-US:TSRO +1168
-US:TTPH +1551
-US:TVTY +2050
-US:TWTR +2120
-US:TYPE +1352
-US:UFS +1890
-US:ULTI +251
-US:UNTD +528
-US:UNVR +2043
-US:UQM +1301
-US:USAP +2679
-US:USX +105
-US:UTEK +759
-US:UVIC +0
-PROBLEMS:
-UWN: Tiingo hourly budget used
-VAR: Tiingo hourly budget used
-VASC: Tiingo hourly budget used
-VASO: Tiingo hourly budget used
-VCRA: Tiingo hourly budget used
-VG: Tiingo hourly budget used
-VLY: Tiingo hourly budget used
-VMEO: Tiingo hourly budget used
-VRNT: Tiingo hourly budget used
-VRTU: Tiingo hourly budget used
-VSLR: Tiingo hourly budget used
-VTNR: Tiingo hourly budget used
-WAGE: Tiingo hourly budget used
-WAIR: Tiingo hourly budget used
-WBA: Tiingo hourly budget used
-WBC: Tiingo hourly budget used
-WBT: Tiingo hourly budget used
-WH: Tiingo hourly budget used
-WMAR: Tiingo hourly budget used
-WSCI: Tiingo hourly budget used
-WTRE: Tiingo hourly budget used
-XENT: Tiingo hourly budget used
-XRX: Tiingo hourly budget used
-Y: Tiingo hourly budget used
-ZEN: Tiingo hourly budget used
-ZEP: Tiingo hourly budget used
-ZIMV: Tiingo hourly budget used
-ZOES: Tiingo hourly budget used
-ZUO: Tiingo hourly budget used
+US:UWN +1269
+US:VAR +1732
+US:VASC +285
+US:VASO +3118
+US:VCRA +1948
+US:VG +445
+US:VLY +3124
+US:VMEO +1132
+US:VRNT +2890
+US:VRTU +1688
+US:VSLR +1518
+US:VTNR +0
+US:WAGE +1323
+US:WAIR +1413
+US:WBA +2829
+US:WBC +1509
+US:WBT +1623
+US:WH +2122
+US:WMAR +831
+US:WSCI +1120
+US:WTRE +3124
+US:XENT +1991
+US:XRX +3124
+US:Y +2120
+US:ZEN +2136
+US:ZEP +276
+US:ZIMV +1095
+US:ZOES +1130
+US:ZUO +1723
+no problems
