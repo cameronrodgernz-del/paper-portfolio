@@ -85,8 +85,8 @@ def main(out: str) -> int:
         nm = (t.get("name") or "") + " " + (t.get("code") or "")
         low = nm.lower()
         if any(w in low for w in ("shareholding", "substantial", "m&a", "takeover", "merger", "acquisition", "delist", "director", "trading halt", "strategic review")):
-            wanted[t.get("id")] = t.get("name") or t.get("code")
-    L += ["| Type id | Name |", "| --- | --- |"] + [f"| {k} | {v} |" for k, v in wanted.items()] + [""]
+            wanted[t.get("code") or t.get("id")] = t.get("name") or t.get("code")   # the filings filter takes codes
+    L += ["| Type code | Name |", "| --- | --- |"] + [f"| {k} | {v} |" for k, v in wanted.items()] + [""]
 
     # 2. for the two types the tests need, filings per year in Australia (up to 100 a year shown)
     def pick(*words):
