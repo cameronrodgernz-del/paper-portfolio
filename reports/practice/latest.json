@@ -1,0 +1,34 @@
+{
+ "ledger": "practice",
+ "date": "2026-11-02",
+ "total_nzd": 99985.0,
+ "total_unhedged_nzd": 99985.0,
+ "peak_nzd": 99985.0,
+ "drawdown": 0.0,
+ "by_sleeve": {},
+ "cash_nzd": {
+  "NZD": 99985.0
+ },
+ "positions": [],
+ "flags": [],
+ "hedge_mtm_nzd": 0,
+ "history": [
+  {
+   "date": "2026-11-02",
+   "total_nzd": 99985.0,
+   "total_unhedged_nzd": 99985.0
+  }
+ ],
+ "chain": {
+  "decisions": "ok",
+  "orders": "ok",
+  "fills": "ok",
+  "cash": "ok",
+  "corporate_actions": "ok",
+  "valuations": "ok",
+  "calls": "ok",
+  "hedges": "ok"
+ },
+ "cash_rate_basis": "NZ 3-month bank rate less 1 point",
+ "written_utc": "2026-11-02T08:38:58+00:00"
+}

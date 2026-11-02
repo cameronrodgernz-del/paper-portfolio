@@ -1,0 +1,323 @@
+{
+ "registered": "2026-11-01",
+ "positions": {
+  "AU-2026-16": {
+   "deal_id": "AU-2026-16",
+   "track": "AU-2026-16",
+   "market": "ASX",
+   "ticker": "BET",
+   "ccy": "AUD",
+   "decided": "2026-11-02",
+   "decided_at_utc": "2026-11-02T08:38:58.452978+00:00",
+   "status": "ordered",
+   "at_entry": {
+    "price": 0.22,
+    "offer": 0.24,
+    "break": 0.1575,
+    "base_rate": 0.8823,
+    "implied": 0.7575757575757577,
+    "expected": 0.03296654881961542,
+    "cash": 0.018806746206028624,
+    "expected_payment": "2027-03-31",
+    "structure": "scheme"
+   },
+   "terms": {
+    "cash_per_share": "0.24",
+    "cash_ccy": "AUD",
+    "scrip_ratio": "0",
+    "acquirer_market": "",
+    "acquirer_ticker": "",
+    "target_market": "ASX"
+   },
+   "books": {
+    "large": {
+     "order_value": 10000.0,
+     "qty_ordered": 45454,
+     "fills": [],
+     "divs": [],
+     "exit": null
+    },
+    "small": {
+     "order_value": 3000.0,
+     "qty_ordered": 13636,
+     "fills": [],
+     "divs": [],
+     "exit": null
+    }
+   },
+   "flags": []
+  },
+  "AU-2026-18": {
+   "deal_id": "AU-2026-18",
+   "track": "AU-2026-18",
+   "market": "ASX",
+   "ticker": "AUC",
+   "ccy": "AUD",
+   "decided": "2026-11-02",
+   "decided_at_utc": "2026-11-02T08:38:58.452978+00:00",
+   "status": "ordered",
+   "at_entry": {
+    "price": 1.16,
+    "offer": 1.2063,
+    "break": 1.0325,
+    "base_rate": 0.8581,
+    "implied": 0.7336018411967777,
+    "expected": 0.012316727119093946,
+    "cash": 0.004888765888432678,
+    "expected_payment": "2026-12-11",
+    "structure": "scheme"
+   },
+   "terms": {
+    "cash_per_share": "0.3395",
+    "cash_ccy": "AUD",
+    "scrip_ratio": "0.02525",
+    "acquirer_market": "US",
+    "acquirer_ticker": "OGC",
+    "target_market": "ASX"
+   },
+   "books": {
+    "large": {
+     "order_value": 10000.0,
+     "qty_ordered": 8620,
+     "fills": [],
+     "divs": [],
+     "exit": null
+    },
+    "small": {
+     "order_value": 3000.0,
+     "qty_ordered": 2586,
+     "fills": [],
+     "divs": [],
+     "exit": null
+    }
+   },
+   "flags": []
+  },
+  "AU-2026-21": {
+   "deal_id": "AU-2026-21",
+   "track": "AU-2026-21",
+   "market": "ASX",
+   "ticker": "RWC",
+   "ccy": "AUD",
+   "decided": "2026-11-02",
+   "decided_at_utc": "2026-11-02T08:38:58.452978+00:00",
+   "status": "ordered",
+   "at_entry": {
+    "price": 4.44,
+    "offer": 4.8128,
+    "break": 3.5137,
+    "base_rate": 0.8717,
+    "implied": 0.7130320991455625,
+    "expected": 0.04203474286639722,
+    "cash": 0.005768763165926671,
+    "expected_payment": "2026-12-18",
+    "structure": "scheme"
+   },
+   "terms": {
+    "cash_per_share": "3.38",
+    "cash_ccy": "USD",
+    "scrip_ratio": "0",
+    "acquirer_market": "",
+    "acquirer_ticker": "",
+    "target_market": "ASX"
+   },
+   "books": {
+    "large": {
+     "order_value": 10000.0,
+     "qty_ordered": 2252,
+     "fills": [],
+     "divs": [],
+     "exit": null
+    },
+    "small": {
+     "order_value": 3000.0,
+     "qty_ordered": 675,
+     "fills": [],
+     "divs": [],
+     "exit": null
+    }
+   },
+   "flags": []
+  },
+  "AU-2026-22": {
+   "deal_id": "AU-2026-22",
+   "track": "AU-2026-22",
+   "market": "ASX",
+   "ticker": "MEI",
+   "ccy": "AUD",
+   "decided": "2026-11-02",
+   "decided_at_utc": "2026-11-02T08:38:58.452978+00:00",
+   "status": "ordered",
+   "at_entry": {
+    "price": 0.22,
+    "offer": 0.2509,
+    "break": 0.1691,
+    "base_rate": 0.9557,
+    "implied": 0.6222493887530561,
+    "expected": 0.11033251458245477,
+    "cash": 0.01549974341267335,
+    "expected_payment": "2027-03-05",
+    "structure": "scheme"
+   },
+   "terms": {
+    "cash_per_share": "0",
+    "cash_ccy": "AUD",
+    "scrip_ratio": "0.0207",
+    "acquirer_market": "ASX",
+    "acquirer_ticker": "LYC",
+    "target_market": "ASX"
+   },
+   "books": {
+    "large": {
+     "order_value": 10000.0,
+     "qty_ordered": 45454,
+     "fills": [],
+     "divs": [],
+     "exit": null
+    },
+    "small": {
+     "order_value": 3000.0,
+     "qty_ordered": 13636,
+     "fills": [],
+     "divs": [],
+     "exit": null
+    }
+   },
+   "flags": []
+  },
+  "AU-2026-25": {
+   "deal_id": "AU-2026-25",
+   "track": "AU-2026-25",
+   "market": "ASX",
+   "ticker": "A11",
+   "ccy": "AUD",
+   "decided": "2026-11-02",
+   "decided_at_utc": "2026-11-02T08:38:58.452978+00:00",
+   "status": "ordered",
+   "at_entry": {
+    "price": 0.32,
+    "offer": 0.3629,
+    "break": 0.2815,
+    "base_rate": 0.9702,
+    "implied": 0.47297297297297325,
+    "expected": 0.10940693492400483,
+    "cash": 0.007405088858370101,
+    "expected_payment": "2026-12-31",
+    "structure": "scheme"
+   },
+   "terms": {
+    "cash_per_share": "0.25486",
+    "cash_ccy": "USD",
+    "scrip_ratio": "0",
+    "acquirer_market": "",
+    "acquirer_ticker": "",
+    "target_market": "ASX"
+   },
+   "books": {
+    "large": {
+     "order_value": 10000.0,
+     "qty_ordered": 31250,
+     "fills": [],
+     "divs": [],
+     "exit": null
+    },
+    "small": {
+     "order_value": 3000.0,
+     "qty_ordered": 9375,
+     "fills": [],
+     "divs": [],
+     "exit": null
+    }
+   },
+   "flags": []
+  },
+  "AU-2026-27": {
+   "deal_id": "AU-2026-27",
+   "track": "AU-2026-27",
+   "market": "ASX",
+   "ticker": "GL1",
+   "ccy": "AUD",
+   "decided": "2026-11-02",
+   "decided_at_utc": "2026-11-02T08:38:58.452978+00:00",
+   "status": "ordered",
+   "at_entry": {
+    "price": 0.91,
+    "offer": 1.15,
+    "break": 0.6655,
+    "base_rate": 0.8346,
+    "implied": 0.5046439628482974,
+    "expected": 0.16772604874315553,
+    "cash": 0.009296465305265622,
+    "expected_payment": "2027-01-15",
+    "structure": "scheme"
+   },
+   "terms": {
+    "cash_per_share": "1.15",
+    "cash_ccy": "AUD",
+    "scrip_ratio": "0",
+    "acquirer_market": "",
+    "acquirer_ticker": "",
+    "target_market": "ASX"
+   },
+   "books": {
+    "large": {
+     "order_value": 10000.0,
+     "qty_ordered": 10989,
+     "fills": [],
+     "divs": [],
+     "exit": null
+    },
+    "small": {
+     "order_value": 3000.0,
+     "qty_ordered": 3296,
+     "fills": [],
+     "divs": [],
+     "exit": null
+    }
+   },
+   "flags": []
+  }
+ },
+ "watch": {
+  "AU-2026-13": {
+   "ticker": "AX1",
+   "date": "2026-11-02",
+   "why": "no break price or base rate"
+  },
+  "AU-2026-14": {
+   "ticker": "VAU",
+   "date": "2026-11-02",
+   "why": "expected -1.55% after costs, cash +0.30%"
+  },
+  "AU-2026-17": {
+   "ticker": "OML",
+   "date": "2026-11-02",
+   "why": "expected -2.67% after costs, cash +0.48%"
+  },
+  "AU-2026-19": {
+   "ticker": "SDF",
+   "date": "2026-11-02",
+   "why": "expected -1.53% after costs, cash +0.63%"
+  },
+  "AU-2026-20": {
+   "ticker": "PPC",
+   "date": "2026-11-02",
+   "why": "price outside the range from the break price to the offer"
+  },
+  "AU-2026-23": {
+   "ticker": "CWY",
+   "date": "2026-11-02",
+   "why": "expected -1.54% after costs, cash +1.88%"
+  },
+  "AU-2026-24": {
+   "ticker": "FPR",
+   "date": "2026-11-02",
+   "why": "expected -1.33% after costs, cash +1.88%"
+  },
+  "AU-2026-26": {
+   "ticker": "RTH",
+   "date": "2026-11-02",
+   "why": "expected -2.04% after costs, cash +1.26%"
+  }
+ }
+}

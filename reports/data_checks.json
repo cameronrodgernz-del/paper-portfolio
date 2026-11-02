@@ -1,25 +1,7 @@
 {
- "run": "2026-11-01",
- "checked": 28,
+ "run": "2026-11-02",
+ "checked": 30,
  "issues": [
-  {
-   "kind": "missing",
-   "market": "ASX",
-   "ticker": "A11",
-   "text": "ASX:A11 has no price file"
-  },
-  {
-   "kind": "missing",
-   "market": "ASX",
-   "ticker": "GL1",
-   "text": "ASX:GL1 has no price file"
-  },
-  {
-   "kind": "missing",
-   "market": "US",
-   "ticker": "OGC",
-   "text": "US:OGC has no price file"
-  },
   {
    "kind": "jump_deal",
    "market": "ASX",
@@ -27,6 +9,13 @@
    "date": "2026-10-19",
    "move": 0.8519,
    "text": "ASX:RTH moved +85% on 2026-10-19 (deal announced then)"
+  },
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "OML",
+   "date": "2026-11-02",
+   "text": "OML: the meeting was on 2026-11-02, after its deal file was last checked (2026-11-01); update the stage and dates"
   }
  ]
 }

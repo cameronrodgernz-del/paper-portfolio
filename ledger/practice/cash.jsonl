@@ -1,0 +1,2 @@
+{"hash":"f2e273af8f21ffd39f660219c190a1da8933fbb87f9c8af4d5adfe86d4a7b97a","payload":{"amount":100000.0,"ccy":"NZD","kind":"deposit"},"prev_hash":"genesis","seq":1,"table":"cash","ts_utc":"2026-11-01T11:00:00Z","written_utc":"2026-11-02T08:38:58+00:00"}
+{"hash":"361a12a722f8746187e6b3abb22fe85595b71b7adeffbc7f22b6177982c2a0eb","payload":{"amount":-15.0,"ccy":"NZD","kind":"plan_fee","month":"2026-11"},"prev_hash":"f2e273af8f21ffd39f660219c190a1da8933fbb87f9c8af4d5adfe86d4a7b97a","seq":2,"table":"cash","ts_utc":"2026-11-02T08:00:00Z","written_utc":"2026-11-02T08:38:58+00:00"}
