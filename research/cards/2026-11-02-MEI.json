@@ -1,0 +1,41 @@
+{
+ "sleeve": "deal",
+ "market": "ASX",
+ "ticker": "MEI",
+ "side": "buy",
+ "thesis": "The market's price (A$0.22 against A$0.2509 of Lynas shares at tonight's close) implies about a 62% chance of completion, while 90% of announced ASX schemes have paid and this one has a strategic bidder already funding the target (A$35m loan drawn 6 Oct), a unanimous board, no FIRB or ACCC condition and an A$8.8m reverse fee if Brazil refuses. The gap reflects real doubt about Brazil's new critical minerals council (CIMCE), which has no procedure or deadline yet; the card takes most of that doubt (cut to 78%) and still finds the price too low, though by less than the base rate shows.",
+ "outcomes": [
+  [
+   0.78,
+   0.2509
+  ],
+  [
+   0.22,
+   0.1691
+  ]
+ ],
+ "complete_price": 0.2509,
+ "break_price": 0.1691,
+ "resolve_by": "2027-04-30",
+ "exit_rule": "exit on completion (paid in Lynas shares, sold or held as a fresh decision), on termination or a CIMCE refusal (sell from the next session), or on a rival bid (fresh decision). Re-test the card if the CIMCE rules are published, if the End Date is extended past 1 Apr 2027, or if the expert's report says not in the best interests.",
+ "industry": "materials",
+ "group": "Brazil CIMCE",
+ "base_rate": 0.9557,
+ "base_note": "90% of 232 schemes announced, +5 points for this deal's features",
+ "adjustments": [
+  "start: 95.6% (90% of 232 announced schemes paid, +5 points for this deal's features)",
+  "Brazil CIMCE homologation (new body, no rules, no deadline, foreign buyer of a rare earths asset; Lynas can walk from a materially burdensome condition): -10 points",
+  "vote: retail-heavy register, only 9.3% with stated intentions, and a fixed ratio so a falling Lynas price cuts the value: -3 points",
+  "independent expert not yet appointed publicly; value has fallen from A$0.286 to A$0.25 since announcement: -2 points",
+  "Caldeira installation licence delayed to early 2027, a possible material adverse effect argument: -2 points",
+  "no ACCC or FIRB condition and the bidder is already funding the target: no change (already in the feature model)",
+  "result: 78%"
+ ],
+ "market_implied_now": 0.6224,
+ "limit": null,
+ "value_nzd": null,
+ "notes": "Completion price assumes Lynas flat at tonight's close; the position carries Lynas price risk that cannot be hedged (no shorting). Resolve date set to 30 Apr 2027, between the indicative early-March implementation and the 1 Apr End Date, since the deal file puts a 50% chance on a slip past early March.",
+ "red_team": "research/red_team/MEI-2026-11-02.md",
+ "status": "waiting",
+ "status_reason": "Not placed on 2 Nov 2026. Dry run passed (stake NZ$3,999, 7.8% a year expected against a 2.1% cash rate, no breaches), but the red team's verdict was wait: the 14% gap opened only when Lynas rose 16% on 26 to 29 Oct and Meteoric didn't follow, so it is mostly unhedgeable Lynas price risk; Brazil's CIMCE has no rules or deadline, so payment near 1 Jul 2027 is likelier than 30 Apr; and Lynas is down 12% since the undisturbed date, which puts the break nearer A$0.15, where a 4% stake would lose 1.27% of the portfolio, over the 1% limit. Re-test when Lynas or Meteoric announces the CIMCE filing with an expected decision date, or a ruling that the regime doesn't apply (expected around mid-Dec 2026), with a A$0.15 break price, a 30 Jun 2027 resolve date and at most 3%."
+}

@@ -55,3 +55,25 @@ first proposal), AUC 14 Aug, SDF 9 Jun (before the NBIO), MEI 30 Sep, CWY 12 Aug
 and FPR 31 Jul (before SG Fleet's approach). PPC: A$1.81 (21 Aug) to A$1.70, the close on 9 Jul,
 the undisturbed date Peet's own presentation uses, before the first approach on 10 Jul. AX1 has no
 break price (an unconditional on-market bid). From the independent review of 1 Nov, finding 4.
+
+## 2026-11-02, First practice night: oOh!media vote passed; Meteoric card held back on the red team's advice; nothing placed
+
+Checked:
+- All 16 test files in tests/ pass under python3 -I.
+- Tonight's "Nightly data 2026-11-02" commit landed at 21:38 NZDT, with the practice ledger's first valuation (NZ$99,985 after the November plan fee) and the three core buys placed by rule for tomorrow's open (72 VT, 73 VAS, 125 ENZL). src/actions.py check: nothing missing.
+- reports/data_checks.md: RTH's +85% on 19 Oct is the PA Media scheme announcement, not a bad price. The OML "deal file" finding (meeting on 2 Nov after the file was checked) is dealt with below.
+- Scan of the 13 live ASX deals for anything new on 2 Nov. The ASX announcement list pages could not be opened from tonight's session (the fetch tool needed an approval no one was there to give), so the scan used news searches and InvestSMART's announcement lists where search returned them (OML, PPC). Nothing new found for AX1, VAU, BET, AUC, SDF, PPC, RWC, MEI, CWY, FPR, A11, RTH or GL1; their files keep their 1 Nov check date. No new binding ASX or NZX control deal of A$100m (NZ$20m) or more found. KMD Brands has takeover talk only (non-binding), so not added.
+
+Changed:
+- OML (oOh!media, I Squared scheme at A$1.68): holders approved the scheme at the 2 Nov meeting, 99.89% of votes cast (273,040,211 for, 292,222 against) and 90.53% of holders present and voting. Stage booklet_out to vote_passed; holder approval moved from open to met. Timetable unchanged: Second Court Date 18 Nov, effective 19 Nov, record 3 Dec, payment 10 Dec. FIRB still the one open approval (deadline 13 Nov). Source: oOh!'s Chair's address of 2 Nov (InvestSMART's OML list) and Kalkine's report of the results release (https://kalkinemedia.com/au/news/announcements/oohmedia-shareholders-approve-i-squared-capital-acquisition-scheme-with-9989-support); the ASX release itself couldn't be opened tonight and is to be confirmed. Carried into config/live_deals.csv with src/deal_files.py.
+- src/deal_files.py again reports AUC's file (default all scrip, 0.03365) differs from the row (the all-elect-cash mix, A$0.3395 plus 0.02525 OGC). Kept the row as decided on 1 Nov.
+- Deal database unchanged (no deal completed or ended), so the base rates and odds were not rerun. Deal monitor rerun.
+
+Analysed, in order of expected_yearly:
+- GL1, A11, RWC, BET, RTH, FPR, CWY, OML, SDF: cash deals, not placed (test 9c failed). No cards.
+- MEI (Lynas scrip scheme, 0.0207 LYC): card research/cards/2026-11-02-MEI.json, base 95.6% cut to 78% (Brazil CIMCE -10, vote -3, expert -2, licence delay -2). decide.py dry run passed: NZ$3,999 (4% cap), 7.8% a year expected after costs against a 2.1% cash rate, no breaches. Red team (research/red_team/MEI-2026-11-02.md): wait. The gap opened only when Lynas rose 16% on 26 to 29 Oct and Meteoric didn't follow, so it is mostly Lynas price risk that can't be hedged; the CIMCE has no rules or deadline, so payment near 1 Jul 2027 is likelier than 30 Apr; Lynas is down 12% since the undisturbed date, putting the break nearer A$0.15, where a 4% stake would lose 1.27% of the portfolio, over the 1% limit. Not placed; card status "waiting". Re-test when a CIMCE filing with an expected decision date, or a ruling that the regime doesn't apply, is announced (likely around mid-December), with a A$0.15 break, a 30 Jun 2027 resolve date and at most 3%.
+- AUC (OceanaGold mix): 0.5% expected over 39 days at the base rate, little above cash for the time and carrying NYSE OGC price risk; not carded.
+- VAU: below zero at the base rate. PPC: no expected figure (Ingenia's price carries its own bids). AX1: price above the bid.
+- US deals: watched only (9b not passed). Special situations: no type has passed. Research picks: no card is "ready" and none is held.
+
+Placed: nothing by the desk. Only the nightly job's three core buys are waiting for tomorrow's open.

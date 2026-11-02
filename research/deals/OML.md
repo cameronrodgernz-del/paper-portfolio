@@ -21,7 +21,7 @@ record_date: 2026-12-03
 implementation_date: 2026-12-10
 end_date: 2027-05-10
 dates_basis: Scheme Meeting date is confirmed (Court orders of 28 Sep 2026; kept on 30 Oct 2026). Second Court Date, Effective, Record and Implementation dates are the revised indicative timetable of 30 Oct 2026, set around FIRB's extended statutory deadline of 13 Nov 2026. Permitted Dividend record and payment dates (originally 11 and 18 Nov 2026) were not restated on 30 Oct and will presumably move; not yet announced. End Date 10 May 2027 is from the booklet glossary
-stage: booklet_out
+stage: vote_passed
 vote_threshold: At least 75% of votes cast and, unless the Court orders otherwise, a majority by number of holders present and voting
 bidder_stake_pct:                # no BidCo or I Squared holding disclosed
 intentions_pct:                  # directors other than David Ferrarin will vote their shares in favour; holdings not material; no lock-ups disclosed
@@ -31,19 +31,19 @@ ier: Grant Samuel & Associates. Fair and reasonable, so in the best interests of
 break_fee: A$8.9 million payable by oOh! to BidCo in set cases
 reverse_break_fee: A$8.9 million payable by BidCo only if oOh! validly terminates for BidCo's material breach
 regulators: FIRB: outstanding. BidCo applied in August 2026; at FIRB's request I Squared sought, and FIRB granted, an extension of the statutory decision period to 13 Nov 2026; I Squared says it has "no reason to believe that FIRB approval will not be forthcoming or will be materially delayed" (oOh!, 30 Oct 2026). FIRB does not publish individual decisions. NZ OIO: consent granted, condition satisfied (oOh!, 23 Oct 2026). ACCC: determination on 23 Sep 2026 that the deal may be put into effect unconditionally (oOh! 24 Sep 2026; booklet); the 14-day review window then ran with no review application disclosed, and oOh! now lists only FIRB as outstanding. ASIC: booklet registered; Superior Proposal definition amended 28 Aug 2026 after ASIC discussions. Court: first hearing 28 Sep 2026; second hearing 18 Nov 2026
-conditions_open: FIRB no objection; holder approval (2 Nov 2026); Court approval (18 Nov 2026); no regulatory restraint; Independent Expert not changing its conclusion before 8.00am on the Second Court Date; no Material Adverse Change or Prescribed Event; change-of-control consents on certain contracts and no termination of Material Contracts above set thresholds (per the 10 Aug 2026 summary)
-conditions_met: NZ OIO consent (23 Oct 2026); ACCC determination (23 Sep 2026, unconditional); Independent Expert's Report concluding best interests (booklet, 29 Sep 2026)
+conditions_open: FIRB no objection; Court approval (18 Nov 2026); no regulatory restraint; Independent Expert not changing its conclusion before 8.00am on the Second Court Date; no Material Adverse Change or Prescribed Event; change-of-control consents on certain contracts and no termination of Material Contracts above set thresholds (per the 10 Aug 2026 summary)
+conditions_met: Holder approval (2 Nov 2026: 99.89% of votes cast, 90.53% of holders present and voting); NZ OIO consent (23 Oct 2026); ACCC determination (23 Sep 2026, unconditional); Independent Expert's Report concluding best interests (booklet, 29 Sep 2026)
 ticking_fee: A$0.000136 per share per day from and including 31 Dec 2026 to the Implementation Date
-last_checked: 2026-11-01
+last_checked: 2026-11-02
 ---
 ## In short
-I Squared Capital is buying oOh!media by scheme for A$1.68 cash a share; the extra 2c that made up the A$1.70 headline was an interim dividend already paid in September, so it's gone for anyone buying now. Grant Samuel says the deal is fair and reasonable, the ACCC and NZ OIO have cleared it, and the vote is on Monday 2 November 2026 at 11.00am Sydney (1.00pm NZDT); the result isn't out yet. On 30 October oOh! said FIRB is the one approval left: FIRB asked for more time and extended its deadline to 13 November, so the second Court hearing moved from 4 to 18 November and payment moved from 26 November to 10 December 2026. If the board pays the planned A$0.10 franked special dividend, holders get A$1.58 plus A$0.10 rather than A$1.68 in one payment.
+I Squared Capital is buying oOh!media by scheme for A$1.68 cash a share; the extra 2c that made up the A$1.70 headline was an interim dividend already paid in September, so it's gone for anyone buying now. Grant Samuel says the deal is fair and reasonable, the ACCC and NZ OIO have cleared it, and holders approved the scheme on 2 November 2026 (99.89% of votes cast, 90.53% of holders voting). On 30 October oOh! said FIRB is the one approval left: FIRB asked for more time and extended its deadline to 13 November, so the second Court hearing moved from 4 to 18 November and payment moved from 26 November to 10 December 2026. If the board pays the planned A$0.10 franked special dividend, holders get A$1.58 plus A$0.10 rather than A$1.68 in one payment.
 
 ## Conditions
 - FIRB: open. Application lodged August 2026; statutory decision period extended to 13 Nov 2026 at FIRB's request; I Squared expects approval without material delay (oOh!, 30 Oct 2026). Must be in hand before 8.00am on the Second Court Date (18 Nov 2026).
 - NZ OIO consent: satisfied 23 Oct 2026 (oOh! ASX release; SIA clause 3.1(b)).
 - ACCC: satisfied. Determination under s51ABZE(1) on 23 Sep 2026 that the deal may be put into effect unconditionally; condition completes once the 14-day Tribunal review window passes with no application (booklet condition table). oOh! listed FIRB as the only outstanding regulatory approval on 30 Oct 2026.
-- Holder approval: open. Meeting 2 Nov 2026; proxies closed 11.00am Sydney on 31 Oct 2026.
+- Holder approval: satisfied 2 Nov 2026. 273,040,211 votes for (99.89% of votes cast) and 292,222 against; 90.53% of holders present and voting in favour, so both tests passed.
 - Court approval: open. Second hearing 9.15am 18 Nov 2026.
 - Independent Expert: report issued (fair and reasonable); must not change its view before the Second Court Date.
 - No regulatory restraint: none disclosed.
@@ -81,6 +81,7 @@ Competing proposal prospects (good for holders, kept separate):
 - Low, around 2%. The sale was a competitive process (Pacific Equity Partners, I Squared and Oaktree all reconfirmed proposals on 10 Jul 2026, per oOh!'s 13 Jul release); for parties that took part, the 3% higher hurdle for a Superior Proposal only applied for four weeks from 10 Aug 2026 (amended after ASIC talks), so a losing bidder could return with any better offer, but none has. BidCo has matching rights and the meeting is tomorrow.
 
 ## Recent announcements
+- 2 Nov 2026: Scheme Meeting held; Chair's address and presentation released 9.51am Sydney. Result: scheme resolution passed, 99.89% of votes cast and 90.53% of holders present and voting. Timetable unchanged: Second Court Date 18 Nov, Effective 19 Nov (last trading day), Record 3 Dec, Implementation 10 Dec 2026; the board still intends a A$0.10 Permitted Dividend before the Record Date. FIRB not mentioned in the coverage seen; still outstanding (deadline 13 Nov). Vote figures taken from Kalkine's report of the ASX release, as the release itself could not be opened tonight; to confirm against the primary.
 - 30 Oct 2026: First Sentier notice: 8.82% (from 10.55%).
 - 30 Oct 2026: Update to scheme timetable and SIA amendment: FIRB outstanding with deadline extended to 13 Nov 2026; meeting stays 2 Nov; Second Court Date moved to 18 Nov; new Effective 19 Nov, Record 3 Dec, Implementation 10 Dec 2026; Transaction Costs Adjustment Amount redefined, subject to Court approval, to count only costs at 8.00am on the Second Court Date, with oOh! to warrant it is zero, so no reduction is expected.
 - 28 Oct 2026: notice of the Second Court hearing for 4 Nov 2026 (since superseded).
@@ -92,6 +93,8 @@ Competing proposal prospects (good for holders, kept separate):
 
 ## Sources
 Primary (ASX announcements, accessed through the ASX announcement terms page for personal use):
+- Chair's address and presentation, Scheme Meeting (2 Nov 2026), listed at https://www.investsmart.com.au/security/asx/oml/oohmedia-limited/announcements
+- Results of Scheme Meeting (2 Nov 2026), as reported by Kalkine (secondary, primary to confirm): https://kalkinemedia.com/au/news/announcements/oohmedia-shareholders-approve-i-squared-capital-acquisition-scheme-with-9989-support
 - ASX announcement list for OML, 2026: https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=OML&timeframe=Y&year=2026
 - Update to scheme timetable and amendment to SIA (30 Oct 2026): https://announcements.asx.com.au/asxpdf/20261030/pdf/0761w8d8wv2j08.pdf
 - First Sentier change in substantial holding (30 Oct 2026): https://announcements.asx.com.au/asxpdf/20261030/pdf/0762fy8z4ybghb.pdf
