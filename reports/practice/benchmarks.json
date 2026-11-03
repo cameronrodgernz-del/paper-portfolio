@@ -1,0 +1,15 @@
+{
+ "ledger": "practice",
+ "from": "2026-11-02",
+ "to": "2026-11-03",
+ "portfolio": -0.00510216532479868,
+ "index_mix": -0.005395900795095665,
+ "matched_share_in_index": 1.0,
+ "matched_mix": -0.005395900795095665,
+ "cash_rate": 0.0213,
+ "portfolio_daily_sd": 0.0,
+ "portfolio_worst_fall": -0.00510216532479868,
+ "index_worst_fall": -0.005395900795095665,
+ "test2_ahead_of_matched_mix": true,
+ "test3_vs_index_mix": 0.0002937354702969852
+}

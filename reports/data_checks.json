@@ -1,21 +1,5 @@
 {
- "run": "2026-11-02",
+ "run": "2026-11-03",
  "checked": 30,
- "issues": [
-  {
-   "kind": "jump_deal",
-   "market": "ASX",
-   "ticker": "RTH",
-   "date": "2026-10-19",
-   "move": 0.8519,
-   "text": "ASX:RTH moved +85% on 2026-10-19 (deal announced then)"
-  },
-  {
-   "kind": "deal_file",
-   "market": "ASX",
-   "ticker": "OML",
-   "date": "2026-11-02",
-   "text": "OML: the meeting was on 2026-11-02, after its deal file was last checked (2026-11-01); update the stage and dates"
-  }
- ]
+ "issues": []
 }
