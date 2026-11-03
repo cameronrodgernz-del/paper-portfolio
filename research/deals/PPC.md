@@ -34,7 +34,7 @@ regulators: ACCC, notified 9 Oct 2026 (MN-60048, Ingenia - Peet - Flagstone JV),
 conditions_open: ACCC; ASIC and ASX; no restraints; Peet shareholder approval; Independent Expert's Report concluding best interests; Court approval; no Peet material adverse change or prescribed occurrence; no Ingenia material adverse change or prescribed occurrence; ASX quotation of the new Ingenia securities; Flagstone JV implementation deed signed and its conditions met; consents under specified contracts; Peet equity incentives dealt with; Peet net debt no more than A$333 million
 conditions_met: none announced
 ticking_fee: none
-last_checked: 2026-11-01
+last_checked: 2026-11-03
 ---
 ## In short
 Ingenia agreed on 26 August to buy Peet for A$0.68 cash plus 0.3367 Ingenia securities per share, but Ingenia itself has since become a takeover target. Warburg Pincus (now at A$5.45 plus up to 5 cents of distribution, A$5.50 total) and AVID Property Group (A$5.35 plus 5 cents) are competing for Ingenia, and both proposals are conditional on Ingenia terminating the Peet deal. The Peet deed lets Ingenia walk away at any time up to 8am on the second court date if its board decides a proposal for Ingenia is a Bidder Superior Proposal, and its only cost is a A$10 million reverse break fee (about 2.1 cents a Peet share); Ingenia says it has not made that decision yet. The Peet timetable also appears to have stalled: the first court hearing targeted for late October has not been announced, and Peet's 30 October business update reads like a standalone company, saying nothing about the scheme. Peet closed at A$1.42 on 30 October against a paper value of about A$2.47, which says the market thinks the deal is unlikely to complete.
@@ -67,7 +67,8 @@ Ingenia agreed on 26 August to buy Peet for A$0.68 cash plus 0.3367 Ingenia secu
 - 19 Oct 2026: ASIC extends Peet's AGM deadline to 26 Feb 2027 (confirmed).
 - 23 Oct 2026: AVID proposes A$5.35 plus 5 cents; 26 Oct Ingenia signs AVID process deed with soft exclusivity of up to six weeks and cuts off Warburg Pincus's data room (confirmed).
 - 27 Oct 2026: Warburg Pincus improves to A$5.45 plus up to 5 cents, with Discovery Parks (holiday parks) and LDR Capital (gardens) as co-investors; 28 Oct Ingenia triggers its fiduciary out under the AVID deed and starts AVID's matching right (confirmed).
-- Sunday 1 Nov 2026 (today): deadline for AVID to make a matching or better counterproposal, and Warburg Pincus's deadline to be given exclusive due diligence (confirmed, Ingenia 28 Oct). Expect an Ingenia announcement on Monday 2 Nov.
+- Sunday 1 Nov 2026: deadline for AVID to make a matching or better counterproposal, and Warburg Pincus's deadline to be given exclusive due diligence (confirmed, Ingenia 28 Oct). Expect an Ingenia announcement on Monday 2 Nov.
+- 1 to 2 Nov 2026: AVID exercised its matching right on 1 Nov, lifting its non-binding proposal to A$5.45 cash plus up to 5 cents of distribution (A$5.50); Ingenia's board judged it equal or superior to Warburg Pincus's, AVID's process deed and exclusive due diligence stay in place and Warburg Pincus again loses data room access. Ingenia has not recommended AVID and has not determined a Bidder Superior Proposal under the Peet deed, which remains on foot (Ingenia ASX release 2 Nov, as reported).
 - 20 Nov 2026: end of ACCC Phase 1 (confirmed, ACCC register).
 - Early December 2026: Peet scheme meeting (indicative, Peet 12 Oct; now doubtful).
 - Late December 2026: implementation (indicative, Peet 19 Oct; now doubtful).
@@ -84,6 +85,7 @@ Ingenia agreed on 26 August to buy Peet for A$0.68 cash plus 0.3367 Ingenia secu
 - Competing bid for Peet itself (good for holders): about 5%. Peet ran a strategic review (outlined at its 27 Nov 2025 AGM) before choosing Ingenia, and no other bidder has appeared since; the Lennon family's buying is a sign of support for Peet's value but not a bid.
 
 ## Recent announcements
+- 2 Nov 2026 (Ingenia): AVID matches at A$5.45 plus up to 5 cents (A$5.50), non-binding; board says equal or superior to Warburg Pincus; AVID keeps soft exclusivity; no recommendation; no Bidder Superior Proposal determination under the Peet deed, which remains on foot. Source: The Weekly Source, 2 Nov 2026, reporting the release (https://www.theweeklysource.com.au/avid-matches-warburgs-ingenia-communities-bid-and-shuts-out-rival-for-now/); the ASX release itself couldn't be opened tonight and is to be confirmed.
 - 30 Oct 2026 (Peet): Business Update. 1Q27 in line with budget; 507 lots sold, 497 settled; contracts on hand A$862m at 30 Sep; enquiries down 21% on 4Q26; assessing 2,800 potential acquisition lots; targeting FY27 NPAT growth on FY26's A$103m. No mention of the scheme.
 - 29 Oct 2026 (Peet): Scorpio Nominees and associates up to 16.23% from 14.84% (on-market purchases to 28 Oct; notice dated 29 Oct, change date 27 Oct).
 - 29 Oct 2026 (Ingenia): response to media report of a third suitor; Ingenia has received no proposal from anyone other than Warburg Pincus and AVID.

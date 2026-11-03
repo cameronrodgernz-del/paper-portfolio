@@ -77,3 +77,25 @@ Analysed, in order of expected_yearly:
 - US deals: watched only (9b not passed). Special situations: no type has passed. Research picks: no card is "ready" and none is held.
 
 Placed: nothing by the desk. Only the nightly job's three core buys are waiting for tomorrow's open.
+
+## 2026-11-03, Core buys filled; AVID matches for Ingenia, Peet deal still on foot; nothing placed
+
+Checked:
+- All 16 test files in tests/ pass under python3 -I. Ledger chain verifies (every file ok).
+- Tonight's "Nightly data 2026-11-03" commit landed at 21:30 NZDT, with a practice valuation for today: NZ$99,474.86, 0.51% below the peak. The three core buys filled (72 VT and 125 ENZL on 2 Nov US time, 73 VAS on 3 Nov). src/actions.py check: nothing missing.
+- reports/data_checks.md: nothing found, no deal file findings.
+- Scan of the 13 live ASX deals for anything new since the 2 Nov entry. As last night, the ASX announcement pages couldn't be opened (the fetch tool needed an approval no one was there to give), so the scan used news searches. Nothing new found for AX1, VAU, BET, OML, AUC, SDF, RWC, MEI, CWY, FPR, A11, RTH or GL1; their files keep their check dates. RWC rose 2.9% to A$4.57 with no news found. Dated items still ahead: A11 first court hearing 5 Nov, CWY regulatory filings due by 10 Nov, VAU meeting 11 Nov, OML FIRB deadline 13 Nov, PPC's ACCC Phase 1 ends 20 Nov, BET ACCC Phase 1 decision 26 Nov.
+- No new binding ASX or NZX control deal of A$100m (NZ$20m) or more found. First Au and Javelin Minerals signed an amended takeover deed on 2 Nov (Kalkine); both are small explorers far under A$100m, so not added. EUR (pays 5 Nov), CNB (10 Nov) and RCT (30 Nov) have only payment left; their database rows stay pending until paid.
+
+Changed:
+- PPC (Peet, Ingenia scheme): on 1 Nov AVID used its matching right, lifting its non-binding proposal for Ingenia to A$5.45 cash plus up to 5 cents of distribution (A$5.50), equal to Warburg Pincus. Ingenia's board judged it equal or superior; AVID keeps soft exclusivity and Warburg Pincus is again shut out of due diligence. Ingenia has not recommended AVID and has not determined a Bidder Superior Proposal under the Peet deed, which "remains on foot". Both proposals still need the Peet deed ended (A$10m reverse break fee). Stage and terms unchanged. Source: Ingenia's 2 Nov ASX release as reported by The Weekly Source (https://www.theweeklysource.com.au/avid-matches-warburgs-ingenia-communities-bid-and-shuts-out-rival-for-now/); the release itself is to be confirmed. Deal file updated and carried into config/live_deals.csv with src/deal_files.py (check date only).
+- src/deal_files.py again reports AUC's file (default all scrip) differs from the row (the all-elect-cash mix). Kept the row as decided on 1 Nov.
+- Deal database unchanged, so base rates and odds not rerun. Deal monitor rerun.
+
+Analysed, in order of expected_yearly:
+- GL1 (+123%), A11 (+99%), BET (+13%), RWC (+9%): cash deals, not placed (test 9c failed). RTH, FPR, CWY, OML, SDF: cash and below zero at the base rate anyway.
+- MEI (Lynas scrip, +21% a year at the base rate, +24% if late): card stays "waiting". Its re-test trigger (a CIMCE filing with a decision date, or a ruling that the regime doesn't apply) hasn't happened. No new card.
+- AUC (OceanaGold mix): -9.4% a year at the base rate. VAU: -38%. PPC: no expected figure. AX1: price above the bid.
+- US deals: watched only (9b not passed). Special situations: no type has passed. Research picks: no card is "ready" and none is held.
+
+Placed: nothing. No limit tripped.
