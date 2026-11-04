@@ -9,7 +9,7 @@
    "ccy": "AUD",
    "decided": "2026-11-02",
    "decided_at_utc": "2026-11-02T08:38:58.452978+00:00",
-   "status": "ordered",
+   "status": "open",
    "at_entry": {
     "price": 0.22,
     "offer": 0.24,
@@ -39,6 +39,12 @@
        "qty": 21963,
        "price": 0.219142,
        "fee": 15.0
+      },
+      {
+       "date": "2026-11-04",
+       "qty": 23491,
+       "price": 0.217046,
+       "fee": 15.0
       }
      ],
      "divs": [],
@@ -61,7 +67,7 @@
    },
    "flags": [],
    "div_feed": {
-    "checked": "2026-11-03",
+    "checked": "2026-11-04",
     "rows": []
    }
   },
@@ -125,7 +131,7 @@
    },
    "flags": [],
    "div_feed": {
-    "checked": "2026-11-03",
+    "checked": "2026-11-04",
     "rows": []
    }
   },
@@ -189,7 +195,7 @@
    },
    "flags": [],
    "div_feed": {
-    "checked": "2026-11-03",
+    "checked": "2026-11-04",
     "rows": []
    }
   },
@@ -253,7 +259,7 @@
    },
    "flags": [],
    "div_feed": {
-    "checked": "2026-11-03",
+    "checked": "2026-11-04",
     "rows": []
    }
   },
@@ -317,7 +323,7 @@
    },
    "flags": [],
    "div_feed": {
-    "checked": "2026-11-03",
+    "checked": "2026-11-04",
     "rows": []
    }
   },
@@ -381,7 +387,7 @@
    },
    "flags": [],
    "div_feed": {
-    "checked": "2026-11-03",
+    "checked": "2026-11-04",
     "rows": []
    }
   }
@@ -389,43 +395,43 @@
  "watch": {
   "AU-2026-13": {
    "ticker": "AX1",
-   "date": "2026-11-03",
+   "date": "2026-11-04",
    "why": "no break price or base rate"
   },
   "AU-2026-14": {
    "ticker": "VAU",
-   "date": "2026-11-03",
-   "why": "expected -2.18% after costs, cash +0.30%"
+   "date": "2026-11-04",
+   "why": "expected -1.92% after costs, cash +0.28%"
   },
   "AU-2026-17": {
    "ticker": "OML",
-   "date": "2026-11-03",
-   "why": "expected -0.34% after costs, cash +0.48%"
+   "date": "2026-11-04",
+   "why": "expected -0.04% after costs, cash +0.46%"
   },
   "AU-2026-19": {
    "ticker": "SDF",
-   "date": "2026-11-03",
-   "why": "expected -1.69% after costs, cash +0.63%"
+   "date": "2026-11-04",
+   "why": "expected -1.72% after costs, cash +0.62%"
   },
   "AU-2026-20": {
    "ticker": "PPC",
-   "date": "2026-11-03",
+   "date": "2026-11-04",
    "why": "price outside the range from the break price to the offer"
   },
   "AU-2026-23": {
    "ticker": "CWY",
-   "date": "2026-11-03",
-   "why": "expected -1.52% after costs, cash +1.92%"
+   "date": "2026-11-04",
+   "why": "expected -1.92% after costs, cash +1.91%"
   },
   "AU-2026-24": {
    "ticker": "FPR",
-   "date": "2026-11-03",
-   "why": "expected -0.54% after costs, cash +1.92%"
+   "date": "2026-11-04",
+   "why": "expected -0.75% after costs, cash +1.91%"
   },
   "AU-2026-26": {
    "ticker": "RTH",
-   "date": "2026-11-03",
-   "why": "expected -1.53% after costs, cash +1.28%"
+   "date": "2026-11-04",
+   "why": "expected -2.52% after costs, cash +1.27%"
   }
  }
 }

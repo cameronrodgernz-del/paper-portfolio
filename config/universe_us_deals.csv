@@ -1,7 +1,8 @@
 ticker,market,provider,provider_symbol,why
+PCRX,US,tiingo,PCRX,"US deal lead: Pacira BioSciences, Inc. cash 36.50 (2026-11-03)"
+PTC,US,tiingo,PTC,US deal lead: PTC INC. cash 205.00 (2026-11-03)
 ARX,US,tiingo,ARX,US deal lead: Accelerant Holdings cash 20.25 (2026-10-30)
 LFCR,US,tiingo,LFCR,"US deal lead: LIFECORE BIOMEDICAL, INC. \DE\ cash 6.28 (2026-10-30)"
-PCRX,US,tiingo,PCRX,"US deal lead: Pacira BioSciences, Inc. cash 36.50 (2026-10-30)"
 DSGR,US,tiingo,DSGR,"US deal lead: Distribution Solutions Group, Inc. cash 35.00 (2026-10-28)"
 OPCH,US,tiingo,OPCH,"US deal lead: Option Care Health, Inc. cash 32.05 (2026-10-28)"
 ULBI,US,tiingo,ULBI,US deal lead: ULTRALIFE CORP cash 16.00 (2026-10-28)
@@ -35,4 +36,3 @@ PAYO,US,tiingo,PAYO,US deal lead: Payoneer Global Inc. cash 7.40 (2026-08-11)
 DXLG,US,tiingo,DXLG,"US deal lead: DESTINATION XL GROUP, INC. cash 0.84 (2026-08-06)"
 ACA,US,tiingo,ACA,"US deal lead: Arcosa, Inc. cash 150.00 (2026-08-03)"
 GNK,US,tiingo,GNK,US deal lead: GENCO SHIPPING & TRADING LTD cash 24.80 (2026-07-23)
-RAMP,US,tiingo,RAMP,"US deal lead: LiveRamp Holdings, Inc. cash 38.50 (2026-07-06)"
