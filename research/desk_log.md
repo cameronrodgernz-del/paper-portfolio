@@ -99,3 +99,27 @@ Analysed, in order of expected_yearly:
 - US deals: watched only (9b not passed). Special situations: no type has passed. Research picks: no card is "ready" and none is held.
 
 Placed: nothing. No limit tripped.
+
+## 2026-11-04, Warburg Pincus revises its Ingenia terms but not its price; Accent trades above the Frasers bid; nothing placed
+
+Checked:
+- All 16 test files in tests/ pass under python3 -I.
+- Tonight's "Nightly data 2026-11-04" commit landed at 21:32 NZDT, with a practice valuation for today: NZ$99,651.35, 0.33% below the peak, no limit flags. src/actions.py check: nothing missing.
+- reports/data_checks.md: nothing found, no deal file findings.
+- Scan of the 13 live ASX deals for anything new since the 3 Nov entry. The ASX and Market Index announcement pages still couldn't be opened (the fetch tool needed an approval no one was there to give), so the scan used news searches and InvestSMART pages where search returned them (GL1, AUC). Nothing new found for VAU, BET, OML, AUC, SDF, RWC, MEI, CWY, FPR, A11, RTH or GL1; their files keep their check dates. Latest GL1 release is still the 29 Oct quarterly; latest AUC price-sensitive release is still the 21 Oct booklet.
+- AX1 rose 4.6% to A$0.685 on about three times its usual volume, above the Frasers A$0.65 bid. No news found beyond Frasers' 28 Oct best and final statement (FashionUnited, 2 Nov: https://fashionunited.uk/news/business/frasers-makes-best-and-final-offer-for-accent-takeover-deal/2026110291137). The file already has the 20 Nov AGM and conditional spill meeting. No change.
+- No new binding ASX or NZX control deal of A$100m (NZ$20m) or more found. Rakon (NZX) came up in search but completed in May 2026 and is already in the database.
+- Dated items ahead: A11 first court hearing tomorrow (5 Nov), EUR pays 5 Nov, CWY filings due by 10 Nov, CNB pays 10 Nov, VAU meeting 11 Nov, OML FIRB deadline 13 Nov, PPC's ACCC Phase 1 ends 20 Nov, AX1 AGM 20 Nov, BET ACCC Phase 1 decision 26 Nov.
+
+Changed:
+- PPC (Peet, Ingenia scheme): Warburg Pincus sent Ingenia a revised proposal on 3 Nov at the same A$5.50, conditional on its due diligence access being restored at once, the AVID process deed being ended and an amended deed signed with Warburg by 6 Nov. Ingenia's board did not consider it superior to AVID's deed of 2 Nov and kept Warburg's access suspended. Nothing on the Peet deed, which stays on foot. Ingenia fell 3.8% to A$5.12; Peet A$1.445. Source: Reuters via Boursorama, 4 Nov (https://www.boursorama.com/bourse/actualites/warburg-modifie-son-offre-de-rachat-d-ingenia-apres-qu-avid-a-egale-son-offre-5948257c71d44d44bc22af0a6530f518); the ASX release is to be confirmed. Deal file updated and carried into config/live_deals.csv with src/deal_files.py (check date only). Stage and terms unchanged.
+- src/deal_files.py again reports AUC's file (default all scrip) differs from the row (the all-elect-cash mix). Kept the row as decided on 1 Nov.
+- Deal database unchanged, so base rates and odds not rerun. Deal monitor rerun.
+
+Analysed, in order of expected_yearly:
+- GL1 (+144%), A11 (+101%): cash deals, not placed (test 9c failed). RWC (+21%), BET (+13%): cash, same. FPR, RTH, CWY, OML, SDF: cash and below zero at the base rate anyway.
+- MEI (Lynas scrip, +30% a year at the base rate, +33% if late): card stays "waiting". Its re-test trigger (a CIMCE filing with a decision date, or a ruling that the regime doesn't apply) hasn't happened. Lynas flat at A$11.99.
+- AUC (OceanaGold mix): about 0% a year at the base rate (+14% if late) after a 2.9% fall to A$1.155; little above nothing and carrying OGC price risk, so not carded. VAU: -37%. PPC: no expected figure (below its break price). AX1: price above the bid.
+- US deals: watched only (9b not passed). Special situations: no type has passed. Research picks: no card is "ready" and none is held.
+
+Placed: nothing. No limit tripped.
