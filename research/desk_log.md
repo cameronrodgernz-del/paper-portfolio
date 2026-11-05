@@ -123,3 +123,22 @@ Analysed, in order of expected_yearly:
 - US deals: watched only (9b not passed). Special situations: no type has passed. Research picks: no card is "ready" and none is held.
 
 Placed: nothing. No limit tripped.
+
+## 2026-11-05, Nightly job did not run by 10:15pm, so watching only; Noumi's Arrovest scheme passed its vote but is under A$100m; nothing placed
+
+Checked:
+- All 16 test files in tests/ pass under python3 -I.
+- Tonight's nightly job had not landed after the 30-minute wait (pulled at 9:45pm, then about every 5 minutes to 10:15pm NZDT). The latest commit is "History prices 2026-11-05T06:54"; GitHub Actions shows no Nightly data run at all today (the last was run 9, for 4 Nov). With no practice valuation for 5 Nov, nothing was placed and nothing was entered in the ledger, as docs/DAILY_RUN.md requires. The clerk's 5 Nov work (fills, valuation, limit flags) is still to happen. Corporate action check, card placing and research pick checks skipped for the same reason; no research card is "ready" and none is held.
+- reports/data_checks.md is still last night's (4 Nov): nothing found, no deal file findings.
+- Scan of the 13 live ASX deals for anything new since the 4 Nov entry, by news searches (the ASX announcement pages still can't be opened from the desk). Nothing new found for AX1, VAU, BET, OML, AUC, SDF, PPC, RWC, MEI, CWY, FPR, RTH or GL1; their files keep their check dates. OML's FIRB approval (deadline 13 Nov) not yet announced.
+- A11 (Atlantic Lithium): the first court hearing was set for today, 5 Nov. No result found tonight (latest found is Kalkine's preview, https://kalkinemedia.com/au/stocks/lithium/is-atlantic-lithium-asxa11-days-away-from-its-huayou-takeover-decision). The file's first court date has now passed, so tomorrow's desk should confirm the orders and the booklet and meeting dates and update the file.
+- New deals: Noumi (NOU) holders and optionholders approved Arrovest's schemes on 5 Nov (shares: 89.08% of votes cast, 78.65% of holders voting; second court 10 Nov, effective 11 Nov, implementation 27 Nov; source: Kalkine's report of the results, https://kalkinemedia.com/au/news/announcements/noumi-limited-shareholders-and-optionholders-approve-arrovest-acquisition-schemes-at-november-5-2026-meetings). The deal (A$0.1234 cash, announced about 21 Jul 2026) values Noumi's equity at about A$34.2m (Small Caps, https://smallcaps.com.au/article/noumi-enters-binding-scheme-with-major-shareholder-arrovest-to-resolve-looming-note-maturity), under the A$100m bar, so not added to the live deals or the database. No other new binding ASX or NZX control deal of A$100m (NZ$20m) or more found.
+- Dated items ahead: thl AGM 6 Nov (update on the non-binding approach), CWY filings due by 10 Nov, CNB pays 10 Nov, VAU meeting 11 Nov, OML FIRB deadline 13 Nov, PPC's ACCC Phase 1 ends 20 Nov, AX1 AGM 20 Nov, BET ACCC Phase 1 decision 26 Nov. EUR was due to pay today; its database row stays pending until the payment is confirmed.
+
+Changed:
+- No deal file, live deal row or database row changed. src/deal_files.py: no changes; it again reports AUC's file (default all scrip) differs from the row (the all-elect-cash mix); kept the row as decided on 1 Nov.
+- Deal monitor rerun on the stored closes (4 Nov); only the days to payment moved.
+
+Analysed: nothing new to card. MEI's card stays "waiting" (its re-test trigger hasn't happened). Cash ASX deals stay barred (test 9c failed), US deals watched only, no special situation type has passed.
+
+Placed: nothing (no valuation tonight). No limit could be checked without the clerk run.
