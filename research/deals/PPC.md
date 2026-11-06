@@ -11,41 +11,41 @@ scrip_ratio: 0.3367
 acquirer_ticker: INA
 currency: AUD
 announce_date: 2026-08-26
-booklet_date:
-first_court_date:
-meeting_date:
+booklet_date: 2026-11-05
+first_court_date: 2026-11-03
+meeting_date: 2026-12-07
 offer_close_date:
-second_court_date:
-effective_date:
-record_date:
-implementation_date:
+second_court_date: 2026-12-15
+effective_date: 2026-12-16
+record_date: 2026-12-18
+implementation_date: 2027-01-04
 end_date: 2027-02-26
-dates_basis: No court-ordered dates yet. Draft booklet with draft expert's report lodged with ASIC on 9 Oct 2026. Peet said on 12 Oct the first court hearing was targeted for late October, booklet despatch early November, meeting early December and implementation late December 2026, all indicative; no first court hearing had been announced by 30 Oct. End Date is 6 months after the 26 Aug 2026 deed (26 Feb 2027), or 9 months (26 May 2027) if the ACCC or Flagstone JV condition is still open at 26 Feb 2027. ACCC Phase 1 ends 20 Nov 2026 (ACCC register)
-stage: announced
+dates_basis: Court-ordered timetable: Federal Court ordered the meeting on 3 Nov 2026 and ASIC registered the booklet the same day; booklet sent 5 Nov. Election deadline 5pm 28 Nov, voting record 4pm (Perth) 5 Dec, meeting 9am (Perth) 7 Dec, Second Court Date 15 Dec, Effective 16 Dec, Scheme Record Date 18 Dec, Implementation 4 Jan 2027 (Peet releases of 3 and 5 Nov as reported by Kalkine). Dates after the meeting are indicative. End Date is 26 Feb 2027, or 26 May 2027 if the ACCC or Flagstone JV condition is still open then. ACCC Phase 1 ends 20 Nov 2026 (ACCC register)
+stage: booklet_out
 vote_threshold: 75% of votes cast and a majority by number of Peet holders present and voting
 bidder_stake_pct: 0                # no economic stake; Ingenia has a 14.51% relevant interest through the voting deed with Scorpio Nominees
 intentions_pct: 14.51% (Scorpio Nominees and Lennon family voting deed with Ingenia over 67,946,619 shares, subject to no superior proposal and the expert), plus directors
 blocking_holders: Scorpio Nominees and Lennon associates 16.23% (76,351,618 shares at 27 Oct 2026, up from 14.84%, buying on market); Allan Gray Australia 11.62% (21 Oct 2026); JPMorgan 5.26% (14 Oct 2026)
 board: unanimous, in the absence of a superior proposal and subject to the expert concluding (and continuing to conclude) best interests; reconfirmed 12 Oct and 19 Oct 2026
-ier: not yet released (Kroll Australia appointed; draft report lodged with ASIC 9 Oct 2026 with the draft booklet)
+ier: Kroll Australia: fair and reasonable and in the best interests of Peet holders, absent a superior proposal (scheme booklet, 3 Nov 2026); valuation range not yet read from the booklet
 break_fee: Peet pays A$10 million (A$10,000,000) in set circumstances
 reverse_break_fee: Ingenia pays A$10 million (A$10,000,000), including if Ingenia terminates because its board decides a takeover proposal for Ingenia is a Bidder Superior Proposal; this is also the cap on Ingenia's total liability under the deed except for fraud or wilful default
 regulators: ACCC, notified 9 Oct 2026 (MN-60048, Ingenia - Peet - Flagstone JV), under assessment, Phase 1 ends 20 Nov 2026; ASIC review of draft booklet from 9 Oct 2026; ASX quotation of new Ingenia securities, outstanding; Court, first hearing not yet held. No FIRB condition (Ingenia is Australian)
-conditions_open: ACCC; ASIC and ASX; no restraints; Peet shareholder approval; Independent Expert's Report concluding best interests; Court approval; no Peet material adverse change or prescribed occurrence; no Ingenia material adverse change or prescribed occurrence; ASX quotation of the new Ingenia securities; Flagstone JV implementation deed signed and its conditions met; consents under specified contracts; Peet equity incentives dealt with; Peet net debt no more than A$333 million
-conditions_met: none announced
+conditions_open: ACCC; ASX; no restraints; Peet shareholder approval; Court approval; Independent Expert not changing its conclusion; no Peet material adverse change or prescribed occurrence; no Ingenia material adverse change or prescribed occurrence; ASX quotation of the new Ingenia securities; Flagstone JV conditions met (deed signed 6 Nov); consents under specified contracts; Peet equity incentives dealt with; Peet net debt no more than A$333 million
+conditions_met: ASIC registration of the booklet (3 Nov 2026); Independent Expert's Report concludes best interests (3 Nov 2026); Flagstone JV implementation deed signed with Brown-Neaves (6 Nov 2026), its own conditions still open
 ticking_fee: none
-last_checked: 2026-11-04
+last_checked: 2026-11-06
 ---
 ## In short
-Ingenia agreed on 26 August to buy Peet for A$0.68 cash plus 0.3367 Ingenia securities per share, but Ingenia itself has since become a takeover target. Warburg Pincus (now at A$5.45 plus up to 5 cents of distribution, A$5.50 total) and AVID Property Group (A$5.35 plus 5 cents) are competing for Ingenia, and both proposals are conditional on Ingenia terminating the Peet deal. The Peet deed lets Ingenia walk away at any time up to 8am on the second court date if its board decides a proposal for Ingenia is a Bidder Superior Proposal, and its only cost is a A$10 million reverse break fee (about 2.1 cents a Peet share); Ingenia says it has not made that decision yet. The Peet timetable also appears to have stalled: the first court hearing targeted for late October has not been announced, and Peet's 30 October business update reads like a standalone company, saying nothing about the scheme. Peet closed at A$1.42 on 30 October against a paper value of about A$2.47, which says the market thinks the deal is unlikely to complete.
+Ingenia agreed on 26 August to buy Peet for A$0.68 cash plus 0.3367 Ingenia securities per share, but Ingenia itself has since become a takeover target. Warburg Pincus (now at A$5.45 plus up to 5 cents of distribution, A$5.50 total) and AVID Property Group (A$5.35 plus 5 cents) are competing for Ingenia, and both proposals are conditional on Ingenia terminating the Peet deal. The Peet deed lets Ingenia walk away at any time up to 8am on the second court date if its board decides a proposal for Ingenia is a Bidder Superior Proposal, and its only cost is a A$10 million reverse break fee (about 2.1 cents a Peet share); Ingenia says it has not made that decision yet. The Peet timetable is moving: the Federal Court ordered the meeting on 3 November, Kroll finds the scheme fair and reasonable, the booklet went out on 5 November, holders vote on 7 December and implementation is set for 4 January 2027. On 6 November Warburg Pincus lifted its Ingenia proposal to A$5.55 plus about 5 cents and Peet signed the Flagstone JV deed. Peet closed at A$1.42 on 30 October against a paper value of about A$2.47, which says the market thinks the deal is unlikely to complete.
 
 ## Conditions
 - Competition Approval (3.1(a)): open. ACCC register MN-60048, effective notification 9 Oct 2026, Phase 1 initial assessment, end of determination period 20 Nov 2026; third-party questionnaire period closed. Covers the Peet acquisition and the Flagstone JV with Brown-Neaves (Bechel).
 - ASIC and ASX (3.1(b)): open. Draft booklet lodged with ASIC 9 Oct 2026 (Peet, 12 Oct).
 - No restraints (3.1(c)): open.
-- Peet shareholder approval (3.1(d)): open, no meeting date.
-- Independent Expert (3.1(e)): open. Kroll's draft report lodged with ASIC; final report not public.
-- Court approval (3.1(f)): open, first hearing not yet announced.
+- Peet shareholder approval (3.1(d)): open, meeting 7 Dec 2026.
+- Independent Expert (3.1(e)): met for now. Kroll finds the scheme fair and reasonable and in the best interests of holders absent a superior proposal (booklet, 3 Nov 2026).
+- Court approval (3.1(f)): open; first court orders 3 Nov 2026, second court date 15 Dec 2026.
 - No Peet material adverse change (3.1(g)) or prescribed occurrence (3.1(h)): open. Peet's 30 Oct update reaffirmed it is targeting FY27 NPAT growth on FY26's A$103m, with contracts on hand of A$862m, but enquiries fell 21% on the June quarter.
 - No Ingenia material adverse change (3.1(i)) or prescribed occurrence (3.1(j)): open.
 - ASX quotation of new Ingenia securities (3.1(k)): open.
@@ -74,6 +74,14 @@ Ingenia agreed on 26 August to buy Peet for A$0.68 cash plus 0.3367 Ingenia secu
 - Late December 2026: implementation (indicative, Peet 19 Oct; now doubtful).
 - 26 Feb 2027: End Date, or 26 May 2027 if the ACCC or Flagstone condition is still open (deed).
 
+- 3 Nov 2026: first court orders; booklet registered (confirmed).
+- 5 Nov 2026: booklet sent (confirmed).
+- 20 Nov 2026: ACCC Phase 1 ends.
+- 28 Nov 2026: election deadline.
+- 7 Dec 2026: scheme meeting.
+- 15 Dec 2026: second court date; 16 Dec effective; 18 Dec record.
+- 4 Jan 2027: implementation.
+
 ## Risks to completion
 - Ingenia terminates for a Bidder Superior Proposal: about 65%. Every live proposal for Ingenia (Warburg Pincus and AVID) requires the Peet deed to be terminated. A$5.50 cash is about 28% above Ingenia's A$4.28 ten-day average used to price the Peet deal, and the Ingenia board has moved from rejecting Warburg Pincus to running a matching contest between two bidders. Ingenia keeps this option until 8am on the Peet second court date, and the most Peet can claim is A$10 million. What would lower the chance: AVID and Warburg Pincus failing to firm up (Warburg Pincus still needs 6 to 8 weeks of due diligence, debt and investment committee approval), or the Ingenia board deciding the Peet deal is worth more. What would raise it: either bidder signing a binding scheme deed with Ingenia.
 - Circular value problem (not a break risk but it decides the payoff): the scrip is worth about A$1.79 at Ingenia's A$5.31 close because of the bids for Ingenia. If the Peet deal goes ahead, those bids fall away and Ingenia would likely drop back towards its pre-bid level, so the realistic "deal goes ahead" value is nearer A$2.12 (A$0.68 plus 0.3367 x A$4.28) than A$2.47. If the deal ends, Peet holders keep a standalone Peet plus about 2.1 cents a share from the reverse fee.
@@ -85,6 +93,10 @@ Ingenia agreed on 26 August to buy Peet for A$0.68 cash plus 0.3367 Ingenia secu
 - Competing bid for Peet itself (good for holders): about 5%. Peet ran a strategic review (outlined at its 27 Nov 2025 AGM) before choosing Ingenia, and no other bidder has appeared since; the Lennon family's buying is a sign of support for Peet's value but not a bid.
 
 ## Recent announcements
+- 6 Nov 2026 (Ingenia): Warburg Pincus raised its non-binding proposal for Ingenia to A$5.55 cash plus about 5 cents of distributions (up to A$5.60), 10 cents above AVID's A$5.45 plus 5 cents. Warburg asks the board to declare it superior and restore due diligence by Tuesday 10 Nov, with exclusivity to 14 Dec. The board was to meet on 6 Nov to consider it and AVID's matching right; no superior proposal declared and no recommendation yet. Peet's deed stays on foot. Source: The Weekly Source, 6 Nov 2026 (https://www.theweeklysource.com.au/ingenia-receives-improved-takeover-offer-from-warburg-pincus/); the ASX release itself is to be confirmed.
+- 6 Nov 2026 (Peet): Flagstone City JV implementation deed signed with Brown-Neaves Investments (49.9% at an agreed inventory value of A$615m, conditional on Ingenia completing the Peet acquisition), which meets the signing part of condition 3.1(l). Source: The Weekly Source, 6 Nov 2026 (same article); Grafa (https://grafa.com/en/news/australia/peet-executes-615m-joint-venture).
+- 5 Nov 2026 (Peet): Scheme booklet sent to holders; meeting 9am (Perth) 7 Dec 2026. Source: Kalkine, 5 Nov 2026 (https://kalkinemedia.com/au/news/announcements/peet-limited-sends-scheme-booklet-for-ingenia-communities-acquisition-shareholders-meeting-set-for-december-7-2026).
+- 3 Nov 2026 (Peet): Federal Court ordered the scheme meeting; ASIC registered the booklet; Kroll finds the scheme fair and reasonable and in holders' best interests absent a superior proposal; board unanimous; timetable to implementation on 4 Jan 2027. Source: Kalkine, 3 Nov 2026 (https://kalkinemedia.com/au/news/announcements/peet-limited-receives-federal-court-approval-to-hold-shareholder-meeting-for-ingenia-acquisition-scheme); missed by the 3 to 5 Nov desks.
 - 4 Nov 2026 (Ingenia): Warburg Pincus sent a revised proposal on 3 Nov, still A$5.50 a security and otherwise unchanged from 28 Oct, conditional on Ingenia restoring its due diligence access at once, ending the AVID process deed and signing an amended deed with Warburg by 6 Nov (a rival matching would keep due diligence access for four days). Ingenia's board did not consider it superior to the AVID process deed of 2 Nov and Warburg's access stays suspended. Nothing on the Peet deed, which stays on foot with no Bidder Superior Proposal determined. Ingenia closed A$5.12 (down 3.8%), Peet A$1.445. Source: Reuters via Boursorama, 4 Nov 2026 (https://www.boursorama.com/bourse/actualites/warburg-modifie-son-offre-de-rachat-d-ingenia-apres-qu-avid-a-egale-son-offre-5948257c71d44d44bc22af0a6530f518); the ASX release itself couldn't be opened tonight and is to be confirmed.
 - 2 Nov 2026 (Ingenia): AVID matches at A$5.45 plus up to 5 cents (A$5.50), non-binding; board says equal or superior to Warburg Pincus; AVID keeps soft exclusivity; no recommendation; no Bidder Superior Proposal determination under the Peet deed, which remains on foot. Source: The Weekly Source, 2 Nov 2026, reporting the release (https://www.theweeklysource.com.au/avid-matches-warburgs-ingenia-communities-bid-and-shuts-out-rival-for-now/); the ASX release itself couldn't be opened tonight and is to be confirmed.
 - 30 Oct 2026 (Peet): Business Update. 1Q27 in line with budget; 507 lots sold, 497 settled; contracts on hand A$862m at 30 Sep; enquiries down 21% on 4Q26; assessing 2,800 potential acquisition lots; targeting FY27 NPAT growth on FY26's A$103m. No mention of the scheme.
