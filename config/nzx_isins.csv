@@ -16,6 +16,7 @@ NZAIAD0290L4,AIA290,AIA 08/04/2031 4.04% Auckland International Airport Limited 
 NZAIRE0001S2,AIR,Air New Zealand Limited (NS) Ordinary Shares,Common Stock,2026-10-31
 NZAIRD0030L8,AIR030,AIR 27/04/2028 6.61% Air New Zealand Limited Bonds,Common Stock,2026-10-31
 NZAKCDT520C6,AKC130,AKC 28/09/2050 2.95% Auckland Council Green Bonds,Common Stock,2026-10-31
+NZAKCDT547C9,AKC140,AKC 20/10/2027 2.411% Auckland Council Bonds,Common Stock,2026-11-06
 NZAKCDT595C8,AKC150,AKC 27/09/2028 5.734% Auckland Council Bonds,Common Stock,2026-10-31
 NZALFE0001S1,ALF,Allied Farmers Limited (NS) Ordinary Shares,Common Stock,2026-10-31
 NZANBDT025C4,ANB180,ANB 16/02/2028 5.22% ANZ Bank New Zealand Limited Bonds,Common Stock,2026-10-31
@@ -63,6 +64,7 @@ NZCEND0060L9,CEN060,CEN 19/11/2026 4.33% Contact Energy Limited Bonds,Common Sto
 NZCEND0070L8,CEN070,CEN 11/04/2028 5.82% Contact Energy Limited Bonds,Common Stock,2026-10-31
 NZCEND0080L7,CEN080,CEN 06/04/2029 5.62% Contact Energy Limited Bonds,Common Stock,2026-10-31
 NZCEND0090L6,CEN090,CEN 03/10/2054 5.67% Contact Energy Limited Green Bonds,Common Stock,2026-10-31
+NZCHCDT005C1,CHC020,CHC 19/05/2028 5.18% Christchurch International Airport Limited Bonds,Common Stock,2026-11-06
 NZCHCDT006C9,CHC030,CHC 15/04/2031 5.44% Christchurch International Airport Limited Bonds,Common Stock,2026-10-31
 NZNZRE0001S9,CHI,Channel Infrastructure NZ Limited Ordinary Shares,Common Stock,2026-10-31
 NZCHIDT002C2,CHI020,CHI 20/05/2027 5.80% Channel Infrastructure NZ Limited Bonds,Common Stock,2026-10-31
@@ -148,6 +150,7 @@ NZLGFDT009C0,LGF080,LGF 14/04/2033 3.50% Local Govt Funding Agency Ltd,Common St
 NZLGFDT012C4,LGF110,LGF 20/04/2029 1.50% Local Govt Funding Agency Ltd,Common Stock,2026-10-31
 NZLGFDT016C5,LGF130,LGF 15/04/2037 2.00% NZ Local Government Funding Agency Limited,Common Stock,2026-10-31
 NZLGFDT017C3,LGF140,LGF 15/05/2031 2.25% NZ Local Government Funding Agency Limited Bonds,Common Stock,2026-10-31
+NZLGFDT019C9,LGF160,LGF 15/05/2035 3.00% NZ Local Government Funding Agency Limited Bonds,Common Stock,2026-11-06
 NZLGFDT020C7,LGF170,LGF 15/05/2030 4.5% NZ Local Government Funding Agency Limited Bonds,Common Stock,2026-10-31
 NZLGFDT021C5,LGF180,LGF 14/05/2032 4.50% NZ Local Government Funding Agency Limited Bonds,Common Stock,2026-10-31
 NZLGFDT022C3,LGF190,LGF 15/05/2034 4.75% NZ Local Government Funding Agency Limited Bonds,Common Stock,2026-10-31
@@ -240,6 +243,7 @@ NZSKTE0001S6,SKT,Sky Network Television Limited Ordinary Shares,Common Stock,202
 AU000000SMI3,SMI,Santana Minerals Limited Ordinary Shares,Common Stock,2026-10-31
 NZSMLE0001S9,SML,Synlait Milk Limited Ordinary Shares,Common Stock,2026-10-31
 NZSPFD0590L3,SPF590,SPF 18/09/2029 5.21% Spark Finance Limited Bonds,Common Stock,2026-10-31
+NZSPFD0600L0,SPF600,SPF600 18/09/2031 5.45% Spark Finance Limited Bonds,Common Stock,2026-11-06
 NZSPGE0001S2,SPG,Stride Prop & Stride Invest Mgmt Ltd Stapled Security (NS),Common Stock,2026-10-31
 NZTELE0001S4,SPK,Spark New Zealand Limited Ordinary Shares,Common Stock,2026-10-31
 NZSPNE0001S8,SPN,South Port New Zealand Limited Ordinary Shares,Common Stock,2026-10-31
