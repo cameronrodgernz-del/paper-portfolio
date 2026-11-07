@@ -12,7 +12,7 @@ In short:
 1. Cash conversion is fine. FY25's 15% was mostly an accident of the calendar: FY25 carried 53 weekly airline settlement (BSP) payments instead of 52, an extra A$40.0m that the company itself quantifies [H5]. Put back, and with the cash costs Helloworld leaves out of "underlying" profit added back, pre-tax operating cash was 108% of underlying EBITDA in FY25 and 107% in FY26. FY26 is the normal year.
 2. But almost none of the A$84.8m of cash at 30 June 2026 was Helloworld's own. After the money owed to airlines, suppliers and clients (net of what agents owe it), its own cash was about minus A$4m, so with Crown it has about A$141m of net debt on my measure, not the A$51m that cash less bank debt suggests.
 3. "Underlying" profit leaves out cash costs that come back every year (start-up, acquisition, legal and restructuring costs): A$4.3m, A$6.7m, A$4.2m and A$9.7m in FY23 to FY26, about A$6.2m a year.
-4. Crown's A$22m of EBITDA is before the rent on its 68 shopping-centre stores, which isn't disclosed. At my central A$7m a year of rent, Crown earns about A$9.4m of free cash a year, worth about A$90m at Helloworld's own 11.5% discount rate, against A$135m paid; the debt terms aren't public either.
+4. Crown's A$22m of EBITDA is, on Helloworld's lease accounting, before the rent on its 68 stores (many in shopping centres), and the rent isn't disclosed. At my central A$7m a year of rent, Crown earns about A$9.4m of free cash a year, worth about A$90m at Helloworld's own 11.5% discount rate, against A$135m paid; the debt terms aren't public either.
 5. The value is about A$1.80 a share in the middling case (range A$1.10 to A$2.75). The fact sheet's A$2.77 is my good case, not my middling one: it double counts the Webjet dividend, uses A$1.9m of recurring costs instead of about A$6m, a 25% tax rate and A$2.2m for Crown's stores.
 6. Expected price on 5 March 2027: A$1.44, plus about 4.7c of interim dividend, +9.7% before costs and about +7% after them, against a guide bar of about 9%. The H1 FY27 result will show Crown's costs and debt; if they come in at or better than my central figures, the bad case rises to about A$1.33 and this becomes a value pick.
 
@@ -58,7 +58,7 @@ Five years (A$m, years to 30 June) [H8, H7, H6, H1, H32]:
 
 ## Why big investors may be overlooking it
 - Not in the S&P/ASX 300 (Norgate index membership, data/norgate/index_members.csv, member_at_last 0 on 30 October 2026).
-- Small and thinly held: A$254m market value; median value traded A$192,850 a day over the 20 sessions 5 to 30 October 2026 (Norgate). Three holders own 46%, FIL 7.6%, and about half the shares rarely trade.
+- Small and thinly held: A$254m market value; median value traded A$192,850 a day over the 20 sessions 5 to 30 October 2026 (Norgate). Three holders own 46% and FIL 7.6%, so about 54% of the shares sit with four holders, and KCE's 11.9% is escrowed.
 - Little coverage: the only broker view I found is Morgans' target of A$2.24 (raised from A$2.18) reported in September 2026 [S2, secondary]. ASIC short positions are nil in practice (28 shares on 25 September 2026, data/asic/shorts_2026.csv.gz).
 - Messy history: a A$61.4m stake in Webjet now worth about A$24m, a failed bid for Webjet, three lawsuits in three years, a restated FY25, guidance cut in both FY25 and FY26 [H1, H6, H17, H19].
 - Out-of-favour sector after the Middle East conflict cut airline capacity in March and April 2026 [H17].
@@ -140,7 +140,7 @@ Crown's earnings after store rent. Helloworld reports under the lease standard (
 | After-tax interest on A$101.25m (about 6.5%) | 4.6 | 4.6 | 4.6 |
 | Left for the 23.4m new shares | 7.0 | 4.8 | 2.8 |
 
-Does it earn its cost? On central figures, no: about 7% after tax on the A$135m paid, against the 11.5% post-tax rate Helloworld uses to test its own goodwill [H1, note 4.4.1]. It does if rent is near A$4m and Crown grows through Helloworld's 2,600 agencies and New Zealand, which is management's case ("multiple opportunities for expansion across HLO's retail networks" [H10]). Retail foreign exchange is also a business where cards and travel money accounts are taking share from banknotes, which argues against growth. On underlying earnings per share the deal is roughly neutral: about A$5.4m of profit after rent, depreciation, interest and tax on central figures, against 14.3% more shares (FY26 underlying EPS 18.5c becomes about 19.0c; at A$10m of rent, about 17.9c).
+Does it earn its cost? On central figures, no: about 7% after tax on the A$135m paid, against the 11.5% post-tax rate Helloworld uses to test its own goodwill [H1, note 4.4.1]. It does if rent is near A$4m and Crown grows through Helloworld's 2,600 agencies and New Zealand, which is management's case ("multiple opportunities for expansion across HLO's retail networks" [H10]). Retail foreign exchange is also a business where cards and travel money accounts are taking share from banknotes, which argues against growth. On underlying earnings per share the deal is roughly neutral: about A$5.2m of profit after rent, about A$1m of depreciation, A$6.6m of interest and tax on central figures, before any amortisation of Crown's acquired intangibles, against 14.3% more shares (FY26 underlying EPS of 18.5c becomes about 18.9c; at A$10m of rent, about 17.8c).
 
 ### "Underlying" profit: every item left out (question 3)
 Underlying EBITDA = statutory EBITDA plus significant items [H1, note 2.3.3; H6 for FY25 as first reported].
@@ -170,7 +170,7 @@ Underlying EBITDA also includes three things that aren't consolidated trading pr
 - Both cuts came after the half-year result (May 2025, June 2026), not at it.
 
 ### What else a quick reader would miss
-- The FY26 dividend (10c) was paid from free cash of A$17.9m (A$16.4m of dividends on 163.7m shares); FY25's 14c (A$22.5m) was paid while free cash was negative as reported [H1, H4].
+- Dividends paid in FY26 (A$17.9m) used all of FY26's free cash (A$17.9m); FY25's (A$22.5m) were paid while free cash was minus A$21.0m as reported, or A$19.0m with the extra BSP payment put back [H1, H4]. At 10c a share on 187.1m shares the dividend now costs A$18.7m a year, before the vendor loan repayments.
 - Book value is all intangibles: intangible assets A$336.1m against equity of A$318.6m at 30 June 2026, before Crown [H1].
 - MTA's full year adds about A$3.1m of profit before tax to FY26 on a full-year basis (the company's pro forma A$13.3m against A$10.2m) [H1, note 6.4.4].
 - 1,699,002 shares from the 2024 franchisee loyalty programme came out of escrow on 31 October 2026 [H33a].
@@ -226,7 +226,7 @@ The market prices travel distributors on enterprise value over EBITDA, and since
 
 Flight Centre and Web Travel are the real comparisons: larger, growing and widely held, at 8.7 to 9.2 times on own cash (Web Travel about 7.6 times on its raised first-half guidance of A$85m to A$89m [P8]). Corporate Travel is mid-remediation of UK overbilling (A$211m of refunds recognised, A$24m of forensic costs left out of underlying EBITDA) [P5], and Webjet is shrinking. Flight Centre's share count has fallen further since June under its new buy-back [P3], so its multiple is a little lower than shown; FY26 was also a conflict-hit year for Flight Centre (underlying profit before tax A$278m against A$310m to A$345m targeted before June [P3]).
 
-For Helloworld I use 5.0 times (bad), 6.5 times (middling) and 8.0 times (good): below Flight Centre and Web Travel for its size, its controlled register, the recurring "one-offs" and its guidance record, and above Corporate Travel and Webjet. Its capital spending is light (about 6% of EBITDAaL against 26% for Flight Centre and Web Travel), which argues for the upper end on an after-capex basis.
+For Helloworld I use 5.0 times (bad), 6.5 times (middling) and 8.0 times (good): below Flight Centre and Web Travel for its size, its controlled register, the recurring "one-offs" and its guidance record, and above Corporate Travel and Webjet. Its capital spending is light (about 8% of EBITDAaL against 26% for Flight Centre and Web Travel), which argues for the upper end on an after-capex basis.
 
 | | Bad | Middling | Good |
 | --- | --- | --- | --- |
@@ -237,7 +237,7 @@ For Helloworld I use 5.0 times (bad), 6.5 times (middling) and 8.0 times (good):
 | Per share | A$1.03 / A$1.06 | A$1.85 / A$1.89 | A$2.79 / A$2.83 |
 
 ### Cross-check: earnings per share
-Underlying EPS was 18.5c in FY26 [H1]. With Crown on central figures, about 19.0c; less about 2.3c a share for the recurring "one-offs" after tax, about 16.7c. At 10 to 12 times, A$1.67 to A$2.00.
+Underlying EPS was 18.5c in FY26 [H1]. With Crown on central figures, about 18.9c; less about 2.2c a share for the recurring "one-offs" after tax (A$6m at 70%), about 16.7c. At 10 to 12 times, A$1.67 to A$2.00.
 
 ### The Webjet stake (question 4; the rules and options are under "The players and what the rules allow")
 - At market: A$0.305 on 6 November 2026 (ASX company data), A$23.9m, 12.8c a Helloworld share.
@@ -260,7 +260,7 @@ This isn't a special situation pick, but two things on the register could move t
 - History: Helloworld proposed A$0.90 cash by scheme on 19 November 2025 [H31]; BGH revised to A$0.91 by takeover with a 75% minimum acceptance on 21 November 2025 [W4]; Webjet ended talks with both on 13 February 2026 because neither had made a proposal "capable of being put to shareholders" [W3]. Helloworld nominated Andrew and Cinzia Burnes to Webjet's board on 29 June 2026 [W5] and withdrew them on 21 August 2026 [W6]. At Webjet's AGM on 27 August, 78,687,508 votes went against the remuneration report (a first strike) [W9]; that is close to Helloworld's 78.25m shares, so it probably voted against (my inference, as in the Webjet deep dive).
 - What Helloworld can do:
   - Creep: a holder with at least 19% throughout the past six months may buy up to 3 percentage points more than it held six months earlier, every six months, without a bid (s611 item 9) [L1]. Helloworld's six months run from 18 May 2026, so from about 18 to 19 November 2026 it can go to about 22.9% (19.955% plus 3), about 2.5 points more, roughly 9.5m shares or A$2.9m at A$0.305 (my arithmetic). The next step would be from about May 2027.
-  - Bid: a takeover bid or scheme for the 79.5% it doesn't own (about 304m shares). At A$0.30 to A$0.40 that is A$91m to A$122m in cash, which on top of Crown would take net debt on my measure to about A$230m to A$260m, 3.3 to 3.8 times EBITDAaL. Webjet's own spare cash (about A$41m on the deep dive's figure) would help a little. A bid in Helloworld shares is possible but would dilute holders at about 5 times EBITDAaL. Helloworld had ACCC clearance for a possible acquisition on 3 December 2025 [fact sheet source 4]; I did not check whether it still applies.
+  - Bid: a takeover bid or scheme for the 79.5% it doesn't own (about 304m shares). At A$0.30 to A$0.40 that is A$91m to A$122m in cash, which on top of Crown would take net debt on my measure to about A$230m to A$260m, 3.3 to 3.8 times EBITDAaL. Webjet's own spare cash (about A$41m on the deep dive's figure) would help a little. A bid in Helloworld shares is possible but would dilute holders at about 5 times EBITDAaL. Helloworld announced ACCC clearance for a possible acquisition on 3 December 2025 [H34]; I did not check whether it still applies.
   - Sell: into a BGH or other bid, or on market. A 20% stake in a A$117m company is hard to sell except to a bidder.
   - Nothing: the stake blocks anyone else from reaching 80% and compulsory acquisition (90%), so it gives Helloworld a say in any outcome.
 - What it means for Helloworld's price: at market the stake is 12.8c a share, at the deep dive's value 9.2c. Any further money spent on Webjet is the main capital allocation risk to Helloworld's holders; a bid by someone else at a premium (BGH's A$0.91 was A$71m for this stake) is the main upside. Webjet reports its half-year on 18 November 2026 [W10].
@@ -269,8 +269,8 @@ This isn't a special situation pick, but two things on the register could move t
 - Burnes group: 39,541,832 shares (24.2%, now 21.1%), unchanged in total since 5 March 2025, when Cinzia Burnes bought 300,000 on market for A$515,739 (A$1.72) [H24]. Andrew Burnes bought 200,000 on market for A$385,900 (A$1.86 to A$2.04) in August and September 2024 [H25]. In FY26 7,364,954 shares moved between Burnes entities [H1, H4]. Andrew Burnes is CEO and Cinzia Burnes COO; both are directors.
 - Alysandratos family: 24,556,724 (15.0%, now 13.1%), up from 23,946,957 at the FY24 report and 24,146,943 at the FY25 report [H7, H4, H1]; moves under 1% need no notice.
 - KCE Investments (Greg Woolley): 22,258,129 (11.90%) from 30 October 2026, issued as Crown consideration for nil cash [H21]. Palermo Family Holdings: 1,171,481. Half of the 23,429,610 vendor shares are escrowed to 31 October 2027 and half to 30 October 2028 [H13, H23].
-- FIL: 14,142,150 (7.56%) at 30 October 2026, down from 9.34% at its last notice in August 2020 mainly through dilution; it bought about 600,000 at A$1.50 to A$1.60 in July to September 2026 and sold on 20 to 22 October at A$1.36 to A$1.38 [H22].
-- The Express Travel Group vendors (CTG Investments and Dragonhills) hold 2,735,998 each, from shares issued for Express Travel Group in 2023 and January 2024 [H1, H30]. I found no holder named AAT in any register list or notice; if "AAT/Express" means the Express vendors, this is them.
+- FIL: 14,142,150 (7.56%) at 30 October 2026, down from 9.34% at its last notice in August 2020, mostly through dilution. It bought 599,958 shares on 7 to 9 April 2026 at A$1.50 to A$1.60 and sold 933,342 between 20 and 30 October 2026 at A$1.325 to A$1.38 (average about A$1.36) [H22, dates written month first in the form]. That is a large holder selling into the Crown completion, and the price drifted from A$1.37 to A$1.32 over those days (Norgate).
+- The Express Travel Group vendors (CTG Investments and Dragonhills) hold 2,735,998 each: 1,823,999 each at the FY23 report plus half each of the 1,823,998 second-tranche shares issued for Express Travel Group in January 2024 (my inference from the matching numbers) [H8, H1, H30]. I found no holder named AAT in any register list or notice; if "AAT/Express" means the Express vendors, this is them.
 - The Lawrence family: no Lawrence entity appears among the substantial holders or the top 20 in the FY24, FY25 or FY26 annual reports [H7, H4, H1], so any holding is below 5% and not separately disclosed.
 - Directors' on-market dealing in the last 12 months (since 8 November 2025): one purchase, Martin Pakula, 2,500 shares for A$3,750 (A$1.50) on 25 June 2026 [H26]. No sales. Peter Costello held none on appointment [H27]. No other Appendix 3Y appears in Helloworld's 2025 or 2026 announcement lists after November 2025 [H33].
 - What the rules allow here: the Burnes group, above 19%, may itself creep 3 points every six months; a takeover of Helloworld needs the Burnes group and probably the Alysandratos family. There is no sign of either, and the three largest holders owning 46% means minorities have little say over further acquisitions, which the market may price.
@@ -313,10 +313,11 @@ As a value pick over 24 months: bad A$1.10 (-19%), middling business value A$1.8
 - 1 July 2027: the Burnes-related head office lease ends [H1, note 8.2.5].
 - About 26 August 2027: FY27 result, the first full year to test the guidance.
 - 31 October 2027 and 30 October 2028: the two halves of Crown's vendor shares leave escrow [H13]. 8 October 2028: Citibank revolver expires [H1].
+- Resolve by, for the outcomes above: 5 March 2027. The later dates matter only if the pick is reopened as a 24-month value pick.
 
 ## What would make this wrong
 The two things most likely to make this assessment wrong:
-1. Crown's costs. If Crown's A$22m is already after store rent, or rent is nearer A$4m, and the NAB and vendor debt cost 6% or less, Crown earns its cost: the middling value rises to about A$1.95 and the bad case to about A$1.25, inside the value pick limits. If rent is A$10m or more, the middling value falls to about A$1.70 and the bad case to about A$1.00.
+1. Crown's costs. If Crown's A$22m is already after store rent, or rent is nearer A$4m, and the NAB and vendor debt cost 6% or less, Crown earns its cost: the middling value rises to about A$1.90 and the bad case to about A$1.23 (9% below the price), inside the value pick limits. If rent is A$10m, the middling value falls to about A$1.70 and the bad case to about A$1.05 (Webjet at A$0.26, between market and the deep dive's value).
 2. The multiple. The market has paid about 5 to 5.6 times EBITDA after leases for Helloworld all year. If it moves toward Flight Centre's and Web Travel's 8.7 to 9.2 times after clean results, the good case is reachable within 24 months; if it stays, even delivered guidance only lifts the price to about A$1.50. A third mid-year guidance cut (both earlier cuts came in May or June) or another debt-funded purchase, for example a bid for Webjet, would push it lower.
 
 Reopen after the H1 FY27 result (about 25 February 2027), as a 24-month value pick, if all of these hold:
@@ -324,7 +325,7 @@ Reopen after the H1 FY27 result (about 25 February 2027), as a 24-month value pi
 2. Total borrowings at 31 December 2026 are A$140m or less, with the NAB and vendor loan terms disclosed at an average cost of 7% or less and covenants met.
 3. H1 FY27 underlying EBITDA without Crown is at least A$31m (H1 FY26: A$30.5m), and FY27 guidance of A$78m to A$84m is reaffirmed.
 4. Own cash on the measure above (cash less net money held for others) at 31 December 2026 is no worse than minus A$10m, so net debt on my measure is A$150m or less.
-With those, the bad case rises to about A$1.33 (core A$57m, A$6.5m of "one-offs", Crown A$21m less A$7.5m of rent, 5.5 times), within 10% of today's price, and the middling business value stays about A$1.80.
+With those, the bad case rises to about A$1.33 to A$1.35 (core A$57m, A$6.5m of "one-offs", Crown A$21m less A$7.5m of rent, 5.5 times), within 10% of today's price, and the middling business value stays about A$1.80.
 
 Or reopen as an ordinary research pick if the price falls to A$1.33 or lower with nothing else changed.
 
@@ -379,9 +380,10 @@ Helloworld Travel (ASX:HLO), announcements.asx.com.au:
 - [H29] Helloworld acquires 100% of Mobile Travel Holdings (MTA), 21 October 2025 (03012871): https://announcements.asx.com.au/asxpdf/20251021/pdf/06qt7ycj6k89g1.pdf
 - [H30] Finalisation of Express Travel Group acquisition, 2 January 2024 (02759827): https://announcements.asx.com.au/asxpdf/20240102/pdf/05z35tkrd63tyg.pdf
 - [H31] Helloworld announces NBIO to acquire Webjet Group (A$0.90 cash), 19 November 2025 (03028303): https://announcements.asx.com.au/asxpdf/20251119/pdf/06s5nhdkcp1dfq.pdf
-- [H32] Dividend/Distribution (FY26 interim, ex 2 March 2026), 25 February 2026 (03064688), and the dividend notes in [H7]: https://announcements.asx.com.au/asxpdf/20260225/pdf/06wqgwm4x8j3l1.pdf
+- [H32] Dividend/Distribution (FY26 interim, ex 2 March 2026), 25 February 2026 (03064688), and the dividend notes in [H7]: https://announcements.asx.com.au/asxpdf/20260225/pdf/06wqm12pd848yw.pdf
 - [H33] ASX announcements lists for HLO, 2024 to 2026 (read 8 November 2026): https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=HLO&timeframe=Y&year=2026 (and year=2025, 2024)
 - [H33a] Release of Shares from Voluntary Escrow, 28 October 2026 (03158553): https://announcements.asx.com.au/asxpdf/20261028/pdf/075x63b6x4qky0.pdf
+- [H34] HLO receives ACCC clearance for potential Webjet acquisition, 3 December 2025 (03036545), as cited in the fact sheet; not re-read: https://announcements.asx.com.au/asxpdf/20251203/pdf/06swzd4f23xjk8.pdf
 
 Webjet Group (ASX:WJL):
 - [W1] Change in substantial holding (Helloworld Form 604: 71,736,099 or 18.294% to 78,250,205 or 19.955%, change on 18 May 2026), 20 May 2026 (03096004), faxed form read by text recognition: https://announcements.asx.com.au/asxpdf/20260520/pdf/06zsvxh61v75fk.pdf ; earlier notice 17 March 2026 (03073197): https://announcements.asx.com.au/asxpdf/20260317/pdf/06xjlmvxlccm91.pdf
