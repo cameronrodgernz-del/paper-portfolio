@@ -1,21 +1,21 @@
 market,ticker,why,points
+ASX,KAU,"ranked, 7 points",7
+ASX,AIM,"ranked, 6 points",6
 ASX,FEX,"ranked, 6 points",6
-ASX,KAU,"ranked, 6 points",6
+ASX,STP,"ranked, 6 points",6
 ASX,ZIM,"ranked, 6 points",6
+ASX,AHC,"ranked, 5 points",5
 ASX,CAF,"ranked, 5 points",5
 ASX,CWP,"ranked, 5 points",5
 ASX,EDU,"ranked, 5 points",5
-ASX,EML,"ranked, 5 points",5
 ASX,HLO,"ranked, 5 points",5
 ASX,KSL,"ranked, 5 points",5
 ASX,MVP,"ranked, 5 points",5
 ASX,RMC,"ranked, 5 points",5
+ASX,TRJ,"ranked, 5 points",5
 ASX,AAC,"ranked, 4 points",4
-ASX,AL3,"ranked, 4 points",4
-ASX,CCV,"ranked, 4 points",4
-ASX,DXC,"ranked, 4 points",4
+NZX,IPL,"ranked, 4 points",4
 NZX,FWL,"ranked, 3 points",3
 NZX,MFB,"ranked, 3 points",3
 NZX,SPG,"ranked, 3 points",3
 NZX,OCA,"ranked, 2 points",2
-NZX,STU,"ranked, 2 points",2
