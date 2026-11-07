@@ -65642,6 +65642,1463 @@
 "yieldAnnual": 0
 }
 },
+"BLG": {
+"announcements": [
+{
+"date": "2026-11-02",
+"headline": "Change of Director's Interest Notice",
+"id": "03161049",
+"sensitive": false,
+"time": "10:09 am"
+},
+{
+"date": "2026-10-30",
+"headline": "Cleansing Notice",
+"id": "03160356",
+"sensitive": false,
+"time": "3:28 pm"
+},
+{
+"date": "2026-10-30",
+"headline": "Application for quotation of securities - BLG",
+"id": "03160355",
+"sensitive": false,
+"time": "3:25 pm"
+},
+{
+"date": "2026-10-30",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03160276",
+"sensitive": false,
+"time": "2:02 pm"
+},
+{
+"date": "2026-10-23",
+"headline": "Results of Annual General Meeting",
+"id": "03156500",
+"sensitive": false,
+"time": "3:41 pm"
+},
+{
+"date": "2026-10-23",
+"headline": "AGM Presentation",
+"id": "03156293",
+"sensitive": false,
+"time": "10:48 am"
+},
+{
+"date": "2026-10-23",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03156036",
+"sensitive": true,
+"time": "8:23 am"
+},
+{
+"date": "2026-10-15",
+"headline": "BluGlass to present at Semiconductor Australia 2026",
+"id": "03152625",
+"sensitive": false,
+"time": "8:19 am"
+},
+{
+"date": "2026-10-09",
+"headline": "Change of Director's Interest Notice",
+"id": "03150471",
+"sensitive": false,
+"time": "9:29 am"
+},
+{
+"date": "2026-09-29",
+"headline": "Notification of cessation of securities - BLG",
+"id": "03145437",
+"sensitive": false,
+"time": "4:38 pm"
+},
+{
+"date": "2026-09-29",
+"headline": "Cleansing Notice",
+"id": "03145430",
+"sensitive": false,
+"time": "4:32 pm"
+},
+{
+"date": "2026-09-29",
+"headline": "Application for quotation of securities - BLG",
+"id": "03145418",
+"sensitive": false,
+"time": "4:26 pm"
+},
+{
+"date": "2026-09-29",
+"headline": "Application for quotation of securities - BLG",
+"id": "03145416",
+"sensitive": false,
+"time": "4:25 pm"
+},
+{
+"date": "2026-09-23",
+"headline": "Proposed issue of securities - BLG",
+"id": "03142784",
+"sensitive": false,
+"time": "12:44 pm"
+},
+{
+"date": "2026-09-23",
+"headline": "BluGlass secures A$8.0 million R&D funding facility",
+"id": "03142783",
+"sensitive": true,
+"time": "12:42 pm"
+},
+{
+"date": "2026-09-23",
+"headline": "Notice of Annual General Meeting/Proxy Form",
+"id": "03142731",
+"sensitive": false,
+"time": "10:44 am"
+},
+{
+"date": "2026-09-21",
+"headline": "BLG to collaborate with global photonics leader Coherent",
+"id": "03141476",
+"sensitive": true,
+"time": "8:37 am"
+},
+{
+"date": "2026-09-15",
+"headline": "iAccess Alpha Virtual Best Ideas Conference Presentation",
+"id": "03139821",
+"sensitive": false,
+"time": "6:26 pm"
+},
+{
+"date": "2026-09-11",
+"headline": "iAccess Alpha Virtual Best Ideas Fall Investment Conference",
+"id": "03138530",
+"sensitive": false,
+"time": "11:07 am"
+},
+{
+"date": "2026-09-03",
+"headline": "Cleansing Notice",
+"id": "03135551",
+"sensitive": false,
+"time": "5:36 pm"
+},
+{
+"date": "2026-09-03",
+"headline": "Application for quotation of securities - BLG",
+"id": "03135545",
+"sensitive": false,
+"time": "5:32 pm"
+},
+{
+"date": "2026-08-31",
+"headline": "Appendix 4G and Corporate Governance Statement",
+"id": "03132899",
+"sensitive": false,
+"time": "8:22 am"
+},
+{
+"date": "2026-08-31",
+"headline": "Appendix 4E and Annual Report",
+"id": "03132895",
+"sensitive": true,
+"time": "8:20 am"
+},
+{
+"date": "2026-08-21",
+"headline": "Initial Director's Interest Notice",
+"id": "03128349",
+"sensitive": false,
+"time": "3:35 pm"
+},
+{
+"date": "2026-08-21",
+"headline": "BluGlass appoints Yam Rubenstein to the Board",
+"id": "03128348",
+"sensitive": false,
+"time": "3:33 pm"
+},
+{
+"date": "2026-07-31",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03120196",
+"sensitive": true,
+"time": "8:21 am"
+},
+{
+"date": "2026-07-16",
+"headline": "BluGlass secures A$1.4 mil Phase II contract from Uviquity",
+"id": "03115467",
+"sensitive": true,
+"time": "9:00 am"
+},
+{
+"date": "2026-07-13",
+"headline": "Jim Haden appointed as Managing Director",
+"id": "03114183",
+"sensitive": true,
+"time": "8:40 am"
+},
+{
+"date": "2026-07-10",
+"headline": "Notification of cessation of securities - BLG",
+"id": "03113863",
+"sensitive": false,
+"time": "10:56 am"
+},
+{
+"date": "2026-06-22",
+"headline": "Change of Directors' Interest Notices",
+"id": "03106453",
+"sensitive": false,
+"time": "3:57 pm"
+},
+{
+"date": "2026-06-16",
+"headline": "Application for quotation of securities - BLG",
+"id": "03104640",
+"sensitive": false,
+"time": "3:52 pm"
+},
+{
+"date": "2026-06-15",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03104236",
+"sensitive": false,
+"time": "4:39 pm"
+},
+{
+"date": "2026-06-15",
+"headline": "Application for quotation of securities - BLG",
+"id": "03104228",
+"sensitive": false,
+"time": "4:30 pm"
+},
+{
+"date": "2026-06-09",
+"headline": "Results of Meeting",
+"id": "03102328",
+"sensitive": false,
+"time": "4:02 pm"
+},
+{
+"date": "2026-06-05",
+"headline": "Cleansing Prospectus",
+"id": "03101804",
+"sensitive": false,
+"time": "5:47 pm"
+},
+{
+"date": "2026-06-05",
+"headline": "Notification of cessation of securities - BLG",
+"id": "03101796",
+"sensitive": false,
+"time": "5:43 pm"
+},
+{
+"date": "2026-06-05",
+"headline": "Cleansing Notice",
+"id": "03101794",
+"sensitive": false,
+"time": "5:39 pm"
+},
+{
+"date": "2026-06-05",
+"headline": "Application for quotation of securities - BLG",
+"id": "03101789",
+"sensitive": false,
+"time": "5:37 pm"
+},
+{
+"date": "2026-06-05",
+"headline": "BluGlass receives $6.6 million in connection with Options",
+"id": "03101788",
+"sensitive": false,
+"time": "5:37 pm"
+},
+{
+"date": "2026-06-04",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03101193",
+"sensitive": false,
+"time": "2:16 pm"
+},
+{
+"date": "2026-06-04",
+"headline": "Application for quotation of securities - BLG",
+"id": "03101192",
+"sensitive": false,
+"time": "2:14 pm"
+},
+{
+"date": "2026-06-01",
+"headline": "Proposed issue of securities - BLG",
+"id": "03099469",
+"sensitive": false,
+"time": "8:31 am"
+},
+{
+"date": "2026-06-01",
+"headline": "Proposed issue of securities - BLG",
+"id": "03099458",
+"sensitive": false,
+"time": "8:29 am"
+},
+{
+"date": "2026-06-01",
+"headline": "BluGlass executes $1 million Option shortfall agreement",
+"id": "03099457",
+"sensitive": true,
+"time": "8:29 am"
+},
+{
+"date": "2026-05-29",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03099176",
+"sensitive": false,
+"time": "3:52 pm"
+},
+{
+"date": "2026-05-29",
+"headline": "Application for quotation of securities - BLG",
+"id": "03099175",
+"sensitive": false,
+"time": "3:50 pm"
+},
+{
+"date": "2026-05-28",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03098597",
+"sensitive": false,
+"time": "1:51 pm"
+},
+{
+"date": "2026-05-28",
+"headline": "Application for quotation of securities - BLG",
+"id": "03098595",
+"sensitive": false,
+"time": "1:49 pm"
+},
+{
+"date": "2026-05-27",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03098133",
+"sensitive": false,
+"time": "4:00 pm"
+},
+{
+"date": "2026-05-27",
+"headline": "Application for quotation of securities - BLG",
+"id": "03098131",
+"sensitive": false,
+"time": "3:56 pm"
+},
+{
+"date": "2026-05-26",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03097672",
+"sensitive": false,
+"time": "3:06 pm"
+},
+{
+"date": "2026-05-26",
+"headline": "Application for quotation of securities - BLG",
+"id": "03097671",
+"sensitive": false,
+"time": "3:06 pm"
+},
+{
+"date": "2026-05-25",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03097232",
+"sensitive": false,
+"time": "2:54 pm"
+},
+{
+"date": "2026-05-25",
+"headline": "Application for quotation of securities - BLG",
+"id": "03097231",
+"sensitive": false,
+"time": "2:53 pm"
+},
+{
+"date": "2026-05-22",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03096677",
+"sensitive": false,
+"time": "11:37 am"
+},
+{
+"date": "2026-05-22",
+"headline": "Application for quotation of securities - BLG",
+"id": "03096675",
+"sensitive": false,
+"time": "11:36 am"
+},
+{
+"date": "2026-05-19",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03095460",
+"sensitive": false,
+"time": "5:07 pm"
+},
+{
+"date": "2026-05-19",
+"headline": "Application for quotation of securities - BLG",
+"id": "03095459",
+"sensitive": false,
+"time": "5:06 pm"
+},
+{
+"date": "2026-05-19",
+"headline": "BLG sets new world-record single-mode GaN laser performance",
+"id": "03095189",
+"sensitive": false,
+"time": "8:32 am"
+},
+{
+"date": "2026-05-15",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03094364",
+"sensitive": false,
+"time": "11:58 am"
+},
+{
+"date": "2026-05-15",
+"headline": "Application for quotation of securities - BLG",
+"id": "03094362",
+"sensitive": false,
+"time": "11:56 am"
+},
+{
+"date": "2026-05-11",
+"headline": "Cleansing Notice",
+"id": "03092682",
+"sensitive": false,
+"time": "3:41 pm"
+},
+{
+"date": "2026-05-11",
+"headline": "Application for quotation of securities - BLG",
+"id": "03092679",
+"sensitive": false,
+"time": "3:37 pm"
+},
+{
+"date": "2026-05-08",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03092149",
+"sensitive": false,
+"time": "2:02 pm"
+},
+{
+"date": "2026-05-08",
+"headline": "Application for quotation of securities - BLG",
+"id": "03092148",
+"sensitive": false,
+"time": "2:00 pm"
+},
+{
+"date": "2026-05-08",
+"headline": "Notice of General Meeting/Proxy Form",
+"id": "03092038",
+"sensitive": false,
+"time": "10:11 am"
+},
+{
+"date": "2026-05-01",
+"headline": "Cleansing Notice",
+"id": "03089595",
+"sensitive": false,
+"time": "5:44 pm"
+},
+{
+"date": "2026-05-01",
+"headline": "Application for quotation of securities - BLG",
+"id": "03089593",
+"sensitive": false,
+"time": "5:40 pm"
+},
+{
+"date": "2026-05-01",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03089459",
+"sensitive": false,
+"time": "3:07 pm"
+},
+{
+"date": "2026-05-01",
+"headline": "Application for quotation of securities - BLG",
+"id": "03089458",
+"sensitive": false,
+"time": "3:05 pm"
+},
+{
+"date": "2026-04-29",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03087723",
+"sensitive": true,
+"time": "1:23 pm"
+},
+{
+"date": "2026-04-24",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03086207",
+"sensitive": false,
+"time": "3:53 pm"
+},
+{
+"date": "2026-04-24",
+"headline": "Application for quotation of securities - BLG",
+"id": "03086206",
+"sensitive": false,
+"time": "3:52 pm"
+},
+{
+"date": "2026-04-17",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03083848",
+"sensitive": false,
+"time": "3:40 pm"
+},
+{
+"date": "2026-04-17",
+"headline": "Application for quotation of securities - BLG",
+"id": "03083843",
+"sensitive": false,
+"time": "3:36 pm"
+},
+{
+"date": "2026-04-17",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03083718",
+"sensitive": false,
+"time": "10:21 am"
+},
+{
+"date": "2026-04-17",
+"headline": "Cleansing Notice",
+"id": "03083706",
+"sensitive": false,
+"time": "10:14 am"
+},
+{
+"date": "2026-04-17",
+"headline": "Application for quotation of securities - BLG",
+"id": "03083705",
+"sensitive": false,
+"time": "10:13 am"
+},
+{
+"date": "2026-04-16",
+"headline": "Notification of cessation of securities - BLG",
+"id": "03083368",
+"sensitive": false,
+"time": "2:22 pm"
+},
+{
+"date": "2026-04-13",
+"headline": "Capital Raise Presentation",
+"id": "03082006",
+"sensitive": false,
+"time": "4:23 pm"
+},
+{
+"date": "2026-04-13",
+"headline": "Proposed issue of securities - BLG",
+"id": "03081883",
+"sensitive": false,
+"time": "10:01 am"
+},
+{
+"date": "2026-04-13",
+"headline": "Proposed issue of securities - BLG",
+"id": "03081882",
+"sensitive": false,
+"time": "10:01 am"
+},
+{
+"date": "2026-04-13",
+"headline": "BLG completes A$8 million Placement to accelerate growth",
+"id": "03081881",
+"sensitive": true,
+"time": "10:01 am"
+},
+{
+"date": "2026-04-09",
+"headline": "Trading Halt",
+"id": "03080780",
+"sensitive": true,
+"time": "9:31 am"
+},
+{
+"date": "2026-04-07",
+"headline": "$1.3m Agreement with global Fortune 500 data storage leader",
+"id": "03079576",
+"sensitive": true,
+"time": "8:28 am"
+},
+{
+"date": "2026-03-20",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03074544",
+"sensitive": false,
+"time": "6:38 pm"
+},
+{
+"date": "2026-03-20",
+"headline": "Application for quotation of securities - BLG",
+"id": "03074543",
+"sensitive": false,
+"time": "6:38 pm"
+},
+{
+"date": "2026-03-12",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03071421",
+"sensitive": false,
+"time": "4:55 pm"
+},
+{
+"date": "2026-03-12",
+"headline": "Application for quotation of securities - BLG",
+"id": "03071420",
+"sensitive": false,
+"time": "4:55 pm"
+},
+{
+"date": "2026-03-09",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03069848",
+"sensitive": false,
+"time": "4:07 pm"
+},
+{
+"date": "2026-03-09",
+"headline": "Application for quotation of securities - BLG",
+"id": "03069847",
+"sensitive": false,
+"time": "4:04 pm"
+},
+{
+"date": "2026-03-09",
+"headline": "A$1.25M Tier 1 defence prime program, A$560k order received",
+"id": "03069733",
+"sensitive": true,
+"time": "10:11 am"
+},
+{
+"date": "2026-03-06",
+"headline": "Response to ASX Price Query",
+"id": "03069392",
+"sensitive": true,
+"time": "4:32 pm"
+},
+{
+"date": "2026-03-06",
+"headline": "Trading Halt",
+"id": "03069264",
+"sensitive": true,
+"time": "1:08 pm"
+},
+{
+"date": "2026-03-06",
+"headline": "Pause in Trading",
+"id": "03069180",
+"sensitive": true,
+"time": "10:53 am"
+},
+{
+"date": "2026-03-05",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03068881",
+"sensitive": false,
+"time": "4:38 pm"
+},
+{
+"date": "2026-02-26",
+"headline": "Half Yearly Report and Accounts",
+"id": "03065764",
+"sensitive": true,
+"time": "2:55 pm"
+},
+{
+"date": "2026-02-24",
+"headline": "Notification of cessation of securities - BLG",
+"id": "03064156",
+"sensitive": false,
+"time": "3:23 pm"
+},
+{
+"date": "2026-02-24",
+"headline": "Reconciliation of Performance Rights on Issue",
+"id": "03064155",
+"sensitive": false,
+"time": "3:21 pm"
+},
+{
+"date": "2026-02-24",
+"headline": "BluGlass secures A$190k order from TOPTICA Photonics Inc",
+"id": "03063862",
+"sensitive": true,
+"time": "8:58 am"
+},
+{
+"date": "2026-02-06",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03057683",
+"sensitive": false,
+"time": "3:00 pm"
+},
+{
+"date": "2026-02-06",
+"headline": "Application for quotation of securities - BLG",
+"id": "03057680",
+"sensitive": false,
+"time": "2:58 pm"
+},
+{
+"date": "2026-01-30",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03055118",
+"sensitive": false,
+"time": "4:18 pm"
+},
+{
+"date": "2026-01-30",
+"headline": "Application for quotation of securities - BLG",
+"id": "03055116",
+"sensitive": false,
+"time": "4:14 pm"
+},
+{
+"date": "2026-01-30",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03054744",
+"sensitive": true,
+"time": "9:53 am"
+},
+{
+"date": "2026-01-23",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03052477",
+"sensitive": false,
+"time": "3:29 pm"
+},
+{
+"date": "2026-01-23",
+"headline": "Application for quotation of securities - BLG",
+"id": "03052474",
+"sensitive": false,
+"time": "3:22 pm"
+},
+{
+"date": "2026-01-20",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03051415",
+"sensitive": false,
+"time": "6:42 pm"
+},
+{
+"date": "2026-01-20",
+"headline": "Application for quotation of securities - BLG",
+"id": "03051410",
+"sensitive": false,
+"time": "6:35 pm"
+},
+{
+"date": "2026-01-12",
+"headline": "BLG secures A$1.05M CLAWS Hub contract extension with US DoW",
+"id": "03048891",
+"sensitive": true,
+"time": "8:46 am"
+},
+{
+"date": "2025-12-18",
+"headline": "Notification of cessation of securities - BLG",
+"id": "03042846",
+"sensitive": false,
+"time": "10:32 am"
+},
+{
+"date": "2025-12-17",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03042354",
+"sensitive": false,
+"time": "3:02 pm"
+},
+{
+"date": "2025-12-17",
+"headline": "Application for quotation of securities - BLG",
+"id": "03042352",
+"sensitive": false,
+"time": "3:01 pm"
+},
+{
+"date": "2025-12-16",
+"headline": "Appendix 3X - Initial Director's Interest Notice - JH",
+"id": "03041881",
+"sensitive": false,
+"time": "5:02 pm"
+},
+{
+"date": "2025-12-15",
+"headline": "Correction to Appendix 3Z",
+"id": "03041296",
+"sensitive": false,
+"time": "2:36 pm"
+},
+{
+"date": "2025-12-15",
+"headline": "Change in Company Secretary",
+"id": "03040986",
+"sensitive": false,
+"time": "8:37 am"
+},
+{
+"date": "2025-12-09",
+"headline": "Appendix 3Z - Final Director's Interest Notice - JMP",
+"id": "03039066",
+"sensitive": false,
+"time": "4:53 pm"
+},
+{
+"date": "2025-12-09",
+"headline": "BluGlass continues Board refresh",
+"id": "03039057",
+"sensitive": false,
+"time": "4:41 pm"
+},
+{
+"date": "2025-12-04",
+"headline": "Completion of Securities Consolidation",
+"id": "03037009",
+"sensitive": false,
+"time": "11:03 am"
+},
+{
+"date": "2025-11-25",
+"headline": "Amended Constitution",
+"id": "03031584",
+"sensitive": false,
+"time": "12:35 pm"
+},
+{
+"date": "2025-11-24",
+"headline": "2025 AGM Poll Reults",
+"id": "03030933",
+"sensitive": false,
+"time": "1:07 pm"
+},
+{
+"date": "2025-11-24",
+"headline": "2025 AGM Presentation",
+"id": "03030758",
+"sensitive": false,
+"time": "9:35 am"
+},
+{
+"date": "2025-11-24",
+"headline": "2025 AGM Chair and CEO Address",
+"id": "03030748",
+"sensitive": false,
+"time": "9:30 am"
+},
+{
+"date": "2025-11-19",
+"headline": "Notification of cessation of securities - BLG",
+"id": "03028701",
+"sensitive": false,
+"time": "3:15 pm"
+},
+{
+"date": "2025-11-12",
+"headline": "Appendix 3Z - Final Director's Interest Notice - SW",
+"id": "03024587",
+"sensitive": false,
+"time": "5:00 pm"
+},
+{
+"date": "2025-11-11",
+"headline": "Correction to Updated Shares Consolidation Timetable",
+"id": "03023970",
+"sensitive": false,
+"time": "4:26 pm"
+},
+{
+"date": "2025-11-11",
+"headline": "Update - Consolidation/Split - BLG",
+"id": "03023918",
+"sensitive": false,
+"time": "2:28 pm"
+},
+{
+"date": "2025-11-11",
+"headline": "Proposed Share Consolidation Updated Indicative Timetable",
+"id": "03023917",
+"sensitive": false,
+"time": "2:27 pm"
+},
+{
+"date": "2025-11-10",
+"headline": "Appendix 3X - Initial Director's Interest Notice - LV",
+"id": "03023238",
+"sensitive": false,
+"time": "2:21 pm"
+},
+{
+"date": "2025-11-10",
+"headline": "Appendix 3X - Initial Director's Interest Notice - AG",
+"id": "03023230",
+"sensitive": false,
+"time": "2:13 pm"
+},
+{
+"date": "2025-11-10",
+"headline": "Supplementary Notice of Annual General Meeting/Proxy Form",
+"id": "03023229",
+"sensitive": false,
+"time": "2:08 pm"
+},
+{
+"date": "2025-11-10",
+"headline": "Appendix 3Z - Final Director's Interest Notice - JW",
+"id": "03022917",
+"sensitive": false,
+"time": "8:51 am"
+},
+{
+"date": "2025-11-10",
+"headline": "Refreshed Board to facilitate growth and AGM Update",
+"id": "03022907",
+"sensitive": false,
+"time": "8:45 am"
+},
+{
+"date": "2025-10-30",
+"headline": "Quarterly Activities Report & Appendix 4C 30 September 2025",
+"id": "03018111",
+"sensitive": true,
+"time": "9:18 am"
+},
+{
+"date": "2025-10-17",
+"headline": "Notice of Annual General Meeting & Proxy Form",
+"id": "03011371",
+"sensitive": false,
+"time": "9:23 am"
+},
+{
+"date": "2025-10-17",
+"headline": "Consolidation/Split - BLG",
+"id": "03011360",
+"sensitive": false,
+"time": "9:18 am"
+},
+{
+"date": "2025-10-17",
+"headline": "Notice of Proposed Share Consolidation",
+"id": "03011353",
+"sensitive": true,
+"time": "9:17 am"
+},
+{
+"date": "2025-10-03",
+"headline": "Cleansing Notice",
+"id": "03005107",
+"sensitive": false,
+"time": "11:38 am"
+},
+{
+"date": "2025-10-03",
+"headline": "Application for quotation of securities - BLG",
+"id": "03005105",
+"sensitive": false,
+"time": "11:33 am"
+},
+{
+"date": "2025-10-03",
+"headline": "Application for quotation of securities - BLG",
+"id": "03005104",
+"sensitive": false,
+"time": "11:29 am"
+},
+{
+"date": "2025-09-29",
+"headline": "BluGlass to host Semiconductor Australia 2025",
+"id": "03001569",
+"sensitive": false,
+"time": "9:09 am"
+},
+{
+"date": "2025-09-29",
+"headline": "2025 Annual Report",
+"id": "03001562",
+"sensitive": false,
+"time": "9:07 am"
+},
+{
+"date": "2025-09-25",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "03000072",
+"sensitive": false,
+"time": "10:08 am"
+},
+{
+"date": "2025-09-25",
+"headline": "Application for quotation of securities - BLG",
+"id": "03000071",
+"sensitive": false,
+"time": "10:07 am"
+},
+{
+"date": "2025-09-15",
+"headline": "Appendix 3Z - Final Director's Interest Notice",
+"id": "02995105",
+"sensitive": false,
+"time": "9:06 am"
+},
+{
+"date": "2025-09-15",
+"headline": "Appendix 3X - Initial Director Interest",
+"id": "02995104",
+"sensitive": false,
+"time": "9:05 am"
+},
+{
+"date": "2025-09-15",
+"headline": "BluGlass appoints Omer Granit to the Board of Directors",
+"id": "02995093",
+"sensitive": false,
+"time": "9:04 am"
+},
+{
+"date": "2025-08-27",
+"headline": "Appendix 4G and Corporate Governance Statement",
+"id": "02986604",
+"sensitive": false,
+"time": "4:36 pm"
+},
+{
+"date": "2025-08-27",
+"headline": "Clarification of title of Appendix 4E and Annual Report",
+"id": "02986602",
+"sensitive": false,
+"time": "4:35 pm"
+},
+{
+"date": "2025-08-27",
+"headline": "Appendix 4E and 2025 Annual Report",
+"id": "02986298",
+"sensitive": true,
+"time": "9:42 am"
+},
+{
+"date": "2025-07-30",
+"headline": "Quarterly Activities Report & Appendix 4C - 30 June 2025",
+"id": "02974275",
+"sensitive": true,
+"time": "9:08 am"
+},
+{
+"date": "2025-07-21",
+"headline": "Cleansing Notice",
+"id": "02971115",
+"sensitive": false,
+"time": "3:07 pm"
+},
+{
+"date": "2025-07-21",
+"headline": "Application for quotation of securities - BLG",
+"id": "02971114",
+"sensitive": false,
+"time": "3:06 pm"
+},
+{
+"date": "2025-07-21",
+"headline": "Notification of cessation of securities - BLG",
+"id": "02971112",
+"sensitive": false,
+"time": "3:04 pm"
+},
+{
+"date": "2025-07-01",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "02964551",
+"sensitive": false,
+"time": "2:35 pm"
+},
+{
+"date": "2025-07-01",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "02964547",
+"sensitive": false,
+"time": "2:33 pm"
+},
+{
+"date": "2025-07-01",
+"headline": "Application for quotation of securities - BLG",
+"id": "02964544",
+"sensitive": false,
+"time": "2:28 pm"
+},
+{
+"date": "2025-06-26",
+"headline": "Change of Director's Interest Notice x4",
+"id": "02962375",
+"sensitive": false,
+"time": "11:00 am"
+},
+{
+"date": "2025-06-24",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "02961581",
+"sensitive": false,
+"time": "5:14 pm"
+},
+{
+"date": "2025-06-24",
+"headline": "Application for quotation of securities - BLG",
+"id": "02961504",
+"sensitive": false,
+"time": "2:31 pm"
+},
+{
+"date": "2025-06-24",
+"headline": "Cleansing Notice",
+"id": "02961502",
+"sensitive": false,
+"time": "2:26 pm"
+},
+{
+"date": "2025-06-24",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "02961500",
+"sensitive": false,
+"time": "2:17 pm"
+},
+{
+"date": "2025-06-24",
+"headline": "Application for quotation of securities - BLG",
+"id": "02961494",
+"sensitive": false,
+"time": "2:10 pm"
+},
+{
+"date": "2025-06-24",
+"headline": "BluGlass raises $5.3 million, closes SPP",
+"id": "02961323",
+"sensitive": true,
+"time": "9:10 am"
+},
+{
+"date": "2025-06-16",
+"headline": "Proposed issue of securities - BLG",
+"id": "02958847",
+"sensitive": false,
+"time": "4:17 pm"
+},
+{
+"date": "2025-06-16",
+"headline": "Supplementary Prospectus",
+"id": "02958768",
+"sensitive": true,
+"time": "12:01 pm"
+},
+{
+"date": "2025-06-16",
+"headline": "SPP extension, secures additional shortfall commitments",
+"id": "02958580",
+"sensitive": true,
+"time": "9:04 am"
+},
+{
+"date": "2025-06-13",
+"headline": "Proposed issue of securities - BLG",
+"id": "02958253",
+"sensitive": false,
+"time": "3:18 pm"
+},
+{
+"date": "2025-06-13",
+"headline": "General Meeting Poll Results",
+"id": "02958234",
+"sensitive": false,
+"time": "2:50 pm"
+},
+{
+"date": "2025-06-11",
+"headline": "BluGlass SPP Extension",
+"id": "02957214",
+"sensitive": true,
+"time": "9:08 am"
+},
+{
+"date": "2025-06-06",
+"headline": "BLG to supply Indian Department of Defence with GaN lasers",
+"id": "02956067",
+"sensitive": true,
+"time": "9:03 am"
+},
+{
+"date": "2025-05-15",
+"headline": "General Meeting Notice of Meeting, Letter of Access & Proxy",
+"id": "02948748",
+"sensitive": false,
+"time": "3:23 pm"
+},
+{
+"date": "2025-05-15",
+"headline": "BluGlass to host virtual Business Update webinar",
+"id": "02948536",
+"sensitive": false,
+"time": "9:05 am"
+},
+{
+"date": "2025-05-12",
+"headline": "Updated Cleansing Notice",
+"id": "02947502",
+"sensitive": false,
+"time": "5:49 pm"
+},
+{
+"date": "2025-05-12",
+"headline": "Cleansing Notice",
+"id": "02947392",
+"sensitive": false,
+"time": "1:36 pm"
+},
+{
+"date": "2025-05-12",
+"headline": "Application for quotation of securities - BLG",
+"id": "02947390",
+"sensitive": false,
+"time": "1:29 pm"
+},
+{
+"date": "2025-05-01",
+"headline": "Target Market Determination",
+"id": "02943956",
+"sensitive": false,
+"time": "4:10 pm"
+},
+{
+"date": "2025-05-01",
+"headline": "Prospectus",
+"id": "02943952",
+"sensitive": true,
+"time": "4:05 pm"
+},
+{
+"date": "2025-05-01",
+"headline": "Proposed issue of securities - BLG",
+"id": "02943804",
+"sensitive": false,
+"time": "9:52 am"
+},
+{
+"date": "2025-05-01",
+"headline": "BluGlass Investor Presentation",
+"id": "02943803",
+"sensitive": false,
+"time": "9:52 am"
+},
+{
+"date": "2025-05-01",
+"headline": "BLG completes $2.3M Placement & launches up to $6M SPP",
+"id": "02943798",
+"sensitive": true,
+"time": "9:51 am"
+},
+{
+"date": "2025-04-30",
+"headline": "Quarterly Activities Report & Appendix 4C - 31 Mar 2025",
+"id": "02943433",
+"sensitive": true,
+"time": "5:12 pm"
+},
+{
+"date": "2025-04-29",
+"headline": "Trading Halt",
+"id": "02942068",
+"sensitive": true,
+"time": "10:27 am"
+},
+{
+"date": "2025-04-29",
+"headline": "Pause in Trading",
+"id": "02942004",
+"sensitive": true,
+"time": "9:53 am"
+},
+{
+"date": "2025-04-16",
+"headline": "Notification of cessation of securities - BLG",
+"id": "02938899",
+"sensitive": false,
+"time": "3:05 pm"
+},
+{
+"date": "2025-03-17",
+"headline": "Tech titans to lead BluGlass' Industry Advisory Board",
+"id": "02927055",
+"sensitive": false,
+"time": "9:09 am"
+},
+{
+"date": "2025-03-11",
+"headline": "BluGlass demonstrates world-record single-mode GaN laser",
+"id": "02924657",
+"sensitive": true,
+"time": "9:14 am"
+},
+{
+"date": "2025-03-05",
+"headline": "Notification of cessation of securities - BLG",
+"id": "02922868",
+"sensitive": false,
+"time": "3:26 pm"
+},
+{
+"date": "2025-03-05",
+"headline": "Notification regarding unquoted securities - BLG",
+"id": "02922865",
+"sensitive": false,
+"time": "3:12 pm"
+},
+{
+"date": "2025-03-05",
+"headline": "Application for quotation of securities - BLG",
+"id": "02922859",
+"sensitive": false,
+"time": "3:07 pm"
+},
+{
+"date": "2025-02-27",
+"headline": "Appendix 4D and Financial Report 31 Dec 2024",
+"id": "02920125",
+"sensitive": true,
+"time": "11:09 am"
+},
+{
+"date": "2025-02-20",
+"headline": "BLG receives $120k order for GaN lasers from repeat customer",
+"id": "02916530",
+"sensitive": false,
+"time": "8:48 am"
+},
+{
+"date": "2025-01-31",
+"headline": "Quarterly Activities Report & Appendix 4C - 31 Dec 2024",
+"id": "02909125",
+"sensitive": true,
+"time": "9:09 am"
+},
+{
+"date": "2025-01-29",
+"headline": "Showcases new product capability at Photonics West, files US",
+"id": "02907969",
+"sensitive": true,
+"time": "9:20 am"
+},
+{
+"date": "2025-01-23",
+"headline": "Change of Director's Interest Notice - JMP",
+"id": "02906806",
+"sensitive": false,
+"time": "3:05 pm"
+},
+{
+"date": "2025-01-23",
+"headline": "Application for quotation of securities - BLG",
+"id": "02906803",
+"sensitive": false,
+"time": "3:01 pm"
+},
+{
+"date": "2025-01-22",
+"headline": "Update - Application for quotation of securities - BLG",
+"id": "02906433",
+"sensitive": false,
+"time": "3:03 pm"
+}
+],
+"errors": [],
+"fetched": "2026-11-07T21:55:28+00:00",
+"header": {
+"dateListed": "2006-09-22",
+"displayName": "BLUGLASS LIMITED",
+"industryGroup": "Semiconductors & Semiconductor Equipment",
+"marketCap": 32804625,
+"priceAsk": 0.17500000000000002,
+"priceBid": 0.17,
+"priceChange": 0,
+"priceChangePercent": 0,
+"priceLast": 0.17,
+"sector": "Information Technology",
+"securityType": 1,
+"statusCode": "RE",
+"symbol": "BLG",
+"volume": 96264,
+"xid": "5438246"
+},
+"key-statistics": {
+"cashFlow": -9.51228,
+"currency": "AUD",
+"earningsPerShare": -0.07444,
+"enterprisevalue": 29.52631,
+"foreignExempt": false,
+"freeCashFlowYield": -1.00000010000001e-05,
+"incomeStatement": [
+{
+"curCode": "AUD",
+"fPeriodEndDate": 46203,
+"netIncome": -10390850,
+"period": "2026A",
+"revenue": 10479530
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45838,
+"netIncome": -10977890,
+"period": "2025A",
+"revenue": 11704850
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45473,
+"netIncome": -10138870,
+"period": "2024A",
+"revenue": 10086970
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45107,
+"netIncome": -11751240,
+"period": "2023A",
+"revenue": 9436790
+}
+],
+"isin": "AU000000BLG5",
+"numOfShares": 192968384,
+"opCashFlowRevTTM": -79.17865,
+"priceAsk": 0.17500000000000002,
+"priceBid": 0.17,
+"priceClose": 0.17,
+"priceDayHigh": 0.18,
+"priceDayLow": 0.17,
+"priceEarningsRatio": -99999.99,
+"priceFiftyTwoWeekHigh": 0.55,
+"priceFiftyTwoWeekLow": 0.17,
+"priceToCash": -99999.99,
+"shareDescription": "Ordinary Fully Paid",
+"totalAssets": 27.41265,
+"totalLiabilities": 12.99886,
+"volumeAverage": 245251.566667,
+"yieldAnnual": 0
+}
+},
 "BLS": {
 "announcements": [
 {
@@ -65856,31 +67313,31 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:06:32+00:00",
+"fetched": "2026-11-07T21:55:35+00:00",
 "header": {
 "dateListed": "2000-12-14",
 "displayName": "BLS PHARMACEUTICALS LIMITED",
 "industryGroup": "Pharmaceuticals, Biotechnology & Life Sciences",
-"marketCap": 247871252,
-"priceAsk": 1.03,
-"priceBid": 0.995,
-"priceChange": -0.025000000000000133,
-"priceChangePercent": -2.3809523809523934,
-"priceLast": 1.025,
+"marketCap": 220723448,
+"priceAsk": 0.93,
+"priceBid": 0.92,
+"priceChange": -0.015000000000000013,
+"priceChangePercent": -1.6042780748663115,
+"priceLast": 0.92,
 "sector": "Health Care",
 "securityType": 1,
 "statusCode": "RE",
 "symbol": "BLS",
-"volume": 89182,
+"volume": 81871,
 "xid": "282421"
 },
 "key-statistics": {
 "cashFlow": 1.60656,
 "currency": "AUD",
 "earningsPerShare": 0.06699,
-"enterprisevalue": 243.0155,
+"enterprisevalue": 212.3267,
 "foreignExempt": false,
-"freeCashFlowYield": 0.06822883405110067,
+"freeCashFlowYield": 0.07786985455468566,
 "incomeStatement": [
 {
 "curCode": "AUD",
@@ -65914,19 +67371,19 @@
 "isin": "AU0000477796",
 "numOfShares": 236067859,
 "opCashFlowRevTTM": 7.29432,
-"priceAsk": 1.03,
-"priceBid": 0.995,
-"priceClose": 1.05,
-"priceDayHigh": 1.03,
-"priceDayLow": 0.98,
-"priceEarningsRatio": 15.67398,
+"priceAsk": 0.93,
+"priceBid": 0.92,
+"priceClose": 0.935,
+"priceDayHigh": 0.935,
+"priceDayLow": 0.9175000000000001,
+"priceEarningsRatio": 13.73339,
 "priceFiftyTwoWeekHigh": 1.295,
 "priceFiftyTwoWeekLow": 0.35,
-"priceToCash": 14.65656,
+"priceToCash": 12.84194,
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 52.08352,
 "totalLiabilities": 20.99615,
-"volumeAverage": 305231.9,
+"volumeAverage": 308057.488889,
 "yieldAnnual": 0
 }
 },
@@ -66347,6 +67804,55 @@
 },
 "BML": {
 "announcements": [
+{
+"date": "2026-11-05",
+"headline": "Change of Director's Interest Notice - RM",
+"id": "03162457",
+"sensitive": false,
+"time": "12:18 pm"
+},
+{
+"date": "2026-11-05",
+"headline": "Change of Director's Interest Notice - AP",
+"id": "03162456",
+"sensitive": false,
+"time": "12:15 pm"
+},
+{
+"date": "2026-11-05",
+"headline": "Change of Director's Interest Notice - GC",
+"id": "03162455",
+"sensitive": false,
+"time": "12:14 pm"
+},
+{
+"date": "2026-11-05",
+"headline": "Change of Director's Interest Notice - SN",
+"id": "03162453",
+"sensitive": false,
+"time": "12:13 pm"
+},
+{
+"date": "2026-11-02",
+"headline": "Cleansing Notice",
+"id": "03161236",
+"sensitive": false,
+"time": "5:10 pm"
+},
+{
+"date": "2026-11-02",
+"headline": "Notification regarding unquoted securities - BML",
+"id": "03161233",
+"sensitive": false,
+"time": "5:07 pm"
+},
+{
+"date": "2026-11-02",
+"headline": "Application for quotation of securities - BML",
+"id": "03161231",
+"sensitive": false,
+"time": "5:04 pm"
+},
 {
 "date": "2026-10-29",
 "headline": "Annual Report to shareholders",
@@ -67308,29 +68814,29 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:06:37+00:00",
+"fetched": "2026-11-07T21:55:40+00:00",
 "header": {
 "dateListed": "2004-07-15",
 "displayName": "BOAB METALS LIMITED",
 "industryGroup": "Materials",
-"marketCap": 167796463,
-"priceAsk": 0.305,
-"priceBid": 0.29,
-"priceChange": 0,
-"priceChangePercent": 0,
-"priceLast": 0.29,
+"marketCap": 189510260,
+"priceAsk": 0.31,
+"priceBid": 0.3,
+"priceChange": -0.020000000000000018,
+"priceChangePercent": -6.1538461538461595,
+"priceLast": 0.305,
 "sector": "Materials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "BML",
-"volume": 1997147,
+"volume": 1401695,
 "xid": "171967"
 },
 "key-statistics": {
 "cashFlow": -4.83187,
 "currency": "AUD",
 "earningsPerShare": -0.01424,
-"enterprisevalue": 77.9244,
+"enterprisevalue": 87.97603,
 "foreignExempt": false,
 "freeCashFlowYield": -1.00000010000001e-05,
 "incomeStatement": [
@@ -67364,21 +68870,21 @@
 }
 ],
 "isin": "AU0000131849",
-"numOfShares": 578608493,
+"numOfShares": 583108493,
 "opCashFlowRevTTM": -473.67,
-"priceAsk": 0.305,
-"priceBid": 0.29,
-"priceClose": 0.29,
-"priceDayHigh": 0.305,
-"priceDayLow": 0.28500000000000003,
+"priceAsk": 0.31,
+"priceBid": 0.3,
+"priceClose": 0.325,
+"priceDayHigh": 0.315,
+"priceDayLow": 0.3,
 "priceEarningsRatio": -99999.99,
 "priceFiftyTwoWeekHigh": 0.725,
-"priceFiftyTwoWeekLow": 0.285,
+"priceFiftyTwoWeekLow": 0.28,
 "priceToCash": -99999.99,
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 16.53793,
 "totalLiabilities": 0.74807,
-"volumeAverage": 2135395.833333,
+"volumeAverage": 2143832.233333,
 "yieldAnnual": 0
 }
 },
@@ -68540,6 +70046,55 @@
 },
 "BOL": {
 "announcements": [
+{
+"date": "2026-11-06",
+"headline": "Update - Notification of buy-back - BOL",
+"id": "03162755",
+"sensitive": false,
+"time": "8:24 am"
+},
+{
+"date": "2026-11-05",
+"headline": "Update - Notification of buy-back - BOL",
+"id": "03162210",
+"sensitive": false,
+"time": "8:21 am"
+},
+{
+"date": "2026-11-04",
+"headline": "Notification of cessation of securities - BOL",
+"id": "03162125",
+"sensitive": false,
+"time": "6:52 pm"
+},
+{
+"date": "2026-11-04",
+"headline": "Notification of cessation of securities - BOL",
+"id": "03161829",
+"sensitive": false,
+"time": "9:16 am"
+},
+{
+"date": "2026-11-04",
+"headline": "Update - Notification of buy-back - BOL",
+"id": "03161749",
+"sensitive": false,
+"time": "8:23 am"
+},
+{
+"date": "2026-11-03",
+"headline": "Update - Notification of buy-back - BOL",
+"id": "03161341",
+"sensitive": false,
+"time": "8:21 am"
+},
+{
+"date": "2026-11-02",
+"headline": "Update - Notification of buy-back - BOL",
+"id": "03160831",
+"sensitive": false,
+"time": "8:21 am"
+},
 {
 "date": "2026-10-30",
 "headline": "Update - Notification of buy-back - BOL",
@@ -70817,22 +72372,22 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:06:44+00:00",
+"fetched": "2026-11-07T21:55:46+00:00",
 "header": {
 "dateListed": "2003-10-14",
 "displayName": "BOOM LOGISTICS LIMITED",
 "industryGroup": "Capital Goods",
-"marketCap": 81348752,
-"priceAsk": 2.25,
-"priceBid": 2.21,
-"priceChange": -0.040000000000000036,
-"priceChangePercent": -1.7777777777777795,
-"priceLast": 2.21,
+"marketCap": 77732766,
+"priceAsk": 2.2,
+"priceBid": 2.16,
+"priceChange": 0.010000000000000231,
+"priceChangePercent": 0.46082949308756826,
+"priceLast": 2.18,
 "sector": "Industrials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "BOL",
-"volume": 14143,
+"volume": 41187,
 "xid": "64443"
 },
 "key-statistics": {
@@ -70845,11 +72400,11 @@
 "dividendCurrency": "AUD",
 "dividendType": "F",
 "earningsPerShare": 0.28558,
-"enterprisevalue": 166.4017,
+"enterprisevalue": 163.144,
 "foreignCurrencyAmount": 0,
 "foreignExempt": false,
 "frankingPercent": 0,
-"freeCashFlowYield": 0.5442976655073126,
+"freeCashFlowYield": 0.5670059252119185,
 "incomeStatement": [
 {
 "curCode": "AUD",
@@ -70881,26 +72436,89 @@
 }
 ],
 "isin": "AU000000BOL9",
-"numOfShares": 36155001,
+"numOfShares": 35821551,
 "opCashFlowRevTTM": 19.48016,
-"priceAsk": 2.25,
-"priceBid": 2.21,
-"priceClose": 2.25,
-"priceDayHigh": 2.25,
-"priceDayLow": 2.21,
-"priceEarningsRatio": 7.8787,
+"priceAsk": 2.2,
+"priceBid": 2.16,
+"priceClose": 2.17,
+"priceDayHigh": 2.3000000000000003,
+"priceDayLow": 2.18,
+"priceEarningsRatio": 7.63359,
 "priceFiftyTwoWeekHigh": 2.5,
 "priceFiftyTwoWeekLow": 1.41,
-"priceToCash": 1.83723,
+"priceToCash": 1.76365,
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 279.489,
 "totalLiabilities": 144.405,
-"volumeAverage": 71492.922222,
-"yieldAnnual": 1.0180995475113122
+"volumeAverage": 69816.355556,
+"yieldAnnual": 1.0321100917431192
 }
 },
 "BPM": {
 "announcements": [
+{
+"date": "2026-11-05",
+"headline": "Change of Director's Interest Notice - Smith",
+"id": "03162537",
+"sensitive": false,
+"time": "2:40 pm"
+},
+{
+"date": "2026-11-05",
+"headline": "Change of Director's Interest Notice - Correia",
+"id": "03162536",
+"sensitive": false,
+"time": "2:39 pm"
+},
+{
+"date": "2026-11-05",
+"headline": "Change of Director's Interest Notice - Lloyd",
+"id": "03162533",
+"sensitive": false,
+"time": "2:37 pm"
+},
+{
+"date": "2026-11-04",
+"headline": "Cleansing Notice",
+"id": "03162123",
+"sensitive": false,
+"time": "6:49 pm"
+},
+{
+"date": "2026-11-04",
+"headline": "Notification regarding unquoted securities - BPM",
+"id": "03162121",
+"sensitive": false,
+"time": "6:42 pm"
+},
+{
+"date": "2026-11-04",
+"headline": "Application for quotation of securities - BPM",
+"id": "03162120",
+"sensitive": false,
+"time": "6:36 pm"
+},
+{
+"date": "2026-11-04",
+"headline": "Application for quotation of securities - BPM",
+"id": "03162119",
+"sensitive": false,
+"time": "6:32 pm"
+},
+{
+"date": "2026-11-04",
+"headline": "First Hole into Bonnie & Clyde Intersects High-Grade Gold",
+"id": "03161879",
+"sensitive": true,
+"time": "9:51 am"
+},
+{
+"date": "2026-11-03",
+"headline": "Trading Halt",
+"id": "03161399",
+"sensitive": true,
+"time": "9:06 am"
+},
 {
 "date": "2026-10-23",
 "headline": "Cleansing Notice",
@@ -71715,29 +73333,29 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:06:53+00:00",
+"fetched": "2026-11-07T21:55:54+00:00",
 "header": {
 "dateListed": "2020-12-30",
 "displayName": "BPM MINERALS LIMITED",
 "industryGroup": "Materials",
-"marketCap": 26946880,
-"priceAsk": 0.19,
-"priceBid": 0.18,
-"priceChange": -0.010000000000000009,
-"priceChangePercent": -5.263157894736847,
-"priceLast": 0.18,
+"marketCap": 59554654,
+"priceAsk": 0.365,
+"priceBid": 0.35000000000000003,
+"priceChange": -0.015000000000000013,
+"priceChangePercent": -3.947368421052635,
+"priceLast": 0.365,
 "sector": "Materials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "BPM",
-"volume": 114125,
+"volume": 2385921,
 "xid": "630845640"
 },
 "key-statistics": {
 "cashFlow": -3.52908,
 "currency": "AUD",
 "earningsPerShare": -0.04398,
-"enterprisevalue": 20.36533,
+"enterprisevalue": 45.18482,
 "foreignExempt": false,
 "freeCashFlowYield": -1.00000010000001e-05,
 "incomeStatement": [
@@ -71771,20 +73389,20 @@
 }
 ],
 "isin": "AU0000119810",
-"numOfShares": 141825682,
-"priceAsk": 0.19,
-"priceBid": 0.18,
-"priceClose": 0.19,
-"priceDayHigh": 0.195,
-"priceDayLow": 0.18,
+"numOfShares": 156722773,
+"priceAsk": 0.365,
+"priceBid": 0.35000000000000003,
+"priceClose": 0.38,
+"priceDayHigh": 0.38,
+"priceDayLow": 0.34,
 "priceEarningsRatio": -99999.99,
-"priceFiftyTwoWeekHigh": 0.385,
+"priceFiftyTwoWeekHigh": 0.39,
 "priceFiftyTwoWeekLow": 0.115,
 "priceToCash": -99999.99,
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 8.34122,
 "totalLiabilities": 0.25261,
-"volumeAverage": 335822.561798,
+"volumeAverage": 581180.477273,
 "yieldAnnual": 0
 }
 },
@@ -72818,6 +74436,1049 @@
 "yieldAnnual": 0
 }
 },
+"BSA": {
+"announcements": [
+{
+"date": "2026-10-29",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03159056",
+"sensitive": true,
+"time": "9:38 am"
+},
+{
+"date": "2026-10-28",
+"headline": "Retraction & Replacement - Investor Presentation",
+"id": "03158341",
+"sensitive": true,
+"time": "9:49 am"
+},
+{
+"date": "2026-10-23",
+"headline": "Notice of Annual General Meeting/Proxy Form",
+"id": "03156199",
+"sensitive": false,
+"time": "9:38 am"
+},
+{
+"date": "2026-10-21",
+"headline": "Change of Director's Interest Notice - DG",
+"id": "03155350",
+"sensitive": false,
+"time": "5:39 pm"
+},
+{
+"date": "2026-10-21",
+"headline": "BSA & Eonetics - Investor Presentation",
+"id": "03155068",
+"sensitive": true,
+"time": "9:47 am"
+},
+{
+"date": "2026-10-21",
+"headline": "Execution and Exchange of Binding SPA to Acquire Eonetics",
+"id": "03155049",
+"sensitive": true,
+"time": "9:36 am"
+},
+{
+"date": "2026-10-15",
+"headline": "Change of Director's Interest Notice - DG",
+"id": "03152759",
+"sensitive": false,
+"time": "9:36 am"
+},
+{
+"date": "2026-10-12",
+"headline": "Change of Director's Interest Notice - DG",
+"id": "03151063",
+"sensitive": false,
+"time": "9:37 am"
+},
+{
+"date": "2026-10-07",
+"headline": "Change of Director's Interest Notice - PL",
+"id": "03149757",
+"sensitive": false,
+"time": "6:29 pm"
+},
+{
+"date": "2026-10-07",
+"headline": "Change in substantial holding",
+"id": "03149708",
+"sensitive": false,
+"time": "5:34 pm"
+},
+{
+"date": "2026-10-07",
+"headline": "Change of Director's Interest Notice - DR",
+"id": "03149698",
+"sensitive": false,
+"time": "5:26 pm"
+},
+{
+"date": "2026-10-07",
+"headline": "Cleansing Statement",
+"id": "03149673",
+"sensitive": false,
+"time": "5:02 pm"
+},
+{
+"date": "2026-10-07",
+"headline": "Application for quotation of securities - BSA",
+"id": "03149670",
+"sensitive": false,
+"time": "4:54 pm"
+},
+{
+"date": "2026-10-06",
+"headline": "Change in substantial holding",
+"id": "03148797",
+"sensitive": false,
+"time": "9:40 am"
+},
+{
+"date": "2026-10-06",
+"headline": "Change of Director's Interest Notice - DG",
+"id": "03148789",
+"sensitive": false,
+"time": "9:37 am"
+},
+{
+"date": "2026-10-01",
+"headline": "Reinstatement to Quotation",
+"id": "03147227",
+"sensitive": true,
+"time": "12:06 pm"
+},
+{
+"date": "2026-10-01",
+"headline": "Proposed issue of securities - BSA",
+"id": "03147226",
+"sensitive": false,
+"time": "12:06 pm"
+},
+{
+"date": "2026-10-01",
+"headline": "Proposed to Acquire Eonetics' Aerial Infrastructure Business",
+"id": "03147225",
+"sensitive": true,
+"time": "12:06 pm"
+},
+{
+"date": "2026-09-30",
+"headline": "Extension to Voluntary Suspension Granted",
+"id": "03145998",
+"sensitive": false,
+"time": "10:24 am"
+},
+{
+"date": "2026-09-28",
+"headline": "Suspension from Quotation",
+"id": "03144574",
+"sensitive": true,
+"time": "9:37 am"
+},
+{
+"date": "2026-09-24",
+"headline": "Trading Halt",
+"id": "03143299",
+"sensitive": true,
+"time": "10:25 am"
+},
+{
+"date": "2026-09-24",
+"headline": "Pause in Trading",
+"id": "03143284",
+"sensitive": true,
+"time": "9:56 am"
+},
+{
+"date": "2026-09-23",
+"headline": "Final Buy Back Notification",
+"id": "03142922",
+"sensitive": false,
+"time": "5:21 pm"
+},
+{
+"date": "2026-09-22",
+"headline": "Change in substantial holding",
+"id": "03142154",
+"sensitive": false,
+"time": "11:45 am"
+},
+{
+"date": "2026-08-28",
+"headline": "Notification regarding unquoted securities - BSA",
+"id": "03132445",
+"sensitive": false,
+"time": "3:34 pm"
+},
+{
+"date": "2026-08-20",
+"headline": "Appendix 4G",
+"id": "03127889",
+"sensitive": false,
+"time": "6:50 pm"
+},
+{
+"date": "2026-08-20",
+"headline": "Corporate Governance Statement",
+"id": "03127888",
+"sensitive": false,
+"time": "6:50 pm"
+},
+{
+"date": "2026-08-20",
+"headline": "Appendix 4E and Annual Report",
+"id": "03127886",
+"sensitive": true,
+"time": "6:47 pm"
+},
+{
+"date": "2026-08-17",
+"headline": "Change in substantial holding",
+"id": "03125793",
+"sensitive": false,
+"time": "10:04 am"
+},
+{
+"date": "2026-07-30",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03119640",
+"sensitive": true,
+"time": "8:26 am"
+},
+{
+"date": "2026-07-27",
+"headline": "Change of Director's Interest Notice - DG",
+"id": "03118215",
+"sensitive": false,
+"time": "8:29 am"
+},
+{
+"date": "2026-07-23",
+"headline": "Ceasing to be a substantial holder",
+"id": "03117603",
+"sensitive": false,
+"time": "1:40 pm"
+},
+{
+"date": "2026-07-23",
+"headline": "Becoming a substantial holder",
+"id": "03117409",
+"sensitive": false,
+"time": "8:27 am"
+},
+{
+"date": "2026-07-23",
+"headline": "Change of Director's Interest Notice - DG",
+"id": "03117408",
+"sensitive": false,
+"time": "8:27 am"
+},
+{
+"date": "2026-07-20",
+"headline": "Change of Director's Interest Notice - DG",
+"id": "03116223",
+"sensitive": false,
+"time": "9:14 am"
+},
+{
+"date": "2026-07-13",
+"headline": "Change of Director's Interest Notice - DG",
+"id": "03114256",
+"sensitive": false,
+"time": "9:27 am"
+},
+{
+"date": "2026-07-10",
+"headline": "Change of Director's Interest Notice - DG",
+"id": "03113791",
+"sensitive": false,
+"time": "9:05 am"
+},
+{
+"date": "2026-06-30",
+"headline": "Foxtel Contract Extended for Two Years",
+"id": "03109324",
+"sensitive": true,
+"time": "9:08 am"
+},
+{
+"date": "2026-06-30",
+"headline": "Change in substantial holding",
+"id": "03109314",
+"sensitive": false,
+"time": "9:05 am"
+},
+{
+"date": "2026-06-19",
+"headline": "Resignation of Non-Executive Director",
+"id": "03105703",
+"sensitive": false,
+"time": "8:55 am"
+},
+{
+"date": "2026-06-17",
+"headline": "Notification of cessation of securities - BSA",
+"id": "03105087",
+"sensitive": false,
+"time": "4:22 pm"
+},
+{
+"date": "2026-06-11",
+"headline": "Change of Director's Interest Notice - DG",
+"id": "03102973",
+"sensitive": false,
+"time": "8:41 am"
+},
+{
+"date": "2026-06-09",
+"headline": "Grant of Loan Facility to Director",
+"id": "03102006",
+"sensitive": true,
+"time": "8:34 am"
+},
+{
+"date": "2026-05-06",
+"headline": "Change of Director's Interest Notice - DG",
+"id": "03090856",
+"sensitive": false,
+"time": "8:43 am"
+},
+{
+"date": "2026-05-06",
+"headline": "Change of Director's Interest Notice - DR",
+"id": "03090854",
+"sensitive": false,
+"time": "8:42 am"
+},
+{
+"date": "2026-05-06",
+"headline": "Change of Director's Interest Notice - PL",
+"id": "03090851",
+"sensitive": false,
+"time": "8:40 am"
+},
+{
+"date": "2026-05-01",
+"headline": "Notification regarding unquoted securities - BSA",
+"id": "03089521",
+"sensitive": false,
+"time": "4:26 pm"
+},
+{
+"date": "2026-05-01",
+"headline": "Notification regarding unquoted securities - BSA",
+"id": "03089517",
+"sensitive": false,
+"time": "4:23 pm"
+},
+{
+"date": "2026-04-30",
+"headline": "Notification of buy-back - BSA",
+"id": "03088697",
+"sensitive": false,
+"time": "1:33 pm"
+},
+{
+"date": "2026-04-30",
+"headline": "BSA Announces On-Market Share Buy-Back",
+"id": "03088491",
+"sensitive": true,
+"time": "9:58 am"
+},
+{
+"date": "2026-04-30",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03088212",
+"sensitive": true,
+"time": "8:50 am"
+},
+{
+"date": "2026-04-30",
+"headline": "Change in substantial holding",
+"id": "03088203",
+"sensitive": false,
+"time": "8:47 am"
+},
+{
+"date": "2026-04-28",
+"headline": "Results of Meeting",
+"id": "03087027",
+"sensitive": false,
+"time": "1:16 pm"
+},
+{
+"date": "2026-03-27",
+"headline": "Notice of General Meeting/Proxy Form",
+"id": "03076631",
+"sensitive": false,
+"time": "9:37 am"
+},
+{
+"date": "2026-03-12",
+"headline": "Change of Director's Interest Notice - D Geraghty",
+"id": "03071067",
+"sensitive": false,
+"time": "8:26 am"
+},
+{
+"date": "2026-03-04",
+"headline": "Initial Director's Interest Notice - D Geraghty",
+"id": "03068403",
+"sensitive": false,
+"time": "5:15 pm"
+},
+{
+"date": "2026-03-02",
+"headline": "Proposed issue of securities - BSA",
+"id": "03067174",
+"sensitive": false,
+"time": "9:26 am"
+},
+{
+"date": "2026-03-02",
+"headline": "Proposed issue of securities - BSA",
+"id": "03067141",
+"sensitive": false,
+"time": "9:14 am"
+},
+{
+"date": "2026-03-02",
+"headline": "Highly Experienced Mining Executive Appointed to Board",
+"id": "03067122",
+"sensitive": false,
+"time": "9:09 am"
+},
+{
+"date": "2026-02-25",
+"headline": "Change in substantial holding",
+"id": "03064756",
+"sensitive": false,
+"time": "9:55 am"
+},
+{
+"date": "2026-02-20",
+"headline": "Half Yearly Report and Accounts",
+"id": "03062720",
+"sensitive": true,
+"time": "11:28 am"
+},
+{
+"date": "2026-02-13",
+"headline": "Change of Director's Interest Notice - D Raihani",
+"id": "03059803",
+"sensitive": false,
+"time": "8:16 am"
+},
+{
+"date": "2026-02-11",
+"headline": "Change in substantial holding",
+"id": "03059066",
+"sensitive": false,
+"time": "9:41 am"
+},
+{
+"date": "2026-02-11",
+"headline": "Change of Director's Interest Notice - D Raihani",
+"id": "03059059",
+"sensitive": false,
+"time": "9:37 am"
+},
+{
+"date": "2026-02-09",
+"headline": "Revised Securities Trading Policy",
+"id": "03058082",
+"sensitive": false,
+"time": "9:33 am"
+},
+{
+"date": "2026-02-06",
+"headline": "Proposed issue of securities - BSA",
+"id": "03057598",
+"sensitive": false,
+"time": "10:53 am"
+},
+{
+"date": "2026-02-06",
+"headline": "Issue of Performance Rights to Directors",
+"id": "03057597",
+"sensitive": false,
+"time": "10:50 am"
+},
+{
+"date": "2026-02-04",
+"headline": "Change in substantial holding",
+"id": "03056864",
+"sensitive": false,
+"time": "6:16 pm"
+},
+{
+"date": "2026-01-30",
+"headline": "Final Director's Interest Notice - P Heick",
+"id": "03054803",
+"sensitive": false,
+"time": "10:18 am"
+},
+{
+"date": "2026-01-30",
+"headline": "Final Director's Interest Notice - W Sauer",
+"id": "03054800",
+"sensitive": false,
+"time": "10:16 am"
+},
+{
+"date": "2026-01-30",
+"headline": "FY26Q2 Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03054786",
+"sensitive": true,
+"time": "10:07 am"
+},
+{
+"date": "2026-01-27",
+"headline": "Initial Director's Interest Notice - P Lewis",
+"id": "03052847",
+"sensitive": false,
+"time": "9:36 am"
+},
+{
+"date": "2026-01-27",
+"headline": "BSA Board Changes",
+"id": "03052726",
+"sensitive": true,
+"time": "8:41 am"
+},
+{
+"date": "2025-12-16",
+"headline": "Small Shareholdings Sale Facility",
+"id": "03041620",
+"sensitive": false,
+"time": "9:05 am"
+},
+{
+"date": "2025-11-25",
+"headline": "BSA 2025 AGM Results of Meeting",
+"id": "03031717",
+"sensitive": false,
+"time": "4:17 pm"
+},
+{
+"date": "2025-11-25",
+"headline": "BSA 2025 AGM Chair and CEO Addresses",
+"id": "03031589",
+"sensitive": false,
+"time": "12:45 pm"
+},
+{
+"date": "2025-11-21",
+"headline": "Change in substantial holding",
+"id": "03030227",
+"sensitive": false,
+"time": "1:38 pm"
+},
+{
+"date": "2025-11-11",
+"headline": "Change in substantial holding",
+"id": "03023715",
+"sensitive": false,
+"time": "9:53 am"
+},
+{
+"date": "2025-11-04",
+"headline": "Becoming a substantial holder",
+"id": "03020634",
+"sensitive": false,
+"time": "11:20 am"
+},
+{
+"date": "2025-10-31",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03018932",
+"sensitive": true,
+"time": "9:07 am"
+},
+{
+"date": "2025-10-30",
+"headline": "Ceasing to be a substantial holder",
+"id": "03018538",
+"sensitive": false,
+"time": "4:22 pm"
+},
+{
+"date": "2025-10-24",
+"headline": "Notice of Annual General Meeting/Proxy Form",
+"id": "03015021",
+"sensitive": false,
+"time": "12:01 pm"
+},
+{
+"date": "2025-09-30",
+"headline": "BSA Confirms Financing Facility",
+"id": "03003185",
+"sensitive": true,
+"time": "6:23 pm"
+},
+{
+"date": "2025-09-29",
+"headline": "2025 Annual General Meeting",
+"id": "03001719",
+"sensitive": false,
+"time": "10:35 am"
+},
+{
+"date": "2025-09-26",
+"headline": "Initial Director's Interest Notice",
+"id": "03000655",
+"sensitive": false,
+"time": "8:49 am"
+},
+{
+"date": "2025-09-26",
+"headline": "Director Appointment/Resignation",
+"id": "03000644",
+"sensitive": false,
+"time": "8:46 am"
+},
+{
+"date": "2025-09-23",
+"headline": "Change in substantial holding",
+"id": "02998664",
+"sensitive": false,
+"time": "9:01 am"
+},
+{
+"date": "2025-09-22",
+"headline": "Ceasing to be a substantial holder",
+"id": "02998105",
+"sensitive": false,
+"time": "9:59 am"
+},
+{
+"date": "2025-09-19",
+"headline": "Change in substantial holding",
+"id": "02997547",
+"sensitive": false,
+"time": "3:46 pm"
+},
+{
+"date": "2025-09-19",
+"headline": "Change in substantial holding",
+"id": "02997322",
+"sensitive": false,
+"time": "9:23 am"
+},
+{
+"date": "2025-09-16",
+"headline": "Change in substantial holding",
+"id": "02995912",
+"sensitive": false,
+"time": "3:55 pm"
+},
+{
+"date": "2025-09-16",
+"headline": "Becoming a substantial holder",
+"id": "02995766",
+"sensitive": false,
+"time": "9:40 am"
+},
+{
+"date": "2025-08-29",
+"headline": "Appendix 4G",
+"id": "02988410",
+"sensitive": false,
+"time": "11:39 am"
+},
+{
+"date": "2025-08-29",
+"headline": "Corporate Governance Statement",
+"id": "02988409",
+"sensitive": false,
+"time": "11:38 am"
+},
+{
+"date": "2025-08-29",
+"headline": "Appendix 4E and Annual Report",
+"id": "02988407",
+"sensitive": true,
+"time": "11:37 am"
+},
+{
+"date": "2025-07-31",
+"headline": "Ceasing to be a substantial holder",
+"id": "02975478",
+"sensitive": false,
+"time": "4:39 pm"
+},
+{
+"date": "2025-07-31",
+"headline": "Becoming a substantial holder",
+"id": "02975051",
+"sensitive": false,
+"time": "9:37 am"
+},
+{
+"date": "2025-07-31",
+"headline": "Quarterly Update & Appendix 4C - Share Price Movement",
+"id": "02974917",
+"sensitive": false,
+"time": "8:52 am"
+},
+{
+"date": "2025-07-30",
+"headline": "Ceasing to be a substantial holder",
+"id": "02974649",
+"sensitive": false,
+"time": "5:09 pm"
+},
+{
+"date": "2025-07-30",
+"headline": "Notification of cessation of securities - BSA",
+"id": "02974490",
+"sensitive": false,
+"time": "11:17 am"
+},
+{
+"date": "2025-07-29",
+"headline": "Becoming a substantial holder",
+"id": "02973983",
+"sensitive": false,
+"time": "4:32 pm"
+},
+{
+"date": "2025-07-29",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "02973622",
+"sensitive": true,
+"time": "8:31 am"
+},
+{
+"date": "2025-07-07",
+"headline": "Change in substantial holding",
+"id": "02966845",
+"sensitive": false,
+"time": "4:40 pm"
+},
+{
+"date": "2025-07-01",
+"headline": "Appointment of Chief Financial Officer",
+"id": "02964481",
+"sensitive": false,
+"time": "12:39 pm"
+},
+{
+"date": "2025-06-30",
+"headline": "Resignation of Chief Financial Officer",
+"id": "02963650",
+"sensitive": false,
+"time": "12:30 pm"
+},
+{
+"date": "2025-06-13",
+"headline": "Final Director's Interest Notice",
+"id": "02958183",
+"sensitive": false,
+"time": "12:10 pm"
+},
+{
+"date": "2025-06-02",
+"headline": "BSA Leadership Transition and Business Update",
+"id": "02954258",
+"sensitive": true,
+"time": "9:18 am"
+},
+{
+"date": "2025-05-23",
+"headline": "Initial Director's Interest Notice",
+"id": "02951270",
+"sensitive": false,
+"time": "8:49 am"
+},
+{
+"date": "2025-05-19",
+"headline": "Director Appointment/Resignation",
+"id": "02949457",
+"sensitive": false,
+"time": "8:56 am"
+},
+{
+"date": "2025-05-07",
+"headline": "Director Appointment/Resignation",
+"id": "02945723",
+"sensitive": false,
+"time": "8:23 am"
+},
+{
+"date": "2025-05-07",
+"headline": "Application for quotation of securities - BSA",
+"id": "02945720",
+"sensitive": false,
+"time": "8:23 am"
+},
+{
+"date": "2025-05-05",
+"headline": "Final Director's Interest Notice",
+"id": "02944925",
+"sensitive": false,
+"time": "1:43 pm"
+},
+{
+"date": "2025-04-29",
+"headline": "FY25 Q3 Quarterly Activities / Appendix 4C Cash Flow Report",
+"id": "02941819",
+"sensitive": true,
+"time": "8:26 am"
+},
+{
+"date": "2025-04-17",
+"headline": "Initial Director's Interest Notice",
+"id": "02939070",
+"sensitive": false,
+"time": "8:22 am"
+},
+{
+"date": "2025-04-17",
+"headline": "Appointment of Director - Warwick Sauer",
+"id": "02939062",
+"sensitive": false,
+"time": "8:22 am"
+},
+{
+"date": "2025-04-08",
+"headline": "Application for quotation of securities - BSA",
+"id": "02935667",
+"sensitive": false,
+"time": "11:54 am"
+},
+{
+"date": "2025-04-04",
+"headline": "BSA Trading Update and Smart Metering Contracts",
+"id": "02934440",
+"sensitive": true,
+"time": "11:03 am"
+},
+{
+"date": "2025-04-01",
+"headline": "Director Appointment/Resignation",
+"id": "02932569",
+"sensitive": false,
+"time": "8:51 am"
+},
+{
+"date": "2025-03-31",
+"headline": "Notification of expiry of listed options",
+"id": "02931824",
+"sensitive": false,
+"time": "8:38 am"
+},
+{
+"date": "2025-03-31",
+"headline": "Application for quotation of securities - BSA",
+"id": "02931819",
+"sensitive": false,
+"time": "8:35 am"
+},
+{
+"date": "2025-03-31",
+"headline": "Notification of cessation of securities - BSA",
+"id": "02931802",
+"sensitive": false,
+"time": "8:25 am"
+},
+{
+"date": "2025-03-20",
+"headline": "nbn Unified Field Operations - Transition Update",
+"id": "02928476",
+"sensitive": true,
+"time": "9:17 am"
+},
+{
+"date": "2025-02-28",
+"headline": "BSA unsuccessful in new NBN Co Field Module contract bid",
+"id": "02921120",
+"sensitive": true,
+"time": "3:12 pm"
+},
+{
+"date": "2025-02-21",
+"headline": "Final Director's Interest Notice",
+"id": "02917162",
+"sensitive": false,
+"time": "9:27 am"
+},
+{
+"date": "2025-02-20",
+"headline": "Investor Briefing Details",
+"id": "02916427",
+"sensitive": false,
+"time": "8:22 am"
+},
+{
+"date": "2025-02-20",
+"headline": "Application for quotation of securities - BSA",
+"id": "02916418",
+"sensitive": false,
+"time": "8:21 am"
+},
+{
+"date": "2025-02-20",
+"headline": "Investor Presentation",
+"id": "02916416",
+"sensitive": true,
+"time": "8:21 am"
+},
+{
+"date": "2025-02-20",
+"headline": "Appendix 4D and Half Yearly Accounts",
+"id": "02916413",
+"sensitive": true,
+"time": "8:21 am"
+},
+{
+"date": "2025-02-18",
+"headline": "New NBN Co Field Services Contract Update",
+"id": "02915408",
+"sensitive": true,
+"time": "9:41 am"
+},
+{
+"date": "2025-02-18",
+"headline": "Director Appointment/Resignation",
+"id": "02915298",
+"sensitive": false,
+"time": "8:38 am"
+},
+{
+"date": "2025-02-14",
+"headline": "Trading Halt",
+"id": "02914349",
+"sensitive": true,
+"time": "10:31 am"
+},
+{
+"date": "2025-02-14",
+"headline": "Pause in Trading",
+"id": "02914317",
+"sensitive": true,
+"time": "9:47 am"
+},
+{
+"date": "2025-02-07",
+"headline": "Application for quotation of securities - BSA",
+"id": "02912068",
+"sensitive": false,
+"time": "1:41 pm"
+},
+{
+"date": "2025-01-31",
+"headline": "Application for quotation of securities - BSA",
+"id": "02909326",
+"sensitive": false,
+"time": "10:39 am"
+},
+{
+"date": "2025-01-24",
+"headline": "FY25Q2 Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "02906939",
+"sensitive": true,
+"time": "8:21 am"
+},
+{
+"date": "2025-01-15",
+"headline": "Application for quotation of securities - BSA",
+"id": "02904625",
+"sensitive": false,
+"time": "1:02 pm"
+},
+{
+"date": "2025-01-13",
+"headline": "Application for quotation of securities - BSA",
+"id": "02903818",
+"sensitive": false,
+"time": "9:36 am"
+}
+],
+"errors": [],
+"fetched": "2026-11-07T21:56:00+00:00",
+"header": {
+"dateListed": "1999-11-15",
+"displayName": "BSA LIMITED",
+"industryGroup": "Capital Goods",
+"marketCap": 14454047,
+"priceAsk": 0.2,
+"priceBid": 0.17,
+"priceChange": 0,
+"priceChangePercent": 0,
+"priceLast": 0.18,
+"sector": "Industrials",
+"securityType": 1,
+"statusCode": "",
+"symbol": "BSA",
+"volume": 0,
+"xid": "66232"
+},
+"key-statistics": {
+"cashFlow": -4.443,
+"currency": "AUD",
+"dateExDate": "2021-10-04",
+"datePayDate": "2021-11-03",
+"dateRecordDate": "2021-10-05",
+"dividend": 0.005,
+"dividendCurrency": "AUD",
+"dividendType": "F",
+"earningsPerShare": 0.05622,
+"enterprisevalue": -1.86895,
+"foreignCurrencyAmount": 0,
+"foreignExempt": false,
+"frankingPercent": 100,
+"freeCashFlowYield": 0.29874021252378724,
+"incomeStatement": [
+{
+"curCode": "AUD",
+"fPeriodEndDate": 46203,
+"netIncome": 4267000,
+"period": "2026A",
+"revenue": 30558000
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45838,
+"netIncome": 3731000,
+"period": "2025A",
+"revenue": 286983000
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45473,
+"netIncome": 10631000,
+"period": "2024A",
+"revenue": 255662000
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45107,
+"netIncome": -2960000,
+"period": "2023A",
+"revenue": 239817000
+}
+],
+"isin": "AU000000BSA3",
+"numOfShares": 80300261,
+"opCashFlowRevTTM": -14.53956,
+"priceAsk": 0.2,
+"priceBid": 0.17,
+"priceClose": 0.18,
+"priceEarningsRatio": 3.20171,
+"priceFiftyTwoWeekHigh": 0.485,
+"priceFiftyTwoWeekLow": 0.1,
+"priceToCash": 3.34739,
+"shareDescription": "Ordinary Fully Paid",
+"totalAssets": 22.234,
+"totalLiabilities": 8.383,
+"volumeAverage": 152740.818182,
+"yieldAnnual": 0
+}
+},
 "BTI": {
 "announcements": [
 {
@@ -73604,6 +76265,13 @@
 },
 "BTL": {
 "announcements": [
+{
+"date": "2026-11-04",
+"headline": "Change of Registered Office and Principal Place of Business",
+"id": "03162063",
+"sensitive": false,
+"time": "4:38 pm"
+},
 {
 "date": "2026-10-20",
 "headline": "Appendix 5B Quarterly Cash Flow Report - 30 September",
@@ -74642,29 +77310,29 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:06:59+00:00",
+"fetched": "2026-11-07T21:56:07+00:00",
 "header": {
 "dateListed": "1984-08-30",
 "displayName": "BEETALOO ENERGY AUSTRALIA LIMITED",
 "industryGroup": "Energy",
-"marketCap": 361927341,
-"priceAsk": 0.24,
-"priceBid": 0.22,
-"priceChange": -0.01999999999999999,
-"priceChangePercent": -8.33333333333333,
-"priceLast": 0.22,
+"marketCap": 316686423,
+"priceAsk": 0.21,
+"priceBid": 0.2,
+"priceChange": -0.004999999999999977,
+"priceChangePercent": -2.38095238095237,
+"priceLast": 0.20500000000000002,
 "sector": "Energy",
 "securityType": 1,
 "statusCode": "",
 "symbol": "BTL",
-"volume": 6334540,
+"volume": 2496775,
 "xid": "166116"
 },
 "key-statistics": {
 "cashFlow": -41.151,
 "currency": "AUD",
 "earningsPerShare": -0.01449,
-"enterprisevalue": 313.7314,
+"enterprisevalue": 260.9503,
 "foreignExempt": false,
 "freeCashFlowYield": -1.00000010000001e-05,
 "incomeStatement": [
@@ -74699,19 +77367,19 @@
 ],
 "isin": "AU0000401770",
 "numOfShares": 1508030586,
-"priceAsk": 0.24,
-"priceBid": 0.22,
-"priceClose": 0.24,
-"priceDayHigh": 0.23750000000000002,
-"priceDayLow": 0.21,
+"priceAsk": 0.21,
+"priceBid": 0.2,
+"priceClose": 0.21,
+"priceDayHigh": 0.22,
+"priceDayLow": 0.2,
 "priceEarningsRatio": -99999.99,
 "priceFiftyTwoWeekHigh": 0.355,
-"priceFiftyTwoWeekLow": 0.205,
+"priceFiftyTwoWeekLow": 0.2,
 "priceToCash": -99999.99,
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 192.924,
 "totalLiabilities": 40.053,
-"volumeAverage": 2377482,
+"volumeAverage": 2415882.388889,
 "yieldAnnual": 0
 }
 },
@@ -77122,31 +79790,31 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:07:05+00:00",
+"fetched": "2026-11-07T21:56:13+00:00",
 "header": {
 "dateListed": "2022-05-06",
 "displayName": "CHRYSOS CORPORATION LIMITED",
 "industryGroup": "Commercial & Professional Services",
-"marketCap": 852156718,
-"priceAsk": 7.2,
-"priceBid": 6.9,
-"priceChange": -0.17999999999999972,
-"priceChangePercent": -2.4657534246575303,
-"priceLast": 7.12,
+"marketCap": 768108384,
+"priceAsk": 6.390000000000001,
+"priceBid": 6.17,
+"priceChange": -0.3899999999999997,
+"priceChangePercent": -5.927051671732518,
+"priceLast": 6.19,
 "sector": "Industrials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "C79",
-"volume": 129925,
+"volume": 300906,
 "xid": "721300791"
 },
 "key-statistics": {
 "cashFlow": -23.082,
 "currency": "AUD",
 "earningsPerShare": 0.01522,
-"enterprisevalue": 890.5957,
+"enterprisevalue": 761.0212,
 "foreignExempt": false,
-"freeCashFlowYield": 0.027196875187828422,
+"freeCashFlowYield": 0.03207385711224952,
 "incomeStatement": [
 {
 "curCode": "AUD",
@@ -77180,24 +79848,59 @@
 "isin": "AU0000218190",
 "numOfShares": 116733797,
 "opCashFlowRevTTM": 20.34843,
-"priceAsk": 7.2,
-"priceBid": 6.9,
-"priceClose": 7.3,
-"priceDayHigh": 7.26,
-"priceDayLow": 6.97,
-"priceEarningsRatio": 479.632,
+"priceAsk": 6.390000000000001,
+"priceBid": 6.17,
+"priceClose": 6.58,
+"priceDayHigh": 6.6000000000000005,
+"priceDayLow": 6.17,
+"priceEarningsRatio": 406.7017,
 "priceFiftyTwoWeekHigh": 10.13,
 "priceFiftyTwoWeekLow": 5.18,
-"priceToCash": 36.76893,
+"priceToCash": 31.17804,
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 306.471,
 "totalLiabilities": 108.793,
-"volumeAverage": 324978.566667,
+"volumeAverage": 328208.022222,
 "yieldAnnual": 0
 }
 },
 "CAA": {
 "announcements": [
+{
+"date": "2026-11-06",
+"headline": "Update - Notification of buy-back - CAA",
+"id": "03162742",
+"sensitive": false,
+"time": "8:22 am"
+},
+{
+"date": "2026-11-05",
+"headline": "Update - Notification of buy-back - CAA",
+"id": "03162182",
+"sensitive": false,
+"time": "8:19 am"
+},
+{
+"date": "2026-11-04",
+"headline": "Update - Notification of buy-back - CAA",
+"id": "03161730",
+"sensitive": false,
+"time": "8:21 am"
+},
+{
+"date": "2026-11-03",
+"headline": "Update - Notification of buy-back - CAA",
+"id": "03161368",
+"sensitive": false,
+"time": "8:24 am"
+},
+{
+"date": "2026-11-02",
+"headline": "Update - Notification of buy-back - CAA",
+"id": "03160817",
+"sensitive": false,
+"time": "8:19 am"
+},
 {
 "date": "2026-10-30",
 "headline": "Update - Notification of buy-back - CAA",
@@ -79720,22 +82423,22 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:07:13+00:00",
+"fetched": "2026-11-07T21:56:19+00:00",
 "header": {
 "dateListed": "1986-11-20",
 "displayName": "CAPRAL LIMITED",
 "industryGroup": "Materials",
-"marketCap": 200653107,
-"priceAsk": 13.02,
-"priceBid": 12.91,
-"priceChange": 0.25,
-"priceChangePercent": 1.957713390759593,
-"priceLast": 13.02,
+"marketCap": 205524091,
+"priceAsk": 13.200000000000001,
+"priceBid": 13.08,
+"priceChange": 0.08000000000000007,
+"priceChangePercent": 0.6116207951070342,
+"priceLast": 13.16,
 "sector": "Materials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "CAA",
-"volume": 40700,
+"volume": 37724,
 "xid": "69279"
 },
 "key-statistics": {
@@ -79748,11 +82451,11 @@
 "dividendCurrency": "AUD",
 "dividendType": "F",
 "earningsPerShare": 2.15624,
-"enterprisevalue": 212.9243,
+"enterprisevalue": 215.1241,
 "foreignCurrencyAmount": 0,
 "foreignExempt": false,
 "frankingPercent": 0,
-"freeCashFlowYield": 0.29668396334172953,
+"freeCashFlowYield": 0.29352800110366534,
 "incomeStatement": [
 {
 "curCode": "AUD",
@@ -79786,20 +82489,20 @@
 "isin": "AU000000CAA9",
 "numOfShares": 15712851,
 "opCashFlowRevTTM": 8.70663,
-"priceAsk": 13.02,
-"priceBid": 12.91,
-"priceClose": 12.77,
-"priceDayHigh": 13.040000000000001,
-"priceDayLow": 12.825000000000001,
-"priceEarningsRatio": 6.03829,
-"priceFiftyTwoWeekHigh": 13.22,
+"priceAsk": 13.200000000000001,
+"priceBid": 13.08,
+"priceClose": 13.08,
+"priceDayHigh": 13.200000000000001,
+"priceDayLow": 12.86,
+"priceEarningsRatio": 6.10322,
+"priceFiftyTwoWeekHigh": 13.425,
 "priceFiftyTwoWeekLow": 10.33,
-"priceToCash": 3.37059,
+"priceToCash": 3.40683,
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 482.902,
 "totalLiabilities": 239.096,
-"volumeAverage": 16969.155556,
-"yieldAnnual": 2.304147465437788
+"volumeAverage": 18051.3,
+"yieldAnnual": 2.2796352583586623
 }
 },
 "CAF": {
@@ -84238,6 +86941,13 @@
 "CBE": {
 "announcements": [
 {
+"date": "2026-11-05",
+"headline": "Change of Director's Interest Notice - Martin Holland",
+"id": "03162207",
+"sensitive": false,
+"time": "8:21 am"
+},
+{
 "date": "2026-10-30",
 "headline": "September 2026 Quarterly Investor Briefing Presentation",
 "id": "03159662",
@@ -85646,29 +88356,29 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:07:24+00:00",
+"fetched": "2026-11-07T21:56:27+00:00",
 "header": {
 "dateListed": "2020-01-31",
 "displayName": "COBRE LIMITED",
 "industryGroup": "Materials",
-"marketCap": 312454759,
+"marketCap": 318964233,
 "priceAsk": 0.23,
-"priceBid": 0.225,
-"priceChange": -0.009999999999999981,
-"priceChangePercent": -4.166666666666659,
-"priceLast": 0.23,
+"priceBid": 0.22,
+"priceChange": -0.01999999999999999,
+"priceChangePercent": -8.163265306122446,
+"priceLast": 0.225,
 "sector": "Materials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "CBE",
-"volume": 3914326,
+"volume": 4395218,
 "xid": "573578875"
 },
 "key-statistics": {
 "cashFlow": -13.51813,
 "currency": "AUD",
 "earningsPerShare": -0.02205,
-"enterprisevalue": 286.8169,
+"enterprisevalue": 280.3074,
 "foreignExempt": false,
 "freeCashFlowYield": -1.00000010000001e-05,
 "incomeStatement": [
@@ -85705,10 +88415,10 @@
 "numOfShares": 1301894828,
 "opCashFlowRevTTM": -506.372,
 "priceAsk": 0.23,
-"priceBid": 0.225,
-"priceClose": 0.24,
-"priceDayHigh": 0.24,
-"priceDayLow": 0.225,
+"priceBid": 0.22,
+"priceClose": 0.245,
+"priceDayHigh": 0.23500000000000001,
+"priceDayLow": 0.22,
 "priceEarningsRatio": -99999.99,
 "priceFiftyTwoWeekHigh": 0.435,
 "priceFiftyTwoWeekLow": 0.078,
@@ -85716,7 +88426,736 @@
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 104.278,
 "totalLiabilities": 8.60477,
-"volumeAverage": 5474577.056818,
+"volumeAverage": 5665467.034091,
+"yieldAnnual": 0
+}
+},
+"CCE": {
+"announcements": [
+{
+"date": "2026-11-05",
+"headline": "Notification regarding unquoted securities - CCE",
+"id": "03162687",
+"sensitive": false,
+"time": "6:47 pm"
+},
+{
+"date": "2026-11-03",
+"headline": "Notice of Investor Webinar - November",
+"id": "03161498",
+"sensitive": false,
+"time": "11:14 am"
+},
+{
+"date": "2026-10-30",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03159652",
+"sensitive": true,
+"time": "8:10 am"
+},
+{
+"date": "2026-10-29",
+"headline": "ACHIEVE Deployment Update and Programme Objectives",
+"id": "03159105",
+"sensitive": true,
+"time": "9:59 am"
+},
+{
+"date": "2026-10-23",
+"headline": "AGM Information Letter",
+"id": "03156233",
+"sensitive": false,
+"time": "9:48 am"
+},
+{
+"date": "2026-10-23",
+"headline": "Notice of Annual General Meeting/Proxy Form",
+"id": "03156222",
+"sensitive": false,
+"time": "9:45 am"
+},
+{
+"date": "2026-10-23",
+"headline": "Appendix 4G",
+"id": "03156216",
+"sensitive": false,
+"time": "9:44 am"
+},
+{
+"date": "2026-10-23",
+"headline": "Annual Report to shareholders",
+"id": "03156215",
+"sensitive": false,
+"time": "9:43 am"
+},
+{
+"date": "2026-10-23",
+"headline": "Corporate Governance Statement",
+"id": "03156214",
+"sensitive": false,
+"time": "9:43 am"
+},
+{
+"date": "2026-10-16",
+"headline": "Change of Director's Interest Notice",
+"id": "03153346",
+"sensitive": false,
+"time": "11:46 am"
+},
+{
+"date": "2026-10-09",
+"headline": "Appendix 3Y Amended",
+"id": "03150851",
+"sensitive": false,
+"time": "7:59 pm"
+},
+{
+"date": "2026-10-09",
+"headline": "Change of Director's Interest Notice",
+"id": "03150822",
+"sensitive": false,
+"time": "6:18 pm"
+},
+{
+"date": "2026-10-01",
+"headline": "2026 AGM Key Dates",
+"id": "03147086",
+"sensitive": false,
+"time": "9:24 am"
+},
+{
+"date": "2026-09-22",
+"headline": "ACHIEVE Update - Fabrication, Assembly and Deployment Prep",
+"id": "03142096",
+"sensitive": false,
+"time": "9:48 am"
+},
+{
+"date": "2026-09-04",
+"headline": "Opening of US Grid-Connected Wave Energy Test Facility",
+"id": "03136160",
+"sensitive": false,
+"time": "5:19 pm"
+},
+{
+"date": "2026-08-27",
+"headline": "Appendix 4E and 2026 Financial Report",
+"id": "03131680",
+"sensitive": true,
+"time": "5:30 pm"
+},
+{
+"date": "2026-08-27",
+"headline": "Notification regarding unquoted securities - CCE",
+"id": "03131262",
+"sensitive": false,
+"time": "9:45 am"
+},
+{
+"date": "2026-08-27",
+"headline": "ACHIEVE Finance Update - Loan Commitment Increased",
+"id": "03130866",
+"sensitive": true,
+"time": "7:59 am"
+},
+{
+"date": "2026-07-29",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03119104",
+"sensitive": true,
+"time": "8:24 am"
+},
+{
+"date": "2026-07-28",
+"headline": "Cleansing Notice",
+"id": "03118777",
+"sensitive": false,
+"time": "9:15 am"
+},
+{
+"date": "2026-07-27",
+"headline": "Application for quotation of securities - CCE",
+"id": "03118565",
+"sensitive": false,
+"time": "4:42 pm"
+},
+{
+"date": "2026-07-22",
+"headline": "Proposed issue of securities - CCE",
+"id": "03117103",
+"sensitive": false,
+"time": "9:23 am"
+},
+{
+"date": "2026-07-22",
+"headline": "Carnegie Secures $2.5 Million Share Placement",
+"id": "03117102",
+"sensitive": true,
+"time": "9:23 am"
+},
+{
+"date": "2026-07-21",
+"headline": "Trading Halt",
+"id": "03116649",
+"sensitive": true,
+"time": "9:15 am"
+},
+{
+"date": "2026-07-16",
+"headline": "Notification regarding unquoted securities - CCE",
+"id": "03115512",
+"sensitive": false,
+"time": "9:28 am"
+},
+{
+"date": "2026-07-16",
+"headline": "ACHIEVE Finance Update",
+"id": "03115401",
+"sensitive": false,
+"time": "8:19 am"
+},
+{
+"date": "2026-07-09",
+"headline": "Change of Director's Interest Notice",
+"id": "03113642",
+"sensitive": false,
+"time": "4:28 pm"
+},
+{
+"date": "2026-07-03",
+"headline": "Change of Director's Interest Notice",
+"id": "03111676",
+"sensitive": false,
+"time": "4:42 pm"
+},
+{
+"date": "2026-07-03",
+"headline": "Application for quotation of securities - CCE",
+"id": "03111672",
+"sensitive": false,
+"time": "4:40 pm"
+},
+{
+"date": "2026-06-26",
+"headline": "Carnegie Assembling CETO Unit for October Deployment",
+"id": "03108186",
+"sensitive": false,
+"time": "9:49 am"
+},
+{
+"date": "2026-06-19",
+"headline": "Change of Director's Interest Notice",
+"id": "03105932",
+"sensitive": false,
+"time": "4:00 pm"
+},
+{
+"date": "2026-06-19",
+"headline": "Application for quotation of securities - CCE",
+"id": "03105923",
+"sensitive": false,
+"time": "3:53 pm"
+},
+{
+"date": "2026-06-11",
+"headline": "Application for quotation of securities - CCE",
+"id": "03103335",
+"sensitive": false,
+"time": "6:38 pm"
+},
+{
+"date": "2026-06-09",
+"headline": "Application for quotation of securities - CCE",
+"id": "03102398",
+"sensitive": false,
+"time": "5:49 pm"
+},
+{
+"date": "2026-06-09",
+"headline": "Change of Director's Interest Notice",
+"id": "03102396",
+"sensitive": false,
+"time": "5:48 pm"
+},
+{
+"date": "2026-05-19",
+"headline": "Response to ASX Price Query",
+"id": "03095373",
+"sensitive": true,
+"time": "1:07 pm"
+},
+{
+"date": "2026-05-15",
+"headline": "EuropeWave Milestone Completed and Payment Received",
+"id": "03094167",
+"sensitive": true,
+"time": "8:21 am"
+},
+{
+"date": "2026-05-07",
+"headline": "Carnegie Selected for US TEAMER Technical Support",
+"id": "03091488",
+"sensitive": false,
+"time": "9:27 am"
+},
+{
+"date": "2026-04-30",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03088992",
+"sensitive": true,
+"time": "5:13 pm"
+},
+{
+"date": "2026-04-30",
+"headline": "ACHIEVE Programme Update",
+"id": "03088482",
+"sensitive": false,
+"time": "9:55 am"
+},
+{
+"date": "2026-03-10",
+"headline": "Australian R&D Tax Rebate",
+"id": "03070235",
+"sensitive": true,
+"time": "10:20 am"
+},
+{
+"date": "2026-02-25",
+"headline": "Half Yearly Report and Accounts",
+"id": "03064857",
+"sensitive": true,
+"time": "1:15 pm"
+},
+{
+"date": "2026-01-30",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03054762",
+"sensitive": true,
+"time": "9:59 am"
+},
+{
+"date": "2026-01-06",
+"headline": "EuropeWave Milestone Payments Received",
+"id": "03047270",
+"sensitive": true,
+"time": "8:20 am"
+},
+{
+"date": "2025-12-23",
+"headline": "2025 Basque Tax Deductions Sold",
+"id": "03044681",
+"sensitive": true,
+"time": "9:52 am"
+},
+{
+"date": "2025-12-18",
+"headline": "ACHIEVE Programme Update",
+"id": "03042610",
+"sensitive": false,
+"time": "8:21 am"
+},
+{
+"date": "2025-12-09",
+"headline": "COIN Project Payment Received",
+"id": "03038785",
+"sensitive": true,
+"time": "9:13 am"
+},
+{
+"date": "2025-11-18",
+"headline": "Results of Meeting",
+"id": "03027953",
+"sensitive": false,
+"time": "2:18 pm"
+},
+{
+"date": "2025-11-18",
+"headline": "2025 AGM CEO Presentation",
+"id": "03027883",
+"sensitive": false,
+"time": "11:42 am"
+},
+{
+"date": "2025-11-12",
+"headline": "Milestone Payment Received from EuropeWave",
+"id": "03024165",
+"sensitive": true,
+"time": "8:22 am"
+},
+{
+"date": "2025-10-31",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03019080",
+"sensitive": true,
+"time": "9:50 am"
+},
+{
+"date": "2025-10-17",
+"headline": "AGM Proxy Form",
+"id": "03011642",
+"sensitive": false,
+"time": "1:55 pm"
+},
+{
+"date": "2025-10-17",
+"headline": "Annual Report to shareholders",
+"id": "03011619",
+"sensitive": false,
+"time": "1:20 pm"
+},
+{
+"date": "2025-10-17",
+"headline": "AGM Information Letter",
+"id": "03011618",
+"sensitive": false,
+"time": "1:17 pm"
+},
+{
+"date": "2025-10-17",
+"headline": "Notice of Annual General Meeting",
+"id": "03011617",
+"sensitive": false,
+"time": "1:16 pm"
+},
+{
+"date": "2025-09-29",
+"headline": "Appendix 4G",
+"id": "03001870",
+"sensitive": false,
+"time": "2:26 pm"
+},
+{
+"date": "2025-09-29",
+"headline": "2025 AGM Key Dates",
+"id": "03001823",
+"sensitive": false,
+"time": "1:01 pm"
+},
+{
+"date": "2025-09-26",
+"headline": "Notification of cessation of securities - CCE",
+"id": "03001133",
+"sensitive": false,
+"time": "5:02 pm"
+},
+{
+"date": "2025-09-22",
+"headline": "Application for quotation of securities - CCE",
+"id": "02998209",
+"sensitive": false,
+"time": "12:40 pm"
+},
+{
+"date": "2025-09-17",
+"headline": "Response to ASX Price Query",
+"id": "02996361",
+"sensitive": true,
+"time": "11:17 am"
+},
+{
+"date": "2025-09-11",
+"headline": "Application for quotation of securities - CCE",
+"id": "02993896",
+"sensitive": false,
+"time": "8:52 am"
+},
+{
+"date": "2025-09-10",
+"headline": "Share Purchase Plan Results",
+"id": "02993690",
+"sensitive": true,
+"time": "4:39 pm"
+},
+{
+"date": "2025-09-05",
+"headline": "Carnegie in EU Innovation Funding Award",
+"id": "02991532",
+"sensitive": true,
+"time": "9:20 am"
+},
+{
+"date": "2025-09-02",
+"headline": "SPP Deadline Approaching",
+"id": "02989953",
+"sensitive": false,
+"time": "9:54 am"
+},
+{
+"date": "2025-08-26",
+"headline": "Webinar Presentation",
+"id": "02985649",
+"sensitive": false,
+"time": "1:17 pm"
+},
+{
+"date": "2025-08-25",
+"headline": "Appendix 4E & 2025 Financial Report",
+"id": "02984516",
+"sensitive": true,
+"time": "8:55 am"
+},
+{
+"date": "2025-08-14",
+"headline": "SPP Chairman's Letter and Flyer",
+"id": "02980333",
+"sensitive": false,
+"time": "9:36 am"
+},
+{
+"date": "2025-08-14",
+"headline": "SPP Terms and Conditions",
+"id": "02980277",
+"sensitive": false,
+"time": "9:13 am"
+},
+{
+"date": "2025-08-14",
+"headline": "Cleansing Notice",
+"id": "02980233",
+"sensitive": false,
+"time": "8:39 am"
+},
+{
+"date": "2025-08-13",
+"headline": "Notice of Upcoming Investor Webinar",
+"id": "02979850",
+"sensitive": false,
+"time": "9:51 am"
+},
+{
+"date": "2025-08-12",
+"headline": "Proposed issue of securities - CCE",
+"id": "02979240",
+"sensitive": false,
+"time": "8:27 am"
+},
+{
+"date": "2025-08-12",
+"headline": "Carnegie Launches $3 Million Share Purchase Plan",
+"id": "02979238",
+"sensitive": true,
+"time": "8:23 am"
+},
+{
+"date": "2025-07-31",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "02974939",
+"sensitive": true,
+"time": "9:02 am"
+},
+{
+"date": "2025-07-30",
+"headline": "ACHIEVE Programme Update",
+"id": "02974169",
+"sensitive": false,
+"time": "8:28 am"
+},
+{
+"date": "2025-07-29",
+"headline": "ACHIEVE Milestone Payments Received",
+"id": "02973586",
+"sensitive": true,
+"time": "8:27 am"
+},
+{
+"date": "2025-07-28",
+"headline": "6 MW CETO Array MoU with BiMEP",
+"id": "02973040",
+"sensitive": true,
+"time": "8:25 am"
+},
+{
+"date": "2025-07-22",
+"headline": "German Roadshow Presentation",
+"id": "02971276",
+"sensitive": false,
+"time": "8:25 am"
+},
+{
+"date": "2025-07-10",
+"headline": "DGWA Appointed European Advisor",
+"id": "02968040",
+"sensitive": false,
+"time": "9:11 am"
+},
+{
+"date": "2025-06-26",
+"headline": "Funding Award for MoorPower Commercial Pilot Design",
+"id": "02962295",
+"sensitive": true,
+"time": "9:38 am"
+},
+{
+"date": "2025-05-22",
+"headline": "USA Roadshow Presentation",
+"id": "02950950",
+"sensitive": false,
+"time": "9:44 am"
+},
+{
+"date": "2025-05-19",
+"headline": "EuropeWave Milestone Payment Received",
+"id": "02949526",
+"sensitive": false,
+"time": "9:26 am"
+},
+{
+"date": "2025-05-08",
+"headline": "Carnegie partners with Industry leader SKF",
+"id": "02946303",
+"sensitive": true,
+"time": "8:41 am"
+},
+{
+"date": "2025-05-06",
+"headline": "MOU with Chugachmiut for CETO",
+"id": "02945459",
+"sensitive": true,
+"time": "12:11 pm"
+},
+{
+"date": "2025-04-30",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "02942859",
+"sensitive": true,
+"time": "9:55 am"
+},
+{
+"date": "2025-04-28",
+"headline": "$2m Advanced Payment Received for Spain Project",
+"id": "02941375",
+"sensitive": true,
+"time": "9:59 am"
+},
+{
+"date": "2025-04-17",
+"headline": "New InvestorHub for Investor Engagement",
+"id": "02939414",
+"sensitive": false,
+"time": "2:53 pm"
+},
+{
+"date": "2025-04-04",
+"headline": "BiMEP contract signed for CETO deployment",
+"id": "02934194",
+"sensitive": false,
+"time": "8:18 am"
+},
+{
+"date": "2025-03-11",
+"headline": "ACHIEVE Milestone 1 Payment from EVE",
+"id": "02924569",
+"sensitive": true,
+"time": "8:23 am"
+},
+{
+"date": "2025-03-07",
+"headline": "Change of Share Registry",
+"id": "02923720",
+"sensitive": false,
+"time": "9:56 am"
+},
+{
+"date": "2025-02-26",
+"headline": "Half Yearly Accounts/Appendix 4D",
+"id": "02919141",
+"sensitive": false,
+"time": "9:25 am"
+},
+{
+"date": "2025-02-06",
+"headline": "Final Director's Interest Notice",
+"id": "02911557",
+"sensitive": false,
+"time": "10:53 am"
+},
+{
+"date": "2025-02-05",
+"headline": "Board Changes",
+"id": "02910926",
+"sensitive": false,
+"time": "8:20 am"
+},
+{
+"date": "2025-01-31",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "02908957",
+"sensitive": true,
+"time": "8:21 am"
+}
+],
+"errors": [],
+"fetched": "2026-11-07T21:56:34+00:00",
+"header": {
+"dateListed": "1993-10-26",
+"displayName": "CARNEGIE CLEAN ENERGY LIMITED",
+"industryGroup": "Utilities",
+"marketCap": 59822436,
+"priceAsk": 0.15,
+"priceBid": 0.14,
+"priceChange": 0,
+"priceChangePercent": 0,
+"priceLast": 0.14,
+"sector": "Utilities",
+"securityType": 1,
+"statusCode": "",
+"symbol": "CCE",
+"volume": 13588,
+"xid": "847549560"
+},
+"key-statistics": {
+"cashFlow": -3.08708,
+"currency": "AUD",
+"earningsPerShare": -0.00698,
+"enterprisevalue": 61.39728,
+"foreignExempt": false,
+"freeCashFlowYield": -1.00000010000001e-05,
+"incomeStatement": [
+{
+"curCode": "AUD",
+"fPeriodEndDate": 46203,
+"netIncome": -2765870,
+"period": "2026A",
+"revenue": 548980
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45838,
+"netIncome": -2327730,
+"period": "2025A",
+"revenue": 405370
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45473,
+"netIncome": -2320230,
+"period": "2024A",
+"revenue": 447360
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45107,
+"netIncome": -630400,
+"period": "2023A",
+"revenue": 2218330
+}
+],
+"isin": "AU000000CCE7",
+"numOfShares": 427303111,
+"opCashFlowRevTTM": -507.2179,
+"priceAsk": 0.15,
+"priceBid": 0.14,
+"priceClose": 0.14,
+"priceDayHigh": 0.145,
+"priceDayLow": 0.135,
+"priceEarningsRatio": -99999.99,
+"priceFiftyTwoWeekHigh": 0.365,
+"priceFiftyTwoWeekLow": 0.052,
+"priceToCash": -99999.99,
+"shareDescription": "Ordinary Fully Paid",
+"totalAssets": 23.10187,
+"totalLiabilities": 4.25333,
+"volumeAverage": 609183.325843,
 "yieldAnnual": 0
 }
 },
@@ -91364,6 +94803,27 @@
 "CEH": {
 "announcements": [
 {
+"date": "2026-11-03",
+"headline": "AGM Results of Meeting",
+"id": "03161546",
+"sensitive": false,
+"time": "1:29 pm"
+},
+{
+"date": "2026-11-03",
+"headline": "AGM Addresses",
+"id": "03161383",
+"sensitive": true,
+"time": "8:46 am"
+},
+{
+"date": "2026-11-03",
+"headline": "AGM Presentation",
+"id": "03161381",
+"sensitive": true,
+"time": "8:44 am"
+},
+{
 "date": "2026-10-27",
 "headline": "Change in substantial holding",
 "id": "03158008",
@@ -92793,22 +96253,22 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:07:31+00:00",
+"fetched": "2026-11-07T21:56:39+00:00",
 "header": {
 "dateListed": "2018-11-30",
 "displayName": "COAST ENTERTAINMENT HOLDINGS LIMITED",
 "industryGroup": "Consumer Services",
-"marketCap": 186509700,
-"priceAsk": 0.5,
-"priceBid": 0.47500000000000003,
-"priceChange": 0.015000000000000013,
-"priceChangePercent": 3.125000000000003,
-"priceLast": 0.495,
+"marketCap": 172910034,
+"priceAsk": 0.48,
+"priceBid": 0.445,
+"priceChange": 0,
+"priceChangePercent": 0,
+"priceLast": 0.445,
 "sector": "Consumer Discretionary",
 "securityType": 1,
 "statusCode": "",
 "symbol": "CEH",
-"volume": 215990,
+"volume": 216591,
 "xid": "504280917"
 },
 "key-statistics": {
@@ -92821,11 +96281,11 @@
 "dividendCurrency": "AUD",
 "dividendType": "I",
 "earningsPerShare": 0.0155,
-"enterprisevalue": 158.4391,
+"enterprisevalue": 139.011,
 "foreignCurrencyAmount": 0,
 "foreignExempt": false,
 "frankingPercent": 0,
-"freeCashFlowYield": 0.11027449527363516,
+"freeCashFlowYield": 0.12266491991820705,
 "incomeStatement": [
 {
 "curCode": "AUD",
@@ -92859,24 +96319,45 @@
 "isin": "AU0000314254",
 "numOfShares": 388561874,
 "opCashFlowRevTTM": 18.18567,
-"priceAsk": 0.5,
-"priceBid": 0.47500000000000003,
-"priceClose": 0.48,
-"priceDayHigh": 0.5,
-"priceDayLow": 0.47750000000000004,
-"priceEarningsRatio": 31.93548,
+"priceAsk": 0.48,
+"priceBid": 0.445,
+"priceClose": 0.445,
+"priceDayHigh": 0.45,
+"priceDayLow": 0.44,
+"priceEarningsRatio": 28.70968,
 "priceFiftyTwoWeekHigh": 0.595,
 "priceFiftyTwoWeekLow": 0.39,
-"priceToCash": 9.06828,
+"priceToCash": 8.15229,
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 259.306,
 "totalLiabilities": 35.107,
-"volumeAverage": 779440.422222,
+"volumeAverage": 807436.288889,
 "yieldAnnual": 0
 }
 },
 "CEL": {
 "announcements": [
+{
+"date": "2026-11-06",
+"headline": "Notice of General Meeting/Proxy Form",
+"id": "03162977",
+"sensitive": false,
+"time": "11:48 am"
+},
+{
+"date": "2026-11-06",
+"headline": "Section 708A Notice",
+"id": "03162965",
+"sensitive": false,
+"time": "11:16 am"
+},
+{
+"date": "2026-11-06",
+"headline": "Application for quotation of securities - CEL",
+"id": "03162963",
+"sensitive": false,
+"time": "11:13 am"
+},
 {
 "date": "2026-10-29",
 "headline": "Section 708A Notice",
@@ -94412,29 +97893,29 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:07:38+00:00",
+"fetched": "2026-11-07T21:56:45+00:00",
 "header": {
 "dateListed": "2007-11-07",
 "displayName": "CHALLENGER GOLD LIMITED",
 "industryGroup": "Materials",
-"marketCap": 270719041,
-"priceAsk": 1.57,
-"priceBid": 1.55,
-"priceChange": -0.010000000000000009,
-"priceChangePercent": -0.6329113924050638,
-"priceLast": 1.57,
+"marketCap": 281089960,
+"priceAsk": 1.6,
+"priceBid": 1.42,
+"priceChange": -0.039999999999999813,
+"priceChangePercent": -2.4390243902438913,
+"priceLast": 1.6,
 "sector": "Materials",
 "securityType": 1,
 "statusCode": "RE",
 "symbol": "CEL",
-"volume": 32102,
+"volume": 124574,
 "xid": "8952554"
 },
 "key-statistics": {
 "cashFlow": -63.59192,
 "currency": "AUD",
 "earningsPerShare": -0.09991,
-"enterprisevalue": 270.1104,
+"enterprisevalue": 275.2506,
 "foreignExempt": false,
 "freeCashFlowYield": -1.00000010000001e-05,
 "incomeStatement": [
@@ -94468,13 +97949,13 @@
 }
 ],
 "isin": "AU000000CEL8",
-"numOfShares": 171341165,
+"numOfShares": 171396317,
 "opCashFlowRevTTM": -12986.87,
-"priceAsk": 1.57,
-"priceBid": 1.55,
-"priceClose": 1.58,
-"priceDayHigh": 1.595,
-"priceDayLow": 1.57,
+"priceAsk": 1.6,
+"priceBid": 1.42,
+"priceClose": 1.64,
+"priceDayHigh": 1.625,
+"priceDayLow": 1.54,
 "priceEarningsRatio": -99999.99,
 "priceFiftyTwoWeekHigh": 4.1,
 "priceFiftyTwoWeekLow": 1.4,
@@ -94482,12 +97963,26 @@
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 274.2743,
 "totalLiabilities": 33.37498,
-"volumeAverage": 163152.787222,
+"volumeAverage": 153180.085,
 "yieldAnnual": 0
 }
 },
 "CGS": {
 "announcements": [
+{
+"date": "2026-11-02",
+"headline": "Change of Director's Interest Notice - BOC",
+"id": "03160894",
+"sensitive": false,
+"time": "8:53 am"
+},
+{
+"date": "2026-11-02",
+"headline": "Notification regarding unquoted securities - CGS",
+"id": "03160835",
+"sensitive": false,
+"time": "8:23 am"
+},
 {
 "date": "2026-10-29",
 "headline": "Change of Director's Interest Notice - BOC",
@@ -95638,26 +99133,26 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:07:46+00:00",
+"fetched": "2026-11-07T21:56:52+00:00",
 "header": {
 "dateListed": "2004-02-13",
 "displayName": "COGSTATE LTD",
 "industryGroup": "Health Care Equipment & Services",
-"marketCap": 588656079,
-"priceAsk": 3.5100000000000002,
-"priceBid": 3.38,
-"priceChange": 0.040000000000000036,
-"priceChangePercent": 1.1730205278592385,
-"priceLast": 3.45,
+"marketCap": 583477286,
+"priceAsk": 3.31,
+"priceBid": 3.2800000000000002,
+"priceChange": -0.08999999999999986,
+"priceChangePercent": -2.66272189349112,
+"priceLast": 3.29,
 "sector": "Health Care",
 "securityType": 1,
 "statusCode": "",
 "symbol": "CGS",
-"volume": 206001,
+"volume": 97840,
 "xid": "74099"
 },
 "key-statistics": {
-"cashFlow": -0.07332,
+"cashFlow": -0.07435,
 "currency": "USD",
 "dateExDate": "2026-08-21",
 "datePayDate": "2026-09-22",
@@ -95665,12 +99160,12 @@
 "dividend": 0.04,
 "dividendCurrency": "AUD",
 "dividendType": "F",
-"earningsPerShare": 0.09543,
-"enterprisevalue": 546.5759,
+"earningsPerShare": 0.09678,
+"enterprisevalue": 518.2628,
 "foreignCurrencyAmount": 0,
 "foreignExempt": false,
 "frankingPercent": 100,
-"freeCashFlowYield": 0.03580756441959877,
+"freeCashFlowYield": 0.038080107599152035,
 "incomeStatement": [
 {
 "curCode": "USD",
@@ -95704,20 +99199,2015 @@
 "isin": "AU000000CGS8",
 "numOfShares": 172626416,
 "opCashFlowRevTTM": 13.97779,
-"priceAsk": 3.5100000000000002,
-"priceBid": 3.38,
-"priceClose": 3.41,
-"priceDayHigh": 3.46,
-"priceDayLow": 3.34,
-"priceEarningsRatio": 36.15149,
+"priceAsk": 3.31,
+"priceBid": 3.2800000000000002,
+"priceClose": 3.38,
+"priceDayHigh": 3.39,
+"priceDayLow": 3.29,
+"priceEarningsRatio": 33.99404,
 "priceFiftyTwoWeekHigh": 3.98,
 "priceFiftyTwoWeekLow": 1.75,
-"priceToCash": 27.92706,
+"priceToCash": 26.26043,
 "shareDescription": "Ordinary Fully Paid",
-"totalAssets": 111.0908,
-"totalLiabilities": 28.16177,
-"volumeAverage": 443565.955556,
-"yieldAnnual": 1.1594202898550725
+"totalAssets": 112.6622,
+"totalLiabilities": 28.56013,
+"volumeAverage": 437924.1,
+"yieldAnnual": 1.21580547112462
+}
+},
+"CHL": {
+"announcements": [
+{
+"date": "2026-10-20",
+"headline": "CEO Presentation - Australian Microcap Conference",
+"id": "03154614",
+"sensitive": false,
+"time": "1:42 pm"
+},
+{
+"date": "2026-10-20",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03154613",
+"sensitive": true,
+"time": "1:41 pm"
+},
+{
+"date": "2026-10-09",
+"headline": "Notice of Annual General Meeting/Proxy Form",
+"id": "03150715",
+"sensitive": false,
+"time": "4:10 pm"
+},
+{
+"date": "2026-10-01",
+"headline": "Change of Director's Interest Notice",
+"id": "03147245",
+"sensitive": false,
+"time": "12:45 pm"
+},
+{
+"date": "2026-10-01",
+"headline": "Annual Report to shareholders",
+"id": "03146883",
+"sensitive": false,
+"time": "8:13 am"
+},
+{
+"date": "2026-09-22",
+"headline": "Change of Director's Interest Notice",
+"id": "03141900",
+"sensitive": false,
+"time": "8:16 am"
+},
+{
+"date": "2026-09-18",
+"headline": "Annual General Meeting Information",
+"id": "03141036",
+"sensitive": false,
+"time": "11:38 am"
+},
+{
+"date": "2026-09-10",
+"headline": "Camplify Investor Webinar",
+"id": "03137934",
+"sensitive": false,
+"time": "8:27 am"
+},
+{
+"date": "2026-08-31",
+"headline": "Change in substantial holding",
+"id": "03133773",
+"sensitive": false,
+"time": "6:58 pm"
+},
+{
+"date": "2026-08-31",
+"headline": "Change of Director's Interest Notice",
+"id": "03133444",
+"sensitive": false,
+"time": "3:53 pm"
+},
+{
+"date": "2026-08-31",
+"headline": "Notification of cessation of securities - CHL",
+"id": "03133387",
+"sensitive": false,
+"time": "2:23 pm"
+},
+{
+"date": "2026-08-28",
+"headline": "Change of Director's Interest Notice",
+"id": "03132390",
+"sensitive": false,
+"time": "2:29 pm"
+},
+{
+"date": "2026-08-26",
+"headline": "Corporate Governance Statement",
+"id": "03130092",
+"sensitive": false,
+"time": "8:23 am"
+},
+{
+"date": "2026-08-26",
+"headline": "Appendix 4G",
+"id": "03130091",
+"sensitive": false,
+"time": "8:23 am"
+},
+{
+"date": "2026-08-26",
+"headline": "FY26 Full Year Results and Presentation",
+"id": "03130090",
+"sensitive": true,
+"time": "8:22 am"
+},
+{
+"date": "2026-08-26",
+"headline": "Preliminary Final Report",
+"id": "03130088",
+"sensitive": true,
+"time": "8:22 am"
+},
+{
+"date": "2026-08-19",
+"headline": "FY26 Annual Results Call",
+"id": "03126987",
+"sensitive": false,
+"time": "1:53 pm"
+},
+{
+"date": "2026-07-30",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03119795",
+"sensitive": true,
+"time": "9:17 am"
+},
+{
+"date": "2026-07-30",
+"headline": "Change in substantial holding",
+"id": "03119718",
+"sensitive": false,
+"time": "8:41 am"
+},
+{
+"date": "2026-06-30",
+"headline": "Change in substantial holding",
+"id": "03109583",
+"sensitive": false,
+"time": "3:57 pm"
+},
+{
+"date": "2026-06-30",
+"headline": "Change of Director's Interest Notice",
+"id": "03109465",
+"sensitive": false,
+"time": "12:11 pm"
+},
+{
+"date": "2026-06-11",
+"headline": "Change of Director's Interest Notice",
+"id": "03103026",
+"sensitive": false,
+"time": "9:04 am"
+},
+{
+"date": "2026-06-10",
+"headline": "Ceasing to be a substantial holder",
+"id": "03102823",
+"sensitive": false,
+"time": "5:48 pm"
+},
+{
+"date": "2026-06-03",
+"headline": "Change in substantial holding",
+"id": "03100663",
+"sensitive": false,
+"time": "12:26 pm"
+},
+{
+"date": "2026-05-28",
+"headline": "Revised Change of Director's Interest Notice",
+"id": "03098487",
+"sensitive": false,
+"time": "10:03 am"
+},
+{
+"date": "2026-05-27",
+"headline": "Change of Director's Interest Notice",
+"id": "03098134",
+"sensitive": false,
+"time": "4:00 pm"
+},
+{
+"date": "2026-05-11",
+"headline": "CEO Presentation - Sydney Microcaps Conference",
+"id": "03092639",
+"sensitive": false,
+"time": "2:07 pm"
+},
+{
+"date": "2026-04-30",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03088433",
+"sensitive": true,
+"time": "9:44 am"
+},
+{
+"date": "2026-04-15",
+"headline": "Change in substantial holding",
+"id": "03082605",
+"sensitive": false,
+"time": "8:10 am"
+},
+{
+"date": "2026-04-02",
+"headline": "Change of Director's Interest Notice",
+"id": "03079234",
+"sensitive": false,
+"time": "4:16 pm"
+},
+{
+"date": "2026-03-16",
+"headline": "Ceasing to be a substantial holder",
+"id": "03072660",
+"sensitive": false,
+"time": "4:52 pm"
+},
+{
+"date": "2026-03-11",
+"headline": "Change of Director's Interest Notice",
+"id": "03070646",
+"sensitive": false,
+"time": "9:13 am"
+},
+{
+"date": "2026-03-10",
+"headline": "Change of Director's Interest Notice",
+"id": "03070376",
+"sensitive": false,
+"time": "3:43 pm"
+},
+{
+"date": "2026-03-03",
+"headline": "Change in substantial holding",
+"id": "03067895",
+"sensitive": false,
+"time": "4:36 pm"
+},
+{
+"date": "2026-03-02",
+"headline": "Change of Director's Interest Notice",
+"id": "03067112",
+"sensitive": false,
+"time": "9:02 am"
+},
+{
+"date": "2026-03-02",
+"headline": "Change of Director's Interest Notice",
+"id": "03067110",
+"sensitive": false,
+"time": "9:01 am"
+},
+{
+"date": "2026-02-27",
+"headline": "Change of Director's Interest Notice",
+"id": "03066700",
+"sensitive": false,
+"time": "3:45 pm"
+},
+{
+"date": "2026-02-27",
+"headline": "Change of Director's Interest Notice",
+"id": "03066696",
+"sensitive": false,
+"time": "3:43 pm"
+},
+{
+"date": "2026-02-26",
+"headline": "CHL H1FY26 Interim Results and Presentation",
+"id": "03065678",
+"sensitive": true,
+"time": "10:50 am"
+},
+{
+"date": "2026-02-26",
+"headline": "Appendix 4D and Interim Financial Report",
+"id": "03065674",
+"sensitive": true,
+"time": "10:46 am"
+},
+{
+"date": "2026-02-24",
+"headline": "1HFY26 Results Call",
+"id": "03063689",
+"sensitive": false,
+"time": "8:09 am"
+},
+{
+"date": "2026-02-10",
+"headline": "Notification of cessation of securities - CHL",
+"id": "03058804",
+"sensitive": false,
+"time": "6:00 pm"
+},
+{
+"date": "2026-01-30",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03054567",
+"sensitive": true,
+"time": "9:06 am"
+},
+{
+"date": "2025-12-23",
+"headline": "Initial Director's Interest Notice",
+"id": "03044865",
+"sensitive": false,
+"time": "1:45 pm"
+},
+{
+"date": "2025-12-23",
+"headline": "Director Appointment - Li Ping Xue",
+"id": "03044713",
+"sensitive": false,
+"time": "10:05 am"
+},
+{
+"date": "2025-12-18",
+"headline": "Change in substantial holding",
+"id": "03043077",
+"sensitive": false,
+"time": "5:37 pm"
+},
+{
+"date": "2025-12-17",
+"headline": "Change in substantial holding",
+"id": "03042419",
+"sensitive": false,
+"time": "4:50 pm"
+},
+{
+"date": "2025-12-15",
+"headline": "CEO Presentation - Sharewise Webinar",
+"id": "03041249",
+"sensitive": false,
+"time": "12:02 pm"
+},
+{
+"date": "2025-12-12",
+"headline": "Change in substantial holding",
+"id": "03040808",
+"sensitive": false,
+"time": "5:50 pm"
+},
+{
+"date": "2025-12-02",
+"headline": "Initial Director's Interest Notice",
+"id": "03035375",
+"sensitive": false,
+"time": "8:28 am"
+},
+{
+"date": "2025-12-02",
+"headline": "Board Appointment - Mike Rosenbaum",
+"id": "03035373",
+"sensitive": false,
+"time": "8:28 am"
+},
+{
+"date": "2025-11-17",
+"headline": "Change in substantial holding",
+"id": "03027336",
+"sensitive": false,
+"time": "3:40 pm"
+},
+{
+"date": "2025-11-17",
+"headline": "Final Director's Interest Notice",
+"id": "03027131",
+"sensitive": false,
+"time": "9:55 am"
+},
+{
+"date": "2025-11-12",
+"headline": "Annual General Meeting - Results of Meeting",
+"id": "03024493",
+"sensitive": false,
+"time": "2:48 pm"
+},
+{
+"date": "2025-11-12",
+"headline": "AGM - Chair and CEO Address to Shareholders",
+"id": "03024343",
+"sensitive": true,
+"time": "9:54 am"
+},
+{
+"date": "2025-11-11",
+"headline": "Change in substantial holding",
+"id": "03024088",
+"sensitive": false,
+"time": "8:14 pm"
+},
+{
+"date": "2025-11-10",
+"headline": "Change in substantial holding",
+"id": "03023319",
+"sensitive": false,
+"time": "4:41 pm"
+},
+{
+"date": "2025-11-10",
+"headline": "Change in substantial holding",
+"id": "03023227",
+"sensitive": false,
+"time": "2:05 pm"
+},
+{
+"date": "2025-11-06",
+"headline": "Becoming a substantial holder",
+"id": "03021914",
+"sensitive": false,
+"time": "4:06 pm"
+},
+{
+"date": "2025-11-06",
+"headline": "Application for quotation of securities - CHL",
+"id": "03021912",
+"sensitive": false,
+"time": "4:01 pm"
+},
+{
+"date": "2025-11-06",
+"headline": "Cleansing Notice",
+"id": "03021911",
+"sensitive": false,
+"time": "4:01 pm"
+},
+{
+"date": "2025-11-03",
+"headline": "Change in substantial holding",
+"id": "03020418",
+"sensitive": false,
+"time": "7:56 pm"
+},
+{
+"date": "2025-10-30",
+"headline": "CEO Presentation on CHL and JB Group Strategy Partnership",
+"id": "03018261",
+"sensitive": true,
+"time": "10:06 am"
+},
+{
+"date": "2025-10-30",
+"headline": "Proposed issue of securities - CHL",
+"id": "03018173",
+"sensitive": false,
+"time": "9:39 am"
+},
+{
+"date": "2025-10-30",
+"headline": "CHL Secures Strategic Investment",
+"id": "03018165",
+"sensitive": true,
+"time": "9:37 am"
+},
+{
+"date": "2025-10-30",
+"headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+"id": "03018140",
+"sensitive": true,
+"time": "9:28 am"
+},
+{
+"date": "2025-10-28",
+"headline": "Change of Director's Interest Notice",
+"id": "03016611",
+"sensitive": false,
+"time": "11:02 am"
+},
+{
+"date": "2025-10-21",
+"headline": "CEO Presentation Australian Microcaps Conference",
+"id": "03012968",
+"sensitive": false,
+"time": "10:49 am"
+},
+{
+"date": "2025-10-20",
+"headline": "Application for quotation of securities - CHL",
+"id": "03012214",
+"sensitive": false,
+"time": "9:32 am"
+},
+{
+"date": "2025-10-10",
+"headline": "Notice of Annual General Meeting/Proxy Form",
+"id": "03008182",
+"sensitive": false,
+"time": "12:58 pm"
+},
+{
+"date": "2025-09-30",
+"headline": "Annual Report to shareholders",
+"id": "03002607",
+"sensitive": false,
+"time": "1:18 pm"
+},
+{
+"date": "2025-09-15",
+"headline": "Annual General Meeting Information",
+"id": "02995453",
+"sensitive": false,
+"time": "5:25 pm"
+},
+{
+"date": "2025-09-12",
+"headline": "Response to ASX Appendix 3Y Query",
+"id": "02994337",
+"sensitive": false,
+"time": "8:23 am"
+},
+{
+"date": "2025-09-09",
+"headline": "Notification of cessation of securities - CHL",
+"id": "02993079",
+"sensitive": false,
+"time": "2:59 pm"
+},
+{
+"date": "2025-09-08",
+"headline": "Initial Director's Interest Notice",
+"id": "02992551",
+"sensitive": false,
+"time": "4:15 pm"
+},
+{
+"date": "2025-08-29",
+"headline": "Change of Director's Interest Notice",
+"id": "02988421",
+"sensitive": false,
+"time": "11:47 am"
+},
+{
+"date": "2025-08-28",
+"headline": "Change of Director's Interest Notice",
+"id": "02987404",
+"sensitive": false,
+"time": "10:44 am"
+},
+{
+"date": "2025-08-28",
+"headline": "Corporate Governance Statement",
+"id": "02987403",
+"sensitive": false,
+"time": "10:44 am"
+},
+{
+"date": "2025-08-28",
+"headline": "Appendix 4G",
+"id": "02987402",
+"sensitive": false,
+"time": "10:43 am"
+},
+{
+"date": "2025-08-28",
+"headline": "FY25 Annual Results Announcement and Presentation",
+"id": "02987401",
+"sensitive": true,
+"time": "10:41 am"
+},
+{
+"date": "2025-08-28",
+"headline": "Preliminary Final Report",
+"id": "02987383",
+"sensitive": true,
+"time": "10:25 am"
+},
+{
+"date": "2025-08-28",
+"headline": "Notification of cessation of securities - CHL",
+"id": "02987370",
+"sensitive": false,
+"time": "10:15 am"
+},
+{
+"date": "2025-08-26",
+"headline": "FY25 Annual Results Call",
+"id": "02985636",
+"sensitive": false,
+"time": "12:44 pm"
+},
+{
+"date": "2025-08-25",
+"headline": "CHL expands flood recovery partnership with NSW Government",
+"id": "02984762",
+"sensitive": true,
+"time": "10:36 am"
+},
+{
+"date": "2025-08-18",
+"headline": "Final Director's Interest Notice",
+"id": "02981639",
+"sensitive": false,
+"time": "5:16 pm"
+},
+{
+"date": "2025-08-18",
+"headline": "Board Transition and Strategic Board Appointment",
+"id": "02981279",
+"sensitive": false,
+"time": "8:49 am"
+},
+{
+"date": "2025-06-16",
+"headline": "Ceasing to be a substantial holder",
+"id": "02958493",
+"sensitive": false,
+"time": "8:28 am"
+},
+{
+"date": "2025-05-08",
+"headline": "Camplify launch enhance Member offering including protection",
+"id": "02946270",
+"sensitive": false,
+"time": "8:25 am"
+},
+{
+"date": "2025-04-16",
+"headline": "Camplify appoints a new Chief Financial Officer",
+"id": "02938879",
+"sensitive": false,
+"time": "2:25 pm"
+},
+{
+"date": "2025-03-26",
+"headline": "Change in substantial holding",
+"id": "02930602",
+"sensitive": false,
+"time": "6:28 pm"
+},
+{
+"date": "2025-03-17",
+"headline": "Change of Director's Interest Notice",
+"id": "02927420",
+"sensitive": false,
+"time": "7:36 pm"
+},
+{
+"date": "2025-03-06",
+"headline": "Change of Director's Interest Notice",
+"id": "02923358",
+"sensitive": false,
+"time": "2:50 pm"
+},
+{
+"date": "2025-03-04",
+"headline": "Change of Director's Interest Notice",
+"id": "02922425",
+"sensitive": false,
+"time": "7:40 pm"
+},
+{
+"date": "2025-03-03",
+"headline": "Release from Voluntary Escrow",
+"id": "02921598",
+"sensitive": false,
+"time": "8:51 am"
+},
+{
+"date": "2025-02-27",
+"headline": "Camplify announces changes to its Chief Financial Officer",
+"id": "02920264",
+"sensitive": false,
+"time": "4:07 pm"
+},
+{
+"date": "2025-02-27",
+"headline": "CHL H1FY25 Interim Results and Presentation",
+"id": "02920088",
+"sensitive": true,
+"time": "10:06 am"
+},
+{
+"date": "2025-02-27",
+"headline": "Appendix 4D and Interim Financial Report",
+"id": "02920077",
+"sensitive": true,
+"time": "10:04 am"
+},
+{
+"date": "2025-02-24",
+"headline": "Ceasing to be a substantial holder",
+"id": "02917494",
+"sensitive": false,
+"time": "8:02 am"
+},
+{
+"date": "2025-02-21",
+"headline": "1HFY25 Interim Results Zoom Call",
+"id": "02917361",
+"sensitive": false,
+"time": "4:40 pm"
+},
+{
+"date": "2025-02-19",
+"headline": "Corporate Governance Statement & Board Skills Matrix review",
+"id": "02915791",
+"sensitive": false,
+"time": "8:24 am"
+},
+{
+"date": "2025-01-28",
+"headline": "Ceasing to be a substantial holder",
+"id": "02907451",
+"sensitive": false,
+"time": "8:56 am"
+},
+{
+"date": "2025-01-24",
+"headline": "Becoming a substantial holder",
+"id": "02906942",
+"sensitive": false,
+"time": "8:21 am"
+}
+],
+"errors": [],
+"fetched": "2026-11-07T21:56:59+00:00",
+"header": {
+"dateListed": "2021-06-28",
+"displayName": "CAMPLIFY HOLDINGS LIMITED",
+"industryGroup": "Transportation",
+"marketCap": 27134382,
+"priceAsk": 0.35000000000000003,
+"priceBid": 0.34500000000000003,
+"priceChange": 0.020000000000000018,
+"priceChangePercent": 6.060606060606066,
+"priceLast": 0.35000000000000003,
+"sector": "Industrials",
+"securityType": 1,
+"statusCode": "",
+"symbol": "CHL",
+"volume": 83418,
+"xid": "661250252"
+},
+"key-statistics": {
+"cashFlow": -1.25224,
+"currency": "AUD",
+"earningsPerShare": -0.00986,
+"enterprisevalue": 19.0195,
+"foreignExempt": false,
+"freeCashFlowYield": 0.024695876455420613,
+"incomeStatement": [
+{
+"curCode": "AUD",
+"fPeriodEndDate": 46203,
+"netIncome": -810960,
+"period": "2026A",
+"revenue": 39178210
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45838,
+"netIncome": -16540830,
+"period": "2025A",
+"revenue": 42022360
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45473,
+"netIncome": -8119180,
+"period": "2024A",
+"revenue": 47752280
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45107,
+"netIncome": -3608690,
+"period": "2023A",
+"revenue": 38228730
+}
+],
+"isin": "AU0000153991",
+"numOfShares": 82225401,
+"opCashFlowRevTTM": -3.18777,
+"priceAsk": 0.35000000000000003,
+"priceBid": 0.34500000000000003,
+"priceClose": 0.33,
+"priceDayHigh": 0.35000000000000003,
+"priceDayLow": 0.33,
+"priceEarningsRatio": -99999.99,
+"priceFiftyTwoWeekHigh": 0.49,
+"priceFiftyTwoWeekLow": 0.15,
+"priceToCash": 40.49259,
+"shareDescription": "Ordinary Fully Paid",
+"totalAssets": 74.78487,
+"totalLiabilities": 33.4491,
+"volumeAverage": 131427.606742,
+"yieldAnnual": 0
+}
+},
+"CHW": {
+"announcements": [
+{
+"date": "2026-10-30",
+"headline": "Nakombe Niobium-Yttrium Assays Strengthen Discovery",
+"id": "03159988",
+"sensitive": true,
+"time": "9:48 am"
+},
+{
+"date": "2026-10-29",
+"headline": "September 2026 Quarterly Activities and Cashflow Reports",
+"id": "03158999",
+"sensitive": true,
+"time": "9:18 am"
+},
+{
+"date": "2026-10-28",
+"headline": "Annual Report",
+"id": "03158472",
+"sensitive": false,
+"time": "12:41 pm"
+},
+{
+"date": "2026-10-28",
+"headline": "Letter to Shareholders - Notice of Annual General Meeting",
+"id": "03158468",
+"sensitive": false,
+"time": "12:35 pm"
+},
+{
+"date": "2026-10-28",
+"headline": "Notice of Annual General Meeting/Proxy Form",
+"id": "03158467",
+"sensitive": false,
+"time": "12:35 pm"
+},
+{
+"date": "2026-10-28",
+"headline": "Notification regarding unquoted securities - CHW",
+"id": "03158429",
+"sensitive": false,
+"time": "11:32 am"
+},
+{
+"date": "2026-10-19",
+"headline": "Over Allotment Option Exercise",
+"id": "03153909",
+"sensitive": true,
+"time": "9:45 am"
+},
+{
+"date": "2026-10-19",
+"headline": "Application for quotation of securities - CHW",
+"id": "03153900",
+"sensitive": false,
+"time": "9:41 am"
+},
+{
+"date": "2026-10-12",
+"headline": "Section 708A(5)(e) Notice",
+"id": "03151368",
+"sensitive": false,
+"time": "6:58 pm"
+},
+{
+"date": "2026-10-12",
+"headline": "Application for quotation of securities - CHW",
+"id": "03151366",
+"sensitive": false,
+"time": "6:52 pm"
+},
+{
+"date": "2026-10-09",
+"headline": "Drilling Confirms 17 Square Kilometres at Mpyupyu West",
+"id": "03150426",
+"sensitive": true,
+"time": "8:55 am"
+},
+{
+"date": "2026-10-06",
+"headline": "Becoming a substantial holder",
+"id": "03148812",
+"sensitive": false,
+"time": "9:49 am"
+},
+{
+"date": "2026-10-06",
+"headline": "Becoming a substantial holder",
+"id": "03148631",
+"sensitive": false,
+"time": "8:18 am"
+},
+{
+"date": "2026-10-05",
+"headline": "US Prospectus",
+"id": "03148329",
+"sensitive": false,
+"time": "9:52 am"
+},
+{
+"date": "2026-10-05",
+"headline": "Notification regarding unquoted securities - CHW",
+"id": "03148193",
+"sensitive": false,
+"time": "8:19 am"
+},
+{
+"date": "2026-10-02",
+"headline": "Application for quotation of securities - CHW",
+"id": "03147685",
+"sensitive": false,
+"time": "9:39 am"
+},
+{
+"date": "2026-10-01",
+"headline": "Becoming a substantial holder",
+"id": "03147238",
+"sensitive": false,
+"time": "12:31 pm"
+},
+{
+"date": "2026-10-01",
+"headline": "Prospectus",
+"id": "03147235",
+"sensitive": true,
+"time": "12:27 pm"
+},
+{
+"date": "2026-10-01",
+"headline": "Proposed issue of securities - CHW",
+"id": "03147134",
+"sensitive": false,
+"time": "9:55 am"
+},
+{
+"date": "2026-10-01",
+"headline": "Nasdaq Bound - Chilwa Launches US IPO and Dual Listing",
+"id": "03147131",
+"sensitive": true,
+"time": "9:54 am"
+},
+{
+"date": "2026-09-30",
+"headline": "Financial Report For the Year Ended 30 June 2026",
+"id": "03146226",
+"sensitive": false,
+"time": "2:53 pm"
+},
+{
+"date": "2026-09-30",
+"headline": "Appendix 4G and Corporate Governance Statement",
+"id": "03146165",
+"sensitive": false,
+"time": "2:08 pm"
+},
+{
+"date": "2026-09-29",
+"headline": "Trading Halt",
+"id": "03145219",
+"sensitive": true,
+"time": "9:43 am"
+},
+{
+"date": "2026-09-18",
+"headline": "2026 Annual General Meeting - Key Dates",
+"id": "03141319",
+"sensitive": false,
+"time": "6:05 pm"
+},
+{
+"date": "2026-09-02",
+"headline": "Africa Down Under Presentation",
+"id": "03134572",
+"sensitive": false,
+"time": "9:06 am"
+},
+{
+"date": "2026-08-06",
+"headline": "Drilling Confirms Mineralisation From Surface",
+"id": "03122378",
+"sensitive": true,
+"time": "8:13 am"
+},
+{
+"date": "2026-07-31",
+"headline": "June 2026 Quarterly Activities and Cashflow Reports",
+"id": "03120198",
+"sensitive": true,
+"time": "8:22 am"
+},
+{
+"date": "2026-07-10",
+"headline": "Chilwa Submits F-1 to SEC for Proposed Nasdaq Listing",
+"id": "03113844",
+"sensitive": true,
+"time": "10:07 am"
+},
+{
+"date": "2026-06-26",
+"headline": "8km Rare Earth Corridor Confirmed Beneath Mposa HMS Deposit",
+"id": "03108077",
+"sensitive": true,
+"time": "8:31 am"
+},
+{
+"date": "2026-06-24",
+"headline": "Release of Securities from Escrow",
+"id": "03107395",
+"sensitive": false,
+"time": "4:26 pm"
+},
+{
+"date": "2026-06-23",
+"headline": "Mpyupyu West HMS Discovery More Than Triples in Size",
+"id": "03106592",
+"sensitive": true,
+"time": "8:13 am"
+},
+{
+"date": "2026-06-19",
+"headline": "Mpyupyu Doubles to 109.6 Mt, 89% Measured & Indicated",
+"id": "03105733",
+"sensitive": true,
+"time": "9:14 am"
+},
+{
+"date": "2026-06-15",
+"headline": "Maiden Niobium-REE Exploration Target at Nakombe South",
+"id": "03103994",
+"sensitive": true,
+"time": "9:07 am"
+},
+{
+"date": "2026-06-05",
+"headline": "Niobium Mineralisation Extended South",
+"id": "03101484",
+"sensitive": true,
+"time": "9:17 am"
+},
+{
+"date": "2026-06-03",
+"headline": "New HMS Target at Mpyupyu West",
+"id": "03100505",
+"sensitive": true,
+"time": "9:14 am"
+},
+{
+"date": "2026-05-28",
+"headline": "Chilwa Sample Prep Lab to Service Lindian's Kangankunde",
+"id": "03098279",
+"sensitive": false,
+"time": "8:16 am"
+},
+{
+"date": "2026-05-21",
+"headline": "Section 708A(5)(e) Notice",
+"id": "03096186",
+"sensitive": false,
+"time": "9:14 am"
+},
+{
+"date": "2026-05-21",
+"headline": "Application for quotation of securities - CHW",
+"id": "03096164",
+"sensitive": false,
+"time": "9:02 am"
+},
+{
+"date": "2026-05-19",
+"headline": "385 Metres of Niobium Mineralisation Confirmed at MPYDD009",
+"id": "03095195",
+"sensitive": true,
+"time": "8:38 am"
+},
+{
+"date": "2026-04-29",
+"headline": "Sharecafe Webinar - Uncovering Hidden Gems Presentation",
+"id": "03087672",
+"sensitive": false,
+"time": "11:19 am"
+},
+{
+"date": "2026-04-28",
+"headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+"id": "03086843",
+"sensitive": true,
+"time": "9:21 am"
+},
+{
+"date": "2026-04-28",
+"headline": "Initial Director's Interest Notice - G. Hewson",
+"id": "03086654",
+"sensitive": false,
+"time": "8:14 am"
+},
+{
+"date": "2026-04-27",
+"headline": "Appointment of Non-Executive Director",
+"id": "03086481",
+"sensitive": false,
+"time": "9:25 am"
+},
+{
+"date": "2026-04-24",
+"headline": "Notification of cessation of securities - CHW",
+"id": "03086173",
+"sensitive": false,
+"time": "2:07 pm"
+},
+{
+"date": "2026-04-22",
+"headline": "Second Rig Redeployed to Mpyupyu on Strong Results",
+"id": "03085102",
+"sensitive": true,
+"time": "9:51 am"
+},
+{
+"date": "2026-04-20",
+"headline": "Investor Conference Participation",
+"id": "03084123",
+"sensitive": false,
+"time": "9:06 am"
+},
+{
+"date": "2026-04-20",
+"headline": "Change of Registered Office and Principal Place of Business",
+"id": "03084112",
+"sensitive": false,
+"time": "9:01 am"
+},
+{
+"date": "2026-04-13",
+"headline": "Change of Company Secretary",
+"id": "03081909",
+"sensitive": false,
+"time": "10:53 am"
+},
+{
+"date": "2026-04-01",
+"headline": "Change of Director's Interest Notice - C Buss",
+"id": "03078517",
+"sensitive": false,
+"time": "12:10 pm"
+},
+{
+"date": "2026-03-31",
+"headline": "Change of Director's Interest Notice - J Martins",
+"id": "03077887",
+"sensitive": false,
+"time": "1:06 pm"
+},
+{
+"date": "2026-03-30",
+"headline": "Change of Director's Interest Notice - A Shaw",
+"id": "03077301",
+"sensitive": false,
+"time": "11:57 am"
+},
+{
+"date": "2026-03-16",
+"headline": "Half Year Report and Accounts 31 December 2025",
+"id": "03072538",
+"sensitive": false,
+"time": "1:44 pm"
+},
+{
+"date": "2026-03-09",
+"headline": "NIOBIUM DISCOVERY CONFIRMED AT MPYUPYU TARGET",
+"id": "03069561",
+"sensitive": true,
+"time": "8:15 am"
+},
+{
+"date": "2026-02-24",
+"headline": "Strategic Update",
+"id": "03063999",
+"sensitive": false,
+"time": "9:53 am"
+},
+{
+"date": "2026-02-19",
+"headline": "Cleansing Notice",
+"id": "03062435",
+"sensitive": false,
+"time": "5:54 pm"
+},
+{
+"date": "2026-02-19",
+"headline": "Application for quotation of securities - CHW",
+"id": "03062425",
+"sensitive": false,
+"time": "5:43 pm"
+},
+{
+"date": "2026-02-19",
+"headline": "CFO Appointment",
+"id": "03062242",
+"sensitive": false,
+"time": "10:23 am"
+},
+{
+"date": "2026-02-16",
+"headline": "CHILWA COMPLETES SUCCESSFUL WEEK AT INDABA",
+"id": "03060348",
+"sensitive": false,
+"time": "8:12 am"
+},
+{
+"date": "2026-02-04",
+"headline": "APPOINTS BNY MELLON TO ESTABLISH U.S. ADR PROGRAMME",
+"id": "03056466",
+"sensitive": false,
+"time": "8:22 am"
+},
+{
+"date": "2026-02-02",
+"headline": "CHANGE OF AUDITOR TO MEET NASDAQ REQUIREMENTS",
+"id": "03055464",
+"sensitive": false,
+"time": "8:18 am"
+},
+{
+"date": "2026-01-30",
+"headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+"id": "03054402",
+"sensitive": true,
+"time": "8:19 am"
+},
+{
+"date": "2026-01-23",
+"headline": "COMMENCES DRILLING WITH SECOND DIAMOND RIG TO ACCELERATE REE",
+"id": "03052325",
+"sensitive": false,
+"time": "9:49 am"
+},
+{
+"date": "2026-01-22",
+"headline": "Change of Director's Interest Notice * 4",
+"id": "03052137",
+"sensitive": false,
+"time": "6:07 pm"
+},
+{
+"date": "2026-01-21",
+"headline": "FINALISATION OF PLACEMENT AND CLEANSING NOTICE",
+"id": "03051627",
+"sensitive": false,
+"time": "10:33 am"
+},
+{
+"date": "2026-01-20",
+"headline": "Notification regarding unquoted securities - CHW",
+"id": "03051373",
+"sensitive": false,
+"time": "4:53 pm"
+},
+{
+"date": "2026-01-19",
+"headline": "Application for quotation of securities - CHW",
+"id": "03051047",
+"sensitive": false,
+"time": "5:09 pm"
+},
+{
+"date": "2026-01-15",
+"headline": "Application for quotation of securities - CHW",
+"id": "03050330",
+"sensitive": false,
+"time": "6:36 pm"
+},
+{
+"date": "2026-01-13",
+"headline": "Change of Director's Interest Notice - M Mota",
+"id": "03049354",
+"sensitive": false,
+"time": "11:01 am"
+},
+{
+"date": "2026-01-07",
+"headline": "Results of Meeting",
+"id": "03048052",
+"sensitive": false,
+"time": "7:29 pm"
+},
+{
+"date": "2025-12-10",
+"headline": "Addendum to Notice of Meeting / Proxy Form",
+"id": "03039551",
+"sensitive": false,
+"time": "3:56 pm"
+},
+{
+"date": "2025-12-08",
+"headline": "Updated - MPOSA MRE UPGRADE TO 25.65MT WITH 83% MEASURED",
+"id": "03038014",
+"sensitive": false,
+"time": "8:29 am"
+},
+{
+"date": "2025-12-04",
+"headline": "Notice of Extraordinary General Meeting/Proxy Form",
+"id": "03037057",
+"sensitive": false,
+"time": "1:04 pm"
+},
+{
+"date": "2025-12-01",
+"headline": "Cleansing Notice",
+"id": "03035274",
+"sensitive": false,
+"time": "7:55 pm"
+},
+{
+"date": "2025-11-28",
+"headline": "Application for quotation of securities - CHW",
+"id": "03034398",
+"sensitive": false,
+"time": "6:26 pm"
+},
+{
+"date": "2025-11-27",
+"headline": "Results of Meeting",
+"id": "03033399",
+"sensitive": false,
+"time": "5:25 pm"
+},
+{
+"date": "2025-11-27",
+"headline": "2025 AGM Chair's Address & Presentation",
+"id": "03033183",
+"sensitive": false,
+"time": "2:12 pm"
+},
+{
+"date": "2025-11-26",
+"headline": "MPOSA MRE UPGRADE TO 25.65MT WITH 83% MEASURED",
+"id": "03031947",
+"sensitive": true,
+"time": "8:22 am"
+},
+{
+"date": "2025-11-21",
+"headline": "Cleansing Notice",
+"id": "03030447",
+"sensitive": false,
+"time": "6:35 pm"
+},
+{
+"date": "2025-11-21",
+"headline": "Process for US IPO and dual listing on Nasdaq commenced",
+"id": "03030038",
+"sensitive": false,
+"time": "9:45 am"
+},
+{
+"date": "2025-11-20",
+"headline": "Application for quotation of securities - CHW",
+"id": "03029796",
+"sensitive": false,
+"time": "7:00 pm"
+},
+{
+"date": "2025-11-14",
+"headline": "MPYUPYU FLATS RESULTS AND HMS UPDATE",
+"id": "03025701",
+"sensitive": true,
+"time": "9:18 am"
+},
+{
+"date": "2025-11-13",
+"headline": "Becoming a substantial holder",
+"id": "03025056",
+"sensitive": false,
+"time": "10:36 am"
+},
+{
+"date": "2025-11-11",
+"headline": "Change in substantial holding - Luso Global Mining B.V.",
+"id": "03023876",
+"sensitive": false,
+"time": "1:34 pm"
+},
+{
+"date": "2025-11-07",
+"headline": "Cleansing Notice",
+"id": "03022633",
+"sensitive": false,
+"time": "6:47 pm"
+},
+{
+"date": "2025-11-07",
+"headline": "Application for quotation of securities - CHW",
+"id": "03022631",
+"sensitive": false,
+"time": "6:42 pm"
+},
+{
+"date": "2025-11-06",
+"headline": "Application for quotation of securities - CHW",
+"id": "03022007",
+"sensitive": false,
+"time": "6:05 pm"
+},
+{
+"date": "2025-11-05",
+"headline": "Cleansing Notice",
+"id": "03021373",
+"sensitive": false,
+"time": "6:03 pm"
+},
+{
+"date": "2025-11-05",
+"headline": "Application for quotation of securities - CHW",
+"id": "03021371",
+"sensitive": false,
+"time": "5:58 pm"
+},
+{
+"date": "2025-10-31",
+"headline": "Application for quotation of securities - CHW",
+"id": "03019544",
+"sensitive": false,
+"time": "4:47 pm"
+},
+{
+"date": "2025-10-31",
+"headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+"id": "03018748",
+"sensitive": true,
+"time": "8:12 am"
+},
+{
+"date": "2025-10-28",
+"headline": "Notice of Annual General Meeting/Proxy Form",
+"id": "03016655",
+"sensitive": false,
+"time": "11:48 am"
+},
+{
+"date": "2025-10-24",
+"headline": "Proposed issue of securities - CHW",
+"id": "03014888",
+"sensitive": false,
+"time": "9:34 am"
+},
+{
+"date": "2025-10-24",
+"headline": "CHILWA COMPLETES $8M PRIVATE PLACEMENT",
+"id": "03014887",
+"sensitive": true,
+"time": "9:34 am"
+},
+{
+"date": "2025-10-22",
+"headline": "Trading Halt",
+"id": "03013510",
+"sensitive": true,
+"time": "9:13 am"
+},
+{
+"date": "2025-10-21",
+"headline": "Cleansing Notice",
+"id": "03013278",
+"sensitive": false,
+"time": "7:13 pm"
+},
+{
+"date": "2025-10-21",
+"headline": "Application for quotation of securities - CHW",
+"id": "03013240",
+"sensitive": false,
+"time": "5:54 pm"
+},
+{
+"date": "2025-10-21",
+"headline": "Final Director's Interest Notice",
+"id": "03013054",
+"sensitive": false,
+"time": "1:25 pm"
+},
+{
+"date": "2025-10-21",
+"headline": "Initial Director's Interest Notice",
+"id": "03013043",
+"sensitive": false,
+"time": "1:04 pm"
+},
+{
+"date": "2025-10-20",
+"headline": "ELEVATED REE GRADES CONFIRM CARBONATITE DISCOVERY",
+"id": "03012249",
+"sensitive": true,
+"time": "9:43 am"
+},
+{
+"date": "2025-10-20",
+"headline": "Director Appointment/Resignation",
+"id": "03012038",
+"sensitive": false,
+"time": "8:23 am"
+},
+{
+"date": "2025-10-13",
+"headline": "Change of Director's Interest Notices C Buss A Shaw",
+"id": "03008883",
+"sensitive": false,
+"time": "12:33 pm"
+},
+{
+"date": "2025-10-13",
+"headline": "SOIL SAMPLING CONFIRMS RE PATHFINDER ELEMENTS IN ALL TARGETS",
+"id": "03008558",
+"sensitive": true,
+"time": "8:22 am"
+},
+{
+"date": "2025-10-10",
+"headline": "Cleansing Notice",
+"id": "03008421",
+"sensitive": false,
+"time": "6:14 pm"
+},
+{
+"date": "2025-10-10",
+"headline": "Application for quotation of securities - CHW",
+"id": "03008415",
+"sensitive": false,
+"time": "6:06 pm"
+},
+{
+"date": "2025-10-08",
+"headline": "Results of Meeting",
+"id": "03006690",
+"sensitive": false,
+"time": "8:18 am"
+},
+{
+"date": "2025-10-02",
+"headline": "AGM Date and Director Nominations",
+"id": "03004687",
+"sensitive": false,
+"time": "5:07 pm"
+},
+{
+"date": "2025-09-30",
+"headline": "MET TESTS CONFIRM MULTIPLE PRODUCT STREAMS FROM MPOSA",
+"id": "03002160",
+"sensitive": true,
+"time": "8:18 am"
+},
+{
+"date": "2025-09-25",
+"headline": "Annual Report to shareholders",
+"id": "03000447",
+"sensitive": false,
+"time": "6:38 pm"
+},
+{
+"date": "2025-09-25",
+"headline": "Appendix 4G",
+"id": "03000434",
+"sensitive": false,
+"time": "6:23 pm"
+},
+{
+"date": "2025-09-25",
+"headline": "2025 Corporate Governance Statement",
+"id": "03000429",
+"sensitive": false,
+"time": "6:21 pm"
+},
+{
+"date": "2025-09-23",
+"headline": "Amended announcement RARE EARTH ELEMENTS VERIFIED 2 Sept 25",
+"id": "02999049",
+"sensitive": false,
+"time": "6:18 pm"
+},
+{
+"date": "2025-09-12",
+"headline": "Cleansing Notice",
+"id": "02994516",
+"sensitive": false,
+"time": "10:44 am"
+},
+{
+"date": "2025-09-12",
+"headline": "Application for quotation of securities - CHW",
+"id": "02994515",
+"sensitive": false,
+"time": "10:38 am"
+},
+{
+"date": "2025-09-11",
+"headline": "Amended announcement RARE EARTH ELEMENTS VERIFIED 2 Sept 25",
+"id": "02994005",
+"sensitive": false,
+"time": "9:54 am"
+},
+{
+"date": "2025-09-09",
+"headline": "Cleansing Notice",
+"id": "02993106",
+"sensitive": false,
+"time": "3:53 pm"
+},
+{
+"date": "2025-09-09",
+"headline": "Application for quotation of securities - CHW",
+"id": "02993099",
+"sensitive": false,
+"time": "3:46 pm"
+},
+{
+"date": "2025-09-08",
+"headline": "Notice of Extraordinary General Meeting/Proxy Form",
+"id": "02992431",
+"sensitive": false,
+"time": "12:55 pm"
+},
+{
+"date": "2025-09-02",
+"headline": "RARE EARTH ELEMENTS VERIFIED WITH MAIDEN DIAMOND DRILL HOLE",
+"id": "02989845",
+"sensitive": true,
+"time": "8:37 am"
+},
+{
+"date": "2025-08-14",
+"headline": "Cleansing Notice",
+"id": "02980521",
+"sensitive": false,
+"time": "4:25 pm"
+},
+{
+"date": "2025-08-14",
+"headline": "Application for quotation of securities - CHW",
+"id": "02980519",
+"sensitive": false,
+"time": "4:22 pm"
+},
+{
+"date": "2025-08-08",
+"headline": "Cleansing Notice",
+"id": "02978530",
+"sensitive": false,
+"time": "3:47 pm"
+},
+{
+"date": "2025-08-08",
+"headline": "Application for quotation of securities - CHW",
+"id": "02978527",
+"sensitive": false,
+"time": "3:42 pm"
+},
+{
+"date": "2025-08-04",
+"headline": "Cleansing Notice",
+"id": "02976736",
+"sensitive": false,
+"time": "5:56 pm"
+},
+{
+"date": "2025-08-04",
+"headline": "Application for quotation of securities - CHW",
+"id": "02976731",
+"sensitive": false,
+"time": "5:52 pm"
+},
+{
+"date": "2025-08-04",
+"headline": "Change of Director's Interest Notice",
+"id": "02976729",
+"sensitive": false,
+"time": "5:47 pm"
+},
+{
+"date": "2025-08-04",
+"headline": "Proposed issue of securities - CHW",
+"id": "02976494",
+"sensitive": false,
+"time": "10:04 am"
+},
+{
+"date": "2025-08-04",
+"headline": "Private placement raises $4.1m",
+"id": "02976493",
+"sensitive": true,
+"time": "10:04 am"
+},
+{
+"date": "2025-07-31",
+"headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+"id": "02975373",
+"sensitive": true,
+"time": "3:23 pm"
+},
+{
+"date": "2025-07-31",
+"headline": "Trading Halt",
+"id": "02975054",
+"sensitive": true,
+"time": "9:38 am"
+},
+{
+"date": "2025-07-30",
+"headline": "Application for quotation of securities - CHW",
+"id": "02974694",
+"sensitive": false,
+"time": "6:26 pm"
+},
+{
+"date": "2025-07-28",
+"headline": "POSITIVE METALLURGICAL TESTWORK",
+"id": "02973031",
+"sensitive": true,
+"time": "8:24 am"
+},
+{
+"date": "2025-07-10",
+"headline": "MRE Performance Hurdle met and Performance Rights to vest",
+"id": "02967952",
+"sensitive": false,
+"time": "8:24 am"
+},
+{
+"date": "2025-07-07",
+"headline": "Change of Director's Interest Notices x3",
+"id": "02966824",
+"sensitive": false,
+"time": "4:23 pm"
+},
+{
+"date": "2025-07-07",
+"headline": "Application for quotation of securities - CHW",
+"id": "02966820",
+"sensitive": false,
+"time": "4:21 pm"
+},
+{
+"date": "2025-06-30",
+"headline": "RELEASE OF SECURITIES FROM ESCROW",
+"id": "02963937",
+"sensitive": false,
+"time": "6:20 pm"
+},
+{
+"date": "2025-06-30",
+"headline": "MRE UPDATE RESOURCE INCREASES 85% TO 110MT at 4.03% THM",
+"id": "02963477",
+"sensitive": true,
+"time": "9:31 am"
+},
+{
+"date": "2025-06-27",
+"headline": "MORE HIGH GRADES FROM 3rd DEPOSIT AND MOVING TO MRE UPDATE",
+"id": "02962655",
+"sensitive": true,
+"time": "8:23 am"
+},
+{
+"date": "2025-06-16",
+"headline": "CONTINUED HIGH GRADE MINERAL SANDS INTERSECTIONS AT MPYUPYU",
+"id": "02958485",
+"sensitive": true,
+"time": "8:27 am"
+},
+{
+"date": "2025-06-10",
+"headline": "Investor presentation 121 Mining Conference New York",
+"id": "02956594",
+"sensitive": false,
+"time": "8:34 am"
+},
+{
+"date": "2025-06-02",
+"headline": "MPYUPYU DUNE DELIVERS HIGH GRADE MINERAL SAND INTERSECTIONS",
+"id": "02954113",
+"sensitive": true,
+"time": "8:22 am"
+},
+{
+"date": "2025-05-27",
+"headline": "Change of Director's Interest Notice Manuel Mota",
+"id": "02952136",
+"sensitive": false,
+"time": "8:17 am"
+},
+{
+"date": "2025-05-21",
+"headline": "MPYUPYU DUNE ASSAYS DELIVER HIGH GRADE MS INTERSECTIONS",
+"id": "02950446",
+"sensitive": true,
+"time": "9:37 am"
+},
+{
+"date": "2025-05-19",
+"headline": "Change of Director's Interest Notice",
+"id": "02949598",
+"sensitive": false,
+"time": "11:00 am"
+},
+{
+"date": "2025-05-09",
+"headline": "Revised CARBONATITE SWARM WITH SIGNIFICANT RE ELEMENT",
+"id": "02947023",
+"sensitive": true,
+"time": "6:00 pm"
+},
+{
+"date": "2025-05-08",
+"headline": "Investor Presentation RIU Resources Roundup Sydney May 2025",
+"id": "02946495",
+"sensitive": false,
+"time": "1:19 pm"
+},
+{
+"date": "2025-05-08",
+"headline": "MPOSA MOVING TO MRE NORTHERN SHORE DRILLING STARTS",
+"id": "02946407",
+"sensitive": true,
+"time": "9:47 am"
+},
+{
+"date": "2025-05-06",
+"headline": "Mining Development Agreement Process Commences",
+"id": "02945136",
+"sensitive": false,
+"time": "8:20 am"
+},
+{
+"date": "2025-05-01",
+"headline": "CONFIRMS CARBONATITE SWARM WITH SIGNIFICANT RE ELEMENT",
+"id": "02943620",
+"sensitive": true,
+"time": "8:19 am"
+},
+{
+"date": "2025-04-29",
+"headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+"id": "02942202",
+"sensitive": true,
+"time": "2:01 pm"
+},
+{
+"date": "2025-04-22",
+"headline": "MPOSA NORTH HMS RESULTS SHOW BEST MINERALISED ZONES TO DATE",
+"id": "02939806",
+"sensitive": true,
+"time": "9:48 am"
+},
+{
+"date": "2025-04-11",
+"headline": "CHANGE OF ASSAY LABORATORY TO ACCELERATE TURNAROUND TIMES",
+"id": "02937100",
+"sensitive": false,
+"time": "9:39 am"
+},
+{
+"date": "2025-04-09",
+"headline": "Retraction peer comparisons",
+"id": "02936383",
+"sensitive": false,
+"time": "7:23 pm"
+},
+{
+"date": "2025-03-31",
+"headline": "MPOSA DEPOSIT DELIVERS POSITIVE HMS METALLURGICAL RESULTS",
+"id": "02931945",
+"sensitive": true,
+"time": "9:29 am"
+},
+{
+"date": "2025-03-14",
+"headline": "Half Yearly Report and Accounts",
+"id": "02926532",
+"sensitive": false,
+"time": "1:40 pm"
+},
+{
+"date": "2025-03-14",
+"headline": "MPOSA HMS SONIC RESULTS CONTINUE TO IMPRESS",
+"id": "02926189",
+"sensitive": true,
+"time": "8:17 am"
+},
+{
+"date": "2025-01-30",
+"headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+"id": "02908609",
+"sensitive": true,
+"time": "9:58 am"
+},
+{
+"date": "2025-01-16",
+"headline": "Change of Directors Interest Notice x3",
+"id": "02905082",
+"sensitive": false,
+"time": "4:59 pm"
+},
+{
+"date": "2025-01-16",
+"headline": "Cleansing Notice",
+"id": "02905081",
+"sensitive": false,
+"time": "4:58 pm"
+},
+{
+"date": "2025-01-16",
+"headline": "Application for quotation of securities - CHW",
+"id": "02905079",
+"sensitive": false,
+"time": "4:55 pm"
+},
+{
+"date": "2025-01-13",
+"headline": "GEOCHEM TESTING OF ANOMALIES HIGHLIGHT PRESENCE OF Nb and RE",
+"id": "02903817",
+"sensitive": true,
+"time": "9:36 am"
+},
+{
+"date": "2025-01-08",
+"headline": "Results of Meeting",
+"id": "02902588",
+"sensitive": false,
+"time": "8:23 am"
+}
+],
+"errors": [],
+"fetched": "2026-11-07T21:57:05+00:00",
+"header": {
+"dateListed": "2023-07-05",
+"displayName": "CHILWA MINERALS LTD",
+"industryGroup": "Materials",
+"marketCap": 60855156,
+"priceAsk": 0.6,
+"priceBid": 0.52,
+"priceChange": 0,
+"priceChangePercent": 0,
+"priceLast": 0.58,
+"sector": "Materials",
+"securityType": 1,
+"statusCode": "",
+"symbol": "CHW",
+"volume": 0,
+"xid": "797579697"
+},
+"key-statistics": {
+"cashFlow": -11.60156,
+"currency": "AUD",
+"earningsPerShare": -0.07428,
+"enterprisevalue": 59.84872,
+"foreignExempt": false,
+"freeCashFlowYield": -1.00000010000001e-05,
+"incomeStatement": [
+{
+"curCode": "AUD",
+"fPeriodEndDate": 46203,
+"netIncome": -6881600,
+"period": "2026A",
+"revenue": 85360
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45838,
+"netIncome": -3184280,
+"period": "2025A",
+"revenue": 125990
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45473,
+"netIncome": -1742750,
+"period": "2024A",
+"revenue": 202810
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45107,
+"netIncome": -1022740,
+"period": "2023A",
+"revenue": 0
+}
+],
+"isin": "AU0000275752",
+"numOfShares": 104922682,
+"opCashFlowRevTTM": -4131.287,
+"priceAsk": 0.6,
+"priceBid": 0.52,
+"priceClose": 0.58,
+"priceEarningsRatio": -99999.99,
+"priceFiftyTwoWeekHigh": 1.1,
+"priceFiftyTwoWeekLow": 0.58,
+"priceToCash": -99999.99,
+"shareDescription": "Ordinary Fully Paid",
+"totalAssets": 28.57479,
+"totalLiabilities": 2.59175,
+"volumeAverage": 23960.208955,
+"yieldAnnual": 0
 }
 },
 "CIN": {
@@ -97060,6 +102550,13 @@
 "CLV": {
 "announcements": [
 {
+"date": "2026-11-02",
+"headline": "Change in substantial holding from PPT",
+"id": "03161235",
+"sensitive": false,
+"time": "5:09 pm"
+},
+{
 "date": "2026-10-29",
 "headline": "Change of Director's Interest",
 "id": "03159155",
@@ -97565,22 +103062,22 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:07:53+00:00",
+"fetched": "2026-11-07T21:57:12+00:00",
 "header": {
 "dateListed": "1999-11-30",
 "displayName": "CLOVER CORPORATION LIMITED",
 "industryGroup": "Materials",
-"marketCap": 166164344,
-"priceAsk": 1,
-"priceBid": 0.98,
-"priceChange": 0.0050000000000000044,
-"priceChangePercent": 0.5025125628140708,
-"priceLast": 1,
+"marketCap": 172844318,
+"priceAsk": 1.02,
+"priceBid": 0.99,
+"priceChange": -0.019999999999999796,
+"priceChangePercent": -1.9323671497584345,
+"priceLast": 1.0150000000000001,
 "sector": "Materials",
 "securityType": 1,
 "statusCode": "XD",
 "symbol": "CLV",
-"volume": 101159,
+"volume": 51177,
 "xid": "77177"
 },
 "key-statistics": {
@@ -97593,11 +103090,11 @@
 "dividendCurrency": "AUD",
 "dividendType": "F",
 "earningsPerShare": 0.06262,
-"enterprisevalue": 160.8503,
+"enterprisevalue": 163.3553,
 "foreignCurrencyAmount": 0,
 "foreignExempt": false,
 "frankingPercent": 100,
-"freeCashFlowYield": 0.0711919091819053,
+"freeCashFlowYield": 0.07013980265465125,
 "incomeStatement": [
 {
 "curCode": "AUD",
@@ -97631,20 +103128,20 @@
 "isin": "AU000000CLV2",
 "numOfShares": 166999341,
 "opCashFlowRevTTM": 4.5098,
-"priceAsk": 1,
-"priceBid": 0.98,
-"priceClose": 0.995,
-"priceDayHigh": 1,
-"priceDayLow": 0.98,
-"priceEarningsRatio": 15.96934,
+"priceAsk": 1.02,
+"priceBid": 0.99,
+"priceClose": 1.035,
+"priceDayHigh": 1.04,
+"priceDayLow": 0.995,
+"priceEarningsRatio": 16.20888,
 "priceFiftyTwoWeekHigh": 1.165,
 "priceFiftyTwoWeekLow": 0.655,
-"priceToCash": 14.04654,
+"priceToCash": 14.25724,
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 97.757,
 "totalLiabilities": 19.798,
-"volumeAverage": 146243.247191,
-"yieldAnnual": 2.25
+"volumeAverage": 166406.494382,
+"yieldAnnual": 2.2167487684729066
 }
 },
 "CLX": {
@@ -97980,22 +103477,22 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:07:59+00:00",
+"fetched": "2026-11-07T21:57:16+00:00",
 "header": {
 "dateListed": "1987-12-02",
 "displayName": "CTI LOGISTICS LIMITED",
 "industryGroup": "Transportation",
-"marketCap": 231863383,
+"marketCap": 224566983,
 "priceAsk": 2.9,
-"priceBid": 2.7,
-"priceChange": -0.07999999999999963,
-"priceChangePercent": -2.797202797202784,
+"priceBid": 2.77,
+"priceChange": 0.010000000000000231,
+"priceChangePercent": 0.3610108303249181,
 "priceLast": 2.7800000000000002,
 "sector": "Industrials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "CLX",
-"volume": 14711,
+"volume": 18218,
 "xid": "77209"
 },
 "key-statistics": {
@@ -98047,10 +103544,10 @@
 "numOfShares": 81071113,
 "opCashFlowRevTTM": 14.98078,
 "priceAsk": 2.9,
-"priceBid": 2.7,
-"priceClose": 2.86,
-"priceDayHigh": 2.7800000000000002,
-"priceDayLow": 2.75,
+"priceBid": 2.77,
+"priceClose": 2.77,
+"priceDayHigh": 2.8000000000000003,
+"priceDayLow": 2.77,
 "priceEarningsRatio": 9.1734,
 "priceFiftyTwoWeekHigh": 3.09,
 "priceFiftyTwoWeekLow": 1.675,
@@ -98058,12 +103555,19 @@
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 329.6101,
 "totalLiabilities": 185.2299,
-"volumeAverage": 30425.055556,
+"volumeAverage": 27692.588889,
 "yieldAnnual": 5.0359712230215825
 }
 },
 "CML": {
 "announcements": [
+{
+"date": "2026-11-04",
+"headline": "Bailundo Project Investor Presentation",
+"id": "03161698",
+"sensitive": false,
+"time": "8:16 am"
+},
 {
 "date": "2026-10-30",
 "headline": "Investor Webinar - Bailundo Project",
@@ -98766,29 +104270,29 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:08:03+00:00",
+"fetched": "2026-11-07T21:57:22+00:00",
 "header": {
 "dateListed": "1984-08-16",
 "displayName": "CONNECTED MINERALS LIMITED",
 "industryGroup": "Technology Hardware & Equipment",
-"marketCap": 41950222,
-"priceAsk": 0.315,
-"priceBid": 0.21,
-"priceChange": 0.010000000000000009,
-"priceChangePercent": 3.448275862068969,
-"priceLast": 0.3,
+"marketCap": 42673502,
+"priceAsk": 0.34,
+"priceBid": 0.275,
+"priceChange": -0.014999999999999958,
+"priceChangePercent": -5.08474576271185,
+"priceLast": 0.28,
 "sector": "Information Technology",
 "securityType": 1,
 "statusCode": "",
 "symbol": "CML",
-"volume": 19966,
+"volume": 90282,
 "xid": "584514079"
 },
 "key-statistics": {
 "cashFlow": -1.38077,
 "currency": "AUD",
 "earningsPerShare": -0.09703,
-"enterprisevalue": 40.85271,
+"enterprisevalue": 37.95959,
 "foreignExempt": false,
 "freeCashFlowYield": -1.00000010000001e-05,
 "incomeStatement": [
@@ -98824,11 +104328,11 @@
 "isin": "AU0000358137",
 "numOfShares": 144655938,
 "opCashFlowRevTTM": -484.0515,
-"priceAsk": 0.315,
-"priceBid": 0.21,
-"priceClose": 0.29,
-"priceDayHigh": 0.3,
-"priceDayLow": 0.3,
+"priceAsk": 0.34,
+"priceBid": 0.275,
+"priceClose": 0.295,
+"priceDayHigh": 0.295,
+"priceDayLow": 0.27,
 "priceEarningsRatio": -99999.99,
 "priceFiftyTwoWeekHigh": 0.48,
 "priceFiftyTwoWeekLow": 0.145,
@@ -98836,12 +104340,517 @@
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 2.59094,
 "totalLiabilities": 0.15866,
-"volumeAverage": 235993.436782,
+"volumeAverage": 229436.54023,
+"yieldAnnual": 0
+}
+},
+"CMP": {
+"announcements": [
+{
+"date": "2026-11-06",
+"headline": "Appointment of Strategic Advisor",
+"id": "03162924",
+"sensitive": false,
+"time": "10:02 am"
+},
+{
+"date": "2026-10-30",
+"headline": "Appointment of Chief Financial Officer & Company Secretary",
+"id": "03159934",
+"sensitive": false,
+"time": "9:33 am"
+},
+{
+"date": "2026-10-29",
+"headline": "Results of Meeting",
+"id": "03159356",
+"sensitive": false,
+"time": "3:51 pm"
+},
+{
+"date": "2026-10-29",
+"headline": "Chair's Address to Shareholders",
+"id": "03159289",
+"sensitive": false,
+"time": "1:40 pm"
+},
+{
+"date": "2026-10-01",
+"headline": "Appendix 4G",
+"id": "03147326",
+"sensitive": false,
+"time": "3:39 pm"
+},
+{
+"date": "2026-10-01",
+"headline": "Corporate Governance Statement",
+"id": "03147325",
+"sensitive": false,
+"time": "3:39 pm"
+},
+{
+"date": "2026-10-01",
+"headline": "Proxy Form",
+"id": "03147323",
+"sensitive": false,
+"time": "3:37 pm"
+},
+{
+"date": "2026-10-01",
+"headline": "Notice of Annual General Meeting",
+"id": "03147322",
+"sensitive": false,
+"time": "3:36 pm"
+},
+{
+"date": "2026-09-30",
+"headline": "Investor Presentation",
+"id": "03146024",
+"sensitive": false,
+"time": "10:41 am"
+},
+{
+"date": "2026-09-30",
+"headline": "Annual Report to shareholders",
+"id": "03146021",
+"sensitive": false,
+"time": "10:39 am"
+},
+{
+"date": "2026-08-25",
+"headline": "Business Update",
+"id": "03129536",
+"sensitive": true,
+"time": "9:07 am"
+},
+{
+"date": "2026-08-25",
+"headline": "Preliminary Final Report",
+"id": "03129535",
+"sensitive": true,
+"time": "9:07 am"
+},
+{
+"date": "2026-07-06",
+"headline": "FY26 Update",
+"id": "03112017",
+"sensitive": true,
+"time": "10:43 am"
+},
+{
+"date": "2026-06-09",
+"headline": "Appointment of a Chief Commercial Officer, USA",
+"id": "03102184",
+"sensitive": false,
+"time": "10:05 am"
+},
+{
+"date": "2026-04-21",
+"headline": "Business Update April 2026",
+"id": "03084626",
+"sensitive": true,
+"time": "9:38 am"
+},
+{
+"date": "2026-03-25",
+"headline": "March 2026 Corporate Presentation",
+"id": "03075530",
+"sensitive": false,
+"time": "8:20 am"
+},
+{
+"date": "2026-02-25",
+"headline": "Business Update H1 FY26",
+"id": "03064479",
+"sensitive": false,
+"time": "8:24 am"
+},
+{
+"date": "2026-02-25",
+"headline": "Half Yearly Report and Accounts",
+"id": "03064476",
+"sensitive": true,
+"time": "8:23 am"
+},
+{
+"date": "2026-01-29",
+"headline": "6th & New MEG Order",
+"id": "03053772",
+"sensitive": true,
+"time": "8:29 am"
+},
+{
+"date": "2026-01-22",
+"headline": "H1 FY25 Update - Record Sales",
+"id": "03051840",
+"sensitive": true,
+"time": "8:25 am"
+},
+{
+"date": "2025-11-10",
+"headline": "5th & New MEG Order",
+"id": "03022935",
+"sensitive": true,
+"time": "8:59 am"
+},
+{
+"date": "2025-11-05",
+"headline": "Application for quotation of securities - CMP",
+"id": "03021192",
+"sensitive": false,
+"time": "1:23 pm"
+},
+{
+"date": "2025-10-30",
+"headline": "Initial Director's Interest Notice",
+"id": "03018478",
+"sensitive": false,
+"time": "2:49 pm"
+},
+{
+"date": "2025-10-30",
+"headline": "Results of Meeting",
+"id": "03018450",
+"sensitive": false,
+"time": "2:10 pm"
+},
+{
+"date": "2025-10-30",
+"headline": "Chair's Address to Shareholders",
+"id": "03018444",
+"sensitive": false,
+"time": "2:06 pm"
+},
+{
+"date": "2025-10-23",
+"headline": "Cleansing Notice",
+"id": "03014313",
+"sensitive": false,
+"time": "10:41 am"
+},
+{
+"date": "2025-10-20",
+"headline": "Canaccord Drug and Device Conference 2025",
+"id": "03012439",
+"sensitive": false,
+"time": "2:53 pm"
+},
+{
+"date": "2025-10-15",
+"headline": "Proposed issue of securities - CMP",
+"id": "03010080",
+"sensitive": false,
+"time": "9:21 am"
+},
+{
+"date": "2025-10-15",
+"headline": "$2.15 Million Capital Raise for Somfit D",
+"id": "03010079",
+"sensitive": true,
+"time": "9:21 am"
+},
+{
+"date": "2025-10-13",
+"headline": "Trading Halt",
+"id": "03008599",
+"sensitive": true,
+"time": "8:36 am"
+},
+{
+"date": "2025-10-08",
+"headline": "Corporate Highlights Oct 25",
+"id": "03007010",
+"sensitive": false,
+"time": "12:44 pm"
+},
+{
+"date": "2025-10-01",
+"headline": "Appendix 4G",
+"id": "03003859",
+"sensitive": false,
+"time": "2:28 pm"
+},
+{
+"date": "2025-10-01",
+"headline": "Corporate Governance Statement",
+"id": "03003858",
+"sensitive": false,
+"time": "2:28 pm"
+},
+{
+"date": "2025-10-01",
+"headline": "Proxy Form",
+"id": "03003803",
+"sensitive": false,
+"time": "12:11 pm"
+},
+{
+"date": "2025-10-01",
+"headline": "Notice of Annual General Meeting",
+"id": "03003801",
+"sensitive": false,
+"time": "12:11 pm"
+},
+{
+"date": "2025-09-30",
+"headline": "Annual Report to shareholders",
+"id": "03003039",
+"sensitive": false,
+"time": "5:18 pm"
+},
+{
+"date": "2025-09-30",
+"headline": "Roadshow presentation - Oct 25",
+"id": "03002369",
+"sensitive": false,
+"time": "9:18 am"
+},
+{
+"date": "2025-09-22",
+"headline": "NED appointment",
+"id": "02998108",
+"sensitive": false,
+"time": "10:06 am"
+},
+{
+"date": "2025-09-04",
+"headline": "Somfit D FDA",
+"id": "02990890",
+"sensitive": true,
+"time": "8:38 am"
+},
+{
+"date": "2025-08-27",
+"headline": "Business Update FY26",
+"id": "02986305",
+"sensitive": true,
+"time": "9:45 am"
+},
+{
+"date": "2025-08-27",
+"headline": "Preliminary Final Report",
+"id": "02986303",
+"sensitive": true,
+"time": "9:44 am"
+},
+{
+"date": "2025-08-04",
+"headline": "Somfit Pharma business update",
+"id": "02976469",
+"sensitive": false,
+"time": "9:45 am"
+},
+{
+"date": "2025-07-28",
+"headline": "Business Update Asia - $24m agreements signed",
+"id": "02973239",
+"sensitive": true,
+"time": "9:55 am"
+},
+{
+"date": "2025-07-14",
+"headline": "FY25 Business Update - Record sales orders taken",
+"id": "02968945",
+"sensitive": true,
+"time": "9:32 am"
+},
+{
+"date": "2025-05-21",
+"headline": "Correction",
+"id": "02950536",
+"sensitive": false,
+"time": "12:17 pm"
+},
+{
+"date": "2025-05-21",
+"headline": "Somfit Pharma Business",
+"id": "02950413",
+"sensitive": false,
+"time": "9:18 am"
+},
+{
+"date": "2025-05-14",
+"headline": "MEG World First",
+"id": "02948090",
+"sensitive": false,
+"time": "9:14 am"
+},
+{
+"date": "2025-03-28",
+"headline": "Letter to Shareholders",
+"id": "02931165",
+"sensitive": false,
+"time": "8:21 am"
+},
+{
+"date": "2025-03-21",
+"headline": "New MEG order",
+"id": "02928853",
+"sensitive": true,
+"time": "9:23 am"
+},
+{
+"date": "2025-03-06",
+"headline": "March 25 Corporate Presentation",
+"id": "02923246",
+"sensitive": false,
+"time": "10:27 am"
+},
+{
+"date": "2025-03-05",
+"headline": "Falcon HST FDA",
+"id": "02922608",
+"sensitive": false,
+"time": "9:10 am"
+},
+{
+"date": "2025-02-28",
+"headline": "Business Update H1 FY25",
+"id": "02920943",
+"sensitive": false,
+"time": "11:50 am"
+},
+{
+"date": "2025-02-28",
+"headline": "Half Year Report and Accounts",
+"id": "02920936",
+"sensitive": true,
+"time": "11:44 am"
+},
+{
+"date": "2025-01-22",
+"headline": "New 5 year Somfit contract with Philips",
+"id": "02906296",
+"sensitive": true,
+"time": "9:09 am"
+},
+{
+"date": "2025-01-20",
+"headline": "Application for quotation of securities - CMP",
+"id": "02905781",
+"sensitive": false,
+"time": "2:58 pm"
+},
+{
+"date": "2025-01-16",
+"headline": "Application for quotation of securities - CMP",
+"id": "02905107",
+"sensitive": false,
+"time": "5:47 pm"
+},
+{
+"date": "2025-01-15",
+"headline": "H1 FY25 Update - Record sales orders taken",
+"id": "02904521",
+"sensitive": true,
+"time": "9:22 am"
+}
+],
+"errors": [],
+"fetched": "2026-11-07T21:57:27+00:00",
+"header": {
+"dateListed": "2000-12-21",
+"displayName": "COMPUMEDICS LIMITED",
+"industryGroup": "Health Care Equipment & Services",
+"marketCap": 45945203,
+"priceAsk": 0.295,
+"priceBid": 0.23500000000000001,
+"priceChange": 0.009999999999999981,
+"priceChangePercent": 4.3478260869565135,
+"priceLast": 0.24,
+"sector": "Health Care",
+"securityType": 1,
+"statusCode": "",
+"symbol": "CMP",
+"volume": 40588,
+"xid": "77795"
+},
+"key-statistics": {
+"cashFlow": 2.734,
+"currency": "AUD",
+"earningsPerShare": 0.00127,
+"enterprisevalue": 56.59882,
+"foreignExempt": false,
+"freeCashFlowYield": 0.05185342281851354,
+"incomeStatement": [
+{
+"curCode": "AUD",
+"fPeriodEndDate": 46203,
+"netIncome": 253000,
+"period": "2026A",
+"revenue": 60254000
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45838,
+"netIncome": -1268000,
+"period": "2025A",
+"revenue": 50829000
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45473,
+"netIncome": -338000,
+"period": "2024A",
+"revenue": 49719000
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45107,
+"netIncome": -6122000,
+"period": "2023A",
+"revenue": 42408000
+}
+],
+"isin": "AU000000CMP2",
+"numOfShares": 199761754,
+"opCashFlowRevTTM": 11.01504,
+"priceAsk": 0.295,
+"priceBid": 0.23500000000000001,
+"priceClose": 0.23,
+"priceDayHigh": 0.24,
+"priceDayLow": 0.23,
+"priceEarningsRatio": 188.9764,
+"priceFiftyTwoWeekHigh": 0.45,
+"priceFiftyTwoWeekLow": 0.215,
+"priceToCash": 19.28513,
+"shareDescription": "Ordinary Fully Paid",
+"totalAssets": 57.28,
+"totalLiabilities": 34.534,
+"volumeAverage": 59188.197183,
 "yieldAnnual": 0
 }
 },
 "CNB": {
 "announcements": [
+{
+"date": "2026-11-05",
+"headline": "Ceasing to be a substantial holder",
+"id": "03162203",
+"sensitive": false,
+"time": "8:20 am"
+},
+{
+"date": "2026-11-02",
+"headline": "s708A Cleansing Notice - Issue of Shares",
+"id": "03161241",
+"sensitive": false,
+"time": "5:17 pm"
+},
+{
+"date": "2026-11-02",
+"headline": "Application for quotation of securities - CNB",
+"id": "03161240",
+"sensitive": false,
+"time": "5:15 pm"
+},
+{
+"date": "2026-11-02",
+"headline": "Becoming a substantial holder",
+"id": "03161196",
+"sensitive": false,
+"time": "4:12 pm"
+},
 {
 "date": "2026-10-30",
 "headline": "Suspension from Quotation",
@@ -99558,29 +105567,27 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:08:09+00:00",
+"fetched": "2026-11-07T21:57:34+00:00",
 "header": {
 "dateListed": "2016-08-30",
 "displayName": "CARNABY RESOURCES LIMITED",
 "industryGroup": "Materials",
-"marketCap": -1,
-"priceAsk": 0.805,
-"priceBid": 0.75,
-"priceChange": -0.029999999999999916,
-"priceChangePercent": -3.6585365853658436,
+"marketCap": 0,
+"priceChange": 0,
+"priceChangePercent": 0,
 "priceLast": 0.79,
 "sector": "Materials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "CNB",
-"volume": 2332894,
+"volume": 0,
 "xid": "361119194"
 },
 "key-statistics": {
 "cashFlow": -17.96487,
 "currency": "AUD",
 "earningsPerShare": -0.037,
-"enterprisevalue": 208.816,
+"enterprisevalue": 231.3881,
 "foreignExempt": false,
 "freeCashFlowYield": -1.00000010000001e-05,
 "incomeStatement": [
@@ -99614,13 +105621,9 @@
 }
 ],
 "isin": "AU0000046203",
-"numOfShares": 276119864,
+"numOfShares": 0,
 "opCashFlowRevTTM": -2085.179,
-"priceAsk": 0.805,
-"priceBid": 0.75,
-"priceClose": 0.82,
-"priceDayHigh": 0.8200000000000001,
-"priceDayLow": 0.79,
+"priceClose": 0.79,
 "priceEarningsRatio": -99999.99,
 "priceFiftyTwoWeekHigh": 1.06,
 "priceFiftyTwoWeekLow": 0.335,
@@ -99628,7 +105631,708 @@
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 47.49735,
 "totalLiabilities": 3.1682,
-"volumeAverage": 1994339.4,
+"volumeAverage": 2088113.741176,
+"yieldAnnual": 0
+}
+},
+"CNQ": {
+"announcements": [
+{
+"date": "2026-10-27",
+"headline": "2026 Annual Report",
+"id": "03157857",
+"sensitive": false,
+"time": "4:27 pm"
+},
+{
+"date": "2026-10-23",
+"headline": "Notice of Annual General Meeting/Proxy Form",
+"id": "03156465",
+"sensitive": false,
+"time": "3:11 pm"
+},
+{
+"date": "2026-10-23",
+"headline": "Application for quotation of securities - CNQ",
+"id": "03156339",
+"sensitive": false,
+"time": "12:14 pm"
+},
+{
+"date": "2026-10-23",
+"headline": "Section 708A Cleansing Notice",
+"id": "03156333",
+"sensitive": false,
+"time": "12:12 pm"
+},
+{
+"date": "2026-10-19",
+"headline": "Q1 FY27 Investor Webinar Update",
+"id": "03153862",
+"sensitive": false,
+"time": "9:26 am"
+},
+{
+"date": "2026-10-16",
+"headline": "CNQ's ATA & MBIX Adopted in Aura Energy's Tiris Uranium BFS",
+"id": "03153469",
+"sensitive": false,
+"time": "3:53 pm"
+},
+{
+"date": "2026-10-16",
+"headline": "Investor Webinar Invitation - Sept Quarter Report & Outlook",
+"id": "03153326",
+"sensitive": false,
+"time": "10:26 am"
+},
+{
+"date": "2026-10-14",
+"headline": "September 2026 Quarterly Activities Report and Appendix 4C",
+"id": "03152032",
+"sensitive": true,
+"time": "8:57 am"
+},
+{
+"date": "2026-10-13",
+"headline": "Notification of cessation of securities - CNQ",
+"id": "03151709",
+"sensitive": false,
+"time": "1:32 pm"
+},
+{
+"date": "2026-09-08",
+"headline": "Notification regarding unquoted securities - CNQ",
+"id": "03137049",
+"sensitive": false,
+"time": "9:37 am"
+},
+{
+"date": "2026-09-04",
+"headline": "FEED and Early Works Contract Awarded for Syerston Project",
+"id": "03135821",
+"sensitive": true,
+"time": "9:53 am"
+},
+{
+"date": "2026-08-31",
+"headline": "Appendix 4G and Corporate Governance Statement",
+"id": "03133497",
+"sensitive": false,
+"time": "4:38 pm"
+},
+{
+"date": "2026-08-31",
+"headline": "Appendix 4E and Full Year Statutory Accounts",
+"id": "03133489",
+"sensitive": true,
+"time": "4:35 pm"
+},
+{
+"date": "2026-08-19",
+"headline": "Change of Director's Interest Notice - Peter Voigt",
+"id": "03127089",
+"sensitive": false,
+"time": "5:02 pm"
+},
+{
+"date": "2026-08-18",
+"headline": "Update - Application for quotation of securities - CNQ",
+"id": "03126523",
+"sensitive": false,
+"time": "6:30 pm"
+},
+{
+"date": "2026-08-18",
+"headline": "Application for quotation of securities - CNQ",
+"id": "03126427",
+"sensitive": false,
+"time": "2:44 pm"
+},
+{
+"date": "2026-08-18",
+"headline": "Section 708A Cleansing Notice",
+"id": "03126426",
+"sensitive": false,
+"time": "2:41 pm"
+},
+{
+"date": "2026-08-06",
+"headline": "Q4 FY26 Investor Webinar Update",
+"id": "03122522",
+"sensitive": false,
+"time": "9:22 am"
+},
+{
+"date": "2026-08-04",
+"headline": "Investor Webinar Invitation - June Quarter Report & Outlook",
+"id": "03121742",
+"sensitive": false,
+"time": "10:17 am"
+},
+{
+"date": "2026-07-31",
+"headline": "Change of Chief Financial Officer",
+"id": "03120802",
+"sensitive": false,
+"time": "4:07 pm"
+},
+{
+"date": "2026-07-28",
+"headline": "CNQ Delivers First Commercial PHOSPHIX Plant in Europe",
+"id": "03118842",
+"sensitive": true,
+"time": "9:48 am"
+},
+{
+"date": "2026-07-27",
+"headline": "June 2026 Quarterly Activities Report and Appendix 4C",
+"id": "03118458",
+"sensitive": true,
+"time": "12:20 pm"
+},
+{
+"date": "2026-07-17",
+"headline": "Rasp Mine ATA Polymer Supply & Licence Executed",
+"id": "03115932",
+"sensitive": true,
+"time": "2:54 pm"
+},
+{
+"date": "2026-05-15",
+"headline": "CNQ Awarded ATA Dewatering Contract at Rasp Mine",
+"id": "03094351",
+"sensitive": true,
+"time": "11:13 am"
+},
+{
+"date": "2026-05-07",
+"headline": "Application for quotation of securities - CNQ",
+"id": "03091711",
+"sensitive": false,
+"time": "4:11 pm"
+},
+{
+"date": "2026-05-05",
+"headline": "Investor Presentation",
+"id": "03090370",
+"sensitive": false,
+"time": "8:48 am"
+},
+{
+"date": "2026-05-01",
+"headline": "Investor Webinar - March Quarter Report and Outlook",
+"id": "03089410",
+"sensitive": false,
+"time": "1:31 pm"
+},
+{
+"date": "2026-04-29",
+"headline": "March 2026 Quarterly Activities Report and Appendix 4C",
+"id": "03087733",
+"sensitive": true,
+"time": "1:52 pm"
+},
+{
+"date": "2026-04-27",
+"headline": "Application for quotation of securities - CNQ",
+"id": "03086601",
+"sensitive": false,
+"time": "4:50 pm"
+},
+{
+"date": "2026-04-16",
+"headline": "Application for quotation of securities - CNQ",
+"id": "03083451",
+"sensitive": false,
+"time": "5:03 pm"
+},
+{
+"date": "2026-04-10",
+"headline": "Application for quotation of securities - CNQ",
+"id": "03081557",
+"sensitive": false,
+"time": "4:57 pm"
+},
+{
+"date": "2026-04-09",
+"headline": "Notification of cessation of securities - CNQ",
+"id": "03080999",
+"sensitive": false,
+"time": "4:03 pm"
+},
+{
+"date": "2026-03-31",
+"headline": "Letter to Optionholders - Notice of Expiry of Listed Options",
+"id": "03077621",
+"sensitive": false,
+"time": "8:27 am"
+},
+{
+"date": "2026-02-27",
+"headline": "Appendix 4D and Half Year Report",
+"id": "03066600",
+"sensitive": true,
+"time": "2:15 pm"
+},
+{
+"date": "2026-02-27",
+"headline": "CNQ Secures Phase 2 Contract with Nyrstar",
+"id": "03066110",
+"sensitive": true,
+"time": "8:22 am"
+},
+{
+"date": "2026-02-24",
+"headline": "CNQ Achieves Final Performance Milestone - Heathgate",
+"id": "03064054",
+"sensitive": false,
+"time": "11:17 am"
+},
+{
+"date": "2026-02-03",
+"headline": "Investor Presentation",
+"id": "03056203",
+"sensitive": false,
+"time": "11:20 am"
+},
+{
+"date": "2026-02-02",
+"headline": "Application for quotation of securities - CNQ",
+"id": "03055835",
+"sensitive": false,
+"time": "4:25 pm"
+},
+{
+"date": "2026-02-02",
+"headline": "Investor Webinar - Company Updates and Outlook",
+"id": "03055732",
+"sensitive": false,
+"time": "12:00 pm"
+},
+{
+"date": "2026-01-30",
+"headline": "December 2025 Quarterly Activities Report and Appendix 4C",
+"id": "03055084",
+"sensitive": true,
+"time": "3:55 pm"
+},
+{
+"date": "2026-01-27",
+"headline": "CNQ Secures Engineering Contract with Sunrise Energy Metals",
+"id": "03052983",
+"sensitive": true,
+"time": "12:34 pm"
+},
+{
+"date": "2026-01-22",
+"headline": "Change in substantial holding",
+"id": "03052005",
+"sensitive": false,
+"time": "11:10 am"
+},
+{
+"date": "2026-01-21",
+"headline": "Change in substantial holding",
+"id": "03051692",
+"sensitive": false,
+"time": "3:07 pm"
+},
+{
+"date": "2026-01-20",
+"headline": "Notification regarding unquoted securities - CNQ",
+"id": "03051342",
+"sensitive": false,
+"time": "4:19 pm"
+},
+{
+"date": "2026-01-20",
+"headline": "Change of Director's Interest Notice - Peter Voigt",
+"id": "03051190",
+"sensitive": false,
+"time": "9:06 am"
+},
+{
+"date": "2026-01-20",
+"headline": "Application for quotation of securities - CNQ",
+"id": "03051189",
+"sensitive": false,
+"time": "9:03 am"
+},
+{
+"date": "2026-01-20",
+"headline": "Section 708A Cleansing Notice",
+"id": "03051181",
+"sensitive": false,
+"time": "8:58 am"
+},
+{
+"date": "2026-01-15",
+"headline": "Results of Extraordinary General Meeting",
+"id": "03050149",
+"sensitive": false,
+"time": "11:08 am"
+},
+{
+"date": "2026-01-08",
+"headline": "Application for quotation of securities - CNQ",
+"id": "03048371",
+"sensitive": false,
+"time": "4:00 pm"
+},
+{
+"date": "2026-01-07",
+"headline": "Change of Director's Interest Notice - Peter Voigt",
+"id": "03047948",
+"sensitive": false,
+"time": "3:30 pm"
+},
+{
+"date": "2026-01-07",
+"headline": "Notification of cessation of securities - CNQ",
+"id": "03047946",
+"sensitive": false,
+"time": "3:25 pm"
+},
+{
+"date": "2025-12-17",
+"headline": "CNQ Advances HIROX Technology Validation with NESR",
+"id": "03042255",
+"sensitive": false,
+"time": "11:18 am"
+},
+{
+"date": "2025-12-12",
+"headline": "Notice of Extraordinary General Meeting/Proxy Form",
+"id": "03040629",
+"sensitive": false,
+"time": "2:17 pm"
+},
+{
+"date": "2025-12-12",
+"headline": "Change of Director's Interest Notice - Peter Voigt",
+"id": "03040332",
+"sensitive": false,
+"time": "8:30 am"
+},
+{
+"date": "2025-12-12",
+"headline": "Notification regarding unquoted securities - CNQ",
+"id": "03040306",
+"sensitive": false,
+"time": "8:24 am"
+},
+{
+"date": "2025-11-27",
+"headline": "Results of Annual General Meeting",
+"id": "03033169",
+"sensitive": false,
+"time": "1:48 pm"
+},
+{
+"date": "2025-11-27",
+"headline": "2025 AGM Presentation",
+"id": "03032896",
+"sensitive": false,
+"time": "9:22 am"
+},
+{
+"date": "2025-11-18",
+"headline": "Application for quotation of securities - CNQ",
+"id": "03027696",
+"sensitive": false,
+"time": "9:05 am"
+},
+{
+"date": "2025-11-17",
+"headline": "Application for quotation of securities - CNQ",
+"id": "03027174",
+"sensitive": false,
+"time": "10:45 am"
+},
+{
+"date": "2025-11-17",
+"headline": "Section 708A Cleansing Notice",
+"id": "03027170",
+"sensitive": false,
+"time": "10:41 am"
+},
+{
+"date": "2025-11-07",
+"headline": "Proposed issue of securities - CNQ",
+"id": "03022424",
+"sensitive": false,
+"time": "2:12 pm"
+},
+{
+"date": "2025-11-07",
+"headline": "Successful Completion of A$6 Million Placement",
+"id": "03022423",
+"sensitive": true,
+"time": "2:12 pm"
+},
+{
+"date": "2025-11-06",
+"headline": "CNQ Wins Contract for Rio Tinto's Rincon Project of A$19.2M",
+"id": "03021780",
+"sensitive": true,
+"time": "12:24 pm"
+},
+{
+"date": "2025-11-06",
+"headline": "Trading Halt",
+"id": "03021665",
+"sensitive": true,
+"time": "9:40 am"
+},
+{
+"date": "2025-10-28",
+"headline": "Notice of Annual General Meeting/Proxy Form",
+"id": "03016837",
+"sensitive": false,
+"time": "4:00 pm"
+},
+{
+"date": "2025-10-27",
+"headline": "September 2025 Quarterly Activities Report and Appendix 4C",
+"id": "03015587",
+"sensitive": true,
+"time": "8:42 am"
+},
+{
+"date": "2025-10-02",
+"headline": "Changes to CEO's Remuneration Package",
+"id": "03004608",
+"sensitive": false,
+"time": "4:11 pm"
+},
+{
+"date": "2025-09-17",
+"headline": "2025 Annual Report",
+"id": "02996454",
+"sensitive": false,
+"time": "2:40 pm"
+},
+{
+"date": "2025-09-17",
+"headline": "Investor Presentation",
+"id": "02996273",
+"sensitive": false,
+"time": "9:49 am"
+},
+{
+"date": "2025-09-15",
+"headline": "Investor Webinar - Company Updates and Outlook",
+"id": "02995283",
+"sensitive": false,
+"time": "11:48 am"
+},
+{
+"date": "2025-09-09",
+"headline": "Notification regarding unquoted securities - CNQ",
+"id": "02992975",
+"sensitive": false,
+"time": "10:44 am"
+},
+{
+"date": "2025-08-28",
+"headline": "Appendix 4G and Corporate Governance Statement",
+"id": "02987805",
+"sensitive": false,
+"time": "6:38 pm"
+},
+{
+"date": "2025-08-28",
+"headline": "Appendix 4E and Full Year Statutory Accounts",
+"id": "02987803",
+"sensitive": true,
+"time": "6:36 pm"
+},
+{
+"date": "2025-07-31",
+"headline": "June 2025 Quarterly Activities Report and Appendix 4C",
+"id": "02975371",
+"sensitive": true,
+"time": "3:20 pm"
+},
+{
+"date": "2025-07-25",
+"headline": "Ceasing to be a substantial holder",
+"id": "02972516",
+"sensitive": false,
+"time": "8:19 am"
+},
+{
+"date": "2025-07-16",
+"headline": "Initial Director's Interest Notice - D Pfeffer",
+"id": "02969756",
+"sensitive": false,
+"time": "10:05 am"
+},
+{
+"date": "2025-07-16",
+"headline": "Appointment of New Director",
+"id": "02969752",
+"sensitive": false,
+"time": "10:01 am"
+},
+{
+"date": "2025-07-07",
+"headline": "Change of Director's Interest Notice - Peter Voigt",
+"id": "02966840",
+"sensitive": false,
+"time": "4:33 pm"
+},
+{
+"date": "2025-07-07",
+"headline": "Notification of cessation of securities - CNQ",
+"id": "02966834",
+"sensitive": false,
+"time": "4:31 pm"
+},
+{
+"date": "2025-07-01",
+"headline": "Notification of cessation of securities - CNQ",
+"id": "02964657",
+"sensitive": false,
+"time": "5:05 pm"
+},
+{
+"date": "2025-06-02",
+"headline": "Update on G2L & LithiumBank activities",
+"id": "02954289",
+"sensitive": true,
+"time": "9:31 am"
+},
+{
+"date": "2025-05-01",
+"headline": "CNQ Wins DESALX WWTP Design Contract in Europe",
+"id": "02943839",
+"sensitive": true,
+"time": "10:53 am"
+},
+{
+"date": "2025-04-30",
+"headline": "March 2025 Quarterly Activities Report and Appendix 4C",
+"id": "02943318",
+"sensitive": true,
+"time": "4:14 pm"
+},
+{
+"date": "2025-03-07",
+"headline": "Clean TeQ receives FY2024 R&D Tax Incentive",
+"id": "02923928",
+"sensitive": false,
+"time": "3:09 pm"
+},
+{
+"date": "2025-02-28",
+"headline": "H1 FY25 - Half Year Results Announcement",
+"id": "02921273",
+"sensitive": true,
+"time": "4:57 pm"
+},
+{
+"date": "2025-02-28",
+"headline": "Appendix 4D and Half Year Report",
+"id": "02921259",
+"sensitive": true,
+"time": "4:51 pm"
+},
+{
+"date": "2025-01-31",
+"headline": "December 2024 Quarterly Activities Report and Appendix 4C",
+"id": "02909631",
+"sensitive": true,
+"time": "4:10 pm"
+},
+{
+"date": "2025-01-06",
+"headline": "Change of Director's Interest Notice - Peter Voigt",
+"id": "02902085",
+"sensitive": false,
+"time": "4:44 pm"
+},
+{
+"date": "2025-01-06",
+"headline": "Notification of cessation of securities - CNQ",
+"id": "02902081",
+"sensitive": false,
+"time": "4:42 pm"
+}
+],
+"errors": [],
+"fetched": "2026-11-07T21:57:39+00:00",
+"header": {
+"dateListed": "2021-07-02",
+"displayName": "CLEAN TEQ WATER LIMITED",
+"industryGroup": "Commercial & Professional Services",
+"marketCap": 45411269,
+"priceAsk": 0.515,
+"priceBid": 0.48,
+"priceChange": -0.010000000000000009,
+"priceChangePercent": -1.960784313725492,
+"priceLast": 0.5,
+"sector": "Industrials",
+"securityType": 1,
+"statusCode": "",
+"symbol": "CNQ",
+"volume": 29173,
+"xid": "660712750"
+},
+"key-statistics": {
+"cashFlow": 0.25758,
+"currency": "AUD",
+"earningsPerShare": -0.02324,
+"enterprisevalue": 39.06308,
+"foreignExempt": false,
+"freeCashFlowYield": -1.00000010000001e-05,
+"incomeStatement": [
+{
+"curCode": "AUD",
+"fPeriodEndDate": 46203,
+"netIncome": -4042770,
+"period": "2026A",
+"revenue": 39835430
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45838,
+"netIncome": -6074370,
+"period": "2025A",
+"revenue": 23777430
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45473,
+"netIncome": -8558600,
+"period": "2024A",
+"revenue": 24411460
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45107,
+"netIncome": -10971570,
+"period": "2023A",
+"revenue": 27149090
+}
+],
+"isin": "AU0000153280",
+"numOfShares": 89041703,
+"opCashFlowRevTTM": 1.58974,
+"priceAsk": 0.515,
+"priceBid": 0.48,
+"priceClose": 0.51,
+"priceDayHigh": 0.5,
+"priceDayLow": 0.47000000000000003,
+"priceEarningsRatio": -99999.99,
+"priceFiftyTwoWeekHigh": 0.845,
+"priceFiftyTwoWeekLow": 0.315,
+"priceToCash": -99999.99,
+"shareDescription": "Ordinary Fully Paid",
+"totalAssets": 20.69399,
+"totalLiabilities": 12.05733,
+"volumeAverage": 72792.477778,
 "yieldAnnual": 0
 }
 },
@@ -100098,6 +106802,27 @@
 },
 "COG": {
 "announcements": [
+{
+"date": "2026-11-05",
+"headline": "Constitution",
+"id": "03162543",
+"sensitive": false,
+"time": "2:49 pm"
+},
+{
+"date": "2026-11-05",
+"headline": "Results of Meeting",
+"id": "03162542",
+"sensitive": false,
+"time": "2:46 pm"
+},
+{
+"date": "2026-11-04",
+"headline": "Q1 FY2027 AGM Update and AGM Presentation",
+"id": "03162075",
+"sensitive": true,
+"time": "4:55 pm"
+},
 {
 "date": "2026-10-23",
 "headline": "FY27 CEO Fixed Annual Remuneration",
@@ -100744,22 +107469,22 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:08:15+00:00",
+"fetched": "2026-11-07T21:57:45+00:00",
 "header": {
 "dateListed": "2003-01-28",
 "displayName": "COG FINANCIAL SERVICES LIMITED",
 "industryGroup": "Financial Services",
-"marketCap": 371095110,
-"priceAsk": 1.76,
-"priceBid": 1.7,
-"priceChange": 0.020000000000000018,
-"priceChangePercent": 1.1494252873563229,
-"priceLast": 1.76,
+"marketCap": 351900536,
+"priceAsk": 1.595,
+"priceBid": 1.58,
+"priceChange": -0.06999999999999984,
+"priceChangePercent": -4.242424242424233,
+"priceLast": 1.58,
 "sector": "Financials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "COG",
-"volume": 65729,
+"volume": 848937,
 "xid": "669465840"
 },
 "key-statistics": {
@@ -100772,11 +107497,11 @@
 "dividendCurrency": "AUD",
 "dividendType": "F",
 "earningsPerShare": 0.11248,
-"enterprisevalue": 659.6141,
+"enterprisevalue": 625.4904,
 "foreignCurrencyAmount": 0,
 "foreignExempt": false,
 "frankingPercent": 100,
-"freeCashFlowYield": 0.14169403723152524,
+"freeCashFlowYield": 0.15604299920886203,
 "incomeStatement": [
 {
 "curCode": "AUD",
@@ -100810,24 +107535,599 @@
 "isin": "AU000000COG7",
 "numOfShares": 213273052,
 "opCashFlowRevTTM": 20.4136,
-"priceAsk": 1.76,
-"priceBid": 1.7,
-"priceClose": 1.74,
-"priceDayHigh": 1.76,
-"priceDayLow": 1.705,
-"priceEarningsRatio": 15.46942,
+"priceAsk": 1.595,
+"priceBid": 1.58,
+"priceClose": 1.65,
+"priceDayHigh": 1.625,
+"priceDayLow": 1.5675000000000001,
+"priceEarningsRatio": 14.04694,
 "priceFiftyTwoWeekHigh": 2.42,
 "priceFiftyTwoWeekLow": 1.14,
-"priceToCash": 7.05746,
+"priceToCash": 6.40849,
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 731.325,
 "totalLiabilities": 575.048,
-"volumeAverage": 277087.788889,
-"yieldAnnual": 3.977272727272727
+"volumeAverage": 287152.622222,
+"yieldAnnual": 4.4303797468354436
+}
+},
+"COV": {
+"announcements": [
+{
+"date": "2026-10-30",
+"headline": "Quarterly activities and cashflow report",
+"id": "03160404",
+"sensitive": true,
+"time": "4:11 pm"
+},
+{
+"date": "2026-10-21",
+"headline": "CLEO Screening Test Meets Rigorous Performance Targets",
+"id": "03155000",
+"sensitive": true,
+"time": "9:03 am"
+},
+{
+"date": "2026-10-13",
+"headline": "CLEO Commences Analytical Validation Ahead of FDA Submission",
+"id": "03151492",
+"sensitive": true,
+"time": "8:50 am"
+},
+{
+"date": "2026-09-30",
+"headline": "Cleo Files Patents for its Ovarian Cancer Screening Test",
+"id": "03145844",
+"sensitive": true,
+"time": "8:52 am"
+},
+{
+"date": "2026-09-24",
+"headline": "CLEO Commences Ovarian Cancer Screening Test Development",
+"id": "03143202",
+"sensitive": true,
+"time": "9:09 am"
+},
+{
+"date": "2026-09-17",
+"headline": "Letter to Shareholders",
+"id": "03140554",
+"sensitive": false,
+"time": "10:18 am"
+},
+{
+"date": "2026-09-17",
+"headline": "Notice of Annual General Meeting/Proxy Form",
+"id": "03140552",
+"sensitive": false,
+"time": "10:14 am"
+},
+{
+"date": "2026-09-10",
+"headline": "Notice Required Under ASX Listing Rule 3.13.1",
+"id": "03138263",
+"sensitive": false,
+"time": "5:01 pm"
+},
+{
+"date": "2026-09-10",
+"headline": "CLIA Certified Lab selected - Pivotal US Clinical Validation",
+"id": "03138030",
+"sensitive": true,
+"time": "9:14 am"
+},
+{
+"date": "2026-09-03",
+"headline": "CLEO Receives First Batch of Commercial Test Kits",
+"id": "03135170",
+"sensitive": true,
+"time": "8:55 am"
+},
+{
+"date": "2026-08-24",
+"headline": "Change of Director's Interest Notice x 4",
+"id": "03129124",
+"sensitive": false,
+"time": "4:33 pm"
+},
+{
+"date": "2026-08-24",
+"headline": "Cleansing Notice",
+"id": "03129107",
+"sensitive": false,
+"time": "4:16 pm"
+},
+{
+"date": "2026-08-24",
+"headline": "Application for quotation of securities - COV",
+"id": "03129103",
+"sensitive": false,
+"time": "4:14 pm"
+},
+{
+"date": "2026-08-24",
+"headline": "Notification of cessation of securities - COV",
+"id": "03129101",
+"sensitive": false,
+"time": "4:12 pm"
+},
+{
+"date": "2026-08-21",
+"headline": "Change in Director's Interest Notice",
+"id": "03128372",
+"sensitive": false,
+"time": "4:22 pm"
+},
+{
+"date": "2026-08-20",
+"headline": "Appendix 4G and Corporate Governance Statement",
+"id": "03127783",
+"sensitive": false,
+"time": "4:01 pm"
+},
+{
+"date": "2026-08-20",
+"headline": "Appendix 4E and 2026 Annual Report",
+"id": "03127780",
+"sensitive": true,
+"time": "3:52 pm"
+},
+{
+"date": "2026-07-29",
+"headline": "Quarterly activities and cashflow report",
+"id": "03119302",
+"sensitive": true,
+"time": "9:39 am"
+},
+{
+"date": "2026-07-13",
+"headline": "CLEO Enters Analytical Validation Phase",
+"id": "03114225",
+"sensitive": true,
+"time": "9:10 am"
+},
+{
+"date": "2026-07-07",
+"headline": "Change in Director's Interest Notice",
+"id": "03112677",
+"sensitive": false,
+"time": "4:41 pm"
+},
+{
+"date": "2026-05-28",
+"headline": "Cleansing Notice",
+"id": "03098658",
+"sensitive": false,
+"time": "4:18 pm"
+},
+{
+"date": "2026-05-28",
+"headline": "Application for quotation of securities - COV",
+"id": "03098649",
+"sensitive": false,
+"time": "4:12 pm"
+},
+{
+"date": "2026-05-20",
+"headline": "CLEO Establishes U.S. Reimbursement Pathway",
+"id": "03095724",
+"sensitive": true,
+"time": "9:25 am"
+},
+{
+"date": "2026-04-29",
+"headline": "Quarterly activities and cashflow report",
+"id": "03087555",
+"sensitive": true,
+"time": "9:32 am"
+},
+{
+"date": "2026-04-28",
+"headline": "CLEO Commences Kit Manufacturing Ahead of FDA Submission",
+"id": "03086741",
+"sensitive": true,
+"time": "8:26 am"
+},
+{
+"date": "2026-03-31",
+"headline": "Sample Collection Completion for Pivotal US Clinical Trial",
+"id": "03077677",
+"sensitive": true,
+"time": "9:04 am"
+},
+{
+"date": "2026-03-23",
+"headline": "CLEO Optimises Biomarker Panel Ahead of FDA Submission",
+"id": "03074686",
+"sensitive": true,
+"time": "8:29 am"
+},
+{
+"date": "2026-02-25",
+"headline": "Appendix 4D and Half Yearly Accounts",
+"id": "03064967",
+"sensitive": true,
+"time": "4:24 pm"
+},
+{
+"date": "2026-02-18",
+"headline": "CLEO Confirms Next-Gen Platform for Ovarian Cancer Test",
+"id": "03061603",
+"sensitive": true,
+"time": "9:44 am"
+},
+{
+"date": "2026-01-29",
+"headline": "Quarterly activities and cashflow report",
+"id": "03053764",
+"sensitive": true,
+"time": "8:24 am"
+},
+{
+"date": "2026-01-05",
+"headline": "Ceasing to be a substantial holder",
+"id": "03047111",
+"sensitive": false,
+"time": "3:26 pm"
+},
+{
+"date": "2025-12-29",
+"headline": "Chairman's End of Year Letter to Shareholders",
+"id": "03045828",
+"sensitive": false,
+"time": "11:23 am"
+},
+{
+"date": "2025-12-29",
+"headline": "Cleansing Notice",
+"id": "03045826",
+"sensitive": false,
+"time": "11:16 am"
+},
+{
+"date": "2025-12-29",
+"headline": "Notification regarding unquoted securities - COV",
+"id": "03045824",
+"sensitive": false,
+"time": "11:11 am"
+},
+{
+"date": "2025-12-29",
+"headline": "Application for quotation of securities - COV",
+"id": "03045822",
+"sensitive": false,
+"time": "11:06 am"
+},
+{
+"date": "2025-12-29",
+"headline": "Application for quotation of securities - COV",
+"id": "03045820",
+"sensitive": false,
+"time": "11:04 am"
+},
+{
+"date": "2025-12-18",
+"headline": "Proposed issue of securities - COV",
+"id": "03042800",
+"sensitive": false,
+"time": "9:54 am"
+},
+{
+"date": "2025-12-18",
+"headline": "CLEO Raises $5m to Support U.S. Market Launch",
+"id": "03042799",
+"sensitive": true,
+"time": "9:53 am"
+},
+{
+"date": "2025-12-17",
+"headline": "Trading Halt",
+"id": "03042088",
+"sensitive": true,
+"time": "8:50 am"
+},
+{
+"date": "2025-11-28",
+"headline": "Notice under Listing Rule 3.10A",
+"id": "03034205",
+"sensitive": false,
+"time": "4:31 pm"
+},
+{
+"date": "2025-11-26",
+"headline": "Cleo Strengthens Cash Position with $1.7m R&D Tax Refund",
+"id": "03031966",
+"sensitive": true,
+"time": "8:25 am"
+},
+{
+"date": "2025-11-24",
+"headline": "Results of Annual General Meeting",
+"id": "03030980",
+"sensitive": false,
+"time": "2:40 pm"
+},
+{
+"date": "2025-11-19",
+"headline": "CLEO Appoints First Key Opinion Leader to Support US Market",
+"id": "03028430",
+"sensitive": true,
+"time": "10:02 am"
+},
+{
+"date": "2025-11-06",
+"headline": "CLEO Significantly Expands Addressable Market",
+"id": "03021625",
+"sensitive": true,
+"time": "9:19 am"
+},
+{
+"date": "2025-10-31",
+"headline": "Quarterly activities and cashflow report",
+"id": "03019382",
+"sensitive": true,
+"time": "2:39 pm"
+},
+{
+"date": "2025-10-30",
+"headline": "CLEO Successfully Completes Stage 1 MDSAP Audit",
+"id": "03018196",
+"sensitive": true,
+"time": "9:44 am"
+},
+{
+"date": "2025-09-25",
+"headline": "Letter to Shareholders",
+"id": "03000294",
+"sensitive": false,
+"time": "4:28 pm"
+},
+{
+"date": "2025-09-25",
+"headline": "Notice of Annual General Meeting/Proxy Form",
+"id": "03000271",
+"sensitive": false,
+"time": "4:14 pm"
+},
+{
+"date": "2025-09-19",
+"headline": "Application for quotation of securities - COV",
+"id": "02997607",
+"sensitive": false,
+"time": "4:33 pm"
+},
+{
+"date": "2025-09-15",
+"headline": "Cleo Receives Positive FDA Feedback",
+"id": "02995167",
+"sensitive": true,
+"time": "9:30 am"
+},
+{
+"date": "2025-09-05",
+"headline": "Notice Required Under ASX Listing Rule 3.13.1",
+"id": "02991900",
+"sensitive": false,
+"time": "4:34 pm"
+},
+{
+"date": "2025-08-26",
+"headline": "Appendix 4G and Corporate Governance Statement",
+"id": "02985801",
+"sensitive": false,
+"time": "4:55 pm"
+},
+{
+"date": "2025-08-26",
+"headline": "Appendix 4E and 2025 Annual Report",
+"id": "02985785",
+"sensitive": true,
+"time": "4:48 pm"
+},
+{
+"date": "2025-08-18",
+"headline": "COV Commences Health Economic Study-Support US Market Entry",
+"id": "02981358",
+"sensitive": true,
+"time": "9:22 am"
+},
+{
+"date": "2025-08-15",
+"headline": "Restricted securities to be released from escrow",
+"id": "02980982",
+"sensitive": false,
+"time": "4:24 pm"
+},
+{
+"date": "2025-07-21",
+"headline": "Quarterly activities and cashflow report",
+"id": "02970933",
+"sensitive": true,
+"time": "9:09 am"
+},
+{
+"date": "2025-06-25",
+"headline": "CLEO Strengthens FDA Submission - Access to US Biobank",
+"id": "02961861",
+"sensitive": true,
+"time": "9:58 am"
+},
+{
+"date": "2025-06-18",
+"headline": "Investor Webinar",
+"id": "02959476",
+"sensitive": false,
+"time": "8:48 am"
+},
+{
+"date": "2025-06-12",
+"headline": "Corporate Presentation",
+"id": "02957574",
+"sensitive": true,
+"time": "8:33 am"
+},
+{
+"date": "2025-05-12",
+"headline": "Cleo Advances with Completion of Alpha Testing",
+"id": "02947302",
+"sensitive": true,
+"time": "10:17 am"
+},
+{
+"date": "2025-04-28",
+"headline": "CLEO to Fast Track Development of Ovarian Cancer Test",
+"id": "02941244",
+"sensitive": true,
+"time": "9:09 am"
+},
+{
+"date": "2025-04-24",
+"headline": "Notification regarding unquoted securities - COV",
+"id": "02940875",
+"sensitive": false,
+"time": "4:29 pm"
+},
+{
+"date": "2025-04-24",
+"headline": "CLEO Receives A$845k Research and Development Tax Incentive",
+"id": "02940740",
+"sensitive": true,
+"time": "11:15 am"
+},
+{
+"date": "2025-04-11",
+"headline": "Quarterly activities and cashflow report",
+"id": "02937300",
+"sensitive": true,
+"time": "4:19 pm"
+},
+{
+"date": "2025-03-18",
+"headline": "CLEO Delivers Commercial Development Milestone",
+"id": "02927588",
+"sensitive": true,
+"time": "9:35 am"
+},
+{
+"date": "2025-02-27",
+"headline": "Appendix 4D and Half Yearly Accounts",
+"id": "02920309",
+"sensitive": true,
+"time": "4:53 pm"
+},
+{
+"date": "2025-02-17",
+"headline": "Clarification to ASX Price Query",
+"id": "02915119",
+"sensitive": false,
+"time": "5:35 pm"
+},
+{
+"date": "2025-02-07",
+"headline": "Price Query Response",
+"id": "02912197",
+"sensitive": true,
+"time": "5:58 pm"
+},
+{
+"date": "2025-01-31",
+"headline": "Quarterly activities and cashflow report",
+"id": "02909596",
+"sensitive": true,
+"time": "3:25 pm"
+}
+],
+"errors": [],
+"fetched": "2026-11-07T21:57:51+00:00",
+"header": {
+"dateListed": "2023-08-22",
+"displayName": "CLEO DIAGNOSTICS LTD",
+"industryGroup": "Pharmaceuticals, Biotechnology & Life Sciences",
+"marketCap": 39867449,
+"priceAsk": 0.28,
+"priceBid": 0.27,
+"priceChange": -0.010000000000000009,
+"priceChangePercent": -3.5714285714285743,
+"priceLast": 0.27,
+"sector": "Health Care",
+"securityType": 1,
+"statusCode": "",
+"symbol": "COV",
+"volume": 2493,
+"xid": "812415803"
+},
+"key-statistics": {
+"cashFlow": -4.94695,
+"currency": "AUD",
+"earningsPerShare": -0.04256,
+"enterprisevalue": 32.21961,
+"foreignExempt": false,
+"freeCashFlowYield": -1.00000010000001e-05,
+"incomeStatement": [
+{
+"curCode": "AUD",
+"fPeriodEndDate": 46203,
+"netIncome": -5936480,
+"period": "2026A",
+"revenue": 1949500
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45838,
+"netIncome": -3999130,
+"period": "2025A",
+"revenue": 1184760
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45473,
+"netIncome": -3759230,
+"period": "2024A",
+"revenue": 600150
+},
+{
+"curCode": "AUD",
+"fPeriodEndDate": 45107,
+"netIncome": -1729500,
+"period": "2023A",
+"revenue": 110080
+}
+],
+"isin": "AU0000288045",
+"numOfShares": 142383746,
+"opCashFlowRevTTM": -253.2716,
+"priceAsk": 0.28,
+"priceBid": 0.27,
+"priceClose": 0.28,
+"priceDayHigh": 0.28,
+"priceDayLow": 0.27,
+"priceEarningsRatio": -99999.99,
+"priceFiftyTwoWeekHigh": 0.9,
+"priceFiftyTwoWeekLow": 0.26,
+"priceToCash": -99999.99,
+"shareDescription": "Ordinary Fully Paid",
+"totalAssets": 6.6809,
+"totalLiabilities": 1.67089,
+"volumeAverage": 139283.505618,
+"yieldAnnual": 0
 }
 },
 "CPN": {
 "announcements": [
+{
+"date": "2026-11-04",
+"headline": "Results of Annual General Meeting",
+"id": "03162080",
+"sensitive": false,
+"time": "5:09 pm"
+},
+{
+"date": "2026-11-04",
+"headline": "Annual General Meeting - Managing Director Presentation",
+"id": "03161997",
+"sensitive": false,
+"time": "2:30 pm"
+},
 {
 "date": "2026-10-26",
 "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
@@ -101796,29 +109096,29 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:08:20+00:00",
+"fetched": "2026-11-07T21:57:56+00:00",
 "header": {
 "dateListed": "2020-11-25",
 "displayName": "CASPIN RESOURCES LIMITED",
 "industryGroup": "Materials",
-"marketCap": 29794982,
-"priceAsk": 0.105,
-"priceBid": 0.1,
-"priceChange": 0,
-"priceChangePercent": 0,
-"priceLast": 0.1,
+"marketCap": 28305232,
+"priceAsk": 0.095,
+"priceBid": 0.08600000000000001,
+"priceChange": -0.008999999999999994,
+"priceChangePercent": -9.47368421052631,
+"priceLast": 0.08600000000000001,
 "sector": "Materials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "CPN",
-"volume": 4088,
+"volume": 573562,
 "xid": "623980189"
 },
 "key-statistics": {
 "cashFlow": -5.51338,
 "currency": "AUD",
 "earningsPerShare": -0.02379,
-"enterprisevalue": 22.56558,
+"enterprisevalue": 18.39428,
 "foreignExempt": false,
 "freeCashFlowYield": -1.00000010000001e-05,
 "incomeStatement": [
@@ -101854,11 +109154,11 @@
 "isin": "AU0000110702",
 "numOfShares": 297949815,
 "opCashFlowRevTTM": -510.7782,
-"priceAsk": 0.105,
-"priceBid": 0.1,
-"priceClose": 0.1,
-"priceDayHigh": 0.1,
-"priceDayLow": 0.1,
+"priceAsk": 0.095,
+"priceBid": 0.08600000000000001,
+"priceClose": 0.095,
+"priceDayHigh": 0.095,
+"priceDayLow": 0.08600000000000001,
 "priceEarningsRatio": -99999.99,
 "priceFiftyTwoWeekHigh": 0.205,
 "priceFiftyTwoWeekLow": 0.069,
@@ -101866,7 +109166,7 @@
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 9.90632,
 "totalLiabilities": 1.40167,
-"volumeAverage": 1010068.9,
+"volumeAverage": 915304.544444,
 "yieldAnnual": 0
 }
 },
@@ -102764,6 +110064,62 @@
 "CTM": {
 "announcements": [
 {
+"date": "2026-11-06",
+"headline": "Becoming a substantial holder",
+"id": "03163063",
+"sensitive": false,
+"time": "2:46 pm"
+},
+{
+"date": "2026-11-04",
+"headline": "Application for quotation of securities - CTM",
+"id": "03161840",
+"sensitive": false,
+"time": "9:27 am"
+},
+{
+"date": "2026-11-04",
+"headline": "Completion of Tranche 1 Placement to CNGR",
+"id": "03161839",
+"sensitive": true,
+"time": "9:27 am"
+},
+{
+"date": "2026-11-03",
+"headline": "Cleansing Notice Section 708A Notice",
+"id": "03161676",
+"sensitive": false,
+"time": "8:02 pm"
+},
+{
+"date": "2026-11-03",
+"headline": "Becoming a substantial holder",
+"id": "03161461",
+"sensitive": false,
+"time": "9:59 am"
+},
+{
+"date": "2026-11-03",
+"headline": "Application for quotation of securities - CTM",
+"id": "03161455",
+"sensitive": false,
+"time": "9:51 am"
+},
+{
+"date": "2026-11-03",
+"headline": "Completion of Tranche 1 Placement to Glencore",
+"id": "03161452",
+"sensitive": true,
+"time": "9:48 am"
+},
+{
+"date": "2026-11-02",
+"headline": "Cleansing Notice Section 708A Notice",
+"id": "03161317",
+"sensitive": false,
+"time": "8:07 pm"
+},
+{
 "date": "2026-10-30",
 "headline": "Proposed issue of securities - CTM",
 "id": "03160728",
@@ -103619,29 +110975,29 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:08:27+00:00",
+"fetched": "2026-11-07T21:58:01+00:00",
 "header": {
 "dateListed": "1989-01-12",
 "displayName": "CENTAURUS METALS LIMITED",
 "industryGroup": "Materials",
-"marketCap": 189561340,
-"priceAsk": 0.37,
-"priceBid": 0.34,
-"priceChange": 0.024999999999999967,
-"priceChangePercent": 7.575757575757565,
+"marketCap": 233658407,
+"priceAsk": 0.375,
+"priceBid": 0.35000000000000003,
+"priceChange": 0,
+"priceChangePercent": 0,
 "priceLast": 0.355,
 "sector": "Materials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "CTM",
-"volume": 1905698,
+"volume": 1110994,
 "xid": "584507914"
 },
 "key-statistics": {
 "cashFlow": -14.87909,
 "currency": "AUD",
 "earningsPerShare": -0.02075,
-"enterprisevalue": 187.0872,
+"enterprisevalue": 216.8236,
 "foreignExempt": false,
 "freeCashFlowYield": -1.00000010000001e-05,
 "incomeStatement": [
@@ -103675,20 +111031,20 @@
 }
 ],
 "isin": "AU000000CTM4",
-"numOfShares": 574428304,
-"priceAsk": 0.37,
-"priceBid": 0.34,
-"priceClose": 0.33,
-"priceDayHigh": 0.385,
+"numOfShares": 658192696,
+"priceAsk": 0.375,
+"priceBid": 0.35000000000000003,
+"priceClose": 0.355,
+"priceDayHigh": 0.375,
 "priceDayLow": 0.335,
 "priceEarningsRatio": -99999.99,
 "priceFiftyTwoWeekHigh": 0.77,
-"priceFiftyTwoWeekLow": 0.33,
+"priceFiftyTwoWeekLow": 0.305,
 "priceToCash": -99999.99,
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 50.75835,
 "totalLiabilities": 5.70009,
-"volumeAverage": 1076982.454545,
+"volumeAverage": 1103063.602273,
 "yieldAnnual": 0
 }
 },
@@ -104851,6 +112207,55 @@
 "CUP": {
 "announcements": [
 {
+"date": "2026-11-06",
+"headline": "Successful completion of $25.0 million Placement",
+"id": "03162844",
+"sensitive": true,
+"time": "9:13 am"
+},
+{
+"date": "2026-11-05",
+"headline": "Proposed issue of securities - CUP",
+"id": "03162396",
+"sensitive": false,
+"time": "10:01 am"
+},
+{
+"date": "2026-11-05",
+"headline": "Proposed issue of securities - CUP",
+"id": "03162395",
+"sensitive": false,
+"time": "10:01 am"
+},
+{
+"date": "2026-11-05",
+"headline": "Investor Presentation",
+"id": "03162394",
+"sensitive": true,
+"time": "10:00 am"
+},
+{
+"date": "2026-11-05",
+"headline": "Count to acquire majority interest in Skybridge",
+"id": "03162393",
+"sensitive": true,
+"time": "10:00 am"
+},
+{
+"date": "2026-11-05",
+"headline": "Trading Halt",
+"id": "03162309",
+"sensitive": true,
+"time": "9:19 am"
+},
+{
+"date": "2026-11-04",
+"headline": "Ceasing to be a substantial holder from RYD",
+"id": "03162052",
+"sensitive": false,
+"time": "4:27 pm"
+},
+{
 "date": "2026-10-30",
 "headline": "New strategic Equity Partnership & FY27 Q1 trading update",
 "id": "03159694",
@@ -105622,22 +113027,22 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:08:32+00:00",
+"fetched": "2026-11-07T21:58:08+00:00",
 "header": {
 "dateListed": "2010-12-22",
 "displayName": "COUNT LIMITED",
 "industryGroup": "Commercial & Professional Services",
-"marketCap": 290124223,
-"priceAsk": 1.655,
-"priceBid": 1.6300000000000001,
-"priceChange": 0.31499999999999995,
-"priceChangePercent": 23.50746268656716,
-"priceLast": 1.655,
+"marketCap": 359407619,
+"priceAsk": 1.7,
+"priceBid": 1.6500000000000001,
+"priceChange": 0.039999999999999813,
+"priceChangePercent": 2.409638554216856,
+"priceLast": 1.7,
 "sector": "Industrials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "CUP",
-"volume": 1042508,
+"volume": 841639,
 "xid": "28155905"
 },
 "key-statistics": {
@@ -105650,7 +113055,7 @@
 "dividendCurrency": "AUD",
 "dividendType": "F",
 "earningsPerShare": 0.08414,
-"enterprisevalue": 299.0032,
+"enterprisevalue": 376.9471,
 "foreignCurrencyAmount": 0,
 "foreignExempt": false,
 "frankingPercent": 100,
@@ -105688,20 +113093,20 @@
 "isin": "AU000000CUP5",
 "numOfShares": 216510614,
 "opCashFlowRevTTM": 18.77061,
-"priceAsk": 1.655,
-"priceBid": 1.6300000000000001,
-"priceClose": 1.34,
+"priceAsk": 1.7,
+"priceBid": 1.6500000000000001,
+"priceClose": 1.6600000000000001,
 "priceDayHigh": 1.7,
-"priceDayLow": 1.415,
-"priceEarningsRatio": 15.92584,
+"priceDayLow": 1.62,
+"priceEarningsRatio": 20.20442,
 "priceFiftyTwoWeekHigh": 1.7,
 "priceFiftyTwoWeekLow": 0.965,
 "priceToCash": -99999.99,
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 531.004,
 "totalLiabilities": 366.941,
-"volumeAverage": 211013.865169,
-"yieldAnnual": 3.0211480362537766
+"volumeAverage": 256896.534091,
+"yieldAnnual": 2.941176470588235
 }
 },
 "CVL": {
@@ -106205,26 +113610,26 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:08:38+00:00",
+"fetched": "2026-11-07T21:58:13+00:00",
 "header": {
 "dateListed": "2018-06-22",
 "displayName": "CIVMEC LIMITED",
 "industryGroup": "Capital Goods",
-"marketCap": 832021764,
-"priceAsk": 1.715,
-"priceBid": 1.69,
-"priceChange": 0.07000000000000006,
-"priceChangePercent": 4.2944785276073665,
-"priceLast": 1.7,
+"marketCap": 852439476,
+"priceAsk": 1.72,
+"priceBid": 1.6300000000000001,
+"priceChange": -0.019999999999999796,
+"priceChangePercent": -1.1976047904191496,
+"priceLast": 1.6500000000000001,
 "sector": "Industrials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "CVL",
-"volume": 387087,
+"volume": 193949,
 "xid": "475899517"
 },
 "key-statistics": {
-"cashFlow": -53.40407,
+"cashFlow": -52.30969,
 "currency": "AUD",
 "dateExDate": "2026-10-12",
 "datePayDate": "2026-10-23",
@@ -106232,12 +113637,12 @@
 "dividend": 0.035,
 "dividendCurrency": "AUD",
 "dividendType": "F",
-"earningsPerShare": 0.09114,
-"enterprisevalue": 804.7303,
+"earningsPerShare": 0.08927,
+"enterprisevalue": 788.0934,
 "foreignCurrencyAmount": 0,
 "foreignExempt": false,
 "frankingPercent": 100,
-"freeCashFlowYield": 0.09250265945145923,
+"freeCashFlowYield": 0.09252131691141639,
 "incomeStatement": [
 {
 "curCode": "AUD",
@@ -106271,24 +113676,66 @@
 "isin": "AU0000012056",
 "numOfShares": 510442800,
 "opCashFlowRevTTM": -2.56007,
-"priceAsk": 1.715,
-"priceBid": 1.69,
-"priceClose": 1.63,
-"priceDayHigh": 1.78,
-"priceDayLow": 1.68,
-"priceEarningsRatio": 15.90994,
+"priceAsk": 1.72,
+"priceBid": 1.6300000000000001,
+"priceClose": 1.67,
+"priceDayHigh": 1.675,
+"priceDayLow": 1.6300000000000001,
+"priceEarningsRatio": 15.90674,
 "priceFiftyTwoWeekHigh": 2.08,
 "priceFiftyTwoWeekLow": 1.32,
-"priceToCash": 10.8105,
+"priceToCash": 10.80832,
 "shareDescription": "Ordinary Fully Paid",
-"totalAssets": 1102.438,
-"totalLiabilities": 567.9393,
-"volumeAverage": 282925.711111,
-"yieldAnnual": 3.5294117647058822
+"totalAssets": 1079.846,
+"totalLiabilities": 556.3008,
+"volumeAverage": 278803.055556,
+"yieldAnnual": 3.636363636363636
 }
 },
 "CVN": {
 "announcements": [
+{
+"date": "2026-11-05",
+"headline": "Update - Notification of buy-back - CVN",
+"id": "03162190",
+"sensitive": false,
+"time": "8:20 am"
+},
+{
+"date": "2026-11-04",
+"headline": "Notification of cessation of securities - CVN",
+"id": "03162106",
+"sensitive": false,
+"time": "6:08 pm"
+},
+{
+"date": "2026-11-04",
+"headline": "Update - Notification of buy-back - CVN",
+"id": "03161711",
+"sensitive": false,
+"time": "8:18 am"
+},
+{
+"date": "2026-11-03",
+"headline": "Update - Notification of buy-back - CVN",
+"id": "03161358",
+"sensitive": false,
+"time": "8:23 am"
+},
+{
+"date": "2026-11-03",
+"headline": "Appendix 3Y - Black",
+"id": "03161345",
+"sensitive": false,
+"time": "8:22 am"
+},
+{
+"date": "2026-11-02",
+"headline": "Update - Notification of buy-back - CVN",
+"id": "03160784",
+"sensitive": false,
+"time": "8:14 am"
+},
 {
 "date": "2026-10-30",
 "headline": "Update - Notification of buy-back - CVN",
@@ -106767,29 +114214,29 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:08:43+00:00",
+"fetched": "2026-11-07T21:58:19+00:00",
 "header": {
 "dateListed": "1984-08-16",
 "displayName": "CARNARVON ENERGY LIMITED",
 "industryGroup": "Energy",
-"marketCap": 196572241,
-"priceAsk": 0.11,
-"priceBid": 0.105,
-"priceChange": -0.0050000000000000044,
-"priceChangePercent": -4.545454545454549,
-"priceLast": 0.105,
+"marketCap": 178435538,
+"priceAsk": 0.105,
+"priceBid": 0.1,
+"priceChange": 0,
+"priceChangePercent": 0,
+"priceLast": 0.1,
 "sector": "Energy",
 "securityType": 1,
 "statusCode": "",
 "symbol": "CVN",
-"volume": 542630,
+"volume": 1802133,
 "xid": "83935"
 },
 "key-statistics": {
 "cashFlow": -1.068,
 "currency": "AUD",
 "earningsPerShare": -0.00237,
-"enterprisevalue": 99.26303,
+"enterprisevalue": 81.21704,
 "foreignExempt": false,
 "freeCashFlowYield": -1.00000010000001e-05,
 "incomeStatement": [
@@ -106823,12 +114270,12 @@
 }
 ],
 "isin": "AU000000CVN8",
-"numOfShares": 1787020376,
-"priceAsk": 0.11,
-"priceBid": 0.105,
-"priceClose": 0.11,
-"priceDayHigh": 0.1075,
-"priceDayLow": 0.105,
+"numOfShares": 1784355376,
+"priceAsk": 0.105,
+"priceBid": 0.1,
+"priceClose": 0.1,
+"priceDayHigh": 0.10250000000000001,
+"priceDayLow": 0.1,
 "priceEarningsRatio": -99999.99,
 "priceFiftyTwoWeekHigh": 0.14,
 "priceFiftyTwoWeekLow": 0.083,
@@ -106836,7 +114283,7 @@
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 271.945,
 "totalLiabilities": 4.634,
-"volumeAverage": 1679691.244444,
+"volumeAverage": 1674807.411111,
 "yieldAnnual": 0
 }
 },
@@ -107292,29 +114739,29 @@
 }
 ],
 "errors": [],
-"fetched": "2026-11-01T18:08:48+00:00",
+"fetched": "2026-11-07T21:58:25+00:00",
 "header": {
 "dateListed": "2006-11-03",
 "displayName": "CARAVEL MINERALS LIMITED",
 "industryGroup": "Materials",
-"marketCap": 108958699,
+"marketCap": 111752512,
 "priceAsk": 0.2,
-"priceBid": 0.185,
-"priceChange": -0.0050000000000000044,
-"priceChangePercent": -2.564102564102566,
-"priceLast": 0.19,
+"priceBid": 0.18,
+"priceChange": -0.015000000000000013,
+"priceChangePercent": -7.500000000000006,
+"priceLast": 0.185,
 "sector": "Materials",
 "securityType": 1,
 "statusCode": "",
 "symbol": "CVV",
-"volume": 552072,
+"volume": 252792,
 "xid": "5892637"
 },
 "key-statistics": {
 "cashFlow": -13.33891,
 "currency": "AUD",
 "earningsPerShare": -0.03637,
-"enterprisevalue": 103.2719,
+"enterprisevalue": 97.6843,
 "foreignExempt": false,
 "freeCashFlowYield": -1.00000010000001e-05,
 "incomeStatement": [
@@ -107351,18 +114798,18 @@
 "numOfShares": 558762558,
 "opCashFlowRevTTM": -2571.822,
 "priceAsk": 0.2,
-"priceBid": 0.185,
-"priceClose": 0.195,
-"priceDayHigh": 0.20500000000000002,
+"priceBid": 0.18,
+"priceClose": 0.2,
+"priceDayHigh": 0.2,
 "priceDayLow": 0.18,
 "priceEarningsRatio": -99999.99,
 "priceFiftyTwoWeekHigh": 0.525,
-"priceFiftyTwoWeekLow": 0.165,
+"priceFiftyTwoWeekLow": 0.17,
 "priceToCash": -99999.99,
 "shareDescription": "Ordinary Fully Paid",
 "totalAssets": 26.04855,
 "totalLiabilities": 34.44688,
-"volumeAverage": 419805.522222,
+"volumeAverage": 413609.522222,
 "yieldAnnual": 0
 }
 },
