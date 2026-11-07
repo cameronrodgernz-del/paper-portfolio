@@ -147,6 +147,11 @@ with tempfile.TemporaryDirectory() as d, tempfile.TemporaryDirectory() as rr:
     research_words = ("deep dive", "red team", "outcomes", "dated event", "excluded", "wait until Cam", "reopened")
     check("a complete research card has no research refusals", not any(any(w in b for w in research_words) for b in good["breaches"]), good["breaches"])
     check("a research pick is capped at 2.5% of the portfolio", good["value_nzd"] <= 0.025 * 100500 + 1, good["value_nzd"])
+    check("a strong research card clears the minimum gain", not any("research minimum" in b for b in good["breaches"]), good["breaches"])
+    thin_px = prices.last_close("ASX", "CWY", "2026-10-29")
+    thin = decide(L, prices, fx, rates, cfg, dict(rc, outcomes=[[0.3, thin_px * 0.97], [0.5, thin_px * 1.03], [0.2, thin_px * 1.06]]),
+                  now, dry_run=True)
+    check("a research card below cash plus 5% a year is refused", any("research minimum" in b for b in thin["breaches"]), thin["breaches"])
     nodd = decide(L, prices, fx, rates, cfg, dict(rc, deep_dive=""), now, dry_run=True)
     check("a research card with no deep dive is refused", any("deep dive" in b for b in nodd["breaches"]), nodd["breaches"])
     two = decide(L, prices, fx, rates, cfg, dict(rc, outcomes=[[0.6, 3.5], [0.4, 2.5]]), now, dry_run=True)

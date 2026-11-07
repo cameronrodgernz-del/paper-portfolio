@@ -60,7 +60,8 @@ The research funnel (rebuilt 2 November 2026, rulebook section 5a change log):
    sources, argues against buying, and writes research/red_team/<TICKER>.md ending with a "## Verdict"
    section (proceed, proceed smaller, wait for a named event, or don't buy).
 7. If the verdict is proceed or proceed smaller, and the price is below the value the stated chances give
-   by more than the costs, write research/cards/<TICKER>.json:
+   by more than the costs, and the expected gain after costs is at least the cash rate plus 5% a year over the holding
+   period (rulebook section 5a), write research/cards/<TICKER>.json:
    {"sleeve": "research", "market": "ASX" or "NZX", "ticker": ..., "company": ..., "side": "buy",
     "thesis": "...", "outcomes": [[chance, price] for bad, middling, good], "resolve_by": "YYYY-MM-DD",
     "exit_rule": "...", "industry": "...", "deep_dive": "research/picks/<TICKER>.md",

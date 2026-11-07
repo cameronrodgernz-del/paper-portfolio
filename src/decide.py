@@ -161,6 +161,7 @@ def untested(card: dict, root: str = ROOT) -> str | None:
 
 
 RESEARCH_ROOT = ROOT          # where deep dives, red-team reviews and the excluded list are read (tests point it elsewhere)
+RESEARCH_MARGIN = 0.05        # a research pick's expected gain after costs must beat cash by 5% a year (section 5a)
 SECTOR_HOLD = ("gaming", "wagering", "racing", "lotter", "casino", "betting", "gambling", "pokie")
 
 
@@ -318,6 +319,11 @@ def decide(L: Ledger, prices: Prices, fx: FX, rates: Rates, cfg: dict, card: dic
             breaches.append(why)
         if sleeve == "research":
             breaches += research_checks(card, prices, today, RESEARCH_ROOT)
+            # the minimum gain (rulebook section 5a, from 8 Nov 2026): cash plus 5% a year over the holding period
+            need = (rate + RESEARCH_MARGIN) * max(days, 1) / 365
+            if net < need:
+                breaches.append(f"expected return after costs {net:.1%} to {card['resolve_by']} is below the research minimum "
+                                f"of {need:.1%} (the cash rate {rate:.1%} plus {RESEARCH_MARGIN:.0%} a year, over {days} days)")
         out.update(sizing=sz, value_nzd=round(want, 2), costs=costs, expected_net=round(net, 4),
                    expected_annual=round(exp_annual, 4), cash_rate=rate)
     else:

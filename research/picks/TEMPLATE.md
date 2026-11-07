@@ -55,6 +55,9 @@ the market is wrong, there is no trade.
 Chances add to 100%. These go on the card exactly as written here. Each outcome's price comes from the
 valuation range above (what the market would pay for the business in that outcome by the resolve date), not
 from today's price plus or minus a step. Say which valuation figure each one uses.
+Then the expected price, the round-trip costs, and the expected gain after costs against the minimum (rulebook section
+5a, from 8 Nov 2026): the cash rate plus 5% a year over the days to the resolve date. A case below the minimum is not
+a case for review, whatever the gap.
 
 ## Dated events
 The events expected to show the market is wrong (results, a contract, a regulator decision, a sale
