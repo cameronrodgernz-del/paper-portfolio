@@ -15,7 +15,7 @@ Trajan makes the small, precise parts that laboratories use to analyse samples: 
 
 Founder Stephen Tomisich is chief executive and managing director. His family company (Tomisich Family Pty Ltd) owned all of Trajan before the June 2021 listing at A$1.70, sold 23.5m shares into the float (about A$40m) and kept 76,470,588 [S22]. It now holds 76,978,851 shares, 50.36% [S1 remuneration report, S25]. Other substantial holders: MA Financial Group 16,051,646 (10.53%, notice of 2 September 2025, not the 9.53% the annual report lists) and AustralianSuper 9,958,728 (6.55%, May 2023 notice) [S26]. Investors Mutual sold out in June and July 2026 (fact sheet, scanned notices). The top 20 hold 127.9m shares (83.6%); there are 1,781 holders, 877 with less than a marketable parcel [S1].
 
-Five years: revenue A$107.6m (FY22), A$162.2m (FY23, after four acquisitions), A$155.0m (FY24), A$166.5m (FY25), A$161.4m (FY26) [S21, S16, S11, S1]. Group nEBITDA A$19.5m in FY23 (restated), then A$12.3m, A$15.5m and A$13.2m [S16, S11, S1]. Statutory results: profit A$1.9m in FY23, then losses of A$25.3m (FY24, a A$26.7m impairment of the Neoteryx microsampling business), A$4.5m and A$0.6m [S29, S17]. The shares listed at A$1.70, a 2022 placement was at A$2.00, and the price is now A$0.255, down 85% [S22, S23].
+Five years: revenue A$107.6m (FY22), A$162.2m (FY23, after four acquisitions), A$155.0m (FY24), A$166.5m (FY25), A$161.4m (FY26) [S21, S16, S11, S1]. Group nEBITDA A$19.5m in FY23 (restated), then A$12.3m, A$15.5m and A$13.2m [S16, S11, S1]. Statutory results: profit A$1.9m in FY23, then losses of A$25.3m (FY24, after a A$26.7m impairment, mostly the Neoteryx microsampling business), A$4.5m and A$0.6m [S29, S17]. The shares listed at A$1.70, a 2022 placement was at A$2.00, and the price is now A$0.255, down 85% [S22, S23].
 
 ## Why big investors may be overlooking it
 - Size and index: market value about A$39m; removed from the S&P/ASX All Ordinaries from 22 September 2025 (S&P DJI notice of 5 September 2025) [S24]; not in the ASX 300.
@@ -88,7 +88,7 @@ Lease payments sit below nEBITDA under the lease accounting standard, so they ha
 | less capital spending | 4.1 | 3.4 | 3.5 | 3.5 | 3.5 |
 | less interest, bank charges, early settlement | 3.9 | 3.8 | 3.8 | 3.8 | 3.8 |
 | less tax paid | 0.4 | 0.75 | 1.0 | 1.0 | 1.0 |
-| Cash earnings before working capital | 2.5 | 0.7 | 3.3 | 4.0 | 4.8 |
+| Cash earnings before working capital | 2.4 | 0.7 | 3.3 | 4.0 | 4.8 |
 | Per share | 1.6c | 0.5c | 2.1c | 2.6c | 3.1c |
 
 Actual free cash after leases (operating cash flow less capital spending less lease principal) was A$4.5m in FY25 and minus A$5.6m in FY26, when working capital took A$5.2m (payables down A$5.5m, inventory up) [S1, S3]. The A$44.3m of secured loans switched to principal-and-interest from 30 June 2026, with A$3.0m due within a year [S1]. At the guidance midpoint that leaves about A$1.0m of free cash after required repayments, unless working capital comes back. Q1's A$1.6m cut in net debt suggests some of it is [S4].
@@ -108,7 +108,7 @@ Equity A$98.5m, of which goodwill and acquired intangibles A$80.9m (82%); tangib
 ### Holders and dealings
 - Tomisich bought 100,106 shares on market on 19 to 26 November 2025 for A$65,053, about A$0.65 [S25]. No director has bought since, except Tiffiny Lewin's 17,721 shares on market at A$0.40 on 31 March 2026 [S25]; nobody bought at A$0.145 to A$0.20 in June to September 2026.
 - MA Financial built its stake from 5.47% (May 2024) to 10.53% (August 2025), paying about A$0.75 to A$0.95 in 2025 [S26].
-- Price path (Norgate): A$0.67 before the 5 February 2026 update, A$0.43 after the March letter, A$0.20 at 30 June 2026 while Investors Mutual sold, a low of A$0.145 on 28 August and 11 September 2026 (2.16m shares traded on 11 September), then A$0.24 to A$0.29 from 22 September. The price rose from A$0.235 on 2 October to A$0.29 on 7 October, the day before the Q1 update. The numeric guidance at the AGM moved nothing.
+- Price path (Norgate): A$0.67 before the 5 February 2026 update, A$0.43 after the March letter, A$0.20 at 30 June 2026 while Investors Mutual sold, a low of A$0.145 on 28 August and 11 September 2026 (2.16m shares traded on 11 September), then A$0.24 to A$0.29 from 22 September. The price rose from A$0.235 on 2 October to A$0.29 on 7 October, the day before the Q1 update. The numeric guidance at the AGM barely moved the price (A$0.25 to A$0.26).
 
 ## Valuation
 Done from the filings and peers' prices. The measure the market uses for small lab-tools makers is enterprise value over EBITDA. Peers reporting under US rules carry lease costs inside EBITDA, so the fair comparison is Trajan's enterprise value without leases over EBITDA after lease payments. Trajan's after-lease EBITDA, net of the recurring "one-offs", was A$8.7m in FY26, A$11.75m on the rolling 12 months to September, and A$11.75m, A$12.5m and A$13.25m at the bottom, middle and top of FY27 guidance.
@@ -121,7 +121,7 @@ The fact sheet's "our way" value of A$0.88 applies the average of Trajan's three
 ### Peers on today's prices
 | Company | What it is | EV / EBITDA after leases | Notes |
 | --- | --- | --- | --- |
-| Harvard Bioscience (Nasdaq: HBIO) | US lab instruments, about US$88m revenue | 8.2 to 8.9 times | EV US$71.6m (US$8.36 on 6 Nov 2026, 4.55m shares, net debt US$33.5m); adjusted EBITDA US$8.1m in 2025, 2026 guided up 6% to 10% [P2]. Debt about 4 times EBITDA, a 2025 goodwill impairment, refinanced at a high rate |
+| Harvard Bioscience (Nasdaq: HBIO) | US lab instruments, about US$88m revenue | 8.2 to 8.9 times | EV US$71.6m (US$8.36 on 6 Nov 2026, 4.55m shares, net debt US$33.5m); adjusted EBITDA US$8.1m in 2025, 2026 guided up 6% to 10% [P2]. Debt about 4 times EBITDA, a 2025 goodwill impairment, refinanced in the past year (unamortised financing costs up from US$0.5m to US$3.3m) |
 | Mesa Labs (Nasdaq: MLAB) | US quality-control consumables and instruments | about 12.5 times | EV about US$830m (US$128.25, 5.60m shares, net debt US$112.6m); EBITDA backed out of its reported 1.85 times covenant net debt ratio, about US$66m [P3, P4] |
 | Avantor (NYSE: AVTR) | Lab consumables and chemicals | 15.1 times | Statutory EBITDA US$906m over the 12 months to September 2026; EV US$13.7bn [P4] |
 | Agilent (NYSE: A) | Instruments and chromatography consumables | 26.9 times | Statutory EBITDA US$1.91bn over the 12 months to July 2026; EV US$51.5bn [P4] |
@@ -146,7 +146,7 @@ Free cash flow to the business is after-lease EBITDA less capital spending (A$3.
 The input that moves this most is the discount rate: a point either way moves the middling value by about 8c.
 
 ### Method C: the market's own multiple on rolling pre-lease nEBITDA
-In September 2026 the market paid about 4.2 times rolling nEBITDA (A$0.155); today it pays 5.1 times. At 4.3 times on A$14.5m (bad), 5.75 times on A$15.9m (middling) and 6.75 times on A$16.6m (good), less net debt and A$10.5m of leases: A$0.117, A$0.317 and A$0.458.
+In September 2026 the market paid about 5.2 times FY26 nEBITDA (A$0.155, before the Q1 update); today it pays 5.1 times the rolling figure. At 4.3 times on A$14.5m (bad), 5.75 times on A$15.9m (middling) and 6.75 times on A$16.6m (good), less net debt and A$10.5m of leases: A$0.117, A$0.317 and A$0.458.
 
 ### Range
 Bad A$0.09 to A$0.15 (I use A$0.14); middling A$0.29 to A$0.33 (A$0.31); good A$0.46 to A$0.52 (A$0.48). The middling value depends on the business holding its H2 FY26 rate through FY27; the good value depends on the market paying a Harvard Bioscience-type multiple before the full year is in; the bad value depends on net debt staying above A$34m. A trade buyer paying 9.5 times after-lease EBITDA for the top of guidance (A$126m less A$31.5m) gives about A$0.62, still well short of A$0.88, and it would need the founder to sell.
@@ -223,7 +223,7 @@ It becomes no case on a guidance cut, a covenant waiver or a capital raising.
 ## Checks
 - Not on Cam's excluded list: config/judgement_excluded.csv lists no companies. Trajan makes scientific instruments and consumables, not gaming, wagering or racing.
 - No placement-pattern reopening in the last 30 sessions: no capital raising since the July 2022 placement and share purchase plan at A$2.00 [S23]; only option exercises and small quotations since [S29].
-- Liquidity (rechecked from data/norgate/universe/prices_2026.csv.gz, volume times close): median A$16,133 a day over the 20 ASX sessions from 5 to 30 October 2026, counting 21 October, when no trade is recorded, as zero; lowest traded session A$16 (2 October); two sessions under A$1,000 and five under A$3,227. Median over 120 sessions A$17,240, with 20% of sessions under A$3,227. Four sessions since July had no trade (17 July, 6 August, 7 September, 21 October). Section 3 allows two sessions at 10% of the median, about A$3,227; the research cap of 2.5% (NZ$2,500, about A$2,016 at NZ$1 = A$0.8064 on 6 November 2026, data/fx/fx_daily.csv) binds first, above the A$1,500 minimum order. At that size an order is about 11% of a median day, so a sale in a bad week could take two or three sessions.
+- Liquidity (rechecked from data/norgate/universe/prices_2026.csv.gz, volume times close): median A$16,133 a day over the 20 ASX sessions from 5 to 30 October 2026, counting 21 October, when no trade is recorded, as zero; two sessions under A$1,000 and five under A$3,227; the lowest traded session in October was A$16 (2 October). Median over 120 sessions A$17,240, with 20% of sessions under A$3,227. Four sessions since July had no trade (17 July, 6 August, 7 September, 21 October). Section 3 allows two sessions at 10% of the median, about A$3,227; the research cap of 2.5% (NZ$2,500, about A$2,016 at NZ$1 = A$0.8064 on 6 November 2026, data/fx/fx_daily.csv) binds first, above the A$1,500 minimum order. At that size an order is about 12% of a median day, so a sale in a bad week could take two or three sessions.
 - TRJ isn't in data/prices/ASX or config/universe_trial.csv, so the nightly price fetch would need a line before any card.
 
 ## Corrections to the fact sheet
@@ -235,7 +235,7 @@ It becomes no case on a guidance cut, a covenant waiver or a capital raising.
 6. Removed from the All Ordinaries from 22 September 2025 [S24].
 7. The CFO resigned on 25 March 2026 (two days before the "remain committed" letter) and leaves on 11 November 2026; the CFO is interim [S9].
 8. Revenue guidance was trimmed between 27 August (mid-single digit organic growth) and 28 October 2026 (about 2%) at unchanged exchange rates [S2, S5].
-9. The bad case is lower than A$0.21: the market paid A$0.145 to A$0.17 (about 4.2 times rolling nEBITDA) in August and September 2026, and the 52-week low is A$0.145.
+9. The bad case is lower than A$0.21: the market paid A$0.145 to A$0.17 (about 5.2 times FY26 nEBITDA) in August and September 2026, and the 52-week low is A$0.145.
 10. nEBITDA includes the balance-sheet currency revaluation (A$1.3m cost in H1 FY26); the hedge book was a A$0.2m liability at 30 June 2026, so there is no material hidden hedge gain [S6, S1].
 11. The "our way" A$0.88 needs about 12.5 times after-lease EBITDA; it is not a middling value and not even this note's good case.
 
