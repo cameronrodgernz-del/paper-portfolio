@@ -42,7 +42,9 @@ The research funnel (rebuilt 2 November 2026, rulebook section 5a change log):
    template, the ranking row and these source notes. Grade each A, B or C as the template says.
 5. Deep dives: up to four a week, from the A grades, taking first the ones that lose least if the question goes
    against us (the sheet's "if it goes against us" gap), varying the sectors; then B grades whose event is now
-   close. The "our way" gap is easy to make large on a distressed company, so it decides the grade, not the order. Write each in the format of research/picks/TEMPLATE.md, from primary sources only: the ASX or
+   close. The "our way" gap is easy to make large on a distressed company, so it decides the grade, not the order. Value
+   picks (rulebook section 5a, from 8 Nov 2026) may run up to 24 months and need no forcing event: the bad case no
+   more than 10% below the price and the middling case at least 25% above it. Write each in the format of research/picks/TEMPLATE.md, from primary sources only: the ASX or
    NZX announcements, the annual and half-year reports, the Companies Office or ASIC register, substantial
    holder notices, director dealings, regulator and court records. Take the price from the latest close
    (data/prices or the exchange). Use at least two valuation methods and show the arithmetic. Cite every

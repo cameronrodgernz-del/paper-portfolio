@@ -54,7 +54,8 @@ is announced or inferred from last year.
 
 ## 7. Grade
 - A, deep dive now: the gap if it goes our way is 40% or more, the question can be answered from filings, and an event
-  inside six months should show the answer.
+  inside six months should show the answer. Or, for a value pick (rulebook section 5a), the gap if it goes our way is 40%
+  or more and the value if it goes against us is no more than 10% below the price, with no need for a forcing event.
 - B, deep dive when its event is close: the gap is 25% or more but the deciding event is further away, or the answer
   needs the event itself.
 - C, no deep dive: the gap if it goes our way is under 25%, or a kill fact applies. Say which.
