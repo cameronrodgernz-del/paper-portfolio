@@ -31,7 +31,7 @@ The gap between statutory and underlying profit recurs. Webjet fair value moves 
 What else the headline numbers hide:
 - Cash conversion is poor. Over FY25 and FY26 operating cash flow totalled A$6.6m against A$115.8m of underlying EBITDA [3]. FY26 pre-tax operating cash (A$46.5m) was 77% of underlying EBITDA; FY25's was 15%. Part is timing (client money, catch-up tax), but a deep dive has to show it.
 - The "net cash about 28% of market value" in the ranking is client and IATA money. Ex the Webjet shares, current liabilities exceed current assets, and debt goes from A$35.0m to about A$136m with Crown [3][9].
-- Webjet: Helloworld paid A$61.4m for Webjet shares in FY25 and FY26 (cash flow statements) and holds 78,250,205 shares, carried at A$32.1m (A$0.41) at June 2026 [1][3]. Its own offer of A$0.90 a share would have valued the stake at A$70.4m [4].
+- Webjet: Helloworld paid A$61.4m for Webjet shares in FY25 and FY26 (cash flow statements; about A$0.78 a share across the 78,250,205 it holds), carried at A$32.1m (A$0.41) at June 2026 [1][3]. Its own offer of A$0.90 a share would have valued the stake at A$70.4m [4]. Webjet's own buy-back has lifted the stake to about 20.47% of Webjet's shares [30].
 - Book value is all intangibles: NTA was minus 15.6c before Crown, which adds about A$135m more of goodwill and intangibles [7][9].
 - Underlying EBITDA has fallen two years in three: A$66.3m in FY24, A$60.6m in FY25 as first reported, A$60.2m in FY26 [7][11].
 - Concentration: the Qantas deal covers about A$1.5bn of TTV over three years, and FY26's fourth quarter lost override income from Middle Eastern carriers [12][13].
@@ -63,7 +63,7 @@ Director on-market trades, last 12 months: Martin Pakula bought 2,500 shares for
 Capital raisings in the last two years: none for cash. Shares issued as acquisition consideration: 23,429,610 to Crown's vendors on 30 Oct 2026, valued at A$33.75m (A$1.44 a share) [10][25]; 113,636 to the Phil Hoffmann Travel vendor on 21 Nov 2025 [26]; and 1,738,002 under the 2024 franchisee member share loyalty program (released from escrow 31 Oct 2026) [27].
 
 ## 5. Dated events to 8 May 2027
-- Webjet's half-year result: about 18 Nov 2026 (inferred from 19 Nov 2025). Moves the value of the 20.29% stake; Helloworld says it continues "to assess its options" on it [3].
+- Webjet's half-year result: 18 Nov 2026 (announced by Webjet). Moves the value of the stake; Helloworld says it continues "to assess its options" on it [3]. From about 18 to 19 Nov 2026 Helloworld, above 19% of Webjet since 18 May 2026, can add up to 3 points every six months without a bid (about 2.4 points to roughly 22.9%, about A$2.6m at A$0.275) [30]. It nominated Andrew and Cinzia Burnes to Webjet's board on 29 Jun 2026 and withdrew them on 24 Aug 2026 [31].
 - H1 FY27 result: about 25 Feb 2027 (inferred from 25 Feb 2026; the ranking file has 2027-02-25). First four months of Crown, the new debt and its terms, the Webjet mark at December, cash conversion, and progress against A$78m to A$84m.
 - Interim dividend: about March 2027 (inferred from 17 Mar 2026).
 - A guidance update: last year's came on 5 Jun 2026 and the year before on 8 May 2025, so one may land at the edge of this window.
@@ -77,6 +77,7 @@ Capital raisings in the last two years: none for cash. Shares issued as acquisit
 - If it goes against us: core EBITDA stays at FY25's restated A$55.6m with no growth, only 77% of it turns into pre-tax cash (FY26's rate, the better of the two years), Crown is worth only what was paid (A$135m), and the cash on the balance sheet is treated as client money. A$55.6m x 0.772 less A$5.2m leases, A$3.9m capital spending and A$9.5m tax is A$24.3m a year, at 11.5% with no growth A$211.4m. Plus Crown A$135m, less A$136.25m debt: A$210.1m. Plus Webjet:
   - at market (A$21.5m): A$231.7m, or A$1.24 a share;
   - at carrying value (A$32.1m): A$242.2m, or A$1.29 a share.
+- Cross-check written after the sheet: the desk's Webjet deep dive (research/picks/WJL.md, 2 Nov 2026) values Webjet at about A$0.22 a share on its filings (range A$0.10 to A$0.50). At A$0.22 the stake is A$17.2m, which takes about 2c a share off the "at market" values above (A$2.75 and A$1.21, the latter 9% below the price) and doesn't change the grade.
 - Price: A$1.34 (close 30 Oct 2026; A$1.355 on 6 Nov 2026), market value A$251m on 187.1m shares. Gap if it goes our way: 2.77 / 1.34 - 1 = +107% with Webjet at market (+111% at carrying value). Gap if it goes against us: 1.24 / 1.34 - 1 = -8% with Webjet at market (-4% at carrying value).
 
 ## 7. Grade
@@ -112,3 +113,5 @@ A, deep dive now, and a value pick: the gap if it goes our way is over 100% on e
 27. Release of Shares from Voluntary Escrow, 28 Oct 2026 (03158553): https://announcements.asx.com.au/asxpdf/20261028/pdf/075x63b6x4qky0.pdf
 28. HLO Acquires 100% of Mobile Travel Holdings (MTA), 21 Oct 2025 (03012871): https://announcements.asx.com.au/asxpdf/20251021/pdf/06qt7ycj6k89g1.pdf
 29. Prices and volumes: data/norgate/universe/prices_2026.csv.gz (Norgate), 5 to 30 Oct 2026, incl. WJL closes of A$0.41 (30 Jun 2026) and A$0.275 (30 Oct 2026); last trades from data/research_data/asx_company.json (fetched 7 Nov 2026 UTC).
+30. Webjet register and creep rule, as set out in research/picks/WJL.md from: Change in substantial holding (Helloworld Form 604), 20 May 2026 (03096004): https://announcements.asx.com.au/asxpdf/20260520/pdf/06zsvxh61v75fk.pdf ; Helloworld notice of 17 Mar 2026 (03073197): https://announcements.asx.com.au/asxpdf/20260317/pdf/06xjlmvxlccm91.pdf ; Corporations Act s611 item 9 (3% creep) and item 19 (buy-backs). Not re-read by this desk.
+31. WJL: Receipt of Director Nominations, 29 Jun 2026 (03108737): https://announcements.asx.com.au/asxpdf/20260629/pdf/0713h5rg41znzy.pdf ; Withdrawal of Helloworld Director Nominations, 24 Aug 2026 (03128790): https://announcements.asx.com.au/asxpdf/20260824/pdf/0733ksl1j3xp54.pdf ; date of Webjet's result from its own notice as cited in research/picks/WJL.md.

@@ -117,5 +117,5 @@ A, deep dive now, and a value pick at the ranking price: the gap if it goes our 
 29. Change of Director's Interest Notice (J Pager), 21 Oct 2026 (03154946): https://announcements.asx.com.au/asxpdf/20261021/pdf/075kwg4p9cjdb3.pdf
 30. Change of Director's Interest Notice (Davis), 15 Oct 2026 (03152604): https://announcements.asx.com.au/asxpdf/20261015/pdf/075brrb6z0x79x.pdf
 31. Change of Director's Interest Notice (A Davis), 22 Oct 2026 (03155503): https://announcements.asx.com.au/asxpdf/20261022/pdf/075mfgjtx4xx5r.pdf
-32. Change of Director's Interest Notice (Davis), 1 Jun 2026 (03099782) and 9 Jul 2026 (03113652)
+32. Change of Director's Interest Notice (Davis), 1 Jun 2026 (03099782): https://announcements.asx.com.au/asxpdf/20260601/pdf/0705yw9jgzldw6.pdf ; and 9 Jul 2026 (03113652): https://announcements.asx.com.au/asxpdf/20260709/pdf/071kkhtmjngvwd.pdf
 33. Prices and volumes: data/norgate/universe/prices_2026.csv.gz (Norgate), 5 to 30 Oct 2026; last trade from data/research_data/asx_company.json.
