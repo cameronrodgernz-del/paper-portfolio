@@ -29,7 +29,7 @@ Any "yes" ends the sheet here, with the fact and its link. Nothing else ends it.
 The gap between statutory and underlying profit recurs. Value changes and impairments swing every year (a $90.2m gain and $26.0m impairment in FY25, a $32.8m gain and $9.7m reversal in FY26), and losses on site sales and restructuring appeared in both years ($0.9m, then $9.3m), so they are not one-offs. The underlying figure also adds realised resale gains and development margin in both years; those are real cash when units settle, but development margin depends on the build programme.
 
 What the headline numbers hide:
-- Cash. Underlying profit was 8.8c a share, but free cash flow from operations has been negative for two years (-$41.7m, then -$15.0m) and no dividend has been paid in that time [1][2][12]. FY26's -$15.0m is after taking out a $14.0m one-off GST refund [2].
+- Cash. Underlying profit was 8.8c a share, but free cash flow from operations has been negative for two years (-$41.7m, then -$15.0m) and no dividend has been paid in that time [1][2][11]. FY26's -$15.0m is after taking out a $14.0m one-off GST refund [2].
 - Debt costs. The $125m OCA010 bond at 2.3% falls due in October 2027; the new OCA030 bond costs 5.55%. On $125m that is $4.1m a year more interest [1][7].
 - Book value is almost all property at valuer's figures: over 90% of total assets, valued by CBRE [1]. Completed villages ($852.8m, the valuer's figure net of what is owed to residents) are valued with discount rates of 14.0% to 20.0% (median 14.8%) and price growth of 0% to 3.0% for four years; care land and buildings ($835.9m) by capitalising earnings before rent at 12.0% to 15.0%. Unsold stock is $227m [1][4]. The seven sites sold in FY26 went "at or around carrying value", with $7.2m of losses on sale and associated costs booked in the village segment [1][5].
 - Customer concentration: government aged care subsidies were $98.9m, 37% of revenue [1].
@@ -37,21 +37,21 @@ What the headline numbers hide:
 - A $4.6m Holidays Act remediation provision, still being worked through [1].
 
 ## 3. Guidance and record
-- May 2025: targeted $10m to $15m of yearly cost savings (later $15m to $20m), gearing back to 30% to 35%, and full development cost recovery at The Helier [4][11]. Delivered: $13.2m of savings in FY26 with $20.4m annualised for FY27; gearing 30.1% [4].
+- May 2025: targeted $10m to $15m of yearly cost savings (later $15m to $20m), gearing back to 30% to 35%, and full development cost recovery at The Helier by FY26 [4]. Delivered: $13.2m of savings in FY26 with $20.4m annualised for FY27; gearing 30.1%; The Helier at 97% of cost recovered, including interest, in May 2026 [2].
 - 2 March 2026: expected six divestments for about $50m by 31 March 2026 (against an earlier target of four for about $40m in FY26). Delivered: seven sites for $51.1m [5][4].
-- 22 May 2026, for FY27: free cash flow from operations to turn positive; dividends to resume when it does; 81 new units across three sites; about $30m of cost and cash savings [2][4]. No change since in the 2026 announcements [12].
-- Oceania gives no earnings guidance. Record: the cost, gearing and divestment targets of the last two years were met or beaten; the cash flow target is the open one.
+- 22 May 2026, for FY27: free cash flow from operations to turn positive; dividends to resume when it does; 81 new units across three sites; about $30m of cost and cash savings [2][4]. No change since in the 2026 announcements [11].
+- Oceania gives no earnings guidance. Record: the cost, gearing and divestment targets of the last two years were met or beaten, The Helier's recovery came in just short, and the cash flow target is the open one.
 
 ## 4. Who owns it and who is moving
 - Largest registered holders at 31 March 2026: Forsyth Barr Custodians 16.23%, BNP Paribas Nominees 12.67%, Lennon Holdings 4.98%, ACC 4.81%, Generate KiwiSaver 4.39%, Tomlinson Group Investments 3.85%; the top 20 hold 69.6% [1].
 - Substantial holder changes in the last 12 months [8]:
   - Forsyth Barr Investment Management: up from 11.24% to 12.24% (11 February 2026).
   - ANZ (related bodies together): down from 11.93% to 10.83% (14 November 2025), 9.78% (23 December 2025) and 6.64% (27 February 2026).
-- Director on-market trades in the last 12 months: none found in the 2025 and 2026 announcement lists. The only director and officer notices are shares issued under staff plans to the chief executive (18,350) and chief financial officer (13,917) on 28 July 2026, which don't count [6][12].
+- Director on-market trades in the last 12 months: none found in the 2025 and 2026 announcement lists. The only director and officer notices are shares issued under staff plans to the chief executive (18,350) and chief financial officer (13,917) on 28 July 2026, which don't count [6][11].
 - Capital raisings in the last two years: none. The OCA030 bond ($125m, 1 July 2026) is debt [7]. Staff share issues are offset by the buyback of up to 3.5m shares to 31 July 2027; 120,740 were bought back in August 2026 [6].
 
 ## 5. Dated events to 8 May 2027
-- 19 November 2026: 1H27 result (announced, and on NZX's calendar) [12]. The first look at whether free cash flow from operations is turning positive.
+- 19 November 2026: 1H27 result (announced, and on NZX's calendar) [11]. The first look at whether free cash flow from operations is turning positive.
 - To 31 July 2027: buybacks to offset staff share issues (announced) [6].
 - During FY27, mostly the second half: 81 new units at Franklin, Bream Bay and Elmwood (announced) [2].
 - 31 March 2027: FY27 year end, the date by which free cash flow is meant to be positive. The FY27 result follows in about late May 2027, after this window (inferred from 22 May 2026).
@@ -62,8 +62,8 @@ What the headline numbers hide:
 - The question: does Oceania's free cash flow from operations turn positive in FY27, as targeted, so that the $1.62 of NTA starts to produce cash and dividends restart? It was -$41.7m in FY25 and -$15.0m in FY26. The 19 November half-year result shows the first half.
 - If it goes our way: property at its stated value less debt, the reported NTA: equity $1,177.9m less $4.0m of intangibles, over 724.2m shares, $1.62.
 - If it goes against us: twice the company's own sensitivities: village price growth 1 point lower ($97.2m), village discount rate 1 point higher ($59.7m), care land and buildings valued at 1 point higher capitalisation rates ($100.3m), and unsold stock 15% below book ($34.1m): $291.3m, 40.2c a share, a stressed NTA of $1.22. (A flat 15% cut to all $1,873m of property net of resident balances gives about the same, $1.23.) Valued at the peers' average of 0.445 times NTA (below), $0.54.
-- Only now the price: the close on 6 November 2026 was $0.66 (bid $0.655, offer $0.67) [12]. Gap if it goes our way, 1.62 / 0.66 less 1 = +145.6%. Gap if it goes against us, 0.54 / 0.66 less 1 = -17.9% (stressed NTA with no discount, +84.7%).
-- Against its peers, not only its book: Oceania trades at 0.41 times NTA. Summerset trades at 0.43 times ($6.20 against NTA of $14.41 at 30 June 2026) and Ryman at 0.46 times ($1.84 against $4.005 at 31 March 2026) [12][13][14]. So Oceania is in line with its listed peers, 5% cheaper than Summerset and 11% cheaper than Ryman: the whole listed sector is priced at under half of NTA. At the peers' average it would be $0.72 (+9%). Arvida, the other village operator, is no longer listed; Radius Residential Care runs care homes without villages and isn't comparable.
+- Only now the price: the close on 6 November 2026 was $0.66 (bid $0.655, offer $0.67) [11]. Gap if it goes our way, 1.62 / 0.66 less 1 = +145.6%. Gap if it goes against us, 0.54 / 0.66 less 1 = -17.9% (stressed NTA with no discount, +84.7%).
+- Against its peers, not only its book: Oceania trades at 0.41 times NTA. Summerset trades at 0.43 times ($6.20 against NTA of $14.41 at 30 June 2026) and Ryman at 0.46 times ($1.84 against $4.005 at 31 March 2026) [11][12][13]. So Oceania is in line with its listed peers, 5% cheaper than Summerset and 11% cheaper than Ryman: the whole listed sector is priced at under half of NTA. At the peers' average it would be $0.72 (+9%). Arvida, the other village operator, is no longer listed; Radius Residential Care runs care homes without villages and isn't comparable.
 
 ## 7. Grade
 B, deep dive when its event is close. The gap if it goes our way is 146%, but this is not a value pick: with the stressed NTA valued at the sector's discount, the "against" value is 18% below the price, outside rulebook section 5a's 10%. And the answer needs the event itself: whether FY27 free cash flow is positive. The 19 November result is the first look, so the deep dive should follow it, not precede it. The peer check matters most here: Oceania is not materially cheaper than Summerset or Ryman, so the discount to book is the sector's, and a deep dive has to show why Oceania's cash will close it when theirs hasn't.
@@ -79,7 +79,6 @@ B, deep dive when its event is close. The gap if it goes our way is 146%, but th
 8. Substantial holder notices: Forsyth Barr Investment Management https://www.nzx.com/announcements/467364 ; ANZ https://www.nzx.com/announcements/462716 , https://www.nzx.com/announcements/465137 and https://www.nzx.com/announcements/468411
 9. Proposed changes to the Retirement Villages Act 2003 (4 December 2025): https://www.nzx.com/announcements/463992
 10. NZX daily trading activity for NZOCAE0002S0, read 8 November 2026: https://api.nzx.com/public/instrument/NZOCAE0002S0/metrics/activity/past/2Y.json
-11. Oceania refinance and market update (5 March 2025): https://www.nzx.com/announcements/447846 (title and summary only)
-12. NZX company announcements, 2025 and 2026 (https://www.nzx.com/companies/OCA/announcements, read from https://api.nzx.com/public/company/OCA000000/announcements/2026/all.json and the 2025 equivalent); NZX upcoming results calendar (https://api.nzx.com/public/events/results/upcoming.json); NZX instrument pages for OCA, SUM and RYM (price, bid and offer), read 8 November 2026: https://www.nzx.com/instruments/OCA , /SUM , /RYM ; data/prices/NZX/OCA.csv
-13. Summerset results for the half year to 30 June 2026 (NTA per share $14.41) (27 August 2026): https://www.nzx.com/announcements/478631 ; https://api.nzx.com/public/announcement/478631/attachment/475522/478631-475522.pdf
-14. Ryman Healthcare FY26 results (NTA per share $4.005) (26 May 2026): https://www.nzx.com/announcements/473286 ; https://api.nzx.com/public/announcement/473286/attachment/469317/473286-469317.pdf
+11. NZX company announcements, 2025 and 2026 (https://www.nzx.com/companies/OCA/announcements, read from https://api.nzx.com/public/company/OCA000000/announcements/2026/all.json and the 2025 equivalent); NZX upcoming results calendar (https://api.nzx.com/public/events/results/upcoming.json); NZX instrument pages for OCA, SUM and RYM (price, bid and offer), read 8 November 2026: https://www.nzx.com/instruments/OCA , /SUM , /RYM ; data/prices/NZX/OCA.csv
+12. Summerset results for the half year to 30 June 2026 (NTA per share $14.41) (27 August 2026): https://www.nzx.com/announcements/478631 ; https://api.nzx.com/public/announcement/478631/attachment/475522/478631-475522.pdf
+13. Ryman Healthcare FY26 results (NTA per share $4.005) (26 May 2026): https://www.nzx.com/announcements/473286 ; https://api.nzx.com/public/announcement/473286/attachment/469317/473286-469317.pdf
