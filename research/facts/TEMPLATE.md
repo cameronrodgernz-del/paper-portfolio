@@ -50,6 +50,12 @@ is announced or inferred from last year.
   value less debt; profit back to its five-year average at a named peer multiple; net cash plus the core business at a
   stated multiple). Show the arithmetic.
 - If it goes against us: the same, on the bad answer.
+- Value it the way the market prices that kind of business, and name the mechanism that gets the price there. Listed
+  property: cash earnings after maintenance capital spending, leasing incentives and management fees (AFFO), at the
+  peers' AFFO yields, not net tangible assets; the deep dives on Argosy, Investore and Stride found each cheap on NTA
+  but priced like its peers on AFFO. Cash or assets that a controlling holder or the board keeps out of holders' reach
+  (Step One) count only through a buyback, capital return or bid. NTA or a break-up value is the good case, not "our
+  way", unless a sale, return or bid is already under way.
 - Only now compare with the price: gap if it goes our way, (value / price) - 1; gap if it goes against us.
 
 ## 7. Grade
