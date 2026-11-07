@@ -64,7 +64,7 @@ Director on-market trades, last 12 months:
 - Just outside the window: Blackburne sold 112,282 shares on market on 31 Oct and 3 Nov 2025 at an average A$8.91 [24].
 - Not counted: rights vesting (Blackburne, 198,379 shares, 31 Aug and 2 Sep 2026) and dividend plan shares [23][25].
 
-Capital raisings in the last two years: the FY25 final dividend reinvestment and bonus share plans were fully underwritten (Euroz Hartleys, Bell Potter, Shaw and Partners) at A$7.42 a share, issued 31 Oct 2025; contributed equity rose A$15.0m, of which A$11.3m was cash [4][26]. The plans were suspended for the FY26 interim dividend (announcement 03079451, 2 Apr 2026) and the final dividend [3].
+Capital raisings in the last two years: the FY25 final dividend reinvestment and bonus share plans were fully underwritten (Euroz Hartleys, Bell Potter, Shaw and Partners) at A$7.42 a share, issued 31 Oct 2025; contributed equity rose A$15.0m, of which A$11.3m was cash [4][26]. The plans were suspended for the FY26 interim dividend [28] and the final dividend [3].
 
 AGM, 5 Nov 2026: two directors (Valerie Davies, Jane Muirsmith) re-elected with about 18% of votes against; remuneration report passed with 1.9% against [15].
 
@@ -113,3 +113,4 @@ A, deep dive now. The gap if it goes our way is +49%; FY28 and FY29 earnings can
 25. Change of Director's Interest Notice, WGH, 4 Nov 2025 (03020857), shares under the bonus share plan: https://announcements.asx.com.au/asxpdf/20251104/pdf/06rj05q67nbll0.pdf
 26. DRP & BSP Pricing and Underwriting, 13 Oct 2025 (03008853): https://announcements.asx.com.au/asxpdf/20251013/pdf/06qg3f38gcpb10.pdf
 27. Peer multiple: Finbar (ASX:FRI) price-to-earnings 9.7 in data/research_data/asx_company.json. Prices and volumes: data/norgate/universe/prices_2026.csv.gz (Norgate), 5 to 30 Oct 2026.
+28. Suspension of DRP & BSP for FY26 Interim Dividend, 2 Apr 2026 (03079451): https://announcements.asx.com.au/asxpdf/20260402/pdf/06y4c88pqldwst.pdf

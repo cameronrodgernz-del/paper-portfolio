@@ -86,7 +86,7 @@ B, deep dive when its event is close. The gap if it goes our way is +34% at the 
 6. Trading Update, First Quarter FY26, 29 Oct 2025 (03017300): https://announcements.asx.com.au/asxpdf/20251029/pdf/06r69rt0cblpx0.pdf
 7. Austco Healthcare to acquire RTM Solutions, 16 Oct 2026 (03153225): https://announcements.asx.com.au/asxpdf/20261016/pdf/075dgktby2hk6p.pdf
 8. Austco Healthcare to acquire CareTech Systems, 16 Oct 2026 (03153228): https://announcements.asx.com.au/asxpdf/20261016/pdf/075dgsc6jmgm3s.pdf
-9. Austco Healthcare to acquire Medical Communications Systems, 10 Aug 2026 (03123394): https://announcements.asx.com.au/asxpdf/20260810/pdf/072l602mr8k40v.pdf ; completion, 13 Aug 2026 (03124996)
+9. Austco Healthcare to acquire Medical Communications Systems, 10 Aug 2026 (03123394): https://announcements.asx.com.au/asxpdf/20260810/pdf/072l602mr8k40v.pdf ; completion, 13 Aug 2026 (03124996): https://announcements.asx.com.au/asxpdf/20260813/pdf/072qsn0pbnnl2g.pdf
 10. Secures A$4.2m Maintenance Contract (Jurong, Singapore), 24 Jul 2026 (03117789): https://announcements.asx.com.au/asxpdf/20260724/pdf/0720d3rk3052r2.pdf
 11. Trading Update and Guidance Upgrade (FY25), 23 Jul 2025 (02971735): https://announcements.asx.com.au/asxpdf/20250723/pdf/06m1p80qk1xtg8.pdf ; FY25 Results Media Release, 26 Aug 2025 (02985311): https://announcements.asx.com.au/asxpdf/20250826/pdf/06nbf64srl6fb9.pdf
 12. CEO's Address to Shareholders, 19 Oct 2026 (03153954): https://announcements.asx.com.au/asxpdf/20261019/pdf/075h2bkz3zhvc9.pdf ; Results of Meeting (03154020): https://announcements.asx.com.au/asxpdf/20261019/pdf/075h7srbvrty5c.pdf
