@@ -17,7 +17,7 @@ Corrections to the fact sheet, for the red team:
 4. Distributable profit adds back NZ$1.2m of SIML project and disposal fees charged to SPL and eliminated on consolidation (NZ$0.6m in FY25) [T1 note 4.3]. Taken off, as capitalised interest is on the Argosy basis, FY26 AFFO is 7.38c, not 7.60c.
 
 ## The company in plain words
-Stride is two companies whose shares trade stapled together. Stride Property Ltd (SPL) owns NZ$871.8m of property directly at 31 March 2026: six office buildings (NZ$662.9m: three in Auckland, three in Wellington), two town centres (NorthWest and NorthWest Two, NZ$175.0m) and NZ$33.9m of development and other property (including 55 Lady Elizabeth Lane, Wellington, valued on a residual basis because seismic work is needed and its office tenants have left) [T1 note 3.2]. SPL also owns 49% of the Industre industrial joint venture (book NZ$264.7m; partners are institutional investors advised by JP Morgan Asset Management), 18.8% of Investore (book NZ$87.1m) and 2.2% of Diversified NZ Property Trust (NZ$4.5m) [T1 note 7.1, T4]. Stride Investment Management Ltd (SIML) manages NZ$3.3bn, including all of the above [T4]. Philip Littlewood is chief executive; David Green became chair on 2 June 2026 [T7]. Substantial holders at 31 March 2026 included ACC 11.70%, Forsyth Barr Investment Management 8.10% and Westpac 5.02% [T1, holder pages]. NTA a share was NZ$1.72 at March 2025 and NZ$1.69 at March 2026 [T1]; the dividend has been 8.0c for two years [T2].
+Stride is two companies whose shares trade stapled together. Stride Property Ltd (SPL) owns NZ$871.8m of property directly at 31 March 2026: six office buildings (NZ$662.9m: three in Auckland, three in Wellington), two town centres (NorthWest and NorthWest Two, NZ$175.0m) and NZ$33.9m of development and other property (including 55 Lady Elizabeth Lane, Wellington, valued on a residual basis because seismic work is needed and its office tenants have left) [T1 note 3.2]. SPL also owns 49% of the Industre industrial joint venture (book NZ$264.7m; partners are institutional investors advised by JP Morgan Asset Management), 18.8% of Investore (book NZ$87.1m) and 2.2% of Diversified NZ Property Trust (NZ$4.5m) [T1 note 7.1, T4]. Stride Investment Management Ltd (SIML) manages NZ$3.3bn, including all of the above [T4]. Philip Littlewood is chief executive; David Green became chair on 2 June 2026 [T7]. Substantial holders at 31 March 2026 were ACC 11.70%, Forsyth Barr Investment Management 8.10%, ANZ New Zealand Investments 5.44% and Westpac 5.02%, at their last notices [T1, holder pages]. NTA a share was NZ$1.72 at March 2025 and NZ$1.69 at March 2026 [T1]; the dividend has been 8.0c for two years [T2].
 
 ## Why big investors may be overlooking it
 They aren't, much: the register is institutional (above) and it trades a median NZ$202,962 a day (Checks). The sector is out of favour, and Stride has fallen more than most: from NZ$1.465 a year ago and NZ$1.38 at 30 September 2025 to NZ$1.11 (data/prices/NZX/SPG.csv), -24% in a year against -14% to -21% for Kiwi Property, Argosy and Investore.
@@ -59,7 +59,7 @@ Debt is not the issue it is at Investore: NZ$294.5m drawn of NZ$460m of bank fac
 | Investore | 5.81c | NZ$1.01 | 5.75% |
 | PFI | 10.93c | NZ$2.22 | 4.92% |
 
-Kiwi Property and Precinct rechecked from their own reports [P1, P3]; Argosy, Vital and PFI as read in research/picks/NZ_ARG.md; Precinct at its 30 October close (NZX's data imply the same NZ$1.01 on 4 November, its last day before a share consolidation [P4, T9]). The fair comparison is the three office or diversified landlords, averaging 6.52%. Stride is 5% above that on its own AFFO and 2% on the strict figure. To be 15% higher it would need about 8.3c of AFFO at today's price. Stride's risk is not lower than theirs: 76% of its own property is office, 38% of it is Wellington office, and its occupancy (88%) is below Argosy's (97%). The first test fails.
+Kiwi Property and Precinct rechecked from their own reports [P1, P3]; Argosy, Vital and PFI as read in research/picks/NZ_ARG.md; Precinct at its 30 October close (NZX's data imply the same NZ$1.01 on 4 November, its last day before a share consolidation [P4, T9]). The fair comparison is the three office or diversified landlords, averaging 6.52%. Stride is 5% above that on its own AFFO and 2% on the strict figure. To be 15% higher it would need about 8.3c of AFFO at today's price. Stride's risk is not lower than theirs: 76% of its own property is office, Wellington office alone is 38% of it, and its office occupancy (about 88%) is below Argosy's whole portfolio (97.3%). The first test fails.
 
 ### Sum of the parts
 The brief asked for the directly held property, the Industre 49%, the Investore 18.8% at market, and SIML on its own fee earnings after the corporate costs it covers (python3 -I, 560.4m shares):
@@ -70,8 +70,8 @@ The brief asked for the directly held property, the Industre 49%, the Investore 
 | Industre 49% | Equity-accounted share of net assets [T1 note 7.1] | 264.7 | NZ$0.472 |
 | Investore 18.8% | 71.1m shares at NZ$1.01 (book NZ$87.1m, which adds a 17.5% "strategic investment premium") | 71.8 | NZ$0.128 |
 | Diversified 2.2% | Book | 4.5 | NZ$0.008 |
-| SIML | See below: about its book value, which is already in NTA | 6 to 26 | 1c to 5c |
-| Net debt and other net liabilities | Bank debt NZ$294.5m less cash NZ$15.3m, plus NZ$3.2m of other items net, including SIML's book | -282.4 | -NZ$0.504 |
+| SIML | See below: worth about its NZ$23.6m book value, which is already inside the next line | (6 to 26) | (1c to 5c) |
+| Net debt and other net liabilities | Bank debt NZ$294.5m less cash NZ$15.3m, plus NZ$3.2m of other liabilities net (SIML's assets sit within these lines) | -282.4 | -NZ$0.504 |
 | Total at book, Investore at market | NTA NZ$945.7m less NZ$15.3m | 930.4 | NZ$1.66 |
 | Office marked to evidence | Auckland office -5%, Wellington office -10%, town centres -5%, development -10%, Industre at book, 1.5% selling costs on the direct property | 855.6 | NZ$1.53 |
 | Stress | Auckland office -10%, Wellington office -20%, town centres -10%, development -20%, Industre -3%, selling costs | 786.0 | NZ$1.40 |
@@ -102,7 +102,7 @@ Method 2, AFFO at what the market pays the office peers: 7.6c at 6.38% to 6.62% 
 
 Method 3, the market's way of pricing the two halves: SPL's AFFO after paying SIML (NZ$32.9m, 5.88c) at the office peers' 6.38% to 6.62%, plus SIML's NZ$9.6m profit at 10 to 15 times (an assumption; listed fund managers' multiples weren't checked): NZ$1.06 to NZ$1.18, NZ$1.11 at 6.52% and 12 times.
 
-Cross-check, multiples of NTA: Stride's own price to NTA at its last three balance dates was 0.65, 0.79 and 0.64, average 0.69 (data/prices/NZX/SPG.csv; NTA from T1 and its interim), NZ$1.15 on NZ$1.66; the peer median of about 0.75 gives NZ$1.25.
+Cross-check, multiples of NTA: Stride's own price to NTA at its last three balance dates was 0.65, 0.79 and 0.64, average 0.69 (data/prices/NZX/SPG.csv; NTA NZ$1.72, NZ$1.75 and NZ$1.69 from T1 and the HY26 release [T10]), NZ$1.15 on NZ$1.66; the peer median of about 0.75 gives NZ$1.25.
 
 Range: as a listed company NZ$1.06 to NZ$1.25, central about NZ$1.15, depending mostly on AFFO holding near 7.5c after Diversified and on office landlords staying at about a 6.5% cash yield. NZ$1.40 to NZ$1.66 only if assets are sold and the money returned, or someone buys the group.
 
@@ -110,7 +110,7 @@ Range: as a listed company NZ$1.06 to NZ$1.25, central about NZ$1.15, depending 
 On book value it may be: NZ$1.11 is 0.66 times NTA, and nothing in the sales evidence supports a 34% discount. On what the market actually prices, cash earnings, Stride yields what its office peers yield, pays out more than its AFFO, and faces a loss of about a quarter of its outside fees. I can't name an event in the next 24 months that should make the market price it against NTA rather than AFFO, unless the board copies Precinct. No trade.
 
 ## Outcomes and chances
-Resolve date 30 June 2028, after the FY28 result (about late May 2028, with March 2028 valuations and the first year after Diversified's likely wind-up) and the 2028 annual meeting.
+Resolve date 30 June 2028, after the FY28 result (about late May 2028, with March 2028 valuations and the first year after Diversified's likely wind-up).
 
 | Outcome | What happens | Chance | Price by resolve date |
 | --- | --- | --- | --- |
