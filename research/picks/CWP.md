@@ -89,7 +89,7 @@ Mid-cycle profit: FY23 to FY29 core profit (FY24 without the shopping centre) av
 - Owed to land vendors: A$78.3m (A$6.8m within a year) [C1]. This matches the two unconditional deferred purchases: Fairfield, Victoria (A$50m, "payments to be made in 2027 and 2028") and Kealba (A$30.85m, settling mid-FY28), discounted [C17, C9].
 - Land still to pay for: Fairfield VIC A$50m and Kealba A$30.85m (unconditional), plus Fairfield QLD A$27.25m (mid-FY27, subject to planning), Aveley A$22m (subject to planning) and Springvale A$23.8m (conditional, deferred), A$153.9m in all; Bushmead's A$15.55m was paid in July 2026 [C9, C8, C10, C4]. Construction contracts let but not finished: A$225.8m (civil A$56.6m, building A$165.4m, landscaping A$3.9m), mostly for presold apartments that settle in FY27 and FY28 [C1].
 - Cash: operating cash flow before land purchases was A$97.0m in FY26 and A$90.7m in FY25 [C1, C12].
-- My projection: net bank debt about A$188m at June 2027 (A$100m of operating cash before land, A$35m of dividends, about A$90m of land) and A$201m to A$251m at June 2028 (A$100m to A$50m of operating cash, A$29m of dividends, A$80m of land). Against equity of about A$600m that is 33% to 42%, inside the board's 20% to 75% range and below FY22's 47%. But it leaves only about A$30m to A$80m of loan headroom. Buying the "distressed sites" management says are coming to market [C5] would need partners, more debt or new shares. The October 2025 underwritten dividend plan (A$7.42, A$11.3m of cash equity) shows the board will issue shares [C1].
+- My projection: net bank debt about A$188m at June 2027 (A$100m of operating cash before land, A$35m of dividends, about A$90m of land, A$5m of other payments) and A$201m to A$251m at June 2028 (A$100m to A$50m of operating cash, A$29m of dividends, A$80m of land, A$5m of other payments). Against equity of about A$600m that is 33% to 42%, inside the board's 20% to 75% range and below FY22's 47%. But it leaves only about A$30m to A$80m of loan headroom. Buying the "distressed sites" management says are coming to market [C5] would need partners, more debt or new shares. The October 2025 underwritten dividend plan (A$7.42, A$11.3m of cash equity) shows the board will issue shares [C1].
 - Debt is not the risk to the case. The one unknown is the net debt to EBITDA covenant: on my low case, FY28 EBITDA of about A$45m against A$250m of net debt is about 5.5 times, and the level isn't published.
 
 ### 3. The land bank: book value against market evidence
@@ -116,7 +116,7 @@ Mid-cycle profit: FY23 to FY29 core profit (FY24 without the shopping centre) av
 - The gain is only realised over many years of selling lots. Recent purchases bought near the top (Fairfield VIC apartments in a weak Melbourne apartment market, Kealba, Mount Barker) carry the opposite risk, a write-down if feasibility worsens. The auditor's key audit matter is the carrying value of inventory [C1].
 
 ### 4. Ownership and director dealing
-- Substantial holder changes, last two years [C20]: AustralianSuper sold from 11.41% to 10.27% (26 August 2025), 9.14% (9 September), 7.36% (17 September) and out (30 September 2025), about 9.3m shares. Wilson Asset Management became substantial at 5.38% on 20 March 2026, 6.66% on 29 April and 7.78% on 5 August 2026. Its notices list on-market buys averaging about A$7.18 (March to April, 1.09m shares) and about A$6.90 (May to July, about 1.2m shares) (my sums of the annexures). Dimensional reached 5.00% on 11 May 2026.
+- Substantial holder changes, last two years [C20]: AustralianSuper sold from 11.41% to 10.27% (26 August 2025), 9.14% (9 September), 7.36% (17 September) and out (30 September 2025), about 9.3m shares. Wilson Asset Management became substantial at 5.38% on 20 March 2026, 6.66% on 29 April and 7.78% on 5 August 2026. Its notices list on-market buys averaging about A$7.18 (late March to April, 1.09m shares) and about A$6.90 (May to early August, about 1.2m shares net) (my sums of the annexures). Dimensional reached 5.00% on 11 May 2026.
 - On-market director trades in the 12 months to 8 November 2026 [C19]:
   - William Hames bought 84,500 at an average A$7.00 on 7 April 2026.
   - Nathan Blackburne bought 7,042 at A$7.10 on 23 March 2026, sold 42 at A$8.16 on 24 February 2026, and bought 14,532 on market on 2 September 2026 (price not stated in the notice). The fact sheet missed the September buy.
@@ -157,12 +157,12 @@ Developer profits swing with the housing cycle, so I value mid-cycle profit, not
 - Book: A$6.37 a share. Cedar Woods has traded between 0.72 and 1.20 times book at year-ends since FY22 (0.72, 0.97, 0.85, 1.20, 1.09; average 0.97) [C1]. 0.97 times December 2026 book (about A$6.65, after H1 profit of about A$45m and the A$21.4m final dividend) is A$6.45.
 - Book plus the after-tax gain on older land (section 3): A$7.06 / A$7.78 / A$8.73 a share at 1.3 / 1.6 / 2.0 times its cost. This is roughly what the land would fetch if sold to other developers over time. It ignores the cost of the platform needed to sell it and the waiting time.
 - Project cash flows on Kroll's method (control basis): about A$4.6bn of revenue over ten years from the existing pipeline (9,330 lots, partners' shares excluded, at FY26's average of about A$470,000 a settlement, plus modest price growth) [C3, C2], gross margin 28%, overheads A$52m a year, 30% tax, the conditional land paid, discounted at 11.5% (Kroll's Peet range 11.0% to 12.2%), less net bank debt and vendor debts: A$7.23 a share. With a 25% margin A$6.53; 30%, A$7.70; twelve years instead of ten, A$6.61; 13% discount rate, A$6.79.
-- Control cross-check: Kroll's implied 11.2 to 12.1 times four-year EBITDA for Peet gives A$8.95 to A$9.82 for Cedar Woods; Peet's 1.38 to 1.52 times book gives A$8.79 to A$9.68. These are what a buyer paying full price for a well-run developer might pay, and they are where the fact sheet's A$9.15 sits.
+- Control cross-check: Kroll's value for Peet implies 11.2 to 12.1 times four-year average EBITDA, 7.6 to 8.2 times FY26 EBITDA and 1.38 to 1.52 times book [P1]. For Cedar Woods (four-year EBITDA about A$82.4m, FY26 about A$110.8m, both derived from Kroll's own multiples for it) those give A$8.95 to A$9.82, A$8.00 to A$8.79 and A$8.79 to A$9.68. These are what a buyer paying full price for a well-run developer might pay, and they are where the fact sheet's A$9.15 sits.
 
 ### The range
 - What a minority holder can expect the market to pay, through the cycle: A$5.60 to A$6.65, central about A$6.15 (Method 1 middle, 0.97 times book). It depends on FY28 and FY29 profit and on whether the market goes back to paying about book for developers.
 - What the business and its land are worth to a buyer of the whole company: A$7.00 to A$8.75, central about A$7.50 (Method 2). It depends on the older land being worth well above cost and on margins holding near 28%.
-- Bid-level value: A$8.80 to A$9.80 (Peet's control multiples), the fact sheet's A$9.15. No bidder, approach or route to it is in view (see below).
+- Bid-level value: A$8.00 to A$9.80 (Peet's control multiples), which takes in the fact sheet's A$9.15. No bidder, approach or route to it is in view (see below).
 
 ## The players and what the rules allow (special situations only)
 Not a special situation, so left out. For the record, the brief asked whether the Peet bid makes Cedar Woods a likely target. Not inside six months, on the filings:
@@ -182,7 +182,7 @@ Ordinary pick, resolve by 30 April 2027 (the H1 FY27 result in late February, th
 
 | Outcome | What happens | Chance | Price by resolve date |
 | --- | --- | --- | --- |
-| Bad | H1 result or Q3 update shows FY28 presales at or below about A$340m (no growth since September), quarterly gross sales still under 200, rising cancellations, or FY27 guidance trimmed. The market prices FY28 near my low case and Cedar Woods like the weaker developers | 35% | A$5.45 (0.82x December book), A$5.61 with the dividend |
+| Bad | H1 result or Q3 update shows FY28 presales at or below about A$340m (little growth from September's A$316m), quarterly gross sales still under 200, rising cancellations, or FY27 guidance trimmed. The market prices FY28 near my low case and Cedar Woods like the weaker developers | 35% | A$5.45 (0.82x December book), A$5.61 with the dividend |
 | Middling | FY27 on track (H1 about A$42m to A$48m), FY28 presales A$340m to A$420m, sales recovering slowly. Price stays near its long-run 0.97 times book | 45% | A$6.45, A$6.61 with the dividend |
 | Good | Clear sales recovery (gross sales above 300 a quarter, FY28 presales above A$420m), rate cuts in view; or an approach (about 3 points of the 20%) | 20% | A$7.44 (1.12x, near the bottom of the asset range), A$7.60 with the dividend |
 
@@ -198,7 +198,7 @@ Value-pick test, 24 months to about November 2028 (after the FY28 result), with 
 | Middling | FY28 about A$43m, FY29 recovering with lower rates, 1.00 times book of A$7.04; dividends 69c | A$7.73 (+22.1%) |
 | Good | FY28 about A$63m and a full recovery, 1.20 times book of A$7.17; dividends 82c; or a bid | A$9.42 (+48.8%) |
 
-At A$6.33 the middling leg fails. Both legs pass at or below A$6.18 on the 0.75 times bad case, and at or below A$5.95 on the 0.70 times bad case. With chances of 30/50/20, the expected 24-month value is about A$7.47, about 18% above A$6.33 before costs, about 8% a year.
+At A$6.33 the middling leg fails. Both legs pass at or below A$6.18 on the 0.75 times bad case, and at or below about A$5.97 on the 0.70 times bad case (A$5.95 is used as the reopen trigger). With chances of 30/50/20, the expected 24-month value is about A$7.47, about 18% above A$6.33 before costs, about 8% a year.
 
 ## Dated events
 - About January to February 2027: annual review and extension of the bank facility (done in February 2026, January 2025) [C8, C18].
@@ -212,7 +212,7 @@ At A$6.33 the middling leg fails. Both legs pass at or below A$6.18 on the 0.75 
 ## What would make this wrong
 "Wait" is wrong if the price rises well above the A$6.61 middling value without us. The two likeliest ways:
 1. A fast sales recovery. Some of Q1's fall was self-inflicted (fewer releases, less marketing), Peet's sales fell only a third, and the company reports "signs of improvement in Q2 to date" [C4, C5]. If Q2 and Q3 gross sales are back above 300 a quarter and FY28 holds near A$60m, the market could pay 1.1 to 1.2 times book (A$7.30 to A$8.00) by mid-2027.
-2. A bid. Cedar Woods' control value (A$8.80 to A$9.80 on Peet's multiples) is 40% to 55% above the price, buyers of listed developers exist (AVID twice, Warburg Pincus, Ingenia), and Kroll has named it the closest listed company to Peet. It needs the Chair and Deputy Chair to agree.
+2. A bid. Cedar Woods' bid-level value (A$8.00 to A$9.80 on Peet's control multiples) is 26% to 55% above the price, buyers of listed developers exist (AVID twice, Warburg Pincus, Ingenia), and Kroll has named it the closest listed company to Peet. It needs the Chair and Deputy Chair to agree.
 
 What would make a value-pick entry wrong, if the price falls to the reopen level:
 1. FY28 falls further than my low case: sales stay near Q1's rate into 2027, buyers walk away from presold apartments when valuations fall, and margins drop with price cuts. Profit near FY24's A$24m, with the stock at 0.70 times book (about A$4.80).
