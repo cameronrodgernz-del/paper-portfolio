@@ -168,7 +168,7 @@ The valuation uses underlying EBIT, the same basis as the peers' "underlying" fi
 
 | Peer | Market value | Earnings used | Multiple | Source |
 | --- | --- | --- | --- | --- |
-| Helloworld (HLO), A$1.34 | A$251m (187.1m shares, before Crown's vendor shares) | FY26 underlying EPS 18.5c; underlying EBITDA A$60.2m less D&A A$17.7m | 7.2 times earnings; about 4.7 times EBIT after taking off A$49.7m of cash less bank debt, which includes client money | [H1] |
+| Helloworld (HLO), A$1.34 | A$251m (187.1m shares, after Crown's vendor shares; 163.7m before them. Corrected 8 Nov 2026 from the Helloworld fact sheet, research/facts/HLO.md) | FY26 underlying EPS 18.5c; underlying EBITDA A$60.2m less D&A A$17.7m | 7.2 times earnings; about 4.7 times EBIT after taking off A$49.7m of cash less bank debt, which includes client money | [H1] |
 | Flight Centre (FLT), A$11.35 | A$2,293m (202.0m shares) | FY26 underlying profit before tax A$278m, taxed at 30% (my assumption) | 11.8 times earnings | [P1] |
 | Web Travel Group (WEB), A$3.59 | A$1,290m (359.3m shares) | FY26 underlying profit A$85.9m; underlying EBIT A$116.4m; net cash A$198.1m after the April 2026 note redemption | 15.0 times earnings; 9.4 times EBIT | [P2] |
 | Corporate Travel Management (CTD), A$3.56 | A$495m (138.9m shares) | FY26 underlying EBITDA A$113.6m | 4.4 times EBITDA, before customer refunds still owed and a new A$175m funding package | [P4] |
