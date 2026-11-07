@@ -23,7 +23,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
-UA = "paper-portfolio research screen (cameron.rodger.nz@gmail.com)"
+UA = "paper-portfolio research screen"
 PAUSE = 0.8
 CACHE_DAYS = 6
 FUND_WORDS = re.compile(r"ETF Units|Fund Units|\bETF\b", re.I)
