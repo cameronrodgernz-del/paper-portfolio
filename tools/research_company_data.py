@@ -46,7 +46,7 @@ def get(url: str, refusals: list) -> str | None:
             if len(refusals) >= 2:
                 raise Refused(f"refused twice in a row (HTTP {e.code}) at {url}")
         return None
-    except (urllib.error.URLError, TimeoutError):
+    except (urllib.error.URLError, TimeoutError, ConnectionError, OSError):
         return None
 
 
