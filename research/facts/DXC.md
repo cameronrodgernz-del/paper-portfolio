@@ -57,6 +57,8 @@ What the headline numbers hide:
   FFO", so the payout will not be fully covered by FFO next year [1][8].
 - Rent actually received: cash receipts of A$59.27m including GST, about A$53.9m without it, are 98.6% of property
   revenue [1].
+- The buy-back has not narrowed the discount so far: A$2.76 on 9 Mar 2026, the day it began, and A$2.73 on 30 Oct
+  2026; with distributions the return over that time was about +4.9% (Norgate closes and total-return series) [18].
 
 ## 3. Guidance and record
 Current guidance: FY27 distributions of 20.9c a security, "modestly above 100% of FFO", based on property income growth
