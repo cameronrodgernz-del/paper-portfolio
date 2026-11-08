@@ -1,14 +1,15 @@
 name: Nightly data
 
-# Weekdays at 8:30pm NZ time, about two hours after the ASX close and before the 9pm
-# NZ daily cycle. GitHub schedules run in UTC, so there are two: 07:30 UTC is 8:30pm in
-# NZ daylight time and 08:30 UTC is 8:30pm in NZ standard time; the gate keeps the one
-# that matches the season. US prices are from the previous US session.
+# Weekdays at 8:17pm NZ time, about two hours after the ASX close and before the 9pm
+# NZ daily cycle. GitHub schedules run in UTC, so there are two: 07:17 UTC is 8:17pm in
+# NZ daylight time and 08:17 UTC is 8:17pm in NZ standard time; the gate keeps the one
+# that matches the season. Off the half hour because GitHub delays runs set on busy
+# minutes: the 07:30 UTC runs of 5 and 6 Nov 2026 started about eight hours late. US prices are from the previous US session.
 # Can also be started by hand from the Actions tab.
 on:
   schedule:
-    - cron: "30 7 * * 1-5"
-    - cron: "30 8 * * 1-5"
+    - cron: "17 7 * * 1-5"
+    - cron: "17 8 * * 1-5"
   workflow_dispatch:
   # A push that changes config/run_now.txt starts an extra run (for catching up between
   # scheduled runs). The bot's own nightly commits never trigger it.
@@ -29,7 +30,7 @@ jobs:
       - id: season
         run: |
           off=$(TZ=Pacific/Auckland date +%z)
-          want="30 7 * * 1-5"; [ "$off" = "+1200" ] && want="30 8 * * 1-5"
+          want="17 7 * * 1-5"; [ "$off" = "+1200" ] && want="17 8 * * 1-5"
           if [ "${{ github.event_name }}" != "schedule" ] || [ "${{ github.event.schedule }}" = "$want" ]; then
             echo "go=yes" >> "$GITHUB_OUTPUT"
           else

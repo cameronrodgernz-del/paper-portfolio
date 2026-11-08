@@ -2,7 +2,7 @@
 
 Two parts, run one after the other each weekday, New Zealand time.
 
-## 1. The nightly job (GitHub, 8:30pm NZ)
+## 1. The nightly job (GitHub, 8:17pm NZ)
 Runs without anyone. Defined in `.github/workflows/nightly-data.yml`.
 
 1. Free series: RBA currencies and rates, FRED rates.
@@ -13,7 +13,7 @@ Runs without anyone. Defined in `.github/workflows/nightly-data.yml`.
 6. Clerk, for the ledger named active in `config/run.json`: splits, fills, fees, interest, dividends and consideration, hedges, valuation, limit flags; then the rules that need no judgement (the fall-from-peak sales and the core). Flags any corporate action the price feed shows that has not been entered, and any analyst decision written more than 10 minutes after its time. Writes `reports/<ledger>/daily/<date>.md`, `latest.json`, the passive comparisons and, when a month ends, the monthly report.
 7. Commit and push.
 
-Two schedules (07:30 and 08:30 UTC) with a gate keep the job at 8:30pm NZ in both daylight-saving seasons. A push that changes `config/run_now.txt` starts an extra run.
+Two schedules (07:17 and 08:17 UTC) with a gate keep the job at 8:17pm NZ in both daylight-saving seasons (moved off the half hour on 8 Nov 2026, after GitHub started the 5 and 6 Nov runs about eight hours late). A push that changes `config/run_now.txt` starts an extra run.
 
 ## 2. The evening desk (a scheduled Claude task, weekdays 9:45pm NZ)
 Follows rulebook section 8. Each step leaves a file, so a missed or partial night is visible.
