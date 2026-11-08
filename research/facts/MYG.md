@@ -30,7 +30,7 @@ Any "yes" ends the sheet here, with the fact and its link. Nothing else ends it.
 | Revenue | A$169.0m (up 43%; BE Switchcraft A$18.6m for 10 months, SMEC A$11.9m for 3 months) | A$118.1m | A$79.5m | [1][2][4] |
 | Statutory profit after tax | A$8.04m (EPS 7.38c) | A$6.76m (EPS 7.23c) | A$4.51m | [1][4] |
 | The company's underlying profit, and what's left out | Underlying NPAT A$10.94m (10.05c); NPATA A$11.35m; underlying EBITDA A$18.46m (10.9% margin). Leaves out A$2.90m after tax: deal costs for SMEC and BE Switchcraft A$1.19m, a A$0.92m rise in the SMEC earn-out, and A$0.79m on a legal case (Nicon) inherited from the 2020 reverse takeover of Stream Group | Underlying NPAT A$7.29m (7.80c); underlying EBITDA A$11.99m. Left out A$0.53m on the same Nicon case | Not given for the half | [1] |
-| Operating cash flow | A$5.03m (2H FY26 minus A$1.42m, as receivables rose from A$12.6m to A$31.5m) | A$9.51m | A$6.44m | [1][4] |
+| Operating cash flow | A$5.03m (2H FY26 minus A$1.42m; receivables rose from A$12.6m to A$31.5m over the year, partly from the acquisitions) | A$9.51m | A$6.44m | [1][4] |
 | Capital spending | A$10.56m, of which A$8.4m was the Old Port Road, Royal Park site bought in January 2026. Plus A$16.1m net cash for acquisitions | A$0.72m | A$0.19m | [1][4] |
 | Net cash or debt, excluding leases (and when debt falls due) | Net cash A$21.8m; no borrowings (A$8.4m drawn for Old Port Road and repaid; bank facility secured on two SA sites, matures 31 Jul 2029). After year end: SMEC earn-out paid 29 Jul 2026 (A$6.3m cash and 1,066,561 shares at A$2.16), Nilsen A$4.0m cash, final dividend about A$2.8m. Lease liabilities A$6.9m, plus a 10-year Hope Valley WA lease at A$1.055m a year from about 1 Dec 2026 | Net cash A$16.9m (A$0.07m debt) | Net cash A$49.2m (after the November raising) | [1][4][6] |
 | Net tangible assets per share | 48.84c (company basis, which also excludes right-of-use and tax assets); equity A$80.0m less A$28.3m intangibles is 43.9c | 34.02c | 59.08c | [1][4] |
@@ -46,8 +46,10 @@ What the headline numbers hide:
   as work in progress and debtors built up [1][4].
 - Work in hand is falling: A$114m (31 Dec 2025), A$135m (14 Apr 2026, with SMEC), A$151m (6 May 2026), A$135m (30 Jun
   2026), A$114.7m (30 Sep 2026). The A$1.4bn tender pipeline is unweighted and "not a forecast of revenue" [2][8][9][10].
-- Acquired growth: about half of FY27's revenue growth comes from a full year of SMEC and BE Switchcraft and eight months
-  of N-Series (A$10m to A$15m expected) [3][11]. SMEC was bought at about 5 times its FY26 EBITDA [12].
+- Acquired growth: about three quarters of the A$60m of FY27 revenue growth at the guidance midpoint comes from
+  acquisitions (desk arithmetic: SMEC's forecast A$41m a year less the A$11.9m it added in FY26, BE Switchcraft's A$18.6m
+  for 10 months grossed up to 12, and N-Series A$10m to A$15m), leaving about 9% organic growth [2][11][12]. SMEC was
+  bought at about 5 times its FY26 EBITDA [12].
 - A customer has written about equipment it says may not meet technical specifications and has reserved its right to seek
   remediation; Mayfield denies it and has made no provision [1].
 - Goodwill and acquired intangibles are A$28.3m, 35% of equity [1].
