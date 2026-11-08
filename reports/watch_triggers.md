@@ -22,6 +22,7 @@ No trigger hit.
 | ASX:ZIM | AUD 13.3 | 14.19 | 2026-11-07 | +6.7% |  | ASX company data (last trade at fetch) |
 | ASX:CAF | AUD 0.35 | 0.375 | 2026-11-07 | +7.1% |  | ASX company data (last trade at fetch) |
 | ASX:ATG | AUD 0.345 | 0.37 | 2026-11-07 | +7.2% |  | ASX company data (last trade at fetch) |
+| ASX:IGL | AUD 2.12 | 2.29 | 2026-11-07 | +8.0% |  | ASX company data (last trade at fetch) |
 | ASX:CCV | AUD 0.245 | 0.265 | 2026-11-07 | +8.2% |  | ASX company data (last trade at fetch) |
 | NZX:SKC | NZD 0.635 | 0.69 | 2026-11-06 | +8.7% |  | data/prices/NZX |
 | ASX:SXL | AUD 0.44 | 0.48 | 2026-11-07 | +9.1% |  | ASX company data (last trade at fetch) |
