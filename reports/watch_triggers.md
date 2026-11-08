@@ -34,6 +34,7 @@ No trigger hit.
 | ASX:AL3 | AUD 0.09 | 0.105 | 2026-11-07 | +16.7% |  | ASX company data (last trade at fetch) |
 | ASX:AWJ | AUD 0.2 | 0.235 | 2026-11-07 | +17.5% |  | ASX company data (last trade at fetch) |
 | NZX:ARG | NZD 0.88 | 1.035 | 2026-11-06 | +17.6% |  | data/prices/NZX |
+| ASX:BOL | AUD 1.85 | 2.18 | 2026-11-07 | +17.8% |  | ASX company data (last trade at fetch) |
 | NZX:SPG | NZD 0.94 | 1.11 | 2026-11-06 | +18.1% |  | data/prices/NZX |
 | ASX:FEX | AUD 0.165 | 0.195 | 2026-11-07 | +18.2% |  | ASX company data (last trade at fetch) |
 | ASX:RKN | AUD 0.33 | 0.395 | 2026-11-07 | +19.7% |  | ASX company data (last trade at fetch) |
@@ -70,5 +71,6 @@ No trigger hit.
 - 2026-11-19: NZX:MFB, 1H27 result and chair change (after the failed sale process) (announced)
 - 2026-11-19: NZX:OCA, 1H27 result (announced)
 - 2026-11-20: ASX:ASG, AGM (H1 FY27 guidance, order bank) (announced)
+- 2026-11-20: ASX:BOL, AGM business update (four-month trading, FY27 budget, wind work) (announced)
 - 2026-11-20: ASX:HIT, AGM (early read on Hudson since 11 Sep) (announced)
 - 2026-11-20: ASX:HUM, AGM (second strike and possible board spill) (announced)
