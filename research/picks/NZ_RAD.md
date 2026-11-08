@@ -204,7 +204,7 @@ If bought at NZ$0.415 now and held to the FY27 result (about 14 May 2027; inferr
 | Middling | Care earnings grow as expected: run-rate about NZ$29.3m, FY27 underlying EBITDA about NZ$28.5m to NZ$29m with "continued growth"; the market keeps paying 7.0 times (Method 3 central, 42.3c; Method 1 at an owner's multiple of about 8.6) | 50% | NZ$0.42 ((7.0 x 29.28 - 86.1) / 283.47 = 41.9c) |
 | Good | Care earnings beat: run-rate NZ$31m or more, an upgraded FY27 outlook or a Government funding reset after the advisory group's report, or a first sale-and-leaseback; the market pays 7.75 times (an owner's multiple of about 9.1; Method 2's range) | 20% | NZ$0.545 ((7.75 x 31.0 - 86.1) / 283.47 = 54.4c) |
 
-All three would also receive the interim dividend in December, which I put at 1.1c (1.0c last year, plus the policy's double-digit growth).
+Resolve by: 2027-05-14 for all three (the FY27 result, inferred; 187 days from today). All three would also receive the interim dividend in December, which I put at 1.1c (1.0c last year, plus the policy's double-digit growth).
 
 ```
 Expected price: 0.30 x 0.315 + 0.50 x 0.419 + 0.20 x 0.544 = NZ$0.413
