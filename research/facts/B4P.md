@@ -36,7 +36,7 @@ What the headline numbers hide:
 - Dilution. The 8.48m options and rights are 17% of the shares on issue, and all but 300,000 (exercise price A$2.56) have exercise prices at or below A$1.09, under the 12-month low of A$1.10 [1][14].
 
 ## 3. Guidance and record
-Beforepay gives no numerical guidance for profit. The FY26 result said a full year of interest charges on FY26's pay advance volumes "would have generated approximately $12.5m of annual interest income" [2], and that the new facility should cut funding costs by more than A$1m a year on a A$40m drawn balance [2][6]. FY27 outlook: more personal loans, new risk models and Carrington Labs, with no figures [2]. The September 2026 quarter delivered revenue of A$16.5m and statutory profit of A$4.7m [4]. There is no earlier numerical guidance to check against.
+Beforepay gives no numerical guidance for profit. The FY26 result said a full year of interest charges on FY26's pay advance volumes "would have generated approximately $12.5m of annual interest income" [2], and that the new facility should cut funding costs by more than A$1m a year on a A$40m drawn balance [2][6]. FY27 outlook: more personal loans, new risk models and Carrington Labs, with no figures [2]. The September 2026 quarter delivered revenue of A$16.5m and statutory profit of A$4.7m [4]. There is no earlier numerical guidance to check against: the FY25 results gave none for FY26 [11].
 
 ## 4. Who owns it and who is moving
 Substantial holders at 17 August 2026: Regal Funds Management 6,775,697 (13.93%), Microequities Asset Management 4,949,239 (10.26%) and Youbek Pty Ltd (Capricorn Trust) 3,866,516 (8.01%) [1]. The top 20 hold 77.8%. Jamie Twiss is registered for about 1.42m shares (1,000,351 in his name and 420,000 jointly) and Kasey Kaplan for 334,282 [1].
@@ -82,7 +82,7 @@ C, no deep dive: the gap if it goes our way is about 1%, far under 25%. On the S
 8. Change in substantial holding (Microequities), 7 Sep 2026 (03136609): https://announcements.asx.com.au/asxpdf/20260907/pdf/073tb1dt43cxfb.pdf
 9. Change of Director's Interest Notice (B Hartzer), 8 Dec 2025 (03038437): https://announcements.asx.com.au/asxpdf/20251208/pdf/06t2n4cb8f50l2.pdf
 10. Notice of Annual General Meeting, 16 Oct 2026 (03153474): https://announcements.asx.com.au/asxpdf/20261016/pdf/075f3cgwwfl888.pdf
-11. FY25 Appendix 4E and Annual Report, 26 Aug 2025 (02985292): https://announcements.asx.com.au/asxpdf/20250826/pdf/06nbcx00yb0gyt.pdf
+11. FY25 Appendix 4E and Annual Report, 26 Aug 2025 (02985292): https://announcements.asx.com.au/asxpdf/20250826/pdf/06nbcx00yb0gyt.pdf ; Beforepay Group announces FY25 results, 26 Aug 2025 (02985297): https://announcements.asx.com.au/asxpdf/20250826/pdf/06nbd7lxkthc4x.pdf
 12. Prices and volumes: data/norgate/universe/prices_2026.csv.gz (Norgate), 5 to 30 Oct 2026.
 13. ASX announcements lists for B4P, 2025 and 2026: https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=B4P&timeframe=Y&year=2026 (and the 2025 list)
 14. Price and shares on issue: data/research_data/asx_company.json (ASX company data, fetched 7 Nov 2026 UTC): last A$1.39, 50,956,454 shares; also used for the Cash Converters and Solvar prices and shares.
