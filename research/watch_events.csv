@@ -28,6 +28,7 @@ date,market,ticker,event,date_basis
 2026-11-26,ASX,MVF,AGM,announced
 2026-11-26,ASX,MXI,AGM,announced
 2026-11-26,NZX,SCT,annual meeting,announced
+2026-12-01,ASX,AHC,RTM and CareTech completion,announced
 2026-12-03,NZX,DGL,AGM,announced
 2026-12-10,ASX,AFG,warehouse facility falls due (renewal terms),announced
 2026-12-15,NZX,SKC,Grand Hotel sale settles,inferred
@@ -46,6 +47,7 @@ date,market,ticker,event,date_basis
 2027-02-18,ASX,AFG,"HY27 result (lending margin, book size)",inferred
 2027-02-19,ASX,ASG,H1 FY27 result,inferred
 2027-02-19,NZX,SKC,H1 FY27 result (sale process update),inferred
+2027-02-23,ASX,AHC,"H1 FY27 result (organic growth, order book)",inferred
 2027-02-23,ASX,GEM,"CY26 result (same-centre occupancy, covenants)",inferred
 2027-02-23,ASX,MYX,H1 FY27 result (EBITDA excluding the Australian arm),inferred
 2027-02-24,ASX,CWP,H1 FY27 result,inferred
