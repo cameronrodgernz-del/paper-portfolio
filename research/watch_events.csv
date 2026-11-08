@@ -53,6 +53,7 @@ date,market,ticker,event,date_basis
 2027-01-20,ASX,ATG,"December quarter trading update (gross profit after marketing, sales)",inferred
 2027-01-22,ASX,FEX,"December quarter (C1, freight, cash, no equity)",inferred
 2027-01-27,ASX,AL3,December quarterly (Newport News commissioning),inferred
+2027-01-27,ASX,MYG,Half-year profit update (if repeated),inferred
 2027-01-28,ASX,AWJ,December quarterly (Munda Ore Reserve due by then at the latest),inferred
 2027-01-30,ASX,FML,December quarterly,inferred
 2027-01-31,ASX,FWD,Red Dog completion (both approvals extended to Oct 2032),announced
@@ -85,5 +86,6 @@ date,market,ticker,event,date_basis
 2027-02-26,ASX,HIT,"H1 FY27 result, first with Hudson",inferred
 2027-02-26,ASX,KYP,H1 FY27 result (due by 28 Feb),inferred
 2027-02-26,ASX,ZIM,Half-year and interim dividend decision (by 28 Feb),announced
+2027-02-27,ASX,MYG,"1H FY27 result (work in hand, cash conversion)",inferred
 2027-03-01,ASX,EDU,T1 2027 enrolments (with the FY26 result about 26 Feb),inferred
 2027-04-30,ASX,FWD,Rio Tinto Karratha contract ends (award due before),announced
