@@ -40,6 +40,7 @@ No trigger hit.
 - 2026-11-18: ASX:WJL, half-year result (announced)
 - 2026-11-18: NZX:ARG, interim result (announced)
 - 2026-11-19: ASX:AAC, first-half result (inferred)
+- 2026-11-19: NZX:BRW, AGM (announced)
 - 2026-11-19: NZX:MFB, 1H27 result and chair change (after the failed sale process) (announced)
 - 2026-11-19: NZX:OCA, 1H27 result (announced)
 - 2026-11-20: ASX:HUM, AGM (second strike and possible board spill) (announced)
