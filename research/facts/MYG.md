@@ -119,19 +119,22 @@ earn-out (1,066,561 at A$2.16, escrowed 24 months) [1][7]. AGM 21 Oct 2026: all 
 - How the market prices it, and the mechanism: listed electrical equipment makers trade on enterprise value to EBITDA,
   with net cash on top. Named peer: IPD Group (ASX:IPG), an electrical equipment distributor and switchboard maker with
   data centre exposure: 104.11m shares at A$5.15 (last trade 6 Nov 2026) is A$536.2m, plus net debt A$16.4m, over FY26
-  underlying EBITDA of A$55.4m = 9.97 times; underlying P/E 17.3 on 29.7c [5][24]. The price would move with the half-year
-  result and order updates.
+  underlying EBITDA of A$55.4m = 9.97 times; underlying P/E 17.3 on 29.7c [5][24]. Other peers on P/E at their 30 Oct
+  2026 closes: Korvest (ASX:KOV), steel cable supports for electrical work, A$15.70 over 104.9c, 15.0 times [26]; Duratec
+  (ASX:DUR), building and defence remediation contractor, A$1.885 (6 Nov) over 9.25c, 20.4 times [27]. IPG is the middle
+  of the three. The price would move with the half-year result and order updates.
 - Net cash used: A$21.83m at 30 June less the earn-out cash A$6.3m, Nilsen A$4.0m and the final dividend A$2.82m,
   A$8.71m, on 117.34m shares.
 - If it goes our way: FY27 at the middle of guidance, A$229m at a 10.5% margin, EBITDA A$24.0m. At 9.97 times plus net
   cash: (24.04 x 9.97 + 8.71) / 117.34 = A$2.12. Check on P/E: EBITDA less depreciation at FY26's 2.0% of revenue, taxed
-  at 30%, is A$13.6m or 11.6c a share; at IPG's 17.3 times, A$2.02.
+  at 30%, is A$13.6m or 11.6c a share; at IPG's 17.3 times, A$2.02 (at Korvest's 15.0 times A$1.74, at Duratec's 20.4
+  times A$2.37).
 - If it goes against us: new orders don't replace the work burned and EBITDA stays at FY26's A$18.46m, the acquisitions
   only covering a shrinking core: (18.46 x 9.97 + 8.71) / 117.34 = A$1.64. On FY26 statutory EPS at IPG's P/E, A$1.28.
   At the 5 times EBITDA Mayfield paid for SMEC, A$0.86.
 - Only now the price: A$1.55, the last trade on 6 Nov 2026 (ASX company data; A$1.535 the session before). Market value
   A$181.9m; enterprise value about 7.2 times FY27 guidance EBITDA and 15.4 times FY26 underlying earnings. Gap if it goes
-  our way: 2.12 / 1.55 - 1 = +37% (P/E check +30%). Gap if it goes against us: 1.64 / 1.55 - 1 = +6% (statutory P/E
+  our way: 2.12 / 1.55 - 1 = +37% (P/E check +30%; +12% at Korvest's multiple). Gap if it goes against us: 1.64 / 1.55 - 1 = +6% (statutory P/E
   -17%).
 
 ## 7. Grade
@@ -167,3 +170,5 @@ Henderson at A$1.56 to A$2.69).
 23. Results of Meeting, 21 Oct 2026 (03154839): https://announcements.asx.com.au/asxpdf/20261021/pdf/075kn2f1gflsf0.pdf
 24. IPD Group price A$5.15 and 104,110,037 shares from data/research_data/asx_company.json (fetched 7 Nov 2026).
 25. Prices and volumes: data/norgate/universe/prices_2026.csv.gz (Norgate), 5 to 30 Oct 2026; last trade A$1.55 on 6 Nov 2026 from data/research_data/asx_company.json (fetched 7 Nov 2026).
+26. Korvest, Preliminary Final Report FY26, 28 Jul 2026 (03118805), basic EPS 104.9c: https://announcements.asx.com.au/asxpdf/20260728/pdf/0723xrrr9b85x6.pdf ; close A$15.70 on 30 Oct 2026 from data/norgate/universe/prices_2026.csv.gz
+27. Duratec, FY26 Results Announcement, 26 Aug 2026 (03130101), EPS 9.25c: https://announcements.asx.com.au/asxpdf/20260826/pdf/07372m5s8d2xd0.pdf ; last trade A$1.885 on 6 Nov 2026 from data/research_data/asx_company.json
