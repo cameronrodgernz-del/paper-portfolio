@@ -8,7 +8,7 @@ Written 8 November 2026 by the research desk, and kept up to date as the researc
 - Since 1 November the desk has screened both exchanges, ranked what was left, and written fact sheets, deep dives and red team reviews from the filings. The counts at the top of this page come from the index and update each night.
 - **The watch list holds more than 50 shares**, each with a price that would send it back to the desk and the conditions that must still hold, plus about 100 dated events to March 2027 (results, meetings, regulator decisions) that could reopen one. The evening desk checks both every weeknight and tells Cam only when a share is reopened.
 - **On 8 November all the work scheduled for later was brought forward.** Every A-grade and B-grade fact sheet now has a deep dive, and every company waiting for a fact sheet has one (17 more), so the queue is empty. None of that day's deep dives makes a card yet. Four went to the red team: GDI Property Group and IVE Group as value picks, and Garda Property and EML Payments because their expected gain only just cleared the minimum. None passed: Garda and EML came back "wait", GDI and IVE "don't buy" at today's price.
-- **One rule question is open.** The value pick test doesn't say whether dividends paid before the resolve date count in the bad and middling values. Earlier deep dives read it both ways. It is Cam's call, and it sets the watch prices for IVE, Australian Finance Group, Jumbo, Capral and Cedar Woods. Both red teams that looked at it said to count them, but only what each outcome's own earnings and cash would pay, and only those that go ex before the resolve date.
+- **Dividends now count.** On 8 November Cam settled a question the rules were silent on: each outcome's value includes the dividends that go ex before the resolve date, at what that outcome's own earnings and cash would pay. Earlier deep dives had read it both ways; Helloworld and Argosy were worked on price alone, so their next look will count dividends.
 
 ## How a company gets bought
 
@@ -72,6 +72,7 @@ The watch list on this page shows how far each share is from its trigger tonight
 - **8 Nov:** the minimum gain for every pick, the cash rate plus 5% a year (Cam's call), enforced by the engine.
 - **8 Nov:** fact sheets value listed property on cash earnings at its peers' yields, and count cash a controlling holder keeps out of reach only through a buyback, capital return or bid.
 - **8 Nov:** Cam confirmed nothing is excluded for now (SkyCity and Betr included), so gaming, wagering and racing companies are open to the research.
+- **8 Nov:** dividends count in every research pick's outcomes, including both value pick legs, at what each outcome's own earnings and cash would pay; a dividend funded by borrowing counts only if that outcome's price carries the extra debt (Cam's call).
 - **8 Nov:** the watch list goes nightly: each trigger is checked against the latest price, and the evening desk reopens a share whose trigger is hit and whose other conditions still hold.
 
 ## Other places we looked
@@ -83,6 +84,5 @@ The watch list on this page shows how far each share is from its trigger tonight
 ## What happens next
 
 - Each weeknight the nightly job checks every watch list price and the evening desk reads the announcements for any event that has fallen due, reopening a share when its conditions are met.
-- Cam decides whether dividends count in the value pick test, which sets the watch prices for IVE, Australian Finance Group, Jumbo, Capral and Cedar Woods.
 - Nothing is waiting for a fact sheet or a deep dive. From here the work is the watch list and the dated events: Oceania and My Food Bag report on 19 November, Autosports and Bolton hold their AGMs on 20 November and IVE on 25 November, and most of the others report in late February.
 - Until a pick passes every step, the research money stays in cash.

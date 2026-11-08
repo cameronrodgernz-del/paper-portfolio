@@ -55,6 +55,11 @@ the market is wrong, there is no trade.
 Chances add to 100%. These go on the card exactly as written here. Each outcome's price comes from the
 valuation range above (what the market would pay for the business in that outcome by the resolve date), not
 from today's price plus or minus a step. Say which valuation figure each one uses.
+Dividends (rulebook section 5a, from 8 Nov 2026): add to each outcome's price the dividends and distributions that go
+ex before the resolve date, at what that outcome's own earnings and cash would pay (cut or stopped in the bad case where
+its earnings, borrowing or payout policy would; a payment funded by borrowing or asset sales only if the price carries
+the extra debt). Show the price and the dividends separately, e.g. "A$2.12 (A$1.87 price plus 25c)". The value pick
+legs and the expected gain use the total.
 Then the expected price, the round-trip costs, and the expected gain after costs against the minimum (rulebook section
 5a, from 8 Nov 2026): the cash rate plus 5% a year over the days to the resolve date. A case below the minimum is not
 a case for review, whatever the gap.

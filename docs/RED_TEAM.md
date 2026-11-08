@@ -83,6 +83,9 @@ headings below, and ends with the three points most likely to make the pick wron
 - Are the peers really comparable? Are the multiples applied to normal or peak earnings?
 - Net assets: book values against evidence of what they would fetch; who would buy them.
 - The discounted cash flow: which single input moves the answer most, and is it reasonable?
+- Dividends in the outcomes (rulebook section 5a, from 8 Nov 2026): only those going ex before the resolve date, and
+  in each outcome only what its own earnings and cash would pay. Would the bad case really keep paying? Is any of it
+  funded by borrowing or asset sales without the extra debt showing in that outcome's price?
 
 ## 4. The dated events and the exit
 - Will the event actually show the market is wrong, or could it come and go without the price moving?
