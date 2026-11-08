@@ -9,10 +9,10 @@ Value pick (rulebook section 5a, from 8 Nov 2026): no. The bad case (A$0.085) is
 
 In short:
 - The fact sheet's anchor doesn't survive. 6.02 times revenue is the average of 3.86, 10.43 and 3.77, and the 10.43 is the June 2025 peak (price A$0.20, A$30m of fresh cash, the US Navy letter of intent in the news). Listed additive manufacturing (AM) companies trade at 0.8 to 2.7 times revenue (Stratasys, Materialise, 3D Systems, Velo3D), and the one profitable US Navy submarine supplier I priced, Graham Corporation, at 2.9 times. Only two cash-burning ASX names trade higher (Amaero about 10.5 times, with a going-concern note; Titomic about 20 times). A buyer paying 6 times would be a bid, not the middle case. On peer multiples the business is worth about A$0.08 to A$0.15 a share, centre about A$0.11, against A$0.105.
-- The dated event may not show what the fact sheet expects. AML3D books a system's revenue when it is commissioned, not when it ships: Cogitic's system was installed in June 2024 but counted in FY25 after commissioning in August 2024, and TVA's (commissioned August 2025) in FY26. The A$9.9m NNS order was announced as "installed and operational during the third quarter of FY2027" (January to March 2027), and twice in mid-2026 as "early 2027"; only the September quarterly says "delivery in 2Q27". If commissioning falls in January to March, the half-year report shows revenue of about A$2m to A$4m and a loss like H1 FY26's A$4.84m EBITDA loss, not the jump the fact sheet assumes.
+- The dated event may not show what the fact sheet expects. AML3D appears to book a system's revenue when it is commissioned, not when it ships: Cogitic's system was installed in June 2024 but counted in FY25 after commissioning in August 2024, and TVA's (commissioned August 2025) in FY26. The A$9.9m NNS order was announced as "installed and operational during the third quarter of FY2027" (January to March 2027), and twice in mid-2026 as "early 2027"; only the September quarterly says "delivery in 2Q27". If commissioning falls in January to March, the half-year report shows revenue of about A$2m to A$4m and a loss like H1 FY26's A$4.84m EBITDA loss, not the jump the fact sheet assumes.
 - The order book is real but narrow. A$16.8m rolled into FY27; with orders since (Austal A$0.5m, Northrop Grumman A$2.2m) about A$19.5m is identified, of which about A$15.2m (78%) is US Navy industrial base work and A$9.9m (about half of FY27) is one customer, NNS. Four customers were 77% of FY26 revenue; NNS alone was 35% (about A$4.1m).
 - Earnings. FY26 EBITDA without the R&D offset was a loss of A$5.33m; H2 FY26 without it was a loss of A$0.37m. Nothing is capitalised as development, so EBITDA carries all A$1.37m of R&D. Cash earnings before working capital, after leases and before growth capex, were about minus A$4.0m in FY26 and about breakeven in H2. At the H2 cost base (about A$13m a year of cash costs) the business needs about A$21m to A$22m of revenue a year to break even at EBITDA.
-- Cash. A$24.42m at 30 September 2026, no debt. The plans still to spend are about A$14.9m (A$9.9m of the A$12m Ohio expansion, A$2.12m having been spent by June, plus A$5m for a UK centre that waits on a first UK order), not A$17m. On my central path cash falls to about A$8m by mid-2028 unless revenue passes about A$22m, so a raise is likely in 2027 to 2028. Every raise since listing came soon after contract news.
+- Cash. A$24.42m at 30 September 2026, no debt. The plans still to spend are about A$14.9m (A$9.9m of the A$12m Ohio expansion, A$2.12m having been spent by June, plus A$5m for a UK centre that waits on a first UK order), not A$17m. On my central path cash falls to about A$7m to A$10m by mid-2028 unless revenue passes about A$22m, so a raise is likely in 2027 to 2028. Every raise since the IPO came soon after contract news.
 - The Navy money is large but it isn't AML3D's. More than US$10bn has gone into the submarine industrial base since 2018 (GAO, April 2026), the 2025 reconciliation act set aside US$450m for "additive manufacturing for wire production and machining capacity for shipbuilding industrial base", and BlueForge Alliance holds a US$951m sole-source contract. But the Navy's 2025 letter to AML3D is non-binding, says the parts "still need to follow the traditional procurement process by the Shipyards and Shipbuilders", and its 400 to 1,600 parts and "up to 100 new systems" are for the whole industrial base. Lincoln Electric, a far larger welding company, announced its own Navy-backed large-scale metal AM capability for submarine parts in Cleveland in September 2025, about 50km from AML3D's Ohio plant.
 - Outcome. On my chances (40% bad at A$0.085, 40% middling at A$0.115, 20% good at A$0.16, by 5 March 2027) the expected price is A$0.112, +6.7% before costs and about +1% after a 5.5% round trip, below the minimum of 2.3% for the 116 days. It clears the minimum only if the NNS systems are booked in the half (my 45%, the fact sheet's implicit near-certainty), which is exactly what the December quarterly will tell us.
 
@@ -24,7 +24,7 @@ AML3D makes large metal parts by robotic arc welding, laying wire down layer by 
 - Printing parts and qualifying alloys for customers: A$2.70m (23%).
 - Licences, service and support: A$0.28m, plus A$0.71m of equipment lease income shown outside revenue from contracts.
 
-Where: US customers were A$9.44m of the A$11.76m (80%), the UK A$1.24m (BAE Systems), Australia A$1.08m [A1, note 28]. The US business runs from Stow, Ohio (opened December 2024); Australia from North Plympton, Adelaide [A1; A6].
+Where: US customers were A$9.44m of the A$11.76m (80%), the UK A$1.24m (BAE Systems), Australia A$1.08m [A1, note 28]. The US business runs from Stow, Ohio (opened December 2024, officially June 2025); Australia from North Plympton, Adelaide [A1; A6].
 
 Who runs it: Sean Ebert, managing director since September 2023 (ex Worley M&A); chair Noel Cornish (ex BlueScope Australia and New Zealand chief executive); founder Andrew Sales, chief technology officer until August 2026, now a non-executive director; Peter Siebels, ex KPMG partner [A1].
 
@@ -45,9 +45,9 @@ No year has made a profit. Shares on issue rose 3.8 times in four years.
 ## Why big investors may be overlooking it
 - Size and trading: market value A$60m; median value traded A$66,224 a day over the 20 sessions to 30 October 2026 [M1].
 - Index: not in the S&P/ASX 200 or 300 at any time since listing in April 2020 (data/norgate/index_members.csv) [M4].
-- Register: retail-heavy and scattered (see above). No fund has filed as a substantial holder since Regal Partners, which held 5.51% from 24 December 2024 and ceased on 10 July 2025 [fact sheet sources 9].
+- Register: retail-heavy and scattered (see above). No fund has filed as a substantial holder since Regal Partners, which held 5.51% from 24 December 2024 and ceased on 10 July 2025 [D7].
 - The founder has gone: Andrew Sales sold 7,000,000 shares on market at A$0.15 in September 2024 ("no current intention to further sell") and 25,657,707 at A$0.265 on 23 September 2025, 98% of what he had left, saying he had "received several offers from strategic investors" [D5, D6].
-- The fall: A$0.275 at the end of July 2025, A$0.20 in March 2026 after the NNS order, A$0.09 on 20 August 2026, A$0.105 now [M1]. The November 2024 placement at A$0.19 is 45% under water.
+- The fall: A$0.275 at the end of July 2025, A$0.20 in March 2026 after the NNS order, a low of A$0.09 on 20 August 2026, A$0.105 now [M1]. The November 2024 placement at A$0.19 is 45% under water.
 - Sector mood: Titomic, the other ASX metal AM name selling into US defence, raised at A$0.13 in September 2026 and closed at A$0.09 on 30 October; Amaero's FY26 accounts carry a going-concern uncertainty [P1, P3, P4].
 - Coverage: I didn't check broker databases, so "little coverage" isn't claimed.
 
@@ -79,7 +79,7 @@ Every system, parts and test order announced from the two system orders of Novem
 | 22 Sep 2026 [O26] | Aerospace R&D consortium | Three-year research project | none (AML3D contributes about A$0.53m) | Not expected to generate revenue | Cost |
 | 26 Oct 2026 [O27] | Northrop Grumman Marine Systems, Sunnyvale | ARCEMY X with two years of service | about 2.2 | 50% at the first milestone; installation Q4 FY27 | Open |
 
-Delivery record: of the seven systems commissioned since mid-2024, four were on time (Cogitic, TVA, NNS's first two, FasTech) and two ran late by four and nine months (both Austal). The first half of FY26 also slipped: of A$16.5m in hand then, A$3.25m was booked, "attributable to delays in the receipt of raw materials and extensions to project timelines" [A4].
+Delivery record: of the seven announced systems commissioned since mid-2024, five were on time (Cogitic, TVA, NNS's first two, FasTech) and two ran late by four and nine months (both Austal). The first half of FY26 also slipped: of A$16.5m in hand then, A$3.25m was booked, "attributable to delays in the receipt of raw materials and extensions to project timelines" [A4].
 
 When revenue is booked. The policy is "a point in time when the performance obligation is satisfied which is typically upon delivery to the customer" [A1, note 2(j)], and KPMG's key audit matter is the risk of revenue landing in the wrong period at year end [A1, auditor's report]. In practice systems have been booked at final commissioning:
 - Cogitic was installed and tested in June 2024 (FY24) and commissioned in August 2024; the FY25 annual report lists it among "key ARCEMY installations in FY25" [A14], and H1 FY25's two largest customers were 74% of that half's revenue [A4, note on major customers], which fits Cogitic (A$2.5m) plus the LWS purchase (A$1.1m).
@@ -87,7 +87,7 @@ When revenue is booked. The policy is "a point in time when the performance obli
 - FY26's A$8.78m of equipment sales is close to the four systems commissioned in the year: TVA A$1.97m, FasTech A$1.69m, Austal portable A$1.2m, NNS's first two about A$4.1m (A$8.96m) [A1, A7].
 So the four NNS systems are most likely booked when each is commissioned at Newport News. The company's own timing for that has been January to March 2027 in three of the four statements.
 
-What is contracted for FY27. A$16.8m rolled into FY27 [A1, A3]. Identified within it: NNS A$9.9m and BlueForge A$2.61m; the other about A$4.3m isn't itemised (the rest of the BAE programme, TVA's qualification work of about A$0.30m, other qualification prints, licences and service). Added since 1 July: Austal A$0.5m and Northrop Grumman A$2.2m. That is about A$19.5m, of which Northrop Grumman's A$2.2m is due for installation in April to June 2027 and could slip into FY28. Plus recurring lease and licence income of about A$1m a year. FY27 revenue of about A$17m to A$19m is in sight if nothing slips; FY26 also brought A$20m of new orders during the year, about a third of which was booked in the year [A5, A8].
+What is contracted for FY27. A$16.8m rolled into FY27 [A1, A3]. Identified within it: NNS A$9.9m and BlueForge A$2.61m; the other about A$4.3m isn't itemised (the rest of the BAE programme, TVA's qualification work of about A$0.30m, other qualification prints, licences and service). Added since 1 July: Austal A$0.5m and Northrop Grumman A$2.2m. That is about A$19.5m, of which Northrop Grumman's A$2.2m is due for installation in April to June 2027 and could slip into FY28. Plus recurring lease and licence income of about A$1m a year. FY27 revenue of about A$17m to A$19m is in sight if nothing slips; For scale, FY26 worked through A$29m of orders (A$9m carried in, A$20m new), booked about A$12m and carried A$16.8m out [A5, A8].
 
 Half by half: if NNS is commissioned by 31 December, H1 FY27 revenue is about A$11m to A$13m; if in January to March, about A$2m to A$4m, with H2 then carrying NNS, BlueForge, Austal's parts and Northrop Grumman.
 
@@ -124,7 +124,7 @@ Over the seven quarters after the placement quarter, operating cash flow was min
 
 What the cash has to do. A$2.12m of the A$12m Ohio expansion was spent by 30 June 2026, and the A$5m UK centre "is pending the initial UK ARCEMY order" [A1, chair's letter], so about A$14.9m is planned but not yet spent; only A$0.12m went on plant in the September quarter [A3]. The company already has capacity for about 20 systems (about A$40m) a year across Adelaide and Ohio, by its own estimate [A6], against six systems commissioned in FY26, so the expansion is for parts production and new markets rather than system orders already won.
 
-Runway, my central path (python3 -I, scratchpad calc): FY27 operating cash flow about minus A$2m with capex about A$5m, FY28 about minus A$1m with capex about A$8m, A$0.4m a year of lease payments: cash about A$8m by June 2028. If revenue doesn't reach about A$22m by then, or the expansion goes ahead in full, another raise is likely in 2027 or 2028. Inside the six-month window I put the chance of a raise at about 10%, mostly an opportunistic one after good news.
+Runway, my central path (python3 -I, scratchpad calc): FY27 operating cash flow about minus A$2m (the September quarter's minus A$2.13m included) with capex of A$5m to A$6m, FY28 about minus A$1m with capex of A$8m to A$10m (the rest of the A$14.9m plus about A$1m a year of upkeep), A$0.4m a year of lease payments: cash about A$7m to A$10m by June 2028. If revenue doesn't reach about A$22m by then, or the expansion goes ahead in full, another raise is likely in 2027 or 2028. Inside the six-month window I put the chance of a raise at about 10%, mostly an opportunistic one after good news.
 
 Every capital raising since listing:
 
@@ -138,9 +138,9 @@ Every capital raising since listing:
 | Apr to May 2024 [R6, R7] | 1-for-3 rights issue plus a further placement | 78.5m plus 60.25m (2m to director Siebels) | A$0.05 (23.1% below the ex-rights price) | A$3.9m plus A$3.0m | US expansion plan |
 | Nov 2024 [R8] | Two-tranche placement | about 157.9m | A$0.19 | A$30.0m (A$27.8m net in the quarter [A13]) | BlueForge's US$951m award |
 | FY26 and since [A1, A3] | Option exercises, mostly at A$0.10 | | | A$2.77m | |
-| Apr 2026 [fact sheet source 11] | Shares to an investor relations supplier | 2.0m | stated A$0.1875 | (services) | |
+| Apr 2026 [R9] | Shares to an investor relations supplier | 2.0m | stated A$0.1875 | (services) | |
 
-About A$59m has been raised in six years; accumulated losses are A$32.5m and net assets A$32.0m [A1]. All 45.1m unlisted options are out of the money (exercise prices A$0.16 to A$0.73) [A16]. A raise of A$10m to A$15m at the 15% to 25% discounts of the past would add about 17% to 26% to the share count at today's price.
+About A$59m has been raised in six years; accumulated losses are A$32.5m and net assets A$32.0m [A1]. All 45.1m unlisted options are out of the money (exercise prices A$0.16 to A$0.73) [A16]. A raise of A$10m to A$15m at the 15% to 25% discounts of the past would add about 20% to 33% to the share count at today's price (A$10m at A$0.089 is 112m shares; A$15m at A$0.079 is 190m).
 
 ### 4. Earnings without the R&D offset, and cash earnings
 (A$m, python3 -I, scratchpad calc/val.py) [A1, A4]:
@@ -181,7 +181,7 @@ Method 1: enterprise value to revenue against named listed peers. Peer figures f
 | Stratasys (Nasdaq:SSYS), 16 Oct | Polymer 3D printers | US$420.7m | US$547.3m | 0.77 | 42% | 1.81 |
 | Materialise (Nasdaq:MTLS), 12 Oct | AM software and printing; profitable (EBITDA US$30.5m) | US$396.3m | US$311.6m | 1.27 | 57% | 2.22 |
 | 3D Systems (NYSE:DDD), 2 Oct | Polymer and metal printers | US$647.9m | US$387.6m | 1.67 | 34% | 4.94 |
-| Velo3D (Nasdaq:VELO), 23 Oct | Metal powder printers, defence pivot | US$153.1m | US$57.6m | 2.66 | about 1% | n/m |
+| Velo3D (Nasdaq:VELO), 23 Oct | Metal powder-bed printers | US$153.1m | US$57.6m | 2.66 | about 1% | n/m |
 | Graham Corp (NYSE:GHM), 23 Oct | Vacuum and heat transfer equipment for Navy submarines and carriers; profitable | US$755.7m | US$261.2m | 2.89 | 23% | 12.38 |
 | Amaero (ASX:3DA), 30 Oct | Metal AM powders for US defence; going-concern uncertainty | A$190.5m | A$18.1m (FY26) | 10.5 | negative | n/m |
 | Titomic (ASX:TTT), 30 Oct | Cold-spray metal AM, US defence; A$10.4m operating outflow in the September quarter | A$151.9m | A$7.5m (12 months to June 2026) | 20.2 | n/a | n/a |
@@ -196,7 +196,7 @@ Method 2: enterprise value to gross profit, which allows for AML3D's higher marg
 
 Method 3: a simple discounted cash flow, to see what the business needs to do (calc/dcf.py). Inputs: FY27 revenue A$18.0m, growing 20%, 20%, 15% and 15% to A$34.3m in FY31; gross margin 60%; cash costs A$13.5m in FY27 growing 7% a year; government support A$0.8m a year while revenue is under A$20m, A$0.3m after; share payments counted as a cost of A$0.8m a year; capex A$5m in FY27 and A$8m in FY28 (the expansion), A$2m a year after; working capital 15% of revenue growth; A$0.38m a year of leases; tax at 30% after A$21m of carried losses (A$6.30m tax effect [A1]); discount rate 14%; plus A$24.42m of cash less A$1.57m of leases.
 - Base: A$0.00 a share with a 3% perpetual growth terminal value (EBITDA only reaches A$2.4m in FY31); A$0.069 if instead FY31 is sold at 2.0 times revenue.
-- 30% growth a year (FY31 A$45.6m): A$0.085 (perpetuity), A$0.106 (2.0 times exit), A$0.150 (3.0 times exit).
+- Growth of 30%, 30%, 25% and 20% (FY31 A$45.6m): A$0.060 (perpetuity), A$0.106 (2.0 times exit), A$0.150 (3.0 times exit). A flat 30% a year (FY31 A$51.4m): A$0.085 (perpetuity).
 - 10% growth: below zero (perpetuity), A$0.042 (2.0 times exit).
 - Gross margin 65% instead of 60%: A$0.021 (base); no expansion capex: A$0.022 (base).
 The single input that moves it most is growth with operating leverage: unless revenue grows about 25% to 30% a year while costs grow 7%, the cash on hand is spent and the business is worth little more than a revenue multiple at exit.
@@ -208,7 +208,7 @@ Range of value per share:
 - The cash flow method says the middle already needs fast growth; it does not support the high end without it.
 
 ## Why the market is wrong
-At A$0.105 the market pays A$35.7m for the business after cash (A$60.1m less A$24.42m; A$37.3m with leases), 2.86 times FY26 revenue, 4.57 times FY26 gross profit and about 1.9 times the about A$18.5m of FY27 revenue in sight. That is inside the peer range and below AML3D's own normal 3.8 to 3.9 times. I can't say the market is wrong today. The price already pays for most of the contracted book, and its past reactions show it fades news: the NNS order took it from A$0.135 to A$0.17 (17 March 2026) and A$0.20 after the BlueForge order, then back to A$0.10 by July; it jumped from A$0.10 to A$0.135 on 25 August 2026 with no announcement, reached A$0.15 after the FY26 result and was back at A$0.105 by 6 November; the Northrop Grumman order lifted it from A$0.105 to A$0.135 intraday and it gave that back within eight sessions [M1].
+At A$0.105 the market pays A$35.7m for the business after cash (A$60.1m less A$24.42m; A$37.3m with leases), 2.86 times FY26 revenue, 4.57 times FY26 gross profit and about 1.9 times the about A$18.5m of FY27 revenue in sight. That is inside the peer range and below AML3D's own normal 3.8 to 3.9 times. I can't say the market is wrong today. The price already pays for most of the contracted book, and its past reactions show it fades news: the NNS order took it from A$0.135 to A$0.17 (17 March 2026) and A$0.20 after the BlueForge order, then back to A$0.10 by July; it jumped from A$0.10 to A$0.135 on 25 August 2026 with no announcement, reached A$0.15 after the FY26 result and was back at A$0.105 by 6 November; the Northrop Grumman order (26 October) lifted the close from A$0.105 to A$0.135 two sessions later, and it was back at A$0.105 by 6 November [M1, M2].
 
 What could make it wrong, and when it would show: if all four NNS systems are commissioned by 31 December, the half-year report would show revenue of about A$11m to A$13m and a positive EBITDA without the R&D offset, the first such half, and trailing revenue would rise about 70%. If the market then held even its current trailing multiple, the price would be about A$0.15. That is the good and middling path, and its timing hinges on a commissioning date the company has given three different ways.
 
@@ -232,7 +232,7 @@ Round-trip costs at our size (2.5% of NZ$100,000 is NZ$2,500, about A$2,016 at N
 - size cost about 0.85% each way (daily volatility 5.5% over 20 sessions times the square root of A$2,016 over the A$85,480 average day), 1.7% in all;
 - brokerage of A$15 each way (0.74%) unless the plan's monthly cover applies, 0% to 1.5%;
 - 0.5% to convert NZ$ to A$, and the same back if converted, 0.5% to 1.0%.
-That is 4.5% to 8.9%; I use 5.5%. Expected return after costs: about +1.2% (+2.7% at the lowest costs, -2.2% at the highest).
+That is 4.5% to 8.9%; I use 5.5%. Expected return after costs: about +1.2% (+2.2% at the lowest costs of 4.5%, -2.2% at the highest of 8.9%).
 
 The minimum (rulebook section 5a, from 8 Nov 2026): the cash rate of 2.13% plus 5% a year over the 116 days from 9 November 2026 to 5 March 2027 is 2.27%. The expected gain after costs is below it. On the fact sheet's implicit timing (NNS booked in the half: chances 30/50/20) the expected price is A$0.115, +9.5% before costs and about +4% after, which would clear it. On slightly harsher chances (45/38/17) it is +4.0% before costs and negative after. The case turns on one date, which the December quarterly will settle.
 
@@ -249,7 +249,7 @@ Not a value pick: the bad case is 19% below the price.
 ## What would make this wrong
 The two things most likely to break a case here:
 1. Timing and concentration. If NNS's four systems are commissioned after 31 December (or slip, as both Austal systems did), the half-year shows a weak half and a loss, and the market, which faded every piece of good news this year, has no reason to pay up. NNS is about half of FY27's revenue, so one customer's acceptance schedule decides the year's shape.
-2. Cash and dilution. About A$14.9m of planned expansion plus losses at today's cost base leave about A$8m by mid-2028 unless revenue reaches about A$22m. Every raise since listing followed contract news, so a strong half is also the most likely moment for a placement at a 15% to 25% discount.
+2. Cash and dilution. About A$14.9m of planned expansion plus losses at today's cost base leave about A$7m to A$10m by mid-2028 unless revenue reaches about A$22m. Every raise since the IPO followed contract news, so a strong half is also the most likely moment for a placement at a 15% to 25% discount.
 Behind both: the Navy's money reaches AML3D only through the shipyards' normal purchasing, and a much larger welding company (Lincoln Electric) is building Navy-backed large-scale metal AM for submarine parts in Cleveland.
 
 Exit rule, should a card be placed later: sell on the first session after the half-year report, or earlier if the December quarterly says NNS commissioning has moved beyond March 2027, on any placement or share purchase plan, or on a close below A$0.08.
@@ -341,6 +341,7 @@ Capital raisings:
 - [R6] Rights issue, 3 Apr 2024: https://announcements.asx.com.au/asxpdf/20240403/pdf/0623zcn91rl020.pdf
 - [R7] Rights issue result and further placement, 16 May 2024: https://announcements.asx.com.au/asxpdf/20240516/pdf/063m917pkx1b9q.pdf
 - [R8] A$30m placement, 22 Nov 2024: https://announcements.asx.com.au/asxpdf/20241122/pdf/06bq9whgn0cn29.pdf
+- [R9] Proposed issue of securities (2m shares for services), 29 Apr 2026 (03087837): https://announcements.asx.com.au/asxpdf/20260429/pdf/06z08l7phsb5jy.pdf
 Directors and holders:
 - [D1] Change of director's interest, P Siebels, 30 Oct 2026: https://announcements.asx.com.au/asxpdf/20261030/pdf/07618ygw4lqclb.pdf
 - [D2] Change of director's interest, S Ebert, 30 Oct 2026: https://announcements.asx.com.au/asxpdf/20261030/pdf/07618t5n32z3lz.pdf
@@ -348,6 +349,7 @@ Directors and holders:
 - [D4] Change of director's interest, A Sales, 17 Dec 2025: https://announcements.asx.com.au/asxpdf/20251217/pdf/06tfqxdv9cm4v6.pdf
 - [D5] A Sales sell-down, 26 Sep 2025: https://announcements.asx.com.au/asxpdf/20250926/pdf/06prl60tdg5sbx.pdf ; Appendix 3Y: https://announcements.asx.com.au/asxpdf/20250926/pdf/06prl84cscff8z.pdf ; ceasing to be a substantial holder: https://announcements.asx.com.au/asxpdf/20250926/pdf/06prlh2mjwhlw7.pdf
 - [D6] Comment on director share transaction, 20 Sep 2024: https://announcements.asx.com.au/asxpdf/20240920/pdf/06848mgn475t5t.pdf ; Appendix 3Y: https://announcements.asx.com.au/asxpdf/20240920/pdf/06848269zg0fcc.pdf
+- [D7] Regal: becoming a substantial holder, 30 Dec 2024 (02900774): https://announcements.asx.com.au/asxpdf/20241230/pdf/06d496gy4mzsc2.pdf ; ceasing to be a substantial holder, 14 Jul 2025 (02969120): https://announcements.asx.com.au/asxpdf/20250714/pdf/06lscmqdzwbmfy.pdf
 US government and regulators:
 - [G1] US Department of Defense, Contracts for 10 Sep 2024 (BlueForge Alliance, N00024-24-C-2135): https://www.defense.gov/News/Contracts/Contract/Article/3901563
 - [G2] Congressional Research Service, Navy Virginia-Class Submarine Program and AUKUS Submarine (Pillar 1) Project (RL32418), 26 Jan 2026, read from the EveryCRSReport copy: https://www.everycrsreport.com/files/2026-01-26_RL32418_ae855911e85998ae7296946894eb72f5ca82193a.html
