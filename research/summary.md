@@ -72,5 +72,5 @@ The watch list on this page shows how far each share is from its trigger tonight
 ## What happens next
 
 - Each weeknight the nightly job checks every watch list price and the evening desk reads the announcements for any event that has fallen due, reopening a share when its conditions are met.
-- B-grade fact sheets get a deep dive as their deciding event gets close. Promisia Healthcare (half-year result in mid-November), My Food Bag (result 19 November, after its sale process ended with no deal) and Mayne Pharma (Cosette's special leave deadline 11 November) started on 8 November. Oceania Healthcare's fact sheet asks for its deep dive after the 19 November result.
+- B-grade fact sheets get a deep dive as their deciding event gets close. Three were done on 8 November: Promisia Healthcare is too thin to trade (NZ$451 a day); My Food Bag waits for its 19 November result (the capital return it is weighing would be borrowed, and its failed sale says the price is about what a buyer would pay); Mayne Pharma is no case (the price puts about A$2.43 a share on its claim against Cosette, which a cap in the deal contract and an open question over which holders get any money make worth far less). Oceania Healthcare's fact sheet asks for its deep dive after its 19 November result.
 - Until a pick passes every step, the research money stays in cash.
