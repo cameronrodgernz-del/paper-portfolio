@@ -13,7 +13,7 @@ In short: the fact sheet's A$0.33 "if it goes our way" is the good case, not the
 2. The timetable has already slipped. The study planned to lodge the Munda Mine Development and Closure Plan in August 2026 and all approval submissions by the September quarter, with about six months to approve [A1, A11]. On 15 October its preparation was "well advanced" [A2]. Approvals in "early 2027" now look like mid-2027 at best, and the board will only approve the build once all the money is raised and all permits are in hand [A1].
 3. There are 33.5m nil-priced performance rights (31.75m held by directors) and 18.3m options on issue [A2]. About 11.5m rights vest along the middling path (raising the build money, the 300,000oz resource, the Burbanks permits, the camp) and about 5m more at commissioning and first gold [A4 note 14]. The fact sheet's share count leaves them out.
 4. The second-hand plant bought for A$1.2m doesn't lower the A$145m. The company says the study's capital estimate already assumed comparable second-hand equipment, and that the saving against new equipment (A$15m to A$20m) is "already largely reflected in the Study capital estimate" [A8, A2].
-5. The Union Jack vote shows nothing about the question. It is A$3m of shares (6% more shares, already in the count). Its 2 December date was the company's estimate [A7]; no notice of meeting had been lodged by 8 November [A16], and a listed company must give 28 days' notice [S2], so it can't be held before about 7 December. The company must use its best endeavours to hold it by 31 December 2026 [A7].
+5. The Union Jack vote shows nothing about the question. It is A$3m of shares (12.5m, about 7% more shares, already in the count). Its 2 December date was the company's estimate [A7]; no notice of meeting had been lodged by 8 November [A16], and a listed company must give 28 days' notice [S2], so it can't be held before about 7 December. The company must use its best endeavours to hold it by 31 December 2026 [A7].
 
 At A$0.235 the market values Auric at about its cash plus its 301,000 ounces at what unfunded developers' ounces fetch, plus the Burbanks mill at cost (A$0.22 to A$0.25 a share). That is close to what the plan is worth to today's holders once it is paid for. The gap the fact sheet found sits in the good case.
 
@@ -34,7 +34,7 @@ Five years [D2, D1, A10, A4]:
 | Profit after tax (A$m) | -1.1 | 1.3 | 2.7 | 5.2 | 19.3 (half to June) |
 | Last close of the year (A$) | 0.064 | 0.12 | 0.34 | 0.275 | 0.235 (6 Nov) |
 
-Listed in February 2021 (first close A$0.19). In 2026 the share peaked at A$0.395 on 17 March and fell to A$0.195 on 28 July, the day after the study, which came out on 27 July on 6.5 times the usual volume [D1].
+Listed in February 2021 (first close A$0.19). In 2026 the share peaked at A$0.395 on 17 March and fell to A$0.195 on 28 July, the day after the study, which came out on 27 July on 6.3 times its median volume of the previous 60 sessions [D1].
 
 ## Why big investors may be overlooking it
 - Size: about A$47m, far too small for the S&P/ASX 300.
