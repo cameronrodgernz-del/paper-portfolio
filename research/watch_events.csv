@@ -1,0 +1,57 @@
+date,market,ticker,event,date_basis
+2026-11-11,ASX,MYX,Cosette claim: special leave deadline,announced
+2026-11-11,ASX,STP,annual meeting (first read on 1H revenue),announced
+2026-11-11,NZX,RAD,"H1 FY27 result (EBITDA less resale gains, aged care EBITDAR, net debt)",announced
+2026-11-12,ASX,AFG,warehouse facility falls due (renewal terms),announced
+2026-11-12,ASX,PAC,strategic review update at or before the AGM,announced
+2026-11-13,ASX,CAF,annual meeting (whether SEQ sits inside FY27 guidance),announced
+2026-11-14,ASX,IRI,1H FY27 trading update,inferred from last year
+2026-11-16,NZX,SKO,"H1 FY27 result and guidance revision (Booking.com terms, FY28 spend)",announced
+2026-11-17,NZX,SAN,FY26 result and notice of meeting (Umios nominee?),announced
+2026-11-18,ASX,HLO,Helloworld can creep in Webjet without a bid,inferred from its 19% crossing date
+2026-11-18,ASX,WJL,half-year result,announced
+2026-11-18,NZX,ARG,interim result,announced
+2026-11-19,ASX,AAC,first-half result,inferred
+2026-11-19,NZX,BRW,AGM,announced
+2026-11-19,NZX,MFB,1H27 result and chair change (after the failed sale process),announced
+2026-11-19,NZX,OCA,1H27 result,announced
+2026-11-20,ASX,ASG,"AGM (H1 FY27 guidance, order bank)",announced
+2026-11-20,ASX,HIT,AGM (early read on Hudson since 11 Sep),announced
+2026-11-20,ASX,HUM,AGM (second strike and possible board spill),announced
+2026-11-24,NZX,ERD,H1 FY27 result and strategic update,announced
+2026-11-25,ASX,IRI,annual meeting,announced
+2026-11-25,NZX,IPL,1H27 result,inferred
+2026-11-25,NZX,KMD,AGM (Bluestar exclusivity running),announced
+2026-11-25,NZX,SPG,HY27 result,inferred
+2026-11-26,ASX,CZR,AGM with a holder-nominated director,announced
+2026-11-26,ASX,EDU,buyback meeting,announced
+2026-11-26,ASX,MVF,AGM,announced
+2026-11-26,ASX,MXI,AGM,announced
+2026-11-26,NZX,SCT,annual meeting,announced
+2026-12-03,NZX,DGL,AGM,announced
+2026-12-10,ASX,AFG,warehouse facility falls due (renewal terms),announced
+2026-12-15,NZX,SKC,Grand Hotel sale settles,inferred
+2026-12-16,ASX,CAA,windows and doors anti-dumping recommendation due,announced
+2026-12-16,NZX,SAN,annual meeting,announced
+2026-12-18,ASX,CAA,buyback ends,announced
+2026-12-23,NZX,KMD,Bluestar exclusivity long stop,announced
+2026-12-31,ASX,ATA,contract dispute mediation deadline; Westpac facility term ends,announced
+2027-01-08,ASX,KAU,December quarter production update,inferred
+2027-01-15,ASX,KYP,December quarter revenue flash,inferred
+2027-01-27,ASX,AL3,December quarterly (Newport News commissioning),inferred
+2027-01-30,ASX,FML,December quarterly,inferred
+2027-02-05,ASX,TRJ,1H trading update,inferred
+2027-02-10,ASX,RKN,FY26 result,inferred
+2027-02-16,ASX,AD8,H1 FY27 result,inferred
+2027-02-18,ASX,AFG,"HY27 result (lending margin, book size)",inferred
+2027-02-19,ASX,ASG,H1 FY27 result,inferred
+2027-02-19,NZX,SKC,H1 FY27 result (sale process update),inferred
+2027-02-23,ASX,GEM,"CY26 result (same-centre occupancy, covenants)",inferred
+2027-02-23,ASX,MYX,H1 FY27 result (EBITDA excluding the Australian arm),inferred
+2027-02-24,ASX,CWP,H1 FY27 result,inferred
+2027-02-25,ASX,HLO,H1 FY27 result,inferred
+2027-02-26,ASX,AIM,1H FY27 result,inferred
+2027-02-26,ASX,CAA,FY26 result,announced
+2027-02-26,ASX,HIT,"H1 FY27 result, first with Hudson",inferred
+2027-02-26,ASX,KYP,H1 FY27 result (due by 28 Feb),inferred
+2027-03-01,ASX,EDU,T1 2027 enrolments (with the FY26 result about 26 Feb),inferred
