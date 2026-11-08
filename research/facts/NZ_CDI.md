@@ -1,0 +1,27 @@
+# CDL Investments New Zealand (NZX:CDI): fact sheet
+
+Written 2026-11-08 by the research desk, from primary sources. Ranking: 3 points, #4 in the NZX table of reports/research_rank.md (2026-11-07); earlier quick look rejected.
+Stage 3 of the research funnel (rulebook section 5a). A fact sheet replaces the old quick look: it records the facts in a
+standard form and asks one question. It does not estimate an expected gain, and it doesn't drop a company on judgement.
+This is a simulation and not financial advice.
+
+## 1. Kill check
+Any "yes" ends the sheet here, with the fact and its link. Nothing else ends it.
+- A fund, trust or investment company, or no business to value yet? No. A New Zealand land developer selling residential sections (Christchurch, Rolleston, Havelock North, Hamilton and others), with a small portfolio of industrial and retail investment property (Wiri warehouses in Auckland, shops at Prestons Park and Stonebrook). FY25 (year to 31 December 2025) revenue NZ$38.1m, down 22.3%, and profit after tax NZ$11.1m, down 28.1%; H1 2026 revenue NZ$12.5m and profit NZ$3.4m, and the board told the May 2026 meeting that 2026 earnings would be "considerably lower" than 2025 [1][2][3][4].
+- Delisting, suspension, going-concern doubt or an auditor's qualification? No. KPMG's opinion on the FY25 accounts is unmodified, with key audit matters but no material uncertainty paragraph; the accounts are prepared on a going-concern basis [5]. Cash NZ$13.4m at 31 December 2025 and no bank debt drawn; a new NZ$20m two-year ANZ facility secured on the Wiri properties was signed in August 2026 [5][6].
+- Too thin to trade? Yes. NZX's own daily trading data: median on-market value over the 20 sessions 9 October to 6 November 2026 was NZ$6,404 a day (lowest NZ$14, highest NZ$49,630; 6 of the 20 sessions above NZ$12,500) [8]. The 60-session median is NZ$3,799 and the 250-session median NZ$3,668, so this is not a recent dip. Under rulebook section 3 the largest position would be two sessions at 10% of the 20-session median, about NZ$1,281, below the NZ$2,500 smallest NZX order. The sheet ends here.
+- On Cam's excluded list, or in the gaming, wagering and racing hold? No. config/judgement_excluded.csv has no entries.
+- A takeover, scheme, strategic review, sale process or a holder over 50% making moves? No move on CDI itself in the last 12 months. Millennium & Copthorne Hotels New Zealand (NZX:MCK) holds 190,591,297 shares, 65.12% at 27 February 2026, and has one of five board seats; Adrian Ho holds 8.14% [5]. In January 2025 MCK's own parent, CDL Hotels Holdings New Zealand, gave notice of a takeover offer for MCK; CDI said the offer was not for CDI and that the offeror intends CDI to stay listed [7]. CDL Hotels Holdings' stake in MCK rose from 75.86% to 83.84% during 2025; the ultimate holder is Hong Leong Investment Holdings in Singapore [5]. MCK took no shares under the 2025 dividend reinvestment plan [5]. Not a current special situation, but a controller that has just consolidated one level up, over a company priced well below its book value, is worth noting for the watch list if the trading ever deepens.
+
+## 7. Grade
+C, no deep dive: a kill fact applies (too thin to trade, section 1). For the record, net tangible assets were NZ$1.10 a share at 30 June 2026, at cost (development land at the lower of cost and net realisable value, investment property at depreciated cost; the investment property was independently valued at NZ$69.9m against a carrying value of NZ$35.5m at 31 December 2025) [2][5]. Next dated event: the FY26 result, about 24 February 2027 (inferred from 24 February 2026) [1].
+
+## Sources
+1. CDI FY2025 Results Announcement (results form, directors' review, media release), 24 Feb 2026: https://www.nzx.com/announcements/468095 ; https://api.nzx.com/public/announcement/468095/attachment/463075/468095-463075.pdf ; https://api.nzx.com/public/announcement/468095/attachment/463072/468095-463072.pdf
+2. CDI Announces 2026 Interim Results (results form and directors' review), 10 Aug 2026: https://www.nzx.com/announcements/477595 ; https://api.nzx.com/public/announcement/477595/attachment/474204/477595-474204.pdf ; https://api.nzx.com/public/announcement/477595/attachment/474202/477595-474202.pdf
+3. CDI HY26 Unaudited Financial Statements, 10 Aug 2026: https://api.nzx.com/public/announcement/477595/attachment/474206/477595-474206.pdf
+4. CDI 2026 ASM Chair Remarks, 26 May 2026: https://www.nzx.com/announcements/473296 ; https://api.nzx.com/public/announcement/473296/attachment/469324/473296-469324.pdf
+5. CDI 2025 Annual Report (financial statements, notes 8, 9, 12 and 17, KPMG audit report, 20 largest shareholders and substantial holders at 27 Feb 2026), 27 Mar 2026: https://www.nzx.com/announcements/470072 ; https://api.nzx.com/public/announcement/470072/attachment/465525/470072-465525.pdf
+6. CDI subsidiary enters into new banking facility with ANZ, 7 Aug 2026: https://www.nzx.com/announcements/477458 ; https://api.nzx.com/public/announcement/477458/attachment/474032/477458-474032.pdf
+7. CDI Statement regarding takeover notice for MCK (updated), 20 Jan 2025: https://www.nzx.com/announcements/445366 ; https://api.nzx.com/public/announcement/445366/attachment/435927/445366-435927.pdf
+8. NZX daily trading activity for NZKGLE0001S8, read 8 November 2026: https://api.nzx.com/public/instrument/NZKGLE0001S8/metrics/activity/past/2Y.json

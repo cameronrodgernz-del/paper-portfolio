@@ -1,0 +1,33 @@
+# Atturra (ASX:ATA): fact sheet
+
+Written 2026-11-08 by the research desk, from primary sources. Ranking: 4 points, #43 of 195 ASX names in reports/research_rank.csv (2026-11-07 run; reports/research_rank.md shows the top 40).
+Stage 3 of the research funnel (rulebook section 5a). A fact sheet replaces the old quick look: it records the facts in a
+standard form and asks one question. It does not estimate an expected gain, and it doesn't drop a company on judgement.
+This is a simulation and not financial advice.
+
+## 1. Kill check
+Any "yes" ends the sheet here, with the fact and its link. Nothing else ends it.
+- A fund, trust or investment company, or no business to value yet? No. Atturra is an Australian IT services and consulting business (partner to Boomi, Microsoft, SAP and others) with FY26 revenue of A$351.8m [1].
+- Delisting, suspension, going-concern doubt or an auditor's qualification? No. The auditor's opinion on the FY26 accounts is unmodified; a typographical correction to the auditor's report was lodged on 26 Aug 2026 [1][2]. Westpac bank loans of A$29.2m are all current because the facility term expires in December 2026; the annual report says credit approval has been received to extend it by two years [1].
+- Too thin to trade? No. Median value traded over the 20 sessions 5 to 30 October 2026 was A$18,642 a day, counting the three sessions with no trades as zero; 12 of the 20 were above A$10,000 (data/norgate/universe/prices_2026.csv.gz) [13]. That caps a position near A$3,700.
+- On Cam's excluded list, or in the gaming, wagering and racing hold? No. config/judgement_excluded.csv has no entries.
+- A takeover, scheme, strategic review, sale process or a holder over 50% making moves? Yes. The chair, Shan Kanji, through Driftwood IT Pty Ltd and 263 Finance Pty Ltd, holds 63.87% and keeps buying. His voting power went from 58.42% (notice of 4 Sep 2025) to 60.88% (23 Jan 2026), 61.92% (12 May 2026) and 63.87% (2 Sep 2026) [3][4][5]. The rises came from on-market purchases by 263 Finance: 6,500,000 shares at A$0.71 on 23 January 2026; about 2.5m shares between 19 and 31 March 2026 at about A$0.55 to A$0.56 (for example 1,000,000 for A$560,000 on 19 March and 403,209 for A$221,765 on 31 March); and 6,950,000 shares for A$2,780,000 (A$0.40) on 2 September 2026 [6][7][8][9][10]. Over the same period the company's own on-market buy-back (13,577,695 shares for about A$10m since April 2025) has also lifted his percentage [1]. A holder above 19% may add up to 3 percentage points every six months without a bid (the "creep" exception in item 9 of section 611 of the Corporations Act), and he has been doing so. This goes to the special situations watch list, and the sheet ends here.
+
+## 7. Grade
+C, on a named kill fact: a 63.87% holder (the chair) buying on market, which sends the company to the special situations watch list. Sections 2 to 6 were not written, as the template requires once a kill check answer is yes. For the watch list, from the FY26 accounts: revenue A$351.8m (up 17%, in a year that included the Blue Connections purchase, completed 1 September 2025, and a full year of DalRae Solutions, completed 2 June 2025 [13]), underlying EBITDA A$30.1m (FY25 A$31.5m), statutory loss A$21.7m after a A$22.8m goodwill impairment, A$3.8m of restructuring and A$5.1m of receivables and contract asset allowances; operating cash flow A$9.1m; cash A$66.0m against A$29.2m of bank debt (net cash A$36.6m before leases) and A$20.1m of deferred and contingent acquisition payments; 368,090,382 shares on issue at 30 June 2026 [1]. FY26 guidance was cut on 19 December 2025 after a public sector client terminated a fixed-term contract, which Atturra disputes [11]; FY26 revenue then came in below even the cut range [12]. For FY27 the company expects "record revenue and underlying EBITDA", weighted to the second half [12][14]. Dated events, for the watch list: the Westpac facility term ends in December 2026 (extension approved by credit, per the annual report) [1]; the half-year result about 26 February 2027 (inferred from 26 February 2026) [13]; any further Kanji purchases, which the creep rule limits to 3 points in any six months.
+
+## Sources
+1. Appendix 4E and 2026 Annual Report, 26 Aug 2026 (03129998): results summary, statements, notes 15 (intangibles and impairment), 18 (borrowings), 21 and 27 (contingent consideration), auditor's report, shareholder information and buy-back: https://announcements.asx.com.au/asxpdf/20260826/pdf/0736vfpxmc86wm.pdf
+2. Typographical Correction in Independent Auditor's Report, 26 Aug 2026 (03130636): https://announcements.asx.com.au/asxpdf/20260826/pdf/0738cb4h7w0cdh.pdf
+3. Change in substantial holding (263 Finance and Shan Kanji), 27 Jan 2026 (03053065), an image file read by OCR: https://announcements.asx.com.au/asxpdf/20260127/pdf/06vm7r80bzqzhg.pdf
+4. Change in substantial holding, 14 May 2026 (03093945), read by OCR: https://announcements.asx.com.au/asxpdf/20260514/pdf/06zlbym489w875.pdf
+5. Change in substantial holding, 3 Sep 2026 (03135567), read by OCR: https://announcements.asx.com.au/asxpdf/20260903/pdf/073ps7hh0glg54.pdf
+6. Change of Director's Interest Notice (S Kanji), 27 Jan 2026 (03053035): https://announcements.asx.com.au/asxpdf/20260127/pdf/06vm5bt3hs17m0.pdf
+7. Change of Director's Interest Notice (S Kanji), 25 Mar 2026 (03075718): https://announcements.asx.com.au/asxpdf/20260325/pdf/06xsk6l5d4pml0.pdf
+8. Change of Director's Interest Notice (S Kanji), 31 Mar 2026 (03077842): https://announcements.asx.com.au/asxpdf/20260331/pdf/06y03hn5vrl3t7.pdf
+9. Change of Director's Interest Notice (S Kanji), 1 Apr 2026 (03078669): https://announcements.asx.com.au/asxpdf/20260401/pdf/06y29cfqttn57w.pdf
+10. Change of Director's Interest Notice (S Kanji), 7 Sep 2026 (03136551): https://announcements.asx.com.au/asxpdf/20260907/pdf/073t50917yr0b1.pdf
+11. Trading and Earnings Guidance update, 19 Dec 2025 (03043449): https://announcements.asx.com.au/asxpdf/20251219/pdf/06tjwrdhbhl7ww.pdf
+12. FY26 Earnings and Trading Update, 22 Jul 2026 (03117120): https://announcements.asx.com.au/asxpdf/20260722/pdf/071y8w0dbxwzcn.pdf
+13. Prices and volumes: data/norgate/universe/prices_2026.csv.gz (Norgate), 5 to 30 Oct 2026; ASX announcements lists for ATA, 2025 and 2026 (acquisition completions of 2 Jun 2025 and 1 Sep 2025, results dates): https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=ATA&timeframe=Y&year=2026 (and the 2025 list)
+14. 2026 AGM Presentation and Chairman's Address, 22 Oct 2026 (03155793): https://announcements.asx.com.au/asxpdf/20261022/pdf/075n4r7vyz4p5r.pdf
