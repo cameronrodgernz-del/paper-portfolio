@@ -42,6 +42,7 @@ date,market,ticker,event,date_basis
 2026-12-01,ASX,AHC,RTM and CareTech completion,announced
 2026-12-03,NZX,DGL,AGM,announced
 2026-12-10,ASX,AFG,warehouse facility falls due (renewal terms),announced
+2026-12-11,ASX,GDI,Interim distribution (2.5c held?) and December valuations,inferred
 2026-12-15,NZX,PGW,PGW guidance reassessment,inferred
 2026-12-15,NZX,SKC,Grand Hotel sale settles,inferred
 2026-12-16,ASX,CAA,windows and doors anti-dumping recommendation due,announced
@@ -64,6 +65,7 @@ date,market,ticker,event,date_basis
 2027-02-05,ASX,TRJ,1H trading update,inferred
 2027-02-10,ASX,RKN,FY26 result,inferred
 2027-02-16,ASX,AD8,H1 FY27 result,inferred
+2027-02-16,ASX,GDI,"1H FY27 result (rent-free, fit-outs, WS1 and WS2 values)",inferred
 2027-02-17,ASX,SXL,Stokes group creep window opens; 1H FY27 result due mid to late Feb,inferred
 2027-02-18,ASX,AFG,"HY27 result (lending margin, book size)",inferred
 2027-02-19,ASX,ASG,H1 FY27 result,inferred
