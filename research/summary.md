@@ -6,8 +6,8 @@ Written 8 November 2026 by the research desk, and kept up to date as the researc
 
 - **Nothing bought, and no card written.** No company has passed every test yet. The research sleeve's 10% sits in cash, earning the cash rate.
 - Since 1 November the desk has screened both exchanges, ranked what was left, and written fact sheets, deep dives and red team reviews from the filings. The counts at the top of this page come from the index and update each night.
-- **The watch list holds about 25 shares**, each with a price that would send it back to the desk and the conditions that must still hold, plus about 40 dated events to March 2027 (results, meetings, regulator decisions) that could reopen one. The evening desk checks both every weeknight and tells Cam only when a share is reopened.
-- **Still to do:** seven A-grade fact sheets never got a deep dive (Autosports, Australian Finance Group, Audinate, G8 Education, Radius Care, Serko and Kinatico). Those deep dives started on 8 November, ahead of Radius's result on 11 November and Serko's on 16 November.
+- **The watch list holds about 30 shares**, each with a price that would send it back to the desk and the conditions that must still hold, plus about 50 dated events to March 2027 (results, meetings, regulator decisions) that could reopen one. The evening desk checks both every weeknight and tells Cam only when a share is reopened.
+- **Seven A-grade fact sheets had never had a deep dive.** All seven were done on 8 November and none makes a card. Kinatico and Audinate are no case; Autosports, Australian Finance Group, G8 Education, Radius Care and Serko wait for an event, and each has a watch list trigger. Radius reports on 11 November, Serko on 16 November and Autosports holds its AGM on 20 November.
 
 ## How a company gets bought
 
@@ -30,6 +30,7 @@ The same few things came up again and again.
 - **Cash on the balance sheet was often already spoken for.** Grange's cash is committed to its underground mine; Maritana's goes on its build; Webjet's and Helloworld's is mostly customers' and suppliers' money; Step One's sits behind a founder with 58%, and the company has never bought back shares.
 - **Profit flattered cash.** Australian Agricultural's profit was 93% herd revaluation; Scott Technology's cash went into working capital on its projects; Trajan was left with A$0.7m of cash in FY26 after leases, capital spending, interest and tax; Bhagwan Marine's leases and the upkeep of its fleet take about three quarters of its EBITDA.
 - **The bad case was too far below the price.** Some looked cheap but could lose 40% to 50% if the question went against us: EDU Holdings under the new student visa rules, Trajan on its guidance record, Kaiser Reef on its grade, Maritana on its build.
+- **Rising rates weigh on the borrowers.** The Reserve Bank's rise to 4.85% on 4 November adds about A$18m a year to Autosports' interest bill, which leaves FY27 profit near FY26's even if delayed car deliveries come through, and in the last rate-rise cycle Australian Finance Group's lending margin fell from 163 to 113 basis points and its profit from A$51m to A$29m. G8 Education's shares sit on A$613m of leases and A$128m of bank debt.
 - **The red team cut the best cases further.** All five deep dives sent for review on 8 November came back "wait" or "don't buy".
 
 The broad finding: smaller companies on both exchanges look about fairly priced on the cash they actually earn. Where there is an edge, it is in the price. Several would qualify 5% to 15% lower, which is what the watch list waits for.
@@ -45,6 +46,8 @@ The broad finding: smaller companies on both exchanges look about fairly priced 
 | Trajan (ASX:TRJ) | Deep dive, then the red team | Bad case 45% below the price, after three guidance misses | A$0.22 or lower before the February trading update, with FY27 guidance unchanged |
 | Centrepoint Alliance (ASX:CAF) | Deep dive | About +3.7% after costs by 31 March 2027, only just above the minimum and only on the desk's chances | A$0.35 or lower with FY27 guidance unchanged |
 | Bhagwan Marine (ASX:BWN) | Deep dive | About +2% after costs, just under the minimum, and a loan to a company owned by two directors | The first-half update and result, then a fresh look |
+| Australian Finance Group (ASX:AFG) | Value pick deep dive: about +22% after costs to August 2028 on the desk's chances, clearing the minimum | The bad case (a lending margin near 110 basis points at 8 times earnings) is 19% below the price, outside the 10% limit | A$1.41 or lower with the outlook unchanged, where the expected gain after costs is about +36%; or a strong half-year result in February |
+| G8 Education (ASX:GEM) | Deep dive | At A$0.105 a half-cent trading step is about 5% each way, so the expected gain after costs is about -2.5% | A$0.095 or lower before the February result: the step falls to a tenth of a cent and the gain after costs is about +12.5% |
 | KMD Brands (NZX:KMD) | Special situation deep dive: a US bidder in exclusive talks | The price already allows for about a 39% chance of a bid near NZ$2.60; the desk's own estimate is 40% | NZ$2.00 or lower with the talks still live |
 
 The watch list on this page shows how far each share is from its trigger tonight, nearest first.
@@ -69,6 +72,5 @@ The watch list on this page shows how far each share is from its trigger tonight
 ## What happens next
 
 - Each weeknight the nightly job checks every watch list price and the evening desk reads the announcements for any event that has fallen due, reopening a share when its conditions are met.
-- The seven deep dives started on 8 November land first, each with a verdict and any trigger or event added to the watch list.
-- B-grade fact sheets get a deep dive as their deciding event gets close; Mayne Pharma (special leave deadline 11 November), My Food Bag and Oceania Healthcare (results 19 November) are next.
+- B-grade fact sheets get a deep dive as their deciding event gets close. Promisia Healthcare (half-year result in mid-November), My Food Bag (result 19 November, after its sale process ended with no deal) and Mayne Pharma (Cosette's special leave deadline 11 November) started on 8 November. Oceania Healthcare's fact sheet asks for its deep dive after the 19 November result.
 - Until a pick passes every step, the research money stays in cash.
