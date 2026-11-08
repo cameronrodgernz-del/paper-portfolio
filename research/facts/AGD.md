@@ -40,5 +40,5 @@ C, no deep dive: a kill fact applies (too thin to trade, section 1). The 69% con
 13. Austral Gold Announces Updated Guanaco Technical Report, 23 Jul 2026 (03117439): https://announcements.asx.com.au/asxpdf/20260723/pdf/071z96cn7th6q2.pdf
 14. Change of Director's Interest Notice (Jarvis), 16 Sep 2025 (02995932): https://announcements.asx.com.au/asxpdf/20250916/pdf/06p8x8dr6fbfnl.pdf
 15. Change of Director's Interest Notice (Jarvis), 6 Oct 2025 (03006002): https://announcements.asx.com.au/asxpdf/20251006/pdf/06q5w5xw96jd2c.pdf
-16. Prices and volumes: data/norgate/universe/prices_2026.csv.gz (Norgate), 7 Aug to 30 Oct 2026; last trade A$0.115 on 6 Nov 2026 from data/research_data/asx_company.json (ASX company data, fetched 7 Nov 2026).
+16. Prices and volumes: data/norgate/universe/prices_2026.csv.gz (Norgate), 10 Aug to 30 Oct 2026; last trade A$0.115 on 6 Nov 2026 from data/research_data/asx_company.json (ASX company data, fetched 7 Nov 2026).
 17. ASX announcements list for AGD, 2025 and 2026: https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=AGD&timeframe=Y&year=2026
