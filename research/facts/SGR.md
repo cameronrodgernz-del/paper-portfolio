@@ -1,0 +1,55 @@
+# The Star Entertainment Group (ASX:SGR): fact sheet
+
+Written 2026-11-08 by the research desk, from primary sources. Ranking: minus 1 point, #195 of 195 ASX names in reports/research_rank.csv (2026-11-08); written now that gaming, wagering and racing names are open.
+Stage 3 of the research funnel (rulebook section 5a). A fact sheet replaces the old quick look: it records the facts in a
+standard form and asks one question. It does not estimate an expected gain, and it doesn't drop a company on judgement.
+This is a simulation and not financial advice.
+
+## 1. Kill check
+Any "yes" ends the sheet here, with the fact and its link. Nothing else ends it.
+- A fund, trust or investment company, or no business to value yet? No. Owns and runs The Star Sydney and The Star Gold Coast casinos, and manages The Star Brisbane for its owner [1].
+- Delisting, suspension, going-concern doubt or an auditor's qualification? Yes: going-concern doubt. Ernst & Young's report on the FY26 accounts (31 Aug 2026) has a "Material Uncertainties Relating to Going Concern" paragraph and an emphasis of matter on regulatory and legal provisions, other creditors and contingent liabilities [1]. Note G of the accounts says there "continues to be material uncertainties in existence that cast significant doubt as to the Group's ability to remain a going concern", with net current liabilities of A$222.3m at 30 Jun 2026, and lists four conditions: an AUSTRAC penalty within its capacity to pay, the cost-out lifting profit enough to meet its debt covenants, its casino licences being reinstated, and its transactional banking (in place only to 30 Sep 2026) being extended [1]. The September quarter report repeats that the uncertainties continue and will be reassessed at the half year [3]. The AUSTRAC penalty has since been set at A$260m, payable in four instalments over 19 months (Federal Court judgment of 28 Oct 2026); the company says it won't affect its ability to continue as a going concern, but the penalty is a review event under its WhiteHawk loan [4].
+- Too thin to trade? No. Median value traded over the 20 sessions 2 to 30 October 2026 was A$179,415 a day (data/norgate/universe/prices_2026.csv.gz) [20].
+- On Cam's excluded list, or in the gaming, wagering and racing hold? No. config/judgement_excluded.csv has no entries; Cam confirmed on 8 Nov 2026 that there is nothing to avoid at the outset.
+- A takeover, scheme, strategic review, sale process or a holder over 50% making moves? Yes, in substance: a recapitalisation and two controlling holders adding shares. Bally's Corporation and Investment Holdings (Bruce Mathieson's BMG Discretionary Trust) put A$300m into the company in 2025 and converted their notes into 3.75bn shares on 28 Nov 2025 [1][5]. Holders approved, on 25 Jun 2025, Bally's going up to 53.75% and Investment Holdings up to 37.33% [6][7]. On 28 Oct 2026, after AGM approval, the company issued 105,917,185 shares at A$0.1123 to the two of them in place of cash interest (62,565,672 to Bally's, 43,351,513 to Investment Holdings) [8][9]. Bally's now holds 2,562,565,672 shares (38.01% of 6,742,119,961) and Investment Holdings 1,640,202,815 (24.33%), 62.3% between them [7][9][10]. Bally's chairman Soo Kim chairs the board and Bruce Mathieson Jnr, Investment Holdings' nominee, is Group CEO [1][11]. This goes to the special situations watch list.
+
+The going-concern doubt ends the sheet, and the controlling holders' moves send the company to the special situations watch list. Sections 2 to 6 were not written, as the template requires once a kill check answer is yes.
+
+For the watch list (facts only, not graded):
+- Who can move the price: Bally's (38.01%, room to 53.75% under the June 2025 approval) and Investment Holdings (24.33%, room to 37.33%) [6][7][10]. Both now take interest in shares: the 28 Oct 2026 issue was at A$0.1123, against A$0.155 on 6 Nov 2026 [8]. The constitution and agreements with Liquor and Gaming NSW and Queensland's Office of Liquor and Gaming Regulation bar any individual above 10% without regulator approval, which both have [7][10].
+- Numbers: FY26 statutory revenue A$1,306.2m (normalised A$1,101.0m), normalised EBITDA a loss of A$16.1m, statutory loss after tax A$307.3m, net tangible assets 4c a share [1][2]. Q1 FY27 group EBITDA A$12m (Sydney A$15m, Gold Coast A$20m, Brisbane operator fee A$4.5m, corporate minus A$23m) [3].
+- Cash and debt: cash A$239m at 30 Sep 2026 plus A$80m of restricted deposits (A$48m of it an interest reserve to May 2027); Q1 operating cash flow minus A$15.5m [3]. The WhiteHawk facility (closed 7 May 2026) is US$390m (about A$540m) for three years, with quarterly repayments from 31 Mar 2027, minimum liquidity of A$50m for 12 months, A$75m from 12 to 18 months and A$100m after, an asset cover ratio of 1.40 times first tested on 31 Dec 2026, and a minimum EBITDA covenant from 31 Mar 2027 [12].
+- Licences and regulators:
+  - The Star Sydney: casino licence suspended since 2022; the NSW Independent Casino Commission (NICC) said on 25 Sep 2026 the suspension stays, citing "recent allegations regarding governance, leadership, and culture"; the Manager's term was extended to 30 Jun 2027 [13]. NICC fines of A$10m plus a A$5m enforceable undertaking (1 Jun 2026), payable progressively to 30 Jun 2027 [14].
+  - The Star Gold Coast: a 90-day licence suspension, due 30 Sep 2026, deferred to 31 Mar 2027; the Special Manager is extended to 31 Mar 2027 [15].
+  - The Star Brisbane: Star exited its equity in the Destination Brisbane Consortium (first stage completed 1 Apr 2026), which removed its A$700m guarantee and cut its operator fee; the External Advisor is extended to 31 Mar 2027 [2][3][15][16].
+  - AUSTRAC: A$260m civil penalty, four instalments over 19 months from the 28 Oct 2026 judgment [4].
+  - Shareholder class action in the Supreme Court of Victoria (filed 30 Mar 2022): no provision made [1].
+- Taxes: NSW casino duty under the 2023 agreement: poker machine duty 21.91% from 1 Jul 2024 and 22.91% from 1 Jul 2027, rates held until 2030; rebate duty 12.5% and table games 20.25% [1]. Historical underpaid NSW casino duty was paid in Q1 FY27 [3]. The ATO junket disputes settled on 7 Jul 2026: A$33m refunded, a A$55m charge in FY26 [17].
+- Dated events: first asset cover test 31 Dec 2026; Q2 FY27 quarterly about late January 2027 (inferred from 30 Jan 2026); 1H FY27 result about 27 Feb 2027 (ranking file), when the going-concern position is reassessed; Gold Coast deferral, Special Manager and Brisbane External Advisor end 31 Mar 2027; WhiteHawk repayments and EBITDA covenant start 31 Mar 2027; interest reserve runs out and minimum liquidity rises to A$75m from about May 2027; Sydney Manager and NICC fines to 30 Jun 2027; NSW poker machine duty rises 1 Jul 2027 [1][3][12][13][14][15].
+- Price for reference: A$0.155, the last trade on 6 Nov 2026 (ASX company data), a market value of about A$1,045m.
+
+## 7. Grade
+C, on named kill facts: the auditor's material uncertainty on going concern in the FY26 accounts, and a recapitalisation whose two controlling holders (62.3% together, with approval to go higher) keep adding shares. Sent to the special situations watch list. If the 1H FY27 accounts (about 27 Feb 2027) drop the going-concern uncertainty, the sheet could be reopened, but the controlling holders would still route it to special situations.
+
+## Sources
+1. Appendix 4E and 2026 Annual Report, 31 Aug 2026 (03133185): results summary, Note G (going concern), note B6 (provisions, contingent liabilities, class action, casino duty), directors' report, auditor's report: https://announcements.asx.com.au/asxpdf/20260831/pdf/073hgy342sgz6g.pdf
+2. Full Year Announcement and Results Presentation, 31 Aug 2026 (03133192): https://announcements.asx.com.au/asxpdf/20260831/pdf/073hhf0bdqb2vf.pdf
+3. Quarterly Activities and Appendix 4C, quarter to 30 Sep 2026, 27 Oct 2026 (03157578): https://announcements.asx.com.au/asxpdf/20261027/pdf/075tn55z1gw9vl.pdf
+4. AUSTRAC Civil Penalty Proceedings Decision, 29 Oct 2026 (03159118): https://announcements.asx.com.au/asxpdf/20261029/pdf/075ypkz2t0t9qq.pdf
+5. A$300 million strategic investment into The Star, 7 Apr 2025 (02935377): https://announcements.asx.com.au/asxpdf/20250407/pdf/06hgy4jtyywq27.pdf ; Cleansing Prospectus, 28 Nov 2025 (03033772): https://announcements.asx.com.au/asxpdf/20251128/pdf/06sn9wvbt58f0r.pdf
+6. Notification of Substantial Shareholding - Bally's, 3 Dec 2025 (03036436): https://announcements.asx.com.au/asxpdf/20251203/pdf/06swprv4bcxc8h.pdf
+7. Notification of change in substantial shareholding (Investment Holdings), 6 Nov 2026 (03163106): https://announcements.asx.com.au/asxpdf/20261106/pdf/076b5bv3ycmqbj.pdf (the holder's own Form 604 of the same day, 03163051, is a scanned image and was not read)
+8. Cleansing Notice under s708A(5)(e), 29 Oct 2026 (03159367): https://announcements.asx.com.au/asxpdf/20261029/pdf/075zb19rkf8qhz.pdf
+9. Results of 2026 Annual General Meeting, 27 Oct 2026 (03157821): https://announcements.asx.com.au/asxpdf/20261027/pdf/075v8c7ccym0vv.pdf
+10. Change of Director's Interest Notice - Soo Kim, 2 Nov 2026 (03161051): https://announcements.asx.com.au/asxpdf/20261102/pdf/076481g98vg5w7.pdf ; shares on issue from data/research_data/asx_company.json (fetched 7 Nov 2026).
+11. Group CEO and MD departure and Executive Chairman appointment, 16 Dec 2025 (03041677): https://announcements.asx.com.au/asxpdf/20251216/pdf/06td391bbrk6gn.pdf ; Appointment of new Chairman and Board changes, 17 Dec 2025 (03042203): https://announcements.asx.com.au/asxpdf/20251217/pdf/06tfkf5v566nd0.pdf
+12. Binding Facility Agreement with WhiteHawk Capital Partners, 7 May 2026 (03091576): https://announcements.asx.com.au/asxpdf/20260507/pdf/06zbx4dzvk5nqx.pdf
+13. The Star Sydney - Regulatory Update, 25 Sep 2026 (03144029), with the NICC media release: https://announcements.asx.com.au/asxpdf/20260925/pdf/074jgwkmd7vjzp.pdf
+14. The Star Sydney - penalties for historical financial crime risk matters, 1 Jun 2026 (03099817), with the NICC announcement: https://announcements.asx.com.au/asxpdf/20260601/pdf/07061k0hs196zd.pdf
+15. The Star Gold Coast Licence Suspension Deferred, 24 Sep 2026 (03143441), with the Queensland Attorney-General's media statement: https://announcements.asx.com.au/asxpdf/20260924/pdf/074gwphj8kkby7.pdf
+16. The Star completes disposal of its interest in DBC, 1 Apr 2026 (03078343): https://announcements.asx.com.au/asxpdf/20260401/pdf/06y1h4lh3qp8jl.pdf
+17. Settlement of Disputes with the Australian Taxation Office, 7 Jul 2026 (03112368): https://announcements.asx.com.au/asxpdf/20260707/pdf/071g08mrvyf604.pdf
+18. 2026 AGM Chairman and CEO Addresses, 27 Oct 2026 (03157633): https://announcements.asx.com.au/asxpdf/20261027/pdf/075ts2mms4y1pz.pdf
+19. Regulatory Approval for Strategic Investment, 21 Nov 2025 (03030053): https://announcements.asx.com.au/asxpdf/20251121/pdf/06sb2gb26v1ffr.pdf
+20. Prices and volumes: data/norgate/universe/prices_2026.csv.gz (Norgate), 2 to 30 Oct 2026; last trade from data/research_data/asx_company.json (fetched 7 Nov 2026).
