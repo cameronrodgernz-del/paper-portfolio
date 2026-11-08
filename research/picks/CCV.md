@@ -18,7 +18,7 @@ Where the money comes from in FY26 (year to 30 June 2026), A$m [C1, note 3]:
 - Pawnbroking and buyback fees 78.7;
 - Personal loan interest and fees 76.9, vehicle loan interest 8.7;
 - Franchise fees 14.6, other 8.9.
-Total revenue 429.2. The lending is now one product, the Cashies Loan: a line of credit from A$2,050 to A$10,000, repaid over up to 36 months a draw, priced from 19.95% a year, launched nationwide in October 2025 [C2][C3, p. 2][C7]. Payday loans (small amount credit contracts) stopped being written on 30 September 2025, medium amount loans are also running off, vehicle loans stopped in June 2024, and New Zealand personal lending stopped in April 2026 [C1, note 2].
+Total revenue 429.2. The lending is now one product, the Cashies Loan: a line of credit from A$2,050 to A$10,000, each draw repaid over up to 36 months, priced from 19.95% a year, launched nationwide in October 2025 [C2][C3, p. 2][C7]. Payday loans (small amount credit contracts) stopped being written on 30 September 2025, medium amount loans are also running off, vehicle loans stopped in June 2024, and New Zealand personal lending stopped in April 2026 [C1, note 2].
 
 Who runs it: Sam Budiselik, CEO and managing director; Timothy Jugmans chairs the board (he is EZCORP's chief financial officer); Lachlan Given, EZCORP's chief executive, is a director; Peter Cumins, with the company since 1990, is executive deputy chairman and retires on 30 June 2027 [C1][C13].
 
@@ -96,7 +96,7 @@ So the fact sheet's premise needs turning round. Up-front provisions did not hol
 - Franking credits A$78.3m [C1].
 
 ### Who owns it and who is moving
-- EZCORP: 43.53%, unchanged apart from its full take-up in the November 2025 raising at A$0.305; no substantial holder notice in two years [C1][C14]. With the chair and one other director it is the natural buyer of the rest, but there is no sign of an approach.
+- EZCORP: 43.53%, unchanged apart from its full take-up in the November 2025 raising at A$0.305; no substantial holder notice in the 2025 or 2026 announcement lists [C1][C14]. With the chair and one other director it is the natural buyer of the rest, but there is no sign of an approach.
 - Directors: Peter Cumins sold 350,000 shares on market at A$0.31 to A$0.33 on 2 to 5 March 2026 (about A$110,000), keeping 3,023,468 direct and 6,937,226 in his super fund [C12]; he retires on 30 June 2027 [C13]. No director has bought on market in the last 12 months (entitlement shares and vesting rights don't count) [C14].
 - Related parties: a A$6.4m four-year sponsorship of Perth Bears Limited, of which Cumins is a director (A$0.3m paid in FY26); A$120,000 a year of consulting to an entity controlled by Mr P Cohen, EZCORP's beneficial owner; the Perth City franchise store bought from a Cumins-related party for A$365,000 [C1, note 19.c].
 - AGM business on 19 November 2026: re-election of Lachlan Given and Mark Ashby, the remuneration report, up to 3,572,644 performance rights for the CEO (valued at A$0.2939, the five-day average price after the FY26 result; half on an undisclosed three-year EPS target, half on relative shareholder return), and a rise in the directors' fee pool from A$1.0m to A$1.3m [C8].
