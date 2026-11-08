@@ -1,0 +1,20 @@
+market,ticker,company,trigger_price,currency,also_needs,source
+ASX,CAA,Capral,11.75,AUD,"after the FY26 result: underlying EBIT A$34m or more, December NTA A$14.20 or more, net cash A$40m or more, a new buyback",research/red_team/CAA.md
+ASX,CWP,Cedar Woods Properties,5.75,AUD,"FY27 guidance intact; or about A$6.10 after a strong H1 (FY28 presales A$420m or more, Q2 gross sales 250 or more)",research/red_team/CWP.md
+ASX,STP,Step One Clothing,0.11,AUD,no news worse than the bad case,research/picks/STP.md
+ASX,TRJ,Trajan Group Holdings,0.22,AUD,before the trading update (about 5 Feb 2027) with FY27 guidance unchanged,research/picks/TRJ.md
+ASX,HLO,Helloworld Travel,1.33,AUD,"nothing else changed (as an ordinary pick); not after a guidance cut or a debt-funded Webjet bid",research/picks/HLO.md
+ASX,IRI,Integrated Research,0.23,AUD,"after the trading update and AGM: 1H contracts signed A$22m or more, no acquisition, net cash A$44m or more",research/picks/IRI.md
+ASX,DXC,Dexus Convenience Retail REIT,2.18,AUD,20.9c distribution guidance for FY27 and FY28 held and NTA A$3.75 or more,research/picks/DXC.md
+ASX,KAU,Kaiser Reef,0.10,AUD,Henty at 5500oz a quarter or more and gold A$5500/oz or more (as a value pick),research/picks/KAU.md
+ASX,CAF,Centrepoint Alliance,0.35,AUD,FY27 guidance unchanged,research/picks/CAF.md
+ASX,RKN,Reckon,0.33,AUD,nothing else changed,research/picks/RKN.md
+ASX,FML,Focus Minerals,1.40,AUD,gold A$5500/oz or more,research/picks/FML.md
+ASX,AL3,AML3D,0.09,AUD,no change to the Newport News timing or the order book,research/picks/AL3.md
+ASX,GRR,Grange Resources,0.055,AUD,see the deep dive's reopen conditions,research/picks/GRR.md
+NZX,ARG,Argosy Property,0.88,NZD,NTA NZ$1.55 or more and the 6.65c dividend held,research/picks/NZ_ARG.md
+NZX,IPL,Investore Property,0.84,NZD,6.5c dividend guidance and NTA NZ$1.55 or more,research/picks/NZ_IPL.md
+NZX,SPG,Stride Property Group,0.94,NZD,8.0c dividend guidance and NTA NZ$1.60 or more,research/picks/NZ_SPG.md
+NZX,SAN,Sanford,6.00,NZD,FY26 underlying profit NZ$55m or more (or NZ$6.60 with FY26 underlying NZ$62m or more and operating cash NZ$90m or more),research/picks/NZ_SAN.md
+NZX,SCT,Scott Technology,1.60,NZD,FY27 range intact (as a value pick),research/picks/NZ_SCT.md
+NZX,ERD,EROAD,0.75,NZD,"after the H1 result: cash earnings NZ$4m or more, net debt NZ$20m or less, a plan for NZ$12m a year in FY28",research/picks/NZ_ERD.md

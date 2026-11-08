@@ -1,0 +1,14 @@
+ticker,market,provider,provider_symbol,why
+CAA,ASX,eodhd,CAA.AU,research watch list (Capral): price trigger in research/watch_triggers.csv
+CWP,ASX,eodhd,CWP.AU,research watch list (Cedar Woods Properties): price trigger in research/watch_triggers.csv
+STP,ASX,eodhd,STP.AU,research watch list (Step One Clothing): price trigger in research/watch_triggers.csv
+TRJ,ASX,eodhd,TRJ.AU,research watch list (Trajan Group Holdings): price trigger in research/watch_triggers.csv
+HLO,ASX,eodhd,HLO.AU,research watch list (Helloworld Travel): price trigger in research/watch_triggers.csv
+IRI,ASX,eodhd,IRI.AU,research watch list (Integrated Research): price trigger in research/watch_triggers.csv
+DXC,ASX,eodhd,DXC.AU,research watch list (Dexus Convenience Retail REIT): price trigger in research/watch_triggers.csv
+KAU,ASX,eodhd,KAU.AU,research watch list (Kaiser Reef): price trigger in research/watch_triggers.csv
+CAF,ASX,eodhd,CAF.AU,research watch list (Centrepoint Alliance): price trigger in research/watch_triggers.csv
+RKN,ASX,eodhd,RKN.AU,research watch list (Reckon): price trigger in research/watch_triggers.csv
+FML,ASX,eodhd,FML.AU,research watch list (Focus Minerals): price trigger in research/watch_triggers.csv
+AL3,ASX,eodhd,AL3.AU,research watch list (AML3D): price trigger in research/watch_triggers.csv
+GRR,ASX,eodhd,GRR.AU,research watch list (Grange Resources): price trigger in research/watch_triggers.csv

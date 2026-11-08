@@ -59,7 +59,7 @@ jobs:
         env:
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
           EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
-        run: python3 -I src/fetch_prices.py config/universe_trial.csv,config/universe_us_deals.csv data
+        run: python3 -I src/fetch_prices.py config/universe_trial.csv,config/universe_us_deals.csv,config/universe_watch.csv data
       - name: NZX prices (FinFeedAPI, paid by usage credits)
         id: nzx
         continue-on-error: true
@@ -68,7 +68,7 @@ jobs:
         run: python3 -I src/fetch_nzx.py data --max-requests 15
       - name: Engine checks
         id: checks
-        run: python3 -I tests/test_engine.py && python3 -I tests/test_clerk.py && python3 -I tests/test_clerk_actions.py && python3 -I tests/test_hedges.py && python3 -I tests/test_risk.py && python3 -I tests/test_decide.py && python3 -I tests/test_insider_history.py && python3 -I tests/test_deal_history.py && python3 -I tests/test_nzx.py && python3 -I tests/test_fetch.py && python3 -I tests/test_deal_odds.py && python3 -I tests/test_data_checks.py && python3 -I tests/test_au_deal_test.py && python3 -I tests/test_deal_files.py && python3 -I tests/test_deal_trial.py
+        run: python3 -I tests/test_engine.py && python3 -I tests/test_clerk.py && python3 -I tests/test_clerk_actions.py && python3 -I tests/test_hedges.py && python3 -I tests/test_risk.py && python3 -I tests/test_decide.py && python3 -I tests/test_insider_history.py && python3 -I tests/test_deal_history.py && python3 -I tests/test_nzx.py && python3 -I tests/test_fetch.py && python3 -I tests/test_deal_odds.py && python3 -I tests/test_data_checks.py && python3 -I tests/test_au_deal_test.py && python3 -I tests/test_deal_files.py && python3 -I tests/test_deal_trial.py && python3 -I tests/test_watch_check.py
       - name: Data checks (prices that look wrong or stale, exchange rates)
         id: datacheck
         continue-on-error: true
@@ -86,6 +86,10 @@ jobs:
       - name: Clerk (runs only when config/run.json names an active ledger)
         id: clerk
         run: python3 -I src/daily.py
+      - name: Research watch list (price triggers and dated events; rulebook section 5a)
+        id: watch
+        continue-on-error: true
+        run: python3 -I src/watch_check.py .
       - name: Copy to Google Drive (only once the RCLONE_CONF secret is set; see docs/DRIVE_BACKUP.md)
         if: env.HAS_DRIVE == 'true'
         continue-on-error: true
