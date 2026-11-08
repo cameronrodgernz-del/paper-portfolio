@@ -1,4 +1,5 @@
 date,market,ticker,event,date_basis
+2026-11-10,ASX,SXL,ticker changes to SMG: move the watch trigger and the price fetch line to SMG,announced
 2026-11-11,ASX,MYX,Cosette claim: special leave deadline,announced
 2026-11-11,ASX,STP,annual meeting (first read on 1H revenue),announced
 2026-11-11,NZX,RAD,"H1 FY27 result (EBITDA less resale gains, aged care EBITDAR, net debt)",announced
@@ -44,6 +45,7 @@ date,market,ticker,event,date_basis
 2027-02-05,ASX,TRJ,1H trading update,inferred
 2027-02-10,ASX,RKN,FY26 result,inferred
 2027-02-16,ASX,AD8,H1 FY27 result,inferred
+2027-02-17,ASX,SXL,Stokes group creep window opens; 1H FY27 result due mid to late Feb,inferred
 2027-02-18,ASX,AFG,"HY27 result (lending margin, book size)",inferred
 2027-02-19,ASX,ASG,H1 FY27 result,inferred
 2027-02-19,NZX,SKC,H1 FY27 result (sale process update),inferred

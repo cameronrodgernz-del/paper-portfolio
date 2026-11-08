@@ -15,6 +15,7 @@ No trigger hit.
 | ASX:HUM | AUD 0.45 | 0.48 | 2026-11-07 | +6.7% |  | ASX company data (last trade at fetch) |
 | ASX:CAF | AUD 0.35 | 0.375 | 2026-11-07 | +7.1% |  | ASX company data (last trade at fetch) |
 | NZX:SKC | NZD 0.635 | 0.69 | 2026-11-06 | +8.7% |  | data/prices/NZX |
+| ASX:SXL | AUD 0.44 | 0.48 | 2026-11-07 | +9.1% |  | ASX company data (last trade at fetch) |
 | ASX:ASG | AUD 1 | 1.1 | 2026-11-07 | +10.0% |  | ASX company data (last trade at fetch) |
 | ASX:CWP | AUD 5.75 | 6.33 | 2026-11-07 | +10.1% |  | ASX company data (last trade at fetch) |
 | NZX:MFB | NZD 0.29 | 0.32 | 2026-11-06 | +10.3% |  | data/prices/NZX |
@@ -48,6 +49,7 @@ No trigger hit.
 
 ## Events in the next 14 days
 
+- 2026-11-10: ASX:SXL, ticker changes to SMG: move the watch trigger and the price fetch line to SMG (announced)
 - 2026-11-11: ASX:MYX, Cosette claim: special leave deadline (announced)
 - 2026-11-11: ASX:STP, annual meeting (first read on 1H revenue) (announced)
 - 2026-11-11: NZX:RAD, H1 FY27 result (EBITDA less resale gains, aged care EBITDAR, net debt) (announced)
