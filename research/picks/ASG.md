@@ -43,7 +43,7 @@ So of the usual reasons, size, index and register apply; coverage doesn't. The p
 ## What the filings show
 
 ### Results by half, and where the second half went
-Normalised figures exclude lease accounting (so rent is counted as a cash cost), acquisition costs and acquisition amortisation; they are after floorplan and corporate interest [A4, p. 11]. Second halves are the full year less the first half (python3 -I, shown in the scratchpad calc).
+Normalised figures exclude lease accounting (so rent is counted as a cash cost), acquisition costs and acquisition amortisation; they are after floorplan and corporate interest [A4, p. 11]. Second halves are the full year less the first half (arithmetic run in python3 -I).
 
 | A$m | H1 FY25 | H2 FY25 | H1 FY26 | H2 FY26 |
 | --- | --- | --- | --- | --- |
@@ -70,7 +70,7 @@ Both, and they show in different lines.
 - Rates: the RBA raised on 4 February, 18 March, 6 May, 30 September and 4 November 2026, to 4.85% [R1]. Its November statement says "a further tightening in financial conditions is warranted", assumes a cash rate averaging 4.9% for 2026/27 and 4.8% for 2027, and sees inflation above 3% until the end of 2027 [R2]. The fact sheet's 4.60% is out of date.
 - Balances at 30 June 2026: floorplan (bailment) A$832.2m at a weighted 6.17% (5.73% a year earlier); syndicated loan A$320.0m at 6.81% (5.96%); premium funding A$1.3m [A1, notes 17 and 18]. The company's own sensitivity: 50 basis points is A$5.6m of profit before tax on A$1,122m of net floating debt [A1, note 23].
 - FY26 cost: floorplan interest A$38.6m, corporate A$21.8m, lease interest A$18.4m [A1, note 6]. On average balances (Jun 2025, Dec 2025, Jun 2026) that is an effective 5.43% on floorplan and 7.53% on corporate debt (the latter includes facility and guarantee fees), 1.59 and 3.69 points over FY26's 3.84% average cash rate.
-- FY27 if the cash rate holds at 4.85% (average 4.70% over the year): floorplan at an average A$790m costs about A$49.7m and corporate debt at about A$335m about A$28.1m, A$77.8m in total, A$17.9m more than FY26. About A$9m of that comes from higher balances (mostly the acquisitions, which bring their own earnings) and about A$9m from rates. Against the H2 FY26 run rate (about A$69m a year) it is A$6m to A$9m more. One more 25 basis point rise costs about A$2.8m a year.
+- FY27 if the cash rate holds at 4.85% (average 4.70% over the year): floorplan at an average A$790m costs about 790 x 6.29% = A$49.7m and corporate debt at about A$335m about 335 x 8.39% = A$28.1m, A$77.8m in total, A$17.9m more than FY26. About A$9m of that comes from higher balances (mostly the acquisitions, which bring their own earnings) and about A$9m from rates. Against the H2 FY26 run rate (about A$69m a year) it is A$6m to A$9m more. One more 25 basis point rise costs about A$2.8m a year.
 - For H1 FY27 alone (July to December 2026, cash rate average 4.56%): about A$38m of interest, against about A$25m in H1 FY26.
 
 ### The order bank and the market
@@ -130,7 +130,7 @@ Peter Warren's property looked like hidden value until its rent was checked [PWR
 8. The family is landlord to six sites at A$7.9m a year.
 
 ## Valuation
-Shares 213.4m. Corporate net debt A$305m (A$290.1m at June, plus Phillip with duty about A$17m and the A$6.4m final dividend, less about A$8m of cash earned since June). Floorplan is treated as an operating cost (its interest is deducted from earnings, and the stock it funds is not counted as an asset). Leases are not deducted, because rent is a cost in the normalised earnings. Tax 30%. Minorities are negligible [A1, note 30]. Arithmetic in python3 -I (scratchpad asg_calc2.py).
+Shares 213.4m. Corporate net debt A$305m (A$290.1m at June, plus Phillip with duty about A$17m and the A$6.4m final dividend, less about A$8m of cash earned since June). Floorplan is treated as an operating cost (its interest is deducted from earnings, and the stock it funds is not counted as an asset). Leases are not deducted, because rent is a cost in the normalised earnings. Tax 30%. Minorities are negligible [A1, note 30]. Arithmetic run in python3 -I. Interest in each case = average balance x (FY27 average cash rate + the FY26 spread: 1.59 points on floorplan, 3.69 on corporate debt).
 
 ### FY27 earnings in three cases, at today's rates
 Revenue starts from FY26's A$3,186m plus about A$330m for a full year of the FY26 acquisitions (Solitaire about A$300m a year [A19], three months in FY26; Barry Bourke about A$200m, the rest of the "about A$500m combined" [A4, p. 23], six and a half months in FY26; the two Canberra businesses about A$60m, the A$260m a year the H1 deck gives for its three acquisitions [A7, p. 11] less Barry Bourke), about A$60m from the five new sites (Mercedes-Benz Southport, two Omoda Jaecoo, two XPENG [A2]) and less about A$20m of brands dropped. These are my estimates from the company's round numbers. The Grand Motors dealerships are left out (price and earnings undisclosed).
