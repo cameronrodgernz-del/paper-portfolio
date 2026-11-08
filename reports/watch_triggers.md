@@ -10,6 +10,7 @@ No trigger hit.
 | --- | --- | --- | --- | --- | --- | --- |
 | ASX:HLO | AUD 1.3 | 1.355 | 2026-11-07 | +4.2% | near | ASX company data (last trade at fetch) |
 | NZX:ERD | NZD 0.75 | 0.79 | 2026-11-06 | +5.3% |  | data/prices/NZX |
+| ASX:HUM | AUD 0.45 | 0.48 | 2026-11-07 | +6.7% |  | ASX company data (last trade at fetch) |
 | ASX:CAF | AUD 0.35 | 0.375 | 2026-11-07 | +7.1% |  | ASX company data (last trade at fetch) |
 | ASX:CWP | AUD 5.75 | 6.33 | 2026-11-07 | +10.1% |  | ASX company data (last trade at fetch) |
 | NZX:SAN | NZD 6 | 6.65 | 2026-11-06 | +10.8% |  | data/prices/NZX |
