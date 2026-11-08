@@ -19,6 +19,7 @@ date,market,ticker,event,date_basis
 2026-11-20,ASX,ASG,"AGM (H1 FY27 guidance, order bank)",announced
 2026-11-20,ASX,HIT,AGM (early read on Hudson since 11 Sep),announced
 2026-11-20,ASX,HUM,AGM (second strike and possible board spill),announced
+2026-11-24,ASX,MVF,Genesis total return swap unwind must start (about),inferred
 2026-11-24,NZX,ERD,H1 FY27 result and strategic update,announced
 2026-11-25,ASX,IRI,annual meeting,announced
 2026-11-25,NZX,IPL,1H27 result,inferred
@@ -55,6 +56,7 @@ date,market,ticker,event,date_basis
 2027-02-23,ASX,MYX,H1 FY27 result (EBITDA excluding the Australian arm),inferred
 2027-02-24,ASX,CWP,H1 FY27 result,inferred
 2027-02-25,ASX,HLO,H1 FY27 result,inferred
+2027-02-25,ASX,MVF,1H27 result,inferred
 2027-02-26,ASX,AIM,1H FY27 result,inferred
 2027-02-26,ASX,ANG,HY27 result (fifth guidance test; Chile and North America),inferred
 2027-02-26,ASX,CAA,FY26 result,announced

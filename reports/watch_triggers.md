@@ -23,6 +23,7 @@ No trigger hit.
 | ASX:GEM | AUD 0.095 | 0.105 | 2026-11-07 | +10.5% |  | ASX company data (last trade at fetch) |
 | NZX:SAN | NZD 6 | 6.65 | 2026-11-06 | +10.8% |  | data/prices/NZX |
 | ASX:AFG | AUD 1.41 | 1.565 | 2026-11-07 | +11.0% |  | ASX company data (last trade at fetch) |
+| ASX:MVF | AUD 0.665 | 0.74 | 2026-11-07 | +11.3% |  | ASX company data (last trade at fetch) |
 | ASX:CAA | AUD 11.75 | 13.16 | 2026-11-07 | +12.0% |  | ASX company data (last trade at fetch) |
 | ASX:ATA | AUD 0.285 | 0.32 | 2026-11-07 | +12.3% |  | ASX company data (last trade at fetch) |
 | ASX:AD8 | AUD 1.75 | 2.01 | 2026-11-07 | +14.9% |  | ASX company data (last trade at fetch) |
