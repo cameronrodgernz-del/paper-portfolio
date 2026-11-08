@@ -26,7 +26,7 @@ Corrections to the fact sheet, for the red team:
 3. The AASB 16 question. The pre-AASB 16 measure deducts cash rent. IVE published the new sites' cash rent: Kemps Creek and Dandenong South cost A$5.7m after tax in FY26 and A$10.2m in FY27, rising about 4% a year to FY35 (about A$8.1m and A$14.6m before tax) [I3, Appendix C]. FY27 guidance includes it. The A$6.7m of duplicated rent in FY26 sat in restructuring and should end as the old leases expire [I1]. So the rent isn't hidden. It has risen for good, though, and it fixes about A$283.5m of lease liabilities to 2041, which makes falling catalogue volumes harder to absorb.
 4. FY27's "broadly stable" A$52.5m includes a full year of the FY26 acquisitions: Daily Press was owned for six months of FY26, and Impressu and BMS for about eight. That is worth roughly A$4m to A$5m of EBITDA [I8, I9]. "Stable" therefore still implies organic EBITDA falling by about 3% to 4%.
 5. The FY27 Lasoo guidance is about A$3.5m after tax as an accounting loss but only A$2.1m as a cash loss [I2]. The fact sheet gives only the first.
-6. Shares: ASX's 153,316,225 may not net off on-market buy-backs since 30 June (3,573,355 bought back under the programme by 21 October 2026, against about 3.02m by 30 June [I19, I1]). The 30 June count of 152,435,244, plus 354,278 issued, less about 0.6m bought back, is about 152.2m. I use 153.3m, which is conservative per share.
+6. Shares: ASX's 153,316,225 may not net off on-market buy-backs since 30 June (3,639,057 bought back under the programme by 21 October 2026, against about 3.02m by 30 June [I19, I1]). The 30 June count of 152,435,244, plus 354,278 issued, less about 0.6m bought back, is about 152.2m. I use 153.3m, which is conservative per share.
 7. Not in the fact sheet: IVE left the S&P/ASX 300 on 21 September 2020 [D3], and statutory profit has been 71% of the company's underlying profit over five years (A$155.7m against A$219.1m, FY22 to FY26) [I1, I10 to I13].
 
 ## The company in plain words
@@ -34,7 +34,7 @@ IVE Group is Australia's largest marketing production and services business. It 
 
 Retail clients are 48.1% of revenue (supermarkets 13.0%). The largest client is 8.3% of revenue and the top 20 just under 40%, with an average relationship of 12.6 years [I1].
 
-Who runs it: James Todd, independent chairman since 1 June 2024; Matt Aitken, managing director since 2019 (28 years at IVE); Darren Dunkley, CFO since 2012. Paul Selig retires from the board at the 2026 AGM, and two new directors stand for election or re-election there (James Todd, Mark Bayliss) [I1, I5]. Executive bonuses and long-term rights are measured on underlying pre-AASB 16 profit and EPS, the measure that leaves out Lasoo and restructuring [I1].
+Who runs it: James Todd, independent chairman since 1 June 2024; Matt Aitken, managing director since 2019 (28 years at IVE); Darren Dunkley, CFO since 2012. Paul Selig retires from the board at the 2026 AGM, where James Todd stands for re-election and Mark Bayliss for election [I1, I5]. Executive bonuses and long-term rights are measured on underlying pre-AASB 16 profit and EPS, the measure that leaves out Lasoo and restructuring [I1].
 
 Who owns it: substantial holders named in the 2026 annual report are Tony Young 9.2% (notice 16 October 2024), Ryan Young 9% (22 October 2024), Aran Young 5% (15 October 2024) and Tynan Young 5% (27 April 2023), about 28.6% together, each lodged separately [I4]. The top 20 holders hold 39.37% and there are 6,151 holders [I1]. No director has bought or sold on market in the last year, and Dimensional crossed 5% and back in May 2026 (fact sheet sources 20 to 23, not re-opened).
 
@@ -44,7 +44,7 @@ Five years: revenue A$759.0m (FY22) to A$941.8m (FY26), mostly from acquisitions
 - Size and liquidity: a market value of A$351m, and a median of A$359,022 traded a day over the 20 sessions to 30 October 2026 [D2]. Too small for most institutions.
 - Index: out of the S&P/ASX 300 since 21 September 2020 [D3].
 - Register: about 28.6% with the Young family holders, and the top 20 hold 39.4% [I1, I4].
-- Sector: catalogue printing is in long decline. Revenue without acquisitions fell about 4% in FY24, about 3% in FY25 and 5.2% in FY26 (7.2% in 1H26) [I11, I10, I1, I6]. Quad/Graphics, the nearest US peer, fell 18% on its 29 October 2026 result [P1 page note; P2].
+- Sector: catalogue printing is in long decline. Revenue without acquisitions fell about 4% in FY24, about 3% in FY25 and 5.2% in FY26 (7.2% in 1H26) [I11, I10, I1, I6]. Quad/Graphics, the nearest US peer, fell 18% on 29 October 2026, the day after its third-quarter result [P9].
 - Messy accounts: three profit measures (IFRS, underlying, underlying before AASB 16), with left-out costs every year.
 - Analyst coverage: I couldn't verify it from primary sources.
 
@@ -54,18 +54,18 @@ Earnings and the costs left out (A$m, years to 30 June) [I1, I3, I6, I10 to I16]
 
 | | FY22 | FY23 | FY24 | FY25 | FY26 | 1H26 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Revenue (IFRS) | 759.0 | 967.4 | 969.9 | 959.2 | 941.8 | 479.1 |
+| Revenue (underlying) | 759.0 | 967.4 | 969.9 | 954.8 | 937.4 | 476.5 |
 | Underlying EBITDA after rent (before AASB 16) | 75.1 | about 88.7 | about 97.8 | 109.5 | 112.6 | 58.8 |
 | Underlying NPAT before AASB 16 | 33.4 | 39.8 | 42.7 | 51.0 | 52.5 | 28.7 |
 | Statutory NPAT | 26.9 | 17.1 | 27.6 | 46.7 | 37.4 | 24.3 |
-| Pre-tax items left out | n/a | 33.5 | 23.0 | 9.1 | 20.4 | 5.7 |
-| of which Lasoo loss | n/a | part of 11.3 | 5.8 | 6.2 | 6.6 | 3.4 |
-| of which restructuring | 4.3 paid | Ovato 22.2 | 13.1 | 3.0 | 14.7 | 2.3 |
+| Pre-tax items left out | 8.2 | 33.5 | 23.0 | 9.1 | 20.4 | 5.7 |
+| of which Lasoo loss | n/a | 5.7 | 5.8 | 6.2 | 6.6 | 3.4 |
+| of which restructuring and integration | n/a | 20.1 (Ovato 16.0) | 13.1 | 3.0 | 14.7 | 2.3 |
 | Dividend (c) | 16.5 | 18.0 | 18.0 | 18.0 | 18.5 | 9.5 |
 
 FY23 and FY24 EBITDA before AASB 16 is backed out from the published net debt ratios (1.4 times A$124.2m, 1.34 times A$131.0m) [I12, I10]; IVE didn't publish those two figures directly. FY26's restructuring includes A$6.7m of duplicated rent on the old sites [I1].
 
-The record on guiding the left-out costs is good. At the FY24 result IVE guided FY25 restructuring of about A$2.5m and a Lasoo loss like FY24's; the outcome was A$3.0m and A$6.2m [I11, I10]. At the FY25 result it guided FY26 at about A$4m after tax of Lasoo loss and about A$10m after tax of relocation costs including duplicated rent; the outcome was A$4.6m after tax and A$14.7m before tax (about A$10.3m after) [I10, I1]. For FY27 it guides about A$3.5m after tax of Lasoo loss (A$2.1m cash) and about A$3.5m of restructuring and other costs, about A$10m before tax together [I2, I3]. Some restructuring has been booked every year since listing, so I keep about A$5m a year as a cost after FY27.
+The record on guiding the left-out costs is good. At the FY24 result IVE guided FY25 restructuring of about A$2.5m and a Lasoo loss like FY24's; the outcome was A$3.0m and A$6.2m [I11, I10]. At the FY25 result it guided FY26 at about A$4m after tax of Lasoo loss and about A$10m after tax of relocation costs including duplicated rent; the outcome was A$4.6m after tax and A$14.7m before tax (about A$10.3m after) [I10, I1]. For FY27 it guides about A$3.5m after tax of Lasoo loss (A$2.1m cash) and about A$3.5m of restructuring and other costs, about A$10m before tax together [I2, I3]. Restructuring was left out of underlying profit in each year I checked (FY20 and FY22 to FY26; FY21 not checked) [I15, I13], so I keep about A$5m a year as a cost after FY27.
 
 Guidance and what it implies. FY27 guidance: underlying NPAT before AASB 16 "broadly stable" on A$52.5m; a "large reduction" in non-operating items; capital spending about A$26m net; net debt below 1.5 times EBITDA before AASB 16 at 30 June 2027; dividends of 55% to 65% of underlying pre-AASB 16 profit [I2, I3]. The full year of acquisitions adds about A$4m to A$5m of EBITDA, so stable profit means the business without them still shrinks by about 3% to 4%. IVE also says statutory profit will "increase materially". My reading is that it rises only modestly: the new leases take about A$6m after tax off post-AASB 16 profit in FY27 (non-cash) [I3], which offsets most of the about A$7m fall in left-out costs after tax. So statutory EPS stays about 25c to 26c, and screens will still show IVE at about 9 times statutory earnings.
 
@@ -141,13 +141,13 @@ Method 2: cash earnings. Free cash to shareholders = EBITDA after rent, less lef
 - With normal capital spending of A$21m (IVE said A$15m to A$20m a year from FY27 before the packaging build-out [I10]): A$50.9m, 33.2c.
 - Bad: EBITDA A$108m, left-out costs at the FY24 to FY26 average of A$16.5m, capital spending A$22m, interest A$14m: A$40.0m, 26.1c.
 
-The market wants a free cash yield of about 12% for this kind of business: Quad 12.9%, and IVE 11.7% at the FY25 result and 15.7% at the FY24 result. At 12%, the three cases give A$2.50, A$2.77 and A$2.18 (A$2.01 at 13%). All of this is before acquisitions. IVE has spent about A$94m on them in five years, plus the Ovato stock, partly to hold EBITDA flat while catalogues shrink. If about A$15m a year of that is the cost of standing still, free cash falls to about A$31m and the value to about A$1.70 at 12%. That is the bear's reading.
+The market wants a free cash yield of about 12% for this kind of business: Quad 12.9%, and IVE 11.7% at the FY25 result and 15.6% at the FY24 result. At 12%, the three cases give A$2.50, A$2.77 and A$2.18 (A$2.01 at 13%). All of this is before acquisitions. IVE has spent about A$94m on them in five years, plus the Ovato stock, partly to hold EBITDA flat while catalogues shrink. If about A$15m a year of that is the cost of standing still, free cash falls to about A$31m and the value to about A$1.70 at 12%. That is the bear's reading.
 
 Range: about A$1.87 to A$3.34 a share before dividends, central A$2.50 to A$2.60. The low end depends on the market paying peers' multiples on lower EBITDA, the middle on IVE keeping its own long-run multiple of about 5 times with EBITDA flat, and the top on the left-out costs ending and growth outside catalogues lifting EBITDA to about A$120m (or a bid).
 
 ## Why the market is wrong
 1. The price has fallen 25% since August 2025, from about 5.2 times to 4.7 times EBITDA after rent, near IVE's floor of 4.3 to 4.5 times, while underlying profit before AASB 16 rose 3%. The market has extrapolated FY26's weak cash (A$12.5m of free cash, against about A$50m in FY24 and FY25), and most of that shortfall came from items that end: fit-out capital, the packaging presses, relocation costs, duplicated rent and a step-up in tax payments. FY27 guidance cuts capital spending to about A$26m and the left-out costs to about A$10m, and IVE's record on those guides is good. The 1H27 result (about 25 February 2027) shows cash from operations and net debt at the seasonal peak; the FY27 result shows the full year.
-2. At that cash rate the shares yield about 8% in fully franked dividends, covered about 1.6 times by free cash, with debt falling. Over two years the dividends and debt reduction alone give the middling case its 26%.
+2. With that cash the shares yield about 8% in fully franked dividends, covered about 1.6 times by free cash, with debt falling. Over two years the dividends (about 12%) and the debt reduction (about 6%) give most of the middling case's 26%. The rest is a small recovery in the multiple, from 4.7 to 5.0 times.
 
 What the market has right: the core is shrinking (revenue without acquisitions down 5% to 7%), margins are at a record (material margin 51.4%), the new rent is fixed to 2041, and IVE keeps spending its cash on acquisitions at 4.5 to 6.7 times. So this is a carry case at a low multiple. I don't expect a re-rating to the fact sheet's 6.7 times.
 
@@ -163,7 +163,7 @@ Value pick, resolve by 31 August 2028 (after the FY28 result). Prices come from 
 Expected price A$2.563 plus about 27.9c of dividends: A$2.842, +24.1% before costs.
 
 Round-trip costs on a position of about A$2,016 (NZ$2,500 at A$0.806387, data/fx/fx_daily.csv, 6 November 2026 [D4]):
-- Spread: about 0.82% (Corwin and Schultz on the 20 sessions to 30 October), half each way. The quoted A$2.27/A$2.35 at the snapshot was after hours.
+- Spread: about 0.82% (Corwin and Schultz on the 20 sessions to 30 October), half each way. The quoted A$2.27/A$2.35 at the snapshot was taken outside trading hours.
 - Size cost: about 0.15% each way (daily volatility 2.06%, A$359,022 median daily value).
 - Brokerage: A$15 each way if the plan doesn't cover it (0.74% each way).
 - Currency: 0.5% if Australian dollar cash is short.
@@ -199,7 +199,7 @@ Expected A$2.334, +1.9% before costs and -0.4% after, against a 2.29% minimum. I
   (f) net debt at 31 December 2026 no more than about A$200m including Motio (A$172.3m a year earlier, before Motio);
   (g) an interim dividend of at least 9.5c.
   If it does, the bad case rises to about A$2.24 with dividends and the case qualifies up to about A$2.49. If organic revenue falls more than 7%, the left-out costs exceed about A$7m for the half, or guidance is cut, treat it as the AGM cut above.
-- 10 March 2027: the buy-back ends (3.57m shares bought back since February 2025) [I19].
+- 10 March 2027: the buy-back ends (3.64m shares bought back since February 2025) [I19].
 - About late August 2027: FY27 result, the first full year with the new sites and lower left-out costs, and FY28 guidance.
 - About November 2027 (AGM), about February 2028 (1H28) and about late August 2028 (FY28 result): the resolve date is 31 August 2028.
 
@@ -210,7 +210,7 @@ Watch triggers:
 - After a guidance cut: about A$2.00 or below, and only after a fresh deep dive.
 
 ## What would make this wrong
-1. Catalogue demand falls faster than IVE can replace it. Catalogues and letterbox distribution are the core, and revenue without acquisitions fell 7.2% in 1H26 [I6]. The largest client is 8.3% of revenue and retail is 48% [I1]. Margins are already at a record, and rent is now fixed for 15 years. If EBITDA after rent falls to about A$103m or less by FY28, the bad case passes the 10% line even at 4.4 times.
+1. Catalogue demand falls faster than IVE can replace it. Catalogues and letterbox distribution are the core, and revenue without acquisitions fell 7.2% in 1H26 [I6]. The largest client is 8.3% of revenue and retail is 48% [I1]. Margins are already at a record, and rent is now fixed for 15 years. If EBITDA after rent falls to about A$103m or less by FY28, the bad case is more than 10% below the price even at 4.4 times.
 2. The market pays IVE what it pays printers. Quad and Transcontinental are at 4.0 to 4.2 times. If IVE's premium to them goes, the bad case is -13.5% even at A$106m. Cash going to acquisitions and left-out costs, rather than paying down debt, would push the same way.
 
 Exit rule for the card:
@@ -260,6 +260,7 @@ Peers:
 - P6. oOh!media, 2025 full year results media release, 16 Feb 2026 (03060416): https://announcements.asx.com.au/asxpdf/20260216/pdf/06wbg9jst1z064.pdf
 - P7. oOh!media, scheme meeting chair's address and presentation, 2 Nov 2026 (03161024): https://announcements.asx.com.au/asxpdf/20261102/pdf/076461h99zxyn4.pdf
 - P8. Deluxe, third quarter 2026 summary (secondary, used only to leave Deluxe out): https://www.panabee.com/news/deluxe-earnings-q3-2026
+- P9. Quad/Graphics news page showing "QUAD -18.09%" on 29 Oct 2026 (secondary: Finviz): https://finviz.com/news/410732/quad-reports-third-quarter-and-year-to-date-2026-results
 
 Data:
 - D1. data/research_data/asx_company.json: IGL header (priceLast A$2.29 for 6 Nov 2026, bid A$2.27, offer A$2.35, market value A$351,094,155) and key statistics (153,316,225 shares).
