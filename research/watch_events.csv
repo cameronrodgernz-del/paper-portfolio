@@ -42,6 +42,7 @@ date,market,ticker,event,date_basis
 2027-02-16,ASX,AD8,H1 FY27 result,inferred
 2027-02-18,ASX,AFG,"HY27 result (lending margin, book size)",inferred
 2027-02-19,NZX,SKC,H1 FY27 result (sale process update),inferred
+2027-02-23,ASX,GEM,"CY26 result (same-centre occupancy, covenants)",inferred
 2027-02-24,ASX,CWP,H1 FY27 result,inferred
 2027-02-25,ASX,HLO,H1 FY27 result,inferred
 2027-02-26,ASX,AIM,1H FY27 result,inferred
