@@ -13,6 +13,7 @@ date,market,ticker,event,date_basis
 2026-11-18,ASX,WJL,half-year result,announced
 2026-11-18,NZX,ARG,interim result,announced
 2026-11-19,ASX,AAC,first-half result,inferred
+2026-11-19,ASX,CCV,"AGM (first-quarter trading, Cashies book, 1H27 profit)",announced
 2026-11-19,NZX,BRW,AGM,announced
 2026-11-19,NZX,MFB,1H27 result and chair change (after the failed sale process),announced
 2026-11-19,NZX,OCA,1H27 result,announced
@@ -59,6 +60,7 @@ date,market,ticker,event,date_basis
 2027-02-20,ASX,BOL,HY27 result,inferred
 2027-02-23,ASX,AHC,"H1 FY27 result (organic growth, order book)",inferred
 2027-02-23,ASX,ATG,Half-year result,inferred
+2027-02-23,ASX,CCV,"1H27 result (loss rate, Cashies book)",inferred
 2027-02-23,ASX,GEM,"CY26 result (same-centre occupancy, covenants)",inferred
 2027-02-23,ASX,MYX,H1 FY27 result (EBITDA excluding the Australian arm),inferred
 2027-02-24,ASX,CWP,H1 FY27 result,inferred
