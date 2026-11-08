@@ -73,6 +73,10 @@ The research funnel (rebuilt 2 November 2026, rulebook section 5a change log):
    don't argue with a limit.
 8. Update research/picks/INDEX.md: one row per company covered (fact sheet or deep dive), with ticker, name,
    date, grade or verdict, status (rejected, watching, fact sheet, card ready, held, sold) and the next dated event.
+   The Research view on the hub's Portfolio tab shows every row, taking its headline from the first sentence of
+   the latest stage's verdict, so start that verdict with where it landed ("wait for the FY26 result, no card").
+   Then update research/summary.md, the write-up the same view shows, wherever the run changed where things
+   stand, what was learned, the closest calls or the rules.
 9. Commit and push everything (pull with rebase first), ending the message with the attribution lines
    your session gives you.
 10. Message Cam only if a card is ready: "Research desk: <TICKER> card ready for the evening desk, <one

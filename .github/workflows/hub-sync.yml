@@ -15,6 +15,8 @@ on:
       - config/milestones.csv
       - docs/READINESS.md
       - src/hub_export.py
+      - src/research_hub.py
+      - src/watch_check.py
   workflow_dispatch:
 
 permissions:

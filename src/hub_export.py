@@ -31,6 +31,7 @@ from ledger import Ledger  # noqa: E402
 from market_data import CURRENCY, FX, nzx_large  # noqa: E402
 from monthly import brier  # noqa: E402
 from rates import Rates  # noqa: E402
+import research_hub  # noqa: E402
 from risk import CAPS, CASH_FLOOR, DD_EXIT, DD_HALVE, GROUP_CAP, INDUSTRY_CAP, SLEEVE_MAX  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -330,7 +331,7 @@ def ledger_section(cfg: dict, name: str, names: dict, fx: FX, rates: Rates | Non
     special_note = None if passed else "no type has passed a history test, so this sits in cash"
     deal_note = ("ASX cash deals failed their history test, so only ASX scrip and NZX deals are traded; US deals wait for their test"
                  if test_failed("asx_cash_deal", ROOT) else None)
-    picks = [f for f in os.listdir(os.path.join(ROOT, "research", "picks")) if f.endswith(".md") and f != "TEMPLATE.md"] if os.path.isdir(os.path.join(ROOT, "research", "picks")) else []
+    picks = [f for f in os.listdir(os.path.join(ROOT, "research", "picks")) if f.endswith(".md") and f not in ("TEMPLATE.md", "INDEX.md")] if os.path.isdir(os.path.join(ROOT, "research", "picks")) else []
     research_note = (f"{len(picks)} deep dive{'s' if len(picks) != 1 else ''} written; at most five companies, 2.5% each" if picks
                      else "deep dives into overlooked NZX and ASX small and mid caps; none written yet")
     sleeves["cash"] = rd(latest["cash_nzd_total"] / total, 5)
@@ -624,6 +625,15 @@ def data_checks() -> dict:
     return json.load(open(p)) if os.path.exists(p) else {}
 
 
+def research_section() -> dict:
+    """The Research view: the write-up, the funnel, the watch list and every company looked at (src/research_hub.py).
+    A fault here mustn't stop the snapshot, so it is reported in the section instead."""
+    try:
+        return research_hub.section(ROOT, datetime.now(NZ).date().isoformat())
+    except Exception as e:  # noqa: BLE001
+        return {"error": f"{type(e).__name__}: {e}"[:300]}
+
+
 def build(source: str = "manual") -> dict:
     cfg = json.load(open(os.path.join(ROOT, "config", "run.json")))
     names = names_map()
@@ -653,6 +663,7 @@ def build(source: str = "manual") -> dict:
                   "dd_halve": DD_HALVE, "dd_exit": DD_EXIT, "industry_cap": INDUSTRY_CAP, "group_cap": GROUP_CAP,
                   "core": cfg["core"]["lines"]},
         "deals": deals_section(names, held),
+        "research": research_section(),
         "system": {"run": {"source": source, "steps": steps, "run_id": os.environ.get("GITHUB_RUN_ID"),
                            "workflow": os.environ.get("GITHUB_WORKFLOW")},
                    "feeds": feeds_section(), "checks": checks_section(), "history_tests": history_tests(),
