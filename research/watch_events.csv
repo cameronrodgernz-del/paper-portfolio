@@ -21,6 +21,7 @@ date,market,ticker,event,date_basis
 2026-11-20,ASX,ASG,"AGM (H1 FY27 guidance, order bank)",announced
 2026-11-20,ASX,BOL,"AGM business update (four-month trading, FY27 budget, wind work)",announced
 2026-11-20,ASX,EVZ,1H27 guidance (expected),inferred
+2026-11-20,ASX,GDF,Seven property settlements (Morningside due diligence),announced
 2026-11-20,ASX,HIT,AGM (early read on Hudson since 11 Sep),announced
 2026-11-20,ASX,HUM,AGM (second strike and possible board spill),announced
 2026-11-24,ASX,MVF,Genesis total return swap unwind must start (about),inferred
@@ -31,6 +32,7 @@ date,market,ticker,event,date_basis
 2026-11-25,NZX,SPG,HY27 result,inferred
 2026-11-26,ASX,CZR,AGM with a holder-nominated director,announced
 2026-11-26,ASX,EDU,buyback meeting,announced
+2026-11-26,ASX,GDF,AGM (buyback or larger return?),announced
 2026-11-26,ASX,MVF,AGM,announced
 2026-11-26,ASX,MXI,AGM,announced
 2026-11-26,NZX,SCT,annual meeting,announced
@@ -54,6 +56,7 @@ date,market,ticker,event,date_basis
 2027-01-30,ASX,FML,December quarterly,inferred
 2027-01-31,ASX,FWD,Red Dog completion (both approvals extended to Oct 2032),announced
 2027-01-31,ASX,ZIM,December quarter (by),announced
+2027-02-04,ASX,GDF,1H27 result (first PwC review of the loan book),inferred
 2027-02-05,ASX,TRJ,1H trading update,inferred
 2027-02-10,ASX,RKN,FY26 result,inferred
 2027-02-16,ASX,AD8,H1 FY27 result,inferred
