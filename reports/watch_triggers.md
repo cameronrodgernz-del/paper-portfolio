@@ -31,6 +31,7 @@ No trigger hit.
 | ASX:AFG | AUD 1.41 | 1.565 | 2026-11-07 | +11.0% |  | ASX company data (last trade at fetch) |
 | ASX:MVF | AUD 0.665 | 0.74 | 2026-11-07 | +11.3% |  | ASX company data (last trade at fetch) |
 | ASX:CAA | AUD 11.75 | 13.16 | 2026-11-07 | +12.0% |  | ASX company data (last trade at fetch) |
+| ASX:EML | AUD 0.25 | 0.28 | 2026-11-07 | +12.0% |  | ASX company data (last trade at fetch) |
 | ASX:ATA | AUD 0.285 | 0.32 | 2026-11-07 | +12.3% |  | ASX company data (last trade at fetch) |
 | ASX:AD8 | AUD 1.75 | 2.01 | 2026-11-07 | +14.9% |  | ASX company data (last trade at fetch) |
 | ASX:CZR | AUD 0.165 | 0.19 | 2026-11-07 | +15.2% |  | ASX company data (last trade at fetch) |
@@ -73,6 +74,7 @@ No trigger hit.
 - 2026-11-14: ASX:IRI, 1H FY27 trading update (inferred from last year)
 - 2026-11-16: NZX:SKO, H1 FY27 result and guidance revision (Booking.com terms, FY28 spend) (announced)
 - 2026-11-17: NZX:SAN, FY26 result and notice of meeting (Umios nominee?) (announced)
+- 2026-11-18: ASX:EML, AGM (guidance, first-quarter trading) (announced)
 - 2026-11-18: ASX:HLO, Helloworld can creep in Webjet without a bid (inferred from its 19% crossing date)
 - 2026-11-18: ASX:WJL, half-year result (announced)
 - 2026-11-18: NZX:ARG, interim result (announced)
