@@ -8,6 +8,7 @@ date,market,ticker,event,date_basis
 2026-11-13,ASX,CAF,annual meeting (whether SEQ sits inside FY27 guidance),announced
 2026-11-13,ASX,EVZ,AGM (10% placement facility vote),announced
 2026-11-14,ASX,IRI,1H FY27 trading update,inferred from last year
+2026-11-16,NZX,PGW,Elders FY26 result (anything on the PGW stake),announced
 2026-11-16,NZX,SKO,"H1 FY27 result and guidance revision (Booking.com terms, FY28 spend)",announced
 2026-11-17,NZX,SAN,FY26 result and notice of meeting (Umios nominee?),announced
 2026-11-18,ASX,EML,"AGM (guidance, first-quarter trading)",announced
@@ -41,6 +42,7 @@ date,market,ticker,event,date_basis
 2026-12-01,ASX,AHC,RTM and CareTech completion,announced
 2026-12-03,NZX,DGL,AGM,announced
 2026-12-10,ASX,AFG,warehouse facility falls due (renewal terms),announced
+2026-12-15,NZX,PGW,PGW guidance reassessment,inferred
 2026-12-15,NZX,SKC,Grand Hotel sale settles,inferred
 2026-12-16,ASX,CAA,windows and doors anti-dumping recommendation due,announced
 2026-12-16,NZX,SAN,annual meeting,announced
@@ -75,6 +77,7 @@ date,market,ticker,event,date_basis
 2027-02-23,ASX,GEM,"CY26 result (same-centre occupancy, covenants)",inferred
 2027-02-23,ASX,MYX,H1 FY27 result (EBITDA excluding the Australian arm),inferred
 2027-02-24,ASX,CWP,H1 FY27 result,inferred
+2027-02-24,NZX,PGW,1H27 result,inferred
 2027-02-25,ASX,EML,"1H FY27 result (one-offs, Arlo spend, free cash)",inferred
 2027-02-25,ASX,FWD,"H1 result (Community Solutions EBIT, net cash)",inferred
 2027-02-25,ASX,HLO,H1 FY27 result,inferred

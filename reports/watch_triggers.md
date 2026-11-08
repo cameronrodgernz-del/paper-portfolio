@@ -53,6 +53,7 @@ No trigger hit.
 | ASX:DXC | AUD 2.18 | 2.76 | 2026-11-07 | +26.6% |  | ASX company data (last trade at fetch) |
 | ASX:ANG | AUD 0.15 | 0.19 | 2026-11-07 | +26.7% |  | ASX company data (last trade at fetch) |
 | ASX:FML | AUD 1.4 | 1.79 | 2026-11-07 | +27.9% |  | ASX company data (last trade at fetch) |
+| NZX:PGW | NZD 1.66 | 2.19 | 2026-11-06 | +31.9% |  | data/prices/NZX |
 | ASX:EVZ | AUD 0.295 | 0.4 | 2026-11-07 | +35.6% |  | ASX company data (last trade at fetch) |
 | ASX:BBT | AUD 0.09 | 0.125 | 2026-11-07 | +38.9% |  | ASX company data (last trade at fetch) |
 | ASX:KYP | AUD 0.084 | 0.1175 | 2026-11-07 | +39.9% |  | ASX company data (last trade at fetch) |
@@ -74,6 +75,7 @@ No trigger hit.
 - 2026-11-13: ASX:CAF, annual meeting (whether SEQ sits inside FY27 guidance) (announced)
 - 2026-11-13: ASX:EVZ, AGM (10% placement facility vote) (announced)
 - 2026-11-14: ASX:IRI, 1H FY27 trading update (inferred from last year)
+- 2026-11-16: NZX:PGW, Elders FY26 result (anything on the PGW stake) (announced)
 - 2026-11-16: NZX:SKO, H1 FY27 result and guidance revision (Booking.com terms, FY28 spend) (announced)
 - 2026-11-17: NZX:SAN, FY26 result and notice of meeting (Umios nominee?) (announced)
 - 2026-11-18: ASX:EML, AGM (guidance, first-quarter trading) (announced)
