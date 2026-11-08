@@ -11,7 +11,8 @@ Any "yes" ends the sheet here, with the fact and its link. Nothing else ends it.
 - Delisting, suspension, going-concern doubt or an auditor's qualification?
 - Too thin to trade: median value traded over the last 20 sessions below A$10,000 (ASX) or NZ$12,500 (NZX), so the
   position can't stay within 10% of daily volume over two sessions (rulebook section 3)?
-- On Cam's excluded list, or in the gaming, wagering and racing hold?
+- On Cam's excluded list (config/judgement_excluded.csv)? The gaming, wagering and racing hold ended on 8 Nov 2026,
+  when Cam confirmed the list.
 - A takeover, scheme, strategic review, sale process or a holder over 50% making moves? Then it goes to the special
   situations watch list instead (note it in the report back), not a research pick.
 
