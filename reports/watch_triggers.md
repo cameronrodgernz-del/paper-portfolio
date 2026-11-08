@@ -38,6 +38,7 @@ No trigger hit.
 | ASX:FML | AUD 1.4 | 1.79 | 2026-11-07 | +27.9% |  | ASX company data (last trade at fetch) |
 | ASX:BBT | AUD 0.09 | 0.125 | 2026-11-07 | +38.9% |  | ASX company data (last trade at fetch) |
 | ASX:KYP | AUD 0.084 | 0.1175 | 2026-11-07 | +39.9% |  | ASX company data (last trade at fetch) |
+| ASX:HIT | AUD 0.79 | 1.11 | 2026-11-07 | +40.5% |  | ASX company data (last trade at fetch) |
 | NZX:SCT | NZD 1.6 | 2.37 | 2026-11-06 | +48.1% |  | data/prices/NZX |
 | ASX:KAU | AUD 0.1 | 0.15 | 2026-11-07 | +50.0% |  | ASX company data (last trade at fetch) |
 | ASX:GRR | AUD 0.055 | 0.105 | 2026-11-07 | +90.9% |  | ASX company data (last trade at fetch) |
@@ -45,21 +46,4 @@ No trigger hit.
 
 ## Events in the next 14 days
 
-- 2026-11-11: ASX:MYX, Cosette claim: special leave deadline (announced)
-- 2026-11-11: ASX:STP, annual meeting (first read on 1H revenue) (announced)
-- 2026-11-11: NZX:RAD, H1 FY27 result (EBITDA less resale gains, aged care EBITDAR, net debt) (announced)
-- 2026-11-12: ASX:AFG, warehouse facility falls due (renewal terms) (announced)
-- 2026-11-12: ASX:PAC, strategic review update at or before the AGM (announced)
-- 2026-11-13: ASX:CAF, annual meeting (whether SEQ sits inside FY27 guidance) (announced)
-- 2026-11-14: ASX:IRI, 1H FY27 trading update (inferred from last year)
-- 2026-11-16: NZX:SKO, H1 FY27 result and guidance revision (Booking.com terms, FY28 spend) (announced)
-- 2026-11-17: NZX:SAN, FY26 result and notice of meeting (Umios nominee?) (announced)
-- 2026-11-18: ASX:HLO, Helloworld can creep in Webjet without a bid (inferred from its 19% crossing date)
-- 2026-11-18: ASX:WJL, half-year result (announced)
-- 2026-11-18: NZX:ARG, interim result (announced)
-- 2026-11-19: ASX:AAC, first-half result (inferred)
-- 2026-11-19: NZX:BRW, AGM (announced)
-- 2026-11-19: NZX:MFB, 1H27 result and chair change (after the failed sale process) (announced)
-- 2026-11-19: NZX:OCA, 1H27 result (announced)
-- 2026-11-20: ASX:ASG, AGM (H1 FY27 guidance, order bank) (announced)
-- 2026-11-20: ASX:HUM, AGM (second strike and possible board spill) (announced)
+None.
