@@ -47,7 +47,8 @@ The research funnel (rebuilt 2 November 2026, rulebook section 5a change log):
    more than 10% below the price and the middling case at least 25% above it. Write each in the format of research/picks/TEMPLATE.md, from primary sources only: the ASX or
    NZX announcements, the annual and half-year reports, the Companies Office or ASIC register, substantial
    holder notices, director dealings, regulator and court records. Take the price from the latest close
-   (data/prices or the exchange). Use at least two valuation methods and show the arithmetic. Cite every
+   (data/prices or the exchange; in data/research_data/asx_company.json the latest trade is header.priceLast, and
+   key-statistics.priceClose is the session before). Use at least two valuation methods and show the arithmetic. Cite every
    fact with its link. Save it as research/picks/<TICKER>.md (NZ_<TICKER>.md for an NZX company), and remove
    the word TO WRITE when it is finished. Where filings can be read: the ASX's announcements search
    (asx.com.au/asx/v2/statistics/announcements.do, reachable from the shell) lists every document for a company
