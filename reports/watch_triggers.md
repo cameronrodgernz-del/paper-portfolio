@@ -36,6 +36,7 @@ No trigger hit.
 | NZX:IPL | NZD 0.84 | 1.01 | 2026-11-06 | +20.2% |  | data/prices/NZX |
 | ASX:STP | AUD 0.11 | 0.135 | 2026-11-07 | +22.7% |  | ASX company data (last trade at fetch) |
 | ASX:DXC | AUD 2.18 | 2.76 | 2026-11-07 | +26.6% |  | ASX company data (last trade at fetch) |
+| ASX:ANG | AUD 0.15 | 0.19 | 2026-11-07 | +26.7% |  | ASX company data (last trade at fetch) |
 | ASX:FML | AUD 1.4 | 1.79 | 2026-11-07 | +27.9% |  | ASX company data (last trade at fetch) |
 | ASX:BBT | AUD 0.09 | 0.125 | 2026-11-07 | +38.9% |  | ASX company data (last trade at fetch) |
 | ASX:KYP | AUD 0.084 | 0.1175 | 2026-11-07 | +39.9% |  | ASX company data (last trade at fetch) |
