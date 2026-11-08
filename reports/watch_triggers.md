@@ -17,6 +17,7 @@ No trigger hit.
 | NZX:SKC | NZD 0.635 | 0.69 | 2026-11-06 | +8.7% |  | data/prices/NZX |
 | ASX:ASG | AUD 1 | 1.1 | 2026-11-07 | +10.0% |  | ASX company data (last trade at fetch) |
 | ASX:CWP | AUD 5.75 | 6.33 | 2026-11-07 | +10.1% |  | ASX company data (last trade at fetch) |
+| NZX:MFB | NZD 0.29 | 0.32 | 2026-11-06 | +10.3% |  | data/prices/NZX |
 | ASX:GEM | AUD 0.095 | 0.105 | 2026-11-07 | +10.5% |  | ASX company data (last trade at fetch) |
 | NZX:SAN | NZD 6 | 6.65 | 2026-11-06 | +10.8% |  | data/prices/NZX |
 | ASX:AFG | AUD 1.41 | 1.565 | 2026-11-07 | +11.0% |  | ASX company data (last trade at fetch) |
