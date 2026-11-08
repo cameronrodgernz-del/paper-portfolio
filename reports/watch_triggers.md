@@ -8,10 +8,10 @@ No trigger hit.
 
 | Share | Trigger | Latest | Date | Away | State | Source of price |
 | --- | --- | --- | --- | --- | --- | --- |
-| ASX:GDF | AUD 1.1 | 1.12 | 2026-11-07 | +1.8% | near | ASX company data (last trade at fetch) |
 | ASX:FWD | AUD 2 | 2.04 | 2026-11-07 | +2.0% | near | ASX company data (last trade at fetch) |
 | ASX:JIN | AUD 6.13 | 6.31 | 2026-11-07 | +2.9% | near | ASX company data (last trade at fetch) |
 | ASX:MYG | AUD 1.5 | 1.55 | 2026-11-07 | +3.3% | near | ASX company data (last trade at fetch) |
+| ASX:GDF | AUD 1.08 | 1.12 | 2026-11-07 | +3.7% | near | ASX company data (last trade at fetch) |
 | ASX:HLO | AUD 1.3 | 1.355 | 2026-11-07 | +4.2% | near | ASX company data (last trade at fetch) |
 | NZX:KMD | NZD 2 | 2.1 | 2026-11-06 | +5.0% |  | data/prices/NZX |
 | NZX:ERD | NZD 0.75 | 0.79 | 2026-11-06 | +5.3% |  | data/prices/NZX |
