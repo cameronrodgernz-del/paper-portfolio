@@ -2,7 +2,7 @@
 
 Written 2026-11-08 by the research desk. Price at writing: A$2.01 (last trade on Friday 6 November 2026, bid A$2.00, ask A$2.10, 119,934 shares; the close on 5 November was A$2.10; ASX company data in data/research_data/asx_company.json, fetched 7 November 2026 UTC [M2]; Norgate's last close in the repo is A$2.08 on 30 October [M1]). Market value: A$170.0m (84,568,459 shares on issue, Appendix 3G of 5 November 2026 [A20]; 2,919,759 performance rights also on issue).
 Status: finished. This is a simulation and not financial advice.
-Verdict: no case. No card and no red team. Not a value pick (rulebook section 5a): the six-month bad case (A$1.45) is 28% below the price and the two-year bad case (about A$1.29) 36% below, against the 10% the rule allows. As an ordinary pick to 5 March 2027, a week or so after the H1 FY27 result, the expected price is about A$2.03: +0.9% before costs and about -2% after them, against a minimum of +2.3%. One dated check: the H1 FY27 result, about 15 to 16 February 2027. It reopens only on the conditions under "Dated events".
+Verdict: no case. No card and no red team. Not a value pick (rulebook section 5a): the six-month bad case (A$1.45) is 28% below the price and the two-year bad case (about A$1.29) 36% below, against the 10% the rule allows. As an ordinary pick to 5 March 2027, about two weeks after the H1 FY27 result, the expected price is about A$2.03: +0.9% before costs and about -2% after them, against a minimum of +2.3%. One dated check: the H1 FY27 result, about 15 to 16 February 2027. It reopens only on the conditions under "Dated events".
 Fact sheet: research/facts/AD8.md, grade A, written 2 November 2026 under the earlier template with prices from 30 October. The question it set: do the FY26 cost cuts plus about 15% US dollar gross profit growth carry Audinate to positive free cash flow around FY28 (FY26 burn A$13.4m against A$65.1m of cash)? Its "our way" anchor was A$3.61 (+74%), its "against us" anchor A$0.28 (-87%).
 
 In short:
@@ -13,7 +13,7 @@ In short:
 - The market already prices the plan. A discounted cash flow that runs backwards from today's price says the market expects about 13% to 14% US dollar gross profit growth a year for five years with costs growing 3% to 4%, close to the company's own guidance. The FY26 result (17 August) moved the price from A$2.10 to A$2.90 in four sessions, and it has drifted back to A$2.01 since. I can't say why the market is wrong.
 - Things a quick reader would miss: the Iris acquisition (A$31.0m cash, July 2025) brought in A$0.3m of revenue and a A$3.0m loss in FY26, and the company now judges its earn-out threshold (US$10m of cumulative revenue by 2028) not probable; costs ran higher in the second half of FY26 (A$30.3m) than the first (A$28.8m) despite a restructure announced in February as saving about A$5m a year; on plan the H1 FY27 result still shows an underlying EBITDA loss of about A$1m because the stronger Australian dollar takes the A$ gross profit growth to about 7%; and Audinate left the All Ordinaries on 21 September 2026, six months after leaving the S&P/ASX 300.
 
-Order of work. The brief and the fact sheet both state a price (A$2.08), so it was in view before the work began. The filings section and the valuation take no input from Audinate's own price; the peer multiples use the peers' prices. Audinate's price series was opened for the liquidity check, the history, the events and the outcomes, after the valuation was drafted, and I have tried not to let it pull the outcome prices (each is built from a core value plus cash, shown below).
+Order of work. The fact sheet states a price (A$2.08 on 30 October), so it was in view before the work began. The filings section and the valuation take no input from Audinate's own price; the peer multiples use the peers' prices. Audinate's price series was opened early, for the liquidity check and the history, before the valuation was drafted, so it was in view; I have tried not to let it pull the outcome prices, each of which is built from a core value plus cash, shown below.
 
 ## The company in plain words
 Audinate makes Dante, the technology that carries audio and, more recently, video and control signals over ordinary computer networks instead of bundles of cables. It doesn't make the end products: it sells chips, cards and modules, embedded software licences and reference designs to the companies that make microphones, mixing desks, amplifiers, speakers and cameras (the OEMs), plus its own adaptors (AVIO) and software for AV installers [A1, directors' report; A3]. FY26 revenue was US$46.0m: embedded components US$31.7m, adaptors US$8.6m, platform software US$5.4m, other US$0.4m [A2]. Revenue is all in US dollars; about half the costs are too (US$24.4m of US dollar purchases in FY26) [A1, note 24].
@@ -22,7 +22,7 @@ Scale of the standard: more than 8 million Dante devices shipped, 5,158 Dante pr
 
 Who runs it: co-founder Aidan Williams has been CEO throughout; he holds 1,930,799 shares directly (2.3%), 879,425 performance rights and, since the 2026 AGM, up to 525,000 premium-priced options at A$6 and A$10 [D1; A5]. Chris Rollinson is CFO and company secretary. Alison Ledger became chair on 18 August 2025 when David Krall left the board [A1]. Auditor: Ernst & Young [A1].
 
-Who owns it [A4, shareholder information]: substantial holders are AustralianSuper (9,209,594, 10.93%, notice of 4 September 2025 [S2]), Yamaha Corporation (6,289,308, 7.44% on the register; 8.12% at its 2023 notice), a long-standing holder and one of the largest Dante OEMs, and Anacacia (4,231,843, 5.05%, notice of 20 August 2026 [S1]). The top 20 hold 58.38%; 11,212 holders in all.
+Who owns it [A4, shareholder information]: substantial holders are AustralianSuper (9,209,594, 10.93%, notice of 4 September 2025 [S2]), Yamaha Corporation (6,289,308, 7.44% on the register; 8.12% at its 2023 notice), a long-standing holder and a Dante OEM [A3, p. 14], and Anacacia (4,231,843, 5.05%, notice of 20 August 2026 [S1]). The top 20 hold 58.38%; 11,212 holders in all.
 
 Five years (years to June) [A3, p. 6 for gross profit; A14 and A1 for the rest; prices from Norgate [M1]]:
 
@@ -39,7 +39,7 @@ Five years (years to June) [A3, p. 6 for gross profit; A14 and A1 for the rest; 
 | Cash and term deposits at June (A$m) | | 40.0 | 117.0 | 109.9 | 65.1 |
 | June share price (A$) | 7.54 | 9.29 | 15.83 | 7.48 | 2.43 |
 
-Free cash flow here is operating cash flow (which includes interest received) less equipment, capitalised development, lease payments and other financing liabilities (python3 -I, calc/val.py). The company's own measure leaves interest out: A$6.9m in FY24, -A$11.3m in FY25, -A$15.7m in FY26 [A3, p. 11; A11]. FY24 was lifted by OEMs over-ordering chips during the shortage and then working the backlog down [A15]; FY25 was the hangover; FY24 was also helped by A$70m raised at A$13.00 a share in September and October 2023 [A14, note 21].
+Free cash flow here is operating cash flow (which includes interest received) less equipment, capitalised development, lease payments and other financing liabilities (python3 -I, calc/val.py). The company's own measure leaves interest out: A$6.9m in FY24, -A$11.3m in FY25, -A$15.7m in FY26 [A3, p. 11; A11]. FY24 was lifted by OEMs over-ordering chips during the shortage and then working the backlog down [A15]; FY25 was the hangover. Cash at June 2024 included A$70m raised at A$13.00 a share in September and October 2023 [A14, note 21].
 
 The shares closed at a record A$23.31 on 15 March 2024 [M1]. They are down 91% from there and 59% in the past year (A$4.88 on 3 November 2025).
 
@@ -55,7 +55,7 @@ The shares closed at a record A$23.31 on 15 March 2024 [M1]. They are down 91% f
 Audinate guides on US dollar gross profit and told the ASX in 2025 that gross profit and revenue are the measures the market and analysts use [A17, pp. 1 to 2].
 - The FY24 peak (US$44.5m) was inflated. The company itself put it down to "conservative over-ordering of chips & modules by our manufacturing customers" and the unwinding of a record backlog, none of which it expected to continue [A15]. Its FY25 outlook of gross profit "marginally lower" than FY24 was withdrawn on 22 October 2024 after a first quarter of US$7.2m [A16], and FY25 came in at US$32.9m, down 26%. The ASX sent an aware letter after the February 2025 half-year result [A17].
 - The recovery: H1 FY26 gross profit US$17.4m (+12%), H2 FY26 US$20.3m (+16.9% on H2 FY25's US$17.4m), FY26 US$37.7m (+14.7%), at the top of the 13% to 15% guidance [A8; A2; python3 -I].
-- The trend under the cycle is slower than 15%: US dollar gross profit grew 4.1% a year from FY23 to FY26, 10.9% a year from FY22 and 14.4% a year from FY21 (python3 -I). Audinate described its FY26 guidance of 13% to 15% as "2 to 3 times the industry growth rate" [A10], so the industry grows about 5% to 7% a year and the plan needs Audinate to keep taking share.
+- The trend under the cycle is slower than 15%: US dollar gross profit grew 4.1% a year from FY23 to FY26, 10.9% a year from FY22 and 14.4% a year from FY21 (python3 -I). Audinate described its FY26 guidance of 13% to 15% as two to three times the industry's growth rate [A10], so the industry grows about 5% to 7% a year and the plan needs Audinate to keep taking share.
 - The mix is shifting from chips to embedded software, which carries less revenue per unit but a higher margin [A15; A2]. Gross margin went from 74.3% in FY24 to 82.0% in FY26 [A13; A2].
 - A risk that rhymes with FY24: at the 20 October 2026 AGM the company said AI data-centre building has pushed up memory and storage chip prices "substantially", that it has passed the increases on to customers and is managing inventory and lead times on parts such as FPGAs, and that "demand has remained solid, healthy bookings" [A6, CEO slide 7]. Shortages are what caused the over-ordering that produced FY24's peak and FY25's fall.
 
@@ -90,7 +90,7 @@ Cash flow on four paths (A$m, interest at 4.4% on the average balance, FY26 bonu
 | 7, 6, 5, 5, 4%, costs +3%, no cuts | (14.9) | (11.2) | (10.8) | (10.4) | 7.3 (FY31) |
 | Shock: -10% in FY27 then 10, 8, 6, 5%, 10% cost cut in FY28 | (24.3) | (11.9) | (10.2) | (9.2) | 0.9 (FY31) |
 
-Exchange rate matters: on the first path each 2 US cents on the Australian dollar moves FY28 free cash flow by about A$2m (A$1 = US$0.68 gives -A$3.3m before interest, 0.72 gives -A$7.3m).
+Exchange rate matters: on the first path each 2 US cents on the Australian dollar moves FY28 free cash flow by about A$2m (python3 -I, calc/val.py).
 
 ### 3. Cash: what is committed and what is free
 At 30 June 2026: cash A$12.0m and term deposits A$53.2m, total A$65.1m; no borrowings; lease liabilities A$3.6m (paid through free cash flow above, so not deducted twice) [A1, balance sheet].
@@ -119,12 +119,12 @@ Current guidance (17 August 2026, repeated 20 October 2026): FY27 US dollar gros
 Record:
 - FY25: gross profit guided "marginally lower" than FY24 (6 August 2024), withdrawn on 22 October 2024, delivered -26%. Cost growth guided 7% to 9%, delivered +6% [A15; A16; A12].
 - FY26: gross profit guided +13% to 15%, delivered +14.7%. Costs guided +25%, cut to +20% in February, delivered +17% [A10; A8; A2].
-So the company has met its cost guidance each year, and missed gross profit guidance badly once, in an order cycle it didn't see coming.
+So in the last two years the company has met its cost guidance both times, met its gross profit guidance once and missed it badly once, in an order cycle it didn't see coming.
 
 What the H1 FY27 result (about 15 to 16 February 2027) should show on the plan (python3 -I): US dollar gross profit of about US$20.0m (+15% on US$17.4m); at the FY27-to-date average of A$1 = US$0.704 [M4], about A$28.4m, only about 7% up in Australian dollars on H1 FY26's A$26.6m because the Australian dollar was US$0.655 in that half; operating costs about A$29.5m; underlying EBITDA about -A$1m, against -A$2.3m in H1 FY26; cash about A$55m, down about A$10m in the half. Underlying EBITDA breaks even in the half only if US dollar gross profit grows about 19% or costs come in lower.
 
 ### 6. Holders, directors and dilution
-- Anacacia, a Sydney manager that takes active positions in small companies, bought 1,869,618 shares for A$4,208,736 (A$2.25 on average) between 29 April and 19 August 2026 and became substantial at 5.05% [S1].
+- Anacacia Pty Limited, as trustee for its Wattle Fund (Double Bay, Sydney), bought 1,869,618 shares for A$4,208,736 (A$2.25 on average) between 29 April and 19 August 2026 and became substantial at 5.05% [S1].
 - AustralianSuper went from 9.92% to 10.93% in September 2025 [S2]. JPMorgan's 5.41% notice in September 2025 was a securities-lending position that ceased three days later [S7].
 - Director on-market trades in two years: only the chair, Alison Ledger, buying 10,089 shares at about A$4.95 on 19 August 2025 and 10,009 at A$4.99 on 22 August 2025, about A$100,000 [D2]. No director has bought on market since, through the fall from A$4.88 to A$1.75. Williams' notices are rights lapsing and being granted, not trades; his notice of 4 November 2026 was lodged late, which the company called an administrative oversight [D1; D3; D4].
 - The 2026 AGM passed every resolution; 16.85% voted against the remuneration report (no strike) [A7]. The CEO's new performance rights vest 50% at 10% a year US dollar gross profit growth over FY27 to FY29 and in full at 25%; his options vest only if the share price is above A$6 (or A$10) after five years [A5].
@@ -151,7 +151,7 @@ Inputs (python3 -I, calc/val.py): US dollar gross profit from US$37.7m; A$1 = US
 
 Run backwards: a core worth A$112m needs about 13.0% a year growth for five years with costs +3%, or 13.7% with costs +4%; A$150m needs 13.9% to 14.6%; A$200m needs 15.0% to 15.7%. The value is almost all in whether gross profit keeps growing about 10 points a year faster than costs; one point of growth a year is worth about A$30m to A$40m. A business whose cost base already absorbs all its gross profit gets most of its value from FY29 onward.
 
-The weak paths can't really be negative: a board facing them would cut costs, and an owner could run Dante for cash. A cash-run floor: at the FY23 cost base (A$53m all-in) against A$62m of gross profit, about A$8.5m a year before tax (shielded by the losses for years), growing about 2%, is worth about A$95m at 11%, less a restructuring cost and a year of change, about A$80m. That needs the founder-led board to give up its growth plan, which minority holders can't force.
+The weak paths can't really be negative: a board facing them would cut costs, and an owner could run Dante for cash. A cash-run floor: at the FY23 cost base (A$53.4m all-in) plus about A$2.1m of leases and equipment, against A$62m of gross profit, about A$6.5m a year before tax (shielded by the losses for years), growing about 2%, is worth about A$74m at 11% (6.5 x 1.02 / 0.09), less about A$5m of restructuring, about A$70m. That needs the founder-led board to give up its growth plan, which minority holders can't force.
 
 ### Method 2: enterprise value to gross profit at listed peers
 The company says this is the measure the market uses [A17]. No listed company does exactly what Audinate does; these are the nearest I could price (stockanalysis.com, a secondary source, at the dates shown [P1]):
@@ -174,12 +174,12 @@ On FY27's expected gross profit of A$62.0m, plus A$55m of cash, over 86.0m share
 - 3.5 times: core A$217m, A$3.16.
 
 ### Method 3: the cash, and what the core costs
-Spare cash on the plan is about A$40m (47c a share); total cash at December about A$55m (64c). Whatever the price, the core is the bet. The two methods agree that the core is worth about A$120m if FY27 goes to plan and the market stays unconvinced about the years after (1.9 to 2.0 times gross profit, or the midpoint of the two plan paths in Method 1, A$50m and A$199m), about A$190m to A$200m if the market comes to believe 15% for five years, and about A$60m to A$80m if growth falls back toward the industry's (the fading plan path at A$50m to A$62m, the cash-run floor at about A$80m, 1.0 to 1.3 times gross profit).
+Spare cash on the plan is about A$40m (47c a share); total cash at December about A$55m (64c). Whatever the price, the core is the bet. The two methods agree that the core is worth about A$120m if FY27 goes to plan and the market stays unconvinced about the years after (1.9 to 2.0 times gross profit, or the midpoint of the two plan paths in Method 1, A$50m and A$199m), about A$190m to A$200m if the market comes to believe 15% for five years, and about A$50m to A$80m if growth falls back toward the industry's (the fading plan path at A$50m to A$62m, the cash-run floor at about A$70m, 1.0 to 1.3 times gross profit at A$62m to A$81m).
 
 ### The range
 | | Core (A$m) | Plus cash at Dec 2026 | A$ a share | What it depends on |
 | --- | --- | --- | --- | --- |
-| Low | 70 | 55 | 1.45 | Growth back toward 5% to 10%; the market prices a loss-making business below profitable hardware peers |
+| Low | 70 | 55 | 1.45 | Growth back toward 5% to 10%; the middle of the fading plan path (A$50m to A$62m), the cash-run floor (about A$70m) and 1.0 to 1.3 times gross profit (A$62m to A$81m) |
 | Middle | 121 | 55 | 2.05 | FY27 on plan; FY28 onward unproven |
 | High | 190 | 55 | 2.85 | 15% a year believed; all-peer median 3.07 times gross profit, close to Method 1's 15% path at 11% (A$199m) |
 
@@ -191,7 +191,7 @@ I can't say that it is. At A$2.01 the market pays about A$111m for the operating
 ## Outcomes and chances
 Ordinary pick, resolve by 5 March 2027, about two weeks after the H1 FY27 result. Each price is a core value from the valuation range plus about A$55m of cash, over 86.0m shares.
 
-| Outcome | What happens | Chance | Price by resolve date |
+| Outcome | What happens | Chance | Price by resolve date (5 March 2027) |
 | --- | --- | --- | --- |
 | Bad | H1 US dollar gross profit growth under about 10%, or costs above the A$59.1m run-rate, or FY27 guidance cut; or an Iris write-down or another acquisition that spends the cash; the market prices the core at about 1.1 times gross profit | 30% | A$1.45 |
 | Middling | Growth of 10% to 18%, costs on plan, underlying EBITDA between about -A$2m and break-even for the half, cash about A$52m to A$57m, guidance kept | 50% | A$2.05 |
@@ -199,7 +199,7 @@ Ordinary pick, resolve by 5 March 2027, about two weeks after the H1 FY27 result
 
 Valuation figures used: bad, the range's low (core A$70m); middling, the middle (A$121m); good, the high (A$190m).
 
-Why these chances: the company met its cost guidance three years running and its gross profit guidance two years in three, and H2 FY26 grew 16.9%, so a half on plan is the most likely result. The bad case is 30% because the one miss (FY25) came from an order cycle like the one memory shortages could start, because "in line" results have been sold before (February 2026), and because the H1 figures in Australian dollars will look weaker than the US dollar guidance. The good case needs about 19% growth or lower costs to show a positive half, which the second half of FY26 didn't.
+Why these chances: the company met its cost guidance in FY25 and FY26 and its gross profit guidance in FY26 (at the top of the range), and H2 FY26 grew 16.9%, so a half on plan is the most likely result. The bad case is 30% because the one miss (FY25) came from an order cycle like the one memory shortages could start, because "in line" results have been sold before (February 2026), and because the H1 figures in Australian dollars will look weaker than the US dollar guidance. The good case needs about 19% growth or lower costs to show a positive half, which the second half of FY26 didn't.
 
 Expected price: 0.30 x 1.45 + 0.50 x 2.05 + 0.20 x 2.85 = A$2.03, 0.9% above A$2.01 before costs (python3 -I, calc/peers_outcomes.py).
 
@@ -215,7 +215,7 @@ Sensitivity: at 25%, 50%, 25% the expected price is A$2.10 and the return after 
 Not a value pick, in either window: the six-month bad case is 28% below the price; over two years the bad case (about A$1.29) is 36% below and the middling (about A$1.82) is 9% below, against 10% and +15%.
 
 ## Dated events
-- About 2 February 2027: the result webinar notice (2 February 2026, 31 January 2025 [M3]).
+- About 2 February 2027: the result webinar notice (2 February 2026 [A26], 31 January 2025 [M3]).
 - About 15 to 16 February 2027: the H1 FY27 result, Appendix 4D and presentation (12 February 2024, 17 February 2025, 16 February 2026 [M3]). It shows the half's US dollar gross profit, underlying operating costs, underlying EBITDA, cash at 31 December and any change to FY27 guidance.
 - Early March 2027: S&P's quarterly rebalance; no index re-entry is likely at this size.
 - June 2027: the second third of the Iris escrow shares (289,729) is released if the Iris staff stay [A1, note 21].
@@ -229,8 +229,8 @@ It stays closed on a half with growth under 10%, costs above plan or guidance cu
 
 ## What would make this wrong
 The no-case verdict, not a position, is what could be wrong here, in two ways:
-1. The plan works faster than I allow. Memory-chip price increases passed on to OEMs, adaptors growing 36% a year and embedded software growing as OEMs move off chips could push US dollar gross profit growth near 20%, and with the stronger Australian dollar lowering the A$ cost of US staff, the first positive EBITDA half since FY24 could re-rate the core toward 3 times gross profit (about A$2.85) within weeks.
-2. A bid. Dante is the de facto standard; the market pays about A$111m for it, 1.8 times gross profit, beside A$59m of cash and A$54.8m of tax losses. A buyer cutting the cost base back to FY23's would make about A$8.5m a year on today's gross profit, more as it grows. Yamaha (7.44%) is a strategic holder and Anacacia (5.05%) bought at about A$2.25 to push for value. A bid at A$3 or more would not surprise. OEM-neutrality limits the trade buyers (a rival OEM owning Dante would worry the other 541), and there is no sign of an approach.
+1. The plan works faster than I allow. Memory-chip price increases passed on to OEMs, adaptors growing 36% a year and embedded software growing as OEMs move off chips could push US dollar gross profit growth near 20%, and with the stronger Australian dollar lowering the A$ cost of US staff, the first positive underlying EBITDA half since H1 FY25 (A$0.8m [A8]) could re-rate the core toward 3 times gross profit (about A$2.85) within weeks.
+2. A bid. Dante is the de facto standard; the market pays about A$111m for it, 1.8 times gross profit, beside A$59m of cash and A$54.8m of tax losses. A buyer cutting the cost base back to FY23's would make about A$6.5m a year on FY27's expected gross profit, more as it grows. Yamaha (7.44%) is a strategic holder and Anacacia (5.05%) bought at about A$2.25 this year. A bid at A$3 or more would not surprise. In my view OEM neutrality limits the trade buyers (a rival OEM owning Dante would worry the other 541), and there is no sign of an approach.
 
 On the other side, what would make a bullish case wrong: another order cycle (shortages lead OEMs to over-order, then destock, as in FY24 and FY25), and capital allocation (Iris cost A$31m for A$0.3m of revenue; costs rose in the half the restructure was meant to save A$5m a year).
 
@@ -285,7 +285,6 @@ Audinate (ASX announcements):
 - [A19] Completion of Acquisition of Iris Studio Inc, 21 Jul 2025 (02971151): https://announcements.asx.com.au/asxpdf/20250721/pdf/06lzx62bcm5dvl.pdf
 - [A20] Notification regarding unquoted securities (Appendix 3G), 5 Nov 2026 (03162163): https://announcements.asx.com.au/asxpdf/20261105/pdf/0767nmwxk42w9b.pdf
 - [A21] Notification regarding unquoted securities (Appendix 3G), 29 Sep 2026 (03145609): https://announcements.asx.com.au/asxpdf/20260929/pdf/074pb49t1yzlhf.pdf
-- [A22] Notification of cessation of securities, 14 Oct 2026 (03152266): https://announcements.asx.com.au/asxpdf/20261014/pdf/0759rhq9tq7dz0.pdf
 - [A23] Release of Voluntary Escrow Shares, 19 Jun 2026 (03106036): https://announcements.asx.com.au/asxpdf/20260619/pdf/070tg9ztssfn1j.pdf
 - [A24] S&P DJI Announces March 2026 Quarterly Rebalance, 6 Mar 2026 (03069416), S&P/ASX 300 removals: https://announcements.asx.com.au/asxpdf/20260306/pdf/06x4vd88v6bpg7.pdf
 - [A25] S&P DJI Announces September 2026 Quarterly Rebalance, 4 Sep 2026 (03136141), All Ordinaries removals: https://announcements.asx.com.au/asxpdf/20260904/pdf/073rbz4q8nrckg.pdf
