@@ -31,6 +31,7 @@ No trigger hit.
 | ASX:TRJ | AUD 0.22 | 0.255 | 2026-11-07 | +15.9% |  | ASX company data (last trade at fetch) |
 | ASX:IRI | AUD 0.23 | 0.2675 | 2026-11-07 | +16.3% |  | ASX company data (last trade at fetch) |
 | ASX:AL3 | AUD 0.09 | 0.105 | 2026-11-07 | +16.7% |  | ASX company data (last trade at fetch) |
+| ASX:AWJ | AUD 0.2 | 0.235 | 2026-11-07 | +17.5% |  | ASX company data (last trade at fetch) |
 | NZX:ARG | NZD 0.88 | 1.035 | 2026-11-06 | +17.6% |  | data/prices/NZX |
 | NZX:SPG | NZD 0.94 | 1.11 | 2026-11-06 | +18.1% |  | data/prices/NZX |
 | ASX:RKN | AUD 0.33 | 0.395 | 2026-11-07 | +19.7% |  | ASX company data (last trade at fetch) |
