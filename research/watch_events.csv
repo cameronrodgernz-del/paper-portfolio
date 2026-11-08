@@ -6,6 +6,7 @@ date,market,ticker,event,date_basis
 2026-11-12,ASX,AFG,warehouse facility falls due (renewal terms),announced
 2026-11-12,ASX,PAC,strategic review update at or before the AGM,announced
 2026-11-13,ASX,CAF,annual meeting (whether SEQ sits inside FY27 guidance),announced
+2026-11-13,ASX,EVZ,AGM (10% placement facility vote),announced
 2026-11-14,ASX,IRI,1H FY27 trading update,inferred from last year
 2026-11-16,NZX,SKO,"H1 FY27 result and guidance revision (Booking.com terms, FY28 spend)",announced
 2026-11-17,NZX,SAN,FY26 result and notice of meeting (Umios nominee?),announced
@@ -19,6 +20,7 @@ date,market,ticker,event,date_basis
 2026-11-19,NZX,OCA,1H27 result,announced
 2026-11-20,ASX,ASG,"AGM (H1 FY27 guidance, order bank)",announced
 2026-11-20,ASX,BOL,"AGM business update (four-month trading, FY27 budget, wind work)",announced
+2026-11-20,ASX,EVZ,1H27 guidance (expected),inferred
 2026-11-20,ASX,HIT,AGM (early read on Hudson since 11 Sep),announced
 2026-11-20,ASX,HUM,AGM (second strike and possible board spill),announced
 2026-11-24,ASX,MVF,Genesis total return swap unwind must start (about),inferred
@@ -59,6 +61,7 @@ date,market,ticker,event,date_basis
 2027-02-19,ASX,ASG,H1 FY27 result,inferred
 2027-02-19,NZX,SKC,H1 FY27 result (sale process update),inferred
 2027-02-20,ASX,BOL,HY27 result,inferred
+2027-02-20,ASX,EVZ,1H27 result,inferred
 2027-02-23,ASX,AHC,"H1 FY27 result (organic growth, order book)",inferred
 2027-02-23,ASX,ATG,Half-year result,inferred
 2027-02-23,ASX,CCV,"1H27 result (loss rate, Cashies book)",inferred
