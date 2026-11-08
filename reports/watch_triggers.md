@@ -8,6 +8,7 @@ No trigger hit.
 
 | Share | Trigger | Latest | Date | Away | State | Source of price |
 | --- | --- | --- | --- | --- | --- | --- |
+| ASX:FWD | AUD 2 | 2.04 | 2026-11-07 | +2.0% | near | ASX company data (last trade at fetch) |
 | ASX:HLO | AUD 1.3 | 1.355 | 2026-11-07 | +4.2% | near | ASX company data (last trade at fetch) |
 | NZX:KMD | NZD 2 | 2.1 | 2026-11-06 | +5.0% |  | data/prices/NZX |
 | NZX:ERD | NZD 0.75 | 0.79 | 2026-11-06 | +5.3% |  | data/prices/NZX |

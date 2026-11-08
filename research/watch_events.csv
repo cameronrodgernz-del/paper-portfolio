@@ -47,6 +47,7 @@ date,market,ticker,event,date_basis
 2027-01-27,ASX,AL3,December quarterly (Newport News commissioning),inferred
 2027-01-28,ASX,AWJ,December quarterly (Munda Ore Reserve due by then at the latest),inferred
 2027-01-30,ASX,FML,December quarterly,inferred
+2027-01-31,ASX,FWD,Red Dog completion (both approvals extended to Oct 2032),announced
 2027-01-31,ASX,ZIM,December quarter (by),announced
 2027-02-05,ASX,TRJ,1H trading update,inferred
 2027-02-10,ASX,RKN,FY26 result,inferred
@@ -61,6 +62,7 @@ date,market,ticker,event,date_basis
 2027-02-23,ASX,GEM,"CY26 result (same-centre occupancy, covenants)",inferred
 2027-02-23,ASX,MYX,H1 FY27 result (EBITDA excluding the Australian arm),inferred
 2027-02-24,ASX,CWP,H1 FY27 result,inferred
+2027-02-25,ASX,FWD,"H1 result (Community Solutions EBIT, net cash)",inferred
 2027-02-25,ASX,HLO,H1 FY27 result,inferred
 2027-02-25,ASX,MVF,1H27 result,inferred
 2027-02-26,ASX,AIM,1H FY27 result,inferred
@@ -70,3 +72,4 @@ date,market,ticker,event,date_basis
 2027-02-26,ASX,KYP,H1 FY27 result (due by 28 Feb),inferred
 2027-02-26,ASX,ZIM,Half-year and interim dividend decision (by 28 Feb),announced
 2027-03-01,ASX,EDU,T1 2027 enrolments (with the FY26 result about 26 Feb),inferred
+2027-04-30,ASX,FWD,Rio Tinto Karratha contract ends (award due before),announced
