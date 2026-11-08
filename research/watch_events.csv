@@ -42,6 +42,7 @@ date,market,ticker,event,date_basis
 2026-12-31,ASX,ATA,contract dispute mediation deadline; Westpac facility term ends,announced
 2027-01-08,ASX,KAU,December quarter production update,inferred
 2027-01-15,ASX,KYP,December quarter revenue flash,inferred
+2027-01-20,ASX,ATG,"December quarter trading update (gross profit after marketing, sales)",inferred
 2027-01-22,ASX,FEX,"December quarter (C1, freight, cash, no equity)",inferred
 2027-01-27,ASX,AL3,December quarterly (Newport News commissioning),inferred
 2027-01-28,ASX,AWJ,December quarterly (Munda Ore Reserve due by then at the latest),inferred
@@ -55,6 +56,7 @@ date,market,ticker,event,date_basis
 2027-02-19,NZX,SKC,H1 FY27 result (sale process update),inferred
 2027-02-20,ASX,BOL,HY27 result,inferred
 2027-02-23,ASX,AHC,"H1 FY27 result (organic growth, order book)",inferred
+2027-02-23,ASX,ATG,Half-year result,inferred
 2027-02-23,ASX,GEM,"CY26 result (same-centre occupancy, covenants)",inferred
 2027-02-23,ASX,MYX,H1 FY27 result (EBITDA excluding the Australian arm),inferred
 2027-02-24,ASX,CWP,H1 FY27 result,inferred
