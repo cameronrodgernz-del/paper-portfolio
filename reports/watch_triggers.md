@@ -16,6 +16,7 @@ No trigger hit.
 | ASX:CWP | AUD 5.75 | 6.33 | 2026-11-07 | +10.1% |  | ASX company data (last trade at fetch) |
 | NZX:SAN | NZD 6 | 6.65 | 2026-11-06 | +10.8% |  | data/prices/NZX |
 | ASX:CAA | AUD 11.75 | 13.16 | 2026-11-07 | +12.0% |  | ASX company data (last trade at fetch) |
+| ASX:CZR | AUD 0.165 | 0.19 | 2026-11-07 | +15.2% |  | ASX company data (last trade at fetch) |
 | ASX:TRJ | AUD 0.22 | 0.255 | 2026-11-07 | +15.9% |  | ASX company data (last trade at fetch) |
 | ASX:IRI | AUD 0.23 | 0.2675 | 2026-11-07 | +16.3% |  | ASX company data (last trade at fetch) |
 | ASX:AL3 | AUD 0.09 | 0.105 | 2026-11-07 | +16.7% |  | ASX company data (last trade at fetch) |
