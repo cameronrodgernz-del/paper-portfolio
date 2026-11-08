@@ -18,7 +18,7 @@ Where the money comes from (FY26, to 30 June 2026) [Z2, note 4]: platinum US$474
 
 Structure: Zimplats Holdings is registered in Guernsey. The operating company, Zimbabwe Platinum Mines (ZPM), is 90% owned; the other 10% was issued in 2017 to the Zimplats Employee Share Ownership Trust for a stated US$95m [Z1, note 16]. The trust is consolidated, so the group accounts show no minority interest and attribute all profit to Zimplats shareholders.
 
-Who runs it: Dr Stanley Segula became CEO on 1 November 2026; he has been managing director of ZPM since 2015. Alex Mhembere, CEO since 2007, retired and stays chairman of ZPM [Z6]. CFO Patricia Zvandasara; chairman Prof Fholisani Mufamadi. Implats' CEO Nico Muller and CFO Meroonisha Kerber sit on the board [Z1, Z7]. Two independent directors from Zimbabwe, Gugulethu Ngwenya and Clara Sadomba, joined on 1 November 2026 [Z14].
+Who runs it: Dr Stanley Segula became CEO on 1 November 2026; he has been managing director of ZPM since 2015. Alex Mhembere, CEO since 2007, retired and stays chairman of ZPM [Z6]. CFO Patricia Zvandasara; chairman Prof Fholisani Mufamadi. Implats' CEO Nico Muller and CFO Meroonisha Kerber sit on the board [Z1, Z7]. Two independent directors with Zimbabwean careers, Gugulethu Ngwenya and Clara Sadomba, joined on 1 November 2026 [Z14].
 
 Who owns it [Z1, shareholder information, 30 June 2026]: Impala Platinum BV 93,644,430 shares (87.00%); Citicorp Nominees 6,633,373 (6.16%); HSBC Custody Nominees 2.02%; J P Morgan Nominees 1.52%; BNP Paribas nominee accounts about 0.75%; the top 20 hold 98.41%; 3,029 holders. At the 27 October AGM 102.8m shares voted (95.5% of the company); the only proxy outside Implats was one for 9,186,954 shares, given to the chairman, voting for everything [Z7]. The outside holders are a few custodians and are not agitating.
 
@@ -85,7 +85,7 @@ On FY26's sales mix, with realised prices scaled from FY26 (platinum 95.9%, pall
 7. The FY25 report's promise on dividends was dropped from the FY26 report.
 
 ## Valuation
-All in US dollars, converted at A$1 = US$0.6900. Shares 107.6m. Arithmetic in python3 -I (scratch model kept with the desk's working files).
+All in US dollars, converted at A$1 = US$0.6900. Shares 107.6m. Arithmetic in python3 -I; the formulas are set out below so each figure can be rebuilt.
 
 Common inputs:
 - Volume 630,000 oz a year (bottom of Implats' FY27 range [I1]).
@@ -100,7 +100,7 @@ Common inputs:
 Free cash flow of the operating company at each basket (US$ an ounce): 1,800: US$118m; 1,900: US$162m; 2,000: US$206m; 2,030: US$219m; 2,150: US$272m; 2,171: US$281m. The gearing is the point: a 10% fall in the basket from US$2,000 takes away 43% of the free cash.
 
 ### Method 1: the cash an outside holder can receive
-Free cash flow x 0.765, per share, as a level stream at 14.19%, starting now or after a wait, plus the one-off cash. It assumes everything is paid out once payments start, which is generous: in FY22 and FY23 the company paid out more than its free cash, but it also spent heavily on growth in those years.
+Free cash flow x 0.765, per share, as a level stream at 14.19%, starting now or after a wait, plus the one-off cash. It assumes everything is paid out once payments start, which is generous: in FY22 and FY23 together the company paid out US$425m against US$323m of free cash, but it also spent heavily on growth in those years.
 
 | Basket | Paid from now | After 1 year | After 18 months | After 2 years |
 | --- | --- | --- | --- | --- |
@@ -122,11 +122,11 @@ At a US$2,113 basket the company's model values the operations at their book val
 This runs higher than method 1 because the company's plan has Mupani at full rate and better grades, and because its test values resources outside the mine plan "based on the in situ 6E ounce value" [Z1, note 15], which no holder receives as cash. For a whole owner who pays no withholding tax and waits for nothing (a bidder), the same figure at US$2,000 is about A$21.0 (A$22.1 at US$2,031).
 
 ### Check against the parent
-Implats at R182.08 (9 October 2026, stockanalysis.com, a secondary source [M4]) with 904.4m shares is worth about R164.7bn; after its June net cash of R22.0bn less R13.1bn of final dividends paid since, about R155.8bn including debt. That is 3.6 times FY26 EBITDA of R43.6bn and 7.2 times headline earnings of R22.9bn [I1]. Zimplats at A$14.19 is 2.0 times FY26 cash earnings before interest, tax and depreciation (about US$513m) and 3.8 times FY26 profit. At Implats' 3.6 times, less the trust and the withholding tax, Zimplats would be worth about A$19.3. The gap to the price is the cost of Zimbabwe and of waiting for a dividend; the leakage alone explains about half of the 45% discount.
+Implats at R182.08 (9 October 2026, stockanalysis.com, a secondary source [M4]) with 904.4m shares is worth about R164.7bn; after its June net cash of R22.0bn less the R13.1bn final dividend declared in September, about R155.8bn including debt. That is 3.6 times FY26 EBITDA of R43.6bn and 7.2 times headline earnings of R22.9bn [I1]. Zimplats at A$14.19 is 2.0 times FY26 cash earnings before interest, tax and depreciation (about US$513m) and 3.8 times FY26 profit. At Implats' 3.6 times, less the trust and the withholding tax, Zimplats would be worth about A$19.3. The gap to the price is the cost of Zimbabwe and of waiting for a dividend; the leakage alone explains about half of the 45% discount.
 
 ### Range
 Midpoint of methods 1 and 2, at a US$2,000 basket: A$16.75 if a dividend comes now, A$14.71 after a year, A$13.79 after 18 months, A$12.93 after two years. At US$1,850 with a two-year wait, A$9.26; at US$2,150 with an 18-month wait, A$17.71.
-- The single input that moves the answer most is the basket: about 3% of value for each 1% on the basket.
+- The single input that moves the answer most is the basket: nearly 4% of value for each 1% on the basket.
 - Next is the wait for a first dividend: each year of delay takes about 12%.
 - The price (A$14.19) sits where the market expects a full payout to start in a little over a year at a US$2,000 basket.
 
@@ -160,7 +160,7 @@ Chances add to 100%. The bad price is the two-year US$1,850 midpoint (methods 1 
 - Round-trip costs at about A$2,016 (2.5% of NZ$100,000 at A$1 = NZ$1.2401, data/fx/fx_daily.csv, 6 November): spread 1.80% (Corwin and Schultz over 21 sessions to 30 October, src/spreads.py; the quoted spread on 6 November was 2.8%), size cost 0.59% each way (daily volatility 4.1%, src/fills.py), A$15 brokerage each way (0.74%) unless the monthly plan covers it, and 0.5% to change NZ dollars. That is 4.2% to 6.0%, about 5.0% in the middle.
 - Expected gain after costs: about minus 4.5% (minus 3.7% to minus 5.5%).
 - Minimum (rulebook section 5a): (2.13% + 5%) x 117 days / 365 = 2.29%. Below it, so not a case for review.
-- What it would take: at these outcomes, a price of A$13.30 or lower (A$13.17 to A$13.40 on the cost range). Or, at A$14.19, a February dividend chance of about 45% at the middle basket, which nothing in the filings supports.
+- What it would take: at these outcomes, a price of A$13.30 or lower (A$13.17 to A$13.40 on the cost range). Or, at A$14.19, a February dividend chance of about 50% at the middle basket (42%, 50% and 58% across the three baskets), which nothing in the filings supports.
 
 ## Dated events
 - About 30 October 2026: furnace back from its rebuild; the 43,000 oz stockpile to be smelted over the rest of FY27 [Z4, I3].
@@ -176,9 +176,9 @@ Chances add to 100%. The bad price is the two-year US$1,850 midpoint (methods 1 
 
 ## What would make this wrong
 The two things most likely to make this verdict wrong:
-1. The board declares an interim dividend in February. The cash could be there: on my estimate net cash at 31 December 2026 is about US$90m to US$150m (central about US$130m, with the US$30m loan repaid) if the basket stays near US$2,000, against US$79.5m net a year earlier, because the receivable shrinks as the furnace rebuild cuts first-half sales. Debt is nearly gone, the CEO is new, and the FY25 report called dividends a key focus. A dividend of US$0.30 a share or more at a steady basket takes the value from about A$13.8 to A$16.75.
+1. The board declares an interim dividend in February. The cash could be there: on my estimate net cash at 31 December 2026 is about US$100m to US$150m (central about US$130m, with the US$30m loan repaid) if the basket stays near US$2,000, against US$79.5m net a year earlier, because the receivable shrinks as the furnace rebuild cuts first-half sales. Debt is nearly gone, the CEO is new, and the FY25 report called dividends a key focus. A dividend of US$0.30 a share or more at a steady basket takes the value from about A$13.8 to A$16.75.
 2. Metal prices. A 7% move in the basket moves my value by about 25% to 30%. Platinum and palladium back towards FY26 averages would give A$18 or more without any dividend. Equally, iridium at US$9,650 and ruthenium at US$1,950 are more than twice their H1 FY26 averages; their reversal alone takes the basket to about US$1,910.
-A third, less likely: Implats bids for the 13%. It could afford it (about US$180m at a 30% premium against its own net cash), and as a Guernsey company Zimplats is outside the Corporations Act takeover rules, so the 3% creep limit doesn't bind Implats. But its CEO has said Zimbabwe risk has risen, and nothing in its filings points to buying more.
+A third, less likely: Implats bids for the 13%. It could afford it (about US$180m at a 30% premium against its own net cash), and as a Guernsey company Zimplats is, as I understand it, outside Chapter 6 of the Corporations Act, so the 3% creep limit doesn't bind Implats. But its CEO has said Zimbabwe risk has risen, and nothing in its filings points to buying more.
 
 Reopen conditions:
 - Watch trigger A$13.30, with the basket still at or above about US$2,000 and no dividend news: send to the red team as an ordinary pick resolving 5 March 2027, on the outcomes above. If the price gets there because the basket fell, rerun the values first: at US$1,900 the middle value drops to about A$11.2.
@@ -214,7 +214,7 @@ Exit rule, if a card is ever written: sell at the next open after the half-year 
 - Any statement by Implats on Zimplats dividends. The FY26 booklet and presentation say nothing about it; the CEO and CFO comments are from press reports.
 - Whether Zimplats has a written dividend policy: the FY25 report mentions one but doesn't set it out [Z9].
 - The cash cost of the furnace rebuild in the December quarter.
-- Guernsey's compulsory acquisition threshold, which I haven't checked in the statute.
+- Guernsey's compulsory acquisition threshold, and whether Chapter 6 of the Corporations Act reaches a Guernsey company listed on ASX; I haven't checked either against the law itself.
 
 ## Sources
 - [Z1] Zimplats, Integrated Annual Report 2026 (including audited financial statements and the financial calendar), 28 September 2026 (03144779): https://announcements.asx.com.au/asxpdf/20260928/pdf/074m46sm6ymm7s.pdf
