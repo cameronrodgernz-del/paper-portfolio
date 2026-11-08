@@ -54,7 +54,7 @@ What the headline numbers hide:
 - 25 November 2026: AGM (announced). The 2025 AGM carried a guidance update [8][12].
 - Late November to early December 2026: Motio scheme meeting, court approval and implementation (IVE's indicative timetable of 21 September 2026); conditions must be met by 31 March 2027 [5].
 - 31 December 2026: bank covenant test (stated in the FY26 accounts) [1].
-- About 25 February 2027: 1H27 result (inferred from 25 Feb 2026 and 24 Feb 2025; the ASX company data also gives 25 Feb 2027) [3].
+- About 25 February 2027: 1H27 result (inferred from 25 Feb 2026 and 24 Feb 2025; reports/research_rank.csv also lists 25 Feb 2027) [3].
 - 10 March 2027: current buy-back programme ends (announced) [16].
 - About early April 2027: interim dividend paid (inferred from 2 April 2026) [1].
 - After the window: FY27 result about late August 2027; bank facility matures 14 May 2029; Lasoo expected to break even during FY28 [2].

@@ -53,8 +53,8 @@ What the headline numbers hide:
 
 ## 5. Dated events to 8 May 2027
 - 25 November 2026: AGM (announced); Henley, Cassen and Poynton stand for re-election, and a new long-term incentive plan is put to the vote [17].
-- About 26 February 2027: 1H27 result (inferred from 26 Feb 2026 and 26 Feb 2025; the ASX company data lists 16 Feb 2027) [3][9].
-- About March 2027: interim dividend (inferred from the 1H26 timetable) [5].
+- About 26 February 2027: 1H27 result (inferred from 26 Feb 2026 and 26 Feb 2025; reports/research_rank.csv lists 16 Feb 2027) [3][9].
+- About late March 2027: interim dividend paid (inferred from 27 Mar 2026; ex-date 12 Mar 2026) [5].
 - No date: a binding CFMOTO extension, if any (MOU of 4 May 2026); the outcome of the continuing award review and the registration duty settlement with the revenue offices [1][8].
 - After the window: CFMOTO agreement ends 30 September 2028; bank loan matures 15 September 2029 [1][8].
 
@@ -64,7 +64,7 @@ What the headline numbers hide:
 - If it goes our way: FY26 underlying profit of A$25.7m holds (CFMOTO extended, margins held). At 8.2 times, A$210.7m, plus A$13.0m of net cash, is A$223.7m, or A$3.02 a share on 73.99m shares.
 - If it goes against us: profit falls back to its FY22 to FY26 average of A$20.5m. At 8.2 times, A$168.0m, plus A$13.0m, is A$181.0m, or A$2.45 a share.
 - Only now the price: A$2.87, the last trade on 6 November 2026 (ASX company data, header priceLast; bid A$2.83, offer A$2.87), a market value of A$212.3m [19]. Gap if it goes our way: 3.02 / 2.87 - 1 = +5%. Gap if it goes against us: 2.45 / 2.87 - 1 = -15%.
-- For scale: at A$2.87 the market pays 8.3 times underlying and 8.8 times statutory FY26 profit, about the Autosports multiple. At Eagers' 19.1 times the our-way value would be A$6.81 (+137%), but Eagers is a large multi-brand group whose profit doesn't hang on one supplier's contract; MTO's does. Directors bought about A$2.6m of stock on market between December 2025 and June 2026 at A$2.10 to A$3.15, below and around today's price.
+- For scale: at A$2.87 the market pays 8.3 times underlying and 8.8 times statutory FY26 profit, about the Autosports multiple. At Eagers' 19.1 times the our-way value would be A$6.81 (+137%), but Eagers is a large multi-brand group whose profit doesn't hang on one supplier's contract; MTO's does. Directors bought about A$2.5m of stock on market between December 2025 and June 2026 at A$2.10 to A$3.15, most of it (Poynton's A$1.98m) at A$2.33.
 
 ## 7. Grade
 C, no deep dive: the gap if it goes our way is +5%, under the 25% line. On the peer multiple the desk uses for dealers, the price already reflects FY26's record profit. The thing to watch is the CFMOTO extension: a binding long-term agreement would remove the main risk to the wholesale profit and would be the reason to look again; the 1H27 result about 26 February 2027 will show whether the currency-lifted wholesale margin held.
@@ -74,7 +74,7 @@ C, no deep dive: the gap if it goes our way is +5%, under the 25% line. On the p
 2. FY26 Results Announcement, 26 Aug 2026 (03130275): https://announcements.asx.com.au/asxpdf/20260826/pdf/0737gr5r3k9d48.pdf ; FY26 Results Investor Presentation (03130277): https://announcements.asx.com.au/asxpdf/20260826/pdf/0737gwkcyc1bnt.pdf
 3. 1H26 Results Announcement, 26 Feb 2026 (03065476): https://announcements.asx.com.au/asxpdf/20260226/pdf/06wsmtxwnghy0x.pdf
 4. Appendix 4D and Half Year Financial Report, 26 Feb 2026 (03065469): https://announcements.asx.com.au/asxpdf/20260226/pdf/06wsmc6gf2766s.pdf
-5. Dividend notices, 26 Feb 2026 and 26 Aug 2026, and data/research_data/asx_company.json (ex-date 8 Sep 2026, paid 23 Sep 2026).
+5. Dividend/Distribution, 26 Feb 2026 (03065472), interim 9.5c, ex-date 12 Mar 2026, paid 27 Mar 2026: https://announcements.asx.com.au/asxpdf/20260226/pdf/06wsmkhclj1cqk.pdf ; final 7.0c, ex-date 8 Sep 2026, paid 23 Sep 2026 (data/research_data/asx_company.json and source 1).
 6. Notification of cessation, 2 Sep 2026 (03134872): https://announcements.asx.com.au/asxpdf/20260902/pdf/073mwygyht7hmt.pdf ; Applications for quotation, 1 Oct 2026 (03147285): https://announcements.asx.com.au/asxpdf/20261001/pdf/074tl4jlspjpd9.pdf and 7 Oct 2026 (03149555): https://announcements.asx.com.au/asxpdf/20261007/pdf/0751hn1k3f5whv.pdf
 7. Statement regarding employee underpayments, 17 Jul 2026 (03115789): https://announcements.asx.com.au/asxpdf/20260717/pdf/071sqwgmqryt0b.pdf ; Vehicle Registration Duty Underpayments, 13 Nov 2025 (03024915): https://announcements.asx.com.au/asxpdf/20251113/pdf/06rwgck1ht5twy.pdf
 8. MTO Enters Non-Binding MOU with CFMOTO, 4 May 2026 (03090187): https://announcements.asx.com.au/asxpdf/20260504/pdf/06z70swt9yb5j2.pdf
