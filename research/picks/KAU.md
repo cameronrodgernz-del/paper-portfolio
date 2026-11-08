@@ -356,3 +356,6 @@ Data:
 - D1. Norgate daily prices and volumes, data/norgate/universe/prices_2021.csv.gz to prices_2026.csv.gz, to 30 Oct 2026.
 - D2. ASX company data, data/research_data/asx_company.json, fetched 7 Nov 2026 (last trade A$0.15, bid A$0.15, ask A$0.155).
 - D3. data/fx/fx_daily.csv: AUD/USD 0.6900 and NZD/AUD 0.806387 on 6 Nov 2026.
+
+## Correction, 8 November 2026
+From the Beacon Minerals fact sheet (research/facts/BCN.md, citing Beacon's September 2026 quarterly, 03159862): the Method 2 table's 25,000oz a year for Beacon is 100% of the Lady Ida joint venture. Beacon's own share was 3,303oz in the September quarter, about 13,200oz a year, so its EV per ounce produced is about A$20,300 and its EV to cash margin about 13.8 times, not A$10,735 and 7.3 times. The peer median (4.0 times) is unchanged, so the central value and the verdict stand; only the top of the peer range moves up, and Beacon's long Iguana reserve makes it a poor guide to a six-year mine in any case.
