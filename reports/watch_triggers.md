@@ -30,6 +30,7 @@ No trigger hit.
 | ASX:DXC | AUD 2.18 | 2.76 | 2026-11-07 | +26.6% |  | ASX company data (last trade at fetch) |
 | ASX:FML | AUD 1.4 | 1.79 | 2026-11-07 | +27.9% |  | ASX company data (last trade at fetch) |
 | ASX:BBT | AUD 0.09 | 0.125 | 2026-11-07 | +38.9% |  | ASX company data (last trade at fetch) |
+| ASX:KYP | AUD 0.084 | 0.1175 | 2026-11-07 | +39.9% |  | ASX company data (last trade at fetch) |
 | NZX:SCT | NZD 1.6 | 2.37 | 2026-11-06 | +48.1% |  | data/prices/NZX |
 | ASX:KAU | AUD 0.1 | 0.15 | 2026-11-07 | +50.0% |  | ASX company data (last trade at fetch) |
 | ASX:GRR | AUD 0.055 | 0.105 | 2026-11-07 | +90.9% |  | ASX company data (last trade at fetch) |

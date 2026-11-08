@@ -31,6 +31,7 @@ date,market,ticker,event,date_basis
 2026-12-23,NZX,KMD,Bluestar exclusivity long stop,announced
 2026-12-31,ASX,ATA,contract dispute mediation deadline; Westpac facility term ends,announced
 2027-01-08,ASX,KAU,December quarter production update,inferred
+2027-01-15,ASX,KYP,December quarter revenue flash,inferred
 2027-01-27,ASX,AL3,December quarterly (Newport News commissioning),inferred
 2027-01-30,ASX,FML,December quarterly,inferred
 2027-02-05,ASX,TRJ,1H trading update,inferred
@@ -40,4 +41,5 @@ date,market,ticker,event,date_basis
 2027-02-25,ASX,HLO,H1 FY27 result,inferred
 2027-02-26,ASX,AIM,1H FY27 result,inferred
 2027-02-26,ASX,CAA,FY26 result,announced
+2027-02-26,ASX,KYP,H1 FY27 result (due by 28 Feb),inferred
 2027-03-01,ASX,EDU,T1 2027 enrolments (with the FY26 result about 26 Feb),inferred
