@@ -17,7 +17,7 @@ Any "yes" ends the sheet here, with the fact and its link. Nothing else ends it.
 | | Latest year (FY26, to 30 Jun 2026) | Year before (FY25) | Latest half (1H FY26, to 31 Dec 2025) | Source |
 | --- | --- | --- | --- | --- |
 | Revenue | A$207.0m: customers A$150.3m, interest on customer balances A$56.7m | A$221.8m (customers A$157.9m, interest A$63.9m) | Underlying A$108.4m | [1][3] |
-| Statutory profit after tax | Loss A$19.7m | Loss A$53.4m (including a A$35.4m class action charge) | Loss A$4.0m | [1][3] |
+| Statutory profit after tax | Loss A$19.7m | Loss A$53.4m (including the A$37.4m class action settlement) | Loss A$4.0m | [1][3] |
 | The company's underlying profit, and what's left out | Underlying EBITDA A$48.3m against A$14.4m reported. Left out: restructuring A$15.3m, stored value shortfall A$9.6m and a related A$2.2m receivable write-off, Arlo platform costs A$4.2m, regulatory remediation and class action A$1.4m, legacy tax A$1.2m (A$33.9m). Share-based pay of A$15.0m is also below EBITDA | Underlying EBITDA A$58.6m against A$30.5m. Left out: regulatory remediation and class action A$9.5m, legacy tax A$8.4m, restructuring A$6.5m, Arlo A$2.8m, PCSIL separation A$1.0m (A$28.2m); share-based pay A$15.4m | Underlying EBITDA A$28.0m | [1][3] |
 | Operating cash flow | Outflow A$26.5m, after the A$40.9m class action payment; the company's "underlying operating cash flow" was A$47.8m | Inflow A$16.7m | Outflow A$33.2m | [1][2][3] |
 | Capital spending | A$12.9m (software A$11.9m, of which Arlo A$8.9m; equipment A$1.0m), plus A$7.0m into Tendren and a A$3.8m loan to a client | A$6.0m | A$4.2m | [1][2][3] |
