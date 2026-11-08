@@ -36,6 +36,7 @@ date,market,ticker,event,date_basis
 2027-01-30,ASX,FML,December quarterly,inferred
 2027-02-05,ASX,TRJ,1H trading update,inferred
 2027-02-10,ASX,RKN,FY26 result,inferred
+2027-02-16,ASX,AD8,H1 FY27 result,inferred
 2027-02-19,NZX,SKC,H1 FY27 result (sale process update),inferred
 2027-02-24,ASX,CWP,H1 FY27 result,inferred
 2027-02-25,ASX,HLO,H1 FY27 result,inferred

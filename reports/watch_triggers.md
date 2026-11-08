@@ -18,6 +18,7 @@ No trigger hit.
 | NZX:SAN | NZD 6 | 6.65 | 2026-11-06 | +10.8% |  | data/prices/NZX |
 | ASX:CAA | AUD 11.75 | 13.16 | 2026-11-07 | +12.0% |  | ASX company data (last trade at fetch) |
 | ASX:ATA | AUD 0.285 | 0.32 | 2026-11-07 | +12.3% |  | ASX company data (last trade at fetch) |
+| ASX:AD8 | AUD 1.75 | 2.01 | 2026-11-07 | +14.9% |  | ASX company data (last trade at fetch) |
 | ASX:CZR | AUD 0.165 | 0.19 | 2026-11-07 | +15.2% |  | ASX company data (last trade at fetch) |
 | ASX:TRJ | AUD 0.22 | 0.255 | 2026-11-07 | +15.9% |  | ASX company data (last trade at fetch) |
 | ASX:IRI | AUD 0.23 | 0.2675 | 2026-11-07 | +16.3% |  | ASX company data (last trade at fetch) |
