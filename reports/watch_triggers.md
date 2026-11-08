@@ -13,6 +13,7 @@ No trigger hit.
 | NZX:ERD | NZD 0.75 | 0.79 | 2026-11-06 | +5.3% |  | data/prices/NZX |
 | NZX:RAD | NZD 0.39 | 0.415 | 2026-11-06 | +6.4% |  | data/prices/NZX |
 | ASX:HUM | AUD 0.45 | 0.48 | 2026-11-07 | +6.7% |  | ASX company data (last trade at fetch) |
+| ASX:ZIM | AUD 13.3 | 14.19 | 2026-11-07 | +6.7% |  | ASX company data (last trade at fetch) |
 | ASX:CAF | AUD 0.35 | 0.375 | 2026-11-07 | +7.1% |  | ASX company data (last trade at fetch) |
 | ASX:ATG | AUD 0.345 | 0.37 | 2026-11-07 | +7.2% |  | ASX company data (last trade at fetch) |
 | NZX:SKC | NZD 0.635 | 0.69 | 2026-11-06 | +8.7% |  | data/prices/NZX |

@@ -47,6 +47,7 @@ date,market,ticker,event,date_basis
 2027-01-27,ASX,AL3,December quarterly (Newport News commissioning),inferred
 2027-01-28,ASX,AWJ,December quarterly (Munda Ore Reserve due by then at the latest),inferred
 2027-01-30,ASX,FML,December quarterly,inferred
+2027-01-31,ASX,ZIM,December quarter (by),announced
 2027-02-05,ASX,TRJ,1H trading update,inferred
 2027-02-10,ASX,RKN,FY26 result,inferred
 2027-02-16,ASX,AD8,H1 FY27 result,inferred
@@ -67,4 +68,5 @@ date,market,ticker,event,date_basis
 2027-02-26,ASX,CAA,FY26 result,announced
 2027-02-26,ASX,HIT,"H1 FY27 result, first with Hudson",inferred
 2027-02-26,ASX,KYP,H1 FY27 result (due by 28 Feb),inferred
+2027-02-26,ASX,ZIM,Half-year and interim dividend decision (by 28 Feb),announced
 2027-03-01,ASX,EDU,T1 2027 enrolments (with the FY26 result about 26 Feb),inferred
