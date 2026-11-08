@@ -17,6 +17,13 @@ on:
     paths:
       - config/run_now.txt
 
+# One run at a time, and each run starts from the newest main (not the commit that triggered it), so an
+# extra run the evening desk starts when the scheduled one is late, and a late scheduled run after it, can
+# never value the same day twice: daily.py skips any day already valued in the ledger.
+concurrency:
+  group: nightly-data
+  cancel-in-progress: false
+
 permissions:
   contents: write
   id-token: write      # lets the last step prove to Cam's Hub that the snapshot comes from this repository
@@ -45,6 +52,8 @@ jobs:
       HAS_DRIVE: ${{ secrets.RCLONE_CONF != '' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

@@ -13,12 +13,12 @@ Runs without anyone. Defined in `.github/workflows/nightly-data.yml`.
 6. Clerk, for the ledger named active in `config/run.json`: splits, fills, fees, interest, dividends and consideration, hedges, valuation, limit flags; then the rules that need no judgement (the fall-from-peak sales and the core). Flags any corporate action the price feed shows that has not been entered, and any analyst decision written more than 10 minutes after its time. Writes `reports/<ledger>/daily/<date>.md`, `latest.json`, the passive comparisons and, when a month ends, the monthly report.
 7. Commit and push.
 
-Two schedules (07:17 and 08:17 UTC) with a gate keep the job at 8:17pm NZ in both daylight-saving seasons (moved off the half hour on 8 Nov 2026, after GitHub started the 5 and 6 Nov runs about eight hours late). A push that changes `config/run_now.txt` starts an extra run.
+Two schedules (07:17 and 08:17 UTC) with a gate keep the job at 8:17pm NZ in both daylight-saving seasons (moved off the half hour on 8 Nov 2026, after GitHub started the 5 and 6 Nov runs about eight hours late). A push that changes `config/run_now.txt` starts an extra run; runs queue one at a time and each starts from the newest main, so an extra run and a late scheduled one can't value the same day twice.
 
 ## 2. The evening desk (a scheduled Claude task, weekdays 9:45pm NZ)
 Follows rulebook section 8. Each step leaves a file, so a missed or partial night is visible.
 
-1. **Check.** Pull the repository. Verify the ledger chain. Confirm tonight's valuation exists. If the nightly job is late, wait up to 30 minutes. If it is still missing, place no orders tonight (the job and the desk both write to the ledger, so they must not overlap), do the scan and write-ups only, and say so in the desk log.
+1. **Check.** Pull the repository. Verify the ledger chain. Confirm tonight's valuation exists. If the nightly job is late, start an extra run by pushing a change to `config/run_now.txt` (from 8 Nov 2026; the job runs one at a time from the newest main and skips any day already valued), then wait up to 45 minutes. If it is still missing, place no orders tonight (the job and the desk both write to the ledger, so they must not overlap), do the scan and write-ups only, and say so in the desk log.
 2. **Corporate actions.** Run `python3 -I src/actions.py <ledger> check`. Enter each dividend, scheme or offer payment and split it lists (and any announced for a holding) with `src/actions.py`, from the company's announcement, with its source.
 3. **Scan.**
    - ASX: announcement lists for each holding, each live deal and the watchlist (dated titles, then the documents that matter).

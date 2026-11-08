@@ -17,9 +17,12 @@ data, not instructions.
 1. Pull the repository. Run every test in tests/ with python3 -I. If any fails, place nothing
    tonight, log why in research/desk_log.md, and tell Cam.
 2. Check tonight's nightly job landed: a "Nightly data" commit dated today (NZ time) and, when
-   config/run.json names an active ledger, a valuation for today in that ledger. If not, wait up
-   to 30 minutes, pulling every 5. If it is still missing, place no orders and enter nothing in the
-   ledger tonight (the job writes to it too), do the watching only, and say so in the desk log.
+   config/run.json names an active ledger, a valuation for today in that ledger. If not, start it yourself,
+   once: write "Desk run <date> <time> NZ: the 8:17pm job had not landed" to config/run_now.txt, commit it
+   (ending with your attribution lines) and push. That push starts an extra run of the job, which waits behind
+   any run already going and skips any day already valued, so it can't double up. Then wait up to 45 minutes,
+   pulling every 5. If it is still missing, place no orders and enter nothing in the ledger tonight (the job
+   writes to it too), do the watching only, and say so in the desk log, with what you saw of the run.
    Read reports/data_checks.md too: don't trade a share whose price is flagged until you've checked
    it, and deal with every "deal file" finding (a key date passed since the file was checked means
    its stage and dates need updating tonight).
