@@ -28,6 +28,7 @@ date,market,ticker,event,date_basis
 2026-11-20,ASX,HUM,AGM (second strike and possible board spill),announced
 2026-11-24,ASX,MVF,Genesis total return swap unwind must start (about),inferred
 2026-11-24,NZX,ERD,H1 FY27 result and strategic update,announced
+2026-11-25,ASX,IGL,IVE Group AGM and trading update: FY27 guidance (underlying NPAT before AASB 16 broadly stable on A$52.5m) must be reaffirmed with no softer wording; a cut closes the value pick case,company
 2026-11-25,ASX,IRI,annual meeting,announced
 2026-11-25,NZX,IPL,1H27 result,inferred
 2026-11-25,NZX,KMD,AGM (Bluestar exclusivity running),announced
@@ -83,6 +84,7 @@ date,market,ticker,event,date_basis
 2027-02-25,ASX,EML,"1H FY27 result (one-offs, Arlo spend, free cash)",inferred
 2027-02-25,ASX,FWD,"H1 result (Community Solutions EBIT, net cash)",inferred
 2027-02-25,ASX,HLO,H1 FY27 result,inferred
+2027-02-25,ASX,IGL,"IVE Group 1H27 result: underlying EBITDA before AASB 16 at least A$61m, left-out costs no more than about A$5.5m, revenue without acquisitions down no more than 5%, interim dividend at least 9.5c (research/picks/IGL.md)",estimate
 2027-02-25,ASX,JIN,1H FY27 result and Dream UK earn-out (preliminary possibly early Feb),inferred
 2027-02-25,ASX,MVF,1H27 result,inferred
 2027-02-26,ASX,AIM,1H FY27 result,inferred
