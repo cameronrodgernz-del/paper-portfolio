@@ -97,7 +97,24 @@ Sources: prices and market values [S16][S17]; Oceania [S2]; Summerset [S18] (sha
 Summerset is at 0.430 times NTA and Ryman at 0.459 times, an average of 0.445 (python: (6.20/14.41 + 1.84/4.005)/2 = 0.4448). On Oceania's NZ$1.62 that gives NZ$0.70 (0.43 times), NZ$0.72 (the average) and NZ$0.745 (0.46 times). Oceania's weaker cash suggests the low end: 0.40 to 0.46 times gives NZ$0.65 to NZ$0.75, central NZ$0.70. This depends entirely on what the market pays for the sector, and the sector multiple moves a lot. Oceania itself was at about 0.58 times in January 2026 (NZ$0.905 against NZ$1.57 at 30 September 2025), 0.50 times on 27 August (NZ$0.81 against NZ$1.62) and 0.36 times at its June 2024 low (NZ$0.51 against NZ$1.41 at 31 March 2024) [S17][S5][S6].
 
 ### Method 2: cash flow to shareholders
-Script: scratchpad calc/dcf.py, run with python3 -I. NZ$m, years FY27 to FY36, discounted at a 10% cost of equity (my assumption for a geared business in an out-of-favour sector), with a terminal value growing 2.5% a year.
+The model is short enough to give whole (run with python3 -I; the bullets below explain each line):
+```
+def run(g, coe=0.10, tg=0.025, dev_steady=8.0, shares=724.231):
+    f, real, capex, fcfe = -26.5, 68.5, 23.3, []
+    dev = {2027: 65.0, 2028: 42.0, 2029: 3.0, 2030: -7.0}; wc = {2027: 30.0, 2028: 11.0}
+    for yr in range(2027, 2037):
+        d = (7.2 - 2.0) if yr == 2027 else 0.0
+        d += real * g; real *= 1 + g
+        d += 1.5 if yr <= 2029 else 0.0
+        d -= capex * 0.03; capex *= 1.03
+        d -= {2028: 1.8, 2029: 2.2}.get(yr, 0.0)
+        f += d
+        fcfe.append(f + dev.get(yr, dev_steady * 1.025 ** (yr - 2031)) + wc.get(yr, 0.0))
+    pv = sum(c / (1 + coe) ** (i + 1) for i, c in enumerate(fcfe))
+    tv = fcfe[-1] * (1 + tg) / (coe - tg) / (1 + coe) ** len(fcfe)
+    return (pv + tv) / shares
+```
+NZ$m, years FY27 to FY36, discounted at a 10% cost of equity (my assumption for a geared business in an out-of-favour sector), with a terminal value growing 2.5% a year.
 - Free cash flow from operations without the working capital lines: starts at FY26's -NZ$26.5m. FY27 adds the remaining NZ$7.2m of cost savings and loses NZ$2.0m for the sites sold (their NZ$5.1m of FY26 earnings [S2, slide 29] less the interest saved on the NZ$51m). Cash from resident turnover (NZ$68.5m) grows at g a year: 4% (low), 7% (central) or 10% (high). Care earnings add NZ$1.5m a year to FY29. Maintenance spending grows 3% a year. The OCA010 refinance costs NZ$1.8m in FY28 and NZ$4.0m a year from FY29.
 - Working capital: NZ$30m in FY27 and NZ$11m in FY28. That is bought-back units falling from about NZ$38m to about NZ$15m (Oceania's target is resale within nine months [S7]) and receivables from about NZ$48.5m to about NZ$30m.
 - Development, after construction spending and development interest: NZ$65m (FY27) and NZ$42m (FY28) while the NZ$227m of unsold stock sells down, as FY26's NZ$74.2m did (147.9 - 62.1 - 11.6) [S2, slides 11, 31 and 32]. Then NZ$3m (FY29) and -NZ$7m (FY30) as the build rate rises from 81 units towards about 150 [S2, slide 18]. From FY31 a steady surplus of NZ$4m, NZ$8m or NZ$12m a year (the low, central and high cases): roughly a 5% to 15% full-cost margin on about NZ$90m to NZ$100m of new sales a year, Jarden's range [X5]. A NZ$15m surplus (about 15% to 20%, nearer The Helier's likely outcome) is shown as a sensitivity.
