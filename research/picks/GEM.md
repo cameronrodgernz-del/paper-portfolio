@@ -49,7 +49,7 @@ The price was A$0.685 on 2 January 2026, A$0.38 on the day of the full-year resu
 - An out-of-favour sector: Nido withdrew its 2026 target in August [P1]; Mayfield cut guidance, raised A$3m at A$0.10 in August and now trades at A$0.12, 76% below the A$0.50 Embark offered in December 2025 [P11, P13, P14].
 - It is not unknown. Search results show broker coverage (Macquarie's July 2025 downgrade was reported by the Motley Fool and Capital Brief) and an aggregator page citing about a dozen analysts cutting price targets [S5]; I did not open or verify those. Two large value holders (Allan Gray, Soul Patts) bought heavily in late 2025 and early 2026 at much higher prices.
 
-So the register and the index exit explain some selling pressure, but most of the fall is the business: occupancy down 13.7 points in two years.
+So the register and the index exit explain some selling pressure, but most of the fall is the business: occupancy fell 4.9 points in 2025 and another 7.5 points year on year in the first half of 2026.
 
 ## What the filings show
 
@@ -67,7 +67,7 @@ G8's "operating EBIT" is after lease depreciation and lease interest [G6, page 1
 
 Sources: CY25 depreciation of plant A$31.7m, software A$0.7m, right-of-use A$74.1m, lease interest A$41.5m [G4 note 5, note 18]; H1 CY25 total depreciation A$53.3m of which right-of-use A$38.0m [G10 notes 5 and 6]; H1 CY26 total A$48.7m of which right-of-use A$32.5m, lease interest A$20.4m of which A$0.4m on suspended centres is outside operating earnings [G1 notes 3 and 6]; CY24 depreciation of plant A$31.1m and software A$1.3m [G4 note 5]. Half-year occupancy: CY24 68.2% and 73%, CY25 64.5% and 67% [G6, page 14; G11].
 
-Cash rent runs slightly above accounting rent this year: lease payments were A$55.5m in the first half against A$52.9m of lease depreciation and interest [G1 note 6], partly because the 36 suspended centres' leases are still paid while their rent is now booked outside operating earnings.
+Cash rent runs slightly above accounting rent this year: lease payments were A$55.5m in the first half against A$52.9m of lease depreciation and lease interest, including A$0.4m on the suspended centres [G1 notes 3 and 6], partly because the 36 suspended centres' leases are still paid while their rent is now booked outside operating earnings.
 
 ### How much an occupancy point is worth
 Centre revenue was A$7.16m per occupancy point per half in H1 CY25 and A$7.18m in H1 CY26 (A$462.1m at 64.5%, A$409.0m at 57.0%) [G3, page 20]. Centre EBIT fell A$26.9m on A$53.1m less revenue, 51% of each lost dollar. EBITDA after rent fell from A$55.8m to A$30.9m for 7.5 points: A$3.3m per point per half, about A$6.6m a year. From CY24 to CY25 the fall was A$4.4m a year per point, because cost savings and fee rises offset part of it. I use A$6.5m a year per point.
@@ -180,7 +180,7 @@ I can't say with confidence that the market is wrong today. The CY26 result will
 | Middling | Decline slows but doesn't stop (same-centre gap 2 to 4 points in February and April 2027); CY26 operating EBIT about A$50m; another goodwill write-down; covenants met under the loosened test; no raise | 45% | A$0.09 (3 points lower: method 1 at 3.5 to 4 times A$0.08 to A$0.13, method 2 A$0.06 to A$0.10) |
 | Good | Occupancy has stopped falling: early-2027 spot and April year to date within about a point of a year earlier on the same centres; CY26 operating EBIT A$55m or more; covenants met, no raise | 30% | A$0.20 (flat case: method 1 at 3.5 to 4 times A$0.17 to A$0.23, method 2 A$0.18 to A$0.25) |
 
-Why these chances: the good case needs the narrowing in August to be real rather than the suspended centres, and needs the sector's demand to steady while supply still grows 2.5% to 2.9% a year. Embark's update and the easier comparison after July 2025 support it; G8's own same-centre figure to June, the June quarter government data and Mayfield's October figure argue against it. I put the good case at 30%, a little below the bad case plus a margin for the legal and covenant tail. The bad case is 25% rather than higher because G8 has A$76m of cash and undrawn debt, no debt due before January 2029, and a covenant already loosened through December 2027.
+Why these chances: the good case needs the narrowing in August to be real rather than the suspended centres, and needs the sector's demand to steady while supply still grows 2.5% to 2.9% a year. Embark's update and the easier comparison after July 2025 support it; G8's own same-centre figure to June, the June quarter government data and Mayfield's October figure argue against it. The occupancy evidence is split about evenly, so I put the good and bad cases close together (30% and 25%) and keep the middling case, a decline that slows without stopping, as the most likely. The bad case is 25% rather than higher because G8 has A$76m of cash and undrawn debt, no debt due before January 2029, and a covenant already loosened through December 2027.
 
 Expected price: 0.25 x A$0.04 + 0.45 x A$0.09 + 0.30 x A$0.20 = A$0.1105, 5.2% above A$0.105.
 
@@ -206,8 +206,8 @@ Conditions that reopen it:
 
 ## What would make this wrong
 1. Occupancy has already turned. The comparison base got easier from July 2026, supply growth is the slowest in 10 quarters and Embark is already seeing it. If the February result shows the same-centre gap closed, the price could go to about A$0.20 at once, and waiting misses it (my 30%).
-2. The bad case is worse or more likely than I have it. The covenant thresholds are unknown; the loosened test runs out after December 2027; a write-down could press the gearing test; the Point Cook civil claims are not provided for; and a low-occupancy operator's equity is rescued at deep discounts (Mayfield). At 35% bad, even A$0.095 would not be enough.
-3. My CY26 estimate is too high. If the second half comes in near the fact sheet's A$27m of operating EBIT rather than my A$36.5m to A$43.4m, all the values above drop by about 6 cents a share and the middling case moves to about A$0.03 to A$0.05.
+2. The bad case is worse or more likely than I have it. The covenant thresholds are unknown; the loosened test runs out after December 2027; a write-down could press the gearing test; the Point Cook civil claims are not provided for; and a low-occupancy operator's equity is rescued at deep discounts (Mayfield). At 35% bad and 25% good, even A$0.095 would not be enough (about +1.4% after costs).
+3. My CY26 estimate is too high. If the second half comes in near the fact sheet's A$27m of operating EBIT rather than my A$36.5m to A$43.4m, all the values above drop by about 6 cents a share and the middling case moves to about A$0.02 to A$0.07.
 
 Exit rule (if it is reopened and bought): sell after the result if conditions 2(a) to 2(c) fail, on any raise or waiver, or at the resolve date.
 
