@@ -143,6 +143,28 @@ def current(verdict: str) -> tuple[str, str]:
     return "", LEAD.sub("", verdict).strip()
 
 
+MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
+
+
+def nice_dates(s: str) -> str:
+    return re.sub(r"\b(\d{4})-(\d\d)-(\d\d)\b", lambda m: f"{int(m.group(3))} {MONTHS[int(m.group(2)) - 1]} {m.group(1)}", s)
+
+
+def why_parts(verdict: str) -> list[dict]:
+    """The verdict split at each stage it records (fact sheet, triage, deep dive, red team), in the order written,
+    each with a short label, so the page can show it as paragraphs instead of one block."""
+    ms = list(SEG.finditer(verdict))
+    out = []
+    head = verdict[:ms[0].start()].strip() if ms else verdict
+    if plain_why(head):
+        out.append({"label": "", "text": plain_why(LEAD.sub("", head))})
+    for i, m in enumerate(ms):
+        label = re.sub(r"\s*\((?:research|reports)/[^)]*\)", "", m.group(0)).rstrip(":").strip()
+        text = verdict[m.end():ms[i + 1].start() if i + 1 < len(ms) else len(verdict)].strip()
+        out.append({"label": nice_dates(label), "text": plain_why(text)})
+    return out
+
+
 def plain_why(verdict: str) -> str:
     """The index verdict without its file references and batch notes, which the page shows as links."""
     s = re.sub(r"\s*\((?:research|reports)/[^)]*\)", "", verdict)
@@ -202,7 +224,7 @@ def companies(root: str, triggers: dict, cards: set) -> list[dict]:
         head = first_sentence(plain_why(cur))
         head = head[:1].upper() + head[1:]
         out.append({"market": r["market"], "ticker": r["ticker"], "name": r["name"], "date": r["date"], "stage": stage,
-                    "grade": grade, "landed": landed, "status": r["status"], "head": head, "why": why,
+                    "grade": grade, "landed": landed, "status": r["status"], "head": head, "why": why, "parts": why_parts(v),
                     "next": r["next"], "files": {k: REPO + p for k, p in files.items()},
                     "trigger": triggers.get(key)})
     return out

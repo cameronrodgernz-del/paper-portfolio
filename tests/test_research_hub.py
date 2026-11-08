@@ -37,6 +37,10 @@ v3 = ("Red team 2026-11-08 (research/red_team/HLO.md), checked against the minim
 check("a red team qualifier with brackets, and a later 'Red team:' is not a new stage",
       r.current(v3) == ("rt", "wait for the H1 result. Red team: bad 30% A$1.05"), r.current(v3))
 check("a leading 'Red team:' counts", r.current("Red team: don't buy (research/red_team/SRV.md). A loss")[0] == "rt")
+wp = r.why_parts("Fact sheet 2026-11-08 (research/facts/X.md): grade C. Special situation deep dive 2026-11-08 (research/picks/X.md): wait, no card")
+check("the reasons split by stage, labelled, dates readable",
+      wp == [{"label": "Fact sheet 8 Nov 2026", "text": "grade C."}, {"label": "Special situation deep dive 8 Nov 2026", "text": "wait, no card"}], wp)
+check("a quick look is one unlabelled part", r.why_parts("Dropped at the quick look: dear") == [{"label": "", "text": "dear"}])
 check("a quick look drops its lead", r.current("Dropped at the quick look: 31 times profit") == ("", "31 times profit"))
 check("file references come out of the reasons", r.plain_why("Fact sheet (research/facts/X.md, note 9): grade C") == "Fact sheet: grade C")
 check("the first sentence is at least 40 characters",
