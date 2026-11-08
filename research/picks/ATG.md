@@ -148,12 +148,12 @@ Sensitivity: at 25%, 50%, 25% the expected price is A$0.388 and the return after
 ## Dated events
 - About 15 to 30 January 2027: the December quarter trading update (2QFY27). In January 2026 it gave marketplace revenue, gross profit and GPAPA for the quarter and the half; in January 2025, the half's revenue, GPAPA and costs; the March 2026 update also gave constant currency changes [A8][A18][A9]. The risk is that the company stops issuing it, as it did the September one; the half-year result then carries the answer.
 - About 19 to 27 February 2027: the half-year result: operating costs, operating EBITDA, cash and the free cash at 31 December, and any change to guidance. A year earlier free cash at 31 December was minus A$2.8m; on track it should be about plus A$5m this time.
-- Daily: the on-market buy-back, about A$1,000 a day lately [A15]. About December 2026: about A$0.79m of appreciation rights granted [A13].
+- Daily: the on-market buy-back, 2,500 shares (about A$900) on 30 October [A15]. About December 2026: about A$0.79m of appreciation rights granted [A13].
 - Later: the March quarter update about 7 May 2027; the Frankly Wearing earn-out about November 2027.
 
 What the December quarter must show, and at what price, with resolve by 5 March 2027:
 1. Before the update: the case opens at A$0.345 or lower (a limit order at the 6 November bid), on the chances above.
-2. In line (first-half GPAPA -4% to +3% in constant currency, about A$54m to A$58m in A$ at today's rates; December quarter GPAPA about A$32.7m or more in A$; sales -3% to +1% in constant currency; guidance kept): the chances become about 20%, 60%, 20%, the expected price A$0.388, and the case opens at A$0.365 or lower.
+2. In line (first-half GPAPA -4% to +3% in constant currency, about A$55m to A$59m in A$ at today's rates; December quarter GPAPA about A$32.7m or more in A$; sales -3% to +1% in constant currency; guidance kept): the chances become about 20%, 60%, 20%, the expected price A$0.388, and the case opens at A$0.365 or lower.
 3. Strong (first-half GPAPA up more than 3% in constant currency with sales growth above 1%, or guidance raised): chances about 10%, 50%, 40%, expected A$0.437, and the case opens at A$0.41 or lower. Strong updates have lifted the price 17% to 35% in a day [M2], so this may not be reachable.
 4. Weak (first-half GPAPA down more than 4% in constant currency, sales down more than 3%, or guidance cut): the ordinary case closes. Only the value pick trigger is left: about A$0.22, where the bad case would sit within 10% and the middling (about A$0.44 in two years) far above.
 The half-year then confirms or reverses it: first-half operating EBITDA of A$16m or more with first-half costs of A$44m or less keeps the middling case; below A$15m is the bad case.
@@ -162,7 +162,7 @@ The half-year then confirms or reverses it: first-half operating EBITDA of A$16m
 The two things most likely to make this "wait" wrong:
 1. Another beat and raise. Management raised guidance at the half in FY25 and FY26 and beat it both times. If the December quarter shows sales growing again, the price could jump 25% to 35% in a day (28 August 2026: +29%), and waiting misses it.
 2. The float working the other way. If Redbubble's decline (-11% in constant currency) pulls group sales down again, the float shrinks with them, cash falls even while the company reports a profit, and the market may start to price free cash, which was negative. The share would then fall below my A$0.22 bad case, which still counts most of the cash.
-Also: paid marketing (21% of marketplace revenue) depends on Google and Meta prices and on search traffic shifting to AI tools, which the company is courting [A4]; and a founder still holding 11.6% who sold on the result day [A16].
+Also: paid marketing (21% of marketplace revenue) depends on Google and Meta prices and on search traffic shifting to AI tools, which the company is courting [A4]; the open intellectual property and consumer-law lawsuits, with nothing provided [A1 note 23]; and a founder still holding 11.6% who sold on the result day [A16].
 
 Exit rule, if a position is ever opened: sell after the half-year result unless the deep dive is re-written; sell at once if the December quarter meets the "weak" conditions above.
 
@@ -178,7 +178,8 @@ Exit rule, if a position is ever opened: sell after the half-year result unless 
 4. Per-share values should use about 308.8m shares: 12,853,547 restricted units (at 4 September 2026) and 4,007,941 options at an average A$0.14 exercise price, both in the money [A14][A1 note 24]. The fact sheet's "counting the RSUs" left out the options.
 5. FY27 cash earnings: the CFO said capitalised development will rise 15% to 20% [A4], and FY26's A$1.9m of share-based pay was after a A$1.5m reversal [A1 note 24], so FY26's deductions understate FY27's.
 6. The buy-back has done little more than offset dilution: 2,866,117 bought since October 2025 against 2,100,000 new shares issued to the employee share trust on 3 September 2026 [A15][A14].
-7. Dated events: no September quarter (1QFY27) update was released this year, unlike 15 October 2025 [A21], so quarterly updates aren't certain. The December quarter update came on 30 January in 2025 and 15 January in 2026, and the half-year on 27 February 2025 and 19 February 2026, so a resolve date in early March is safer than 19 February.
+7. Left out: there are current lawsuits against the group over alleged intellectual property infringement and consumer-law breaches, with nothing provided [A1 note 23(b)].
+8. Dated events: no September quarter (1QFY27) update was released this year, unlike 15 October 2025 [A21], so quarterly updates aren't certain. The December quarter update came on 30 January in 2025 and 15 January in 2026, and the half-year on 27 February 2025 and 19 February 2026, so a resolve date in early March is safer than 19 February.
 
 ## What I couldn't verify
 - The September 2026 quarter's numbers: none were published; the AGM gave only "in line with our expectations" [A12].
