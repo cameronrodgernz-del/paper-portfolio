@@ -2,8 +2,8 @@ market,ticker,company,trigger_price,currency,also_needs,source
 ASX,CAA,Capral,11.75,AUD,"after the FY26 result: underlying EBIT A$34m or more, December NTA A$14.20 or more, net cash A$40m or more, a new buyback",research/red_team/CAA.md
 ASX,CWP,Cedar Woods Properties,5.75,AUD,"FY27 guidance intact; or about A$6.10 after a strong H1 (FY28 presales A$420m or more, Q2 gross sales 250 or more)",research/red_team/CWP.md
 ASX,STP,Step One Clothing,0.11,AUD,no news worse than the bad case,research/picks/STP.md
-ASX,TRJ,Trajan Group Holdings,0.22,AUD,before the trading update (about 5 Feb 2027) with FY27 guidance unchanged,research/picks/TRJ.md
-ASX,HLO,Helloworld Travel,1.33,AUD,"nothing else changed (as an ordinary pick); not after a guidance cut or a debt-funded Webjet bid",research/picks/HLO.md
+ASX,TRJ,Trajan Group Holdings,0.22,AUD,before the trading update (about 5 Feb 2027) with FY27 guidance unchanged and no news or heavy selling to explain the fall,research/red_team/TRJ.md
+ASX,HLO,Helloworld Travel,1.33,AUD,nothing else changed (as an ordinary pick); not after a guidance cut or a debt-funded Webjet bid,research/picks/HLO.md
 ASX,IRI,Integrated Research,0.23,AUD,"after the trading update and AGM: 1H contracts signed A$22m or more, no acquisition, net cash A$44m or more",research/picks/IRI.md
 ASX,DXC,Dexus Convenience Retail REIT,2.18,AUD,20.9c distribution guidance for FY27 and FY28 held and NTA A$3.75 or more,research/picks/DXC.md
 ASX,KAU,Kaiser Reef,0.10,AUD,Henty at 5500oz a quarter or more and gold A$5500/oz or more (as a value pick),research/picks/KAU.md
