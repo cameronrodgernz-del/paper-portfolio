@@ -5,7 +5,7 @@ Status: TO WRITE (remove this word once the file is finished; decide.py refuses 
 Fact sheet: research/facts/<TICKER>.md (NZ_<TICKER>.md for NZX), grade <A or B>, and the question it set.
 
 Value pick (rulebook section 5a, from 8 Nov 2026): if the bad case is no more than 10% below the price and the middling
-case at least 25% above it, the resolve date may be up to 24 months out; list the results and meetings in that time as the
+case at least 15% above it, the resolve date may be up to 24 months out; list the results and meetings in that time as the
 dated events. Say on the first line whether this is a value pick.
 
 Order of work (added 2 Nov 2026): write "What the filings show" and "Valuation" before looking at the share

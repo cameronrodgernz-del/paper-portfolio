@@ -44,7 +44,7 @@ The research funnel (rebuilt 2 November 2026, rulebook section 5a change log):
    against us (the sheet's "if it goes against us" gap), varying the sectors; then B grades whose event is now
    close. The "our way" gap is easy to make large on a distressed company, so it decides the grade, not the order. Value
    picks (rulebook section 5a, from 8 Nov 2026) may run up to 24 months and need no forcing event: the bad case no
-   more than 10% below the price and the middling case at least 25% above it. Write each in the format of research/picks/TEMPLATE.md, from primary sources only: the ASX or
+   more than 10% below the price and the middling case at least 15% above it. Write each in the format of research/picks/TEMPLATE.md, from primary sources only: the ASX or
    NZX announcements, the annual and half-year reports, the Companies Office or ASIC register, substantial
    holder notices, director dealings, regulator and court records. Take the price from the latest close
    (data/prices or the exchange; in data/research_data/asx_company.json the latest trade is header.priceLast, and
