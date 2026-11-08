@@ -41,6 +41,7 @@ No trigger hit.
 | ASX:BOL | AUD 1.85 | 2.18 | 2026-11-07 | +17.8% |  | ASX company data (last trade at fetch) |
 | NZX:SPG | NZD 0.94 | 1.11 | 2026-11-06 | +18.1% |  | data/prices/NZX |
 | ASX:FEX | AUD 0.165 | 0.195 | 2026-11-07 | +18.2% |  | ASX company data (last trade at fetch) |
+| NZX:OCA | NZD 0.555 | 0.66 | 2026-11-06 | +18.9% |  | data/prices/NZX |
 | ASX:RKN | AUD 0.33 | 0.395 | 2026-11-07 | +19.7% |  | ASX company data (last trade at fetch) |
 | NZX:IPL | NZD 0.84 | 1.01 | 2026-11-06 | +20.2% |  | data/prices/NZX |
 | ASX:STP | AUD 0.11 | 0.135 | 2026-11-07 | +22.7% |  | ASX company data (last trade at fetch) |
