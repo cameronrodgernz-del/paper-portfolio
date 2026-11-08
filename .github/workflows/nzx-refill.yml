@@ -1,0 +1,42 @@
+name: NZX price refill
+
+# Fetches NZX prices on their own, outside the nightly job: for catching up thin or missed sessions
+# (src/fetch_nzx.py asks again for any recent day most shares are missing) without running the clerk.
+# Runs when this file changes, or by hand.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/nzx-refill.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nzx-refill
+  cancel-in-progress: false
+
+jobs:
+  refill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: NZX prices (FinFeedAPI, paid by usage credits)
+        env:
+          FINFEED_API_KEY: ${{ secrets.FINFEED_API_KEY }}
+        run: python3 -I src/fetch_nzx.py data --max-requests 8 && cat data/prices/NZX/last_run.txt
+      - name: Research watch list on the new prices
+        run: python3 -I src/watch_check.py .
+      - name: Save
+        run: |
+          git config user.name "paper-portfolio-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/prices/NZX reports/watch_triggers.md
+          git diff --cached --quiet && exit 0
+          git commit -m "NZX price refill $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
