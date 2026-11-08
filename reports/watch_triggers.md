@@ -11,6 +11,7 @@ No trigger hit.
 | ASX:HLO | AUD 1.3 | 1.355 | 2026-11-07 | +4.2% | near | ASX company data (last trade at fetch) |
 | NZX:KMD | NZD 2 | 2.1 | 2026-11-06 | +5.0% |  | data/prices/NZX |
 | NZX:ERD | NZD 0.75 | 0.79 | 2026-11-06 | +5.3% |  | data/prices/NZX |
+| NZX:RAD | NZD 0.39 | 0.415 | 2026-11-06 | +6.4% |  | data/prices/NZX |
 | ASX:HUM | AUD 0.45 | 0.48 | 2026-11-07 | +6.7% |  | ASX company data (last trade at fetch) |
 | ASX:CAF | AUD 0.35 | 0.375 | 2026-11-07 | +7.1% |  | ASX company data (last trade at fetch) |
 | NZX:SKC | NZD 0.635 | 0.69 | 2026-11-06 | +8.7% |  | data/prices/NZX |
@@ -43,6 +44,7 @@ No trigger hit.
 
 - 2026-11-11: ASX:MYX, Cosette claim: special leave deadline (announced)
 - 2026-11-11: ASX:STP, annual meeting (first read on 1H revenue) (announced)
+- 2026-11-11: NZX:RAD, H1 FY27 result (EBITDA less resale gains, aged care EBITDAR, net debt) (announced)
 - 2026-11-12: ASX:AFG, warehouse facility falls due (renewal terms) (announced)
 - 2026-11-12: ASX:PAC, strategic review update at or before the AGM (announced)
 - 2026-11-13: ASX:CAF, annual meeting (whether SEQ sits inside FY27 guidance) (announced)
