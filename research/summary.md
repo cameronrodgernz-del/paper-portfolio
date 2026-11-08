@@ -85,4 +85,5 @@ The watch list on this page shows how far each share is from its trigger tonight
 
 - Each weeknight the nightly job checks every watch list price and the evening desk reads the announcements for any event that has fallen due, reopening a share when its conditions are met.
 - Nothing is waiting for a fact sheet or a deep dive. From here the work is the watch list and the dated events: Oceania and My Food Bag report on 19 November, Autosports and Bolton hold their AGMs on 20 November and IVE on 25 November, and most of the others report in late February.
+- The research desk runs each Saturday at 8:33am (from 14 November): any share the evening desk has reopened gets a fresh deep dive and red team first, then the screen looks for new names.
 - Until a pick passes every step, the research money stays in cash.
