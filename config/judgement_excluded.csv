@@ -1,4 +1,5 @@
 # Companies Evergreen advises, has pitched or is pitching, and any company about which Cam holds information that isn't public.
 # Research picks and Cam's calls never trade these (rulebook section 5a). Cam fills this in; Claude doesn't guess it.
 # Not yet confirmed: until a line reading "# confirmed by Cam on <date>" is added, gaming, wagering and racing picks wait.
+# confirmed by Cam on 2026-11-08: nothing to avoid at the outset; to be revisited later.
 ticker,name,reason
