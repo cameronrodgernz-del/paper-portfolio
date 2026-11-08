@@ -248,9 +248,9 @@ Reopen if any one of these holds:
 2. In line, and the price is NZ$0.39 or less: re-test as an ordinary pick (outcomes as in the table above). At NZ$0.35 or less: re-test as a value pick to the FY28 result (bad 10% below, middling 28% above on share prices alone).
 3. At any time, a sale-and-leaseback of owned homes at yields near 7% to 7.5%, a sale of the Karori units, or an approach for the company: re-test with the good case at the sum-of-the-parts value (49c to 55c).
 
-Close (no case) if any line of the last column holds. Then the bad case (run-rate about NZ$27m or less) becomes the middle, and the value-pick price falls to about NZ$0.31.
+Close (no case) if any line of the last column holds. Then the bad case (run-rate about NZ$27m or less) becomes the middle, and a value pick would need a price of about NZ$0.30 or less (bad case 6.5 times NZ$25.0m, 26.9c; middling 7 times NZ$27.5m, 37.5c).
 
-Watch trigger: NZ$0.39 after an in-line or strong result (NZ$0.44 after a strong one).
+Watch trigger: NZ$0.39 after an in-line result (NZ$0.44 after a strong one; NZ$0.35 for a value pick).
 
 ## What would make this wrong
 1. The market pays more than 7 times once growth without resale gains shows. The shares reached 46.5c in August on less information, Forsyth Barr's sponsored valuation is 54c, and the property alone covers 23c a share after debt. If 1H27 is strong, the price may pass NZ$0.44 on the day and waiting will have cost 10% or more. No position could have been in place before 11 November in any case.
