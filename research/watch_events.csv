@@ -1,6 +1,7 @@
 date,market,ticker,event,date_basis
 2026-11-11,ASX,MYX,Cosette claim: special leave deadline,announced
 2026-11-11,ASX,STP,annual meeting (first read on 1H revenue),announced
+2026-11-12,ASX,AFG,warehouse facility falls due (renewal terms),announced
 2026-11-12,ASX,PAC,strategic review update at or before the AGM,announced
 2026-11-13,ASX,CAF,annual meeting (whether SEQ sits inside FY27 guidance),announced
 2026-11-14,ASX,IRI,1H FY27 trading update,inferred from last year
@@ -25,6 +26,7 @@ date,market,ticker,event,date_basis
 2026-11-26,ASX,MXI,AGM,announced
 2026-11-26,NZX,SCT,annual meeting,announced
 2026-12-03,NZX,DGL,AGM,announced
+2026-12-10,ASX,AFG,warehouse facility falls due (renewal terms),announced
 2026-12-15,NZX,SKC,Grand Hotel sale settles,inferred
 2026-12-16,ASX,CAA,windows and doors anti-dumping recommendation due,announced
 2026-12-16,NZX,SAN,annual meeting,announced
@@ -38,6 +40,7 @@ date,market,ticker,event,date_basis
 2027-02-05,ASX,TRJ,1H trading update,inferred
 2027-02-10,ASX,RKN,FY26 result,inferred
 2027-02-16,ASX,AD8,H1 FY27 result,inferred
+2027-02-18,ASX,AFG,"HY27 result (lending margin, book size)",inferred
 2027-02-19,NZX,SKC,H1 FY27 result (sale process update),inferred
 2027-02-24,ASX,CWP,H1 FY27 result,inferred
 2027-02-25,ASX,HLO,H1 FY27 result,inferred

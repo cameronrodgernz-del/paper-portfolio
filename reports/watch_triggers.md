@@ -16,6 +16,7 @@ No trigger hit.
 | NZX:SKC | NZD 0.635 | 0.69 | 2026-11-06 | +8.7% |  | data/prices/NZX |
 | ASX:CWP | AUD 5.75 | 6.33 | 2026-11-07 | +10.1% |  | ASX company data (last trade at fetch) |
 | NZX:SAN | NZD 6 | 6.65 | 2026-11-06 | +10.8% |  | data/prices/NZX |
+| ASX:AFG | AUD 1.41 | 1.565 | 2026-11-07 | +11.0% |  | ASX company data (last trade at fetch) |
 | ASX:CAA | AUD 11.75 | 13.16 | 2026-11-07 | +12.0% |  | ASX company data (last trade at fetch) |
 | ASX:ATA | AUD 0.285 | 0.32 | 2026-11-07 | +12.3% |  | ASX company data (last trade at fetch) |
 | ASX:AD8 | AUD 1.75 | 2.01 | 2026-11-07 | +14.9% |  | ASX company data (last trade at fetch) |
@@ -41,6 +42,7 @@ No trigger hit.
 
 - 2026-11-11: ASX:MYX, Cosette claim: special leave deadline (announced)
 - 2026-11-11: ASX:STP, annual meeting (first read on 1H revenue) (announced)
+- 2026-11-12: ASX:AFG, warehouse facility falls due (renewal terms) (announced)
 - 2026-11-12: ASX:PAC, strategic review update at or before the AGM (announced)
 - 2026-11-13: ASX:CAF, annual meeting (whether SEQ sits inside FY27 guidance) (announced)
 - 2026-11-14: ASX:IRI, 1H FY27 trading update (inferred from last year)
