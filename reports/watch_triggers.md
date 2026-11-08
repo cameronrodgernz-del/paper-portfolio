@@ -35,6 +35,7 @@ No trigger hit.
 | ASX:AWJ | AUD 0.2 | 0.235 | 2026-11-07 | +17.5% |  | ASX company data (last trade at fetch) |
 | NZX:ARG | NZD 0.88 | 1.035 | 2026-11-06 | +17.6% |  | data/prices/NZX |
 | NZX:SPG | NZD 0.94 | 1.11 | 2026-11-06 | +18.1% |  | data/prices/NZX |
+| ASX:FEX | AUD 0.165 | 0.195 | 2026-11-07 | +18.2% |  | ASX company data (last trade at fetch) |
 | ASX:RKN | AUD 0.33 | 0.395 | 2026-11-07 | +19.7% |  | ASX company data (last trade at fetch) |
 | NZX:IPL | NZD 0.84 | 1.01 | 2026-11-06 | +20.2% |  | data/prices/NZX |
 | ASX:STP | AUD 0.11 | 0.135 | 2026-11-07 | +22.7% |  | ASX company data (last trade at fetch) |
