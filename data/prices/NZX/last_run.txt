@@ -1,3 +1,6 @@
-run 2026-11-08 00:41 UTC, 0 requests
-
+run 2026-11-08 07:18 UTC, 3 requests
+asking again for thin days: 2026-11-02, 2026-11-03, 2026-11-04
+2026-11-02: 148 shares
+2026-11-03: 143 shares
+2026-11-04: 148 shares
 no problems
