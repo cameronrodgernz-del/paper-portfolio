@@ -24,6 +24,7 @@ date,market,ticker,event,date_basis
 2026-11-26,ASX,MXI,AGM,announced
 2026-11-26,NZX,SCT,annual meeting,announced
 2026-12-03,NZX,DGL,AGM,announced
+2026-12-15,NZX,SKC,Grand Hotel sale settles,inferred
 2026-12-16,ASX,CAA,windows and doors anti-dumping recommendation due,announced
 2026-12-16,NZX,SAN,annual meeting,announced
 2026-12-18,ASX,CAA,buyback ends,announced
@@ -34,6 +35,7 @@ date,market,ticker,event,date_basis
 2027-01-30,ASX,FML,December quarterly,inferred
 2027-02-05,ASX,TRJ,1H trading update,inferred
 2027-02-10,ASX,RKN,FY26 result,inferred
+2027-02-19,NZX,SKC,H1 FY27 result (sale process update),inferred
 2027-02-24,ASX,CWP,H1 FY27 result,inferred
 2027-02-25,ASX,HLO,H1 FY27 result,inferred
 2027-02-26,ASX,AIM,1H FY27 result,inferred
