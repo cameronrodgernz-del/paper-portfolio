@@ -6,7 +6,7 @@ Written 8 November 2026 by the research desk, and kept up to date as the researc
 
 - **Nothing bought, and no card written.** No company has passed every test yet. The research sleeve's 10% sits in cash, earning the cash rate.
 - Since 1 November the desk has screened both exchanges, ranked what was left, and written fact sheets, deep dives and red team reviews from the filings. The counts at the top of this page come from the index and update each night.
-- **The watch list holds about 30 shares**, each with a price that would send it back to the desk and the conditions that must still hold, plus about 50 dated events to March 2027 (results, meetings, regulator decisions) that could reopen one. The evening desk checks both every weeknight and tells Cam only when a share is reopened.
+- **The watch list holds more than 30 shares**, each with a price that would send it back to the desk and the conditions that must still hold, plus about 50 dated events to March 2027 (results, meetings, regulator decisions) that could reopen one. The evening desk checks both every weeknight and tells Cam only when a share is reopened.
 - **Seven A-grade fact sheets had never had a deep dive.** All seven were done on 8 November and none makes a card. Kinatico and Audinate are no case; Autosports, Australian Finance Group, G8 Education, Radius Care and Serko wait for an event, and each has a watch list trigger. Radius reports on 11 November, Serko on 16 November and Autosports holds its AGM on 20 November.
 
 ## How a company gets bought
