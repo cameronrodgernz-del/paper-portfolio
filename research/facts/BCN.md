@@ -45,7 +45,7 @@ Changes this year:
 - 17 Jul 2026: September quarter 5,000 to 6,000oz. Delivered 6,250oz [11][8].
 - Jaurdi mill expansion (A$11.5m): on budget; wet commissioning began 13 Oct 2026, ahead of the November schedule, with early rates of 1.2 Mtpa [2].
 
-Record over the last two years (quarterly guidance against production): December 2024 quarter 6,500oz, made 6,861oz; March 2025 7,000 to 8,000oz, made 6,183oz; June 2025 6,800 to 8,000oz, made 7,365oz; September 2025 6,800 to 8,000oz, made 6,884oz; December 2025 6,800 to 7,500oz, made 7,310oz; March 2026 missed the first range and met the cut one [12][13][9][7]. Two misses in seven quarters, one beat.
+Record over the last two years (quarterly guidance against production): December 2024 quarter 6,500oz, made 6,861oz; March 2025 7,000 to 8,000oz, made 6,183oz; June 2025 6,800 to 8,000oz, made 7,365oz; September 2025 6,800 to 8,000oz, made 6,884oz; December 2025 6,800 to 7,500oz, made 7,310oz; March 2026 missed the first range and met the cut one; June 2026 within range; September 2026 above it [12][13][9][7][8]. Over the eight quarters: two misses, two beats, four within range.
 
 ## 4. Who owns it and who is moving
 Holders at 29 Sep 2026 [1]: Colin Petroulas 27,233,014 directly plus 766,986 (substantial holding 27,060,000, 23.26%), Greenhill superfund 7,448,917 (6.40%), Oceanic Capital 6,607,744 (also 28.19% of the listed options), Lamerton (McGarry) 5,200,891 and 4,801,679, Graham McGarry 4,155,798, Citicorp Nominees 2,229,530, Iluska and Alina Luce (McGarry) 1,707,500 each. McGarry's substantial holding is 17,986,439 (15.46%). Top 20 hold 60.80%; 2,991 holders.
