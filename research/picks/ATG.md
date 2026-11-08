@@ -71,7 +71,9 @@ The sales decline has slowed to about 1% to 2% in constant currency, but in the 
 | Net owed to others | 42.9 | 74.2 | 45.7 |
 | Free cash | (14.5) | (2.8) | (5.2) |
 
-So all of the A$40.5m, and A$5.2m more, is money collected for others and not yet passed on. Free cash rose by A$9.3m in FY26, close to the A$10.1m underlying cash flow less the buy-back, the acquisition and the share tax: that is the real cash the business made. The board itself calls the A$40.5m "flexibility" and the going-concern note lists the artists' balances, prepaid orders, leases and leave as reasons the A$7.5m shortfall of current assets doesn't matter [A1 note 1]. There are no borrowings and no bank facility; bank guarantees of A$0.9m and A$0.5m secure office leases [A1 notes 22 and 23]. The float is permanent while sales hold, and it shrinks if they fall: the June cash was A$89.1m in FY22.
+So all of the A$40.5m, and A$5.2m more, is money collected for others and not yet passed on. Free cash rose by A$9.3m in FY26, in the same range as the company's A$10.1m underlying cash flow: that is the real cash the business made. The company calls the A$40.5m "flexibility for future growth" [A2], and its going-concern note lists the artists' balances, prepaid orders, leases and leave as reasons the A$7.5m shortfall of current assets doesn't matter [A1 note 1]. There are no borrowings and no bank facility; bank guarantees of A$0.9m and A$0.5m secure office leases [A1 notes 22 and 23]. The float is permanent while sales hold, and it shrinks if they fall: the June cash was A$89.1m in FY22.
+
+**Claims and commitments.** There are current lawsuits against the group, mostly in the US, alleging intellectual property infringement or breaches of consumer law; no amount is provided for and the company says it can't tell whether any money will flow [A1 notes 22(d) and 23(b)]. Unrecognised commitments to technology and software providers were A$5.2m (parent) and A$2.8m (rest of the group) [A1 notes 22(b) and 23(a)].
 
 **Shares and dilution.** 291,575,014 shares on 29 July 2026; 2,100,000 new shares issued to the employee share trust on 3 September 2026 (293,675,014) [A14]; 293,437,642 now [M1]. The buy-back has bought 2,866,117 shares since October 2025 [A15], A$0.60m of it in FY26 [A1], so it has roughly offset the September issue. Unquoted: 12,853,547 restricted stock units, 4,007,941 options (average exercise price A$0.14), and 14,525,142 share appreciation rights with an average base price of A$0.58, worth nothing below that [A14][A1 note 24]. About A$0.79m of new appreciation rights are to be granted in about December 2026 [A13]. Share-based pay was A$5.1m in FY25 and A$1.9m in FY26; below executive level the plan has moved to a cash profit share [A12].
 
@@ -86,7 +88,7 @@ So all of the A$40.5m, and A$5.2m more, is money collected for others and not ye
 
 **Cash.** Free cash was minus A$5.2m at 30 June 2026 (table above). The float stays while sales hold, so it isn't worthless to holders, but it can't be paid out without leaving the company short at a weak moment, with no facility to fall back on. I count the A$40.5m less a A$15m working buffer (about two weeks of payments to printers and artists, A$8.7m, plus a month of operating costs, A$7.1m [A1 cash flow and Table 1]), and I put the float into the cash flows: if sales shrink at 2% a year the float shrinks with them, costing A$45.7m x 0.02 / 0.13 = A$7.0m in today's money; if they grow 3% a year it adds A$45.7m x 0.03 / 0.08 = A$17.1m. Counting only free cash would take about A$0.10 a share off every value below; counting all A$40.5m would add about A$0.05.
 
-**Method 1: discounted cash flow.** Value at 1 July 2026 = after-tax cash earnings / (11% less growth) + cash less buffer, less float run-off or plus float build; then carried forward eight months at 11% to the resolve date. 11% is my cost of equity for a small, seasonal, US consumer business with shrinking sales; it is between the rates the two peers' prices imply (about 13% for hipages and 9.5% for Kogan, with 5% growth). Arithmetic in python3 -I (scratchpad atg_calc/val.py):
+**Method 1: discounted cash flow.** Value at 1 July 2026 = after-tax cash earnings / (11% less growth) + cash less buffer, less float run-off or plus float build; then carried forward eight months at 11% to the resolve date. 11% is my cost of equity for a small, seasonal, US consumer business with shrinking sales; it is between the rates the two peers' prices imply (about 13% for hipages and 9.5% for Kogan, taking 5% growth and tax at 10% and 30%). Arithmetic in python3 -I (scratchpad atg_calc/val.py):
 
 | Case | FY27 operating EBITDA | Growth after FY27 | Cash earnings, after tax | Business value | Cash counted | Equity, March 2027 | A$ a share |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -94,7 +96,7 @@ So all of the A$40.5m, and A$5.2m more, is money collected for others and not ye
 | Middling | A$19.5m | nil | 9.37 | 85.2 | 25.5 | 118.8 | 0.385 (0.362 at 12%, 0.412 at 10%) |
 | Good | A$23.0m | +3% a year | 12.52 | 156.5 | 42.6 | 213.7 | 0.692 |
 
-The input that moves it most is growth after FY27: each point of growth moves the middling value by about A$0.04 a share.
+The input that moves it most is growth after FY27: each point of growth moves the middling value by about A$0.04 to A$0.05 a share.
 
 **Method 2: listed peers, like for like.** The fact sheet's peers, re-worked from their FY26 accounts on the same basis as Articore (EBITDA after share-based pay, less development, equipment and lease payments) and at the 6 November prices [P1][P2][M1]:
 
@@ -144,7 +146,7 @@ That is 3.9% to 6.4%; I use 5.0%. Expected return after costs: about -4.7%. The 
 Sensitivity: at 25%, 50%, 25% the expected price is A$0.388 and the return after costs about -0.3%; it takes 20%, 50%, 30% (A$0.404, +4.2%) to clear the minimum, more hopeful than the June quarter allows. On my central chances the case clears at A$0.346 or lower: A$0.371 / (1 + 5.0% + 2.3%).
 
 ## Dated events
-- About 15 to 30 January 2027: the December quarter trading update (2QFY27). In January 2025 and January 2026 it gave marketplace revenue, gross profit and GPAPA for the quarter and the half; March 2026's update also gave constant currency changes [A18][A8][A9]. It can come and go only if the company stops issuing it; it has dropped the September one.
+- About 15 to 30 January 2027: the December quarter trading update (2QFY27). In January 2026 it gave marketplace revenue, gross profit and GPAPA for the quarter and the half; in January 2025, the half's revenue, GPAPA and costs; the March 2026 update also gave constant currency changes [A8][A18][A9]. The risk is that the company stops issuing it, as it did the September one; the half-year result then carries the answer.
 - About 19 to 27 February 2027: the half-year result: operating costs, operating EBITDA, cash and the free cash at 31 December, and any change to guidance. A year earlier free cash at 31 December was minus A$2.8m; on track it should be about plus A$5m this time.
 - Daily: the on-market buy-back, about A$1,000 a day lately [A15]. About December 2026: about A$0.79m of appreciation rights granted [A13].
 - Later: the March quarter update about 7 May 2027; the Frankly Wearing earn-out about November 2027.
