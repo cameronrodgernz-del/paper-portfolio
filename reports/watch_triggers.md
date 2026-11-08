@@ -15,6 +15,7 @@ No trigger hit.
 | ASX:HLO | AUD 1.3 | 1.355 | 2026-11-07 | +4.2% | near | ASX company data (last trade at fetch) |
 | NZX:KMD | NZD 2 | 2.1 | 2026-11-06 | +5.0% |  | data/prices/NZX |
 | NZX:ERD | NZD 0.75 | 0.79 | 2026-11-06 | +5.3% |  | data/prices/NZX |
+| ASX:GDI | AUD 0.605 | 0.64 | 2026-11-07 | +5.8% |  | ASX company data (last trade at fetch) |
 | ASX:DSK | AUD 0.68 | 0.72 | 2026-11-07 | +5.9% |  | ASX company data (last trade at fetch) |
 | NZX:RAD | NZD 0.39 | 0.415 | 2026-11-06 | +6.4% |  | data/prices/NZX |
 | ASX:HUM | AUD 0.45 | 0.48 | 2026-11-07 | +6.7% |  | ASX company data (last trade at fetch) |
@@ -78,7 +79,7 @@ No trigger hit.
 - 2026-11-16: NZX:PGW, Elders FY26 result (anything on the PGW stake) (announced)
 - 2026-11-16: NZX:SKO, H1 FY27 result and guidance revision (Booking.com terms, FY28 spend) (announced)
 - 2026-11-17: NZX:SAN, FY26 result and notice of meeting (Umios nominee?) (announced)
-- 2026-11-18: ASX:EML, AGM (guidance, first-quarter trading) (announced)
+- 2026-11-18: ASX:EML, AGM (guidance; first-quarter underlying EBITDA A$8m or more to keep the case alive, red team 8 Nov) (announced)
 - 2026-11-18: ASX:HLO, Helloworld can creep in Webjet without a bid (inferred from its 19% crossing date)
 - 2026-11-18: ASX:WJL, half-year result (announced)
 - 2026-11-18: NZX:ARG, interim result (announced)
