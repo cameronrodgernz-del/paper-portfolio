@@ -16,7 +16,7 @@ Autosports Group sells and services prestige and luxury cars: more than 90 busin
 
 Where the money comes from in FY26 (to 30 June 2026) [A4, p. 12]: new cars A$1,819m (57% of revenue), used cars A$771m, other front-end income A$81m, service A$223m and parts A$292m. Revenue was A$3,186.4m and gross profit A$589.7m (18.5%). The back end (service and parts) grew 19% and is the steady part.
 
-Who runs it: Nick Pagent is CEO, Aaron Murray CFO, Peter O'Connell chairs the board; Ian Pagent (Nick's father, the founder) is a non-executive director [A1].
+Who runs it: Nick Pagent is CEO, Aaron Murray CFO, Peter O'Connell chairs the board; Ian Pagent is a non-executive director [A1].
 
 Who owns it: Ian and Nick Pagent and their entities hold 105,626,489 shares, 49.49% [A21]. Their holding companies (Sastempo 10.42%, JIP Parramatta 10.17%, Livist 7.26%, Audi Parramatta Holdings 7.19%, NIP Parramatta 4.88%, Pagent Family Investments 3.38% and others) fill most of the top of the register. Other substantial holders: Lennox Capital Partners 5.25% and OC Funds Management 5.02%. David Smoker, the Solitaire vendor, holds 3.40% and Fasan Pty Ltd, holding exactly the 3,108,532 shares issued for Barry Bourke Motors, 1.46%. The top 20 hold 85.85% and there are only 1,821 holders [A1, shareholder information].
 
@@ -29,14 +29,14 @@ Five years [A4, A11; Norgate for prices]:
 | Statutory profit to owners (A$m) | | 65.4 | 60.9 | 32.9 | 25.7 |
 | Dividends (cents) | | | | 8.0 | 8.0 |
 
-Margins are the company's own normalised series [A11, FY25 presentation p. 9; A4, p. 12]; statutory profit from the ASX company data income statements. The long-run average normalised profit margin the company quotes (FY17 to FY25) is 3.0%, and the pre-shortage years FY17 to FY20 ran at 1.4% to 2.9% [A11]. The shares were A$2.20 at the FY24 result, A$3.33 at the FY25 result, peaked at about A$4.60 to A$4.70 in late 2025, were A$3.83 at the end of January 2026, A$1.47 at the end of August and A$1.00 on 30 October (Norgate; ASX 52-week high A$4.70).
+Margins are the company's own normalised series [A11, FY25 presentation p. 9; A4, p. 12]; statutory profit from the ASX company data income statements. The long-run average normalised profit margin the company quotes (FY17 to FY25) is 3.0%, and the pre-shortage years FY17 to FY20 ran at 1.4% to 2.9% [A11]. The shares closed August 2024 at A$2.20 and August 2025 at A$3.33, peaked at about A$4.60 to A$4.70 in late 2025, were A$3.83 at the end of January 2026, A$1.47 at the end of August and A$1.00 on 30 October (Norgate; ASX 52-week high A$4.70).
 
 ## Why big investors may be overlooking it
 - Index: not in the S&P/ASX 300, and never has been on Norgate's membership history (data/norgate/index_members.csv). It wasn't touched in the September 2026 rebalance [S2].
 - Size and register: A$235m market value with 49.5% held by the founding family and 85.85% by the top 20, so the free float is about A$100m.
 - Trading: A$388,724 a day (median, 20 sessions to 30 October; Norgate), enough for small funds.
 - Coverage: this is not an uncovered stock. FNArena (a secondary source) lists five brokers: UBS, Macquarie, Canaccord Genuity, Jarden and Moelis. Jarden cut its target to A$2.55 on 25 August 2026 and Macquarie kept A$2.50 on 21 August; FNArena's FY27 consensus is 19.3 cents of earnings a share and 9.5 cents of dividends [S1]. Those figures predate the September and November rate rises.
-- Sector and history: the share has fallen about 77% from its late-2025 peak, after the June profit warning (implying a second half about half the first) and a 32% slide between the August result and the end of October.
+- Sector and history: the share has fallen about 77% from its late-2025 peak, after the June profit warning (implying a second half about half the first) and a 32% slide from the end of August to the end of October.
 
 So of the usual reasons, size, index and register apply; coverage doesn't. The plainer reason it is cheap is visible: a levered business whose second half halved while rates rose five times in nine months.
 
@@ -74,7 +74,7 @@ Both, and they show in different lines.
 - For H1 FY27 alone (July to December 2026, cash rate average 4.56%): about A$38m of interest, against about A$25m in H1 FY26.
 
 ### The order bank and the market
-- The June update: BEVs were about 15% of ASG's orders before March 2026 and over 40% in April; the delivery imbalance was "expected to begin unwinding towards the end of Q1 FY27" [A8]. The August result moved that to "H2 FY27 on arrival of new European luxury electric vehicle products" [A2, A4]. The annual report's review still says the cost pressure should "normalise towards the end of Q1 FY27" [A1, p. 6], so the two statements now differ.
+- The June update: BEVs were about 15% of ASG's orders before March 2026 and over 40% in April; the delivery imbalance was "expected to begin unwinding towards the end of Q1 FY27" [A8]. The August result moved that to "H2 FY27 on arrival of new European luxury electric vehicle products" [A2, A4]. The annual report's review, released the same morning, still says the cost pressure should "normalise towards the end of Q1 FY27" [A1, review of operations], so the two statements now differ.
 - The European products named: nine BMW Neue Klasse models over 24 months, five Mercedes-Benz EVs (new CLA, GLC, GLE), five Audi models [A4, p. 25]. The order bank depends on their arrival, and an order is not a sale: buyers waiting months can cancel when Chinese brands have stock now.
 - "BEV and ICE unit economics similar" (May 2026 [A10]), so a delivery delay moves profit in time rather than cutting it, if the orders hold.
 - The market: August 2026 sales 100,939, up 0.4% on a year earlier, BEVs 24.9% of all sources (FCAI [F1]); October 2026 103,325, up 3.8%, BEVs 23.1% against 7.3% a year earlier, China 36.3% of VFACTS (CarSauce, a secondary source citing FCAI [F2]). The shift to electric has held at about a quarter of sales, which supports the order bank being real demand. No luxury segment figure was in either release.
@@ -87,12 +87,12 @@ Both, and they show in different lines.
 
 ### Corporate debt, covenants and goodwill
 - Syndicated facility A$435m after the June amendment (A$335m in facilities 1 and 2, now four years; A$100m facility 3, five years); A$320.0m drawn; A$70.0m undrawn at June per the going concern note (the presentation says A$85.0m) [A9, A1 note 2, A4 p. 17]. The A$16.2m Phillip site in Canberra was bought on 1 October 2026 from these facilities [A15], so headroom is now about A$53m plus cash.
-- Covenants: a net leverage ratio and a fixed charge cover ratio, tested every half-year, with the loans repayable immediately on a breach; the June amendment "improves certain financial covenant terms" [A1, note 18]. The thresholds and definitions are not disclosed. The company's net debt to EBITDA (EBITDA before floorplan interest) was 2.17 times, "expected to return below 2x in FY27" [A4, p. 17]. On EBITDA after floorplan interest, the money that actually services the corporate debt, it was 3.1 times on FY26 and about 3.8 times on the H2 rate.
+- Covenants: a net leverage ratio and a fixed charge cover ratio, tested every half-year, with the loans repayable immediately on a breach; the June amendment "improves certain financial covenant terms" [A1, note 18]. The thresholds and definitions are not disclosed. The company's net debt to EBITDA (EBITDA before floorplan interest) was 2.17 times, "expected to return below 2x in FY27" [A4, p. 17]. On EBITDA after floorplan interest, the money that actually services the corporate debt, it was 3.1 times on FY26 and about 3.6 times on the H2 rate (estimated, since floorplan interest isn't split by half).
 - Current liabilities exceed current assets by A$192.5m because floorplan is all current; the directors rely on forecasts to 31 August 2027 and "the continuing support of its financiers" [A1, note 2]. The audit opinion is unmodified [A1].
 - Goodwill A$671.6m. The impairment test uses an 11.2% post-tax discount rate, 2% terminal growth and 31.3% new car revenue growth in FY27; a fall of about 60 basis points in the EBITDA margin would use up all the headroom [A1, note 15]. H2 FY26's margin (3.77%) was 42 basis points below the full year's. A write-down at the half year is possible in the bad case. It wouldn't touch cash, but it would be a large statutory loss.
 
 ### Cash earnings and the dividend
-- Normalised profit is close to cash earnings: rent is already a cost, acquisition amortisation (A$4.3m) is not cash, and depreciation outside leases (A$20.1m) is close to running capital spending (FY26 A$43.0m including A$18.8m of land and buildings; FY27 plan A$27m to A$30m including Phillip [A1, note 12; A4, p. 18]). The A$4.3m of acquisition and restructure costs recur (A$3.6m in FY25), so I deduct them.
+- Normalised profit is close to cash earnings: rent is already a cost, acquisition amortisation (A$4.3m) is not cash, and depreciation outside leases (A$20.1m) is close to running capital spending (FY26 A$43.0m including the A$17.6m Nerang Street site; FY27 plan A$27m to A$30m including Phillip [A1, cash flow; A4, pp. 18 and 26]). The A$4.3m of acquisition and restructure costs recur (A$3.6m in FY25), so I deduct them.
 - FY26 cash: operating cash flow A$59.2m includes A$113.4m of new floorplan; receivables rose A$65.5m and stock A$86.2m [A1, cash flow]. After lease principal (A$38.7m) and capital spending (A$43.0m) it was about minus A$22.5m, before A$50.7m of acquisitions and A$19.8m of dividends. Corporate net debt rose A$93.4m, to A$290.1m [A4, p. 17]. So the FY26 dividend was paid from borrowing in a heavy investment year; the A$65.5m of receivables should partly come back.
 - Committed since June: Phillip A$16.2m plus stamp duty (paid 1 October) [A15]; the 3.0c final dividend, A$6.4m, paid 16 November [A17]; the Grand Motors purchase (Mercedes-Benz Parramatta and Castle Hill, Chery Castle Hill), price not disclosed, completion targeted for February 2027 subject to the ACCC [A14]. I use corporate net debt of A$305m for the valuation.
 - Dividend policy 55% to 70% of profit after tax [A11, FY25 presentation p. 12]. The interim goes ex in mid-May (14 May 2026 last year [A18]), after a March resolve date.
@@ -100,19 +100,19 @@ Both, and they show in different lines.
 ### Property: the Peter Warren lesson
 Peter Warren's property looked like hidden value until its rent was checked [PWR.md]. Autosports is the other way round:
 - Seven owner-occupied sites (Macgregor, Waitara, Brighton, Bundoora, Alexandria, Fortitude Valley, Southport Nerang Street) are carried at cost, A$230.2m after depreciation [A1, note 12]; independent valuations in June 2025 put them at A$263.8m, A$33.6m above book [A4, p. 17]. Phillip (A$16.2m) makes eight.
-- There is no internal rent to test, because the company reports one segment [A1, note 3]. The point is that the dealerships on owned sites pay no rent, so their earnings already carry the property. Adding the property on top of an earnings value would count it twice.
+- There is no internal rent to test, because the company reports one segment, motor vehicle retailing [A1, segment note; A6, note 3]. The point is that the dealerships on owned sites pay no rent, so their earnings already carry the property. Adding the property on top of an earnings value would count it twice.
 - Would a sale and leaseback release value? At A$280m and a 6% yield the rent would be about A$16.8m a year; the debt repaid at about 7.3% would save about A$20.4m of interest. That is a gain of about A$3.6m a year before tax, about 1.2 cents a share after tax: small. The property doesn't cover the corporate debt (A$321.3m gross) the way Warwick Farm does at Peter Warren.
-- The family is also a landlord: A$7.9m a year of rent goes to six Pagent-owned properties (Five Dock, Castle Hill, Brookvale, Parramatta, Leichhardt, Toowong and Artarmon), "on normal commercial terms" [A1, related parties]. That income doesn't depend on the dealerships' profit.
+- The family is also a landlord: A$7.9m a year of rent goes to six Pagent-owned property companies for sites in Five Dock, Castle Hill, Brookvale, Parramatta, Leichhardt, Toowong and Artarmon, "on normal commercial terms" [A1, related parties]. That income doesn't depend on the dealerships' profit.
 
 ### Who owns it and who is moving
 - The family's net selling is bigger than its buying. Ian Pagent sold 2,000,000 shares on market at A$3.50 on 12 September 2025 (A$7.0m) [A21]. Since then the family has bought about 180,000 shares for about A$0.30m: 30,000 at A$2.55 in March 2026, 50,000 at A$1.49 to A$1.50 on 21 to 25 August and 100,000 at A$1.45 to A$1.63 from 28 August to 1 September 2026 [A1 KMP table; A21]. The buying is a gesture, not a build-up.
 - The family sits at 49.49%, just under half. It could creep 3 points in six months without a bid, but nothing suggests a bid: it sold at A$3.50 last year, and the CEO's interest is in the performance rights (436,652 for FY26 at 100% of the maximum short-term award, A$657,000, to be voted on at the AGM [A13]).
-- Substantial holders: Wilson Asset Management left on 2 April 2026; Lennox and Challenger (5.04%), Dai-ichi Life entities (5.12%, which I take to be the same holding through Challenger) and Copia (OC Funds) arrived in April to June [fact sheet section 4]. No substantial holder notice has been lodged since 5 June 2026 [A23], so whoever sold the share down from A$1.47 to A$1.00 holds less than 5% or moved by less than 1 point.
+- Substantial holders: Wilson Asset Management lodged a ceasing notice on 7 April 2026; Lennox and Challenger lodged on 14 April, Dai-ichi Life entities on 19 May and Copia (OC Funds) on 5 June [A23]. The annual report lists only Lennox (5.25%) and OC Funds (5.02%) beside the family [A1], so the Dai-ichi notice is probably the same holding through Challenger. No substantial holder notice has been lodged since 5 June 2026 [A23], so whoever sold the share down from A$1.47 to A$1.00 holds less than 5% or moved by less than 1 point.
 - Vendors paid in shares are under water: Barry Bourke's 3,108,532 shares were issued at A$3.90 and Solitaire's 7,234,139 at A$2.42 [A1, note 29; A19]. No escrow is mentioned in the announcements I read.
 - No cash raising in two years; only shares issued to vendors.
 
 ### Guidance and the record
-- November 2024 AGM: H1 FY25 normalised profit "approximately $28 million"; cut to A$20m on 29 January 2025 [A24]. A miss of 29% on an AGM figure.
+- 22 November 2024 AGM: H1 FY25 normalised profit "approximately $28 million" [A25]; cut to A$20m on 29 January 2025 [A24]. A miss of 29% on an AGM figure.
 - November 2025 AGM: H1 FY26 A$35m to A$36m [A12]; delivered A$35.3m [A5].
 - February 2026: "consistent and profitable growth" [A5]. May 2026: order bank at a record, nothing on profit [A10].
 - 29 June 2026: FY26 A$51m to A$54m, which implied H2 of A$15.7m to A$18.7m [A8]; delivered A$53.5m.
@@ -133,7 +133,7 @@ Peter Warren's property looked like hidden value until its rent was checked [PWR
 Shares 213.4m. Corporate net debt A$305m (A$290.1m at June, plus Phillip with duty about A$17m and the A$6.4m final dividend, less about A$8m of cash earned since June). Floorplan is treated as an operating cost (its interest is deducted from earnings, and the stock it funds is not counted as an asset). Leases are not deducted, because rent is a cost in the normalised earnings. Tax 30%. Minorities are negligible [A1, note 30]. Arithmetic in python3 -I (scratchpad asg_calc2.py).
 
 ### FY27 earnings in three cases, at today's rates
-Revenue starts from FY26's A$3,186m plus about A$330m for a full year of the FY26 acquisitions (Solitaire about A$300m a year [A19], three months in FY26; Barry Bourke about A$200m, the rest of the "about A$500m combined" [A4, p. 23], six and a half months in FY26; the two Canberra businesses about A$60m [A7, p. 11]), about A$60m from the five new sites and less about A$20m of brands dropped. The Grand Motors dealerships are left out (price and earnings undisclosed).
+Revenue starts from FY26's A$3,186m plus about A$330m for a full year of the FY26 acquisitions (Solitaire about A$300m a year [A19], three months in FY26; Barry Bourke about A$200m, the rest of the "about A$500m combined" [A4, p. 23], six and a half months in FY26; the two Canberra businesses about A$60m, the A$260m a year the H1 deck gives for its three acquisitions [A7, p. 11] less Barry Bourke), about A$60m from the five new sites (Mercedes-Benz Southport, two Omoda Jaecoo, two XPENG [A2]) and less about A$20m of brands dropped. These are my estimates from the company's round numbers. The Grand Motors dealerships are left out (price and earnings undisclosed).
 
 | A$m | Bad: H2 FY26 is the level | Middle: FY26 margins, order bank converts in H2 FY27 | Good: H1 FY26 margins and a strong conversion |
 | --- | --- | --- | --- |
@@ -151,14 +151,14 @@ Revenue starts from FY26's A$3,186m plus about A$330m for a full year of the FY2
 The middle case is FY27 at about FY26's profit: the acquisitions and the order bank pay for about A$18m more interest, and no more. The good case needs margins back at H1 FY26's level on 19% more revenue.
 
 ### Method 1: price to earnings against peers
-Eight times, for all three cases. Evidence: Autosports itself traded at 8.0 times its FY23 profit at the August 2023 result and 7.3 times FY24's at the August 2024 result (Norgate prices; ASX company data profits); MotorCycle Holdings, the other small listed dealer, is at 8.8 times trailing profit; Eagers Automotive, the large leader, at 19.1 times; Peter Warren at 18.4 times trailing statutory profit, which is depressed [E1].
+Eight times, for all three cases. Evidence: Autosports itself traded at about 8.0 times its FY23 profit at the end of August 2023 and about 7.3 times FY24's at the end of August 2024 (Norgate month-end prices; ASX company data profits; about 201m shares); MotorCycle Holdings, the other small listed dealer, is at 8.8 times trailing profit; Eagers Automotive, the large leader, at 19.1 times; Peter Warren at 18.4 times trailing statutory profit, which is depressed [E1].
 - Bad: 8 x A$16.0m = A$128m, A$0.60 a share.
 - Middle: 8 x A$33.6m = A$269m, A$1.26.
 - Good: 8 x A$51.2m = A$410m, A$1.92.
 At 7 times: A$0.52, A$1.10, A$1.68. At 10 times: A$0.75, A$1.57, A$2.40.
 
 ### Method 2: enterprise value on corporate EBITDA, against Peter Warren
-Corporate EBITDA is EBITDA after rent and after floorplan interest: what is left to pay the corporate debt, tax and owners. Peter Warren at A$0.68 (6 November [E1]): FY26 underlying EBITDA A$97.6m less A$37.6m of lease payments and A$24.5m of floorplan interest is A$35.5m; net debt A$47.4m at June [P1, pp. 22 and 28]. Leaving its A$28m Wakeling purchase [P2] out of both sides, it is valued at 4.7 times FY26; on its H2 FY26 rate, about 6.5 times. I use 5.5 times.
+Corporate EBITDA is EBITDA after rent and after floorplan interest: what is left to pay the corporate debt, tax and owners. Peter Warren at A$0.68 (6 November [E1]): FY26 underlying EBITDA A$97.6m less A$37.6m of lease payments and A$24.5m of floorplan interest is A$35.5m; net debt A$47.4m at June [P1, pp. 22 and 28]. With its A$1.0m final dividend added to net debt and its A$28m Wakeling purchase [P2] left out of both sides, it is valued at 4.7 times FY26, a poor year; counting Wakeling's cost but none of its profit, 5.5 times. I use 5.5 times.
 - Bad: 5.5 x A$78.4m = A$431m, less A$305m, A$0.59 a share.
 - Middle: 5.5 x A$102.3m = A$563m, less A$305m, A$1.21.
 - Good: 5.5 x A$126.7m = A$697m, less A$305m, A$1.84.
@@ -174,12 +174,12 @@ Midpoint of methods 1 and 2: bad A$0.60, middle A$1.23, good A$1.88.
 - The single input that moves the answer most is the EBITDA margin: 0.1 point on A$3.6bn is A$3.6m before tax, about 9 to 12 cents a share. Next is the cash rate: 25 basis points is about A$2.8m, about 7 to 8 cents.
 
 ### The fact sheet's anchors retested
-- "Our way", A$1.74: H1 FY26 doubled (A$70.6m) was earned at a 3.66% cash rate on about A$930m of average floorplan and corporate debt, with the best gross margin since FY24. At today's rates and balances the same half doubled would make about A$52m, so A$70.6m is only reachable in my good case (A$77.4m on a much larger business). The fact sheet's own A$1.74 sits next to my good case value, A$1.88.
+- "Our way", A$1.74: H1 FY26 doubled (A$70.6m) was earned at a 3.66% cash rate on about A$930m of average floorplan and corporate debt, with the best gross margin since FY24. The same business at FY27's 4.70% average cash rate would pay about A$9.6m more a year on that debt, about A$61m; and the business now carries about A$200m more floorplan and corporate debt. So A$70.6m is only reachable in my good case (A$77.4m on a much larger business). The fact sheet's own A$1.74 sits next to my good case value, A$1.88.
 - The mechanism inside the window: the H1 FY27 result (about 19 February 2027) will show a fall on H1 FY26 under any plausible case, because interest alone is about A$13m higher in the half (H1 FY27 profit about A$19m at a 3.8% margin, A$26m at 4.2%, A$34m at 4.65%). The recovery the case needs is in January to June 2027, reported in August 2027. So within six months the market sees the bad-looking half and management's word about the next one.
 - "Against us", A$0.84: H2 FY26 doubled is also too high at today's rates. Adding a full year of acquisitions and taking off the extra interest gives about A$27m to A$35m, A$0.60 a share on my methods.
 
 ## Why the market is wrong
-I can't say it is at A$1.10. The price values the business at about A$540m including corporate debt, 5.7 times its FY26 corporate EBITDA; at 8 times profit it implies about A$46m of normalised profit before tax a year, between my bad (A$27m) and middle (A$52m) cases and a little under FY26. My middle value (A$1.23) is 12% above the price, but my methods disagree by 25 cents in that case, and the evidence that would separate the middle from the bad case, a converting order bank, mostly arrives after a six-month window. The brokers' A$2.50 targets need FY27 earnings of 19.3 cents, above my middle case and set before two more rate rises. The market's discount to them looks justified, not wrong.
+I can't say it is at A$1.10. The price values the business at about A$540m including corporate debt, 5.7 times its FY26 corporate EBITDA; at 8 times profit it implies about A$46m of normalised profit before tax a year, between my bad (A$27m) and middle (A$52m) cases and a little under FY26. My middle value (A$1.23) is 12% above the price, but my methods disagree by 25 cents in that case, and the evidence that would separate the middle from the bad case, a converting order bank, mostly arrives after a six-month window. The brokers' A$2.50 targets sit beside a consensus of 19.3 cents of FY27 earnings, above my middle case and set before two more rate rises. The market's discount to them looks justified, not wrong.
 
 ## Outcomes and chances
 Resolve date for this test: 5 March 2027, two weeks after the H1 FY27 result.
@@ -200,7 +200,7 @@ Chances add to 100%. Each price is the midpoint of methods 1 and 2 for that case
 
 ## Dated events
 - 16 November 2026: 3.0c final dividend paid (already ex) [A17].
-- 20 November 2026, 11am AEDT: AGM in Leichhardt [A13]. The 2024 and 2025 AGMs both gave a half-year profit figure [A12, A24], so one is likely (inferred), though the 2024 figure was cut by 29% two months later.
+- 20 November 2026, 11am AEDT: AGM in Leichhardt [A13]. The 2024 and 2025 AGMs both gave a half-year profit figure [A25, A12], so one is likely (inferred), though the 2024 figure was cut by 29% two months later [A24].
 - RBA decisions in December 2026 and February 2027: each 25 basis points is about A$2.8m a year to Autosports.
 - 31 December 2026: half-year covenant test [A1, note 18].
 - February 2027: Grand Motors dealerships targeted to complete, subject to the ACCC [A14].
@@ -216,7 +216,7 @@ Reopen conditions (watch trigger A$1.00):
 - The AGM (20 November) gives H1 FY27 normalised profit of A$28m or more and keeps the order bank conversion in H2 FY27 or earlier, with the price at or below A$1.15: rerun the outcomes (about 25%, 50%, 25%; expected about A$1.24) and send to the red team as an ordinary pick resolving 5 March 2027.
 - The price closes at or below A$1.00 and the AGM gives A$20m or more (or no figure) with the timing unchanged: send to the red team as an ordinary pick on the cautious chances.
 - After the H1 result (about 19 February 2027): H1 normalised profit of A$28m or more and January deliveries showing the order bank converting; a new deep dive with a resolve date after the FY27 result.
-- Kill: AGM guidance below A$20m, or the conversion pushed past June 2027. Then the bad case is under way and there is no case above about A$0.75.
+- Kill: AGM guidance below A$20m, or the conversion pushed past June 2027. Then the bad case is under way (about 60%, 35%, 5%; expected about A$0.88) and there is no case above about A$0.83.
 - Value pick: only at A$0.66 or below, where the bad case is within 10% and the middle case 86% above.
 
 Exit rule, if a card is ever written: sell at the next open after an AGM or trading update putting H1 FY27 below A$20m, a further delay to the order bank, a goodwill write-down or a cash raising; otherwise sell on or after the resolve date unless a fresh deep dive renews it.
@@ -273,6 +273,7 @@ Exit rule, if a card is ever written: sell at the next open after an AGM or trad
 - [A21] Change of Director's Interest Notices: Ian Pagent, 16 September 2025 (02995997), 2,000,000 sold at A$3.50 on 12 September 2025: https://announcements.asx.com.au/asxpdf/20250916/pdf/06p9285twvqnyy.pdf ; Ian Pagent, 29 September 2025 (03001916): https://announcements.asx.com.au/asxpdf/20250929/pdf/06ptv9vrb8r520.pdf ; Nicholas Pagent, 2 December 2025 (03035390): https://announcements.asx.com.au/asxpdf/20251202/pdf/06st219p3tpyrp.pdf ; Nicholas Pagent, 27 August 2026 (03131379): https://announcements.asx.com.au/asxpdf/20260827/pdf/073b7l7sxsbl6s.pdf ; Nicholas Pagent, 2 September 2026 (03134860): https://announcements.asx.com.au/asxpdf/20260902/pdf/073mw1xwfqcv9k.pdf
 - [A23] ASX announcements list for ASG, 2026 (nothing lodged after 6 November as at 8 November): https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=ASG&timeframe=Y&year=2026
 - [A24] Trading Update, 29 January 2025 (02907916): https://announcements.asx.com.au/asxpdf/20250129/pdf/06dxj14lz0q8v9.pdf
+- [A25] 2024 Annual General Meeting Addresses, 22 November 2024 (02885494): https://announcements.asx.com.au/asxpdf/20241122/pdf/06bq94gxmfrywg.pdf
 - [P1] Peter Warren, FY26 Results Presentation, 21 August 2026 (03127984), pp. 22 and 28: https://announcements.asx.com.au/asxpdf/20260821/pdf/0730t750zkhhkk.pdf
 - [P2] Peter Warren to acquire Wakeling Automotive (about A$28m from existing debt facilities), 19 December 2025 (03043277): https://announcements.asx.com.au/asxpdf/20251219/pdf/06tjhjmlhl20vy.pdf
 - [PWR.md] research/picks/PWR.md, read for its lessons on property and floorplan; every figure used here was re-checked against [P1] and [P2].

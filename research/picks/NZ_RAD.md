@@ -1,10 +1,10 @@
-# Radius Residential Care (NZX:RAD): deep dive. Wait for the H1 FY27 result on 11 November 2026. Not a value pick: the bad case (NZ$0.315) is 24% below the price and the middling case (NZ$0.42) only 1% above it
+# Radius Residential Care (NZX:RAD): deep dive. Wait for the H1 FY27 result on 11 November 2026. Not a value pick: the bad case (NZ$0.315) is 24% below the price
 
 Written 2026-11-08 by the research desk. Price at writing: NZ$0.415 (close on 6 November 2026, FinFeedAPI, data/prices/NZX/RAD.csv; the NZX instrument data shows the same close, bid NZ$0.400 and offer NZ$0.415 [S13]). Market value: NZ$117.6m (283,467,009 shares on issue, NZX [S13]).
 Status: finished. Verdict: wait for a named event, the H1 FY27 result on 11 November 2026 [S11]. The conditions that reopen or close the case are under "Dated events". This is a simulation and not financial advice.
 Fact sheet: research/facts/NZ_RAD.md, grade A ("only just"). The question it set: is FY26's NZ$27.4m of underlying EBITDA after rent, plus Karori, the real base, or was the first half flattered by resale gains, so that the real rate is nearer the second half's NZ$12.5m a half?
 
-Value pick (rulebook section 5a, from 8 Nov 2026): it doesn't qualify. The bad case (NZ$0.315) is 24% below the price (15% counting the 3.75c of dividends expected by May 2028); the limit is 10%. The middling case at the FY28 result is 8% above the price (17% with dividends); it needs 15%. The bad leg fails either way, because the shares carry NZ$86m of bank debt and NZ$141.5m of lease liabilities ahead of them: a 10% fall in earnings takes about 25% off the equity at a constant multiple.
+Value pick (rulebook section 5a, from 8 Nov 2026): it doesn't qualify. The bad case (NZ$0.315) is 24% below the price (15% counting the 3.75c of dividends expected by May 2028); the limit is 10%. The middling case at the FY28 result is 8% above the price (17% with dividends); it needs 15%. The bad leg fails either way, because the shares carry NZ$86m of bank debt and NZ$141.5m of lease liabilities ahead of them: at 7 times after rent, a 10% fall in earnings takes about 17% off the equity, and half a turn off the multiple another 12%.
 
 Order of work. The brief and the fact sheet both quote the price, so it was in view before I began. The filings section and the valuation take no input from Radius's own share price: they use the filings, peers' filings and prices, and transaction evidence. Radius's price is used only in "Why the market is wrong", "Outcomes and chances" and the checks. Arithmetic was done in python3 -I; the scripts are in the scratchpad, and every figure below is reproduced in the text.
 
@@ -19,7 +19,9 @@ Corrections to the fact sheet, for the red team:
 6. The underlying EBITDA reconciliation removes NZ$1.824m labelled as the investment property revaluation (the income statement shows NZ$1.680m) and adds back NZ$1.824m of realised resale gains; an "other adjustments" line of minus NZ$1.389m then removes the NZ$1.495m reversal of past revaluation losses, net of the NZ$0.144m difference (my reading; the line isn't itemised) [S2, appendix 6]. The net effect matches the fact sheet's description.
 7. The NZ$108.6m of revalued land and buildings includes the Belfast land (NZ$5.5m added in FY26), so the twelve owned care homes at 31 March 2026 were valued at about NZ$103.0m [S1, note 3.2].
 8. Radius is covered: Forsyth Barr publishes research on RAD that the company commissions and pays for (spot valuation NZ$0.54 on 2 April 2026) [X3].
-9. Smaller points. The company now counts five retirement villages: four with residents, and Karori's 14 units, being renovated [S7]. Hokitika's construction is expected to start in early 2027, so only Belfast is under way [S7].
+9. The guidance record has a miss the fact sheet didn't list. At the 1H26 result the company said it "expects 2H26 trading to be broadly consistent with the first half" [S4, page 21]. Second-half underlying EBITDA was NZ$12.46m against NZ$14.92m, 16% lower (8% lower without resale gains).
+10. Windhaven Care Holdings kept selling after it fell below 5% on 3 March 2026 (14,119,320 shares then [S20]): the register at 31 May 2026 shows 8,436,999 registered shares, 2.98% [S6]. Registered and beneficial holdings can differ, but it points to about 5.7m more shares sold in March to May.
+11. Smaller points. The company now counts five retirement villages: four with residents, and Karori's 14 units, being renovated [S7]. Hokitika's construction is expected to start in early 2027, so only Belfast is under way [S7].
 
 > In short: the first half of FY26 was flattered by resale gains (NZ$1.63m of the year's NZ$1.82m fell in it), but the full year wasn't. NZ$1.8m is a normal year for Radius's 148 village units (NZ$1.8m in FY24, NZ$1.5m in FY25), so doubling the second half understates the base. The real weakness in the second half was costs, and that is what the 1H27 result has to answer. My run-rate for the business with Karori is NZ$29.3m of underlying EBITDA after rent (range NZ$27m to NZ$31m in any plausible case). At NZ$0.415 the market pays 7.0 times that, the middle of the 6.3 to 7.5 times it has paid for 17 months, and my earnings-based value is about NZ$0.42 (NZ$0.33 to NZ$0.52). The owned property (independent values of NZ$151m against NZ$86m of bank debt and the put option) would support about NZ$0.49 if it were turned into cash by sale-and-leasebacks or a bid, but nothing in the next six months does that. Bought today and held to the FY27 result (about 14 May 2027), the expected gain is about +2% before costs and about 0% to -1% after them, against a minimum of 3.65%. The 1H27 result is three days away and answers the question directly, so the case waits for it. It reopens if the first half's underlying EBITDA excluding resale gains is NZ$14.7m or more (NZ$13.3m a year earlier) and the price is NZ$0.44 or less; or, on an in-line result, at NZ$0.39 or less as an ordinary pick and NZ$0.35 or less as a value pick. It closes if that figure is below NZ$13.3m.
 
@@ -41,7 +43,7 @@ Five years [S2, pages 5, 12 and 25]:
 | Average occupancy | not read | not read | 91.8% | 92.8% | 94.9% |
 | Cash dividend a share | not read | not read | 0.7c | 1.45c | 2.2c |
 
-Earnings have grown every year since FY23, mostly from higher occupancy, more premium rooms and better margins per bed, not from more beds. A home was sold in FY24, St Allisa (109 beds) was bought in May 2025 and Karori (90 beds) in May 2026.
+Underlying EBITDA has grown every year since listing (profit before tax dipped in FY23), in the last three years mostly from higher occupancy, more premium rooms and better margins per bed rather than from more beds. A home was sold in FY24, St Allisa (109 beds) was bought in May 2025 and Karori (90 beds) in May 2026.
 
 ## Why big investors may be overlooking it
 - Size: a market value of NZ$117.6m. It isn't one of the 20 largest NZX companies (config/nzx_top20.csv); I didn't check NZX 50 membership.
@@ -56,7 +58,7 @@ So it is small and closely held, but it isn't unknown: the price has moved with 
 ## What the filings show
 
 ### The question: the two halves of FY26
-From the half-year and full-year presentations and accounts [S1][S2][S4]; the second half is the full year less the first:
+From the half-year and full-year presentations and accounts [S1][S2][S4][S5]; the second half is the full year less the first:
 
 | NZ$m | 1H26 (Apr to Sep 2025) | 2H26 (Oct 2025 to Mar 2026) | FY26 |
 | --- | --- | --- | --- |
@@ -73,14 +75,15 @@ From the half-year and full-year presentations and accounts [S1][S2][S4]; the se
 
 What it shows:
 - Resale gains are lumpy by half and steady by year. Realised gains were NZ$1.8m in FY24 (28 resales), NZ$1.5m in FY25 (18) and NZ$1.8m in FY26 (18); by first half NZ$1.4m, NZ$0.6m and NZ$1.6m [S2][S4]. The company said second-half gains were lower because little vacant stock was left at 30 September 2025 [S3]. With 148 units and residents staying about five years on average [S2], 15 to 20 resales a year is normal. So FY26 as a whole wasn't flattered; only its first half was. A normal year is about NZ$1.6m, NZ$0.2m below FY26.
-- The second half had a cost problem as well. Employee costs rose 7.7% from the first half to the second while revenue rose 1.8%; employee and other costs together rose 3.5% [S1][S4]. Part of this is seasonal (most public holidays and summer leave fall in October to March, and FY25's second-half wage bill also rose 7.5%), but in FY25 revenue rose 7.8% in the second half and covered it; in FY26 it didn't. Aged care EBITDAR fell NZ$0.4m half on half even with two more months of St Allisa.
+- The second half had a cost problem as well. Employee costs rose 7.7% from the first half to the second while revenue rose 1.8%; employee and other costs together rose 3.5% [S1][S5]. Part of this is seasonal (most public holidays and summer leave fall in October to March, and FY25's second-half wage bill also rose 7.5%), but in FY25 revenue rose 7.8% in the second half and covered it; in FY26 it didn't. Aged care EBITDAR fell NZ$0.4m half on half even with two more months of St Allisa.
+- Management didn't see the second half coming: in November 2025 it said 2H26 trading would be "broadly consistent with the first half" [S4]. It was 16% lower, 8% lower without resale gains. The only dollar guidance in two years (for 1H26: NZ$12m to NZ$15m in June 2025, raised to NZ$14m to NZ$16m in August) was met at NZ$14.9m [S15][S4].
 - The second half's underlying adjustments were clean: minus NZ$1.0m, mostly removing the NZ$1.5m reversal of past revaluation losses, plus NZ$0.35m of non-cash incentive cost added back [S2, appendix 6]. Nothing in them flatters or depresses the half.
 
 So the answer to the fact sheet's question: the base is neither "FY26 plus Karori at Radius's best rate" (NZ$30.0m) nor "the second half doubled plus Karori" (NZ$27.6m). It is FY26 with normal resale gains, the second half's cost level, the occupancy gains since (96.7% at 12 August 2026 against 94.9% for FY26 [S7]) and Karori at a first-year rate: about NZ$29.3m (Valuation). The 1H27 result settles the cost question.
 
 ### Cash earnings and what they are committed to
 - FY26 operating cash flow NZ$25.1m, after NZ$4.6m of bank interest, NZ$6.9m of lease interest and NZ$3.5m of tax; lease principal NZ$2.8m; so NZ$22.3m after all rent [S1][S2, appendix 5]. It includes NZ$2.8m of net village receipts (NZ$7.6m from new residents less NZ$4.8m repaid to outgoing ones).
-- AFFO (the company's cash earnings: underlying EBITDA less bank interest, tax and depreciation on physical assets as a stand-in for maintenance spending) was NZ$12.7m, 4.5c a share; FY26 dividends of 2.2c a share are 49% of it [S2]. Spending on property and equipment other than Belfast land and St Allisa was about NZ$8.4m (NZ$14.4m less NZ$5.5m Belfast and the NZ$0.5m Clare House land), of which some was growth (villas, St Allisa's NZ$0.7m upgrade), so depreciation of NZ$6.0m is a fair proxy for maintenance [S1][S2].
+- AFFO (the company's cash earnings: underlying EBITDA less bank interest, tax and depreciation on physical assets as a stand-in for maintenance spending) was NZ$12.7m, 4.5c a share; FY26 dividends of 2.2c a share are 49% of it [S2]. Spending on property and equipment was NZ$14.4m, of which NZ$5.5m was the Belfast land; the other NZ$8.9m included growth such as St Allisa's NZ$0.7m upgrade, so depreciation on physical assets of NZ$6.0m is a fair stand-in for maintenance [S1][S2].
 - The cash is largely spoken for. The dividend policy aims at double-digit growth in dividends a share; "fixed asset investment associated with new builds will increase growth capex and will be funded from operating cashflow" [S7]. A NZ$15m development facility was added on 25 May 2026 for Belfast [S9]; construction of the 100-bed Belfast care home has begun and Hokitika's 80-bed home is to start in early 2027 [S7]. From August 2026 every new occupation right agreement carries a nine-month buyback clause, so Radius refunds outgoing residents within nine months even if the unit hasn't resold [S7]. Capital commitments were NZ$2.7m at 31 March 2026 [S1].
 
 ### Debt and leases
@@ -105,7 +108,7 @@ So the answer to the fact sheet's question: the base is neither "FY26 plus Karor
 
 ### Holders and dealings
 - Directors and senior managers in the last 12 months [S12]: Bret Jackson (independent director) sold 400,000 shares on 18 May 2026 for NZ$163,592 (40.9c); Tom Wilson (independent director) sold 50,600 shares, the second trade on 20 August 2026, for NZ$23,976 (47.4c); Jeremy Edmonds (CFO) bought 50,000 on market on 27 August 2026 for NZ$23,488 (47.0c). Cree sold 490,921 shares into the company's buyback in December 2025 to stay within the Takeovers Code class exemption [S6].
-- Windhaven Care Holdings fell below 5% on 3 March 2026 after selling on market from November 2025 (fact sheet, notice 468656).
+- Windhaven Care Holdings fell from 5.47% to 4.98% (14,119,320 shares) on 3 March 2026 [S20], and the register at 31 May 2026 shows 8,436,999 registered shares (2.98%) [S6], so it appears to have kept selling.
 - 5 November 2026 was the busiest session in the last 20: 423,691 shares, NZ$165,240, in 44 trades (about 39.0c) [S13]. No holder notice has followed.
 - Capital raisings in two years: none. The buyback that ended 12 December 2025 bought 1,551,429 shares at an average of 33.06c [S6].
 
@@ -186,9 +189,9 @@ Cross-check on cash earnings: run-rate AFFO is 29.28 less interest of NZ$4.4m (N
 ## Why the market is wrong
 At NZ$0.415, I can't say that it is. The market value plus the claims ahead of shareholders is NZ$203.8m: 7.0 times my run-rate of NZ$29.3m (7.4 times FY26's NZ$27.4m). That is within a cent of my earnings-based centre and in the middle of what the market has paid for 17 months: about 6.3 times after rent in June 2025 (28c, FY25 EBITDA of NZ$23.5m, net debt NZ$67.7m) and about 7.3 to 7.5 times at the August 2026 high of 46.5c on FY26 plus Karori.
 
-Two things the market may be getting wrong, neither with a date that falls inside the window:
+Two things the market may be getting wrong. The 1H27 result tests the first; the second has no date:
 1. It may be reading the second half's NZ$12.5m as the run-rate. The 1H27 result will show whether that is wrong, but it will probably also show low resale gains (little vacant stock, the new buyback clause), no revaluation gain and more depreciation and interest from Karori, so headline profit may be flat or lower even if care earnings grow. The test is in the appendix figures, not the headline.
-2. It values the owned property at about half its independent value: take the NZ$151.4m of property out of NZ$203.8m and the operating business is left at 2.9 times its earnings after a full rent. Only sale-and-leasebacks or a bid would close that. Radius has no sale programme announced, the founder's 33.45% makes an unwanted bid impossible, and he has given no sign of wanting to sell.
+2. It values the owned property at about half its independent value: take the NZ$151.4m of property out of NZ$203.8m and the operating business is left at 2.9 times its earnings after a full rent. Only sale-and-leasebacks or a bid would close that. Radius has no sale programme announced, the founder's 33.45% makes a bid without his support unlikely to succeed (he can block a scheme on his own), and he has given no sign of wanting to sell.
 
 So there is no trade at NZ$0.415 before the result.
 
@@ -197,7 +200,7 @@ If bought at NZ$0.415 now and held to the FY27 result (about 14 May 2027; inferr
 
 | Outcome | What happens | Chance | Price by resolve date |
 | --- | --- | --- | --- |
-| Bad | 1H27 and FY27 show the second half's costs persisting: run-rate about NZ$27.0m, Karori slow, resale gains low; the market pays 6.5 times after rent (Method 1 at an owner's multiple of about 7.6) | 30% | NZ$0.315 ((6.5 x 27.0 - 86.1) / 283.47) |
+| Bad | 1H27 and FY27 show the second half's costs persisting: run-rate about NZ$27.0m, Karori slow, resale gains low; the market pays 6.5 times after rent, the bottom of its 17-month range (Method 3 at an 11% discount rate on these earnings gives 31.4c; Method 1's owner multiple is then about 8.4) | 30% | NZ$0.315 ((6.5 x 27.0 - 86.1) / 283.47) |
 | Middling | Care earnings grow as expected: run-rate about NZ$29.3m, FY27 underlying EBITDA about NZ$28.5m to NZ$29m with "continued growth"; the market keeps paying 7.0 times (Method 3 central, 42.3c; Method 1 at an owner's multiple of about 8.6) | 50% | NZ$0.42 ((7.0 x 29.28 - 86.1) / 283.47 = 41.9c) |
 | Good | Care earnings beat: run-rate NZ$31m or more, an upgraded FY27 outlook or a Government funding reset after the advisory group's report, or a first sale-and-leaseback; the market pays 7.75 times (an owner's multiple of about 9.1; Method 2's range) | 20% | NZ$0.545 ((7.75 x 31.0 - 86.1) / 283.47 = 54.4c) |
 
@@ -236,9 +239,9 @@ What in the 1H27 result reopens or closes the case. The figures come from the re
 | Aged care underlying EBITDAR | NZ$27.0m | NZ$29.5m or more | NZ$28.0m to NZ$29.5m | below NZ$28.0m |
 | Average care bed occupancy | 95.0% | 96.5% or more | 95.5% to 96.5% | below 95.5% |
 | Net bank debt at 30 September 2026 | NZ$63.7m | NZ$88m or less | NZ$88m or less | above NZ$92m |
-| FY27 outlook | none given in 1H26 | raised, or underlying EBITDA of NZ$30m or more | "continued growth" kept | growth wording dropped, or below NZ$28.5m |
+| FY27 outlook | 1H26 said 2H26 would be "broadly consistent" with 1H26 (it was 16% lower) | raised, or underlying EBITDA of NZ$30m or more | "continued growth" kept | growth wording dropped, or below NZ$28.5m |
 
-The run-rate is read from the first line as twice that figure, plus the 1.9 months of Karori not yet in it (about NZ$0.3m), plus normal resale gains of NZ$1.6m, less a second-half cost gap of NZ$0 to NZ$1.0m (FY26's): NZ$14.7m points to about NZ$31m, NZ$13.8m to about NZ$29.3m.
+The run-rate is read from the first line: add the 1.9 months of Karori not yet in the half (about NZ$0.3m), double it, add normal resale gains of NZ$1.6m and take off a second-half cost gap of NZ$0 to NZ$1.0m (FY26's was NZ$1.0m; I use NZ$0.5m). So NZ$14.7m points to about NZ$31m ((14.7 + 0.3) x 2 + 1.6 - 0.5) and NZ$13.8m to about NZ$29.3m.
 
 Reopen if any one of these holds:
 1. Strong on the first two lines, net bank debt NZ$88m or less, and the outlook kept or raised, with the price NZ$0.44 or less after the result: re-test as an ordinary pick to the FY27 result. With outcomes of NZ$0.354, NZ$0.462 and NZ$0.585 at 25%, 55% and 20%, the expected gain at NZ$0.415 is about +10% after costs, against 3.6%.
@@ -286,7 +289,8 @@ Radius (NZX:RAD), primary:
 - [S12] Director and senior manager notices: Bret Jackson https://api.nzx.com/public/announcement/473202/attachment/469185/473202-469185.pdf ; Tom Wilson https://api.nzx.com/public/announcement/478619/attachment/475505/478619-475505.pdf ; Jeremy Edmonds https://api.nzx.com/public/announcement/478706/attachment/475647/478706-475647.pdf
 - [S13] NZX activity data, read 8 November 2026: https://api.nzx.com/public/instrument/NZRADE0005S4/metrics/activity/past/2Y.json ; NZX company data (close, bid, offer, shares, dividends), fetched 7 November 2026: data/research_data/nzx_company.json ; FinFeed prices: data/prices/NZX/RAD.csv
 - [S14] NZX announcement lists, 2025 and 2026: https://api.nzx.com/public/company/RAD000000/announcements/2026/all.json and https://api.nzx.com/public/company/RAD000000/announcements/2025/all.json
-- [S15] FY26 outlook upgrades: 13 June 2025 https://www.nzx.com/announcements/453290 ; 7 August 2025 https://www.nzx.com/announcements/456350
+- [S15] FY26 outlook upgrades: 13 June 2025 https://api.nzx.com/public/announcement/453290/attachment/445557/453290-445557.pdf (announcement https://www.nzx.com/announcements/453290) ; 7 August 2025 https://www.nzx.com/announcements/456350
+- [S20] Windhaven Care Holdings substantial holder notice (4 March 2026): https://api.nzx.com/public/announcement/468656/attachment/463870/468656-463870.pdf
 
 Peers, primary:
 - [S16] Oceania Healthcare FY26 result (22 May 2026): release https://www.nzx.com/announcements/473127 ; investor presentation https://api.nzx.com/public/announcement/473127/attachment/469120/473127-469120.pdf
