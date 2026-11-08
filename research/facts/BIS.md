@@ -99,28 +99,34 @@ rights [1][7]. AGM 6 Nov 2026: all resolutions passed; remuneration report 91.98
   Chinese Q&T plate while defence steel (33% of Australian revenue in FY26, from 25%) grows, or is FY26's profit a step
   down toward FY23's level? A deep dive would read the segment results, the anti-dumping case, the defence order flow and
   the dependence on two customers and one supplier.
-- How the market prices it, and the mechanism: steel processors trade on earnings multiples. The named peer is BlueScope
-  Steel (ASX:BSL), Bisalloy's greenfeed supplier and the only listed Australian steelmaker: 438.3m shares at A$33.29
-  (30 Oct 2026 close, price file) over FY26 underlying EPS of 194.2c is 17.1 times; enterprise value (adding A$600m net
-  debt) over underlying EBITDA of A$1,966.3m is 7.73 times [16][17]. BlueScope's own P/E was 34.7 times on FY25's 95.9c,
-  so its multiple moves a lot with the cycle. The price would move through half-year results and the anti-dumping
-  decision.
-- If it goes our way: profit holds at its five-year average EPS of 33.6c. At BlueScope's 17.1 times, A$5.76. (At FY26's
-  34.9c, A$5.98.) Check on enterprise value: FY26 operating EBITDA A$27.7m x 7.73 plus A$1.5m net cash, over 48.31m
-  shares, A$4.46.
-- If it goes against us: EPS falls back to the five-year low of 27.0c (FY23). At 17.1 times, A$4.63. Check on enterprise
-  value with FY23's EBITDA (15.0% of A$153.1m, A$23.0m): A$3.71.
+- How the market prices it, and the mechanism: small industrial makers and distributors trade on earnings multiples.
+  Named peers, each on statutory basic EPS for the year to June 2026 and its 30 Oct 2026 close (price file):
+  - Korvest (ASX:KOV), galvanising and steel cable supports, the closest in business, size and return on equity (about
+    A$187m and 19.8% against Bisalloy's 20.0%, per the Capral deep dive's table): A$15.70 over 104.9c, 14.97 times [19].
+  - GWA Group (ASX:GWA), bathroom and plumbing products: A$2.05 over 18.4c, 11.14 times [20].
+  - MaxiPARTS (ASX:MXI), truck parts: A$1.985 over 15.67c, 12.67 times [21].
+  - The middle peer, MaxiPARTS at 12.67 times, is used. BlueScope Steel (ASX:BSL), Bisalloy's greenfeed supplier and the
+    only listed Australian steelmaker, is far larger and cyclical: A$33.29 over FY26 underlying EPS of 194.2c is 17.1
+    times, but 34.7 times on FY25's 95.9c, and 7.73 times EBITDA after adding A$600m net debt [16][17]. It is shown as a
+    check, not the base.
+  - The research desk's Capral deep dive (research/picks/CAA.md) used the same peer group and found price to NTA across
+    these peers runs at about return on tangible equity divided by 8.5%, with Bisalloy (2.43 times) on the line.
+  - The price would move through half-year results and the anti-dumping decision.
+- If it goes our way: profit holds at its five-year average EPS of 33.6c (FY26 was 34.9c). At 12.67 times, A$4.26. At
+  Korvest's 14.97 times, A$5.03. At BlueScope's 17.1 times, A$5.76; on BlueScope's EBITDA multiple (A$27.7m x 7.73 plus
+  A$1.5m net cash, over 48.31m shares), A$4.46.
+- If it goes against us: EPS falls back to the five-year low of 27.0c (FY23). At 12.67 times, A$3.42; at Korvest's
+  multiple, A$4.04.
 - Only now the price: A$4.24, the last trade on 6 Nov 2026 (ASX company data; up from A$4.03 the session before, the day
   the special dividend was announced). Market value A$204.8m; 12.2 times FY26 earnings; enterprise value 7.3 times FY26
-  EBITDA; 2.6 times NTA. Gap if it goes our way: 5.76 / 4.24 - 1 = +36% (enterprise value check +5%). Gap if it goes
-  against us: 4.63 / 4.24 - 1 = +9% (check -13%).
+  EBITDA; 2.6 times NTA. Gap if it goes our way: 4.26 / 4.24 - 1 = +0% (Korvest +19%; BlueScope's P/E +36%, its EBITDA
+  multiple +5%). Gap if it goes against us: 3.42 / 4.24 - 1 = -19% (Korvest -5%).
 
 ## 7. Grade
-B, deep dive when its event is close. The gap if it goes our way is +36% on BlueScope's earnings multiple, above 25% but
-under 40%, so not an A and not a value pick. The gap is a multiple argument more than an earnings one: Bisalloy already
-earns its five-year average, and on BlueScope's enterprise value multiple it is priced about right (+5%). The deciding
-facts (the anti-dumping outcome, defence orders, whether wear plate volumes hold) need the events themselves, starting
-with the 1H FY27 result about 27 Feb 2027.
+C, no deep dive: the gap if it goes our way is under 25%. Bisalloy already earns its five-year average, and at 12.2 times
+earnings it is priced within the 11.1 to 15.0 times range of small industrial peers; even at Korvest's multiple the gap is
++19%. Only BlueScope's earnings multiple, lifted by a cyclical recovery in its own profit, gives a gap over 25%. Not a value
+pick. If the desk looks again, the 1H FY27 result (about 27 Feb 2027) and the anti-dumping application are the events.
 
 ## Sources
 1. FY26 Full Year Appendix 4E and Annual Report, 28 Aug 2026 (03131897): directors' report, five-year table, statements, segment note, major customers, financing facilities, key risks, shareholder information: https://announcements.asx.com.au/asxpdf/20260828/pdf/073cnhc06lzttp.pdf
@@ -141,3 +147,6 @@ with the 1H FY27 result about 27 Feb 2027.
 16. BlueScope Steel, FY2026 Results for Announcement to Market and Annual Report, 17 Aug 2026 (03125497): underlying EPS 194.2c (FY25 95.9c), underlying EBITDA A$1,966.3m, net debt A$600.0m, weighted shares 438,306,206: https://announcements.asx.com.au/asxpdf/20260817/pdf/072t23bqxcpn0j.pdf ; FY2026 Results ASX Release (03125499): https://announcements.asx.com.au/asxpdf/20260817/pdf/072t27my61ntqh.pdf
 17. BlueScope price A$33.29 (30 Oct 2026 close) from data/norgate/universe/prices_2026.csv.gz; BlueScope is not in the ASX company data file, so no 6 Nov 2026 price was used.
 18. Prices and volumes: data/norgate/universe/prices_2026.csv.gz (Norgate), 5 to 30 Oct 2026; last trade A$4.24 on 6 Nov 2026 from data/research_data/asx_company.json (fetched 7 Nov 2026).
+19. Korvest, Preliminary Final Report FY26, 28 Jul 2026 (03118805), basic EPS 104.9c: https://announcements.asx.com.au/asxpdf/20260728/pdf/0723xrrr9b85x6.pdf
+20. GWA Group, Preliminary Final Report FY2026, 17 Aug 2026 (03125581), basic EPS 18.4c: https://announcements.asx.com.au/asxpdf/20260817/pdf/072t7zdd1jyrlj.pdf
+21. MaxiPARTS, Preliminary Final Report FY26, 20 Aug 2026 (03127804), basic EPS 15.67c: https://announcements.asx.com.au/asxpdf/20260820/pdf/07306gqxzxt7kc.pdf ; peer closes on 30 Oct 2026 (KOV A$15.70, GWA A$2.05, MXI A$1.985) from data/norgate/universe/prices_2026.csv.gz

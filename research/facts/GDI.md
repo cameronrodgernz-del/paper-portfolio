@@ -120,32 +120,42 @@ from cash, undrawn debt and possibly non-core sales; 632,029 bought by 14 Oct 20
   (3.04c in FY26, 0.17c in FY25) have not covered its 5.0c distribution. Now that WS1, WS2 and the 197 St Georges Terrace
   offices are fully leased, does that spending fall away so cash earnings rise toward the distribution? A deep dive would
   read the lease expiry profile, the incentive terms on recent deals, and the 1H FY27 spending.
-- How the market prices it, and the mechanism: listed office owners trade on cash earnings after leasing costs (AFFO). The
-  named peer is Centuria Office REIT (ASX:COF), an office REIT with Perth exposure. Its FY26 FFO of A$66.9m less rent-free
-  given (A$25.6m, taken from its amortisation), capex incentives (A$10.5m) and maintenance (A$7.1m) is A$23.7m, or 3.97c on
-  597.3m units; at its A$0.905 last trade (6 Nov 2026) that is an AFFO yield of 4.39% [25][26]. Check basis: COF's own
-  "FFO less maintenance and capex incentives", which leaves rent-free in, is 8.26c, a 9.13% yield. The price would get
-  there through half-year results that show lower leasing spending and a covered distribution (1H FY27 about February
-  2027), helped by the buy-back as a steady buyer.
+- How the market prices it, and the mechanism: listed office owners trade on cash earnings after leasing costs (AFFO: FFO
+  less maintenance, fit-out and cash incentives, and rent-free given). Three named peers, each on its FY26 filings and its
+  30 Oct 2026 close (price file):
+  - Centuria Office REIT (ASX:COF): FFO A$66.9m less rent-free A$25.6m (taken from its amortisation), capex incentives
+    A$10.5m and maintenance A$7.1m is A$23.7m, 3.97c on 597.3m units; at A$0.875, 4.54% [25][26][30].
+  - Abacus Group (ASX:ABG): FFO A$81.2m less maintenance A$12.6m, tenant incentives A$10.3m and rent abatement A$18.1m is
+    A$40.2m, 4.50c on 893.7m securities; at A$0.84, 5.36% [28][30].
+  - Growthpoint Properties Australia (ASX:GOZ): FFO A$177.6m less maintenance A$15.2m, leasing capex A$19.2m, cash
+    incentives and leasing costs A$11.3m and rent-free A$30.8m is A$101.1m, 13.40c on 754.3m securities; at A$1.965,
+    6.82% [29][30].
+  - The middle peer, Abacus at 5.36%, is used. COF is the most richly priced of the three; the research desk's COF deep
+    dive (research/picks/COF.md) reached the same peer yields and also put Dexus at 7.2% to 7.8%.
+  - Check basis, leaving rent-free in for everyone (FFO less maintenance and fit-out or capex incentives): COF 8.26c,
+    9.44%; Abacus 6.52c, 7.77%; Growthpoint 17.49c, 8.90%; middle peer Growthpoint, 8.90%.
+  - The price would get there through half-year results that show lower leasing spending and a covered distribution
+    (1H FY27 about February 2027), helped by the buy-back as a steady buyer.
 - If it goes our way: fit-out spending stops now the core towers are full, and rent-free, leasing fees and maintenance stay
-  at FY26 levels. Cash earnings A$44.457m - 16.718m - 0.902m - 1.108m = A$25.73m, 4.77c a security; at COF's 4.39% that is
-  A$1.09. Check basis (FFO less maintenance and leasing fees, 7.87c, at 9.13%): A$0.86.
-- If it goes against us: FY26 spending recurs, including A$9.4m of fit-outs: 3.04c at 4.39% is A$0.69 (check basis 6.13c at
-  9.13%, A$0.67). If spending ran at the FY25 and FY26 average instead (1.60c), the value would be A$0.37.
+  at FY26 levels. Cash earnings A$44.457m - 16.718m - 0.902m - 1.108m = A$25.73m, 4.77c a security; at 5.36% that is
+  A$0.89. Check basis (FFO less maintenance and leasing fees, 7.87c, at 8.90%): A$0.88. At COF's yield it would be A$1.05.
+- If it goes against us: FY26 spending recurs, including A$9.4m of fit-outs: 3.04c at 5.36% is A$0.57 (check basis 6.13c at
+  8.90%, A$0.69). If spending ran at the FY25 and FY26 average instead (1.60c), the value would be A$0.30.
 - The good case, not "our way": net tangible assets A$1.21 (A$1.25 after a full 5% buy-back at A$0.64). No sale, capital
   return of that size or bid is under way; the buy-back has bought 0.1% so far.
 - Only now the price: A$0.64, the last trade on 6 Nov 2026 (ASX company data; the session before also closed at A$0.64).
-  Market value A$345.1m; 0.53 times NTA; 7.8% distribution yield. Gap if it goes our way: 1.09 / 0.64 - 1 = +70% (check
-  basis +35%). Gap if it goes against us: 0.69 / 0.64 - 1 = +8% (check basis +5%; at the two-year average spending -43%).
+  Market value A$345.1m; 0.53 times NTA; 7.8% distribution yield. Gap if it goes our way: 0.89 / 0.64 - 1 = +39% (check
+  basis +38%). Gap if it goes against us: 0.57 / 0.64 - 1 = -11% (check basis +8%; at the two-year average spending -53%).
   At net tangible assets, +89%.
 
 ## 7. Grade
-A, as a value pick. The gap if it goes our way is +70% on COF's AFFO yield, and the value if it goes against us (FY26
-spending recurring) is 8% above the price, so it meets the value pick test without needing a forcing event; the 1H FY27
-result in February 2027 should also show whether leasing spending has fallen, and the lease expiry profile and incentive
-disclosures can be read from filings. The case is fragile in two named ways that the deep dive must settle first: on the
-check basis (rent-free left in for both) the gap is only +35%, and if spending returns to the FY25 level the value falls
-to about A$0.37. The market is pricing GDI like COF on FY26 cash earnings; the case needs those earnings to rise.
+B, deep dive when its event is close. The gap if it goes our way is +39% on the middle peer's cash yield (+38% on the
+check basis), above 25% but just under the 40% an A needs, and the value if it goes against us is 11% below the price, just
+outside the value pick limit of 10%. The answer needs the event itself: the 1H FY27 result (about February 2027) will show
+whether leasing spending has fallen now the core towers are full. On FY26 cash earnings the market prices GDI between
+Abacus and Growthpoint, so the case needs those earnings to rise; NTA (+89%) only counts if a sale, return or bid
+appears. The holder build-up (Rockefeller at 10.11%) and the chair's stated aim to close the NTA gap are noted for the
+special situations watch list.
 
 ## Sources
 1. FY26 Annual Results Announcement, 24 Aug 2026 (03128841): https://announcements.asx.com.au/asxpdf/20260824/pdf/0733pbwbnzst2q.pdf
@@ -173,5 +183,8 @@ to about A$0.37. The market is pricing GDI like COF on FY26 cash earnings; the c
 23. Dividend/Distribution - GDI, 11 Dec 2025 (03039938): https://announcements.asx.com.au/asxpdf/20251211/pdf/06t6rhbr7jty43.pdf
 24. Sale of 5 and 15 Wood Street, Bassendean, 19 Dec 2025 (03043701), Broadmeadow and GDI's role in the GDI No. 38 trust: https://announcements.asx.com.au/asxpdf/20251219/pdf/06tkj2y53j8s7f.pdf
 25. Centuria Office REIT, FY26 Financial Report, 4 Aug 2026 (03121611), FFO reconciliation (rent-free and abatement A$25.6m): https://announcements.asx.com.au/asxpdf/20260804/pdf/072db9l8jfs50k.pdf
-26. Centuria Office REIT, FY26 Results Presentation, 4 Aug 2026 (03121615), appendix B (maintenance capex A$7.1m, capex incentives A$10.5m): https://announcements.asx.com.au/asxpdf/20260804/pdf/072dbl6y6dsrkm.pdf ; COF last trade A$0.905 and 597,336,931 units from data/research_data/asx_company.json (fetched 7 Nov 2026).
+26. Centuria Office REIT, FY26 Results Presentation, 4 Aug 2026 (03121615), appendix B (maintenance capex A$7.1m, capex incentives A$10.5m): https://announcements.asx.com.au/asxpdf/20260804/pdf/072dbl6y6dsrkm.pdf ; 597,336,931 units from data/research_data/asx_company.json (fetched 7 Nov 2026).
 27. Prices and volumes: data/norgate/universe/prices_2026.csv.gz (Norgate), 5 to 30 Oct 2026; last trade A$0.64 on 6 Nov 2026 from data/research_data/asx_company.json (fetched 7 Nov 2026).
+28. Abacus Group, FY26 Results Presentation, 25 Aug 2026 (03129655): FFO A$81.2m, maintenance capex A$12.6m, tenant incentives (capex) A$10.3m, tenant incentives (rent abatement) A$18.1m, 893,657,633 weighted securities: https://announcements.asx.com.au/asxpdf/20260825/pdf/0735swcx925d02.pdf
+29. Growthpoint Properties Australia, FY26 Results Presentation, 17 Aug 2026 (03125641): FFO A$177.6m, maintenance capex A$15.2m, leasing capex A$19.2m, cash incentives and leasing costs paid A$11.3m, rent-free incentives A$30.8m, weighted securities 754.3m: https://announcements.asx.com.au/asxpdf/20260817/pdf/072td79bz2dp6g.pdf ; FY26 Results Announcement (03125634): https://announcements.asx.com.au/asxpdf/20260817/pdf/072tcqg9yf10tj.pdf
+30. Peer prices: 30 Oct 2026 closes from data/norgate/universe/prices_2026.csv.gz (COF A$0.875, ABG A$0.84, GOZ A$1.965).
