@@ -55,6 +55,7 @@ No trigger hit.
 | ASX:HIT | AUD 0.79 | 1.11 | 2026-11-07 | +40.5% |  | ASX company data (last trade at fetch) |
 | NZX:SCT | NZD 1.6 | 2.37 | 2026-11-06 | +48.1% |  | data/prices/NZX |
 | ASX:KAU | AUD 0.1 | 0.15 | 2026-11-07 | +50.0% |  | ASX company data (last trade at fetch) |
+| ASX:BCN | AUD 1.5 | 2.73 | 2026-11-07 | +82.0% |  | ASX company data (last trade at fetch) |
 | ASX:GRR | AUD 0.055 | 0.105 | 2026-11-07 | +90.9% |  | ASX company data (last trade at fetch) |
 | ASX:MYX | AUD 0.72 | 3.08 | 2026-11-07 | +327.8% |  | ASX company data (last trade at fetch) |
 
