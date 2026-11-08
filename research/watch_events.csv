@@ -11,7 +11,7 @@ date,market,ticker,event,date_basis
 2026-11-16,NZX,PGW,Elders FY26 result (anything on the PGW stake),announced
 2026-11-16,NZX,SKO,"H1 FY27 result and guidance revision (Booking.com terms, FY28 spend)",announced
 2026-11-17,NZX,SAN,FY26 result and notice of meeting (Umios nominee?),announced
-2026-11-18,ASX,EML,"AGM (guidance, first-quarter trading)",announced
+2026-11-18,ASX,EML,"AGM (guidance; first-quarter underlying EBITDA A$8m or more to keep the case alive, red team 8 Nov)",announced
 2026-11-18,ASX,HLO,Helloworld can creep in Webjet without a bid,inferred from its 19% crossing date
 2026-11-18,ASX,WJL,half-year result,announced
 2026-11-18,NZX,ARG,interim result,announced
@@ -81,7 +81,7 @@ date,market,ticker,event,date_basis
 2027-02-23,ASX,MYX,H1 FY27 result (EBITDA excluding the Australian arm),inferred
 2027-02-24,ASX,CWP,H1 FY27 result,inferred
 2027-02-24,NZX,PGW,1H27 result,inferred
-2027-02-25,ASX,EML,"1H FY27 result (one-offs, Arlo spend, free cash)",inferred
+2027-02-25,ASX,EML,"1H FY27 result (EBITDA A$28m or more, gearing 0.42 or less, APRA position, no fresh shortfall)",inferred
 2027-02-25,ASX,FWD,"H1 result (Community Solutions EBIT, net cash)",inferred
 2027-02-25,ASX,HLO,H1 FY27 result,inferred
 2027-02-25,ASX,IGL,"IVE Group 1H27 result: underlying EBITDA before AASB 16 at least A$61m, left-out costs no more than about A$5.5m, revenue without acquisitions down no more than 5%, interim dividend at least 9.5c (research/picks/IGL.md)",estimate
