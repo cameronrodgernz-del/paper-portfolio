@@ -7,7 +7,7 @@ This is a simulation and not financial advice.
 
 ## 1. Kill check
 Any "yes" ends the sheet here, with the fact and its link. Nothing else ends it.
-- A fund, trust or investment company, or no business to value yet? No. NZME is a New Zealand media company: radio and digital audio (Newstalk ZB, ZM, iHeartRadio), publishing (the NZ Herald in print and online) and the OneRoof property site, with 2025 revenue of NZ$345.6m [1].
+- A fund, trust or investment company, or no business to value yet? No. NZME is a New Zealand media company in three divisions: Audio (radio and digital audio), Publishing (the NZ Herald in print and online) and the OneRoof property site, with 2025 revenue of NZ$345.6m [1][3].
 - Delisting, suspension, going-concern doubt or an auditor's qualification? No. The auditor's opinion on the 2025 accounts is unmodified, with no going-concern note [1].
 - Too thin to trade? No. NZX's own daily trading data: median on-market value over the 20 sessions 9 October to 6 November 2026 was NZ$55,705 a day, lowest NZ$5,260; 18 of the 20 sessions above NZ$12,500 [16]. At 10% of the median for two sessions the largest position would be about NZ$11,100.
 - On Cam's excluded list, or in the gaming, wagering and racing hold? No. config/judgement_excluded.csv has no entries.

@@ -33,7 +33,7 @@ What the headline numbers hide:
 - The year is seasonal: the first half (spring) carries the profit and the second half loses money, so half-year numbers mislead [4].
 - GO-STOCK is a balance sheet business: PGW lends against farmers' livestock (NZ$88.3m of receivables at June 2026) on borrowed money [1].
 - Leases are large: NZ$100.5m of lease liabilities and NZ$28.5m a year of lease principal and interest, all inside operating EBITDA's add-back [1].
-- Customers are spread across thousands of farmers and growers, but the business is concentrated in one economy and its farm incomes.
+- No customer concentration is disclosed; the risk is concentration in one economy's farm incomes, including weather (the company flags a possible El Nino) [5].
 
 ## 3. Guidance and record
 PGW guides on operating EBITDA, usually first at its October meeting.
@@ -64,7 +64,7 @@ PGW guides on operating EBITDA, usually first at its October meeting.
 
 ## 6. The question and the gap
 - The question: is FY27's guided NZ$70m of operating EBITDA (about NZ$19.7m of profit) a level PGW can hold, through Nexan, a larger GO-STOCK book and growth in Retail & Water, or is it the top of a farm-income cycle that has averaged NZ$14.2m of profit over five years? The December guidance update and the 1H27 result show how the strong spring and livestock prices carry through.
-- How the market prices this kind of business, and the mechanism: the only listed rural services peer is Elders (ASX:ELD), which runs the same mix of farm supplies, livestock agency, wool and real estate in Australia. At A$6.40 (ASX company data, 6 Nov 2026) it trades at 13.8 times its FY25 underlying earnings of 46.5c a share (25.2 times its statutory 25.4c, which carries large one-off costs) [20][21]. The 13.8 times is used for both cases. The price would get there through results and guidance updates; the Agria and Elders holdings are a second route through a bid, but no bid is in view.
+- How the market prices this kind of business, and the mechanism: the only listed rural services peer is Elders (ASX:ELD), whose Australian business covers the same lines: retail products for the rural sector, livestock and wool agency, and real estate agency [20]. At A$6.40 (ASX company data, 6 Nov 2026) it trades at 13.8 times its FY25 underlying earnings of 46.5c a share (25.2 times its statutory 25.4c, which carries large one-off costs) [20][21]. The 13.8 times is used for both cases. The price would get there through results and guidance updates; the Agria and Elders holdings are a second route through a bid, but no bid is in view.
 - If it goes our way: FY27 guidance is met and held. FY26 profit of NZ$15.57m plus the NZ$5.69m rise in EBITDA after 28% tax, with depreciation and interest unchanged, is NZ$19.67m. At 13.76 times, NZ$270.7m, or NZ$3.59 a share on 75.48m shares.
 - If it goes against us: profit falls back to its FY22 to FY26 average of NZ$14.24m. At 13.76 times, NZ$196.0m, or NZ$2.60 a share.
 - Only now the price: NZ$2.19, the close on 6 November 2026 (bid NZ$2.06, offer NZ$2.19), a market value of NZ$165.3m [17]. Gap if it goes our way: 3.59 / 2.19 - 1 = +64%. Gap if it goes against us: 2.60 / 2.19 - 1 = +19%.

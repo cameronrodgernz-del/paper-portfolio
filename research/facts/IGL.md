@@ -30,7 +30,7 @@ The gap between statutory and underlying profit recurs. The pre-tax items left o
 
 What the headline numbers hide:
 - The core print and catalogue business is shrinking. Without acquisitions revenue fell about 5.2% in FY26, led by catalogue pagination and volumes; margin gains (material margin 51.4% against 49.3%) carried profit [1].
-- Leases tripled. The Dandenong South and Kemps Creek moves lifted lease liabilities from A$112.5m to A$283.5m. Underlying profit before AASB 16 counts the rent; underlying profit after it does not, so the two measures will diverge for years [1].
+- Lease liabilities rose two and a half times. The Dandenong South and Kemps Creek moves lifted them from A$112.5m to A$283.5m. Profit before AASB 16 counts rent as paid; profit after it swaps rent for depreciation and lease interest, which run higher in a lease's early years, so the two measures will differ for years [1].
 - Cash after capital spending, leases and restructuring fell to A$12.5m in FY26 from A$49.8m, while dividends paid were A$27.7m and A$38.0m went on acquisitions; net debt rose A$58.8m [1]. Capital spending is guided down to about A$26m in FY27 [2].
 - Book value is mostly goodwill: tangible assets are 15.5c a share [1].
 - Customers are spread out: the largest is about 8.3% of revenue, the top 20 just under 40% [1].
@@ -44,7 +44,7 @@ What the headline numbers hide:
 - Record: met or beat its own range in FY24 and FY25; FY26 was walked down to the bottom of the range within three months and then met.
 
 ## 4. Who owns it and who is moving
-- Largest registered holders at 12 August 2026: Citicorp Nominees 10.94%, Strategic Value Pty Ltd (TAL Super) 4.20% plus 1.07%, Negole Pty Ltd 3.63%, SCJ Pty Ltd (Jermyn family) 3.28%, Exldata Pty Ltd 3.06% plus 0.51% and 0.49%, Caxton Print Holdings (Selig, the founder's vehicle) 2.17%; top 20 hold 39.37%; 6,151 holders [1].
+- Largest registered holders at 12 August 2026: Citicorp Nominees 10.94%, Strategic Value Pty Ltd (TAL Super) 4.20% plus 1.07%, Negole Pty Ltd 3.63%, SCJ Pty Ltd (Jermyn family) 3.28%, Exldata Pty Ltd 3.06% plus 0.51% and 0.49%, Caxton Print Holdings (Selig account) 2.17%; top 20 hold 39.37%; 6,151 holders [1].
 - Substantial holders listed in the 2026 annual report: Tony Young 9.2% (notice 16 Oct 2024), Ryan Young 9% (22 Oct 2024), Aran Young 5% (15 Oct 2024), Tynan Young 5% (27 Apr 2023), each notice lodged separately; together about 28.6% [1][7].
 - Substantial holder changes in the last 12 months: Dimensional Fund Advisors became substantial at 5.004% on 6 May 2026 and ceased at 4.891% on 8 May 2026 (notices of 8, 13 and 28 May 2026) [20][21][22]. No other notices.
 - Director on-market buys or sells in the last 12 months: none. The only director notices are shares issued to the managing director, Matt Aitken, as part of his short-term incentive (33,582 at A$2.68 on 31 Dec 2025; 40,728 at A$2.71 on 30 Sep 2026), 142,352 shares on vesting of rights (26 Aug 2026), and non-executive directors' fee-sacrifice share rights at A$2.71 (30 Sep 2026); none is a market trade [23].

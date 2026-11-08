@@ -7,7 +7,7 @@ This is a simulation and not financial advice.
 
 ## 1. Kill check
 Any "yes" ends the sheet here, with the fact and its link. Nothing else ends it.
-- A fund, trust or investment company, or no business to value yet? No. MTO runs motorcycle dealerships in Australia (Team Moto, Harley-Davidson stores including Peter Stevens and Harley-Heaven, bought out of administration in July 2025) and wholesales motorcycles and off-road vehicles (CFMOTO in Australia and New Zealand) and accessories (MCAS); FY26 revenue A$788.7m [1][2].
+- A fund, trust or investment company, or no business to value yet? No. MTO calls itself "a wholesale distributor with significant retail operations": it imports and distributes motorcycles, ATVs, scooters, parts and accessories in Australia and New Zealand (CFMOTO through Mojo in Australia and Forbes & Davies in New Zealand), and runs motorcycle dealerships in Australia (Harley-Davidson stores, including the Peter Stevens and Harley-Heaven sites bought from administration in July 2025, volume-brand stores and the MCAS accessories stores); FY26 revenue A$788.7m [1][2].
 - Delisting, suspension, going-concern doubt or an auditor's qualification? No. The FY26 accounts carry an unmodified audit opinion [1].
 - Too thin to trade? No. Median value traded over the 20 sessions 5 to 30 October 2026 was A$129,577 a day (lowest A$39,357; all 20 above A$10,000), from data/norgate/universe/prices_2026.csv.gz [22]. That caps a position near A$25,900.
 - On Cam's excluded list, or in the gaming, wagering and racing hold? No. config/judgement_excluded.csv has no entries.
@@ -29,14 +29,14 @@ Any "yes" ends the sheet here, with the fact and its link. Nothing else ends it.
 The gap between statutory and underlying profit is small and mostly the one-off cost of the Peter Stevens and Harley-Heaven purchase. Two past costs bypassed profit altogether: an underpayment of vehicle registration duty on fitted options (A$4.85m provided, with interest) and award underpayments to staff (A$2.30m) were charged to opening retained earnings at 1 July 2024 as corrections of earlier years, A$7.15m pre-tax or A$5.0m after tax, so the reported profits of earlier years were overstated by that much in total [1]. The payroll review "continues" and may find more [1][7].
 
 What the headline numbers hide:
-- Profit comes almost entirely from wholesale. Of A$41.5m of FY26 segment profit, wholesaling (CFMOTO vehicles in Australia and New Zealand, and MCAS accessories) earned A$37.8m (91%) and the A$560m retail business A$3.8m [1].
+- Profit comes almost entirely from wholesale. Of A$41.5m of FY26 segment profit, wholesaling (vehicles, led by CFMOTO, and parts and accessories, in Australia and New Zealand) earned A$37.8m (91%) and the A$560m retail business A$3.8m [1].
 - The wholesale margin was lifted by the currency. Wholesale gross margin rose from 24.7% to 28.6%; the company says "a strengthening Australian dollar lifted gross profit margin for the combined wholesale segment from 25% in FY2025 to 29% in FY2026, resulting in a 34% increase to PBT" [2].
 - One supplier contract carries the profit, and it has an end date. The exclusive CFMOTO distribution agreement for Australia and New Zealand "concludes 30th September 2028". A non-binding memorandum of 4 May 2026 records an intention to negotiate an extension; nothing binding has been announced [8].
 - Book value is goodwill: A$118.4m of goodwill and A$18.9m of other intangibles against A$215.4m of equity [1].
 - Profit history (statutory, A$m): FY21 28.3, FY22 23.1, FY23 23.0, FY24 14.1, FY25 18.0, FY26 24.2. The FY22 to FY26 average is A$20.5m [1][9].
 
 ## 3. Guidance and record
-- MTO does not give earnings guidance. Each result and AGM carries only a written outlook: for FY27, a "cautious near-term outlook for discretionary spending", growth in vehicle distribution including a new CFMOTO-owned ATV brand (GOES), and a return to growth at MCAS [2][10].
+- MTO does not give earnings guidance. Each result and AGM carries only a written outlook: for FY27, a "cautious near-term outlook for discretionary spending", growth in vehicle distribution including a new CFMOTO-owned ATV brand (GOES), and a return to growth at the MCAS accessories stores [2][10].
 - No guidance was given for FY25 or FY26, so there is no record to test. Both years reported record revenue; FY26 was a record profit [2][9].
 
 ## 4. Who owns it and who is moving
