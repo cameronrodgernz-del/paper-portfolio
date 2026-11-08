@@ -15,6 +15,7 @@ No trigger hit.
 | ASX:HUM | AUD 0.45 | 0.48 | 2026-11-07 | +6.7% |  | ASX company data (last trade at fetch) |
 | ASX:CAF | AUD 0.35 | 0.375 | 2026-11-07 | +7.1% |  | ASX company data (last trade at fetch) |
 | NZX:SKC | NZD 0.635 | 0.69 | 2026-11-06 | +8.7% |  | data/prices/NZX |
+| ASX:ASG | AUD 1 | 1.1 | 2026-11-07 | +10.0% |  | ASX company data (last trade at fetch) |
 | ASX:CWP | AUD 5.75 | 6.33 | 2026-11-07 | +10.1% |  | ASX company data (last trade at fetch) |
 | ASX:GEM | AUD 0.095 | 0.105 | 2026-11-07 | +10.5% |  | ASX company data (last trade at fetch) |
 | NZX:SAN | NZD 6 | 6.65 | 2026-11-06 | +10.8% |  | data/prices/NZX |
@@ -58,4 +59,5 @@ No trigger hit.
 - 2026-11-19: NZX:BRW, AGM (announced)
 - 2026-11-19: NZX:MFB, 1H27 result and chair change (after the failed sale process) (announced)
 - 2026-11-19: NZX:OCA, 1H27 result (announced)
+- 2026-11-20: ASX:ASG, AGM (H1 FY27 guidance, order bank) (announced)
 - 2026-11-20: ASX:HUM, AGM (second strike and possible board spill) (announced)

@@ -15,6 +15,7 @@ date,market,ticker,event,date_basis
 2026-11-19,NZX,BRW,AGM,announced
 2026-11-19,NZX,MFB,1H27 result and chair change (after the failed sale process),announced
 2026-11-19,NZX,OCA,1H27 result,announced
+2026-11-20,ASX,ASG,"AGM (H1 FY27 guidance, order bank)",announced
 2026-11-20,ASX,HUM,AGM (second strike and possible board spill),announced
 2026-11-24,NZX,ERD,H1 FY27 result and strategic update,announced
 2026-11-25,ASX,IRI,annual meeting,announced
@@ -42,6 +43,7 @@ date,market,ticker,event,date_basis
 2027-02-10,ASX,RKN,FY26 result,inferred
 2027-02-16,ASX,AD8,H1 FY27 result,inferred
 2027-02-18,ASX,AFG,"HY27 result (lending margin, book size)",inferred
+2027-02-19,ASX,ASG,H1 FY27 result,inferred
 2027-02-19,NZX,SKC,H1 FY27 result (sale process update),inferred
 2027-02-23,ASX,GEM,"CY26 result (same-centre occupancy, covenants)",inferred
 2027-02-24,ASX,CWP,H1 FY27 result,inferred
