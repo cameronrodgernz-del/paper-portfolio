@@ -116,6 +116,29 @@ def write_rows(path: str, rows: list[dict]) -> int:
     return len(new)
 
 
+def thin_days(pdir: str, now: datetime, lookback: int = 15, share: float = 0.5) -> list[str]:
+    """Recent closed weekdays that most shares are missing (the feed can publish a session late, and the
+    nightly run only asks for days after the last stored one, so a part-published day stays thin)."""
+    files = [os.path.join(pdir, f) for f in os.listdir(pdir) if f.endswith(".csv")] if os.path.isdir(pdir) else []
+    since = (now.date() - timedelta(days=lookback)).isoformat()
+    dates = []
+    for f in files:
+        ds = {r["date"] for r in csv.DictReader(open(f, newline="")) if r.get("date", "") >= since}
+        if ds:
+            dates.append(ds)
+    if len(dates) < 20:
+        return []
+    out, d = [], date.fromisoformat(since)
+    while d < now.date():
+        ds = d.isoformat()
+        if d.weekday() < 5 and closed_by("NZX", ds, now):
+            have = sum(1 for x in dates if ds in x)
+            if 0 < have < share * len(dates):     # a day nobody has is a holiday, not a gap
+                out.append(ds)
+        d += timedelta(days=1)
+    return out
+
+
 def to_row(r: dict) -> dict:
     return {"date": nz_date(r["time_period_start"]), "open": r.get("price_open"), "high": r.get("price_high"),
             "low": r.get("price_low"), "close": r.get("price_close"), "volume": "", "adj_close": "", "dividend": "",
@@ -140,6 +163,10 @@ def main(data_dir: str = "data", backfill_from: str | None = None, max_requests:
             if d.weekday() < 5 and closed_by("NZX", d.isoformat(), now):
                 days.append(d.isoformat())
             d += timedelta(days=1)
+        refill = [x for x in thin_days(pdir, now) if x not in days]
+        if refill:
+            report.append("asking again for thin days: " + ", ".join(refill))
+        days = refill + days
         maps = load_map()
         for ds in days:
             rows = day_rows(feed, ds)

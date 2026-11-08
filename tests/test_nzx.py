@@ -53,5 +53,19 @@ with tempfile.TemporaryDirectory() as d:
     check("an order over NZ$2,500 in a smaller NZX company is refused", any("NZ$2,500" in x for x in r), r)
     r = check_order(val, 0.0, "special", "NZX", "XYZ", "buy", 2500, 1.0, industry="x")
     check("an order of NZ$2,500 passes", r == [], r)
+# the nightly fetch asks again for a recent session most shares are missing
+from datetime import datetime, timezone  # noqa: E402
+import fetch_nzx  # noqa: E402
+with tempfile.TemporaryDirectory() as d:
+    full = ["2026-10-29", "2026-10-30", "2026-11-02", "2026-11-03", "2026-11-04", "2026-11-05", "2026-11-06"]
+    for i in range(30):
+        write(d, f"S{i:02d}", [(x, 1, 1, 1, 1, "") for x in full if i < 3 or x not in ("2026-11-02", "2026-11-03", "2026-11-04")])
+    now = datetime(2026, 11, 8, 20, 0, tzinfo=timezone.utc)
+    got = fetch_nzx.thin_days(os.path.join(d, "prices", "NZX"), now)
+    check("a session most shares are missing is asked for again", got == ["2026-11-02", "2026-11-03", "2026-11-04"], got)
+    write(d, "S00", [(x, 1, 1, 1, 1, "") for x in full])
+    for i in range(30):
+        write(d, f"S{i:02d}", [(x, 1, 1, 1, 1, "") for x in full])
+    check("a complete fortnight asks for nothing", fetch_nzx.thin_days(os.path.join(d, "prices", "NZX"), now) == [])
 print("\nALL PASS" if not fails else f"\n{len(fails)} FAILED: {fails}")
 sys.exit(1 if fails else 0)
