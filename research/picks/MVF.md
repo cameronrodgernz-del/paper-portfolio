@@ -7,16 +7,16 @@ Fact sheet: none. The lead was the triage in reports/special_situations_triage_a
 
 Value pick (rulebook section 5a, from 8 Nov 2026): not a value pick. Over 24 months the bad case is about A$0.64 (13.5% below the price, 10% allowed) and the middling about A$0.82 (10.8% above, 15% needed), and the expected gain after costs (+0.7%) is far below the 14.3% minimum. See "Outcomes and chances".
 
-> The desk's view in one line: on its own earnings Monash IVF is worth less than it trades at. FY26 underlying profit fell 41% to A$16.1m, the second half earned only A$5.7m, and guidance was missed or cut four times in fifteen months. At the multiples the market pays three listed Australian healthcare service companies, FY26 earnings are worth about A$0.59 a share and a modest FY27 recovery about A$0.65; the A$0.74 price already pays 19 times trailing earnings and 10.5 times EBITDA after rent, above all three peers. The consortium called A$0.90 its highest price before the June profit warning, and A$0.90 is now 23 times FY26 earnings per share. Weighting 45% that nothing happens and earnings stay weak (A$0.61), 40% that 1H27 shows a recovery without a bid (A$0.75) and 15% that a control proposal or a strong recovery arrives (A$0.87) gives an expected price of A$0.705, -7.7% after costs, against a +2.27% minimum. The case clears at A$0.665 or below, where the shares traded in June and late August 2026.
+> The desk's view in one line: on its own earnings Monash IVF is worth less than it trades at. FY26 underlying profit fell 41% to A$16.1m, the second half earned only A$5.7m, and guidance was missed or cut four times in fifteen months. At the multiples the market pays three listed Australian healthcare service companies, FY26 earnings are worth about A$0.59 a share and a modest FY27 recovery about A$0.65; the A$0.74 price already pays 19 times trailing earnings and 10.5 times EBITDA after rent, above all three peers. The consortium called A$0.90 its highest price before the June profit warning, and A$0.90 is now 23 times FY26 earnings per share. Weighting 45% that nothing happens and earnings stay weak (A$0.61), 40% that 1H27 shows a recovery without a bid (A$0.75) and 15% that a control proposal or a strong recovery arrives (A$0.87) gives an expected price of A$0.705, -7.7% after costs, against a +2.27% minimum. The case clears at A$0.665 or below; the shares closed at A$0.655 to A$0.685 on 16 days between June and August 2026.
 
 Order of work: the price was in the brief, so it was in view from the start. The value comes from the company's underlying EBITDA and profit, priced at what the market pays Integral Diagnostics, Australian Clinical Labs and Sonic Healthcare, and checked with a simple discounted cash flow; the good case comes from what the consortium put on the table. The price is used only in "Why the market is wrong" and at the end of "Outcomes and chances".
 
 ## The company in plain words
-Monash IVF runs fertility clinics. In Australia it has 24 IVF clinics and 4 service centres in every mainland state, 4 day hospitals, 18 ultrasound clinics (mostly women's imaging), a genetics laboratory in Adelaide and endocrine and andrology laboratories; outside Australia it has 4 clinics in Kuala Lumpur, Johor Bahru, Singapore and Bali [M3]. It is the second largest IVF provider in Australia, with 19.5% of Australian stimulated cycles over the twelve months to June 2026 (20.2% in the second half) [M3]. Virtus Health, private since 2022, is the largest.
+Monash IVF runs fertility clinics. In Australia it has 24 IVF clinics and 4 service centres, with a presence in every mainland capital city, 4 day hospitals, 18 ultrasound clinics (it describes itself as a provider of "specialist women's imaging"), a genetics laboratory in Adelaide and endocrine and andrology laboratories; outside Australia it has 4 clinics in Kuala Lumpur, Johor Bahru, Singapore and Bali [M3]. It is the second largest IVF provider in Australia, with 19.5% of Australian stimulated cycles over the twelve months to June 2026 (20.2% in the second half) [M3]. Virtus Health, private since 2022, is the largest.
 
 Money comes from patient fees for IVF treatment (a stimulated cycle, where eggs are collected, and frozen embryo transfers), part of which Medicare pays back to the patient, plus ultrasound scans, embryo genetic testing (PGT), day surgery and storage fees. FY26 revenue was A$269.5m: A$248.2m in Australia (IVF and ultrasound) and A$21.2m international [M1]. The cost base is mostly clinical staff, scientists, rent and laboratories, which the company calls "predominantly fixed" [M2], so a small fall in cycles takes a large share of profit.
 
-Management and board: Dr Victoria Atkinson, CEO and Managing Director since 5 January 2026 (formerly Chief Medical Officer of Healthscope) [M4, M5]. Her predecessor Michael Knaap resigned on 12 June 2025, two days after the second embryo incident was announced [M6]. The CFO role has had an acting holder since July 2025: Malik Jainudeen (also acting CEO), then interim CFO Birol Akdogan from March 2026; Matt Harrington starts by 4 January 2027 [M7]. Board after 28 October 2026: Catherine West (Chair since Richard Davis retired that day; a director since 2020), Zita Peach, Cathy Aston, Dr Dwayne Crombie and Dr Atkinson. Dr Richard Henshaw and Neil Broekhuizen, directors since the 2014 listing, retired; Gerd Schenkel joined on 1 September 2026 and resigned "for personal reasons" on 26 October [M8, M9].
+Management and board: Dr Victoria Atkinson, CEO and Managing Director since 5 January 2026 (formerly Chief Medical Officer of Healthscope) [M4, M5, M18]. Her predecessor Michael Knaap resigned on 12 June 2025, two days after the second embryo incident was announced; CFO Malik Jainudeen acted as CEO until she started [M6]. Finance has had three interim or departing chiefs since: Andrew MacLachlan as interim CFO from July 2025, Jainudeen's resignation as CFO announced in January 2026, and Birol Akdogan as interim CFO from March 2026; Matt Harrington starts by 4 January 2027 [M7, M31]. Board after 28 October 2026: Catherine West (Chair since Richard Davis retired that day; a director since 2020), Zita Peach, Cathy Aston, Dr Dwayne Crombie and Dr Atkinson. Dr Richard Henshaw and Neil Broekhuizen, directors since the 2014 listing, retired; Gerd Schenkel joined on 1 September 2026 and resigned "for personal reasons" on 26 October [M8, M9].
 
 Owners. 389,634,840 shares: 380,226,655 quoted and held by 9,855 holders at 30 September 2026, plus 9.40m shares held by doctors under long-term escrow [M1, M10]. The top 20 quoted holders held 59.91% [M10]:
 
@@ -47,7 +47,7 @@ From 5 November 2021 to 30 October 2026 the shares returned -11% with dividends 
 - Index: Monash IVF left the S&P/ASX 300 on 22 September 2025 (it also left in March 2021 and rejoined in March 2024) [D3].
 - Size and trading: A$288m market value; median A$146,800 traded a day over the 20 sessions to 30 October 2026 [D1].
 - Register: the consortium holds 19.6%, Argo 7.3%, and the top 20 hold 60% of the quoted shares [M10].
-- A messy two years: two embryo transfer incidents (one public in April 2025, one in June 2025), conditions placed on its Victorian clinic registrations, a CEO resignation, a year of acting finance chiefs, four guidance cuts or misses, a results release postponed a week for the audit, and a late ASX escrow notice [M6, M15 to M19, M2].
+- A messy two years: two embryo transfer incidents (one public in April 2025, one in June 2025), conditions placed on its Victorian clinic registrations, a CEO resignation, eighteen months of interim finance chiefs, four guidance cuts or misses, a results release postponed a week for the audit, and a late ASX escrow notice [M6, M15 to M19, M2].
 - Sector: fertility volumes fell across Australia in 2025 and 2026 (stimulated cycles -0.2% in FY26 for the industry, -7% for Monash domestically) [M3].
 - Coverage: one broker (Jefferies) appears in the secondary sources I found [X1, X2]; I didn't search for others.
 
@@ -88,10 +88,10 @@ Underlying profit, the company's own measure, adds back commissioning, software,
 - Leverage: the FY26 accounts report 1.9 times, describing the EBITDA as excluding the lease accounting, for covenant purposes [M1]. But 1.9 times is A$101.2m over A$53.4m, the underlying EBITDA that includes the lease benefit. At the half year, the 2.0 times reported (A$94.9m net debt) implied EBITDA of about A$47.5m against twelve-month underlying EBITDA of A$60.9m, a gap of about A$13.5m, which is the rent [M20, M21]. On that same basis June 2026 is about 2.6 times (A$101.2m over A$53.4m less A$14.2m of lease payments). The covenant limit given in February was below 3.5 times [M20]. I can't reconcile the two bases from the published documents; on the half-year basis the headroom is about a quarter of EBITDA, not a half.
 
 ### Assets and the book
-Net assets A$253.5m (A$0.65 a share), of which goodwill and intangibles are A$295.6m, so net tangible assets are negative [M3]. The impairment test uses a 12.0% pre-tax discount rate and 3% growth on the board's FY27 budget and passes [M1]. Book value says nothing useful about what a holder gets; the business is valued on its earnings.
+Net assets A$253.5m (A$0.65 a share), against goodwill and intangibles of A$295.6m, so net tangible assets are negative [M3]. The impairment test uses a 12.0% pre-tax discount rate and 3% growth on the board's FY27 budget and passes [M1]. Book value says nothing useful about what a holder gets; the business is valued on its earnings.
 
 ### Capital raisings and dividends
-No shares have been issued since the 2014 listing apart from acquisition and employee shares; the count has been 389,634,840 since at least July 2024 [M1]. Dividends: FY25 2.6c interim and no final; FY26 1.2c interim (ex-date 4 March 2026) and 1.3c final (paid 15 October 2026), a 60% payout [M1, M24]. The policy is 60% to 70% of underlying profit [M20].
+The share count has been 389,634,840 since at least July 2024 [M1, S5]; no shares were issued in FY25 or FY26. Dividends: FY25 2.6c interim and no final; FY26 1.2c interim (ex-date 4 March 2026) and 1.3c final (paid 15 October 2026), a 60% payout [M1, M24]. The policy is 60% to 70% of underlying profit [M20].
 
 ## Valuation
 
@@ -105,7 +105,7 @@ There is no listed Australian IVF company left. The nearest listed businesses ar
 | Sonic Healthcare (SHL), pathology and radiology | A$19.57 | 125.6c | 15.6 | 2.2 | 9.1 |
 | Median | | | 15.6 | | 9.1 |
 
-These businesses are steadier than Monash IVF: their volumes grew in FY26 (Sonic 5% organic) and none has had a safety incident of this kind [P1, P3, P4]. A discount would be fair; I apply the median and treat it as the top of the range for a business still shrinking.
+These businesses are steadier than Monash IVF: their revenue grew in FY26 (Sonic 5% organic, Integral 26% with an acquisition, Australian Clinical Labs about 1%) while Monash's fell [P1, P3, P4]. A discount would be fair; I apply the median and treat it as the top of the range for a business still shrinking.
 
 Monash IVF today: 19.0 times FY26 attributable underlying EPS of 3.90c.
 
@@ -146,7 +146,7 @@ Standalone value A$0.50 to A$0.76 (FY27 underlying EBITDA of A$50m to A$60m, the
 ## The players and what the rules allow
 
 ### The consortium: Genesis Capital and Soul Patts, up to 19.6%
-Who: Genesis Capital Investment Management (a Sydney healthcare private equity manager), through Magenta Investment Co, funded by loans from three Genesis Capital Fund II trusts; and Washington H. Soul Pattinson and Company through WHSP Holdings [S2, S1].
+Who: Genesis Capital Investment Management (a Sydney private equity manager), through Magenta Investment Co, funded by loans from three Genesis Capital Fund II trusts; and Washington H. Soul Pattinson and Company through WHSP Holdings [S2, S1].
 
 How it was built and what it paid:
 
@@ -168,7 +168,7 @@ Details a quick reader would miss, all in Genesis's notice [S2]:
 - A collar (Annexure D): on 17.4m shares Genesis holds cash-settled put options at A$0.80 and has sold call options at A$0.96. Its losses below A$0.80 are covered on those shares and its gains above A$0.96 are given up. The expiry isn't disclosed.
 - The co-operation agreement (Annexure B): it binds both sides to vote against and not accept any competing proposal and not to sell, but only for the "Exclusivity Period", four months from 21 November 2025 "or such other later or earlier date as the parties may agree", and the agreement "terminates at the end of the Exclusivity Period" (clauses 3, 4 and 7.2).
 
-Where they stand now: no substantial holder notice has been filed by either since 24 November 2025 [D4]. The April 2026 proposal came after the four months had run, so the agreement was presumably extended; whether it still binds them isn't public. If it has ended, each holds under 10% and should have filed a notice; none has been. The register at 30 September 2026 still shows Magenta with 23.4m shares [M10], so the swap hadn't been physically settled by then. Heavy trading from 1 to 16 September 2026 (16.9m shares, A$13.4m, at rising prices) and a 9.8m-share trade on 21 October 2026 (A$7.0m) [D1] are the size of the swap, but no notice links them to it, and Brunneis Investments' 19.0m holding appears for the first time on the 30 September register [M10]. Who Brunneis is, I couldn't find.
+Where they stand now: no substantial holder notice has been filed by either since 24 November 2025 [D4]. The April 2026 proposal came after the four months had run, so the agreement was presumably extended; whether it still binds them isn't public. If it has ended, each holds under 10% and should have filed a notice; none has been. The register at 30 September 2026 still shows Magenta with 23.4m shares [M10], so the swap hadn't been physically settled by then. Heavy trading from 1 to 16 September 2026 (16.9m shares, A$13.4m, at rising prices) and a 9.8m-share trade on 21 October 2026 (A$7.0m) [D1] are the size of the swap, but no notice links them to it, and Brunneis Investments' 19.0m holding is on the 30 September 2026 register but wasn't among the top 20 (smallest 1.3m) a year earlier [M10, M32]. Who Brunneis is, I couldn't find.
 
 What they've said: nothing public since the April proposal. They didn't nominate a director for the AGM (nominations closed 8 October 2026 [M28]; the notice has only board nominees [M29]).
 
@@ -179,13 +179,13 @@ What the rules let them do:
 - A takeover bid at any time, at any price, without the board's support. The minimum price rule doesn't bind (their last purchase, at A$0.80, was more than four months ago). A private equity buyer rarely bids without due diligence; Soul Patts could.
 - A scheme needs the board to propose it, then 75% of votes cast and a majority by number of the other holders, and the court.
 - A block: at the 2025 AGM about 134.5m votes were cast on the remuneration report [M30]. A rival scheme with, say, 60% turnout would see the consortium's 61.2m registered shares cast about a quarter of the votes, enough to block it; a rival takeover bid can't reach 90% compulsory acquisition without them. Any other buyer has to deal with the consortium first, as CapVest had to deal with BGH at Virtus [X5].
-- At the AGM: the consortium's 61.2m registered shares voting against the remuneration report would on their own produce a "first strike" at last year's turnout (about 37% against). A strike in 2026 and another in 2027 would put a board spill to the 2027 AGM.
+- At the AGM: a "first strike" needs 25% of the votes cast on the remuneration report against it. Last year 134.5m votes were cast and 8.3% were against [M30]; the consortium's 61.2m registered shares voting against would, at that turnout, be well over a third of all votes on their own. A strike in 2026 and another in 2027 would put a board spill to the 2027 AGM.
 
 ### The board
 Unanimously rejected A$0.80 as "opportunistic" and A$0.90 because of comparable IVF deals, support for the new CEO's strategy and "feedback from a number of non-Consortium shareholders"; it "remains open to discussions regarding a change of control transaction at a higher valuation" [M25, M27]. It had "accelerated the Company's internal planning cycle" to assess A$0.90 [M27]; seven weeks later it cut guidance [M23]. Richard Davis, the chair who led both rejections, retired on 28 October 2026 under a renewal plan announced in 2025 [M8, M18]; Catherine West, who chairs now, voted for both rejections. The directors together own about 132,000 shares [M1].
 
 ### Other holders
-- Argo Investments: 28.4m (7.3%) on the register, a long-term holder since before 2020 [M10, S3].
+- Argo Investments: 28.4m (7.3%) on the register, unchanged from a year earlier; a holder since before 2020 [M10, M32, S3].
 - Brunneis Investments: 19.0m (4.9%), identity unknown [M10].
 - Regal sold its 15.4m to the consortium at A$0.80 and left the register in November 2025 [S9]. UniSuper and Challenger left in 2025 [S4, S10].
 - Doctors' escrowed shares (9.40m, 2.4%) are released when doctors retire, turn 63 or leave on good terms [M1].
@@ -222,7 +222,7 @@ That is 1.7% to 4.2%; I use 3.0%.
 
 Value pick test (24 months, to about November 2028, with the FY27 and FY28 results as dated events): bad A$0.64 (FY26 earnings, A$0.59, plus about 5c of dividends), middling A$0.82 (recovery to about A$60m of EBITDA, plus dividends), good A$0.95 (a deal at A$0.90 to A$0.95 or EBITDA back near FY25's A$66m); at 40/45/15 the expected price is A$0.7675, +3.7% before costs and +0.7% after, against a 14.3% minimum. The bad case is 13.5% below the price (10% allowed) and the middling 10.8% above (15% needed). It fails all three tests.
 
-Watch trigger price: A$0.665. At that price, with nothing else changed, the six-month case gives +3.0% after costs against the 2.27% minimum, the bad case is 8.3% below and the middling 12.8% above, so it would qualify as an ordinary special situation pick but not a value pick (the value-pick tests need A$0.65 or below). The shares closed between A$0.655 and A$0.705 from 9 June to 1 July 2026 and from 24 to 31 August 2026 [D1].
+Watch trigger price: A$0.665. At that price, with nothing else changed, the six-month case gives +3.0% after costs against the 2.27% minimum, the bad case is 8.3% below and the middling 12.8% above, so it would qualify as an ordinary special situation pick but not a value pick (the value-pick tests need A$0.65 or below). Since the April rejection the shares have closed at or below A$0.685 on 16 days, in June, July and August 2026, with a low of A$0.655 on 24 July [D1].
 
 ## Dated events
 - About 24 November 2026: the latest date the Genesis swap's unwind can start, unless the parties agreed otherwise [S2]. A notice showing the consortium below 19.6% would mean cash settlement and Jarden selling up to 15.2m shares (about 40 days of median volume) into the market; physical settlement needs no notice, but would show on the register.
@@ -306,6 +306,8 @@ Monash IVF (ASX announcements):
 - [M28] Important Dates for Shareholders, 24 Sep 2026 (03143488): https://announcements.asx.com.au/asxpdf/20260924/pdf/074h07c4ms2kmf.pdf
 - [M29] Notice of 2026 AGM, 23 Oct 2026 (03156106): https://announcements.asx.com.au/asxpdf/20261023/pdf/075p2x4q55ydb2.pdf
 - [M30] Results of 2025 AGM, 20 Nov 2025 (03029673): https://announcements.asx.com.au/asxpdf/20251120/pdf/06s90zwn91wq2z.pdf
+- [M31] Appointment of Interim CFO, 16 Jul 2025 (02969755): https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=02969755; Resignation of CFO, 27 Jan 2026 (03052942): https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03052942; Appointment of Interim CFO, 26 Mar 2026 (03076050): https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03076050; Resignation of CEO and appointment of acting CEO, 12 Jun 2025 (02957662), as [M6]
+- [M32] FY2025 Annual Report, shareholder information, 20 Oct 2025 (03012152): https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03012152
 - Fertility North acquisition, 19 Dec 2023 (02756049), for the put option and earn-outs: https://announcements.asx.com.au/asxpdf/20231219/pdf/05yq6rvphqjcx7.pdf
 - Announcement lists: https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=MVF&timeframe=Y&year=2026 (and year=2025, 2024, 2023)
 

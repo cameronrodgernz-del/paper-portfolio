@@ -12,8 +12,8 @@ In short: the fact sheet's A$0.33 "if it goes our way" is the good case, not the
 1. The value of the plan swings hard on grade. Mining, haulage and milling costs are per tonne, so 10% fewer ounces cuts the project's after-tax value at 8% from A$108m to A$60m at today's gold price. That is why the late Ore Reserve matters.
 2. The timetable has already slipped. The study planned to lodge the Munda Mine Development and Closure Plan in August 2026 and all approval submissions by the September quarter, with about six months to approve [A1, A11]. On 15 October its preparation was "well advanced" [A2]. Approvals in "early 2027" now look like mid-2027 at best, and the board will only approve the build once all the money is raised and all permits are in hand [A1].
 3. There are 33.5m nil-priced performance rights (31.75m held by directors) and 18.3m options on issue [A2]. About 11.5m rights vest along the middling path (raising the build money, the 300,000oz resource, the Burbanks permits, the camp) and about 5m more at commissioning and first gold [A4 note 14]. The fact sheet's share count leaves them out.
-4. The second-hand plant bought for A$1.2m doesn't lower the A$145m. The company says the study's capital estimate already assumed comparable second-hand equipment; the "A$15 to 20 million" saving is against new equipment [A2].
-5. The Union Jack vote shows nothing about the question. It is A$3m of shares (6% more shares, already in the count). Its 2 December date was the company's estimate [A7]; no notice of meeting had been lodged by 8 November [A17], and a listed company must give 28 days' notice [S2], so it can't be held before about 7 December. The company must use its best endeavours to hold it by 31 December 2026 [A7].
+4. The second-hand plant bought for A$1.2m doesn't lower the A$145m. The company says the study's capital estimate already assumed comparable second-hand equipment, and that the saving against new equipment (A$15m to A$20m) is "already largely reflected in the Study capital estimate" [A8, A2].
+5. The Union Jack vote shows nothing about the question. It is A$3m of shares (6% more shares, already in the count). Its 2 December date was the company's estimate [A7]; no notice of meeting had been lodged by 8 November [A16], and a listed company must give 28 days' notice [S2], so it can't be held before about 7 December. The company must use its best endeavours to hold it by 31 December 2026 [A7].
 
 At A$0.235 the market values Auric at about its cash plus its 301,000 ounces at what unfunded developers' ounces fetch, plus the Burbanks mill at cost (A$0.22 to A$0.25 a share). That is close to what the plan is worth to today's holders once it is paid for. The gap the fact sheet found sits in the good case.
 
@@ -67,7 +67,7 @@ From the half-year accounts (scanned pages, read by text recognition and checked
 - The resource behind the pit leans on high-grade patches: grade control in the Starter Pit hit, for example, 14m at 115.67g/t [A12]. The Starter Pit reconciled above the model [A1], which helps, but an Ore Reserve applies its own dilution and wall angles.
 
 ### Timing record
-- Ore Reserve: "during the second half of 2026" (29 July [A11]); "October 2026" (24 September and 15 October [A9, A2]); not lodged by 8 November [A17].
+- Ore Reserve: "during the second half of 2026" (29 July [A11]); "October 2026" (24 September and 15 October [A9, A2]); not lodged by 8 November [A16].
 - Approvals: Munda's Mine Development and Closure Plan "will be prepared for submission in August 2026 with an approximately 6 month timeframe" [A1]; submissions "by the latest in the September quarter 2026" [A1, A11]; on 15 October, preparation "well advanced" [A2]. Two miscellaneous licences for Burbanks infrastructure were applied for in the September quarter [A2].
 - First gold has moved once already, from the December quarter of 2027 (April 2026 roadshow) to March 2028 (July 2026 study), per the fact sheet.
 - Lindsay's: the purchase is still held up in the Warden's Court [A2].
@@ -79,8 +79,8 @@ From the half-year accounts (scanned pages, read by text recognition and checked
 - Options: 8.69m at A$0.237 vest on 40,000 to 80,000oz produced; 5.54m at A$0.225 to January 2029; smaller lines at A$0.10 to A$0.60 [A4].
 
 ### Holders and director dealings
-- Substantial holders: Markoff 9.59% to 10.56% on 18 November 2025 (per the fact sheet); no other notices in 2026 [A17].
-- On-market: Mark English bought 200,000 shares on 3 August 2026 at A$0.195, A$39,000 [A15]. No on-market sells. The rest of the 2026 director notices are option and rights grants after the 28 May AGM [A17].
+- Substantial holders: Markoff 9.59% to 10.56% on 18 November 2025 (per the fact sheet); no other notices in 2026 [A16].
+- On-market: Mark English bought 200,000 shares on 3 August 2026 at A$0.195, A$39,000 [A15]. No on-market sells. The rest of the 2026 director notices are option and rights grants after the 28 May AGM [A16].
 - Capital raised in two years: 37m shares at A$0.18 in May 2025 (A$6.66m, per the fact sheet); option exercises, including 800,000 at A$0.15 in the September quarter [A2, A14].
 
 ### Other matters
@@ -197,15 +197,15 @@ Watch triggers, nothing else changing:
 - 1 December 2026: Gareth Solly becomes managing director [A11].
 - About 7 to 31 December 2026: the Union Jack vote. Not a deciding event.
 - December quarter 2026: the second-hand plant arrives at Burbanks [A2]; Union Jack drilling starts in November [A6].
-- About 28 January 2027: December quarterly report and cash (inferred from 28 January 2026 [A17]).
-- About 30 March 2027: 2026 accounts, showing the tax bill and its payment (inferred from 30 March 2026 [A17]).
-- About 29 April 2027: March quarterly report (inferred from 29 April 2026 [A17]).
+- About 28 January 2027: December quarterly report and cash (inferred from 28 January 2026 [A16]).
+- About 30 March 2027: 2026 accounts, showing the tax bill and its payment (inferred from 30 March 2026 [A16]).
+- About 29 April 2027: March quarterly report (inferred from 29 April 2026 [A16]).
 - Mid-2027 at the earliest: approvals, then the funding package and the decision to build (the board's rule [A1]; the date is my inference from the slipped submissions).
 - March 2028 target: first gold [A1].
 
 What the events must show to reopen the case:
-1. The Ore Reserve. It supports the plan if it holds at least about 145,000oz Probable (the Indicated part of the pit) at 1.7g/t or better, a strip ratio of 11 to 1 or less, a reserve gold price of A$5,500 or less, and pre-production capital of A$145m or less. That lifts the six-month middling to about A$0.23 and the ordinary-pick trigger to about A$0.215. A reserve under about 130,000oz, a grade under 1.6g/t or capital over A$160m closes the case: each 10% of ounces lost takes about A$48m off the project value, and the share falls back to the ounces-and-cash floor.
-2. The funding package. It answers the question if new equity is A$70m or less at A$0.22 or more (or A$50m or less at A$0.18 or more), with the rest from debt, a prepayment or a royalty. On the grid that is A$0.32 or more by late 2028, at least 36% above today's price, and it would be worth re-running as an ordinary pick with first gold as the event. Equity of A$110m or more, or a placement at A$0.16 or less, closes it: the grid gives A$0.23 or less even if the mill is built on time.
+1. The Ore Reserve. It supports the plan if it holds at least about 145,000oz Probable (the Indicated part of the pit) at 1.7g/t or better, a strip ratio of 11 to 1 or less, a reserve gold price of A$5,500 or less, and pre-production capital of A$145m or less. That lifts the six-month middling to about A$0.23 (the market's multiple at 0.45) and, with the bad and good chances then 25% each, the ordinary-pick trigger to about A$0.215. A reserve under about 130,000oz, a grade under 1.6g/t or capital over A$160m closes the case: each 10% of ounces lost takes about A$48m off the project value, and the share falls back to the ounces-and-cash floor.
+2. The funding package. It answers the question if new equity is A$70m or less at A$0.22 or more (or A$50m or less at A$0.20 or more), with the rest from debt, a prepayment or a royalty. On the grid that is about A$0.32 or more by late 2028, about 36% above today's price, and it would be worth re-running as an ordinary pick with first gold as the event. A$90m or more at A$0.16 or less, or A$110m or more at A$0.18 or less, closes it: the grid gives A$0.25 or less, about today's price, even if the mill is built on time.
 3. Or the price falls to the triggers above with nothing else changed.
 
 ## What would make this wrong
@@ -218,7 +218,7 @@ Exit rule, if a card is ever written: sell on a reserve under 130,000oz or capit
 
 ## Checks
 - Not on Cam's excluded list: config/judgement_excluded.csv lists no companies; Cam confirmed on 8 November 2026 that gaming, wagering and racing are open. Auric is a gold miner.
-- No placement-pattern reopening in the last 30 sessions (rulebook section 9): the only halt in a year, 7 and 8 September 2026 for Union Jack, reopened on 9 September at A$0.26, above the A$0.235 close before it, and was 38 sessions before 30 October [D1]. No placement in 2026 [A17].
+- No placement-pattern reopening in the last 30 sessions (rulebook section 9): the only halt in a year, 7 and 8 September 2026 for Union Jack, reopened on 9 September at A$0.26, above the A$0.235 close before it, and was 38 sessions before 30 October [D1]. No placement in 2026 [A16].
 - Liquidity (section 3): median value traded A$40,808 a day over the 20 sessions 5 to 30 October 2026 (volume x close, Norgate, whose file ends on 30 October), lowest session A$3,487 on 16 October [D1]; 6 November traded 194,042 shares, about A$45,600 [D2]. Above the A$10,000 floor. Two sessions at 10% of the median is A$8,162, so the 2.5% cap (about A$2,015) fits.
 
 ## Corrections to the fact sheet
@@ -228,8 +228,8 @@ Exit rule, if a card is ever written: sell on a reserve under 130,000oz or capit
 - Share count: the 200.4m leaves out 33.5m performance rights (about 11.5m vest along the middling path and about 5m more at first gold) and 18.3m options.
 - Deciding events: the Union Jack vote doesn't bear on the question, and its 2 December date was an estimate that the 28-day notice rule has already ruled out. The deciding events are the Ore Reserve and the funding package.
 - Timing: approval submissions planned for August and the September quarter had not been lodged by 15 October, so approvals "in early 2027" now look like mid-2027.
-- The A$1.2m second-hand plant was already in the study's capital estimate; it doesn't reduce the A$145m.
-- Union Jack: A$6.5m in cash for the mining lease (including the A$0.1m deposit, so A$6.4m on 6 October) plus A$0.1m for the prospecting licence, A$6.6m in all, as the fact sheet says. Milestone shares are priced at the higher of the five-day average and a A$0.24 floor, and default to 50% shares (75% if agreed), not "half in shares at the five-day average price" [A7].
+- The A$1.2m second-hand plant was already in the study's capital estimate [A8]; it doesn't reduce the A$145m.
+- Union Jack: A$6.5m in cash for the mining lease (including the A$0.1m deposit, so A$6.4m on 6 October) plus A$0.1m for the prospecting licence, A$6.6m in all, as the fact sheet says. Since 7 October the milestone payments can be paid in cash, shares or both by agreement, with shares at most 75% (50% if not agreed), priced at the higher of the five-day average and a A$0.24 floor; the fact sheet's "half in shares at the five-day average price" is the 9 September version [A7, A5].
 - The fact sheet's own arithmetic checks out: A$95m at 8% and A$5,750 (I get A$95.3m); at today's A$5,920 it is A$108m.
 
 ## What I couldn't verify
@@ -259,7 +259,7 @@ Auric Mining, ASX announcements (announcements.asx.com.au):
 - [A13] 13 Apr 2026, Retraction & Replacement Announcement, Investor Presentation (03082092): https://announcements.asx.com.au/asxpdf/20260413/pdf/06yfn4sws3gbpp.pdf
 - [A14] 17 Aug 2026 and 16 Sep 2026, Applications for quotation of securities (option exercises) (03125858, 03140311): https://announcements.asx.com.au/asxpdf/20260817/pdf/072txnn2m9rztb.pdf and https://announcements.asx.com.au/asxpdf/20260916/pdf/0745ftq1ncpcpp.pdf
 - [A15] 5 Aug 2026, Change of Director's Interest Notice, Mark English (03122004): https://announcements.asx.com.au/asxpdf/20260805/pdf/072fhwb0rbddx9.pdf
-- [A17] ASX announcement list for AWJ, 2026, read 8 Nov 2026 (latest item 15 Oct 2026): https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=AWJ&timeframe=Y&year=2026
+- [A16] ASX announcement list for AWJ, 2026, read 8 Nov 2026 (latest item 15 Oct 2026): https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=AWJ&timeframe=Y&year=2026
 
 Peers, ASX announcements:
 - [P1] Astral Resources, 29 Oct 2026, Quarterly Activities & Cashflow Report (03159050): https://announcements.asx.com.au/asxpdf/20261029/pdf/075yjr2tbjvqf6.pdf

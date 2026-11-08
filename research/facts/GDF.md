@@ -59,7 +59,8 @@ For the watch list (facts only, not graded):
   about 3.1c (12.5c a year); 1H27 result about 4 Feb 2027 (inferred from 4 Feb 2026); interest rate swaps of A$70m expire 4 Mar 2027 [1][2][4][8].
 - Price for reference: A$1.12, the last trade on 6 Nov 2026 (ASX company data), a market value of A$244m on 218.07m quoted
   securities. That is 28% below the company's A$1.56 pro forma NTA (22% below the A$1.44 on every quoted security), 9.0 times
-  upgraded FY27 funds from operations, and an 11.2% distribution yield before the specials [12].
+  upgraded FY27 funds from operations, and an 11.2% distribution yield before the specials [12]. The price was A$1.025 at
+  the close on 20 Oct 2026, the day before the sale was announced [1], and A$1.145 at the 30 Oct close [12].
 
 ## 7. Grade
 C, on a named kill fact: the sale of the whole property portfolio, with settlements, debt repayment and special
