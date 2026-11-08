@@ -196,7 +196,7 @@ Exit rule: no position now. If one is opened under a reopen condition: sell at t
 ## What I couldn't verify
 - The election. Preliminary seat numbers come from SBS citing RNZ [X3]; I couldn't open RNZ's own results page or NZ Herald (blocked), and the official count is due on 27 November [X4]. My quarter chance of a Labour-led government is my judgement.
 - Why the sector fell. The timing fits Labour's 31 August pledge and the campaign, but prices fell gradually rather than on the day, and Summerset also cites the Middle East conflict holding back home sales [S19]. I can't prove the cause.
-- The cost of three-month repayment to Oceania (my estimate of NZ$27m to NZ$54m), the cost of equity (10%, my assumption), and the true development margin (inferred from The Helier only).
+- The cost of three-month repayment to Oceania (my estimate of NZ$27m to NZ$54m), the cost of equity (10%, my assumption), and the true development margin (The Helier's last 20 apartment prices aren't disclosed; Jarden's sector estimate is from 2023).
 - CBRE's full valuation reports, Arvida's independent adviser report, and whether Ryman discloses embedded value (not in its FY26 presentation).
 - NZX 50 membership, and analyst targets (not read; not primary).
 - The make-up of the NZ$48.5m of resale receivables at 31 March 2026, beyond the company's note that it is timing [S2, slide 11].
