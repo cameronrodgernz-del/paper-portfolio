@@ -1,7 +1,11 @@
 group,market,ticker,name,price,market_value_m,median_traded_k,traded_days_of_60,return_12m,below_high,dividends_12m,volatility,short_pct,as_of
 Big fallers,ASX,A1N,ARN Media Limited,0.275,86.1,19.8,54,-0.5045,-0.5,0.0,0.0405,0.007,2026-10-30
+Big fallers,ASX,AAL,Alfabs Australia Limited,0.2,,6.5,47,-0.5833,-0.5918,0.0,0.0378,,2026-10-30
+Big fallers,ASX,ABY,Adore Beauty Group Limited,0.25,23.5,10.3,59,-0.7826,-0.8077,0.0,0.0597,0.0,2026-10-30
 Big fallers,ASX,ACE,Acusensus Limited,1.115,190.5,109.0,60,-0.4614,-0.4639,0.0,0.0343,0.0007,2026-10-30
 Big fallers,ASX,AD8,Audinate Group Limited,2.08,175.9,571.8,60,-0.5738,-0.572,0.0,0.0419,0.0098,2026-10-30
+Big fallers,ASX,AGN,Argenica Therapeutics Limited,0.115,,7.6,53,-0.5965,-0.6567,0.0,0.0736,,2026-10-30
+Big fallers,ASX,AHK,ARK Mines Limited,0.27,,5.5,54,-0.5748,-0.5781,0.0,0.0542,,2026-10-30
 Big fallers,ASX,AIM,AI-Media Technologies Limited,0.225,47.3,36.3,60,-0.7472,-0.7472,0.0,0.0488,0.0,2026-10-30
 Big fallers,ASX,AL3,Aml3d Limited,0.115,65.3,153.8,60,-0.4103,-0.4889,0.0,0.0597,0.0021,2026-10-30
 Big fallers,ASX,AMA,AMA Group Limited,0.445,213.8,59.1,60,-0.5223,-0.5189,-0.8991,0.04,0.0014,2026-10-30
@@ -19,12 +23,15 @@ Big fallers,ASX,BBT,Betr Entertainment Limited,0.13,136.4,17.6,60,-0.4583,-0.527
 Big fallers,ASX,BHM,Broken Hill Mines Limited,0.465,129.2,482.3,58,-0.4529,-0.6395,0.0,0.0398,0.0076,2026-10-30
 Big fallers,ASX,BKB,Black Bear Minerals Limited,0.34,59.5,110.2,58,-0.5211,-0.6895,0.0,0.0433,0.0007,2026-10-30
 Big fallers,ASX,BNL,Blue Star Helium Limited,0.11,676.8,10.3,59,-0.6479,-0.1538,-0.9792,0.1714,0.0,2026-10-30
+Big fallers,ASX,BOC,Bougainville Copper Limited 1 Kina,0.155,62.2,9.5,20,-0.874,-0.8664,0.0,0.1161,0.0,2026-10-30
 Big fallers,ASX,BRN,Brainchip Holdings Ltd,0.105,239.0,252.5,60,-0.4615,-0.475,0.0,0.0344,0.0148,2026-10-30
 Big fallers,ASX,BVR,Bellavista Resources Ltd,0.195,42.1,299.1,60,-0.625,-0.7857,0.0,0.0611,0.005,2026-10-30
 Big fallers,ASX,BWN,Bhagwan Marine Limited,0.27,107.4,43.5,58,-0.5028,-0.5135,0.0221,0.0382,0.0,2026-10-30
 Big fallers,ASX,CCR,Credit Clear Limited,0.14,,25.4,57,-0.5088,-0.5088,0.0,0.0572,,2026-10-30
+Big fallers,ASX,COS,Cosol Limited,0.165,,8.1,55,-0.6526,-0.6887,0.0,0.0457,,2026-10-30
 Big fallers,ASX,CRN,Coronado Global Resources Inc. CDI 10:1,0.145,243.1,645.3,60,-0.5672,-0.7041,0.0,0.0517,0.0069,2026-10-30
 Big fallers,ASX,CTT,Cettire Limited,0.32,122.0,537.4,60,-0.5224,-0.6559,0.0,0.0728,0.0052,2026-10-30
+Big fallers,ASX,CVR,Cavalier Resources Limited,0.2,,8.6,44,-0.5455,-0.5349,0.0,0.0645,,2026-10-30
 Big fallers,ASX,CXL,Calix Limited,0.2,43.2,55.6,60,-0.5062,-0.8824,0.0,0.0494,0.0031,2026-10-30
 Big fallers,ASX,CZR,CZR Resources Ltd,0.175,42.4,35.6,58,-0.507,-0.6354,0.0,0.0342,0.0002,2026-10-30
 Big fallers,ASX,D3E,D3 Energy Limited,0.25,,14.5,56,-0.4819,-0.4845,0.0,0.0558,,2026-10-30
@@ -32,6 +39,7 @@ Big fallers,ASX,DAI,Decidr AI Industries Ltd,0.21,74.5,163.0,60,-0.7308,-0.7407,
 Big fallers,ASX,DBF,Duxton Farms Ltd,0.335,,11.2,52,-0.6082,-0.6417,0.0,0.0391,,2026-10-30
 Big fallers,ASX,DXB,Dimerix Limited,0.21,,188.5,58,-0.5758,-0.664,0.0,0.0323,,2026-10-30
 Big fallers,ASX,EL8,Elevate Uranium Ltd,0.21,99.0,153.2,60,-0.4,-0.5532,0.0,0.0489,0.0073,2026-10-30
+Big fallers,ASX,EMH,European Metals Holdings Limited,0.14,,7.3,54,-0.44,-0.6818,0.0,0.0653,,2026-10-30
 Big fallers,ASX,EML,EML Payments Limited,0.215,84.1,222.1,60,-0.7749,-0.776,0.0,0.0461,0.0156,2026-10-30
 Big fallers,ASX,ENR,Encounter Resources Limited,0.23,128.9,89.2,60,-0.5106,-0.5106,0.0,0.0582,0.0,2026-10-30
 Big fallers,ASX,FAL,Falcon Metals Ltd,0.35,92.4,247.8,58,-0.4737,-0.6089,0.0,0.0469,0.0031,2026-10-30
@@ -42,7 +50,10 @@ Big fallers,ASX,GEM,G8 Education Limited,0.1,77.2,295.6,60,-0.8758,-0.8621,0.0,0
 Big fallers,ASX,GRR,Grange Resources Limited,0.105,121.5,65.7,60,-0.6038,-0.6441,0.0,0.0355,0.0001,2026-10-30
 Big fallers,ASX,HAS,Hastings Technology Metals Ltd,0.2,46.9,27.3,60,-0.6678,-0.6947,0.0217,0.0393,0.0021,2026-10-30
 Big fallers,ASX,HLS,Healius Limited,0.495,359.5,1300.4,59,-0.4407,-0.524,0.0,0.0445,0.0192,2026-10-30
+Big fallers,ASX,HVY,Heavy Minerals Limited,0.275,,9.2,55,-0.4022,-0.5833,0.0,0.0505,,2026-10-30
 Big fallers,ASX,HZR,Hazer Group Limited,0.275,,25.0,60,-0.5133,-0.5339,0.0,0.0288,,2026-10-30
+Big fallers,ASX,I88,Infini Resources Limited,0.12,,8.2,58,-0.6516,-0.6842,0.0162,0.059,,2026-10-30
+Big fallers,ASX,IIQ,Inoviq Ltd,0.135,19.0,12.5,57,-0.6143,-0.7523,0.0,0.036,0.0,2026-10-30
 Big fallers,ASX,INR,Ioneer Ltd,0.105,324.2,365.4,60,-0.4167,-0.5435,0.0,0.0402,0.011,2026-10-30
 Big fallers,ASX,KAU,Kaiser Reef Limited,0.155,93.8,229.6,60,-0.4038,-0.6265,0.0,0.0329,0.0,2026-10-30
 Big fallers,ASX,KPG,Kelly Partners Group Holdings Limited,4.34,196.5,173.0,60,-0.5436,-0.5432,0.0,0.0323,0.0,2026-10-30
@@ -51,21 +62,26 @@ Big fallers,ASX,LGI,LGI Limited,2.65,274.1,147.2,60,-0.4028,-0.4111,0.0095,0.041
 Big fallers,ASX,LGM,Legacy Minerals Holdings Limited,0.105,,16.7,60,-0.5882,-0.58,0.0,0.0591,,2026-10-30
 Big fallers,ASX,LMS,Litchfield Minerals Limited,0.165,,10.6,57,-0.7462,-0.7898,0.0,0.0665,,2026-10-30
 Big fallers,ASX,LOT,Lotus Resources Limited,0.185,101.2,1665.1,60,-0.8763,-0.9429,-0.8696,0.0622,0.1585,2026-10-30
+Big fallers,ASX,MCP,McPherson's Limited,0.13,,6.7,55,-0.4694,-0.48,0.0,0.0325,,2026-10-30
 Big fallers,ASX,MMI,Metro Mining Limited,0.8,247.0,559.4,60,-0.4521,-0.5543,-0.95,0.0454,0.0065,2026-10-30
 Big fallers,ASX,MPW,Metal Powder Works Limited,1.4,169.9,150.4,56,-0.5172,-0.5484,0.0,0.0489,0.0116,2026-10-30
+Big fallers,ASX,MTH,Mithril Silver and Gold Limited,0.185,34.7,18.6,60,-0.6509,-0.7154,0.0,0.039,0.0042,2026-10-30
 Big fallers,ASX,MTM,Metallium Limited,0.215,162.4,1057.2,60,-0.7296,-0.7981,0.0,0.0803,0.0011,2026-10-30
 Big fallers,ASX,MVP,Medical Developments International Limited,0.365,41.1,77.0,60,-0.4672,-0.471,0.0,0.0338,0.0,2026-10-30
 Big fallers,ASX,MYX,Mayne Pharma Group Limited,2.54,208.0,365.0,60,-0.4442,-0.5613,0.0,0.0282,0.023,2026-10-30
 Big fallers,ASX,NVA,Nova Minerals Corp CDI 12:1,0.41,89.9,213.8,60,-0.615,-0.7172,0.0,0.055,0.002,2026-10-30
 Big fallers,ASX,NYR,Nyrada Inc. CDI 1:1 US Prohibited,0.46,119.0,140.1,58,-0.4026,-0.6667,0.0,0.0578,0.0001,2026-10-30
 Big fallers,ASX,OCC,Orthocell Limited,0.55,149.8,236.2,60,-0.5378,-0.5259,0.0,0.0355,0.0003,2026-10-30
+Big fallers,ASX,OSL,Oncosil Medical Ltd,0.68,25.0,47.9,60,-0.4615,-0.5599,0.0057,0.0472,0.0,2026-10-30
 Big fallers,ASX,PEN,Peninsula Energy Limited,0.185,105.7,352.7,60,-0.6838,-0.8168,0.0086,0.0517,0.0176,2026-10-30
 Big fallers,ASX,PGC,Paragon Care Limited,0.155,,54.2,59,-0.5156,-0.5231,0.0,0.0262,,2026-10-30
+Big fallers,ASX,PIQ,Proteomics International Laboratories Ltd,0.12,19.8,8.3,60,-0.6308,-0.8571,0.0,0.0496,0.002,2026-10-30
 Big fallers,ASX,PLT,Plenti Group Limited,0.75,138.3,22.8,60,-0.4465,-0.4403,0.0,0.0233,0.0,2026-10-30
 Big fallers,ASX,POL,Polymetals Resources Ltd,0.49,151.1,597.7,60,-0.4615,-0.6918,0.0,0.0496,0.0058,2026-10-30
 Big fallers,ASX,PWR,Peter Warren Automotive Holdings Limited,0.655,112.8,107.4,60,-0.6301,-0.6658,0.0278,0.0239,0.0,2026-10-30
 Big fallers,ASX,RAC,Racura Oncology Ltd,1.545,302.9,128.5,60,-0.5388,-0.5535,0.0,0.0279,0.0001,2026-10-30
 Big fallers,ASX,RFG,Retail Food Group Limited,0.82,51.9,25.3,60,-0.4184,-0.503,0.0,0.0296,0.0,2026-10-30
+Big fallers,ASX,SDV,Scidev Ltd,0.14,26.6,16.5,58,-0.6111,-0.7255,0.0,0.0554,0.0,2026-10-30
 Big fallers,ASX,SOM,Somnomed Limited,0.29,,18.8,48,-0.6628,-0.6463,0.0,0.0515,,2026-10-30
 Big fallers,ASX,SPZ,Smart Parking Limited,0.73,304.2,365.5,60,-0.4427,-0.4859,0.0,0.039,0.0,2026-10-30
 Big fallers,ASX,STM,Sunstone Metals Ltd,0.175,49.7,73.7,60,-0.7464,-0.65,-0.9667,0.0435,0.0001,2026-10-30
@@ -74,10 +90,12 @@ Big fallers,ASX,TLG,Talga Group Ltd,0.205,104.7,50.5,60,-0.5444,-0.5543,0.0,0.03
 Big fallers,ASX,TRJ,Trajan Group Holdings Limited,0.25,,19.4,58,-0.6795,-0.6815,0.0,0.0658,,2026-10-30
 Big fallers,ASX,VEE,Veem Ltd,0.49,71.9,17.1,60,-0.6172,-0.6343,0.0,0.034,0.0,2026-10-30
 Big fallers,ASX,VHM,VHM Limited,0.205,63.9,35.8,60,-0.6339,-0.6466,0.0,0.0405,0.0004,2026-10-30
+Big fallers,ASX,WMG,Western Mines Group Ltd,0.155,,6.3,53,-0.4151,-0.5079,0.0,0.0518,,2026-10-30
 Big fallers,ASX,YOJ,Yojee Limited,0.2,85.1,11.1,59,-0.5122,-0.5745,0.0,0.0392,0.0,2026-10-30
 Fallen but still paying,ASX,29M,29METALS Limited,0.255,446.3,1110.1,60,-0.4,-0.6107,0.0824,0.0373,0.0063,2026-10-30
 Fallen but still paying,ASX,AFG,Australian Finance Group Ltd,1.49,393.0,1209.5,60,-0.3323,-0.3843,0.0575,0.0253,0.0005,2026-10-30
 Fallen but still paying,ASX,ASG,Autosports Group Limited,1.0,213.4,375.5,60,-0.7514,-0.7826,0.0515,0.0257,0.0,2026-10-30
+Fallen but still paying,ASX,BAP,Bapcor Limited,0.85,571.8,3018.7,60,-0.5307,-0.6488,0.3803,0.0629,0.0167,2026-10-30
 Fallen but still paying,ASX,BLX,Beacon Lighting Group Limited,1.86,426.6,114.5,60,-0.309,-0.3716,0.0403,0.0317,0.0069,2026-10-30
 Fallen but still paying,ASX,EBR,EBR Systems Inc. CDI 10:1 US Person Prohibited Excluding QIB,0.13,109.9,372.8,60,-0.8828,-0.8908,0.0681,0.0798,0.0027,2026-10-30
 Fallen but still paying,ASX,FEX,Fenix Resources Ltd,0.195,150.3,176.5,60,-0.6247,-0.6286,0.0392,0.0293,0.0079,2026-10-30
@@ -97,6 +115,7 @@ Listed investment companies and trusts (check the discount to net assets),ASX,AC
 Listed investment companies and trusts (check the discount to net assets),ASX,AUI,Australian United Investment Company Limited,12.28,,803.6,60,0.1125,0.0,0.0392,0.0068,,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,BKI,BKI Investment Company Limited,1.78,1436.7,596.6,60,0.0587,-0.0964,0.0557,0.0093,0.0,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,BTI,Bailador Technology Investments Limited,0.88,,83.2,60,-0.2325,-0.3125,0.0684,0.0132,,2026-10-30
+Listed investment companies and trusts (check the discount to net assets),ASX,CD1,CD Private Equity Fund I Units,0.28,,8.2,45,,-0.451,,0.0363,,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,CD2,CD Private Equity Fund II Units,0.32,,11.0,53,-0.0757,-0.6425,0.9931,0.0337,,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,CD3,CD Private Equity Fund III Units,0.76,,28.1,55,-0.18,-0.3448,0.1868,0.0168,,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,CDO,Cadence Opportunities Fund Limited,2.17,,29.2,50,,-0.132,,0.0216,,2026-10-30
@@ -106,6 +125,7 @@ Listed investment companies and trusts (check the discount to net assets),ASX,FG
 Listed investment companies and trusts (check the discount to net assets),ASX,FGX,Future Generation Australia Limited,1.38,568.4,350.6,60,0.0703,-0.035,0.0548,0.0098,0.0,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,FPC,Fat Prophets Global Contrarian Fund Ltd,1.29,,12.1,38,-0.0506,-0.2299,0.0377,0.0285,,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,GCI,Gryphon Capital Income Trust Units,2.0,1358.2,1467.5,60,0.0524,-0.0431,0.0788,0.0059,0.0,2026-10-30
+Listed investment companies and trusts (check the discount to net assets),ASX,GFL,Global Masters Fund Limited,2.8,,8.4,35,-0.2493,-0.2593,0.0,0.0141,,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,GLS,L1 Global Long Short Fund Limited,1.93,1169.4,1686.4,58,0.2216,-0.0981,0.0761,0.0175,0.0002,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,GVF,Staude Capital Global Value Fund Limited,1.26,,94.7,60,-0.0334,-0.1458,0.0509,0.0089,,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,HM1,Hearts and Minds Investments Limited,2.77,,534.5,60,-0.1036,-0.1606,0.0679,0.0113,,2026-10-30
@@ -116,150 +136,159 @@ Listed investment companies and trusts (check the discount to net assets),ASX,MI
 Listed investment companies and trusts (check the discount to net assets),ASX,MOT,Metrics Income Opportunities Trust Units,1.36,,963.5,55,-0.2088,-0.3061,0.0937,0.0161,,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,MRE,Metrics Real Estate Multi-Strategy Fund Units Stapled Securities,1.45,,271.6,55,-0.169,-0.2857,0.0603,0.0163,,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,OPH,Ophir High Conviction Fund Units,2.23,,546.2,60,-0.2671,-0.361,0.1503,0.014,,2026-10-30
+Listed investment companies and trusts (check the discount to net assets),ASX,PGF,PM Capital Global Opportunities Fund Limited,3.17,,2211.8,58,0.2042,-0.0785,0.0484,0.011,,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,REP,RAM Essential Services Property Fund Units Stapled Securities,0.43,215.5,154.5,60,-0.2299,-0.2951,0.0924,0.0222,0.0002,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,RF1,Regal Investment Fund Units,3.0,,529.7,60,-0.0245,-0.2021,0.0763,0.0194,,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,RG1,Regal Partners Global Investments Limited,2.41,,640.0,60,0.2857,-0.1268,0.0457,0.0136,,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,RG8,Regal Asian Investments Limited,2.03,284.7,181.1,60,-0.1203,-0.3322,0.066,0.0199,0.0009,2026-10-30
 Listed investment companies and trusts (check the discount to net assets),ASX,SNC,Sandon Capital Investments Limited,0.73,,22.7,60,-0.1618,-0.2275,0.0735,0.0117,,2026-10-30
-NZX outside the NZX 20,NZX,AFI,Australian Foundation Investment Company Limited Ord Shares,8.975,,,55,0.0774,-0.0028,,0.0148,,2026-11-06
-NZX outside the NZX 20,NZX,AFT,AFT Pharmaceuticals Ltd Ordinary Shares,4.6,,,60,0.5082,-0.0456,,0.0145,,2026-11-06
-NZX outside the NZX 20,NZX,AIR,Air New Zealand Limited (NS) Ordinary Shares,0.38,,,60,-0.3559,-0.392,,0.0189,,2026-11-06
-NZX outside the NZX 20,NZX,ALF,Allied Farmers Limited (NS) Ordinary Shares,0.595,,,38,-0.2654,-0.2831,,0.0202,,2026-11-06
-NZX outside the NZX 20,NZX,ANZ,ANZ Group Holdings Limited Ordinary Shares,49.25,,,60,0.1687,-0.032,,0.0154,,2026-11-06
-NZX outside the NZX 20,NZX,APA,Smart Asia Pacific ETF Units,3.625,,,60,0.1593,-0.1369,,0.015,,2026-11-06
-NZX outside the NZX 20,NZX,APL,Asset Plus Limited Ordinary Shares,0.17,,,45,-0.2273,-0.3061,,0.0211,,2026-11-06
-NZX outside the NZX 20,NZX,ARG,Argosy Property Limited Ordinary Shares,1.035,,,60,-0.1914,-0.2008,,0.0104,,2026-11-06
-NZX outside the NZX 20,NZX,ASD,Smart Australian Dividend ETF Units,2.337,,,60,0.0834,-0.0081,,0.0088,,2026-11-06
-NZX outside the NZX 20,NZX,ASF,Smart Australian Financials ETF Units,13.938,,,60,0.1074,-0.0032,,0.0118,,2026-11-06
-NZX outside the NZX 20,NZX,ASP,Smart Australian Property ETF Units,1.573,,,60,-0.0817,-0.0747,,0.0138,,2026-11-06
-NZX outside the NZX 20,NZX,ASR,Smart Australian Resources ETF Units,8.854,,,60,0.255,-0.1279,,0.0223,,2026-11-06
-NZX outside the NZX 20,NZX,AUE,Smart Australian ESG ETF Units,3.873,,,53,0.2595,0.0,,0.0081,,2026-11-06
-NZX outside the NZX 20,NZX,AUS,Smart Australian Top 200 ETF Units,4.43,,,60,0.1017,-0.0072,,0.0099,,2026-11-06
-NZX outside the NZX 20,NZX,BFG,Burger Fuel Group Limited Ordinary Shares,0.365,,,33,0.1587,-0.0519,,0.0291,,2026-11-06
-NZX outside the NZX 20,NZX,BGP,Briscoe Group Limited Ordinary Shares,4.25,,,60,-0.1996,-0.2273,,0.02,,2026-11-06
-NZX outside the NZX 20,NZX,BIF,Booster Innovation Fund Units,1.434,,,36,0.0467,-0.0878,,0.0112,,2026-11-06
-NZX outside the NZX 20,NZX,BIT,The Bankers Investment Trust Plc Ordinary Shares,3.41,,,59,0.1254,-0.0809,,0.0123,,2026-11-06
-NZX outside the NZX 20,NZX,BOT,Smart Automation and Robotics ETF Units,7.644,,,60,0.1414,-0.1617,,0.017,,2026-11-06
-NZX outside the NZX 20,NZX,BPG,Black Pearl Group Limited Ordinary Shares,0.139,,,54,-0.8753,-0.8842,,0.0605,,2026-11-06
-NZX outside the NZX 20,NZX,BRM,Barramundi Limited Ordinary Shares,0.478,,,60,-0.3072,-0.3142,,0.0176,,2026-11-06
-NZX outside the NZX 20,NZX,BRW,Bremworth Limited Ordinary Shares,0.62,,,48,-0.2914,-0.3224,,0.0344,,2026-11-06
+Listed investment companies and trusts (check the discount to net assets),ASX,URF,US Masters Residential Property Fund Units Stapled Securities,0.11,,9.7,55,-0.0237,-0.6271,1.5294,0.0202,,2026-10-30
+NZX outside the NZX 20,NZX,AFI,Australian Foundation Investment Company Limited Ord Shares,8.975,,,55,0.0685,-0.0028,,0.0098,,2026-11-06
+NZX outside the NZX 20,NZX,AFT,AFT Pharmaceuticals Ltd Ordinary Shares,4.6,,,60,0.4935,-0.0456,,0.015,,2026-11-06
+NZX outside the NZX 20,NZX,AIR,Air New Zealand Limited (NS) Ordinary Shares,0.38,,,60,-0.3667,-0.392,,0.0185,,2026-11-06
+NZX outside the NZX 20,NZX,ALF,Allied Farmers Limited (NS) Ordinary Shares,0.595,,,39,-0.2222,-0.2831,,0.0197,,2026-11-06
+NZX outside the NZX 20,NZX,ANZ,ANZ Group Holdings Limited Ordinary Shares,49.25,,,60,0.1643,-0.032,,0.0137,,2026-11-06
+NZX outside the NZX 20,NZX,APA,Smart Asia Pacific ETF Units,3.625,,,60,0.141,-0.1369,,0.0146,,2026-11-06
+NZX outside the NZX 20,NZX,APL,Asset Plus Limited Ordinary Shares,0.17,,,44,-0.2444,-0.3061,,0.0214,,2026-11-06
+NZX outside the NZX 20,NZX,ARG,Argosy Property Limited Ordinary Shares,1.035,,,60,-0.1946,-0.2008,,0.0107,,2026-11-06
+NZX outside the NZX 20,NZX,ASD,Smart Australian Dividend ETF Units,2.337,,,60,0.0824,-0.0097,,0.0087,,2026-11-06
+NZX outside the NZX 20,NZX,ASF,Smart Australian Financials ETF Units,13.938,,,60,0.0815,-0.0039,,0.0114,,2026-11-06
+NZX outside the NZX 20,NZX,ASP,Smart Australian Property ETF Units,1.573,,,60,-0.0478,-0.0681,,0.0131,,2026-11-06
+NZX outside the NZX 20,NZX,ASR,Smart Australian Resources ETF Units,8.854,,,60,0.2741,-0.1279,,0.0236,,2026-11-06
+NZX outside the NZX 20,NZX,AUE,Smart Australian ESG ETF Units,3.873,,,53,0.2378,0.0,,0.0079,,2026-11-06
+NZX outside the NZX 20,NZX,AUS,Smart Australian Top 200 ETF Units,4.43,,,60,0.1039,-0.0072,,0.0102,,2026-11-06
+NZX outside the NZX 20,NZX,BFG,Burger Fuel Group Limited Ordinary Shares,0.365,,,32,0.1587,-0.0519,,0.029,,2026-11-06
+NZX outside the NZX 20,NZX,BGP,Briscoe Group Limited Ordinary Shares,4.25,,,60,-0.2216,-0.2273,,0.0204,,2026-11-06
+NZX outside the NZX 20,NZX,BIF,Booster Innovation Fund Units,1.434,,,37,0.017,-0.0878,,0.0113,,2026-11-06
+NZX outside the NZX 20,NZX,BIT,The Bankers Investment Trust Plc Ordinary Shares,3.41,,,60,0.1291,-0.0809,,0.0129,,2026-11-06
+NZX outside the NZX 20,NZX,BOT,Smart Automation and Robotics ETF Units,7.644,,,60,0.1407,-0.1617,,0.0162,,2026-11-06
+NZX outside the NZX 20,NZX,BPG,Black Pearl Group Limited Ordinary Shares,0.139,,,54,-0.8791,-0.8842,,0.0555,,2026-11-06
+NZX outside the NZX 20,NZX,BRM,Barramundi Limited Ordinary Shares,0.478,,,60,-0.3122,-0.3112,,0.0174,,2026-11-06
+NZX outside the NZX 20,NZX,BRW,Bremworth Limited Ordinary Shares,0.62,,,48,-0.2994,-0.3224,,0.0341,,2026-11-06
 NZX outside the NZX 20,NZX,BTC,Smart Bitcoin ETF Units,2.96,,,60,-0.2798,-0.2883,,0.0236,,2026-11-06
-NZX outside the NZX 20,NZX,CCC,Cooks Coffee Company Limited Ordinary Shares,0.125,,,31,-0.4898,-0.5763,,0.018,,2026-11-05
-NZX outside the NZX 20,NZX,CDI,CDL Investments New Zealand Limited Ordinary Shares,0.62,,,48,-0.2346,-0.2663,,0.0183,,2026-11-06
-NZX outside the NZX 20,NZX,CHI,Channel Infrastructure NZ Limited Ordinary Shares,3.26,,,60,0.2256,-0.097,,0.0188,,2026-11-06
-NZX outside the NZX 20,NZX,CMO,The Colonial Motor Company Limited Ordinary Shares,6.95,,,45,-0.0951,-0.1919,,0.0174,,2026-11-06
-NZX outside the NZX 20,NZX,CO2,Carbon Fund Units,1.36,,,59,-0.0073,-0.131,,0.0116,,2026-11-06
-NZX outside the NZX 20,NZX,CVT,Comvita Limited Ordinary Shares,0.785,,,57,0.0467,-0.0542,,0.0245,,2026-11-06
-NZX outside the NZX 20,NZX,DGL,Delegat Group Limited Ordinary Shares,4.45,,,58,0.0471,-0.0592,,0.0208,,2026-11-06
-NZX outside the NZX 20,NZX,DIV,Smart NZ Dividend ETF Units,1.28,,,60,-0.0318,-0.0448,,0.0066,,2026-11-06
-NZX outside the NZX 20,NZX,EMF,Smart Emerging Markets ETF Units,1.908,,,60,-0.0114,-0.1113,,0.0149,,2026-11-06
-NZX outside the NZX 20,NZX,EMG,Smart Emerging Markets ESG ETF Units,3.706,,,60,0.1033,-0.1537,,0.0128,,2026-11-06
-NZX outside the NZX 20,NZX,ERD,EROAD Limited Ordinary Shares,0.79,,,59,-0.6146,-0.5949,,0.0332,,2026-11-06
-NZX outside the NZX 20,NZX,ESG,Smart Global ESG ETF Units,5.15,,,60,0.0842,-0.0578,,0.0099,,2026-11-06
-NZX outside the NZX 20,NZX,EUF,Smart Europe ETF Units,3.19,,,60,0.1304,0.0,,0.0115,,2026-11-06
-NZX outside the NZX 20,NZX,EUG,Smart Europe ESG ETF Units,4.964,,,60,0.1448,0.0,,0.0085,,2026-11-06
-NZX outside the NZX 20,NZX,FCG,Fonterra Co-operative Group Limited (NS) Shares,5.82,,,60,-0.0085,-0.0977,,0.0162,,2026-11-06
+NZX outside the NZX 20,NZX,CCC,Cooks Coffee Company Limited Ordinary Shares,0.125,,,30,-0.4898,-0.5763,,0.0163,,2026-11-05
+NZX outside the NZX 20,NZX,CDI,CDL Investments New Zealand Limited Ordinary Shares,0.62,,,49,-0.225,-0.2663,,0.0188,,2026-11-06
+NZX outside the NZX 20,NZX,CHI,Channel Infrastructure NZ Limited Ordinary Shares,3.26,,,60,0.2119,-0.097,,0.0185,,2026-11-06
+NZX outside the NZX 20,NZX,CMO,The Colonial Motor Company Limited Ordinary Shares,6.95,,,44,-0.1247,-0.1919,,0.0169,,2026-11-06
+NZX outside the NZX 20,NZX,CO2,Carbon Fund Units,1.36,,,59,-0.0073,-0.131,,0.0114,,2026-11-06
+NZX outside the NZX 20,NZX,CVT,Comvita Limited Ordinary Shares,0.785,,,57,0.0537,-0.0542,,0.0241,,2026-11-06
+NZX outside the NZX 20,NZX,DGL,Delegat Group Limited Ordinary Shares,4.45,,,58,0.0775,-0.0592,,0.02,,2026-11-06
+NZX outside the NZX 20,NZX,DIV,Smart NZ Dividend ETF Units,1.28,,,60,-0.0433,-0.0448,,0.007,,2026-11-06
+NZX outside the NZX 20,NZX,EMF,Smart Emerging Markets ETF Units,1.908,,,60,-0.0062,-0.1113,,0.0155,,2026-11-06
+NZX outside the NZX 20,NZX,EMG,Smart Emerging Markets ESG ETF Units,3.706,,,60,0.089,-0.1537,,0.0127,,2026-11-06
+NZX outside the NZX 20,NZX,ERD,EROAD Limited Ordinary Shares,0.79,,,59,-0.5885,-0.5671,,0.0237,,2026-11-06
+NZX outside the NZX 20,NZX,ESG,Smart Global ESG ETF Units,5.15,,,60,0.0911,-0.0578,,0.0102,,2026-11-06
+NZX outside the NZX 20,NZX,EUF,Smart Europe ETF Units,3.19,,,60,0.1393,0.0,,0.0113,,2026-11-06
+NZX outside the NZX 20,NZX,EUG,Smart Europe ESG ETF Units,4.964,,,60,0.1401,0.0,,0.0078,,2026-11-06
+NZX outside the NZX 20,NZX,FCG,Fonterra Co-operative Group Limited (NS) Shares,5.82,,,60,-0.0152,-0.0977,,0.0162,,2026-11-06
 NZX outside the NZX 20,NZX,FCT,F&C Investment Trust Ordinary Shares,7.92,,,54,-0.7171,-0.736,,0.0119,,2026-11-06
-NZX outside the NZX 20,NZX,FNZ,Smart NZ Top 50 ETF Units,3.131,,,60,-0.0339,-0.0492,,0.0073,,2026-11-06
-NZX outside the NZX 20,NZX,FSF,Fonterra Shareholders' Fund Units,9.23,,,60,0.1054,-0.0264,,0.0146,,2026-11-06
-NZX outside the NZX 20,NZX,FWL,Foley Wines Limited Ordinary Shares,0.6,,,30,0.0,-0.0769,,0.0169,,2026-11-06
+NZX outside the NZX 20,NZX,FNZ,Smart NZ Top 50 ETF Units,3.131,,,60,-0.0463,-0.0492,,0.0069,,2026-11-06
+NZX outside the NZX 20,NZX,FSF,Fonterra Shareholders' Fund Units,9.23,,,60,0.1297,-0.0264,,0.0146,,2026-11-06
 NZX outside the NZX 20,NZX,GLD,Smart Gold ETF Units,3.858,,,60,0.0155,-0.2127,,0.013,,2026-11-06
-NZX outside the NZX 20,NZX,GPR,Smart Global Property ETF Units,2.823,,,59,0.0637,-0.082,,0.013,,2026-11-06
-NZX outside the NZX 20,NZX,GTK,Gentrack Group Limited Ordinary Shares,4.36,,,60,-0.5271,-0.5944,,0.0317,,2026-11-06
-NZX outside the NZX 20,NZX,GXH,Green Cross Health Limited Ordinary Shares,1.905,,,59,1.0266,-0.0929,,0.0158,,2026-11-06
-NZX outside the NZX 20,NZX,HFL,Henderson Far East Income Limited Ordinary Shares,5.9,,,50,0.0315,-0.1128,,0.0104,,2026-11-06
-NZX outside the NZX 20,NZX,HGH,Heartland Group Holdings Limited Ordinary Shares,1.245,,,60,0.1528,-0.0349,,0.0122,,2026-11-06
-NZX outside the NZX 20,NZX,HLG,Hallenstein Glasson Holdings Limited Ordinary Shares,14.33,,,60,0.4373,-0.0622,,0.0224,,2026-11-06
-NZX outside the NZX 20,NZX,IKE,ikeGPS Group Limited Ordinary Shares,0.88,,,50,-0.0928,-0.3282,,0.0173,,2026-11-06
-NZX outside the NZX 20,NZX,INF,Smart Global Infrastructure ETF Units,3.207,,,60,0.0487,-0.0404,,0.0103,,2026-11-06
-NZX outside the NZX 20,NZX,IPL,Investore Property Limited (NS) Ordinary Shares,1.01,,,60,-0.1755,-0.214,,0.0153,,2026-11-06
-NZX outside the NZX 20,NZX,JPN,Smart Japan ESG ETF Units,3.675,,,59,0.1353,-0.1063,,0.014,,2026-11-06
-NZX outside the NZX 20,NZX,KFL,Kingfish Limited Ordinary Shares,1.095,,,60,-0.1748,-0.1877,,0.0106,,2026-11-06
+NZX outside the NZX 20,NZX,GPR,Smart Global Property ETF Units,2.823,,,59,0.0344,-0.082,,0.013,,2026-11-06
+NZX outside the NZX 20,NZX,GTK,Gentrack Group Limited Ordinary Shares,4.36,,,60,-0.509,-0.5944,,0.0318,,2026-11-06
+NZX outside the NZX 20,NZX,GXH,Green Cross Health Limited Ordinary Shares,1.905,,,59,1.0484,-0.0929,,0.0159,,2026-11-06
+NZX outside the NZX 20,NZX,HFL,Henderson Far East Income Limited Ordinary Shares,5.9,,,51,0.0241,-0.1128,,0.0101,,2026-11-06
+NZX outside the NZX 20,NZX,HGH,Heartland Group Holdings Limited Ordinary Shares,1.245,,,60,0.1116,-0.0349,,0.012,,2026-11-06
+NZX outside the NZX 20,NZX,HLG,Hallenstein Glasson Holdings Limited Ordinary Shares,14.33,,,60,0.423,-0.0622,,0.0219,,2026-11-06
+NZX outside the NZX 20,NZX,IKE,ikeGPS Group Limited Ordinary Shares,0.88,,,49,-0.0737,-0.3282,,0.0171,,2026-11-06
+NZX outside the NZX 20,NZX,INF,Smart Global Infrastructure ETF Units,3.207,,,60,0.045,-0.0404,,0.0101,,2026-11-06
+NZX outside the NZX 20,NZX,IPL,Investore Property Limited (NS) Ordinary Shares,1.01,,,60,-0.214,-0.2109,,0.0153,,2026-11-06
+NZX outside the NZX 20,NZX,JPN,Smart Japan ESG ETF Units,3.675,,,59,0.1294,-0.1063,,0.0143,,2026-11-06
+NZX outside the NZX 20,NZX,KFL,Kingfish Limited Ordinary Shares,1.095,,,60,-0.1767,-0.1877,,0.011,,2026-11-06
 NZX outside the NZX 20,NZX,KMD,KMD Brands Limited Ordinary Shares,2.1,,,60,6.0,-0.0047,,0.0264,,2026-11-06
-NZX outside the NZX 20,NZX,KPG,Kiwi Property Group Limited Ordinary Shares,0.93,,,60,-0.1308,-0.1507,,0.0131,,2026-11-06
-NZX outside the NZX 20,NZX,LIV,Smart Healthcare Innovation ETF Units,4.463,,,60,0.3247,-0.0206,,0.0145,,2026-11-06
-NZX outside the NZX 20,NZX,MCK,Millennium & Copthorne Hotels NZ Limited Ordinary Shares,3.14,,,49,0.1174,-0.1278,,0.0189,,2026-11-06
-NZX outside the NZX 20,NZX,MDZ,Smart NZ Mid Cap ETF Units,5.828,,,60,-0.0784,-0.0875,,0.0058,,2026-11-06
-NZX outside the NZX 20,NZX,MFB,My Food Bag Group Limited Ordinary Shares,0.32,,,59,0.3913,0.0,,0.0211,,2026-11-06
-NZX outside the NZX 20,NZX,MHJ,Michael Hill International Ltd Ordinary Shares,0.42,,,56,0.05,-0.2364,,0.0225,,2026-11-06
-NZX outside the NZX 20,NZX,MLN,Marlin Global Limited Ordinary Shares,0.735,,,60,-0.2344,-0.2383,,0.0198,,2026-11-06
-NZX outside the NZX 20,NZX,MOV,Move Logistics Group Ltd Ordinary Shares,0.18,,,49,-0.1,-0.4706,,0.0265,,2026-11-06
-NZX outside the NZX 20,NZX,MPG,Metro Performance Glass Limited Ordinary Shares,0.9,,,43,20.9512,-0.3878,,0.0244,,2026-11-06
-NZX outside the NZX 20,NZX,MZY,Smart Australian Mid Cap ETF Units,13.65,,,60,0.0532,-0.0179,,0.0107,,2026-11-06
-NZX outside the NZX 20,NZX,NPF,Smart NZ Property ETF Units,1.044,,,60,-0.1414,-0.1567,,0.0085,,2026-11-06
-NZX outside the NZX 20,NZX,NPH,Napier Port Holdings Limited Ordinary Shares,3.63,,,60,0.0676,-0.081,,0.0183,,2026-11-06
-NZX outside the NZX 20,NZX,NZC,Smart NZ Cash ETF Units,3.01,,,60,0.0043,-0.0023,,0.0011,,2026-11-06
-NZX outside the NZX 20,NZX,NZG,Smart S&P/NZX 50 ETF Units,2.67,,,60,0.0183,-0.0085,,0.0073,,2026-11-06
-NZX outside the NZX 20,NZX,NZK,NZ King Salmon Investments Limited Ordinary Shares,0.245,,,49,0.2312,-0.0392,,0.0243,,2026-11-06
-NZX outside the NZX 20,NZX,NZL,New Zealand Rural Land Company Limited (NS) Ordinary Shares,0.91,,,59,-0.1947,-0.1875,,0.0114,,2026-11-06
-NZX outside the NZX 20,NZX,NZM,NZME Limited Ordinary Shares,0.98,,,59,-0.1404,-0.2097,,0.0135,,2026-11-06
-NZX outside the NZX 20,NZX,NZT,Smart S&P/NZX 20 ETF Units,2.543,,,60,-0.0008,-0.017,,0.007,,2026-11-06
-NZX outside the NZX 20,NZX,NZX,NZX Limited Ordinary Shares,1.5,,,60,-0.0066,-0.0536,,0.0158,,2026-11-06
-NZX outside the NZX 20,NZX,OCA,Oceania Healthcare Limited Ordinary Shares,0.66,,,60,-0.1429,-0.2903,,0.0194,,2026-11-06
-NZX outside the NZX 20,NZX,OZY,Smart Australian Top 20 ETF Units,6.563,,,60,0.1641,-0.0014,,0.0085,,2026-11-06
-NZX outside the NZX 20,NZX,PEB,Pacific Edge Limited Ordinary Shares,0.295,,,59,0.5365,-0.0484,,0.0354,,2026-11-06
-NZX outside the NZX 20,NZX,PFI,Property For Industry Limited Ordinary Shares,2.22,,,60,-0.1048,-0.1294,,0.013,,2026-11-06
-NZX outside the NZX 20,NZX,PGW,PGG Wrightson Limited Ordinary Shares,2.19,,,60,-0.0437,-0.0798,,0.0214,,2026-11-06
-NZX outside the NZX 20,NZX,PHL,Promisia Healthcare Limited Ordinary Shares,0.645,,,49,0.4659,-0.1731,,0.0307,,2026-11-06
-NZX outside the NZX 20,NZX,PLP,Private Land and Property Fund Units,1.191,,,43,-0.0695,-0.1178,,0.0114,,2026-11-06
-NZX outside the NZX 20,NZX,RAD,Radius Residential Care Limited Ordinary Shares,0.415,,,58,0.1528,-0.1354,,0.024,,2026-11-06
-NZX outside the NZX 20,NZX,SAN,Sanford Limited (NS) Ordinary Shares,6.65,,,59,0.0813,-0.184,,0.024,,2026-11-06
-NZX outside the NZX 20,NZX,SCL,Scales Corporation Limited Ordinary Shares,6.4,,,60,0.0509,-0.1316,,0.0168,,2026-11-06
-NZX outside the NZX 20,NZX,SCT,Scott Technology Limited Ordinary Shares,2.37,,,58,-0.228,-0.2594,,0.0305,,2026-11-06
-NZX outside the NZX 20,NZX,SDL,Solution Dynamics Limited Ordinary Shares,0.635,,,32,0.0948,-0.1859,,0.0181,,2026-10-30
-NZX outside the NZX 20,NZX,SEK,Seeka Limited Ordinary Shares,5.1,,,60,0.0968,-0.0744,,0.0103,,2026-11-06
-NZX outside the NZX 20,NZX,SKC,SkyCity Entertainment Group Limited (NS) Ordinary Shares,0.69,,,60,-0.0483,-0.2887,,0.0209,,2026-11-06
-NZX outside the NZX 20,NZX,SKL,Skellerup Holdings Limited Ordinary Shares,7.6,,,60,0.3894,-0.0476,,0.0139,,2026-11-06
-NZX outside the NZX 20,NZX,SKO,Serko Limited Ordinary Shares,1.21,,,60,-0.5647,-0.6277,,0.0325,,2026-11-06
-NZX outside the NZX 20,NZX,SKT,Sky Network Television Limited Ordinary Shares,3.67,,,60,0.0194,-0.0187,,0.017,,2026-11-06
+NZX outside the NZX 20,NZX,KPG,Kiwi Property Group Limited Ordinary Shares,0.93,,,60,-0.1507,-0.1507,,0.0129,,2026-11-06
+NZX outside the NZX 20,NZX,LIV,Smart Healthcare Innovation ETF Units,4.463,,,60,0.313,-0.0206,,0.0146,,2026-11-06
+NZX outside the NZX 20,NZX,MCK,Millennium & Copthorne Hotels NZ Limited Ordinary Shares,3.14,,,48,0.1214,-0.1278,,0.0184,,2026-11-06
+NZX outside the NZX 20,NZX,MDZ,Smart NZ Mid Cap ETF Units,5.828,,,60,-0.0815,-0.0875,,0.006,,2026-11-06
+NZX outside the NZX 20,NZX,MFB,My Food Bag Group Limited Ordinary Shares,0.32,,,59,0.4222,0.0,,0.0202,,2026-11-06
+NZX outside the NZX 20,NZX,MHJ,Michael Hill International Ltd Ordinary Shares,0.42,,,57,0.0769,-0.2364,,0.0223,,2026-11-06
+NZX outside the NZX 20,NZX,MLN,Marlin Global Limited Ordinary Shares,0.735,,,60,-0.2376,-0.2344,,0.0199,,2026-11-06
+NZX outside the NZX 20,NZX,MOV,Move Logistics Group Ltd Ordinary Shares,0.18,,,51,-0.1429,-0.4706,,0.0269,,2026-11-06
+NZX outside the NZX 20,NZX,MPG,Metro Performance Glass Limited Ordinary Shares,0.9,,,41,17.75,-0.3878,,0.021,,2026-11-06
+NZX outside the NZX 20,NZX,MZY,Smart Australian Mid Cap ETF Units,13.65,,,60,0.0724,-0.0179,,0.0112,,2026-11-06
+NZX outside the NZX 20,NZX,NPF,Smart NZ Property ETF Units,1.044,,,60,-0.1567,-0.1553,,0.0086,,2026-11-06
+NZX outside the NZX 20,NZX,NPH,Napier Port Holdings Limited Ordinary Shares,3.63,,,60,0.0708,-0.081,,0.0178,,2026-11-06
+NZX outside the NZX 20,NZX,NZC,Smart NZ Cash ETF Units,3.01,,,60,0.004,-0.0023,,0.0012,,2026-11-06
+NZX outside the NZX 20,NZX,NZG,Smart S&P/NZX 50 ETF Units,2.67,,,60,0.0072,-0.0085,,0.0075,,2026-11-06
+NZX outside the NZX 20,NZX,NZK,NZ King Salmon Investments Limited Ordinary Shares,0.245,,,49,0.225,-0.0392,,0.0237,,2026-11-06
+NZX outside the NZX 20,NZX,NZL,New Zealand Rural Land Company Limited (NS) Ordinary Shares,0.91,,,59,-0.1875,-0.1875,,0.0108,,2026-11-06
+NZX outside the NZX 20,NZX,NZM,NZME Limited Ordinary Shares,0.98,,,59,-0.2097,-0.1967,,0.0134,,2026-11-06
+NZX outside the NZX 20,NZX,NZT,Smart S&P/NZX 20 ETF Units,2.543,,,60,0.0119,-0.017,,0.007,,2026-11-06
+NZX outside the NZX 20,NZX,NZX,NZX Limited Ordinary Shares,1.5,,,60,-0.0291,-0.0536,,0.0175,,2026-11-06
+NZX outside the NZX 20,NZX,OCA,Oceania Healthcare Limited Ordinary Shares,0.66,,,60,-0.1852,-0.2903,,0.0188,,2026-11-06
+NZX outside the NZX 20,NZX,OZY,Smart Australian Top 20 ETF Units,6.563,,,60,0.1705,-0.0014,,0.0085,,2026-11-06
+NZX outside the NZX 20,NZX,PEB,Pacific Edge Limited Ordinary Shares,0.295,,,59,0.5775,-0.0484,,0.0355,,2026-11-06
+NZX outside the NZX 20,NZX,PFI,Property For Industry Limited Ordinary Shares,2.22,,,60,-0.1294,-0.1294,,0.013,,2026-11-06
+NZX outside the NZX 20,NZX,PGW,PGG Wrightson Limited Ordinary Shares,2.19,,,60,-0.0267,-0.0798,,0.0212,,2026-11-06
+NZX outside the NZX 20,NZX,PHL,Promisia Healthcare Limited Ordinary Shares,0.645,,,49,0.4333,-0.1731,,0.0303,,2026-11-06
+NZX outside the NZX 20,NZX,PLP,Private Land and Property Fund Units,1.191,,,43,-0.097,-0.1178,,0.0113,,2026-11-06
+NZX outside the NZX 20,NZX,RAD,Radius Residential Care Limited Ordinary Shares,0.415,,,58,0.1067,-0.1354,,0.0233,,2026-11-06
+NZX outside the NZX 20,NZX,SAN,Sanford Limited (NS) Ordinary Shares,6.65,,,59,0.0813,-0.184,,0.0237,,2026-11-06
+NZX outside the NZX 20,NZX,SCL,Scales Corporation Limited Ordinary Shares,6.4,,,60,0.0702,-0.1316,,0.0162,,2026-11-06
+NZX outside the NZX 20,NZX,SCT,Scott Technology Limited Ordinary Shares,2.37,,,58,-0.2547,-0.2594,,0.0276,,2026-11-06
+NZX outside the NZX 20,NZX,SDL,Solution Dynamics Limited Ordinary Shares,0.63,,,33,0.0678,-0.1923,,0.0182,,2026-11-02
+NZX outside the NZX 20,NZX,SEK,Seeka Limited Ordinary Shares,5.1,,,60,0.1135,-0.0744,,0.0104,,2026-11-06
+NZX outside the NZX 20,NZX,SKC,SkyCity Entertainment Group Limited (NS) Ordinary Shares,0.69,,,60,-0.0612,-0.2887,,0.0207,,2026-11-06
+NZX outside the NZX 20,NZX,SKL,Skellerup Holdings Limited Ordinary Shares,7.6,,,60,0.3669,-0.0476,,0.0145,,2026-11-06
+NZX outside the NZX 20,NZX,SKO,Serko Limited Ordinary Shares,1.21,,,59,-0.5273,-0.6277,,0.032,,2026-11-06
+NZX outside the NZX 20,NZX,SKT,Sky Network Television Limited Ordinary Shares,3.67,,,60,0.0251,-0.0187,,0.0167,,2026-11-06
 NZX outside the NZX 20,NZX,SMI,Santana Minerals Limited Ordinary Shares,0.56,,,60,-0.3636,-0.5867,,0.034,,2026-11-06
-NZX outside the NZX 20,NZX,SML,Synlait Milk Limited Ordinary Shares,0.495,,,58,-0.3311,-0.3265,,0.0387,,2026-11-06
-NZX outside the NZX 20,NZX,SPG,Stride Prop & Stride Invest Mgmt Ltd Stapled Security (NS),1.11,,,60,-0.2449,-0.2475,,0.0184,,2026-11-06
-NZX outside the NZX 20,NZX,SPN,South Port New Zealand Limited Ordinary Shares,7.86,,,54,-0.1305,-0.1512,,0.0111,,2026-11-06
-NZX outside the NZX 20,NZX,STU,Steel & Tube Holdings Limited Ordinary Shares,0.29,,,60,-0.5915,-0.6,,0.0386,,2026-11-06
-NZX outside the NZX 20,NZX,TAH,Third Age Health Services Limited Ordinary Shares,4.06,,,39,-0.1135,-0.4536,,0.0163,,2026-11-06
-NZX outside the NZX 20,NZX,TEM,Templeton Emerging Markets Plc Ordinary Shares,7.15,,,59,0.3697,-0.128,,0.0128,,2026-11-06
-NZX outside the NZX 20,NZX,TGG,T&G Global Limited Ordinary Shares,2.2,,,49,-0.0222,-0.2029,,0.0193,,2026-11-06
-NZX outside the NZX 20,NZX,THL,Tourism Holdings Limited Ordinary Shares,2.83,,,60,0.123,-0.0439,,0.0138,,2026-11-06
-NZX outside the NZX 20,NZX,TNZ,Smart NZ Top 10 ETF Units,2.13,,,60,0.0634,-0.0014,,0.0091,,2026-11-06
-NZX outside the NZX 20,NZX,TRA,Turners Automotive Group Ltd Ordinary Shares,7.1,,,60,-0.0274,-0.2291,,0.0136,,2026-11-06
-NZX outside the NZX 20,NZX,TWF,Smart Total World ETF Units,5.284,,,60,0.1013,-0.0498,,0.0084,,2026-11-06
-NZX outside the NZX 20,NZX,TWH,Smart Total World (NZD Hedged) ETF Units,4.77,,,60,0.0647,-0.061,,0.0078,,2026-11-06
-NZX outside the NZX 20,NZX,TWL,Trade Window Holdings Limited Ordinary Shares,0.125,,,52,-0.6711,-0.6711,,0.0353,,2026-11-06
-NZX outside the NZX 20,NZX,TWR,Tower Limited Ordinary Shares,2.11,,,60,0.1344,-0.0276,,0.0095,,2026-11-06
-NZX outside the NZX 20,NZX,USA,Smart US ESG ETF Units,6.112,,,60,0.0833,-0.0624,,0.0094,,2026-11-06
-NZX outside the NZX 20,NZX,USF,Smart US 500 ETF Units,22.954,,,60,0.084,-0.0589,,0.0094,,2026-11-06
-NZX outside the NZX 20,NZX,USG,Smart US Large Growth ETF Units,16.02,,,60,-0.0125,-0.1114,,0.0132,,2026-11-06
-NZX outside the NZX 20,NZX,USH,Smart US 500 (NZD Hedged) ETF Units,4.038,,,60,0.0405,-0.0526,,0.0086,,2026-11-06
-NZX outside the NZX 20,NZX,USM,Smart US Mid Cap ETF Units,10.863,,,60,0.1129,-0.0173,,0.0104,,2026-11-06
-NZX outside the NZX 20,NZX,USS,Smart US Small Cap ETF Units,9.669,,,60,0.1451,-0.0442,,0.0099,,2026-11-06
-NZX outside the NZX 20,NZX,UST,Smart US Technology (NZD Hedged) ETF Units,3.344,,,60,0.0195,-0.1564,,0.0147,,2026-11-06
-NZX outside the NZX 20,NZX,USV,Smart US Large Value ETF Units,7.776,,,60,0.238,-0.0208,,0.0114,,2026-11-06
-NZX outside the NZX 20,NZX,VGL,Vista Group International Ltd Ordinary Shares,2.74,,,60,0.0037,-0.0584,,0.0213,,2026-11-06
-NZX outside the NZX 20,NZX,VHP,Vital Healthcare Property Trust Ordinary Units,1.805,,,60,-0.172,-0.2013,,0.0161,,2026-11-06
-NZX outside the NZX 20,NZX,VNT,Ventia Services Group Limited Ordinary Shares,7.33,,,55,0.1823,-0.1274,,0.0169,,2026-11-06
-NZX outside the NZX 20,NZX,VSL,Vulcan Steel Limited Ordinary Shares,6.89,,,60,-0.1942,-0.2344,,0.0285,,2026-11-06
-NZX outside the NZX 20,NZX,WBC,Westpac Banking Corporation Ordinary Shares,45.01,,,60,0.0195,-0.1402,,0.0145,,2026-11-06
-NZX outside the NZX 20,NZX,WHS,The Warehouse Group Limited Ordinary Shares,0.67,,,60,-0.1677,-0.1728,,0.0259,,2026-11-06
-NZX outside the NZX 20,NZX,WIN,Winton Land Limited (NS) Ordinary Shares,1.175,,,57,-0.461,-0.5104,,0.0384,,2026-11-06
+NZX outside the NZX 20,NZX,SML,Synlait Milk Limited Ordinary Shares,0.495,,,58,-0.3172,-0.3265,,0.039,,2026-11-06
+NZX outside the NZX 20,NZX,SPG,Stride Prop & Stride Invest Mgmt Ltd Stapled Security (NS),1.11,,,60,-0.2449,-0.2475,,0.0189,,2026-11-06
+NZX outside the NZX 20,NZX,SPN,South Port New Zealand Limited Ordinary Shares,7.86,,,55,-0.141,-0.1512,,0.0107,,2026-11-06
+NZX outside the NZX 20,NZX,STU,Steel & Tube Holdings Limited Ordinary Shares,0.29,,,60,-0.5944,-0.6,,0.0376,,2026-11-06
+NZX outside the NZX 20,NZX,TAH,Third Age Health Services Limited Ordinary Shares,4.06,,,38,-0.1269,-0.4536,,0.0169,,2026-11-06
+NZX outside the NZX 20,NZX,TEM,Templeton Emerging Markets Plc Ordinary Shares,7.15,,,58,0.3067,-0.128,,0.0135,,2026-11-06
+NZX outside the NZX 20,NZX,TGG,T&G Global Limited Ordinary Shares,2.2,,,48,-0.0517,-0.2029,,0.0188,,2026-11-06
+NZX outside the NZX 20,NZX,THL,Tourism Holdings Limited Ordinary Shares,2.83,,,60,0.1275,-0.0439,,0.0132,,2026-11-06
+NZX outside the NZX 20,NZX,TNZ,Smart NZ Top 10 ETF Units,2.13,,,60,0.0477,-0.0014,,0.0086,,2026-11-06
+NZX outside the NZX 20,NZX,TRA,Turners Automotive Group Ltd Ordinary Shares,7.1,,,60,-0.0495,-0.2291,,0.0139,,2026-11-06
+NZX outside the NZX 20,NZX,TWF,Smart Total World ETF Units,5.284,,,60,0.0985,-0.0498,,0.0081,,2026-11-06
+NZX outside the NZX 20,NZX,TWH,Smart Total World (NZD Hedged) ETF Units,4.77,,,60,0.064,-0.061,,0.0078,,2026-11-06
+NZX outside the NZX 20,NZX,TWL,Trade Window Holdings Limited Ordinary Shares,0.125,,,53,-0.6528,-0.6711,,0.034,,2026-11-06
+NZX outside the NZX 20,NZX,TWR,Tower Limited Ordinary Shares,2.11,,,60,0.1405,-0.0276,,0.0098,,2026-11-06
+NZX outside the NZX 20,NZX,USA,Smart US ESG ETF Units,6.112,,,60,0.0891,-0.0624,,0.01,,2026-11-06
+NZX outside the NZX 20,NZX,USF,Smart US 500 ETF Units,22.954,,,60,0.0927,-0.0589,,0.0096,,2026-11-06
+NZX outside the NZX 20,NZX,USG,Smart US Large Growth ETF Units,16.02,,,60,-0.0115,-0.1114,,0.0136,,2026-11-06
+NZX outside the NZX 20,NZX,USH,Smart US 500 (NZD Hedged) ETF Units,4.038,,,60,0.0483,-0.0526,,0.0088,,2026-11-06
+NZX outside the NZX 20,NZX,USM,Smart US Mid Cap ETF Units,10.863,,,60,0.124,-0.0173,,0.0103,,2026-11-06
+NZX outside the NZX 20,NZX,USS,Smart US Small Cap ETF Units,9.669,,,60,0.1458,-0.0442,,0.0099,,2026-11-06
+NZX outside the NZX 20,NZX,UST,Smart US Technology (NZD Hedged) ETF Units,3.344,,,60,0.0299,-0.1564,,0.015,,2026-11-06
+NZX outside the NZX 20,NZX,USV,Smart US Large Value ETF Units,7.776,,,60,0.2253,-0.0214,,0.0116,,2026-11-06
+NZX outside the NZX 20,NZX,VGL,Vista Group International Ltd Ordinary Shares,2.74,,,60,0.0916,-0.0584,,0.0216,,2026-11-06
+NZX outside the NZX 20,NZX,VHP,Vital Healthcare Property Trust Ordinary Units,1.805,,,60,-0.1758,-0.2013,,0.0159,,2026-11-06
+NZX outside the NZX 20,NZX,VNT,Ventia Services Group Limited Ordinary Shares,7.33,,,55,0.1919,-0.1274,,0.0169,,2026-11-06
+NZX outside the NZX 20,NZX,VSL,Vulcan Steel Limited Ordinary Shares,6.89,,,60,-0.1628,-0.2344,,0.028,,2026-11-06
+NZX outside the NZX 20,NZX,WBC,Westpac Banking Corporation Ordinary Shares,45.01,,,60,-0.0211,-0.1402,,0.0143,,2026-11-06
+NZX outside the NZX 20,NZX,WHS,The Warehouse Group Limited Ordinary Shares,0.67,,,60,-0.1625,-0.1728,,0.0228,,2026-11-06
+NZX outside the NZX 20,NZX,WIN,Winton Land Limited (NS) Ordinary Shares,1.175,,,57,-0.4731,-0.5104,,0.0373,,2026-11-06
 Others,ASX,A1M,AIC Mines Limited,0.685,547.6,1403.0,59,0.4574,-0.2554,0.0,0.0393,0.0,2026-10-30
 Others,ASX,A8G,Australasian Metals Limited,0.16,,22.4,46,,-0.4286,,0.0913,,2026-10-30
 Others,ASX,AAC,Australian Agricultural Company Limited,1.33,801.7,73.2,60,-0.0634,-0.1104,0.0,0.0118,0.0023,2026-10-30
 Others,ASX,AAR,Astral Resources NL,0.14,253.2,447.0,60,-0.3,-0.5172,0.0,0.038,0.0028,2026-10-30
 Others,ASX,ACF,Acrow Limited,0.865,364.7,559.9,60,-0.1913,-0.2277,0.0378,0.0199,0.0018,2026-10-30
+Others,ASX,ACS,Accent Resources NL,0.2,,8.7,52,,-0.619,,0.3415,,2026-10-30
 Others,ASX,AEU,Atomic Eagle Ltd,0.37,141.9,198.0,60,,-0.4932,,0.052,0.0065,2026-10-30
 Others,ASX,AGD,Austral Gold Limited,0.12,80.2,23.8,60,0.3953,-0.52,0.0,0.0616,0.0,2026-10-30
+Others,ASX,AGI,Ainsworth Game Technology Limited,1.21,,7.1,53,0.1863,-0.2437,0.0,0.0362,,2026-10-30
 Others,ASX,AHC,Austco Healthcare Limited,0.28,,26.8,59,-0.3563,-0.3708,0.0,0.0304,,2026-10-30
 Others,ASX,AHL,Adrad Holdings Limited,1.35,,26.7,60,0.5467,-0.1456,0.0311,0.0465,,2026-10-30
 Others,ASX,AIQ,Alternative Investment Trust Units,1.38,,13.9,19,,-0.0891,,0.0044,,2026-10-30
+Others,ASX,AIS,Aeris Resources Limited,0.4,600.3,4269.6,60,-0.1209,-0.4074,0.0,0.0349,0.0195,2026-10-30
 Others,ASX,AKA,Aureka Limited,0.14,,30.9,58,0.037,-0.2432,0.0,0.0554,,2026-10-30
+Others,ASX,AKM,Aspire Mining Limited,0.25,,6.5,51,0.0,-0.1935,0.0,0.0526,,2026-10-30
 Others,ASX,ALC,Alcidion Group Limited,0.11,148.5,58.3,60,0.1702,-0.2143,0.0,0.0299,0.0,2026-10-30
+Others,ASX,AMI,Aurelia Metals Limited,0.4,688.2,2843.3,60,0.7436,-0.2381,0.0244,0.0369,0.0,2026-10-30
 Others,ASX,ANG,Austin Engineering Limited,0.17,,61.9,60,-0.3485,-0.3929,0.0156,0.0373,,2026-10-30
+Others,ASX,APX,Appen Limited,1.055,283.8,2739.4,60,0.4161,-0.4447,0.0,0.0572,0.0124,2026-10-30
 Others,ASX,AQN,Aquirian Limited,0.36,,17.3,56,-0.2421,-0.2653,0.0,0.0319,,2026-10-30
 Others,ASX,AQZ,Alliance Aviation Services Limited,0.39,85.2,381.5,56,,-0.731,,0.0407,0.0011,2026-10-30
+Others,ASX,ARA,Ariadne Australia Limited,0.47,,7.5,36,,-0.1455,,0.0287,,2026-10-30
 Others,ASX,ARN,Aldoro Resources Limited,0.335,,30.7,59,-0.2597,-0.33,0.0,0.0455,,2026-10-30
 Others,ASX,ARX,Aroa Biosurgery Limited,0.55,190.2,65.5,60,-0.3082,-0.3082,0.0,0.0254,0.0,2026-10-30
 Others,ASX,AS1,Asara Resources Limited,0.115,240.7,116.4,60,0.6429,-0.2812,0.0,0.0468,0.0003,2026-10-30
+Others,ASX,ASL,Andean Silver Limited,1.405,323.4,2210.2,58,-0.1485,-0.5155,0.0,0.0467,0.0059,2026-10-30
 Others,ASX,ATG,Articore Group Limited,0.375,110.0,22.4,59,0.1719,-0.1176,0.0,0.0505,0.0,2026-10-30
 Others,ASX,ATR,Astron Limited,0.6,258.0,30.1,59,-0.2105,-0.2982,0.0,0.0574,0.0,2026-10-30
 Others,ASX,AUE,Aurum Resources Limited,0.47,241.0,506.6,58,-0.1376,-0.3974,0.0,0.0292,0.006,2026-10-30
@@ -280,8 +309,10 @@ Others,ASX,BKY,Berkeley Energia Limited,0.82,366.0,27.7,51,0.4386,-0.0989,0.0,0.
 Others,ASX,BLG,Bluglass Limited,0.185,,34.3,60,-0.2292,-0.6064,-0.95,0.0512,,2026-10-30
 Others,ASX,BLS,BLS Pharmaceuticals Limited,1.025,236.7,229.9,60,1.6282,-0.2054,-0.9,0.0384,0.0001,2026-10-30
 Others,ASX,BML,Boab Metals Limited,0.29,167.8,770.4,60,-0.2055,-0.5887,0.0,0.0348,0.0066,2026-10-30
+Others,ASX,BMR,Ballymore Resources Limited,0.1,,8.5,52,-0.3698,-0.7619,0.0083,0.0541,,2026-10-30
 Others,ASX,BOL,Boom Logistics Limited,2.21,,126.2,60,0.5588,-0.1016,0.0104,0.0264,,2026-10-30
 Others,ASX,BPM,BPM Minerals Limited,0.18,,66.9,60,0.44,-0.4706,0.0,0.0587,,2026-10-30
+Others,ASX,BRK,Brookside Energy Limited,0.395,37.4,36.7,60,-0.0125,-0.373,0.0,0.0265,0.0,2026-10-30
 Others,ASX,BSA,BSA Limited,0.18,,23.4,53,0.44,-0.6211,0.0,0.059,,2026-10-30
 Others,ASX,BTL,Beetaloo Energy Australia Limited,0.22,331.8,367.1,60,-0.2212,-0.3714,0.0,0.0398,0.004,2026-10-30
 Others,ASX,C79,Chrysos Corporation Limited,7.12,831.1,1763.0,60,-0.1534,-0.2844,0.0,0.0318,0.0064,2026-10-30
@@ -301,7 +332,10 @@ Others,ASX,CNB,Carnaby Resources Limited,0.79,,869.7,60,1.0519,-0.2367,0.0,0.034
 Others,ASX,CNQ,Clean TEQ Water Limited,0.52,46.3,41.7,60,-0.1186,-0.358,0.0,0.0503,0.0032,2026-10-30
 Others,ASX,COG,COG Financial Services Limited,1.76,375.4,259.1,60,-0.2033,-0.2605,0.0502,0.0294,0.0,2026-10-30
 Others,ASX,COV,Cleo Diagnostics Ltd,0.295,,26.0,59,-0.2805,-0.659,0.0,0.0487,,2026-10-30
+Others,ASX,CP8,Canadian Phosphate Limited,0.14,,5.2,56,1.6512,-0.2821,0.0226,0.0817,,2026-10-30
 Others,ASX,CPN,Caspin Resources Limited,0.1,,51.9,60,0.0,-0.4595,0.0,0.0587,,2026-10-30
+Others,ASX,CSX,Cleanspace Holdings Limited,0.45,,8.6,53,-0.3571,-0.3836,0.0,0.0515,,2026-10-30
+Others,ASX,CTD,Corporate Travel Management Limited,3.56,494.6,3627.4,42,,-0.0681,,0.0649,0.024,2026-10-30
 Others,ASX,CTM,Centaurus Metals Limited,0.355,203.9,437.0,58,-0.1341,-0.5267,0.0,0.0447,0.0009,2026-10-30
 Others,ASX,CUP,Count Limited,1.655,358.3,123.0,60,,0.0,,0.0439,0.0,2026-10-30
 Others,ASX,CVL,Civmec Limited,1.7,867.8,366.2,60,0.23,-0.1479,0.0383,0.0177,0.0005,2026-10-30
@@ -310,20 +344,26 @@ Others,ASX,CVV,Caravel Minerals Limited,0.19,106.2,84.4,60,0.1176,-0.6162,0.0,0.
 Others,ASX,CYC,Cyclopharm Limited,0.425,,15.8,58,-0.3307,-0.6545,0.0,0.0434,,2026-10-30
 Others,ASX,DAL,Dalaroo Metals Ltd,0.13,,23.2,57,1.766,-0.1613,0.0,0.1191,,2026-10-30
 Others,ASX,DEM,De.MEM Limited,0.11,,12.0,57,0.0,-0.12,0.0,0.0507,,2026-10-30
+Others,ASX,DES,Desoto Resources Limited,0.12,,7.8,40,,-0.4545,,0.0593,,2026-10-30
 Others,ASX,DEV,Devex Resources Limited,0.17,120.8,185.4,60,0.36,-0.4687,0.0,0.0599,0.005,2026-10-30
 Others,ASX,DGL,DGL Group Limited,0.24,68.5,18.8,59,,-0.4074,,0.0457,0.0,2026-10-30
 Others,ASX,DLI,Delta Lithium Limited,0.15,108.0,42.4,60,-0.1667,-0.5385,0.0,0.0342,0.0003,2026-10-30
 Others,ASX,DUG,DUG Technology Ltd,1.445,196.1,270.2,60,-0.3745,-0.4078,0.0,0.0324,0.0015,2026-10-30
 Others,ASX,DUR,Duratec Limited,1.98,516.8,494.8,60,-0.0253,-0.3311,0.019,0.0303,0.0,2026-10-30
+Others,ASX,DWG,Dataworks Group Limited,0.115,,5.9,42,,-0.439,,0.0858,,2026-10-30
 Others,ASX,DXN,DXN Limited,0.14,52.7,1818.3,60,1.4138,-0.7455,0.0,0.1217,0.0004,2026-10-30
+Others,ASX,DYM,Dynamic Metals Limited,0.525,,5.9,38,,-0.2164,,0.0495,,2026-10-30
 Others,ASX,E25,Element 25 Limited,0.205,,16.5,60,-0.3279,-0.5119,0.0,0.031,,2026-10-30
+Others,ASX,EAU,EAU Lithium Ltd,0.1,24.2,15.1,60,0.4925,-0.6825,0.0,0.0554,0.0,2026-10-30
 Others,ASX,EDU,EDU Holdings Limited,0.815,101.5,205.5,60,0.5314,-0.3151,0.0711,0.0395,0.0,2026-10-30
 Others,ASX,EGH,Eureka Group Holdings Limited,0.6,337.0,42.6,57,0.1603,-0.1946,0.0249,0.0289,0.0005,2026-10-30
 Others,ASX,EHL,Emeco Holdings Limited,1.335,689.4,667.9,60,0.1362,-0.0793,0.0,0.0217,0.0007,2026-10-30
 Others,ASX,ELT,Elementos Limited,0.36,,55.7,60,0.0758,-0.3455,0.0011,0.0509,,2026-10-30
 Others,ASX,EMV,Emvision Medical Devices Ltd,1.5025,,49.4,60,-0.1699,-0.2315,0.0,0.0265,,2026-10-30
 Others,ASX,EOL,Energy One Limited,14.35,455.6,469.6,60,-0.2526,-0.2467,0.0,0.0252,0.0003,2026-10-30
+Others,ASX,EPY,Earlypay Ltd,0.135,,9.7,48,-0.3488,-0.3721,0.013,0.0425,,2026-10-30
 Others,ASX,ESK,Etherstack PLC CDI 1:1,0.48,,14.8,53,-0.2441,-0.3684,0.0,0.0434,,2026-10-30
+Others,ASX,ETPMAG,Global X Physical Silver,67.01,,5675.0,60,-0.0218,-0.5633,0.0,0.0208,,2026-10-30
 Others,ASX,ETPMPD,Global X Physical Palladium,129.35,,30.3,60,-0.3597,-0.5291,0.0,0.0174,,2026-10-30
 Others,ASX,ETPMPM,Global X Physical Precious Metal Basket,336.79,,310.9,60,-0.1004,-0.407,0.0,0.0131,,2026-10-30
 Others,ASX,ETPMPT,Global X Physical Platinum,190.26,,163.9,60,-0.1538,-0.4733,0.0,0.0174,,2026-10-30
@@ -332,10 +372,13 @@ Others,ASX,EYE,Nova Eye Medical Limited,0.15,42.7,18.4,60,0.0909,-0.2308,0.0,0.0
 Others,ASX,FAU,First AU Limited,0.16,,33.8,56,0.0,-0.2195,-0.95,0.1141,,2026-10-30
 Others,ASX,FCL,Fineos Corporation Holdings PLC CDI 1:1,2.1,724.6,251.6,60,-0.2632,-0.3498,0.0,0.0333,0.0046,2026-10-30
 Others,ASX,FDR,Finder Energy Holdings Limited,0.275,152.4,102.0,60,-0.382,-0.5833,0.0,0.0394,0.0006,2026-10-30
+Others,ASX,FEG,Far East Gold Ltd,0.115,,5.5,44,-0.1481,-0.3947,0.0,0.059,,2026-10-30
 Others,ASX,FLG,Flagship Minerals Limited,0.145,,15.4,56,-0.1212,-0.5085,0.0,0.0527,,2026-10-30
 Others,ASX,FML,Focus Minerals Ltd,1.82,521.5,379.0,60,-0.2475,-0.5892,0.0377,0.0371,0.0002,2026-10-30
+Others,ASX,FMR,FMR Resources Limited,0.56,39.1,67.3,60,0.4359,-0.1515,0.0,0.0617,0.0,2026-10-30
 Others,ASX,FRB,Firebird Metals Limited,0.14,,19.5,56,0.0,-0.5484,0.0,0.0882,,2026-10-30
 Others,ASX,FRI,Finbar Group Limited,0.71,193.2,23.9,57,,-0.2447,,0.0247,0.0001,2026-10-30
+Others,ASX,FRM,Farm Pride Foods Limited,0.275,,5.6,46,-0.1129,-0.0833,0.0,0.0476,,2026-10-30
 Others,ASX,FRS,Forrestania Resources Limited,0.29,715.7,1465.2,60,0.4146,-0.5944,0.0,0.0456,0.0103,2026-10-30
 Others,ASX,FTI,Fortifai Ltd,0.28,97.0,523.4,60,0.8667,-0.7586,0.0,0.0678,0.002,2026-10-30
 Others,ASX,G11,G11 Resources Limited,0.19,,10.4,45,-0.1364,-0.5128,-0.9,0.0779,,2026-10-30
@@ -345,6 +388,7 @@ Others,ASX,GC1,Glennon Small Companies Limited,0.385,,13.1,46,,-0.2667,,0.029,,2
 Others,ASX,GG8,Gorilla Gold Mines Ltd,0.255,186.8,203.5,60,-0.3544,-0.5405,0.0,0.0432,0.0015,2026-10-30
 Others,ASX,GGM,Global Gold Mining Limited,0.21,58.3,28.8,56,-0.2222,-0.4,0.0,0.0695,0.0,2026-10-30
 Others,ASX,GLN,Galan Lithium Limited,0.215,273.5,1219.4,60,0.4333,-0.6055,0.0,0.0475,0.0024,2026-10-30
+Others,ASX,GR8,Great Dirt Resources Ltd,0.6,,6.7,39,,-0.3103,,0.05,,2026-10-30
 Others,ASX,GRX,Greenx Metals Limited,0.95,,27.0,57,0.195,-0.1038,0.0,0.0198,,2026-10-30
 Others,ASX,GW1,Greenwing Resources Ltd,0.12,,75.0,60,3.0,0.0,0.0,0.0601,,2026-10-30
 Others,ASX,HAV,Havilah Resources Limited,0.68,240.7,93.9,60,1.5185,-0.2093,0.0,0.0336,0.0001,2026-10-30
@@ -356,6 +400,7 @@ Others,ASX,HMY,Harmoney Corp Limited,0.715,,19.4,60,-0.2394,-0.2394,0.0,0.0244,,
 Others,ASX,HPG,Hipages Group Holdings Ltd,0.87,118.8,11.1,59,-0.365,-0.3673,0.0,0.0232,0.0001,2026-10-30
 Others,ASX,HRN,Horizon Gold Limited,1.15,224.5,24.1,59,0.6059,-0.2557,0.0054,0.0354,0.0,2026-10-30
 Others,ASX,HTM,High-Tech Metals Ltd,0.255,,11.0,35,-0.1053,-0.2609,0.0,0.031,,2026-10-30
+Others,ASX,IBC,Ironbark Balanced Income Limited,0.445,,8.9,32,,-0.0111,,0.0163,,2026-10-30
 Others,ASX,ILA,Island Pharmaceuticals Limited,0.29,85.9,58.8,60,-0.3095,-0.4912,0.0,0.0352,0.0,2026-10-30
 Others,ASX,ILT,Iltani Resources Limited,0.3,,30.8,56,-0.2105,-0.5714,0.0,0.0453,,2026-10-30
 Others,ASX,IMB,Intelligent Monitoring Group Limited,0.54,225.5,101.2,60,-0.1496,-0.2895,0.0,0.0189,0.0009,2026-10-30
@@ -363,6 +408,7 @@ Others,ASX,IOV,Ion Video Ltd,0.55,,12.3,56,1.75,-0.1473,-0.99,0.0503,,2026-10-30
 Others,ASX,IPG,IPD Group Ltd,5.46,568.4,1286.2,60,0.581,-0.1402,0.0308,0.0279,0.0031,2026-10-30
 Others,ASX,IRI,Integrated Research Limited,0.26,47.4,13.8,59,-0.1948,-0.3067,0.1613,0.0338,0.0,2026-10-30
 Others,ASX,IXR,Ionic Rare Earths Limited,0.5,128.7,223.7,60,-0.0196,-0.2126,-0.9667,0.0694,0.0004,2026-10-30
+Others,ASX,JLL,Jindalee Lithium Limited,0.3,37.9,22.7,58,,-0.6591,,0.0373,0.0,2026-10-30
 Others,ASX,JNS,Janus Electric Holdings Limited,0.48,79.8,1005.8,60,,-0.4419,,0.081,0.0,2026-10-30
 Others,ASX,KAN,Kantra Copper Limited,1.16,274.4,693.3,60,1.0901,-0.083,-0.9333,0.0372,0.001,2026-10-30
 Others,ASX,KCC,Kincora Copper Limited CDI 1:1,0.86,,15.2,58,-0.2522,-0.3944,0.0,0.0465,,2026-10-30
@@ -370,6 +416,7 @@ Others,ASX,KGL,KGL Resources Limited,0.15,340.7,306.3,60,0.0217,-0.5775,0.1238,0
 Others,ASX,KGN,Kogan.Com Ltd,3.94,376.4,850.2,60,0.3082,-0.1688,0.0459,0.0317,0.0146,2026-10-30
 Others,ASX,KLI,Killi Resources Limited,0.225,,158.6,60,2.4615,-0.3077,0.0,0.0555,,2026-10-30
 Others,ASX,KLV,Klevo Group Limited,0.49,,20.9,59,,-0.3241,,0.0803,,2026-10-30
+Others,ASX,KSC,K&S Corporation Limited,3.0,,5.3,40,-0.0812,-0.1404,0.0352,0.0188,,2026-10-30
 Others,ASX,KZR,Kalamazoo Resources Limited,0.13,51.1,50.9,59,-0.2973,-0.4694,0.0,0.0513,0.0001,2026-10-30
 Others,ASX,LAC,LAC Gold Limited,0.22,47.3,65.8,59,-0.3433,-0.5769,0.0,0.0513,0.0,2026-10-30
 Others,ASX,LAT,Latitude 66 Limited,0.11,,15.5,57,,-0.4634,,0.0758,,2026-10-30
@@ -384,6 +431,8 @@ Others,ASX,LSX,Lion Selection Group Limited,0.84,,69.5,60,-0.125,-0.2432,0.0,0.0
 Others,ASX,LTP,LTR Pharma Limited,0.43,78.4,51.6,60,-0.0947,-0.4028,0.0,0.0362,0.0008,2026-10-30
 Others,ASX,LYL,Lycopodium Limited,19.98,794.0,1534.9,60,0.6514,-0.1828,0.0331,0.0285,0.0011,2026-10-30
 Others,ASX,M7T,Mach7 Technologies Limited,0.26,61.1,10.1,60,-0.1333,-0.6176,0.0,0.0317,0.0,2026-10-30
+Others,ASX,MAD,Mader Group Limited,5.68,1200.9,2003.2,60,-0.3441,-0.3567,0.0,0.0252,0.0,2026-10-30
+Others,ASX,MAM,Microequities Asset Management Group Limited,0.31,,5.5,46,,-0.5,,0.0382,,2026-10-30
 Others,ASX,MGX,MGX Resources Limited,0.3,354.1,114.7,60,-0.1549,-0.3878,0.0,0.0195,0.0005,2026-10-30
 Others,ASX,MHJ,Michael Hill International Limited,0.34,,15.1,59,0.0563,-0.2688,0.0563,0.0274,,2026-10-30
 Others,ASX,MHK,Metal Hawk Limited,0.1,,25.5,52,-0.2,-0.3103,0.0,0.0927,,2026-10-30
@@ -407,32 +456,45 @@ Others,ASX,NTD,Ntaw Holdings Limited,0.21,,17.1,30,-0.3,-0.3226,0.0,0.0585,,2026
 Others,ASX,NXL,Nuix Limited,1.785,613.2,1487.4,60,-0.2436,-0.2273,0.0,0.0515,0.007,2026-10-30
 Others,ASX,OBL,Omni Bridgeway Limited US Prohibited,1.725,499.6,298.6,60,0.0207,-0.0574,0.0,0.0291,0.0115,2026-10-30
 Others,ASX,OCN,Oceana Metals Limited,0.3,,76.0,60,0.875,-0.5041,0.0,0.057,,2026-10-30
+Others,ASX,OEC,Orbital Corporation Limited,0.1175,21.1,7.1,59,-0.3649,-0.4659,0.0,0.0462,0.0,2026-10-30
 Others,ASX,OFX,OFX Group Limited,0.42,97.8,382.1,60,-0.3058,-0.494,0.0,0.0541,0.0018,2026-10-30
 Others,ASX,OIL,Optiscan Imaging Limited,0.155,,22.8,59,0.3478,-0.2051,0.0,0.0553,,2026-10-30
 Others,ASX,OMA,Omega Oil & Gas Limited,0.83,450.8,674.0,58,1.3056,-0.2095,0.0,0.0486,0.0008,2026-10-30
+Others,ASX,ONE,Oneview Healthcare PLC CDI 1:1,0.13,109.1,8.1,57,-0.3158,-0.675,0.0,0.0646,0.0117,2026-10-30
+Others,ASX,ORD,Ordell Minerals Limited,0.45,34.1,31.2,59,0.1842,-0.5408,0.0,0.0403,0.0,2026-10-30
 Others,ASX,OSM,Osmond Resources Limited,0.52,116.7,27.3,58,,-0.514,,0.0409,0.0,2026-10-30
 Others,ASX,PAC,Pacific Current Group Limited,10.9,304.5,22.2,50,0.0566,-0.0917,0.0469,0.0339,0.0002,2026-10-30
+Others,ASX,PCG,Pengana Capital Group Limited,0.875,,5.6,53,0.3227,-0.0885,0.0355,0.0198,,2026-10-30
 Others,ASX,PE1,Pengana Private Equity Trust Units,1.485,,353.5,60,0.1742,-0.2245,0.0477,0.0279,,2026-10-30
 Others,ASX,PGL,Pilbara Gold Limited,0.375,87.8,123.4,60,-0.3243,-0.5399,-0.9333,0.0497,0.0015,2026-10-30
 Others,ASX,PHO,Phosco Ltd,0.14,,16.0,55,0.12,-0.2222,0.0,0.032,,2026-10-30
 Others,ASX,PLA,Pacific Lime and Cement Limited CDI 1:1,0.38,,157.0,60,0.3945,-0.1364,0.0,0.0305,,2026-10-30
+Others,ASX,PMM,Pioneer Minerals Limited,0.205,,6.9,42,0.0789,-0.4306,0.0,0.1235,,2026-10-30
 Others,ASX,PNC,Pioneer Credit Limited,0.605,,49.7,54,-0.0692,-0.2039,0.0,0.0214,,2026-10-30
 Others,ASX,PPE,Peoplein Limited,0.5,50.6,34.2,60,-0.3976,-0.4565,0.0,0.0259,0.0,2026-10-30
+Others,ASX,PPK,PPK Group Limited,0.325,29.5,17.1,57,,-0.3158,,0.0409,0.0007,2026-10-30
 Others,ASX,PSC,Prospect Resources Limited,0.255,213.5,98.7,60,0.3421,-0.4632,0.0,0.0517,0.0005,2026-10-30
+Others,ASX,QGL,Quantum Graphite Limited,0.35,122.7,5.5,52,-0.2135,-0.2553,0.0,0.043,0.0,2026-10-30
 Others,ASX,RCE,Recce Pharmaceuticals Ltd,0.36,110.1,23.9,60,-0.1,-0.4894,0.0,0.0447,0.0003,2026-10-30
+Others,ASX,RCT,Reef Casino Trust Units,4.65,,6.2,46,0.3544,0.0,0.0631,0.0439,,2026-10-30
 Others,ASX,RDM,Red Metal Limited,0.135,,26.0,58,0.7424,-0.2895,0.6779,0.0312,,2026-10-30
 Others,ASX,RDY,Readytech Holdings Limited,1.36,168.0,52.0,60,-0.3555,-0.4944,0.0,0.0263,0.0001,2026-10-30
+Others,ASX,RND,Rand Mining Limited,2.18,,7.4,56,-0.1742,-0.2404,0.0,0.0247,,2026-10-30
 Others,ASX,ROC,Rocketboots Limited,0.2,,21.0,59,0.6667,-0.5556,0.0,0.0564,,2026-10-30
 Others,ASX,RWL,Rubicon Water Limited,0.225,,15.8,59,0.0,-0.375,0.0,0.0991,,2026-10-30
 Others,ASX,RXL,Rox Resources Limited,0.53,738.8,1457.5,60,0.2771,-0.209,0.0,0.033,0.0014,2026-10-30
 Others,ASX,SCP,Scalare Partners Holdings Limited,4.91,,18.5,49,-0.1817,-0.1024,-0.9833,0.0404,,2026-10-30
+Others,ASX,SEG,Sports Entertainment Group Limited,0.27,,9.8,48,,-0.2703,,0.0365,,2026-10-30
 Others,ASX,SEN,Senetas Corporation Limited,2.2,,13.5,60,-0.0917,-0.375,-0.9889,0.0451,,2026-10-30
+Others,ASX,SER,Strategic Energy Resources Limited,0.18,,5.7,56,0.125,-0.2653,-0.95,0.0864,,2026-10-30
 Others,ASX,SFC,Schaffer Corporation Limited,18.41,,17.0,41,,-0.1377,,0.0165,,2026-10-30
 Others,ASX,SGC,Sinclair Gold Ltd,0.935,173.6,178.5,59,0.9479,-0.6038,-0.9167,0.0424,0.0006,2026-10-30
 Others,ASX,SGI,Stealth Group Holdings Ltd,1.21,181.6,63.2,56,0.7227,-0.2168,0.0109,0.02,0.0,2026-10-30
 Others,ASX,SGR,The Star Entertainment Group Limited,0.155,1028.6,363.3,59,0.7222,-0.1389,0.0,0.0505,0.0064,2026-10-30
 Others,ASX,SHA,Shape Australia Corporation Limited,6.96,591.5,961.9,60,0.2216,-0.1645,0.0461,0.0292,0.001,2026-10-30
 Others,ASX,SHG,Singular Health Group Ltd,0.18,,31.3,59,-0.3394,-0.3793,0.0,0.0481,,2026-10-30
+Others,ASX,SHJ,Shine Justice Ltd,0.645,,8.7,54,-0.0717,-0.1569,0.0579,0.0344,,2026-10-30
+Others,ASX,SHM,Shriro Holdings Limited,0.725,,8.4,55,-0.0283,-0.1317,0.0387,0.0242,,2026-10-30
 Others,ASX,SKY,Sky Metals Limited,0.17,169.0,192.9,60,1.3944,-0.3462,0.0,0.0546,0.0002,2026-10-30
 Others,ASX,SLA,Solara Minerals Ltd,0.13,,10.5,49,-0.3158,-0.4091,0.0,0.0679,,2026-10-30
 Others,ASX,SLB,Stelar Metals Limited,0.205,,36.9,59,1.8472,-0.3881,0.0,0.0742,,2026-10-30
@@ -452,6 +514,7 @@ Others,ASX,TBR,Tribune Resources Limited,5.19,,29.7,54,-0.2015,-0.2649,0.0,0.027
 Others,ASX,TG6,TG Metals Limited,0.18,,21.9,57,-0.1,-0.3077,0.0,0.0474,,2026-10-30
 Others,ASX,TGM,Theta Gold Mines Limited,0.195,,25.6,59,0.2188,-0.2041,0.0,0.0278,,2026-10-30
 Others,ASX,TM1,Terra Metals Limited,0.14,144.4,191.4,59,-0.0667,-0.6854,0.0,0.0707,0.0016,2026-10-30
+Others,ASX,TMK,TMK Energy Limited,0.1025,,9.4,57,-0.0682,-0.4306,-0.9818,0.0408,,2026-10-30
 Others,ASX,TNC,True North Copper Limited,0.26,49.5,115.7,58,-0.0877,-0.6486,0.0,0.0503,0.0,2026-10-30
 Others,ASX,TOK,Tolu Minerals Limited,1.135,317.8,43.3,56,-0.1775,-0.3121,0.0,0.0379,0.0,2026-10-30
 Others,ASX,TOR,Torque Metals Limited.,0.17,128.6,205.8,59,-0.32,-0.6909,0.0,0.0461,0.0026,2026-10-30
@@ -459,8 +522,10 @@ Others,ASX,TRE,Toubani Resources Limited,0.27,289.9,250.3,60,-0.0688,-0.5878,0.0
 Others,ASX,TSO,Tesoro Gold Ltd,0.795,142.9,99.3,59,-0.0185,-0.4421,-0.9333,0.0359,0.0,2026-10-30
 Others,ASX,TTM,Titan Minerals Limited,0.55,158.4,167.3,60,-0.0833,-0.5259,0.0,0.0431,0.0049,2026-10-30
 Others,ASX,TVN,Tivan Limited,0.155,363.9,327.3,60,-0.1842,-0.6702,0.0,0.0458,0.0014,2026-10-30
+Others,ASX,UBN,Urbanise.Com Limited,0.65,,7.1,32,,-0.172,,0.0245,,2026-10-30
 Others,ASX,VBC,Verbrec Limited,0.205,62.8,25.4,57,0.8885,-0.2115,0.0134,0.049,0.0001,2026-10-30
 Others,ASX,VLS,Vita Life Sciences Limited.,2.74,,23.3,58,,-0.0519,,0.0176,,2026-10-30
+Others,ASX,VMM,Viridis Mining and Minerals Limited,3.65,588.0,3353.2,55,1.8077,-0.1609,0.0,0.0448,0.0137,2026-10-30
 Others,ASX,VTM,Victory Metals Limited,1.275,168.5,155.1,60,0.0897,-0.3218,0.0,0.0401,0.0031,2026-10-30
 Others,ASX,VVA,Viva Leisure Limited,1.46,,57.7,60,-0.0812,-0.1844,0.0195,0.026,,2026-10-30
 Others,ASX,VYS,Vysarn Limited,0.7,421.3,603.3,60,0.0769,-0.3991,0.0,0.0336,0.0034,2026-10-30
@@ -518,6 +583,7 @@ Steady dividend payers,ASX,RIV,Rivco Australia Ltd,1.24,194.3,229.3,60,-0.1338,-
 Steady dividend payers,ASX,RKN,Reckon Limited,0.4,,12.6,59,-0.2908,-0.3388,0.0549,0.0166,,2026-10-30
 Steady dividend payers,ASX,RMC,Resimac Group Ltd,0.805,318.4,89.4,60,-0.1109,-0.3292,0.1984,0.0186,0.0001,2026-10-30
 Steady dividend payers,ASX,RYD,Ryder Capital Limited,2.09,,57.5,60,0.2768,-0.0873,0.063,0.0172,,2026-10-30
+Steady dividend payers,ASX,SB2,Salter Brothers Emerging Companies Limited,0.555,,7.9,51,-0.1987,-0.2975,0.0683,0.0232,,2026-10-30
 Steady dividend payers,ASX,SEC,Spheria Emerging Companies Limited,2.36,,98.1,59,-0.0634,-0.2,0.0596,0.0185,,2026-10-30
 Steady dividend payers,ASX,SRV,Servcorp Limited,5.19,528.6,427.7,60,-0.2669,-0.3632,0.0496,0.014,0.0,2026-10-30
 Steady dividend payers,ASX,SSG,Shaver Shop Group Limited,1.195,156.6,151.5,60,-0.0726,-0.234,0.0749,0.022,0.0,2026-10-30
@@ -526,6 +592,7 @@ Steady dividend payers,ASX,TCF,360 Capital Mortgage Reit Units,4.84,,63.6,60,-0.
 Steady dividend payers,ASX,TGF,Tribeca Global Natural Resources Limited,2.18,,238.1,60,0.1366,-0.3187,0.0532,0.0245,,2026-10-30
 Steady dividend payers,ASX,TOP,Thorney Opportunities Ltd,0.535,,22.4,49,-0.1874,-0.2246,0.048,0.0153,,2026-10-30
 Steady dividend payers,ASX,TOT,360 Capital Reit Stapled Securities,0.395,,14.4,56,0.0679,-0.092,0.0814,0.0209,,2026-10-30
+Steady dividend payers,ASX,TWD,Tamawood Limited,3.01,,7.8,55,0.1149,-0.0227,0.0779,0.022,,2026-10-30
 Steady dividend payers,ASX,WAA,WAM Active Limited,0.91,,270.9,60,-0.0284,-0.2288,0.089,0.0218,,2026-10-30
 Steady dividend payers,ASX,WAR,WAM Strategic Value Limited,1.08,,137.9,60,0.0683,-0.0924,0.0584,0.0069,,2026-10-30
 Steady dividend payers,ASX,WAX,WAM Research Limited,0.785,,185.9,60,-0.2978,-0.3867,0.1047,0.0209,,2026-10-30

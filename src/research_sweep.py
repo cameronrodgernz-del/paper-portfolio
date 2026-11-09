@@ -1,0 +1,142 @@
+"""The weekly sweep for research picks (rulebook section 5a, from 9 Nov 2026).
+
+It doesn't value anything. It tags each company on the research screen with the places a wrong price most often
+comes from, using facts already gathered (the screen, the ASX's announcement headlines in
+data/research_data/asx_company.json, Norgate's index changes), so the research desk can read the most promising
+ones and write the candidate list (reports/research_candidates.md). The tags are pointers to read, not signals:
+none of them has a tested edge on its own (the mechanical versions in rulebook section 9 failed).
+
+Places, with the weight each carries in the order:
+  forced sellers (2 each): left an S&P/ASX index in the last 12 months; a substantial holder left in the last six
+    months; a spin-off or demerger in the last 18 months; shares coming out of escrow in the last six months;
+    a share raising in the last nine months (holders who didn't want more often sell)
+  insiders (2): director interest notices in the last three months on a share at least 40% below its high
+    (the notice may be a sale: the desk opens it)
+  buy-back (1): a buy-back notice in the last six months
+  results that may hide the earnings (1): an impairment, write-down or one-off in the last 12 months
+  a reported loss after earlier profits (1): the loss may be one-offs
+  neglect (1): market value under A$100m
+  less 4 for little or no revenue (under A$5m): explorers and developers raise and release escrow as routine
+A company with a deep dive or fact sheet in the last three months goes to the bottom unless the evening desk has
+marked it reopened. Live control proposals and strategic reviews are listed apart, as special situations.
+NZX companies have no announcement headlines in the stored data, so they are listed with what the screen shows
+and the desk reads their announcements itself.
+
+Writes reports/research_sweep.md and reports/research_sweep.csv.
+Usage: python3 -I src/research_sweep.py <repo_root> [YYYY-MM-DD]
+"""
+import csv
+import json
+import os
+import re
+import sys
+from datetime import date, timedelta
+
+PLACES = [
+    # (tag, weight, months back, headline pattern)
+    ("a substantial holder left", 2, 6, re.compile(r"ceasing to be (a )?substantial", re.I)),
+    ("spin-off or demerger", 2, 18, re.compile(r"demerg|spin[- ]?off|in[- ]specie", re.I)),
+    ("shares out of escrow", 2, 6, re.compile(r"escrow", re.I)),
+    ("a share raising", 2, 9, re.compile(r"entitlement offer|placement|capital raising|share purchase plan|\bSPP\b|rights issue", re.I)),
+    ("buy-back", 1, 6, re.compile(r"buy-?back|appendix 3[CEF]\b", re.I)),
+    ("one-offs in the results", 1, 12, re.compile(r"impairment|write-?down|one-?off|non-?cash|restructur", re.I)),
+]
+DIRECTOR = re.compile(r"director'?s'? interest|appendix 3Y", re.I)
+SPECIAL = re.compile(r"strategic review|non-binding|indicative proposal|takeover|scheme implementation|bidder'?s statement", re.I)
+
+
+def months_ago(today: date, m: int) -> str:
+    return (today - timedelta(days=int(m * 30.44))).isoformat()
+
+
+def coverage(root: str) -> dict:
+    """Ticker -> (latest date covered, row text) from research/picks/INDEX.md."""
+    out = {}
+    p = os.path.join(root, "research", "picks", "INDEX.md")
+    if not os.path.exists(p):
+        return out
+    for line in open(p, encoding="utf-8"):
+        m = re.match(r"\| (ASX|NZX):([A-Z0-9]+) \| [^|]* \| (\d{4}-\d\d-\d\d) \| (.*)", line)
+        if m:
+            out[(m.group(1), m.group(2))] = (m.group(3), line)
+    return out
+
+
+def main(root: str, today_s: str | None = None):
+    rows = list(csv.DictReader(open(os.path.join(root, "reports", "research_screen.csv"), encoding="utf-8")))
+    today = date.fromisoformat(today_s or max(r["as_of"] for r in rows))
+    asx = {}
+    p = os.path.join(root, "data", "research_data", "asx_company.json")
+    if os.path.exists(p):
+        asx = json.load(open(p, encoding="utf-8"))
+    left = {}
+    p = os.path.join(root, "data", "norgate", "index_changes.csv")
+    if os.path.exists(p):
+        for r in csv.DictReader(open(p, encoding="utf-8")):
+            if r["change"] == "left" and r["date"] >= months_ago(today, 12) and r["date"] <= today.isoformat():
+                left.setdefault(r["symbol"].split(".")[0], []).append(f"{r['index']} {r['date']}")
+    cov = coverage(root)
+    recent = months_ago(today, 3)
+    out, special = [], []
+    for r in rows:
+        mk, t = r["market"], r["ticker"]
+        tags, score = [], 0
+        if t in left and mk == "ASX":
+            tags.append("left " + "; ".join(left[t])); score += 2
+        anns = (asx.get(t) or {}).get("announcements") or [] if mk == "ASX" else []
+        for tag, w, back, pat in PLACES:
+            since = months_ago(today, back)
+            hits = [a for a in anns if since <= a.get("date", "") <= today.isoformat() and pat.search(a.get("headline", ""))]
+            if hits:
+                tags.append(f"{tag} ({hits[0]['date']})"); score += w
+        bh = float(r["below_high"]) if r.get("below_high") not in ("", None) else 0.0
+        dn = [a for a in anns if recent <= a.get("date", "") <= today.isoformat() and DIRECTOR.search(a.get("headline", ""))]
+        if dn and bh <= -0.40:
+            tags.append(f"director notices after a {bh:.0%} fall ({len(dn)}, latest {dn[0]['date']}: open to see buy or sell)"); score += 2
+        inc = ((asx.get(t) or {}).get("key-statistics") or {}).get("incomeStatement") or [] if mk == "ASX" else []
+        rev = inc[0].get("revenue") if inc else None
+        if rev is not None and rev < 5e6:
+            # explorers and developers raise money and release escrow as a matter of course, so those tags mean little
+            tags.append("little or no revenue (an explorer or developer?)"); score -= 4
+        elif inc and (inc[0].get("netIncome") or 0) < 0 and any((x.get("netIncome") or 0) > 0 for x in inc[1:]):
+            tags.append("a loss last year after profits before (check what the loss was)"); score += 1
+        mv = float(r["market_value_m"]) if r.get("market_value_m") not in ("", None) else None
+        if mv is not None and mv < 100:
+            tags.append(f"small (A${mv:.0f}m)" if mk == "ASX" else f"small (NZ${mv:.0f}m)"); score += 1
+        sp = [a for a in anns if months_ago(today, 6) <= a.get("date", "") and SPECIAL.search(a.get("headline", ""))]
+        c = cov.get((mk, t))
+        covered = c[0] if c else ""
+        reopened = bool(c and "reopened" in c[1].lower())
+        stale = bool(c and c[0] >= recent and not reopened)
+        rec = {"market": mk, "ticker": t, "name": r["name"], "price": r["price"], "market_value_m": r.get("market_value_m", ""),
+               "median_traded_k": r.get("median_traded_k", ""), "below_high": r.get("below_high", ""), "score": score,
+               "places": "; ".join(tags), "covered": covered + (" (reopened)" if reopened else ""), "recently_covered": stale}
+        if sp:
+            special.append(dict(rec, places=f"{sp[0]['headline']} ({sp[0]['date']})"))
+        if score > 0:
+            out.append(rec)
+    out = [x for x in out if x["score"] > 0]
+    out.sort(key=lambda x: (x["recently_covered"], -x["score"], float(x["below_high"] or 0)))
+    fields = list(out[0].keys()) if out else ["market", "ticker"]
+    with open(os.path.join(root, "reports", "research_sweep.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fields); w.writeheader(); w.writerows(out)
+    L = [f"# Research sweep, {today.isoformat()}", "",
+         "Pointers for the research desk (rulebook section 5a), not buy signals. Each company on the screen is tagged with the "
+         "places a wrong price most often comes from; the desk reads the top of this list and writes reports/research_candidates.md. "
+         "Companies covered in the last three months sit at the bottom unless reopened.", "",
+         f"{len(rows)} on the screen, {len(out)} with at least one tag.", "",
+         "| # | Share | Name | Score | Places | Price | Value (m) | Below high | Covered |", "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+    for i, x in enumerate(out[:60], 1):
+        bh = f"{float(x['below_high']):.0%}" if x["below_high"] not in ("", None) else ""
+        L.append(f"| {i} | {x['market']}:{x['ticker']} | {x['name'][:38]} | {x['score']} | {x['places']} | {x['price']} | "
+                 f"{x['market_value_m']} | {bh} | {x['covered']} |")
+    if special:
+        L += ["", "## Possible special situations (last six months)", "",
+              "| Share | Name | Headline |", "| --- | --- | --- |"]
+        L += [f"| {x['market']}:{x['ticker']} | {x['name'][:38]} | {x['places']} |" for x in special[:30]]
+    open(os.path.join(root, "reports", "research_sweep.md"), "w", encoding="utf-8").write("\n".join(L) + "\n")
+    print(f"sweep: {len(out)} tagged of {len(rows)}; top: " + ", ".join(f"{x['market']}:{x['ticker']}" for x in out[:10]))
+
+
+if __name__ == "__main__":
+    main(sys.argv[1] if len(sys.argv) > 1 else ".", sys.argv[2] if len(sys.argv) > 2 else None)

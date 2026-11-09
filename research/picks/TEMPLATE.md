@@ -4,13 +4,24 @@ Written <YYYY-MM-DD> by the research desk. Price at writing: <price> (<date of c
 Status: TO WRITE (remove this word once the file is finished; decide.py refuses a draft)
 Fact sheet: research/facts/<TICKER>.md (NZ_<TICKER>.md for NZX), grade <A or B>, and the question it set.
 
-Value pick (rulebook section 5a, from 8 Nov 2026): if the bad case is no more than 10% below the price and the middling
-case at least 15% above it, the resolve date may be up to 24 months out; list the results and meetings in that time as the
-dated events. Say on the first line whether this is a value pick.
+Written for the one-company-at-a-time process (rulebook section 5a, from 9 Nov 2026). This is the case for buying.
+A second model writes the case against without seeing this file (research/against/), then the two are argued out in
+research/debate/, which ends with Cam's decision. The resolve date may be up to 36 months out; dated events are optional.
+The value test: the bad case no more than 30% below the price, and the middling case above it by at least 1.5 times the
+bad case's fall, never less than 15%. Special situations skip the value test.
 
 Order of work (added 2 Nov 2026): write "What the filings show" and "Valuation" before looking at the share
 price or the market value, so the value comes from the business and not from the price. Fill in the price,
 "Why the market is wrong" and "Outcomes and chances" last.
+
+## What the price assumes
+Written first, from today's price: what profit, growth, margin or asset value the market is paying for,
+worked backwards with the arithmetic shown, and how that compares with the company's own history and plans.
+
+## The one thing the market is missing
+One sentence, then the evidence for it. For example: "underlying profit is $X once last year's one-off is taken
+out", or "the land is carried at $Y but similar land has sold for $Z". If after the full deep dive this sentence can't
+be written, the company is a reject: say so here and stop.
 
 ## The company in plain words
 What it does, where the money comes from, who runs it, who owns it (the top 20 holders and any substantial
@@ -65,16 +76,17 @@ Then the expected price, the round-trip costs, and the expected gain after costs
 a case for review, whatever the gap.
 
 ## Dated events
-The events expected to show the market is wrong (results, a contract, a regulator decision, a sale
-process, a debt refinancing), each with its date or expected date. The card's resolve_by date is the last of them.
+Optional from 9 Nov 2026. The results, meetings and other events in the holding period that should show whether the
+case is right, each with its date or expected date. The resolve date is at most 36 months out.
 
 ## What would make this wrong
-The two or three things that would break the case, and the exit rule.
+The two or three things that would break the case, and the exit rule: the specific fact that would show the reason for
+buying is wrong, which is when the pick is sold (rulebook section 5a). A 25% fall from the buy price means a review, not a sale.
 
 ## Checks
 - Not on Cam's excluded list (config/judgement_excluded.csv).
 - No placement-pattern reopening in the last 30 sessions (rulebook section 9).
-- Liquidity: median daily traded value, and the most the position can be under section 3.
+- Liquidity: median daily traded value, and the most the position can be under section 3 (five sessions at 10% for research picks).
 
 ## Sources
 Every document used, with its link: annual reports, announcements, registers, regulator pages.

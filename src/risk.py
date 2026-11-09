@@ -21,6 +21,7 @@ GROUP_CAP = 0.10                          # deals waiting on one regulator, or f
 MIN_ORDER = {"NZX": ("NZD", 2500), "ASX": ("AUD", 1500), "US": ("USD", 500)}
 CASH_FLOOR = 0.05
 LIQ_SESSIONS, LIQ_SHARE = 2, 0.10         # no position over two sessions at 10% of daily volume
+LIQ_SESSIONS_RESEARCH = 5                 # research picks: five sessions at 10%, built over a week (from 9 Nov 2026)
 DD_HALVE, DD_EXIT = 0.08, 0.12
 
 
@@ -111,9 +112,9 @@ def check_order(val: dict, drawdown: float, sleeve: str, market: str, ticker: st
             out.append(f"deals in group '{group}' would be {(g_now + value_nzd) / total:.1%}, over 10%")
     if adv_value_nzd is not None and adv_value_nzd <= 0:
         out.append("no recent trading history to judge liquidity")
-    elif adv_value_nzd is not None and after_pos > LIQ_SESSIONS * LIQ_SHARE * adv_value_nzd + 1e-6:
+    elif adv_value_nzd is not None and after_pos > (n := LIQ_SESSIONS_RESEARCH if sleeve == "research" else LIQ_SESSIONS) * LIQ_SHARE * adv_value_nzd + 1e-6:
         out.append(f"position would be {after_pos / adv_value_nzd:.0%} of a day's median trading value; "
-                   f"the limit is {LIQ_SESSIONS * LIQ_SHARE:.0%} (two sessions at 10%)")
+                   f"the limit is {n * LIQ_SHARE:.0%} ({'five' if n == 5 else 'two'} sessions at 10%)")
     if sleeve == "deal" and break_loss is not None and after_pos * break_loss > BREAK_LOSS_CAP * total + 0.01:
         out.append(f"if the deal breaks the position would lose {after_pos * break_loss / total:.2%} of the portfolio, over 1%")
     if sleeve in ("deal", "special", "research") and review_pending:

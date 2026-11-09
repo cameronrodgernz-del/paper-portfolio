@@ -62,6 +62,9 @@ named event, or don't enter.
 
 # Red team checklist for a research pick (rulebook section 5a)
 
+No longer used from 9 November 2026: research picks now get a case against from a second model and a debate ending in
+Cam's decision (docs/RESEARCH_PROCESS.md). Kept for the record of the reviews written from 1 to 8 November.
+
 The red team is a separate agent that has not seen the analyst's reasoning beyond the deep dive itself. It
 gets the deep dive (research/picks/<TICKER>.md) and the draft card, checks the facts against the primary
 sources it cites, and argues against buying. It writes research/red_team/<TICKER>.md, working through the

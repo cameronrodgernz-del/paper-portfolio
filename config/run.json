@@ -3,7 +3,7 @@
   "active": "practice",
   "ledgers": {
     "practice": {"dir": "ledger/practice", "start": "2026-11-02", "end": "2026-12-31"},
-    "counted": {"dir": "ledger/counted", "start": "2027-01-04", "end": "2027-07-02"},
+    "counted": {"dir": "ledger/counted", "start": "2027-01-04", "end": "2028-06-30"},
     "dryrun": {"dir": "ledger/dryrun", "start": "2026-10-01", "end": "2026-10-30"}
   },
   "bankroll_nzd": 100000,

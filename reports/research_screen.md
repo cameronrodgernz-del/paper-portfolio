@@ -1,10 +1,10 @@
 # Research screen
 
-Run 2026-11-07 21:38 UTC. A shortlist for deep dives (rulebook section 5a), not a buy list: the history tests showed screens alone don't beat the market after costs.
+Run 2026-11-09 02:24 UTC. A shortlist for deep dives (rulebook section 5a), not a buy list: the history tests showed screens alone don't beat the market after costs.
 
-413 ASX shares outside the S&P/ASX 300, tradable at our size and below most funds' radar; 121 NZX shares outside the NZX 20 that trade on most days.
+481 ASX shares outside the S&P/ASX 300, tradable at our size and below most funds' radar; 120 NZX shares outside the NZX 20 that trade on most days.
 
-## Steady dividend payers (59)
+## Steady dividend payers (61)
 
 | Share | Name | Price | Value (A$m) | Traded a day (A$k) | 12 months | Below high | Dividends, 12 months | Short |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -55,25 +55,28 @@ Run 2026-11-07 21:38 UTC. A shortlist for deep dives (rulebook section 5a), not 
 | ASX:RHI | Red Hill Minerals Limited | 4.43 |  | 33.7 | +22% | -14% | +5% |  |
 | ASX:RKN | Reckon Limited | 0.4 |  | 12.6 | -29% | -34% | +5% |  |
 | ASX:RYD | Ryder Capital Limited | 2.09 |  | 57.5 | +28% | -9% | +6% |  |
+| ASX:SB2 | Salter Brothers Emerging Companies Limit | 0.555 |  | 7.9 | -20% | -30% | +7% |  |
 | ASX:SEC | Spheria Emerging Companies Limited | 2.36 |  | 98.1 | -6% | -20% | +6% |  |
 | ASX:TCF | 360 Capital Mortgage Reit Units | 4.84 |  | 63.6 | -8% | -18% | +12% |  |
 | ASX:TGF | Tribeca Global Natural Resources Limited | 2.18 |  | 238.1 | +14% | -32% | +5% |  |
 | ASX:TOP | Thorney Opportunities Ltd | 0.535 |  | 22.4 | -19% | -22% | +5% |  |
 | ASX:TOT | 360 Capital Reit Stapled Securities | 0.395 |  | 14.4 | +7% | -9% | +8% |  |
+| ASX:TWD | Tamawood Limited | 3.01 |  | 7.8 | +11% | -2% | +8% |  |
 | ASX:WAA | WAM Active Limited | 0.91 |  | 270.9 | -3% | -23% | +9% |  |
 | ASX:WAR | WAM Strategic Value Limited | 1.08 |  | 137.9 | +7% | -9% | +6% |  |
 | ASX:WAX | WAM Research Limited | 0.785 |  | 185.9 | -30% | -39% | +10% |  |
 | ASX:WGB | WAM Global Limited | 2.03 |  | 596.5 | -15% | -20% | +6% |  |
 | ASX:WHF | Whitefield Industrials Limited | 4.74 |  | 358.3 | -11% | -16% | +5% |  |
 | ASX:WMI | WAM Microcap Limited | 1.105 |  | 384.8 | -26% | -35% | +8% |  |
-| ASX:WQG | WCM Global Growth Limited | 1.885 |  | 458.6 | -5% | -14% | +5% |  |
+| ... | 1 more in reports/research_screen.csv | | | | | | | |
 
-## Fallen but still paying (18)
+## Fallen but still paying (19)
 
 | Share | Name | Price | Value (A$m) | Traded a day (A$k) | 12 months | Below high | Dividends, 12 months | Short |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ASX:WAM | WAM Capital Limited | 0.98 | 1125.1 | 1810.8 | -38% | -47% | +13% | +0% |
 | ASX:OCL | Objective Corporation Limited | 6.22 | 594.8 | 873.0 | -66% | -66% | +3% | +0% |
+| ASX:BAP | Bapcor Limited | 0.85 | 571.8 | 3018.7 | -53% | -65% | +38% | +2% |
 | ASX:29M | 29METALS Limited | 0.255 | 446.3 | 1110.1 | -40% | -61% | +8% | +1% |
 | ASX:BLX | Beacon Lighting Group Limited | 1.86 | 426.6 | 114.5 | -31% | -37% | +4% | +1% |
 | ASX:AFG | Australian Finance Group Ltd | 1.49 | 393.0 | 1209.5 | -33% | -38% | +6% | +0% |
@@ -91,7 +94,7 @@ Run 2026-11-07 21:38 UTC. A shortlist for deep dives (rulebook section 5a), not 
 | ASX:LKO | Lakes Blue Energy NL | 0.265 |  | 16.0 | -81% | -83% | +5% |  |
 | ASX:MCA | Murray COD Australia Limited | 0.14 |  | 15.6 | -83% | -87% | +27% |  |
 
-## Big fallers (76)
+## Big fallers (93)
 
 | Share | Name | Price | Value (A$m) | Traded a day (A$k) | 12 months | Below high | Dividends, 12 months | Short |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -145,6 +148,7 @@ Run 2026-11-07 21:38 UTC. A shortlist for deep dives (rulebook section 5a), not 
 | ASX:AL3 | Aml3d Limited | 0.115 | 65.3 | 153.8 | -41% | -49% | +0% | +0% |
 | ASX:AVL | Australian Vanadium Limited | 0.17 | 64.9 | 72.6 | -43% | -47% | -96% | +0% |
 | ASX:VHM | VHM Limited | 0.205 | 63.9 | 35.8 | -63% | -65% | +0% | +0% |
+| ASX:BOC | Bougainville Copper Limited 1 Kina | 0.155 | 62.2 | 9.5 | -87% | -87% | +0% | +0% |
 | ASX:ATH | Alterity Therapeutics Limited | 0.265 | 60.7 | 122.1 | -47% | -63% | -98% | +0% |
 | ASX:BKB | Black Bear Minerals Limited | 0.34 | 59.5 | 110.2 | -52% | -69% | +0% | +0% |
 | ASX:KYP | Kinatico Ltd | 0.125 | 54.6 | 35.7 | -64% | -64% | +0% | +0% |
@@ -154,14 +158,14 @@ Run 2026-11-07 21:38 UTC. A shortlist for deep dives (rulebook section 5a), not 
 | ASX:HAS | Hastings Technology Metals Ltd | 0.2 | 46.9 | 27.3 | -67% | -69% | +2% | +0% |
 | ASX:CXL | Calix Limited | 0.2 | 43.2 | 55.6 | -51% | -88% | +0% | +0% |
 | ASX:CZR | CZR Resources Ltd | 0.175 | 42.4 | 35.6 | -51% | -64% | +0% | +0% |
-| ASX:BVR | Bellavista Resources Ltd | 0.195 | 42.1 | 299.1 | -62% | -79% | +0% | +0% |
-| ... | 16 more in reports/research_screen.csv | | | | | | | |
+| ... | 33 more in reports/research_screen.csv | | | | | | | |
 
-## Others (232)
+## Others (276)
 
 | Share | Name | Price | Value (A$m) | Traded a day (A$k) | 12 months | Below high | Dividends, 12 months | Short |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ASX:ZIM | Zimplats Holdings Limited 10c US | 12.67 | 1363.8 | 138.8 | -32% | -48% | +0% | +0% |
+| ASX:MAD | Mader Group Limited | 5.68 | 1200.9 | 2003.2 | -34% | -36% | +0% | +0% |
 | ASX:SGR | The Star Entertainment Group Limited | 0.155 | 1028.6 | 363.3 | +72% | -14% | +0% | +1% |
 | ASX:WGN | Wagners Holding Company Limited | 4.75 | 953.7 | 1479.6 | +70% | -4% | +1% | +0% |
 | ASX:CVL | Civmec Limited | 1.7 | 867.8 | 366.2 | +23% | -15% | +4% | +0% |
@@ -173,14 +177,18 @@ Run 2026-11-07 21:38 UTC. A shortlist for deep dives (rulebook section 5a), not 
 | ASX:FCL | Fineos Corporation Holdings PLC CDI 1:1 | 2.1 | 724.6 | 251.6 | -26% | -35% | +0% | +0% |
 | ASX:FRS | Forrestania Resources Limited | 0.29 | 715.7 | 1465.2 | +41% | -59% | +0% | +1% |
 | ASX:EHL | Emeco Holdings Limited | 1.335 | 689.4 | 667.9 | +14% | -8% | +0% | +0% |
+| ASX:AMI | Aurelia Metals Limited | 0.4 | 688.2 | 2843.3 | +74% | -24% | +2% | +0% |
 | ASX:NXL | Nuix Limited | 1.785 | 613.2 | 1487.4 | -24% | -23% | +0% | +1% |
+| ASX:AIS | Aeris Resources Limited | 0.4 | 600.3 | 4269.6 | -12% | -41% | +0% | +2% |
 | ASX:CGS | Cogstate Ltd | 3.45 | 593.8 | 1163.8 | +24% | -9% | +1% | +0% |
 | ASX:SHA | Shape Australia Corporation Limited | 6.96 | 591.5 | 961.9 | +22% | -16% | +5% | +0% |
+| ASX:VMM | Viridis Mining and Minerals Limited | 3.65 | 588.0 | 3353.2 | +181% | -16% | +0% | +1% |
 | ASX:IPG | IPD Group Ltd | 5.46 | 568.4 | 1286.2 | +58% | -14% | +3% | +0% |
 | ASX:A1M | AIC Mines Limited | 0.685 | 547.6 | 1403.0 | +46% | -26% | +0% | +0% |
 | ASX:FML | Focus Minerals Ltd | 1.82 | 521.5 | 379.0 | -25% | -59% | +4% | +0% |
 | ASX:DUR | Duratec Limited | 1.98 | 516.8 | 494.8 | -3% | -33% | +2% | +0% |
 | ASX:OBL | Omni Bridgeway Limited US Prohibited | 1.725 | 499.6 | 298.6 | +2% | -6% | +0% | +1% |
+| ASX:CTD | Corporate Travel Management Limited | 3.56 | 494.6 | 3627.4 |  | -7% |  | +2% |
 | ASX:EOL | Energy One Limited | 14.35 | 455.6 | 469.6 | -25% | -25% | +0% | +0% |
 | ASX:OMA | Omega Oil & Gas Limited | 0.83 | 450.8 | 674.0 | +131% | -21% | +0% | +0% |
 | ASX:VYS | Vysarn Limited | 0.7 | 421.3 | 603.3 | +8% | -40% | +0% | +0% |
@@ -200,6 +208,7 @@ Run 2026-11-07 21:38 UTC. A shortlist for deep dives (rulebook section 5a), not 
 | ASX:BTL | Beetaloo Energy Australia Limited | 0.22 | 331.8 | 367.1 | -22% | -37% | +0% | +0% |
 | ASX:AUZ | Australian Mines Limited | 0.15 | 330.2 | 351.7 | +88% | -3% | -80% | +0% |
 | ASX:AVH | Avita Medical Inc. CDI 5:1 | 4.69 | 325.0 | 1082.3 | +291% | -0% | +0% | +0% |
+| ASX:ASL | Andean Silver Limited | 1.405 | 323.4 | 2210.2 | -15% | -52% | +0% | +1% |
 | ASX:TOK | Tolu Minerals Limited | 1.135 | 317.8 | 43.3 | -18% | -31% | +0% | +0% |
 | ASX:AZY | Antipa Minerals Limited | 0.47 | 314.5 | 419.3 | -18% | -44% | +0% | +0% |
 | ASX:BCN | Beacon Minerals Limited | 2.64 | 307.2 | 125.3 | +14% | -40% | +9% | +0% |
@@ -209,21 +218,15 @@ Run 2026-11-07 21:38 UTC. A shortlist for deep dives (rulebook section 5a), not 
 | ASX:WTM | Waratah Minerals Limited | 0.77 | 299.0 | 680.4 | +9% | -8% | +0% | +0% |
 | ASX:TRE | Toubani Resources Limited | 0.27 | 289.9 | 250.3 | -7% | -59% | +3% | +0% |
 | ASX:STN | Saturn Metals Limited | 0.385 | 289.6 | 640.1 | -17% | -38% | +0% | +0% |
+| ASX:APX | Appen Limited | 1.055 | 283.8 | 2739.4 | +42% | -44% | +0% | +1% |
 | ASX:MVF | Monash IVF Group Limited | 0.72 | 280.5 | 280.1 | +8% | -18% | +4% | +1% |
 | ASX:TBN | Tamboran Resources Corporation CDI 200:1 | 0.21 | 278.1 | 749.3 | +13% | -37% | +2% | +0% |
 | ASX:KAN | Kantra Copper Limited | 1.16 | 274.4 | 693.3 | +109% | -8% | -93% | +0% |
 | ASX:GLN | Galan Lithium Limited | 0.215 | 273.5 | 1219.4 | +43% | -61% | +0% | +0% |
 | ASX:CEL | Challenger Gold Limited | 1.57 | 268.9 | 273.6 | -37% | -44% | -95% | +0% |
-| ASX:HCH | HOT Chili Limited | 1.315 | 266.8 | 335.2 | +39% | -39% | +0% | +0% |
-| ASX:SVM | Sovereign Metals Limited | 0.4 | 262.4 | 274.0 | -37% | -57% | +0% | +0% |
-| ASX:ATR | Astron Limited | 0.6 | 258.0 | 30.1 | -21% | -30% | +0% | +0% |
-| ASX:LAU | Lindsay Australia Limited | 0.695 | 255.2 | 226.1 | +23% | -11% | +6% | +0% |
-| ASX:AAR | Astral Resources NL | 0.14 | 253.2 | 447.0 | -30% | -52% | +0% | +0% |
-| ASX:AUE | Aurum Resources Limited | 0.47 | 241.0 | 506.6 | -14% | -40% | +0% | +1% |
-| ASX:AS1 | Asara Resources Limited | 0.115 | 240.7 | 116.4 | +64% | -28% | +0% | +0% |
-| ... | 172 more in reports/research_screen.csv | | | | | | | |
+| ... | 216 more in reports/research_screen.csv | | | | | | | |
 
-## Listed investment companies and trusts (check the discount to net assets) (28)
+## Listed investment companies and trusts (check the discount to net assets) (32)
 
 | Share | Name | Price | Value (A$m) | Traded a day (A$k) | 12 months | Below high | Dividends, 12 months | Short |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -239,12 +242,14 @@ Run 2026-11-07 21:38 UTC. A shortlist for deep dives (rulebook section 5a), not 
 | ASX:ACQ | Acorn Capital Investment Fund Limited | 0.8 |  | 51.6 | -7% | -23% | +11% |  |
 | ASX:AUI | Australian United Investment Company Lim | 12.28 |  | 803.6 | +11% | +0% | +4% |  |
 | ASX:BTI | Bailador Technology Investments Limited | 0.88 |  | 83.2 | -23% | -31% | +7% |  |
+| ASX:CD1 | CD Private Equity Fund I Units | 0.28 |  | 8.2 |  | -45% |  |  |
 | ASX:CD2 | CD Private Equity Fund II Units | 0.32 |  | 11.0 | -8% | -64% | +99% |  |
 | ASX:CD3 | CD Private Equity Fund III Units | 0.76 |  | 28.1 | -18% | -34% | +19% |  |
 | ASX:CDO | Cadence Opportunities Fund Limited | 2.17 |  | 29.2 |  | -13% |  |  |
 | ASX:CIN | Carlton Investments Limited | 35.0 |  | 60.9 | +2% | -8% | +3% |  |
 | ASX:DJW | Djerriwarrh Investments Limited | 2.99 |  | 485.5 | +1% | -4% | +5% |  |
 | ASX:FPC | Fat Prophets Global Contrarian Fund Ltd | 1.29 |  | 12.1 | -5% | -23% | +4% |  |
+| ASX:GFL | Global Masters Fund Limited | 2.8 |  | 8.4 | -25% | -26% | +0% |  |
 | ASX:GVF | Staude Capital Global Value Fund Limited | 1.26 |  | 94.7 | -3% | -15% | +5% |  |
 | ASX:HM1 | Hearts and Minds Investments Limited | 2.77 |  | 534.5 | -10% | -16% | +7% |  |
 | ASX:LRT | Lowell Resources Fund Units | 1.72 |  | 62.3 | -6% | -43% | +6% |  |
@@ -252,74 +257,76 @@ Run 2026-11-07 21:38 UTC. A shortlist for deep dives (rulebook section 5a), not 
 | ASX:MOT | Metrics Income Opportunities Trust Units | 1.36 |  | 963.5 | -21% | -31% | +9% |  |
 | ASX:MRE | Metrics Real Estate Multi-Strategy Fund  | 1.45 |  | 271.6 | -17% | -29% | +6% |  |
 | ASX:OPH | Ophir High Conviction Fund Units | 2.23 |  | 546.2 | -27% | -36% | +15% |  |
+| ASX:PGF | PM Capital Global Opportunities Fund Lim | 3.17 |  | 2211.8 | +20% | -8% | +5% |  |
 | ASX:RF1 | Regal Investment Fund Units | 3.0 |  | 529.7 | -2% | -20% | +8% |  |
 | ASX:RG1 | Regal Partners Global Investments Limite | 2.41 |  | 640.0 | +29% | -13% | +5% |  |
 | ASX:SNC | Sandon Capital Investments Limited | 0.73 |  | 22.7 | -16% | -23% | +7% |  |
+| ASX:URF | US Masters Residential Property Fund Uni | 0.11 |  | 9.7 | -2% | -63% | +153% |  |
 
-## NZX outside the NZX 20 (121)
+## NZX outside the NZX 20 (120)
 
 | Share | Name | Price | Value (A$m) | Traded a day (A$k) | 12 months | Below high | Dividends, 12 months | Short |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| NZX:AFI | Australian Foundation Investment Company | 8.975 |  |  | +8% | -0% |  |  |
-| NZX:AFT | AFT Pharmaceuticals Ltd Ordinary Shares | 4.6 |  |  | +51% | -5% |  |  |
-| NZX:AIR | Air New Zealand Limited (NS) Ordinary Sh | 0.38 |  |  | -36% | -39% |  |  |
-| NZX:ALF | Allied Farmers Limited (NS) Ordinary Sha | 0.595 |  |  | -27% | -28% |  |  |
-| NZX:ANZ | ANZ Group Holdings Limited Ordinary Shar | 49.25 |  |  | +17% | -3% |  |  |
-| NZX:APA | Smart Asia Pacific ETF Units | 3.625 |  |  | +16% | -14% |  |  |
-| NZX:APL | Asset Plus Limited Ordinary Shares | 0.17 |  |  | -23% | -31% |  |  |
+| NZX:AFI | Australian Foundation Investment Company | 8.975 |  |  | +7% | -0% |  |  |
+| NZX:AFT | AFT Pharmaceuticals Ltd Ordinary Shares | 4.6 |  |  | +49% | -5% |  |  |
+| NZX:AIR | Air New Zealand Limited (NS) Ordinary Sh | 0.38 |  |  | -37% | -39% |  |  |
+| NZX:ALF | Allied Farmers Limited (NS) Ordinary Sha | 0.595 |  |  | -22% | -28% |  |  |
+| NZX:ANZ | ANZ Group Holdings Limited Ordinary Shar | 49.25 |  |  | +16% | -3% |  |  |
+| NZX:APA | Smart Asia Pacific ETF Units | 3.625 |  |  | +14% | -14% |  |  |
+| NZX:APL | Asset Plus Limited Ordinary Shares | 0.17 |  |  | -24% | -31% |  |  |
 | NZX:ARG | Argosy Property Limited Ordinary Shares | 1.035 |  |  | -19% | -20% |  |  |
 | NZX:ASD | Smart Australian Dividend ETF Units | 2.337 |  |  | +8% | -1% |  |  |
-| NZX:ASF | Smart Australian Financials ETF Units | 13.938 |  |  | +11% | -0% |  |  |
-| NZX:ASP | Smart Australian Property ETF Units | 1.573 |  |  | -8% | -7% |  |  |
-| NZX:ASR | Smart Australian Resources ETF Units | 8.854 |  |  | +26% | -13% |  |  |
-| NZX:AUE | Smart Australian ESG ETF Units | 3.873 |  |  | +26% | +0% |  |  |
+| NZX:ASF | Smart Australian Financials ETF Units | 13.938 |  |  | +8% | -0% |  |  |
+| NZX:ASP | Smart Australian Property ETF Units | 1.573 |  |  | -5% | -7% |  |  |
+| NZX:ASR | Smart Australian Resources ETF Units | 8.854 |  |  | +27% | -13% |  |  |
+| NZX:AUE | Smart Australian ESG ETF Units | 3.873 |  |  | +24% | +0% |  |  |
 | NZX:AUS | Smart Australian Top 200 ETF Units | 4.43 |  |  | +10% | -1% |  |  |
 | NZX:BFG | Burger Fuel Group Limited Ordinary Share | 0.365 |  |  | +16% | -5% |  |  |
-| NZX:BGP | Briscoe Group Limited Ordinary Shares | 4.25 |  |  | -20% | -23% |  |  |
-| NZX:BIF | Booster Innovation Fund Units | 1.434 |  |  | +5% | -9% |  |  |
+| NZX:BGP | Briscoe Group Limited Ordinary Shares | 4.25 |  |  | -22% | -23% |  |  |
+| NZX:BIF | Booster Innovation Fund Units | 1.434 |  |  | +2% | -9% |  |  |
 | NZX:BIT | The Bankers Investment Trust Plc Ordinar | 3.41 |  |  | +13% | -8% |  |  |
 | NZX:BOT | Smart Automation and Robotics ETF Units | 7.644 |  |  | +14% | -16% |  |  |
 | NZX:BPG | Black Pearl Group Limited Ordinary Share | 0.139 |  |  | -88% | -88% |  |  |
 | NZX:BRM | Barramundi Limited Ordinary Shares | 0.478 |  |  | -31% | -31% |  |  |
-| NZX:BRW | Bremworth Limited Ordinary Shares | 0.62 |  |  | -29% | -32% |  |  |
+| NZX:BRW | Bremworth Limited Ordinary Shares | 0.62 |  |  | -30% | -32% |  |  |
 | NZX:BTC | Smart Bitcoin ETF Units | 2.96 |  |  | -28% | -29% |  |  |
 | NZX:CCC | Cooks Coffee Company Limited Ordinary Sh | 0.125 |  |  | -49% | -58% |  |  |
-| NZX:CDI | CDL Investments New Zealand Limited Ordi | 0.62 |  |  | -23% | -27% |  |  |
-| NZX:CHI | Channel Infrastructure NZ Limited Ordina | 3.26 |  |  | +23% | -10% |  |  |
-| NZX:CMO | The Colonial Motor Company Limited Ordin | 6.95 |  |  | -10% | -19% |  |  |
+| NZX:CDI | CDL Investments New Zealand Limited Ordi | 0.62 |  |  | -22% | -27% |  |  |
+| NZX:CHI | Channel Infrastructure NZ Limited Ordina | 3.26 |  |  | +21% | -10% |  |  |
+| NZX:CMO | The Colonial Motor Company Limited Ordin | 6.95 |  |  | -12% | -19% |  |  |
 | NZX:CO2 | Carbon Fund Units | 1.36 |  |  | -1% | -13% |  |  |
 | NZX:CVT | Comvita Limited Ordinary Shares | 0.785 |  |  | +5% | -5% |  |  |
-| NZX:DGL | Delegat Group Limited Ordinary Shares | 4.45 |  |  | +5% | -6% |  |  |
-| NZX:DIV | Smart NZ Dividend ETF Units | 1.28 |  |  | -3% | -4% |  |  |
+| NZX:DGL | Delegat Group Limited Ordinary Shares | 4.45 |  |  | +8% | -6% |  |  |
+| NZX:DIV | Smart NZ Dividend ETF Units | 1.28 |  |  | -4% | -4% |  |  |
 | NZX:EMF | Smart Emerging Markets ETF Units | 1.908 |  |  | -1% | -11% |  |  |
-| NZX:EMG | Smart Emerging Markets ESG ETF Units | 3.706 |  |  | +10% | -15% |  |  |
-| NZX:ERD | EROAD Limited Ordinary Shares | 0.79 |  |  | -61% | -59% |  |  |
-| NZX:ESG | Smart Global ESG ETF Units | 5.15 |  |  | +8% | -6% |  |  |
-| NZX:EUF | Smart Europe ETF Units | 3.19 |  |  | +13% | +0% |  |  |
+| NZX:EMG | Smart Emerging Markets ESG ETF Units | 3.706 |  |  | +9% | -15% |  |  |
+| NZX:ERD | EROAD Limited Ordinary Shares | 0.79 |  |  | -59% | -57% |  |  |
+| NZX:ESG | Smart Global ESG ETF Units | 5.15 |  |  | +9% | -6% |  |  |
+| NZX:EUF | Smart Europe ETF Units | 3.19 |  |  | +14% | +0% |  |  |
 | NZX:EUG | Smart Europe ESG ETF Units | 4.964 |  |  | +14% | +0% |  |  |
-| NZX:FCG | Fonterra Co-operative Group Limited (NS) | 5.82 |  |  | -1% | -10% |  |  |
+| NZX:FCG | Fonterra Co-operative Group Limited (NS) | 5.82 |  |  | -2% | -10% |  |  |
 | NZX:FCT | F&C Investment Trust Ordinary Shares | 7.92 |  |  | -72% | -74% |  |  |
-| NZX:FNZ | Smart NZ Top 50 ETF Units | 3.131 |  |  | -3% | -5% |  |  |
-| NZX:FSF | Fonterra Shareholders' Fund Units | 9.23 |  |  | +11% | -3% |  |  |
-| NZX:FWL | Foley Wines Limited Ordinary Shares | 0.6 |  |  | +0% | -8% |  |  |
+| NZX:FNZ | Smart NZ Top 50 ETF Units | 3.131 |  |  | -5% | -5% |  |  |
+| NZX:FSF | Fonterra Shareholders' Fund Units | 9.23 |  |  | +13% | -3% |  |  |
 | NZX:GLD | Smart Gold ETF Units | 3.858 |  |  | +2% | -21% |  |  |
-| NZX:GPR | Smart Global Property ETF Units | 2.823 |  |  | +6% | -8% |  |  |
-| NZX:GTK | Gentrack Group Limited Ordinary Shares | 4.36 |  |  | -53% | -59% |  |  |
-| NZX:GXH | Green Cross Health Limited Ordinary Shar | 1.905 |  |  | +103% | -9% |  |  |
-| NZX:HFL | Henderson Far East Income Limited Ordina | 5.9 |  |  | +3% | -11% |  |  |
-| NZX:HGH | Heartland Group Holdings Limited Ordinar | 1.245 |  |  | +15% | -3% |  |  |
-| NZX:HLG | Hallenstein Glasson Holdings Limited Ord | 14.33 |  |  | +44% | -6% |  |  |
-| NZX:IKE | ikeGPS Group Limited Ordinary Shares | 0.88 |  |  | -9% | -33% |  |  |
-| NZX:INF | Smart Global Infrastructure ETF Units | 3.207 |  |  | +5% | -4% |  |  |
-| NZX:IPL | Investore Property Limited (NS) Ordinary | 1.01 |  |  | -18% | -21% |  |  |
-| NZX:JPN | Smart Japan ESG ETF Units | 3.675 |  |  | +14% | -11% |  |  |
-| NZX:KFL | Kingfish Limited Ordinary Shares | 1.095 |  |  | -17% | -19% |  |  |
+| NZX:GPR | Smart Global Property ETF Units | 2.823 |  |  | +3% | -8% |  |  |
+| NZX:GTK | Gentrack Group Limited Ordinary Shares | 4.36 |  |  | -51% | -59% |  |  |
+| NZX:GXH | Green Cross Health Limited Ordinary Shar | 1.905 |  |  | +105% | -9% |  |  |
+| NZX:HFL | Henderson Far East Income Limited Ordina | 5.9 |  |  | +2% | -11% |  |  |
+| NZX:HGH | Heartland Group Holdings Limited Ordinar | 1.245 |  |  | +11% | -3% |  |  |
+| NZX:HLG | Hallenstein Glasson Holdings Limited Ord | 14.33 |  |  | +42% | -6% |  |  |
+| NZX:IKE | ikeGPS Group Limited Ordinary Shares | 0.88 |  |  | -7% | -33% |  |  |
+| NZX:INF | Smart Global Infrastructure ETF Units | 3.207 |  |  | +4% | -4% |  |  |
+| NZX:IPL | Investore Property Limited (NS) Ordinary | 1.01 |  |  | -21% | -21% |  |  |
+| NZX:JPN | Smart Japan ESG ETF Units | 3.675 |  |  | +13% | -11% |  |  |
+| NZX:KFL | Kingfish Limited Ordinary Shares | 1.095 |  |  | -18% | -19% |  |  |
 | NZX:KMD | KMD Brands Limited Ordinary Shares | 2.1 |  |  | +600% | -0% |  |  |
-| NZX:KPG | Kiwi Property Group Limited Ordinary Sha | 0.93 |  |  | -13% | -15% |  |  |
-| NZX:LIV | Smart Healthcare Innovation ETF Units | 4.463 |  |  | +32% | -2% |  |  |
+| NZX:KPG | Kiwi Property Group Limited Ordinary Sha | 0.93 |  |  | -15% | -15% |  |  |
+| NZX:LIV | Smart Healthcare Innovation ETF Units | 4.463 |  |  | +31% | -2% |  |  |
 | NZX:MCK | Millennium & Copthorne Hotels NZ Limited | 3.14 |  |  | +12% | -13% |  |  |
 | NZX:MDZ | Smart NZ Mid Cap ETF Units | 5.828 |  |  | -8% | -9% |  |  |
-| NZX:MFB | My Food Bag Group Limited Ordinary Share | 0.32 |  |  | +39% | +0% |  |  |
-| ... | 61 more in reports/research_screen.csv | | | | | | | |
+| NZX:MFB | My Food Bag Group Limited Ordinary Share | 0.32 |  |  | +42% | +0% |  |  |
+| NZX:MHJ | Michael Hill International Ltd Ordinary  | 0.42 |  |  | +8% | -24% |  |  |
+| ... | 60 more in reports/research_screen.csv | | | | | | | |
 
 Notes: market value only where ASIC's daily files give a share count; dividends from Norgate's total-return series; NZX shows price facts only (the feed has no volumes or dividends). Gaming, wagering and racing names wait for Cam's excluded list.

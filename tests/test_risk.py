@@ -54,6 +54,10 @@ r = check_order(val, 0.0, "deal", "ASX", "SDF", "buy", 3000, nzd_per_aud, expect
 check("a deal must beat the cash rate", any("cash rate" in x for x in r), r)
 r = check_order(val, 0.0, "deal", "ASX", "SDF", "buy", 3000, nzd_per_aud, adv_value_nzd=10000)
 check("liquidity limit applies (two sessions at 10% of volume)", any("median trading value" in x for x in r), r)
+r = check_order(val, 0.0, "research", "ASX", "SDF", "buy", 2500, nzd_per_aud, adv_value_nzd=6000)
+check("a research pick may be five sessions at 10% of volume", not any("median trading value" in x for x in r), r)
+r = check_order(val, 0.0, "research", "ASX", "SDF", "buy", 2500, nzd_per_aud, adv_value_nzd=4000)
+check("but not more", any("five sessions" in x for x in r), r)
 r = check_order(val, 0.0, "special", "ASX", "XYZ", "buy", 3000, nzd_per_aud, industry="mining",
                 industries={("ASX", "OML"): "mining"}, )
 check("industry cap counts holdings outside the core", r == [], r)

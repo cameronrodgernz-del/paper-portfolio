@@ -134,17 +134,24 @@ with tempfile.TemporaryDirectory() as d, tempfile.TemporaryDirectory() as rr:
         run(L, prices, fx, day.isoformat(), {"cash_rate": 0.025}, rates)
     now = datetime(2026, 10, 29, 8, 30, tzinfo=timezone.utc)
     _dm.RESEARCH_ROOT = rr
-    os.makedirs(os.path.join(rr, "research", "picks")); os.makedirs(os.path.join(rr, "research", "red_team")); os.makedirs(os.path.join(rr, "config"))
+    for sub in ("picks", "against", "debate"):
+        os.makedirs(os.path.join(rr, "research", sub))
+    os.makedirs(os.path.join(rr, "config"))
     open(os.path.join(rr, "research", "picks", "CWY.md"), "w").write(
         "# Cleanaway\n## Why the market is wrong\nx\n## Valuation\nx\n## Sources\n" + "\n".join(f"- http://example.com/{i}" for i in range(6)))
-    open(os.path.join(rr, "research", "red_team", "CWY.md"), "w").write("# Review\n## Verdict\nproceed")
+    open(os.path.join(rr, "research", "against", "CWY.md"), "w").write("# The case against\nx")
+    open(os.path.join(rr, "research", "debate", "CWY.md"), "w").write("# Debate\n## Cam's decision\nBuy, 9 Nov 2026: test")
+    open(os.path.join(rr, "research", "debate", "CWX.md"), "w").write("# Debate\n## Cam's decision\nWait for the half-year result")
     open(os.path.join(rr, "config", "judgement_excluded.csv"), "w").write("# not yet confirmed\nticker,name,reason\nXYZ,Example Ltd,test\n")
     rc = {"sleeve": "research", "market": "ASX", "ticker": "CWY", "side": "buy", "company": "Cleanaway Waste Management",
           "thesis": "test", "outcomes": [[0.2, 2.4], [0.5, 3.2], [0.3, 4.2]], "resolve_by": "2027-06-30", "exit_rule": "test",
-          "industry": "industrials", "deep_dive": "research/picks/CWY.md", "red_team": "research/red_team/CWY.md",
-          "catalysts": [{"date": "2027-02-20", "event": "half-year result"}]}
+          "industry": "industrials", "deep_dive": "research/picks/CWY.md", "case_against": "research/against/CWY.md",
+          "debate": "research/debate/CWY.md"}
+    cpx = prices.last_close("ASX", "CWY", "2026-10-29")
+    rc["outcomes"] = [[0.2, round(cpx * 0.88, 3)], [0.5, round(cpx * 1.30, 3)], [0.3, round(cpx * 1.70, 3)]]
     good = decide(L, prices, fx, rates, cfg, rc, now, dry_run=True)
-    research_words = ("deep dive", "red team", "outcomes", "dated event", "excluded", "wait until Cam", "reopened")
+    research_words = ("deep dive", "case against", "debate", "Cam's decision", "outcomes", "exit rule", "36 months",
+                      "bad case", "middling", "excluded", "wait until Cam", "reopened")
     check("a complete research card has no research refusals", not any(any(w in b for w in research_words) for b in good["breaches"]), good["breaches"])
     check("a research pick is capped at 2.5% of the portfolio", good["value_nzd"] <= 0.025 * 100500 + 1, good["value_nzd"])
     check("a strong research card clears the minimum gain", not any("research minimum" in b for b in good["breaches"]), good["breaches"])
@@ -156,8 +163,30 @@ with tempfile.TemporaryDirectory() as d, tempfile.TemporaryDirectory() as rr:
     check("a research card with no deep dive is refused", any("deep dive" in b for b in nodd["breaches"]), nodd["breaches"])
     two = decide(L, prices, fx, rates, cfg, dict(rc, outcomes=[[0.6, 3.5], [0.4, 2.5]]), now, dry_run=True)
     check("a research card needs three outcomes", any("three outcomes" in b for b in two["breaches"]), two["breaches"])
-    nocat = decide(L, prices, fx, rates, cfg, dict(rc, catalysts=[]), now, dry_run=True)
-    check("a research card needs a dated event", any("dated event" in b for b in nocat["breaches"]), nocat["breaches"])
+    check("a research card needs no dated event (from 9 Nov 2026)", not any("dated event" in b for b in good["breaches"]), good["breaches"])
+    late = decide(L, prices, fx, rates, cfg, dict(rc, catalysts=[{"date": "2028-01-01", "event": "x"}]), now, dry_run=True)
+    check("a dated event, if given, falls before resolve_by", any("on or before resolve_by" in b for b in late["breaches"]), late["breaches"])
+    noca = decide(L, prices, fx, rates, cfg, dict(rc, case_against=""), now, dry_run=True)
+    check("a research card needs the case against", any("case against" in b for b in noca["breaches"]), noca["breaches"])
+    nodb = decide(L, prices, fx, rates, cfg, dict(rc, debate=""), now, dry_run=True)
+    check("a research card needs the debate with Cam's decision", any("Cam's decision" in b for b in nodb["breaches"]), nodb["breaches"])
+    wait = decide(L, prices, fx, rates, cfg, dict(rc, debate="research/debate/CWX.md"), now, dry_run=True)
+    check("a debate that doesn't end in a buy is refused", any("isn't a buy" in b for b in wait["breaches"]), wait["breaches"])
+    noexit = decide(L, prices, fx, rates, cfg, dict(rc, exit_rule=" "), now, dry_run=True)
+    check("a research card states its exit rule", any("exit rule" in b for b in noexit["breaches"]), noexit["breaches"])
+    far = decide(L, prices, fx, rates, cfg, dict(rc, resolve_by="2030-01-31"), now, dry_run=True)
+    check("a research pick resolves within 36 months", any("36 months" in b for b in far["breaches"]), far["breaches"])
+    deep = dict(rc, outcomes=[[0.3, round(cpx * 0.65, 3)], [0.4, round(cpx * 1.6, 3)], [0.3, round(cpx * 2.4, 3)]])
+    dp = decide(L, prices, fx, rates, cfg, deep, now, dry_run=True)
+    check("a bad case more than 30% below the price is refused", any("bad case" in b for b in dp["breaches"]), dp["breaches"])
+    thinmid = dict(rc, outcomes=[[0.2, round(cpx * 0.78, 3)], [0.5, round(cpx * 1.25, 3)], [0.3, round(cpx * 2.2, 3)]])
+    tm = decide(L, prices, fx, rates, cfg, thinmid, now, dry_run=True)
+    check("a 22% bad case needs a middling gain of at least 33%", any("middling" in b for b in tm["breaches"]), tm["breaches"])
+    okmid = dict(rc, outcomes=[[0.2, round(cpx * 0.78, 3)], [0.5, round(cpx * 1.36, 3)], [0.3, round(cpx * 2.0, 3)]])
+    om = decide(L, prices, fx, rates, cfg, okmid, now, dry_run=True)
+    check("a 22% bad case with a 36% middling gain passes the value test", not any("middling" in b or "bad case" in b for b in om["breaches"]), om["breaches"])
+    sp = decide(L, prices, fx, rates, cfg, dict(thinmid, kind="special"), now, dry_run=True)
+    check("special situations skip the value test", not any("middling" in b for b in sp["breaches"]), sp["breaches"])
     ex = decide(L, prices, fx, rates, cfg, dict(rc, ticker="XYZ"), now, dry_run=True) if prices.last_close("ASX", "XYZ", "2026-10-29") else None
     rows, conf = _dm.excluded_list(rr)
     check("the excluded list is read, and isn't confirmed until Cam says so", rows and rows[0]["ticker"] == "XYZ" and not conf, (rows, conf))

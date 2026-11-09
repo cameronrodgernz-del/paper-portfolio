@@ -4,8 +4,9 @@ market after costs. It narrows thousands of shares to the ones worth reading abo
 
 ASX (Norgate's whole-market prices, ASIC's share counts and short positions, Norgate's index membership):
   ordinary shares outside the S&P/ASX 300, at least two years listed, price at least A$0.10, a median daily
-  traded value over 60 sessions between A$10,000 (enough for a A$2,000 position at 10% of two days' volume) and A$2m (too small for most funds);
-  market value A$40m to A$1.5bn where ASIC gives a share count; not a live deal target; no placement-pattern
+  traded value over 60 sessions of at least A$5,000 (enough for a A$2,500 position at 10% of five days' volume, rulebook
+  section 3 from 9 Nov 2026), with no ceiling: a share funds can trade may still be one they have a reason to sell;
+  market value A$10m to A$1.5bn where ASIC gives a share count; not a live deal target; no placement-pattern
   reopening in the last 30 sessions (section 9).
 NZX (FinFeedAPI prices): shares outside the NZX 20 that traded on most days of the last 60 sessions.
 Each share gets plain facts to help choose: 12-month return, distance below its 52-week high, dividends paid
@@ -29,8 +30,8 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "his
 from event_tools import asic, code_of  # noqa: E402
 from universe import Universe, ready  # noqa: E402
 
-MIN_VALUE, MAX_VALUE = 10_000.0, 2_000_000.0   # A$10,000 floor from 8 Nov 2026 (rulebook 5a change log)
-MV_RANGE = (40e6, 1.5e9)
+MIN_VALUE, MAX_VALUE = 5_000.0, float("inf")   # A$5,000 floor and no ceiling from 9 Nov 2026 (A$10,000 from 8 Nov; rulebook 5a change log)
+MV_RANGE = (10e6, 1.5e9)                        # A$10m floor from 9 Nov 2026 (was A$40m)
 
 
 def asx(root: str) -> list[dict]:

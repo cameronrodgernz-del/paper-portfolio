@@ -24,6 +24,7 @@ for test 9b.
 import csv
 import json
 import os
+import re
 import sys
 from datetime import date, datetime, timezone
 from zoneinfo import ZoneInfo
@@ -162,6 +163,10 @@ def untested(card: dict, root: str = ROOT) -> str | None:
 
 RESEARCH_ROOT = ROOT          # where deep dives, red-team reviews and the excluded list are read (tests point it elsewhere)
 RESEARCH_MARGIN = 0.05        # a research pick's expected gain after costs must beat cash by 5% a year (section 5a)
+RESEARCH_MAX_DAYS = 1096      # a research pick resolves within 36 months (from 9 Nov 2026)
+RESEARCH_BAD_MAX = 0.30       # the bad case may sit at most 30% below the price (from 9 Nov 2026)
+RESEARCH_MID_RATIO = 1.5      # the middling gain must be at least 1.5 times the bad-case fall ...
+RESEARCH_MID_MIN = 0.15       # ... and never less than 15% (the 8 Nov value pick test at a 10% fall)
 SECTOR_HOLD = ("gaming", "wagering", "racing", "lotter", "casino", "betting", "gambling", "pokie")
 
 
@@ -217,16 +222,42 @@ def research_checks(card: dict, prices: Prices, today: str, root: str = ROOT) ->
                 out.append(f"the deep dive has no \"{head[3:]}\" section")
         if text.count("http") < 5:
             out.append("the deep dive cites fewer than five sources")
-    rt = card.get("red_team") or ""
-    if not rt or not os.path.exists(os.path.join(root, rt)) or "## verdict" not in open(os.path.join(root, rt), encoding="utf-8").read().lower():
-        out.append("a research pick needs the red team's review with a verdict (card field red_team)")
-    if len(card.get("outcomes") or []) < 3:
+    # from 9 Nov 2026: the case against, written by a second model, and the debate, ending with Cam's decision,
+    # replace the red team (rulebook section 5a)
+    ca = card.get("case_against") or ""
+    if not ca or not os.path.exists(os.path.join(root, ca)):
+        out.append("a research pick needs the case against in research/against/ (card field case_against)")
+    db = card.get("debate") or ""
+    dtext = open(os.path.join(root, db), encoding="utf-8").read().lower() if db and os.path.exists(os.path.join(root, db)) else ""
+    if "## cam's decision" not in dtext:
+        out.append("a research pick needs the debate in research/debate/ ending with Cam's decision (card field debate)")
+    elif not re.search(r"## cam's decision\s*\n+\s*(buy|proceed)", dtext):
+        out.append("Cam's decision in the debate isn't a buy")
+    outs = card.get("outcomes") or []
+    if len(outs) < 3:
         out.append("a research pick states at least three outcomes (bad, middling, good), each with a chance and a price")
+    if not (card.get("exit_rule") or "").strip():
+        out.append("a research pick states its exit rule: what would show the reason for buying is wrong")
+    try:
+        horizon = (date.fromisoformat(card.get("resolve_by", "")) - date.fromisoformat(today)).days
+        if horizon > RESEARCH_MAX_DAYS:
+            out.append(f"a research pick resolves within 36 months (resolve_by is {horizon} days away)")
+    except ValueError:
+        out.append("a research pick needs a resolve_by date")
     cats = [c for c in card.get("catalysts") or [] if isinstance(c, dict) and c.get("date") and c.get("event")]
-    if not cats:
-        out.append("a research pick names at least one dated event expected to show the market is wrong (card field catalysts)")
-    elif any(c["date"] > card.get("resolve_by", "9999") for c in cats):
+    if any(c["date"] > card.get("resolve_by", "9999") for c in cats):
         out.append("every catalyst should fall on or before resolve_by")
+    if len(outs) >= 3 and card.get("kind", "value") != "special":
+        px = prices.last_close(card["market"], card.get("ticker", "").upper(), today)
+        if px:
+            bad, mid = outs[0][1], outs[1][1]
+            fall = max(0.0, 1 - bad / px)
+            need = max(RESEARCH_MID_MIN, RESEARCH_MID_RATIO * fall)
+            if fall > RESEARCH_BAD_MAX + 1e-9:
+                out.append(f"the bad case is {fall:.0%} below the price; a research pick allows at most {RESEARCH_BAD_MAX:.0%}")
+            elif mid / px - 1 < need - 1e-9:
+                out.append(f"the middling case is {mid / px - 1:+.0%}; with the bad case {fall:.0%} below the price it needs at least "
+                           f"+{need:.0%} ({RESEARCH_MID_RATIO:g} times the fall, and never less than {RESEARCH_MID_MIN:.0%})")
     rows, confirmed = excluded_list(root)
     t, name = card.get("ticker", "").upper(), (card.get("company") or "").lower()
     for r in rows:

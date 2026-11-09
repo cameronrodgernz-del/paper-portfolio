@@ -1,6 +1,6 @@
 # Paper portfolio
 
-A simulated NZ$100,000 portfolio traded at real prices with Sharesies NZ costs. The practice run is 2 November to 31 December 2026; the counted run is 4 January to 2 July 2027. The build plan is the "Building the simulated trading portfolio" doc; the rules are in RULEBOOK.md; the nightly cycle is in docs/DAILY_RUN.md.
+A simulated NZ$100,000 portfolio traded at real prices with Sharesies NZ costs. The practice run is 2 November to 31 December 2026; the counted run is 4 January 2027 to 30 June 2028 (18 months, from 9 November 2026). The build plan is the "Building the simulated trading portfolio" doc; the rules are in RULEBOOK.md; the nightly cycle is in docs/DAILY_RUN.md.
 
 ## Layout
 - `RULEBOOK.md`: the rules. Draft until 31 December 2026.
