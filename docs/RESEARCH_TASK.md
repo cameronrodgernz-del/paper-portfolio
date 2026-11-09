@@ -42,7 +42,11 @@ consumer businesses, regulated businesses and rule changes).
    demerger documents, the impairment and what it was for. Also read the week's ASX and NZX announcements more
    widely for anything the tags can't see: a spin-off or index change about to happen, an NZX small cap with
    news, a rule change that hits a listed company. Keep up to ten companies where there is a clear reason the
-   price could be wrong that a deep dive could check. Leave out companies on Cam's excluded list, live deal
+   price could be wrong that a deep dive could check. Two lessons from 9 November 2026: put fresh forced selling
+   first (an index exit, a big holder leaving or a return from suspension in the last six weeks), because the
+   gap closes fast; and check the balance sheet before keeping a company. If its net debt is larger than its
+   market value, or it has just raised money while losing it, the bad case is usually another raising, which
+   the value test rejects, so keep it only if there is a hard floor that would stop that. Leave out companies on Cam's excluded list, live deal
    targets (the deal sleeve has them), and companies with a deep dive in the last three months unless reopened
    or the price has moved 15% or more since.
 5. Write reports/research_candidates.md, replacing last week's: the date and data dates at the top, then the

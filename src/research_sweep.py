@@ -8,14 +8,21 @@ none of them has a tested edge on its own (the mechanical versions in rulebook s
 
 Places, with the weight each carries in the order:
   forced sellers (2 each): left an S&P/ASX index in the last 12 months; a substantial holder left in the last six
-    months; a spin-off or demerger in the last 18 months; shares coming out of escrow in the last six months;
-    a share raising in the last nine months (holders who didn't want more often sell)
+    months; a spin-off or demerger in the last 18 months; shares coming out of escrow in the last six months
+  back from a suspension in the last three months (3): holders who waited it out often sell on the return
+  fresh (1 more): any of the forced-seller events, or the return, in the last six weeks. The edge decays fast:
+    Corporate Travel rose 55% in seven weeks after its return on 3 Sep 2026, before the sweep found it
+  a share raising in the last nine months (1, from 2 on 9 Nov 2026): holders who didn't want more often sell, but a
+    company that has just raised is often under strain, and its bad case is another raising
   insiders (2): director interest notices in the last three months on a share at least 40% below its high
     (the notice may be a sale: the desk opens it)
   buy-back (1): a buy-back notice in the last six months
   results that may hide the earnings (1): an impairment, write-down or one-off in the last 12 months
   a reported loss after earlier profits (1): the loss may be one-offs
   neglect (1): market value under A$100m
+  the balance sheet (added 9 Nov 2026, after Alliance Aviation and Bapcor both failed the value test on a bad case
+    that was another raising): net cash (enterprise value below the market value) adds 1; net debt, including
+    leases, of half to all of the market value takes 1 off; more than the market value takes 3 off
   less 4 for little or no revenue (under A$5m): explorers and developers raise and release escrow as routine
 A company with a deep dive or fact sheet in the last three months goes to the bottom unless the evening desk has
 marked it reopened. Live control proposals and strategic reviews are listed apart, as special situations.
@@ -37,11 +44,13 @@ PLACES = [
     ("a substantial holder left", 2, 6, re.compile(r"ceasing to be (a )?substantial", re.I)),
     ("spin-off or demerger", 2, 18, re.compile(r"demerg|spin[- ]?off|in[- ]specie", re.I)),
     ("shares out of escrow", 2, 6, re.compile(r"escrow", re.I)),
-    ("a share raising", 2, 9, re.compile(r"entitlement offer|placement|capital raising|share purchase plan|\bSPP\b|rights issue", re.I)),
+    ("a share raising", 1, 9, re.compile(r"entitlement offer|placement|capital raising|share purchase plan|\bSPP\b|rights issue", re.I)),
     ("buy-back", 1, 6, re.compile(r"buy-?back|appendix 3[CEF]\b", re.I)),
     ("one-offs in the results", 1, 12, re.compile(r"impairment|write-?down|one-?off|non-?cash|restructur", re.I)),
 ]
 DIRECTOR = re.compile(r"director'?s'? interest|appendix 3Y", re.I)
+FORCED = {"a substantial holder left", "spin-off or demerger", "shares out of escrow"}
+RETURN = re.compile(r"reinstatement to (official )?quotation|reinstated to (official )?quotation", re.I)
 SPECIAL = re.compile(r"strategic review|non-binding|indicative proposal|takeover|scheme implementation|bidder'?s statement", re.I)
 
 
@@ -74,21 +83,30 @@ def main(root: str, today_s: str | None = None):
     if os.path.exists(p):
         for r in csv.DictReader(open(p, encoding="utf-8")):
             if r["change"] == "left" and r["date"] >= months_ago(today, 12) and r["date"] <= today.isoformat():
-                left.setdefault(r["symbol"].split(".")[0], []).append(f"{r['index']} {r['date']}")
+                left.setdefault(r["symbol"].split(".")[0], []).append((r["date"], f"{r['index']} {r['date']}"))
     cov = coverage(root)
     recent = months_ago(today, 3)
+    fresh_since = (today - timedelta(weeks=6)).isoformat()
     out, special = [], []
     for r in rows:
         mk, t = r["market"], r["ticker"]
-        tags, score = [], 0
+        tags, score, fresh = [], 0, False
         if t in left and mk == "ASX":
-            tags.append("left " + "; ".join(left[t])); score += 2
+            tags.append("left " + "; ".join(x[1] for x in left[t])); score += 2
+            fresh = fresh or any(x[0] >= fresh_since for x in left[t])
         anns = (asx.get(t) or {}).get("announcements") or [] if mk == "ASX" else []
         for tag, w, back, pat in PLACES:
             since = months_ago(today, back)
             hits = [a for a in anns if since <= a.get("date", "") <= today.isoformat() and pat.search(a.get("headline", ""))]
             if hits:
                 tags.append(f"{tag} ({hits[0]['date']})"); score += w
+                fresh = fresh or (tag in FORCED and hits[0]["date"] >= fresh_since)
+        back_on = [a for a in anns if recent <= a.get("date", "") <= today.isoformat() and RETURN.search(a.get("headline", ""))]
+        if back_on:
+            tags.append(f"back from a suspension ({back_on[0]['date']})"); score += 3
+            fresh = fresh or back_on[0]["date"] >= fresh_since
+        if fresh:
+            tags.append("fresh: within six weeks"); score += 1
         bh = float(r["below_high"]) if r.get("below_high") not in ("", None) else 0.0
         dn = [a for a in anns if recent <= a.get("date", "") <= today.isoformat() and DIRECTOR.search(a.get("headline", ""))]
         if dn and bh <= -0.40:
@@ -103,6 +121,17 @@ def main(root: str, today_s: str | None = None):
         mv = float(r["market_value_m"]) if r.get("market_value_m") not in ("", None) else None
         if mv is not None and mv < 100:
             tags.append(f"small (A${mv:.0f}m)" if mk == "ASX" else f"small (NZ${mv:.0f}m)"); score += 1
+        ks = (asx.get(t) or {}).get("key-statistics") or {} if mk == "ASX" else {}
+        ev, sh, px = ks.get("enterprisevalue"), ks.get("numOfShares"), ks.get("priceClose")
+        if isinstance(ev, (int, float)) and isinstance(sh, (int, float)) and isinstance(px, (int, float)) and sh > 0 and px > 0:
+            cap = sh * px / 1e6
+            nd = ev - cap
+            if nd < 0:
+                tags.append(f"net cash (about A${-nd:.0f}m)"); score += 1
+            elif nd > cap:
+                tags.append(f"net debt incl. leases about A${nd:.0f}m, more than the shares (the bad case may be a raising)"); score -= 3
+            elif nd > 0.5 * cap:
+                tags.append(f"net debt incl. leases about A${nd:.0f}m"); score -= 1
         sp = [a for a in anns if months_ago(today, 6) <= a.get("date", "") and SPECIAL.search(a.get("headline", ""))]
         c = cov.get((mk, t))
         covered = c[0] if c else ""
