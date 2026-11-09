@@ -1,1 +1,1 @@
-Manual run 2026-11-01 09:30 NZ: proving the nightly job end to end before the practice run starts on 2 November
+Desk run 2026-11-09 21:46 NZ: the 8:17pm job had not landed
