@@ -96,3 +96,4 @@ date,market,ticker,event,date_basis
 2027-02-27,ASX,MYG,"1H FY27 result (work in hand, cash conversion)",inferred
 2027-03-01,ASX,EDU,T1 2027 enrolments (with the FY26 result about 26 Feb),inferred
 2027-04-30,ASX,FWD,Rio Tinto Karratha contract ends (award due before),announced
+2027-02-25,ASX,BAP,"1H FY27 result: reopen if earnings after rent for the half are A$40m or more, Trade like-for-like still growing, net debt A$110m or less, and on track for the Dec 2027 fixed charge test (research/picks/BAP.md)",estimated from last year's 26 Feb

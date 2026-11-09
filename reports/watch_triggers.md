@@ -1,4 +1,4 @@
-# Research watch list, 2026-11-08
+# Research watch list, 2026-11-09
 
 Prices at which a "wait" verdict would be looked at again (research/watch_triggers.csv), and the dated events in the next 14 days (research/watch_events.csv). A hit sends the share back to the research desk to check the other conditions in its file; nothing is bought from this list. This is a simulation and not financial advice.
 
@@ -36,6 +36,7 @@ No trigger hit.
 | ASX:MVF | AUD 0.665 | 0.74 | 2026-11-07 | +11.3% |  | ASX company data (last trade at fetch) |
 | ASX:CAA | AUD 11.75 | 13.16 | 2026-11-07 | +12.0% |  | ASX company data (last trade at fetch) |
 | ASX:ATA | AUD 0.285 | 0.32 | 2026-11-07 | +12.3% |  | ASX company data (last trade at fetch) |
+| ASX:BAP | AUD 0.75 | 0.86 | 2026-11-09 | +14.7% |  | ASX company data (last trade at fetch) |
 | ASX:AD8 | AUD 1.75 | 2.01 | 2026-11-07 | +14.9% |  | ASX company data (last trade at fetch) |
 | ASX:CZR | AUD 0.165 | 0.19 | 2026-11-07 | +15.2% |  | ASX company data (last trade at fetch) |
 | NZX:SKO | NZD 1.05 | 1.21 | 2026-11-06 | +15.2% |  | data/prices/NZX |
