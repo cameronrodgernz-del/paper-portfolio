@@ -9,7 +9,6 @@ Below 50% (building toward control, or a blocking stake):
 | ASX:IBC (Ironbark Balanced Income Limit) | Kaplan Partners Pty Limited (KP) | 43.81% | 46.83% | 3 | 2 | 2024-05-20 | 2025-12-18 | no |
 | ASX:ACE (Acusensus Limited) | Jannink & Associates Pty Ltd | 13.34% | 45.00% | 2 | 1 | 2024-12-09 | 2025-12-22 | no |
 | ASX:PWR (Peter Warren Automotive Holdin) | Warren Family | 36.36% | 40.22% | 2 | 1 | 2026-06-03 | 2026-06-15 | no |
-| ASX:PEN (Peninsula Energy Limited) | Tees River Uranium Fund Limited (Tees River)  | 9.14% | 39.00% | 6 | 3 | 2025-09-02 | 2026-05-25 | no |
 | ASX:CTT (Cettire Limited) | Dean Mintz | 32.98% | 38.98% | 2 | 1 | 2025-09-22 | 2026-10-01 | no |
 | ASX:EGH (Eureka Group Holdings Limited) | Filetron Pty Ltd as trustee for Hunter Discre | 21.03% | 35.77% | 8 | 7 | 2024-11-01 | 2026-09-11 | no |
 | ASX:HUM (Humm Group Limited) | THE ABERCROMBIE GROUP PTY LTD AS TRUSTEE FOR  | 29.19% | 31.84% | 2 | 1 | 2026-07-07 | 2026-07-13 | yes |
@@ -19,6 +18,7 @@ Below 50% (building toward control, or a blocking stake):
 | ASX:29M (29METALS Limited) | Bukit Makmur Mandiri Utama Pte. Ltd. (BUMA Si | 5.07% | 22.13% | 4 | 3 | 2024-12-13 | 2026-03-25 | yes |
 | ASX:EPY (Earlypay Ltd) | SOLVAR LIMITED | 19.90% | 21.98% | 3 | 2 | 2025-05-26 | 2026-04-30 | no |
 | ASX:NTD (Ntaw Holdings Limited) | Tony Young | 16.80% | 21.25% | 4 | 3 | 2025-01-24 | 2026-09-21 | yes |
+| ASX:G6M (Group 6 Metals Limited) | Mrs Gwenda Ann Chadwick | 16.16% | 21.21% | 2 | 0 | 2025-04-30 | 2025-11-05 | yes |
 | ASX:BWN (Bhagwan Marine Limited) | VELROSSO PTY LTD | 6.54% | 20.00% | 2 | 1 | 2026-02-17 | 2026-05-14 | yes |
 | ASX:EL8 (Elevate Uranium Ltd) | Sprott Inc. (Sprott) and each of its controll | 8.49% | 20.00% | 3 | 1 | 2025-04-23 | 2025-11-18 | yes |
 | ASX:FEG (Far East Gold Ltd) | Gold Refinery Group Co., Ltd (Xingye Refinery | 14.56% | 19.99% | 2 | 1 | 2024-12-19 | 2025-02-26 | no |
@@ -29,10 +29,12 @@ Below 50% (building toward control, or a blocking stake):
 | ASX:WJL (Webjet Group Limited) | Portfolio Services Pty Ltd ( | 14.93% | 18.26% | 3 | 2 | 2025-05-12 | 2025-09-10 | no |
 | ASX:DYM (Dynamic Metals Limited) | Mr Patrick Michael Loughnan | 11.77% | 18.21% | 5 | 1 | 2025-02-26 | 2025-03-13 | no |
 | ASX:PHO (Phosco Ltd) | Aldaoud Pty Ltd <The Aldaoud Family A/C> | 14.88% | 18.09% | 4 | 2 | 2025-05-12 | 2026-02-26 | no |
+| ASX:TRE (Toubani Resources Limited) | Helikon Investments Limited | 9.20% | 17.53% | 5 | 2 | 2025-10-17 | 2026-04-08 | no |
 | ASX:SPD (Southern Palladium Limited) | ROBERT NAPIER KEITH | 13.83% | 16.83% | 2 | 1 | 2025-10-27 | 2026-05-04 | no |
 | ASX:IOV (Ion Video Ltd) | UNRANDOM PTY LTD PTY LTD | 9.07% | 16.54% | 2 | 1 | 2025-12-05 | 2026-05-25 | no |
 | ASX:SND (Saunders International Limited) | Ahrens Group Pty Ltd | 5.34% | 16.20% | 7 | 5 | 2024-12-02 | 2026-03-30 | yes |
 | ASX:LM1 (Leeuwin Metals Ltd) | Forrestania Resources Limited (Forrestania) | 7.03% | 15.25% | 6 | 5 | 2026-06-11 | 2026-11-03 | no |
+| ASX:PEN (Peninsula Energy Limited) | Tees River Uranium Fund Limited (Tees River)  | 9.14% | 15.20% | 6 | 2 | 2025-09-02 | 2026-05-25 | no |
 | ASX:CPN (Caspin Resources Limited) | Farjoy Pty Ltd & Timothy Frank Robertson | 6.25% | 14.73% | 7 | 5 | 2026-03-19 | 2026-10-23 | yes |
 | ASX:RCE (Recce Pharmaceuticals Ltd) | Gavin William Brown (GWB) | 7.16% | 13.68% | 2 | 1 | 2025-06-10 | 2025-07-24 | yes |
 | ASX:FHE (Frontier Energy Limited) | Davey Holdings (Aus) Pty Ltd <Burnaford A/C> | 10.10% | 12.19% | 2 | 1 | 2025-11-20 | 2025-11-25 | no |
@@ -63,7 +65,5 @@ Below 50% (building toward control, or a blocking stake):
 | ASX:AGI (Ainsworth Game Technology Limi) | Novomatic AG (‘Novomatic"), Prof Johann F. Gr | 52.38% | 86.50% | 7 | 4 | 2018-07-25 | 2025-12-10 | yes |
 | ASX:KSC (K&S Corporation Limited) | AA. Scott Pty Ltd | 69.75% | 71.85% | 2 | 1 | 2025-09-08 | 2026-10-19 | yes |
 | ASX:CDP (Carindale Property Trust Units) | Scentre Management Limited | 65.72% | 67.96% | 2 | 1 | 2025-03-03 | 2026-04-20 | no |
-| ASX:TRE (Toubani Resources Limited) | Helikon Investments Limited | 9.20% | 63.00% | 5 | 1 | 2025-10-17 | 2026-04-08 | no |
 | ASX:TWD (Tamawood Limited) | MIZIKOVSKY GROUP | 59.42% | 62.19% | 2 | 1 | 2025-06-06 | 2026-02-17 | yes |
-| ASX:CTT (Cettire Limited) | UDN Eden Management LTD and persons listed in | 24.00% | 57.00% | 2 | 1 | 2026-10-13 | 2026-11-03 | no |
 | ASX:TOT (360 Capital Reit Stapled Secur) | TT Investments Pty Limited and associates | 48.46% | 51.82% | 3 | 2 | 2026-04-28 | 2026-09-23 | no |

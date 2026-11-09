@@ -1,11 +1,11 @@
 market,ticker,ids_id,ann_date,headline,form,holder,change_date,prev_pct,pct,text_chars,ocr,status
 ASX,29M,02893509,2024-12-09,Ceasing to be a substantial holder,605,MANAGEMENT NOMINEES PTY LTD,2024-12-05,,0,4082,False,ok
-ASX,29M,02894135,2024-12-10,Becoming a substantial holder,603,,,,63.00,4207,False,ok
+ASX,29M,02894135,2024-12-10,Becoming a substantial holder,603,,,,5.33,4207,False,ok
 ASX,29M,02895075,2024-12-12,Change in substantial holding,604,EMR Capital Holdings Pty Ltd (,2024-12-12,47.68,44.85,7963,False,ok
-ASX,29M,02895284,2024-12-12,Change in substantial holding,604,,,63.00,81.00,4269,False,ok
+ASX,29M,02895284,2024-12-12,Change in substantial holding,604,,,5.33,6.41,4269,False,ok
 ASX,29M,02895799,2024-12-13,Change in substantial holding,604,Bukit Makmur Mandiri Utama Pte. Ltd. (BUMA Singapore); BUMA Australia Ply Lid,,5.07,19.50,4378,True,ok
 ASX,29M,02896530,2024-12-16,Ceasing to be a substantial holder,605,,,,0,2992,False,ok
-ASX,29M,02897710,2024-12-18,Becoming a substantial holder,603,,,,53.00,3417,False,ok
+ASX,29M,02897710,2024-12-18,Becoming a substantial holder,603,,,,5.58,3417,False,ok
 ASX,29M,02897744,2024-12-18,Change in substantial holding,604,AustralianSuper Pty Ltd,2024-12-12,14.38,17.11,3547,False,ok
 ASX,29M,02898299,2024-12-19,Ceasing to be a substantial holder,605,,,,0,2891,False,ok
 ASX,29M,02900459,2024-12-27,Change in substantial holding,604,Bukit Makmur Mandiri Utama Pte. Ltd. (BUMA Singapore); BUMA Australia Pty Ltd,,19.50,19.90,6529,False,ok
@@ -19,7 +19,7 @@ ASX,29M,03075911,2026-03-25,Change in substantial holding,604,Bukit Makmur Mandi
 ASX,29M,03084343,2026-04-20,Change in substantial holding,604,AustralianSuper Pty Ltd,2026-04-16,13.66,11.83,2714,False,ok
 ASX,A1M,02963748,2025-06-30,Becoming a substantial holder from MGX,603,"Gibson Minerals Limited (GML), Mount Gibson Iron Limited (MGI) and each of its associates in Annexure A",2025-06-30,,5.42,3545,True,ok
 ASX,A1M,02964572,2025-07-01,Change in substantial holding,604,entities,2025-06-30,11.50,14.47,4973,False,ok
-ASX,A1M,02965125,2025-07-02,Change in substantial holding,604,substantial holder on,2025-06-30,73.00,7.34,7348,False,ok
+ASX,A1M,02965125,2025-07-02,Change in substantial holding,604,substantial holder on,2025-06-30,5.57,7.34,7348,False,ok
 ASX,A1M,02965215,2025-07-02,Becoming a substantial holder,603,"the entities referred to in section 1 of Annexure A ( ""APAC Group"")",,,,4549,False,ok
 ASX,A1M,02986731,2025-08-27,Ceasing to be a substantial holder from MGX,605,"each of its associates in Annexure A (together, the MGI Group",2025-08-27,,0,3986,False,ok
 ASX,A1M,02987916,2025-08-29,Ceasing to be a substantial holder,605,,2025-08-27,,0,3853,False,ok
@@ -91,7 +91,7 @@ ASX,ACF,02905420,2025-01-17,Change in substantial holding,604,Perennial Value Ma
 ASX,ACF,03031767,2025-11-25,Change in substantial holding,604,Perennial Value Management Limited (PVM),,,,7113,False,ok
 ASX,ACF,03062856,2026-02-20,Change in substantial holding,604,Perennial Value Management Limited (PVM),,,,3372,False,ok
 ASX,ACF,03101273,2026-06-04,Ceasing to be a substantial holder,605,Perennial Value Management Limited (PVM),,,0,2490,False,ok
-ASX,AD8,02877777,2024-11-04,Becoming a substantial holder,603,,,,14.00,2594,False,ok
+ASX,AD8,02877777,2024-11-04,Becoming a substantial holder,603,,,,5.00,2594,False,ok
 ASX,AD8,02877947,2024-11-04,Change in substantial holding,604,AustralianSuper Pty Ltd,2024-10-29,7.84,8.89,5075,False,ok
 ASX,AD8,02897874,2024-12-19,Becoming a substantial holder,603,State Street Corporation and subsidiaries named in paragraph 7 to this form,2024-12-16,,5.10,8032,False,ok
 ASX,AD8,02910822,2025-02-04,Change in substantial holding,604,AustralianSuper Pty Ltd,2025-01-29,8.89,9.92,6432,False,ok
@@ -293,11 +293,11 @@ ASX,AMA,02960968,2025-06-23,Notice of ceasing to be a substantial holder from BK
 ASX,AMA,02966325,2025-07-04,Notice of Initial Substantial Holding from SOL,603,WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED (Soul Patts),2025-06-30,,5.19,4670,False,ok
 ASX,AMA,02997676,2025-09-19,Ceasing to be a substantial holder from SOL,605,WHSP Holdings Ltd,2025-09-15,,0,4042,False,ok
 ASX,AMA,03029634,2025-11-20,Becoming a substantial holder,603,paragraph 6 below,,,5.07,4768,False,ok
-ASX,AMA,03075262,2026-03-24,Change in substantial holding,604,paragraph 4 below,2026-03-23,4.00,2.00,4753,False,ok
-ASX,AMA,03095145,2026-05-19,Change in substantial holding,604,paragraph 4 below,2026-05-18,1.00,2.00,4753,False,ok
-ASX,AMA,03095887,2026-05-20,Change in substantial holding - Correction,604,paragraph 4 below,2026-05-18,2.00,1.00,4753,False,ok
+ASX,AMA,03075262,2026-03-24,Change in substantial holding,604,paragraph 4 below,2026-03-23,,,4753,False,ok
+ASX,AMA,03095145,2026-05-19,Change in substantial holding,604,paragraph 4 below,2026-05-18,,,4753,False,ok
+ASX,AMA,03095887,2026-05-20,Change in substantial holding - Correction,604,paragraph 4 below,2026-05-18,,,4753,False,ok
 ASX,AMA,03099668,2026-06-01,Change in substantial holding,604,Azvalor Asset Management SGIIC SA,2026-05-25,6.64,7.06,3794,True,ok
-ASX,AMA,03109903,2026-07-01,Change in substantial holding,604,paragraph 4 below,2026-06-30,1.00,4.00,4750,False,ok
+ASX,AMA,03109903,2026-07-01,Change in substantial holding,604,paragraph 4 below,2026-06-30,,,4750,False,ok
 ASX,AMH,03070869,2026-03-11,Change of Interests of substantial holder,604,Bruce Ballantine Teele,2025-08-27,15.64,17.16,2621,False,ok
 ASX,AMI,02961556,2025-06-24,Becoming a substantial holder,603,,2025-06-20,,30.00,4229,True,ok
 ASX,AMI,02990608,2025-09-03,Change in substantial holding - Brazil Farming,604,Brazil Farming,,80.00,41.00,4600,True,ok
@@ -338,9 +338,9 @@ ASX,APX,02934152,2025-04-03,Becoming a substantial holder,603,First Sentier Inve
 ASX,APX,02934692,2025-04-04,Becoming a substantial holder from MUFG,603,"Mitsubishi UFJ Financial Group, Inc",,,5.09,5752,False,ok
 ASX,APX,02938960,2025-04-16,Ceasing to be a substantial holder,605,First Sentier Investors Holdings Pty Limited,2025-04-14,,0,4348,False,ok
 ASX,APX,02939527,2025-04-17,Ceasing to be a substantial holder from MUFG,605,"Mitsubishi UFJ Financial Group, Inc",,,0,9221,False,ok
-ASX,APX,02976161,2025-08-01,Becoming a substantial holder,603,,,,13.00,3658,False,ok
+ASX,APX,02976161,2025-08-01,Becoming a substantial holder,603,,,,5.27,3658,False,ok
 ASX,APX,02977139,2025-08-05,Ceasing to be a substantial holder,605,,,,0,3071,False,ok
-ASX,APX,02977147,2025-08-05,Becoming a substantial holder,603,,,,78.00,3659,False,ok
+ASX,APX,02977147,2025-08-05,Becoming a substantial holder,603,,,,5.15,3659,False,ok
 ASX,APX,02989684,2025-09-01,Ceasing to be a substantial holder,605,,,,0,3113,False,ok
 ASX,APX,03050990,2026-01-19,Notice of ceasing to be a substantial holder,605,C8&J Vonwiller Pty Limited,2024-07-29,,0,3345,True,ok
 ASX,AQN,03011090,2025-10-16,Change in substantial holding,604,"Jas NATALIE JUNE LAWSON, LAWSON FAMILY A/c",2025-10-20,17.70,7.00,4459,True,ok
@@ -351,10 +351,10 @@ ASX,AQZ,02934461,2025-04-04,Change in substantial holding,604,Viburnum Funds Pty
 ASX,AQZ,03010232,2025-10-15,Change in substantial holding,604,Perennial Value Management Limited (PVM),,,,9901,False,ok
 ASX,AQZ,03074181,2026-03-20,Change in substantial holding,604,Perennial Value Management Limited (PVM),,,,6390,False,ok
 ASX,AQZ,03109027,2026-06-29,Ceasing to be a substantial holder,605,Perennial Value Management Limited (PVM),,,0,4060,False,ok
-ASX,AQZ,03134866,2026-09-02,Becoming a substantial holder,603,,,,97.00,3790,False,ok
+ASX,AQZ,03134866,2026-09-02,Becoming a substantial holder,603,,,,5.23,3790,False,ok
 ASX,AQZ,03135548,2026-09-03,Ceasing to be a substantial holder,605,,,,0,2304,False,ok
 ASX,AQZ,03137079,2026-09-08,Change in substantial holding - Kiowa,604,KIOWA TWO THOUSAND CORPORATE TRUSTEE COMPANY LIMITED,2026-09-07,11.09,8.67,4553,False,ok
-ASX,AQZ,03139391,2026-09-14,Becoming a substantial holder,603,,,,52.00,3632,False,ok
+ASX,AQZ,03139391,2026-09-14,Becoming a substantial holder,603,,,,5.16,3632,False,ok
 ASX,AQZ,03139748,2026-09-15,Ceasing to be a substantial holder,605,,,,0,2754,False,ok
 ASX,AR3,02944434,2025-05-02,Change in substantial holding,604,Acorn Capital Limited,2024-09-04,10.25,9.24,3177,False,ok
 ASX,AR3,02944468,2025-05-02,Change in substantial holding,604,Rickie James Pobjoy and Kerryn Leanne Pobjoy,,7.56,9.18,4943,False,ok
@@ -559,7 +559,7 @@ ASX,BAP,03044952,2025-12-23,Change in substantial holding,604,Australian Retirem
 ASX,BAP,03045400,2025-12-24,Change in substantial holding,604,Host-Plus Pty Limited,2025-12-19,8.05,9.78,4673,False,ok
 ASX,BAP,03045592,2025-12-24,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2025-12-11,9.75,8.49,14256,False,ok
 ASX,BAP,03067833,2026-03-03,Change in substantial holding,604,Australian Retirement Trust Pty LTD ATF Australian Retirement Trust,2026-02-27,12.21,9.96,4518,False,ok
-ASX,BAP,03067886,2026-03-03,Becoming a substantial holder,603,,,,59.00,4196,False,ok
+ASX,BAP,03067886,2026-03-03,Becoming a substantial holder,603,,,,6.26,4196,False,ok
 ASX,BAP,03067897,2026-03-03,Becoming a substantial holder,603,Spheria Asset Management Pty Ltd,2026-02-27,,6.87,4281,False,ok
 ASX,BAP,03067906,2026-03-03,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2025-12-24,8.49,11.19,12372,False,ok
 ASX,BAP,03067934,2026-03-03,Change in substantial holding,604,AustralianSuper Pty Ltd,2026-02-27,15.01,9.52,5928,False,ok
@@ -574,7 +574,7 @@ ASX,BAP,03069294,2026-03-06,Change in substantial holding,604,Tanarra Entities),
 ASX,BAP,03069537,2026-03-09,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,5.77,7.02,4021,False,ok
 ASX,BAP,03069856,2026-03-09,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2026-03-05,9.72,10.77,4510,False,ok
 ASX,BAP,03069913,2026-03-09,Change in substantial holding,604,AustralianSuper Pty Ltd,2026-03-05,6.70,5.46,2835,False,ok
-ASX,BAP,03069924,2026-03-09,Becoming a substantial holder,603,,,,70.00,4198,False,ok
+ASX,BAP,03069924,2026-03-09,Becoming a substantial holder,603,,,,5.65,4198,False,ok
 ASX,BAP,03069998,2026-03-10,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-03-04,13.87,15.00,14160,False,ok
 ASX,BAP,03070328,2026-03-10,Change in substantial holding,604,Australian Retirement Trust Pty LTD ATF Australian Retirement Trust,2026-03-06,9.96,11.40,4518,False,ok
 ASX,BAP,03070330,2026-03-10,Change in substantial holding,604,Host-Plus Pty Limited,2026-03-06,9.78,11.41,4674,False,ok
@@ -595,23 +595,23 @@ ASX,BAP,03078052,2026-03-31,Change in substantial holding,604,State Street Corpo
 ASX,BAP,03084915,2026-04-22,Ceasing to be a substantial holder,605,"Vanguard Group (The Vanguard Group, Inc. and its controlled entities including those",,,0,7255,False,ok
 ASX,BAP,03087781,2026-04-29,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-03-31,6.30,7.31,13848,False,ok
 ASX,BAP,03090267,2026-05-05,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,8.43,3466,False,ok
-ASX,BAP,03090604,2026-05-05,Becoming a substantial holder,603,,,,25.00,4355,False,ok
+ASX,BAP,03090604,2026-05-05,Becoming a substantial holder,603,,,,6.48,4355,False,ok
 ASX,BAP,03091218,2026-05-06,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-04-29,7.31,8.65,13852,False,ok
 ASX,BAP,03094588,2026-05-18,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,8.43,9.86,4554,False,ok
 ASX,BAP,03095031,2026-05-18,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2026-05-14,10.77,12.12,4511,False,ok
 ASX,BAP,03095940,2026-05-20,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2026-05-18,12.12,13.12,4511,False,ok
-ASX,BAP,03095983,2026-05-20,Change in substantial holding,604,,,25.00,75.00,4416,False,ok
+ASX,BAP,03095983,2026-05-20,Change in substantial holding,604,,,6.48,7.69,4416,False,ok
 ASX,BAP,03096787,2026-05-22,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2026-05-20,13.12,14.60,4511,False,ok
 ASX,BAP,03097270,2026-05-25,Change in substantial holding,604,LISTED IN ANNEXURE A),2026-05-20,5.37,6.82,6880,False,ok
 ASX,BAP,03097325,2026-05-25,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-05-06,8.65,7.46,11375,False,ok
-ASX,BAP,03099271,2026-05-29,Change in substantial holding,604,,,75.00,38.00,4184,False,ok
+ASX,BAP,03099271,2026-05-29,Change in substantial holding,604,,,7.69,6.19,4184,False,ok
 ASX,BAP,03099878,2026-06-02,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,9.86,7.60,4498,False,ok
 ASX,BAP,03100329,2026-06-02,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-05-25,7.46,6.20,11822,False,ok
 ASX,BAP,03101730,2026-06-05,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-06-02,6.20,5.01,8385,False,ok
 ASX,BAP,03101882,2026-06-09,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,7.60,6.05,6487,False,ok
 ASX,BAP,03102358,2026-06-09,Ceasing to be a substantial holder,605,State Street Corporation and subsidiaries named in paragraph 4 to this form,2026-06-05,,0,4198,False,ok
 ASX,BAP,03103293,2026-06-11,Change in substantial holding,604,Tanarra Entities),2026-06-09,17.98,19.90,5302,False,ok
-ASX,BAP,03103319,2026-06-11,Change in substantial holding,604,,,38.00,83.00,4076,False,ok
+ASX,BAP,03103319,2026-06-11,Change in substantial holding,604,,,6.19,5.09,4076,False,ok
 ASX,BAP,03104257,2026-06-15,Ceasing to be a substantial holder,605,,,,0,2859,False,ok
 ASX,BAP,03104800,2026-06-17,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,4525,False,ok
 ASX,BAP,03105229,2026-06-18,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,5.01,3694,False,ok
@@ -643,21 +643,21 @@ ASX,BAP,03133599,2026-08-31,Becoming a substantial holder,603,First Sentier Grou
 ASX,BAP,03134298,2026-09-01,Becoming a substantial holder from MUFG,603,"Mitsubishi UFJ Financial Group, Inc",,,5.09,6518,False,ok
 ASX,BAP,03134968,2026-09-02,Ceasing to be a substantial holder,605,First Sentier Group Limited,2026-08-31,,0,4505,False,ok
 ASX,BAP,03135565,2026-09-03,Ceasing to be a substantial holder from MUFG,605,"Mitsubishi UFJ Financial Group, Inc",,,0,7909,False,ok
-ASX,BAP,03138185,2026-09-10,Becoming a substantial holder,603,,,,75.00,4206,False,ok
+ASX,BAP,03138185,2026-09-10,Becoming a substantial holder,603,,,,5.03,4206,False,ok
 ASX,BAP,03139392,2026-09-14,Ceasing to be a substantial holder,605,,,,0,3055,False,ok
-ASX,BAP,03140271,2026-09-16,Becoming a substantial holder,603,,,,64.00,4207,False,ok
+ASX,BAP,03140271,2026-09-16,Becoming a substantial holder,603,,,,5.27,4207,False,ok
 ASX,BAP,03141731,2026-09-21,Change in substantial holding,604,Australian Retirement Trust Pty LTD ATF Australian Retirement Trust,2026-09-17,10.02,8.24,4506,False,ok
 ASX,BAP,03141874,2026-09-21,Becoming a substantial holder,603,NORGES BANK,2026-09-18,,5.93,5085,False,ok
 ASX,BAP,03141920,2026-09-22,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,5.68,3956,False,ok
 ASX,BAP,03142042,2026-09-22,Change in substantial holding,604,Tanarra Entities),2026-09-17,19.90,16.88,7436,False,ok
 ASX,BAP,03142218,2026-09-22,Change in substantial holding,604,Australian Retirement Trust Pty LTD ATF Australian Retirement Trust,2026-09-18,8.24,6.93,4505,False,ok
-ASX,BAP,03142318,2026-09-22,Change in substantial holding,604,,,64.00,99.00,4458,False,ok
+ASX,BAP,03142318,2026-09-22,Change in substantial holding,604,,,5.27,6.39,4458,False,ok
 ASX,BAP,03142333,2026-09-22,Ceasing to be a substantial holder,605,(YCMH); YARRA MANAGEMENT NOMINEES PTY LTD,2026-09-18,,0,2048,False,ok
 ASX,BAP,03142397,2026-09-22,Ceasing to be a substantial holder,605,NORGES BANK,2026-09-21,,0,1649,False,ok
 ASX,BAP,03142912,2026-09-23,Change in substantial holding,604,Host-Plus Pty Limited,2026-09-17,12.80,11.36,4646,False,ok
 ASX,BAP,03142943,2026-09-23,Ceasing to be a substantial holder,605,Aware Super Pty Ltd (,2026-09-18,,0,7861,False,ok
 ASX,BAP,03144359,2026-09-28,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,4497,False,ok
-ASX,BAP,03144680,2026-09-28,Change in substantial holding,604,,,99.00,60.00,4026,False,ok
+ASX,BAP,03144680,2026-09-28,Change in substantial holding,604,,,6.39,5.16,4026,False,ok
 ASX,BAP,03146405,2026-09-30,Ceasing to be a substantial holder,605,,,,0,2546,False,ok
 ASX,BAP,03157947,2026-10-27,Change in substantial holding,604,Tanarra Entities),2026-10-26,16.88,12.98,7516,False,ok
 ASX,BAP,03158596,2026-10-28,Ceasing to be a substantial holder,605,Australian Retirement Trust Pty LTD ATF Australian Retirement Trust,2026-10-26,,0,4397,False,ok
@@ -689,7 +689,7 @@ ASX,BBN,03096389,2026-05-21,Becoming a substantial holder,603,listed in Annexure
 ASX,BBN,03106010,2026-06-19,Change in Substantial Holding from HMC,604,"HMC Capital Limited (HMC or HMC Capital) on behalf of itself and each of its related entities, including",2026-05-12,16.81,13.15,6023,False,ok
 ASX,BBT,02946505,2025-05-08,Becoming a substantial holder,603,Tanarra Entities),2025-05-08,,8.00,6823,False,ok
 ASX,BBT,02947498,2025-05-12,Becoming a substantial holder,603,"Ellerston Capital Limited (Primary Person), and its associates being those persons listed in Annexure B",2025-05-08,,5.75,5339,False,ok
-ASX,BBT,02948236,2025-05-14,Becoming a substantial holder,603,,,,40.00,5379,False,ok
+ASX,BBT,02948236,2025-05-14,Becoming a substantial holder,603,,,,3.00,5379,False,ok
 ASX,BBT,02949150,2025-05-16,Becoming a substantial holder,603,Australian Retirement Trust Pty LTD ATF Australian Retirement Trust,2025-05-14,,5.29,4376,False,ok
 ASX,BBT,02949871,2025-05-20,Change in Substantial Holding - M Sullivan,604,Michael Sullivan,2025-05-08,9.47,15.83,5089,False,ok
 ASX,BBT,02949873,2025-05-20,Change in Substantial Holding - YAST Investments Pty Ltd,604,(YAST),2025-05-08,11.16,17.76,4994,False,ok
@@ -698,7 +698,7 @@ ASX,BBT,02950544,2025-05-21,Resubmission of Notice of Change in Substantial Hold
 ASX,BBT,02951855,2025-05-26,Change in substantial holding,604,Australian Retirement Trust Pty LTD ATF Australian Retirement Trust,2025-05-22,5.29,6.42,4528,False,ok
 ASX,BBT,02952011,2025-05-26,Change in substantial holding,604,Tanarra Entities),2025-05-26,8.00,10.13,7261,False,ok
 ASX,BBT,02952812,2025-05-28,Change in substantial holding,604,,,,,2778,False,ok
-ASX,BBT,02953674,2025-05-30,Change in substantial holding,604,,,4.00,40.00,5506,False,ok
+ASX,BBT,02953674,2025-05-30,Change in substantial holding,604,,,4.00,3.00,5506,False,ok
 ASX,BBT,02956464,2025-06-06,Becoming a substantial holder from WAA/WMI/WAM,603,Wilson Asset Management Group (refer entities listed in Annexure A),2025-06-04,,5.65,5657,False,ok
 ASX,BBT,02969516,2025-07-15,Change in Substantial Holding - betr Entertainment Limited,604,betr Entertainment Limited (formerly BlueBet Holdings Limited) (BBT),2025-07-01,8.79,47.24,4734,False,ok
 ASX,BBT,02970349,2025-07-17,Change in substantial holding from WAM/WAA/WMI,604,Wilson Asset Management Group (refer entities listed in Annexure A),2025-07-17,5.65,6.67,5947,False,ok
@@ -1031,11 +1031,11 @@ ASX,CEL,03107801,2026-06-25,Change in substantial holding,604,,2026-05-25,12.81,
 ASX,CEL,03113736,2026-07-10,Change in substantial holding,604,,,,,3278,False,ok
 ASX,CEL,03120226,2026-07-31,Change in substantial holding,604,,,,,3313,False,ok
 ASX,CEL,03121001,2026-07-31,Change in substantial holding,604,L1 Capital Pty Ltd,2026-07-29,11.30,12.87,4961,False,ok
-ASX,CEL,03121887,2026-08-04,Change in substantial holding,604,Entities),2026-07-31,71.00,10.88,6613,False,ok
+ASX,CEL,03121887,2026-08-04,Change in substantial holding,604,Entities),2026-07-31,13.83,10.88,6613,False,ok
 ASX,CEL,03123684,2026-08-10,Becoming a substantial holder,603,Mr Peter Marrone,,,7.55,3621,True,ok
 ASX,CEL,03123716,2026-08-10,Change in substantial holding,604,L1 Capital Pty Ltd,2026-08-06,12.87,10.91,4734,False,ok
 ASX,CEL,03123771,2026-08-11,Change in substantial holding,604,,,,,1900,False,ok
-ASX,CEL,03123991,2026-08-11,Change in substantial holding,604,Entities),2026-08-06,88.00,71.00,6852,False,ok
+ASX,CEL,03123991,2026-08-11,Change in substantial holding,604,Entities),2026-08-06,12.25,13.83,6852,False,ok
 ASX,CGS,02999635,2025-09-24,Change in substantial holding - Anacacia,604,Anacacia Pty Limited,2025-09-23,8.20,6.80,2379,False,ok
 ASX,CGS,03020544,2025-11-04,Ceasing to be a substantial holder - Anacacia Pty Limited,605,Anacacia Pty Limited,2025-11-03,,0,1389,False,ok
 ASX,CHL,02898438,2024-12-19,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,5.58,4368,False,ok
@@ -1100,7 +1100,7 @@ ASX,COF,03069540,2026-03-09,Change in substantial holding,604,"Vanguard Group (T
 ASX,COF,03076022,2026-03-26,Ceasing to be a substantial holder,605,"Vanguard Group (The Vanguard Group, Inc. and its controlled entities including Vanguard",,,0,5951,False,ok
 ASX,COF,03078448,2026-04-01,Change in substantial holding,604,"Trust) (PEJR), PELSF Nominees Pty Ltd",,15.08,15.08,7026,False,ok
 ASX,COF,03109531,2026-06-30,Ceasing to be a substantial holder,605,Trust) (PEJR) and PELSF Nominees Pty Ltd,,,0,3827,True,ok
-ASX,COF,03109533,2026-06-30,Becoming a substantial holder,603,(LDR) and each person listed in section 3 below,,,16.91,2098,False,ok
+ASX,COF,03109533,2026-06-30,Becoming a substantial holder,603,(LDR) and each person listed in section 3 below,,,,2098,False,ok
 ASX,COG,02930736,2025-03-27,Change in substantial holding - GEGM,604,"GEGM Investments Pty Limited (“GEGM”), C-Flag Pty Ltd, Kai Lani Mackerel Pty Ltd",,22.45,12.24,2152,False,ok
 ASX,COG,02930778,2025-03-27,Change in substantial holding from SNC,604,Sandon Capital Pty Ltd,2025-03-26,9.30,10.80,5185,False,ok
 ASX,COG,02931337,2025-03-28,Change in substantial holding,604,NAOS Substantial Holders referred to in Annexure A,2025-03-26,16.56,12.14,4839,False,ok
@@ -1146,7 +1146,7 @@ ASX,CTD,02887381,2024-11-26,Change in substantial holding from MUFG,604,"Mitsubi
 ASX,CTD,02907738,2025-01-28,Change in substantial holding,604,AustralianSuper Pty Ltd,2025-01-21,6.38,7.40,5472,False,ok
 ASX,CTD,02915135,2025-02-17,Change in substantial holding,604,First Sentier Investors Holdings Pty Limited,2024-11-26,6.78,5.55,8962,False,ok
 ASX,CTD,02915659,2025-02-18,Change in substantial holding from MUFG,604,"Mitsubishi UFJ Financial Group, Inc",,6.78,5.55,13205,False,ok
-ASX,CTD,02930576,2025-03-26,Change in substantial holding,604,Bennelong Funds Management Group Pty Ltd (and its Subsidiaries and,,37.00,71.00,2452,False,ok
+ASX,CTD,02930576,2025-03-26,Change in substantial holding,604,Bennelong Funds Management Group Pty Ltd (and its Subsidiaries and,,10.26,11.69,2452,False,ok
 ASX,CTD,02940962,2025-04-24,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2024-09-27,5.24,6.41,13952,False,ok
 ASX,CTD,02951570,2025-05-23,Change in substantial holding,604,AustralianSuper Pty Ltd,2025-05-19,7.40,8.41,5632,False,ok
 ASX,CTD,02966343,2025-07-04,Change in substantial holding,604,First Sentier Investors Holdings Pty Limited,2025-02-18,5.55,6.55,10445,False,ok
@@ -1177,20 +1177,20 @@ ASX,CTD,02985876,2025-08-26,Becoming a substantial holder,603,First Sentier Grou
 ASX,CTD,02986611,2025-08-27,Becoming a substantial holder from MUFG,603,"Mitsubishi UFJ Financial Group, Inc",,,5.42,7822,False,ok
 ASX,CTD,02999599,2025-09-24,Ceasing to be a substantial holder,605,First Sentier Group Limited,2025-09-19,,0,4524,False,ok
 ASX,CTD,03000306,2025-09-25,Ceasing to be a substantial holder from MUFG,605,"Mitsubishi UFJ Financial Group, Inc",,,0,8603,False,ok
-ASX,CTD,03070524,2026-03-10,Change in substantial holding,604,Bennelong Funds Management Group Pty Ltd (and its Subsidiaries and,,71.00,69.00,2641,False,ok
+ASX,CTD,03070524,2026-03-10,Change in substantial holding,604,Bennelong Funds Management Group Pty Ltd (and its Subsidiaries and,,11.69,10.58,2641,False,ok
 ASX,CTD,03121474,2026-08-03,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2025-04-24,6.41,5.14,13224,False,ok
 ASX,CTD,03136748,2026-09-07,Change in substantial holding,604,NFPFRN (if applicable),2026-09-04,11.34,13.68,4950,False,ok
 ASX,CTD,03136832,2026-09-07,Ceasing to be a substantial holder,605,State Street Corporation and subsidiaries named in paragraph 4 to this form,2026-09-03,,0,7011,False,ok
 ASX,CTD,03137205,2026-09-08,Ceasing to be a substantial holder,605,AustralianSuper Pty Ltd,2026-09-04,,0,6566,False,ok
 ASX,CTD,03137275,2026-09-08,Becoming a substantial holder,603,First Sentier Group Limited,2026-09-04,,6.33,8214,False,ok
-ASX,CTD,03137331,2026-09-08,Change in substantial holding,604,Bennelong Funds Management Group Pty Ltd (and its Subsidiaries and,,69.00,85.00,2514,False,ok
+ASX,CTD,03137331,2026-09-08,Change in substantial holding,604,Bennelong Funds Management Group Pty Ltd (and its Subsidiaries and,,10.58,7.08,2514,False,ok
 ASX,CTD,03137732,2026-09-09,Becoming a substantial holder from MUFG,603,"Mitsubishi UFJ Financial Group, Inc",,,6.32,5109,False,ok
 ASX,CTD,03137774,2026-09-09,Ceasing to be a substantial holder,605,,2026-09-04,,0,6256,False,ok
 ASX,CTD,03138224,2026-09-10,Change in substantial holding,604,First Sentier Group Limited,2026-09-09,6.32,7.80,9536,False,ok
 ASX,CTD,03138681,2026-09-11,Change in substantial holding from MUFG,604,"Mitsubishi UFJ Financial Group, Inc",,6.32,7.80,6909,False,ok
 ASX,CTD,03138698,2026-09-11,Change in substantial holding,604,First Sentier Group Limited,2026-09-11,7.80,6.38,7496,False,ok
 ASX,CTD,03139260,2026-09-14,Change in substantial holding from MUFG,604,"Mitsubishi UFJ Financial Group, Inc",,7.80,6.38,9956,False,ok
-ASX,CTD,03139762,2026-09-15,Change in substantial holding,604,Bennelong Funds Management Group Pty Ltd (and its Subsidiaries and,,85.00,20.00,2529,False,ok
+ASX,CTD,03139762,2026-09-15,Change in substantial holding,604,Bennelong Funds Management Group Pty Ltd (and its Subsidiaries and,,7.08,20.00,2529,False,ok
 ASX,CTD,03142343,2026-09-22,Becoming a substantial holder,603,Antipodes Partners Holdings Pty Ltd (,2026-09-18,,10.68,5983,False,ok
 ASX,CTD,03142880,2026-09-23,Becoming a substantial holder,603,"184)(“PNI”), and each other entity listed in Part 1 of Annexure A",2026-09-18,,10.19,6888,False,ok
 ASX,CTD,03154665,2026-10-20,Becoming a substantial holder,603,DNR CAPITAL PTY LTD and its controlled entity,,,,2965,False,ok
@@ -1205,41 +1205,41 @@ ASX,CTT,02877422,2024-11-01,Ceasing to be a substantial holder,605,First Sentier
 ASX,CTT,02877423,2024-11-01,Ceasing to be a substantial holder from MS,605,Morgan Stanley and its subsidiaries listed in Annexure A,,,0,11073,False,ok
 ASX,CTT,02878317,2024-11-05,Ceasing to be a substantial holder from MUFG,605,"Mitsubishi UFJ Financial Group, Inc",,,0,7984,False,ok
 ASX,CTT,02892907,2024-12-06,Ceasing to be a substantial holder,605,,,,0,2769,False,ok
-ASX,CTT,02893490,2024-12-09,Becoming a substantial holder,603,,,,18.00,3659,False,ok
+ASX,CTT,02893490,2024-12-09,Becoming a substantial holder,603,,,,5.18,3659,False,ok
 ASX,CTT,02895165,2024-12-12,Change in substantial holding,604,Cat Rock Capital Master Fund LP,2024-08-05,16.61,10.35,5128,False,ok
-ASX,CTT,02896529,2024-12-16,Change in substantial holding,604,,,18.00,18.00,3828,False,ok
+ASX,CTT,02896529,2024-12-16,Change in substantial holding,604,,,5.18,6.19,3828,False,ok
 ASX,CTT,02896654,2024-12-17,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,7.04,5446,False,ok
 ASX,CTT,02898514,2024-12-20,Becoming a substantial holder,603,Bank of America Corporation and its related bodies corporate (See Appendix C),,,7.90,5425,False,ok
 ASX,CTT,02902868,2025-01-08,Ceasing to be a substantial holder,605,,,,0,3111,False,ok
 ASX,CTT,02902924,2025-01-08,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,7.04,5.31,6274,False,ok
-ASX,CTT,02903191,2025-01-09,Becoming a substantial holder,603,,,,99.00,3666,False,ok
+ASX,CTT,02903191,2025-01-09,Becoming a substantial holder,603,,,,6.39,3666,False,ok
 ASX,CTT,02903583,2025-01-10,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,3798,False,ok
-ASX,CTT,02903961,2025-01-13,Change in substantial holding,604,,,99.00,36.00,3760,False,ok
+ASX,CTT,02903961,2025-01-13,Change in substantial holding,604,,,6.39,5.07,3760,False,ok
 ASX,CTT,02904325,2025-01-14,Ceasing to be a substantial holder,605,,,,0,2651,False,ok
 ASX,CTT,02908218,2025-01-29,Becoming a substantial holder,603,COPIA INVESTMENT PARTNERS LTD,2025-01-24,,5.09,1765,True,ok
 ASX,CTT,02908219,2025-01-29,Ceasing to be a substantial holder,605,,2025-01-29,,0,1535,True,ok
 ASX,CTT,02911316,2025-02-06,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,5.00,4993,False,ok
-ASX,CTT,02911639,2025-02-06,Becoming a substantial holder,603,,,,96.00,3668,False,ok
+ASX,CTT,02911639,2025-02-06,Becoming a substantial holder,603,,,,5.39,3668,False,ok
 ASX,CTT,02924495,2025-03-10,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,12510,False,ok
 ASX,CTT,02926156,2025-03-13,Change in substantial holding,604,Bank of America Corporation and its related bodies corporate (See,,7.90,6.76,3387,False,ok
 ASX,CTT,02926181,2025-03-14,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,5.37,4990,False,ok
 ASX,CTT,02931723,2025-03-31,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,3799,False,ok
 ASX,CTT,02932486,2025-04-01,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,5.28,5893,False,ok
 ASX,CTT,02934132,2025-04-03,Ceasing to be a substantial holder,605,,,,0,3080,False,ok
-ASX,CTT,02934133,2025-04-03,Becoming a substantial holder,603,,,,12.00,3662,False,ok
-ASX,CTT,02936204,2025-04-09,Change in substantial holding,604,,,12.00,94.00,3927,False,ok
+ASX,CTT,02934133,2025-04-03,Becoming a substantial holder,603,,,,5.00,3662,False,ok
+ASX,CTT,02936204,2025-04-09,Change in substantial holding,604,,,5.00,6.87,3927,False,ok
 ASX,CTT,02936914,2025-04-10,Becoming a substantial holder,603,First Sentier Investors Holdings Pty Limited,2025-04-08,,5.10,7540,False,ok
 ASX,CTT,02937405,2025-04-11,Becoming a substantial holder from MUFG,603,"Mitsubishi UFJ Financial Group, Inc",,,5.10,6518,False,ok
 ASX,CTT,02937415,2025-04-11,Ceasing to be a substantial holder,605,First Sentier Investors Holdings Pty Limited,2025-04-09,,0,4442,False,ok
 ASX,CTT,02938094,2025-04-14,Ceasing to be a substantial holder from MUFG,605,"Mitsubishi UFJ Financial Group, Inc",,,0,8868,False,ok
-ASX,CTT,02940835,2025-04-24,Change in substantial holding,604,,,94.00,36.00,3933,False,ok
+ASX,CTT,02940835,2025-04-24,Change in substantial holding,604,,,6.87,7.91,3933,False,ok
 ASX,CTT,02941034,2025-04-28,Change in substantial holding,604,Bank of America Corporation and its related bodies corporate (See,,6.76,8.78,3671,False,ok
 ASX,CTT,02941676,2025-04-28,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,4707,False,ok
-ASX,CTT,02943163,2025-04-30,Change in substantial holding,604,,,36.00,6.00,3936,False,ok
+ASX,CTT,02943163,2025-04-30,Change in substantial holding,604,,,7.91,6.88,3936,False,ok
 ASX,CTT,02944095,2025-05-02,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,5.06,4216,False,ok
 ASX,CTT,02945671,2025-05-07,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,4861,False,ok
 ASX,CTT,02946228,2025-05-08,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,5.29,4598,False,ok
-ASX,CTT,02951096,2025-05-22,Change in substantial holding,604,,,6.00,91.00,3927,False,ok
+ASX,CTT,02951096,2025-05-22,Change in substantial holding,604,,,6.88,5.75,3927,False,ok
 ASX,CTT,02955950,2025-06-05,Becoming a substantial holder,603,First Sentier Investors Holdings Pty Limited,2025-06-03,,5.17,7614,False,ok
 ASX,CTT,02955967,2025-06-06,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,4874,False,ok
 ASX,CTT,02956419,2025-06-06,Becoming a substantial holder from MUFG,603,"Mitsubishi UFJ Financial Group, Inc",,,5.17,6252,False,ok
@@ -1254,20 +1254,20 @@ ASX,CTT,02959763,2025-06-18,Change in substantial holding from MUFG,604,"Mitsubi
 ASX,CTT,02959788,2025-06-18,Change in substantial holding,604,First Sentier Investors Holdings Pty Limited,2025-06-18,7.63,6.03,7951,False,ok
 ASX,CTT,02959800,2025-06-18,Change in substantial holding,604,Bank of America Corporation and its related bodies corporate (See,,7.12,5.21,3696,False,ok
 ASX,CTT,02960136,2025-06-19,Ceasing to be a substantial holder from MS,605,Morgan Stanley and its subsidiaries listed in Annexure A,,,0,8679,False,ok
-ASX,CTT,02960161,2025-06-19,Change in substantial holding,604,,,91.00,65.00,4363,False,ok
+ASX,CTT,02960161,2025-06-19,Change in substantial holding,604,,,5.75,7.59,4363,False,ok
 ASX,CTT,02960170,2025-06-19,Change in substantial holding from MUFG,604,"Mitsubishi UFJ Financial Group, Inc",,7.63,5.29,9421,False,ok
 ASX,CTT,02960204,2025-06-19,Ceasing to be a substantial holder,605,First Sentier Investors Holdings Pty Limited,2025-06-17,,0,4423,False,ok
-ASX,CTT,02960431,2025-06-20,Change in substantial holding,604,,,65.00,40.00,3568,False,ok
+ASX,CTT,02960431,2025-06-20,Change in substantial holding,604,,,7.59,5.69,3568,False,ok
 ASX,CTT,02960560,2025-06-20,Ceasing to be a substantial holder from MUFG,605,"Mitsubishi UFJ Financial Group, Inc",,,0,8047,False,ok
 ASX,CTT,02961065,2025-06-23,Ceasing to be a substantial holder,605,,,,0,2615,False,ok
 ASX,CTT,02962114,2025-06-26,Change in substantial holding,604,Bank of America Corporation and its related bodies corporate (See,,5.21,6.79,3660,False,ok
-ASX,CTT,02963836,2025-06-30,Becoming a substantial holder,603,,,,81.00,4243,False,ok
-ASX,CTT,02969491,2025-07-15,Change in substantial holding,604,,,81.00,73.00,4075,False,ok
-ASX,CTT,02970275,2025-07-17,Change in substantial holding,604,,,73.00,49.00,3508,False,ok
-ASX,CTT,02976171,2025-08-01,Change in substantial holding,604,,,49.00,74.00,3762,False,ok
-ASX,CTT,02977164,2025-08-05,Change in substantial holding,604,,,74.00,63.00,3839,False,ok
+ASX,CTT,02963836,2025-06-30,Becoming a substantial holder,603,,,,5.07,4243,False,ok
+ASX,CTT,02969491,2025-07-15,Change in substantial holding,604,,,5.07,6.50,4075,False,ok
+ASX,CTT,02970275,2025-07-17,Change in substantial holding,604,,,6.50,5.28,3508,False,ok
+ASX,CTT,02976171,2025-08-01,Change in substantial holding,604,,,5.28,6.51,3762,False,ok
+ASX,CTT,02977164,2025-08-05,Change in substantial holding,604,,,6.51,5.44,3839,False,ok
 ASX,CTT,02978984,2025-08-11,Ceasing to be a substantial holder,605,,,,0,2920,False,ok
-ASX,CTT,02980973,2025-08-15,Becoming a substantial holder,603,,,,13.00,3668,False,ok
+ASX,CTT,02980973,2025-08-15,Becoming a substantial holder,603,,,,5.74,3668,False,ok
 ASX,CTT,02981559,2025-08-18,Ceasing to be a substantial holder,605,,,,0,2568,False,ok
 ASX,CTT,02991922,2025-09-05,Becoming a substantial holder,603,First Sentier Group Limited,2025-09-03,,5.06,6469,False,ok
 ASX,CTT,02992607,2025-09-08,Becoming a substantial holder,603,,,,,590,False,ok
@@ -1283,8 +1283,8 @@ ASX,CTT,03109714,2026-06-30,Change in substantial holding,604,(see Annexure 1),2
 ASX,CTT,03115673,2026-07-16,Change in substantial holding,604,(see Annexure 1),2026-07-14,7.29,5.67,4468,False,ok
 ASX,CTT,03129137,2026-08-24,Ceasing to be a substantial holder,605,associates (see Annexure 1),2026-08-20,,0,2950,False,ok
 ASX,CTT,03147156,2026-10-01,Change in substantial holding,604,Dean Mintz,,35.98,38.98,4592,False,ok
-ASX,CTT,03151454,2026-10-13,Becoming a substantial holder,603,UDN Eden Management LTD and persons listed in Annexure A,,,24.00,5871,False,ok
-ASX,CTT,03161489,2026-11-03,Change in substantial holding,604,UDN Eden Management LTD and persons listed in Annexure A,,24.00,57.00,6526,False,ok
+ASX,CTT,03151454,2026-10-13,Becoming a substantial holder,603,UDN Eden Management LTD and persons listed in Annexure A,,,5.30,5871,False,ok
+ASX,CTT,03161489,2026-11-03,Change in substantial holding,604,UDN Eden Management LTD and persons listed in Annexure A,,5.30,6.32,6526,False,ok
 ASX,CUP,03025288,2025-11-13,Change in substantial holding from RYD,604,Ryder Investment Management Pty Ltd and related entities and persons listed in section 4,2025-11-07,5.05,6.09,5049,False,ok
 ASX,CUP,03081577,2026-04-10,Change in substantial holding from HUB,604,HUB24 Limited,,11.59,13.57,4010,False,ok
 ASX,CUP,03081981,2026-04-13,Change in substantial holding from CBA,604,Commonwealth Bank of Australia,2024-03-04,25.75,19.97,2112,False,ok
@@ -1303,7 +1303,7 @@ ASX,CVR,03023978,2025-11-11,Change in substantial holding,604,RANKO MATIC,2025-1
 ASX,CVR,03090716,2026-05-05,Change in substantial holding,604,DANIEL TUFFIN,2026-05-04,8.54,7.16,4576,False,ok
 ASX,CVR,03090722,2026-05-05,Change in substantial holding,604,RANKO MATIC,2026-05-04,12.81,10.73,4556,False,ok
 ASX,CVV,02911134,2025-02-05,Change in substantial holding - Alasdair Cooke,604,Alasdair Campbell Cooke,2025-01-28,6.67,7.86,4274,False,ok
-ASX,CVV,03000373,2025-09-25,Change in substantial holding,604,SEE ANNEXURE 1,2025-09-23,90.00,84.00,7958,False,ok
+ASX,CVV,03000373,2025-09-25,Change in substantial holding,604,SEE ANNEXURE 1,2025-09-23,9.50,8.46,7958,False,ok
 ASX,CWP,02987652,2025-08-28,Change in substantial holding,604,AustralianSuper Pty Ltd,2025-08-26,11.41,10.27,4477,False,ok
 ASX,CWP,02994164,2025-09-11,Change in substantial holding,604,AustralianSuper Pty Ltd,2025-09-09,10.27,9.14,3131,False,ok
 ASX,CWP,02997625,2025-09-19,Change in substantial holding,604,AustralianSuper Pty Ltd,2025-09-17,9.14,7.36,3007,False,ok
@@ -1369,7 +1369,7 @@ ASX,DES,03034635,2025-12-01,Becoming a substantial holder,603,Aigle Royal Consol
 ASX,DES,03049791,2026-01-14,Change in substantial holding,604,NFPFRN (if applicable),,6.82,5.39,5416,False,ok
 ASX,DES,03074690,2026-03-23,Change in substantial holding,604,Fund; Aigle Royal Capital Pty Ltd ATF Aigle Royal Capital,2026-03-20,11.30,12.34,4583,False,ok
 ASX,DES,03087346,2026-04-29,Change in substantial holding,604,Fund; Aigle Royal Capital Pty Ltd ATF Aigle Royal Capital,2026-04-29,12.34,14.04,4583,False,ok
-ASX,DES,03123370,2026-08-10,Change in substantial holding,604,Fund; Aigle Royal Capital Pty Ltd ATF Aigle Royal Capital,2026-08-10,4.00,16.98,4583,False,ok
+ASX,DES,03123370,2026-08-10,Change in substantial holding,604,Fund; Aigle Royal Capital Pty Ltd ATF Aigle Royal Capital,2026-08-10,,16.98,4583,False,ok
 ASX,DEV,02920469,2025-02-28,Change in substantial holding - T Goyder,604,Timothy R B Goyder,,16.99,18.96,4941,False,ok
 ASX,DEV,03039503,2025-12-10,Change in Substantial Holding - T Goyder,604,Timothy R B Goyder,,18.96,15.66,5615,False,ok
 ASX,DEV,03040203,2025-12-11,Ceasing to be a Substantial Holder - Kluck,605,Graham Kluck,2025-12-09,,0,1639,False,ok
@@ -1517,8 +1517,8 @@ ASX,EGH,03140212,2026-09-16,Change in substantial holding,604,COPIA INVESTMENT P
 ASX,EGH,03147335,2026-10-01,Becoming a substantial holder,603,Development Management & Constructions Pty Ltd as Trustee for The Three Sisters Trust,2026-09-30,,5.06,3248,False,ok
 ASX,EHL,02897568,2024-12-18,Change in substantial holding,604,,,,39.85,2312,False,ok
 ASX,EHL,02921658,2025-03-03,Change in substantial holding,604,,,,,2221,False,ok
-ASX,EHL,02998988,2025-09-23,Change in substantial holding,604,SEE ANNEXURE 1,2025-09-19,9.67,3.00,8262,False,ok
-ASX,EHL,03106940,2026-06-23,Becoming a substantial holder,603,Kambiz Nourbakhsh,2026-06-22,,91.00,5879,False,ok
+ASX,EHL,02998988,2025-09-23,Change in substantial holding,604,SEE ANNEXURE 1,2025-09-19,9.67,8.35,8262,False,ok
+ASX,EHL,03106940,2026-06-23,Becoming a substantial holder,603,Kambiz Nourbakhsh,2026-06-22,,5.01,5879,False,ok
 ASX,EHL,03118598,2026-07-27,Change in substantial holding,604,Kambiz Nourbakhsh,2026-07-27,5.01,6.02,4169,False,ok
 ASX,EL8,02900152,2024-12-24,Becoming a substantial holder,603,SEE ANNEXURE 1,,,9.89,3955,True,ok
 ASX,EL8,02922848,2025-03-05,Becoming a substantial holder,603,,,,5.27,11547,False,ok
@@ -1633,8 +1633,8 @@ ASX,EVZ,03093693,2026-05-14,Change in substantial holding - G Burns,604,Airlie B
 ASX,EVZ,03100666,2026-06-03,Change in substantial holding from Tiga Trading Pty Ltd,604,TIGA Trading Pty Ltd and each of the entities listed in the attached,,17.26,14.32,3349,False,ok
 ASX,EVZ,03114526,2026-07-13,Becoming a substantial holder from WMI,603,Wilson Asset Management Group (refer entities listed in Annexure A),2026-07-09,,5.08,5761,False,ok
 ASX,EVZ,03147994,2026-10-02,Change in substantial holding from WMI,604,Wilson Asset Management Group (refer entities listed in Annexure A),2026-09-30,5.08,6.19,6052,False,ok
-ASX,FAL,02900276,2024-12-27,Change in substantial holding,604,"The Goldman Sachs Group, Inc. (“GSGI”) on behalf of itself and its subsidiaries",,49.00,69.00,4054,False,ok
-ASX,FAL,02913713,2025-02-13,Change in substantial holding,604,"The Goldman Sachs Group, Inc. (“GSGI”) on behalf of itself and its subsidiaries",,69.00,99.00,3981,False,ok
+ASX,FAL,02900276,2024-12-27,Change in substantial holding,604,"The Goldman Sachs Group, Inc. (“GSGI”) on behalf of itself and its subsidiaries",,7.11,6.11,4054,False,ok
+ASX,FAL,02913713,2025-02-13,Change in substantial holding,604,"The Goldman Sachs Group, Inc. (“GSGI”) on behalf of itself and its subsidiaries",,6.11,5.09,3981,False,ok
 ASX,FAL,02915652,2025-02-18,Ceasing to be a substantial holder,605,"The Goldman Sachs Group, Inc. (“GSGI”) on behalf of itself and its subsidiaries",,,0,2552,False,ok
 ASX,FAL,02968163,2025-07-10,Change in substantial holding - T Goyder,604,Timothy R B Goyder,,7.94,8.98,8202,False,ok
 ASX,FAL,02985094,2025-08-26,Change in substantial holding,604,"Franklin Resources, Inc., and its affiliates",,7.14,8.34,4327,False,ok
@@ -1658,7 +1658,7 @@ ASX,FCL,02928232,2025-03-19,Change in substantial holding for FCL,604,Selector F
 ASX,FCL,02953406,2025-05-29,Ceasing to be a substantial holder,605,Annexure 1),2025-05-27,,0,6287,False,ok
 ASX,FCL,02970342,2025-07-17,Change in substantial holding from AMP,604,,2025-07-16,6.33,5.09,4058,False,ok
 ASX,FCL,02970578,2025-07-18,Change in substantial holding,604,ECP Asset Management Pty Ltd,2025-07-16,9.34,7.70,7388,False,ok
-ASX,FCL,03007382,2025-10-09,Change in substantial holding,604,Fisher Funds Management Limited,2025-10-07,57.00,88.00,4763,False,ok
+ASX,FCL,03007382,2025-10-09,Change in substantial holding,604,Fisher Funds Management Limited,2025-10-07,7.71,6.27,4763,False,ok
 ASX,FCL,03020783,2025-11-04,Becoming a substantial holder,603,Regal Funds Management Pty Ltd and its associates (see Annexure 1),2025-10-31,,5.17,3439,False,ok
 ASX,FCL,03028061,2025-11-18,Ceasing to be a substantial holder from AMP,605,AMP Limited (,,,0,2380,False,ok
 ASX,FCL,03068875,2026-03-05,Change in substantial holding,604,Selector Funds Management Limited,,8.33,9.36,5425,False,ok
@@ -1811,7 +1811,7 @@ ASX,FWD,02937780,2025-04-14,Change in substantial holding from RYD,604,RYDER CAP
 ASX,FWD,02944282,2025-05-02,Ceasing to be a substantial holder from RYD,605,Ryder Capital Limited,2025-04-29,,0,3772,False,ok
 ASX,FWD,03028847,2025-11-19,Change in substantial holding,604,SEE ANNEXURE 1,2025-11-17,8.01,2.00,4166,True,ok
 ASX,FWD,03034557,2025-12-01,Becoming a substantial holder,603,Dimensional Entities,,,,4013,False,ok
-ASX,FWD,03045016,2025-12-23,Change in substantial holding,604,SEE ANNEXURE 1,2025-12-19,2.00,94.00,6233,False,ok
+ASX,FWD,03045016,2025-12-23,Change in substantial holding,604,SEE ANNEXURE 1,2025-12-19,6.96,5.86,6233,False,ok
 ASX,FWD,03059279,2026-02-11,Ceasing to be a substantial holder,605,"Ellerston Capital Limited (Primary Person), and its associates being those persons listed in Annexure B",,,0,3814,False,ok
 ASX,FWD,03059708,2026-02-12,Ceasing to be a substantial holder,605,SEE ANNEXURE 1,2026-02-10,,0,3237,True,ok
 ASX,FWD,03087337,2026-04-29,Ceasing to be a substantial holder,605,Dimensional Entities,,,0,4883,False,ok
@@ -1839,7 +1839,7 @@ ASX,G11,03025406,2025-11-13,Change in substantial holding,604,"Olivers Hill Pty 
 ASX,G11,03035057,2025-12-01,Change in substantial holding,604,"Olivers Hill Pty Ltd <Olivers Hill Super A/C> (Olivers Super), (Collectively “Donohue Holdings”)",2025-12-01,19.98,17.37,4680,False,ok
 ASX,G11,03035490,2025-12-02,Change in substantial holding,604,SRA Investments Pty Ltd,,14.81,10.77,4480,True,ok
 ASX,G11,03036575,2025-12-03,Becoming a substantial holder,603,,2025-12-01,,5.00,3945,True,ok
-ASX,G11,03068400,2026-03-04,Change in substantial holding,604,SEE ANNEXURE 1,2026-03-02,5.00,9.90,5549,False,ok
+ASX,G11,03068400,2026-03-04,Change in substantial holding,604,SEE ANNEXURE 1,2026-03-02,6.24,9.90,5549,False,ok
 ASX,G11,03068475,2026-03-04,Change in substantial holding,604,"Olivers Hill Pty Ltd <Olivers Hill Super A/C> (Olivers Super), (Collectively “Donohue Holdings”)",2026-03-02,17.37,15.84,4676,False,ok
 ASX,G11,03126491,2026-08-18,Ceasing to be a substantial holder,605,Mr Jason Peterson,2026-08-17,,0,2055,False,ok
 ASX,G50,02888757,2024-11-28,Ceasing to be a substantial holder,605,Lachlan McKay Parker,,,0,1335,True,ok
@@ -1850,7 +1850,7 @@ ASX,G6M,02944679,2025-05-05,Change in substantial holding - Elphinstone,604,"Bre
 ASX,G6M,02944680,2025-05-05,Change in substantial holding - Ellis,604,Christopher Ellis,2025-04-30,14.42,25.99,2976,False,ok
 ASX,G6M,02944970,2025-05-05,Becoming a substantial holder - Pure Asset Management,603,PURE ASSET MANAGEMENT PTY LTD <PURE RESOURCES FUND A/C>,2025-04-30,,10.14,4619,False,ok
 ASX,G6M,02945590,2025-05-06,Becoming a substantial holder,603,NFPFRN (if applicable),2025-04-30,,11.90,4367,False,ok
-ASX,G6M,02945638,2025-05-06,Change in substantial holding - Chadwick,604,Mrs Gwenda Ann Chadwick,2025-04-30,73.00,23.95,5159,False,ok
+ASX,G6M,02945638,2025-05-06,Change in substantial holding - Chadwick,604,Mrs Gwenda Ann Chadwick,2025-04-30,16.16,23.95,5159,False,ok
 ASX,G6M,02945939,2025-05-07,Change in substantial holding - D.A.CH.S Capital A.G.,604,D.A.CH.S. Capital A.G. (Incorporated in Switzerland),2021-11-25,5.90,9.51,2322,False,ok
 ASX,G6M,03019358,2025-10-31,Change in substantial holding - Elphinstone,604,"Brendon Elphinstone (together, the Elphinstone Group)",2025-05-02,16.13,23.20,3333,False,ok
 ASX,G6M,03019478,2025-10-31,Change in substantial holding - Pure,604,PURE ASSET MANAGEMENT PTY LTD <PURE RESOURCES FUND A/C>,2025-05-05,10.14,13.31,4723,False,ok
@@ -1896,7 +1896,7 @@ ASX,GEM,03008419,2025-10-10,Change in substantial holding from MQG,604,Macquarie
 ASX,GEM,03014567,2025-10-23,Notice of Initial Substantial Holding from SOL,603,WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED (Soul Patts) AND SUBSIDIARIES,2025-10-21,,5.25,4691,False,ok
 ASX,GEM,03016988,2025-10-28,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2025-10-06,5.02,6.31,12308,False,ok
 ASX,GEM,03018598,2025-10-30,Change in substantial holding from SOL,604,WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED (Soul Patts) AND SUBSIDIARIES,2025-10-28,5.25,6.53,4619,False,ok
-ASX,GEM,03024520,2025-11-12,Becoming a substantial holder,603,,,,34.00,3597,False,ok
+ASX,GEM,03024520,2025-11-12,Becoming a substantial holder,603,,,,5.65,3597,False,ok
 ASX,GEM,03027339,2025-11-17,Ceasing to be a substantial holder,605,,,,0,3058,False,ok
 ASX,GEM,03027395,2025-11-17,Change in substantial holding from MQG,604,Macquarie Group Limited ('MQG'); and,,6.14,7.79,7836,False,ok
 ASX,GEM,03032648,2025-11-26,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2025-10-28,6.31,5.15,9415,False,ok
@@ -1938,12 +1938,12 @@ ASX,GEM,03100856,2026-06-04,Becoming a substantial holder,603,JPMorgan Chase & C
 ASX,GEM,03101952,2026-06-09,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,4704,False,ok
 ASX,GEM,03107530,2026-06-25,Becoming a substantial holder,603,"Vanguard Group (The Vanguard Group, Inc. and its controlled entities including those",,,5.18,4650,False,ok
 ASX,GEM,03118165,2026-07-27,Ceasing to be a substantial holder,605,"Vanguard Group (The Vanguard Group, Inc. and its controlled entities including those",,,0,5080,False,ok
-ASX,GEM,03134879,2026-09-02,Becoming a substantial holder,603,,,,24.00,3629,False,ok
+ASX,GEM,03134879,2026-09-02,Becoming a substantial holder,603,,,,5.09,3629,False,ok
 ASX,GEM,03135556,2026-09-03,Ceasing to be a substantial holder,605,,,,0,2902,False,ok
-ASX,GEM,03137171,2026-09-08,Becoming a substantial holder,603,,,,70.00,3631,False,ok
+ASX,GEM,03137171,2026-09-08,Becoming a substantial holder,603,,,,6.50,3631,False,ok
 ASX,GEM,03137911,2026-09-10,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,5.69,3407,False,ok
 ASX,GEM,03138184,2026-09-10,Ceasing to be a substantial holder,605,,,,0,2898,False,ok
-ASX,GEM,03140687,2026-09-17,Becoming a substantial holder,603,,,,42.00,3630,False,ok
+ASX,GEM,03140687,2026-09-17,Becoming a substantial holder,603,,,,5.34,3630,False,ok
 ASX,GEM,03143580,2026-09-24,Becoming a substantial holder,603,UBS Group AG and its related bodies corporate,,,5.25,4161,False,ok
 ASX,GEM,03143582,2026-09-24,Ceasing to be a substantial holder,605,,,,0,3070,False,ok
 ASX,GEM,03143690,2026-09-25,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,4268,False,ok
@@ -2001,12 +2001,12 @@ ASX,HLS,02963199,2025-06-27,Becoming a substantial holder,603,NORGES BANK,2025-0
 ASX,HLS,02963966,2025-06-30,Change in substantial holding,604,First Sentier Investors Holdings Pty Limited,2025-06-25,5.22,6.41,9601,False,ok
 ASX,HLS,02964012,2025-06-30,Ceasing to be a substantial holder,605,NORGES BANK,2025-06-27,,0,1670,False,ok
 ASX,HLS,02964699,2025-07-01,Change in substantial holding from MUFG,604,"Mitsubishi UFJ Financial Group, Inc",,5.22,6.42,9563,False,ok
-ASX,HLS,02980019,2025-08-13,Becoming a substantial holder,603,,,,90.00,4255,False,ok
-ASX,HLS,02984920,2025-08-25,Change in substantial holding,604,,,90.00,77.00,4302,False,ok
+ASX,HLS,02980019,2025-08-13,Becoming a substantial holder,603,,,,6.11,4255,False,ok
+ASX,HLS,02984920,2025-08-25,Change in substantial holding,604,,,6.11,7.30,4302,False,ok
 ASX,HLS,02985774,2025-08-26,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2025-08-22,7.34,8.70,4511,False,ok
 ASX,HLS,02987473,2025-08-28,Change in substantial holding,604,Australian Retirement Trust Pty LTD ATF Australian Retirement Trust,2025-08-26,8.87,12.01,4519,False,ok
 ASX,HLS,02987756,2025-08-28,Change in substantial holding,604,Tanarra Entities),2025-08-26,11.97,19.81,5290,False,ok
-ASX,HLS,02989683,2025-09-01,Change in substantial holding,604,,,77.00,14.00,4289,False,ok
+ASX,HLS,02989683,2025-09-01,Change in substantial holding,604,,,7.30,5.54,4289,False,ok
 ASX,HLS,02990334,2025-09-03,Change in substantial holding,604,Host-Plus Pty Limited,2025-08-28,9.93,11.94,4666,False,ok
 ASX,HLS,02990335,2025-09-03,Change in substantial holding,604,Host-Plus Pty Limited,2025-08-26,7.97,9.93,4665,False,ok
 ASX,HLS,02990756,2025-09-03,Ceasing to be a substantial holder,605,,,,0,3481,False,ok
@@ -2038,7 +2038,7 @@ ASX,HLS,03081986,2026-04-13,Ceasing to be a substantial holder from MQG,605,Macq
 ASX,HLS,03083028,2026-04-15,Becoming a substantial holder from MQG,603,Macquarie Group Limited ('MQG'); and,,,5.00,7451,False,ok
 ASX,HLS,03083091,2026-04-16,Ceasing to be a substantial holder,605,Dimensional Entities,,,0,4881,False,ok
 ASX,HLS,03087122,2026-04-28,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2026-04-24,9.92,11.30,4512,False,ok
-ASX,HLS,03094509,2026-05-15,Becoming a substantial holder,603,,,,1.00,3395,False,ok
+ASX,HLS,03094509,2026-05-15,Becoming a substantial holder,603,,,,5.07,3395,False,ok
 ASX,HLS,03094964,2026-05-18,Ceasing to be a substantial holder,605,,,,0,2523,False,ok
 ASX,HLS,03095026,2026-05-18,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2026-05-14,11.30,12.43,4126,False,ok
 ASX,HLS,03095451,2026-05-19,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-03-24,6.26,7.53,11203,False,ok
@@ -2050,7 +2050,7 @@ ASX,HLS,03099201,2026-05-29,Ceasing to be a substantial holder from MQG,605,Macq
 ASX,HLS,03103765,2026-06-12,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-05-19,7.53,6.52,10682,False,ok
 ASX,HLS,03104249,2026-06-15,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2026-06-11,12.43,13.79,4515,False,ok
 ASX,HLS,03108453,2026-06-26,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2026-06-24,13.79,15.03,4516,False,ok
-ASX,HLS,03111482,2026-07-03,Becoming a substantial holder,603,,,,66.00,4216,False,ok
+ASX,HLS,03111482,2026-07-03,Becoming a substantial holder,603,,,,5.24,4216,False,ok
 ASX,HLS,03112281,2026-07-07,Ceasing to be a substantial holder,605,"Vanguard Group (The Vanguard Group, Inc. and its controlled entities including those",,,0,4719,False,ok
 ASX,HLS,03112320,2026-07-07,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,5.01,3711,False,ok
 ASX,HLS,03113743,2026-07-10,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,5261,False,ok
@@ -2058,18 +2058,18 @@ ASX,HLS,03131603,2026-08-27,Ceasing to be a substantial holder,605,,,,0,3348,Fal
 ASX,HLS,03132515,2026-08-28,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2026-08-26,15.03,13.87,4516,False,ok
 ASX,HLS,03135557,2026-09-03,Change in substantial holding,604,First Sentier Group Limited,2026-03-05,7.99,6.86,9086,False,ok
 ASX,HLS,03136050,2026-09-04,Change in substantial holding from MUFG,604,"Mitsubishi UFJ Financial Group, Inc",,7.99,6.86,9838,False,ok
-ASX,HLS,03137172,2026-09-08,Becoming a substantial holder,603,,,,64.00,3385,False,ok
-ASX,HLS,03140273,2026-09-16,Change in substantial holding,604,,,64.00,86.00,4464,False,ok
+ASX,HLS,03137172,2026-09-08,Becoming a substantial holder,603,,,,5.74,3385,False,ok
+ASX,HLS,03140273,2026-09-16,Change in substantial holding,604,,,5.74,6.95,4464,False,ok
 ASX,HLS,03142216,2026-09-22,Change in substantial holding,604,Australian Retirement Trust Pty LTD ATF Australian Retirement Trust,2026-09-18,12.01,8.99,4507,False,ok
 ASX,HLS,03142288,2026-09-22,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2026-09-18,13.87,15.59,4516,False,ok
 ASX,HLS,03142317,2026-09-22,Ceasing to be a substantial holder,605,State Street Corporation and subsidiaries named in paragraph 4 to this form,2026-09-18,,0,7104,False,ok
-ASX,HLS,03142872,2026-09-23,Change in substantial holding,604,,,86.00,72.00,4458,False,ok
+ASX,HLS,03142872,2026-09-23,Change in substantial holding,604,,,6.95,8.08,4458,False,ok
 ASX,HLS,03142887,2026-09-23,Change in substantial holding,604,"184)(“PNI”), and each other entity listed in Part 1 of Annexure A",2026-09-18,6.61,7.74,6633,False,ok
 ASX,HLS,03142947,2026-09-23,Becoming a substantial holder,603,UBS Group AG and its related bodies corporate,,,5.35,3781,False,ok
 ASX,HLS,03143575,2026-09-24,Change in substantial holding,604,First Sentier Group Limited,2026-09-04,6.86,5.71,8117,False,ok
 ASX,HLS,03143612,2026-09-24,Ceasing to be a substantial holder,605,UBS Group AG and its related bodies corporate,,,0,3781,False,ok
 ASX,HLS,03144092,2026-09-25,Change in substantial holding,604,Australian Retirement Trust Pty LTD ATF Australian Retirement Trust,2026-09-23,8.99,7.42,4506,False,ok
-ASX,HLS,03144673,2026-09-28,Change in substantial holding,604,,,72.00,81.00,4468,False,ok
+ASX,HLS,03144673,2026-09-28,Change in substantial holding,604,,,8.08,5.65,4468,False,ok
 ASX,HLS,03144879,2026-09-28,Change in substantial holding from MUFG,604,"Mitsubishi UFJ Financial Group, Inc",,6.86,5.71,7174,False,ok
 ASX,HLS,03146578,2026-09-30,Ceasing to be a substantial holder,605,First Sentier Group Limited,2026-09-28,,0,4803,False,ok
 ASX,HLS,03147337,2026-10-01,Ceasing to be a substantial holder,605,,,,0,3364,False,ok
@@ -2082,7 +2082,7 @@ ASX,HMG,03091028,2026-05-06,Becoming a substantial holder,603,”Auralandia Grou
 ASX,HMG,03091029,2026-05-06,Change in substantial holding,604,”Auralandia Group”,2026-03-09,5.02,6.60,5104,False,ok
 ASX,HMG,03094386,2026-05-15,Change in substantial holding,604,”Auralandia Group”,2026-05-15,6.60,7.66,5891,False,ok
 ASX,HMY,02943889,2025-05-01,Ceasing to be a substantial holder,605,TRUST,2025-04-30,,0,3426,False,ok
-ASX,HMY,02957756,2025-06-12,Notice of change in Substantial Holding,604,,,18.60,3.50,3294,False,ok
+ASX,HMY,02957756,2025-06-12,Notice of change in Substantial Holding,604,,,18.60,100.00,3294,False,ok
 ASX,HMY,02996783,2025-09-18,Ceasing to be a substantial holder,605,,,,0,2645,False,ok
 ASX,HPG,02885888,2024-11-22,Becoming a substantial holder,603,AustralianSuper Pty Ltd,2024-11-18,,6.54,4436,False,ok
 ASX,HPG,02923977,2025-03-07,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2025-03-05,8.21,9.23,4537,False,ok
@@ -2215,13 +2215,13 @@ ASX,JIN,03022579,2025-11-07,Becoming a substantial holder from MQG,603,Macquarie
 ASX,JIN,03026707,2025-11-14,Ceasing to be a substantial holder from MQG,605,Macquarie Group Limited ('MQG'); and,,,0,10631,False,ok
 ASX,JIN,03034368,2025-11-28,Becoming a substantial holder from MQG,603,Macquarie Group Limited ('MQG'); and,,,5.05,7751,False,ok
 ASX,JIN,03035197,2025-12-01,Ceasing to be a substantial holder from MQG,605,Macquarie Group Limited ('MQG'); and,,,0,9723,False,ok
-ASX,JIN,03039033,2025-12-09,Change in substantial holding,603,,,,15.00,3621,False,ok
+ASX,JIN,03039033,2025-12-09,Change in substantial holding,603,,,,6.12,3621,False,ok
 ASX,JIN,03040223,2025-12-11,Ceasing to be a substantial holder,605,,,,0,2629,False,ok
 ASX,JIN,03043039,2025-12-18,Becoming a substantial holder from MQG,603,Macquarie Group Limited ('MQG'); and,,,5.67,7755,False,ok
 ASX,JIN,03043681,2025-12-19,Becoming a substantial holder,603,listed in Annexure A,2025-12-16,,5.05,5677,False,ok
 ASX,JIN,03047603,2026-01-06,Ceasing to be a substantial holder from MQG,605,Macquarie Group Limited ('MQG'); and,,,0,9750,False,ok
 ASX,JIN,03052147,2026-01-22,Becoming a substantial holder from MQG,603,Macquarie Group Limited ('MQG'); and,,,5.07,4299,False,ok
-ASX,JIN,03064219,2026-02-24,Becoming a substantial holder,603,,,,94.00,3629,False,ok
+ASX,JIN,03064219,2026-02-24,Becoming a substantial holder,603,,,,6.91,3629,False,ok
 ASX,JIN,03064941,2026-02-25,Ceasing to be a substantial holder,605,,,,0,2744,False,ok
 ASX,JIN,03068425,2026-03-04,Ceasing to be a substantial holder from MQG,605,Macquarie Group Limited ('MQG'); and,,,0,10290,False,ok
 ASX,JIN,03072062,2026-03-13,Becoming a substantial holder from MQG,603,Macquarie Group Limited ('MQG'); and,,,6.52,8112,False,ok
@@ -2229,19 +2229,19 @@ ASX,JIN,03077456,2026-03-30,Change in substantial holding from MQG,604,Macquarie
 ASX,JIN,03081995,2026-04-13,Ceasing to be a substantial holder,605,listed in Annexure A),2026-04-08,,0,5298,False,ok
 ASX,JIN,03091202,2026-05-06,Change in substantial holding from MQG,604,Macquarie Group Limited ('MQG'); and,,5.17,6.31,8048,False,ok
 ASX,JIN,03103257,2026-06-11,Becoming a substantial holder,603,listed in Annexure A,2026-06-08,,5.13,6636,False,ok
-ASX,JIN,03104258,2026-06-15,Becoming a substantial holder,603,,,,21.00,3617,False,ok
+ASX,JIN,03104258,2026-06-15,Becoming a substantial holder,603,,,,5.31,3617,False,ok
 ASX,JIN,03104691,2026-06-16,Ceasing to be a substantial holder,605,,,,0,2915,False,ok
-ASX,JIN,03105116,2026-06-17,Becoming a substantial holder,603,,,,57.00,4601,False,ok
+ASX,JIN,03105116,2026-06-17,Becoming a substantial holder,603,,,,5.50,4601,False,ok
 ASX,JIN,03106996,2026-06-23,Correction and Ceasing to be a substantial holder,605,listed in Annexure A),2026-06-08,,0,4157,False,ok
 ASX,JIN,03109683,2026-06-30,Ceasing to be a substantial holder,605,,,,0,3239,False,ok
-ASX,JIN,03113219,2026-07-08,Becoming a substantial holder,603,,,,52.00,4185,False,ok
+ASX,JIN,03113219,2026-07-08,Becoming a substantial holder,603,,,,5.34,4185,False,ok
 ASX,JIN,03115987,2026-07-17,Ceasing to be a substantial holder,605,,,,0,3029,False,ok
 ASX,JIN,03117339,2026-07-22,Change in substantial holding from MQG,604,Macquarie Group Limited ('MQG'); and,,6.31,7.60,8007,False,ok
-ASX,JIN,03118074,2026-07-24,Becoming a substantial holder,603,,,,35.00,4191,False,ok
+ASX,JIN,03118074,2026-07-24,Becoming a substantial holder,603,,,,5.21,4191,False,ok
 ASX,JIN,03119001,2026-07-28,Change in substantial holding from MQG,604,Macquarie Group Limited ('MQG'); and,,7.60,6.36,7737,False,ok
 ASX,JIN,03120770,2026-07-31,Ceasing to be a substantial holder,605,,,,0,3332,False,ok
 ASX,JIN,03137793,2026-09-09,Becoming a substantial holder,603,First Sentier Group Limited,2026-09-07,,5.37,8072,False,ok
-ASX,JIN,03138113,2026-09-10,Becoming a substantial holder,603,,,,18.00,4201,False,ok
+ASX,JIN,03138113,2026-09-10,Becoming a substantial holder,603,,,,6.07,4201,False,ok
 ASX,JIN,03138228,2026-09-10,Ceasing to be a substantial holder,605,First Sentier Group Limited,2026-09-08,,0,4515,False,ok
 ASX,JIN,03138262,2026-09-10,Becoming a substantial holder from MUFG,603,"Mitsubishi UFJ Financial Group, Inc",,,5.37,4518,False,ok
 ASX,JIN,03138674,2026-09-11,Ceasing to be a substantial holder from MUFG,605,"Mitsubishi UFJ Financial Group, Inc",,,0,8268,False,ok
@@ -2460,7 +2460,7 @@ ASX,LOT,02940192,2025-04-23,Change in substantial holding,604,"Sprott Inc, (Spro
 ASX,LOT,02944481,2025-05-02,Ceasing to be a substantial holder,605,Davey Holdings (Aus) Pty Ltd atf Burnaford Account (Davey Holdings),,,0,6580,False,ok
 ASX,LOT,02977183,2025-08-05,Change in substantial holding,604,SEE ANNEXURE 1,2025-08-01,21.00,80.00,4178,True,ok
 ASX,LOT,02992523,2025-09-08,Becoming a substantial holder,603,State Street Corporation and subsidiaries named in paragraph 7 to this form,2025-09-04,,5.12,7866,False,ok
-ASX,LOT,02992666,2025-09-08,Becoming a substantial holder,603,,,,52.00,4302,False,ok
+ASX,LOT,02992666,2025-09-08,Becoming a substantial holder,603,,,,5.38,4302,False,ok
 ASX,LOT,02994268,2025-09-11,Ceasing to be a substantial holder,605,,,,0,3037,False,ok
 ASX,LOT,02995447,2025-09-15,Change in substantial holding,604,SEE ANNEXURE 1,2025-09-11,80.00,74.00,4172,True,ok
 ASX,LOT,02995475,2025-09-15,Ceasing to be a substantial holder,605,State Street Corporation and subsidiaries named in paragraph 4 to this form,2025-09-11,,0,9366,False,ok
@@ -2471,13 +2471,13 @@ ASX,LOT,03016991,2025-10-28,Becoming a substantial holder,603,State Street Corpo
 ASX,LOT,03019751,2025-10-31,Ceasing to be a substantial holder,605,State Street Corporation and subsidiaries named in paragraph 4 to this form,2025-10-29,,0,8181,False,ok
 ASX,LOT,03026718,2025-11-14,Becoming a substantial holder,603,State Street Corporation and subsidiaries named in paragraph 7 to this form,2025-11-12,,5.06,8759,False,ok
 ASX,LOT,03045541,2025-12-24,Ceasing to be a substantial holder,605,SEE ANNEXURE 1,2025-12-22,,0,5055,False,ok
-ASX,LOT,03058316,2026-02-09,Becoming a substantial holder,603,,,,20.00,4221,False,ok
+ASX,LOT,03058316,2026-02-09,Becoming a substantial holder,603,,,,9.01,4221,False,ok
 ASX,LOT,03058465,2026-02-10,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,5.52,3641,False,ok
 ASX,LOT,03058822,2026-02-10,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2025-11-14,5.06,11.22,10860,False,ok
 ASX,LOT,03059830,2026-02-13,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-02-10,11.22,9.76,8903,False,ok
-ASX,LOT,03060187,2026-02-13,Change in substantial holding,604,,,20.00,74.00,4212,False,ok
+ASX,LOT,03060187,2026-02-13,Change in substantial holding,604,,,9.01,7.53,4212,False,ok
 ASX,LOT,03060366,2026-02-16,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,5.52,6.54,5169,False,ok
-ASX,LOT,03060768,2026-02-16,Change in substantial holding,604,,,74.00,98.00,4198,False,ok
+ASX,LOT,03060768,2026-02-16,Change in substantial holding,604,,,7.53,6.04,4198,False,ok
 ASX,LOT,03060833,2026-02-16,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,4337,False,ok
 ASX,LOT,03061245,2026-02-17,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-02-12,9.76,7.96,10334,False,ok
 ASX,LOT,03061823,2026-02-18,Ceasing to be a substantial holder,605,,,,0,3358,False,ok
@@ -2489,10 +2489,10 @@ ASX,LOT,03074429,2026-03-20,Becoming a substantial holder,603,State Street Corpo
 ASX,LOT,03075802,2026-03-25,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-03-20,5.08,7.22,9899,False,ok
 ASX,LOT,03080988,2026-04-09,Change in substantial holding,604,Sprott Inc. (Sprott) and each of ts controled bodies corporate listed in Annexure B (the Sprott Group Entities),,7.00,3.00,2932,True,ok
 ASX,LOT,03090769,2026-05-06,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,5.07,4056,False,ok
-ASX,LOT,03092686,2026-05-11,Becoming a substantial holder,603,,,,69.00,4207,False,ok
+ASX,LOT,03092686,2026-05-11,Becoming a substantial holder,603,,,,5.28,4207,False,ok
 ASX,LOT,03093243,2026-05-13,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,5.07,6.36,4437,False,ok
 ASX,LOT,03093248,2026-05-13,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-03-25,7.22,8.27,7755,False,ok
-ASX,LOT,03094961,2026-05-18,Change in substantial holding,604,,,69.00,83.00,4425,False,ok
+ASX,LOT,03094961,2026-05-18,Change in substantial holding,604,,,5.28,6.32,4425,False,ok
 ASX,LOT,03095134,2026-05-19,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,6.36,7.97,4777,False,ok
 ASX,LOT,03096002,2026-05-20,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-05-12,8.27,9.37,9428,False,ok
 ASX,LOT,03096073,2026-05-21,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,7.97,9.14,4402,False,ok
@@ -2500,22 +2500,22 @@ ASX,LOT,03096868,2026-05-22,Change in substantial holding,604,State Street Corpo
 ASX,LOT,03097759,2026-05-26,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-05-22,11.25,12.35,8792,False,ok
 ASX,LOT,03098234,2026-05-27,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,9.14,8.12,4581,False,ok
 ASX,LOT,03103849,2026-06-15,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,8.12,9.25,5807,False,ok
-ASX,LOT,03104256,2026-06-15,Change in substantial holding,604,,,83.00,74.00,4432,False,ok
+ASX,LOT,03104256,2026-06-15,Change in substantial holding,604,,,6.32,7.70,4432,False,ok
 ASX,LOT,03104692,2026-06-16,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-05-26,12.35,14.20,10138,False,ok
 ASX,LOT,03105170,2026-06-17,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-06-16,14.20,16.32,8270,False,ok
-ASX,LOT,03108884,2026-06-29,Change in substantial holding,604,,,74.00,48.00,4433,False,ok
+ASX,LOT,03108884,2026-06-29,Change in substantial holding,604,,,7.70,6.64,4433,False,ok
 ASX,LOT,03114500,2026-07-13,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-06-17,16.32,15.24,10210,False,ok
 ASX,LOT,03120102,2026-07-30,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-07-13,15.24,16.55,8597,False,ok
-ASX,LOT,03120789,2026-07-31,Change in substantial holding,604,,,48.00,32.00,4272,False,ok
+ASX,LOT,03120789,2026-07-31,Change in substantial holding,604,,,6.64,8.65,4272,False,ok
 ASX,LOT,03120980,2026-07-31,Becoming a substantial holder,603,First Sentier Group Limited,2026-07-29,,5.04,7578,False,ok
 ASX,LOT,03121486,2026-08-03,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-07-30,16.55,18.02,8276,False,ok
 ASX,LOT,03121519,2026-08-03,Becoming a substantial holder from MUFG,603,"Mitsubishi UFJ Financial Group, Inc",,,5.04,5385,False,ok
 ASX,LOT,03121551,2026-08-04,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,9.25,8.24,5346,False,ok
 ASX,LOT,03122335,2026-08-05,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-08-03,18.02,12.31,8668,False,ok
 ASX,LOT,03122381,2026-08-06,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,8.24,5.74,4222,False,ok
-ASX,LOT,03122657,2026-08-06,Change in substantial holding,604,,,32.00,31.00,4427,False,ok
+ASX,LOT,03122657,2026-08-06,Change in substantial holding,604,,,8.65,6.93,4427,False,ok
 ASX,LOT,03122678,2026-08-06,Becoming a substantial holder from MQG,603,Macquarie Group Limited ('MQG'); and,,,6.56,7060,False,ok
-ASX,LOT,03123059,2026-08-07,Change in substantial holding,604,,,31.00,15.00,4176,False,ok
+ASX,LOT,03123059,2026-08-07,Change in substantial holding,604,,,6.93,5.72,4176,False,ok
 ASX,LOT,03123236,2026-08-07,Change in substantial holding,604,First Sentier Group Limited,2026-08-03,5.04,7.08,7360,False,ok
 ASX,LOT,03123639,2026-08-10,Becoming a substantial holder from MS,603,Morgan Stanley and its subsidiaries listed in Annexure A,,,6.03,9405,False,ok
 ASX,LOT,03123670,2026-08-10,Change in substantial holding from MUFG,604,"Mitsubishi UFJ Financial Group, Inc",,5.04,7.08,7543,False,ok
@@ -2530,7 +2530,7 @@ ASX,LOT,03126126,2026-08-18,Becoming a substantial holder,603,JPMorgan Chase & C
 ASX,LOT,03126472,2026-08-18,Change in substantial holding,604,First Sentier Group Limited,2026-08-10,7.08,5.01,7361,False,ok
 ASX,LOT,03126641,2026-08-19,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,5.86,6.87,5682,False,ok
 ASX,LOT,03127026,2026-08-19,Ceasing to be a substantial holder from MS,605,Morgan Stanley and its subsidiaries listed in Annexure A,,,0,11344,False,ok
-ASX,LOT,03127050,2026-08-19,Change in substantial holding,604,,,15.00,74.00,4452,False,ok
+ASX,LOT,03127050,2026-08-19,Change in substantial holding,604,,,5.72,7.31,4452,False,ok
 ASX,LOT,03127090,2026-08-19,Ceasing to be a substantial holder,605,First Sentier Group Limited,2026-08-17,,0,4571,False,ok
 ASX,LOT,03127100,2026-08-19,Change in substantial holding from MUFG,604,"Mitsubishi UFJ Financial Group, Inc",,7.08,5.01,7287,False,ok
 ASX,LOT,03127115,2026-08-19,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-08-17,14.39,15.52,7912,False,ok
@@ -2539,7 +2539,7 @@ ASX,LOT,03127834,2026-08-20,Ceasing to be a substantial holder from MUFG,605,"Mi
 ASX,LOT,03127868,2026-08-20,Becoming a substantial holder,603,UBS Group AG and its related bodies corporate,,,5.41,4568,False,ok
 ASX,LOT,03127883,2026-08-20,Becoming a substantial holder from MQG,603,Macquarie Group Limited ('MQG'); and,,,5.06,7063,False,ok
 ASX,LOT,03128430,2026-08-21,Ceasing to be a substantial holder,605,UBS Group AG and its related bodies corporate,,,0,3010,False,ok
-ASX,LOT,03129150,2026-08-24,Change in substantial holding,604,,,74.00,39.00,4452,False,ok
+ASX,LOT,03129150,2026-08-24,Change in substantial holding,604,,,7.31,5.20,4452,False,ok
 ASX,LOT,03129206,2026-08-24,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-08-19,15.52,12.74,8135,False,ok
 ASX,LOT,03129334,2026-08-25,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,7.88,5.31,4766,False,ok
 ASX,LOT,03129897,2026-08-25,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-08-24,12.74,11.43,7690,False,ok
@@ -2551,7 +2551,7 @@ ASX,LOT,03131845,2026-08-28,Becoming a substantial holder,603,JPMorgan Chase & C
 ASX,LOT,03133245,2026-08-31,Change in substantial holding,604,Sprott inc. (Sprott) and each of its contro#ed bodies corporate fisted In Annexure A (the Sprott Group Entities},,44.88,44.67,2912,True,ok
 ASX,LOT,03133580,2026-08-31,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-08-26,10.05,11.15,7514,False,ok
 ASX,LOT,03137378,2026-09-09,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,5.46,6.48,4603,False,ok
-ASX,LOT,03138112,2026-09-10,Becoming a substantial holder,603,,,,32.00,4223,False,ok
+ASX,LOT,03138112,2026-09-10,Becoming a substantial holder,603,,,,5.08,4223,False,ok
 ASX,LOT,03139244,2026-09-14,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-08-31,11.15,9.73,8461,False,ok
 ASX,LOT,03141372,2026-09-21,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,6.48,7.50,6581,False,ok
 ASX,LOT,03141840,2026-09-21,Change in substantial holding,604,State Street Corporation and subsidiaries named in paragraph 6 to this form,2026-09-14,9.73,11.24,8065,False,ok
@@ -2729,7 +2729,7 @@ ASX,MRT,03082074,2026-04-13,Becoming a substantial holder,603,Horizon Minerals L
 ASX,MRT,03082076,2026-04-13,Ceasing to be a substantial holder,605,Add New Energy Investment Holdings Group Limited and Associates,2026-03-30,,0,4180,True,ok
 ASX,MRT,03082077,2026-04-13,Becoming a substantial holder,603,Add New Energy Investment Holdings Group Limited,2026-03-30,,18.87,3526,False,ok
 ASX,MRT,03082079,2026-04-13,Change in substantial holding,604,Add New Energy Investment Holdings Group Limited,2026-04-14,18.87,19.97,4006,False,ok
-ASX,MRT,03083100,2026-04-16,Becoming a substantial holder,603,"Franklin Resources, Inc., and its affiliates",,,47.00,4148,False,ok
+ASX,MRT,03083100,2026-04-16,Becoming a substantial holder,603,"Franklin Resources, Inc., and its affiliates",,,,4148,False,ok
 ASX,MSV,02912036,2025-02-07,Change in substantial holding,604,investments (QLD) Pty Ltd (111 064 825); Mitchell Family,2025-02-06,18.84,19.89,4398,False,ok
 ASX,MSV,03134875,2026-09-02,Change in substantial holding,604,Dream Challenge Pty Ltd,,7.20,6.10,2738,True,ok
 ASX,MSV,03138928,2026-09-14,Ceasing to be a substantial holder,605,Dream Challenge Pty Ltd,2026-09-11,,0,4036,False,ok
@@ -2845,7 +2845,7 @@ ASX,MYR,03059710,2026-02-12,Change in substantial holding from PPT,604,For perso
 ASX,MYR,03072648,2026-03-16,Change in substantial holding from PPT,604,For personal use only,2026-03-12,7.79,6.70,4334,False,ok
 ASX,MYR,03073600,2026-03-18,Change in substantial holding from PPT,604,For personal use only,2026-03-16,6.70,5.40,4333,False,ok
 ASX,MYR,03076384,2026-03-26,Ceasing to be a substantial holder from PPT,605,Perpetual Limited and its related bodies corporate,2026-03-24,,0,4625,False,ok
-ASX,MYR,03087784,2026-04-29,Becoming a substantial holder,603,,,,,4211,False,ok
+ASX,MYR,03087784,2026-04-29,Becoming a substantial holder,603,,,,5.11,4211,False,ok
 ASX,MYR,03096428,2026-05-21,Ceasing to be a substantial holder,605,,,,0,3344,False,ok
 ASX,MYX,02892469,2024-12-06,Becoming a substantial holder,603,"Vanguard Group (The Vanguard Group, Inc. and its controlled entities including those",,,5.11,3604,False,ok
 ASX,MYX,02919567,2025-02-26,Becoming a substantial holder,603,First Sentier Investors Holdings Pty Limited,2025-02-24,,5.11,6598,False,ok
@@ -2905,10 +2905,10 @@ ASX,MYX,03057384,2026-02-06,Ceasing to be a substantial holder,605,"Vanguard Gro
 ASX,MYX,03066867,2026-02-27,Ceasing to be a substantial holder,605,First Sentier Group Limited,2026-02-25,,0,6385,False,ok
 ASX,MYX,03067443,2026-03-02,Ceasing to be a substantial holder from MUFG,605,"Mitsubishi UFJ Financial Group, Inc",,,0,7091,False,ok
 ASX,MYX,03067530,2026-03-03,Becoming a substantial holder,603,"Fund Limited (Eagle Harbor), Trium Capital Segregated Portfolio, a segregated portfolio of PC Map SPC, a Cayman Islands",2026-02-26,,5.02,6211,False,ok
-ASX,MYX,03069929,2026-03-09,Becoming a substantial holder,603,,,,62.00,3627,False,ok
+ASX,MYX,03069929,2026-03-09,Becoming a substantial holder,603,,,,5.89,3627,False,ok
 ASX,MYX,03074970,2026-03-23,Ceasing to be a substantial holder,605,,,,0,3743,False,ok
 ASX,MYX,03075419,2026-03-24,Becoming a substantial holder,603,"Funicular Funds, LP",2026-03-20,,6.30,4746,False,ok
-ASX,MYX,03076857,2026-03-27,Becoming a substantial holder,603,,,,62.00,3419,False,ok
+ASX,MYX,03076857,2026-03-27,Becoming a substantial holder,603,,,,5.08,3419,False,ok
 ASX,MYX,03077998,2026-03-31,Ceasing to be a substantial holder,605,,,,0,2550,False,ok
 ASX,MYX,03105469,2026-06-18,Change in substantial holding,604,"Funicular Funds, LP",2026-06-16,6.30,8.06,5164,False,ok
 ASX,MYX,03108120,2026-06-26,Change in substantial holding,604,"Funicular Funds, LP",2026-06-24,8.06,9.90,4907,False,ok
@@ -2964,9 +2964,9 @@ ASX,NVA,02903292,2025-01-10,Change in substantial holding,604,"Entity listed in 
 ASX,NVA,02904458,2025-01-15,Change in substantial holding,604,"Entity listed in Annexure A (Group Entity),(together BNYMC Group)",,16.31,15.05,2920,False,ok
 ASX,NVA,02904875,2025-01-16,Becoming a substantial holder,603,(the foregoing persons collectively being the Substantial Holders),,,11.87,5616,False,ok
 ASX,NVA,02906938,2025-01-24,Change in substantial holding,604,"Entity listed in Annexure A (Group Entity),(together BNYMC Group)",,15.05,27.84,2920,False,ok
-ASX,NVA,02946027,2025-05-07,Change in substantial holding,604,(the foregoing persons collectively being the Substantial Holders),2025-05-02,11.87,83.00,5057,False,ok
+ASX,NVA,02946027,2025-05-07,Change in substantial holding,604,(the foregoing persons collectively being the Substantial Holders),2025-05-02,11.87,10.85,5057,False,ok
 ASX,NVA,02970813,2025-07-21,Change in substantial holding,604,"Entity listed in Annexure A (Group Entity),(together BNYMC Group)",,27.84,39.79,2912,False,ok
-ASX,NVA,02979468,2025-08-12,Change in substantial holding,604,(the foregoing persons collectively being the Substantial Holders),2025-08-08,83.00,80.00,5617,False,ok
+ASX,NVA,02979468,2025-08-12,Change in substantial holding,604,(the foregoing persons collectively being the Substantial Holders),2025-08-08,10.85,7.90,5617,False,ok
 ASX,NVA,02998933,2025-09-23,Change in substantial holding,604,"Nebari Partners, LLC (being the investment manager of Nebari Gold Fund |, LP)",2025-09-19,80.00,21.00,3888,True,ok
 ASX,NVA,03000547,2025-09-26,Change in substantial holding,604,"Entity listed in Annexure A (Group Entity),(together BNYMC Group)",,39.79,38.74,2922,False,ok
 ASX,NVA,03003128,2025-09-30,Change in substantial holding,604,,,46.00,5.74,4114,True,ok
@@ -2994,7 +2994,7 @@ ASX,NXL,02999008,2025-09-23,Becoming a substantial holder,603,UBS Group AG and i
 ASX,NXL,03007158,2025-10-08,Ceasing to be a substantial holder,605,UBS Group AG and its related bodies corporate,,,0,10415,False,ok
 ASX,NXL,03026730,2025-11-14,Becoming a substantial holder,603,UBS Group AG and its related bodies corporate,,,5.84,5501,False,ok
 ASX,NXL,03028986,2025-11-19,Ceasing to be a substantial holder,605,UBS Group AG and its related bodies corporate,,,0,7913,False,ok
-ASX,NXL,03062784,2026-02-20,Becoming a substantial holder,603,,,,57.00,4359,False,ok
+ASX,NXL,03062784,2026-02-20,Becoming a substantial holder,603,,,,5.02,4359,False,ok
 ASX,NXL,03064278,2026-02-24,Ceasing to be a substantial holder,605,,,,0,3050,False,ok
 ASX,NXL,03072152,2026-03-13,Becoming a substantial holder,603,State Street Corporation and subsidiaries named in paragraph 7 to this form,2026-03-11,,5.26,9254,False,ok
 ASX,NXL,03073569,2026-03-18,Ceasing to be a substantial holder,605,State Street Corporation and subsidiaries named in paragraph 4 to this form,2026-03-16,,0,6953,False,ok
@@ -3069,9 +3069,9 @@ ASX,OFX,02952472,2025-05-27,Becoming a substantial holder from MUFG,603,"Mitsubi
 ASX,OFX,02960202,2025-06-19,Change in substantial holding,604,First Sentier Investors Holdings Pty Limited,2025-05-27,5.27,6.33,7678,False,ok
 ASX,OFX,02960555,2025-06-20,Change in substantial holding from MUFG,604,"Mitsubishi UFJ Financial Group, Inc",,5.27,6.33,7694,False,ok
 ASX,OFX,02984293,2025-08-25,Ceasing to be a substantial holder,605,"Vanguard Group (The Vanguard Group, Inc. and its controlled entities including Vanguard",,,0,6341,False,ok
-ASX,OFX,02993758,2025-09-10,Becoming a substantial holder,603,,,,12.00,4241,False,ok
+ASX,OFX,02993758,2025-09-10,Becoming a substantial holder,603,,,,5.47,4241,False,ok
 ASX,OFX,02994267,2025-09-11,Ceasing to be a substantial holder,605,,,,0,2813,False,ok
-ASX,OFX,02994650,2025-09-12,Becoming a substantial holder,603,,,,34.00,4239,False,ok
+ASX,OFX,02994650,2025-09-12,Becoming a substantial holder,603,,,,6.21,4239,False,ok
 ASX,OFX,02996010,2025-09-16,Change in substantial holding,604,First Sentier Group Limited,2025-06-20,6.33,7.45,9411,False,ok
 ASX,OFX,02996541,2025-09-17,Change in substantial holding from MUFG,604,"Mitsubishi UFJ Financial Group, Inc",,6.33,7.45,8165,False,ok
 ASX,OFX,03000360,2025-09-25,Ceasing to be a substantial holder,605,,,,0,3049,False,ok
@@ -3108,7 +3108,7 @@ ASX,OMA,03107695,2026-06-25,Change in substantial holding - Tri-Star,604,Tri-Sta
 ASX,OMA,03107699,2026-06-25,Change in substantial holding - Ilwella,604,Ilwella Pty Ltd and Associates (Refer individuals and parties listed,2026-06-25,24.74,26.76,6054,False,ok
 ASX,OMA,03152331,2026-10-14,Becoming a substantial holder,603,Milford Asset Management Limited,2026-10-13,,5.05,4821,False,ok
 ASX,ONE,02886661,2024-11-25,Change in substantial holding,604,"FIL Limited and its entities listed in Annexure A (""FIL"")",,9.60,8.40,3984,False,ok
-ASX,ONE,02929671,2025-03-24,Change in substantial holding,604,,,,11.00,1295,False,ok
+ASX,ONE,02929671,2025-03-24,Change in substantial holding,604,,,,,1295,False,ok
 ASX,ONE,02939512,2025-04-17,Becoming a substantial holder,603,,,,,2271,False,ok
 ASX,ONE,02962051,2025-06-25,Change in substantial holding,604,,,,,1152,False,ok
 ASX,ONE,02985810,2025-08-26,Change in substantial holding,604,,,,,1264,False,ok
@@ -3143,15 +3143,15 @@ ASX,OSL,03128405,2026-08-21,Change in substantial holding,604,(see Annexure 1),2
 ASX,OSL,03139328,2026-09-14,Change in substantial holding,604,(see Annexure 1),2026-09-10,9.25,13.82,4942,False,ok
 ASX,OSM,03033635,2025-11-28,Becoming a substantial holder,603,GOLDRIN STUDIO SL,2025-11-27,,5.00,4221,False,ok
 ASX,OSM,03148655,2026-10-06,Notice of change of interests of substantial holder,604,GOLDRIN STUDIO SL,2026-10-02,5.00,7.47,4325,False,ok
-ASX,PAC,02907704,2025-01-28,Becoming a substantial holder,603,,,,23.00,3640,False,ok
+ASX,PAC,02907704,2025-01-28,Becoming a substantial holder,603,,,,5.00,3640,False,ok
 ASX,PAC,02908793,2025-01-30,Ceasing to be a substantial holder,605,,,,0,2945,False,ok
 ASX,PAC,02930070,2025-03-25,Change in substantial holding,604,River Capital Pty Ltd,2025-03-24,22.51,40.48,3154,False,ok
 ASX,PAC,02931033,2025-03-27,Ceasing to be a substantial holder,605,(see Annexure 1),2025-03-25,,0,4131,False,ok
 ASX,PAC,02931520,2025-03-28,Change in substantial holding from PPT,604,For personal use only,2025-03-26,15.43,7.51,4340,False,ok
 ASX,PAC,02932487,2025-04-01,Becoming a substantial holder,603,Dimensional Entities,2025-03-27,,,4016,False,ok
-ASX,PAC,02932992,2025-04-01,Becoming a substantial holder,603,,,,65.00,3656,False,ok
+ASX,PAC,02932992,2025-04-01,Becoming a substantial holder,603,,,,7.13,3656,False,ok
 ASX,PAC,02933658,2025-04-03,Becoming a substantial holder,603,Bank of America Corporation and its related bodies corporate (See Appendix C),,,5.11,3387,False,ok
-ASX,PAC,02934134,2025-04-03,Change in substantial holding,604,,,65.00,4.00,3680,False,ok
+ASX,PAC,02934134,2025-04-03,Change in substantial holding,604,,,7.13,5.55,3680,False,ok
 ASX,PAC,02934277,2025-04-04,Ceasing to be a substantial holder,605,Dimensional Entities,,,0,4892,False,ok
 ASX,PAC,02934755,2025-04-04,Ceasing to be a substantial holder,605,Bank of America Corporation and its related bodies corporate,,,0,3767,False,ok
 ASX,PAC,02935146,2025-04-07,Ceasing to be a substantial holder,605,,,,0,2261,False,ok
@@ -3201,14 +3201,14 @@ ASX,PEN,03050913,2026-01-19,Becoming a substantial holder,603,,,,20.00,2968,True
 ASX,PEN,03059637,2026-02-12,Change in substantial holding,604,Sprott inc. (Sprott) and each ofits controled bodies corporate listed in Annexure B (the Sprott Group Entities),,5.08,20.00,2890,True,ok
 ASX,PEN,03067282,2026-03-02,Change in substantial holding,604,Tees River Uranium Fund Limited (Tees River) and each person listed in Annexure A (Tees River Entities),2026-02-03,16.68,18.40,5005,False,ok
 ASX,PEN,03079345,2026-04-02,Change in substantial holding,604,Sprott nc. (Sprott) and each of its controifed bodies corporate listed in Annexure 8 (the Sprott Group Entities),,7.95,20.00,2924,True,ok
-ASX,PEN,03082126,2026-04-14,Change in substantial holding,604,Tees River Uranium Fund Limited (Tees River) and each person listed in Annexure A (Tees River Entities),2026-04-07,39.00,16.68,5209,False,ok
-ASX,PEN,03082889,2026-04-15,Becoming a substantial holder,603,,,,69.00,3631,False,ok
+ASX,PEN,03082126,2026-04-14,Change in substantial holding,604,Tees River Uranium Fund Limited (Tees River) and each person listed in Annexure A (Tees River Entities),2026-04-07,15.20,16.68,5209,False,ok
+ASX,PEN,03082889,2026-04-15,Becoming a substantial holder,603,,,,5.79,3631,False,ok
 ASX,PEN,03083389,2026-04-16,Ceasing to be a substantial holder,605,,,,0,2228,False,ok
-ASX,PEN,03095982,2026-05-20,Becoming a substantial holder,603,,,,16.00,4215,False,ok
+ASX,PEN,03095982,2026-05-20,Becoming a substantial holder,603,,,,5.19,4215,False,ok
 ASX,PEN,03097744,2026-05-26,Notice of Initial Substantial Holding from SOL,603,WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED (Soul Patts) AND SUBSIDIARIES,2026-05-22,,7.54,4986,False,ok
 ASX,PEN,03098044,2026-05-27,Becoming a substantial holder,603,,,,5.38,4510,True,ok
 ASX,PEN,03098125,2026-05-27,Ceasing to be a substantial holder,605,,,,0,2874,False,ok
-ASX,PEN,03099877,2026-06-02,Change in substantial holding,604,Tees River Uranium Fund Limited (Tees River) and each person listed in Annexure A (Tees River Entities),2026-05-25,44.00,39.00,5116,False,ok
+ASX,PEN,03099877,2026-06-02,Change in substantial holding,604,Tees River Uranium Fund Limited (Tees River) and each person listed in Annexure A (Tees River Entities),2026-05-25,12.81,15.20,5116,False,ok
 ASX,PEN,03100231,2026-06-02,Change in substantial holding,604,Sprott Ino. (Sprott) and each of its controfed bodies corporate listed in Annexure B (tha Sprott Group Entities),,9.49,20.00,2922,True,ok
 ASX,PEN,03105030,2026-06-17,Ceasing to be a substantial holder,605,"Company (Burlington), Walkers Global Shareholding Services Limited",2026-06-15,,0,3781,True,ok
 ASX,PEN,03108889,2026-06-29,Becoming a substantial holder,603,"Company (Burlington), Walkers Global Shareholding Services Limited",2026-06-25,,7.68,6202,False,ok
@@ -3224,7 +3224,7 @@ ASX,PFP,02953382,2025-05-29,Change in substantial holding from SOL,604,WASHINGTO
 ASX,PFP,02953711,2025-05-30,Ceasing to be a substantial holder from PCG,605,Annexure A,2025-05-27,,0,2214,False,ok
 ASX,PFP,02954481,2025-06-02,Change in substantial holding from SOL,604,WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED (Soul Patts),2025-05-27,3.82,7.00,5964,False,ok
 ASX,PFP,02955922,2025-06-05,Ceasing to be a substantial holder from SOL,605,WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED (Soul Patts),2025-05-30,,0,3757,False,ok
-ASX,PFP,02992667,2025-09-08,Becoming a substantial holder,603,,,,70.00,4293,False,ok
+ASX,PFP,02992667,2025-09-08,Becoming a substantial holder,603,,,,5.04,4293,False,ok
 ASX,PFP,02993759,2025-09-10,Ceasing to be a substantial holder,605,,,,0,2941,False,ok
 ASX,PFP,03013163,2025-10-21,Becoming a substantial holder from CGF,603,Challenger Limited (and its entities listed in Annexure 2),2025-10-17,,5.69,6094,False,ok
 ASX,PFP,03013167,2025-10-21,Becoming a substantial holder,603,Lennox Capital Partners Pty Ltd,2025-10-17,,5.69,4975,False,ok
@@ -3245,7 +3245,7 @@ ASX,PFP,03136843,2026-09-07,Becoming a substantial holder,603,NORGES BANK,2026-0
 ASX,PFP,03137325,2026-09-08,Ceasing to be a substantial holder,605,NORGES BANK,2026-09-07,,0,1659,False,ok
 ASX,PFP,03140371,2026-09-17,Becoming a substantial holder,603,NORGES BANK,2026-09-15,,5.16,5092,False,ok
 ASX,PFP,03141868,2026-09-21,Ceasing to be a substantial holder,605,NORGES BANK,2026-09-18,,0,1839,False,ok
-ASX,PFP,03144823,2026-09-28,Becoming a substantial holder,603,,,,,4205,False,ok
+ASX,PFP,03144823,2026-09-28,Becoming a substantial holder,603,,,,5.08,4205,False,ok
 ASX,PFP,03145376,2026-09-29,Ceasing to be a substantial holder,605,,,,0,3073,False,ok
 ASX,PGC,02904754,2025-01-15,Becoming a substantial holder from WAM/WMI/WAX,603,Wilson Asset Management Group (refer entities listed in Annexure A),2025-01-13,,5.06,5437,False,ok
 ASX,PGC,02931069,2025-03-27,Change in substantial holding from WMI/WAM/WAX,604,Wilson Asset Management Group (refer entities listed in Annexure A),2025-03-25,5.06,6.19,5845,False,ok
@@ -3286,7 +3286,7 @@ ASX,PIA,03150371,2026-10-09,Ceasing to be a substantial holder,605,the “Saba C
 ASX,PIQ,03121968,2026-08-05,Change in substantial holding,604,Dr RICHARD LIPSCOMBE,2026-07-31,10.37,9.87,4949,False,ok
 ASX,PLA,03092773,2026-05-11,Becoming a substantial holder,603,MAYBANK SECURITIES PTE. LTD,2026-05-11,,8.70,5688,False,ok
 ASX,PLA,03094913,2026-05-18,Change in substantial holding,604,NFPFRN (if applicable),2026-05-14,8.70,8.81,6483,False,ok
-ASX,PLT,02952852,2025-05-28,Change in substantial holding,604,Marjorie,,19.00,16.75,4519,False,ok
+ASX,PLT,02952852,2025-05-28,Change in substantial holding,604,Marjorie,,,16.75,4519,False,ok
 ASX,PLT,02969807,2025-07-16,Change in substantial holding,604,NFPFRN (lf appllouble),,,11.00,5473,False,ok
 ASX,PLT,02995957,2025-09-16,Change in substantial holding,604,,,9.38,7.07,4622,True,ok
 ASX,PMM,03037096,2025-12-04,Ceasing to be a substantial holder,605,ROBERT MARTIN AND ASSOCIATES,2025-12-03,,0,3539,True,ok
@@ -3295,10 +3295,10 @@ ASX,PNC,02895390,2024-12-13,Change in substantial holding - KR John,604,MIDBRIDG
 ASX,PNC,02896111,2024-12-16,Change in substantial holding - James Simpson,604,James Simpson,,8.24,6.73,5670,False,ok
 ASX,PNC,02896708,2024-12-17,Change in substantial holding,604,Nomura Holdings Inc for and on behalf of its related bodies corporates,2024-03-28,6.57,5.50,5180,True,ok
 ASX,PNC,02929193,2025-03-21,Change in substantial holding,604,Samuel Terry Asset Management Pty Ltd (,2025-03-20,15.50,16.62,2740,False,ok
-ASX,PNC,03118710,2026-07-28,Change in substantial holding - KR John,604,MIDBRIDGE INVESTMENTS PTY LTD,2024-12-13,10.73,29.00,3241,False,ok
+ASX,PNC,03118710,2026-07-28,Change in substantial holding - KR John,604,MIDBRIDGE INVESTMENTS PTY LTD,2024-12-13,10.73,9.57,3241,False,ok
 ASX,PNC,03119025,2026-07-28,Change in substantial holding,604,Terry Absolute Return Fund (,2026-07-28,16.60,18.70,4492,False,ok
 ASX,PNC,03121138,2026-08-03,Ceasing to be a substantial holder,605,Nomura Holdings Inc and its related bodies corporates,2026-07-28,,0,1816,True,ok
-ASX,PNC,03131090,2026-08-27,Change in substantial holding - KR John,604,MIDBRIDGE INVESTMENTS PTY LTD,,29.00,11.06,3268,False,ok
+ASX,PNC,03131090,2026-08-27,Change in substantial holding - KR John,604,MIDBRIDGE INVESTMENTS PTY LTD,,9.57,11.06,3268,False,ok
 ASX,POL,02915247,2025-02-18,Becoming a substantial holder,603,Jupiter Investment Management LTD,,,7.33,3409,False,ok
 ASX,POL,02922480,2025-03-05,Becoming a substantial holder,605,Jupiter Asset Management Limited,,,0,3636,False,ok
 ASX,POL,02922481,2025-03-05,Ceasing to be a substantial holder,605,Jupiter Investment Management Limited,2025-03-01,,0,3541,False,ok
@@ -3391,8 +3391,8 @@ ASX,RCE,02956266,2025-06-06,Becoming a substantial holder,603,,,,,2526,False,ok
 ASX,RCE,02957274,2025-06-11,Change in substantial holding,604,Gavin William Brown (GWB),2025-06-10,7.16,12.39,1726,False,ok
 ASX,RCE,02957779,2025-06-12,Change in substantial holding,604,"FIL Limited and its entities listed in Annexure A (""FIL"")",,6.40,8.57,2464,False,ok
 ASX,RCE,02972190,2025-07-24,Change in substantial holding,604,Gavin William Brown (GWB),,12.39,13.68,3373,True,ok
-ASX,RCT,02988680,2025-08-29,Becoming a substantial holder,603,,,,59.00,6311,False,ok
-ASX,RCT,03002539,2025-09-30,Change in substantial holding,604,(Iris) and each entity listed in Annexure A,2025-09-29,59.00,1.11,4518,False,ok
+ASX,RCT,02988680,2025-08-29,Becoming a substantial holder,603,,,,0.00,6311,False,ok
+ASX,RCT,03002539,2025-09-30,Change in substantial holding,604,(Iris) and each entity listed in Annexure A,2025-09-29,0.00,1.11,4518,False,ok
 ASX,RCT,03005579,2025-10-06,Change in substantial holding,604,(Iris) and each entity listed in Annexure A,2025-10-03,1.11,72.22,4535,False,ok
 ASX,RCT,03011389,2025-10-17,Change in substantial holding,604,(Iris) and each entity listed in Annexure A,2025-10-16,72.22,73.33,4601,False,ok
 ASX,RCT,03013516,2025-10-22,Change in substantial holding,604,(Iris) and each entity listed in Annexure A,2025-10-21,73.33,74.94,4601,False,ok
@@ -3421,7 +3421,7 @@ ASX,RF1,02890497,2024-12-02,Change in substantial holding,604,"Ficus Fiduciary L
 ASX,RF1,02899771,2024-12-23,Ceasing to be a substantial holder - RPL,605,(RFM)on its own behalf and as trustee for Regal No.3 Fund (RN3),2024-12-19,,0,3488,False,ok
 ASX,RF1,03085414,2026-04-23,Change in substantial holding,604,"Ficus Fiduciary Limited as trustee for Ficus Foundation (formerly, the Regal Foundation) (Ficus Foundation)",2026-04-17,9.20,8.20,4442,False,ok
 ASX,RF1,03114017,2026-07-10,Change in substantial holding - New Highland,604,Holdings Pty Ltd as trustee for Regal No.3 Fund (RN3),2026-07-08,7.35,6.31,4415,False,ok
-ASX,RFG,02881445,2024-11-13,Change in substantial holding,604,Riguad Bare Trust) and Agtan Pty Ltd (,2024-11-12,19.90,12.36,5762,False,ok
+ASX,RFG,02881445,2024-11-13,Change in substantial holding,604,Riguad Bare Trust) and Agtan Pty Ltd (,2024-11-12,,19.90,5762,False,ok
 ASX,RFG,02882153,2024-11-14,Ceasing to be a substantial holder,605,Annexure 1),2024-11-12,,0,5884,False,ok
 ASX,RFG,02882671,2024-11-15,Becoming a substantial holder from TOP,603,THORNEY OPPORTUNITIES LTD and each of the associated,,,5.05,4427,False,ok
 ASX,RFG,02882672,2024-11-15,Becoming a substantial holder from Tiga Trading Pty Ltd,603,TIGA Trading Pty Ltd and each of the entities listed in the,,,5.05,4373,False,ok
@@ -3481,7 +3481,7 @@ ASX,RXL,02891475,2024-12-04,Change in substantial holding,604,Group Entity),2024
 ASX,RXL,02908383,2025-01-30,Change in substantial holding,604,Group Entity),2025-01-29,14.68,19.62,5250,False,ok
 ASX,RXL,02908680,2025-01-30,Change in substantial holding from VMC,604,Venus Metals Corporation Limited (,2024-12-03,11.58,9.29,2660,True,ok
 ASX,RXL,02909367,2025-01-31,Change in substantial holding,604,"(Captain Nominees), Ita Vero Pty Ltd ATF The Richmond Trust (Ita Vero), Venus Metals Corporation Limited (",2025-01-29,18.14,19.20,4969,False,ok
-ASX,RXL,02944934,2025-05-05,Becoming a substantial holder,603,,,,69.00,3670,False,ok
+ASX,RXL,02944934,2025-05-05,Becoming a substantial holder,603,,,,5.90,3670,False,ok
 ASX,RXL,02947797,2025-05-13,Change in substantial holding,604,"(Captain Nominees), Ita Vero Pty Ltd ATF The Richmond Trust (Ita Vero), Venus Metals Corporation Limited (",2025-05-13,19.20,16.29,3456,True,ok
 ASX,RXL,02947804,2025-05-13,Change in substantial holding from VMC,604,Venus Metals Corporation Limited (,2025-05-13,9.29,7.48,3443,True,ok
 ASX,RXL,02948069,2025-05-14,Change in substantial holding,604,Group Entity),2025-05-13,16.33,19.62,5151,False,ok
@@ -3558,7 +3558,7 @@ ASX,SEN,03064782,2026-02-25,Ceasing to be a substantial holder,605,INVESTMENT TR
 ASX,SER,02980810,2025-08-15,Change in substantial holding,604,Graeme Kirke,2025-08-07,12.65,15.55,3970,True,ok
 ASX,SER,03005433,2025-10-03,Change in substantial holding,604,Graeme Kirke,,,17.74,4042,True,ok
 ASX,SER,03013172,2025-10-21,Becoming a substantial holder,603,,,,,4657,False,ok
-ASX,SER,03041675,2025-12-16,Change in substantial holding,604,JUEL ENTERPRISES PTY LTD,2025-12-04,92.00,13.28,5912,False,ok
+ASX,SER,03041675,2025-12-16,Change in substantial holding,604,JUEL ENTERPRISES PTY LTD,2025-12-04,,13.28,5912,False,ok
 ASX,SER,03077145,2026-03-30,Change in substantial holding,604,JUEL ENTERPRISES PTY LTD,2025-12-16,13.28,2.04,5709,False,ok
 ASX,SER,03123976,2026-08-11,Change in substantial holding,604,Graeme Kirke,2026-08-04,17.74,14.49,3295,True,ok
 ASX,SFC,02935870,2025-04-08,Change in substantial holding,604,,,,,511,False,ok
@@ -3601,12 +3601,12 @@ ASX,SGR,02923524,2025-03-06,Notification of ceasing to be a substantial holder -
 ASX,SGR,02940998,2025-04-28,Change in substantial holding,604,JPMorgan Chase & Co. and its affiliates,,7.41,5.84,4990,False,ok
 ASX,SGR,02958440,2025-06-16,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,5584,False,ok
 ASX,SGR,02958637,2025-06-16,Notification of ceasing to be a substantial holder -JPMorgan,605,JPMorgan,,,0,902,False,ok
-ASX,SGR,02977131,2025-08-05,Becoming a substantial holder,603,,,,13.00,4427,False,ok
+ASX,SGR,02977131,2025-08-05,Becoming a substantial holder,603,,,,5.45,4427,False,ok
 ASX,SGR,02977234,2025-08-05,Becoming a substantial holder,603,JPMorgan Chase & Co. and its affiliates,,,5.66,4716,False,ok
-ASX,SGR,02982903,2025-08-20,Change in substantial holding,604,,,13.00,94.00,4414,False,ok
-ASX,SGR,02982915,2025-08-20,Change in substantial holding,604,,,94.00,73.00,3988,False,ok
-ASX,SGR,02983147,2025-08-21,Notification of change in substantial holding - Citigroup,604,Citigroup,,94.00,10.00,1095,False,ok
-ASX,SGR,02983149,2025-08-21,Notification of change in substantial holding - Citigroup,604,Citigroup,,73.00,10.00,1095,False,ok
+ASX,SGR,02982903,2025-08-20,Change in substantial holding,604,,,5.45,7.60,4414,False,ok
+ASX,SGR,02982915,2025-08-20,Change in substantial holding,604,,,7.60,5.46,3988,False,ok
+ASX,SGR,02983147,2025-08-21,Notification of change in substantial holding - Citigroup,604,Citigroup,,7.60,10.00,1095,False,ok
+ASX,SGR,02983149,2025-08-21,Notification of change in substantial holding - Citigroup,604,Citigroup,,5.46,10.00,1095,False,ok
 ASX,SGR,02994269,2025-09-11,Ceasing to be a substantial holder,605,,,,0,2670,False,ok
 ASX,SGR,02994449,2025-09-12,Notification of ceasing to be a substantial holder-Citigroup,605,Citigroup,,,0,961,False,ok
 ASX,SGR,02994942,2025-09-15,Ceasing to be a substantial holder,605,JPMorgan Chase & Co. and its affiliates,,,0,3408,False,ok
@@ -3707,7 +3707,7 @@ ASX,SPD,02972921,2025-07-25,Change in substantial holding - Nicolas Daniel Resou
 ASX,SPD,02979156,2025-08-11,Change in substantial holding - Nurinox,604,NFPFRN (if applicable),2025-06-19,9.28,7.55,6771,False,ok
 ASX,SPD,03016989,2025-10-28,Change in substantial holding - Robert Keith,604,ROBERT NAPIER KEITH,2025-10-27,13.83,15.25,4931,False,ok
 ASX,SPD,03093829,2026-05-14,Change of Interests of Substantial Holder - Robert Keith,604,ROBERT NAPIER KEITH,2026-05-04,15.25,16.83,4990,False,ok
-ASX,SPL,02927310,2025-03-17,Becoming a substantial holder,603,,,,57.00,2834,False,ok
+ASX,SPL,02927310,2025-03-17,Becoming a substantial holder,603,,,,,2834,False,ok
 ASX,SPL,02954922,2025-06-03,Change in substantial holding,604,,,5.57,7.13,3069,False,ok
 ASX,SPL,02955014,2025-06-04,Change in substantial holding,604,UIL Limited (and associates as listed in Annexure B),,8.02,6.39,3290,False,ok
 ASX,SPL,03058426,2026-02-10,Change in substantial holding,604,UIL Limited (and associates as listed in Annexure B),,6.39,5.32,3393,False,ok
@@ -3765,8 +3765,8 @@ ASX,SS1,03068482,2026-03-04,Change in substantial holding,604,Andrew Dornan,,7.3
 ASX,SS1,03131660,2026-08-27,Change in substantial holding,604,Andrew Dornan,,9.26,7.31,4814,False,ok
 ASX,SSG,03108047,2026-06-26,Becoming a substantial holder,603,Dimensional Entities,,,,4012,False,ok
 ASX,STM,02933890,2025-04-03,Becoming a substantial holder,603,Ilwella Pty Ltd,2025-04-02,,5.53,4243,False,ok
-ASX,STM,02934418,2025-04-04,Change in substantial holding,604,MASON STEVENS LIMITED,2025-04-02,98.00,89.00,5691,False,ok
-ASX,STM,02998459,2025-09-22,Change in substantial holding,604,NFPFRN (if applicable),2025-09-19,1.00,89.00,6202,False,ok
+ASX,STM,02934418,2025-04-04,Change in substantial holding,604,MASON STEVENS LIMITED,2025-04-02,5.98,4.36,5691,False,ok
+ASX,STM,02998459,2025-09-22,Change in substantial holding,604,NFPFRN (if applicable),2025-09-19,3.34,4.36,6202,False,ok
 ASX,STM,03015286,2025-10-24,Ceasing to be a substantial holder,605,Ilwella Pty Ltd,2025-10-21,,0,5606,False,ok
 ASX,STM,03114239,2026-07-13,Becoming a substantial holder from DGR,603,DGR Global Limited,2026-07-08,,10.00,4098,False,ok
 ASX,STM,03150935,2026-10-12,Becoming a substantial holder,603,Nicholas Mather & Samuel Holdings Pty Ltd atf The Samuel Discretionary Trust,2026-09-28,,10.90,5772,False,ok
@@ -3962,24 +3962,24 @@ ASX,TRE,03013939,2025-10-22,Change in substantial holding,604,,2025-10-20,18.97,
 ASX,TRE,03014525,2025-10-23,Change in substantial holding,604,Helikon Investments Limited,2025-10-20,9.20,10.87,4720,False,ok
 ASX,TRE,03040073,2025-12-11,Change in substantial holding,604,Helikon Investments Limited,2025-12-10,14.39,9.20,4720,False,ok
 ASX,TRE,03040739,2025-12-12,Change in substantial holding,604,SEE ANNEXURE 1,2025-12-10,67.00,7.00,4173,True,ok
-ASX,TRE,03065019,2026-02-25,Change in substantial holding,604,SEE ANNEXURE 1,2026-02-23,7.00,58.00,5550,False,ok
-ASX,TRE,03066861,2026-02-27,Change in substantial holding,604,Helikon Investments Limited,2026-02-25,14.39,77.00,4790,False,ok
+ASX,TRE,03065019,2026-02-25,Change in substantial holding,604,SEE ANNEXURE 1,2026-02-23,9.94,8.28,5550,False,ok
+ASX,TRE,03066861,2026-02-27,Change in substantial holding,604,Helikon Investments Limited,2026-02-25,14.39,12.16,4790,False,ok
 ASX,TRE,03069429,2026-03-06,Change in substantial holding,604,,2026-02-27,28.34,34.66,3951,True,ok
 ASX,TRE,03074989,2026-03-23,Change in substantial holding,604,Nero Resource Fund Pty Ltd (,2025-12-10,,7.47,5392,False,ok
-ASX,TRE,03085225,2026-04-22,Change in substantial holding,604,Helikon Investments Limited,2026-04-08,77.00,63.00,4726,False,ok
-ASX,TRE,03086146,2026-04-24,Change in substantial holding,604,Entities),2026-04-21,63.00,27.00,5249,False,ok
-ASX,TRE,03087216,2026-04-28,Change in substantial holding,604,Entities),2026-04-24,27.00,1.00,4687,False,ok
+ASX,TRE,03085225,2026-04-22,Change in substantial holding,604,Helikon Investments Limited,2026-04-08,12.16,17.53,4726,False,ok
+ASX,TRE,03086146,2026-04-24,Change in substantial holding,604,Entities),2026-04-21,17.53,18.63,5249,False,ok
+ASX,TRE,03087216,2026-04-28,Change in substantial holding,604,Entities),2026-04-24,18.63,19.66,4687,False,ok
 ASX,TRE,03117667,2026-07-23,Change in substantial holding,604,SEE ANNEXURE 1,2026-07-21,58.00,19.00,4180,True,ok
 ASX,TRE,03118108,2026-07-24,Change in substantial holding,604,Nero Resource Fund Pty Ltd (,2026-07-21,7.47,5.43,5067,False,ok
 ASX,TRE,03123883,2026-08-11,Change in substantial holding,604,"Growmax Trust (FET), Kensington Trust Singapore Limited as trustee for the Tristart Trust",2026-07-23,34.66,31.82,4984,False,ok
-ASX,TRE,03124438,2026-08-12,Change in substantial holding,604,Entities),2026-08-10,1.00,97.00,7910,False,ok
+ASX,TRE,03124438,2026-08-12,Change in substantial holding,604,Entities),2026-08-10,19.66,23.05,7910,False,ok
 ASX,TRJ,02925975,2025-03-13,Change in substantial holding,604,MA FINANCIAL GROUP LIMITED (MAF) and the entities listed in Annexure A,2024-09-20,8.53,9.53,3098,False,ok
 ASX,TRJ,02990035,2025-09-02,Change in substantial holding,604,MA FINANCIAL GROUP LIMITED (MAF) and the entities listed in Annexure A,2025-03-13,9.53,10.53,3102,False,ok
 ASX,TRJ,03109076,2026-06-29,Change in substantial holding,604,Investors Mutual Limited,2026-06-25,7.36,5.23,2439,True,ok
 ASX,TRJ,03117844,2026-07-24,Ceasing to be a substantial holder,605,investors Mutual Limited,2026-06-29,,0,1917,True,ok
 ASX,TSO,02897335,2024-12-18,Becoming a substantial holder,603,,,,10.00,2458,False,ok
-ASX,TSO,02902596,2025-01-08,Change in substantial holding,604,,,,12.00,1017,False,ok
-ASX,TSO,02944577,2025-05-05,Change in substantial holding,604,,,8.12,12.00,1405,False,ok
+ASX,TSO,02902596,2025-01-08,Change in substantial holding,604,,,,,1017,False,ok
+ASX,TSO,02944577,2025-05-05,Change in substantial holding,604,,,,8.12,1405,False,ok
 ASX,TSO,02946170,2025-05-07,Change in substantial holding,604,substantial holder on 07/05/2025,2025-05-07,11.42,13.98,2780,True,ok
 ASX,TSO,03008297,2025-10-10,Change in substantial holding,604,entities listed in Annexure A (together the Gold Fields Group),2025-10-08,17.53,13.71,4672,False,ok
 ASX,TSO,03013250,2025-10-21,Change in substantial holding,604,‘substantial holder on 20/,,13.90,10.78,2694,True,ok
@@ -4013,7 +4013,7 @@ ASX,UBN,03050679,2026-01-16,Change in substantial holding,604,NAOS Substantial H
 ASX,UBN,03099791,2026-06-01,Change in substantial holding,604,NAOS Substantial Holders referred to in Annexure A,2026-05-29,30.00,31.01,4790,False,ok
 ASX,URF,02920529,2025-02-28,Change in substantial holding,604,Mirabella Financial Services LLP,2025-02-26,5.02,6.14,6220,False,ok
 ASX,URF,02921996,2025-03-04,Amendment -Change in substantial holding,604,Mirabella Financial Services LLP,2025-02-26,5.02,6.14,6239,False,ok
-ASX,URF,02944534,2025-05-02,Becoming a substantial holder,603,,,,62.00,3617,False,ok
+ASX,URF,02944534,2025-05-02,Becoming a substantial holder,603,,,,,3617,False,ok
 ASX,URF,02955460,2025-06-04,Ceasing to be a substantial holder,605,For personal use only,,,0,5012,False,ok
 ASX,URF,02994812,2025-09-12,Ceasing to be a substantial holder,605,,2024-01-09,,0,1733,True,ok
 ASX,URF,03024159,2025-11-12,Change in substantial holding,604,,,6.32,7.02,4860,True,ok
@@ -4039,13 +4039,13 @@ ASX,VHM,03091152,2026-05-06,Becoming a substantial holder,603,Steve Coughlan and
 ASX,VHM,03098175,2026-05-27,Change in substantial holding,604,ELLISON (WA) PTY LTD,,9.14,6.16,4208,True,ok
 ASX,VHM,03112586,2026-07-07,Ceasing to be a substantial holder,605,ELLISON (WA) PTY LTD,2026-07-03,,0,3462,True,ok
 ASX,VMM,02978431,2025-08-08,Becoming a substantial holder,603,JGP Global Gestão de Recursos Ltda and associated entities,2025-08-07,,7.71,5059,False,ok
-ASX,VMM,03032599,2025-11-26,Change in substantial holding,604,JGP Global Gestão de Recursos Ltda and associated entities,2025-11-24,7.71,8.00,4880,False,ok
+ASX,VMM,03032599,2025-11-26,Change in substantial holding,604,JGP Global Gestão de Recursos Ltda and associated entities,2025-11-24,7.71,7.71,4880,False,ok
 ASX,VMM,03035242,2025-12-01,Ceasing to be a substantial holder,605,Agha Shahzad Pervez,2025-11-24,,0,3530,False,ok
 ASX,VMM,03042003,2025-12-17,Becoming a substantial holder,603,Agha Shahzad Pervez,2025-12-16,,5.04,4557,False,ok
-ASX,VMM,03065959,2026-02-26,Change in substantial holding,604,JGP Global Gestão de Recursos Ltda and associated entities,2026-02-25,80.00,5.00,4974,False,ok
+ASX,VMM,03065959,2026-02-26,Change in substantial holding,604,JGP Global Gestão de Recursos Ltda and associated entities,2026-02-25,,,4974,False,ok
 ASX,VMM,03066928,2026-02-27,Ceasing to be a substantial holder,605,Agha Shahzad Pervez,2026-02-25,,0,3554,False,ok
-ASX,VMM,03077525,2026-03-30,Change in substantial holding,604,JGP Global Gestão de Recursos Ltda and associated entities,2026-03-25,5.00,46.00,5152,False,ok
-ASX,VMM,03106559,2026-06-22,Change in substantial holding,604,JGP Global Gestão de Recursos Ltda and associated entities,2026-06-18,46.00,5.28,5083,False,ok
+ASX,VMM,03077525,2026-03-30,Change in substantial holding,604,JGP Global Gestão de Recursos Ltda and associated entities,2026-03-25,,,5152,False,ok
+ASX,VMM,03106559,2026-06-22,Change in substantial holding,604,JGP Global Gestão de Recursos Ltda and associated entities,2026-06-18,5.28,5.28,5083,False,ok
 ASX,VMM,03125021,2026-08-13,Ceasing to be a substantial holder,605,JGP Global Gestdo de Recursos Ltda and associated,,,0,2351,True,ok
 ASX,VMM,03134754,2026-09-02,Becoming a substantial holder,603,"Fund I), One Investment Management Ltd in its capacity as investment manager to OneIM Fund I (One Investment",,,9.90,3217,False,ok
 ASX,VMM,03148528,2026-10-05,Becoming a substantial holder,603,"Verde Graal Fund, LLC, represented by Verde Servicos Internacionais S.A. as the fund's investment manager",2026-09-30,,5.11,8898,False,ok

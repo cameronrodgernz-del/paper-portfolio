@@ -67,6 +67,9 @@ check("603 holder from the next line", r["holder"] == "Ahrens Group Pty Ltd", r)
 check("603 date across lines", r["change_date"] == "2024-12-02", r)
 check("603 stake", (r["form"], r["pct"]) == ("603", "5.34"), r)
 
+r = h.parse(T604.replace("12.8% 18,223,815 13.1%", "5.298524% 18,223,815 6.323057%"), "Change in substantial holding")
+check("long decimals aren't cut into small numbers", (r["prev_pct"], r["pct"]) == ("5.30", "6.32"), r)
+
 r = h.parse("Form 605\nNotice of ceasing to be a substantial holder\n1. Details of substantial holder(1)\nName  NAOS Asset Management\n",
             "Ceasing to be a substantial holder")
 check("605 is a nil stake", (r["form"], r["pct"]) == ("605", "0"), r)

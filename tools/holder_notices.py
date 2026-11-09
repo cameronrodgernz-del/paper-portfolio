@@ -19,7 +19,7 @@ Downloads go to a scratch folder outside the repo and are only read with pdftote
 
 Usage:
   python3 -I tools/holder_notices.py ROOT [--since 2024-11-01] [--workers 4] [--scratch /tmp/holder_notices]
-  python3 -I tools/holder_notices.py ROOT --report-only
+  python3 -I tools/holder_notices.py ROOT --report-only [--reparse]
 """
 import csv
 import html
@@ -66,7 +66,7 @@ FUNDS = [
     "TPG", "CARLYLE", "BLACKSTONE", "APOLLO", "PACIFIC EQUITY", "ADAMANTEM", "QUADRANT", "ANACACIA", "ROYAL BANK",
     "TORONTO DOMINION", "CREDIT AGRICOLE", "SAMSON ROCK", "NAVIGATOR", "BRIDGEWATER", "EMINENT", "WARAKIRRI",
     "MERCER", "NOVA SCOTIA", "L1 CAPITAL", "HUB24", "MAYBANK", "RYDER CAPITAL", "IOLITE", "BGH CAPITAL", "TIGA",
-    "THORNEY", "SECURITIES PTE", "SECURITIES LIMITED", "BANK ", "BANKING",
+    "THORNEY", "SECURITIES PTE", "SECURITIES LIMITED", "BANK ", "BANKING", "UDN ",
 ]
 NOISE = re.compile(r"^(\W|annexure|listed in|see |entity listed|nfp|group entity|fund;|ltd\.|management limited$|"
                    r"travel limited$|associates)|personal use|if applicable", re.I)  # a parse that missed the name
@@ -183,7 +183,7 @@ def parse(text, headline):
     b = re.search(r"\n\s*3\.\s*(?:Changes in relevant|Details of relevant|Changes)", t, re.I)
     if a:
         sec = t[a.end(): b.start() if b and b.start() > a.end() else a.end() + 2500]
-    pcts = [float(x) for x in re.findall(r"(\d{1,2}(?:\.\d{1,3})?)\s?%", sec) if 0 < float(x) <= 100]
+    pcts = [float(x) for x in re.findall(r"(?<![\d.,])(\d{1,3}(?:\.\d{1,8})?)\s?%", sec) if 0 < float(x) <= 100]
     prev = pct = ""
     if form == "605":
         pct = "0"
@@ -329,6 +329,17 @@ def main(argv):
                     save_cache(cpath, cache)
                     print(f"read {done} of {len(todo)}", flush=True)
         save_cache(cpath, cache)
+    if "--reparse" in argv:  # re-read text-layer notices already in the scratch folder (OCR results are kept)
+        n = 0
+        for ids, r in cache.items():
+            pdf = os.path.join(scratch, f"n_{ids}.pdf")
+            if str(r.get("ocr")) == "True" or not os.path.exists(pdf):
+                continue
+            text, chars, ocr = read_pdf(ids, scratch)
+            if chars and not ocr:
+                r.update(parse(text, r["headline"])); n += 1
+        save_cache(cpath, cache)
+        print(f"re-parsed {n} notices", flush=True)
     rows = builds(root, cache, names)
     write_report(root, rows, len(cache), len(names), since, today)
     print(f"holder builds: {len(rows)} from {len(cache)} notices", flush=True)
