@@ -109,6 +109,38 @@ The other changes:
 - Would a court enforce the underwriter indemnity for damages if Macquarie Capital is found to have contravened the Act itself, or would the exclusions bite?
 - How do shareholder class actions that reach judgment in Australia usually end on quantum?
 
+## Cam's question: would the legal answer swing it?
+Asked on 9 November 2026: how hard is a prospectus forecast claim to win, would the Macquarie indemnity be enforced for damages, and could the answer push Nuix to a buy?
+
+It can't make it a buy at A$1.925 on its own. It moves the price at which Nuix qualifies:
+
+| Legal view | Card | Qualifies at |
+| --- | --- | --- |
+| Nuix clearly wins: no legal loss, no further legal cost | 35% A$1.35, 45% A$2.57, 20% A$3.70 | about A$1.84 |
+| As in round 1: about 10% chance of a loss of about A$150m net | 35% A$1.18, 45% A$2.54, 20% A$3.70 | about A$1.68 |
+| Plaintiffs stronger: about 20% chance of that loss | 45% A$1.12, 40% A$2.54, 15% A$3.70 | about A$1.60 |
+
+Even with the legal risk gone, the business bad case (growth slows, July's multiple) is 29.9% below the price. Against that, the value test asks the middling case for +45%, and it's +33.5%. So the limit is the business, not the court. A clean win would also be priced the day it's announced, so the only edge is reading the judgment better than the market before it lands.
+
+The legal read (Claude's, not advice):
+1. The forecast claim. The test (section 728(2)) is whether Nuix had reasonable grounds for the forecast when the prospectus was issued, not whether it was met. Sections 731 and 733 give due diligence and reliance defences, and this trial is reported as the first to test them.
+   - For Nuix:
+     - the plaintiffs dropped the ACV claims, which were the bigger miss (A$199.6m forecast against A$168m to A$177m), leaving revenue (A$193.5m against A$180m to A$185m);
+     - in ASIC's case the Federal Court found Nuix genuinely and reasonably believed the FY21 forecast could still be met in February and March 2021, three or four months after the prospectus;
+     - an IPO of this size had a full due diligence process.
+   - For the plaintiffs:
+     - internal emails ("worse than terrible", "tragically hopeless" at new business), the kind of evidence that won Brambles in April 2026;
+     - the Full Federal Court's Worley decisions (2022 and May 2026): what officers knew counts, not just the board, and market-based causation now works for proving and measuring loss.
+   - Quantum: on a revenue-only win, the loss is the price effect of the gap between the forecast and a reasonably based one, not the whole 2021 fall. In Worley that gap was A$329.5m against A$352m guidance. That keeps most plausible awards well below the 2021 losses, though across hundreds of millions of shares it could still be large.
+   - Overall: perhaps one chance in three that the plaintiffs win something, and about 10% to 15% that Nuix ends up paying more than about A$50m net. That's close to round 1, so the card stays where it is.
+2. The indemnity. The prospectus (section 9.8.1.5) indemnifies the lead managers against losses suffered in connection with the offer. The only exclusions are their own recklessness, gross negligence, fraud or wilful misconduct.
+   - Public policy stops indemnities for one's own fraud and for penalties, and those are carved out already. Section 199A limits indemnities for officers, not underwriters.
+   - Nuix is already paying Macquarie's legal costs under it.
+   - It would fail only if the court found Macquarie's own conduct reckless or grossly negligent. Failing the due diligence defence through ordinary want of care wouldn't usually be that.
+   - So the case for should assume Nuix carries Macquarie's share, however the court splits it. Nuix's offering insurance may pick some of this up; its limits aren't disclosed.
+
+What would make it a buy: a judgment for Nuix together with a 1H FY27 result showing organic ACV growth well above 8.6% with no rise in the multi-year share (which would lift the middling case), or the price reaching about A$1.68.
+
 ## Round 2: prompt for the second model
 Cam pastes this into ChatGPT with two files attached: the case for (Nuix_deep_dive_case_for.pdf) and this debate file.
 
@@ -132,6 +164,7 @@ Use primary sources with links, plain English and Australian dollars. Keep it to
 - [S3], [S18] and the other S numbers are the sources in research/picks/NXL.md.
 - [D1] Nuix prospectus, 18 Nov 2020 (lodged 4 Dec 2020), section 9.8.1.5 "Indemnity and guarantee" and section 9.8 (Macquarie Capital (Australia) Limited and Morgan Stanley Australia Securities Limited as joint lead managers): https://announcements.asx.com.au/asxpdf/20201204/pdf/44qmbkvj3c1r7c.pdf
 - [D2] Nuix FY26 Appendix 4E and financial report, 24 Aug 2026: note 4.7 (the HSBC facility; Facility B may not be used for litigation costs); note 9.7 (contingent liabilities, naming Macquarie Capital (Australia) Limited as second defendant); the related party note ("Legal fees claimed under indemnity", A$4,174,471 in FY26, A$9,151,132 to date); note 4.2 (contract assets A$75.0m, from A$50.9m): https://announcements.asx.com.au/asxpdf/20260824/pdf/073321brtgqmph.pdf
+- [D4] ASIC v Nuix and Brambles: https://www.cbp.com.au/insights/publications/asic-v-nuix-court-doesn-t-get-caught-in-the-brambles-in-dismissing-all-of-asic-s-allegations; forecasts and the April 2021 downgrade: https://phifinneymcdonald.com/action/nuix-class-action/; trial reports (headlines): https://www.lawyerly.com.au/category/barristers/peter-collinson/page/2/; Worley, Full Federal Court, 28 May 2026: https://www.mallesons.com/au/en/insights/latest-thinking/causation-in-security-holder-class-actions-the-worley-appeal-explained.html
 - [D3] Nuix FY26 results presentation, 24 Aug 2026 (net dollar retention 107.4% in FY25, 101.0% at 1H26, 105.2% at FY26; multi-year deals 35% of revenue from 27%): https://announcements.asx.com.au/asxpdf/20260824/pdf/073325n21jp1yt.pdf
 
 ## Cam's decision
