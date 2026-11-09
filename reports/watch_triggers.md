@@ -2,7 +2,9 @@
 
 Prices at which a "wait" verdict would be looked at again (research/watch_triggers.csv), and the dated events in the next 14 days (research/watch_events.csv). A hit sends the share back to the research desk to check the other conditions in its file; nothing is bought from this list. This is a simulation and not financial advice.
 
-No trigger hit.
+## Hit
+
+- ASX:FCL (FINEOS) at 2.05 on 2026-11-07, at or below 2.17. Also needs: FY26 revenue guidance (EUR147m to EUR152m) held and no top-two client lost; then run the filed case against (research/against/FCL_prompt.md). File: research/picks/FCL.md
 
 ## Close calls
 
@@ -10,6 +12,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 
 | Share | Qualifies at | Latest | Away | Stage | Next event |
 | --- | --- | --- | --- | --- | --- |
+| ASX:FCL (FINEOS) | AUD 2.17 | 2.05 | -5.5% | case against filed, not run | 2027-01-28: December quarter cash report |
 | ASX:MAD (Mader Group) | AUD 5.38 | 5.48 | +1.9% | debate open, waiting on Cam | 2026-11-24: AGM |
 | ASX:CTD (Corporate Travel Management) | AUD 3.25 | 3.65 | +12.3% | case for only | 2026-11-12: 2025 and 2026 AGMs with FY27 guidance |
 | ASX:NXL (Nuix) | AUD 1.68 | 1.9 | +13.1% | debate open, waiting on Cam | 2026-11-19: AGM and likely trading update |
@@ -21,6 +24,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 
 | Share | Trigger | Latest | Date | Away | State | Source of price |
 | --- | --- | --- | --- | --- | --- | --- |
+| ASX:FCL | AUD 2.17 | 2.05 | 2026-11-07 | -5.5% | HIT | ASX company data (last trade at fetch) |
 | ASX:MAD | AUD 5.38 | 5.48 | 2026-11-09 | +1.9% | near | ASX company data (last trade at fetch) |
 | ASX:FWD | AUD 2 | 2.04 | 2026-11-07 | +2.0% | near | ASX company data (last trade at fetch) |
 | ASX:JIN | AUD 6.13 | 6.31 | 2026-11-07 | +2.9% | near | ASX company data (last trade at fetch) |
