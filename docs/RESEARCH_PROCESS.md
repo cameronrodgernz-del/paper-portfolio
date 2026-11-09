@@ -5,20 +5,27 @@ From 9 November 2026 (rulebook section 5a). This replaces the funnel of 2 Novemb
 ## The steps
 1. Choose. Claude proposes the next company, usually from reports/research_candidates.md (the weekly sweep),
    and agrees it with Cam in chat. One company is worked at a time.
-2. The case for buying. Claude writes the deep dive in research/picks/<TICKER>.md (NZ_<TICKER>.md for NZX) in
+2. The angle (added 9 Nov 2026, before any deep dive). Write three lines: what the market believes, in a sentence
+   (from the price, the company's own story and broker targets); the one fact that would show it's wrong; and how we'll
+   get that fact from outside the company's filings, which everyone covering it reads. Ways to get it: competitors',
+   suppliers' and customers' own filings read across; government and industry data; prices, stock and job ads tracked
+   over time on websites; and people Cam can ask (customers, staff, suppliers). If there's no way to test the fact
+   other than the filings, the company only goes ahead if it's small and uncovered enough that a careful read of the
+   filings is itself the edge.
+3. The case for buying. Claude writes the deep dive in research/picks/<TICKER>.md (NZ_<TICKER>.md for NZX) in
    the format of research/picks/TEMPLATE.md, from primary sources only. It starts from what today's price
    assumes, then states in one sentence the thing the market is missing, with the evidence. If that sentence
    can't be written, the company is a reject and the work stops there.
-3. The case against. Claude writes a prompt for a second model (Cam runs it, for example in ChatGPT), giving the
+4. The case against. Claude writes a prompt for a second model (Cam runs it, for example in ChatGPT), giving the
    company, the date and the price, the rulebook's value test and what a good case against looks like, but not
    the deep dive. Its answer is saved as research/against/<TICKER>.md, with the prompt at the top.
-4. The debate. Each side answers the other's strongest points, in rounds, until nothing new comes up: Claude
+5. The debate. Each side answers the other's strongest points, in rounds, until nothing new comes up: Claude
    answers the case against, the second model answers the deep dive (Cam passes the files across), and so on.
    It's saved as research/debate/<TICKER>.md, with a short summary at the top of where the two still disagree
    and what evidence would settle it.
-5. Cam's decision. The debate file ends with a section headed "## Cam's decision", whose first line is one of:
+6. Cam's decision. The debate file ends with a section headed "## Cam's decision", whose first line is one of:
    "Buy, <date>: <his reason>", "Wait for <a named event or a price>", or "No". Only a buy becomes a card.
-6. The card. research/cards/<TICKER>.json, checked with python3 -I src/decide.py practice <card> --dry-run and
+7. The card. research/cards/<TICKER>.json, checked with python3 -I src/decide.py practice <card> --dry-run and
    placed by the evening desk:
    {"sleeve": "research", "market": "ASX" or "NZX", "ticker": ..., "company": ..., "side": "buy",
     "kind": "value" or "special", "thesis": "...", "outcomes": [[chance, price] for bad, middling, good],

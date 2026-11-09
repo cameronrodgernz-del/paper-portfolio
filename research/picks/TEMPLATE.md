@@ -23,6 +23,11 @@ One sentence, then the evidence for it. For example: "underlying profit is $X on
 out", or "the land is carried at $Y but similar land has sold for $Z". If after the full deep dive this sentence can't
 be written, the company is a reject: say so here and stop.
 
+## The test outside the filings
+The evidence from outside the company's own filings that tests the one thing the market is missing: what was
+collected (competitor or supplier filings, industry data, tracked prices, stock or job ads, conversations), when, and what it
+showed. If the case rests only on what everyone covering the company reads, say so plainly.
+
 ## The company in plain words
 What it does, where the money comes from, who runs it, who owns it (the top 20 holders and any substantial
 holders, from the annual report and the register), and how it has done over five years. Short, plain, factual.
