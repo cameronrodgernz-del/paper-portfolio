@@ -97,3 +97,5 @@ date,market,ticker,event,date_basis
 2027-03-01,ASX,EDU,T1 2027 enrolments (with the FY26 result about 26 Feb),inferred
 2027-04-30,ASX,FWD,Rio Tinto Karratha contract ends (award due before),announced
 2027-02-25,ASX,BAP,"1H FY27 result: reopen if earnings after rent for the half are A$40m or more, Trade like-for-like still growing, net debt A$110m or less, and on track for the Dec 2027 fixed charge test (research/picks/BAP.md)",estimated from last year's 26 Feb
+2026-11-26,ASX,AQZ,"AGM: new CEO's first address, any trading update, votes on placement capacity (research/picks/AQZ.md)",announced
+2027-02-23,ASX,AQZ,"1H FY27 result: reopen if asset sales of A$40m or more are done, net debt A$410m or less at 31 Dec 2026, ANZ refinanced past Sep 2028, 1H EBITDA A$85m or more with FY27 guidance held, and no raising (research/picks/AQZ.md)",estimated from last year's 20 Feb
