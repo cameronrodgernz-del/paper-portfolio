@@ -5,15 +5,27 @@ From 9 November 2026 (rulebook section 5a). This replaces the funnel of 2 Novemb
 ## The steps
 1. Choose. Claude proposes the next company, usually from reports/research_candidates.md (the weekly sweep),
    and agrees it with Cam in chat. One company is worked at a time.
-2. The angle (added 9 Nov 2026, before any deep dive). Write three lines: what the market believes, in a sentence
-   (from the price, the company's own story and broker targets); the one fact that would show it's wrong; and how we'll
-   get that fact from outside the company's filings, which everyone covering it reads. Ways to get it: competitors',
-   suppliers' and customers' own filings read across; government and industry data; prices, stock and job ads tracked
-   over time on websites; and people Cam can ask (customers, staff, suppliers). If there's no way to test the fact
-   other than the filings, the company only goes ahead if it's small and uncovered enough that a careful read of the
-   filings is itself the edge.
+2. The questions and the evidence (added 9 Nov 2026, before any deep dive). Every step here is research done now,
+   from evidence that already exists: no waiting for future data, and no asking people.
+   a. Read the filings to find what the price assumes, then write down the two to four questions that decide whether
+      it's wrong. Keep only questions the company's own filings can't answer: if the filings answer it, everyone has it.
+   b. For each question, list where the answer leaves a trace outside the filings, and what result would mean yes or no.
+      Look first where others don't:
+      - first, the web's own history and assembled data: archived snapshots of prices, product ranges, stock, store
+        locators and job ads; dated customer reviews and app ratings; search trends; anything that can be pieced
+        together from many scattered public pages into a picture nobody publishes;
+      - then public records few analysts read: property, planning, courts and tribunals, regulators, trademarks, the
+        share register's notices worked through in full;
+      - last, the usual places, which can still be enough: competitors', suppliers' and customers' filings read across,
+        and government and industry data.
+      Unusual data is noisier and easier to misread, so each piece gets a sense check (a second source, or a known
+      figure it should match) before it moves the value.
+   c. Do the work, starting with the question that moves the value most.
+   d. Decide: for each question, what the evidence showed and how sure we are, then redo the outcomes and chances.
+      There's an edge only where our evidence disagrees with what the price assumes. If it confirms the market, pass.
 3. The case for buying. Claude writes the deep dive in research/picks/<TICKER>.md (NZ_<TICKER>.md for NZX) in
-   the format of research/picks/TEMPLATE.md, from primary sources only. It starts from what today's price
+   the format of research/picks/TEMPLATE.md: the company's facts from primary sources, plus the evidence from step 2,
+   each piece with its source. It starts from what today's price
    assumes, then states in one sentence the thing the market is missing, with the evidence. If that sentence
    can't be written, the company is a reject and the work stops there.
 4. The case against. Claude writes a prompt for a second model (Cam runs it, for example in ChatGPT), giving the
