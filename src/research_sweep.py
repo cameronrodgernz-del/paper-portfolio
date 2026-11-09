@@ -28,7 +28,8 @@ Places, with the weight each carries in the order:
     data/research_data/holder_builds.csv, written by tools/holder_notices.py, which reads every substantial holder
     notice (OCR for scanned ones); latest stake 7% or more, two points or more above the window's start, still held.
     Fresh if the latest rise was in the last six weeks. A pointer to read the notices: names and figures from OCR
-    can be wrong
+    can be wrong. A holder linked to the board or another holder scores 1, not 3 (added 10 Nov 2026 after TOT and
+    EGH, where the builders could take control without paying other holders a premium)
 A company with a deep dive or fact sheet in the last three months goes to the bottom unless the evening desk has
 marked it reopened. Live control proposals and strategic reviews are listed apart, as special situations.
 NZX companies have no announcement headlines in the stored data, so they are listed with what the screen shows
@@ -143,8 +144,10 @@ def main(root: str, today_s: str | None = None):
             fresh = fresh or back_on[0]["date"] >= fresh_since
         b = builds.get(t, [None])[0] if mk == "ASX" else None  # the largest build (the file is sorted by stake)
         if b:
-            tags.append(f"{b['holder'][:40]} building a stake ({b['first_pct']}% to {b['last_pct']}%, latest {b['last_date']})")
-            score += 3
+            linked = b.get("linked", "")
+            tags.append(f"{b['holder'][:40]} building a stake ({b['first_pct']}% to {b['last_pct']}%, latest {b['last_date']})"
+                        + (f", linked: {linked}" if linked else ""))
+            score += 1 if linked else 3
             fresh = fresh or b["last_date"] >= fresh_since
         if fresh:
             tags.append("fresh: within six weeks"); score += 1

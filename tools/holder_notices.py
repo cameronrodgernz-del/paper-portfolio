@@ -68,7 +68,7 @@ FUNDS = [
     "MERCER", "NOVA SCOTIA", "L1 CAPITAL", "HUB24", "MAYBANK", "RYDER CAPITAL", "IOLITE", "BGH CAPITAL", "TIGA",
     "THORNEY", "SECURITIES PTE", "SECURITIES LIMITED", "BANK ", "BANKING", "UDN ", " FIL LIMITED", "SPROTT", "TEES RIVER",
 ]
-NOISE = re.compile(r"^(\W|annexure|listed in|see |entity listed|nfp|group entity|fund;|ltd\.|management limited$|"
+NOISE = re.compile(r"^(\W|annexure|listed in|see |entity listed|nfp|nfpfrn|entities\)|group entity|fund;|ltd\.|management limited$|"
                    r"travel limited$|associates)|personal use|if applicable", re.I)  # a parse that missed the name
 
 
@@ -84,8 +84,10 @@ def curl(url, out=None, timeout=60):
     return r.stdout if not out else (r.returncode == 0)
 
 
-def list_notices(code, years):
-    """The substantial holder notices on the ASX's yearly announcement pages for one code."""
+def list_notices(code, years, pattern=None):
+    """The announcements whose headline matches pattern (default: substantial holder notices) on the ASX's yearly
+    announcement pages for one code."""
+    pattern = pattern or HEADLINE
     found = []
     for y in years:
         try:
@@ -99,7 +101,7 @@ def list_notices(code, years):
                 continue
             text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", row))).strip()
             d = re.match(r"(\d{2})/(\d{2})/(\d{4})", text)
-            if not d or not HEADLINE.search(text):
+            if not d or not pattern.search(text):
                 continue
             ann = f"{d.group(3)}-{d.group(2)}-{d.group(1)}"
             head = re.sub(r"^\d{2}/\d{2}/\d{4}\s+\d{1,2}:\d{2}\s*[ap]m\s+", "", text)
@@ -256,29 +258,148 @@ def builds(root, cache, names):
     return out
 
 
+DIRECTOR = re.compile(r"director'?s?'?\s+interest|appendix\s+3[xyz]\b", re.I)
+STREET = re.compile(r"\b(\d{1,5}(?:\s*[-–]\s*\d{1,5})?)\s+((?:[A-Z][A-Za-z']+\s+){1,3}?)"
+                    r"(Street|St|Road|Rd|Avenue|Ave|Parade|Pde|Place|Pl|Lane|Drive|Dr|Terrace|Tce|Highway|Hwy|"
+                    r"Boulevard|Blvd|Way|Square|Sq|Circuit|Cct|Crescent|Cres|Court|Ct|Quay|Esplanade)\b")
+ABBR = {"street": "st", "road": "rd", "avenue": "ave", "parade": "pde", "place": "pl", "drive": "dr", "terrace": "tce",
+        "highway": "hwy", "boulevard": "blvd", "square": "sq", "circuit": "cct", "crescent": "cres", "court": "ct"}
+
+
+def director_names(text):
+    """Directors named in an Appendix 3X, 3Y or 3Z ("Name of Director  Tony Robert Pitt")."""
+    out = []
+    for m in re.finditer(r"[Nn]ame of [Dd]irector\s*[:\-]?\s*([A-Z][A-Za-z.'\- ]{3,60})", text):
+        n = re.split(r"\s{3,}|\bABN\b|\bACN\b", m.group(1).strip())[0].strip(" .")
+        w = n.split()
+        if 2 <= len(w) <= 6 and not re.search(r"Limited|Ltd|Group|Holdings|Trust|Pty", n, re.I):
+            out.append(n)
+    return out
+
+
+def addresses(text):
+    """Street addresses in a notice, normalised ("22-24 junction st"), from section 6 on if there is one."""
+    m = re.search(r"\n\s*(?:6|7)\.?\s*Addresses", text, re.I)
+    part = text[m.end():] if m else text
+    out = set()
+    for a in STREET.finditer(part):
+        num = re.sub(r"\s", "", a.group(1)).replace("–", "-")
+        kind = ABBR.get(a.group(3).lower(), a.group(3).lower())
+        out.add(f"{num} {' '.join(a.group(2).split()).lower()} {kind}")
+    return out
+
+
+def name_in(full, text):
+    """A director's name in a notice: the first and last names within 40 characters, in that order."""
+    w = [x for x in re.split(r"[\s.]+", full) if x]
+    if len(w) < 2 or len(w[-1]) < 3:
+        return False
+    return bool(re.search(re.escape(w[0]) + r"\b.{0,40}?\b" + re.escape(w[-1]) + r"\b", text, re.I | re.S))
+
+
+def link_notes(holder, holder_text, others, director_texts):
+    """Why a holder looks linked to the board or to another holder, or "" if nothing found.
+    holder_text: the text of its notices; others: {other holder: set of addresses}; director_texts: 3X/3Y/3Z texts."""
+    notes = []
+    names = sorted({n for t in director_texts for n in director_names(t)})
+    hit = [n for n in names if name_in(n, holder_text)]
+    if hit:
+        notes.append("names director " + ", ".join(hit[:2]))
+    k = key(holder)
+    if len(k) >= 5 and any(k in re.sub(r"[^A-Z0-9 ]", " ", t.upper()) for t in director_texts):
+        notes.append("named in a director's notice")
+    mine = addresses(holder_text)
+    shared = sorted(o for o, a in others.items() if mine & a)
+    if shared:
+        notes.append("same address as " + "; ".join(x[:40] for x in shared[:2]))
+    return "; ".join(notes)
+
+
+def add_links(rows, cache, scratch, years, workers):
+    """Adds a "linked" note to each build: whether the holder names a director, is named in a director's interest
+    notice, or shares an address with another holder that isn't a fund. Reads the director notices for those
+    companies only (up to 15 a company, text layer only) and the holder notices already in the scratch folder."""
+    def text_of(ids):  # text layer only, first eight pages (annexures included); scans give ""
+        pdf = os.path.join(scratch, f"n_{ids}.pdf")
+        if not os.path.exists(pdf):
+            return ""
+        return run(["pdftotext", "-layout", "-l", "8", pdf, "-"]).stdout.decode("utf-8", "ignore")
+
+    def dir_texts(t):
+        found = list_notices(t, years, DIRECTOR)[-15:]
+        out = []
+        for a in found:
+            pdf = os.path.join(scratch, f"n_{a['ids_id']}.pdf")
+            if not os.path.exists(pdf):
+                page = os.path.join(scratch, f"a_{a['ids_id']}.html")
+                if not curl(DOC_URL.format(ids=a["ids_id"]), out=page):
+                    continue
+                m = re.search(r'name="pdfURL" value="([^"]+)"', open(page, encoding="utf-8", errors="ignore").read())
+                if not m or not curl(m.group(1), out=pdf):
+                    continue
+            r = run(["pdftotext", "-layout", "-l", "2", pdf, "-"])
+            out.append(r.stdout.decode("utf-8", "ignore"))
+        return t, out
+    tickers = sorted({r["ticker"] for r in rows})
+    with ThreadPoolExecutor(workers) as ex:
+        dirs = dict(ex.map(dir_texts, tickers))
+    for r in rows:
+        t = r["ticker"]
+        mine = set(r["ids"].split())
+        htext = "\n".join(text_of(i) for i in mine)
+        others = {}
+        for c in cache.values():
+            if c["ticker"] != t or c["ids_id"] in mine or not c["holder"] or is_fund(c["holder"]) or str(c["ocr"]) == "True":
+                continue
+            if key(c["holder"]) == key(r["holder"]) or NOISE.search(c["holder"]) or len(key(c["holder"])) < 4:
+                continue
+            ot = text_of(c["ids_id"])
+            k1 = key(r["holder"]).split()
+            probe = k1[0] if k1 and len(k1[0]) >= 6 else " ".join(k1)
+            if probe and probe in re.sub(r"[^A-Z0-9 ]", " ", ot.upper()):
+                continue  # the other notice names this holder (a seller naming its buyer), so its address isn't shared
+            a = addresses(ot)
+            if a:
+                others.setdefault(c["holder"], set()).update(a)
+        r["linked"] = link_notes(r["holder"], htext, others, dirs.get(t, []))
+    return rows
+
+
 def write_report(root, rows, n_notices, n_companies, since, today):
     p = os.path.join(root, "data", "research_data", "holder_builds.csv")
-    cols = ["ticker", "company", "holder", "first_pct", "last_pct", "notices", "rises", "first_date", "last_date", "ocr", "ids"]
+    cols = ["ticker", "company", "holder", "first_pct", "last_pct", "notices", "rises", "first_date", "last_date", "ocr",
+            "linked", "ids"]
     with open(p, "w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=cols, lineterminator="\n")
+        w = csv.DictWriter(f, fieldnames=cols, lineterminator="\n", extrasaction="ignore")
         w.writeheader()
-        w.writerows(rows)
+        w.writerows({c: r.get(c, "") for c in cols} for r in rows)
+    head = "| Share | Holder | From | To | Notices | Rises | First | Latest | OCR |"
+    rule = "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"
     lines = [f"# Holders building stakes, {today}", "",
              f"From {n_notices} substantial holder notices lodged since {since} for {n_companies} ASX companies on the research "
              "screen (tools/holder_notices.py). Listed: holders that aren't funds (by a name list), whose latest stake is 7% or "
              "more and at least two points above where the window starts, and who haven't ceased. Notices that are scanned "
              "images were read by OCR, so names and figures can be misread: each line is a pointer to read the notices, not "
              "a fact. This is a simulation and not financial advice.", "",
-             "Below 50% (building toward control, or a blocking stake):", "",
-             "| Share | Holder | From | To | Notices | Rises | First | Latest | OCR |", "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
-    ctrl = [r for r in rows if float(r["last_pct"]) >= 50]
-    for r in [r for r in rows if float(r["last_pct"]) < 50] + ([None] if ctrl else []) + ctrl:
-        if r is None:
-            lines += ["", "50% or more (a controller still buying):", "",
-                      "| Share | Holder | From | To | Notices | Rises | First | Latest | OCR |", "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+             "Each build is checked for links to the board or to another holder: a director's name in the holder's notices, "
+             "the holder named in a director's interest notice, or the same street address as another holder that isn't a "
+             "fund. A linked holder can usually take control without paying other holders a premium (TOT and EGH, Nov "
+             "2026), so outside buyers come first. Scanned notices can't be checked this way, so no link found isn't proof "
+             "of none.", ""]
+    sections = [("Outside buyers below 50% (building toward control, or a blocking stake):",
+                 [r for r in rows if float(r["last_pct"]) < 50 and not r.get("linked")]),
+                ("Linked to the board or another holder, below 50%:",
+                 [r for r in rows if float(r["last_pct"]) < 50 and r.get("linked")]),
+                ("50% or more (a controller still buying):", [r for r in rows if float(r["last_pct"]) >= 50])]
+    for title, rs in sections:
+        if not rs:
             continue
-        lines.append(f"| ASX:{r['ticker']} ({r['company'][:30]}) | {r['holder'][:45]} | {r['first_pct']}% | {r['last_pct']}% | "
-                     f"{r['notices']} | {r['rises']} | {r['first_date']} | {r['last_date']} | {r['ocr']} |")
+        lines += [title, "", head, rule]
+        for r in rs:
+            who = r["holder"][:45] + (f" ({r['linked']})" if r.get("linked") else "")
+            lines.append(f"| ASX:{r['ticker']} ({r['company'][:30]}) | {who} | {r['first_pct']}% | {r['last_pct']}% | "
+                         f"{r['notices']} | {r['rises']} | {r['first_date']} | {r['last_date']} | {r['ocr']} |")
+        lines.append("")
     open(os.path.join(root, "reports", "holder_builds.md"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
 
 
@@ -341,6 +462,9 @@ def main(argv):
         save_cache(cpath, cache)
         print(f"re-parsed {n} notices", flush=True)
     rows = builds(root, cache, names)
+    if "--no-links" not in argv:
+        rows = add_links(rows, cache, scratch, list(range(int(since[:4]), date.today().year + 1)), workers)
+        print(f"linked: {sum(1 for r in rows if r.get('linked'))} of {len(rows)} builds", flush=True)
     write_report(root, rows, len(cache), len(names), since, today)
     print(f"holder builds: {len(rows)} from {len(cache)} notices", flush=True)
 

@@ -117,5 +117,38 @@ with tempfile.TemporaryDirectory() as d:
     rep = open(os.path.join(d, "reports", "research_sweep.md"), encoding="utf-8").read()
     check("the sweep tags the build", "building a stake (5.34% to 16.20%" in rep, rep[-600:])
 
+# Links to the board or another holder (added 10 Nov 2026 after TOT and EGH)
+D3Y = """Appendix 3Y
+Change of Director's Interest Notice
+Name of entity     360 Capital REIT
+Name of Director                              Tony Robert Pitt
+Date of last notice 23 October 2026
+Nature of indirect interest   TT Investments Pty Limited as trustee for
+360 Capital Equity Co-investment Trust (CECT)
+"""
+check("director name from a 3Y", h.director_names(D3Y) == ["Tony Robert Pitt"], h.director_names(D3Y))
+TOT604 = """1. Details of substantial holder
+Name TT Investments Pty Limited and Tony Robert Pitt
+6. Addresses
+TT Investments Pty Limited   Level 8, 56 Pitt Street, Sydney NSW 2000
+"""
+note = h.link_notes("TT Investments Pty Limited", TOT604, {}, [D3Y])
+check("holder names a director", "names director Tony Robert Pitt" in note, note)
+check("holder named in a director's notice", "named in a director's notice" in note, note)
+check("a street isn't a director's name", not h.name_in("Tony Robert Pitt", "Level 8, 56 Pitt Street"), "")
+FIL = """6. Addresses
+Filetron and each member of the Filetron Group   22-24 Junction Street, Forest Lodge NSW 2037"""
+DMC = """7. Addresses
+DMC and each member of the DMC group 22-24 Junction St Forest Lodge NSW 2037"""
+check("addresses normalise", h.addresses(FIL) == h.addresses(DMC) == {"22-24 junction st"}, (h.addresses(FIL), h.addresses(DMC)))
+note = h.link_notes("Filetron Pty Ltd as trustee for Hunter Discretionary Trust", FIL,
+                    {"Development Management & Constructions Pty Ltd": h.addresses(DMC), "Copia": {"80 collins st"}}, [D3Y])
+check("same address as another holder", note.startswith("same address as Development Management"), note)
+check("an outsider has no link", h.link_notes("Ahrens Group Pty Ltd", "6. Addresses\nAhrens  3 Ahrens Road, Sandy Creek SA",
+                                              {"Copia": {"80 collins st"}}, [D3Y]) == "", "")
+import research_sweep as rs  # noqa: E402
+src = open(os.path.join(ROOT, "src", "research_sweep.py"), encoding="utf-8").read()
+check("sweep scores a linked builder lower", "score += 1 if linked else 3" in src, "")
+
 print("\nALL PASS" if not FAILS else f"\n{len(FAILS)} FAILED")
 sys.exit(1 if FAILS else 0)
