@@ -54,6 +54,14 @@ RETURN = re.compile(r"reinstatement to (official )?quotation|reinstated to (offi
 SPECIAL = re.compile(r"strategic review|non-binding|indicative proposal|takeover|scheme implementation|bidder'?s statement", re.I)
 
 
+def other_code(headline: str, ticker: str) -> bool:
+    """True when a holder notice is the company's own, about a stake it holds in
+    another listed company ("Ceasing to be a substantial holder for MMA" lodged
+    by MGX). Those say nothing about who is selling the company itself."""
+    m = re.search(r"\bfor ([A-Z0-9]{3})\b", headline)
+    return bool(m) and m.group(1) != ticker
+
+
 def months_ago(today: date, m: int) -> str:
     return (today - timedelta(days=int(m * 30.44))).isoformat()
 
@@ -97,7 +105,8 @@ def main(root: str, today_s: str | None = None):
         anns = (asx.get(t) or {}).get("announcements") or [] if mk == "ASX" else []
         for tag, w, back, pat in PLACES:
             since = months_ago(today, back)
-            hits = [a for a in anns if since <= a.get("date", "") <= today.isoformat() and pat.search(a.get("headline", ""))]
+            hits = [a for a in anns if since <= a.get("date", "") <= today.isoformat() and pat.search(a.get("headline", ""))
+                    and not (tag == "a substantial holder left" and other_code(a.get("headline", ""), t))]
             if hits:
                 tags.append(f"{tag} ({hits[0]['date']})"); score += w
                 fresh = fresh or (tag in FORCED and hits[0]["date"] >= fresh_since)
