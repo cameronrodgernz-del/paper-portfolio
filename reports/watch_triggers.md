@@ -2,12 +2,29 @@
 
 Prices at which a "wait" verdict would be looked at again (research/watch_triggers.csv), and the dated events in the next 14 days (research/watch_events.csv). A hit sends the share back to the research desk to check the other conditions in its file; nothing is bought from this list. This is a simulation and not financial advice.
 
-No trigger hit.
+## Hit
+
+- ASX:MAD (Mader Group) at 5.48 on 2026-11-09, at or below 5.5. Also needs: passes at or below about A$5.50 on the case for; FY27 guidance of at least A$72.5m held and no debt-funded acquisition; run the case against (research/against/MAD_prompt.md). File: research/picks/MAD.md
+
+## Close calls
+
+Deep dives under the one-at-a-time process (from 9 November 2026), nearest to their price first. "Qualifies at" is the price at which the case for passes; the stage comes from the files in research/against and research/debate.
+
+| Share | Qualifies at | Latest | Away | Stage | Next event |
+| --- | --- | --- | --- | --- | --- |
+| ASX:MAD (Mader Group) | AUD 5.5 | 5.48 | -0.4% | debate open, waiting on Cam | 2026-11-24: AGM |
+| ASX:NXL (Nuix) | AUD 1.89 | 1.9 | +0.5% | debate open, waiting on Cam | 2026-11-19: AGM and likely trading update |
+| ASX:CTD (Corporate Travel Management) | AUD 3.25 | 3.65 | +12.3% | case for only | 2026-11-12: 2025 and 2026 AGMs with FY27 guidance |
+| ASX:MGX (MGX Resources) | AUD 0.255 | 0.29 | +13.7% | case for only | 2026-11-18: AGM |
+| ASX:BAP (Bapcor) | AUD 0.75 | 0.86 | +14.7% | case against filed, not run | 2027-02-25: 1H FY27 result |
+| ASX:AQZ (Alliance Aviation Services) | AUD 0.31 | 0.395 | +27.4% | case against filed, not run | 2026-11-26: AGM |
 
 ## Triggers
 
 | Share | Trigger | Latest | Date | Away | State | Source of price |
 | --- | --- | --- | --- | --- | --- | --- |
+| ASX:MAD | AUD 5.5 | 5.48 | 2026-11-09 | -0.4% | HIT | ASX company data (last trade at fetch) |
+| ASX:NXL | AUD 1.89 | 1.9 | 2026-11-07 | +0.5% | near | ASX company data (last trade at fetch) |
 | ASX:FWD | AUD 2 | 2.04 | 2026-11-07 | +2.0% | near | ASX company data (last trade at fetch) |
 | ASX:JIN | AUD 6.13 | 6.31 | 2026-11-07 | +2.9% | near | ASX company data (last trade at fetch) |
 | ASX:MYG | AUD 1.5 | 1.55 | 2026-11-07 | +3.3% | near | ASX company data (last trade at fetch) |
@@ -36,6 +53,8 @@ No trigger hit.
 | ASX:MVF | AUD 0.665 | 0.74 | 2026-11-07 | +11.3% |  | ASX company data (last trade at fetch) |
 | ASX:CAA | AUD 11.75 | 13.16 | 2026-11-07 | +12.0% |  | ASX company data (last trade at fetch) |
 | ASX:ATA | AUD 0.285 | 0.32 | 2026-11-07 | +12.3% |  | ASX company data (last trade at fetch) |
+| ASX:CTD | AUD 3.25 | 3.65 | 2026-11-09 | +12.3% |  | ASX company data (last trade at fetch) |
+| ASX:MGX | AUD 0.255 | 0.29 | 2026-11-07 | +13.7% |  | ASX company data (last trade at fetch) |
 | ASX:BAP | AUD 0.75 | 0.86 | 2026-11-09 | +14.7% |  | ASX company data (last trade at fetch) |
 | ASX:AD8 | AUD 1.75 | 2.01 | 2026-11-07 | +14.9% |  | ASX company data (last trade at fetch) |
 | ASX:CZR | AUD 0.165 | 0.19 | 2026-11-07 | +15.2% |  | ASX company data (last trade at fetch) |
@@ -55,6 +74,7 @@ No trigger hit.
 | ASX:STP | AUD 0.11 | 0.135 | 2026-11-07 | +22.7% |  | ASX company data (last trade at fetch) |
 | ASX:DXC | AUD 2.18 | 2.76 | 2026-11-07 | +26.6% |  | ASX company data (last trade at fetch) |
 | ASX:ANG | AUD 0.15 | 0.19 | 2026-11-07 | +26.7% |  | ASX company data (last trade at fetch) |
+| ASX:AQZ | AUD 0.31 | 0.395 | 2026-11-07 | +27.4% |  | ASX company data (last trade at fetch) |
 | ASX:FML | AUD 1.4 | 1.79 | 2026-11-07 | +27.9% |  | ASX company data (last trade at fetch) |
 | NZX:PGW | NZD 1.66 | 2.19 | 2026-11-06 | +31.9% |  | data/prices/NZX |
 | ASX:EVZ | AUD 0.295 | 0.4 | 2026-11-07 | +35.6% |  | ASX company data (last trade at fetch) |
@@ -75,6 +95,7 @@ No trigger hit.
 - 2026-11-11: NZX:RAD, H1 FY27 result (EBITDA less resale gains, aged care EBITDAR, net debt) (announced)
 - 2026-11-12: ASX:AFG, warehouse facility falls due (renewal terms) (announced)
 - 2026-11-12: ASX:PAC, strategic review update at or before the AGM (announced)
+- 2026-11-12: ASX:CTD, 2025 and 2026 AGMs with FY27 guidance: re-run the outcomes if FY27 EBITDA guidance is about A$125m or more (research/picks/CTD.md) (announced)
 - 2026-11-13: ASX:CAF, annual meeting (whether SEQ sits inside FY27 guidance) (announced)
 - 2026-11-13: ASX:EVZ, AGM (10% placement facility vote) (announced)
 - 2026-11-14: ASX:IRI, 1H FY27 trading update (inferred from last year)
@@ -85,11 +106,13 @@ No trigger hit.
 - 2026-11-18: ASX:HLO, Helloworld can creep in Webjet without a bid (inferred from its 19% crossing date)
 - 2026-11-18: ASX:WJL, half-year result (announced)
 - 2026-11-18: NZX:ARG, interim result (announced)
+- 2026-11-18: ASX:MGX, AGM: re-run the outcomes if the board brings back the buyback or announces a capital return (research/picks/MGX.md) (announced)
 - 2026-11-19: ASX:AAC, first-half result (inferred)
 - 2026-11-19: ASX:CCV, AGM (first-quarter trading, Cashies book, 1H27 profit) (announced)
 - 2026-11-19: NZX:BRW, AGM (announced)
 - 2026-11-19: NZX:MFB, 1H27 result and chair change (after the failed sale process) (announced)
 - 2026-11-19: NZX:OCA, 1H27 result (announced)
+- 2026-11-19: ASX:NXL, AGM and likely trading update: re-run if FY27 ACV guidance (A$285m to A$300m) changes (research/picks/NXL.md) (announced)
 - 2026-11-20: ASX:ASG, AGM (H1 FY27 guidance, order bank) (announced)
 - 2026-11-20: ASX:BOL, AGM business update (four-month trading, FY27 budget, wind work) (announced)
 - 2026-11-20: ASX:EVZ, 1H27 guidance (expected) (inferred)

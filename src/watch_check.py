@@ -39,6 +39,46 @@ def latest(root: str, market: str, ticker: str) -> tuple[float | None, str, str]
     return None, "", "no price stored"
 
 
+PROCESS_START = "2026-11-09"   # one company at a time (rulebook section 5a, docs/RESEARCH_PROCESS.md)
+
+
+def stage(root: str, ticker: str) -> str:
+    """Where a one-at-a-time deep dive has got to, from the files that exist."""
+    r = os.path.join(root, "research")
+    debate = os.path.join(r, "debate", f"{ticker}.md")
+    if os.path.exists(debate):
+        text = open(debate, encoding="utf-8").read()
+        tail = text.split("## Cam's decision", 1)[1].strip() if "## Cam's decision" in text else ""
+        first = tail.splitlines()[0].strip() if tail else ""
+        if first and not first.lower().startswith("not yet"):
+            return f"decided: {first}"
+        return "debate open, waiting on Cam"
+    if os.path.exists(os.path.join(r, "against", f"{ticker}.md")):
+        return "case against in, debate to start"
+    if os.path.exists(os.path.join(r, "against", f"{ticker}_prompt.md")):
+        return "case against filed, not run"
+    return "case for only"
+
+
+def close_calls(root: str, rows: list, events: list) -> list:
+    """The deep dives under the one-at-a-time process (INDEX rows dated from PROCESS_START), nearest first."""
+    p = os.path.join(root, "research", "picks", "INDEX.md")
+    if not os.path.exists(p):
+        return []
+    picked = set()
+    for line in open(p, encoding="utf-8"):
+        parts = [x.strip() for x in line.split("|")]
+        if len(parts) > 4 and ":" in parts[1] and parts[3][:10] >= PROCESS_START and "Deep dive" in parts[4]:
+            picked.add(tuple(parts[1].split(":", 1)))
+    out = []
+    for r in rows:
+        if (r["market"], r["ticker"]) in picked:
+            nxt = next((e for e in events if e["ticker"] == r["ticker"] and e["market"] == r["market"]), None)
+            out.append(dict(r, stage=stage(root, r["ticker"]),
+                            next_event="" if nxt is None else f"{nxt['date']}: {nxt['event'].split(':')[0]}"))
+    return sorted(out, key=lambda r: (r["gap"] is None, r["gap"] if r["gap"] is not None else 0))
+
+
 def check(root: str, today: str) -> dict:
     trig = list(csv.DictReader(open(os.path.join(root, "research", "watch_triggers.csv"), encoding="utf-8")))
     rows, hits = [], []
@@ -52,11 +92,14 @@ def check(root: str, today: str) -> dict:
         if state == "HIT":
             hits.append(row)
     evp = os.path.join(root, "research", "watch_events.csv")
-    events = []
+    events, upcoming = [], []
     if os.path.exists(evp):
         end = (date.fromisoformat(today) + timedelta(days=EVENT_DAYS)).isoformat()
-        events = [e for e in csv.DictReader(open(evp, encoding="utf-8")) if today <= e["date"] <= end]
-    return {"today": today, "rows": rows, "hits": hits, "events": sorted(events, key=lambda e: e["date"])}
+        upcoming = sorted((e for e in csv.DictReader(open(evp, encoding="utf-8")) if e["date"] >= today),
+                          key=lambda e: e["date"])
+        events = [e for e in upcoming if e["date"] <= end]
+    return {"today": today, "rows": rows, "hits": hits, "events": events,
+            "close": close_calls(root, rows, upcoming)}
 
 
 def write(root: str, res: dict) -> str:
@@ -71,6 +114,18 @@ def write(root: str, res: dict) -> str:
                                  for h in res["hits"]] + [""]
     else:
         out += ["No trigger hit.", ""]
+    if res.get("close"):
+        out += ["## Close calls", "",
+                "Deep dives under the one-at-a-time process (from 9 November 2026), nearest to their price first. "
+                "\"Qualifies at\" is the price at which the case for passes; the stage comes from the files in "
+                "research/against and research/debate.", "",
+                "| Share | Qualifies at | Latest | Away | Stage | Next event |", "| --- | --- | --- | --- | --- | --- |"]
+        for r in res["close"]:
+            away = "" if r["gap"] is None else f"{r['gap']:+.1%}"
+            latest_px = "" if r["price"] is None else f"{r['price']:g}"
+            out.append(f"| {r['market']}:{r['ticker']} ({r['company']}) | {r['currency']} {float(r['trigger_price']):g} | "
+                       f"{latest_px} | {away} | {r['stage']} | {r['next_event']} |")
+        out.append("")
     out += ["## Triggers", "", "| Share | Trigger | Latest | Date | Away | State | Source of price |",
             "| --- | --- | --- | --- | --- | --- | --- |"]
     for r in sorted(res["rows"], key=lambda r: (r["gap"] is None, r["gap"] if r["gap"] is not None else 0)):
