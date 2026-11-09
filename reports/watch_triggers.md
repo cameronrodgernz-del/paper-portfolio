@@ -2,9 +2,7 @@
 
 Prices at which a "wait" verdict would be looked at again (research/watch_triggers.csv), and the dated events in the next 14 days (research/watch_events.csv). A hit sends the share back to the research desk to check the other conditions in its file; nothing is bought from this list. This is a simulation and not financial advice.
 
-## Hit
-
-- ASX:MAD (Mader Group) at 5.48 on 2026-11-09, at or below 5.5. Also needs: passes at or below about A$5.50 on the case for; FY27 guidance of at least A$72.5m held and no debt-funded acquisition; run the case against (research/against/MAD_prompt.md). File: research/picks/MAD.md
+No trigger hit.
 
 ## Close calls
 
@@ -12,9 +10,9 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 
 | Share | Qualifies at | Latest | Away | Stage | Next event |
 | --- | --- | --- | --- | --- | --- |
-| ASX:MAD (Mader Group) | AUD 5.5 | 5.48 | -0.4% | debate open, waiting on Cam | 2026-11-24: AGM |
-| ASX:NXL (Nuix) | AUD 1.89 | 1.9 | +0.5% | debate open, waiting on Cam | 2026-11-19: AGM and likely trading update |
+| ASX:MAD (Mader Group) | AUD 5.38 | 5.48 | +1.9% | debate open, waiting on Cam | 2026-11-24: AGM |
 | ASX:CTD (Corporate Travel Management) | AUD 3.25 | 3.65 | +12.3% | case for only | 2026-11-12: 2025 and 2026 AGMs with FY27 guidance |
+| ASX:NXL (Nuix) | AUD 1.68 | 1.9 | +13.1% | debate open, waiting on Cam | 2026-11-19: AGM and likely trading update |
 | ASX:MGX (MGX Resources) | AUD 0.255 | 0.29 | +13.7% | case for only | 2026-11-18: AGM |
 | ASX:BAP (Bapcor) | AUD 0.75 | 0.86 | +14.7% | case against filed, not run | 2027-02-25: 1H FY27 result |
 | ASX:AQZ (Alliance Aviation Services) | AUD 0.31 | 0.395 | +27.4% | case against filed, not run | 2026-11-26: AGM |
@@ -23,8 +21,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 
 | Share | Trigger | Latest | Date | Away | State | Source of price |
 | --- | --- | --- | --- | --- | --- | --- |
-| ASX:MAD | AUD 5.5 | 5.48 | 2026-11-09 | -0.4% | HIT | ASX company data (last trade at fetch) |
-| ASX:NXL | AUD 1.89 | 1.9 | 2026-11-07 | +0.5% | near | ASX company data (last trade at fetch) |
+| ASX:MAD | AUD 5.38 | 5.48 | 2026-11-09 | +1.9% | near | ASX company data (last trade at fetch) |
 | ASX:FWD | AUD 2 | 2.04 | 2026-11-07 | +2.0% | near | ASX company data (last trade at fetch) |
 | ASX:JIN | AUD 6.13 | 6.31 | 2026-11-07 | +2.9% | near | ASX company data (last trade at fetch) |
 | ASX:MYG | AUD 1.5 | 1.55 | 2026-11-07 | +3.3% | near | ASX company data (last trade at fetch) |
@@ -54,6 +51,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:CAA | AUD 11.75 | 13.16 | 2026-11-07 | +12.0% |  | ASX company data (last trade at fetch) |
 | ASX:ATA | AUD 0.285 | 0.32 | 2026-11-07 | +12.3% |  | ASX company data (last trade at fetch) |
 | ASX:CTD | AUD 3.25 | 3.65 | 2026-11-09 | +12.3% |  | ASX company data (last trade at fetch) |
+| ASX:NXL | AUD 1.68 | 1.9 | 2026-11-07 | +13.1% |  | ASX company data (last trade at fetch) |
 | ASX:MGX | AUD 0.255 | 0.29 | 2026-11-07 | +13.7% |  | ASX company data (last trade at fetch) |
 | ASX:BAP | AUD 0.75 | 0.86 | 2026-11-09 | +14.7% |  | ASX company data (last trade at fetch) |
 | ASX:AD8 | AUD 1.75 | 2.01 | 2026-11-07 | +14.9% |  | ASX company data (last trade at fetch) |

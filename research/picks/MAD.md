@@ -2,7 +2,16 @@
 
 Written 2026-11-09 by Claude for the one-company-at-a-time process (rulebook section 5a, docs/RESEARCH_PROCESS.md). This is the case for buying.
 Price at writing: A$5.46 (last sale, ASX company data, read 9 November 2026) [S13]. Shares on issue about 210.8m: 211,426,728 after October's issue of performance shares [S15], less 609,526 bought back by 6 November [S11]. Market value about A$1,151m. Net cash A$35.7m at 30 June 2026 [S1], so the business is valued at about A$1,115m.
-Status: finished. On the line, passing by a few cents on my central numbers: it qualifies at about A$5.50 (see "Where it lands"). This is a simulation and not financial advice.
+Status: finished, then revised after round 1 of the debate (9 November 2026, Cam's go). Wait, on the line: it now qualifies at about A$5.38, 1.5% under the price (see "Revised after the debate"). As first written it passed narrowly, up to about A$5.50. This is a simulation and not financial advice.
+
+## Revised after the debate
+The case against (research/against/MAD.md) found four things this case for got wrong or undersold. Round 1 of the debate (research/debate/MAD.md) accepted them:
+- The board has no independent director (Mader's own governance statement). After Burton leaves on 24 November it will be three executives. That makes a poorly priced acquisition more likely, so the worse case goes from 10% to 12% and the good case from 20% to 18%.
+- Burton didn't sell every year: he sold in March 2022, then nothing until November 2024, then about 5m shares in ten months.
+- The AGM seeks authority for up to 10.57m more incentive securities over three years, more than the buyback can absorb. Shares in 2028 are about 212m, not 209m.
+- Mader is cheaper than Monadelphous and SRG, but not than Perenti or NRW on their underlying earnings. The "cheapest of its peers" claim below used statutory figures that flatter fleet-heavy contractors.
+
+The revised card: 37% at A$4.04, 45% at A$7.39, 18% at A$9.67. The expected gain after costs is about +18%, which passes. The bad case is 26% below A$5.46, inside the limit, but the middling case is +35.4% against the +39% the test then asks for. It qualifies at about A$5.38. The tables below are the case as first written; the debate file has the revised outcomes.
 
 Order of work: chosen on 9 November 2026 from the re-ranked weekly sweep, as a profitable, net-cash company with fresh selling. A large holder left in September, and the shares fell 11% on 29 October when the finance chief stepped down. The bad case was roughed out from the filings first, at about 25% to 30% below the price, inside the limit, so the work went on to the evidence outside the filings.
 
@@ -40,13 +49,13 @@ So the business is valued at:
 - 9.2 times FY26 EBITDA;
 - a 4.8% free cash flow yield.
 
-The price assumes Mader hits guidance and grows only modestly after that. Only at the market low of mid-2022 has Mader traded lower against the coming year's profit [S16]. The listed mining-services companies trade at 18 to 30 times trailing profit, and Mader is now the cheapest of them [S17].
+The price assumes Mader hits guidance and grows only modestly after that. Only at the market low of mid-2022 has Mader traded lower against the coming year's profit [S16]. On statutory figures the listed mining-services companies trade at 18 to 30 times trailing profit [S17], but on underlying earnings Perenti is about 10 times and NRW about 15 (research/against/MAD.md). Mader is cheaper than Monadelphous and SRG, the closest maintenance-led peers.
 
 ## The one thing the market is missing
 Stated as the rulebook asks: the market treats Mader's fall as a verdict on the business, but most of the selling since August has come from holders with their own reasons to sell:
 - a fund leaving;
 - about 50 staff receiving A$51.8m of shares in October;
-- a director who has sold every year since 2022.
+- a director who sold in 2022 and has sold about 5m shares since November 2024.
 
 Meanwhile the business keeps meeting its targets and its customers' maintenance demand is at a record.
 
@@ -105,7 +114,7 @@ What the evidence showed:
    - The only purchase so far is Wilson Hammond Group, a defence consultancy, for up to A$5.3m [S20].
    - The bigger governance points:
      - Luke Mader is executive chairman and controls about 49%;
-     - the board will have one fewer non-executive director after the AGM;
+     - the board has no independent director, and after the AGM it will be three executives (corrected after the debate);
      - the AGM asks holders to approve a new equity plan and 1.5m performance rights for the chief executive [S6].
 
 What this changes: it supports the middling case. Demand, the targets record and the cash flow all back it. It also explains the fall without a fault in the business. It leaves the worse case where it was, because a mining downturn and a bad acquisition are both still possible.
@@ -180,8 +189,8 @@ Arithmetic for the middling case:
 What the value depends on most: the multiple. Each turn of profit multiple is worth about A$0.44 a share in the middling case.
 
 ## Why the market is wrong
-1. It reads the falls as a problem with the business. They came on results days that met guidance, and from holders with their own reasons to sell: a fund leaving, staff receiving bonus shares, and a director who has sold every year.
-2. It prices Mader below every listed mining-services peer, though Mader has net cash, a 25% return on capital and five years of meeting its targets.
+1. It reads the falls as a problem with the business. They came on results days that met guidance, and from holders with their own reasons to sell: a fund leaving, staff receiving bonus shares, and a director who has been selling since November 2024.
+2. It prices Mader below Monadelphous and SRG, the closest maintenance-led peers, though Mader has net cash, a 25% return on capital and five years of meeting its targets.
 3. It treats the finance chief's exit as a warning. It came four weeks after his five-year bonus vested, and the accounts show nothing amiss.
 
 It's right that:

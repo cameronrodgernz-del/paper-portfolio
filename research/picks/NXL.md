@@ -2,7 +2,15 @@
 
 Written 2026-11-09 by Claude for the one-company-at-a-time process (rulebook section 5a, docs/RESEARCH_PROCESS.md). This is the case for buying.
 Price at writing: A$1.925 (last sale, ASX company data, read 9 November 2026) [S12]. Market value: about A$661.3m (343,541,266 shares on issue [S13]). Net cash A$49.9m at 30 June 2026 [S1], so the business is valued at about A$611m.
-Status: finished. On the line: it qualifies at about A$1.89, 2% below today's price (see "Where it lands"). This is a simulation and not financial advice.
+Status: finished, then revised after round 1 of the debate (9 November 2026, Cam's go). Wait: it now qualifies at about A$1.68 (see "Revised after the debate"). As first written it qualified at about A$1.89. This is a simulation and not financial advice.
+
+## Revised after the debate
+The case against (research/against/NXL.md) and round 1 of the debate (research/debate/NXL.md) changed three things:
+- Macquarie doesn't share the class action liability in any useful way. The co-defendant is Macquarie Capital, one of the float's lead managers, and Nuix indemnified the lead managers against losses from the offer. The only exclusions are their own recklessness, gross negligence, fraud or wilful misconduct (prospectus section 9.8.1.5). Macquarie Capital has already claimed A$9.15m of legal fees under it. So the worse case is a larger loss, about A$150m net, and a raising.
+- Nuix's HSBC revolving facility can't be used for litigation costs (FY26 report, note 4.7).
+- Revenue is running ahead of ACV because more deals are multi-year: they accounted for about A$32.3m of the A$41.7m revenue growth. Net cash at June 2028 in the middling case falls from about A$150m to about A$110m, after lease debt and continuing legal costs.
+
+The revised outcomes: worse 10% A$0.90, bad 25% A$1.29, middling 45% A$2.54, good 20% A$3.70. The card would read 35% at A$1.18, 45% at A$2.54 and 20% at A$3.70. The expected gain after costs is about +17%, which passes. But the bad case is 39% below A$1.925, outside the 30% limit. It qualifies at about A$1.68. Even with no legal risk at all, it would qualify at only about A$1.84 (the debate file has the working). The sections below are the case as first written.
 
 Order of work: chosen on 9 November 2026 from the re-ranked weekly sweep, as a company with net cash that funds were made to sell (it left the S&P/ASX 300 on 23 March 2026). The bad case was roughed out from the filings first. It came in inside the 30% limit, so the work went on to the evidence outside the filings.
 
@@ -71,7 +79,7 @@ What the evidence showed:
    - During the trial the plaintiffs dropped their claims about ACV and under consumer law [S3].
    - In April 2026 the Federal Court dismissed all of ASIC's claims over Nuix's disclosures from January to April 2021. It found Nuix had reasonable grounds for its forecasts and that a 3.5% gap to forecast wasn't material [S18].
    - Nuix's insurance covers claims above a A$10m retention (the Full Federal Court settled that amount in July 2026) [S19].
-   - Macquarie, which sold most of the shares in the float, is a co-defendant and shares any liability [S17].
+   - Macquarie Capital, a lead manager of the float, is a co-defendant [S17]. Corrected after the debate: Nuix indemnifies the lead managers under the 2020 underwriting agreement, so in most outcomes Nuix would carry Macquarie Capital's share too.
    - The risks:
      - the prospectus claims carry a stricter test than ASIC's case did, and the trial heard internal emails in which the former finance chief called Nuix's record of disappointing results "worse than terrible" [S17];
      - the first shareholder class action to win at trial in Australia (Brambles, April 2026) shows plaintiffs can win [S18].
