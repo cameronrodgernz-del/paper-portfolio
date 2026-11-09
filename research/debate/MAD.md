@@ -3,26 +3,24 @@
 Started 2026-11-09 under docs/RESEARCH_PROCESS.md step 5. The case for is research/picks/MAD.md (Claude). The case against is research/against/MAD.md (ChatGPT, run by Cam on 9 November 2026). Price throughout: A$5.46. This is a simulation and not financial advice.
 
 ## Where the two still disagree
-After round 1 neither side says buy at A$5.46. The case for had it passing narrowly, up to about A$5.50. With the corrections below (waiting on Cam's go), it qualifies at about A$5.38, 1.5% under the price. The case against would look again at about A$4.60.
+Updated 10 November after round 2. Three views now, all at A$5.46 and all saying wait:
+- The case for, with the round 2 corrections below (waiting on Cam's go): qualifies at about A$5.22. Round 1 had it at A$5.38; the change is mostly an error in its own middling case that round 2 exposed (net cash counted twice).
+- The independent deep dive (research/against/MAD_deepdive.md, 10 November) says buy at A$5.24 or below. That treats its 7% worse case as outside the rules. On our three-outcome card its own numbers qualify only at about A$4.98.
+- The case against (round 1, 9 November) would look again at about A$4.60.
 
 Where they still disagree, and what would settle it:
-1. The chance that profit falls by FY28.
-   - The case against has a 25% bad case in which FY28 EBIT falls to A$80m, from A$95m in FY26.
-   - The case for has a fall in profit (to about A$55m) at 12%, and a flat-profit bad case at 25%.
-   - The AGM trading update on 24 November and the 1H FY27 result in late February 2027 settle most of it: utilisation, margins and North American profit.
-2. The multiple in the middling case.
-   - The case against uses 11 times FY28 EBIT, about 15.7 times trailing profit, a little below today's 17.6.
-   - The case for uses today's 16 times the coming year's profit.
-   - Nothing settles this soon. It's a judgement about whether today's discount lasts.
-3. Shares in 2028: the case against uses 215m, the case for now 212m (from 209m). How the AGM-approved awards are settled, with new shares or bought on market, will show which is closer.
+1. How heavy the bad side is.
+   - The case for: 12% worse (profit falls to about A$55m) and 25% bad (profit flat, multiple down), so a 37% bad leg at A$4.04.
+   - The deep dive: 7% worse at A$2.45 (a debt-funded acquisition goes wrong) and 20% bad at A$4.17 (profit falls to A$62m), so a 27% bad leg at A$3.72. Its own estimate of the chance that FY28 profit falls below FY26 is 13%, half the weight it puts on those two cases.
+   - The AGM update on 24 November, the half-year result in late February 2027 and any acquisition settle most of it.
+2. The multiple in the middling case. After the round 2 correction, the case for and the deep dive both hold today's multiple and land at A$7.00 and A$6.86. That gap is now small.
 
 Where they now agree:
-- the operating business is sound: cash generation, receivables and the delivery record;
-- the FY26 margin slip came mostly from overheads, and North America is the sharper worry;
-- net cash is small against the market value, and the buyback is modest;
-- the board has no independent director;
-- Burton hasn't sold every year;
-- dilution from staff awards matters.
+- the business is sound, and the FY26 margin slip was overheads, not pricing;
+- the board has no independent director, and the interim finance chief now chairs the audit committee;
+- the staff share plan costs far more than profit has shown, and the new plan will cost more again;
+- more shares could come to market than the buyback will absorb, so a better entry is likely;
+- a founder bid is a low-chance good case, not a reason to buy.
 
 ## Round 1: Claude answers the case against
 Each point is taken in the order the case against makes it. I say whether I agree, disagree, or think it's right but not important, and what it changes.
@@ -89,7 +87,9 @@ Each point is taken in the order the case against makes it. I say whether I agre
       - The bad case: its A$3.47 is close to my worse case (A$3.14 after the corrections) but given a 25% chance. It needs FY28 EBIT to fall about 16% from FY26, when FY27 guidance points to about A$105m. The case against itself calls the operating bear case "limited" and maintenance demand "resilient", which fits a fall in profit being the less likely bad outcome, not the usual one.
       - The middling case: the gap is mostly the multiple. Its 11 times trailing EBIT is about 15.7 times trailing profit, a little below today's 17.6, so it builds in a small de-rating. On today's trailing multiple, its own middling EBIT gives about A$7.25 a share.
 
-## What I'd change in the case for (on Cam's go)
+## What I'd change in the case for (applied 9 November on Cam's go)
+Applied in commit 4963476. The card below is what research/picks/MAD.md now carries; round 2 corrects its middling and good cases.
+
 Revised outcomes to 31 August 2028, with about 212m shares:
 
 | Outcome | What happens | Chance | Price |
@@ -117,11 +117,9 @@ The other changes:
 - research/watch_triggers.csv: the MAD trigger moves from A$5.50 to A$5.38.
 - research/picks/INDEX.md: the row is updated to match.
 
-## Questions Cam is better placed to judge
-- How much should a board with no independent director cost a company in the price, when the founder holds half and is building a war chest for acquisitions?
-- If Burton sells his 33m shares after the AGM, would you rather buy into that sale at a discount, or wait for the half-year result?
+## Round 2: prompt for the second model (not run)
+Superseded on 10 November: Cam ran an independent deep dive instead, answered below.
 
-## Round 2: prompt for the second model
 Cam pastes this into ChatGPT with two files attached: the case for (Mader_Group_deep_dive_case_for.pdf) and this debate file.
 
 ---
@@ -139,7 +137,109 @@ Use primary sources with links, plain English and Australian dollars. Keep it to
 
 ---
 
+## Round 2: Claude answers the independent deep dive
+The independent deep dive (research/against/MAD_deepdive.md) worked the whole case to its own verdict without seeing ours [B]. Each point is taken in the order it matters. I say whether I agree, disagree, or think it's right but not important, and what it changes.
+
+1. The verdict and the buy price.
+   - Its point: wait. At A$5.46 Mader passes rules 1 and 3 (bad case -23.6%, expected gain +16.6% after 2% costs) but fails rule 2 (middling +25.7% against +35.5% needed). Buy at A$5.24 or below [B].
+   - My view: agree with wait, but its buy price is kinder than its own numbers.
+     - Its card has four outcomes: worse 7% at A$2.45, bad 20% at A$4.17, middling 53% at A$6.86, good 20% at A$9.17. It treats the worse case as outside rules 1 and 2.
+     - Our cards have three outcomes, so the worse case merges into the bad one (as round 1 did with ours). That gives a 27% bad leg at A$3.72, 32% below the price, which fails rule 1 as well. On that card it qualifies only at about A$4.98.
+     - Its own section 15 puts the chance that FY28 profit falls below FY26's A$65.4m at 13%. Yet both its worse and bad cases (27% together) have FY28 profit below that. Its bad side carries about twice the weight its own judgement gives it.
+     - I keep the case for's bad side: 12% worse at A$3.14 and 25% bad at A$4.48, where the bad case is flat profit and a lower multiple, not a fall.
+2. The middling case. This is the correction that matters.
+   - Its point: FY27 guidance met, then 12% growth, so FY28 profit of A$81m (A$113m of EBIT) at an unchanged 11.5 times EBIT, plus A$115m of net cash, on 207.5m shares: A$6.82, plus 4.5c of dividends [B].
+   - My view: agree, and it exposes an error in ours.
+     - Our middling took "16 times, as today" and then added A$95m of 2028 net cash. But the 16 times is market value over FY27 guidance, and market value already includes today's net cash. Today's multiple without the cash is 15.4 times (A$1,116m over A$72.5m). Adding the cash on top of the full multiple counted it twice.
+     - On 15.4 times, our own FY29 profit of A$92m gives about A$7.23 a share on 209m shares. With about A$3m less FY29 profit for the share plan (point 4), it's about A$7.00.
+     - As a check, its own inputs at today's forward EV/EBIT (10.7 times) give about A$7.08.
+     - I'd use A$7.00. The good case had the same double count; corrected, it's about A$9.40, close to its A$9.17.
+3. Shares in August 2028.
+   - Its point: about 207.5m. On the disclosed terms nothing under the new plan vests before the FY29 tests, and the buyback takes about 3.9m [B].
+   - My view: mostly agree. Round 1 used 212m on the AGM's authority, but the disclosed terms point to FY29 and FY31 tests.
+     - The buyback has bought 609,526 shares for A$3.43m to 6 November, at A$5.36 to A$5.77, faster than it assumes [D4].
+     - I'd use 209m, a little above its figure, to allow for short-term awards paid in shares. The cost of the new plan shows up in profit instead (point 4).
+4. Share-based pay.
+   - Its point: the 2021 scheme delivered 11.4m new shares, worth about A$74.6m when issued, while profit carried about A$10m over five years. The new plan could cost A$8m to A$15m a year before tax, against A$2m now [B].
+   - My view: right, and the most useful new point in the report.
+     - On a full cost of staff pay, today's 17.6 times trailing profit is nearer 19 times. That's another reason the middling case shouldn't assume a re-rating, and it doesn't.
+     - FY27 guidance already absorbs part of the step-up. I take about A$3m after tax off FY29 profit for the rest.
+5. Who is still to sell.
+   - Its point: 15m to 27m shares could come to market by August 2028 (Burton 8m to 15m, Capital Group 3m to 7m, staff 2m to 4m), three to five times what the buyback will take. 20m of Burton's 33m shares sit behind a nominee, which it infers is a broker account that lends against shares [B].
+   - My view: right about the supply, and it's the best reason to wait. It bears on the entry price more than on the 2028 value.
+     - The nominee point is an inference, so I don't rely on it.
+     - One addition: Norgate's index membership file shows Mader has never been in the S&P/ASX 300 [D5]. That confirms the report's inference that no index fund had to sell. If Burton's stake goes to institutions, the wider free float could in time put Mader in the index. That's an upside I don't count.
+6. What the price assumes, and the history.
+   - Its point [B]:
+     - to clear 12.9% at an unchanged multiple needs FY28 profit of only about A$74m;
+     - 17 times is the lowest since 2021, and the two earlier lows were at about 20 times, when the chief executive and the founder bought;
+     - the record high was A$9.63, not A$8.83.
+   - My view: agree. Norgate confirms the A$9.63 close on 24 October 2025 [D5], so the fall is 43%, not the 38% the case for says. That needs correcting.
+7. Peers.
+   - Its point: on EV to EBIT, Mader's 11.7 times is below every peer except Perenti: Monadelphous 15.9, SRG 17.7, Service Stream 17.9, NRW 15.3 and Macmahon 13.9 [B].
+   - My view: right, but not important. EV to EBIT suits a labour business, and on it Mader is cheaper than NRW too, so round 1's correction went a little far. The middling case holds today's multiple, so nothing changes.
+8. Earnings quality.
+   - Its point: gross margin is rising and the slip was overheads. Payables rose A$17.6m (24%), which flattered second-half free cash flow and will partly reverse. Depreciation was flat [B].
+   - My view: agree. The margin point is round 1's. The payables point is right but small.
+9. Demand, labour, regulation and North America.
+   - Its point [B]:
+     - maintenance follows tonnes moved, not price, and Pilbara volumes are guided flat to up;
+     - "Same Job, Same Pay" is a cost risk, not a threat;
+     - BHP's in-house labour arm lost its wage advantage in the Federal Court, which helps Mader;
+     - North America's profit growth came from lower depreciation, and the region is about a fifth of the value.
+   - My view: agree. It matches round 1 and adds the BHP point, which is in Mader's favour. Nothing changes.
+10. Acquisitions.
+    - Its point: a 15% chance of a purchase above A$150m by August 2028, and about one in three that it goes badly. Even a good deal is likely to pull the return on capital down from 25% [B].
+    - My view: agree. It sits inside the case for's 12% worse case.
+11. The board and the finance chief.
+    - Its point: after the AGM the board is three executives. Conway, who chairs the audit and risk committee, is also interim finance chief from 29 October, so the person preparing the accounts leads the committee that checks them. The finance chief left 27 days after his shares vested [B].
+    - My view: agree. The audit committee point is new since round 1, but round 1 already raised the worse case for this board. No further change. A permanent outside finance chief by the half-year result would be a good sign.
+12. The founder and a bid.
+    - Its point: a 10% chance of a bid by August 2028. Burton's stake is 30.7% of the shares the founder doesn't hold, so he alone could block a scheme. The Pact Group precedent was a low bid by a 50% holder. It's not a special situation [B].
+    - My view: agree on all of it.
+13. The founder's holding notice.
+    - Its point: the October share issue moved the founder from 51.0% to 49.1%, and it found no substantial holder notice [B].
+    - My view: I checked Mader's announcements from 2 October to 9 November and there's none from him [D6]. Whether a fall caused only by the company issuing new shares needs a notice is a legal question for Cam. It doesn't change the value.
+14. Dividends.
+    - Its point: a 40% chance of at least one dividend by August 2028, worth 4c to 9c. Net cash reaches A$105m to A$125m by June 2028 [B].
+    - My view: right, but not important: about 2c of expected value.
+15. Anything else.
+    - Its point: the A$30m working-capital facility expires on 31 December 2026. A much larger replacement would point to a big purchase. There are small slips in the reporting [B].
+    - My view: agree. The facility is a good dated item for the watch list.
+
+## What I'd change after round 2 (on Cam's go)
+1. research/picks/MAD.md: a new section, "Revised after round 2", with:
+   - the card: 37% at A$4.04, 45% at A$7.00 and 18% at A$9.40;
+   - an expected gain of about +14% after costs at A$5.46, which passes;
+   - the bad case 26% below the price, inside the limit;
+   - the middling case +28%, against the +39% the test asks for, which fails;
+   - it qualifies at about A$5.22, where the middling test binds.
+
+   It would also correct:
+   - the double-counted net cash;
+   - 209m shares, with about A$3m less FY29 profit for the share plan;
+   - the record high (A$9.63, a 43% fall);
+   - the founder at 49.1%;
+   - never in the S&P/ASX 300;
+   - the interim finance chief chairing the audit committee;
+   - the peers on EV to EBIT.
+2. research/watch_triggers.csv: MAD from A$5.38 to A$5.22.
+3. research/watch_events.csv:
+   - 31 December 2026: the A$30m working-capital facility is due for renewal;
+   - from 24 November: Burton's notices (as a former director over 5% he reports each move of one percentage point, about 2.1m shares);
+   - by the half-year result: a permanent finance chief.
+4. research/picks/INDEX.md: the MAD row updated to match.
+
+## Questions Cam is better placed to judge
+- How much should a board with no independent director cost a company in the price, when the founder holds half and is building a war chest for acquisitions?
+- If Burton sells his 33m shares after the AGM, would you rather buy into that sale at a discount, or wait for the half-year result?
+- The founder's holding fell from 51.0% to 49.1% when Mader issued 7.965m bonus shares on 2 October, and he has lodged no substantial holder notice. Does a change caused only by the company issuing shares count as a movement that needs a notice? (Added after round 2.)
+
 ## Sources
+- [B] Independent deep dive by the second model, 10 November 2026: research/against/MAD_deepdive.pdf (text in research/against/MAD_deepdive.md), with its own sources list.
+- [D4] Mader, Update - Notification of buy-back, 9 Nov 2026 (609,526 shares bought to 6 November for A$3,433,863, A$5.36 to A$5.769): https://announcements.asx.com.au/asxpdf/20261109/pdf/076ckdnqhxwvx0.pdf
+- [D5] Norgate: data/norgate/index_members.csv (MAD.au not a member of the S&P/ASX 200 or 300 at any date from 1 October 2019 to 30 October 2026); prices_2025.csv.gz (record close A$9.63 on 24 October 2025).
+- [D6] Mader announcements, 2026: https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=MAD&timeframe=Y&year=2026 (no substantial holder notice from 2 October to 9 November).
 - [A] The case against, research/against/MAD.md (ChatGPT, 9 Nov 2026).
 - [S21] and the other S numbers are the sources in research/picks/MAD.md.
 - [D1] Mader FY26 results and FY27 guidance, 25 Aug 2026 ("FY27 NPAT is expected to be impacted by between approximately $3 million and $4 million of investments in high growth initiatives"): https://announcements.asx.com.au/asxpdf/20260825/pdf/073595hz8fl6v8.pdf
