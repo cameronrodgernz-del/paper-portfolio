@@ -32,6 +32,8 @@ Done on 9 November 2026, under docs/RESEARCH_PROCESS.md step 2. The questions th
 3. How big is the class action risk?
 4. Who sold, and is the forced selling over?
 
+What the evidence showed:
+
 1. Customers aren't leaving; the public contract records show the opposite.
    - In the UK, the Ministry of Justice made a direct award to CTM for travel and accommodation, worth up to £170m, in February 2026, at the height of the scandal [S22]. Its own spend control records approved the deal on 20 October 2025 [S22].
    - Other UK public bodies did the same during the scandal: ACAS (£2.1m to December 2029), Ordnance Survey (£3.46m to January 2030), VisitBritain (£5m, August 2026) and others, all under the government's own travel frameworks [S22].

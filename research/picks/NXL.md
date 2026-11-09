@@ -49,6 +49,8 @@ Done on 9 November 2026, under docs/RESEARCH_PROCESS.md step 2. The questions th
 3. Is the digital investigations market slowing?
 4. Who has been selling, and who is left?
 
+What the evidence showed:
+
 1. Government customers are paying more, and the regulator suing Nuix is one of them.
    - AusTender's contract notices for Nuix, summed by the financial year they were lodged (my working from the full AusTender file in the repo) [S15]:
 
