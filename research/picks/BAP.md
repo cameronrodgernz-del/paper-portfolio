@@ -7,7 +7,7 @@ Status: finished. Not a value pick at A$0.855 (see "Where it lands"). This is a 
 Order of work: the company was chosen partly on its price history (the sweep tags falls from the high), so the price was in view from the start. The valuation below works from the filings, and the scenario values come from earnings and multiples, not from steps off today's price.
 
 ## Where it lands
-Wait. The turnaround is real and the market is paying for only part of it, but at A$0.855 the case fails the rulebook's value test: the bad case is about 35% below the price (the limit is 30%), and the middling case is about +23% (it would need about +52% against a 35% fall). The expected gain after costs, about +18% to +19% to 31 August 2028, does clear the 12.9% minimum. Almost all the upside sits in the good case, which is the shape the value test is there to keep out. On these numbers it qualifies at about A$0.75 or below, or after a first-half FY27 result that shows the margin coming back (the reopen conditions are at the end).
+Wait. The turnaround is real and the market is paying for only part of it. Evidence gathered from outside the filings (below) backs the middling case, a modest recovery led by Trade, and weakens the good case: Autobarn is still losing ground to Supercheap, and wages and fuel are rising. At A$0.855 the case fails the rulebook's value test: the bad case is about 35% below the price (the limit is 30%), and the middling case is about +23% (it would need about +52% against a 35% fall). The expected gain after costs, about +17% to 31 August 2028, does clear the 12.9% minimum. Almost all the upside sits in the good case, which is the shape the value test is there to keep out. On these numbers it qualifies at about A$0.75 or below, or after a first-half FY27 result that shows the margin coming back (the reopen conditions are at the end).
 
 ## What the price assumes
 The business is valued at about A$691m: A$575.2m of shares plus A$116m of net bank debt. Leases are left out of that figure, so it is compared with earnings after rent, which is how the company's own banking covenants measure it [S2].
@@ -42,6 +42,51 @@ The evidence:
 - Net debt fell from A$387.3m at December 2025 to A$116m at September 2026, helped by the A$200m raising and A$68.5m of working capital released in the second half [S1, S3, S6].
 
 How big that gap is matters, and it isn't large. My middling case for FY28 is about A$106m of earnings after rent, against the A$92m to A$99m the price already needs. Where the price could be most wrong is the good case, a return close to FY25's A$156m. That makes this a turnaround with a long right tail, not a clearly cheap business.
+
+## The test outside the filings
+Done on 9 November 2026, after the first draft, under the process in docs/RESEARCH_PROCESS.md step 2. The questions were:
+1. Are mechanics coming back to Burson?
+2. Did the stock fixes reach customers?
+3. Who is still selling the shares?
+4. Are costs rising for good?
+
+Some of the less-used sources couldn't be reached from here. The web archive's snapshots, Autobarn's own site and Google's reviews were all closed to automated reading, so the evidence leans more on cross-reading and the share register than intended.
+
+1. Trade is gaining a little share, not a lot.
+   - Bapcor's Trade parts sales grew 1.6% like for like in July to September 2026 [S3].
+   - Over the same three months, Genuine Parts, which owns Repco, reported Asia-Pacific comparable sales up about 1%, and that figure includes a motorcycle business growing at double digits [S37].
+   - Amotiv, which supplies parts to both, said its powertrain and undercar parts grew only marginally in its first quarter, and its like-for-like sales fell 5% overall [S38, S39].
+
+   So Burson is growing a little faster than a flat parts market and than Repco. That fits the middling case, not a sharp recovery.
+2. Autobarn's stock problems eased, but it's still losing ground to Supercheap.
+   - On ProductReview, the 70 most recent Autobarn reviews show complaints about items out of stock or orders cancelled for lack of stock:
+     - peaking at about 5 of 18 reviews from April to July 2026;
+     - down to 2 of 10 from August to early November;
+     - with the share of negative reviews falling from about 72% to 50% [S40].
+
+     That matches the company's in-stock figures (Autobarn 74% in March, 96% in August), though the samples are small.
+   - But Supercheap Auto's like-for-like sales grew 2.5% in its first quarter of FY27, and it says it gained market share [S41], while Bapcor called its Retail sales soft and down like for like [S3].
+   - Burson's own ProductReview page has only 19 reviews, mostly old, and they mostly say Burson is dearer than its competitors [S42].
+3. The selling is concentrated in two holders, and there is a buyer. Working through all 107 substantial holder notices lodged in 2026 [S30] shows the following.
+   - Sold out:
+     - AustralianSuper (15.0%) sold out during the raising.
+     - Australian Retirement Trust, Aware Super and Yarra left over August to October.
+     - The index holders (Vanguard, State Street, Norges Bank) left as Bapcor dropped out of the indexes.
+   - Took up the raising, then sold:
+     - Tanarra took up heavily in the raising and reached 19.9% in June. It has since sold to 10.3%, about 69.5m shares [S26, S27].
+     - Hostplus peaked at 12.8% and is now at 8.0%, about 53.6m shares [S28, S29].
+   - Buyers:
+     - Spheria Asset Management, a small-company value manager, built a 15.7% stake by July at prices around A$0.40 to A$0.60, and has filed no notice since [S43].
+     - A Pinnacle-affiliated manager bought a 15,000,000-share block for A$13.05m (A$0.87 a share) on 29 October, the day Tanarra and Hostplus sold [S44].
+
+   About 123m shares (18% of the company) sit with the two holders who have been selling, roughly 20 days of normal trading. That's a reason the price could drift towards the A$0.75 watch price, and a reason it could lift once they've finished.
+4. Costs are rising for good, which supports management's caution about FY27.
+   - Award wages rose 4.75% from 1 July 2026, and the minimum wage 6% [S45].
+   - Genuine Parts put the fuel and freight cost of the Middle East conflict at about US$16m of EBITDA in its July to September quarter alone [S37].
+   - Bapcor's own rent rose from A$77.2m to A$85.7m in FY26 [S2].
+5. Rejoining the S&P/ASX 300 isn't close. The 260th-largest member is worth about A$760m (Norgate and ASIC share counts, 30 Oct 2026). Bapcor would need roughly A$1.13 a share, held for months, before index funds would have to buy it back.
+
+What this changes: it backs the middling case and trims both tails, so the chances moved (see Outcomes and chances). It doesn't change the values, and it doesn't find something the market is missing. The edge it does give is about timing: the remaining selling from two holders is the likeliest route to a price at which the case qualifies.
 
 ## The company in plain words
 Bapcor sells car and truck parts, accessories and workshop equipment across Australia and New Zealand, from about 900 locations [S2]. In FY26 it had four segments [S2]:
@@ -158,18 +203,20 @@ Resolve date: 31 August 2028, after the FY28 result (661 days away). Prices incl
 
 | Outcome | What happens | Chance | Price by resolve date |
 | --- | --- | --- | --- |
-| Worse | The turnaround fails: margin near 3%, the December 2027 fixed charge test is missed, and another raising or covenant reset follows | 10% | A$0.40 |
-| Bad | The turnaround stalls: margin about 3.6%, held back by fuel, wages and price cuts; valued at 7 times | 25% | A$0.62 |
-| Middling | Partial recovery: margin about 5.25% in FY28 (A$106m after rent) and rising; dividends restart | 45% | A$1.05 |
-| Good | Strong recovery or a bid: margin back near FY25's 7.75% (A$156m), valued at 8.5 times, or a takeover proposal | 20% | A$1.85 |
+| Worse | The turnaround fails: margin near 3%, the December 2027 fixed charge test is missed, and another raising or covenant reset follows | 8% | A$0.40 |
+| Bad | The turnaround stalls: margin about 3.6%, held back by fuel, wages and price cuts; valued at 7 times | 22% | A$0.62 |
+| Middling | Partial recovery: margin about 5.25% in FY28 (A$106m after rent) and rising; dividends restart | 55% | A$1.05 |
+| Good | Strong recovery or a bid: margin back near FY25's 7.75% (A$156m), valued at 8.5 times, or a takeover proposal | 15% | A$1.85 |
 
-For the card, which takes three outcomes, the first two combine into one bad case: 35% at A$0.56 (the chance-weighted average of A$0.40 and A$0.62). The card then reads 35% at A$0.56, 45% at A$1.05 and 20% at A$1.85.
+The chances were 10%, 25%, 45% and 20% in the first draft. They moved after the evidence from outside the filings (the section below): Trade gaining share and the stock fixes showing up in customer reviews make a stall less likely, and Autobarn losing ground plus rising wages and fuel make a full recovery by FY28 less likely.
 
-Expected price: 0.35 × 0.56 + 0.45 × 1.05 + 0.20 × 1.85 = A$1.037, or +21.3% before costs. After an estimated 2% to 3% of costs it's about +18% to +19%. That covers A$15 brokerage each way on an order of about A$2,250, half the spread each way, and the 0.5% currency fee. The rulebook minimum over 661 days is 12.9% (the 2.13% cash rate plus 5% a year), so that test passes.
+For the card, which takes three outcomes, the first two combine into one bad case: 30% at A$0.56 (the chance-weighted average of A$0.40 and A$0.62). The card then reads 30% at A$0.56, 55% at A$1.05 and 15% at A$1.85.
+
+Expected price: 0.30 × 0.56 + 0.55 × 1.05 + 0.15 × 1.85 = A$1.023, or +19.7% before costs. After an estimated 2% to 3% of costs it's about +17%. That covers A$15 brokerage each way on an order of about A$2,250, half the spread each way, and the 0.5% currency fee. The rulebook minimum over 661 days is 12.9% (the 2.13% cash rate plus 5% a year), so that test passes.
 
 The value test (rulebook section 5a):
-- The bad case of A$0.56 is 34.6% below A$0.855, over the 30% limit.
-- Against that fall the middling case would need to be +51.9%, and it's +22.8%.
+- The bad case of A$0.56 is 34.5% below A$0.855, over the 30% limit.
+- Against that fall the middling case would need to be +51.8%, and it's +22.8%. The evidence from outside the filings moved the chances, not these values.
 - So the test fails, on both counts.
 
 The price at which it would pass is about A$0.75, solved for both conditions. At A$0.75 the bad case is 25.3% below, and the middling case is +40%, against the +38% it would need.
@@ -248,5 +295,13 @@ Exit rule, if it's ever bought: sell if the FY27 result shows earnings after ren
 - [S34] Appendix 3Y, J. Korhonen, 28 Oct 2026: https://announcements.asx.com.au/asxpdf/20261028/pdf/075wdt6xyhfwyf.pdf
 - [S35] Appendix 3Y, K. Spargo, 2 Nov 2026: https://announcements.asx.com.au/asxpdf/20261102/pdf/0763xltnnj7hjy.pdf
 - [S36] Appendix 3Y, L. Edwards, 5 Nov 2026: https://announcements.asx.com.au/asxpdf/20261105/pdf/07681bnwrp5q2l.pdf
-- Pinnacle Investment Management, change in substantial holding, 2 Nov 2026: https://announcements.asx.com.au/asxpdf/20261102/pdf/0764pwstbf042w.pdf
+- [S37] Genuine Parts Company third quarter 2026 results, 20 Oct 2026 (press release and call summary): https://finviz.com/news/404376/genuine-parts-company-reports-third-quarter-2026-results and https://www.marketbeat.com/instant-alerts/transcript-genuine-parts-q3-earnings-call-highlights-2026-10-20/
+- [S38] Amotiv 2026 AGM addresses and presentation, 27 Oct 2026: https://announcements.asx.com.au/asxpdf/20261027/pdf/075td92tr200xb.pdf
+- [S39] Amotiv first-quarter trading by division, as summarised by FNArena from the AGM update: https://fnarena.com/stock-price-analysis/household-personal-products/AOV
+- [S40] ProductReview, Autobarn reviews pages 1 and 2, read 9 Nov 2026: https://www.productreview.com.au/listings/autobarn and https://www.productreview.com.au/listings/autobarn?page=2
+- [S41] Super Retail Group 2026 AGM Trading Update, 29 Oct 2026: https://announcements.asx.com.au/asxpdf/20261029/pdf/075xxg3mpjw2pm.pdf
+- [S42] ProductReview, Burson Auto Parts, read 9 Nov 2026: https://www.productreview.com.au/listings/burson-auto-parts
+- [S43] Spheria Asset Management, change in substantial holding, 10 Jul 2026 (in the BAP announcements list [S30])
+- [S44] Pinnacle Investment Management Group, change in substantial holding, 2 Nov 2026: https://announcements.asx.com.au/asxpdf/20261102/pdf/0764pwstbf042w.pdf
+- [S45] Australian Public Service Commission circular on the Annual Wage Review 2026 decision: https://www.apsc.gov.au/resources/circulars-guidance-and-advice/circular-202602-annual-wage-review-updating-australian-government-awards
 - Share count, price and 52-week range: ASX company data, 9 Nov 2026 (data/research_data/asx_company.json)
