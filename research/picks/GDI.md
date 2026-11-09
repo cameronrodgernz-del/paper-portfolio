@@ -326,3 +326,10 @@ Data:
 - [D3] Exchange rates: data/fx/fx_daily.csv (6 Nov 2026, NZ$1 = A$0.806387)
 
 All arithmetic was run in python3 -I from scratch scripts (not committed).
+
+## Second pass, 10 November 2026
+Claude re-ran GDI on 10 November from the holder screen without first checking this file. That was a process slip, since fixed: the screen now marks companies already in research/picks/INDEX.md. The re-run found nothing this file doesn't already have. It's kept here only as an independent check on the numbers.
+- On today's price-to-NTA (0.529) applied to a June 2028 NTA of A$1.23, plus 10c of distributions, the middling case is A$0.751, against A$0.78 here.
+- With a bad leg of A$0.589 and a good leg of A$0.967 at 35/45/20, the expected gain after costs is about +12.5% (2.6% of costs). That qualifies at about A$0.635.
+- That matches this file's own sensitivity (+14.0% at 35/45/20, +12.8% at 35/50/15). Both passes put GDI on the line.
+- Next step under the new process (docs/RESEARCH_PROCESS.md step 4): the case-against prompt is filed at research/against/GDI_prompt.md, to run now because it's this close.

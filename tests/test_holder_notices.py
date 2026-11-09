@@ -150,5 +150,8 @@ import research_sweep as rs  # noqa: E402
 src = open(os.path.join(ROOT, "src", "research_sweep.py"), encoding="utf-8").read()
 check("sweep scores a linked builder lower", "score += 1 if linked else 3" in src, "")
 
+cov = h.covered(ROOT)
+check("covered reads the index", cov.get("GDI") and cov.get("SND"), {k: cov.get(k) for k in ("GDI", "SND")})
+
 print("\nALL PASS" if not FAILS else f"\n{len(FAILS)} FAILED")
 sys.exit(1 if FAILS else 0)

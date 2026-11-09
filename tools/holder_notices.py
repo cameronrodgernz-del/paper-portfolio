@@ -365,6 +365,19 @@ def add_links(rows, cache, scratch, years, workers):
     return rows
 
 
+def covered(root):
+    """Companies already in research/picks/INDEX.md, with their status: {"GDI": "watching", ...}."""
+    p = os.path.join(root, "research", "picks", "INDEX.md")
+    out = {}
+    if os.path.exists(p):
+        for line in open(p, encoding="utf-8"):
+            m = re.match(r"\|\s*(?:ASX|NZX):([A-Z0-9]+)\s*\|", line)
+            if m:
+                cells = [c.strip() for c in line.strip().strip("|").split("|")]
+                out[m.group(1)] = cells[4] if len(cells) > 4 else "listed"
+    return out
+
+
 def write_report(root, rows, n_notices, n_companies, since, today):
     p = os.path.join(root, "data", "research_data", "holder_builds.csv")
     cols = ["ticker", "company", "holder", "first_pct", "last_pct", "notices", "rises", "first_date", "last_date", "ocr",
@@ -373,8 +386,9 @@ def write_report(root, rows, n_notices, n_companies, since, today):
         w = csv.DictWriter(f, fieldnames=cols, lineterminator="\n", extrasaction="ignore")
         w.writeheader()
         w.writerows({c: r.get(c, "") for c in cols} for r in rows)
-    head = "| Share | Holder | From | To | Notices | Rises | First | Latest | OCR |"
-    rule = "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"
+    head = "| Share | Holder | From | To | Notices | Rises | First | Latest | OCR | Covered |"
+    rule = "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"
+    cov = covered(root)
     lines = [f"# Holders building stakes, {today}", "",
              f"From {n_notices} substantial holder notices lodged since {since} for {n_companies} ASX companies on the research "
              "screen (tools/holder_notices.py). Listed: holders that aren't funds (by a name list), whose latest stake is 7% or "
@@ -385,7 +399,8 @@ def write_report(root, rows, n_notices, n_companies, since, today):
              "the holder named in a director's interest notice, or the same street address as another holder that isn't a "
              "fund. A linked holder can usually take control without paying other holders a premium (TOT and EGH, Nov "
              "2026), so outside buyers come first. Scanned notices can't be checked this way, so no link found isn't proof "
-             "of none.", ""]
+             "of none. The last column gives the company's status in research/picks/INDEX.md if it has already been looked "
+             "at: check that file before starting work on any line.", ""]
     sections = [("Outside buyers below 50% (building toward control, or a blocking stake):",
                  [r for r in rows if float(r["last_pct"]) < 50 and not r.get("linked")]),
                 ("Linked to the board or another holder, below 50%:",
@@ -398,7 +413,8 @@ def write_report(root, rows, n_notices, n_companies, since, today):
         for r in rs:
             who = r["holder"][:45] + (f" ({r['linked']})" if r.get("linked") else "")
             lines.append(f"| ASX:{r['ticker']} ({r['company'][:30]}) | {who} | {r['first_pct']}% | {r['last_pct']}% | "
-                         f"{r['notices']} | {r['rises']} | {r['first_date']} | {r['last_date']} | {r['ocr']} |")
+                         f"{r['notices']} | {r['rises']} | {r['first_date']} | {r['last_date']} | {r['ocr']} | "
+                         f"{cov.get(r['ticker'], '')} |")
         lines.append("")
     open(os.path.join(root, "reports", "holder_builds.md"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
 
