@@ -24,6 +24,11 @@ Places, with the weight each carries in the order:
     that was another raising): net cash (enterprise value below the market value) adds 1; net debt, including
     leases, of half to all of the market value takes 1 off; more than the market value takes 3 off
   less 4 for little or no revenue (under A$5m): explorers and developers raise and release escrow as routine
+  a holder that isn't a fund building a stake (3, added 9 Nov 2026 after Saunders): from
+    data/research_data/holder_builds.csv, written by tools/holder_notices.py, which reads every substantial holder
+    notice (OCR for scanned ones); latest stake 7% or more, two points or more above the window's start, still held.
+    Fresh if the latest rise was in the last six weeks. A pointer to read the notices: names and figures from OCR
+    can be wrong
 A company with a deep dive or fact sheet in the last three months goes to the bottom unless the evening desk has
 marked it reopened. Live control proposals and strategic reviews are listed apart, as special situations.
 NZX companies have no announcement headlines in the stored data, so they are listed with what the screen shows
@@ -106,6 +111,11 @@ def main(root: str, today_s: str | None = None):
             if r["change"] == "left" and r["date"] >= months_ago(today, 12) and r["date"] <= today.isoformat():
                 left.setdefault(r["symbol"].split(".")[0], []).append((r["date"], f"{r['index']} {r['date']}"))
     cov = coverage(root)
+    builds = {}
+    p = os.path.join(root, "data", "research_data", "holder_builds.csv")
+    if os.path.exists(p):
+        for b in csv.DictReader(open(p, encoding="utf-8")):
+            builds.setdefault(b["ticker"], []).append(b)
     recent = months_ago(today, 3)
     fresh_since = (today - timedelta(weeks=6)).isoformat()
     out, special = [], []
@@ -131,6 +141,11 @@ def main(root: str, today_s: str | None = None):
         if back_on:
             tags.append(f"back from a suspension ({back_on[0]['date']})"); score += 3
             fresh = fresh or back_on[0]["date"] >= fresh_since
+        b = builds.get(t, [None])[0] if mk == "ASX" else None  # the largest build (the file is sorted by stake)
+        if b:
+            tags.append(f"{b['holder'][:40]} building a stake ({b['first_pct']}% to {b['last_pct']}%, latest {b['last_date']})")
+            score += 3
+            fresh = fresh or b["last_date"] >= fresh_since
         if fresh:
             tags.append("fresh: within six weeks"); score += 1
         bh = float(r["below_high"]) if r.get("below_high") not in ("", None) else 0.0

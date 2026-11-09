@@ -28,7 +28,9 @@ consumer businesses, regulated businesses and rule changes).
 2. Run python3 -I src/research_screen.py . (pip install numpy pandas --break-system-packages if they are
    missing), then python3 -I tools/research_company_data.py . both (it keeps six days of cache, stops after two
    refusals, and never retries around a block), then python3 -I src/research_rank.py . and
-   python3 -I src/research_sweep.py . The ASX part of the screen uses Norgate's whole-market export; if its
+   python3 -I tools/holder_notices.py . (added 9 Nov 2026: it reads the week's new substantial holder notices,
+   including scanned ones by OCR, and lists holders that aren't funds building a stake in reports/holder_builds.md),
+   then python3 -I src/research_sweep.py . The ASX part of the screen uses Norgate's whole-market export; if its
    as-of date is more than six weeks old, say so at the top of reports/research_candidates.md so Cam can have it
    refreshed.
 3. The watch list. Rows the evening desk has marked "reopened" (a watch price hit, or a dated event that met its
