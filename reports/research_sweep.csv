@@ -24,7 +24,6 @@ ASX,PMM,Pioneer Minerals Limited,0.205,,6.9,-0.4306,4,"a share raising (2026-07-
 ASX,MMA,Maronan Metals Limited,0.38,,98.3,-0.4286,4,"a substantial holder left (2026-05-28); spin-off or demerger (2026-05-22); a share raising (2026-10-14); director notices after a -43% fall (2, latest 2026-10-01: open to see buy or sell); little or no revenue (an explorer or developer?); net cash (about A$41m)",,False
 ASX,DUG,DUG Technology Ltd,1.445,196.1,270.2,-0.4078,4,"a substantial holder left (2026-07-10); director notices after a -41% fall (3, latest 2026-09-03: open to see buy or sell)",,False
 ASX,VYS,Vysarn Limited,0.7,421.3,603.3,-0.3991,4,a substantial holder left (2026-09-11); a share raising (2026-07-29); net cash (about A$26m),,False
-ASX,MAD,Mader Group Limited,5.68,1200.9,2003.2,-0.3567,4,a substantial holder left (2026-09-07); buy-back (2026-11-05); net cash (about A$30m),,False
 ASX,FCL,Fineos Corporation Holdings PLC CDI 1:1,2.1,724.6,251.6,-0.3498,4,a substantial holder left (2026-11-05); fresh: within six weeks; net cash (about A$48m),,False
 ASX,ARN,Aldoro Resources Limited,0.335,,30.7,-0.33,4,a substantial holder left (2026-10-21); spin-off or demerger (2025-09-24); back from a suspension (2026-11-05); fresh: within six weeks; little or no revenue (an explorer or developer?),,False
 ASX,KLV,Klevo Group Limited,0.49,,20.9,-0.3241,4,a substantial holder left (2026-10-02); fresh: within six weeks; net cash (about A$10m),,False
@@ -83,7 +82,6 @@ ASX,MAM,Microequities Asset Management Group Limited,0.31,,5.5,-0.5,2,buy-back (
 ASX,OEC,Orbital Corporation Limited,0.1175,21.1,7.1,-0.4659,2,a loss last year after profits before (check what the loss was); small (A$21m),,False
 ASX,CBE,Cobre Limited,0.23,299.4,1583.4,-0.4588,2,"shares out of escrow (2026-06-22); a share raising (2026-07-16); director notices after a -46% fall (5, latest 2026-11-05: open to see buy or sell); little or no revenue (an explorer or developer?); net cash (about A$39m)",,False
 ASX,DGL,DGL Group Limited,0.24,68.5,18.8,-0.4074,2,"one-offs in the results (2026-03-10); director notices after a -41% fall (4, latest 2026-10-02: open to see buy or sell); a loss last year after profits before (check what the loss was); small (A$68m); net debt incl. leases about A$179m, more than the shares (the bad case may be a raising)",,False
-ASX,MGX,MGX Resources Limited,0.3,354.1,114.7,-0.3878,2,a loss last year after profits before (check what the loss was); net cash (about A$398m),,False
 ASX,RWL,Rubicon Water Limited,0.225,,15.8,-0.375,2,a substantial holder left (2026-08-11),,False
 ASX,CNQ,Clean TEQ Water Limited,0.52,46.3,41.7,-0.358,2,small (A$46m); net cash (about A$6m),,False
 ASX,NTD,Ntaw Holdings Limited,0.21,,17.1,-0.3226,2,"a substantial holder left (2026-09-28); one-offs in the results (2026-09-28); fresh: within six weeks; a loss last year after profits before (check what the loss was); net debt incl. leases about A$126m, more than the shares (the bad case may be a raising)",,False
@@ -198,6 +196,7 @@ ASX,KAU,Kaiser Reef Limited,0.155,93.8,229.6,-0.6265,4,"director notices after a
 ASX,HLS,Healius Limited,0.495,359.5,1300.4,-0.524,4,"left S&P/ASX 300 2026-09-21; a substantial holder left (2026-10-01); fresh: within six weeks; director notices after a -52% fall (8, latest 2026-10-27: open to see buy or sell); net debt incl. leases about A$933m, more than the shares (the bad case may be a raising)",2026-11-01,True
 ASX,ACE,Acusensus Limited,1.115,190.5,109.0,-0.4639,4,"director notices after a -46% fall (3, latest 2026-11-04: open to see buy or sell); a loss last year after profits before (check what the loss was); net cash (about A$20m)",2026-11-01,True
 ASX,ANG,Austin Engineering Limited,0.17,,61.9,-0.3929,4,shares out of escrow (2026-10-07); buy-back (2026-10-12); fresh: within six weeks,2026-11-08,True
+ASX,MAD,Mader Group Limited,5.68,1200.9,2003.2,-0.3567,4,a substantial holder left (2026-09-07); buy-back (2026-11-05); net cash (about A$30m),2026-11-09,True
 ASX,HLO,Helloworld Travel Limited,1.34,,194.1,-0.3527,4,shares out of escrow (2026-10-28); fresh: within six weeks; net cash (about A$39m),2026-11-08,True
 ASX,EOL,Energy One Limited,14.35,455.6,469.6,-0.2467,4,a substantial holder left (2026-10-13); fresh: within six weeks; net cash (about A$28m),2026-11-08,True
 ASX,MRT,Maritana Minerals Limited,0.52,194.2,433.1,-0.6556,3,"director notices after a -66% fall (1, latest 2026-09-11: open to see buy or sell); net cash (about A$231m)",2026-11-08,True
@@ -219,6 +218,7 @@ ASX,MYR,Myer Holdings Limited,0.2,346.1,1048.8,-0.5918,2,"left S&P/ASX 300 2026-
 ASX,MVP,Medical Developments International Limited,0.365,41.1,77.0,-0.471,2,small (A$41m); net cash (about A$20m),2026-11-08,True
 ASX,SXL,Southern Cross Media Group Limited,0.5,239.4,87.4,-0.422,2,"a substantial holder left (2026-05-25); director notices after a -42% fall (3, latest 2026-10-02: open to see buy or sell); a loss last year after profits before (check what the loss was); net debt incl. leases about A$641m, more than the shares (the bad case may be a raising)",2026-11-08,True
 ASX,AWJ,Auric Mining Limited,0.23,,77.4,-0.4177,2,a share raising (2026-04-13); net cash (about A$40m),2026-11-08,True
+ASX,MGX,MGX Resources Limited,0.3,354.1,114.7,-0.3878,2,a loss last year after profits before (check what the loss was); net cash (about A$398m),2026-11-09,True
 ASX,AFG,Australian Finance Group Ltd,1.49,393.0,1209.5,-0.3843,2,"left S&P/ASX 300 2026-09-21; a substantial holder left (2026-08-04); buy-back (2026-09-25); net debt incl. leases about A$7188m, more than the shares (the bad case may be a raising)",2026-11-08,True
 ASX,HPG,Hipages Group Holdings Ltd,0.87,118.8,11.1,-0.3673,2,buy-back (2026-11-06); net cash (about A$26m),2026-11-08,True
 ASX,ADH,Adairs Limited,1.33,239.8,508.5,-0.3636,2,"left S&P/ASX 300 2026-03-23; a substantial holder left (2026-07-03); a loss last year after profits before (check what the loss was); net debt incl. leases about A$274m, more than the shares (the bad case may be a raising)",2026-11-02,True

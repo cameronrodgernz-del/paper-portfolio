@@ -31,41 +31,41 @@ Pointers for the research desk (rulebook section 5a), not buy signals. Each comp
 | 23 | ASX:MMA | Maronan Metals Limited | 4 | a substantial holder left (2026-05-28); spin-off or demerger (2026-05-22); a share raising (2026-10-14); director notices after a -43% fall (2, latest 2026-10-01: open to see buy or sell); little or no revenue (an explorer or developer?); net cash (about A$41m) | 0.38 |  | -43% |  |
 | 24 | ASX:DUG | DUG Technology Ltd | 4 | a substantial holder left (2026-07-10); director notices after a -41% fall (3, latest 2026-09-03: open to see buy or sell) | 1.445 | 196.1 | -41% |  |
 | 25 | ASX:VYS | Vysarn Limited | 4 | a substantial holder left (2026-09-11); a share raising (2026-07-29); net cash (about A$26m) | 0.7 | 421.3 | -40% |  |
-| 26 | ASX:MAD | Mader Group Limited | 4 | a substantial holder left (2026-09-07); buy-back (2026-11-05); net cash (about A$30m) | 5.68 | 1200.9 | -36% |  |
-| 27 | ASX:FCL | Fineos Corporation Holdings PLC CDI 1: | 4 | a substantial holder left (2026-11-05); fresh: within six weeks; net cash (about A$48m) | 2.1 | 724.6 | -35% |  |
-| 28 | ASX:ARN | Aldoro Resources Limited | 4 | a substantial holder left (2026-10-21); spin-off or demerger (2025-09-24); back from a suspension (2026-11-05); fresh: within six weeks; little or no revenue (an explorer or developer?) | 0.335 |  | -33% |  |
-| 29 | ASX:KLV | Klevo Group Limited | 4 | a substantial holder left (2026-10-02); fresh: within six weeks; net cash (about A$10m) | 0.49 |  | -32% |  |
-| 30 | ASX:BIO | Biome Australia Limited | 4 | a substantial holder left (2026-06-12); small (A$83m); net cash (about A$4m) | 0.36 | 83.3 | -25% |  |
-| 31 | ASX:BLS | BLS Pharmaceuticals Limited | 4 | a substantial holder left (2026-10-13); fresh: within six weeks; net cash (about A$8m) | 1.025 | 236.7 | -21% |  |
-| 32 | ASX:RG1 | Regal Partners Global Investments Limi | 4 | a substantial holder left (2026-07-10); buy-back (2026-10-28); net cash (about A$14m) | 2.41 |  | -13% |  |
-| 33 | ASX:CUP | Count Limited | 4 | a substantial holder left (2026-11-04); a share raising (2026-11-06); fresh: within six weeks | 1.655 | 358.3 | 0% |  |
-| 34 | ASX:MSV | Mitchell Services Limited | 4 | a substantial holder left (2026-09-14); buy-back (2026-07-16); net cash (about A$6m) | 0.67 | 142.3 | 0% |  |
-| 35 | ASX:CXL | Calix Limited | 3 | one-offs in the results (2026-07-31); small (A$43m); net cash (about A$0m) | 0.2 | 43.2 | -88% |  |
-| 36 | ASX:BVR | Bellavista Resources Ltd | 3 | a substantial holder left (2026-10-12); spin-off or demerger (2026-05-11); fresh: within six weeks; little or no revenue (an explorer or developer?); small (A$42m); net cash (about A$19m) | 0.195 | 42.1 | -79% |  |
-| 37 | ASX:SDV | Scidev Ltd | 3 | a loss last year after profits before (check what the loss was); small (A$27m); net cash (about A$5m) | 0.14 | 26.6 | -73% |  |
-| 38 | ASX:TOR | Torque Metals Limited. | 3 | a substantial holder left (2026-11-03); a share raising (2026-10-08); fresh: within six weeks; director notices after a -69% fall (1, latest 2026-09-30: open to see buy or sell); little or no revenue (an explorer or developer?); net cash (about A$21m) | 0.17 | 128.6 | -69% |  |
-| 39 | ASX:DXB | Dimerix Limited | 3 | director notices after a -66% fall (1, latest 2026-11-05: open to see buy or sell); net cash (about A$19m) | 0.21 |  | -66% |  |
-| 40 | ASX:VHM | VHM Limited | 3 | a substantial holder left (2026-07-07); a share raising (2026-04-22); director notices after a -65% fall (2, latest 2026-10-29: open to see buy or sell); little or no revenue (an explorer or developer?); small (A$64m); net cash (about A$16m) | 0.205 | 63.9 | -65% |  |
-| 41 | ASX:SOM | Somnomed Limited | 3 | director notices after a -65% fall (4, latest 2026-08-28: open to see buy or sell); net cash (about A$16m) | 0.29 |  | -65% |  |
-| 42 | ASX:DBF | Duxton Farms Ltd | 3 | shares out of escrow (2026-08-14); a share raising (2026-09-25); director notices after a -64% fall (3, latest 2026-10-07: open to see buy or sell); a loss last year after profits before (check what the loss was); net debt incl. leases about A$110m, more than the shares (the bad case may be a raising) | 0.335 |  | -64% |  |
-| 43 | ASX:29M | 29METALS Limited | 3 | a share raising (2026-02-17); director notices after a -61% fall (1, latest 2026-11-05: open to see buy or sell) | 0.255 | 446.3 | -61% |  |
-| 44 | ASX:FAL | Falcon Metals Ltd | 3 | a substantial holder left (2026-09-09); a share raising (2026-08-28); director notices after a -61% fall (2, latest 2026-11-04: open to see buy or sell); little or no revenue (an explorer or developer?); small (A$92m); net cash (about A$22m) | 0.35 | 92.4 | -61% |  |
-| 45 | ASX:AAL | Alfabs Australia Limited | 3 | one-offs in the results (2026-04-10); director notices after a -59% fall (2, latest 2026-11-05: open to see buy or sell) | 0.2 |  | -59% |  |
-| 46 | ASX:RCE | Recce Pharmaceuticals Ltd | 3 | a share raising (2026-07-31); director notices after a -49% fall (1, latest 2026-11-06: open to see buy or sell) | 0.36 | 110.1 | -49% |  |
-| 47 | ASX:KZR | Kalamazoo Resources Limited | 3 | shares out of escrow (2026-08-03); a share raising (2026-10-07); director notices after a -47% fall (2, latest 2026-09-23: open to see buy or sell); little or no revenue (an explorer or developer?); small (A$51m); net cash (about A$2m) | 0.13 | 51.1 | -47% |  |
-| 48 | ASX:PSC | Prospect Resources Limited | 3 | shares out of escrow (2026-10-15); a share raising (2026-02-16); fresh: within six weeks; director notices after a -46% fall (4, latest 2026-10-07: open to see buy or sell); little or no revenue (an explorer or developer?); net cash (about A$42m) | 0.255 | 213.5 | -46% |  |
-| 49 | ASX:DWG | Dataworks Group Limited | 3 | a share raising (2026-10-15); director notices after a -44% fall (2, latest 2026-10-16: open to see buy or sell) | 0.115 |  | -44% |  |
-| 50 | ASX:QAL | Qualitas Limited | 3 | director notices after a -41% fall (4, latest 2026-10-19: open to see buy or sell); net cash (about A$18m) | 2.34 | 705.3 | -41% |  |
-| 51 | ASX:CSX | Cleanspace Holdings Limited | 3 | a share raising (2026-10-22); buy-back (2026-11-06); net cash (about A$9m) | 0.45 |  | -38% |  |
-| 52 | ASX:BRK | Brookside Energy Limited | 3 | buy-back (2026-07-10); small (A$37m); net cash (about A$14m) | 0.395 | 37.4 | -37% |  |
-| 53 | ASX:CML | Connected Minerals Limited | 3 | a substantial holder left (2026-08-31); shares out of escrow (2026-10-16); a share raising (2026-08-05); fresh: within six weeks; little or no revenue (an explorer or developer?); net cash (about A$5m) | 0.3 |  | -36% |  |
-| 54 | ASX:DUR | Duratec Limited | 3 | shares out of escrow (2026-07-23); net cash (about A$57m) | 1.98 | 516.8 | -33% |  |
-| 55 | ASX:PPK | PPK Group Limited | 3 | buy-back (2026-08-06); small (A$30m); net cash (about A$21m) | 0.325 | 29.5 | -32% |  |
-| 56 | ASX:MIR | Mirrabooka Investments Limited | 3 | a share raising (2026-03-05); buy-back (2026-09-16); net cash (about A$41m) | 2.31 |  | -29% |  |
-| 57 | ASX:C79 | Chrysos Corporation Limited | 3 | a substantial holder left (2026-08-31); net cash (about A$7m) | 7.12 | 831.1 | -28% |  |
-| 58 | ASX:PFG | Prime Financial Group Limited | 3 | shares out of escrow (2026-10-22); fresh: within six weeks | 0.185 |  | -27% |  |
-| 59 | ASX:FPC | Fat Prophets Global Contrarian Fund Lt | 3 | a share raising (2026-06-10); buy-back (2026-09-07); net cash (about A$2m) | 1.29 |  | -23% |  |
-| 60 | ASX:ACF | Acrow Limited | 3 | a substantial holder left (2026-06-04); a share raising (2026-07-23) | 0.865 | 364.7 | -23% |  |
+| 26 | ASX:FCL | Fineos Corporation Holdings PLC CDI 1: | 4 | a substantial holder left (2026-11-05); fresh: within six weeks; net cash (about A$48m) | 2.1 | 724.6 | -35% |  |
+| 27 | ASX:ARN | Aldoro Resources Limited | 4 | a substantial holder left (2026-10-21); spin-off or demerger (2025-09-24); back from a suspension (2026-11-05); fresh: within six weeks; little or no revenue (an explorer or developer?) | 0.335 |  | -33% |  |
+| 28 | ASX:KLV | Klevo Group Limited | 4 | a substantial holder left (2026-10-02); fresh: within six weeks; net cash (about A$10m) | 0.49 |  | -32% |  |
+| 29 | ASX:BIO | Biome Australia Limited | 4 | a substantial holder left (2026-06-12); small (A$83m); net cash (about A$4m) | 0.36 | 83.3 | -25% |  |
+| 30 | ASX:BLS | BLS Pharmaceuticals Limited | 4 | a substantial holder left (2026-10-13); fresh: within six weeks; net cash (about A$8m) | 1.025 | 236.7 | -21% |  |
+| 31 | ASX:RG1 | Regal Partners Global Investments Limi | 4 | a substantial holder left (2026-07-10); buy-back (2026-10-28); net cash (about A$14m) | 2.41 |  | -13% |  |
+| 32 | ASX:CUP | Count Limited | 4 | a substantial holder left (2026-11-04); a share raising (2026-11-06); fresh: within six weeks | 1.655 | 358.3 | 0% |  |
+| 33 | ASX:MSV | Mitchell Services Limited | 4 | a substantial holder left (2026-09-14); buy-back (2026-07-16); net cash (about A$6m) | 0.67 | 142.3 | 0% |  |
+| 34 | ASX:CXL | Calix Limited | 3 | one-offs in the results (2026-07-31); small (A$43m); net cash (about A$0m) | 0.2 | 43.2 | -88% |  |
+| 35 | ASX:BVR | Bellavista Resources Ltd | 3 | a substantial holder left (2026-10-12); spin-off or demerger (2026-05-11); fresh: within six weeks; little or no revenue (an explorer or developer?); small (A$42m); net cash (about A$19m) | 0.195 | 42.1 | -79% |  |
+| 36 | ASX:SDV | Scidev Ltd | 3 | a loss last year after profits before (check what the loss was); small (A$27m); net cash (about A$5m) | 0.14 | 26.6 | -73% |  |
+| 37 | ASX:TOR | Torque Metals Limited. | 3 | a substantial holder left (2026-11-03); a share raising (2026-10-08); fresh: within six weeks; director notices after a -69% fall (1, latest 2026-09-30: open to see buy or sell); little or no revenue (an explorer or developer?); net cash (about A$21m) | 0.17 | 128.6 | -69% |  |
+| 38 | ASX:DXB | Dimerix Limited | 3 | director notices after a -66% fall (1, latest 2026-11-05: open to see buy or sell); net cash (about A$19m) | 0.21 |  | -66% |  |
+| 39 | ASX:VHM | VHM Limited | 3 | a substantial holder left (2026-07-07); a share raising (2026-04-22); director notices after a -65% fall (2, latest 2026-10-29: open to see buy or sell); little or no revenue (an explorer or developer?); small (A$64m); net cash (about A$16m) | 0.205 | 63.9 | -65% |  |
+| 40 | ASX:SOM | Somnomed Limited | 3 | director notices after a -65% fall (4, latest 2026-08-28: open to see buy or sell); net cash (about A$16m) | 0.29 |  | -65% |  |
+| 41 | ASX:DBF | Duxton Farms Ltd | 3 | shares out of escrow (2026-08-14); a share raising (2026-09-25); director notices after a -64% fall (3, latest 2026-10-07: open to see buy or sell); a loss last year after profits before (check what the loss was); net debt incl. leases about A$110m, more than the shares (the bad case may be a raising) | 0.335 |  | -64% |  |
+| 42 | ASX:29M | 29METALS Limited | 3 | a share raising (2026-02-17); director notices after a -61% fall (1, latest 2026-11-05: open to see buy or sell) | 0.255 | 446.3 | -61% |  |
+| 43 | ASX:FAL | Falcon Metals Ltd | 3 | a substantial holder left (2026-09-09); a share raising (2026-08-28); director notices after a -61% fall (2, latest 2026-11-04: open to see buy or sell); little or no revenue (an explorer or developer?); small (A$92m); net cash (about A$22m) | 0.35 | 92.4 | -61% |  |
+| 44 | ASX:AAL | Alfabs Australia Limited | 3 | one-offs in the results (2026-04-10); director notices after a -59% fall (2, latest 2026-11-05: open to see buy or sell) | 0.2 |  | -59% |  |
+| 45 | ASX:RCE | Recce Pharmaceuticals Ltd | 3 | a share raising (2026-07-31); director notices after a -49% fall (1, latest 2026-11-06: open to see buy or sell) | 0.36 | 110.1 | -49% |  |
+| 46 | ASX:KZR | Kalamazoo Resources Limited | 3 | shares out of escrow (2026-08-03); a share raising (2026-10-07); director notices after a -47% fall (2, latest 2026-09-23: open to see buy or sell); little or no revenue (an explorer or developer?); small (A$51m); net cash (about A$2m) | 0.13 | 51.1 | -47% |  |
+| 47 | ASX:PSC | Prospect Resources Limited | 3 | shares out of escrow (2026-10-15); a share raising (2026-02-16); fresh: within six weeks; director notices after a -46% fall (4, latest 2026-10-07: open to see buy or sell); little or no revenue (an explorer or developer?); net cash (about A$42m) | 0.255 | 213.5 | -46% |  |
+| 48 | ASX:DWG | Dataworks Group Limited | 3 | a share raising (2026-10-15); director notices after a -44% fall (2, latest 2026-10-16: open to see buy or sell) | 0.115 |  | -44% |  |
+| 49 | ASX:QAL | Qualitas Limited | 3 | director notices after a -41% fall (4, latest 2026-10-19: open to see buy or sell); net cash (about A$18m) | 2.34 | 705.3 | -41% |  |
+| 50 | ASX:CSX | Cleanspace Holdings Limited | 3 | a share raising (2026-10-22); buy-back (2026-11-06); net cash (about A$9m) | 0.45 |  | -38% |  |
+| 51 | ASX:BRK | Brookside Energy Limited | 3 | buy-back (2026-07-10); small (A$37m); net cash (about A$14m) | 0.395 | 37.4 | -37% |  |
+| 52 | ASX:CML | Connected Minerals Limited | 3 | a substantial holder left (2026-08-31); shares out of escrow (2026-10-16); a share raising (2026-08-05); fresh: within six weeks; little or no revenue (an explorer or developer?); net cash (about A$5m) | 0.3 |  | -36% |  |
+| 53 | ASX:DUR | Duratec Limited | 3 | shares out of escrow (2026-07-23); net cash (about A$57m) | 1.98 | 516.8 | -33% |  |
+| 54 | ASX:PPK | PPK Group Limited | 3 | buy-back (2026-08-06); small (A$30m); net cash (about A$21m) | 0.325 | 29.5 | -32% |  |
+| 55 | ASX:MIR | Mirrabooka Investments Limited | 3 | a share raising (2026-03-05); buy-back (2026-09-16); net cash (about A$41m) | 2.31 |  | -29% |  |
+| 56 | ASX:C79 | Chrysos Corporation Limited | 3 | a substantial holder left (2026-08-31); net cash (about A$7m) | 7.12 | 831.1 | -28% |  |
+| 57 | ASX:PFG | Prime Financial Group Limited | 3 | shares out of escrow (2026-10-22); fresh: within six weeks | 0.185 |  | -27% |  |
+| 58 | ASX:FPC | Fat Prophets Global Contrarian Fund Lt | 3 | a share raising (2026-06-10); buy-back (2026-09-07); net cash (about A$2m) | 1.29 |  | -23% |  |
+| 59 | ASX:ACF | Acrow Limited | 3 | a substantial holder left (2026-06-04); a share raising (2026-07-23) | 0.865 | 364.7 | -23% |  |
+| 60 | ASX:RIV | Rivco Australia Ltd | 3 | a substantial holder left (2026-08-26); buy-back (2026-11-05) | 1.24 | 194.3 | -21% |  |
 
 ## Possible special situations (last six months)
 
