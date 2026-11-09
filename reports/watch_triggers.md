@@ -1,4 +1,4 @@
-# Research watch list, 2026-11-09
+# Research watch list, 2026-11-10
 
 Prices at which a "wait" verdict would be looked at again (research/watch_triggers.csv), and the dated events in the next 14 days (research/watch_events.csv). A hit sends the share back to the research desk to check the other conditions in its file; nothing is bought from this list. This is a simulation and not financial advice.
 
@@ -11,8 +11,9 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | Share | Qualifies at | Latest | Away | Stage | Next event |
 | --- | --- | --- | --- | --- | --- |
 | ASX:MAD (Mader Group) | AUD 5.38 | 5.48 | +1.9% | debate open, waiting on Cam | 2026-11-24: AGM |
-| ASX:SND (Saunders International) | AUD 0.7 | 0.725 | +3.6% | debate open, waiting on Cam | 2026-12-15: Aqua Metro earn-out assessed and paid (up to A$6.85m cash and A$5m in shares) |
+| ASX:TOT (360 Capital REIT) | AUD 0.375 | 0.4025 | +7.3% | case against filed, not run | 2027-02-18: 1H FY27 result |
 | ASX:CTD (Corporate Travel Management) | AUD 3.25 | 3.65 | +12.3% | case for only | 2026-11-12: 2025 and 2026 AGMs with FY27 guidance |
+| ASX:SND (Saunders International) | AUD 0.645 | 0.725 | +12.4% | decided: 9 November 2026: go. The revised card and the corrections are applied to research/picks/SND.md, with status "wait". The watch trigger moves from A$0.70 to A$0.645 (the special-situation price: at exactly A$0.65 the expected gain after costs is 12.2%, just short of 12.9%); as an ordinary pick it qualifies at about A$0.59. Round 2 was not run. | 2026-12-15: Aqua Metro earn-out assessed and paid (up to A$6.85m cash and A$5m in shares) |
 | ASX:MGX (MGX Resources) | AUD 0.255 | 0.29 | +13.7% | case for only | 2026-11-18: AGM |
 | ASX:DUR (Duratec) | AUD 1.65 | 1.885 | +14.2% | case for only | 2026-11-26: AGM |
 | ASX:BAP (Bapcor) | AUD 0.75 | 0.86 | +14.7% | case against filed, not run | 2027-02-25: 1H FY27 result |
@@ -28,7 +29,6 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:FWD | AUD 2 | 2.06 | 2026-11-09 | +3.0% | near | data/prices/ASX |
 | ASX:HLO | AUD 1.3 | 1.34 | 2026-11-09 | +3.1% | near | data/prices/ASX |
 | ASX:GEM | AUD 0.095 | 0.098 | 2026-11-09 | +3.2% | near | data/prices/ASX |
-| ASX:SND | AUD 0.7 | 0.725 | 2026-11-07 | +3.6% | near | ASX company data (last trade at fetch) |
 | ASX:GDF | AUD 1.08 | 1.12 | 2026-11-09 | +3.7% | near | data/prices/ASX |
 | ASX:MYG | AUD 1.5 | 1.565 | 2026-11-09 | +4.3% | near | data/prices/ASX |
 | NZX:KMD | NZD 2 | 2.1 | 2026-11-06 | +5.0% |  | data/prices/NZX |
@@ -36,6 +36,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:CCV | AUD 0.245 | 0.26 | 2026-11-09 | +6.1% |  | data/prices/ASX |
 | NZX:RAD | NZD 0.39 | 0.415 | 2026-11-06 | +6.4% |  | data/prices/NZX |
 | ASX:SXL | AUD 0.44 | 0.47 | 2026-11-09 | +6.8% |  | data/prices/ASX |
+| ASX:TOT | AUD 0.375 | 0.4025 | 2026-11-07 | +7.3% |  | ASX company data (last trade at fetch) |
 | ASX:IGL | AUD 2.12 | 2.28 | 2026-11-09 | +7.5% |  | data/prices/ASX |
 | ASX:AHC | AUD 0.24 | 0.26 | 2026-11-09 | +8.3% |  | data/prices/ASX |
 | ASX:CAF | AUD 0.35 | 0.38 | 2026-11-09 | +8.6% |  | data/prices/ASX |
@@ -49,6 +50,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:MVF | AUD 0.665 | 0.74 | 2026-11-09 | +11.3% |  | data/prices/ASX |
 | ASX:ASG | AUD 1 | 1.12 | 2026-11-09 | +12.0% |  | data/prices/ASX |
 | ASX:CTD | AUD 3.25 | 3.65 | 2026-11-09 | +12.3% |  | ASX company data (last trade at fetch) |
+| ASX:SND | AUD 0.645 | 0.725 | 2026-11-07 | +12.4% |  | ASX company data (last trade at fetch) |
 | ASX:MGX | AUD 0.255 | 0.29 | 2026-11-07 | +13.7% |  | ASX company data (last trade at fetch) |
 | ASX:CAA | AUD 11.75 | 13.37 | 2026-11-09 | +13.8% |  | data/prices/ASX |
 | ASX:DUR | AUD 1.65 | 1.885 | 2026-11-07 | +14.2% |  | ASX company data (last trade at fetch) |
@@ -110,3 +112,5 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 - 2026-11-20: ASX:GDF, Seven property settlements (Morningside due diligence) (announced)
 - 2026-11-20: ASX:HIT, AGM (early read on Hudson since 11 Sep) (announced)
 - 2026-11-20: ASX:HUM, AGM (second strike and possible board spill) (announced)
+- 2026-11-24: ASX:MVF, Genesis total return swap unwind must start (about) (inferred)
+- 2026-11-24: ASX:MAD, AGM: Burton leaves the board (watch for a block sale of up to 33.0m shares); re-run if a trading update cuts FY27 profit guidance below A$70m (research/picks/MAD.md) (announced)
