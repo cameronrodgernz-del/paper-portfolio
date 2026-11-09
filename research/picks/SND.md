@@ -2,11 +2,38 @@
 
 Written 2026-11-09 by Claude for the one-company-at-a-time process (rulebook section 5a, docs/RESEARCH_PROCESS.md). This is the case for buying.
 Price at writing: A$0.725 (last sale on 6 November; no trade on 9 November, bid A$0.72, offer A$0.825, ASX company data read 9 November 2026) [S15]. Shares on issue 140,818,031 [S15], so the market value is about A$102m. Net cash A$20.3m at 30 June 2026 (cash A$29.8m less A$9.5m of bank debt) [S3]; after the A$6.85m cash part of the Aqua Metro earn-out, due in the first half of FY27, about A$13.4m [S3].
-Status: finished. On the line: it qualifies at about A$0.69 as an ordinary pick, and at about A$0.70 as a special situation (the Ahrens build-up), against A$0.725 (see "Where it lands"). The case-against prompt is filed (research/against/SND_prompt.md), to run at about A$0.70 or on Cam's call. This is a simulation and not financial advice.
+Status: wait. Revised after the debate on 9 November 2026 (research/debate/SND.md, Cam's go the same day): it qualifies at about A$0.59 as an ordinary pick and about A$0.645 as a special situation (the Ahrens build-up), against A$0.725. See "Revised after the debate"; the sections after it are the original case for, with the facts the debate corrected fixed in place and the original numbers kept for the record. This is a simulation and not financial advice.
 
 Order of work: chosen on 9 November 2026 from a new screen of the federal contract register against the share price (the A$26.1m Defence contract below), and from the weekly sweep (a substantial holder left in July, a loss last year after profits, net cash). The bad case was roughed out from the filings first at about 25% to 35% below the price, on the limit rather than clearly past it, and the questions could lift it, so the work went on.
 
-## Where it lands
+## Revised after the debate
+The case against (research/against/SND.md, ChatGPT, 9 November 2026) corrected several facts, and Claude agreed with most of them (research/debate/SND.md). Cam gave the go on 9 November.
+
+What changed in the facts:
+- The second-half NPATA margin was 3.08%, not 3.4%: first-half amortisation of acquired intangibles was A$1.723m [S9], so first-half NPATA was about -A$1.1m and second-half NPATA about A$5.0m on A$162.1m. On the company's outlook, FY27 NPATA is about A$10.2m, not A$11.1m, and the business is valued at about 9.3 times it, net of cash.
+- The first half's adjusted EBITDA of A$0.4m included a A$2.848m gain on a A$4m property sale in August 2025 [S9, S3]. Without it the first half was about -A$2.5m, and FY26 NPATA about A$1.9m (0.6% of revenue).
+- Cash flow: operating cash flow for FY26 was -A$1.7m; -A$8.27m in the first half and about +A$6.6m in the second [S9, S3]. The second half converted; the year didn't.
+- Work in hand of A$571.9m compares with Saunders' own A$169m at June 2025 plus Aqua Metro's A$360m, which is mostly long programmes [S3]. The 8.1% growth is on the combined figure.
+- The earn-out shares are issued at the 30-day VWAP at payment, with a A$0.65 floor and a cap of 7.69m shares: about 6.9m at A$0.725 [D1].
+- NAOS bought back to 11.0% in August and isn't simply a seller.
+
+Revised outcomes to 31 August 2028, about 149m shares, dividends included:
+
+| Outcome | What happens | Chance | Value |
+| --- | --- | --- | --- |
+| Worse | Another bad half, losses and a raising; no bid | 12% | A$0.34 |
+| Bad | Growth stalls at A$340m; margin settles at 1.8%; 9 times plus about A$10m net cash | 25% | A$0.45 |
+| Middling | The second-half margin (3.08%) held on revenue growing to about A$380m; today's 9.3 times plus about A$18m net cash | 43% | A$0.89 |
+| Good | Ahrens or another buyer bids about A$1.08, or margins return to 4% to 5% | 20% | A$1.12 |
+
+The card reads 37% at A$0.415, 43% at A$0.89 and 20% at A$1.12. Expected value A$0.76, about +4.9% before costs and about 0% after them.
+
+Where it lands now:
+- As an ordinary pick it fails at A$0.725: the bad case is 43% below, outside the 30% limit, and the middling case is +23% against the +64% then needed. It qualifies at about A$0.59, where the bad case sits 30% below.
+- As a special situation it passes the expected-gain test at about A$0.645 (12.9% after costs).
+- The 1H FY27 result in late February settles most of what the two sides still disagree on: whether the second-half margin and cash flow held.
+
+## Where it lands (original, before the debate)
 On the line, on the failing side by a few cents. On my numbers:
 - the bad case is 28.1% below the price, inside the 30% limit;
 - the middling case is +29.4%, against the +42.1% the value test then asks for;
@@ -25,9 +52,9 @@ FY26 [S1, S2, S3]:
 - revenue A$305.6m, up 42.5% with the Aqua Metro purchase;
 - adjusted EBITDA A$9.8m (3.2% of revenue);
 - profit after tax excluding amortisation and acquisition costs (NPATA) A$3.9m; a statutory loss of A$0.9m;
-- the halves were very different: the first half made adjusted EBITDA of A$0.4m and an NPATA loss of about A$1.6m; the second half adjusted EBITDA of about A$9.4m and NPATA of about A$5.4m on A$162m of revenue, a 3.4% margin [S9, S3].
+- the halves were very different: the first half made adjusted EBITDA of A$0.4m and an NPATA loss of about A$1.6m; the second half adjusted EBITDA of about A$9.4m and NPATA of about A$5.4m on A$162m of revenue, a 3.4% margin [S9, S3]. Corrected in the debate: the first half's EBITDA included a A$2.848m property gain, and first-half amortisation was A$1.723m, so second-half NPATA was about A$5.0m, a 3.08% margin.
 
-The company has said twice, in August and at the 27 October AGM, that FY27 revenue will grow and the second-half NPATA margin will be held through FY27 [S1, S4]. On revenue of about A$330m that is NPATA of about A$11.1m.
+The company has said twice, in August and at the 27 October AGM, that FY27 revenue will grow and the second-half NPATA margin will be held through FY27 [S1, S4]. On revenue of about A$330m that is NPATA of about A$11.1m (about A$10.2m at the corrected 3.08% margin).
 
 So the business is valued at:
 - 26 times FY26 NPATA;
@@ -52,7 +79,7 @@ What the evidence showed:
 
 1. The second-half margin is close to Saunders' own record, and the work is there, but the company has missed three times in 18 months.
    - FY23 and FY24 net margins were 4.7% and 4.3% [S15]. The second half of FY26 was 3.4% (NPATA). FY25 and the first half of FY26 were the exceptions, and the company named their causes: project delays, weather, a heritage find on the Melbourne sewer job and Defence base access in the Northern Territory [S7, S9].
-   - Work in hand was a record A$571.9m at June, 42% of FY26 revenue came from panels and programmes rather than one-off projects, and four new water panels in October give access to about A$2bn of programmes over five years, with no guaranteed volume [S1, S6].
+   - Work in hand was a record A$571.9m at June (against Saunders' own A$169m a year earlier plus Aqua Metro's A$360m, mostly long programmes), 42% of FY26 revenue came from panels and programmes rather than one-off projects, and four new water panels in October give access to about A$2bn of programmes over five years, with no guaranteed volume [S1, S6].
    - The register: the federal contract register lists one contract to Saunders itself, CN4271325, published 24 August 2026, A$26.1m including GST, a limited tender for fuel installation upgrades to 30 September 2027 [S13]. That matches the A$23m Butterworth (Malaysia) head contract announced on 16 July [S8]. Saunders' other Defence work comes through head contractors (for example A$20m at Learmonth through CPB [S9]) and doesn't appear under its name.
    - What this changes: it supports the middling case. It doesn't remove the risk that a thin margin (3.2% EBITDA) is wiped out by one bad half, which the record shows happens.
 2. Ahrens has been buying steadily for two years and fits the profile of a bidder, but hasn't moved past 20%.
@@ -73,7 +100,7 @@ What the evidence showed:
    - Reading: Ahrens has paid about A$19m (my estimate: the first block's stated price, then each later block at that day's close) for a stake it can't easily sell in a stock that trades A$11,000 a day. It either wants control, a blocking position against another buyer, or a long-term strategic holding. I put a bid or other control deal before August 2028 at 20%. Ahrens can buy to 19.99% at any time; above that it needs a bid, a scheme with the board, or 3% every six months once it has held 19% for six months.
 3. The other holders [S3, S12]:
    - Desmond Bryant, a long-time holder, 18.4% (with his company Debry); he moved 2m shares to Debry at A$1.00 in February 2025 and hasn't sold.
-   - NAOS 11.0%: sold from 15.6% to 10.0% between March 2025 and June 2026, then bought back to 11.0% in August. Its listed funds are small (NAOS Emerging Opportunities is worth about A$30m), so this is a holder that may need to sell.
+   - NAOS 11.0%: sold from 15.6% to 10.0% between March 2025 and June 2026, then bought back to 11.0% in August (1.5m shares on 28 August), so it isn't simply a seller.
    - M Wade Holdings (the Aqua Metro vendor) 6.7%, out of escrow since 30 June 2026. The "substantial holder left" notice of 2 July was Saunders' own escrow interest ending, not a sale [S12].
    - Anacacia 6.6%, down from 10.6% (sold in June 2026).
    - Timothy Burnett, a former chair, 5.5%, a seller since 2024.
@@ -94,7 +121,7 @@ The board: Nick Yates (chair, former chair of BSA), Angelo De Angelis, Greg Flet
 ## The players and what the rules allow
 - Ahrens Group, 16.2% [S11]. Private, family owned, sales above A$1bn [S16]. Its average cost is about A$0.84 (my estimate from its notices and the day's closes). It can buy to 19.99% on market at any time. Beyond 20% it needs a takeover bid, a scheme agreed with the board, or the 3% creep allowance every six months after holding 19% for six months. A bid at A$1.08 would cost it about A$136m for the rest of the shares; that is about 13 times the FY27 outlook, net of cash, against the 15 to 30 times listed contractors trade at.
 - Desmond Bryant, 18.4% [S3]. With Ahrens, about 35%. If Ahrens bid, his acceptance would most likely decide it.
-- NAOS, 11.0% [S12]. A possible seller. A block to Ahrens would take it to 19.99% at most without a bid.
+- NAOS, 11.0% [S12]. Sold for a year, then bought in August. A block to Ahrens would take it to 19.99% at most without a bid.
 - The board: no major holder on it. A scheme would need its support.
 - If nothing happens: the bad, middling and worse cases below. The bad outcome for a special situation is that value. Here it is A$0.52 on the card.
 
@@ -105,15 +132,17 @@ Balance sheet at 30 June 2026 [S3]:
 - leases A$7.8m;
 - net assets A$63.4m, of which A$45.7m is intangibles (mostly Aqua Metro goodwill), so tangible assets are about A$17.7m (about A$0.12 a share).
 
-Working capital swung in Saunders' favour: contract liabilities (cash received ahead of work) rose to A$16.8m and payables to A$52.0m [S3]. Part of the year-end cash is clients' and suppliers' money.
+Contract liabilities (cash received ahead of work) rose to A$16.8m and payables to A$52.0m [S3], so part of the year-end cash is clients' and suppliers' money. Corrected in the debate: over the year receivables and contract assets absorbed A$12.5m and operating cash flow was -A$1.7m (-A$8.27m in the first half, about +A$6.6m in the second); cash rose on new shares and borrowing.
 
 The dividend was cut to 1.0 cent for FY26 (2.25 cents in FY25), with no interim [S1].
 
 ## Valuation
+The original numbers, kept for the record; the revised outcomes are under "Revised after the debate".
+
 Worked at 31 August 2028, after the FY28 result, about 22 months out. By then the market prices FY29.
 
 The assumptions:
-- Shares about 149m: 140.8m today, about 6.7m for the A$5m share part of the earn-out at about A$0.75, and about 1.5m of rights.
+- Shares about 149m: 140.8m today, about 6.7m for the A$5m share part of the earn-out at about A$0.75 (about 6.9m at today's price: VWAP at payment, A$0.65 floor, 7.69m cap [D1]), and about 1.5m of rights.
 - Dividends going ex before the resolve date: the FY27 interim, the FY27 final and the FY28 interim. Middling about 4.25 cents; bad 2 cents.
 - The middling case uses today's multiple of the company's own FY27 outlook, 8.5 times net of cash, so it assumes no re-rating.
 
@@ -166,7 +195,7 @@ As a special situation (the Ahrens build-up), the value test doesn't apply. The 
 - Whether a business that has missed three times in 18 months deserves the benefit of the doubt at all.
 
 ## Reopen conditions
-- The price at or below about A$0.70 with nothing worse than the bad case announced: run the filed case against.
+- The price at or below about A$0.645 with nothing worse than the bad case announced: re-check and buy as a special situation (about A$0.59 as an ordinary pick).
 - At any price: an Ahrens notice taking it past 18%, a bid, an approach or a block from Bryant or NAOS. Re-run as a special situation.
 - At any price: 1H FY27 NPATA of A$5m or more on revenue of A$160m or more. Re-run the outcomes.
 - Closes: a raising, an FY27 guidance cut, or Ahrens selling.
@@ -187,9 +216,10 @@ As a special situation (the Ahrens build-up), the value test doesn't apply. The 
 - [S6] Water market update, 26 Oct 2026: https://announcements.asx.com.au/asxpdf/20261026/pdf/075rsx6yrlh9gv.pdf
 - [S7] Revised FY26 guidance, 12 May 2026: https://announcements.asx.com.au/asxpdf/20260512/pdf/06zhmrr0qdr3s1.pdf
 - [S8] A$23m Defence fuel head contract (RMAF Butterworth), 16 Jul 2026: https://announcements.asx.com.au/asxpdf/20260716/pdf/071s1kc5yzntsp.pdf
-- [S9] H1 FY26 results and presentation, 25 Feb 2026: https://announcements.asx.com.au/asxpdf/20260225/pdf/06wqc4drvqhl3z.pdf and https://announcements.asx.com.au/asxpdf/20260225/pdf/06wqdl99ld2g6m.pdf; Learmonth subcontract, 18 Dec 2025: https://announcements.asx.com.au/asxpdf/20251218/pdf/06thvsq45gr6wx.pdf
+- [S9] H1 FY26 results and presentation, 25 Feb 2026: https://announcements.asx.com.au/asxpdf/20260225/pdf/06wqc4drvqhl3z.pdf and https://announcements.asx.com.au/asxpdf/20260225/pdf/06wqdl99ld2g6m.pdf; Learmonth subcontract, 18 Dec 2025: https://announcements.asx.com.au/asxpdf/20251218/pdf/06thvsq45gr6wx.pdf; interim financial report (note 4 segments, note 5 amortisation of A$1.723m, the A$4m property sale, operating cash flow -A$8.27m): https://announcements.asx.com.au/asxpdf/20260225/pdf/06wqbsww0c21sh.pdf
 - [S10] Director notices: Bellamy, 30 Oct 2026: https://announcements.asx.com.au/asxpdf/20261030/pdf/0761cdx3yfg7tv.pdf; De Angelis, 6 Nov 2026: https://announcements.asx.com.au/asxpdf/20261106/pdf/076b1gm8dwhv89.pdf
 - [S11] Ahrens Group substantial holder notices (most are scanned images; read by OCR): 4 Dec 2024: https://announcements.asx.com.au/asxpdf/20241204/pdf/06c7cc5j7d5kz6.pdf; 27 Mar 2025: https://announcements.asx.com.au/asxpdf/20250327/pdf/06h1vzb2fr0gwr.pdf; 1 Aug 2025: https://announcements.asx.com.au/asxpdf/20250801/pdf/06mfpsvk9kvhp6.pdf; 14 Nov 2025: https://announcements.asx.com.au/asxpdf/20251114/pdf/06s08mqhkb3tdg.pdf; 20 Jan 2026: https://announcements.asx.com.au/asxpdf/20260120/pdf/06vf44mz9skk7j.pdf; 1 Apr 2026: https://announcements.asx.com.au/asxpdf/20260401/pdf/06y1sf5xz4168t.pdf
+- [D1] Saunders, update on the Aqua Metro acquisition, 25 Sep 2025 (earn-out shares at the 30-day VWAP, A$0.65 notional floor, cap of 7,692,308 shares): https://announcements.asx.com.au/asxpdf/20250925/pdf/06pnxr7sk2jy1p.pdf
 - [S12] Other holder notices: NAOS, 7 Apr 2026: https://announcements.asx.com.au/asxpdf/20260407/pdf/06y627kj61nknw.pdf; 12 Jun 2026: https://announcements.asx.com.au/asxpdf/20260612/pdf/070lbgf5t5xp8g.pdf; 31 Aug 2026: https://announcements.asx.com.au/asxpdf/20260831/pdf/073hzq1978r8x7.pdf; Anacacia, 10 Jun 2026: https://announcements.asx.com.au/asxpdf/20260610/pdf/070hbrjl57xlqy.pdf; escrow release, 22 Jun 2026: https://announcements.asx.com.au/asxpdf/20260622/pdf/070w7lhnbsm800.pdf; ceasing notice (escrow), 2 Jul 2026: https://announcements.asx.com.au/asxpdf/20260702/pdf/0719b7wrsk2f05.pdf
 - [S13] AusTender contract notices (data/austender/contracts_2026.csv.gz and matched.csv): CN4271325, Department of Defence, 24 Aug 2026
 - [S14] Norgate prices (data/norgate/universe/prices_2019 to 2026)

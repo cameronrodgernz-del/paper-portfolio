@@ -3,7 +3,7 @@
 Started 2026-11-09 under docs/RESEARCH_PROCESS.md step 5. The case for is research/picks/SND.md (Claude). The case against is research/against/SND.md (ChatGPT, run by Cam on 9 November 2026, with its report kept as research/against/SND_bear_case.pdf). Price throughout: A$0.725, the last sale on 6 November. This is a simulation and not financial advice.
 
 ## Where the two still disagree
-After round 1 neither side says buy at A$0.725. The case for had it on the line, qualifying at about A$0.69 to A$0.70. With the corrections below (waiting on Cam's go), it qualifies at about A$0.60 as an ordinary pick and about A$0.65 as a special situation. The case against would look again at about A$0.45.
+After round 1 neither side says buy at A$0.725. The case for had it on the line, qualifying at about A$0.69 to A$0.70. With the corrections below (applied on Cam's go, 9 November), it qualifies at about A$0.59 as an ordinary pick and about A$0.645 as a special situation. The case against would look again at about A$0.45.
 
 Where they still disagree, and what would settle it:
 1. How bad the bad case is.
@@ -75,7 +75,7 @@ Each point is taken in the order the case against makes it. I say whether I agre
     - Its point: with a 10% chance of a A$1.20 bid, about 10.3% after costs, a fail; it needs a little over 14% at A$0.725 [A].
     - My view: agree with the method. On my revised no-deal outcomes (a lower bad case and a smaller middling cash build), the bid chance needed at A$0.725 rises to about 40%, and about 21% at A$0.65. With my 20%, it passes as a special situation at about A$0.65.
 
-## What I'd change in the case for (on Cam's go)
+## What I'd change in the case for (applied 9 November on Cam's go)
 Revised outcomes to 31 August 2028, with about 149m shares and dividends included:
 
 | Outcome | What happens | Chance | Value |
@@ -126,4 +126,4 @@ Use primary sources with links, plain English and Australian dollars. Keep it to
 - [D3] Saunders FY26 annual report, 27 Aug 2026 (cash flow statement, note 3 segments, the A$2.848m gain on disposal, note 11 work in hand of A$571.9m against A$169m plus Aqua Metro's A$360m): https://announcements.asx.com.au/asxpdf/20260827/pdf/0739x2m6629zk6.pdf
 
 ## Cam's decision
-Not yet made.
+9 November 2026: go. The revised card and the corrections are applied to research/picks/SND.md, with status "wait". The watch trigger moves from A$0.70 to A$0.645 (the special-situation price: at exactly A$0.65 the expected gain after costs is 12.2%, just short of 12.9%); as an ordinary pick it qualifies at about A$0.59. Round 2 was not run.
