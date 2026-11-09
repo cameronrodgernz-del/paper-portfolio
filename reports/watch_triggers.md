@@ -2,9 +2,7 @@
 
 Prices at which a "wait" verdict would be looked at again (research/watch_triggers.csv), and the dated events in the next 14 days (research/watch_events.csv). A hit sends the share back to the research desk to check the other conditions in its file; nothing is bought from this list. This is a simulation and not financial advice.
 
-## Hit
-
-- ASX:FCL (FINEOS) at 2.05 on 2026-11-07, at or below 2.17. Also needs: FY26 revenue guidance (EUR147m to EUR152m) held and no top-two client lost; then run the filed case against (research/against/FCL_prompt.md). File: research/picks/FCL.md
+No trigger hit.
 
 ## Close calls
 
@@ -12,10 +10,8 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 
 | Share | Qualifies at | Latest | Away | Stage | Next event |
 | --- | --- | --- | --- | --- | --- |
-| ASX:FCL (FINEOS) | AUD 2.17 | 2.05 | -5.5% | case against filed, not run | 2027-01-28: December quarter cash report |
 | ASX:MAD (Mader Group) | AUD 5.38 | 5.48 | +1.9% | debate open, waiting on Cam | 2026-11-24: AGM |
 | ASX:CTD (Corporate Travel Management) | AUD 3.25 | 3.65 | +12.3% | case for only | 2026-11-12: 2025 and 2026 AGMs with FY27 guidance |
-| ASX:NXL (Nuix) | AUD 1.68 | 1.9 | +13.1% | debate open, waiting on Cam | 2026-11-19: AGM and likely trading update |
 | ASX:MGX (MGX Resources) | AUD 0.255 | 0.29 | +13.7% | case for only | 2026-11-18: AGM |
 | ASX:BAP (Bapcor) | AUD 0.75 | 0.86 | +14.7% | case against filed, not run | 2027-02-25: 1H FY27 result |
 | ASX:AQZ (Alliance Aviation Services) | AUD 0.31 | 0.395 | +27.4% | case against filed, not run | 2026-11-26: AGM |
@@ -24,7 +20,6 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 
 | Share | Trigger | Latest | Date | Away | State | Source of price |
 | --- | --- | --- | --- | --- | --- | --- |
-| ASX:FCL | AUD 2.17 | 2.05 | 2026-11-07 | -5.5% | HIT | ASX company data (last trade at fetch) |
 | ASX:MAD | AUD 5.38 | 5.48 | 2026-11-09 | +1.9% | near | ASX company data (last trade at fetch) |
 | ASX:FWD | AUD 2 | 2.04 | 2026-11-07 | +2.0% | near | ASX company data (last trade at fetch) |
 | ASX:JIN | AUD 6.13 | 6.31 | 2026-11-07 | +2.9% | near | ASX company data (last trade at fetch) |
@@ -32,7 +27,6 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:GDF | AUD 1.08 | 1.12 | 2026-11-07 | +3.7% | near | ASX company data (last trade at fetch) |
 | ASX:HLO | AUD 1.3 | 1.355 | 2026-11-07 | +4.2% | near | ASX company data (last trade at fetch) |
 | NZX:KMD | NZD 2 | 2.1 | 2026-11-06 | +5.0% |  | data/prices/NZX |
-| NZX:ERD | NZD 0.75 | 0.79 | 2026-11-06 | +5.3% |  | data/prices/NZX |
 | ASX:GDI | AUD 0.605 | 0.64 | 2026-11-07 | +5.8% |  | ASX company data (last trade at fetch) |
 | ASX:DSK | AUD 0.68 | 0.72 | 2026-11-07 | +5.9% |  | ASX company data (last trade at fetch) |
 | NZX:RAD | NZD 0.39 | 0.415 | 2026-11-06 | +6.4% |  | data/prices/NZX |
@@ -53,16 +47,12 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:AFG | AUD 1.41 | 1.565 | 2026-11-07 | +11.0% |  | ASX company data (last trade at fetch) |
 | ASX:MVF | AUD 0.665 | 0.74 | 2026-11-07 | +11.3% |  | ASX company data (last trade at fetch) |
 | ASX:CAA | AUD 11.75 | 13.16 | 2026-11-07 | +12.0% |  | ASX company data (last trade at fetch) |
-| ASX:ATA | AUD 0.285 | 0.32 | 2026-11-07 | +12.3% |  | ASX company data (last trade at fetch) |
 | ASX:CTD | AUD 3.25 | 3.65 | 2026-11-09 | +12.3% |  | ASX company data (last trade at fetch) |
-| ASX:NXL | AUD 1.68 | 1.9 | 2026-11-07 | +13.1% |  | ASX company data (last trade at fetch) |
 | ASX:MGX | AUD 0.255 | 0.29 | 2026-11-07 | +13.7% |  | ASX company data (last trade at fetch) |
 | ASX:BAP | AUD 0.75 | 0.86 | 2026-11-09 | +14.7% |  | ASX company data (last trade at fetch) |
 | ASX:AD8 | AUD 1.75 | 2.01 | 2026-11-07 | +14.9% |  | ASX company data (last trade at fetch) |
 | ASX:CZR | AUD 0.165 | 0.19 | 2026-11-07 | +15.2% |  | ASX company data (last trade at fetch) |
-| NZX:SKO | NZD 1.05 | 1.21 | 2026-11-06 | +15.2% |  | data/prices/NZX |
 | ASX:TRJ | AUD 0.22 | 0.255 | 2026-11-07 | +15.9% |  | ASX company data (last trade at fetch) |
-| ASX:IRI | AUD 0.23 | 0.2675 | 2026-11-07 | +16.3% |  | ASX company data (last trade at fetch) |
 | ASX:AL3 | AUD 0.09 | 0.105 | 2026-11-07 | +16.7% |  | ASX company data (last trade at fetch) |
 | ASX:EML | AUD 0.24 | 0.28 | 2026-11-07 | +16.7% |  | ASX company data (last trade at fetch) |
 | ASX:AWJ | AUD 0.2 | 0.235 | 2026-11-07 | +17.5% |  | ASX company data (last trade at fetch) |
@@ -71,7 +61,6 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | NZX:SPG | NZD 0.94 | 1.11 | 2026-11-06 | +18.1% |  | data/prices/NZX |
 | ASX:FEX | AUD 0.165 | 0.195 | 2026-11-07 | +18.2% |  | ASX company data (last trade at fetch) |
 | NZX:OCA | NZD 0.555 | 0.66 | 2026-11-06 | +18.9% |  | data/prices/NZX |
-| ASX:RKN | AUD 0.33 | 0.395 | 2026-11-07 | +19.7% |  | ASX company data (last trade at fetch) |
 | NZX:IPL | NZD 0.84 | 1.01 | 2026-11-06 | +20.2% |  | data/prices/NZX |
 | ASX:STP | AUD 0.11 | 0.135 | 2026-11-07 | +22.7% |  | ASX company data (last trade at fetch) |
 | ASX:DXC | AUD 2.18 | 2.76 | 2026-11-07 | +26.6% |  | ASX company data (last trade at fetch) |
@@ -81,7 +70,6 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | NZX:PGW | NZD 1.66 | 2.19 | 2026-11-06 | +31.9% |  | data/prices/NZX |
 | ASX:EVZ | AUD 0.295 | 0.4 | 2026-11-07 | +35.6% |  | ASX company data (last trade at fetch) |
 | ASX:BBT | AUD 0.09 | 0.125 | 2026-11-07 | +38.9% |  | ASX company data (last trade at fetch) |
-| ASX:KYP | AUD 0.084 | 0.1175 | 2026-11-07 | +39.9% |  | ASX company data (last trade at fetch) |
 | ASX:HIT | AUD 0.79 | 1.11 | 2026-11-07 | +40.5% |  | ASX company data (last trade at fetch) |
 | NZX:SCT | NZD 1.6 | 2.37 | 2026-11-06 | +48.1% |  | data/prices/NZX |
 | ASX:KAU | AUD 0.1 | 0.15 | 2026-11-07 | +50.0% |  | ASX company data (last trade at fetch) |
@@ -100,9 +88,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 - 2026-11-12: ASX:CTD, 2025 and 2026 AGMs with FY27 guidance: re-run the outcomes if FY27 EBITDA guidance is about A$125m or more (research/picks/CTD.md) (announced)
 - 2026-11-13: ASX:CAF, annual meeting (whether SEQ sits inside FY27 guidance) (announced)
 - 2026-11-13: ASX:EVZ, AGM (10% placement facility vote) (announced)
-- 2026-11-14: ASX:IRI, 1H FY27 trading update (inferred from last year)
 - 2026-11-16: NZX:PGW, Elders FY26 result (anything on the PGW stake) (announced)
-- 2026-11-16: NZX:SKO, H1 FY27 result and guidance revision (Booking.com terms, FY28 spend) (announced)
 - 2026-11-17: NZX:SAN, FY26 result and notice of meeting (Umios nominee?) (announced)
 - 2026-11-18: ASX:EML, AGM (guidance; first-quarter underlying EBITDA A$8m or more to keep the case alive, red team 8 Nov) (announced)
 - 2026-11-18: ASX:HLO, Helloworld can creep in Webjet without a bid (inferred from its 19% crossing date)
@@ -114,7 +100,6 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 - 2026-11-19: NZX:BRW, AGM (announced)
 - 2026-11-19: NZX:MFB, 1H27 result and chair change (after the failed sale process) (announced)
 - 2026-11-19: NZX:OCA, 1H27 result (announced)
-- 2026-11-19: ASX:NXL, AGM and likely trading update: re-run if FY27 ACV guidance (A$285m to A$300m) changes (research/picks/NXL.md) (announced)
 - 2026-11-20: ASX:ASG, AGM (H1 FY27 guidance, order bank) (announced)
 - 2026-11-20: ASX:BOL, AGM business update (four-month trading, FY27 budget, wind work) (announced)
 - 2026-11-20: ASX:EVZ, 1H27 guidance (expected) (inferred)

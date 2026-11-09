@@ -1,6 +1,8 @@
 # EROAD (NZX:ERD): special situation deep dive
 
 Written 2026-11-08 by the research desk. Price at writing: NZ$0.79 (NZX close on 6 November 2026, FinFeedAPI, data/prices/NZX/ERD.csv; the NZX quote page shows the same last price, with a bid of NZ$0.79 and an offer of NZ$0.81 [S43]). Market value: NZ$149.4m (189,082,683 shares on issue, NZX [S43]).
+Rejected 9 November 2026: Cam avoids software companies exposed to AI disruption (9 Nov 2026, docs/RESEARCH_PROCESS.md step 1). The watch price and events are removed; the work below stands as the record.
+
 Status: finished. Verdict: wait for a named event, the H1 FY27 result and operational and strategic update on 24 November 2026 (reopen conditions under "Dated events"). Not a value pick: the bad case (NZ$0.55) is 30% below the price and the middling case (NZ$0.85) only 8% above it. Looked at as a special situation (holder build-up) and as a value question. This is a simulation and not financial advice.
 Fact sheet: research/facts/NZ_ERD.md, grade A. Its question: with the 4G unit replacement finished, do cash earnings recover to the normalised NZ$12.1m a year and does North America stop losing cash? Its "if it goes our way" anchor was NZ$1.89 (NZ$17.1m of cash earnings at Objective Corporation's 21.3 times).
 

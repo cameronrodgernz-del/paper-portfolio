@@ -2,6 +2,8 @@
 
 Written 2026-11-09 by Claude for the one-company-at-a-time process (rulebook section 5a, docs/RESEARCH_PROCESS.md). This is the case for buying.
 Price at writing: A$2.18 (last sale, ASX company data, read 9 November 2026; up 6% on the day) [S13]. Shares (CDIs) on issue 345.0m [S13], so the market value is about A$752m, or about €463m at A$1 = €0.616 [S18]. Cash €51.7m at 30 September 2026 and no debt [S4]. Using a June-to-September average of about €45m, the business is valued at about €418m.
+Rejected 9 November 2026: Cam avoids software companies exposed to AI disruption (9 Nov 2026, docs/RESEARCH_PROCESS.md step 1). The watch price and events are removed; the work below stands as the record.
+
 Status: finished. On the line: it qualifies at about A$2.17, a cent under the last trade (see "Where it lands"). This is a simulation and not financial advice.
 
 Order of work: chosen on 9 November 2026 as a profitable, net-cash company with fresh selling. Regal Partners ceased to be a substantial holder on 3 November [S8], after it left the S&P/ASX All Technology index in June [S9]. The bad case was roughed out from the filings first, at about 20% to 30% below the price, inside the limit, so the work went on to the evidence outside the filings.

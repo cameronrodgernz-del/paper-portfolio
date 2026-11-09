@@ -4,11 +4,9 @@ ASX,CWP,Cedar Woods Properties,5.75,AUD,"FY27 guidance intact; or about A$6.10 a
 ASX,STP,Step One Clothing,0.11,AUD,no news worse than the bad case,research/picks/STP.md
 ASX,TRJ,Trajan Group Holdings,0.22,AUD,before the trading update (about 5 Feb 2027) with FY27 guidance unchanged and no news or heavy selling to explain the fall,research/red_team/TRJ.md
 ASX,HLO,Helloworld Travel,1.30,AUD,no company news and travel peers down no more than 5% (as an ordinary pick); not after a guidance cut or a debt-funded Webjet bid,research/red_team/HLO.md
-ASX,IRI,Integrated Research,0.23,AUD,"after the trading update and AGM: 1H contracts signed A$22m or more, no acquisition, net cash A$44m or more",research/picks/IRI.md
 ASX,DXC,Dexus Convenience Retail REIT,2.18,AUD,20.9c distribution guidance for FY27 and FY28 held and NTA A$3.75 or more,research/picks/DXC.md
 ASX,KAU,Kaiser Reef,0.10,AUD,Henty at 5500oz a quarter or more and gold A$5500/oz or more (as a value pick),research/picks/KAU.md
 ASX,CAF,Centrepoint Alliance,0.35,AUD,FY27 guidance unchanged,research/picks/CAF.md
-ASX,RKN,Reckon,0.33,AUD,nothing else changed,research/picks/RKN.md
 ASX,FML,Focus Minerals,1.40,AUD,gold A$5500/oz or more,research/picks/FML.md
 ASX,AL3,AML3D,0.09,AUD,no change to the Newport News timing or the order book,research/picks/AL3.md
 ASX,GRR,Grange Resources,0.055,AUD,see the deep dive's reopen conditions,research/picks/GRR.md
@@ -17,16 +15,12 @@ NZX,IPL,Investore Property,0.84,NZD,6.5c dividend guidance and NTA NZ$1.55 or mo
 NZX,SPG,Stride Property Group,0.94,NZD,8.0c dividend guidance and NTA NZ$1.60 or more,research/picks/NZ_SPG.md
 NZX,SAN,Sanford,6.00,NZD,FY26 underlying profit NZ$55m or more (or NZ$6.60 with FY26 underlying NZ$62m or more and operating cash NZ$90m or more),research/picks/NZ_SAN.md
 NZX,SCT,Scott Technology,1.60,NZD,FY27 range intact (as a value pick),research/picks/NZ_SCT.md
-NZX,ERD,EROAD,0.75,NZD,"after the H1 result: cash earnings NZ$4m or more, net debt NZ$20m or less, a plan for NZ$12m a year in FY28",research/picks/NZ_ERD.md
 ASX,HUM,Humm Group,0.45,AUD,no worse news (before 5 Mar 2027),research/picks/HUM.md
 NZX,KMD,KMD Brands,2.00,NZD,exclusivity still live and nothing negative announced (or about NZ$1.54 as a value pick if talks end),research/picks/NZ_KMD.md
 ASX,CZR,CZR Resources,0.165,AUD,no new related-party plan (about 0.70 times net cash),research/picks/CZR.md
-ASX,ATA,Atturra,0.285,AUD,no new bad news (as a value pick),research/picks/ATA.md
 NZX,SKC,SkyCity Entertainment Group,0.635,NZD,sale process still alive and trading in line,research/picks/NZ_SKC.md
 ASX,BBT,Betr Entertainment,0.090,AUD,"PointsBet at A$0.745 or more, FY27 range intact at the half-year, own cash A$7m or more",research/picks/BBT.md
-ASX,KYP,Kinatico,0.084,AUD,the January quarterly shows revenue growth of 4% or more,research/picks/KYP.md
 ASX,AD8,Audinate Group,1.75,AUD,no new adverse news before the H1 FY27 result,research/picks/AD8.md
-NZX,SKO,Serko,1.05,NZD,"in the month after an in-line H1 result (income midpoint NZ$133m or more, H1 free cash flow positive, spend not raised, revenue per room night EUR8.40 or more)",research/picks/NZ_SKO.md
 ASX,AFG,Australian Finance Group,1.41,AUD,"no change to the outlook (as a value pick); not after a margin below 115bps, a funding-cost warning or a shrinking book",research/picks/AFG.md
 ASX,GEM,G8 Education,0.095,AUD,"before the CY26 result with no new bad news (no raise, waiver or occupancy warning)",research/picks/GEM.md
 NZX,RAD,Radius Residential Care,0.39,NZD,after an in-line H1 result (underlying EBITDA less resale gains NZ$13.8m to NZ$14.7m); NZ$0.44 after a strong one; NZ$0.35 as a value pick,research/picks/NZ_RAD.md
@@ -58,8 +52,6 @@ ASX,GDI,GDI Property Group,0.605,AUD,"before the 30 Dec ex-date (about A$0.58 af
 ASX,IGL,IVE Group,2.12,AUD,"FY27 guidance intact after the 25 Nov AGM (dividends counted, as the rulebook now says); about A$2.28 after a 1H27 result meeting conditions (a) to (g); a review, not a card (red team 8 Nov)",research/picks/IGL.md
 ASX,BAP,Bapcor,0.75,AUD,FY27 outlook unchanged and no new raising; then the case against and the debate,research/picks/BAP.md
 ASX,AQZ,Alliance Aviation Services,0.31,AUD,no new raising announced and FY27 guidance unchanged; then the case against and the debate,research/picks/AQZ.md
-ASX,CTD,Corporate Travel Management,3.25,AUD,"FY27 guidance from the 12 Nov AGM of about A$110m EBITDA or more and no class action filed above about A$150m; then the case against",research/picks/CTD.md
-ASX,NXL,Nuix,1.68,AUD,"revised after debate round 1 (9 Nov); no news worse than the bad case (FY27 ACV guidance held, no adverse class action judgment); a judgment for Nuix lifts it to about A$1.84: then debate round 2",research/picks/NXL.md
-ASX,MGX,MGX Resources,0.255,AUD,"no purchase outside Central Tanami announced and cash and investments of about A$380m or more; then the case against",research/picks/MGX.md
-ASX,MAD,Mader Group,5.38,AUD,"revised after debate round 1 (9 Nov); FY27 guidance of at least A$72.5m held and no debt-funded acquisition; a Burton block sale at a discount is the likely route: then debate round 2",research/picks/MAD.md
-ASX,FCL,FINEOS,2.17,AUD,"FY26 revenue guidance (EUR147m to EUR152m) held and no top-two client lost; then run the filed case against (research/against/FCL_prompt.md)",research/picks/FCL.md
+ASX,CTD,Corporate Travel Management,3.25,AUD,FY27 guidance from the 12 Nov AGM of about A$110m EBITDA or more and no class action filed above about A$150m; then the case against,research/picks/CTD.md
+ASX,MGX,MGX Resources,0.255,AUD,no purchase outside Central Tanami announced and cash and investments of about A$380m or more; then the case against,research/picks/MGX.md
+ASX,MAD,Mader Group,5.38,AUD,revised after debate round 1 (9 Nov); FY27 guidance of at least A$72.5m held and no debt-funded acquisition; a Burton block sale at a discount is the likely route: then debate round 2,research/picks/MAD.md

@@ -7,9 +7,7 @@ date,market,ticker,event,date_basis
 2026-11-12,ASX,PAC,strategic review update at or before the AGM,announced
 2026-11-13,ASX,CAF,annual meeting (whether SEQ sits inside FY27 guidance),announced
 2026-11-13,ASX,EVZ,AGM (10% placement facility vote),announced
-2026-11-14,ASX,IRI,1H FY27 trading update,inferred from last year
 2026-11-16,NZX,PGW,Elders FY26 result (anything on the PGW stake),announced
-2026-11-16,NZX,SKO,"H1 FY27 result and guidance revision (Booking.com terms, FY28 spend)",announced
 2026-11-17,NZX,SAN,FY26 result and notice of meeting (Umios nominee?),announced
 2026-11-18,ASX,EML,"AGM (guidance; first-quarter underlying EBITDA A$8m or more to keep the case alive, red team 8 Nov)",announced
 2026-11-18,ASX,HLO,Helloworld can creep in Webjet without a bid,inferred from its 19% crossing date
@@ -27,9 +25,7 @@ date,market,ticker,event,date_basis
 2026-11-20,ASX,HIT,AGM (early read on Hudson since 11 Sep),announced
 2026-11-20,ASX,HUM,AGM (second strike and possible board spill),announced
 2026-11-24,ASX,MVF,Genesis total return swap unwind must start (about),inferred
-2026-11-24,NZX,ERD,H1 FY27 result and strategic update,announced
 2026-11-25,ASX,IGL,IVE Group AGM and trading update: FY27 guidance (underlying NPAT before AASB 16 broadly stable on A$52.5m) must be reaffirmed with no softer wording; a cut closes the value pick case,company
-2026-11-25,ASX,IRI,annual meeting,announced
 2026-11-25,NZX,IPL,1H27 result,inferred
 2026-11-25,NZX,KMD,AGM (Bluestar exclusivity running),announced
 2026-11-25,NZX,SPG,HY27 result,inferred
@@ -50,10 +46,8 @@ date,market,ticker,event,date_basis
 2026-12-16,NZX,SAN,annual meeting,announced
 2026-12-18,ASX,CAA,buyback ends,announced
 2026-12-23,NZX,KMD,Bluestar exclusivity long stop,announced
-2026-12-31,ASX,ATA,contract dispute mediation deadline; Westpac facility term ends,announced
 2027-01-08,ASX,KAU,December quarter production update,inferred
 2027-01-15,ASX,BCN,"December quarter (Lady Ida recovered grade at 1.2 Mtpa, all-in cost)",inferred
-2027-01-15,ASX,KYP,December quarter revenue flash,inferred
 2027-01-20,ASX,ATG,"December quarter trading update (gross profit after marketing, sales)",inferred
 2027-01-22,ASX,FEX,"December quarter (C1, freight, cash, no equity)",inferred
 2027-01-27,ASX,AL3,December quarterly (Newport News commissioning),inferred
@@ -64,7 +58,6 @@ date,market,ticker,event,date_basis
 2027-01-31,ASX,ZIM,December quarter (by),announced
 2027-02-04,ASX,GDF,1H27 result (first PwC review of the loan book),inferred
 2027-02-05,ASX,TRJ,1H trading update,inferred
-2027-02-10,ASX,RKN,FY26 result,inferred
 2027-02-16,ASX,AD8,H1 FY27 result,inferred
 2027-02-16,ASX,GDI,"1H FY27 result (rent-free, fit-outs, WS1 and WS2 values)",inferred
 2027-02-17,ASX,SXL,Stokes group creep window opens; 1H FY27 result due mid to late Feb,inferred
@@ -91,7 +84,6 @@ date,market,ticker,event,date_basis
 2027-02-26,ASX,ANG,HY27 result (fifth guidance test; Chile and North America),inferred
 2027-02-26,ASX,CAA,FY26 result,announced
 2027-02-26,ASX,HIT,"H1 FY27 result, first with Hudson",inferred
-2027-02-26,ASX,KYP,H1 FY27 result (due by 28 Feb),inferred
 2027-02-26,ASX,ZIM,Half-year and interim dividend decision (by 28 Feb),announced
 2027-02-27,ASX,MYG,"1H FY27 result (work in hand, cash conversion)",inferred
 2027-03-01,ASX,EDU,T1 2027 enrolments (with the FY26 result about 26 Feb),inferred
@@ -99,13 +91,10 @@ date,market,ticker,event,date_basis
 2027-02-25,ASX,BAP,"1H FY27 result: reopen if earnings after rent for the half are A$40m or more, Trade like-for-like still growing, net debt A$110m or less, and on track for the Dec 2027 fixed charge test (research/picks/BAP.md)",estimated from last year's 26 Feb
 2026-11-26,ASX,AQZ,"AGM: new CEO's first address, any trading update, votes on placement capacity (research/picks/AQZ.md)",announced
 2027-02-23,ASX,AQZ,"1H FY27 result: reopen if asset sales of A$40m or more are done, net debt A$410m or less at 31 Dec 2026, ANZ refinanced past Sep 2028, 1H EBITDA A$85m or more with FY27 guidance held, and no raising (research/picks/AQZ.md)",estimated from last year's 20 Feb
-2026-11-12,ASX,CTD,"2025 and 2026 AGMs with FY27 guidance: re-run the outcomes if FY27 EBITDA guidance is about A$125m or more (research/picks/CTD.md)",announced
-2027-06-30,ASX,CTD,"Australian Government travel management deed: first one-year option due; AusTender agency contracts end on this date unless extended (research/picks/CTD.md)",announced
-2026-11-19,ASX,NXL,"AGM and likely trading update: re-run if FY27 ACV guidance (A$285m to A$300m) changes (research/picks/NXL.md)",announced
-2026-11-18,ASX,MGX,"AGM: re-run the outcomes if the board brings back the buyback or announces a capital return (research/picks/MGX.md)",announced
-2026-11-30,ASX,MGX,"Tanami Gold (JV partner) AGM: re-run as a special situation if a merger with MGX or a funding deal for the build is announced (research/picks/MGX.md)",announced
+2026-11-12,ASX,CTD,2025 and 2026 AGMs with FY27 guidance: re-run the outcomes if FY27 EBITDA guidance is about A$125m or more (research/picks/CTD.md),announced
+2027-06-30,ASX,CTD,Australian Government travel management deed: first one-year option due; AusTender agency contracts end on this date unless extended (research/picks/CTD.md),announced
+2026-11-18,ASX,MGX,AGM: re-run the outcomes if the board brings back the buyback or announces a capital return (research/picks/MGX.md),announced
+2026-11-30,ASX,MGX,Tanami Gold (JV partner) AGM: re-run as a special situation if a merger with MGX or a funding deal for the build is announced (research/picks/MGX.md),announced
 2027-01-22,ASX,MGX,"December quarter report: cash and investments, JV spend and the Crestlink settlement (research/picks/MGX.md)",estimated from last year's 23 Jan
-2026-11-24,ASX,MAD,"AGM: Burton leaves the board (watch for a block sale of up to 33.0m shares); re-run if a trading update cuts FY27 profit guidance below A$70m (research/picks/MAD.md)",announced
+2026-11-24,ASX,MAD,AGM: Burton leaves the board (watch for a block sale of up to 33.0m shares); re-run if a trading update cuts FY27 profit guidance below A$70m (research/picks/MAD.md),announced
 2027-02-24,ASX,MAD,"1H FY27 result: margins against the early investment, buyback progress and any acquisitions (research/picks/MAD.md)",estimated from last year's 24 Feb
-2027-01-28,ASX,FCL,"December quarter cash report: cash, receipts and guidance (research/picks/FCL.md)",estimated from last year's 28 Jan
-2027-02-25,ASX,FCL,"FY26 result: re-run the outcomes if EBITDA margin is 24% or more and ARR growth 13% or more; check FY27 guidance and client concentration (research/picks/FCL.md)",estimated from last year's 25 Feb

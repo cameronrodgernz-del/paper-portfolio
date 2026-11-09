@@ -1,6 +1,8 @@
 # Atturra (ASX:ATA): special situation and value deep dive
 
 Written 2026-11-08 by the research desk. Price at writing: A$0.32 (last trade on 6 November 2026, 21,642 shares; the close on 5 November was A$0.33; at the 6 November close the best bid was A$0.30 and the best offer A$0.365) [M1]. Market value: A$117.8m (368,090,382 shares on issue, unchanged since 28 May 2026 [A11]).
+Rejected 9 November 2026: Cam avoids software companies exposed to AI disruption (9 Nov 2026, docs/RESEARCH_PROCESS.md step 1). The watch price and events are removed; the work below stands as the record.
+
 Status: finished. Verdict: wait for a named event: the half-year result due about 26 February 2027, taken with the contract dispute mediation due by 31 December 2026 and the chair's next full creep window from about 3 March 2027 (the exact reopen conditions are under "Dated events"). Not a value pick: at A$0.32 the "nothing happens" value (A$0.26) is 19% below the price, against the 10% the rule allows. As an ordinary or special situation pick to 5 March 2027 the expected gain is about +1.7% before costs and about -2.8% after them, against a minimum of +2.3%. This is a simulation and not financial advice.
 Fact sheet: research/facts/ATA.md, grade C, stopped at the kill check because the chair holds over 50% and is buying; sent here by the special situations triage (reports/special_situations_triage_nzx.md, grade B) to settle why the price fell, what the business earns in cash, what the chair can do, and whether it is a value pick or a special situation with a dated event.
 

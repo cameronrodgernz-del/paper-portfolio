@@ -168,4 +168,4 @@ Use primary sources with links, plain English and Australian dollars. Keep it to
 - [D3] Nuix FY26 results presentation, 24 Aug 2026 (net dollar retention 107.4% in FY25, 101.0% at 1H26, 105.2% at FY26; multi-year deals 35% of revenue from 27%): https://announcements.asx.com.au/asxpdf/20260824/pdf/073325n21jp1yt.pdf
 
 ## Cam's decision
-Not yet made.
+No (9 November 2026), under Cam's general rule: he avoids software companies exposed to AI disruption (docs/RESEARCH_PROCESS.md step 1). Not a judgment on this case; round 2 won't be run.

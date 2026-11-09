@@ -5,6 +5,10 @@ From 9 November 2026 (rulebook section 5a). This replaces the funnel of 2 Novemb
 ## The steps
 1. Choose. Claude proposes the next company, usually from reports/research_candidates.md (the weekly sweep),
    and agrees it with Cam in chat. One company is worked at a time.
+   Leave out software companies exposed to AI disruption (Cam, 9 Nov 2026: he thinks they are all in trouble).
+   On the ASX that is the industry group "Software & Services" in the exchange's company data, which also
+   covers IT services; on the NZX, where there is no sector field, the list in src/research_sweep.py (AVOID_NZX).
+   The sweep skips them. Hardware (Audinate, say) is not covered. A borderline case is raised with Cam, not assumed.
 2. The questions and the evidence (added 9 Nov 2026, before any deep dive). Every step here is research done now,
    from evidence that already exists: no waiting for future data, and no asking people.
    a. Read the filings to find what the price assumes, then write down the two to four questions that decide whether

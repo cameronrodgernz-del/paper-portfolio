@@ -54,6 +54,19 @@ RETURN = re.compile(r"reinstatement to (official )?quotation|reinstated to (offi
 SPECIAL = re.compile(r"strategic review|non-binding|indicative proposal|takeover|scheme implementation|bidder'?s statement", re.I)
 
 
+# Cam avoids software companies exposed to AI disruption (9 Nov 2026, docs/RESEARCH_PROCESS.md step 1).
+# ASX: the GICS industry group in the exchange's company data; NZX has no sector field, so known names are listed.
+AVOID_GROUPS = {"Software & Services"}
+AVOID_NZX = {"SKO", "ERD", "VGL", "GTK", "PYS"}
+
+
+def avoided(asx: dict, market: str, ticker: str) -> bool:
+    if market == "NZX":
+        return ticker in AVOID_NZX
+    group = ((asx.get(ticker) or {}).get("header") or {}).get("industryGroup") or ""
+    return group in AVOID_GROUPS
+
+
 def other_code(headline: str, ticker: str) -> bool:
     """True when a holder notice is the company's own, about a stake it holds in
     another listed company ("Ceasing to be a substantial holder for MMA" lodged
@@ -96,8 +109,12 @@ def main(root: str, today_s: str | None = None):
     recent = months_ago(today, 3)
     fresh_since = (today - timedelta(weeks=6)).isoformat()
     out, special = [], []
+    skipped = 0
     for r in rows:
         mk, t = r["market"], r["ticker"]
+        if avoided(asx, mk, t):
+            skipped += 1
+            continue
         tags, score, fresh = [], 0, False
         if t in left and mk == "ASX":
             tags.append("left " + "; ".join(x[1] for x in left[t])); score += 2
@@ -162,7 +179,8 @@ def main(root: str, today_s: str | None = None):
          "Pointers for the research desk (rulebook section 5a), not buy signals. Each company on the screen is tagged with the "
          "places a wrong price most often comes from; the desk reads the top of this list and writes reports/research_candidates.md. "
          "Companies covered in the last three months sit at the bottom unless reopened.", "",
-         f"{len(rows)} on the screen, {len(out)} with at least one tag.", "",
+         f"{len(rows)} on the screen, {skipped} software companies left out (Cam avoids software exposed to AI disruption, "
+         f"9 Nov 2026), {len(out)} with at least one tag.", "",
          "| # | Share | Name | Score | Places | Price | Value (m) | Below high | Covered |", "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
     for i, x in enumerate(out[:60], 1):
         bh = f"{float(x['below_high']):.0%}" if x["below_high"] not in ("", None) else ""

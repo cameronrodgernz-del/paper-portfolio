@@ -1,6 +1,8 @@
 # Integrated Research (ASX:IRI): deep dive. Not a value pick: the bad case (A$0.22) is 18% below the price and the middling case (A$0.29, A$0.325 with dividends) only 8% above it (22% with dividends)
 
 Written 2026-11-08 by the research desk. Price at writing: A$0.2675 (last trade on Friday 6 November 2026, bid A$0.26, ask A$0.27, ASX company data in data/research_data/asx_company.json, fetched 7 November 2026 UTC; Norgate's last close in the repo is A$0.26 on 30 October [D1, D2]). Market value: A$48.8m (182,388,666 shares on issue, Appendix 2A of 30 September 2026 [I32]).
+Rejected 9 November 2026: Cam avoids software companies exposed to AI disruption (9 Nov 2026, docs/RESEARCH_PROCESS.md step 1). The watch price and events are removed; the work below stands as the record.
+
 Status: finished. This is a simulation and not financial advice.
 Verdict: **Wait for a named event**: the first-half FY27 trading update (expected mid-November 2026, last year 14 November) and the AGM on 25 November 2026, then the first-half FY27 result (about 26 February 2027). Reopen conditions are under "What would make this wrong". Not a value pick, and not an ordinary research pick either, because nothing inside six months shows the answer (the FY27 renewals are weighted to the second half and land in July and August 2027).
 Fact sheet: research/facts/IRI.md, grade A (a value pick, only just). The question it set: has the Prognosis contract book stopped shrinking? Its "our way" anchor was A$0.584 (pro forma revenue held at A$65.8m, earnings of A$8.0m at 8 times, plus A$42.7m of net cash); its "against us" anchor A$0.242 (two more years of 12% decline, then nothing but the cash).

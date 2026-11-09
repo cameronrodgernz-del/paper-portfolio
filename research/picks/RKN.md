@@ -3,6 +3,8 @@
 Verdict: wait for a named event, Reckon's FY26 result (about 10 February 2027). No card. Not a value pick (rulebook section 5a): the bad case fails the 10% leg by a wide margin. As an ordinary pick resolving after the FY26 result, the expected gain after costs is about -2.6%, below the minimum of about 2.3% (the 2.13% cash rate plus 5% a year, over the 117 days to the resolve date). The conditions that would reopen it are under "What would make this wrong".
 
 Written 2026-11-08 by the research desk. Price at writing: A$0.395 (last trade on Friday 6 November 2026, ASX company header fetched 7 November 2026 UTC; bid A$0.395, ask A$0.42; ASX's previous-close field shows A$0.40, which is what its A$45.3m market value uses) [R28]. Norgate's last close in the repo is A$0.40 on 30 October 2026 [D1]. Market value: A$44.8m at A$0.395 (113,294,832 shares, unchanged since at least the start of 2024 [R1, R2]).
+Rejected 9 November 2026: Cam avoids software companies exposed to AI disruption (9 Nov 2026, docs/RESEARCH_PROCESS.md step 1). The watch price and events are removed; the work below stands as the record.
+
 Status: finished. This is a simulation and not financial advice.
 Fact sheet: research/facts/RKN.md, grade A as a value pick on a pre-tax comparison ("our way" A$0.707, "against" A$0.376); its own after-tax cross-check (A$0.546 and A$0.306) was a B. The questions it set: is the Business Group's cash, after all development, leases and tax, durable while legacy users move to Reckon One; what is the Legal Group worth or costing; and which tax basis is fair.
 

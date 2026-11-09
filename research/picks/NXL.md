@@ -2,6 +2,8 @@
 
 Written 2026-11-09 by Claude for the one-company-at-a-time process (rulebook section 5a, docs/RESEARCH_PROCESS.md). This is the case for buying.
 Price at writing: A$1.925 (last sale, ASX company data, read 9 November 2026) [S12]. Market value: about A$661.3m (343,541,266 shares on issue [S13]). Net cash A$49.9m at 30 June 2026 [S1], so the business is valued at about A$611m.
+Rejected 9 November 2026: Cam avoids software companies exposed to AI disruption (9 Nov 2026, docs/RESEARCH_PROCESS.md step 1). The watch price and events are removed; the work below stands as the record.
+
 Status: finished, then revised after round 1 of the debate (9 November 2026, Cam's go). Wait: it now qualifies at about A$1.68 (see "Revised after the debate"). As first written it qualified at about A$1.89. This is a simulation and not financial advice.
 
 ## Revised after the debate

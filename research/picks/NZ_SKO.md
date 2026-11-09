@@ -1,6 +1,8 @@
 # Serko Limited (NZX:SKO): deep dive
 
 Written 2026-11-08 by the research desk. Price at writing: NZ$1.21 (close on Friday 6 November 2026, FinFeedAPI, data/prices/NZX/SKO.csv; NZX's own data shows the same close, with a bid of NZ$1.21 and an offer of NZ$1.25 [S2]). Market value: NZ$152.6m (shares on issue 126,139,278, NZX [S2]).
+Rejected 9 November 2026: Cam avoids software companies exposed to AI disruption (9 Nov 2026, docs/RESEARCH_PROCESS.md step 1). The watch price and events are removed; the work below stands as the record.
+
 Status: finished. Verdict: wait for a named event, the H1 FY27 result and FY27 guidance revision on 16 November 2026; the exact conditions that reopen or close it are under "Dated events". Not a value pick: the bad case (NZ$1.00) is 17% below the price and the middling case (NZ$1.16) is 4% below it, against the rule's limits of no more than 10% below and at least 15% above. Looked at as an ordinary research pick. This is a simulation and not financial advice.
 Fact sheet: research/facts/NZ_SKO.md (written 2 November 2026 under the earlier template, prices from 30 October), grade A, "deep dive now, once liquidity is measured". Its question: is the core business (61% of revenue from supplier commissions, mainly Booking.com for Business, renewal 2029) growing and paying for itself, so worth far more than the roughly NZ$101m the price puts on it outside cash?
 
