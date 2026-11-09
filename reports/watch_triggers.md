@@ -13,6 +13,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:MAD (Mader Group) | AUD 5.38 | 5.48 | +1.9% | debate open, waiting on Cam | 2026-11-24: AGM |
 | ASX:CTD (Corporate Travel Management) | AUD 3.25 | 3.65 | +12.3% | case for only | 2026-11-12: 2025 and 2026 AGMs with FY27 guidance |
 | ASX:MGX (MGX Resources) | AUD 0.255 | 0.29 | +13.7% | case for only | 2026-11-18: AGM |
+| ASX:DUR (Duratec) | AUD 1.65 | 1.885 | +14.2% | case for only | 2026-11-26: AGM |
 | ASX:BAP (Bapcor) | AUD 0.75 | 0.86 | +14.7% | case against filed, not run | 2027-02-25: 1H FY27 result |
 | ASX:AQZ (Alliance Aviation Services) | AUD 0.31 | 0.395 | +27.4% | case against filed, not run | 2026-11-26: AGM |
 
@@ -49,6 +50,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:CAA | AUD 11.75 | 13.16 | 2026-11-07 | +12.0% |  | ASX company data (last trade at fetch) |
 | ASX:CTD | AUD 3.25 | 3.65 | 2026-11-09 | +12.3% |  | ASX company data (last trade at fetch) |
 | ASX:MGX | AUD 0.255 | 0.29 | 2026-11-07 | +13.7% |  | ASX company data (last trade at fetch) |
+| ASX:DUR | AUD 1.65 | 1.885 | 2026-11-07 | +14.2% |  | ASX company data (last trade at fetch) |
 | ASX:BAP | AUD 0.75 | 0.86 | 2026-11-09 | +14.7% |  | ASX company data (last trade at fetch) |
 | ASX:AD8 | AUD 1.75 | 2.01 | 2026-11-07 | +14.9% |  | ASX company data (last trade at fetch) |
 | ASX:CZR | AUD 0.165 | 0.19 | 2026-11-07 | +15.2% |  | ASX company data (last trade at fetch) |
