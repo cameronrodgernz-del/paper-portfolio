@@ -165,3 +165,23 @@ Changed:
 Analysed: nothing placed or carded without a valuation. For the record, in order of expected_yearly: GL1 (+146%), A11 (+76% with the later payment date), MEI (+26%), BET (+21%), RWC (+19%); cash deals stay barred (test 9c failed), MEI's card stays "waiting" (trigger not met). US deals watched only, no special situation type has passed.
 
 Placed: nothing (no valuation tonight). No limit could be checked without the clerk run.
+
+## 2026-11-09, Nightly job started by the desk after the 8:17pm run did not fire; valuation in; no material deal news found; nothing placed
+
+Checked:
+- All 19 test files in tests/ pass under python3 -I.
+- The scheduled 8:17pm nightly run did not start at all tonight (GitHub Actions listed no scheduled run for 9 Nov; the last scheduled run was for 6 Nov). This is the third weeknight in four that the schedule has not fired on time, and the first since it was moved off the half hour on 8 Nov. At 9:47pm NZDT the desk wrote "Desk run 2026-11-09 21:47 NZ: the 8:17pm job had not landed" to config/run_now.txt and pushed it (commit c5db3c6). That run (Actions run 14) started at 9:47pm and committed "Nightly data 2026-11-09" (83705fb). If the scheduled run turns up late, it will skip the day as already valued.
+- Practice valuation for 9 Nov: NZ$99,511.91, 0.65% below the peak, no limit flags. src/actions.py practice check: nothing missing.
+- Note: origin/main had been force-pushed since the last local copy (the old 5 and 6 Nov nightly commits are no longer in the history, though their valuations are in the ledger). The desk worked from the remote main as it stands.
+- reports/data_checks.md (9 Nov): no price flags. Eleven deal file findings, all "last checked 8 days ago" (AX1, VAU, BET, AUC, SDF, RWC, MEI, CWY, FPR, RTH, GL1); no key date has passed since any file was checked. The ASX announcement pages and the ASX data feed still can't be opened from the desk (the fetch needs an approval no one is there to give; InvestSMART and Market Index pages failed too), so the files could not be re-checked against primary sources tonight. Their last_checked dates are left as they are rather than marked checked on news searches alone; the findings stand until a desk can open the announcement lists.
+- Scan of the 13 live ASX deals since the 6 Nov entry, by news searches. Nothing new found for AX1, VAU, BET, OML, AUC, SDF, PPC, RWC, MEI, CWY, FPR, A11, RTH or GL1. Ingenia (PPC's scrip leg): nothing found after Warburg Pincus's 6 Nov A$5.55 proposal; its due diligence deadline is 10 Nov. OML's FIRB approval (deadline 13 Nov) not yet announced. VAU's election outcome announcement (Genesis, "VAU indicative outcome of scheme consideration elections") exists but could not be opened; meeting still 11 Nov.
+- No new binding ASX or NZX control deal of A$100m (NZ$20m) or more found. NZX: nothing new on thl or SkyCity.
+- Research watch list (reports/watch_triggers.md, 9 Nov): no trigger hit. Nearest: JIN (+1.3%), MAD (+1.9%), DSK (+2.9%). No event in research/watch_events.csv fell between 7 and 9 Nov; SXL's ticker change to SMG is tomorrow.
+- US leads (reports/deal_monitor.md): watched only, as test 9b has not passed.
+
+Changed:
+- Nothing on the live list or in the deal database (no deal completed or ended), so base rates and odds were not rerun. Deal monitor rerun on 9 Nov closes; no change from the nightly job's output.
+
+Analysed, in order of expected_yearly: GL1 (+126%), A11 (+82%), MEI (+42%, late case +46%), RWC (+37%), BET (+22%); the rest are below zero at the base rate, and AX1 and PPC have no figure. Cash deals stay barred (test 9c failed). MEI's card (research/cards/2026-11-02-MEI.json) stays "waiting": its re-test trigger, a CIMCE filing with a decision date or a ruling that the regime doesn't apply, has not been announced. MEI's gap has widened to 15.8% on a 0.235 close. VAU and AUC are below zero after costs; PPC's scrip leg still carries Ingenia's own bids. No special situation type has passed; no research card is "ready" and none is held.
+
+Placed: nothing.
