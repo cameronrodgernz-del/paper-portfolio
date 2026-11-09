@@ -20,7 +20,6 @@ Below 50% (building toward control, or a blocking stake):
 | ASX:NTD (Ntaw Holdings Limited) | Tony Young | 16.80% | 21.25% | 4 | 3 | 2025-01-24 | 2026-09-21 | yes |
 | ASX:G6M (Group 6 Metals Limited) | Mrs Gwenda Ann Chadwick | 16.16% | 21.21% | 2 | 0 | 2025-04-30 | 2025-11-05 | yes |
 | ASX:BWN (Bhagwan Marine Limited) | VELROSSO PTY LTD | 6.54% | 20.00% | 2 | 1 | 2026-02-17 | 2026-05-14 | yes |
-| ASX:EL8 (Elevate Uranium Ltd) | Sprott Inc. (Sprott) and each of its controll | 8.49% | 20.00% | 3 | 1 | 2025-04-23 | 2025-11-18 | yes |
 | ASX:FEG (Far East Gold Ltd) | Gold Refinery Group Co., Ltd (Xingye Refinery | 14.56% | 19.99% | 2 | 1 | 2024-12-19 | 2025-02-26 | no |
 | ASX:LRK (Lark Distilling Co. Ltd) | Quality Life Pty Ltd <ATF The Neill Family Tr | 15.89% | 19.66% | 2 | 1 | 2026-01-16 | 2026-02-13 | yes |
 | ASX:NTD (Ntaw Holdings Limited) | Ryan Young | 15.10% | 19.40% | 4 | 3 | 2025-01-24 | 2026-09-21 | yes |
@@ -34,7 +33,6 @@ Below 50% (building toward control, or a blocking stake):
 | ASX:IOV (Ion Video Ltd) | UNRANDOM PTY LTD PTY LTD | 9.07% | 16.54% | 2 | 1 | 2025-12-05 | 2026-05-25 | no |
 | ASX:SND (Saunders International Limited) | Ahrens Group Pty Ltd | 5.34% | 16.20% | 7 | 5 | 2024-12-02 | 2026-03-30 | yes |
 | ASX:LM1 (Leeuwin Metals Ltd) | Forrestania Resources Limited (Forrestania) | 7.03% | 15.25% | 6 | 5 | 2026-06-11 | 2026-11-03 | no |
-| ASX:PEN (Peninsula Energy Limited) | Tees River Uranium Fund Limited (Tees River)  | 9.14% | 15.20% | 6 | 2 | 2025-09-02 | 2026-05-25 | no |
 | ASX:CPN (Caspin Resources Limited) | Farjoy Pty Ltd & Timothy Frank Robertson | 6.25% | 14.73% | 7 | 5 | 2026-03-19 | 2026-10-23 | yes |
 | ASX:RCE (Recce Pharmaceuticals Ltd) | Gavin William Brown (GWB) | 7.16% | 13.68% | 2 | 1 | 2025-06-10 | 2025-07-24 | yes |
 | ASX:FHE (Frontier Energy Limited) | Davey Holdings (Aus) Pty Ltd <Burnaford A/C> | 10.10% | 12.19% | 2 | 1 | 2025-11-20 | 2025-11-25 | no |
@@ -47,10 +45,8 @@ Below 50% (building toward control, or a blocking stake):
 | ASX:BKB (Black Bear Minerals Limited) | COLIN PETROULAS | 5.12% | 9.85% | 2 | 1 | 2026-07-06 | 2026-09-03 | no |
 | ASX:KZR (Kalamazoo Resources Limited) | YT International Pty Ltd | 6.58% | 9.42% | 2 | 1 | 2026-07-29 | 2026-10-12 | yes |
 | ASX:FDV (Frontier Digital Ventures Limi) | David Cohen as trustee for The Ezrah Charitab | 5.02% | 9.20% | 4 | 2 | 2025-05-18 | 2026-03-20 | yes |
-| ASX:MMI (Metro Mining Limited) | FIL Limited and its entities listed in Annexu | 5.54% | 9.14% | 4 | 3 | 2025-11-19 | 2025-12-22 | no |
 | ASX:TM1 (Terra Metals Limited) | Martin Howard Otway | 6.15% | 8.69% | 5 | 3 | 2025-09-03 | 2026-03-05 | no |
 | ASX:KLI (Killi Resources Limited) | Neville Power | 5.36% | 8.58% | 2 | 1 | 2026-03-27 | 2026-05-11 | no |
-| ASX:POL (Polymetals Resources Ltd) | FIL Limited and its entities listed in Annexu | 5.10% | 8.31% | 4 | 3 | 2026-04-23 | 2026-07-22 | no |
 | ASX:BNL (Blue Star Helium Limited) | Simon Tilley | 5.59% | 8.19% | 4 | 2 | 2025-08-07 | 2026-06-05 | yes |
 | ASX:BMR (Ballymore Resources Limited) | Beswick Investment No3 Pty Ltd as trustee for | 5.78% | 7.93% | 2 | 1 | 2026-06-05 | 2026-06-19 | no |
 | ASX:ILA (Island Pharmaceuticals Limited) | Daniel Tillett | 5.26% | 7.80% | 4 | 1 | 2024-12-04 | 2025-08-15 | no |

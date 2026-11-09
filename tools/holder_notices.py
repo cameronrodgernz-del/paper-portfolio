@@ -66,7 +66,7 @@ FUNDS = [
     "TPG", "CARLYLE", "BLACKSTONE", "APOLLO", "PACIFIC EQUITY", "ADAMANTEM", "QUADRANT", "ANACACIA", "ROYAL BANK",
     "TORONTO DOMINION", "CREDIT AGRICOLE", "SAMSON ROCK", "NAVIGATOR", "BRIDGEWATER", "EMINENT", "WARAKIRRI",
     "MERCER", "NOVA SCOTIA", "L1 CAPITAL", "HUB24", "MAYBANK", "RYDER CAPITAL", "IOLITE", "BGH CAPITAL", "TIGA",
-    "THORNEY", "SECURITIES PTE", "SECURITIES LIMITED", "BANK ", "BANKING", "UDN ",
+    "THORNEY", "SECURITIES PTE", "SECURITIES LIMITED", "BANK ", "BANKING", "UDN ", " FIL LIMITED", "SPROTT", "TEES RIVER",
 ]
 NOISE = re.compile(r"^(\W|annexure|listed in|see |entity listed|nfp|group entity|fund;|ltd\.|management limited$|"
                    r"travel limited$|associates)|personal use|if applicable", re.I)  # a parse that missed the name
