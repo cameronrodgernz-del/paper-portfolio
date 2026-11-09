@@ -1,5 +1,83 @@
 {
- "run": "2026-11-06",
+ "run": "2026-11-09",
  "checked": 30,
- "issues": []
+ "issues": [
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "AX1",
+   "date": "2026-11-01",
+   "text": "AX1's deal file was last checked 8 days ago (2026-11-01)"
+  },
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "VAU",
+   "date": "2026-11-01",
+   "text": "VAU's deal file was last checked 8 days ago (2026-11-01)"
+  },
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "BET",
+   "date": "2026-11-01",
+   "text": "BET's deal file was last checked 8 days ago (2026-11-01)"
+  },
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "AUC",
+   "date": "2026-11-01",
+   "text": "AUC's deal file was last checked 8 days ago (2026-11-01)"
+  },
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "SDF",
+   "date": "2026-11-01",
+   "text": "SDF's deal file was last checked 8 days ago (2026-11-01)"
+  },
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "RWC",
+   "date": "2026-11-01",
+   "text": "RWC's deal file was last checked 8 days ago (2026-11-01)"
+  },
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "MEI",
+   "date": "2026-11-01",
+   "text": "MEI's deal file was last checked 8 days ago (2026-11-01)"
+  },
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "CWY",
+   "date": "2026-11-01",
+   "text": "CWY's deal file was last checked 8 days ago (2026-11-01)"
+  },
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "FPR",
+   "date": "2026-11-01",
+   "text": "FPR's deal file was last checked 8 days ago (2026-11-01)"
+  },
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "RTH",
+   "date": "2026-11-01",
+   "text": "RTH's deal file was last checked 8 days ago (2026-11-01)"
+  },
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "GL1",
+   "date": "2026-11-01",
+   "text": "GL1's deal file was last checked 8 days ago (2026-11-01)"
+  }
+ ]
 }
