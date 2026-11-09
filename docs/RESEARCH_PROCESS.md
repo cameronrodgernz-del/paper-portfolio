@@ -9,6 +9,10 @@ From 9 November 2026 (rulebook section 5a). This replaces the funnel of 2 Novemb
    from evidence that already exists: no waiting for future data, and no asking people.
    a. Read the filings to find what the price assumes, then write down the two to four questions that decide whether
       it's wrong. Keep only questions the company's own filings can't answer: if the filings answer it, everyone has it.
+      Before going further, rough out the bad case from the filings alone (added 9 Nov 2026, after Bapcor and Alliance
+      both failed on it). If it is clearly more than 30% below the price, and none of the questions could lift the bad
+      case itself (as opposed to its chance), record the price at which it would pass, add the company to the watch
+      files, and stop there.
    b. For each question, list where the answer leaves a trace outside the filings, and what result would mean yes or no.
       Look first where others don't:
       - first, the web's own history and assembled data: archived snapshots of prices, product ranges, stock, store
@@ -28,9 +32,12 @@ From 9 November 2026 (rulebook section 5a). This replaces the funnel of 2 Novemb
    each piece with its source. It starts from what today's price
    assumes, then states in one sentence the thing the market is missing, with the evidence. If that sentence
    can't be written, the company is a reject and the work stops there.
-4. The case against. Claude writes a prompt for a second model (Cam runs it, for example in ChatGPT), giving the
-   company, the date and the price, the rulebook's value test and what a good case against looks like, but not
-   the deep dive. Its answer is saved as research/against/<TICKER>.md, with the prompt at the top.
+4. The case against. Only when the case for passes every test at the current price (added 9 Nov 2026, Cam's
+   decision): a case against can only lower the case, so it adds nothing to a "wait" or a "no". For a wait, the
+   prompt is written and filed but not run until a reopen condition is met. Claude writes a prompt for a second
+   model (Cam runs it, for example in ChatGPT), giving the company, the date and the price, the rulebook's value
+   test and what a good case against looks like, but not the deep dive. Its answer is saved as
+   research/against/<TICKER>.md, with the prompt at the top.
 5. The debate. Each side answers the other's strongest points, in rounds, until nothing new comes up: Claude
    answers the case against, the second model answers the deep dive (Cam passes the files across), and so on.
    It's saved as research/debate/<TICKER>.md, with a short summary at the top of where the two still disagree
