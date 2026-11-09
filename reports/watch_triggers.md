@@ -11,7 +11,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | Share | Qualifies at | Latest | Away | Stage | Next event |
 | --- | --- | --- | --- | --- | --- |
 | ASX:MAD (Mader Group) | AUD 5.38 | 5.48 | +1.9% | debate open, waiting on Cam | 2026-11-24: AGM |
-| ASX:SND (Saunders International) | AUD 0.7 | 0.725 | +3.6% | case against filed, not run | 2026-12-15: Aqua Metro earn-out assessed and paid (up to A$6.85m cash and A$5m in shares) |
+| ASX:SND (Saunders International) | AUD 0.7 | 0.725 | +3.6% | debate open, waiting on Cam | 2026-12-15: Aqua Metro earn-out assessed and paid (up to A$6.85m cash and A$5m in shares) |
 | ASX:CTD (Corporate Travel Management) | AUD 3.25 | 3.65 | +12.3% | case for only | 2026-11-12: 2025 and 2026 AGMs with FY27 guidance |
 | ASX:MGX (MGX Resources) | AUD 0.255 | 0.29 | +13.7% | case for only | 2026-11-18: AGM |
 | ASX:DUR (Duratec) | AUD 1.65 | 1.885 | +14.2% | case for only | 2026-11-26: AGM |

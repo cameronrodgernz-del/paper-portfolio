@@ -1,6 +1,6 @@
 # Prompt for the case against Saunders International (ASX:SND)
 
-Written 2026-11-09 for the second model (rulebook section 5a, docs/RESEARCH_PROCESS.md step 4). Filed: the case for is on the line, qualifying at about A$0.69 as an ordinary pick and about A$0.70 as a special situation, against a last sale of A$0.725 (research/picks/SND.md). Run it when the price reaches about A$0.70, or now on Cam's call. Cam pastes everything below the line into the other model, ideally with web browsing or deep research switched on. Its answer is saved as research/against/SND.md, with this prompt at the top.
+Written 2026-11-09 for the second model (rulebook section 5a, docs/RESEARCH_PROCESS.md step 4). Run by Cam on 9 November 2026; the answer is research/against/SND.md and the debate research/debate/SND.md. When filed, the case for was on the line, qualifying at about A$0.69 as an ordinary pick and about A$0.70 as a special situation, against a last sale of A$0.725 (research/picks/SND.md). Run it when the price reaches about A$0.70, or now on Cam's call. Cam pastes everything below the line into the other model, ideally with web browsing or deep research switched on. Its answer is saved as research/against/SND.md, with this prompt at the top.
 
 ---
 
