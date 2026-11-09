@@ -266,3 +266,8 @@ Secondary (named, used only where no primary source exists):
 - [W2] Casinos.com, "Iris Capital completes $100m-plus purchase of Christchurch Casino" (citing Skyline's notices; settlement 8 October 2026; OIO consent 202600186): https://www.casinos.com/nz/news/iris-capital-completes-100m-plus-purchase-of-christchurch-casino
 - [W3] InDaily, "SkyCity rolls dice on selling Adelaide casino", 1 October 2026 (no parties named): https://www.indailysa.com.au/news/business/2026/10/01/skycity-rolls-dice-on-selling-adelaide-casino
 - [W4] Cairns Local News, Reef Casino bids (Iris A$3.87 a unit, about A$193m), 6 September 2025: https://www.cairnslocalnews.com.au/casino-war-soars-to-usd193m-2025-09-06 ; AGB, "Iris secures Queensland approvals for Reef Casino Trust bid", 26 July 2026: https://agbrief.com/news/australia/26/07/2026/iris-secures-queensland-approvals-for-reef-casino-trust-bid/
+
+
+## Update, 10 November 2026: Cam's model review
+
+Cam's own review of his SKC model (v4, 10 November 2026), with its research note and full audit, is now the current view of the company: research/positions/NZ_SKC.md. It is an analysis of a real holding and sits beside this deep dive; the simulation's rules and this file's reopen conditions still decide any simulated trade.

@@ -11,12 +11,14 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | Share | Qualifies at | Latest | Away | Stage | Next event |
 | --- | --- | --- | --- | --- | --- |
 | ASX:MAD (Mader Group) | AUD 5.38 | 5.48 | +1.9% | debate open, waiting on Cam | 2026-11-24: AGM |
+| ASX:EGH (Eureka Group Holdings) | AUD 0.59 | 0.63 | +6.8% | case against filed, not run | 2027-02-24: 1H FY27 result |
 | ASX:TOT (360 Capital REIT) | AUD 0.375 | 0.4025 | +7.3% | case against filed, not run | 2027-02-18: 1H FY27 result |
 | ASX:CTD (Corporate Travel Management) | AUD 3.25 | 3.65 | +12.3% | case for only | 2026-11-12: 2025 and 2026 AGMs with FY27 guidance |
 | ASX:SND (Saunders International) | AUD 0.645 | 0.725 | +12.4% | decided: 9 November 2026: go. The revised card and the corrections are applied to research/picks/SND.md, with status "wait". The watch trigger moves from A$0.70 to A$0.645 (the special-situation price: at exactly A$0.65 the expected gain after costs is 12.2%, just short of 12.9%); as an ordinary pick it qualifies at about A$0.59. Round 2 was not run. | 2026-12-15: Aqua Metro earn-out assessed and paid (up to A$6.85m cash and A$5m in shares) |
 | ASX:MGX (MGX Resources) | AUD 0.255 | 0.29 | +13.7% | case for only | 2026-11-18: AGM |
 | ASX:DUR (Duratec) | AUD 1.65 | 1.885 | +14.2% | case for only | 2026-11-26: AGM |
 | ASX:BAP (Bapcor) | AUD 0.75 | 0.86 | +14.7% | case against filed, not run | 2027-02-25: 1H FY27 result |
+| NZX:OCA (Oceania Healthcare) | NZD 0.555 | 0.66 | +18.9% | case for only | 2026-11-19: 1H27 result |
 | ASX:AQZ (Alliance Aviation Services) | AUD 0.31 | 0.395 | +27.4% | case against filed, not run | 2026-11-26: AGM |
 
 ## Triggers
@@ -35,6 +37,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:GDI | AUD 0.605 | 0.64 | 2026-11-09 | +5.8% |  | data/prices/ASX |
 | ASX:CCV | AUD 0.245 | 0.26 | 2026-11-09 | +6.1% |  | data/prices/ASX |
 | NZX:RAD | NZD 0.39 | 0.415 | 2026-11-06 | +6.4% |  | data/prices/NZX |
+| ASX:EGH | AUD 0.59 | 0.63 | 2026-11-07 | +6.8% |  | ASX company data (last trade at fetch) |
 | ASX:SXL | AUD 0.44 | 0.47 | 2026-11-09 | +6.8% |  | data/prices/ASX |
 | ASX:TOT | AUD 0.375 | 0.4025 | 2026-11-07 | +7.3% |  | ASX company data (last trade at fetch) |
 | ASX:IGL | AUD 2.12 | 2.28 | 2026-11-09 | +7.5% |  | data/prices/ASX |
@@ -90,17 +93,17 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 - 2026-11-11: ASX:STP, annual meeting (first read on 1H revenue) (announced)
 - 2026-11-11: NZX:RAD, H1 FY27 result (EBITDA less resale gains, aged care EBITDAR, net debt) (announced)
 - 2026-11-12: ASX:AFG, warehouse facility falls due (renewal terms) (announced)
-- 2026-11-12: ASX:PAC, strategic review update at or before the AGM (announced)
 - 2026-11-12: ASX:CTD, 2025 and 2026 AGMs with FY27 guidance: re-run the outcomes if FY27 EBITDA guidance is about A$125m or more (research/picks/CTD.md) (announced)
+- 2026-11-12: ASX:PAC, strategic review update at or before the AGM (announced)
 - 2026-11-13: ASX:CAF, annual meeting (whether SEQ sits inside FY27 guidance) (announced)
 - 2026-11-13: ASX:EVZ, AGM (10% placement facility vote) (announced)
 - 2026-11-16: NZX:PGW, Elders FY26 result (anything on the PGW stake) (announced)
 - 2026-11-17: NZX:SAN, FY26 result and notice of meeting (Umios nominee?) (announced)
 - 2026-11-18: ASX:EML, AGM (guidance; first-quarter underlying EBITDA A$8m or more to keep the case alive, red team 8 Nov) (announced)
 - 2026-11-18: ASX:HLO, Helloworld can creep in Webjet without a bid (inferred from its 19% crossing date)
+- 2026-11-18: ASX:MGX, AGM: re-run the outcomes if the board brings back the buyback or announces a capital return (research/picks/MGX.md) (announced)
 - 2026-11-18: ASX:WJL, half-year result (announced)
 - 2026-11-18: NZX:ARG, interim result (announced)
-- 2026-11-18: ASX:MGX, AGM: re-run the outcomes if the board brings back the buyback or announces a capital return (research/picks/MGX.md) (announced)
 - 2026-11-19: ASX:AAC, first-half result (inferred)
 - 2026-11-19: ASX:CCV, AGM (first-quarter trading, Cashies book, 1H27 profit) (announced)
 - 2026-11-19: NZX:BRW, AGM (announced)
@@ -112,5 +115,5 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 - 2026-11-20: ASX:GDF, Seven property settlements (Morningside due diligence) (announced)
 - 2026-11-20: ASX:HIT, AGM (early read on Hudson since 11 Sep) (announced)
 - 2026-11-20: ASX:HUM, AGM (second strike and possible board spill) (announced)
-- 2026-11-24: ASX:MVF, Genesis total return swap unwind must start (about) (inferred)
 - 2026-11-24: ASX:MAD, AGM: Burton leaves the board (watch for a block sale of up to 33.0m shares); re-run if a trading update cuts FY27 profit guidance below A$70m (research/picks/MAD.md) (announced)
+- 2026-11-24: ASX:MVF, Genesis total return swap unwind must start (about) (inferred)

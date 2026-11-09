@@ -23,7 +23,7 @@ import watch_check  # noqa: E402
 REPO = "https://github.com/cameronrodgernz-del/paper-portfolio/blob/main/"
 LANDED = {"trigger": "Watch list", "wait": "Waiting for an event", "todo": "Deep dive to do",
           "nocase": "No case", "dropped": "Dropped", "card": "Card written"}
-FILE_RE = re.compile(r"((?:research/(?:facts|picks|red_team)|reports)/[A-Za-z0-9_\-]+\.md)")
+FILE_RE = re.compile(r"((?:research/(?:facts|picks|red_team|positions)|reports)/[A-Za-z0-9_\-]+\.md)")
 
 
 # ---------- the write-up ----------
@@ -122,16 +122,18 @@ SEG = re.compile(
     r"(?P<dd>(?:Earlier |Value-pick |Special situation |Special-situation )?[Dd]eep dive(?: \d{4}-\d\d-\d\d)? \(research/picks/[^)]*\)(?:, as [^:]{0,80})?:)"
     r"|(?P<rt>Red team \d{4}-\d\d-\d\d(?: \(research/red_team/[^)]*\))?(?:, [^:]{0,160})?:|^Red team:)"
     r"|(?P<tr>Special situation triage \d{4}-\d\d-\d\d \(reports/[^)]*\):)"
-    r"|(?P<fs>Fact sheet \d{4}-\d\d-\d\d \(research/facts/[^)]*\):)")
+    r"|(?P<fs>Fact sheet \d{4}-\d\d-\d\d \(research/facts/[^)]*\):)"
+    r"|(?P<rv>Model review \d{4}-\d\d-\d\d \(research/positions/[^)]*\):)")
 LEAD = re.compile(r"^(?:Dropped at the quick look(?: \([^)]*\))?:|Dropped:)\s*")
 
 
 def current(verdict: str) -> tuple[str, str]:
-    """(kind, text) of the stage that decides where a company stands: the last red team, else the first deep dive
-    (an 'Earlier deep dive' comes after the current one), else the last fact sheet or triage, else the whole line."""
+    """(kind, text) of the stage that decides where a company stands: the last model review (Cam's own review of a
+    holding, research/positions/), else the last red team, else the first deep dive (an 'Earlier deep dive' comes
+    after the current one), else the last fact sheet or triage, else the whole line."""
     ms = list(SEG.finditer(verdict))
     segs = [(m.lastgroup, verdict[m.end():ms[i + 1].start() if i + 1 < len(ms) else len(verdict)].strip()) for i, m in enumerate(ms)]
-    for kind in ("rt",):
+    for kind in ("rv", "rt"):
         hits = [x for x in segs if x[0] == kind]
         if hits:
             return hits[-1]
@@ -183,7 +185,7 @@ def companies(root: str, triggers: dict, cards: set) -> list[dict]:
     for r in index_rows(root):
         st = stem(r["market"], r["ticker"])
         files = {}
-        for kind in ("facts", "picks", "red_team"):
+        for kind in ("facts", "picks", "red_team", "positions"):
             p = os.path.join("research", kind, st + ".md")
             if os.path.exists(os.path.join(root, p)):
                 files[kind] = p
@@ -197,7 +199,9 @@ def companies(root: str, triggers: dict, cards: set) -> list[dict]:
             grade = m.group(1) if m else None
         v = r["verdict"]
         kind, cur = current(v)
-        if "red_team" in files:
+        if "positions" in files:
+            stage = "Model review"
+        elif "red_team" in files:
             stage = "Red team"
         elif "picks" in files:
             stage = "Deep dive"
@@ -214,7 +218,7 @@ def companies(root: str, triggers: dict, cards: set) -> list[dict]:
             landed = "trigger"
         elif r["status"] == "rejected":
             landed = "dropped"
-        elif "picks" in files or "red_team" in files:
+        elif "picks" in files or "red_team" in files or "positions" in files:
             landed = "wait" if re.match(r"[^.]*\bwait\b", cur.lower()) else "nocase"
         elif grade == "A" and stage == "Fact sheet":
             landed = "todo"

@@ -36,6 +36,10 @@ v3 = ("Red team 2026-11-08 (research/red_team/HLO.md), checked against the minim
       "wait for the H1 result. Red team: bad 30% A$1.05")
 check("a red team qualifier with brackets, and a later 'Red team:' is not a new stage",
       r.current(v3) == ("rt", "wait for the H1 result. Red team: bad 30% A$1.05"), r.current(v3))
+v4 = ("Special situation deep dive 2026-11-08 (research/picks/NZ_SKC.md): wait for the sale process. "
+      "Model review 2026-11-10 (research/positions/NZ_SKC.md): hold, don't add at NZ$0.70. Value NZ$0.76")
+check("a model review outranks the deep dive", r.current(v4) == ("rv", "hold, don't add at NZ$0.70. Value NZ$0.76"), r.current(v4))
+check("a model review gets its own label", r.why_parts(v4)[-1]["label"] == "Model review 10 Nov 2026", r.why_parts(v4))
 check("a leading 'Red team:' counts", r.current("Red team: don't buy (research/red_team/SRV.md). A loss")[0] == "rt")
 wp = r.why_parts("Fact sheet 2026-11-08 (research/facts/X.md): grade C. Special situation deep dive 2026-11-08 (research/picks/X.md): wait, no card")
 check("the reasons split by stage, labelled, dates readable",

@@ -4,6 +4,7 @@ date,market,ticker,event,date_basis
 2026-11-11,ASX,STP,annual meeting (first read on 1H revenue),announced
 2026-11-11,NZX,RAD,"H1 FY27 result (EBITDA less resale gains, aged care EBITDAR, net debt)",announced
 2026-11-12,ASX,AFG,warehouse facility falls due (renewal terms),announced
+2026-11-12,ASX,CTD,2025 and 2026 AGMs with FY27 guidance: re-run the outcomes if FY27 EBITDA guidance is about A$125m or more (research/picks/CTD.md),announced
 2026-11-12,ASX,PAC,strategic review update at or before the AGM,announced
 2026-11-13,ASX,CAF,annual meeting (whether SEQ sits inside FY27 guidance),announced
 2026-11-13,ASX,EVZ,AGM (10% placement facility vote),announced
@@ -11,6 +12,7 @@ date,market,ticker,event,date_basis
 2026-11-17,NZX,SAN,FY26 result and notice of meeting (Umios nominee?),announced
 2026-11-18,ASX,EML,"AGM (guidance; first-quarter underlying EBITDA A$8m or more to keep the case alive, red team 8 Nov)",announced
 2026-11-18,ASX,HLO,Helloworld can creep in Webjet without a bid,inferred from its 19% crossing date
+2026-11-18,ASX,MGX,AGM: re-run the outcomes if the board brings back the buyback or announces a capital return (research/picks/MGX.md),announced
 2026-11-18,ASX,WJL,half-year result,announced
 2026-11-18,NZX,ARG,interim result,announced
 2026-11-19,ASX,AAC,first-half result,inferred
@@ -24,22 +26,28 @@ date,market,ticker,event,date_basis
 2026-11-20,ASX,GDF,Seven property settlements (Morningside due diligence),announced
 2026-11-20,ASX,HIT,AGM (early read on Hudson since 11 Sep),announced
 2026-11-20,ASX,HUM,AGM (second strike and possible board spill),announced
+2026-11-24,ASX,MAD,AGM: Burton leaves the board (watch for a block sale of up to 33.0m shares); re-run if a trading update cuts FY27 profit guidance below A$70m (research/picks/MAD.md),announced
 2026-11-24,ASX,MVF,Genesis total return swap unwind must start (about),inferred
 2026-11-25,ASX,IGL,IVE Group AGM and trading update: FY27 guidance (underlying NPAT before AASB 16 broadly stable on A$52.5m) must be reaffirmed with no softer wording; a cut closes the value pick case,company
 2026-11-25,NZX,IPL,1H27 result,inferred
 2026-11-25,NZX,KMD,AGM (Bluestar exclusivity running),announced
 2026-11-25,NZX,SPG,HY27 result,inferred
+2026-11-26,ASX,AQZ,"AGM: new CEO's first address, any trading update, votes on placement capacity (research/picks/AQZ.md)",announced
 2026-11-26,ASX,CZR,AGM with a holder-nominated director,announced
+2026-11-26,ASX,DUR,"AGM: FY27 commentary or guidance (re-run if revenue A$720m or more or underlying EPS 14c or more), any word on the Stirling Controlled Industrial Facility; Miller leaves the board (research/picks/DUR.md)",announced
 2026-11-26,ASX,EDU,buyback meeting,announced
 2026-11-26,ASX,GDF,AGM (buyback or larger return?),announced
 2026-11-26,ASX,MVF,AGM,announced
 2026-11-26,ASX,MXI,AGM,announced
 2026-11-26,NZX,SCT,annual meeting,announced
 2026-11-27,NZX,OCA,Official election result (retirement village repayment rules),announced
+2026-11-27,NZX,SKC,"Official election result (gambling law, online advertising; research/positions/NZ_SKC.md)",announced
+2026-11-30,ASX,MGX,Tanami Gold (JV partner) AGM: re-run as a special situation if a merger with MGX or a funding deal for the build is announced (research/picks/MGX.md),announced
 2026-12-01,ASX,AHC,RTM and CareTech completion,announced
 2026-12-03,NZX,DGL,AGM,announced
 2026-12-10,ASX,AFG,warehouse facility falls due (renewal terms),announced
 2026-12-11,ASX,GDI,Interim distribution (2.5c held?) and December valuations,inferred
+2026-12-15,ASX,SND,Aqua Metro earn-out assessed and paid (up to A$6.85m cash and A$5m in shares): check the share issue and net cash (research/picks/SND.md),inferred from the annual report (H1 FY27)
 2026-12-15,NZX,PGW,PGW guidance reassessment,inferred
 2026-12-15,NZX,SKC,Grand Hotel sale settles,inferred
 2026-12-16,ASX,CAA,windows and doors anti-dumping recommendation due,announced
@@ -50,6 +58,7 @@ date,market,ticker,event,date_basis
 2027-01-15,ASX,BCN,"December quarter (Lady Ida recovered grade at 1.2 Mtpa, all-in cost)",inferred
 2027-01-20,ASX,ATG,"December quarter trading update (gross profit after marketing, sales)",inferred
 2027-01-22,ASX,FEX,"December quarter (C1, freight, cash, no equity)",inferred
+2027-01-22,ASX,MGX,"December quarter report: cash and investments, JV spend and the Crestlink settlement (research/picks/MGX.md)",estimated from last year's 23 Jan
 2027-01-27,ASX,AL3,December quarterly (Newport News commissioning),inferred
 2027-01-27,ASX,MYG,Half-year profit update (if repeated),inferred
 2027-01-28,ASX,AWJ,December quarterly (Munda Ore Reserve due by then at the latest),inferred
@@ -62,18 +71,25 @@ date,market,ticker,event,date_basis
 2027-02-16,ASX,GDI,"1H FY27 result (rent-free, fit-outs, WS1 and WS2 values)",inferred
 2027-02-17,ASX,SXL,Stokes group creep window opens; 1H FY27 result due mid to late Feb,inferred
 2027-02-18,ASX,AFG,"HY27 result (lending margin, book size)",inferred
+2027-02-18,ASX,TOT,"1H FY27 result: NTA, interest cost after the 2026 rate rises, FY27 guidance (3.8c earned, 3.6c paid), Pitt's share of the December reinvestment issue (research/picks/TOT.md)",estimated from last year's 19 Feb
 2027-02-19,ASX,ASG,H1 FY27 result,inferred
 2027-02-19,ASX,DSK,1H FY27 result (Christmas trading),inferred
 2027-02-19,NZX,SKC,H1 FY27 result (sale process update),inferred
 2027-02-20,ASX,BOL,HY27 result,inferred
 2027-02-20,ASX,EVZ,1H27 result,inferred
 2027-02-23,ASX,AHC,"H1 FY27 result (organic growth, order book)",inferred
+2027-02-23,ASX,AQZ,"1H FY27 result: reopen if asset sales of A$40m or more are done, net debt A$410m or less at 31 Dec 2026, ANZ refinanced past Sep 2028, 1H EBITDA A$85m or more with FY27 guidance held, and no raising (research/picks/AQZ.md)",estimated from last year's 20 Feb
 2027-02-23,ASX,ATG,Half-year result,inferred
 2027-02-23,ASX,CCV,"1H27 result (loss rate, Cashies book)",inferred
 2027-02-23,ASX,GEM,"CY26 result (same-centre occupancy, covenants)",inferred
 2027-02-23,ASX,MYX,H1 FY27 result (EBITDA excluding the Australian arm),inferred
 2027-02-24,ASX,CWP,H1 FY27 result,inferred
+2027-02-24,ASX,DUR,"1H FY27 result: revenue run-rate against the analysts' A$705m, the Stirling wharf margin, cash against contract assets (research/picks/DUR.md)",estimated from last year's 25 Feb
+2027-02-24,ASX,EGH,"1H FY27 result: FY27 guidance (at least 4.2c) after the rate rises, NSW portfolio contribution, loan-to-value against the 40% ceiling, any raising (research/picks/EGH.md)",estimated from last year's 24 Feb
+2027-02-24,ASX,MAD,"1H FY27 result: margins against the early investment, buyback progress and any acquisitions (research/picks/MAD.md)",estimated from last year's 24 Feb
+2027-02-24,ASX,SND,1H FY27 result: re-run if NPATA is A$5m or more on revenue of A$160m or more; close if the first half repeats 1H FY26 (research/picks/SND.md),estimated from last year's 25 Feb
 2027-02-24,NZX,PGW,1H27 result,inferred
+2027-02-25,ASX,BAP,"1H FY27 result: reopen if earnings after rent for the half are A$40m or more, Trade like-for-like still growing, net debt A$110m or less, and on track for the Dec 2027 fixed charge test (research/picks/BAP.md)",estimated from last year's 26 Feb
 2027-02-25,ASX,EML,"1H FY27 result (EBITDA A$28m or more, gearing 0.42 or less, APRA position, no fresh shortfall)",inferred
 2027-02-25,ASX,FWD,"H1 result (Community Solutions EBIT, net cash)",inferred
 2027-02-25,ASX,HLO,H1 FY27 result,inferred
@@ -88,21 +104,9 @@ date,market,ticker,event,date_basis
 2027-02-27,ASX,MYG,"1H FY27 result (work in hand, cash conversion)",inferred
 2027-03-01,ASX,EDU,T1 2027 enrolments (with the FY26 result about 26 Feb),inferred
 2027-04-30,ASX,FWD,Rio Tinto Karratha contract ends (award due before),announced
-2027-02-25,ASX,BAP,"1H FY27 result: reopen if earnings after rent for the half are A$40m or more, Trade like-for-like still growing, net debt A$110m or less, and on track for the Dec 2027 fixed charge test (research/picks/BAP.md)",estimated from last year's 26 Feb
-2026-11-26,ASX,AQZ,"AGM: new CEO's first address, any trading update, votes on placement capacity (research/picks/AQZ.md)",announced
-2027-02-23,ASX,AQZ,"1H FY27 result: reopen if asset sales of A$40m or more are done, net debt A$410m or less at 31 Dec 2026, ANZ refinanced past Sep 2028, 1H EBITDA A$85m or more with FY27 guidance held, and no raising (research/picks/AQZ.md)",estimated from last year's 20 Feb
-2026-11-12,ASX,CTD,2025 and 2026 AGMs with FY27 guidance: re-run the outcomes if FY27 EBITDA guidance is about A$125m or more (research/picks/CTD.md),announced
+2027-05-21,NZX,OCA,FY27 result: first dividend or pushed out again (research/positions/NZ_OCA.md),estimate
 2027-06-30,ASX,CTD,Australian Government travel management deed: first one-year option due; AusTender agency contracts end on this date unless extended (research/picks/CTD.md),announced
-2026-11-18,ASX,MGX,AGM: re-run the outcomes if the board brings back the buyback or announces a capital return (research/picks/MGX.md),announced
-2026-11-30,ASX,MGX,Tanami Gold (JV partner) AGM: re-run as a special situation if a merger with MGX or a funding deal for the build is announced (research/picks/MGX.md),announced
-2027-01-22,ASX,MGX,"December quarter report: cash and investments, JV spend and the Crestlink settlement (research/picks/MGX.md)",estimated from last year's 23 Jan
-2026-11-24,ASX,MAD,AGM: Burton leaves the board (watch for a block sale of up to 33.0m shares); re-run if a trading update cuts FY27 profit guidance below A$70m (research/picks/MAD.md),announced
-2027-02-24,ASX,MAD,"1H FY27 result: margins against the early investment, buyback progress and any acquisitions (research/picks/MAD.md)",estimated from last year's 24 Feb
-2026-11-26,ASX,DUR,"AGM: FY27 commentary or guidance (re-run if revenue A$720m or more or underlying EPS 14c or more), any word on the Stirling Controlled Industrial Facility; Miller leaves the board (research/picks/DUR.md)",announced
-2027-02-24,ASX,DUR,"1H FY27 result: revenue run-rate against the analysts' A$705m, the Stirling wharf margin, cash against contract assets (research/picks/DUR.md)",estimated from last year's 25 Feb
-2026-12-15,ASX,SND,"Aqua Metro earn-out assessed and paid (up to A$6.85m cash and A$5m in shares): check the share issue and net cash (research/picks/SND.md)",inferred from the annual report (H1 FY27)
-2027-02-24,ASX,SND,"1H FY27 result: re-run if NPATA is A$5m or more on revenue of A$160m or more; close if the first half repeats 1H FY26 (research/picks/SND.md)",estimated from last year's 25 Feb
-2027-02-18,ASX,TOT,"1H FY27 result: NTA, interest cost after the 2026 rate rises, FY27 guidance (3.8c earned, 3.6c paid), Pitt's share of the December reinvestment issue (research/picks/TOT.md)",estimated from last year's 19 Feb
-2027-08-12,ASX,TOT,"FY27 result with the June 2027 independent valuations: re-run the outcomes; close if NTA is below A$0.50 or the distribution is cut (research/picks/TOT.md)",estimated from last year's 12 Aug
-2027-02-24,ASX,EGH,"1H FY27 result: FY27 guidance (at least 4.2c) after the rate rises, NSW portfolio contribution, loan-to-value against the 40% ceiling, any raising (research/picks/EGH.md)",estimated from last year's 24 Feb
+2027-08-12,ASX,TOT,FY27 result with the June 2027 independent valuations: re-run the outcomes; close if NTA is below A$0.50 or the distribution is cut (research/picks/TOT.md),estimated from last year's 12 Aug
 2027-08-20,ASX,EGH,"FY27 result: underlying EPS against 4.2c, FY28 guidance, tax losses used, Cottle holdings (research/picks/EGH.md)",estimated from last year's 20 Aug
+2027-09-18,NZX,SKC,Hamilton casino licence expires (renewal hearing),company
+2027-10-19,NZX,OCA,"OCA010 NZ$125m bond at 2.30% matures (refinance near 5.6%, about NZ$4m more interest a year)",company

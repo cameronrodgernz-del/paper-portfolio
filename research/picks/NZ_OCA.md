@@ -253,3 +253,8 @@ Secondary (named where used):
 - X5. NZ Shareholders' Association, on Jarden's view of village earnings (19 July 2023): https://www.nzshareholders.co.nz/?p=10108
 - X6. The Weekly Source, Retirement Villages Association response to Labour's plan (20 July 2026): https://www.theweeklysource.com.au/1-billion-retirement-village-buyback-plan-in-nz-sparks-backlash/
 - X7. Good Returns, sector NTA multiples (3 December 2025): https://www.goodreturns.co.nz/article/976525116/should-you-care-about-aged-care.html
+
+
+## Update, 10 November 2026: Cam's model review
+
+Cam's own review of his OCA model (v4, 10 November 2026), with its research note and full audit, is now the current view of the company: research/positions/NZ_OCA.md. It is an analysis of a real holding and sits beside this deep dive; the simulation's rules and this file's reopen conditions still decide any simulated trade.
