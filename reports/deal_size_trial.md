@@ -4,29 +4,29 @@ Run 2026-11-10. A forward test registered on 1 Nov 2026 (rulebook section 5, "De
 
 | Book | Positions | Money laid out (NZ$) | Gain after costs (NZ$) | Over cash (NZ$) | Mean per position, over cash |
 | --- | --- | --- | --- | --- | --- |
-| large (A$10,000) | 6 | 74,978 | +1,170 | +1,103 | +1.41% |
-| small (A$3,000) | 6 | 22,558 | +205 | +184 | +0.76% |
+| large (A$10,000) | 6 | 74,693 | +1,759 | +1,692 | +2.20% |
+| small (A$3,000) | 6 | 22,472 | +382 | +362 | +1.55% |
 
 Book totals are in NZ$ at tonight's exchange rate; each position's own amounts are in its currency. Open positions are marked at tonight's close less half the spread and brokerage.
 
 | Deal | Entered | Market's chance / base rate at entry | State | Large book | Small book |
 | --- | --- | --- | --- | --- | --- |
 | BET (AU-2026-16) | 2026-11-02 | 76% / 88% | held | 9,952 AUD, -5.01% (marked) | 3,005 AUD, -5.98% (marked) |
-| AUC (AU-2026-18) | 2026-11-02 | 73% / 86% | held | 10,366 AUD, +11.82% (marked) | 3,118 AUD, +11.19% (marked) |
-| RWC (AU-2026-21) | 2026-11-02 | 71% / 87% | held | 10,224 AUD, -0.87% (marked) | 3,074 AUD, -1.54% (marked) |
+| AUC (AU-2026-18) | 2026-11-02 | 73% / 86% | held | 10,366 AUD, +13.48% (marked) | 3,118 AUD, +12.84% (marked) |
+| RWC (AU-2026-21) | 2026-11-02 | 71% / 87% | held | 10,224 AUD, +1.10% (marked) | 3,074 AUD, +0.43% (marked) |
 | MEI (AU-2026-22) | 2026-11-02 | 62% / 96% | held | 10,136 AUD, +4.20% (marked) | 3,049 AUD, +3.56% (marked) |
 | A11 (AU-2026-25) | 2026-11-02 | 47% / 97% | held | 10,173 AUD, -1.16% (marked) | 3,053 AUD, -1.52% (marked) |
-| GL1 (AU-2026-27) | 2026-11-02 | 50% / 83% | held | 9,969 AUD, -0.51% (marked) | 2,998 AUD, -1.14% (marked) |
+| GL1 (AU-2026-27) | 2026-11-02 | 50% / 83% | held | 9,969 AUD, +0.58% (marked) | 2,998 AUD, -0.05% (marked) |
 
 Live deals not entered (latest reason):
 
-- AX1 (AU-2026-13): not valued by the deal monitor tonight
-- VAU (AU-2026-14): not valued by the deal monitor tonight
-- OML (AU-2026-17): not valued by the deal monitor tonight
-- SDF (AU-2026-19): not valued by the deal monitor tonight
-- PPC (AU-2026-20): not valued by the deal monitor tonight
-- CWY (AU-2026-23): not valued by the deal monitor tonight
-- FPR (AU-2026-24): not valued by the deal monitor tonight
-- RTH (AU-2026-26): not valued by the deal monitor tonight
+- AX1 (AU-2026-13): no break price or base rate
+- VAU (AU-2026-14): expected -3.61% after costs, cash +0.21%
+- OML (AU-2026-17): expected -0.32% after costs, cash +0.39%
+- SDF (AU-2026-19): expected -1.70% after costs, cash +0.54%
+- PPC (AU-2026-20): price outside the range from the break price to the offer
+- CWY (AU-2026-23): expected -1.49% after costs, cash +1.83%
+- FPR (AU-2026-24): expected -0.01% after costs, cash +1.83%
+- RTH (AU-2026-26): expected -4.77% after costs, cash +1.19%
 
 Scored on 2027-07-02 over every position entered by 2027-03-31: pass needs the large book's total gain after costs above cash, and its mean per position above zero. The small book is the comparison.

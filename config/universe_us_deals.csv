@@ -1,15 +1,14 @@
 ticker,market,provider,provider_symbol,why
+OPCH,US,tiingo,OPCH,"US deal lead: Option Care Health, Inc. cash 32.05 (2026-11-09)"
 VRNS,US,tiingo,VRNS,US deal lead: VARONIS SYSTEMS INC cash 49.75 (2026-11-06)
 PCRX,US,tiingo,PCRX,"US deal lead: Pacira BioSciences, Inc. cash 36.50 (2026-11-03)"
 PTC,US,tiingo,PTC,US deal lead: PTC INC. cash 205.00 (2026-11-03)
 ARX,US,tiingo,ARX,US deal lead: Accelerant Holdings cash 20.25 (2026-10-30)
 LFCR,US,tiingo,LFCR,"US deal lead: LIFECORE BIOMEDICAL, INC. \DE\ cash 6.28 (2026-10-30)"
 DSGR,US,tiingo,DSGR,"US deal lead: Distribution Solutions Group, Inc. cash 35.00 (2026-10-28)"
-OPCH,US,tiingo,OPCH,"US deal lead: Option Care Health, Inc. cash 32.05 (2026-10-28)"
 ULBI,US,tiingo,ULBI,US deal lead: ULTRALIFE CORP cash 16.00 (2026-10-28)
 MG,US,tiingo,MG,"US deal lead: Mistras Group, Inc. cash 20.35 (2026-10-27)"
 PSNL,US,tiingo,PSNL,"US deal lead: Personalis, Inc. cash 16.25 (2026-10-21)"
-SSTI,US,tiingo,SSTI,"US deal lead: SOUNDTHINKING, INC. cash 10.50 (2026-10-20)"
 SYNA,US,tiingo,SYNA,US deal lead: SYNAPTICS Inc cash 123.00 (2026-10-19)
 GPRO,US,tiingo,GPRO,"US deal lead: GoPro, Inc. cash 1.29 (2026-10-19)"
 BWIN,US,tiingo,BWIN,"US deal lead: Baldwin Insurance Group, Inc. cash 32.50 (2026-10-15)"
