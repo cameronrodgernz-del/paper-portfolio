@@ -29,7 +29,7 @@ FUND = re.compile(r"INVESTMENT (COMPANY|CO\b)|INVESTMENTS LIMITED|\bFUND\b|INCOM
                   r"FUTURE GENERATION|GLOBAL VALUE|EMERGING MARKETS|ABSOLUTE RETURN|OPPORTUNITIES TRUST|\bETF\b|INVESTMENT TRUST|"
                   r"FOUNDATION INVESTMENT|FAR EAST INCOME|\bPLC\b", re.I)
 HOLD_WORDS = re.compile(r"gaming|lotter|wager|racing|casino|\bbet|bookmak|bloodstock", re.I)
-HOLD_TICKERS = {("ASX", "JIN"), ("ASX", "SGR"), ("ASX", "SXL"), ("ASX", "RTH"), ("NZX", "SKC"), ("NZX", "SKT"),
+HOLD_TICKERS = {("ASX", "JIN"), ("ASX", "SGR"), ("ASX", "SXL"), ("ASX", "SMG"), ("ASX", "RTH"), ("NZX", "SKC"), ("NZX", "SKT"),
                 ("NZX", "NZM"), ("NZX", "PGW")}
 BIG_NZX = {"ANZ", "WBC", "FCG", "FSF", "AIR", "VNT"}          # dual-listed or large, outside the NZX 20 by a little
 NZX_FUNDS = {"AFI", "BIT", "BRM", "FCT", "HFL", "KFL", "MLN", "TEM", "PLP", "BIF", "CO2"}   # investment companies and funds

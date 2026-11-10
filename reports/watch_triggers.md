@@ -39,7 +39,6 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:GDI | AUD 0.605 | 0.64 | 2026-11-10 | +5.8% |  | data/prices/ASX |
 | NZX:RAD | NZD 0.39 | 0.415 | 2026-11-06 | +6.4% |  | data/prices/NZX |
 | ASX:EGH | AUD 0.59 | 0.63 | 2026-11-07 | +6.8% |  | ASX company data (last trade at fetch) |
-| ASX:SXL | AUD 0.44 | 0.47 | 2026-11-09 | +6.8% |  | data/prices/ASX |
 | ASX:MYG | AUD 1.5 | 1.61 | 2026-11-10 | +7.3% |  | data/prices/ASX |
 | ASX:TOT | AUD 0.375 | 0.4025 | 2026-11-07 | +7.3% |  | ASX company data (last trade at fetch) |
 | ASX:IGL | AUD 2.12 | 2.29 | 2026-11-10 | +8.0% |  | data/prices/ASX |
@@ -87,6 +86,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:BCN | AUD 1.5 | 2.76 | 2026-11-10 | +84.0% |  | data/prices/ASX |
 | ASX:GRR | AUD 0.055 | 0.105 | 2026-11-10 | +90.9% |  | data/prices/ASX |
 | ASX:MYX | AUD 0.72 | 3.4 | 2026-11-10 | +372.2% |  | data/prices/ASX |
+| ASX:SMG | AUD 0.44 |  |  |  | no price | no price stored |
 
 ## Events in the next 14 days
 

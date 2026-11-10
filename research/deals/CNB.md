@@ -21,7 +21,7 @@ record_date: 2026-11-03
 implementation_date: 2026-11-10
 end_date: 2027-04-26
 dates_basis: Confirmed by ASX announcements - First Court hearing 18 Sep 2026; booklet registered with ASIC 21 Sep 2026 and dispatched 25 Sep 2026; Scheme Meeting 26 Oct 2026; Second Court approval 29 Oct 2026; Effective (orders lodged with ASIC) 30 Oct 2026. Indicative - Glencore subscription and deferred settlement trading in new Evolution shares 2 Nov 2026; Record Date 4.00pm AWST 3 Nov 2026; Implementation Date 10 Nov 2026; normal trading of new Evolution shares and Carnaby delisting 11 Nov 2026. End Date is nine months after the SID dated 26 Jul 2026, so 26 Apr 2027 (calculated).
-stage: unconditional
+stage: implemented
 vote_threshold: 75% of votes cast and a majority by number of holders present and voting (passed 26 Oct 2026 - 95.42% of votes cast, 89.22% by number; Evolution excluded from voting)
 bidder_stake_pct: 13.72
 intentions_pct: 7.3
@@ -70,6 +70,7 @@ This deal is not stale; it is in its final days. Evolution Mining is acquiring C
 - Competing bid: not possible now that the scheme is Effective.
 
 ## Recent announcements
+- 10 Nov 2026: scheme implemented; holders received 0.0682 new Evolution shares per Carnaby share; Carnaby to be removed from the official list on 11 Nov. Source: Kalkine, 10 Nov 2026, reporting the implementation release (https://kalkine.com.au/news/announcements/carnaby-resources-scheme-implemented-as-evolution-mining-acquires-all-shares-on-10-november-2026); the ASX release itself couldn't be opened tonight.
 - 30 Oct 2026: ASX suspension from quotation from close of trading.
 - 30 Oct 2026: Update to proposed issue of 28,572,245 shares to Glencore (issue date 2 Nov 2026; A$22m estimated value) for ending the tolling and offtake agreements.
 - 30 Oct 2026: Scheme becomes Effective, with Court orders attached.

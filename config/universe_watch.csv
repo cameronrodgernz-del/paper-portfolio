@@ -25,7 +25,7 @@ MYX,ASX,eodhd,MYX.AU,research watch list (Mayne Pharma Group): price trigger in 
 HIT,ASX,eodhd,HIT.AU,research watch list (Hitech Group Australia Limited): price trigger in research/watch_triggers.csv
 AHC,ASX,eodhd,AHC.AU,research watch list (Austco Healthcare Limited): price trigger in research/watch_triggers.csv
 ANG,ASX,eodhd,ANG.AU,research watch list (Austin Engineering Limited): price trigger in research/watch_triggers.csv
-SXL,ASX,eodhd,SXL.AU,research watch list (Southern Cross Media Group Limited): price trigger in research/watch_triggers.csv
+SMG,ASX,eodhd,SMG.AU,research watch list (Seven Media Group Limited, formerly SXL; code changed 10 Nov 2026): price trigger in research/watch_triggers.csv
 AWJ,ASX,eodhd,AWJ.AU,research watch list (Auric Mining Limited): price trigger in research/watch_triggers.csv
 MVF,ASX,eodhd,MVF.AU,research watch list (Monash IVF Group Limited): price trigger in research/watch_triggers.csv
 FEX,ASX,eodhd,FEX.AU,research watch list (Fenix Resources Ltd): price trigger in research/watch_triggers.csv

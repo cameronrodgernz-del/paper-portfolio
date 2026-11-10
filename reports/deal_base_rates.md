@@ -1,6 +1,6 @@
 # Deal database: base rates
 
-350 rows in all (46 NZX, 304 ASX); 9 majority-holder buy-outs left out of the rates. 320 resolved deals and 16 pending.
+350 rows in all (46 NZX, 304 ASX); 9 majority-holder buy-outs left out of the rates. 321 resolved deals and 15 pending.
 
 The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (deals/au_hist/followup): some deals could not be reached on free sources, and 115 rows have fewer than five of the six key fields. Treat the rates as provisional.
 
@@ -8,7 +8,7 @@ The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (
 
 | Measure | Value |
 | --- | --- |
-| Completed, of resolved deals | 81% (259 of 320) |
+| Completed, of resolved deals | 81% (260 of 321) |
 | Median days, announcement to outcome | 119 (middle half 94 to 147) |
 | Median days, completed deals | 120 |
 | Deals with a rival bid | 19% |
@@ -18,14 +18,14 @@ The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (
 
 | Market | Resolved | Completed | Completion | Median days |
 | --- | --- | --- | --- | --- |
-| ASX | 283 | 231 | 82% | 117 |
+| ASX | 284 | 232 | 82% | 117 |
 | NZX | 37 | 28 | 76% | 123 |
 
 ## By structure
 
 | Structure | Resolved | Completed | Completion | Median days |
 | --- | --- | --- | --- | --- |
-| scheme | 233 | 199 | 85% | 124 |
+| scheme | 234 | 200 | 85% | 124 |
 | full_takeover | 79 | 55 | 70% | 72 |
 | partial_takeover | 8 | 5 | 62% | 98 |
 
@@ -33,7 +33,7 @@ The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (
 
 | Bidder | Resolved | Completed | Completion | Median days |
 | --- | --- | --- | --- | --- |
-| trade | 200 | 166 | 83% | 121 |
+| trade | 201 | 167 | 83% | 121 |
 | private_equity | 44 | 38 | 86% | 114 |
 | existing_holder | 41 | 28 | 68% | 70 |
 | consortium | 23 | 19 | 83% | 134 |
@@ -45,7 +45,7 @@ The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (
 | Paid in | Resolved | Completed | Completion | Median days |
 | --- | --- | --- | --- | --- |
 | cash | 213 | 178 | 84% | 115 |
-| scrip | 51 | 39 | 76% | 128 |
+| scrip | 52 | 40 | 77% | 127 |
 | mixed | 44 | 33 | 75% | 120 |
 | unknown | 12 | 9 | 75% |  |
 

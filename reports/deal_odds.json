@@ -1,50 +1,50 @@
 {
- "made": "2026-11-01",
- "resolved": 319,
- "completed_rate": 0.8119,
- "paid_rate": 0.8683,
+ "made": "2026-11-10",
+ "resolved": 320,
+ "completed_rate": 0.8125,
+ "paid_rate": 0.8688,
  "stages": {
   "scheme|announced": {
    "structure": "scheme",
    "stage": "announced",
-   "n": 232,
-   "paid": 210,
-   "rate_known": 0.9052,
-   "rate": 0.9034,
-   "n_cautious": 232,
+   "n": 233,
+   "paid": 211,
+   "rate_known": 0.9056,
+   "rate": 0.9038,
+   "n_cautious": 233,
    "undated_failures": 0,
    "undated_wins": 0
   },
   "scheme|booklet_out": {
    "structure": "scheme",
    "stage": "booklet_out",
-   "n": 210,
-   "paid": 200,
-   "rate_known": 0.9524,
-   "rate": 0.9181,
-   "n_cautious": 225,
+   "n": 211,
+   "paid": 201,
+   "rate_known": 0.9526,
+   "rate": 0.9185,
+   "n_cautious": 226,
    "undated_failures": 8,
    "undated_wins": 7
   },
   "scheme|vote_passed": {
    "structure": "scheme",
    "stage": "vote_passed",
-   "n": 201,
-   "paid": 199,
-   "rate_known": 0.99,
-   "rate": 0.9876,
-   "n_cautious": 201,
+   "n": 202,
+   "paid": 200,
+   "rate_known": 0.9901,
+   "rate": 0.9877,
+   "n_cautious": 202,
    "undated_failures": 0,
    "undated_wins": 0
   },
   "scheme|court_approved": {
    "structure": "scheme",
    "stage": "court_approved",
-   "n": 199,
-   "paid": 199,
+   "n": 200,
+   "paid": 200,
    "rate_known": 1.0,
    "rate": 0.9975,
-   "n_cautious": 199,
+   "n_cautious": 200,
    "undated_failures": 0,
    "undated_wins": 0
   },
@@ -84,44 +84,44 @@
   "all|announced": {
    "structure": "all",
    "stage": "announced",
-   "n": 319,
-   "paid": 277,
-   "rate_known": 0.8683,
-   "rate": 0.8672,
-   "n_cautious": 319,
+   "n": 320,
+   "paid": 278,
+   "rate_known": 0.8688,
+   "rate": 0.8676,
+   "n_cautious": 320,
    "undated_failures": 0,
    "undated_wins": 0
   },
   "all|booklet_out": {
    "structure": "all",
    "stage": "booklet_out",
-   "n": 284,
-   "paid": 261,
-   "rate_known": 0.919,
-   "rate": 0.8794,
-   "n_cautious": 310,
+   "n": 285,
+   "paid": 262,
+   "rate_known": 0.9193,
+   "rate": 0.8798,
+   "n_cautious": 311,
    "undated_failures": 14,
    "undated_wins": 12
   },
   "all|vote_passed": {
    "structure": "all",
    "stage": "vote_passed",
-   "n": 201,
-   "paid": 199,
-   "rate_known": 0.99,
-   "rate": 0.9876,
-   "n_cautious": 201,
+   "n": 202,
+   "paid": 200,
+   "rate_known": 0.9901,
+   "rate": 0.9877,
+   "n_cautious": 202,
    "undated_failures": 0,
    "undated_wins": 0
   },
   "all|court_approved": {
    "structure": "all",
    "stage": "court_approved",
-   "n": 259,
-   "paid": 259,
+   "n": 260,
+   "paid": 260,
    "rate_known": 1.0,
    "rate": 0.9981,
-   "n_cautious": 259,
+   "n_cautious": 260,
    "undated_failures": 0,
    "undated_wins": 0
   }
@@ -130,32 +130,32 @@
   "scheme|announced": {
    "median": 125,
    "q1": 107,
-   "q3": 155,
-   "n": 184
+   "q3": 154,
+   "n": 185
   },
   "scheme|booklet_out": {
    "median": 59,
    "q1": 53,
    "q3": 69,
-   "n": 139
+   "n": 140
   },
   "scheme|vote_passed": {
    "median": 20,
    "q1": 16,
    "q3": 24,
-   "n": 171
+   "n": 172
   },
   "scheme|court_approved": {
    "median": 14,
    "q1": 11,
    "q3": 16,
-   "n": 168
+   "n": 169
   },
   "scheme|announced|ACCC": {
-   "median": 156,
-   "q1": 128,
+   "median": 155,
+   "q1": 126,
    "q3": 178,
-   "n": 33
+   "n": 34
   },
   "scheme|announced|FIRB": {
    "median": 125,
@@ -215,30 +215,30 @@
  "model": {
   "used": true,
   "C": 1.0,
-  "brier_model": 0.0998,
-  "brier_structure": 0.1117,
-  "intercept": 2.5323,
+  "brier_model": 0.0981,
+  "brier_structure": 0.1114,
+  "intercept": 2.526,
   "coef": {
-   "takeover": -0.237,
-   "partial": -0.285,
-   "private_equity": -0.355,
-   "infrastructure": -0.233,
-   "existing_holder": 0.027,
-   "consortium": -0.521,
-   "scrip_or_mixed": -0.206,
-   "board_for": -0.12,
-   "board_not_for": -2.116,
-   "firb": -0.041,
-   "accc": -0.753,
+   "takeover": -0.242,
+   "partial": -0.281,
+   "private_equity": -0.356,
+   "infrastructure": -0.231,
+   "existing_holder": 0.02,
+   "consortium": -0.516,
+   "scrip_or_mixed": -0.197,
+   "board_for": -0.119,
+   "board_not_for": -2.117,
+   "firb": -0.048,
+   "accc": -0.731,
    "oio": 0.774,
-   "overseas": 0.305,
-   "lockups_15": 0.807,
-   "stake_20": 0.148,
-   "premium_40": 0.561,
-   "nzx": -1.153,
-   "small": -0.453
+   "overseas": 0.301,
+   "lockups_15": 0.795,
+   "stake_20": 0.153,
+   "premium_40": 0.592,
+   "nzx": -1.157,
+   "small": -0.439
   },
-  "n": 319,
+  "n": 320,
   "why": "scores better out of sample than the structure rate"
  },
  "features": [
