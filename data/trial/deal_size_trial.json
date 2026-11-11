@@ -67,7 +67,7 @@
    },
    "flags": [],
    "div_feed": {
-    "checked": "2026-11-11",
+    "checked": "2026-11-12",
     "rows": []
    }
   },
@@ -131,7 +131,7 @@
    },
    "flags": [],
    "div_feed": {
-    "checked": "2026-11-11",
+    "checked": "2026-11-12",
     "rows": []
    }
   },
@@ -195,7 +195,7 @@
    },
    "flags": [],
    "div_feed": {
-    "checked": "2026-11-11",
+    "checked": "2026-11-12",
     "rows": []
    }
   },
@@ -259,7 +259,7 @@
    },
    "flags": [],
    "div_feed": {
-    "checked": "2026-11-11",
+    "checked": "2026-11-12",
     "rows": []
    }
   },
@@ -323,7 +323,7 @@
    },
    "flags": [],
    "div_feed": {
-    "checked": "2026-11-11",
+    "checked": "2026-11-12",
     "rows": []
    }
   },
@@ -387,7 +387,7 @@
    },
    "flags": [],
    "div_feed": {
-    "checked": "2026-11-11",
+    "checked": "2026-11-12",
     "rows": []
    }
   }
@@ -395,43 +395,43 @@
  "watch": {
   "AU-2026-13": {
    "ticker": "AX1",
-   "date": "2026-11-11",
-   "why": "no break price or base rate"
+   "date": "2026-11-12",
+   "why": "not valued by the deal monitor tonight"
   },
   "AU-2026-14": {
    "ticker": "VAU",
-   "date": "2026-11-11",
-   "why": "expected -3.70% after costs, cash +0.19%"
+   "date": "2026-11-12",
+   "why": "not valued by the deal monitor tonight"
   },
   "AU-2026-17": {
    "ticker": "OML",
-   "date": "2026-11-11",
-   "why": "expected -0.31% after costs, cash +0.37%"
+   "date": "2026-11-12",
+   "why": "not valued by the deal monitor tonight"
   },
   "AU-2026-19": {
    "ticker": "SDF",
-   "date": "2026-11-11",
-   "why": "expected -1.45% after costs, cash +0.53%"
+   "date": "2026-11-12",
+   "why": "not valued by the deal monitor tonight"
   },
   "AU-2026-20": {
    "ticker": "PPC",
-   "date": "2026-11-11",
-   "why": "price outside the range from the break price to the offer"
+   "date": "2026-11-12",
+   "why": "not valued by the deal monitor tonight"
   },
   "AU-2026-23": {
    "ticker": "CWY",
-   "date": "2026-11-11",
-   "why": "expected -1.44% after costs, cash +1.81%"
+   "date": "2026-11-12",
+   "why": "not valued by the deal monitor tonight"
   },
   "AU-2026-24": {
    "ticker": "FPR",
-   "date": "2026-11-11",
-   "why": "expected +0.12% after costs, cash +1.81%"
+   "date": "2026-11-12",
+   "why": "not valued by the deal monitor tonight"
   },
   "AU-2026-26": {
    "ticker": "RTH",
-   "date": "2026-11-11",
-   "why": "expected -4.80% after costs, cash +1.18%"
+   "date": "2026-11-12",
+   "why": "not valued by the deal monitor tonight"
   }
  }
 }

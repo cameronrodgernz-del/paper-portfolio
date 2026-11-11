@@ -1,4 +1,4 @@
-# Research watch list, 2026-11-11
+# Research watch list, 2026-11-12
 
 Prices at which a "wait" verdict would be looked at again (research/watch_triggers.csv), and the dated events in the next 14 days (research/watch_events.csv). A hit sends the share back to the research desk to check the other conditions in its file; nothing is bought from this list. This is a simulation and not financial advice.
 
@@ -18,7 +18,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:MGX (MGX Resources) | AUD 0.255 | 0.29 | +13.7% | case for only | 2026-11-18: AGM |
 | ASX:DUR (Duratec) | AUD 1.65 | 1.885 | +14.2% | case for only | 2026-11-26: AGM |
 | ASX:BAP (Bapcor) | AUD 0.75 | 0.86 | +14.7% | case against filed, not run | 2027-02-25: 1H FY27 result |
-| NZX:OCA (Oceania Healthcare) | NZD 0.555 | 0.67 | +20.7% | case for only | 2026-11-19: 1H27 result |
+| NZX:OCA (Oceania Healthcare) | NZD 0.555 | 0.66 | +18.9% | case for only | 2026-11-19: 1H27 result |
 | ASX:AQZ (Alliance Aviation Services) | AUD 0.31 | 0.395 | +27.4% | case against filed, not run | 2026-11-26: AGM |
 
 ## Triggers
@@ -35,19 +35,19 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:GEM | AUD 0.095 | 0.1 | 2026-11-11 | +5.3% |  | data/prices/ASX |
 | ASX:ASG | AUD 1 | 1.065 | 2026-11-11 | +6.5% |  | data/prices/ASX |
 | ASX:EGH | AUD 0.59 | 0.63 | 2026-11-07 | +6.8% |  | ASX company data (last trade at fetch) |
-| NZX:KMD | NZD 2 | 2.14 | 2026-11-09 | +7.0% |  | data/prices/NZX |
 | ASX:TOT | AUD 0.375 | 0.4025 | 2026-11-07 | +7.3% |  | ASX company data (last trade at fetch) |
 | ASX:ZIM | AUD 13.3 | 14.31 | 2026-11-11 | +7.6% |  | data/prices/ASX |
-| NZX:RAD | NZD 0.39 | 0.42 | 2026-11-09 | +7.7% |  | data/prices/NZX |
+| NZX:RAD | NZD 0.39 | 0.42 | 2026-11-10 | +7.7% |  | data/prices/NZX |
 | ASX:HLO | AUD 1.3 | 1.405 | 2026-11-11 | +8.1% |  | data/prices/ASX |
 | ASX:CCV | AUD 0.245 | 0.265 | 2026-11-11 | +8.2% |  | data/prices/ASX |
 | ASX:AHC | AUD 0.24 | 0.26 | 2026-11-11 | +8.3% |  | data/prices/ASX |
 | ASX:IGL | AUD 2.12 | 2.3 | 2026-11-11 | +8.5% |  | data/prices/ASX |
-| NZX:MFB | NZD 0.29 | 0.315 | 2026-11-09 | +8.6% |  | data/prices/NZX |
+| NZX:KMD | NZD 2 | 2.17 | 2026-11-10 | +8.5% |  | data/prices/NZX |
+| NZX:MFB | NZD 0.29 | 0.315 | 2026-11-10 | +8.6% |  | data/prices/NZX |
 | ASX:CWP | AUD 5.75 | 6.32 | 2026-11-11 | +9.9% |  | data/prices/ASX |
-| NZX:SKC | NZD 0.635 | 0.7 | 2026-11-09 | +10.2% |  | data/prices/NZX |
+| NZX:SAN | NZD 6 | 6.6 | 2026-11-10 | +10.0% |  | data/prices/NZX |
 | ASX:AFG | AUD 1.41 | 1.56 | 2026-11-11 | +10.6% |  | data/prices/ASX |
-| NZX:SAN | NZD 6 | 6.7 | 2026-11-09 | +11.7% |  | data/prices/NZX |
+| NZX:SKC | NZD 0.635 | 0.71 | 2026-11-10 | +11.8% |  | data/prices/NZX |
 | ASX:CTD | AUD 3.25 | 3.65 | 2026-11-09 | +12.3% |  | ASX company data (last trade at fetch) |
 | ASX:SND | AUD 0.645 | 0.725 | 2026-11-07 | +12.4% |  | ASX company data (last trade at fetch) |
 | ASX:CAF | AUD 0.35 | 0.395 | 2026-11-11 | +12.9% |  | data/prices/ASX |
@@ -58,13 +58,13 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:CZR | AUD 0.165 | 0.19 | 2026-11-11 | +15.2% |  | data/prices/ASX |
 | ASX:HUM | AUD 0.45 | 0.52 | 2026-11-11 | +15.6% |  | data/prices/ASX |
 | ASX:MVF | AUD 0.665 | 0.77 | 2026-11-11 | +15.8% |  | data/prices/ASX |
-| NZX:SPG | NZD 0.94 | 1.1 | 2026-11-09 | +17.0% |  | data/prices/NZX |
-| NZX:ARG | NZD 0.88 | 1.035 | 2026-11-09 | +17.6% |  | data/prices/NZX |
+| NZX:ARG | NZD 0.88 | 1.035 | 2026-11-10 | +17.6% |  | data/prices/NZX |
 | ASX:MYG | AUD 1.5 | 1.77 | 2026-11-11 | +18.0% |  | data/prices/ASX |
+| NZX:OCA | NZD 0.555 | 0.66 | 2026-11-10 | +18.9% |  | data/prices/NZX |
+| NZX:SPG | NZD 0.94 | 1.125 | 2026-11-10 | +19.7% |  | data/prices/NZX |
 | ASX:TRJ | AUD 0.22 | 0.265 | 2026-11-11 | +20.5% |  | data/prices/ASX |
 | ASX:BOL | AUD 1.85 | 2.23 | 2026-11-11 | +20.5% |  | data/prices/ASX |
-| NZX:OCA | NZD 0.555 | 0.67 | 2026-11-09 | +20.7% |  | data/prices/NZX |
-| NZX:IPL | NZD 0.84 | 1.025 | 2026-11-09 | +22.0% |  | data/prices/NZX |
+| NZX:IPL | NZD 0.84 | 1.025 | 2026-11-10 | +22.0% |  | data/prices/NZX |
 | ASX:AL3 | AUD 0.09 | 0.11 | 2026-11-11 | +22.2% |  | data/prices/ASX |
 | ASX:AWJ | AUD 0.2 | 0.245 | 2026-11-10 | +22.5% |  | data/prices/ASX |
 | ASX:STP | AUD 0.11 | 0.135 | 2026-11-11 | +22.7% |  | data/prices/ASX |
@@ -76,10 +76,10 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:BBT | AUD 0.09 | 0.115 | 2026-11-11 | +27.8% |  | data/prices/ASX |
 | ASX:EML | AUD 0.24 | 0.31 | 2026-11-11 | +29.2% |  | data/prices/ASX |
 | ASX:FML | AUD 1.4 | 1.855 | 2026-11-11 | +32.5% |  | data/prices/ASX |
-| NZX:PGW | NZD 1.66 | 2.2 | 2026-11-09 | +32.5% |  | data/prices/NZX |
+| NZX:PGW | NZD 1.66 | 2.2 | 2026-11-10 | +32.5% |  | data/prices/NZX |
 | ASX:ANG | AUD 0.15 | 0.205 | 2026-11-11 | +36.7% |  | data/prices/ASX |
 | ASX:HIT | AUD 0.79 | 1.095 | 2026-11-11 | +38.6% |  | data/prices/ASX |
-| NZX:SCT | NZD 1.6 | 2.45 | 2026-11-09 | +53.1% |  | data/prices/NZX |
+| NZX:SCT | NZD 1.6 | 2.4 | 2026-11-10 | +50.0% |  | data/prices/NZX |
 | ASX:KAU | AUD 0.1 | 0.16 | 2026-11-11 | +60.0% |  | data/prices/ASX |
 | ASX:BCN | AUD 1.5 | 2.75 | 2026-11-11 | +83.3% |  | data/prices/ASX |
 | ASX:GRR | AUD 0.055 | 0.105 | 2026-11-11 | +90.9% |  | data/prices/ASX |
@@ -88,9 +88,6 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 
 ## Events in the next 14 days
 
-- 2026-11-11: ASX:MYX, Cosette claim: special leave deadline (announced)
-- 2026-11-11: ASX:STP, annual meeting (first read on 1H revenue) (announced)
-- 2026-11-11: NZX:RAD, H1 FY27 result (EBITDA less resale gains, aged care EBITDAR, net debt) (announced)
 - 2026-11-12: ASX:AFG, warehouse facility falls due (renewal terms) (announced)
 - 2026-11-12: ASX:CTD, 2025 and 2026 AGMs with FY27 guidance: re-run the outcomes if FY27 EBITDA guidance is about A$125m or more (research/picks/CTD.md) (announced)
 - 2026-11-12: ASX:PAC, strategic review update at or before the AGM (announced)
@@ -120,3 +117,11 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 - 2026-11-25: NZX:IPL, 1H27 result (inferred)
 - 2026-11-25: NZX:KMD, AGM (Bluestar exclusivity running) (announced)
 - 2026-11-25: NZX:SPG, HY27 result (inferred)
+- 2026-11-26: ASX:AQZ, AGM: new CEO's first address, any trading update, votes on placement capacity (research/picks/AQZ.md) (announced)
+- 2026-11-26: ASX:CZR, AGM with a holder-nominated director (announced)
+- 2026-11-26: ASX:DUR, AGM: FY27 commentary or guidance (re-run if revenue A$720m or more or underlying EPS 14c or more), any word on the Stirling Controlled Industrial Facility; Miller leaves the board (research/picks/DUR.md) (announced)
+- 2026-11-26: ASX:EDU, buyback meeting (announced)
+- 2026-11-26: ASX:GDF, AGM (buyback or larger return?) (announced)
+- 2026-11-26: ASX:MVF, AGM (announced)
+- 2026-11-26: ASX:MXI, AGM (announced)
+- 2026-11-26: NZX:SCT, annual meeting (announced)
