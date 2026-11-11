@@ -211,3 +211,27 @@ Research watch list (reports/watch_triggers.md, 10 Nov):
 Analysed, in order of expected_yearly: GL1 (+117%), A11 (+80%), MEI (+63%, late case +66%), BET (+23%), RWC (+11%); the rest are below zero at the base rate, and AX1 and PPC have no figure (PPC is below its break price). GL1, A11, BET and RWC are cash deals, barred while test 9c has failed. MEI's card (research/cards/2026-11-02-MEI.json) stays "waiting": its re-test trigger (a CIMCE filing with a decision date, or a ruling that the regime doesn't apply) has not been announced. No special situation type has passed; no research card is "ready" and none is held.
 
 Placed: nothing.
+
+## 2026-11-11, Nightly job started by the desk a third night running; valuation in; Vault holders approve the Genesis scheme (court 16 Nov); no watch-list share reopened; nothing placed
+
+Checked:
+- All 19 test files in tests/ pass under python3 -I.
+- The scheduled 8:17pm nightly run did not start again (GitHub Actions: no scheduled run for 11 Nov; the last scheduled run was the late one at 5:26am NZDT on 11 Nov, which valued 10 Nov). The desk wrote "Desk run 2026-11-11 21:46 NZ: the 8:17pm job had not landed" to config/run_now.txt and pushed it (a06da20); Actions run 20 committed "Nightly data 2026-11-11" (bd654b2) within three minutes. Third weeknight running the schedule has not fired at 8:17pm; worth a look at the workflow's cron and gate.
+- Practice valuation for 11 Nov: NZ$100,113.74, 0.05% below the peak, no limit flags. src/actions.py practice check: nothing missing.
+- reports/data_checks.md (11 Nov): no price flags. Deal file findings: VAU's meeting (11 Nov) passed since its file was checked, dealt with below. The other eleven (AX1, BET, OML, AUC, SDF, RWC, MEI, CWY, FPR, RTH, GL1) are "last checked 9 or 10 days ago" with no key date passed; the ASX announcement pages still can't be opened from the desk, so their files keep their dates.
+- Scan of the live ASX deals since the 10 Nov entry, by news searches. Nothing new found for AX1, BET, OML (FIRB deadline 13 Nov), AUC, SDF, PPC, RWC, MEI, CWY (regulatory filings due by 10 Nov not yet reported), FPR, A11, RTH or GL1. No new binding ASX or NZX control deal of A$100m (NZ$20m) or more found. US leads watched only (test 9b not passed).
+
+Changed:
+- VAU (Vault, Genesis scheme): Vault holders approved the scheme resolution by the requisite majorities at the 11 Nov meeting; Vault has applied for the second court hearing on 16 Nov 2026 (Supreme Court of WA). Vote percentages not yet seen. Source: Genesis release as reported by TipRanks, 11 Nov 2026 (https://www.tipranks.com/news/company-announcements/vault-shareholders-approve-proposed-genesis-merger); the ASX release itself could not be opened. Deal file: stage vote_passed, holder approval moved to conditions met, line added under Recent announcements, last_checked 11 Nov. Carried into config/live_deals.csv with src/deal_files.py --add. Indicative timetable unchanged: effective 17 Nov, record 19 Nov, implementation 26 Nov.
+- src/deal_files.py --add again reports AUC's file (default all scrip) differs from the row (the all-elect-cash mix); kept the row as decided on 1 Nov. EUR and RCT are unconditional with only payment left, so not on the live list. Deal database unchanged, so no rerun of base rates or odds.
+- Deal monitor rerun.
+
+Research watch list (reports/watch_triggers.md, 11 Nov): no trigger hit. Near: MAD (+1.9%), ATG (+2.9%, already reopened 10 Nov), GDF (+3.2%).
+Events dated today (research/watch_events.csv):
+- NZX:RAD H1 FY27 result: not found from any source the desk could open (radiuscare.co.nz investor page shows nothing for 11 Nov; ShareChat and radiushealth.co.nz needed an approval no one was there to give). Last close in the data NZ$0.42 (9 Nov). Not reopened; the research desk should read the result and test it against the reopen conditions in research/picks/NZ_RAD.md (strong result at NZ$0.44 or below would reopen it).
+- ASX:MYX Cosette's High Court special leave deadline: no report found of an application or a settlement. Closed A$3.36. Not reopened (no settlement or judgment with an amount; price far above A$0.72).
+- ASX:STP AGM: no AGM trading update found. Closed A$0.135, above the A$0.11 trigger. Not reopened.
+
+Analysed, in order of expected_yearly: GL1 (+142%), A11 (+89%), MEI (+72%), BET (+16%), RWC (+4%); the rest below zero at the base rate, AX1 and PPC with no figure. GL1, A11, BET and RWC are cash deals, barred while test 9c has failed. MEI's card stays "waiting": no CIMCE filing or ruling announced. No special situation type has passed; no research card is "ready" and none is held.
+
+Placed: nothing.

@@ -21,7 +21,7 @@ record_date: 2026-11-19          # 4.00pm AWST
 implementation_date: 2026-11-26
 end_date: 2027-01-14             # six months from the deed; the nine-month ACCC extension no longer applies as the ACCC condition is met
 dates_basis: Meeting date and place are fixed by Court orders of 5 Oct 2026 (confirmed). Election Date, proxy deadline, second court date, Effective, Record and Implementation dates are indicative (booklet key dates, 6 Oct 2026; repeated 14 Oct 2026 and in the 22 Oct 2026 quarterly). End Date of 14 Jan 2027 is from the booklet's summary of the deed
-stage: booklet_out
+stage: vote_passed
 vote_threshold: 75% of votes cast and, unless the Court orders otherwise, a majority by number of Vault holders present and voting. Genesis group members are Excluded Shareholders
 bidder_stake_pct:                # no Genesis holding in Vault disclosed in the booklet; not confirmed either way
 intentions_pct: 0.17             # Vault directors' shares only (about 1.8 million shares), voting in favour subject to the usual qualifications; no lock-ups disclosed
@@ -31,10 +31,10 @@ ier: BDO Corporate Finance Australia Pty Ltd. Fair and reasonable, so in the bes
 break_fee: Vault Reimbursement Fee of A$55,500,000 (ex GST) payable to Genesis in set cases, including a superior proposal, change of recommendation or Vault's material breach
 reverse_break_fee: Genesis Reimbursement Fee of A$55,500,000 (ex GST) payable to Vault in matching cases
 regulators: ACCC: waiver application WA-40036 lodged by Genesis 31 Jul 2026; determination 27 Aug 2026 that the deal does not need to be notified (approved); ACCC condition satisfied. No FIRB, OIO or Genesis shareholder approval condition. ASIC: booklet registered 6 Oct 2026; ASIC extended time for Vault's AGM to 28 Feb 2027. Court: first hearing 5 Oct 2026 (Supreme Court of WA); second hearing 16 Nov 2026
-conditions_open: Vault holder approval at the 11 Nov 2026 meeting; Court approval; ASIC/ASX relief and any other approvals in force at the Second Court Date; no restraint; Independent Expert not changing its conclusion before the Second Court Date; no Vault or Genesis Prescribed Occurrence, Regulated Event or Material Adverse Change; Vault Performance Rights dealt with before the Record Date; ASX not refusing quotation of the new Genesis shares
-conditions_met: ACCC (waiver determination 27 Aug 2026); Independent Expert's Report issued before booklet registration concluding best interests (6 Oct 2026)
+conditions_open: Court approval (16 Nov 2026); ASIC/ASX relief and any other approvals in force at the Second Court Date; no restraint; Independent Expert not changing its conclusion before the Second Court Date; no Vault or Genesis Prescribed Occurrence, Regulated Event or Material Adverse Change; Vault Performance Rights dealt with before the Record Date; ASX not refusing quotation of the new Genesis shares
+conditions_met: Vault holder approval by the requisite majorities at the 11 Nov 2026 meeting; ACCC (waiver determination 27 Aug 2026); Independent Expert's Report issued before booklet registration concluding best interests (6 Oct 2026)
 ticking_fee: none
-last_checked: 2026-11-01
+last_checked: 2026-11-11
 ---
 ## In short
 Genesis Minerals is merging with Vault by scheme: each Vault share becomes 0.7629 new Genesis shares plus about A$0.5125 cash (the A$0.475 headline cash was lifted to make up for Genesis' A$0.05 final dividend). Genesis outbid an earlier Regis Resources deal in July, Regis declined to match, and Vault paid Regis a A$50.7 million break fee. The ACCC waived notification in August, BDO says the scheme is fair and reasonable, the booklet is out, and the vote is on 11 November with payment scheduled for 26 November 2026. What remains is the vote, the Court and no adverse event at either company; the main thing that moves the value holders receive is the Genesis share price, which has fallen about 15% since the booklet was written.
@@ -81,6 +81,7 @@ Competing proposal prospects (good for holders, kept separate):
 - Low, around 2–3%. Regis walked away rather than match, the deed has no-shop and no-talk terms with a matching right, and a A$55.5 million reimbursement fee applies. Vault had already done due diligence with Genesis in late 2025, which suggests the field was well tested.
 
 ## Recent announcements
+- 11 Nov 2026: Scheme meeting: Vault holders approved the scheme resolution by the requisite majorities; Vault has applied to the Supreme Court of WA for the second hearing on 16 Nov 2026. Vote percentages not yet seen (Genesis release, as reported by TipRanks: https://www.tipranks.com/news/company-announcements/vault-shareholders-approve-proposed-genesis-merger; the ASX release itself could not be opened).
 - 27 Oct 2026: 2026 Annual Report, Corporate Governance Statement, Appendix 4G; Macquarie ceases to be substantial.
 - 26 Oct 2026: Macquarie becomes substantial.
 - 22 Oct 2026: September quarterly: merger "on track for implementation in late November 2026".
