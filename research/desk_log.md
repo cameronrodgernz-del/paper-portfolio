@@ -235,3 +235,27 @@ Events dated today (research/watch_events.csv):
 Analysed, in order of expected_yearly: GL1 (+142%), A11 (+89%), MEI (+72%), BET (+16%), RWC (+4%); the rest below zero at the base rate, AX1 and PPC with no figure. GL1, A11, BET and RWC are cash deals, barred while test 9c has failed. MEI's card stays "waiting": no CIMCE filing or ruling announced. No special situation type has passed; no research card is "ready" and none is held.
 
 Placed: nothing.
+
+## 2026-11-12, Nightly job started by the desk a fourth night running; valuation in; Auric (AWJ) hit its watch price on a A$17m placement, so not reopened; no live deal news; nothing placed
+
+Checked:
+- All 19 test files in tests/ pass under python3 -I.
+- The scheduled 8:17pm nightly run did not start again (GitHub Actions: no scheduled run for 12 Nov; the last scheduled run was the late one at 5:12am NZDT on 12 Nov, which found 11 Nov already valued). The desk wrote "Desk run 2026-11-12 21:46 NZ: the 8:17pm job had not landed" to config/run_now.txt and pushed it (cc514cd); Actions run 23 committed "Nightly data 2026-11-12" (a455ee7) within three minutes. Fourth weeknight running the schedule has not fired at 8:17pm; the workflow's cron and gate need a look.
+- Practice valuation for 12 Nov: NZ$100,652.99, a new peak, no limit flags; ledger chain ok. src/actions.py practice check: nothing missing.
+- reports/data_checks.md (12 Nov): no price flags. Eleven deal file findings (AX1, BET, OML, AUC, SDF, RWC, MEI, CWY, FPR, RTH, GL1), all "last checked 10 or 11 days ago"; no key date has passed since any was checked (OML's FIRB deadline is tomorrow, 13 Nov). The ASX announcement pages still can't be opened from the desk, so the files keep their dates.
+- Scan of the live ASX deals since the 11 Nov entry, by news searches. Nothing new found for AX1, VAU (court 16 Nov), BET (ACCC decision due 26 Nov), OML, AUC (election closes 20 Nov), SDF, PPC (latest Ingenia reports found are the 10 Nov AVID match already logged), RWC, MEI, CWY, FPR, A11, RTH or GL1. A TipRanks item on GL1's board rejecting FIRB allegations carries a 2025 date stamp and is not new. A Kalkine headline mentions a G8 Education (GEM) takeover proposal, but the page could not be opened and no other source confirms it or that it is binding; not added. No new binding ASX or NZX control deal of A$100m (NZ$20m) or more found. US leads watched only (test 9b not passed).
+
+Changed:
+- Nothing on the live list or in the deal database, so base rates and odds were not rerun. Deal monitor rerun on 12 Nov closes; no change to the committed output.
+
+Research watch list (reports/watch_triggers.md, 12 Nov):
+- Hit: ASX:AWJ (Auric Mining) closed at A$0.20 (low A$0.195, 2.4m shares) after a trading halt on 11 Nov (no trades). The other condition in research/picks/AWJ.md fails: the trigger needs the Ore Reserve still pending and no placement, and Auric announced a A$17m two-tranche placement at A$0.185 (91.9m shares; tranche 2 subject to a mid-December meeting) plus an SPP of up to A$3m at the same price, mainly for the Union Jack and Iron Maiden acquisitions and drilling. The Munda Ore Reserve is still not released. This is the file's bad case (a placement before the reserve), though above its A$0.16 exit level. Not reopened. It also reopened from a halt more than 5% lower on heavy volume, so rulebook section 9 bars a position for 30 sessions anyway. Sources: Sharecafe, 12 Nov 2026 (https://www.sharecafe.com.au/2026/11/12/auric-mining-secures-a17-million-placement-launches-spp-to-fuel-growth-strategy/); Discovery Alert, 12 Nov 2026 (https://discoveryalert.com/asx-stock-news/mining/awj-auric-mining-burbanks-placement-november-2026/).
+- Near: DSK (+1.5%), MAD (+1.9%), JIN (+2.6%), ATG (+2.9%, already reopened 10 Nov).
+Events dated today (research/watch_events.csv):
+- ASX:CTD AGMs with FY27 guidance: no FY27 EBITDA guidance found from any source the desk could open (the AGM reports seen give none). The Q1 FY27 update on 11 Nov, as reported by Kalkine Media, gave underlying EBITDA of A$23.5m against A$37.6m a year earlier, TTV A$2.55bn (down 3.8%), FY27 corporate costs about A$39m and capex A$30m to A$35m. Closed A$3.65, above the A$3.25 reopen price, and nothing points to A$125m of EBITDA. Not reopened; the research desk should read the AGM address for guidance. Source: https://kalkinemedia.com/au/news/announcements/corporate-travel-management-reports-q1-fy27-ttv-of-255-billion-with-97-client-retention-rate
+- ASX:PAC strategic review update at the AGM: the board said due diligence on River Capital's proposal is ongoing and no decision has been made; the options are still the River proposal, a sale or delisting; the buyback stays paused. PAC is "rejected", so nothing to reopen. Source: Kalkine Media, 12 Nov 2026 (https://kalkinemedia.com/au/news/announcements/pacific-current-group-declares-debt-free-status-and-updates-on-strategic-review-at-2026-agm).
+- ASX:AFG warehouse facility due: no announcement of its renewal terms found. Closed A$1.56, above the A$1.41 reopen price. Not reopened.
+
+Analysed, in order of expected_yearly: GL1 (+153%), A11 (+90%), MEI (+63%), BET (+23%), RWC (+12%); the rest below zero at the base rate, AX1 and PPC with no figure. GL1, A11, BET and RWC are cash deals, barred while test 9c has failed. MEI's card (research/cards/2026-11-02-MEI.json) stays "waiting": no CIMCE filing or ruling announced. No special situation type has passed; no research card is "ready" and none is held.
+
+Placed: nothing.
