@@ -40,8 +40,8 @@ Cash price per share found in the latest filing's text, against the last close. 
 | ARX | Accelerant Holdings | 20.25 | 19.87 | +1.9% | 2026-10-30 | 2026-10-30 | PREM14A | close expected the first half of 2027 |
 | PSNL | Personalis, Inc. | 16.25 | 15.96 | +1.8% | 2026-10-21 | 2026-10-21 | DEFM14A | with a CVR; meeting November 30, 2026; close expected late 2026 |
 | ULBI | ULTRALIFE CORP | 16.00 | 15.75 | +1.6% | 2026-10-28 | 2026-10-28 | SC 14D9 |  |
-| VRNS | VARONIS SYSTEMS INC | 49.75 | 49.03 | +1.5% | 2026-11-06 | 2026-11-06 | PREM14A |  |
 | BWIN | Baldwin Insurance Group, Inc. | 32.50 | 32.04 | +1.4% | 2026-10-15 | 2026-10-15 | PREM14A |  |
+| OPCH | Option Care Health, Inc. | 32.05 | 31.70 | +1.1% | 2026-10-28 | 2026-11-09 | DEFM14A;PREM14A | meeting December 15, 2026; close expected in the first half of calendar year 2027 |
 | MKTX | MARKETAXESS HOLDINGS INC | 167.00 | 165.31 | +1.0% | 2026-09-04 | 2026-09-18 | DEFM14A;PREM14A | meeting October 29, 2026 |
 | LNTH | Lantheus Holdings, Inc. | 102.50 | 101.60 | +0.9% | 2026-08-26 | 2026-09-08 | DEFM14A;PREM14A | with a CVR; meeting OCTOBER 14, 2026; close expected in the first half of 2027 |
 | MG | Mistras Group, Inc. | 20.35 | 20.18 | +0.8% | 2026-10-15 | 2026-10-27 | DEFM14A;PREM14A | meeting November 24, 2026; close expected late 2026 |
