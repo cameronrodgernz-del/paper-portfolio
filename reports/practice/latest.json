@@ -1,42 +1,42 @@
 {
  "ledger": "practice",
- "date": "2026-11-12",
- "total_nzd": 100652.99,
- "total_unhedged_nzd": 100652.99,
+ "date": "2026-11-13",
+ "total_nzd": 100452.34,
+ "total_unhedged_nzd": 100452.34,
  "peak_nzd": 100652.99,
- "drawdown": 0.0,
+ "drawdown": -0.00199,
  "by_sleeve": {
-  "core": 40809.89
+  "core": 40605.99
  },
  "cash_nzd": {
-  "AUD": 198.03,
-  "NZD": 59451.8,
-  "USD": 193.27
+  "AUD": 197.39,
+  "NZD": 59455.27,
+  "USD": 193.69
  },
  "positions": [
   {
-   "close": 156.71,
+   "close": 155.75,
    "market": "US",
    "qty": 72.0,
    "sleeve": "core",
    "ticker": "VT",
-   "value_nzd": 20308.28
+   "value_nzd": 20227.71
   },
   {
-   "close": 113.45,
+   "close": 112.57,
    "market": "ASX",
    "qty": 73.0,
    "sleeve": "core",
    "ticker": "VAS",
-   "value_nzd": 10197.44
+   "value_nzd": 10085.47
   },
   {
-   "close": 45.7993,
+   "close": 45.6497,
    "market": "US",
    "qty": 125.0,
    "sleeve": "core",
    "ticker": "ENZL",
-   "value_nzd": 10304.17
+   "value_nzd": 10292.81
   }
  ],
  "flags": [],
@@ -86,6 +86,11 @@
    "date": "2026-11-12",
    "total_nzd": 100652.99,
    "total_unhedged_nzd": 100652.99
+  },
+  {
+   "date": "2026-11-13",
+   "total_nzd": 100452.34,
+   "total_unhedged_nzd": 100452.34
   }
  ],
  "chain": {
@@ -98,6 +103,6 @@
   "calls": "ok",
   "hedges": "ok"
  },
- "cash_rate_basis": "",
- "written_utc": "2026-11-12T16:06:13+00:00"
+ "cash_rate_basis": "fixed at the month's first run",
+ "written_utc": "2026-11-13T08:53:36+00:00"
 }
