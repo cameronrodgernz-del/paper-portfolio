@@ -1,10 +1,10 @@
 # Data checks, 2026-11-13
 
-30 shares checked, plus the NZ$ exchange rates and the deal files.
+31 shares checked, plus the NZ$ exchange rates and the deal files.
 
+- ASX:BRI moved +41% on 2026-11-13 (deal announced then)
 - AX1's deal file was last checked 12 days ago (2026-11-01)
 - BET's deal file was last checked 12 days ago (2026-11-01)
-- OML's deal file was last checked 11 days ago (2026-11-02)
 - AUC's deal file was last checked 12 days ago (2026-11-01)
 - SDF's deal file was last checked 12 days ago (2026-11-01)
 - RWC's deal file was last checked 12 days ago (2026-11-01)

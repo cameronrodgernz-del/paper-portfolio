@@ -18,7 +18,7 @@ Run 2026-11-13. Prices are the last closes in the repository; a blank means no p
 | A11 (AU-2026-25) | 0.335 | 0.375 | +11.8% | 60 | +97.2% | +77.9% |  | 54% | 97% (90% of 233 schemes announced, +7 points for this deal's features) | US$0.25486 cash (A$ amount moves with the exchange rate); FIRB approved 17 Sep; PRC approvals, ECOWAS and Ghana items open; Assore (26.4%) supports; court ordered the meeting 5 Nov; meeting 14 Dec; implementation about 12 Jan 2027 |
 | RTH (AU-2026-26) | 1.040 | 1.040 | +0.0% | 89 | +0.0% | -7.5% | -6.4% if paid 2027-02-26 | 100% | 96% (90% of 233 schemes announced, +6 points for this deal's features) | A$1.04 cash per RAS share; less dividends |
 | GL1 (AU-2026-27) | 0.900 | 1.150 | +27.8% | 63 | +313.8% | +282.6% | +95.6% if paid 2027-03-19 | 46% | 84% (90% of 233 schemes announced, -7 points for this deal's features) | A$1.15 cash; bidder private (UAE) with an equity commitment letter; FIRB and ACCC open; vote about 22 Dec; a 24% gap says the market doubts the funding |
-| BRI (AU-2026-28) |  | 1.620 |  | 105 |  |  |  |  | 93% (90% of 233 schemes announced, +3 points for this deal's features) | A$1.62 cash per share |
+| BRI (AU-2026-28) | 1.560 | 1.620 | +3.8% | 105 | +14.0% | +7.0% | +4.1% if paid 2027-05-10 | 88% | 93% (90% of 233 schemes announced, +3 points for this deal's features) | A$1.62 cash per share |
 
 After costs assumes a NZ$3,500 stake: half the estimated spread, brokerage beyond the plan's monthly cover, a currency conversion and the hedge's dealing cost; consideration is paid free of brokerage. The break price is the undisturbed price moved by the local market since the announcement. If it runs late: paid when the slowest quarter of past deals of the same kind would have paid, counted from the latest stage this deal has reached (blank when the expected date is already later). The base rate is how often holders were paid in past deals of the same structure at the same stage (reports/deal_odds.md), moved by the deal-feature model where it applies. The analyst adjusts it for this deal's conditions and records each adjustment before any entry.
 
@@ -33,7 +33,6 @@ Cash price per share found in the latest filing's text, against the last close. 
 | YTRA | Yatra Online, Inc. | 1.10 | 0.77 | +42.0% (check) | 2026-09-01 | 2026-09-30 | SC 14D9;SC 14D9/A | tender expires October 2, 2026 |
 | IRDM | Iridium Communications Inc. | 54.00 | 46.12 | +17.1% | 2026-08-26 | 2026-08-26 | DEFM14A | meeting September 24, 2026; close expected mid-2027 |
 | CZR | Caesars Entertainment, Inc. | 31.00 | 29.28 | +5.9% | 2026-08-12 | 2026-08-26 | DEFM14A;PREM14A | meeting SEPTEMBER 22, 2026 |
-| PTC | PTC INC. | 205.00 | 196.25 | +4.5% | 2026-11-03 | 2026-11-03 | PREM14A |  |
 | SYNA | SYNAPTICS Inc | 123.00 | 117.98 | +4.3% | 2026-10-08 | 2026-10-19 | DEFM14A;PREM14A | meeting November 17, 2026 |
 | VREX | Varex Imaging Corp | 18.90 | 18.27 | +3.4% | 2026-09-08 | 2026-09-21 | DEFM14A;PREM14A | meeting OCTOBER 28, 2026; close expected early 2027 |
 | PAYO | Payoneer Global Inc. | 7.40 | 7.18 | +3.1% | 2026-07-31 | 2026-08-11 | DEFM14A;PREM14A | meeting September 14, 2026; close expected mid-2027 |
@@ -59,6 +58,5 @@ Cash price per share found in the latest filing's text, against the last close. 
 | UTZ | Utz Brands, Inc. | 14.25 | 14.25 | +0.0% | 2026-08-24 | 2026-10-02 | DEFM14A;PREM14A | meeting November 13, 2026; close expected in the fourth quarter of 2026 |
 | BOW | Bowhead Specialty Holdings Inc. | 34.00 | 34.03 | -0.1% | 2026-08-28 | 2026-10-14 | DEFM14A;PREM14A | meeting November 13, 2026 |
 | DSGR | Distribution Solutions Group, Inc. | 35.00 | 35.04 | -0.1% | 2026-09-01 | 2026-10-28 | DEFM14A;PREM14A | meeting November 27, 2026 |
-| LFCR | LIFECORE BIOMEDICAL, INC. \DE\ | 6.28 | 6.40 | -1.9% | 2026-10-30 | 2026-10-30 | PREM14A | with a CVR |
 | GNK | GENCO SHIPPING & TRADING LTD | 24.80 | 26.41 | -6.1% (check) | 2026-07-23 | 2026-07-23 | SC 14D9/A |  |
 | ROKU | ROKU, INC | 118.75 | 160.52 | -26.0% (check) | 2026-09-01 | 2026-09-01 | DEFM14A | meeting October 14, 2026; close expected in the first half of calendar year 2027 |

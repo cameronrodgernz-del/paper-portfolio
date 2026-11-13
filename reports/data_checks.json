@@ -1,7 +1,15 @@
 {
  "run": "2026-11-13",
- "checked": 30,
+ "checked": 31,
  "issues": [
+  {
+   "kind": "jump_deal",
+   "market": "ASX",
+   "ticker": "BRI",
+   "date": "2026-11-13",
+   "move": 0.4054,
+   "text": "ASX:BRI moved +41% on 2026-11-13 (deal announced then)"
+  },
   {
    "kind": "deal_file",
    "market": "ASX",
@@ -15,13 +23,6 @@
    "ticker": "BET",
    "date": "2026-11-01",
    "text": "BET's deal file was last checked 12 days ago (2026-11-01)"
-  },
-  {
-   "kind": "deal_file",
-   "market": "ASX",
-   "ticker": "OML",
-   "date": "2026-11-02",
-   "text": "OML's deal file was last checked 11 days ago (2026-11-02)"
   },
   {
    "kind": "deal_file",
