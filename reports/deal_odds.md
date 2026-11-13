@@ -1,6 +1,6 @@
 # Deal odds: starting chances by stage, as a holder sees them
 
-From 320 resolved deals in the database (majority-holder buy-outs left out). Made 2026-11-10.
+From 320 resolved deals in the database (majority-holder buy-outs left out). Made 2026-11-13.
 
 - Completed with the first bidder: 81%. Holders paid at least the offer, counting rival bids that completed at the same or a higher price: 87%.
 - A rival bid that wins is a win for a holder, so the second figure is the one the engine starts from.
