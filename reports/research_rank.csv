@@ -14,7 +14,7 @@ ASX,AWJ,Auric Mining Limited,0.23,6,Materials,46.0,1.8,1.55,0.86,0.0,,6,,1.8 tim
 ASX,BOL,Boom Logistics Limited,2.21,6,Capital Goods,77.7,7.7,0.58,-1.1,1.0,2027-02-20,5,,7.7 times earnings; 0.58 times book; small (A$78m); a substantial holder left in the last six months,profit more than halved last year (check why),"quick look, watching"
 ASX,BSA,BSA Limited,0.18,6,Capital Goods,14.5,3.2,1.04,1.13,0.0,,12,,3.2 times earnings; net cash about 113% of market value; small (A$14m); 62% below its 12-month high; a substantial holder left in the last six months,a share raising in the last six months,"quick look, rejected"
 ASX,GEM,G8 Education Limited,0.1,6,Consumer Services,74.1,,0.14,-10.07,0.0,2027-02-10,1,,0.14 times book; left the S&P/ASX 300 2026-09-21; small (A$74m); 86% below its 12-month high; 12 months -88% against -23% for its industry; a substantial holder left in the last six months,loss in the latest year; heavy debt (enterprise value 11.1 times market value),"quick look, watching"
-ASX,IRI,Integrated Research Limited,0.26,6,Software & Services,49.2,39.2,0.5,1.03,18.7,2026-11-14,0,,0.50 times book; net cash about 103% of market value; 18.7% yield; small (A$49m),profit more than halved last year (check why),"quick look, watching"
+ASX,IRI,Integrated Research Limited,0.26,6,Software & Services,49.2,39.2,0.5,1.03,18.7,2026-11-14,0,,0.50 times book; net cash about 103% of market value; 18.7% yield; small (A$49m),profit more than halved last year (check why),"quick look, rejected"
 ASX,JIN,Jumbo Interactive Limited,6.01,6,Consumer Services,399.5,11.0,2.99,-0.11,4.3,,3,,11.0 times earnings; profit in each of the last four years; left the S&P/ASX 300 2026-09-21; 48% below its 12-month high; a substantial holder left in the last six months,,"quick look, watching"
 ASX,LM8,Lunnon Metals Limited,0.33,6,Materials,72.8,7.5,1.5,0.36,0.0,2027-03-10,5,,7.5 times earnings; net cash about 36% of market value; small (A$73m); a substantial holder left in the last six months,,"quick look, rejected"
 ASX,OCL,Objective Corporation Limited,6.22,6,Software & Services,634.0,16.2,5.79,0.14,4.0,2027-02-26,0,,net cash about 14% of market value; profit in each of the last four years; left the S&P/ASX 300 2026-09-21; 66% below its 12-month high; 12 months -66% against -35% for its industry,,"quick look, rejected"
@@ -25,7 +25,7 @@ ASX,AHC,Austco Healthcare Limited,0.28,5,Health Care Equipment & Services,103.1,
 ASX,ARA,Ariadne Australia Limited,0.47,5,Financial Services,89.7,224.9,0.56,0.22,2.1,,0,,0.56 times book; net cash about 22% of market value; profit in each of the last four years; small (A$90m),profit more than halved last year (check why),
 ASX,BFL,BSP Financial Group Limited,7.62,5,Banks,3691.0,9.4,2.3,0.74,6.5,2027-02-20,2,,9.4 times earnings; net cash about 74% of market value; 6.5% yield; profit in each of the last four years,,"quick look, rejected"
 ASX,COS,Cosol Limited,0.165,5,Software & Services,28.2,,0.4,-0.84,7.5,2027-02-12,0,,0.40 times book; 7.5% yield; small (A$28m); 69% below its 12-month high; 12 months -65% against -35% for its industry,loss in the latest year,
-ASX,CTD,Corporate Travel Management Limited,3.56,5,Consumer Services,505.7,28.0,0.9,0.11,0.0,,6,,0.90 times book; net cash about 11% of market value; left the S&P/ASX 200 2026-09-03; left the S&P/ASX 300 2026-09-03; a substantial holder left in the last six months,,
+ASX,CTD,Corporate Travel Management Limited,3.56,5,Consumer Services,505.7,28.0,0.9,0.11,0.0,,6,,0.90 times book; net cash about 11% of market value; left the S&P/ASX 200 2026-09-03; left the S&P/ASX 300 2026-09-03; a substantial holder left in the last six months,,"quick look, watching"
 ASX,CWP,Cedar Woods Properties Limited,6.14,5,Real Estate Management & Development,543.7,8.0,1.0,-0.29,6.2,2027-01-21,2,,8.0 times earnings; 1.00 times book; 6.2% yield; profit in each of the last four years,,"quick look, watching"
 ASX,DXC,Dexus Convenience Retail Reit Units Stapled Securities,2.73,5,Equity Real Estate Investment Trusts (REITs),363.3,6.7,0.69,-0.67,7.6,2027-02-09,1,,6.7 times earnings; 0.69 times book; 7.6% yield,,"quick look, watching"
 ASX,FML,Focus Minerals Ltd,1.82,5,Materials,541.6,3.7,1.47,0.45,4.5,2027-03-30,0,,3.7 times earnings; net cash about 45% of market value; 59% below its 12-month high,,"quick look, watching"
@@ -33,18 +33,19 @@ ASX,FWD,Fleetwood Limited,2.04,5,Capital Goods,185.1,79.3,1.3,0.26,9.3,2027-02-2
 ASX,HLO,Helloworld Travel Limited,1.34,5,Consumer Services,253.5,145.0,0.8,0.16,7.4,2027-02-25,1,,0.80 times book; net cash about 16% of market value; 7.4% yield; profit in each of the last four years; 35% below its 12-month high,profit more than halved last year (check why),"deep dive, watching"
 ASX,HPG,Hipages Group Holdings Ltd,0.87,5,Media & Entertainment,104.3,8.0,1.82,0.25,0.0,2027-02-24,4,,8.0 times earnings; net cash about 25% of market value; small (A$104m); 37% below its 12-month high,,"quick look, rejected"
 ASX,KSL,Kina Securities Limited,1.055,5,Banks,312.6,8.6,1.4,1.08,8.8,2027-02-13,4,,8.6 times earnings; net cash about 108% of market value; 8.8% yield; profit in each of the last four years,,"quick look, rejected"
-ASX,KYP,Kinatico Ltd,0.125,5,Software & Services,52.4,26.2,1.76,0.24,0.0,2027-02-17,2,,net cash about 24% of market value; profit in each of the last four years; small (A$52m); 64% below its 12-month high; 12 months -64% against -35% for its industry,,"quick look, watching"
+ASX,KYP,Kinatico Ltd,0.125,5,Software & Services,52.4,26.2,1.76,0.24,0.0,2027-02-17,2,,net cash about 24% of market value; profit in each of the last four years; small (A$52m); 64% below its 12-month high; 12 months -64% against -35% for its industry,,"quick look, rejected"
 ASX,MAM,Microequities Asset Management Group Limited,0.31,5,Financial Services,42.1,7.2,1.82,0.03,3.1,2027-02-13,0,,7.2 times earnings; profit in each of the last four years; small (A$42m); 50% below its 12-month high,,
+ASX,MCA,Murray COD Australia Limited,0.14,5,"Food, Beverage & Tobacco",37.2,,0.3,-0.86,0.0,2027-02-27,13,,0.30 times book; small (A$37m); 87% below its 12-month high; 12 months -83% against -36% for its industry; a substantial holder left in the last six months,loss in the latest year,
 ASX,MVP,Medical Developments International Limited,0.365,5,"Pharmaceuticals, Biotechnology & Life Sciences",45.1,73.1,0.81,0.44,0.0,2027-02-19,0,,0.81 times book; net cash about 44% of market value; small (A$45m); 47% below its 12-month high,,"quick look, watching"
 ASX,NDO,Nido Education Limited,0.26,5,Consumer Services,59.0,15.5,0.53,-3.97,14.8,2027-02-13,2,,0.53 times book; 14.8% yield; small (A$59m); 58% below its 12-month high; 12 months -59% against -23% for its industry,profit more than halved last year (check why); heavy debt (enterprise value 5.0 times market value),
 ASX,PFP,Propel Funeral Partners Limited,2.66,5,Consumer Services,358.7,18.4,1.06,-0.5,5.5,2027-02-24,3,,profit in each of the last four years; left the S&P/ASX 300 2026-09-21; 48% below its 12-month high; a substantial holder left in the last six months,,"deep dive, watching"
-ASX,RKN,Reckon Limited,0.4,5,Software & Services,45.3,6.0,1.77,-0.07,6.3,2027-02-10,0,,6.0 times earnings; 6.3% yield; profit in each of the last four years; small (A$45m),,"quick look, watching"
+ASX,RKN,Reckon Limited,0.4,5,Software & Services,45.3,6.0,1.77,-0.07,6.3,2027-02-10,0,,6.0 times earnings; 6.3% yield; profit in each of the last four years; small (A$45m),,"quick look, rejected"
 ASX,RMC,Resimac Group Ltd,0.805,5,Financial Services,330.3,6.5,0.9,-48.89,22.9,,2,,6.5 times earnings; 0.90 times book; 22.9% yield; profit in each of the last four years,,"quick look, rejected"
 ASX,SEN,Senetas Corporation Limited,2.2,5,Technology Hardware & Equipment,36.5,90.8,0.88,0.35,0.0,2027-02-27,2,,0.88 times book; net cash about 35% of market value; small (A$36m); 38% below its 12-month high,profit more than halved last year (check why),"quick look, rejected"
 ASX,SHM,Shriro Holdings Limited,0.725,5,Consumer Durables & Apparel,45.4,5.1,1.42,-0.02,8.5,2027-02-26,1,,5.1 times earnings; 8.5% yield; profit in each of the last four years; small (A$45m),,
 ASX,WTL,WT Financial Group Limited,0.145,5,Financial Services,49.6,10.2,1.43,0.14,6.9,2027-02-12,1,,10.2 times earnings; net cash about 14% of market value; 6.9% yield; profit in each of the last four years; small (A$50m),,"quick look, rejected"
-NZX,ARG,Argosy Property Limited Ordinary Shares,1.035,5,,904.6,7.0,0.65,,7.5,,,0.01,7.0 times earnings; 0.65 times net tangible assets; 7.5% gross yield,,"quick look, watching"
-NZX,PHL,Promisia Healthcare Limited Ordinary Shares,0.645,5,,35.0,2.6,0.59,,0.0,,,0.031,2.6 times earnings; 0.59 times net tangible assets; small (NZ$35m),,"quick look, rejected"
+NZX,ARG,Argosy Property Limited Ordinary Shares,1.045,5,,904.6,7.0,0.65,,7.5,,,0.01,7.0 times earnings; 0.65 times net tangible assets; 7.5% gross yield,,"quick look, watching"
+NZX,PHL,Promisia Healthcare Limited Ordinary Shares,0.665,5,,35.0,2.6,0.59,,0.0,,,0.031,2.6 times earnings; 0.59 times net tangible assets; small (NZ$35m),,"quick look, rejected"
 NZX,SEK,Seeka Limited Ordinary Shares,5.1,5,,229.3,5.7,0.72,,12.3,,,0.008,5.7 times earnings; 0.72 times net tangible assets; 12.3% gross yield; small (NZ$229m),,"deep dive, watching"
 ASX,AAC,Australian Agricultural Company Limited,1.33,4,"Food, Beverage & Tobacco",807.7,7.5,0.45,-0.62,0.0,2026-11-17,2,,7.5 times earnings; 0.45 times book,,"quick look, watching"
 ASX,AAL,Alfabs Australia Limited,0.2,4,Capital Goods,68.9,35.9,1.11,-0.06,0.0,2027-02-23,4,,profit in each of the last four years; small (A$69m); 59% below its 12-month high; 12 months -58% against -2% for its industry,profit more than halved last year (check why),
@@ -52,10 +53,10 @@ ASX,ADH,Adairs Limited,1.33,4,Consumer Discretionary Distribution & Retail,265.0
 ASX,AGD,Austral Gold Limited,0.12,4,Materials,76.8,1.7,1.79,0.08,0.0,2027-02-27,1,,1.7 times earnings; small (A$77m); 52% below its 12-month high,,"quick look, rejected"
 ASX,AHK,ARK Mines Limited,0.27,4,Materials,19.5,21.4,2.33,0.2,0.0,,1,,net cash about 20% of market value; small (A$20m); 58% below its 12-month high; 12 months -57% against -12% for its industry,,
 ASX,AL3,Aml3d Limited,0.115,4,Capital Goods,65.8,,2.06,0.47,0.0,,2,,net cash about 47% of market value; small (A$66m); 49% below its 12-month high; 12 months -41% against -2% for its industry,loss in the latest year,"quick look, watching"
-ASX,ATG,Articore Group Limited,0.375,4,Consumer Discretionary Distribution & Retail,108.6,10.3,2.0,0.34,0.0,2027-02-19,11,,10.3 times earnings; net cash about 34% of market value; small (A$109m),,"quick look, watching"
+ASX,ATG,Articore Group Limited,0.375,4,Consumer Discretionary Distribution & Retail,108.6,10.3,2.0,0.34,0.0,2027-02-19,10,,10.3 times earnings; net cash about 34% of market value; small (A$109m),,"quick look, reopened: 2026-11-10, closed at A$0.345 (the trigger, the 6 Nov bid) before the December quarter update, with no company news found since 6 Nov (news searches only; the ASX list could not be opened)"
 ASX,B4P,Beforepay Group Limited,1.25,4,Financial Services,71.3,8.3,1.46,-0.41,0.0,2027-02-26,0,,8.3 times earnings; small (A$71m); 55% below its 12-month high; 12 months -49% against -15% for its industry,,"quick look, rejected"
 ASX,BBN,Baby Bunting Group Limited,1.06,4,Consumer Discretionary Distribution & Retail,184.7,13.5,1.42,-0.88,0.0,2027-02-17,10,,profit in each of the last four years; small (A$185m); 65% below its 12-month high; 12 months -62% against -30% for its industry,,"quick look, rejected"
-ASX,BCN,Beacon Minerals Limited,2.64,4,Materials,291.0,6.4,3.19,0.01,7.7,2027-02-27,6,,6.4 times earnings; 7.7% yield; 40% below its 12-month high,,"quick look, watching"
+ASX,BCN,Beacon Minerals Limited,2.64,4,Materials,291.0,6.4,3.19,0.01,7.7,2027-02-27,5,,6.4 times earnings; 7.7% yield; 40% below its 12-month high,,"quick look, watching"
 ASX,BIS,Bisalloy Steel Group Limited,4.1,4,Materials,194.7,11.9,2.51,-0.07,8.8,2027-02-27,2,,11.9 times earnings; 8.8% yield; profit in each of the last four years; small (A$195m),,"quick look, rejected"
 ASX,BWN,Bhagwan Marine Limited,0.27,4,Transportation,109.4,80.1,0.51,-1.19,3.0,2027-02-26,7,,0.51 times book; small (A$109m); 51% below its 12-month high; 12 months -50% against +1% for its industry,loss in the latest year,"quick look, watching"
 ASX,CAF,Centrepoint Alliance Limited,0.38,4,Financial Services,77.9,13.0,2.24,0.09,8.0,2027-02-24,2,,8.0% yield; profit in each of the last four years; small (A$78m); a substantial holder left in the last six months,,"quick look, watching"
@@ -73,14 +74,13 @@ ASX,GDI,GDI Property Group/Units Stapled Securities,0.64,4,Equity Real Estate In
 ASX,IGL,IVE Group Limited,2.27,4,Media & Entertainment,351.1,9.5,1.61,-1.29,8.1,2027-02-25,6,,9.5 times earnings; 8.1% yield; profit in each of the last four years; a substantial holder left in the last six months,"deal headline to check, which side it's on (2026-09-21: Scheme Implementation Deed)","deep dive, watching"
 ASX,LAT,Latitude 66 Limited,0.11,4,Materials,21.4,10.8,1.13,0.05,0.0,,0,,10.8 times earnings; small (A$21m); 46% below its 12-month high; a substantial holder left in the last six months,,
 ASX,LFG,Liberty Financial Group/Units Stapled Securities,3.37,4,Financial Services,1017.1,7.2,0.86,-14.2,0.0,2027-02-23,0,,7.2 times earnings; 0.86 times book; profit in each of the last four years,,"quick look, rejected"
-ASX,MCA,Murray COD Australia Limited,0.14,4,"Food, Beverage & Tobacco",37.2,,0.3,-0.86,0.0,2027-02-27,13,,0.30 times book; small (A$37m); 87% below its 12-month high; 12 months -83% against -36% for its industry; a substantial holder left in the last six months,loss in the latest year; a share raising in the last six months,
-ASX,MGX,MGX Resources Limited,0.3,4,Materials,348.2,,0.82,1.14,0.0,2027-02-19,0,,0.82 times book; net cash about 114% of market value; 39% below its 12-month high; a substantial holder left in the last six months,loss in the latest year,
+ASX,MGX,MGX Resources Limited,0.3,4,Materials,348.2,,0.82,1.14,0.0,2027-02-19,0,,0.82 times book; net cash about 114% of market value; 39% below its 12-month high; a substantial holder left in the last six months,loss in the latest year,"quick look, watching"
 ASX,MLG,MLG OZ Limited,0.78,4,Materials,136.3,9.3,0.85,-0.53,1.7,2027-02-04,1,,9.3 times earnings; 0.85 times book; profit in each of the last four years; small (A$136m),,
 ASX,MMI,Metro Mining Limited,0.8,4,Materials,248.6,,1.33,-0.17,0.0,2027-02-27,8,,small (A$249m); 55% below its 12-month high; 12 months -45% against -12% for its industry; a substantial holder left in the last six months,,
 ASX,MSV,Mitchell Services Limited,0.67,4,Materials,137.0,9.3,2.01,0.04,0.0,2027-02-19,2,,9.3 times earnings; profit in each of the last four years; small (A$137m); a substantial holder left in the last six months,,
 ASX,MTO,Motorcycle Holdings Limited,2.85,4,Consumer Discretionary Distribution & Retail,210.1,8.7,0.98,-0.54,5.7,2027-02-16,5,,8.7 times earnings; 0.98 times book; profit in each of the last four years; small (A$210m),,"quick look, rejected"
 ASX,MYG,Mayfield Group Holdings Limited,1.605,4,Capital Goods,180.1,21.5,2.25,0.07,2.8,2027-02-27,6,,profit in each of the last four years; small (A$180m); 53% below its 12-month high; a substantial holder left in the last six months,,"quick look, watching"
-ASX,NOL,Nobleoak Life Limited,1.39,4,Insurance,126.3,9.4,1.22,0.6,0.0,2027-02-27,3,,9.4 times earnings; net cash about 60% of market value; profit in each of the last four years; small (A$126m),a share raising in the last six months,
+ASX,NOL,Nobleoak Life Limited,1.39,4,Insurance,126.3,9.4,1.22,0.6,0.0,2027-02-27,2,,9.4 times earnings; net cash about 60% of market value; profit in each of the last four years; small (A$126m),a share raising in the last six months,
 ASX,PFG,Prime Financial Group Limited,0.185,4,Financial Services,50.0,12.3,0.83,-0.48,9.6,2027-02-19,1,,0.83 times book; 9.6% yield; profit in each of the last four years; small (A$50m),,
 ASX,PLT,Plenti Group Limited,0.75,4,Financial Services,140.1,10.1,1.58,-21.28,0.0,2026-11-18,3,,10.1 times earnings; small (A$140m); 44% below its 12-month high; 12 months -45% against -15% for its industry,,
 ASX,RDM,Red Metal Limited,0.135,4,Materials,48.5,2.7,4.31,0.05,0.0,,0,,2.7 times earnings; small (A$49m); a substantial holder left in the last six months,,
@@ -91,21 +91,20 @@ ASX,SVR,Solvar Limited,1.395,4,Financial Services,258.2,9.1,0.78,-2.17,14.2,2027
 ASX,TBR,Tribune Resources Limited,5.19,4,Materials,269.2,3.6,0.83,-0.24,3.9,2027-03-13,1,,3.6 times earnings; 0.83 times book; profit in each of the last four years,,
 ASX,TNC,True North Copper Limited,0.26,4,Materials,47.4,,0.54,0.24,0.0,,1,,0.54 times book; net cash about 24% of market value; small (A$47m); 65% below its 12-month high; a substantial holder left in the last six months,loss in the latest year; a share raising in the last six months,
 ASX,TRJ,Trajan Group Holdings Limited,0.25,4,"Pharmaceuticals, Biotechnology & Life Sciences",37.5,,0.38,-1.26,0.0,2027-01-29,2,,0.38 times book; small (A$37m); 68% below its 12-month high; a substantial holder left in the last six months,loss in the latest year,"deep dive, watching"
-ASX,29M,29METALS Limited,0.255,3,Materials,437.5,,0.98,-0.1,0.0,2027-02-26,3,,0.98 times book; 61% below its 12-month high; 12 months -40% against -12% for its industry,,
 ASX,ABY,Adore Beauty Group Limited,0.25,3,Consumer Discretionary Distribution & Retail,24.9,,0.69,-1.72,0.0,2027-02-24,0,,0.69 times book; small (A$25m); 81% below its 12-month high; 12 months -78% against -30% for its industry,loss in the latest year; heavy debt (enterprise value 2.7 times market value),
 ASX,AHL,Adrad Holdings Limited,1.35,3,Automobiles & Components,104.5,16.5,0.81,-0.1,3.4,,2,,0.81 times book; profit in each of the last four years; small (A$104m),,
-ASX,AQZ,Alliance Aviation Services Limited,0.39,3,Transportation,86.3,,0.23,-5.58,7.6,2027-02-05,7,,0.23 times book; 7.6% yield; small (A$86m); 73% below its 12-month high; a substantial holder left in the last six months,loss in the latest year; a share raising in the last six months; heavy debt (enterprise value 6.6 times market value),
+ASX,AQZ,Alliance Aviation Services Limited,0.39,3,Transportation,86.3,,0.23,-5.58,7.6,2027-02-05,7,,0.23 times book; 7.6% yield; small (A$86m); 73% below its 12-month high; a substantial holder left in the last six months,loss in the latest year; a share raising in the last six months; heavy debt (enterprise value 6.6 times market value),"quick look, watching"
 ASX,ART,Airtasker Limited,0.2,3,Media & Entertainment,91.8,,6.18,0.31,0.0,,6,,net cash about 31% of market value; small (A$92m); 46% below its 12-month high,a share raising in the last six months,
-ASX,BAP,Bapcor Limited,0.85,3,Consumer Discretionary Distribution & Retail,575.2,,1.02,-0.64,0.0,2027-02-26,12,,left the S&P/ASX 300 2026-09-21; 65% below its 12-month high; a substantial holder left in the last six months,loss in the latest year,
+ASX,BAP,Bapcor Limited,0.85,3,Consumer Discretionary Distribution & Retail,575.2,,1.02,-0.64,0.0,2027-02-26,12,,left the S&P/ASX 300 2026-09-21; 65% below its 12-month high; a substantial holder left in the last six months,loss in the latest year,"quick look, watching"
 ASX,BBL,Brisbane Broncos Limited,1.55,3,Media & Entertainment,158.8,15.5,2.96,0.3,2.0,,1,,net cash about 30% of market value; profit in each of the last four years; small (A$159m),,
-ASX,BFG,Bell Financial Group Limited,1.41,3,Financial Services,441.0,9.3,1.73,-1.2,8.5,2027-02-18,1,,9.3 times earnings; 8.5% yield; profit in each of the last four years,,
+ASX,BFG,Bell Financial Group Limited,1.41,3,Financial Services,441.0,9.3,1.73,-1.2,8.5,2027-02-18,0,,9.3 times earnings; 8.5% yield; profit in each of the last four years,,
 ASX,BHM,Broken Hill Mines Limited,0.465,3,Materials,193.0,,4.19,0.39,0.0,2027-02-25,0,,net cash about 39% of market value; small (A$193m); 64% below its 12-month high; 12 months -45% against -12% for its industry,loss in the latest year; a share raising in the last six months,
 ASX,CEH,Coast Entertainment Holdings Limited,0.495,3,Consumer Services,172.9,31.9,0.77,0.2,0.0,2027-02-13,0,,0.77 times book; net cash about 20% of market value; small (A$173m),,
 ASX,CLX,CTI Logistics Limited,2.78,3,Transportation,224.6,9.2,1.56,-0.58,5.0,,1,,9.2 times earnings; profit in each of the last four years; small (A$225m),,
 ASX,CRN,Coronado Global Resources Inc. CDI 10:1,0.145,3,Materials,234.7,,0.25,-3.78,0.0,2027-02-24,2,,0.25 times book; small (A$235m); 70% below its 12-month high; 12 months -57% against -12% for its industry,loss in the latest year; heavy debt (enterprise value 4.8 times market value),
 ASX,DUG,DUG Technology Ltd,1.445,3,Software & Services,207.0,76.3,2.87,-0.19,0.0,2027-02-25,4,,small (A$207m); 41% below its 12-month high; a substantial holder left in the last six months,,
 ASX,EHL,Emeco Holdings Limited,1.335,3,Capital Goods,672.8,9.3,0.85,-0.18,0.0,2027-02-19,2,,9.3 times earnings; 0.85 times book; profit in each of the last four years,,
-ASX,FHE,Frontier Energy Limited,0.18,3,Energy,211.4,,,1.0,0.0,2027-02-26,10,,net cash about 100% of market value; small (A$211m); 43% below its 12-month high,loss in the latest year,
+ASX,FHE,Frontier Energy Limited,0.18,3,Energy,211.4,,,1.0,0.0,2027-02-26,8,,net cash about 100% of market value; small (A$211m); 43% below its 12-month high,loss in the latest year,
 ASX,FRM,Farm Pride Foods Limited,0.275,3,"Food, Beverage & Tobacco",61.1,6.3,1.15,-0.39,0.0,2027-02-26,2,,6.3 times earnings; small (A$61m),,
 ASX,G6M,Group 6 Metals Limited,2.52,3,Materials,610.5,4.2,3.94,0.04,0.0,2027-03-06,4,,4.2 times earnings; 35% below its 12-month high,,
 ASX,HAV,Havilah Resources Limited,0.68,3,Materials,251.3,3.3,1.88,0.16,0.0,,2,,3.3 times earnings; net cash about 16% of market value,,
@@ -113,10 +112,10 @@ ASX,HMY,Harmoney Corp Limited,0.715,3,Financial Services,69.0,7.2,1.47,-12.32,0.
 ASX,LFS,Latitude Group Holdings Limited,0.815,3,Financial Services,863.0,9.6,0.71,-7.4,12.1,2027-02-20,4,,9.6 times earnings; 0.71 times book; 12.1% yield,,
 ASX,LGI,LGI Limited,2.65,3,Utilities,257.6,30.1,2.17,0.0,1.0,2027-02-20,11,,profit in each of the last four years; 41% below its 12-month high; 12 months -40% against -7% for its industry,,"quick look, rejected"
 ASX,M7T,Mach7 Technologies Limited,0.26,3,Health Care Equipment & Services,61.1,,1.77,0.32,0.0,,2,,net cash about 32% of market value; small (A$61m); 62% below its 12-month high,loss in the latest year,
-ASX,MAD,Mader Group Limited,5.68,3,Commercial & Professional Services,1162.8,18.3,4.35,0.03,0.0,2027-02-10,3,,profit in each of the last four years; 36% below its 12-month high; a substantial holder left in the last six months,,
+ASX,MAD,Mader Group Limited,5.68,3,Commercial & Professional Services,1162.8,18.3,4.35,0.03,0.0,2027-02-10,3,,profit in each of the last four years; 36% below its 12-month high; a substantial holder left in the last six months,,"quick look, watching"
 ASX,MCP,McPherson's Limited,0.13,3,Household & Personal Products,19.1,,0.37,-0.06,0.0,2027-02-25,0,,0.37 times book; small (A$19m); 48% below its 12-month high,loss in the latest year,
 ASX,MYE,Mastermyne Group Limited,0.655,3,Materials,202.3,116.8,2.64,0.38,0.0,2027-02-25,1,,net cash about 38% of market value; small (A$202m),,
-ASX,NXL,Nuix Limited,1.785,3,Software & Services,661.3,36.9,2.11,0.06,0.0,,0,,left the S&P/ASX 300 2026-03-23; a substantial holder left in the last six months,,
+ASX,NXL,Nuix Limited,1.785,3,Software & Services,661.3,36.9,2.11,0.06,0.0,,0,,left the S&P/ASX 300 2026-03-23; a substantial holder left in the last six months,,"quick look, rejected"
 ASX,OBL,Omni Bridgeway Limited US Prohibited,1.725,3,Financial Services,530.0,9.3,0.78,-0.24,0.0,2027-02-26,3,,9.3 times earnings; 0.78 times book; a substantial holder left in the last six months,profit more than halved last year (check why),"quick look, rejected"
 ASX,PNC,Pioneer Credit Limited,0.605,3,Financial Services,118.1,4.4,1.41,-1.65,0.0,2027-02-18,5,,4.4 times earnings; small (A$118m); a substantial holder left in the last six months,a share raising in the last six months,
 ASX,POL,Polymetals Resources Ltd,0.49,3,Materials,143.4,,6.8,0.02,0.0,,8,,small (A$143m); 69% below its 12-month high; 12 months -46% against -12% for its industry; a substantial holder left in the last six months,loss in the latest year,
@@ -127,17 +126,15 @@ ASX,SOM,Somnomed Limited,0.29,3,Health Care Equipment & Services,68.1,,1.44,0.24
 ASX,SPZ,Smart Parking Limited,0.73,3,Commercial & Professional Services,336.2,44.0,3.4,0.07,0.0,2027-02-12,8,,profit in each of the last four years; 49% below its 12-month high; a substantial holder left in the last six months,,"quick look, rejected"
 ASX,SRV,Servcorp Limited,5.19,3,Real Estate Management & Development,569.4,8.1,2.23,-0.31,5.8,2027-02-18,11,,8.1 times earnings; profit in each of the last four years; 36% below its 12-month high,,"deep dive, watching"
 ASX,SXL,Southern Cross Media Group Limited,0.5,3,Media & Entertainment,237.0,,0.65,-2.71,0.0,2027-02-11,4,,0.65 times book; small (A$237m); 42% below its 12-month high; a substantial holder left in the last six months,loss in the latest year; heavy debt (enterprise value 3.7 times market value),"quick look, watching"
-ASX,TOT,360 Capital Reit Stapled Securities,0.395,3,Equity Real Estate Investment Trusts (REITs),90.6,13.5,0.72,-0.91,7.8,2027-02-19,14,,0.72 times book; 7.8% yield; small (A$91m),,
 ASX,TWD,Tamawood Limited,3.01,3,Consumer Durables & Apparel,117.2,14.4,3.2,0.05,7.3,2027-02-11,0,,7.3% yield; profit in each of the last four years; small (A$117m),,
-ASX,VLS,Vita Life Sciences Limited.,2.74,3,"Pharmaceuticals, Biotechnology & Life Sciences",145.5,13.9,2.59,0.22,5.4,2027-02-16,6,,net cash about 22% of market value; profit in each of the last four years; small (A$146m),,
-ASX,VVA,Viva Leisure Limited,1.46,3,Consumer Services,139.9,11.3,1.14,-2.77,2.1,2027-02-12,4,,11.3 times earnings; profit in each of the last four years; small (A$140m); a substantial holder left in the last six months,heavy debt (enterprise value 3.8 times market value),
+ASX,VLS,Vita Life Sciences Limited.,2.74,3,"Pharmaceuticals, Biotechnology & Life Sciences",145.5,13.9,2.59,0.22,5.4,2027-02-16,5,,net cash about 22% of market value; profit in each of the last four years; small (A$146m),,
 NZX,CDI,CDL Investments New Zealand Limited Ordinary Shares,0.62,3,,181.7,16.7,0.56,,2.2,,,0.083,0.56 times net tangible assets; small (NZ$182m),,"quick look, rejected"
-NZX,IPL,Investore Property Limited (NS) Ordinary Shares,1.01,3,,381.4,12.0,0.62,,8.3,,,0.015,0.62 times net tangible assets; 8.3% gross yield,,"quick look, watching"
+NZX,IPL,Investore Property Limited (NS) Ordinary Shares,1.07,3,,381.4,12.0,0.62,,8.3,,,0.015,0.62 times net tangible assets; 8.3% gross yield,,"quick look, watching"
 NZX,NZL,New Zealand Rural Land Company Limited (NS) Ordinary Shares,0.91,3,,133.3,14.6,0.57,,6.0,,,0.006,0.57 times net tangible assets; small (NZ$133m),,"quick look, rejected"
-NZX,SPG,Stride Prop & Stride Invest Mgmt Ltd Stapled Security (NS),1.11,3,,622.1,19.9,0.66,,8.7,,,0.018,0.66 times net tangible assets; 8.7% gross yield,,"quick look, watching"
+NZX,SPG,Stride Prop & Stride Invest Mgmt Ltd Stapled Security (NS),1.13,3,,622.1,19.9,0.66,,8.7,,,0.018,0.66 times net tangible assets; 8.7% gross yield,,"quick look, watching"
 ASX,A1N,ARN Media Limited,0.275,2,Media & Entertainment,90.8,,0.42,-1.57,0.0,2027-02-04,0,,0.42 times book; small (A$91m); 50% below its 12-month high,loss in the latest year; heavy debt (enterprise value 2.6 times market value),
-ASX,ACE,Acusensus Limited,1.115,2,Software & Services,191.4,,3.01,0.1,0.0,2027-02-26,4,,net cash about 10% of market value; small (A$191m); 46% below its 12-month high,loss in the latest year,"quick look, rejected"
-ASX,AEU,Atomic Eagle Ltd,0.37,2,,155.4,,7.16,0.16,0.7,2027-03-25,7,,net cash about 16% of market value; small (A$155m); 49% below its 12-month high,loss in the latest year,
+ASX,ACE,Acusensus Limited,1.115,2,Software & Services,191.4,,3.01,0.1,0.0,2027-02-26,3,,net cash about 10% of market value; small (A$191m); 46% below its 12-month high,loss in the latest year,"quick look, rejected"
+ASX,AEU,Atomic Eagle Ltd,0.37,2,,155.4,,7.16,0.16,0.7,2027-03-25,6,,net cash about 16% of market value; small (A$155m); 49% below its 12-month high,loss in the latest year,
 ASX,ALC,Alcidion Group Limited,0.11,2,Health Care Equipment & Services,155.2,64.7,1.71,0.21,0.0,2027-02-26,3,,net cash about 21% of market value; small (A$155m),,
 ASX,AMA,AMA Group Limited,0.445,2,Commercial & Professional Services,220.9,31.9,0.96,-1.79,1.1,2027-02-24,6,,0.96 times book; small (A$221m); 52% below its 12-month high,heavy debt (enterprise value 2.8 times market value),"quick look, rejected"
 ASX,AMI,Aurelia Metals Limited,0.4,2,Materials,688.2,9.3,1.51,0.2,2.5,2027-02-26,4,,9.3 times earnings; net cash about 20% of market value,,
@@ -152,16 +149,16 @@ ASX,CNQ,Clean TEQ Water Limited,0.52,2,Commercial & Professional Services,45.4,,
 ASX,COG,COG Financial Services Limited,1.76,2,Financial Services,351.9,15.6,2.25,-0.78,4.4,2027-02-26,2,,profit in each of the last four years; a substantial holder left in the last six months,,
 ASX,CTT,Cettire Limited,0.32,2,Consumer Discretionary Distribution & Retail,148.7,,5.38,0.21,0.0,2027-02-26,3,,net cash about 21% of market value; small (A$149m); 66% below its 12-month high; a substantial holder left in the last six months,loss in the latest year; a share raising in the last six months,
 ASX,CXL,Calix Limited,0.2,2,Materials,46.5,,1.21,0.0,0.0,2027-02-24,0,,small (A$46m); 88% below its 12-month high; 12 months -51% against -12% for its industry,loss in the latest year,
-ASX,DGL,DGL Group Limited,0.24,2,Materials,68.5,,0.23,-2.61,0.0,,6,,0.23 times book; small (A$68m); 41% below its 12-month high,loss in the latest year; heavy debt (enterprise value 3.6 times market value),
-ASX,DUR,Duratec Limited,1.98,2,Capital Goods,527.2,22.3,5.62,0.11,2.3,2027-02-25,3,,net cash about 11% of market value; profit in each of the last four years,,
+ASX,DGL,DGL Group Limited,0.24,2,Materials,68.5,,0.23,-2.61,0.0,,4,,0.23 times book; small (A$68m); 41% below its 12-month high,loss in the latest year; heavy debt (enterprise value 3.6 times market value),
+ASX,DUR,Duratec Limited,1.98,2,Capital Goods,527.2,22.3,5.62,0.11,2.3,2027-02-25,3,,net cash about 11% of market value; profit in each of the last four years,,"quick look, watching"
 ASX,DXN,DXN Limited,0.14,2,Software & Services,52.7,,9.77,0.17,0.0,,4,,net cash about 17% of market value; small (A$53m); 75% below its 12-month high; a substantial holder left in the last six months,loss in the latest year; a share raising in the last six months,
-ASX,FDR,Finder Energy Holdings Limited,0.275,2,Energy,130.2,,2.3,0.4,0.0,,3,,net cash about 40% of market value; small (A$130m); 58% below its 12-month high,loss in the latest year; a share raising in the last six months,
+ASX,FDR,Finder Energy Holdings Limited,0.275,2,Energy,130.2,,2.3,0.4,0.0,,2,,net cash about 40% of market value; small (A$130m); 58% below its 12-month high,loss in the latest year; a share raising in the last six months,
 ASX,FDV,Frontier Digital Ventures Limited,0.29,2,Media & Entertainment,124.4,,1.66,0.11,0.0,2027-02-27,7,,net cash about 11% of market value; small (A$124m); 38% below its 12-month high,loss in the latest year,
 ASX,FID,Fiducian Group Limited,8.38,2,Financial Services,269.0,19.8,4.64,0.07,6.1,2027-02-16,4,,6.1% yield; profit in each of the last four years,,"quick look, rejected"
 ASX,HZN,Horizon Oil Limited,0.215,2,Energy,365.5,23.7,3.83,-0.11,12.8,2027-02-24,6,,12.8% yield; profit in each of the last four years,"deal headline to check, which side it's on (2026-07-03: Completion of Cue Energy Resources Ltd Off-Market Takeover); deal headline about another company (2026-06-11: CUE: Cue's Second Supplementary Target's Statement)",
-ASX,JMS,Jupiter Mines Limited,0.25,2,Materials,511.1,13.0,0.88,0.08,5.3,2027-02-27,1,,0.88 times book; profit in each of the last four years,,
+ASX,JMS,Jupiter Mines Limited,0.25,2,Materials,511.1,13.0,0.88,0.08,5.3,2027-02-27,0,,0.88 times book; profit in each of the last four years,,
 ASX,JYC,Joyce Corporation Ltd,5.8,2,Consumer Discretionary Distribution & Retail,163.8,16.0,4.4,0.1,5.5,2027-02-27,1,,profit in each of the last four years; small (A$164m),,
-ASX,KLV,Klevo Group Limited,0.49,2,Commercial & Professional Services,78.3,,144.28,0.13,0.0,,26,,net cash about 13% of market value; small (A$78m); a substantial holder left in the last six months,loss in the latest year,
+ASX,KLV,Klevo Group Limited,0.49,2,Commercial & Professional Services,78.3,,144.28,0.13,0.0,,25,,net cash about 13% of market value; small (A$78m); a substantial holder left in the last six months,loss in the latest year,
 ASX,KOV,Korvest Ltd,15.7,2,Capital Goods,189.9,15.1,2.93,-0.09,4.1,,12,,profit in each of the last four years; small (A$190m),,"quick look, watching"
 ASX,LAC,LAC Gold Limited,0.22,2,Materials,57.0,,0.85,-0.23,0.0,,2,,0.85 times book; small (A$57m); 58% below its 12-month high,loss in the latest year,
 ASX,LAU,Lindsay Australia Limited,0.695,2,Transportation,258.8,11.1,1.28,-1.2,5.5,2027-02-23,3,,11.1 times earnings; profit in each of the last four years,,"quick look, rejected"
@@ -177,16 +174,17 @@ ASX,PPS,Praemium Limited,0.575,2,Software & Services,292.5,40.2,2.67,0.1,4.2,202
 ASX,QAL,Qualitas Limited,2.34,2,Financial Services,850.0,16.9,2.13,0.02,4.1,2027-02-16,7,,profit in each of the last four years; 41% below its 12-month high,,
 ASX,SGI,Stealth Group Holdings Ltd,1.21,2,Capital Goods,184.6,30.1,3.44,-0.12,1.2,2027-02-17,5,,profit in each of the last four years; small (A$185m),,
 ASX,SHA,Shape Australia Corporation Limited,6.96,2,Capital Goods,591.5,18.9,13.41,0.18,4.8,2027-02-18,3,,net cash about 18% of market value; profit in each of the last four years,,
-ASX,SND,Saunders International Limited,0.78,2,Capital Goods,109.8,,1.73,0.19,0.0,2027-02-25,2,,net cash about 19% of market value; small (A$110m); a substantial holder left in the last six months,loss in the latest year,
 ASX,VEE,Veem Ltd,0.49,2,Capital Goods,72.6,,1.46,-0.07,0.0,2027-02-25,0,,small (A$73m); 63% below its 12-month high; 12 months -62% against -2% for its industry,loss in the latest year,
+ASX,VVA,Viva Leisure Limited,1.46,2,Consumer Services,139.9,11.3,1.14,-2.77,2.1,2027-02-12,4,,11.3 times earnings; profit in each of the last four years; small (A$140m),heavy debt (enterprise value 3.8 times market value),
 ASX,VYS,Vysarn Limited,0.7,2,Materials,421.3,25.4,3.61,0.06,0.0,2027-02-24,2,,profit in each of the last four years; 40% below its 12-month high; a substantial holder left in the last six months,a share raising in the last six months,
-NZX,APL,Asset Plus Limited Ordinary Shares,0.17,2,,61.7,,0.55,,5.1,,,0.047,0.55 times net tangible assets; small (NZ$62m),no earnings in the latest year,"quick look, rejected"
-NZX,CVT,Comvita Limited Ordinary Shares,0.785,2,,101.9,8.0,1.06,,0.0,,,0.019,8.0 times earnings; small (NZ$102m),,"quick look, rejected"
-NZX,KPG,Kiwi Property Group Limited Ordinary Shares,0.93,2,,1535.1,30.3,0.83,,7.7,,,0.022,0.83 times net tangible assets; 7.7% gross yield,,
-NZX,OCA,Oceania Healthcare Limited Ordinary Shares,0.66,2,,478.0,3300.0,0.41,,0.0,,,0.023,0.41 times net tangible assets,,"quick look, watching"
-NZX,SKT,Sky Network Television Limited Ordinary Shares,3.67,2,,506.3,8.5,3.2,,12.1,,,0.014,8.5 times earnings; 12.1% gross yield,,"quick look, rejected"
+NZX,APL,Asset Plus Limited Ordinary Shares,0.171,2,,61.7,,0.55,,5.1,,,0.047,0.55 times net tangible assets; small (NZ$62m),no earnings in the latest year,"quick look, rejected"
+NZX,CVT,Comvita Limited Ordinary Shares,0.765,2,,101.9,8.0,1.06,,0.0,,,0.019,8.0 times earnings; small (NZ$102m),,"quick look, rejected"
+NZX,KPG,Kiwi Property Group Limited Ordinary Shares,0.935,2,,1535.1,30.3,0.83,,7.7,,,0.022,0.83 times net tangible assets; 7.7% gross yield,,
+NZX,OCA,Oceania Healthcare Limited Ordinary Shares,0.63,2,,478.0,3300.0,0.41,,0.0,,,0.023,0.41 times net tangible assets,,"quick look, watching"
+NZX,SKT,Sky Network Television Limited Ordinary Shares,3.78,2,,506.3,8.5,3.2,,12.1,,,0.014,8.5 times earnings; 12.1% gross yield,,"quick look, rejected"
 ASX,ACF,Acrow Limited,0.865,1,Capital Goods,375.8,15.4,2.02,-0.46,3.9,2027-02-24,3,,profit in each of the last four years; a substantial holder left in the last six months,a share raising in the last six months,
 ASX,APX,Appen Limited,1.055,1,Software & Services,286.5,,2.1,0.19,0.0,2027-02-25,2,,net cash about 19% of market value; 44% below its 12-month high,loss in the latest year,
+ASX,AQN,Aquirian Limited,0.36,1,Commercial & Professional Services,46.6,27.3,1.93,-0.07,0.0,2027-02-20,2,,small (A$47m),,
 ASX,ARX,Aroa Biosurgery Limited,0.55,1,"Pharmaceuticals, Biotechnology & Life Sciences",169.5,57.4,2.11,0.02,0.0,2026-11-25,2,,small (A$169m),,
 ASX,AS1,Asara Resources Limited,0.115,1,Materials,251.2,,2.44,0.33,0.0,,0,,net cash about 33% of market value; a substantial holder left in the last six months,loss in the latest year; a share raising in the last six months,
 ASX,ATR,Astron Limited,0.6,1,Materials,249.4,16.4,1.74,0.07,0.0,,4,,small (A$249m),,
@@ -197,7 +195,7 @@ ASX,CSX,Cleanspace Holdings Limited,0.45,1,Health Care Equipment & Services,35.7
 ASX,CUP,Count Limited,1.655,1,Commercial & Professional Services,359.4,19.7,2.19,-0.05,2.9,2027-02-24,5,,profit in each of the last four years; a substantial holder left in the last six months,a share raising in the last six months,
 ASX,CVL,Civmec Limited,1.7,1,Capital Goods,852.4,19.0,1.63,0.08,3.6,2027-02-13,0,,profit in each of the last four years,,
 ASX,CYC,Cyclopharm Limited,0.425,1,Health Care Equipment & Services,58.5,,2.16,0.1,0.0,2027-02-25,0,,small (A$58m); 65% below its 12-month high,loss in the latest year,
-ASX,DBF,Duxton Farms Ltd,0.335,1,"Food, Beverage & Tobacco",35.4,,0.31,-3.11,0.0,,7,,0.31 times book; small (A$35m); 64% below its 12-month high,loss in the latest year; a share raising in the last six months; heavy debt (enterprise value 4.1 times market value),
+ASX,DBF,Duxton Farms Ltd,0.335,1,"Food, Beverage & Tobacco",35.4,,0.31,-3.11,0.0,,6,,0.31 times book; small (A$35m); 64% below its 12-month high,loss in the latest year; a share raising in the last six months; heavy debt (enterprise value 4.1 times market value),
 ASX,DEM,De.MEM Limited,0.11,1,Utilities,37.6,,2.7,0.12,0.0,2027-02-27,11,,net cash about 12% of market value; small (A$38m),loss in the latest year,
 ASX,EVO,Embark Early Education Limited,0.37,1,Consumer Services,78.4,,0.74,-1.52,0.0,2027-02-25,0,,0.74 times book; small (A$78m); 45% below its 12-month high,"deal headline to check, which side it's on (2026-03-13: Completion Of MFD Takeover Offer); a share raising in the last six months; heavy debt (enterprise value 2.5 times market value)","quick look, rejected"
 ASX,HCW,Healthco Healthcare and Wellness Reit Units,0.74,1,Equity Real Estate Investment Trusts (REITs),418.1,,0.57,-0.78,0.0,2027-01-20,3,,0.57 times book,loss in the latest year,
@@ -215,39 +213,37 @@ ASX,VBC,Verbrec Limited,0.205,1,Capital Goods,62.8,19.6,2.64,0.02,1.2,2027-02-20
 ASX,WGN,Wagners Holding Company Limited,4.75,1,Materials,945.7,23.6,4.35,-0.13,1.1,2027-02-24,1,,profit in each of the last four years,,
 ASX,WTM,Waratah Minerals Limited,0.77,1,Materials,324.2,,9.51,0.26,0.0,2027-03-25,6,,net cash about 26% of market value; a substantial holder left in the last six months,loss in the latest year,
 ASX,XRF,XRF Scientific Limited,2.12,1,Capital Goods,305.2,29.2,4.6,0.04,2.2,2027-02-18,8,,profit in each of the last four years,,
-NZX,GTK,Gentrack Group Limited Ordinary Shares,4.36,1,,490.4,25.3,4.92,,0.0,,,0.068,59% below its 12-month high,,"quick look, rejected"
-NZX,HGH,Heartland Group Holdings Limited Ordinary Shares,1.245,1,,1176.8,12.6,1.13,,7.7,,,0.008,7.7% gross yield,,
-NZX,PFI,Property For Industry Limited Ordinary Shares,2.22,1,,1115.5,14.4,0.77,,5.2,,,0.014,0.77 times net tangible assets,,
-NZX,SCL,Scales Corporation Limited Ordinary Shares,6.4,1,,938.1,11.2,3.17,,4.5,,,0.008,11.2 times earnings,,"quick look, rejected"
-NZX,SCT,Scott Technology Limited Ordinary Shares,2.37,1,,201.2,12.8,2.76,,4.6,,,0.038,small (NZ$201m),,"quick look, watching"
-NZX,SPN,South Port New Zealand Limited Ordinary Shares,7.86,1,,206.4,12.8,2.74,,5.0,,,0.046,small (NZ$206m),,
-NZX,TWR,Tower Limited Ordinary Shares,2.11,1,,724.6,12.7,3.1,,14.2,,,0.014,14.2% gross yield,,
-NZX,WHS,The Warehouse Group Limited Ordinary Shares,0.67,1,,232.4,20.7,1.2,,0.0,,,0.015,small (NZ$232m),,"quick look, rejected"
+NZX,GTK,Gentrack Group Limited Ordinary Shares,4.87,1,,490.4,25.3,4.92,,0.0,,,0.068,55% below its 12-month high,,"quick look, rejected"
+NZX,HGH,Heartland Group Holdings Limited Ordinary Shares,1.26,1,,1176.8,12.6,1.13,,7.7,,,0.008,7.7% gross yield,,
+NZX,PFI,Property For Industry Limited Ordinary Shares,2.21,1,,1115.5,14.4,0.77,,5.2,,,0.014,0.77 times net tangible assets,,
+NZX,SCL,Scales Corporation Limited Ordinary Shares,6.55,1,,938.1,11.2,3.17,,4.5,,,0.008,11.2 times earnings,,"quick look, rejected"
+NZX,SCT,Scott Technology Limited Ordinary Shares,2.39,1,,201.2,12.8,2.76,,4.6,,,0.038,small (NZ$201m),,"quick look, watching"
+NZX,SPN,South Port New Zealand Limited Ordinary Shares,7.9,1,,206.4,12.8,2.74,,5.0,,,0.046,small (NZ$206m),,
+NZX,TWR,Tower Limited Ordinary Shares,2.1,1,,724.6,12.7,3.1,,14.2,,,0.014,14.2% gross yield,,
+NZX,WHS,The Warehouse Group Limited Ordinary Shares,0.695,1,,232.4,20.7,1.2,,0.0,,,0.015,small (NZ$232m),,"quick look, rejected"
 ASX,A1M,AIC Mines Limited,0.685,0,Materials,527.7,13.5,1.53,0.02,0.0,2027-02-19,5,,,,
 ASX,AKA,Aureka Limited,0.14,0,Materials,28.6,,7.14,0.1,0.0,2027-03-12,1,,net cash about 10% of market value; small (A$29m),loss in the latest year; a share raising in the last six months,
 ASX,AKM,Aspire Mining Limited,0.25,0,Materials,119.3,,2.08,0.04,0.0,,3,,small (A$119m),loss in the latest year,
-ASX,AQN,Aquirian Limited,0.36,0,Commercial & Professional Services,46.6,27.3,1.93,-0.07,0.0,2027-02-20,2,,small (A$47m),a share raising in the last six months,
 ASX,DYM,Dynamic Metals Limited,0.525,0,Materials,31.7,,3.12,0.06,0.0,,3,,small (A$32m),loss in the latest year,
-ASX,EGH,Eureka Group Holdings Limited,0.6,0,Real Estate Management & Development,354.2,15.5,1.39,-0.38,2.3,2027-02-16,5,,profit in each of the last four years,a share raising in the last six months,
 ASX,EYE,Nova Eye Medical Limited,0.15,0,Health Care Equipment & Services,39.9,,2.79,-0.04,0.0,2027-02-26,0,,small (A$40m),loss in the latest year,
 ASX,GW1,Greenwing Resources Ltd,0.12,0,Materials,42.7,,1.64,0.07,0.0,,2,,small (A$43m),loss in the latest year,
 ASX,KGN,Kogan.Com Ltd,3.94,0,Consumer Discretionary Distribution & Retail,429.9,35.4,12.49,0.03,3.5,2027-02-23,5,,,,
 ASX,PCG,Pengana Capital Group Limited,0.875,0,Financial Services,89.6,,1.17,0.07,4.9,2027-02-26,5,,small (A$90m),loss in the latest year,
 ASX,SCP,Scalare Partners Holdings Limited,4.91,0,Financial Services,19.9,,1.31,-1.15,0.0,2027-02-27,9,,small (A$20m),loss in the latest year,
-ASX,SEG,Sports Entertainment Group Limited,0.27,0,Media & Entertainment,84.2,43.3,1.35,-0.03,0.0,2027-02-18,8,,small (A$84m),profit more than halved last year (check why); a share raising in the last six months,
+ASX,SEG,Sports Entertainment Group Limited,0.27,0,Media & Entertainment,84.2,43.3,1.35,-0.03,0.0,2027-02-18,8,,small (A$84m),profit more than halved last year (check why); a share raising in the last six months,"quick look, prompt filed"
 ASX,SLS,Solstice Minerals Limited,1.93,0,Materials,360.9,,7.17,0.22,0.0,,0,,net cash about 22% of market value,loss in the latest year,
-NZX,AFT,AFT Pharmaceuticals Ltd Ordinary Shares,4.6,0,,482.4,32.7,10.7,,0.7,,,0.022,,,
-NZX,BGP,Briscoe Group Limited Ordinary Shares,4.25,0,,946.9,16.5,3.16,,6.4,,,0.019,,,"quick look, rejected"
-NZX,CHI,Channel Infrastructure NZ Limited Ordinary Shares,3.26,0,,1356.5,73.3,1.77,,4.2,,,0.021,,,
-NZX,GXH,Green Cross Health Limited Ordinary Shares,1.905,0,,274.0,13.4,23.81,,6.0,,,0.003,,,
+NZX,AFT,AFT Pharmaceuticals Ltd Ordinary Shares,4.67,0,,482.4,32.7,10.7,,0.7,,,0.022,,,
+NZX,BGP,Briscoe Group Limited Ordinary Shares,4.3,0,,946.9,16.5,3.16,,6.4,,,0.019,,,"quick look, rejected"
+NZX,CHI,Channel Infrastructure NZ Limited Ordinary Shares,3.33,0,,1356.5,73.3,1.77,,4.2,,,0.021,,,
+NZX,GXH,Green Cross Health Limited Ordinary Shares,1.92,0,,274.0,13.4,23.81,,6.0,,,0.003,,,
 NZX,HLG,Hallenstein Glasson Holdings Limited Ordinary Shares,14.33,0,,854.8,14.4,6.12,,4.9,,,0.015,,,
-NZX,IKE,ikeGPS Group Limited Ordinary Shares,0.88,0,,171.6,,8.97,,0.0,,,0.148,small (NZ$172m),no earnings in the latest year,"quick look, rejected"
-NZX,NPH,Napier Port Holdings Limited Ordinary Shares,3.63,0,,724.5,25.3,1.69,,5.1,,,0.044,,,
-NZX,NZX,NZX Limited Ordinary Shares,1.5,0,,493.9,21.5,,,6.0,,,0.031,,,
-NZX,SKL,Skellerup Holdings Limited Ordinary Shares,7.6,0,,1490.1,22.0,7.44,,4.5,,,0.032,,,
-NZX,SMI,Santana Minerals Limited Ordinary Shares,0.56,0,,554.7,,1.7,,0.0,,,0.055,59% below its 12-month high,no earnings in the latest year,
-NZX,THL,Tourism Holdings Limited Ordinary Shares,2.83,0,,626.8,16.3,1.31,,5.2,,,0.011,,,"quick look, rejected"
-NZX,TRA,Turners Automotive Group Ltd Ordinary Shares,7.1,0,,652.4,15.9,3.62,,6.4,,,0.003,,,"quick look, rejected"
-NZX,VGL,Vista Group International Ltd Ordinary Shares,2.74,0,,655.7,342.5,,,0.0,,,0.03,,,
-NZX,VSL,Vulcan Steel Limited Ordinary Shares,6.89,0,,1009.6,47.8,4.11,,1.4,,,0.043,,,"quick look, rejected"
-NZX,PEB,Pacific Edge Limited Ordinary Shares,0.295,-1,,366.4,,29.5,,0.0,,,0.017,,no earnings in the latest year,
+NZX,IKE,ikeGPS Group Limited Ordinary Shares,0.895,0,,171.6,,8.97,,0.0,,,0.148,small (NZ$172m),no earnings in the latest year,"quick look, rejected"
+NZX,NPH,Napier Port Holdings Limited Ordinary Shares,3.55,0,,724.5,25.3,1.69,,5.1,,,0.044,,,
+NZX,NZX,NZX Limited Ordinary Shares,1.565,0,,493.9,21.5,,,6.0,,,0.031,,,
+NZX,SKL,Skellerup Holdings Limited Ordinary Shares,7.71,0,,1490.1,22.0,7.44,,4.5,,,0.032,,,
+NZX,SMI,Santana Minerals Limited Ordinary Shares,0.61,0,,554.7,,1.7,,0.0,,,0.055,55% below its 12-month high,no earnings in the latest year,
+NZX,THL,Tourism Holdings Limited Ordinary Shares,2.9,0,,626.8,16.3,1.31,,5.2,,,0.011,,,"quick look, rejected"
+NZX,TRA,Turners Automotive Group Ltd Ordinary Shares,7.54,0,,652.4,15.9,3.62,,6.4,,,0.003,,,"quick look, rejected"
+NZX,VGL,Vista Group International Ltd Ordinary Shares,2.66,0,,655.7,342.5,,,0.0,,,0.03,,,
+NZX,VSL,Vulcan Steel Limited Ordinary Shares,7.25,0,,1009.6,47.8,4.11,,1.4,,,0.043,,,"quick look, rejected"
+NZX,PEB,Pacific Edge Limited Ordinary Shares,0.28,-1,,366.4,,29.5,,0.0,,,0.017,,no earnings in the latest year,

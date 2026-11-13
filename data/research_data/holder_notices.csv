@@ -25,6 +25,11 @@ ASX,A1M,02986731,2025-08-27,Ceasing to be a substantial holder from MGX,605,"eac
 ASX,A1M,02987916,2025-08-29,Ceasing to be a substantial holder,605,,2025-08-27,,0,3853,False,ok
 ASX,A1M,02988668,2025-08-29,Change in substantial holding - FMR,604,entities,2025-08-27,14.01,11.50,4928,False,ok
 ASX,A1M,03104733,2026-06-16,Becoming a substantial holder,603,NFPFRN (if applicable),,,5.42,1643,False,ok
+ASX,A1M,03165158,2026-11-12,Notice of Initial Substantial Holder - Lee Group,603,Mr Wai Mun Lee and Mr Way Kee Tai and each of the entities referred to in Annexure A (Lee Group Entities),,,8.73,6545,False,ok
+ASX,A1M,03165165,2026-11-12,Notice of Initial Substantial Holder - Ng Group,603,Entities),,,5.16,6376,False,ok
+ASX,A1M,03165166,2026-11-12,Notice of Initial Substantial Holder - Hawke's Point,603,listed in Annexure A (Hawke’s Point Group Entity),2026-11-11,,9.27,6264,False,ok
+ASX,A1M,03165167,2026-11-12,Ceasing to be substantial holder - El-Raghy,605,513 010); and Josef El-Raghy,2026-11-11,,0,5426,False,ok
+ASX,A1M,03165181,2026-11-12,Change in substantial holding - FMR,604,entities,2026-11-11,14.01,10.97,5078,False,ok
 ASX,A1N,02941635,2025-04-28,Change in substantial holding,604,,2025-04-23,18.80,17.00,3805,False,ok
 ASX,A1N,02952915,2025-05-28,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2025-05-26,9.13,11.53,4514,False,ok
 ASX,A1N,02953405,2025-05-29,Becoming a substantial holder,603,listed in Annexure A,2025-05-26,,5.60,5661,False,ok
@@ -780,6 +785,7 @@ ASX,BKY,02940226,2025-04-23,Change in substantial holding,604,"‘Sprott inc, (S
 ASX,BKY,02988275,2025-08-29,Change in substantial holding,604,Sprott Inc. (Sprott) and each ofits contoted bodies corporate listed in Annexure B (Une Sprott Group Entitles),,9.48,20.00,2991,True,ok
 ASX,BKY,03051736,2026-01-21,Change in substantial holding,604,SEE ANNEXURE 1,2026-01-19,9.90,50.00,4172,True,ok
 ASX,BKY,03086959,2026-04-28,Ceasing to be a substantial holder,605,"Sprott Inc, (Sprott) and each of its controlled bodies corporate listed in Annexure A (the Sprott Group Entities)",,,0,3000,True,ok
+ASX,BKY,03164708,2026-11-11,Change in substantial holding,604,SEE ANNEXURE 1,2026-11-09,8.79,7.76,4186,True,ok
 ASX,BLS,03150667,2026-10-09,Becoming a substantial holder,603,Giga Orca Pte. Ltd. (UEN 202410209H) and Maio Dangi,,,6.85,4461,False,ok
 ASX,BLS,03151502,2026-10-13,Ceasing to be a substantial holder,605,Kirkman Trading Ltd,,,0,3699,False,ok
 ASX,BLX,02887239,2024-11-26,Ceasing to be a substantial holder from PPT,605,Perpetual Limited and its related bodies corporate,2024-11-22,,0,3614,False,ok
@@ -949,6 +955,7 @@ ASX,CAF,03133073,2026-08-31,Ceasing to be a substantial holder,605,both fully ow
 ASX,CAF,03134532,2026-09-02,Becoming a substantial holder - Pilgram,603,Pilgrim Private Pty Ltd (Pilgrim),2026-08-28,,6.03,5511,False,ok
 ASX,CAF,03134535,2026-09-02,Change in substantial holding - Pilgram,604,Pilgrim Private Pty Ltd (Pilgrim),,6.03,8.48,5816,False,ok
 ASX,CAF,03152336,2026-10-14,Change in substantial holding - Pilgrim,604,Name,,8.48,9.54,4364,True,ok
+ASX,CAF,03164236,2026-11-10,Change in substantial holding from WAG,604,The Australian Wealth Advisors Group Limited (WAG) and its associates,2026-11-09,,18.26,4310,False,ok
 ASX,CBE,02880997,2024-11-13,Change in substantial holding,604,Strata Investment Holdings ple (SRT),2024-11-08,24.24,20.03,4305,True,ok
 ASX,CBE,02882168,2024-11-14,Change in substantial holding (Updated),604,Strata Investment Holdings ple (SRT),2024-11-08,24.24,20.03,4308,True,ok
 ASX,CBE,03014358,2025-10-23,Becoming a substantial holder - Sinomine International,603,Sinomine [wteenariowal ExProrarion (HonG Kenia),,,,4235,True,ok
@@ -987,6 +994,7 @@ ASX,CDO,03149070,2026-10-06,Change in substantial holding,604,"Esselmont Pty Lim
 ASX,CDP,02921747,2025-03-03,Change in substantial holding,604,Scentre Management Limited,,65.72,66.94,5043,False,ok
 ASX,CDP,03084406,2026-04-20,Change in substantial holding,604,Scentre Management Limited,,66.94,67.96,5413,False,ok
 ASX,CDP,03136789,2026-09-07,Change in substantial holding,604,Renaissance Property Securities Pty Ltd,2026-07-22,6.17,5.09,4268,True,ok
+ASX,CDP,03164204,2026-11-10,Ceasing to be a substantial holder,605,Renaissance Property Securities Pty Ltd,2026-11-06,,0,1447,True,ok
 ASX,CEH,02877936,2024-11-04,Change in substantial holding from PPT,604,For personal use only,2024-10-31,13.43,14.47,4507,False,ok
 ASX,CEH,02900219,2024-12-24,Change in substantial holding,604,LISTED IN ANNEXURE A),2024-12-19,6.14,7.14,5958,False,ok
 ASX,CEH,02930123,2025-03-25,Change in substantial holding from PPT,604,For personal use only,2025-03-21,14.46,15.88,4469,False,ok
@@ -1075,6 +1083,7 @@ ASX,CLV,03043728,2025-12-19,Change in substantial holding from PPT,604,For perso
 ASX,CLV,03144838,2026-09-28,Change in substantial holding from PPT,604,For personal use only,2026-09-24,13.18,11.79,4328,False,ok
 ASX,CLV,03148501,2026-10-05,Change in substantial holding from PPT,604,For personal use only,2026-10-01,11.79,10.54,4328,False,ok
 ASX,CLV,03161235,2026-11-02,Change in substantial holding from PPT,604,For personal use only,2026-10-29,10.54,9.54,4326,False,ok
+ASX,CLV,03165227,2026-11-12,Change in substantial holding from PPT,604,For personal use only,2026-11-10,9.54,8.50,4325,False,ok
 ASX,CML,02903843,2025-01-13,Becoming a substantial holder,603,Geonomics Australia Pty Ltd and Mining Equities Pty Ltd,2024-12-31,,5.72,5421,False,ok
 ASX,CML,03123116,2026-08-07,Becoming a substantial holder,603,Stephen Wetherall,2026-08-07,,12.40,3765,True,ok
 ASX,CML,03123118,2026-08-07,Becoming a substantial holder,603,Ilwella Pty Ltd and Associates,2026-08-07,,14.44,4598,False,ok
@@ -1796,6 +1805,7 @@ ASX,FRS,03137319,2026-09-08,Change in substantial holding from SGH,604,SGH Limit
 ASX,FRS,03137782,2026-09-09,Becoming a substantial holder,603,listed in Annexure A,2026-09-04,,5.28,6652,False,ok
 ASX,FRS,03147375,2026-10-01,Becoming a substantial holder,603,Firetrail Investments Pty Ltd,2026-09-29,,5.01,4320,False,ok
 ASX,FRS,03163597,2026-11-09,Ceasing to be a substantial holder,605,"184)(“PNI”), and each other entity listed in Part 1 of Annexure A",2026-11-05,,0,5336,False,ok
+ASX,FRS,03164346,2026-11-11,Becoming a substantial holder,603,"184)(“PNI”), and each other entity listed in Part 1 of Annexure A",2026-11-09,,5.01,6924,False,ok
 ASX,FTI,03057063,2026-02-05,Becoming a substantial holder x 3,603,Ariel Malik,2026-02-02,,13.31,4793,False,ok
 ASX,FTI,03091484,2026-05-07,Becoming a substantial holder x 2,603,"ALFRED ROAD HOLDINGS PTY LTD, LIBERTINE INVESTMENTS PTY LTD, PROPEL HOLDINGS PTY LTD",2026-05-07,,6.00,5635,False,ok
 ASX,FTI,03092725,2026-05-11,Becoming a substantial holder,603,Regal Partners Funds Management Pty Ltd and its associates (see Annexure 1),2026-05-07,,5.60,4137,False,ok
@@ -1979,6 +1989,8 @@ ASX,HLO,02923692,2025-03-07,Change in substantial holding,604,"Cinzia Burnes (CB
 ASX,HLO,03160290,2026-10-30,Becoming a substantial holder,603,KCE Investments Pty Ltd as trustee for the KCE Trust,2026-10-30,,11.90,4535,True,ok
 ASX,HLO,03161005,2026-11-02,Substantial Holder Notice,603,Helloworld Travel Limited (HLO) and HLO's subsidiaries as set out in Annexure A (HLO Group),2026-10-30,,12.65,5501,True,ok
 ASX,HLO,03161613,2026-11-03,Change in substantial holding,604,"FIL Limited and its entities listed in Annexure A (""FIL"")",,9.34,7.56,3736,False,ok
+ASX,HLO,03164111,2026-11-10,Change in substantial holding,604,The Burnes Group Pty Ltd (,2026-10-30,24.26,20.00,4315,True,ok
+ASX,HLO,03164603,2026-11-11,Change in substantial holding,604,,2026-11-11,14.88,11.54,3296,True,ok
 ASX,HLS,02883180,2024-11-18,Becoming a substantial holder,603,Spheria Asset Management Pty Ltd,2024-11-14,,5.01,4283,False,ok
 ASX,HLS,02884491,2024-11-20,Change in substantial holding,604,Spheria Asset Management Pty Ltd,2024-11-18,5.01,6.55,4511,False,ok
 ASX,HLS,02885173,2024-11-21,Change in substantial holding from PPT,604,For personal use only,2024-11-19,14.51,13.47,4315,False,ok
@@ -2379,6 +2391,7 @@ ASX,KZR,03095058,2026-05-18,Change in Substantial Holding,604,DOUX,,19.36,4.96,4
 ASX,KZR,03119033,2026-07-28,Change in substantial holding,604,DOUX ARGENT PTY LTD ATF THE MATT & SALLY REINEHR INVESTMENT TRUST,2026-05-18,14.96,16.76,4538,False,ok
 ASX,KZR,03119553,2026-07-29,Becoming a substantial holder,603,YT International Pty Ltd,,,6.58,4386,True,ok
 ASX,KZR,03154236,2026-10-19,Change in substantial holding,604,YT International Pty Ltd,2026-10-12,6.58,9.42,1982,False,ok
+ASX,KZR,03164683,2026-11-11,Becoming a substantial holder,603,Muqasab SPV Holdings Limited (ADGM registered number 16596) and the,,,9.98,4724,False,ok
 ASX,LAT,03058499,2026-02-10,Becoming a substantial holder,603,Precision Opportunities Fund Ltd <Investment A/C),2026-02-04,,5.10,4675,False,ok
 ASX,LAT,03064396,2026-02-25,Change in substantial holding,604,"Russell John Delroy ATF Colour Trust, Neon Space Pty Ltd",2026-02-24,9.82,8.59,4626,False,ok
 ASX,LAT,03064828,2026-02-25,Change in substantial holding,604,,2026-02-24,5.10,6.60,4533,True,ok
@@ -2682,6 +2695,7 @@ ASX,MMA,03098252,2026-05-27,Ceasing to be a substantial holder from MGX,605,Gibs
 ASX,MMA,03098673,2026-05-28,Becoming a substantial holder - Kinterra Group,603,Isa Resources Pty Ltd and each of the persons/entities listed in Annexure A (the Kinterra Group Members),2026-05-27,,19.99,5588,False,ok
 ASX,MMA,03098758,2026-05-28,Ceasing to be a substantial holder,605,,,,0,1822,False,ok
 ASX,MMA,03099232,2026-05-29,Change in substantial holding - Perth Capital,604,Perth Capital Pty Ltd and associates,2026-05-27,10.28,8.22,4843,False,ok
+ASX,MMA,03164859,2026-11-12,Becoming a substantial holder - Nokomis Capital,603,Nokomis Capital and its controlled entities listed in paragraph 3 below,,,,4681,True,ok
 ASX,MMI,02890354,2024-12-02,Ceasing to be a substantial holder,605,"Greenstone Resources II (Australia) Holdings L.P (Greenstone Australia LP), Greenstone Management (Delaware) II LLC",2024-11-29,,0,4407,False,ok
 ASX,MMI,02891904,2024-12-05,Becoming a substantial holder,603,Virtue Investments Corporation (VIC),2024-12-04,,9.90,5767,False,ok
 ASX,MMI,02955372,2025-06-04,Becoming a substantial holder,603,listed in Annexure A,2025-05-30,,5.04,5671,False,ok
@@ -3623,6 +3637,7 @@ ASX,SHA,02977216,2025-08-05,Change in substantial holding,604,vohn Danyi Drayton
 ASX,SHA,02997752,2025-09-19,Change in substantial holding,604,Michael Van Leeuwen,2024-10-02,16.41,10.75,7301,False,ok
 ASX,SHA,02999500,2025-09-24,Change in substantial holding,604,Gerard McMahon,2025-05-12,7.50,6.10,2133,True,ok
 ASX,SHA,03142881,2026-09-23,Becoming a substantial holder,603,"184)(“PNI”), and each other entity listed in Part 1 of Annexure A",2026-09-18,,5.35,6883,False,ok
+ASX,SHA,03165224,2026-11-12,Ceasing to be a substantial holder,605,"184)(“PNI”), and each other entity listed in Part 1 of Annexure A",2026-11-10,,0,5350,False,ok
 ASX,SHG,02984113,2025-08-22,Becoming a substantial holder,603,Stanley Capital Pty Ltd<Maxwell Stanley Capital A/C>,,,5.13,6848,False,ok
 ASX,SHJ,02936346,2025-04-09,Form 604 Notice of change of interests of substantial holder,604,iolite Partners Ltd,,9.98,11.00,5335,False,ok
 ASX,SHJ,02947020,2025-05-09,Form 604 Notice of change of interests of substantial holder,603,Simon Morrison,2025-05-09,,50.34,5867,False,ok
@@ -3989,6 +4004,7 @@ ASX,TSO,03056308,2026-02-03,Change in substantial holding,604,Collins St Asset M
 ASX,TSO,03059378,2026-02-12,Change in substantial holding,604,,,7.32,6.31,2102,True,ok
 ASX,TSO,03162595,2026-11-05,Becoming a substantial holder,603,Aegis Financial Corporation,,,9.42,3895,False,ok
 ASX,TSO,03162943,2026-11-06,Change in substantial holding,604,entities listed in Annexure A (together the Gold Fields Group),2026-11-05,13.71,10.24,4541,False,ok
+ASX,TSO,03164750,2026-11-11,Change in substantial holding,604,Collins St Asset Management ATF Collins St Special Situation Fund,2026-02-03,10.71,7.96,3965,True,ok
 ASX,TTM,02895813,2024-12-13,Change in substantial holding,604,,,,,4022,False,ok
 ASX,TTM,03029743,2025-11-20,Change in substantial holding,604,Tribeca Investment Partners Pty Ltd,2025-11-18,14.12,12.10,2100,True,ok
 ASX,TTM,03046737,2026-01-02,Change in substantial holding,604,Tribeca Investment Partners Pty Ltd,2025-12-30,12.10,13.37,2143,True,ok
@@ -4074,6 +4090,7 @@ ASX,VVA,03099780,2026-06-01,Change in substantial holding,604,Perennial Value Ma
 ASX,VVA,03100802,2026-06-03,Becoming a substantial holder,603,Mercer Investments (Australia) Limited as RE of Mercer Australian Small Companies Fund,2026-05-29,,5.12,4297,False,ok
 ASX,VVA,03120860,2026-07-31,Change in substantial holding,604,Perennial Value Management Limited (PVM),,,,3369,False,ok
 ASX,VVA,03124544,2026-08-12,Change in substantial holding,604,Mercer Investments (Australia) Limited as RE of Mercer Australian Small Companies Fund,2026-08-07,5.12,6.16,4685,False,ok
+ASX,VVA,03165248,2026-11-12,Change in substantial holding,604,(see Annexure 1),2026-11-10,14.56,12.66,7008,False,ok
 ASX,VYS,03123703,2026-08-10,Becoming a substantial holder from WAM/WAA/WMI,603,Wilson Asset Management Group (refer entities listed in Annexure A),2026-08-06,,5.41,5766,False,ok
 ASX,VYS,03138682,2026-09-11,Change in substantial holding,604,Molonglo Pty Ltd <Peter Hutchinson Fam A/C>,2026-09-03,6.69,5.73,4831,False,ok
 ASX,VYS,03138686,2026-09-11,Change in substantial holding,604,Tombel Holdings Pty Ltd (,2026-09-03,6.75,4.74,4614,False,ok
