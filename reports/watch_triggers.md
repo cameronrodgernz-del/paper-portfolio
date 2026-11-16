@@ -1,11 +1,10 @@
-# Research watch list, 2026-11-14
+# Research watch list, 2026-11-16
 
 Prices at which a "wait" verdict would be looked at again (research/watch_triggers.csv), and the dated events in the next 14 days (research/watch_events.csv). A hit sends the share back to the research desk to check the other conditions in its file; nothing is bought from this list. This is a simulation and not financial advice.
 
 ## Hit
 
-- ASX:ASG (Autosports Group) at 0.995 on 2026-11-13, at or below 1. Also needs: AGM guidance of A$20m or more for H1 FY27 (or no figure); or A$1.15 with guidance of A$28m or more. File: research/picks/ASG.md
-- ASX:AWJ (Auric Mining) at 0.195 on 2026-11-13, at or below 0.2. Also needs: the Ore Reserve still pending and no placement (ordinary pick resolving 30 Apr 2027); A$0.155 as a value pick. File: research/picks/AWJ.md
+- ASX:AWJ (Auric Mining) at 0.19 on 2026-11-16, at or below 0.2. Also needs: the Ore Reserve still pending and no placement (ordinary pick resolving 30 Apr 2027); A$0.155 as a value pick. File: research/picks/AWJ.md
 
 ## Close calls
 
@@ -28,65 +27,65 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 
 | Share | Trigger | Latest | Date | Away | State | Source of price |
 | --- | --- | --- | --- | --- | --- | --- |
-| ASX:AWJ | AUD 0.2 | 0.195 | 2026-11-13 | -2.5% | HIT | data/prices/ASX |
-| ASX:ASG | AUD 1 | 0.995 | 2026-11-13 | -0.5% | HIT | data/prices/ASX |
+| ASX:AWJ | AUD 0.2 | 0.19 | 2026-11-16 | -5.0% | HIT | data/prices/ASX |
+| ASX:ASG | AUD 1 | 1.015 | 2026-11-16 | +1.5% | near | data/prices/ASX |
 | ASX:MAD | AUD 5.38 | 5.48 | 2026-11-09 | +1.9% | near | ASX company data (last trade at fetch) |
-| ASX:DSK | AUD 0.68 | 0.695 | 2026-11-13 | +2.2% | near | data/prices/ASX |
-| ASX:ATG | AUD 0.345 | 0.355 | 2026-11-12 | +2.9% | near | data/prices/ASX |
-| ASX:JIN | AUD 6.13 | 6.31 | 2026-11-13 | +2.9% | near | data/prices/ASX |
-| ASX:GDI | AUD 0.605 | 0.63 | 2026-11-13 | +4.1% | near | data/prices/ASX |
-| ASX:GDF | AUD 1.08 | 1.125 | 2026-11-13 | +4.2% | near | data/prices/ASX |
-| ASX:ZIM | AUD 13.3 | 13.89 | 2026-11-13 | +4.4% | near | data/prices/ASX |
-| NZX:RAD | NZD 0.39 | 0.41 | 2026-11-12 | +5.1% |  | data/prices/NZX |
-| ASX:CCV | AUD 0.245 | 0.26 | 2026-11-13 | +6.1% |  | data/prices/ASX |
-| ASX:HUM | AUD 0.45 | 0.48 | 2026-11-13 | +6.7% |  | data/prices/ASX |
+| ASX:DSK | AUD 0.68 | 0.695 | 2026-11-16 | +2.2% | near | data/prices/ASX |
+| ASX:GDF | AUD 1.08 | 1.105 | 2026-11-16 | +2.3% | near | data/prices/ASX |
+| ASX:ATG | AUD 0.345 | 0.355 | 2026-11-16 | +2.9% | near | data/prices/ASX |
+| ASX:GDI | AUD 0.605 | 0.625 | 2026-11-16 | +3.3% | near | data/prices/ASX |
+| ASX:FWD | AUD 2 | 2.08 | 2026-11-16 | +4.0% | near | data/prices/ASX |
+| ASX:JIN | AUD 6.13 | 6.39 | 2026-11-16 | +4.2% | near | data/prices/ASX |
+| ASX:ZIM | AUD 13.3 | 13.89 | 2026-11-16 | +4.4% | near | data/prices/ASX |
+| ASX:HUM | AUD 0.45 | 0.475 | 2026-11-16 | +5.6% |  | data/prices/ASX |
+| NZX:RAD | NZD 0.39 | 0.415 | 2026-11-13 | +6.4% |  | data/prices/NZX |
 | ASX:EGH | AUD 0.59 | 0.63 | 2026-11-07 | +6.8% |  | ASX company data (last trade at fetch) |
+| ASX:IGL | AUD 2.12 | 2.27 | 2026-11-16 | +7.1% |  | data/prices/ASX |
+| ASX:HLO | AUD 1.3 | 1.395 | 2026-11-16 | +7.3% |  | data/prices/ASX |
 | ASX:TOT | AUD 0.375 | 0.4025 | 2026-11-07 | +7.3% |  | ASX company data (last trade at fetch) |
-| ASX:IGL | AUD 2.12 | 2.28 | 2026-11-13 | +7.5% |  | data/prices/ASX |
-| ASX:HLO | AUD 1.3 | 1.41 | 2026-11-13 | +8.5% |  | data/prices/ASX |
-| ASX:FWD | AUD 2 | 2.19 | 2026-11-13 | +9.5% |  | data/prices/ASX |
-| ASX:AFG | AUD 1.41 | 1.545 | 2026-11-13 | +9.6% |  | data/prices/ASX |
-| NZX:MFB | NZD 0.29 | 0.32 | 2026-11-12 | +10.3% |  | data/prices/NZX |
-| ASX:AHC | AUD 0.24 | 0.265 | 2026-11-13 | +10.4% |  | data/prices/ASX |
+| ASX:AHC | AUD 0.24 | 0.26 | 2026-11-16 | +8.3% |  | data/prices/ASX |
+| ASX:AFG | AUD 1.41 | 1.54 | 2026-11-16 | +9.2% |  | data/prices/ASX |
+| ASX:MVF | AUD 0.665 | 0.73 | 2026-11-16 | +9.8% |  | data/prices/ASX |
+| ASX:CAF | AUD 0.35 | 0.385 | 2026-11-16 | +10.0% |  | data/prices/ASX |
+| ASX:CCV | AUD 0.245 | 0.27 | 2026-11-16 | +10.2% |  | data/prices/ASX |
+| NZX:MFB | NZD 0.29 | 0.32 | 2026-11-13 | +10.3% |  | data/prices/NZX |
+| ASX:AL3 | AUD 0.09 | 0.1 | 2026-11-16 | +11.1% |  | data/prices/ASX |
+| ASX:MYG | AUD 1.5 | 1.675 | 2026-11-16 | +11.7% |  | data/prices/ASX |
+| NZX:SKC | NZD 0.635 | 0.71 | 2026-11-13 | +11.8% |  | data/prices/NZX |
 | ASX:CTD | AUD 3.25 | 3.65 | 2026-11-09 | +12.3% |  | ASX company data (last trade at fetch) |
-| ASX:CWP | AUD 5.75 | 6.46 | 2026-11-13 | +12.3% |  | data/prices/ASX |
 | ASX:SND | AUD 0.645 | 0.725 | 2026-11-07 | +12.4% |  | ASX company data (last trade at fetch) |
-| NZX:SKC | NZD 0.635 | 0.715 | 2026-11-12 | +12.6% |  | data/prices/NZX |
-| ASX:CAA | AUD 11.75 | 13.25 | 2026-11-13 | +12.8% |  | data/prices/ASX |
-| ASX:MVF | AUD 0.665 | 0.75 | 2026-11-13 | +12.8% |  | data/prices/ASX |
-| ASX:CAF | AUD 0.35 | 0.395 | 2026-11-13 | +12.9% |  | data/prices/ASX |
-| NZX:OCA | NZD 0.555 | 0.63 | 2026-11-12 | +13.5% |  | data/prices/NZX |
+| ASX:CWP | AUD 5.75 | 6.52 | 2026-11-16 | +13.4% |  | data/prices/ASX |
+| NZX:OCA | NZD 0.555 | 0.63 | 2026-11-13 | +13.5% |  | data/prices/NZX |
 | ASX:MGX | AUD 0.255 | 0.29 | 2026-11-07 | +13.7% |  | ASX company data (last trade at fetch) |
 | ASX:DUR | AUD 1.65 | 1.885 | 2026-11-07 | +14.2% |  | ASX company data (last trade at fetch) |
 | ASX:BAP | AUD 0.75 | 0.86 | 2026-11-09 | +14.7% |  | ASX company data (last trade at fetch) |
-| NZX:SAN | NZD 6 | 6.9 | 2026-11-12 | +15.0% |  | data/prices/NZX |
 | ASX:CZR | AUD 0.165 | 0.19 | 2026-11-13 | +15.2% |  | data/prices/ASX |
-| ASX:MYG | AUD 1.5 | 1.755 | 2026-11-13 | +17.0% |  | data/prices/ASX |
+| ASX:CAA | AUD 11.75 | 13.54 | 2026-11-16 | +15.2% |  | data/prices/ASX |
+| NZX:SAN | NZD 6 | 7 | 2026-11-13 | +16.7% |  | data/prices/NZX |
 | ASX:STP | AUD 0.11 | 0.13 | 2026-11-13 | +18.2% |  | data/prices/ASX |
-| ASX:TRJ | AUD 0.22 | 0.26 | 2026-11-13 | +18.2% |  | data/prices/ASX |
-| NZX:ARG | NZD 0.88 | 1.045 | 2026-11-12 | +18.8% |  | data/prices/NZX |
-| ASX:AL3 | AUD 0.09 | 0.107 | 2026-11-13 | +18.9% |  | data/prices/ASX |
-| NZX:SPG | NZD 0.94 | 1.13 | 2026-11-12 | +20.2% |  | data/prices/NZX |
-| ASX:BOL | AUD 1.85 | 2.23 | 2026-11-13 | +20.5% |  | data/prices/ASX |
-| NZX:KMD | NZD 2 | 2.47 | 2026-11-12 | +23.5% |  | data/prices/NZX |
-| ASX:AD8 | AUD 1.75 | 2.17 | 2026-11-13 | +24.0% |  | data/prices/ASX |
-| ASX:FEX | AUD 0.165 | 0.205 | 2026-11-13 | +24.2% |  | data/prices/ASX |
-| ASX:FML | AUD 1.4 | 1.755 | 2026-11-13 | +25.4% |  | data/prices/ASX |
-| ASX:DXC | AUD 2.18 | 2.75 | 2026-11-13 | +26.1% |  | data/prices/ASX |
-| NZX:IPL | NZD 0.84 | 1.07 | 2026-11-12 | +27.4% |  | data/prices/NZX |
+| ASX:FEX | AUD 0.165 | 0.195 | 2026-11-16 | +18.2% |  | data/prices/ASX |
+| NZX:ARG | NZD 0.88 | 1.045 | 2026-11-13 | +18.8% |  | data/prices/NZX |
+| ASX:BOL | AUD 1.85 | 2.22 | 2026-11-16 | +20.0% |  | data/prices/ASX |
+| NZX:SPG | NZD 0.94 | 1.13 | 2026-11-13 | +20.2% |  | data/prices/NZX |
+| NZX:IPL | NZD 0.84 | 1.04 | 2026-11-13 | +23.8% |  | data/prices/NZX |
+| ASX:AD8 | AUD 1.75 | 2.17 | 2026-11-16 | +24.0% |  | data/prices/ASX |
+| ASX:FML | AUD 1.4 | 1.745 | 2026-11-16 | +24.6% |  | data/prices/ASX |
+| NZX:KMD | NZD 2 | 2.54 | 2026-11-13 | +27.0% |  | data/prices/NZX |
+| ASX:TRJ | AUD 0.22 | 0.28 | 2026-11-16 | +27.3% |  | data/prices/ASX |
 | ASX:AQZ | AUD 0.31 | 0.395 | 2026-11-07 | +27.4% |  | ASX company data (last trade at fetch) |
-| ASX:BBT | AUD 0.09 | 0.115 | 2026-11-13 | +27.8% |  | data/prices/ASX |
-| ASX:EVZ | AUD 0.295 | 0.39 | 2026-11-13 | +32.2% |  | data/prices/ASX |
-| ASX:ANG | AUD 0.15 | 0.2 | 2026-11-13 | +33.3% |  | data/prices/ASX |
-| ASX:EML | AUD 0.24 | 0.32 | 2026-11-13 | +33.3% |  | data/prices/ASX |
-| NZX:PGW | NZD 1.66 | 2.22 | 2026-11-12 | +33.7% |  | data/prices/NZX |
-| ASX:KAU | AUD 0.1 | 0.145 | 2026-11-13 | +45.0% |  | data/prices/ASX |
-| ASX:HIT | AUD 0.79 | 1.17 | 2026-11-12 | +48.1% |  | data/prices/ASX |
-| NZX:SCT | NZD 1.6 | 2.39 | 2026-11-12 | +49.4% |  | data/prices/NZX |
-| ASX:BCN | AUD 1.5 | 2.7 | 2026-11-13 | +80.0% |  | data/prices/ASX |
-| ASX:GEM | AUD 0.095 | 0.18 | 2026-11-13 | +89.5% |  | data/prices/ASX |
-| ASX:GRR | AUD 0.055 | 0.105 | 2026-11-13 | +90.9% |  | data/prices/ASX |
-| ASX:MYX | AUD 0.72 | 3.3 | 2026-11-13 | +358.3% |  | data/prices/ASX |
+| ASX:EVZ | AUD 0.295 | 0.38 | 2026-11-16 | +28.8% |  | data/prices/ASX |
+| ASX:DXC | AUD 2.18 | 2.82 | 2026-11-16 | +29.4% |  | data/prices/ASX |
+| NZX:PGW | NZD 1.66 | 2.21 | 2026-11-13 | +33.1% |  | data/prices/NZX |
+| ASX:BBT | AUD 0.09 | 0.12 | 2026-11-16 | +33.3% |  | data/prices/ASX |
+| ASX:ANG | AUD 0.15 | 0.2 | 2026-11-16 | +33.3% |  | data/prices/ASX |
+| ASX:EML | AUD 0.24 | 0.32 | 2026-11-16 | +33.3% |  | data/prices/ASX |
+| ASX:KAU | AUD 0.1 | 0.145 | 2026-11-16 | +45.0% |  | data/prices/ASX |
+| NZX:SCT | NZD 1.6 | 2.34 | 2026-11-13 | +46.2% |  | data/prices/NZX |
+| ASX:HIT | AUD 0.79 | 1.17 | 2026-11-16 | +48.1% |  | data/prices/ASX |
+| ASX:BCN | AUD 1.5 | 2.7 | 2026-11-16 | +80.0% |  | data/prices/ASX |
+| ASX:GRR | AUD 0.055 | 0.1 | 2026-11-16 | +81.8% |  | data/prices/ASX |
+| ASX:GEM | AUD 0.095 | 0.18 | 2026-11-16 | +89.5% |  | data/prices/ASX |
+| ASX:MYX | AUD 0.72 | 3.21 | 2026-11-16 | +345.8% |  | data/prices/ASX |
 | ASX:SMG | AUD 0.44 |  |  |  | no price | no price stored |
 
 ## Events in the next 14 days
@@ -125,3 +124,4 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 - 2026-11-26: NZX:SCT, annual meeting (announced)
 - 2026-11-27: NZX:OCA, Official election result (retirement village repayment rules) (announced)
 - 2026-11-27: NZX:SKC, Official election result (gambling law, online advertising; research/positions/NZ_SKC.md) (announced)
+- 2026-11-30: ASX:MGX, Tanami Gold (JV partner) AGM: re-run as a special situation if a merger with MGX or a funding deal for the build is announced (research/picks/MGX.md) (announced)

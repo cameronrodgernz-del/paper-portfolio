@@ -1,5 +1,5 @@
 {
- "run": "2026-11-13",
+ "run": "2026-11-16",
  "checked": 31,
  "issues": [
   {
@@ -15,70 +15,84 @@
    "market": "ASX",
    "ticker": "AX1",
    "date": "2026-11-01",
-   "text": "AX1's deal file was last checked 12 days ago (2026-11-01)"
+   "text": "AX1's deal file was last checked 15 days ago (2026-11-01)"
+  },
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "VAU",
+   "date": "2026-11-16",
+   "text": "VAU: the second court hearing was on 2026-11-16, after its deal file was last checked (2026-11-11); update the stage and dates"
   },
   {
    "kind": "deal_file",
    "market": "ASX",
    "ticker": "BET",
    "date": "2026-11-01",
-   "text": "BET's deal file was last checked 12 days ago (2026-11-01)"
+   "text": "BET's deal file was last checked 15 days ago (2026-11-01)"
   },
   {
    "kind": "deal_file",
    "market": "ASX",
    "ticker": "AUC",
    "date": "2026-11-01",
-   "text": "AUC's deal file was last checked 12 days ago (2026-11-01)"
+   "text": "AUC's deal file was last checked 15 days ago (2026-11-01)"
   },
   {
    "kind": "deal_file",
    "market": "ASX",
    "ticker": "SDF",
    "date": "2026-11-01",
-   "text": "SDF's deal file was last checked 12 days ago (2026-11-01)"
+   "text": "SDF's deal file was last checked 15 days ago (2026-11-01)"
   },
   {
    "kind": "deal_file",
    "market": "ASX",
    "ticker": "RWC",
    "date": "2026-11-01",
-   "text": "RWC's deal file was last checked 12 days ago (2026-11-01)"
+   "text": "RWC's deal file was last checked 15 days ago (2026-11-01)"
   },
   {
    "kind": "deal_file",
    "market": "ASX",
    "ticker": "MEI",
    "date": "2026-11-01",
-   "text": "MEI's deal file was last checked 12 days ago (2026-11-01)"
+   "text": "MEI's deal file was last checked 15 days ago (2026-11-01)"
   },
   {
    "kind": "deal_file",
    "market": "ASX",
    "ticker": "CWY",
    "date": "2026-11-01",
-   "text": "CWY's deal file was last checked 12 days ago (2026-11-01)"
+   "text": "CWY's deal file was last checked 15 days ago (2026-11-01)"
   },
   {
    "kind": "deal_file",
    "market": "ASX",
    "ticker": "FPR",
    "date": "2026-11-01",
-   "text": "FPR's deal file was last checked 12 days ago (2026-11-01)"
+   "text": "FPR's deal file was last checked 15 days ago (2026-11-01)"
+  },
+  {
+   "kind": "deal_file",
+   "market": "ASX",
+   "ticker": "A11",
+   "date": "2026-11-06",
+   "text": "A11's deal file was last checked 10 days ago (2026-11-06)"
   },
   {
    "kind": "deal_file",
    "market": "ASX",
    "ticker": "RTH",
    "date": "2026-11-01",
-   "text": "RTH's deal file was last checked 12 days ago (2026-11-01)"
+   "text": "RTH's deal file was last checked 15 days ago (2026-11-01)"
   },
   {
    "kind": "deal_file",
    "market": "ASX",
    "ticker": "GL1",
    "date": "2026-11-01",
-   "text": "GL1's deal file was last checked 12 days ago (2026-11-01)"
+   "text": "GL1's deal file was last checked 15 days ago (2026-11-01)"
   }
  ]
 }

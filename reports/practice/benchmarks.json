@@ -1,15 +1,15 @@
 {
  "ledger": "practice",
  "from": "2026-11-02",
- "to": "2026-11-13",
- "portfolio": 0.004674101115167195,
- "index_mix": 0.018229442584213995,
- "matched_share_in_index": 0.4411873478777657,
- "matched_mix": 0.008459222998659754,
+ "to": "2026-11-16",
+ "portfolio": 0.004025203780567255,
+ "index_mix": 0.01633851912941786,
+ "matched_share_in_index": 0.43901047816668987,
+ "matched_mix": 0.007697774224398435,
  "cash_rate": 0.0213,
- "portfolio_daily_sd": 0.003991554949362439,
+ "portfolio_daily_sd": 0.0038030127109060247,
  "portfolio_worst_fall": -0.00650863625036735,
  "index_worst_fall": -0.016525357488250347,
  "test2_ahead_of_matched_mix": false,
- "test3_vs_index_mix": -0.0135553414690468
+ "test3_vs_index_mix": -0.012313315348850606
 }
