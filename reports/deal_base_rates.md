@@ -1,8 +1,8 @@
 # Deal database: base rates
 
-351 rows in all (46 NZX, 305 ASX); 9 majority-holder buy-outs left out of the rates. 321 resolved deals and 16 pending.
+352 rows in all (47 NZX, 305 ASX); 9 majority-holder buy-outs left out of the rates. 321 resolved deals and 17 pending.
 
-The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (deals/au_hist/followup): some deals could not be reached on free sources, and 115 rows have fewer than five of the six key fields. Treat the rates as provisional.
+The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (deals/au_hist/followup): some deals could not be reached on free sources, and 116 rows have fewer than five of the six key fields. Treat the rates as provisional.
 
 ## Headline rates
 
@@ -77,5 +77,5 @@ The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (
 | 2023 | 20 |
 | 2024 | 20 |
 | 2025 | 30 |
-| 2026 | 30 |
+| 2026 | 31 |
 

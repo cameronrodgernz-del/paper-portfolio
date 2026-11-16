@@ -34,7 +34,7 @@ regulators: ACCC: waiver application WA-40036 lodged by Genesis 31 Jul 2026; det
 conditions_open: Court approval (16 Nov 2026); ASIC/ASX relief and any other approvals in force at the Second Court Date; no restraint; Independent Expert not changing its conclusion before the Second Court Date; no Vault or Genesis Prescribed Occurrence, Regulated Event or Material Adverse Change; Vault Performance Rights dealt with before the Record Date; ASX not refusing quotation of the new Genesis shares
 conditions_met: Vault holder approval by the requisite majorities at the 11 Nov 2026 meeting; ACCC (waiver determination 27 Aug 2026); Independent Expert's Report issued before booklet registration concluding best interests (6 Oct 2026)
 ticking_fee: none
-last_checked: 2026-11-11
+last_checked: 2026-11-16
 ---
 ## In short
 Genesis Minerals is merging with Vault by scheme: each Vault share becomes 0.7629 new Genesis shares plus about A$0.5125 cash (the A$0.475 headline cash was lifted to make up for Genesis' A$0.05 final dividend). Genesis outbid an earlier Regis Resources deal in July, Regis declined to match, and Vault paid Regis a A$50.7 million break fee. The ACCC waived notification in August, BDO says the scheme is fair and reasonable, the booklet is out, and the vote is on 11 November with payment scheduled for 26 November 2026. What remains is the vote, the Court and no adverse event at either company; the main thing that moves the value holders receive is the Genesis share price, which has fallen about 15% since the booklet was written.
@@ -81,6 +81,7 @@ Competing proposal prospects (good for holders, kept separate):
 - Low, around 2–3%. Regis walked away rather than match, the deed has no-shop and no-talk terms with a matching right, and a A$55.5 million reimbursement fee applies. Vault had already done due diligence with Genesis in late 2025, which suggests the field was well tested.
 
 ## Recent announcements
+- 16 Nov 2026: second court hearing listed for 2.15pm AWST (7.15pm NZ). No release on the outcome found by about 10.30pm NZ (news searches; the ASX page can't be opened from the desk). VAU traded normally (closed A$5.75 on 11.5m shares). Stage stays vote_passed until the approval is seen; if approved, 17 Nov is the effective date and last trading day.
 - 11 Nov 2026: Scheme meeting: Vault holders approved the scheme resolution by the requisite majorities; Vault has applied to the Supreme Court of WA for the second hearing on 16 Nov 2026. Vote percentages not yet seen (Genesis release, as reported by TipRanks: https://www.tipranks.com/news/company-announcements/vault-shareholders-approve-proposed-genesis-merger; the ASX release itself could not be opened).
 - 27 Oct 2026: 2026 Annual Report, Corporate Governance Statement, Appendix 4G; Macquarie ceases to be substantial.
 - 26 Oct 2026: Macquarie becomes substantial.
