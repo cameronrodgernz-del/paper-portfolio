@@ -1,4 +1,3 @@
-run 2026-11-16 08:55 UTC, 2 requests
-2026-11-13: 156 shares
+run 2026-11-16 17:09 UTC, 1 requests
 2026-11-16: no rows (a holiday, or not yet published)
 no problems

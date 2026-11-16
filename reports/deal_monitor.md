@@ -54,8 +54,11 @@ Cash price per share found in the latest filing's text, against the last close. 
 | TECH | BIO-TECHNE Corp | 73.00 | 72.80 | +0.3% | 2026-08-10 | 2026-08-20 | DEFM14A;PREM14A | meeting September 23, 2026; close expected late 2026 |
 | ITGR | Integer Holdings Corp | 127.00 | 126.70 | +0.2% | 2026-09-03 | 2026-09-14 | DEFM14A;PREM14A | meeting OCTOBER 21, 2026; close expected by the end of 2026 |
 | LXFR | LUXFER HOLDINGS PLC | 17.37 | 17.34 | +0.2% | 2026-08-26 | 2026-09-17 | DEFM14A;PREM14A | close expected in the fourth quarter of 2026; weak match |
+| PCRX | Pacira BioSciences, Inc. | 36.50 | 36.46 | +0.1% | 2026-10-30 | 2026-11-12 | SC 14D9;SC 14D9/A |  |
 | DSGR | Distribution Solutions Group, Inc. | 35.00 | 35.00 | +0.0% | 2026-09-01 | 2026-10-28 | DEFM14A;PREM14A | meeting November 27, 2026 |
 | BWMN | Bowman Consulting Group Ltd. | 43.00 | 43.00 | +0.0% | 2026-09-25 | 2026-10-05 | DEFM14A;PREM14A | meeting November 4, 2026; close expected in the fourth quarter of calendar year 2026 |
 | UTZ | Utz Brands, Inc. | 14.25 | 14.28 | -0.2% | 2026-08-24 | 2026-10-02 | DEFM14A;PREM14A | meeting November 13, 2026; close expected in the fourth quarter of 2026 |
+| BOW | Bowhead Specialty Holdings Inc. | 34.00 | 34.13 | -0.4% | 2026-08-28 | 2026-10-14 | DEFM14A;PREM14A | meeting November 13, 2026 |
 | LFCR | LIFECORE BIOMEDICAL, INC. \DE\ | 6.28 | 6.42 | -2.2% (check) | 2026-10-30 | 2026-11-13 | DEFM14A;PREM14A | with a CVR; meeting December 23, 2026 |
+| GNK | GENCO SHIPPING & TRADING LTD | 24.80 | 26.14 | -5.1% (check) | 2026-07-23 | 2026-07-23 | SC 14D9/A |  |
 | ROKU | ROKU, INC | 118.75 | 160.52 | -26.0% (check) | 2026-09-01 | 2026-09-01 | DEFM14A | meeting October 14, 2026; close expected in the first half of calendar year 2027 |

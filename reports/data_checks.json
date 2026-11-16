@@ -1,6 +1,6 @@
 {
  "run": "2026-11-16",
- "checked": 31,
+ "checked": 32,
  "issues": [
   {
    "kind": "jump_deal",
@@ -16,20 +16,6 @@
    "ticker": "AX1",
    "date": "2026-11-01",
    "text": "AX1's deal file was last checked 15 days ago (2026-11-01)"
-  },
-  {
-   "kind": "deal_file",
-   "market": "ASX",
-   "ticker": "VAU",
-   "date": "2026-11-16",
-   "text": "VAU: the second court hearing was on 2026-11-16, after its deal file was last checked (2026-11-11); update the stage and dates"
-  },
-  {
-   "kind": "deal_file",
-   "market": "ASX",
-   "ticker": "BET",
-   "date": "2026-11-01",
-   "text": "BET's deal file was last checked 15 days ago (2026-11-01)"
   },
   {
    "kind": "deal_file",
@@ -72,13 +58,6 @@
    "ticker": "FPR",
    "date": "2026-11-01",
    "text": "FPR's deal file was last checked 15 days ago (2026-11-01)"
-  },
-  {
-   "kind": "deal_file",
-   "market": "ASX",
-   "ticker": "A11",
-   "date": "2026-11-06",
-   "text": "A11's deal file was last checked 10 days ago (2026-11-06)"
   },
   {
    "kind": "deal_file",

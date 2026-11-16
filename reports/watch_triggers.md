@@ -1,9 +1,10 @@
-# Research watch list, 2026-11-16
+# Research watch list, 2026-11-17
 
 Prices at which a "wait" verdict would be looked at again (research/watch_triggers.csv), and the dated events in the next 14 days (research/watch_events.csv). A hit sends the share back to the research desk to check the other conditions in its file; nothing is bought from this list. This is a simulation and not financial advice.
 
 ## Hit
 
+- ASX:SMG (Seven Media Group (formerly SXL)) at 0.44 on 2026-11-16, at or below 0.44. Also needs: nothing else changed (as an ordinary pick resolving 31 Mar 2027); A$0.30 as a value pick. Code changed from SXL on 10 Nov 2026. File: research/picks/SXL.md
 - ASX:AWJ (Auric Mining) at 0.19 on 2026-11-16, at or below 0.2. Also needs: the Ore Reserve still pending and no placement (ordinary pick resolving 30 Apr 2027); A$0.155 as a value pick. File: research/picks/AWJ.md
 
 ## Close calls
@@ -28,6 +29,7 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | Share | Trigger | Latest | Date | Away | State | Source of price |
 | --- | --- | --- | --- | --- | --- | --- |
 | ASX:AWJ | AUD 0.2 | 0.19 | 2026-11-16 | -5.0% | HIT | data/prices/ASX |
+| ASX:SMG | AUD 0.44 | 0.44 | 2026-11-16 | +0.0% | HIT | data/prices/ASX |
 | ASX:ASG | AUD 1 | 1.015 | 2026-11-16 | +1.5% | near | data/prices/ASX |
 | ASX:MAD | AUD 5.38 | 5.48 | 2026-11-09 | +1.9% | near | ASX company data (last trade at fetch) |
 | ASX:DSK | AUD 0.68 | 0.695 | 2026-11-16 | +2.2% | near | data/prices/ASX |
@@ -86,11 +88,9 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 | ASX:GRR | AUD 0.055 | 0.1 | 2026-11-16 | +81.8% |  | data/prices/ASX |
 | ASX:GEM | AUD 0.095 | 0.18 | 2026-11-16 | +89.5% |  | data/prices/ASX |
 | ASX:MYX | AUD 0.72 | 3.21 | 2026-11-16 | +345.8% |  | data/prices/ASX |
-| ASX:SMG | AUD 0.44 |  |  |  | no price | no price stored |
 
 ## Events in the next 14 days
 
-- 2026-11-16: NZX:PGW, Elders FY26 result (anything on the PGW stake) (announced)
 - 2026-11-17: NZX:SAN, FY26 result and notice of meeting (Umios nominee?) (announced)
 - 2026-11-18: ASX:EML, AGM (guidance; first-quarter underlying EBITDA A$8m or more to keep the case alive, red team 8 Nov) (announced)
 - 2026-11-18: ASX:HLO, Helloworld can creep in Webjet without a bid (inferred from its 19% crossing date)
@@ -125,3 +125,4 @@ Deep dives under the one-at-a-time process (from 9 November 2026), nearest to th
 - 2026-11-27: NZX:OCA, Official election result (retirement village repayment rules) (announced)
 - 2026-11-27: NZX:SKC, Official election result (gambling law, online advertising; research/positions/NZ_SKC.md) (announced)
 - 2026-11-30: ASX:MGX, Tanami Gold (JV partner) AGM: re-run as a special situation if a merger with MGX or a funding deal for the build is announced (research/picks/MGX.md) (announced)
+- 2026-12-01: ASX:AHC, RTM and CareTech completion (announced)
