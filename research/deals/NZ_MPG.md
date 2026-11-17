@@ -5,7 +5,7 @@ deal_id:
 target: Metro Performance Glass Limited
 bidder: Amari Metals Australia, related to Metro Glass Investments, Metro's 51% holder (the Amari group)
 structure: full_takeover
-consideration: NZ$1.65 cash per ordinary share; the offer also covers outstanding employee options (55,339) and performance rights (36,893). No dividend adjustment seen; Amari says it will not support resuming dividends for the foreseeable future
+consideration: NZ$1.65 cash per ordinary share; the offer also covers outstanding employee options (55,339), which get NZ$nil, and performance rights (36,893), which get NZ$1.65 only if Amari reaches 90% and the offer goes unconditional, otherwise nil (NZX notice). No dividend adjustment seen; Amari says it will not support resuming dividends for the foreseeable future
 cash_per_share: 1.65
 scrip_ratio: 0
 acquirer_ticker:
@@ -34,7 +34,7 @@ regulators: No OIO or other regulatory condition reported in the coverage of the
 conditions_open: Offer to be sent (14 to 30 days after 16 Nov 2026); acceptances above 50% (expected to be met by the 51% holder's lock-up on dispatch); any other conditions in the offer document (none reported)
 conditions_met: Takeover notice given (16 Nov 2026)
 ticking_fee: none
-last_checked: 2026-11-16
+last_checked: 2026-11-17
 ---
 ## In short
 Amari Metals Australia, related to Metro Glass's 51% holder Metro Glass Investments, gave notice on 16 November 2026 that it will make a full takeover offer at NZ$1.65 cash a share, about NZ$40.6m for the company. That is 64.2% above the NZ$1.01 close on 13 November, the last close before the notice. The 51% holder will accept within one working day of the offer going out, and that meets the only condition reported (more than 50%), so the offer should go unconditional soon after dispatch. The questions are whether the offer actually goes out on these terms (the Code requires it within 30 days of the notice) and what the independent committee and its adviser say; minority holders can't block it, but if Amari falls short of 90% the rest stay holders in a company that won't pay dividends. MPG traded about NZ$1.52 on 16 November, an 8.6% gap to the offer.
@@ -58,6 +58,7 @@ Amari Metals Australia, related to Metro Glass's 51% holder Metro Glass Investme
 - Timing: payment could slip into February 2027 if the offer goes out late and the lock-up acceptance is slow to be processed.
 
 ## Recent announcements
+- 17 Nov 2026 (desk recheck): the NZX announcement page for the notice was read (https://www.nzx.com/announcements/483704, released 15 Nov 2026 9pm, attachments dated 16 Nov: the takeover notice, Amari's and MGI's substantial holder notices, a Northington Partners report). It confirms NZ$1.65 cash, Amari and MGI in the same wholly owned group, MGI would accept, the independent committee (Shawn Beck, Julia Mayne, Pramod Khatri), and a target company statement with an independent adviser's report within 10 working days of any offer. Its summary puts the offer window at 10 to 20 working days after the notice (about 27 Nov to 11 Dec 2026), narrower than the 14 to 30 days written last night; to settle from the notice PDF. Conditions, financing and OIO are not in the page text. The attached PDFs could not be opened.
 - 16 Nov 2026: takeover notice from Amari at NZ$1.65 cash, full offer for all shares, options and performance rights; Metro Glass Investments (51%) to accept; Metro forms an independent committee; trading halt pre-open, lifted the same morning. Sources: TipRanks summary of the notice; The Bottom Line market report; b2bnews (all secondary; the NZX notice could not be opened from the desk).
 
 ## Sources
