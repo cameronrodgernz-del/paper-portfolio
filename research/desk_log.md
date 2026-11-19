@@ -365,3 +365,24 @@ Research watch list (reports/watch_triggers.md is still the 16 Nov one; SMG reop
 Analysed: no card tonight. With no 18 Nov valuation in the ledger, section 3 bars any card. No research card is "ready" and none is held; no special situation type has passed.
 
 Placed: nothing.
+
+## 2026-11-19, Nightly job started by the desk and failed the same stale rate test a third night, so no valuation and nothing placed; no live deal news found; Argosy (ARG) interim read, not reopened
+
+Checked:
+- All 19 test files in tests/ pass under python3 -I on the repository's data (the rate files still hold 16 Nov's series, as no nightly run has saved since).
+- The scheduled 8:17pm run did not start (no run created for 19 Nov by 9:45pm NZ). Overnight, scheduled run 36 (5:30am NZ, 19 Nov) failed at "Engine checks" and run 37 (6:16am NZ) stopped at the gate. The desk wrote "Desk run 2026-11-19 21:46 NZ: the 8:17pm job had not landed" to config/run_now.txt and pushed it (f9b28cd). Actions run 38 started at once; rates, SEC, prices and NZX prices all fetched, then it failed at "Engine checks" at 9:49pm NZ on the same check: tests/test_hedges.py, "NZ monthly average is not used before its month ends" (the 30 Sep rate, 2.98%, is compared with the second-last entry in FRED's series, now the October average of 3.13% dated 15 Oct, since the November entry of 3.25% arrived). Every other check passed, including the ledger chain. Nothing saved: no "Nightly data 2026-11-19" commit, no 19 Nov valuation, data checks, watch report or trial run. The hub snapshot step still posted.
+- The desk again did not change the test: it is the job's own safety check, so the fix waits for Cam (the pinned-date fix is described in the 17 Nov entry). The ledger has now missed 17, 18 and 19 Nov, and every run will stop here until the test is fixed. The failed run can't come good by waiting, so the 45-minute wait was cut short. No orders, nothing entered in the ledger; watching only.
+- reports/data_checks.md is still the 16 Nov one: no price flags; the "last checked 15 days ago" findings carry over with no key date passed (AUC's election closes 20 Nov). src/deal_files.py reports no changes and again AUC's file (default all scrip) against the row (all-elect-cash mix); row kept as decided on 1 Nov. ASX release pages still can't be opened from the desk; news searches tonight turned up nothing new.
+
+Changed:
+- No live deal changes found tonight for AX1, VAU (record 19 Nov, implementation 26 Nov), BET (ACCC 3 Dec), OML (effective 19 Nov, implementation 10 Dec), AUC (election closes 20 Nov, meeting 27 Nov), SDF (meeting 27 Nov), PPC (Tribunal window to 27 Nov, meeting 7 Dec), RWC, MEI (Cimce's 20 Nov meeting is tomorrow), CWY, FPR, A11, RTH, GL1, BRI, MYX or MPG. MPG: the NZX notice page was read again (https://www.nzx.com/announcements/483704); no offer yet, the window runs about 27 Nov to 11 Dec. No new binding ASX or NZX control deal of A$100m (NZ$20m) or more found.
+- Deal database unchanged, so base rates and odds were not rerun. src/deal_monitor.py rerun on the 16 Nov closes. US leads watched only (test 9b not passed).
+- research/watch_events.csv: ARG's interim result date corrected to 17 Nov (released 7:31pm NZ) and the row moved into date order.
+
+Research watch list (reports/watch_triggers.md is still the 16 Nov one; no new hits):
+- NZX:ARG interim (NZX 483878, 17 Nov): distributable income NZ$31.1m (3.56c), NTA NZ$1.58, interim dividend 3.325c, FY27 guidance held at 6.65c, gearing 36.6%. The Taupo non-core sale went unconditional at NZ$11.4m, 8.6% above book, but the money is not being returned; the board is only "considering" a buyback, with no decision. CEO Mence to step down and chair Morrison to retire at the 2027 meeting. Not reopened: no buyback or capital return announced, no sale with money returned, no 10% holder or approach, and the price is not near NZ$0.88. A buyback announcement would reopen it. Source: https://www.nzx.com/announcements/483878.
+- Yesterday's events (EML AGM, MGX AGM, WJL half-year, HLO creep date) and today's (AAC half-year, CCV AGM, BRW AGM, MFB 1H27 and chair change, OCA 1H27): no release or report of any was found in tonight's searches; not reopened; to look again tomorrow.
+
+Analysed: no card tonight. With no 19 Nov valuation in the ledger, section 3 bars any card. No research card is "ready" and none is held; no special situation type has passed.
+
+Placed: nothing.
