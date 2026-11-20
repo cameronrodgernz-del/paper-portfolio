@@ -60,3 +60,13 @@ Village-by-village units for sale and asking prices, council consents and land t
 ## Beside the simulation
 
 The simulation's own deep dive (research/picks/NZ_OCA.md, 8 November) found no research pick at NZ$0.66 and goes back to the desk at NZ$0.555 as a value pick, or after the half-year and election if its cash conditions hold. The simulation's rules, not this note, decide any simulated trade.
+
+## Update, 20 November 2026: after the half-year result
+
+Rating: hold. Not a buy before the official election result on 27 November; not a sell on the result itself. Price NZ$0.605 (20 November, mid-afternoon), down from NZ$0.67 on 9 November.
+
+The half-year result (19 November) met the three tests above: cash from existing operations NZ$0.4m (on a new definition that moves NZ$4.1m of selling costs for new units out; about minus NZ$3.7m on the old one), 129 unsold new units, NTA NZ$1.63. Bank tests are well clear: interest cover 4.2 times against a 2.0 minimum, loan to value 31.8% against a 50% limit, NZ$226m of unused funding. Weak points: 136 unsold units (NZ$116m) have been vacant more than a year, money owed by incoming residents rose NZ$23m to NZ$137m, new sales fell 18%, no interim dividend, and the valuation was a desktop review.
+
+The outcome table above (weighted NZ$0.74 at June 2028) assumes a nine-month repayment rule. At NZ$0.605 that is about 13% a year, above the 10.8% required. Under a three-month rule that covers existing contracts the weighted value is about NZ$0.61 to NZ$0.67 (the desk's judgement), which is 0% to 6% a year. The price pays the required return only if the nine-month outcome is about a three-in-four chance, and the count is closer than that.
+
+Levels: add at NZ$0.62 or lower once a National-led government is confirmed, or at NZ$0.55 or lower whatever the result. Review for sale if a Labour-led government confirms a three-month rule on existing contracts. Analysis only, not financial advice.
