@@ -34,7 +34,7 @@ regulators: FIRB (FATA no objection) - not announced as lodged or decided; NZ Ov
 conditions_open: FIRB; OIO; NZCC; ACCC; shareholder approval; independent expert concludes best interests (before the booklet is registered and not withdrawn before the Second Court Date); Court approval; no restraints; no FleetPartners Prescribed Occurrence; no FleetPartners Regulated Event; no FleetPartners Material Adverse Change; Relevant Consent Contract consents (warehouse funding contracts)
 conditions_met: None disclosed
 ticking_fee: None
-last_checked: 2026-11-01
+last_checked: 2026-11-20
 ---
 ## In short
 SG Fleet, controlled by Pacific Equity Partners funds, has agreed to buy FleetPartners by scheme for A$5.30 cash per share, less any FY26 final dividend (up to 14 cents) and special dividend (up to 12 cents) paid before completion. The price implies an equity value of about A$1.131 billion and came out of a contested auction against ORIX, a Sumitomo consortium and Element. The deal is at the start: no booklet, expert or regulator filings have been announced. The main question is competition review, because SG Fleet and FleetPartners are direct rivals in fleet management, leasing and salary packaging in both Australia and New Zealand; the ACCC and NZ Commerce Commission reviews will decide both whether and when holders are paid. There is no reverse break fee, and the last price was A$5.11, about 3.6% below A$5.30.
@@ -75,6 +75,7 @@ SG Fleet, controlled by Pacific Equity Partners funds, has agreed to buy FleetPa
 - Competing bid (helps holders): ORIX and the Sumitomo consortium both reached A$4.65 and have done due diligence; either could return, especially if SG Fleet runs into competition trouble, since they may face fewer overlap issues. SG Fleet has matching rights and the reimbursement fee is only A$11.2m. Rough chance of a rival proposal: 10%.
 
 ## Recent announcements
+- 16 Nov 2026 (read 20 Nov): with the FY26 result FleetPartners said the first court hearing is now expected in December 2026 and the scheme meeting around February 2027; any special dividend (up to 26c, deducted from the A$5.30) decided nearer implementation. Regulatory approvals still open. Source: StockWire X, https://stockwirex.com/?p=56332 (secondary).
 - 21 Oct 2026: Goldman Sachs ceased to be a substantial holder (as at 19 Oct 2026).
 - 21 Oct 2026: Australian Retirement Trust change in substantial holding, 8.745% to 7.536%.
 - 19 Oct 2026: SID with SG Fleet announced, with the full deed attached.

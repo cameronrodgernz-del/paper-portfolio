@@ -34,7 +34,7 @@ regulators: FIRB, applied September 2026, all information requests answered as a
 conditions_open: FIRB; ACCC; FCA; MAS; other regulatory approvals agreed by the parties (Texas Department of Insurance); ASIC and ASX; Steadfast shareholder approval; Court approval; expert not changing its view; no director changing their recommendation before the meeting; Steadfast warranties true; performance rights dealt with; no restraint, prescribed event or material adverse change
 conditions_met: NZ OIO consent (satisfied September 2026, booklet); Independent Expert's Report issued before registration concluding best interests (first limb)
 ticking_fee: none
-last_checked: 2026-11-01
+last_checked: 2026-11-20
 ---
 ## In short
 A consortium of Dragoneer and KKR (through Starboard BidCo) is buying Steadfast for A$6.00 cash less permitted dividends, with Amwins taking the underwriting agencies business straight after. The 12.75 cent FY26 dividend has already been paid, so anyone buying now gets A$5.8725 in cash in total, possibly split as A$5.80 from the scheme plus a 7.25 cent fully franked special dividend. The booklet is out, the expert (Kroll) says fair and reasonable, the vote is on 27 November and payment is scheduled for 22 December 2026. What decides the date is the stack of regulatory approvals still open (FIRB, ACCC, UK FCA, Singapore MAS and Texas), above all the ACCC, which at 16 October had only had a draft notification and was still asking questions; the NZ OIO consent is already in.
@@ -78,6 +78,7 @@ A consortium of Dragoneer and KKR (through Starboard BidCo) is buying Steadfast 
 - Competing bid (good for holders): about 3%. The process has run since June, the board says no superior proposal has emerged, and there is a matching right and a A$66.7m break fee.
 
 ## Recent announcements
+- 13 Nov 2026 (read 20 Nov): the ACCC set an effective notification date of 10 Nov for the acquisition; Phase 1 runs to 22 Dec 2026, the same day as planned implementation, so any Phase 2 would push completion into 2027. Meeting 27 Nov unchanged. Source: Insurance Business, https://www.insurancebusinessmag.com/au/news/breaking-news/accc-review-leaves-no-room-in-steadfast-takeover-timetable-597257.aspx (secondary; ACCC register entry to confirm).
 - 23 Oct 2026: Scheme Booklet registered with ASIC (370 pages, includes Kroll report).
 - 23 Oct 2026: First court hearing outcome; meeting date set; ASIC AGM extension; indicative timetable.
 - 21 Oct and 19 Oct 2026: changes in substantial holdings.

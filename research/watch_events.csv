@@ -25,7 +25,6 @@ date,market,ticker,event,date_basis
 2026-11-20,ASX,EVZ,1H27 guidance (expected),inferred
 2026-11-20,ASX,GDF,Seven property settlements (Morningside due diligence),announced
 2026-11-20,ASX,HIT,AGM (early read on Hudson since 11 Sep),announced
-2026-11-20,ASX,HUM,AGM (second strike and possible board spill),announced
 2026-11-24,ASX,MAD,AGM: Burton leaves the board (watch for a block sale of up to 33.0m shares); re-run if a trading update cuts FY27 profit guidance below A$70m (research/picks/MAD.md),announced
 2026-11-24,ASX,MVF,Genesis total return swap unwind must start (about),inferred
 2026-11-25,ASX,IGL,IVE Group AGM and trading update: FY27 guidance (underlying NPAT before AASB 16 broadly stable on A$52.5m) must be reaffirmed with no softer wording; a cut closes the value pick case,company
@@ -42,6 +41,7 @@ date,market,ticker,event,date_basis
 2026-11-26,NZX,SCT,annual meeting,announced
 2026-11-27,NZX,OCA,Official election result (retirement village repayment rules),announced
 2026-11-27,NZX,SKC,"Official election result (gambling law, online advertising; research/positions/NZ_SKC.md)",announced
+2026-11-30,ASX,HUM,"AGM (second strike and possible board spill), opened 20 Nov and adjourned to 30 Nov 11am",announced
 2026-11-30,ASX,MGX,Tanami Gold (JV partner) AGM: re-run as a special situation if a merger with MGX or a funding deal for the build is announced (research/picks/MGX.md),announced
 2026-12-01,ASX,AHC,RTM and CareTech completion,announced
 2026-12-03,NZX,DGL,AGM,announced

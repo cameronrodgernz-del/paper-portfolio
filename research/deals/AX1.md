@@ -34,7 +34,7 @@ regulators: Takeovers Panel: Frasers' application of 7 Jul 2026 about Accent's u
 conditions_open: none (on-market bids are unconditional by law)
 conditions_met: not applicable
 ticking_fee: none
-last_checked: 2026-11-01
+last_checked: 2026-11-20
 ---
 ## In short
 Frasers, which already owned 22.90% of Accent, has been standing in the market since 15 June 2026 offering A$0.65 cash for every share, with sellers paid two trading days after they sell. This isn't a normal takeover: Frasers' own Bidder's Statement says the aim is to reach at least 26%, which under its 2025 subscription agreement lets it ask for a second board seat, and it "does not expect to achieve more than 90%". The bid drew almost no sellers until Frasers declared the price best and final on 28 October, after which it bought about 5.9 million shares in two days and now sits at 23.94%. Compulsory acquisition (90%) is far out of reach, Accent's board says reject, and the shares closed at A$0.655 on 30 October, above the bid, so there's no spread to capture: the bid works as a floor at A$0.65 until 29 January 2027 rather than as a deal that pays out. The event that matters next is the 20 November AGM and possible board spill, where Frasers' extra votes count.
@@ -70,6 +70,7 @@ Competing bid prospects (good for holders, kept separate):
 - Low, around 5%. Frasers' 23.94% lets it block any scheme (a scheme needs 75% of votes cast) and, after declaring best and final, it can't respond by raising this bid. The IBC has not announced a sale process or any approach. Frasers says no competing proposal has emerged in over four months. A rival would need Frasers to sell to it.
 
 ## Recent announcements
+- 20 Nov 2026: Accent AGM. Remuneration report 56.3% for, 43.7% against (a second strike); the spill resolution failed (59.45% against); all directors re-elected (57% to 60%). Frasers lodged a substantial holder notice showing about 25%, after buying 6.38m shares at A$0.65 on market from 30 Oct to 19 Nov. Bid terms unchanged (A$0.65, closes 29 Jan 2027). Sources: Ragtrader, https://www.ragtrader.com.au/news/accent-board-survives-spill-vote-despite-second-strike ; TipRanks, https://www.tipranks.com/news/company-announcements/accent-group-agm-backs-directors-as-remuneration-report-draws-second-strike (secondary).
 - 30 Oct 2026: two Form 604 notices (Frasers, and Accent itself through the subscription agreement) showing Frasers at 143,915,269 shares (23.94%) after buying 6,243,750 shares at A$0.65 between 13 and 29 Oct, 5,888,477 of them on 28 and 29 Oct.
 - 28 Oct 2026: Accent IBC responds that best and final doesn't change its REJECT recommendation and says Frasers is trying to raise its voting power before the AGM without paying for control.
 - 28 Oct 2026: Frasers declares A$0.65 best and final and repeats the 29 Jan 2027 close.
