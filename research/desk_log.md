@@ -424,3 +424,34 @@ Research watch list (reports/watch_triggers.md is still the 16 Nov one; no new h
 Analysed: no card tonight. With no 20 Nov valuation in the ledger, section 3 bars any card. In expected_yearly order GL1 (+226%), A11 (+111%), MEI (+71%), RWC (+44%), BET (+25%), FPR (+1%) lead; all but MEI are ASX cash deals, barred while test 9c has failed, and MEI's card stays "waiting". No research card is "ready" and none is held; no special situation type has passed.
 
 Placed: nothing.
+
+## 2026-11-23, Nightly job started by the desk and failed the same stale rate test a fifth night, so no valuation and nothing placed; two live_deals.csv rows repaired; GL1 implementation now 29 Jan 2027; no watch-list share reopened
+
+Checked:
+- All 19 test files in tests/ pass under python3 -I on the repository's data (the rate files still hold 16 Nov's series).
+- No scheduled run of the nightly job since run 43 (Sat 21 Nov, 5:58am NZ, stopped at the gate); none created for 23 Nov by 9:46pm NZ. The desk wrote "Desk run 2026-11-23 21:46 NZ: the 8:17pm job had not landed" to config/run_now.txt and pushed it (c427bbf). Actions run 44 started at once; rates, SEC, prices and NZX prices (16 to 20 Nov; 23 Nov not yet published) fetched, then it failed at "Engine checks" at 9:50pm NZ on the same check: tests/test_hedges.py, "NZ monthly average is not used before its month ends" (0.0298 compared with FRED's ('2026-10-15', 0.0313), ('2026-11-15', 0.0325)). Every other check in that file passed, including the ledger chain. Nothing saved: no "Nightly data 2026-11-23" commit, no 23 Nov valuation, data checks, watch report or trial run. The hub snapshot step still posted.
+- The desk again did not change the test: it is the job's own safety check, so the fix waits for Cam (the pinned-date fix is in the 17 Nov entry). The practice ledger has now missed 17, 18, 19, 20 and 23 Nov, and every run will stop here until the test is fixed. The failed run can't come good by waiting, so the 45-minute wait was cut short. No orders, nothing entered in the ledger; watching only.
+- reports/data_checks.md is still the 16 Nov one: no price flags; GL1's file checked tonight; the other "last checked" findings carry over with no key date passed (VAU pays 26 Nov; AUC and SDF meet 27 Nov).
+- Found and fixed a data fault: in config/live_deals.csv the OML and GL1 rows had an unquoted comma in terms_note (written on 20 Nov), so each row had 23 fields and every column after terms_note was shifted by one for those two deals. src/deal_files.py --add crashed on it tonight and truncated the file mid-write; the file was restored from git, the two terms notes re-quoted (text unchanged), and --add then ran cleanly. 20 Nov's deal monitor read those two rows shifted; tonight's rerun reads them correctly. The nightly job hasn't saved since 16 Nov, so nothing else used the broken rows. Worth a guard in deal_files.py (write to a temporary file, then swap) so a bad row can't empty the file.
+
+Changed:
+- GL1 (Global Lithium, Titan scheme): the booklet's indicative timetable (ASX release of 18 Nov): booklet to holders 23 Nov, meeting 22 Dec 2026, second court 13 Jan 2027, effective 14 Jan, record 21 Jan, implementation 29 Jan 2027 (was mid-January). Deal file header and Recent announcements updated; --add carried court_date 2027-01-13 and expected_payment 2027-01-15 -> 2027-01-29 into the row. Titan's A$40m Tranche 4 becomes drawable if not complete before 2 Feb 2027, just after the new date. Source: https://announcements.asx.com.au/asxpdf/20261118/pdf/076rt19h37fhr3.pdf (primary, found by search).
+- AX1: the 20 Nov AGM figures confirmed (remuneration report 56.30% for, a second strike; spill 40.55% for, failed; directors re-elected with 57% to 60%); the chair repeated Frasers' "best and final" 65c. Bloomberg (20 Nov, headline only) reports Frasers' CFO attacking the Accent board. No change to terms. Sources: https://kalkine.com.au/news/announcements/accent-group-2026-agm-passes-director-re-elections-but-records-second-strike-on-remuneration-report ; https://www.bloomberg.com/news/articles/2026-11-20/frasers-cfo-unleashes-on-accent-as-australian-bid-turns-personal (secondary).
+- VAU: State Street ceased to be a substantial holder on 18 Nov (index selling into the scheme); implementation 26 Nov unchanged. Source: https://kalkinemedia.com/au/news/announcements/state-street-bank-and-trust-company-ends-substantial-holding-in-vault-minerals-as-of-18-november-2026 (secondary).
+- A11: AGM on 20 Nov carried all four resolutions; scheme meeting 14 Dec as in the row. Source: https://kalkinemedia.com/au/news/announcements/atlantic-lithium-secures-unanimous-approval-for-all-four-agm-resolutions-on-20-november-2026 (secondary).
+- MEI: no report yet of what Brazil's Cimce decided at its 20 Nov meeting; Plantao Brasil (18 Nov) says the screening decree is expected before the end of 2026. Row unchanged.
+- AUC: no cash election result or scale-back found yet; meeting 27 Nov. src/deal_files.py again reports the file (default all scrip) against the row (all-elect-cash mix); row kept as decided on 1 Nov, to revisit when the election outcome is out.
+- Nothing new found for BET (ACCC 3 Dec), OML (record 3 Dec, implementation 10 Dec), SDF (meeting 27 Nov), PPC (Tribunal window to 27 Nov, meeting 7 Dec), RWC (meeting 4 Dec), CWY, FPR, RTH, BRI, MYX or MPG (no offer dispatch or target company statement yet). Several announcement pages again could not be opened, so "nothing found" is a search result, not proof.
+- No new binding ASX or NZX control deal of A$100m (NZ$20m) or more found. Below the bar: WA Gold (WAU) agreed a Leeuwin Metals scrip scheme on 23 Nov (about A$26m). Nuix (Haveli A$2.75) remains non-binding.
+- Deal database unchanged (no deal completed or ended), so base rates and odds were not rerun. src/deal_monitor.py rerun on the 16 Nov closes. US leads watched only (test 9b not passed).
+
+Research watch list (reports/watch_triggers.md is still the 16 Nov one; no new hits; SMG, ATG and ASG stay reopened as marked):
+- HIT (AGM 20 Nov): all six resolutions carried; no trading update or first Hudson result found. Not reopened.
+- EVZ (1H27 guidance, about 20 Nov): none found yet. Not reopened; look again.
+- GDF (seven property settlements due 20 Nov): no settlement release found. Not reopened; look again.
+- BOL and ASG: covered by the 21 Nov research sweep (INDEX note 13); nothing since.
+- MVF (Genesis total return swap unwind, about 24 Nov) and MAD (AGM 24 Nov): nothing early found.
+
+Analysed: no card tonight. With no 23 Nov valuation in the ledger, section 3 bars any card. No research card is "ready" and none is held; no special situation type has passed.
+
+Placed: nothing.

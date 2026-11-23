@@ -15,12 +15,12 @@ booklet_date: 2026-11-18
 first_court_date: 2026-11-17
 meeting_date: 2026-12-22
 offer_close_date:
-second_court_date:
-effective_date:
-record_date:
-implementation_date:
+second_court_date: 2027-01-13
+effective_date: 2027-01-14
+record_date: 2027-01-21
+implementation_date: 2027-01-29
 end_date: 2027-03-21
-dates_basis: Announce date confirmed (22 Sep 2026). All later dates are indicative. The 22 September timetable gives only ranges: booklet lodged with ASIC early November 2026, first court mid to late November, booklet to holders late November, meeting late December 2026, second court and effective date early to mid January 2027, record date the fifth business day after the effective date, implementation the fifth business day after the record date. The quarterly report (29 Oct 2026) narrows the meeting to "on or about 22 December 2026" and implementation to "mid-January 2027". End date is about 21 March 2027: the deed says six months after execution, and the deed poll states "21 March 2026", which looks like a typo for 2027.
+dates_basis: Announce date confirmed (22 Sep 2026). All later dates are indicative. The 22 September timetable gives only ranges: booklet lodged with ASIC early November 2026, first court mid to late November, booklet to holders late November, meeting late December 2026, second court and effective date early to mid January 2027, record date the fifth business day after the effective date, implementation the fifth business day after the record date. The quarterly report (29 Oct 2026) narrows the meeting to "on or about 22 December 2026" and implementation to "mid-January 2027". End date is about 21 March 2027: the deed says six months after execution, and the deed poll states "21 March 2026", which looks like a typo for 2027. The booklet's timetable (ASX release of 18 Nov 2026): booklet sent 23 Nov, meeting 22 Dec 2026, second court 13 Jan 2027, effective 14 Jan, record 21 Jan, implementation 29 Jan 2027.
 stage: booklet_out
 vote_threshold: 75% of votes cast and a majority by number of shareholders present and voting (Corporations Act s411(4)(a)(ii)), then court approval
 bidder_stake_pct: none disclosed
@@ -34,7 +34,7 @@ regulators: FIRB (no objection notice needed; status not announced); ACCC under 
 conditions_open: ACCC approval; FIRB approval; court approval; any other ASIC and ASX relief needed; shareholder approval; option holders exercise or sign cancellation deeds; no restraint; no prescribed occurrence; no material adverse change (20% fall in net assets or EBITDA, among other tests); target warranties true
 conditions_met: independent expert (BDO) concluded best interests (booklet, 18 Nov 2026); ASX waiver of Listing Rule 6.23.2 for cancelling options (12 Oct 2026), which is one part of the options condition
 ticking_fee: None as such; Titan's bridging loan steps up if the scheme is late (Tranche 3 of A$20m drawable if not complete before 1 January 2027, Tranche 4 of A$40m if not complete before 2 February 2027)
-last_checked: 2026-11-20
+last_checked: 2026-11-23
 ---
 ## In short
 Titan, part of a private UAE lithium refining group, signed a binding Scheme Implementation Deed on 22 September 2026 to buy all of Global Lithium for A$1.15 cash a share, about A$333 million fully diluted. The board recommends it and directors holding 12.5% will vote for it. Titan is also lending up to A$120 million to keep the Manna project moving during the deal. FIRB, ACCC and court approvals are still needed, with the vote expected on or about 22 December 2026 and payment in mid-January 2027. The shares last traded at A$0.925 (bid 0.89, ask 0.925), a gross spread of about 24% to A$1.15. That is wide for a recommended, unconditional-on-financing cash deal, and suggests the market doubts the bidder's ability to close, the approvals, or both.
@@ -77,6 +77,7 @@ Titan, part of a private UAE lithium refining group, signed a binding Scheme Imp
 - Competing bid (helps a holder): low, about 5%. Lithium developers are out of favour and the deed has no-shop, no-talk and matching rights.
 
 ## Recent announcements
+- 18 Nov 2026 (read 23 Nov): the booklet's indicative timetable puts the booklet to holders on 23 Nov, meeting 22 Dec 2026, second court 13 Jan 2027, effective 14 Jan, record 21 Jan and implementation 29 Jan 2027, two weeks later than the quarterly's mid-January. Titan's Tranche 4 (A$40m, drawable if not complete before 2 Feb 2027) sits just after it. Source (primary, as found by the desk's search): https://announcements.asx.com.au/asxpdf/20261118/pdf/076rt19h37fhr3.pdf
 - 17 to 18 Nov 2026: Supreme Court of WA ordered the scheme meeting to be convened (17 Nov) and approved the booklet for dispatch; ASIC registered the booklet (about 18 Nov). Meeting 10am AWST 22 Dec 2026. Independent expert BDO concludes the scheme is in the best interests of shareholders. FIRB and ACCC still open; no funding update. Stage announced -> booklet_out. Sources: Kalkine Media, https://kalkinemedia.com/au/news/announcements/global-lithium-resources-secures-court-approval-for-shareholder-scheme-meeting-on-titan-australia-mining-takeover-set-for-22-december-2026 ; TipRanks, https://www.tipranks.com/news/company-announcements/asic-registers-booklet-for-proposed-titan-acquisition-of-global-lithium (both secondary; the booklet itself not yet read).
 - 29 Oct 2026: Quarterly report; meeting expected on or about 22 December 2026, implementation mid-January 2027.
 - 27 Oct 2026: Annual report (substantial holders at 8 October 2026).
