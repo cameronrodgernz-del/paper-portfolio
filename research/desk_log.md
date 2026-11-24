@@ -455,3 +455,26 @@ Research watch list (reports/watch_triggers.md is still the 16 Nov one; no new h
 Analysed: no card tonight. With no 23 Nov valuation in the ledger, section 3 bars any card. No research card is "ready" and none is held; no special situation type has passed.
 
 Placed: nothing.
+
+## 2026-11-24, Nightly job started by the desk and failed the same stale rate test a sixth night, so no valuation and nothing placed; no live deal news found; no watch-list share reopened
+
+Checked:
+- All 19 test files in tests/ pass under python3 -I on the repository's data (the rate files still hold 16 Nov's series).
+- No "Nightly data" commit for 24 Nov. The scheduled 8:17pm NZ run was not created on time: run 45 (the 23 Nov 07:17 UTC schedule) only started at 8:18am NZ on 24 Nov, about 12 hours late, and failed at Engine checks; run 46 (9:16am NZ) stopped at the gate. The desk wrote "Desk run 2026-11-24 21:48 NZ: the 8:17pm job had not landed" to config/run_now.txt and pushed it (170fd63). Actions run 47 started at once (8:46 UTC); rates, SEC, prices and NZX prices (16 to 20 Nov, 12 shares for 23 Nov, 24 Nov not yet published) fetched, then it failed at "Engine checks" at 9:49pm NZ on the same check as the last five nights: tests/test_hedges.py, "NZ monthly average is not used before its month ends" (0.0298 against FRED's ('2026-10-15', 0.0313), ('2026-11-15', 0.0325)). Every other check passed, including the ledger chain. Nothing saved: no 24 Nov valuation, data checks, watch report or trial run. The hub snapshot step still posted.
+- The desk again did not change the test (the job's own safety check; the fix waits for Cam, see the 17 Nov entry). The practice ledger has now missed 17, 18, 19, 20, 23 and 24 Nov. The run can't come good by waiting, so the 45-minute wait was cut short. No orders, nothing entered in the ledger; watching only.
+- reports/data_checks.md is still the 16 Nov one: no price flags; its "last checked" findings carry over with no key date passed (VAU pays 26 Nov; AUC and SDF meet 27 Nov).
+
+Scan of live deals (news and announcement searches; several ASX, InvestSMART and Market Index pages again could not be opened, so "nothing found" is a search result, not proof):
+- Nothing new found since the 23 Nov entry for AX1, VAU, BET, OML, AUC (no cash election result yet), SDF, PPC (Tribunal window to 27 Nov), RWC, MEI (no Cimce decision reported), CWY, FPR, A11, RTH, GL1, BRI, MYX or MPG (no offer dispatch or target company statement; under the Takeovers Code the offer falls due about 30 Nov to 14 Dec). File check dates left as they were.
+- No new binding ASX or NZX control deal of A$100m (NZ$20m) or more found.
+- No deal file, live deal row or database row changed; base rates and odds not rerun. src/deal_monitor.py rerun on the stored 16 Nov closes. US leads watched only (test 9b not passed).
+
+Research watch list (reports/watch_triggers.md is still the 16 Nov one; no new hits; SMG, ATG and ASG stay reopened as marked):
+- MAD (AGM 24 Nov): only a buy-back notice of 23 Nov found (https://www.aspecthuntley.com.au/asxdata/20261123/pdf/03164864.pdf, via InvestSMART); no AGM address, trading update or guidance change found yet, and no block sale. Not reopened; look again tomorrow.
+- MVF (Genesis swap unwind, about 24 Nov): nothing found. Not reopened.
+- EVZ (1H27 guidance) and GDF (settlements): still nothing found. Not reopened.
+- Tomorrow: IGL AGM and trading update, IPL and SPG results, KMD AGM.
+
+Analysed: no card tonight. With no 24 Nov valuation in the ledger, section 3 bars any card. No research card is "ready" and none is held; no special situation type has passed.
+
+Placed: nothing.
