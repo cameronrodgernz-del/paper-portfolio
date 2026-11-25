@@ -456,6 +456,31 @@ Analysed: no card tonight. With no 23 Nov valuation in the ledger, section 3 bar
 
 Placed: nothing.
 
+## 2026-11-25, Nightly job started by the desk and failed the same stale rate test a seventh night, so no valuation and nothing placed; SDF second court hearing moved to 22 Dec with implementation in January; KMD's Bluestar talks end 2 Dec; IGL guidance kept; no watch-list share reopened
+
+Checked:
+- All 19 test files in tests/ pass under python3 -I on the repository's data (the rate files still hold 16 Nov's series).
+- No "Nightly data" commit for 25 Nov. The scheduled runs keep starting about 12 hours late: run 48 (created 7:56am NZ 25 Nov) failed at Engine checks and run 49 (8:30am NZ) stopped at the gate. The desk wrote "Desk run 2026-11-25 21:46 NZ: the 8:17pm job had not landed" to config/run_now.txt and pushed it (d7a2402). Actions run 50 started at once (8:46 UTC); rates, SEC, prices and NZX prices fetched, then it failed at "Engine checks" at 9:49pm NZ on the same check as the last six nights: tests/test_hedges.py, "NZ monthly average is not used before its month ends" (0.0298 against FRED's ('2026-10-15', 0.0313), ('2026-11-15', 0.0325)). Every other check passed, including the ledger chain. Nothing saved: no 25 Nov valuation, data checks, watch report or trial run. The hub snapshot step still posted.
+- The desk again did not change the test (the job's own safety check; the fix waits for Cam, see the 17 Nov entry). The practice ledger has now missed 17, 18, 19, 20, 23, 24 and 25 Nov. The run can't come good by waiting, so the 45-minute wait was cut short. No orders, nothing entered in the ledger; watching only.
+- reports/data_checks.md is still the 16 Nov one: no price flags. Key dates in its "last checked" findings: VAU pays 26 Nov; AUC and SDF meet 27 Nov. SDF's file is updated tonight (below).
+
+Live deals:
+- SDF: "Update on Scheme of Arrangement", ASX 24 Nov (https://www.listcorp.com/asx/sdf/steadfast-group/news/update-on-scheme-of-arrangement-3441421.html). Meeting goes ahead 10am 27 Nov. NZ OIO and Texas Department of Insurance approvals in; ACCC, FIRB and MAS still open, FCA progressing. Second court hearing moved from 1 Dec to 22 Dec 2026 because ACCC and FIRB approvals won't come before 1 Dec; implementation now expected in January 2027. The 7.25c fully franked special dividend is now declared, conditional on the scheme becoming effective (no DRP), so the A$5.8725 total stands. Deal file header, conditions, key dates and announcements updated; src/deal_files.py --add carried court date 22 Dec, expected payment 29 Jan 2027 (the desk's reading of "during January", last business day) and the Texas condition into the row; terms_note rewritten by hand. Terms unchanged. The file's 35% chance of a timing slip has now happened; the slip is about five weeks at an unchanged price, which lowers the yearly return.
+- AUC: src/deal_files.py again reports the file (default all scrip) against the row (all-elect-cash mix); row kept as decided on 1 Nov, until the election outcome is out. No result found tonight.
+- Nothing new found for AX1, VAU (pays 26 Nov), BET (ACCC 3 Dec), OML, PPC, RWC, MEI, CWY, FPR, A11, RTH, GL1, BRI, MYX or MPG. Searches only; several ASX and NZX pages could not be opened, so "nothing found" is a search result, not proof.
+- No new binding ASX or NZX control deal of A$100m (NZ$20m) or more found. Deal database unchanged; base rates and odds not rerun. src/deal_monitor.py rerun on the stored 16 Nov closes. US leads watched only (test 9b not passed).
+
+Research watch list (reports/watch_triggers.md is still the 16 Nov one; no new hits; SMG, ATG and ASG stay reopened as marked):
+- IGL (AGM 25 Nov): ShareCafe's 25 Nov round-up says IVE kept FY27 guidance at the AGM: underlying NPAT before AASB 16 expected stable, before Motio's contribution; revenue to October up about 4%; capex to fall; payout back to 55% to 65%, about 19c to 22c fully franked (https://www.sharecafe.com.au/2026/11/25/daily-special-ive-group-iperionx-emyria-conneqt-health-terrain-minerals/). The ASX release itself was not read. Guidance intact, so the case stays open, but the red team's entry is about A$2.12 or below and no current price could be read (the last found was A$2.33 on 29 Sep). Not reopened; the desk should check the price against A$2.12 once the nightly job stores closes again.
+- KMD (AGM 25 Nov): StockWire X reports a KMD release of 24 Nov 11:21am AEDT, "update on discussions with Bluestar Alliance": Bluestar would go on only with a much longer period in which KMD can't take a better offer, or cover for its costs if the deal fails; the board refused both, and exclusivity ends 5pm NZ time on 2 Dec, not extended; the board will look at other credible interest (https://stockwirex.com/asx-stock-news/consumer-discretionary/kmd-brands-bluestar-alliance-talks-november-2026/). The NZX release was not read (the page could not be opened). This is the "talks end" branch of research/picks/NZ_KMD.md: a value pick only at about NZ$1.54 or below. No current price could be read. Not reopened; watch_events.csv long stop row changed to 2 Dec with this reason. Material for the KMD watch, so Cam is told.
+- MAD (AGM 24 Nov): InvestSMART lists the Chair's and CEO's addresses, AGM presentation, results of meeting and a final director's interest notice, all 24 Nov; the PDFs could not be opened tonight, so guidance and whether the final notice shows a sale are unknown. Not reopened; read again tomorrow.
+- IPL and SPG: IPL's 1H27 came out on 17 Nov (note 13); no SPG HY27 result found yet. Neither qualifies as a case anyway. Not reopened.
+- Tomorrow: AQZ, CZR, DUR, EDU, GDF, MVF, MXI AGMs and SCT annual meeting.
+
+Analysed: no card tonight. With no 25 Nov valuation in the ledger, section 3 bars any card. No research card is "ready" and none is held; no special situation type has passed.
+
+Placed: nothing.
+
 ## 2026-11-24, Nightly job started by the desk and failed the same stale rate test a sixth night, so no valuation and nothing placed; no live deal news found; no watch-list share reopened
 
 Checked:
