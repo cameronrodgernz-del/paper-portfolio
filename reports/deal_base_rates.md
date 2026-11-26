@@ -1,14 +1,14 @@
 # Deal database: base rates
 
-353 rows in all (47 NZX, 306 ASX); 9 majority-holder buy-outs left out of the rates. 321 resolved deals and 18 pending.
+353 rows in all (47 NZX, 306 ASX); 9 majority-holder buy-outs left out of the rates. 322 resolved deals and 17 pending.
 
-The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (deals/au_hist/followup): some deals could not be reached on free sources, and 116 rows have fewer than five of the six key fields. Treat the rates as provisional.
+The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (deals/au_hist/followup): some deals could not be reached on free sources, and 115 rows have fewer than five of the six key fields. Treat the rates as provisional.
 
 ## Headline rates
 
 | Measure | Value |
 | --- | --- |
-| Completed, of resolved deals | 81% (260 of 321) |
+| Completed, of resolved deals | 81% (261 of 322) |
 | Median days, announcement to outcome | 119 (middle half 94 to 147) |
 | Median days, completed deals | 120 |
 | Deals with a rival bid | 19% |
@@ -18,14 +18,14 @@ The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (
 
 | Market | Resolved | Completed | Completion | Median days |
 | --- | --- | --- | --- | --- |
-| ASX | 284 | 232 | 82% | 117 |
+| ASX | 285 | 233 | 82% | 117 |
 | NZX | 37 | 28 | 76% | 123 |
 
 ## By structure
 
 | Structure | Resolved | Completed | Completion | Median days |
 | --- | --- | --- | --- | --- |
-| scheme | 234 | 200 | 85% | 124 |
+| scheme | 235 | 201 | 86% | 124 |
 | full_takeover | 79 | 55 | 70% | 72 |
 | partial_takeover | 8 | 5 | 62% | 98 |
 
@@ -33,7 +33,7 @@ The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (
 
 | Bidder | Resolved | Completed | Completion | Median days |
 | --- | --- | --- | --- | --- |
-| trade | 201 | 167 | 83% | 121 |
+| trade | 202 | 168 | 83% | 121 |
 | private_equity | 44 | 38 | 86% | 114 |
 | existing_holder | 41 | 28 | 68% | 70 |
 | consortium | 23 | 19 | 83% | 134 |
@@ -46,7 +46,7 @@ The Australian 2015 to 2024 rows are still incomplete after one follow-up pass (
 | --- | --- | --- | --- | --- |
 | cash | 213 | 178 | 84% | 115 |
 | scrip | 52 | 40 | 77% | 127 |
-| mixed | 44 | 33 | 75% | 120 |
+| mixed | 45 | 34 | 76% | 120 |
 | unknown | 12 | 9 | 75% |  |
 
 ## Why deals failed

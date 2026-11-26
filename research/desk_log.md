@@ -503,3 +503,28 @@ Research watch list (reports/watch_triggers.md is still the 16 Nov one; no new h
 Analysed: no card tonight. With no 24 Nov valuation in the ledger, section 3 bars any card. No research card is "ready" and none is held; no special situation type has passed.
 
 Placed: nothing.
+
+## 2026-11-26, Nightly job started by the desk and failed the same stale rate test an eighth night, so no valuation and nothing placed; VAU (Genesis scheme) implemented and removed from the live list; DUR guidance below its reopen bar; no watch-list share reopened
+
+Checked:
+- All 19 test files in tests/ pass under python3 -I on the repository's data (the rate files still hold 16 Nov's series).
+- No "Nightly data" commit for 26 Nov. Scheduled run 51 (created 7:00am NZ 26 Nov, about 11 hours late) failed; run 52 (7:39am NZ) stopped at the gate. The desk wrote "Desk run 2026-11-26 21:46 NZ: the 8:17pm job had not landed" to config/run_now.txt and pushed it (e8c0481). Actions run 53 started at once (8:46 UTC); rates, SEC, prices and NZX prices (16 to 24 Nov; 25 and 26 Nov not yet published) fetched, then it failed at "Engine checks" at 9:50pm NZ on the same check as the last seven nights: tests/test_hedges.py, "NZ monthly average is not used before its month ends" (0.0298 against FRED's ('2026-10-15', 0.0313), ('2026-11-15', 0.0325)). Every other check passed, including the ledger chain. Nothing saved: no 26 Nov valuation, data checks, watch report or trial run. The hub snapshot step still posted.
+- The desk again did not change the test (the job's own safety check; the fix waits for Cam, see the 17 Nov entry). The practice ledger has now missed 17, 18, 19, 20, 23, 24, 25 and 26 Nov. The run can't come good by waiting, so the 45-minute wait was cut short. No orders, nothing entered in the ledger; watching only.
+- reports/data_checks.md is still the 16 Nov one: no price flags. Key dates in its findings: VAU paid 26 Nov (below); AUC and SDF meet 27 Nov.
+
+Live deals:
+- VAU (Vault, Genesis scheme): implemented 26 Nov 2026, all Vault shares transferred to Genesis (Vault release as reported by TipRanks: https://www.tipranks.com/news/company-announcements/vault-genesis-scheme-implemented-vault-shares-transferred; the ASX release itself could not be opened). Final elections (23 Nov, https://www.listcorp.com/asx/vau/vault-minerals-limited/news/vau-final-outcome-of-scheme-consideration-elections-3440611.html): Default 0.7629 Genesis shares + A$0.5125 cash; Maximum Cash oversubscribed and scaled back to A$1.6263 cash + 0.5908 Genesis shares; Maximum Scrip 0.8421 Genesis shares with no scaleback; Genesis Reference Share Price A$6.47. Not held. Removed from config/live_deals.csv; deal file stage set to implemented; deal database row AU-2026-14: outcome completed, outcome and implementation date 26 Nov 2026, 135 days. Base rates and odds rerun (ASX 285 resolved, 82% completed, median 117 days).
+- AUC: src/deal_files.py again reports the file (default all scrip) against the row (all-elect-cash mix); row kept as decided on 1 Nov, until the election outcome is out. No result found tonight; meeting 27 Nov.
+- SDF: meeting 10am 27 Nov; nothing new since the 24 Nov update.
+- Nothing new found for AX1, BET (ACCC 3 Dec), OML, PPC, RWC, MEI, CWY, FPR, A11, RTH, GL1, BRI, MYX or MPG (no offer dispatch or target company statement found yet). Searches only; several ASX and NZX pages could not be opened, so "nothing found" is a search result, not proof.
+- No new binding ASX or NZX control deal of A$100m (NZ$20m) or more found. src/deal_monitor.py rerun on the stored 16 Nov closes. US leads watched only (test 9b not passed).
+
+Research watch list (reports/watch_triggers.md is still the 16 Nov one; no new hits; SMG, ATG and ASG stay reopened as marked):
+- DUR (AGM 26 Nov): "Duratec provides FY27 guidance", ASX 26 Nov 8:16am AEDT, as reported by StockWire X (https://stockwirex.com/asx-stock-news/industrials/dur-duratec-fy27-revenue-guidance-november-2026/): revenue A$690m to A$710m, normalised EBITDA A$69m to A$71m, over 90% of the midpoint contracted; order book a record A$836m at 24 Nov, including over A$200m of awards on 20 Nov (Santos, Yongah Hill, Sitzler); no EPS or NPAT guidance. The reopen bar in research/picks/DUR.md is revenue of A$720m or more or underlying EPS of 14c or more: revenue is below it and no EPS was given, and no Stirling facility, Henderson or Perth Airport award of A$100m or more was named. Not reopened. The ASX release itself was not read.
+- AQZ (AGM 26 Nov): Chair and CEO addresses (6ix summary, https://6ix.com/news/agm-address-by-chair-and-ceo) give no guidance change, asset sale, refinancing or new raising; all five resolutions carried per the corrected results (https://www.tipranks.com/news/company-announcements/alliance-aviation-corrects-2026-agm-voting-results). Market value about A$90m, so the price is still about A$0.40, above the A$0.31 reopen price. Not reopened.
+- CZR, GDF, MVF, MXI, EDU, SCT: no AGM results, settlement release or returns found tonight. Not reopened; look again tomorrow. MAD's AGM papers still not read.
+- Tomorrow: SDF and AUC scheme meetings; OCA and SKC election results; PFP ABS data.
+
+Analysed: no card tonight. With no 26 Nov valuation in the ledger, section 3 bars any card. No research card is "ready" and none is held; no special situation type has passed.
+
+Placed: nothing.
