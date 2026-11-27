@@ -20,8 +20,8 @@ effective_date: 2026-12-02
 record_date: 2026-12-04
 implementation_date: 2026-12-11
 end_date: 2027-03-31
-dates_basis: First court (21 Oct) and booklet registration (21 Oct) have happened. Cash Election Date (7pm 20 Nov), proxy deadline (10am 25 Nov) and Scheme Meeting (10am 27 Nov, Melbourne) are set by Court orders. Second court 1 Dec, effective 2 Dec, record 4 Dec, implementation 11 Dec and TSX/NYSE trading of new shares from 11 Dec are indicative. End Date 31 Mar 2027 is in the deed
-stage: booklet_out
+dates_basis: Results of scheme meeting 27 Nov 2026 repeat the indicative timetable: second court 10.15am 1 Dec (Federal Court, Melbourne), effective and suspension 2 Dec, record 7pm 4 Dec, implementation 11 Dec. First court (21 Oct) and booklet registration (21 Oct) have happened. Cash Election Date (7pm 20 Nov), proxy deadline (10am 25 Nov) and Scheme Meeting (10am 27 Nov, Melbourne) are set by Court orders. Second court 1 Dec, effective 2 Dec, record 4 Dec, implementation 11 Dec and TSX/NYSE trading of new shares from 11 Dec are indicative. End Date 31 Mar 2027 is in the deed
+stage: vote_passed
 vote_threshold: 75% of votes cast and a majority by number of Ausgold holders present and voting (in person or by proxy)
 bidder_stake_pct: 0
 intentions_pct: about 9.1% (Dundee Corporation 7.7% voting intention, plus directors about 1.4%), both subject to no superior proposal and the expert continuing to support
@@ -31,10 +31,10 @@ ier: Lonergan Edwards (with an independent technical report). Ausgold valued at 
 break_fee: Ausgold pays A$7.76 million (A$7,760,000) in set circumstances
 reverse_break_fee: none found in the deed or booklet
 regulators: FIRB, no objection received (announced 28 Oct 2026); ACCC, notification waiver approved 17 Sep 2026 (register WA-95041); TSX listing approval for new shares, outstanding; other OceanaGold approvals (Canadian securities, BC company law, US securities, NYSE), outstanding; ASIC and ASX relief, ASX waiver of Listing Rule 6.23.2 for the warrant cancellation granted 23 Sep 2026; Federal Court, first hearing done, second hearing 1 Dec
-conditions_open: Ausgold shareholder approval; Court approval; TSX listing approval of the new shares; other OceanaGold regulatory approvals including NYSE; ASIC and ASX consents at the second court date; no restraints; no Ausgold material adverse change; no OceanaGold material adverse change; no Ausgold prescribed occurrence or regulated event; expert not changing or withdrawing its view; performance rights dealt with; warrants dealt with; fundamental warranties true
-conditions_met: FIRB approval (28 Oct 2026); ACCC approval (waiver determination 17 Sep 2026); Independent Expert's Report issued before booklet registration concluding best interests; Ausgold options condition effectively met (booklet says all options have been exercised)
+conditions_open: Court approval; TSX listing approval of the new shares; other OceanaGold regulatory approvals including NYSE; ASIC and ASX consents at the second court date; no restraints; no Ausgold material adverse change; no OceanaGold material adverse change; no Ausgold prescribed occurrence or regulated event; expert not changing or withdrawing its view; performance rights dealt with; warrants dealt with; fundamental warranties true
+conditions_met: Ausgold shareholder approval (27 Nov: 99.40% of votes, 82.65% of holders voting); FIRB approval (28 Oct 2026); ACCC approval (waiver determination 17 Sep 2026); Independent Expert's Report issued before booklet registration concluding best interests; Ausgold options condition effectively met (booklet says all options have been exercised)
 ticking_fee: none
-last_checked: 2026-11-01
+last_checked: 2026-11-27
 ---
 ## In short
 OceanaGold, the TSX and NYSE listed gold miner with the Macraes and Waihi mines in New Zealand, is buying Ausgold for 0.03365 OceanaGold shares per Ausgold share, with an option to elect A$1.36 cash per share out of a capped A$194 million pot. The booklet is out, the meeting is on 27 November and the two Australian regulatory approvals (ACCC and FIRB) are both in, so this is close to the end of the process, with payment due on 11 December 2026 if the vote and court go through. The cap matters more than the headline: the A$1.36 cash is worth more than the scrip at current OceanaGold prices, so most holders should elect, and if they all do each electing holder gets only about A$0.34 cash plus about 0.0252 OceanaGold shares per Ausgold share. The value a holder gets therefore moves mainly with the OceanaGold share price and the Australian dollar, and the shares arrive on a Canadian/US register, not on the ASX.
@@ -82,6 +82,7 @@ OceanaGold, the TSX and NYSE listed gold miner with the Macraes and Waihi mines 
 - Value and payment-form points for a holder (not break risks): the cap makes the outcome a mix. If every holder elects cash, an electing holder gets about A$0.3395 cash plus about 0.02525 OceanaGold shares per Ausgold share (my calculation from the A$194m pool and the 19,226,093 new shares the booklet says would be issued on all scrip). At US$24.11 and an assumed AUD/USD of 0.70 that mix is worth about A$1.21, close to the A$1.205 ASX last price on 30 Oct; all scrip would be worth about A$1.16. New shares are on a DRS register and need a broker that can trade the TSX or NYSE. NZ registered holders are eligible to receive the shares.
 
 ## Recent announcements
+- 27 Nov 2026: Results of scheme meeting. Scheme passed: 317,063,422 votes for (99.40%), 1,897,915 against; 181 holders for (82.65%), 38 against. Timetable unchanged: second court 1 Dec, effective 2 Dec, record 4 Dec, implementation 11 Dec. No cash election outcome or scale-back figure found yet. (Kalkine summary of the ASX release, https://kalkinemedia.com/au/news/announcements/ausgold-shareholders-approve-acquisition-scheme-with-9940-support-at-27-november-2026-meeting; TipRanks, https://www.tipranks.com/news/company-announcements/ausgold-shareholders-approve-scheme-resolution-for-oceanagold-acquisition; the ASX release itself was not read)
 - 28 Oct 2026: FIRB approval received; FIRB condition 3.1(d) satisfied.
 - 21 Oct 2026: Court orders meeting; Scheme Booklet registered (432 pages, includes Lonergan Edwards report).
 - 16 Oct 2026: T. Rowe Price reduced to 5.66% from 6.77% (change dated 13 Oct).

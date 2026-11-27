@@ -16,12 +16,12 @@ first_court_date: 2026-10-23
 meeting_date: 2026-11-27
 offer_close_date:
 second_court_date: 2026-12-22
-effective_date: 2026-12-23        # estimate: the day after the second court hearing
-record_date:                      # not yet announced (24 Nov update)
-implementation_date: 2027-01-29   # company says "during January 2027"; the desk uses the last business day of January
+effective_date: 2026-12-23        # indicative, 27 Nov results release: court orders lodged with ASIC and suspension from close 23 Dec
+record_date: 2026-12-30          # indicative, 7pm Sydney, 27 Nov results release
+implementation_date: 2027-01-19   # indicative, 27 Nov results release
 end_date: 2027-02-21
-dates_basis: Update 24 Nov 2026: second court hearing moved from 1 Dec to 22 Dec 2026 because ACCC and FIRB approvals will not come before 1 Dec; implementation expected during January 2027; effective and record dates not yet given. Earlier: First court (23 Oct, NSW Supreme Court) and booklet registration (23 Oct) have happened. Meeting at 10am 27 Nov (Sydney) is court-ordered. Second court 9.15am 1 Dec, effective 2 Dec, record 7pm 4 Dec and implementation 22 Dec (12 business days after the record date) are indicative and depend on regulatory approvals. End Date is 6 months after the 21 Aug 2026 deed (21 Feb 2027), which the bidder and Amwins can jointly extend by up to 3 months (to about 21 May 2027) if a condition is outstanding and reasonably capable of being met
-stage: booklet_out
+dates_basis: Results of scheme meeting 27 Nov 2026: indicative second court 9.15am 22 Dec, effective 23 Dec, record 7pm 30 Dec, implementation 19 Jan 2027, all subject to regulatory approvals. Update 24 Nov 2026: second court hearing moved from 1 Dec to 22 Dec 2026 because ACCC and FIRB approvals will not come before 1 Dec; implementation expected during January 2027; effective and record dates not yet given. Earlier: First court (23 Oct, NSW Supreme Court) and booklet registration (23 Oct) have happened. Meeting at 10am 27 Nov (Sydney) is court-ordered. Second court 9.15am 1 Dec, effective 2 Dec, record 7pm 4 Dec and implementation 22 Dec (12 business days after the record date) are indicative and depend on regulatory approvals. End Date is 6 months after the 21 Aug 2026 deed (21 Feb 2027), which the bidder and Amwins can jointly extend by up to 3 months (to about 21 May 2027) if a condition is outstanding and reasonably capable of being met
+stage: vote_passed
 vote_threshold: 75% of votes cast and a majority by number of Steadfast holders present and voting (unless the Court orders otherwise)
 bidder_stake_pct: 0
 intentions_pct: directors only (each director intends to vote their shares in favour, subject to the usual qualifications); no holder voting statements or lock-ups found
@@ -31,10 +31,10 @@ ier: Kroll Australia Pty Ltd. Value A$5.44 to A$6.09 per share (control basis). 
 break_fee: Steadfast pays A$66.7 million in set circumstances
 reverse_break_fee: Starboard BidCo pays A$66.7 million only if the bidder or Amwins materially breaches the deed or the bidder fails to pay the Scheme Consideration
 regulators: FIRB, applied September 2026, all information requests answered as at 16 Oct, outstanding; ACCC, draft notification lodged September 2026, information requests being answered as at 16 Oct, outstanding (formal notification and Phase 1 end date not confirmed from the register); NZ OIO, consent obtained September 2026; UK FCA change of control, notified September 2026, no outstanding questions, outstanding; Singapore MAS section 87 approval, applied early September 2026, no outstanding questions, outstanding; Texas Department of Insurance change of control filings, all but one made, last one expected by about 30 Oct, outstanding; ASIC and ASX, outstanding. No APRA approval is a condition
-conditions_open: FIRB; ACCC; FCA; MAS; ASIC and ASX; Steadfast shareholder approval; Court approval; expert not changing its view; no director changing their recommendation before the meeting; Steadfast warranties true; performance rights dealt with; no restraint, prescribed event or material adverse change
-conditions_met: Texas Department of Insurance approval (24 Nov update); NZ OIO consent (satisfied September 2026, booklet); Independent Expert's Report issued before registration concluding best interests (first limb)
+conditions_open: FIRB; ACCC; FCA; MAS; ASIC and ASX; Court approval; expert not changing its view; no director changing their recommendation before the meeting; Steadfast warranties true; performance rights dealt with; no restraint, prescribed event or material adverse change
+conditions_met: Steadfast shareholder approval (27 Nov: 99.58% of votes, 94.62% of holders voting); Texas Department of Insurance approval (24 Nov update); NZ OIO consent (satisfied September 2026, booklet); Independent Expert's Report issued before registration concluding best interests (first limb)
 ticking_fee: none
-last_checked: 2026-11-25
+last_checked: 2026-11-27
 ---
 ## In short
 A consortium of Dragoneer and KKR (through Starboard BidCo) is buying Steadfast for A$6.00 cash less permitted dividends, with Amwins taking the underwriting agencies business straight after. The 12.75 cent FY26 dividend has already been paid, so anyone buying now gets A$5.8725 in cash in total, possibly split as A$5.80 from the scheme plus a 7.25 cent fully franked special dividend. The booklet is out, the expert (Kroll) says fair and reasonable, the vote is on 27 November and payment is scheduled for 22 December 2026. What decides the date is the stack of regulatory approvals still open (FIRB, ACCC, UK FCA, Singapore MAS and Texas), above all the ACCC, which at 16 October had only had a draft notification and was still asking questions; the NZ OIO consent is already in.
@@ -79,6 +79,7 @@ A consortium of Dragoneer and KKR (through Starboard BidCo) is buying Steadfast 
 - Competing bid (good for holders): about 3%. The process has run since June, the board says no superior proposal has emerged, and there is a matching right and a A$66.7m break fee.
 
 ## Recent announcements
+- 27 Nov 2026: Results of scheme meeting. Scheme passed: 680,779,213 votes for (99.58%), 3,058,604 against; 1,318 holders for (94.62%), 75 against. Indicative timetable: second court 22 Dec, effective 23 Dec, record date 30 Dec, implementation and payment of A$5.80 on 19 Jan 2027, subject to the outstanding regulatory approvals (ACCC Phase 1 ends 22 Dec; FIRB, FCA, MAS still open as at 24 Nov). (Kalkine summary of the ASX release, https://kalkinemedia.com/au/news/announcements/steadfast-group-shareholders-approve-kkr-and-dragoneer-acquisition-scheme-with-9958-support; Sharecafe, https://www.sharecafe.com.au/2026/11/27/steadfast-shareholders-approve-scheme-of-arrangement/; the ASX release itself was not read)
 - 24 Nov 2026: Update on Scheme of Arrangement. Meeting goes ahead 10am 27 Nov. NZ OIO and Texas Department of Insurance approvals received; ACCC, FIRB and MAS not yet; FCA progressing. Second court hearing moved from 1 Dec to 22 Dec 2026; implementation now expected in January 2027. Board will pay a 7.25c fully franked special dividend if the scheme becomes effective (no DRP). Recommendation unchanged. (https://www.listcorp.com/asx/sdf/steadfast-group/news/update-on-scheme-of-arrangement-3441421.html; ASX release of 24 Nov)
 - 13 Nov 2026 (read 20 Nov): the ACCC set an effective notification date of 10 Nov for the acquisition; Phase 1 runs to 22 Dec 2026, the same day as planned implementation, so any Phase 2 would push completion into 2027. Meeting 27 Nov unchanged. Source: Insurance Business, https://www.insurancebusinessmag.com/au/news/breaking-news/accc-review-leaves-no-room-in-steadfast-takeover-timetable-597257.aspx (secondary; ACCC register entry to confirm).
 - 23 Oct 2026: Scheme Booklet registered with ASIC (370 pages, includes Kroll report).
