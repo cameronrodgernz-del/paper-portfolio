@@ -1,80 +1,80 @@
 # Research ranking
 
-Run 2026-11-20 20:28 UTC on prices to 2026-11-13. Stage 2 of the research funnel (rulebook section 5a): it decides where research time goes, not what to buy. The points have no tested edge.
+Run 2026-11-27 20:26 UTC on prices to 2026-11-13. Stage 2 of the research funnel (rulebook section 5a): it decides where research time goes, not what to buy. The points have no tested edge.
 
-599 on the screen: 315 dropped on rules, 35 sent to the special situations watch list, 249 ranked.
+599 on the screen: 314 dropped on rules, 35 sent to the special situations watch list, 250 ranked.
 
 Points: earnings (2 at 8 times or less, 1 at 12 or less), assets (2 at 0.7 times book or net tangible assets or less, 1 at 1.0), net cash (2 at 30% of market value, 1 at 10%), yield (1 at 6%, or 7% gross on the NZX), profit in each of four years (1), an index exit in nine months (2), small (1, under 250m), 35% or more below its high (1), 25 points worse than its industry over 12 months (1), a substantial holder leaving in six months (1); less 1 each for a recent raising, a loss, heavy debt, or 5% or more sold short. Director notices and the next result date are shown but don't score: nearly every company has both. ASX facts are the ASX's own company data (book is total assets less total liabilities, so it includes goodwill); NZX facts are the NZX instrument pages, which carry no announcements, industry or net cash, so NZX scores run lower and NZX names are ranked in their own table. Fact sheets go to the top 15 ASX and top 5 NZX names not yet covered.
 
-## ASX ranked (top 40 of 214)
+## ASX ranked (top 40 of 215)
 
 | # | Share | Name | Points | Why it ranks | Red flags | Covered |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | ASX:ASG | Autosports Group Limited | 8 | 7.5 times earnings; 0.38 times book; 8.2% yield; profit in each of the last four years; small (A$205m); 78% below its 12-month high; 12 months -75% against -30% for its industry | heavy debt (enterprise value 8.1 times market value) | quick look, watching |
-| 2 | ASX:GRR | Grange Resources Limited | 8 | 0.10 times book; net cash about 236% of market value; profit in each of the last four years; small (A$112m); 64% below its 12-month high; 12 months -60% against -13% for its industry |  | quick look, watching |
-| 3 | ASX:MRT | Maritana Minerals Limited | 8 | 2.1 times earnings; 0.48 times book; net cash about 138% of market value; small (A$166m); 66% below its 12-month high |  | quick look, watching |
-| 4 | ASX:AFG | Australian Finance Group Ltd | 7 | 8.5 times earnings; 6.4% yield; profit in each of the last four years; left the S&P/ASX 300 2026-09-21; 38% below its 12-month high; a substantial holder left in the last six months |  | quick look, watching |
-| 5 | ASX:AIS | Aeris Resources Limited | 7 | 2.7 times earnings; 0.84 times book; net cash about 30% of market value; 41% below its 12-month high; a substantial holder left in the last six months | deal headline about another company (2026-06-15: PEX: Demerger and Scheme Meeting Proxy Presentations) |  |
-| 6 | ASX:BRK | Brookside Energy Limited | 7 | 0.32 times book; net cash about 47% of market value; profit in each of the last four years; small (A$29m); 37% below its 12-month high |  |  |
-| 7 | ASX:BSA | BSA Limited | 7 | 3.2 times earnings; 0.99 times book; net cash about 120% of market value; small (A$14m); 62% below its 12-month high; a substantial holder left in the last six months | a share raising in the last six months | quick look, rejected |
-| 8 | ASX:DLI | Delta Lithium Limited | 7 | 8.3 times earnings; 0.41 times book; net cash about 52% of market value; small (A$97m); 54% below its 12-month high |  | quick look, rejected |
-| 9 | ASX:PPK | PPK Group Limited | 7 | 2.1 times earnings; 0.50 times book; net cash about 68% of market value; small (A$31m) |  |  |
-| 10 | ASX:PWR | Peter Warren Automotive Holdings L | 7 | 0.19 times book; 6.0% yield; profit in each of the last four years; small (A$102m); 67% below its 12-month high; 12 months -63% against -30% for its industry; a substantial holder left in the last six months | heavy debt (enterprise value 8.5 times market value) | quick look, watching |
-| 11 | ASX:AD8 | Audinate Group Limited | 6 | net cash about 34% of market value; left the S&P/ASX 300 2026-03-23; small (A$184m); 57% below its 12-month high; 12 months -57% against -9% for its industry | loss in the latest year | quick look, watching |
-| 12 | ASX:AIM | AI-Media Technologies Limited | 6 | 0.64 times book; net cash about 35% of market value; small (A$45m); 75% below its 12-month high; 12 months -75% against -35% for its industry | loss in the latest year | quick look, watching |
-| 13 | ASX:ANG | Austin Engineering Limited | 6 | 0.84 times book; 7.1% yield; profit in each of the last four years; small (A$112m); 39% below its 12-month high; 12 months -35% against -2% for its industry | profit more than halved last year (check why) | quick look, watching |
-| 14 | ASX:BOL | Boom Logistics Limited | 6 | 7.7 times earnings; 0.58 times book; small (A$78m); a substantial holder left in the last six months | profit more than halved last year (check why) | quick look, watching |
-| 15 | ASX:GEM | G8 Education Limited | 6 | 0.25 times book; left the S&P/ASX 300 2026-09-21; small (A$132m); 86% below its 12-month high; 12 months -88% against -31% for its industry; a substantial holder left in the last six months | loss in the latest year; heavy debt (enterprise value 6.6 times market value) | quick look, watching |
-| 16 | ASX:HLO | Helloworld Travel Limited | 6 | 0.78 times book; net cash about 16% of market value; 7.4% yield; profit in each of the last four years; small (A$248m); 35% below its 12-month high | profit more than halved last year (check why) | deep dive, watching |
-| 17 | ASX:IRI | Integrated Research Limited | 6 | 0.54 times book; net cash about 95% of market value; 17.9% yield; small (A$53m) | profit more than halved last year (check why) | quick look, rejected |
+| 1 | ASX:ASG | Autosports Group Limited | 8 | 7.5 times earnings; 0.35 times book; 9.1% yield; profit in each of the last four years; small (A$190m); 78% below its 12-month high; 12 months -75% against -30% for its industry | heavy debt (enterprise value 8.6 times market value) | quick look, reopened: 2026-11-21, closed A$0.995 on 13 Nov (at the A$1.00 trigger) and the 20 Nov AGM gave no H1 FY27 profit figure, with the order banks "maintained" and European supply due in H2 FY27 (timing unchanged), which meets the second reopen condition in research/picks/ASG.md; the address also called the half "challenging", with temporary gross margin costs from cutting stock (https://announcements.asx.com.au/asxpdf/20261120/pdf/076ty2jd0cjwxt.pdf); last A$0.97 |
+| 2 | ASX:GRR | Grange Resources Limited | 8 | 0.10 times book; net cash about 251% of market value; profit in each of the last four years; small (A$105m); 64% below its 12-month high; 12 months -60% against -13% for its industry |  | quick look, watching |
+| 3 | ASX:MRT | Maritana Minerals Limited | 8 | 2.1 times earnings; 0.45 times book; net cash about 146% of market value; small (A$157m); 66% below its 12-month high |  | quick look, watching |
+| 4 | ASX:AFG | Australian Finance Group Ltd | 7 | 8.5 times earnings; 6.3% yield; profit in each of the last four years; left the S&P/ASX 300 2026-09-21; 38% below its 12-month high; a substantial holder left in the last six months |  | quick look, watching |
+| 5 | ASX:AIS | Aeris Resources Limited | 7 | 2.7 times earnings; 0.74 times book; net cash about 35% of market value; 41% below its 12-month high; a substantial holder left in the last six months | deal headline about another company (2026-06-15: PEX: Demerger and Scheme Meeting Proxy Presentations) |  |
+| 6 | ASX:BRK | Brookside Energy Limited | 7 | 0.29 times book; net cash about 51% of market value; profit in each of the last four years; small (A$27m); 37% below its 12-month high |  |  |
+| 7 | ASX:BSA | BSA Limited | 7 | 3.2 times earnings; 0.93 times book; net cash about 127% of market value; small (A$13m); 62% below its 12-month high; a substantial holder left in the last six months | a share raising in the last six months | quick look, rejected |
+| 8 | ASX:DLI | Delta Lithium Limited | 7 | 8.3 times earnings; 0.38 times book; net cash about 56% of market value; small (A$90m); 54% below its 12-month high |  | quick look, rejected |
+| 9 | ASX:PPK | PPK Group Limited | 7 | 2.1 times earnings; 0.43 times book; net cash about 77% of market value; small (A$27m) |  |  |
+| 10 | ASX:PWR | Peter Warren Automotive Holdings L | 7 | 0.19 times book; 6.4% yield; profit in each of the last four years; small (A$98m); 67% below its 12-month high; 12 months -63% against -30% for its industry; a substantial holder left in the last six months | heavy debt (enterprise value 8.7 times market value) | quick look, watching |
+| 11 | ASX:AD8 | Audinate Group Limited | 6 | net cash about 33% of market value; left the S&P/ASX 300 2026-03-23; small (A$188m); 57% below its 12-month high; 12 months -57% against -9% for its industry | loss in the latest year | quick look, watching |
+| 12 | ASX:AIM | AI-Media Technologies Limited | 6 | 0.66 times book; net cash about 34% of market value; small (A$46m); 75% below its 12-month high; 12 months -75% against -35% for its industry | loss in the latest year | quick look, watching |
+| 13 | ASX:ANG | Austin Engineering Limited | 6 | 0.84 times book; 6.9% yield; profit in each of the last four years; small (A$112m); 39% below its 12-month high; 12 months -35% against -2% for its industry | profit more than halved last year (check why) | quick look, watching |
+| 14 | ASX:BOL | Boom Logistics Limited | 6 | 7.7 times earnings; 0.54 times book; small (A$73m); a substantial holder left in the last six months | profit more than halved last year (check why) | quick look, watching |
+| 15 | ASX:GEM | G8 Education Limited | 6 | 0.23 times book; left the S&P/ASX 300 2026-09-21; small (A$121m); 86% below its 12-month high; 12 months -88% against -31% for its industry; a substantial holder left in the last six months | loss in the latest year; heavy debt (enterprise value 7.1 times market value) | quick look, watching |
+| 16 | ASX:HLO | Helloworld Travel Limited | 6 | 0.75 times book; net cash about 17% of market value; 7.7% yield; profit in each of the last four years; small (A$238m); 35% below its 12-month high | profit more than halved last year (check why) | deep dive, watching |
+| 17 | ASX:IRI | Integrated Research Limited | 6 | 0.42 times book; net cash about 122% of market value; 22.7% yield; small (A$41m) | profit more than halved last year (check why) | quick look, rejected |
 | 18 | ASX:JIN | Jumbo Interactive Limited | 6 | 11.0 times earnings; profit in each of the last four years; left the S&P/ASX 300 2026-09-21; 48% below its 12-month high; a substantial holder left in the last six months |  | quick look, watching |
 | 19 | ASX:LM8 | Lunnon Metals Limited | 6 | 7.5 times earnings; net cash about 35% of market value; small (A$63m); a substantial holder left in the last six months |  | quick look, rejected |
 | 20 | ASX:MVP | Medical Developments International | 6 | 0.83 times book; net cash about 43% of market value; small (A$46m); 47% below its 12-month high; a substantial holder left in the last six months |  | quick look, watching |
 | 21 | ASX:OCL | Objective Corporation Limited | 6 | net cash about 15% of market value; profit in each of the last four years; left the S&P/ASX 300 2026-09-21; 66% below its 12-month high; 12 months -66% against -35% for its industry |  | quick look, rejected |
-| 22 | ASX:SHJ | Shine Justice Ltd | 6 | 11.7 times earnings; 0.39 times book; 6.8% yield; profit in each of the last four years; small (A$103m) |  |  |
-| 23 | ASX:ZIM | Zimplats Holdings Limited 10c US | 6 | 3.3 times earnings; 0.44 times book; profit in each of the last four years; 48% below its 12-month high |  | quick look, watching |
-| 24 | ASX:ADH | Adairs Limited | 5 | 9.3% yield; left the S&P/ASX 300 2026-03-23; small (A$232m); 36% below its 12-month high; a substantial holder left in the last six months | loss in the latest year | quick look, watching |
-| 25 | ASX:AGD | Austral Gold Limited | 5 | 1.6 times earnings; net cash about 10% of market value; small (A$65m); 52% below its 12-month high |  | quick look, rejected |
-| 26 | ASX:AHC | Austco Healthcare Limited | 5 | 11.7 times earnings; net cash about 12% of market value; profit in each of the last four years; small (A$103m); 37% below its 12-month high |  | quick look, watching |
-| 27 | ASX:ARA | Ariadne Australia Limited | 5 | 0.55 times book; net cash about 23% of market value; profit in each of the last four years; small (A$88m) | profit more than halved last year (check why) |  |
-| 28 | ASX:AWJ | Auric Mining Limited | 5 | 1.8 times earnings; net cash about 92% of market value; small (A$41m); 42% below its 12-month high | a share raising in the last six months | quick look, watching |
-| 29 | ASX:BFL | BSP Financial Group Limited | 5 | 9.2 times earnings; net cash about 74% of market value; 6.4% yield; profit in each of the last four years |  | quick look, rejected |
-| 30 | ASX:BIS | Bisalloy Steel Group Limited | 5 | 11.9 times earnings; 8.9% yield; profit in each of the last four years; small (A$206m); a substantial holder left in the last six months |  | quick look, rejected |
-| 31 | ASX:CAF | Centrepoint Alliance Limited | 5 | net cash about 10% of market value; 7.9% yield; profit in each of the last four years; small (A$81m); a substantial holder left in the last six months |  | quick look, watching |
-| 32 | ASX:CCR | Credit Clear Limited | 5 | 0.77 times book; net cash about 19% of market value; small (A$65m); 51% below its 12-month high; a substantial holder left in the last six months |  | quick look, rejected |
-| 33 | ASX:CHL | Camplify Holdings Limited | 5 | 0.67 times book; net cash about 35% of market value; small (A$28m); a substantial holder left in the last six months | loss in the latest year | quick look, rejected |
-| 34 | ASX:COS | Cosol Limited | 5 | 0.43 times book; 7.5% yield; small (A$30m); 69% below its 12-month high; 12 months -65% against -35% for its industry | loss in the latest year |  |
-| 35 | ASX:CTD | Corporate Travel Management Limite | 5 | 0.84 times book; net cash about 12% of market value; left the S&P/ASX 200 2026-09-03; left the S&P/ASX 300 2026-09-03; a substantial holder left in the last six months |  | quick look, watching |
-| 36 | ASX:DAI | Decidr AI Industries Ltd | 5 | 0.42 times book; net cash about 20% of market value; small (A$53m); 74% below its 12-month high; 12 months -73% against -36% for its industry | loss in the latest year |  |
-| 37 | ASX:FML | Focus Minerals Ltd | 5 | 3.7 times earnings; net cash about 47% of market value; 59% below its 12-month high |  | quick look, watching |
-| 38 | ASX:FWD | Fleetwood Limited | 5 | net cash about 27% of market value; 10.3% yield; profit in each of the last four years; small (A$177m); a substantial holder left in the last six months | profit more than halved last year (check why) | quick look, watching |
-| 39 | ASX:HPG | Hipages Group Holdings Ltd | 5 | 8.0 times earnings; net cash about 24% of market value; small (A$105m); 37% below its 12-month high |  | quick look, rejected |
-| 40 | ASX:KSL | Kina Securities Limited | 5 | 8.3 times earnings; net cash about 110% of market value; 8.9% yield; profit in each of the last four years |  | quick look, rejected |
+| 22 | ASX:SHJ | Shine Justice Ltd | 6 | 11.7 times earnings; 0.38 times book; 6.7% yield; profit in each of the last four years; small (A$99m) |  |  |
+| 23 | ASX:ZIM | Zimplats Holdings Limited 10c US | 6 | 3.3 times earnings; 0.45 times book; profit in each of the last four years; 48% below its 12-month high |  | quick look, watching |
+| 24 | ASX:AAL | Alfabs Australia Limited | 5 | 0.93 times book; profit in each of the last four years; small (A$57m); 59% below its 12-month high; 12 months -58% against -2% for its industry | profit more than halved last year (check why) |  |
+| 25 | ASX:ADH | Adairs Limited | 5 | 8.9% yield; left the S&P/ASX 300 2026-03-23; small (A$233m); 36% below its 12-month high; a substantial holder left in the last six months | loss in the latest year | quick look, watching |
+| 26 | ASX:AGD | Austral Gold Limited | 5 | 1.6 times earnings; net cash about 11% of market value; small (A$61m); 52% below its 12-month high |  | quick look, rejected |
+| 27 | ASX:AHC | Austco Healthcare Limited | 5 | 11.7 times earnings; net cash about 12% of market value; profit in each of the last four years; small (A$105m); 37% below its 12-month high |  | quick look, watching |
+| 28 | ASX:ARA | Ariadne Australia Limited | 5 | 0.53 times book; net cash about 24% of market value; profit in each of the last four years; small (A$84m) | profit more than halved last year (check why) |  |
+| 29 | ASX:AWJ | Auric Mining Limited | 5 | 1.8 times earnings; net cash about 89% of market value; small (A$42m); 42% below its 12-month high | a share raising in the last six months | quick look, watching |
+| 30 | ASX:BFL | BSP Financial Group Limited | 5 | 9.0 times earnings; net cash about 74% of market value; 6.3% yield; profit in each of the last four years |  | quick look, rejected |
+| 31 | ASX:BIS | Bisalloy Steel Group Limited | 5 | 11.9 times earnings; 8.8% yield; profit in each of the last four years; small (A$208m); a substantial holder left in the last six months |  | quick look, rejected |
+| 32 | ASX:CAF | Centrepoint Alliance Limited | 5 | net cash about 10% of market value; 7.8% yield; profit in each of the last four years; small (A$82m); a substantial holder left in the last six months |  | quick look, watching |
+| 33 | ASX:CCR | Credit Clear Limited | 5 | 0.74 times book; net cash about 19% of market value; small (A$63m); 51% below its 12-month high; a substantial holder left in the last six months |  | quick look, rejected |
+| 34 | ASX:CHL | Camplify Holdings Limited | 5 | 0.60 times book; net cash about 40% of market value; small (A$25m); a substantial holder left in the last six months | loss in the latest year | quick look, rejected |
+| 35 | ASX:COS | Cosol Limited | 5 | 0.40 times book; 7.5% yield; small (A$28m); 69% below its 12-month high; 12 months -65% against -35% for its industry | loss in the latest year |  |
+| 36 | ASX:CTD | Corporate Travel Management Limite | 5 | 0.92 times book; net cash about 11% of market value; left the S&P/ASX 200 2026-09-03; left the S&P/ASX 300 2026-09-03; a substantial holder left in the last six months |  | quick look, watching |
+| 37 | ASX:DAI | Decidr AI Industries Ltd | 5 | 0.42 times book; net cash about 20% of market value; small (A$53m); 74% below its 12-month high; 12 months -73% against -36% for its industry | loss in the latest year |  |
+| 38 | ASX:FML | Focus Minerals Ltd | 5 | 3.7 times earnings; net cash about 46% of market value; 59% below its 12-month high |  | quick look, watching |
+| 39 | ASX:FWD | Fleetwood Limited | 5 | net cash about 27% of market value; 9.6% yield; profit in each of the last four years; small (A$179m); a substantial holder left in the last six months | profit more than halved last year (check why) | quick look, watching |
+| 40 | ASX:HPG | Hipages Group Holdings Ltd | 5 | 8.0 times earnings; net cash about 25% of market value; small (A$100m); 37% below its 12-month high |  | quick look, rejected |
 
 ## NZX ranked (top 25 of 35)
 
 | # | Share | Name | Points | Why it ranks | Red flags | Covered |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | NZX:PHL | Promisia Healthcare Limited Ordina | 5 | 2.3 times earnings; 0.56 times net tangible assets; small (NZ$34m) |  | quick look, rejected |
-| 2 | NZX:SEK | Seeka Limited Ordinary Shares | 5 | 5.6 times earnings; 0.71 times net tangible assets; 12.3% gross yield; small (NZ$228m) |  | deep dive, watching |
+| 1 | NZX:PHL | Promisia Healthcare Limited Ordina | 5 | 2.4 times earnings; 0.58 times net tangible assets; small (NZ$35m) |  | quick look, rejected |
+| 2 | NZX:SEK | Seeka Limited Ordinary Shares | 5 | 5.6 times earnings; 0.70 times net tangible assets; 12.3% gross yield; small (NZ$225m) |  | deep dive, watching |
 | 3 | NZX:ARG | Argosy Property Limited Ordinary S | 4 | 10.6 times earnings; 0.64 times net tangible assets; 7.5% gross yield |  | quick look, watching |
-| 4 | NZX:IPL | Investore Property Limited (NS) Or | 4 | 9.2 times earnings; 0.61 times net tangible assets; 8.3% gross yield |  | quick look, watching |
-| 5 | NZX:CDI | CDL Investments New Zealand Limite | 3 | 0.56 times net tangible assets; small (NZ$182m) |  | quick look, rejected |
-| 6 | NZX:CVT | Comvita Limited Ordinary Shares | 3 | 7.8 times earnings; small (NZ$99m) |  | quick look, rejected |
-| 7 | NZX:NZL | New Zealand Rural Land Company Lim | 3 | 0.58 times net tangible assets; small (NZ$136m) |  | quick look, rejected |
-| 8 | NZX:SPG | Stride Prop & Stride Invest Mgmt L | 3 | 0.63 times net tangible assets; 9.1% gross yield |  | quick look, watching |
-| 9 | NZX:APL | Asset Plus Limited Ordinary Shares | 2 | 0.54 times net tangible assets; small (NZ$60m) | no earnings in the latest year | quick look, rejected |
-| 10 | NZX:KPG | Kiwi Property Group Limited Ordina | 2 | 0.82 times net tangible assets; 7.6% gross yield |  |  |
-| 11 | NZX:SKT | Sky Network Television Limited Ord | 2 | 8.6 times earnings; 12.0% gross yield |  | quick look, rejected |
+| 4 | NZX:IPL | Investore Property Limited (NS) Or | 4 | 9.0 times earnings; 0.60 times net tangible assets; 8.3% gross yield |  | quick look, watching |
+| 5 | NZX:CDI | CDL Investments New Zealand Limite | 3 | 0.55 times net tangible assets; small (NZ$176m) |  | quick look, rejected |
+| 6 | NZX:CVT | Comvita Limited Ordinary Shares | 3 | 7.9 times earnings; small (NZ$100m) |  | quick look, rejected |
+| 7 | NZX:NZL | New Zealand Rural Land Company Lim | 3 | 0.56 times net tangible assets; small (NZ$133m) |  | quick look, rejected |
+| 8 | NZX:APL | Asset Plus Limited Ordinary Shares | 2 | 0.55 times net tangible assets; small (NZ$62m) | no earnings in the latest year | quick look, rejected |
+| 9 | NZX:KPG | Kiwi Property Group Limited Ordina | 2 | 0.82 times net tangible assets; 7.7% gross yield |  |  |
+| 10 | NZX:SKT | Sky Network Television Limited Ord | 2 | 8.5 times earnings; 12.2% gross yield |  | quick look, rejected |
+| 11 | NZX:SPG | Stride Prop & Stride Invest Mgmt L | 2 | 0.63 times net tangible assets; 9.3% gross yield | no earnings in the latest year | quick look, watching |
 | 12 | NZX:GTK | Gentrack Group Limited Ordinary Sh | 1 | 57% below its 12-month high |  | quick look, rejected |
-| 13 | NZX:HGH | Heartland Group Holdings Limited O | 1 | 7.5% gross yield |  |  |
-| 14 | NZX:OCA | Oceania Healthcare Limited Ordinar | 1 | 0.36 times net tangible assets | no earnings in the latest year | quick look, watching |
-| 15 | NZX:PFI | Property For Industry Limited Ordi | 1 | 0.74 times net tangible assets |  |  |
-| 16 | NZX:SCL | Scales Corporation Limited Ordinar | 1 | 11.1 times earnings |  | quick look, rejected |
-| 17 | NZX:SCT | Scott Technology Limited Ordinary  | 1 | small (NZ$209m) |  | quick look, watching |
-| 18 | NZX:SPN | South Port New Zealand Limited Ord | 1 | small (NZ$211m) |  |  |
+| 13 | NZX:HGH | Heartland Group Holdings Limited O | 1 | 7.8% gross yield |  |  |
+| 14 | NZX:OCA | Oceania Healthcare Limited Ordinar | 1 | 0.33 times net tangible assets | no earnings in the latest year | quick look, watching |
+| 15 | NZX:PFI | Property For Industry Limited Ordi | 1 | 0.73 times net tangible assets |  |  |
+| 16 | NZX:SCL | Scales Corporation Limited Ordinar | 1 | 10.9 times earnings |  | quick look, rejected |
+| 17 | NZX:SCT | Scott Technology Limited Ordinary  | 1 | small (NZ$218m) |  | quick look, watching |
+| 18 | NZX:SPN | South Port New Zealand Limited Ord | 1 | small (NZ$214m) |  |  |
 | 19 | NZX:TWR | Tower Limited Ordinary Shares | 1 | 14.2% gross yield |  |  |
-| 20 | NZX:WHS | The Warehouse Group Limited Ordina | 1 | small (NZ$246m) |  | quick look, rejected |
+| 20 | NZX:WHS | The Warehouse Group Limited Ordina | 1 | small (NZ$245m) |  | quick look, rejected |
 | 21 | NZX:AFT | AFT Pharmaceuticals Ltd Ordinary S | 0 |  |  |  |
 | 22 | NZX:BGP | Briscoe Group Limited Ordinary Sha | 0 |  |  | quick look, rejected |
 | 23 | NZX:CHI | Channel Infrastructure NZ Limited  | 0 |  |  |  |
@@ -129,7 +129,7 @@ Not research picks under the current rules (a special situation type can be plac
 
 | Reason | Count | Shares |
 | --- | --- | --- |
-| no business to value yet | 161 | ASX:AGN, ASX:AR3, ASX:ARL, ASX:ARR, ASX:ATH, ASX:AVL, ASX:AXE, ASX:BKB, ASX:BNL, ASX:BOC, ASX:BRN, ASX:BVR, ASX:CVR, ASX:D3E, ASX:DXB, ASX:EL8, ASX:EMH, ASX:ENR, ASX:FAL, ASX:FXG, ASX:HAS, ASX:HVY, ASX:HZR, ASX:I88, ASX:IIQ, ASX:INR, ASX:LGM, ASX:LMS, ASX:LOT, ASX:MPW, ASX:MTH, ASX:MTM, ASX:NYR, ASX:OSL, ASX:PEN, ASX:PIQ, ASX:RAC, ASX:STM, ASX:TLG, ASX:VHM ... |
+| no business to value yet | 160 | ASX:AGN, ASX:AR3, ASX:ARL, ASX:ARR, ASX:ATH, ASX:AVL, ASX:AXE, ASX:BKB, ASX:BNL, ASX:BOC, ASX:BRN, ASX:BVR, ASX:CVR, ASX:D3E, ASX:DXB, ASX:EL8, ASX:EMH, ASX:ENR, ASX:FAL, ASX:FXG, ASX:HAS, ASX:HVY, ASX:HZR, ASX:I88, ASX:IIQ, ASX:INR, ASX:LGM, ASX:LMS, ASX:LOT, ASX:MPW, ASX:MTH, ASX:MTM, ASX:NYR, ASX:OSL, ASX:PEN, ASX:PIQ, ASX:RAC, ASX:STM, ASX:TLG, ASX:VHM ... |
 | fund, trust or investment company | 120 | ASX:WAM, ASX:ACQ, ASX:AUI, ASX:BKI, ASX:BTI, ASX:CD1, ASX:CD2, ASX:CD3, ASX:CDO, ASX:CIN, ASX:DJW, ASX:FGG, ASX:FGX, ASX:FPC, ASX:GCI, ASX:GFL, ASX:GLS, ASX:GVF, ASX:HM1, ASX:KKC, ASX:LED, ASX:LRT, ASX:MIR, ASX:MOT, ASX:MRE, ASX:OPH, ASX:PGF, ASX:REP, ASX:RF1, ASX:RG1, ASX:RG8, ASX:SNC, ASX:URF, NZX:AFI, NZX:APA, NZX:ASD, NZX:ASF, NZX:ASP, NZX:ASR, NZX:AUE ... |
 | failed the liquidity check at its quick look | 21 | ASX:BBT, ASX:STP, ASX:29M, ASX:FEX, NZX:CMO, NZX:MCK, NZX:MFB, NZX:MHJ, NZX:MOV, NZX:PGW, NZX:RAD, NZX:SKO, NZX:TAH, NZX:TGG, NZX:WIN, ASX:FRI, ASX:HIT, ASX:LEL, ASX:PAC, ASX:SND, ASX:FSA |
 | too small to trade at our size | 6 | NZX:ALF, NZX:BPG, NZX:CCC, NZX:SDL, NZX:SVR, NZX:TWL |
@@ -147,6 +147,7 @@ Watched companies with an event in the next 30 days first, then the top 15 ASX a
 | ASX:BRK | Brookside Energy Limited | ranked, 7 points |
 | ASX:PPK | PPK Group Limited | ranked, 7 points |
 | ASX:SHJ | Shine Justice Ltd | ranked, 6 points |
+| ASX:AAL | Alfabs Australia Limited | ranked, 5 points |
 | ASX:ARA | Ariadne Australia Limited | ranked, 5 points |
 | ASX:COS | Cosol Limited | ranked, 5 points |
 | ASX:CTD | Corporate Travel Management Limite | ranked, 5 points |
@@ -157,7 +158,6 @@ Watched companies with an event in the next 30 days first, then the top 15 ASX a
 | ASX:NDO | Nido Education Limited | ranked, 5 points |
 | ASX:NOL | Nobleoak Life Limited | ranked, 5 points |
 | ASX:SHM | Shriro Holdings Limited | ranked, 5 points |
-| ASX:AAL | Alfabs Australia Limited | ranked, 4 points |
 | NZX:NZL | New Zealand Rural Land Company Lim | ranked, 3 points |
 | NZX:APL | Asset Plus Limited Ordinary Shares | ranked, 2 points |
 | NZX:TWR | Tower Limited Ordinary Shares | ranked, 1 points |

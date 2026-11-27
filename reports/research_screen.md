@@ -1,6 +1,6 @@
 # Research screen
 
-Run 2026-11-20 19:35 UTC. A shortlist for deep dives (rulebook section 5a), not a buy list: the history tests showed screens alone don't beat the market after costs.
+Run 2026-11-27 19:34 UTC. A shortlist for deep dives (rulebook section 5a), not a buy list: the history tests showed screens alone don't beat the market after costs.
 
 480 ASX shares outside the S&P/ASX 300, tradable at our size and below most funds' radar; 119 NZX shares outside the NZX 20 that trade on most days.
 
